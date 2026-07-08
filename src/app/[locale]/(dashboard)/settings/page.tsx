@@ -1,11 +1,9 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PageHeader } from "@/components/layout/page-header";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Button } from "@/components/ui/button";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
 import { ThemeToggle } from "@/components/layout/theme-toggle";
+import { ProfileForm } from "@/features/settings/components/profile-form";
 
 const tabKeys = [
   "profile",
@@ -26,8 +24,6 @@ export default async function SettingsPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("settings");
-  const tProfile = await getTranslations("settings.profile");
-  const tCommon = await getTranslations("common");
 
   return (
     <div className="mx-auto grid max-w-5xl gap-8 lg:grid-cols-[200px_1fr]">
@@ -53,26 +49,8 @@ export default async function SettingsPage({
           <CardHeader>
             <CardTitle className="text-base">{t("tabs.profile")}</CardTitle>
           </CardHeader>
-          <CardContent className="space-y-4">
-            <div className="grid gap-4 sm:grid-cols-2">
-              <div className="space-y-1.5">
-                <Label htmlFor="firstName">{tProfile("firstName")}</Label>
-                <Input id="firstName" name="firstName" />
-              </div>
-              <div className="space-y-1.5">
-                <Label htmlFor="lastName">{tProfile("lastName")}</Label>
-                <Input id="lastName" name="lastName" />
-              </div>
-            </div>
-            <div className="space-y-1.5">
-              <Label htmlFor="email">{tProfile("email")}</Label>
-              <Input id="email" name="email" type="email" />
-            </div>
-            <div className="space-y-1.5">
-              <Label htmlFor="country">{tProfile("country")}</Label>
-              <Input id="country" name="country" />
-            </div>
-            <Button>{tCommon("save")}</Button>
+          <CardContent>
+            <ProfileForm />
           </CardContent>
         </Card>
 

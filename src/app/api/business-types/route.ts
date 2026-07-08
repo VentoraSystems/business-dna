@@ -1,11 +1,12 @@
 import { NextResponse } from "next/server";
 import { businessRepository } from "@/features/business-engine/repositories";
+
 import {
   businessModelTypeSchema,
   businessDifficultySchema,
   industryTypeSchema,
 } from "@/features/business-engine/schemas";
-
+export const dynamic = "force-dynamic";
 /**
  * Placeholder catalog-browsing endpoint. Returns published BusinessTypes
  * with optional filters — no compatibility scoring, no personalization.

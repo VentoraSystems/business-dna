@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { templateRepository } from "@/features/business-engine/repositories";
-
+export const dynamic = "force-dynamic";
 const querySchema = z.object({ businessTypeId: z.string().cuid() });
 
 /**

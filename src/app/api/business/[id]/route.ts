@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { businessRepository } from "@/features/business-engine/repositories";
-
+export const dynamic = "force-dynamic";
 /**
  * Fetches a single catalog BusinessType by id, fully populated (lifestyle,
  * risk, budget, revenue, timeline, skills, tags, tools, resources,

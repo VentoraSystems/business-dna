@@ -55,6 +55,17 @@ export async function POST(req: Request) {
     });
   }
 
+  if (event.type === "user.updated") {
+    await db.user.updateMany({
+      where: { clerkId: event.data.id },
+      data: {
+        email: event.data.email_addresses[0]?.email_address ?? undefined,
+        firstName: event.data.first_name,
+        lastName: event.data.last_name,
+      },
+    });
+  }
+
   if (event.type === "user.deleted") {
     await db.user.deleteMany({ where: { clerkId: event.data.id } });
   }
