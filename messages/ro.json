@@ -1,0 +1,696 @@
+{
+  "metadata": {
+    "title": "BusinessDNA — Găsește și construiește afacerea potrivită pentru tine",
+    "description": "Ghidare susținută de AI pentru a descoperi, valida și lansa afacerea potrivită personalității, abilităților și obiectivelor tale."
+  },
+  "common": {
+    "appName": "BusinessDNA",
+    "loading": "Se încarcă…",
+    "save": "Salvează",
+    "cancel": "Anulează",
+    "continue": "Continuă",
+    "back": "Înapoi",
+    "next": "Următorul",
+    "close": "Închide",
+    "seeAll": "Vezi tot",
+    "comingSoon": "În curând",
+    "somethingWentWrong": "Ceva nu a funcționat. Te rugăm să încerci din nou.",
+    "retry": "Încearcă din nou"
+  },
+  "buttons": {
+    "getStarted": "Începe acum",
+    "startAssessment": "Începe evaluarea",
+    "openPlan": "Deschide planul",
+    "generatePlan": "Generează planul de afaceri",
+    "generateBranding": "Generează branding",
+    "generateWebsite": "Generează website",
+    "generateFinancialModel": "Generează modelul financiar",
+    "generateLaunchPlan": "Generează planul de lansare",
+    "exportPdf": "Exportă PDF",
+    "askAi": "Întreabă AI",
+    "upgrade": "Upgrade",
+    "signIn": "Autentificare",
+    "signUp": "Creează cont",
+    "signOut": "Deconectare"
+  },
+  "nav": {
+    "missionControl": "Panou principal",
+    "businesses": "Afaceri",
+    "blueprint": "Plan de afaceri",
+    "roadmap": "Foaia de parcurs",
+    "coFounder": "Co-Fondator AI",
+    "templates": "Șabloane",
+    "resources": "Resurse",
+    "settings": "Setări",
+    "upgrade": "Upgrade",
+    "admin": "Admin"
+  },
+  "sidebar": {
+    "upgradeDescription": "Deblochează planuri de afaceri nelimitate și Co-Fondatorul tău AI."
+  },
+  "topbar": {
+    "searchPlaceholder": "Caută",
+    "notifications": "Notificări",
+    "askAi": "Întreabă AI"
+  },
+  "marketing": {
+    "nav": {
+      "howItWorks": "Cum funcționează",
+      "features": "Funcționalități",
+      "pricing": "Prețuri",
+      "faq": "Întrebări frecvente",
+      "signIn": "Autentificare",
+      "getStarted": "Începe acum"
+    },
+    "hero": {
+      "eyebrow": "Descoperirea afacerii ghidată de AI",
+      "title": "Viitoarea ta afacere pornește de la planul potrivit.",
+      "subtitle": "Potriviri personalizate, planuri generate de AI și ghidare pas cu pas — construite în jurul cine ești cu adevărat.",
+      "primaryCta": "Începe evaluarea",
+      "secondaryCta": "Vezi cum funcționează"
+    },
+    "howItWorks": {
+      "title": "Cum funcționează",
+      "subtitle": "De la personalitate la lansare, în patru pași ghidați.",
+      "step1Title": "Răspunde la o evaluare ghidată",
+      "step1Desc": "Spune-ne despre abilitățile, obiectivele, bugetul și stilul tău de viață.",
+      "step2Title": "Primești afaceri potrivite",
+      "step2Desc": "Vezi scoruri de compatibilitate pentru zeci de modele de afaceri reale.",
+      "step3Title": "Generează-ți planul de afaceri",
+      "step3Desc": "Un plan complet, model financiar și direcție de brand — generate pentru tine.",
+      "step4Title": "Urmează foaia de parcurs",
+      "step4Desc": "Parcurge un plan lună de lună alături de Co-Fondatorul tău AI."
+    },
+    "features": {
+      "title": "Tot ce ai nevoie ca să treci de la idee la lansare",
+      "item1Title": "Potrivire bazată pe personalitate",
+      "item1Desc": "Potrivirile se bazează pe cum lucrezi cu adevărat, nu pe trenduri generice.",
+      "item2Title": "Planuri de afaceri complete",
+      "item2Desc": "Rezumat executiv, analiză de piață, SWOT și prognoză financiară.",
+      "item3Title": "Co-Fondator AI",
+      "item3Desc": "Un partener zilnic de gândire, nu doar generator de documente.",
+      "item4Title": "Foi de parcurs pentru lansare",
+      "item4Desc": "Repere lună de lună, ca să știi mereu care e următorul pas."
+    },
+    "journey": {
+      "title": "Călătoria ta",
+      "subtitle": "Un singur traseu ghidat, de la incertitudine la ziua lansării."
+    },
+    "testimonials": {
+      "title": "Construit pentru oameni care construiesc ceva real",
+      "items": {
+        "t1": {
+          "quote": "Planul mi-a oferit un punct de plecare real, nu o pagină goală.",
+          "name": "Andrei P.",
+          "role": "Fondator, proprietar de studio"
+        },
+        "t2": {
+          "quote": "În sfârșit am avut un plan potrivit cu felul în care vreau să lucrez.",
+          "name": "Maria I.",
+          "role": "Antreprenor la prima afacere"
+        },
+        "t3": {
+          "quote": "Foaia de parcurs m-a ținut în mișcare, nu blocat în cercetare.",
+          "name": "Radu V.",
+          "role": "Consultant independent"
+        }
+      }
+    },
+    "pricing": {
+      "title": "Prețuri simple și corecte",
+      "subtitle": "Începe gratuit. Faci upgrade când ești pregătit să lansezi.",
+      "freeTitle": "Gratuit",
+      "freeDesc": "Explorează primele tale potriviri de afaceri.",
+      "freeFeature1": "1 evaluare",
+      "freeFeature2": "Top 3 potriviri de afaceri",
+      "proTitle": "Pro",
+      "proDesc": "Planuri complete, foi de parcurs și Co-Fondatorul tău AI.",
+      "proFeature1": "Evaluări nelimitate",
+      "proFeature2": "Planuri de afaceri complete",
+      "proFeature3": "Co-Fondator AI",
+      "perMonth": "/lună",
+      "choosePlan": "Alege planul"
+    },
+    "faq": {
+      "title": "Întrebări frecvente",
+      "items": {
+        "q1": {
+          "question": "Am nevoie de o idee de afacere ca să încep?",
+          "answer": "Nu — majoritatea oamenilor încep cu evaluarea și lasă BusinessDNA să sugereze potriviri pe baza profilului lor."
+        },
+        "q2": {
+          "question": "Ce limbi sunt suportate?",
+          "answer": "Aplicația și fiecare document generat sunt disponibile în engleză și română, cu alte limbi planificate."
+        },
+        "q3": {
+          "question": "Pot anula oricând?",
+          "answer": "Da, abonamentele sunt lunare, fără niciun angajament pe termen lung."
+        },
+        "q4": {
+          "question": "Datele mele rămân private?",
+          "answer": "Răspunsurile tale la evaluare și datele afacerii nu sunt niciodată partajate sau vândute unor terți."
+        }
+      }
+    },
+    "cta": {
+      "title": "Găsește afacerea potrivită pentru tine.",
+      "subtitle": "Durează aproximativ zece minute până primești primele potriviri.",
+      "button": "Începe evaluarea"
+    },
+    "footer": {
+      "tagline": "Afacerea potrivită pentru tine, construită pas cu pas.",
+      "product": "Produs",
+      "company": "Companie",
+      "legal": "Legal",
+      "rights": "Toate drepturile rezervate."
+    }
+  },
+  "auth": {
+    "signIn": {
+      "title": "Bine ai revenit",
+      "subtitle": "Autentifică-te pentru a continua să-ți construiești afacerea."
+    },
+    "signUp": {
+      "title": "Creează-ți contul",
+      "subtitle": "Începe evaluarea în mai puțin de un minut."
+    },
+    "forgotPassword": {
+      "title": "Resetează-ți parola",
+      "subtitle": "Îți trimitem un link ca să revii în cont.",
+      "submit": "Trimite linkul de resetare"
+    },
+    "continueWithGoogle": "Continuă cu Google",
+    "continueWithApple": "Continuă cu Apple",
+    "continueWithEmail": "Continuă cu email"
+  },
+  "onboarding": {
+    "title": "Cum vrei să începi?",
+    "subtitle": "Poți explora oricând și cealaltă variantă mai târziu.",
+    "findBusiness": {
+      "title": "Găsește-mi afacerea potrivită",
+      "subtitle": "Nu știu ce afacere ar trebui să pornesc."
+    },
+    "haveIdea": {
+      "title": "Am deja o idee de afacere",
+      "subtitle": "Ajută-mă să o validez și să o construiesc.",
+      "businessNameLabel": "Numele afacerii",
+      "ideaDescriptionLabel": "Descrie-ți ideea"
+    }
+  },
+  "dashboard": {
+    "greeting": "Bine te-am regăsit, {name}",
+    "greetingSub": "Iată cum stau lucrurile astăzi.",
+    "todaysMission": {
+      "title": "Misiunea de azi",
+      "empty": "Nu ai încă sarcini — generează o foaie de parcurs ca să vezi aici următorii pași."
+    },
+    "journeyProgress": {
+      "title": "Progresul călătoriei"
+    },
+    "businessHealth": {
+      "title": "Sănătatea afacerii",
+      "onTrack": "Pe drumul cel bun"
+    },
+    "recentActivity": {
+      "title": "Activitate recentă",
+      "empty": "Nimic încă. Activitatea ta va apărea aici."
+    },
+    "quickActions": {
+      "title": "Acțiuni rapide",
+      "newAssessment": "Evaluare nouă",
+      "generatePlan": "Generează planul",
+      "viewRoadmap": "Vezi foaia de parcurs"
+    },
+    "coFounder": {
+      "title": "Co-Fondator AI",
+      "cta": "Deschide spațiul de lucru"
+    },
+    "businessTimeline": {
+      "title": "Cronologia afacerii"
+    }
+  },
+  "assessment": {
+    "stepLabel": "Pasul {current} din {total} — {section}",
+    "intro": {
+      "eyebrow": "Înainte să începem",
+      "title": "Hai să te cunoaștem.",
+      "subtitle": "Opt secțiuni scurte, câte o întrebare pe rând. Răspunde sincer — nu există răspunsuri greșite, doar potriviri mai bune.",
+      "estimatedTimeLabel": "Aproximativ {minutes} minute",
+      "startCta": "Începe",
+      "resumeCta": "Continuă de unde ai rămas",
+      "sectionOverviewTitle": "Ce urmează să acoperim"
+    },
+    "nav": {
+      "back": "Înapoi",
+      "next": "Următorul",
+      "finish": "Finalizează",
+      "skip": "Sari peste"
+    },
+    "units": {
+      "currency": "{value} €",
+      "hours": "{value} ore/săptămână",
+      "percent": "{value}%"
+    },
+    "rating": {
+      "low": "Deloc",
+      "high": "Extrem de mult"
+    },
+    "validation": {
+      "required": "Această întrebare are nevoie de un răspuns înainte să continui.",
+      "selectAtLeastOne": "Alege cel puțin o opțiune."
+    },
+    "autosave": {
+      "saving": "Se salvează…",
+      "saved": "Salvat"
+    },
+    "review": {
+      "title": "Hai să recapitulăm răspunsurile tale.",
+      "subtitle": "Tot ce vezi aici poate fi editat — atinge orice secțiune ca să-ți schimbi răspunsul.",
+      "editLabel": "Editează",
+      "submitCta": "Trimite evaluarea",
+      "unanswered": "Fără răspuns"
+    },
+    "results": {
+      "title": "Îți construim profilul antreprenorial.",
+      "subtitle": "Potrivirile tale vor apărea aici imediat ce sunt gata — durează de obicei aproximativ un minut.",
+      "cardTitlePlaceholder": "Potrivire în curând",
+      "cardSubtitlePlaceholder": "Acest card va afișa o potrivire de afacere odată ce analiza este completă.",
+      "backToDashboard": "Înapoi la Panoul principal"
+    },
+    "thinking": {
+      "analyzingPersonality": "Analizăm personalitatea…",
+      "findingMatches": "Căutăm modele de afaceri potrivite…",
+      "calculatingCompatibility": "Calculăm compatibilitatea…",
+      "buildingRoadmap": "Construim foaia de parcurs…",
+      "generatingForecast": "Generăm prognoza financiară…",
+      "preparingBlueprint": "Pregătim planul tău…",
+      "subtext": "Durează de obicei aproximativ douăzeci de secunde."
+    },
+    "sections": {
+      "aboutYou": {
+        "title": "Despre tine",
+        "description": "Elementele de bază — ca să putem construi restul pe baza situației tale reale."
+      },
+      "financialSituation": {
+        "title": "Situația financiară",
+        "description": "Ce ai la dispoziție pentru investiție și cât ai nevoie să câștigi."
+      },
+      "personality": {
+        "title": "Personalitate",
+        "description": "Cum gândești, decizi și lucrezi cel mai bine."
+      },
+      "skills": {
+        "title": "Abilități",
+        "description": "Evaluează-ți nivelul de confort pentru zece abilități comune de antreprenor."
+      },
+      "lifestyle": {
+        "title": "Stil de viață",
+        "description": "Forma vieții profesionale pe care ți-o dorești cu adevărat."
+      },
+      "risk": {
+        "title": "Risc",
+        "description": "Cât de multă incertitudine poți duce confortabil."
+      },
+      "interests": {
+        "title": "Interese",
+        "description": "Ce te atrage — și ce ai prefera să eviți."
+      },
+      "vision": {
+        "title": "Viziune",
+        "description": "Încotro se îndreaptă toate acestea, în cuvintele tale."
+      }
+    },
+    "questions": {
+      "aboutYou": {
+        "age": {
+          "label": "Câți ani ai?"
+        },
+        "country": {
+          "label": "În ce țară te afli?"
+        },
+        "employment": {
+          "label": "Care este situația ta profesională actuală?",
+          "options": {
+            "employed": "Angajat cu normă întreagă",
+            "selfEmployed": "Liber profesionist",
+            "student": "Student",
+            "unemployed": "Între joburi"
+          }
+        },
+        "weeklyAvailability": {
+          "label": "Câte ore pe săptămână ai putea aloca, realist, acestui proiect?"
+        },
+        "incomeUrgency": {
+          "label": "Cât de urgent ai nevoie ca acest lucru să-ți înlocuiască venitul?",
+          "options": {
+            "low": "Nu este urgent — pot avea răbdare",
+            "moderate": "Oarecum — aș vrea progres într-un an",
+            "high": "Destul de urgent — în câteva luni",
+            "critical": "Critic — am nevoie de venit curând"
+          }
+        }
+      },
+      "financialSituation": {
+        "budget": {
+          "label": "Cât ai putea investi ca să începi?"
+        },
+        "targetMonthlyIncome": {
+          "label": "Ce venit lunar ar face ca acest efort să merite?"
+        },
+        "desiredTimeline": {
+          "label": "Cât de curând ai vrea să vezi progres real?",
+          "options": {
+            "threeMonths": "În 3 luni",
+            "sixMonths": "În 6 luni",
+            "oneYear": "Într-un an",
+            "twoYearsPlus": "2 ani sau mai mult"
+          }
+        }
+      },
+      "personality": {
+        "decisionMaking": {
+          "label": "Cum iei de obicei deciziile importante?",
+          "options": {
+            "intuitive": "Mă ghidez după instinct",
+            "analytical": "Cântăresc datele mai întâi",
+            "collaborative": "Discut cu alții",
+            "decisive": "Decid rapid și ajustez ulterior"
+          }
+        },
+        "motivation": {
+          "label": "Ce te motivează cel mai mult?",
+          "options": {
+            "money": "Siguranța financiară",
+            "freedom": "Libertate și independență",
+            "impact": "Să am un impact",
+            "recognition": "Recunoaștere și statut"
+          }
+        },
+        "sellingPreference": {
+          "label": "Cât de confortabil ești să vinzi direct oamenilor?"
+        },
+        "leadership": {
+          "label": "Cât de confortabil ești să conduci și să coordonezi alți oameni?"
+        },
+        "problemSolving": {
+          "label": "Cât de mult îți place să rezolvi probleme neclare, nedefinite?"
+        },
+        "creativity": {
+          "label": "Cât de creativ te-ai descrie?"
+        },
+        "structureVsFlexibility": {
+          "label": "Unde te situezi între structură și flexibilitate?",
+          "description": "0 înseamnă că îți dorești structură și rutină, 100 înseamnă că prosperi în flexibilitate și schimbare."
+        }
+      },
+      "skills": {
+        "marketing": {
+          "label": "Marketing"
+        },
+        "sales": {
+          "label": "Vânzări"
+        },
+        "programming": {
+          "label": "Programare"
+        },
+        "ai": {
+          "label": "Lucrul cu unelte AI"
+        },
+        "finance": {
+          "label": "Finanțe"
+        },
+        "management": {
+          "label": "Management"
+        },
+        "design": {
+          "label": "Design"
+        },
+        "content": {
+          "label": "Creare de conținut"
+        },
+        "negotiation": {
+          "label": "Negociere"
+        },
+        "communication": {
+          "label": "Comunicare"
+        }
+      },
+      "lifestyle": {
+        "remote": {
+          "label": "De unde ai vrea să lucrezi?",
+          "options": {
+            "remote": "Integral remote",
+            "hybrid": "Hibrid",
+            "inPerson": "Față în față",
+            "noPreference": "Nu contează"
+          }
+        },
+        "travel": {
+          "label": "Cât de multe călătorii ai accepta confortabil?",
+          "options": {
+            "none": "Deloc",
+            "occasional": "Ocazional",
+            "frequent": "Frecvent"
+          }
+        },
+        "employees": {
+          "label": "Vrei să conduci o echipă?",
+          "options": {
+            "soloOnly": "Doar eu, cel puțin la început",
+            "smallTeam": "O echipă mică",
+            "largeTeam": "O echipă mare, în timp",
+            "noPreference": "Nu contează"
+          }
+        },
+        "freedom": {
+          "label": "Câtă libertate zilnică ai nevoie?"
+        },
+        "workingHours": {
+          "label": "Câte ore pe săptămână vrei să lucrezi, pe termen lung?"
+        },
+        "b2bVsB2c": {
+          "label": "Cui ai prefera să vinzi?",
+          "options": {
+            "b2b": "Altor afaceri (B2B)",
+            "b2c": "Consumatorilor obișnuiți (B2C)",
+            "both": "Ambele",
+            "noPreference": "Nu contează"
+          }
+        },
+        "onlineVsOffline": {
+          "label": "Online sau offline?",
+          "options": {
+            "online": "Online",
+            "offline": "Offline",
+            "hybrid": "O combinație a ambelor",
+            "noPreference": "Nu contează"
+          }
+        }
+      },
+      "risk": {
+        "riskTolerance": {
+          "label": "Cât de mult risc financiar ești dispus să-ți asumi?"
+        },
+        "failureTolerance": {
+          "label": "Cum te-ar afecta un prim eșec?",
+          "description": "1 înseamnă că te-ar descuraja foarte mult, 5 înseamnă că l-ai vedea ca parte din proces."
+        },
+        "investmentConfidence": {
+          "label": "Cât de încrezător ești să-ți investești proprii bani în acest proiect?"
+        }
+      },
+      "interests": {
+        "industries": {
+          "label": "Ce industrii te interesează cu adevărat?",
+          "description": "Alege câte se aplică.",
+          "options": {
+            "health": "Sănătate & wellness",
+            "tech": "Tehnologie",
+            "food": "Alimente & băuturi",
+            "education": "Educație",
+            "fashion": "Modă & frumusețe",
+            "finance": "Finanțe",
+            "travel": "Călătorii & ospitalitate",
+            "sustainability": "Sustenabilitate",
+            "entertainment": "Divertisment",
+            "homeServices": "Servicii pentru casă"
+          }
+        },
+        "businessModels": {
+          "label": "Care dintre aceste modele de afaceri te atrag?",
+          "description": "Alege câte se aplică.",
+          "options": {
+            "ecommerce": "E-commerce",
+            "saas": "Software (SaaS)",
+            "service": "Servicii",
+            "marketplace": "Marketplace",
+            "content": "Conținut & media",
+            "physicalProduct": "Produs fizic",
+            "subscription": "Abonament",
+            "agency": "Agenție"
+          }
+        },
+        "topics": {
+          "label": "Mai există ceva ce te atrage și nu am acoperit?"
+        },
+        "neverDo": {
+          "label": "Există ceva ce nu ai vrea niciodată să facă parte din activitatea ta zilnică?"
+        }
+      },
+      "vision": {
+        "fiveYearVision": {
+          "label": "Unde vrei ca acest lucru să te fi dus în cinci ani?"
+        },
+        "definitionOfSuccess": {
+          "label": "Ce ar face ca acest lucru să fie, pentru tine personal, un succes?"
+        }
+      }
+    }
+  },
+  "businesses": {
+    "title": "Afacerile tale",
+    "subtitle": "Toate potrivirile explorate, într-un singur loc.",
+    "empty": "Nu ai încă afaceri. Începe o evaluare pentru primele potriviri.",
+    "compatibility": "compatibilitate",
+    "difficulty": "Dificultate",
+    "investment": "Investiție",
+    "timeToFirstCustomer": "Timp până la primul client",
+    "scalability": "Scalabilitate",
+    "automation": "Automatizare"
+  },
+  "blueprint": {
+    "title": "Plan de afaceri",
+    "emptyDescription": "Acest document este generat pentru fiecare afacere după finalizarea unei cereri de plan.",
+    "sections": {
+      "executiveSummary": "Rezumat executiv",
+      "businessDescription": "Descrierea afacerii",
+      "targetAudience": "Public țintă",
+      "marketAnalysis": "Analiza pieței",
+      "competitorAnalysis": "Analiza concurenței",
+      "swot": "SWOT",
+      "businessModelCanvas": "Business Model Canvas",
+      "marketingPlan": "Plan de marketing",
+      "salesStrategy": "Strategia de vânzări",
+      "financialForecast": "Prognoza financiară",
+      "operations": "Operațiuni",
+      "launchPlan": "Planul de lansare",
+      "growthPlan": "Planul de creștere",
+      "riskAnalysis": "Analiza riscurilor",
+      "exitStrategy": "Strategia de ieșire"
+    }
+  },
+  "roadmap": {
+    "title": "Foaia de parcurs",
+    "subtitle": "Planul tău de lansare, lună de lună.",
+    "month": "Luna {number}",
+    "emptyDescription": "Generează un plan de lansare pentru o afacere ca să vezi aici foaia de parcurs."
+  },
+  "coFounder": {
+    "title": "Co-Fondator AI",
+    "subtitle": "Spațiul tău de lucru pentru focus zilnic, sănătatea afacerii și decizii rapide.",
+    "todaysFocus": "Focusul de azi",
+    "recommendedActions": "Acțiuni recomandate",
+    "quickChat": "Discuție rapidă",
+    "chatPlaceholder": "Întreabă-ți Co-Fondatorul AI orice…",
+    "send": "Trimite",
+    "weeklyGoals": "Obiective săptămânale",
+    "monthlyGoals": "Obiective lunare",
+    "emptyDescription": "Alege o afacere pentru a începe să lucrezi cu Co-Fondatorul tău AI."
+  },
+  "templates": {
+    "title": "Șabloane",
+    "subtitle": "Documente gata de folosit pentru fiecare etapă a lansării.",
+    "searchPlaceholder": "Caută șabloane",
+    "emptyDescription": "Biblioteca de șabloane este în curs de completare — revino în curând.",
+    "categories": {
+      "all": "Toate",
+      "businessPlans": "Planuri de afaceri",
+      "pitchDecks": "Pitch decks",
+      "financialModels": "Modele financiare",
+      "marketingPlans": "Planuri de marketing",
+      "contracts": "Contracte",
+      "invoices": "Facturi"
+    }
+  },
+  "resources": {
+    "title": "Resurse",
+    "subtitle": "Ghiduri și playbook-uri pentru fiecare etapă a construirii unei afaceri.",
+    "emptyDescription": "Ghiduri și playbook-uri noi sunt adăugate constant — revino în curând.",
+    "tabs": {
+      "articles": "Articole",
+      "guides": "Ghiduri",
+      "videos": "Video",
+      "playbooks": "Playbook-uri",
+      "checklists": "Liste de verificare"
+    }
+  },
+  "settings": {
+    "title": "Setări",
+    "subtitle": "Gestionează-ți profilul, preferințele și contul.",
+    "tabs": {
+      "profile": "Profil",
+      "businessPreferences": "Preferințe de afaceri",
+      "notifications": "Notificări",
+      "subscription": "Abonament",
+      "billing": "Facturare",
+      "security": "Securitate",
+      "integrations": "Integrări",
+      "appearance": "Aspect",
+      "language": "Limbă"
+    },
+    "profile": {
+      "firstName": "Prenume",
+      "lastName": "Nume",
+      "email": "Email",
+      "country": "Țară"
+    },
+    "language": {
+      "title": "Limbă",
+      "description": "Alege limba aplicației și a fiecărui document generat de BusinessDNA pentru tine."
+    },
+    "appearance": {
+      "title": "Aspect",
+      "light": "Luminos",
+      "dark": "Întunecat",
+      "system": "Sistem"
+    }
+  },
+  "admin": {
+    "title": "Admin",
+    "backToApp": "Înapoi în aplicație",
+    "placeholderNote": "Această secțiune se afișează aici odată ce vizualizările de date sunt construite.",
+    "stats": {
+      "totalUsers": "Total utilizatori",
+      "assessmentsCompleted": "Evaluări finalizate",
+      "plansGenerated": "Planuri de afaceri generate",
+      "mrr": "Venit lunar recurent",
+      "activeSubscriptions": "Abonamente active",
+      "openTickets": "Tichete de suport deschise"
+    },
+    "sections": {
+      "analytics": "Analytics",
+      "blog": "Blog",
+      "featureFlags": "Feature Flags",
+      "aiUsage": "Utilizare AI",
+      "systemHealth": "Sănătatea sistemului",
+      "templates": "Șabloane",
+      "feedback": "Feedback"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Pagina nu a fost găsită",
+      "description": "Pagina căutată nu există sau a fost mutată.",
+      "action": "Înapoi la pagina principală"
+    },
+    "generic": {
+      "title": "Ceva nu a funcționat",
+      "description": "A apărut o eroare neașteptată. Echipa noastră a fost notificată.",
+      "action": "Încearcă din nou"
+    },
+    "validation": {
+      "required": "Acest câmp este obligatoriu.",
+      "invalidEmail": "Introdu o adresă de email validă."
+    }
+  }
+}

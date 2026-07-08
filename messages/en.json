@@ -1,0 +1,696 @@
+{
+  "metadata": {
+    "title": "BusinessDNA — Find and build the business that fits you",
+    "description": "AI-powered guidance to discover, validate and launch the business that matches your personality, skills and goals."
+  },
+  "common": {
+    "appName": "BusinessDNA",
+    "loading": "Loading…",
+    "save": "Save",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "close": "Close",
+    "seeAll": "See all",
+    "comingSoon": "Coming soon",
+    "somethingWentWrong": "Something went wrong. Please try again.",
+    "retry": "Try again"
+  },
+  "buttons": {
+    "getStarted": "Get started",
+    "startAssessment": "Start assessment",
+    "openPlan": "Open plan",
+    "generatePlan": "Generate business plan",
+    "generateBranding": "Generate branding",
+    "generateWebsite": "Generate website",
+    "generateFinancialModel": "Generate financial model",
+    "generateLaunchPlan": "Generate launch plan",
+    "exportPdf": "Export PDF",
+    "askAi": "Ask AI",
+    "upgrade": "Upgrade",
+    "signIn": "Sign in",
+    "signUp": "Create account",
+    "signOut": "Sign out"
+  },
+  "nav": {
+    "missionControl": "Mission Control",
+    "businesses": "Businesses",
+    "blueprint": "Blueprint",
+    "roadmap": "Roadmap",
+    "coFounder": "Co-Founder",
+    "templates": "Templates",
+    "resources": "Resources",
+    "settings": "Settings",
+    "upgrade": "Upgrade",
+    "admin": "Admin"
+  },
+  "sidebar": {
+    "upgradeDescription": "Unlock unlimited blueprints and your AI Co-Founder."
+  },
+  "topbar": {
+    "searchPlaceholder": "Search",
+    "notifications": "Notifications",
+    "askAi": "Ask AI"
+  },
+  "marketing": {
+    "nav": {
+      "howItWorks": "How it works",
+      "features": "Features",
+      "pricing": "Pricing",
+      "faq": "FAQ",
+      "signIn": "Sign in",
+      "getStarted": "Get started"
+    },
+    "hero": {
+      "eyebrow": "AI-guided business discovery",
+      "title": "Your future business starts with the right plan.",
+      "subtitle": "Personalized business matches, AI-generated plans and step-by-step guidance — built around who you actually are.",
+      "primaryCta": "Start my assessment",
+      "secondaryCta": "See how it works"
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "subtitle": "From personality to launch, in four guided steps.",
+      "step1Title": "Answer a guided assessment",
+      "step1Desc": "Tell us about your skills, goals, budget and lifestyle.",
+      "step2Title": "Get matched businesses",
+      "step2Desc": "See compatibility scores across dozens of real business models.",
+      "step3Title": "Generate your blueprint",
+      "step3Desc": "A full business plan, financial model and brand direction — generated for you.",
+      "step4Title": "Follow your roadmap",
+      "step4Desc": "Work through a month-by-month plan with your AI Co-Founder."
+    },
+    "features": {
+      "title": "Everything you need to go from idea to launch",
+      "item1Title": "Personality-based matching",
+      "item1Desc": "Matches are based on how you actually work, not generic trends.",
+      "item2Title": "Full business blueprints",
+      "item2Desc": "Executive summary, market analysis, SWOT and financial forecast.",
+      "item3Title": "AI Co-Founder",
+      "item3Desc": "A daily thinking partner for decisions, not just documents.",
+      "item4Title": "Launch roadmaps",
+      "item4Desc": "Month-by-month milestones so you always know the next step."
+    },
+    "journey": {
+      "title": "Your journey",
+      "subtitle": "One guided path from uncertainty to launch day."
+    },
+    "testimonials": {
+      "title": "Built for people building something real",
+      "items": {
+        "t1": {
+          "quote": "The blueprint gave me a real starting point instead of a blank page.",
+          "name": "Andrei P.",
+          "role": "Founder, studio owner"
+        },
+        "t2": {
+          "quote": "I finally had a plan that matched how I actually want to work.",
+          "name": "Maria I.",
+          "role": "First-time founder"
+        },
+        "t3": {
+          "quote": "The roadmap kept me moving instead of stuck in research mode.",
+          "name": "Radu V.",
+          "role": "Solo consultant"
+        }
+      }
+    },
+    "pricing": {
+      "title": "Simple, honest pricing",
+      "subtitle": "Start free. Upgrade when you're ready to launch.",
+      "freeTitle": "Free",
+      "freeDesc": "Explore your first business matches.",
+      "freeFeature1": "1 assessment",
+      "freeFeature2": "Top 3 business matches",
+      "proTitle": "Pro",
+      "proDesc": "Full blueprints, roadmaps and your AI Co-Founder.",
+      "proFeature1": "Unlimited assessments",
+      "proFeature2": "Full business blueprints",
+      "proFeature3": "AI Co-Founder",
+      "perMonth": "/month",
+      "choosePlan": "Choose plan"
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "items": {
+        "q1": {
+          "question": "Do I need a business idea to start?",
+          "answer": "No — most people start with the assessment and let BusinessDNA suggest matches based on their profile."
+        },
+        "q2": {
+          "question": "What languages are supported?",
+          "answer": "The app and every generated document are available in English and Romanian, with more languages planned."
+        },
+        "q3": {
+          "question": "Can I cancel anytime?",
+          "answer": "Yes, subscriptions are month-to-month with no long-term commitment."
+        },
+        "q4": {
+          "question": "Is my data kept private?",
+          "answer": "Your assessment answers and business data are never shared or sold to third parties."
+        }
+      }
+    },
+    "cta": {
+      "title": "Find the business that fits you.",
+      "subtitle": "It takes about ten minutes to get your first matches.",
+      "button": "Start my assessment"
+    },
+    "footer": {
+      "tagline": "The business that fits you, built step by step.",
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal",
+      "rights": "All rights reserved."
+    }
+  },
+  "auth": {
+    "signIn": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to continue building your business."
+    },
+    "signUp": {
+      "title": "Create your account",
+      "subtitle": "Start your assessment in under a minute."
+    },
+    "forgotPassword": {
+      "title": "Reset your password",
+      "subtitle": "We'll send you a link to get back in.",
+      "submit": "Send reset link"
+    },
+    "continueWithGoogle": "Continue with Google",
+    "continueWithApple": "Continue with Apple",
+    "continueWithEmail": "Continue with email"
+  },
+  "onboarding": {
+    "title": "How would you like to start?",
+    "subtitle": "You can always explore the other path later.",
+    "findBusiness": {
+      "title": "Find my perfect business",
+      "subtitle": "I don't know what business I should start."
+    },
+    "haveIdea": {
+      "title": "I already have a business idea",
+      "subtitle": "Help me validate and build it.",
+      "businessNameLabel": "Business name",
+      "ideaDescriptionLabel": "Describe your idea"
+    }
+  },
+  "dashboard": {
+    "greeting": "Good to see you, {name}",
+    "greetingSub": "Here's where things stand today.",
+    "todaysMission": {
+      "title": "Today's mission",
+      "empty": "No tasks yet — generate a roadmap to see your next steps here."
+    },
+    "journeyProgress": {
+      "title": "Journey progress"
+    },
+    "businessHealth": {
+      "title": "Business health",
+      "onTrack": "On track"
+    },
+    "recentActivity": {
+      "title": "Recent activity",
+      "empty": "Nothing yet. Your activity will show up here."
+    },
+    "quickActions": {
+      "title": "Quick actions",
+      "newAssessment": "New assessment",
+      "generatePlan": "Generate plan",
+      "viewRoadmap": "View roadmap"
+    },
+    "coFounder": {
+      "title": "AI Co-Founder",
+      "cta": "Open workspace"
+    },
+    "businessTimeline": {
+      "title": "Business timeline"
+    }
+  },
+  "assessment": {
+    "stepLabel": "Step {current} of {total} — {section}",
+    "intro": {
+      "eyebrow": "Before we begin",
+      "title": "Let's get to know you.",
+      "subtitle": "Eight short sections, one question at a time. Answer honestly — there are no wrong answers, only better matches.",
+      "estimatedTimeLabel": "About {minutes} minutes",
+      "startCta": "Begin",
+      "resumeCta": "Continue where you left off",
+      "sectionOverviewTitle": "What we'll cover"
+    },
+    "nav": {
+      "back": "Back",
+      "next": "Next",
+      "finish": "Finish",
+      "skip": "Skip"
+    },
+    "units": {
+      "currency": "€{value}",
+      "hours": "{value} hrs/week",
+      "percent": "{value}%"
+    },
+    "rating": {
+      "low": "Not at all",
+      "high": "Extremely"
+    },
+    "validation": {
+      "required": "This one needs an answer before you continue.",
+      "selectAtLeastOne": "Pick at least one option."
+    },
+    "autosave": {
+      "saving": "Saving…",
+      "saved": "Saved"
+    },
+    "review": {
+      "title": "Let's review your answers.",
+      "subtitle": "Everything here is editable — tap any section to change your answer.",
+      "editLabel": "Edit",
+      "submitCta": "Submit assessment",
+      "unanswered": "Not answered"
+    },
+    "results": {
+      "title": "We're building your entrepreneurial profile.",
+      "subtitle": "Your matches will appear here once they're ready — this usually takes about a minute.",
+      "cardTitlePlaceholder": "Match coming soon",
+      "cardSubtitlePlaceholder": "This card will show a business match once analysis is complete.",
+      "backToDashboard": "Back to Mission Control"
+    },
+    "thinking": {
+      "analyzingPersonality": "Analyzing personality…",
+      "findingMatches": "Finding matching business models…",
+      "calculatingCompatibility": "Calculating compatibility…",
+      "buildingRoadmap": "Building roadmap…",
+      "generatingForecast": "Generating financial forecast…",
+      "preparingBlueprint": "Preparing your blueprint…",
+      "subtext": "This usually takes about twenty seconds."
+    },
+    "sections": {
+      "aboutYou": {
+        "title": "About you",
+        "description": "The basics — so we can ground everything else in your real situation."
+      },
+      "financialSituation": {
+        "title": "Financial situation",
+        "description": "What you have to invest, and what you need to earn."
+      },
+      "personality": {
+        "title": "Personality",
+        "description": "How you think, decide and work best."
+      },
+      "skills": {
+        "title": "Skills",
+        "description": "Rate your comfort across ten common founder skills."
+      },
+      "lifestyle": {
+        "title": "Lifestyle",
+        "description": "The shape of the working life you actually want."
+      },
+      "risk": {
+        "title": "Risk",
+        "description": "How much uncertainty you can comfortably carry."
+      },
+      "interests": {
+        "title": "Interests",
+        "description": "What draws you in — and what you'd rather avoid."
+      },
+      "vision": {
+        "title": "Vision",
+        "description": "Where this is all headed, in your own words."
+      }
+    },
+    "questions": {
+      "aboutYou": {
+        "age": {
+          "label": "How old are you?"
+        },
+        "country": {
+          "label": "Which country are you based in?"
+        },
+        "employment": {
+          "label": "What's your current employment status?",
+          "options": {
+            "employed": "Employed full-time",
+            "selfEmployed": "Self-employed",
+            "student": "Student",
+            "unemployed": "Between jobs"
+          }
+        },
+        "weeklyAvailability": {
+          "label": "How many hours a week could you realistically give this?"
+        },
+        "incomeUrgency": {
+          "label": "How urgently do you need this to replace your income?",
+          "options": {
+            "low": "Not urgent — I can be patient",
+            "moderate": "Somewhat — I'd like traction within a year",
+            "high": "Fairly urgent — within a few months",
+            "critical": "Critical — I need income soon"
+          }
+        }
+      },
+      "financialSituation": {
+        "budget": {
+          "label": "How much could you invest to get started?"
+        },
+        "targetMonthlyIncome": {
+          "label": "What monthly income would make this feel worth it?"
+        },
+        "desiredTimeline": {
+          "label": "How soon would you like to see real traction?",
+          "options": {
+            "threeMonths": "Within 3 months",
+            "sixMonths": "Within 6 months",
+            "oneYear": "Within a year",
+            "twoYearsPlus": "2 years or more"
+          }
+        }
+      },
+      "personality": {
+        "decisionMaking": {
+          "label": "How do you usually make important decisions?",
+          "options": {
+            "intuitive": "I go with my gut",
+            "analytical": "I weigh the data first",
+            "collaborative": "I talk it through with others",
+            "decisive": "I decide fast and adjust later"
+          }
+        },
+        "motivation": {
+          "label": "What drives you most?",
+          "options": {
+            "money": "Financial security",
+            "freedom": "Freedom and independence",
+            "impact": "Making an impact",
+            "recognition": "Recognition and status"
+          }
+        },
+        "sellingPreference": {
+          "label": "How comfortable are you selling to people directly?"
+        },
+        "leadership": {
+          "label": "How comfortable are you leading and directing others?"
+        },
+        "problemSolving": {
+          "label": "How much do you enjoy solving messy, undefined problems?"
+        },
+        "creativity": {
+          "label": "How creative would you say you are?"
+        },
+        "structureVsFlexibility": {
+          "label": "Where do you sit between structure and flexibility?",
+          "description": "0 means you crave structure and routine, 100 means you thrive on flexibility and change."
+        }
+      },
+      "skills": {
+        "marketing": {
+          "label": "Marketing"
+        },
+        "sales": {
+          "label": "Sales"
+        },
+        "programming": {
+          "label": "Programming"
+        },
+        "ai": {
+          "label": "Working with AI tools"
+        },
+        "finance": {
+          "label": "Finance"
+        },
+        "management": {
+          "label": "Management"
+        },
+        "design": {
+          "label": "Design"
+        },
+        "content": {
+          "label": "Content creation"
+        },
+        "negotiation": {
+          "label": "Negotiation"
+        },
+        "communication": {
+          "label": "Communication"
+        }
+      },
+      "lifestyle": {
+        "remote": {
+          "label": "Where would you like to work from?",
+          "options": {
+            "remote": "Fully remote",
+            "hybrid": "Hybrid",
+            "inPerson": "In person",
+            "noPreference": "No preference"
+          }
+        },
+        "travel": {
+          "label": "How much travel would you be comfortable with?",
+          "options": {
+            "none": "None",
+            "occasional": "Occasional",
+            "frequent": "Frequent"
+          }
+        },
+        "employees": {
+          "label": "Do you want to manage a team?",
+          "options": {
+            "soloOnly": "Just me, at least at first",
+            "smallTeam": "A small team",
+            "largeTeam": "A large team eventually",
+            "noPreference": "No preference"
+          }
+        },
+        "freedom": {
+          "label": "How much day-to-day freedom do you need?"
+        },
+        "workingHours": {
+          "label": "How many hours a week do you want to work, long-term?"
+        },
+        "b2bVsB2c": {
+          "label": "Who would you rather sell to?",
+          "options": {
+            "b2b": "Other businesses (B2B)",
+            "b2c": "Everyday consumers (B2C)",
+            "both": "Both",
+            "noPreference": "No preference"
+          }
+        },
+        "onlineVsOffline": {
+          "label": "Online or offline?",
+          "options": {
+            "online": "Online",
+            "offline": "Offline",
+            "hybrid": "A mix of both",
+            "noPreference": "No preference"
+          }
+        }
+      },
+      "risk": {
+        "riskTolerance": {
+          "label": "How much financial risk are you willing to take on?"
+        },
+        "failureTolerance": {
+          "label": "How would a failed first attempt affect you?",
+          "description": "1 means it would be very discouraging, 5 means you'd see it as part of the process."
+        },
+        "investmentConfidence": {
+          "label": "How confident are you investing your own money into this?"
+        }
+      },
+      "interests": {
+        "industries": {
+          "label": "Which industries genuinely interest you?",
+          "description": "Pick as many as apply.",
+          "options": {
+            "health": "Health & wellness",
+            "tech": "Technology",
+            "food": "Food & beverage",
+            "education": "Education",
+            "fashion": "Fashion & beauty",
+            "finance": "Finance",
+            "travel": "Travel & hospitality",
+            "sustainability": "Sustainability",
+            "entertainment": "Entertainment",
+            "homeServices": "Home services"
+          }
+        },
+        "businessModels": {
+          "label": "Which of these business models appeal to you?",
+          "description": "Pick as many as apply.",
+          "options": {
+            "ecommerce": "E-commerce",
+            "saas": "Software (SaaS)",
+            "service": "Service-based",
+            "marketplace": "Marketplace",
+            "content": "Content & media",
+            "physicalProduct": "Physical product",
+            "subscription": "Subscription",
+            "agency": "Agency"
+          }
+        },
+        "topics": {
+          "label": "Anything else you're drawn to that we haven't covered?"
+        },
+        "neverDo": {
+          "label": "Is there anything you'd never want your day-to-day work to involve?"
+        }
+      },
+      "vision": {
+        "fiveYearVision": {
+          "label": "Where do you want this to have taken you in five years?"
+        },
+        "definitionOfSuccess": {
+          "label": "What would make this feel like a success to you, personally?"
+        }
+      }
+    }
+  },
+  "businesses": {
+    "title": "Your businesses",
+    "subtitle": "Every match you've explored, saved in one place.",
+    "empty": "No businesses yet. Start an assessment to get your first matches.",
+    "compatibility": "compatibility",
+    "difficulty": "Difficulty",
+    "investment": "Investment",
+    "timeToFirstCustomer": "Time to first customer",
+    "scalability": "Scalability",
+    "automation": "Automation"
+  },
+  "blueprint": {
+    "title": "Business plan",
+    "emptyDescription": "This document is generated per business once a blueprint request completes.",
+    "sections": {
+      "executiveSummary": "Executive Summary",
+      "businessDescription": "Business Description",
+      "targetAudience": "Target Audience",
+      "marketAnalysis": "Market Analysis",
+      "competitorAnalysis": "Competitor Analysis",
+      "swot": "SWOT",
+      "businessModelCanvas": "Business Model Canvas",
+      "marketingPlan": "Marketing Plan",
+      "salesStrategy": "Sales Strategy",
+      "financialForecast": "Financial Forecast",
+      "operations": "Operations",
+      "launchPlan": "Launch Plan",
+      "growthPlan": "Growth Plan",
+      "riskAnalysis": "Risk Analysis",
+      "exitStrategy": "Exit Strategy"
+    }
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "subtitle": "Your month-by-month launch plan.",
+    "month": "Month {number}",
+    "emptyDescription": "Generate a launch plan from a business to see your roadmap here."
+  },
+  "coFounder": {
+    "title": "AI Co-Founder",
+    "subtitle": "Your workspace for daily focus, business health and quick decisions.",
+    "todaysFocus": "Today's focus",
+    "recommendedActions": "Recommended actions",
+    "quickChat": "Quick chat",
+    "chatPlaceholder": "Ask your AI co-founder anything…",
+    "send": "Send",
+    "weeklyGoals": "Weekly goals",
+    "monthlyGoals": "Monthly goals",
+    "emptyDescription": "Pick a business to start working with your AI Co-Founder."
+  },
+  "templates": {
+    "title": "Templates",
+    "subtitle": "Ready-made documents for every stage of launching.",
+    "searchPlaceholder": "Search templates",
+    "emptyDescription": "The template library is being stocked — check back soon.",
+    "categories": {
+      "all": "All",
+      "businessPlans": "Business Plans",
+      "pitchDecks": "Pitch Decks",
+      "financialModels": "Financial Models",
+      "marketingPlans": "Marketing Plans",
+      "contracts": "Contracts",
+      "invoices": "Invoices"
+    }
+  },
+  "resources": {
+    "title": "Resources",
+    "subtitle": "Guides and playbooks for every stage of building a business.",
+    "emptyDescription": "New guides and playbooks are added regularly — check back soon.",
+    "tabs": {
+      "articles": "Articles",
+      "guides": "Guides",
+      "videos": "Videos",
+      "playbooks": "Playbooks",
+      "checklists": "Checklists"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your profile, preferences and account.",
+    "tabs": {
+      "profile": "Profile",
+      "businessPreferences": "Business Preferences",
+      "notifications": "Notifications",
+      "subscription": "Subscription",
+      "billing": "Billing",
+      "security": "Security",
+      "integrations": "Integrations",
+      "appearance": "Appearance",
+      "language": "Language"
+    },
+    "profile": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email",
+      "country": "Country"
+    },
+    "language": {
+      "title": "Language",
+      "description": "Choose the language for the app and every document BusinessDNA generates for you."
+    },
+    "appearance": {
+      "title": "Appearance",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
+  },
+  "admin": {
+    "title": "Admin",
+    "backToApp": "Back to app",
+    "placeholderNote": "This section renders here once the underlying data views are built.",
+    "stats": {
+      "totalUsers": "Total users",
+      "assessmentsCompleted": "Assessments completed",
+      "plansGenerated": "Business plans generated",
+      "mrr": "MRR",
+      "activeSubscriptions": "Active subscriptions",
+      "openTickets": "Open support tickets"
+    },
+    "sections": {
+      "analytics": "Analytics",
+      "blog": "Blog",
+      "featureFlags": "Feature Flags",
+      "aiUsage": "AI Usage",
+      "systemHealth": "System Health",
+      "templates": "Templates",
+      "feedback": "Feedback"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Page not found",
+      "description": "The page you're looking for doesn't exist or has moved.",
+      "action": "Go back home"
+    },
+    "generic": {
+      "title": "Something went wrong",
+      "description": "An unexpected error occurred. Our team has been notified.",
+      "action": "Try again"
+    },
+    "validation": {
+      "required": "This field is required.",
+      "invalidEmail": "Enter a valid email address."
+    }
+  }
+}

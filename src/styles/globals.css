@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  BusinessDNA design tokens.
+  Values are HSL triplets (no `hsl()` wrapper) so Tailwind can compose them
+  as `hsl(var(--token) / <alpha-value>)`.
+
+  Palette source:
+    background  #F7F8F5
+    surface     #FFFFFF
+    primary     Deep Forest Green
+    secondary   Warm Cream
+    accent      Muted Peach
+    success     Soft Green
+    warning     Warm Amber
+    error       Muted Red
+*/
+
+@layer base {
+  :root {
+    --background: 80 20% 97%;
+    --surface: 0 0% 100%;
+    --foreground: 100 5% 12%;
+
+    --muted: 80 15% 93%;
+    --muted-foreground: 100 5% 40%;
+
+    --border: 80 15% 89%;
+
+    --primary: 154 32% 17%;
+    --primary-foreground: 40 30% 96%;
+
+    --secondary: 39 40% 90%;
+    --secondary-foreground: 100 5% 15%;
+
+    --accent: 20 55% 72%;
+    --accent-foreground: 100 10% 15%;
+
+    --success: 148 29% 43%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 39 67% 55%;
+    --warning-foreground: 100 10% 15%;
+
+    --error: 7 41% 49%;
+    --error-foreground: 0 0% 100%;
+
+    --radius: 20px;
+
+    --font-display: "DM Serif Display", ui-serif, serif;
+    --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  }
+
+  .dark {
+    --background: 150 12% 8%;
+    --surface: 150 10% 11%;
+    --foreground: 40 20% 94%;
+
+    --muted: 150 10% 15%;
+    --muted-foreground: 80 8% 65%;
+
+    --border: 150 10% 18%;
+
+    --primary: 148 30% 62%;
+    --primary-foreground: 154 32% 10%;
+
+    --secondary: 150 10% 16%;
+    --secondary-foreground: 40 20% 92%;
+
+    --accent: 20 45% 62%;
+    --accent-foreground: 100 10% 10%;
+
+    --success: 148 29% 55%;
+    --success-foreground: 154 32% 10%;
+
+    --warning: 39 60% 58%;
+    --warning-foreground: 100 10% 10%;
+
+    --error: 7 45% 58%;
+    --error-foreground: 0 0% 100%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display font-normal tracking-tight;
+  }
+
+  ::selection {
+    @apply bg-accent/30;
+  }
+
+  :focus-visible {
+    outline: 2px solid hsl(var(--accent));
+    outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  .surface-card {
+    @apply bg-surface border border-border rounded-lg shadow-soft;
+  }
+}

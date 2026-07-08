@@ -1,0 +1,796 @@
+// BusinessDNA — core data model
+// This defines structure only; no business logic lives here.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Locale {
+  en
+  ro
+}
+
+enum SubscriptionStatus {
+  free
+  active
+  past_due
+  canceled
+}
+
+enum BusinessDifficulty {
+  low
+  moderate
+  high
+}
+
+enum AssessmentSessionStatus {
+  in_progress
+  completed
+  abandoned
+}
+
+enum AssessmentQuestionType {
+  single_choice
+  multiple_choice
+  slider
+  rating
+  cards
+  long_text
+  short_text
+}
+
+// ---------------------------------------------------------------------------
+// Business Engine enums
+//
+// `BusinessDifficulty` (above) is reused wherever the brief calls for a
+// "Difficulty" enum — it already models exactly that (low/moderate/high),
+// and duplicating it under a new name would violate the "avoid duplicated
+// data" instruction. Everything below is genuinely new vocabulary.
+//
+// Several of these intentionally reuse the same value sets as the
+// Assessment feature's option keys (see
+// src/features/assessment/config/sections.ts) — e.g. IndustryType mirrors
+// `interests.industries`, BusinessModelType mirrors
+// `interests.businessModels`. That alignment is what will let the future
+// matching engine compare a user's answers to a BusinessType directly by
+// value, instead of through a translation table.
+// ---------------------------------------------------------------------------
+
+enum RiskLevel {
+  low
+  moderate
+  high
+}
+
+enum AutomationLevel {
+  low
+  moderate
+  high
+}
+
+enum ScalabilityLevel {
+  low
+  moderate
+  high
+}
+
+enum AIResistance {
+  low
+  moderate
+  high
+}
+
+enum RevenueSpeed {
+  slow
+  moderate
+  fast
+}
+
+enum BusinessModelType {
+  ecommerce
+  saas
+  service
+  marketplace
+  content
+  physicalProduct
+  subscription
+  agency
+}
+
+enum IndustryType {
+  health
+  tech
+  food
+  education
+  fashion
+  finance
+  travel
+  sustainability
+  entertainment
+  homeServices
+}
+
+enum LifestyleMode {
+  remote
+  hybrid
+  inPerson
+}
+
+enum TeamSizePreference {
+  solo
+  small
+  large
+}
+
+enum TravelRequirement {
+  none
+  occasional
+  frequent
+}
+
+enum SalesChannel {
+  b2b
+  b2c
+  both
+}
+
+enum OnlineOfflineMode {
+  online
+  offline
+  hybrid
+}
+
+enum ResourceType {
+  article
+  guide
+  video
+  playbook
+  checklist
+}
+
+model User {
+  id             String   @id @default(cuid())
+  clerkId        String   @unique
+  email          String   @unique
+  firstName      String?
+  lastName       String?
+  locale         Locale   @default(en)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  subscription   Subscription?
+  assessmentSessions AssessmentSession[]
+  assessments    Assessment[]
+  businesses     Business[]
+  matchResults   BusinessMatchResult[]
+  roadmaps       Roadmap[]
+  conversations  CoFounderConversation[]
+
+  @@map("users")
+}
+
+model Subscription {
+  id                   String             @id @default(cuid())
+  userId               String             @unique
+  user                 User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  stripeCustomerId     String?            @unique
+  stripeSubscriptionId String?            @unique
+  status               SubscriptionStatus @default(free)
+  currentPeriodEnd     DateTime?
+  createdAt            DateTime           @default(now())
+  updatedAt            DateTime           @updatedAt
+
+  @@map("subscriptions")
+}
+
+// A single attempt at the assessment — created the moment a user starts,
+// updated on every autosave, and either completed or left abandoned.
+// This is what "resume later" reads from and writes to.
+model AssessmentSession {
+  id           String                  @id @default(cuid())
+  userId       String
+  user         User                    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  locale       Locale                  @default(en)
+  status       AssessmentSessionStatus @default(in_progress)
+  currentStep  Int                     @default(0)
+  startedAt    DateTime                @default(now())
+  completedAt  DateTime?
+  updatedAt    DateTime                @updatedAt
+
+  answers      AssessmentAnswer[]
+  assessment   Assessment?
+
+  @@map("assessment_sessions")
+}
+
+// The canonical question bank. Seeded from the section config in
+// src/features/assessment/config/sections.ts (see prisma/seed.ts) so the
+// question set has exactly one source of truth — the question copy itself
+// lives in messages/*.json, keyed by the same `key`.
+model AssessmentQuestion {
+  id         String                 @id @default(cuid())
+  key        String                 @unique
+  sectionKey String
+  type       AssessmentQuestionType
+  order      Int
+  isRequired Boolean                @default(true)
+  createdAt  DateTime               @default(now())
+
+  answers    AssessmentAnswer[]
+  questionWeights BusinessQuestionWeight[]
+
+  @@index([sectionKey])
+  @@map("assessment_questions")
+}
+
+// One row per question per session. Autosave upserts on
+// [sessionId, questionId] so re-answering a question never creates
+// duplicate rows.
+model AssessmentAnswer {
+  id         String             @id @default(cuid())
+  sessionId  String
+  session    AssessmentSession  @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  questionId String
+  question   AssessmentQuestion @relation(fields: [questionId], references: [id])
+  value      Json
+  createdAt  DateTime           @default(now())
+  updatedAt  DateTime           @updatedAt
+
+  @@unique([sessionId, questionId])
+  @@map("assessment_answers")
+}
+
+// The finalized record produced once a session is submitted. Kept separate
+// from AssessmentSession so downstream features (Business, matching) have a
+// stable, immutable-once-created id to reference — `archetype` is filled in
+// later by the (not yet implemented) matching engine.
+model Assessment {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  sessionId   String    @unique
+  session     AssessmentSession @relation(fields: [sessionId], references: [id])
+  locale      Locale    @default(en)
+  archetype   String?
+  completedAt DateTime?
+  createdAt   DateTime  @default(now())
+
+  businesses  Business[]
+  matchResults BusinessMatchResult[]
+
+  @@map("assessments")
+}
+
+model Business {
+  id             String             @id @default(cuid())
+  userId         String
+  user           User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  assessmentId   String?
+  assessment     Assessment?        @relation(fields: [assessmentId], references: [id])
+  // Provenance back into the Business Engine catalog — both optional and
+  // both nullable-on-delete, since a user's Business must survive even if
+  // the catalog entry it came from is later retired.
+  businessTypeId String?
+  businessType   BusinessType?      @relation(fields: [businessTypeId], references: [id], onDelete: SetNull)
+  matchResultId  String?            @unique
+  matchResult    BusinessMatchResult? @relation(fields: [matchResultId], references: [id], onDelete: SetNull)
+  name           String
+  summary        String?
+  compatibility  Int?
+  difficulty     BusinessDifficulty @default(moderate)
+  investmentMin  Int?
+  investmentMax  Int?
+  createdAt      DateTime           @default(now())
+  updatedAt      DateTime           @updatedAt
+
+  blueprint      Blueprint?
+  roadmap        Roadmap?
+
+  @@map("businesses")
+}
+
+model Blueprint {
+  id          String   @id @default(cuid())
+  businessId  String   @unique
+  business    Business @relation(fields: [businessId], references: [id], onDelete: Cascade)
+  locale      Locale   @default(en)
+  content     Json
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("blueprints")
+}
+
+model Roadmap {
+  id         String       @id @default(cuid())
+  userId     String
+  user       User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  businessId String       @unique
+  business   Business     @relation(fields: [businessId], references: [id], onDelete: Cascade)
+  createdAt  DateTime     @default(now())
+
+  milestones RoadmapTask[]
+
+  @@map("roadmaps")
+}
+
+model RoadmapTask {
+  id         String    @id @default(cuid())
+  roadmapId  String
+  roadmap    Roadmap   @relation(fields: [roadmapId], references: [id], onDelete: Cascade)
+  title      String
+  month      Int
+  isDone     Boolean   @default(false)
+  dueDate    DateTime?
+  createdAt  DateTime  @default(now())
+
+  @@map("roadmap_tasks")
+}
+
+model CoFounderConversation {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  locale    Locale   @default(en)
+  messages  Json
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("cofounder_conversations")
+}
+
+// =============================================================================
+// BUSINESS ENGINE — catalog domain layer
+//
+// Everything below is the foundation the future Business Engine (matching,
+// blueprint generation, financial modelling) will read from. No row data is
+// seeded for any of it — see prisma/seed-business-engine.ts, which is
+// intentionally empty. This is schema and architecture only.
+//
+// Mental model: `BusinessType` is one entry in the catalog (think "a Netflix
+// title" or "a Spotify track") — a business concept BusinessDNA can
+// recommend. Everything else here is either (a) a normalized attribute of a
+// BusinessType, (b) a master lookup list shared across many BusinessTypes
+// (skills, tools, tags, resources, industries), or (c) the join table
+// connecting the two. `BusinessQuestionWeight` and `BusinessMatchResult` are
+// the two tables the not-yet-built matching engine will read from and write
+// to, respectively — see README.md → "Where the matching engine plugs in".
+// =============================================================================
+
+// --- Taxonomy -----------------------------------------------------------
+
+/// Rich metadata wrapper around IndustryType. The enum is the stable
+/// identifier used in code and in matching weights; this table carries the
+/// display metadata (translation key, icon, ordering) an admin UI or the
+/// public catalog can render without touching code.
+model BusinessIndustry {
+  id           String       @id @default(cuid())
+  code         IndustryType @unique
+  slug         String       @unique
+  translationKey String     @unique
+  icon         String?
+  sortOrder    Int          @default(0)
+  isActive     Boolean      @default(true)
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+
+  categories   BusinessCategory[]
+
+  @@map("business_industries")
+}
+
+/// A browsable grouping of BusinessTypes within an industry (e.g. "B2B SaaS
+/// tools" within the "tech" industry). Unlike industries, categories are not
+/// enum-backed — they're expected to grow over time without a code change.
+model BusinessCategory {
+  id             String   @id @default(cuid())
+  slug           String   @unique
+  translationKey String   @unique
+  industryId     String
+  industry       BusinessIndustry @relation(fields: [industryId], references: [id], onDelete: Restrict)
+  icon           String?
+  sortOrder      Int      @default(0)
+  isActive       Boolean  @default(true)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  businessTypes  BusinessType[]
+
+  @@index([industryId])
+  @@map("business_categories")
+}
+
+// --- Core catalog entity -------------------------------------------------
+
+/// One recommendable business concept. This is the row the future matching
+/// engine scores against a user's assessment answers, and the row a
+/// `Business` (the user's own saved instance) points back to once matched.
+model BusinessType {
+  id               String             @id @default(cuid())
+  slug             String             @unique
+  translationKey   String             @unique
+  categoryId       String
+  category         BusinessCategory   @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+  businessModel    BusinessModelType
+  difficulty       BusinessDifficulty @default(moderate)
+  automationLevel  AutomationLevel    @default(moderate)
+  scalabilityLevel ScalabilityLevel   @default(moderate)
+  aiResistance     AIResistance       @default(moderate)
+  isActive         Boolean            @default(true)
+  isPublished      Boolean            @default(false)
+  createdAt        DateTime           @default(now())
+  updatedAt        DateTime           @updatedAt
+
+  // Normalized attributes (each 0 or 1 row per BusinessType).
+  lifestyle          BusinessLifestyle?
+  risk                BusinessRisk?
+  budget              BusinessBudget?
+  revenue             BusinessRevenue?
+  timeline            BusinessTimeline?
+  blueprintTemplate   BusinessBlueprintTemplate?
+  marketingTemplate   BusinessMarketingTemplate?
+  financialTemplate   BusinessFinancialTemplate?
+  launchTemplate      BusinessLaunchTemplate?
+
+  // Child collections (many rows per BusinessType, not shared elsewhere).
+  requirements   BusinessRequirement[]
+  advantages     BusinessAdvantage[]
+  disadvantages  BusinessDisadvantage[]
+
+  // Many-to-many against shared master lists.
+  skills    BusinessSkill[]
+  tags      BusinessTypeTag[]
+  tools     BusinessTypeTool[]
+  resources BusinessTypeResource[]
+
+  // Matching engine inputs/outputs.
+  questionWeights BusinessQuestionWeight[]
+  matchResults    BusinessMatchResult[]
+
+  // Reverse side of Business.businessTypeId (a user's saved instance).
+  userBusinesses  Business[]
+
+  @@index([categoryId])
+  @@map("business_types")
+}
+
+// --- Skills ---------------------------------------------------------------
+
+/// Master skill catalog. Keys intentionally mirror the Assessment feature's
+/// `skills` section question keys (marketing, sales, programming, ai,
+/// finance, management, design, content, negotiation, communication), so the
+/// matching engine can compare a user's self-rated skill directly against
+/// `BusinessSkill.importance` for the same key.
+model RequiredSkill {
+  id             String   @id @default(cuid())
+  key            String   @unique
+  translationKey String   @unique
+  createdAt      DateTime @default(now())
+
+  businessTypes  BusinessSkill[]
+
+  @@map("required_skills")
+}
+
+/// Join table: how important a given skill is for a given BusinessType.
+/// `importance` is on the same 1-5 scale as the Assessment's rating
+/// questions, again so the two can be compared without a conversion step.
+model BusinessSkill {
+  id             String        @id @default(cuid())
+  businessTypeId String
+  businessType   BusinessType  @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  skillId        String
+  skill          RequiredSkill @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  importance     Int           @default(3)
+
+  @@unique([businessTypeId, skillId])
+  @@map("business_skills")
+}
+
+// --- Normalized 1:1 attributes ---------------------------------------------
+
+/// The shape of working life this BusinessType actually involves. Field
+/// names and enums intentionally mirror the Assessment's `lifestyle`
+/// section so answers can be compared directly.
+model BusinessLifestyle {
+  id                 String             @id @default(cuid())
+  businessTypeId     String             @unique
+  businessType       BusinessType       @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  workMode           LifestyleMode      @default(hybrid)
+  travelRequirement  TravelRequirement  @default(none)
+  teamSize           TeamSizePreference @default(solo)
+  salesChannel       SalesChannel       @default(both)
+  onlineOffline      OnlineOfflineMode  @default(hybrid)
+  minWeeklyHours     Int?
+  maxWeeklyHours     Int?
+  freedomLevel       Int?               // 1-5, same scale as the Assessment's `freedom` rating question.
+
+  @@map("business_lifestyles")
+}
+
+/// How much uncertainty this BusinessType carries. Mirrors the Assessment's
+/// `risk` section.
+model BusinessRisk {
+  id                   String       @id @default(cuid())
+  businessTypeId       String       @unique
+  businessType         BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  riskLevel            RiskLevel    @default(moderate)
+  failureImpact        Int?         // 1-5, same scale as the Assessment's `failureTolerance` question.
+  requiredConfidence   Int?         // 1-5, same scale as the Assessment's `investmentConfidence` question.
+
+  @@map("business_risks")
+}
+
+/// What it costs to get started. Mirrors the Assessment's
+/// `financialSituation.budget` question so a user's stated budget can be
+/// compared to `minInvestment`/`maxInvestment` directly.
+model BusinessBudget {
+  id             String       @id @default(cuid())
+  businessTypeId String       @unique
+  businessType   BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  minInvestment  Int
+  maxInvestment  Int
+  currency       String       @default("EUR")
+  ongoingMonthlyCostMin Int?
+  ongoingMonthlyCostMax Int?
+
+  @@map("business_budgets")
+}
+
+/// What this BusinessType could realistically earn, and how it earns it.
+/// Mirrors the Assessment's `financialSituation.targetMonthlyIncome`.
+model BusinessRevenue {
+  id                     String            @id @default(cuid())
+  businessTypeId         String            @unique
+  businessType           BusinessType      @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  targetMonthlyIncomeMin Int?
+  targetMonthlyIncomeMax Int?
+  revenueSpeed           RevenueSpeed      @default(moderate)
+
+  @@map("business_revenues")
+}
+
+/// How long this BusinessType typically takes to reach key milestones.
+/// Mirrors the Assessment's `financialSituation.desiredTimeline`.
+model BusinessTimeline {
+  id                        String       @id @default(cuid())
+  businessTypeId            String       @unique
+  businessType              BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  timeToFirstCustomerWeeks  Int?
+  timeToBreakEvenMonths     Int?
+  timeToScaleMonths         Int?
+
+  @@map("business_timelines")
+}
+
+// --- Generation templates ---------------------------------------------------
+//
+// These four models are *structure only* — they tell the future AI
+// generators what shape of document to produce for a given BusinessType,
+// not what to say. Actual prose is generated per-user, on demand, by the
+// (not yet built) blueprint/marketing/financial/launch generators, using
+// these templates plus a BusinessMatchResult as input.
+
+/// Skeleton for the Business Plan document. `sections` holds an ordered
+/// list of section keys (matching `blueprint.sections.*` in
+/// messages/*.json) — not content.
+model BusinessBlueprintTemplate {
+  id             String       @id @default(cuid())
+  businessTypeId String       @unique
+  businessType   BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  sections       Json         // string[] of section keys, e.g. ["executiveSummary", "marketAnalysis", ...]
+  promptContext  String?      // optional freeform hint passed to the generator, not shown to the user
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  @@map("business_blueprint_templates")
+}
+
+/// Skeleton for a marketing plan: which channel *types* are relevant, not
+/// which campaigns to run.
+model BusinessMarketingTemplate {
+  id             String       @id @default(cuid())
+  businessTypeId String       @unique
+  businessType   BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  channelTypes   Json         // string[] of channel-type keys, e.g. ["localSeo", "instagram", "referral"]
+  promptContext  String?
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  @@map("business_marketing_templates")
+}
+
+/// Skeleton for a financial model: which line-item categories and input
+/// fields it needs, not the numbers themselves.
+model BusinessFinancialTemplate {
+  id                 String       @id @default(cuid())
+  businessTypeId     String       @unique
+  businessType       BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  lineItemCategories Json         // string[], e.g. ["revenue", "cogs", "opex", "capex"]
+  assumptionsSchema  Json         // { [inputKey]: "number" | "percent" | "currency" } — defines the shape of user-provided assumptions
+  createdAt          DateTime     @default(now())
+  updatedAt          DateTime     @updatedAt
+
+  @@map("business_financial_templates")
+}
+
+/// Skeleton for a launch roadmap: which milestone months exist and what
+/// theme each one has, not the specific tasks.
+model BusinessLaunchTemplate {
+  id             String       @id @default(cuid())
+  businessTypeId String       @unique
+  businessType   BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  milestones     Json         // { month: number, themeTranslationKey: string }[]
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  @@map("business_launch_templates")
+}
+
+// --- Tags, tools, resources (shared master lists) ---------------------------
+
+/// Free-form catalog tags (e.g. "beginner-friendly", "high-margin").
+model BusinessTag {
+  id             String   @id @default(cuid())
+  slug           String   @unique
+  translationKey String   @unique
+  createdAt      DateTime @default(now())
+
+  businessTypes  BusinessTypeTag[]
+
+  @@map("business_tags")
+}
+
+model BusinessTypeTag {
+  businessTypeId String
+  businessType   BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  tagId          String
+  tag            BusinessTag  @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([businessTypeId, tagId])
+  @@map("business_type_tags")
+}
+
+/// Master catalog of tools/software a business type might rely on (e.g.
+/// booking software, a POS system) — shared across BusinessTypes rather
+/// than duplicated per type.
+model BusinessTool {
+  id             String   @id @default(cuid())
+  slug           String   @unique
+  translationKey String   @unique
+  websiteUrl     String?
+  category       String?  // freeform grouping, e.g. "scheduling", "accounting"
+  createdAt      DateTime @default(now())
+
+  businessTypes  BusinessTypeTool[]
+
+  @@map("business_tools")
+}
+
+model BusinessTypeTool {
+  businessTypeId String
+  businessType   BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  toolId         String
+  tool           BusinessTool @relation(fields: [toolId], references: [id], onDelete: Cascade)
+  isRequired     Boolean      @default(true)
+
+  @@id([businessTypeId, toolId])
+  @@map("business_type_tools")
+}
+
+/// Master catalog of learning resources. `resourceType` mirrors the
+/// Resources feature's tab keys (articles, guides, videos, playbooks,
+/// checklists) so the two stay in sync.
+model BusinessResource {
+  id             String       @id @default(cuid())
+  slug           String       @unique
+  translationKey String       @unique
+  resourceType   ResourceType
+  url            String?
+  createdAt      DateTime     @default(now())
+
+  businessTypes  BusinessTypeResource[]
+
+  @@map("business_resources")
+}
+
+model BusinessTypeResource {
+  businessTypeId String
+  businessType   BusinessType     @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  resourceId     String
+  resource       BusinessResource @relation(fields: [resourceId], references: [id], onDelete: Cascade)
+
+  @@id([businessTypeId, resourceId])
+  @@map("business_type_resources")
+}
+
+// --- Per-type narrative rows -------------------------------------------------
+//
+// Requirements/advantages/disadvantages are specific enough to one
+// BusinessType that they aren't worth a shared master list — each row
+// belongs to exactly one BusinessType. `label` is a translation key, not
+// display text, consistent with everything else in the catalog.
+
+model BusinessRequirement {
+  id             String       @id @default(cuid())
+  businessTypeId String
+  businessType   BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  translationKey String
+  sortOrder      Int          @default(0)
+
+  @@index([businessTypeId])
+  @@map("business_requirements")
+}
+
+model BusinessAdvantage {
+  id             String       @id @default(cuid())
+  businessTypeId String
+  businessType   BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  translationKey String
+  sortOrder      Int          @default(0)
+
+  @@index([businessTypeId])
+  @@map("business_advantages")
+}
+
+model BusinessDisadvantage {
+  id             String       @id @default(cuid())
+  businessTypeId String
+  businessType   BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  translationKey String
+  sortOrder      Int          @default(0)
+
+  @@index([businessTypeId])
+  @@map("business_disadvantages")
+}
+
+// --- Matching engine plug-in points ------------------------------------------
+
+/// Input to the future matching engine: how much a given AssessmentQuestion
+/// (optionally, a specific option/choice on it) should influence a
+/// BusinessType's compatibility score. Completely empty until the matching
+/// algorithm is designed — this table only exists so that design can happen
+/// as a data change, not a code change.
+model BusinessQuestionWeight {
+  id             String             @id @default(cuid())
+  businessTypeId String
+  businessType   BusinessType       @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  questionId     String
+  question       AssessmentQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  optionKey      String?            // set for choice-type questions to weight a specific option; null = whole-question weight (sliders/ratings)
+  weight         Float              @default(0)
+  createdAt      DateTime           @default(now())
+  updatedAt      DateTime           @updatedAt
+
+  @@unique([businessTypeId, questionId, optionKey])
+  @@index([questionId])
+  @@map("business_question_weights")
+}
+
+/// Output of the future matching engine: one computed compatibility score
+/// for one user, one completed Assessment, and one BusinessType. A
+/// `Business` (the user's saved instance) may optionally point back to the
+/// BusinessMatchResult it was created from via `Business.matchResultId`.
+model BusinessMatchResult {
+  id                  String       @id @default(cuid())
+  userId              String
+  user                User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  assessmentId        String
+  assessment          Assessment   @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+  businessTypeId      String
+  businessType        BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  compatibilityScore  Float
+  scoreBreakdown      Json?        // per-question/per-attribute contribution, for the "why this match" explanation UI
+  createdAt           DateTime     @default(now())
+
+  business            Business?
+
+  @@unique([assessmentId, businessTypeId])
+  @@index([userId])
+  @@map("business_match_results")
+}
