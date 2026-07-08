@@ -17,13 +17,17 @@ export async function getCurrentUser() {
   const clerkUser = await currentUser();
   if (!clerkUser) return null;
 
-  return db.user.create({
-    data: {
-      clerkId: clerkUser.id,
-      email: clerkUser.emailAddresses[0]?.emailAddress ?? "",
-      firstName: clerkUser.firstName,
-      lastName: clerkUser.lastName,
-    },
+  const data = {
+    clerkId: clerkUser.id,
+    email: clerkUser.emailAddresses[0]?.emailAddress ?? "",
+    firstName: clerkUser.firstName,
+    lastName: clerkUser.lastName,
+  };
+
+  return db.user.upsert({
+    where: { clerkId: userId },
+    update: {},
+    create: data,
   });
 }
 
