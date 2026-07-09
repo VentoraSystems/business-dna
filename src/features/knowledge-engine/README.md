@@ -96,6 +96,18 @@ stricter than the Genome Library's one). Their entries are identified by
 string by `schemas/knowledge-entry.schema.ts` — same as every other
 domain, just without a `relatedEnumValue`.
 
+**`KPIs`, specifically — layered by design, not a conflict (Architecture
+Reconciliation, decision 5):** this domain's open-endedness is
+deliberate, not a gap to fill with a closed vocabulary later. It's meant
+to sit *on top of* `features/business-dna`'s fixed, closed Core KPI set
+(§19 — MRR/ARR/CAC/LTV/Churn/GrossMargin/NetMargin/LeadConversion/
+CloseRate/CustomerRetention), the same relationship
+`business-library/taxonomy/kpis.json` already documents in its own
+`description` field. The Core KPI set is for cross-business
+comparability; this domain (and `kpis.json`) is the extensible,
+business-specific catalog authored content draws from. Do not unify
+them.
+
 ## The generic entry architecture
 
 Every domain's entries share one shape, `KnowledgeEntry`

@@ -17,12 +17,16 @@
  * the mirror and the source fails `npm test`, not just this comment.
  *
  * This is DIFFERENT from business-library's 6-key `founderArchetypeSchema`
- * (Section 2, Founder Fit) and the results page's 5-key
- * "Primary/Overarching Archetype" (`OverarchingArchetypeKey`, also in
- * that same config.ts) — three separate archetype vocabularies now
- * exist in this codebase. See README.md → "Existing archetype
- * vocabularies" for the full comparison; this document does not merge
- * them.
+ * (Section 2, Founder Fit, superseded/legacy — see that section's own
+ * note) and the results page's 5-key "Primary/Overarching Archetype"
+ * (`OverarchingArchetypeKey`, also in that same config.ts) — three
+ * separate archetype vocabularies exist in this codebase. As of the
+ * Architecture Reconciliation sprint, the 5-key one is documented as
+ * DERIVED from this 7-key vocabulary (not merged with it — see
+ * `deriveOverarchingArchetype()` in
+ * `assessment/components/results/derive-overarching-archetype.ts`, not
+ * implemented yet). See README.md → "Existing archetype vocabularies"
+ * for the full, current picture.
  */
 export const ENTREPRENEUR_DNA_MATCH_KEYS = [
   "builder",

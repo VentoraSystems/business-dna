@@ -48,6 +48,31 @@ export const teamSizePreferenceSchema = z.enum(["solo", "small", "large"]);
 export const travelRequirementSchema = z.enum(["none", "occasional", "frequent"]);
 export const salesChannelSchema = z.enum(["b2b", "b2c", "both"]);
 export const onlineOfflineModeSchema = z.enum(["online", "offline", "hybrid"]);
+
+/**
+ * Mirrors `prisma/schema.prisma`'s `ResourceType` enum exactly (backs
+ * `BusinessResource.resourceType` — a real database column). Per the
+ * Architecture Reconciliation sprint's decision on the Resources
+ * taxonomy: these values are NOT being unified onto `features/resources`'
+ * canonical 16-category `ResourceCategoryKey`, because doing so would
+ * require a Prisma migration (a schema.prisma enum change plus a data
+ * migration for existing `BusinessResource` rows) — out of scope for a
+ * sprint whose brief was reconciling TypeScript-level vocabularies, not
+ * touching Prisma. Documented mapping onto `ResourceCategoryKey`
+ * instead, so the relationship is explicit even though the values stay
+ * independent:
+ *
+ *   - `"video"`     → `ResourceCategoryKey.YouTube`     (clean match)
+ *   - `"checklist"` → `ResourceCategoryKey.Checklists`  (clean match)
+ *   - `"article"`   → closest is `ResourceCategoryKey.Blogs` (not exact)
+ *   - `"guide"`      → closest is `ResourceCategoryKey.Documents` (not exact)
+ *   - `"playbook"`   → closest is `ResourceCategoryKey.Templates` (not exact)
+ *
+ * See `features/business-dna/types/sections/resources.ts` for the same
+ * taxonomy-unification decision applied where a Prisma migration wasn't
+ * required (that section's category list is now a genuine subset of
+ * `ResourceCategoryKey`, not just a documented mapping).
+ */
 export const resourceTypeSchema = z.enum(["article", "guide", "video", "playbook", "checklist"]);
 
 export type BusinessDifficulty = z.infer<typeof businessDifficultySchema>;

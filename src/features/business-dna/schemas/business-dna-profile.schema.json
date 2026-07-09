@@ -1307,11 +1307,13 @@
                   "stage": {
                     "type": "string",
                     "enum": [
-                      "idea",
+                      "preparation",
                       "validation",
                       "mvp",
-                      "firstClients",
-                      "stableRevenue",
+                      "launch",
+                      "firstCustomer",
+                      "productMarketFit",
+                      "growth",
                       "scaling",
                       "expansion",
                       "exit"

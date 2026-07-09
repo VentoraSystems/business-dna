@@ -11,6 +11,23 @@ for the Business Genome side of this relationship, and
 [`docs/domain/02-entrepreneur-dna-specification.md`](../../../docs/domain/02-entrepreneur-dna-specification.md)
 for the Entrepreneur DNA vocabulary Section 7 mirrors.
 
+## Architecture Reconciliation sprint — 5 decisions applied here
+
+This README's mapping table below reflects the outcome of a later
+"Architecture Reconciliation" sprint that resolved 5 vocabulary
+divergences accumulated across prior sprints: (1) the 5-key Primary
+Archetype is now documented as **derived** from the 7-key Entrepreneur
+DNA Match (row 7, and the archetype vocabularies section below); (2)
+Business Lifecycle (row 21) now **reuses** `features/roadmap`'s 10-stage
+vocabulary instead of its own 8-stage list; (3) the Assessment/Skill DNA
+scale difference (row 6) is recorded as **intentional, not a conflict**;
+(4) Resources (row 18) now **reuses** a subset of `features/resources`'
+16-category vocabulary instead of its own 7-value list; (5) the Core KPI
+set (row 19) is recorded as **intentionally layered**, not a conflict,
+against business-library's/Knowledge Engine's open-ended KPI catalogs.
+Only (2) and (4) changed any schema/type — (1), (3), and (5) are
+documentation-only decisions with zero code change.
+
 ## Architecture relationship (confirmed with the project owner)
 
 - **[`business-library/`](../../../business-library/README.md)** —
@@ -42,12 +59,12 @@ instruction not to silently resolve them.
 | # | Section | Reuses from business-library | Genuinely new | Naming/scale conflict to flag |
 |---|---|---|---|---|
 | 1 | Identity | `identity` (§1) — full reuse | — | — |
-| 2 | Founder Fit | `founderProfile` (§6) — full reuse, incl. 6-key `founderArchetypeSchema` | — | See row 7 — three archetype vocabularies now exist |
+| 2 | Founder Fit | `founderProfile` (§6) — full reuse, incl. 6-key `founderArchetypeSchema` | — | This 6-key vocabulary is superseded by the 7-key model in row 7, retained only for legacy migration — see "Existing archetype vocabularies" below |
 | 3 | Financial DNA | `budget` (§10), `financialInformation` (§24) | — | — |
 | 4 | Revenue DNA | `revenueSpeed` (§11), `profitMargin` (§12) | — | `financialInformation.revenueStreams` stays under Financial DNA, not duplicated here |
 | 5 | Lifestyle DNA | `lifestyle` (§21) — full reuse | — | — |
-| 6 | Skill DNA | 8 of 12 key *names* overlap `skillKeySchema` (sales, marketing, communication, negotiation, finance, programming, ai, management) | The 1-10 scale itself; 4 keys (leadership, operations, technology, automation) with no `skillKeySchema` equivalent | **Scale conflict, not silently resolved:** this section is 1-10; business-library's `requiredSkills`/`ratingScaleSchema` is 1-5. Same names, different scales — not rescaled. `skillKeySchema` also has 2 keys (`design`, `content`) with no Skill DNA equivalent |
-| 7 | Entrepreneur DNA Match | — | The section; its 7-key vocabulary mirrors (not imports) `DnaArchetypeKey` — assessment's results page config | **Three archetype vocabularies now exist** — see "Existing archetype vocabularies" below. Also: 1-100 score here vs. the results page's 0-100 |
+| 6 | Skill DNA | 8 of 12 key *names* overlap `skillKeySchema` (sales, marketing, communication, negotiation, finance, programming, ai, management) | The 1-10 scale itself; 4 keys (leadership, operations, technology, automation) with no `skillKeySchema` equivalent | **Intentional scale difference, not a conflict (Architecture Reconciliation, decision 3):** this section is 1-10; the Assessment's self-rating scale is 1-5. Assessment captures a user's self-rating at a coarser granularity appropriate for a 10-minute questionnaire; this section describes a business's requirements at finer granularity for matching precision. `features/matching-engine` is responsible for the 1-5→1-10 conversion layer when implemented — a known, deliberate future integration point, not something to rescale here. `skillKeySchema` also has 2 keys (`design`, `content`) with no Skill DNA equivalent — that partial name overlap is unaffected by this decision |
+| 7 | Entrepreneur DNA Match | — | The section; its 7-key vocabulary mirrors (not imports) `DnaArchetypeKey` — assessment's results page config | 1-100 score here vs. the results page's 0-100 — unaffected by this sprint. See "Existing archetype vocabularies" below for the resolved relationship between this 7-key vocabulary and the results page's 5-key Primary Archetype |
 | 8 | Business Characteristics | Individual flags loosely derive from `lifestyle`, `teamSize`, `scalability`, `automation`, `aiResistance`, `businessModel`, `budget` (see per-field docstrings in `types/sections/business-characteristics.ts`) | 4 flags outright (`requiresInventory`, `isSeasonalBusiness`, `isFranchisable`, `isRecessionResistant`); the 17-flag list itself | The epic named "17 boolean/enum flags" but didn't enumerate them — this implementation designed a reasonable 17; flagged as a judgement call, not verbatim spec |
 | 9 | Scalability DNA | `scalability` (§13) only | — | `growthPotential`/`scaling` deliberately live under Growth DNA (row 15) instead, since the epic lists the two as separate sections |
 | 10 | Risk DNA | `difficulty` (§9), `aiResistance` (§15), `risks[]` (§30) | — | — |
@@ -58,26 +75,30 @@ instruction not to silently resolve them.
 | 15 | Growth DNA | `growthPotential` (§23), `scaling` (§29) | — | See row 9 |
 | 16 | Success DNA | `advantages` (§31) | `benchmarkNotes` (narrative only, not a computed score) | — |
 | 17 | Blueprint References | `blueprintStructure` (§37) — full reuse | 4 `*TemplateId` reference fields | References business-engine's `BusinessBlueprintTemplate`/`BusinessMarketingTemplate`/`BusinessFinancialTemplate`/`BusinessLaunchTemplate` by id — does not reinvent their structures |
-| 18 | Resources | `translationKey` convention (business-engine `primitives.ts`); `ResourceType` cross-reference for 2 of 7 categories | The 7-category shape (`books`/`courses`/`youtube`/`communities`/`templates`/`documents`/`checklists`) | **Only partial overlap with `ResourceType`:** `checklists`→`checklist`, `youtube`→`video` map cleanly; `books`/`courses`/`communities`/`templates`/`documents` have no `ResourceType` equivalent |
-| 19 | KPIs | — (deliberately not merged with business-library's `kpis`) | The whole fixed 10-key enum (MRR/ARR/CAC/LTV/Churn/GrossMargin/NetMargin/LeadConversion/CloseRate/CustomerRetention) | **Genuinely different concepts, kept distinct:** business-library's `kpis` (§34) is an open-ended array; this is a fixed, closed list. Not one subsuming the other |
+| 18 | Resources | `translationKey` convention (business-engine `primitives.ts`); `ResourceType` cross-reference for 2 of 7 categories; **as of Architecture Reconciliation (decision 4), the 7-category list itself is now a typed subset of `features/resources`' canonical 16-category `ResourceCategoryKey`**, imported rather than redeclared | The wrapper shape (`books`/`courses`/`youtube`/`communities`/`templates`/`documents`/`checklists` — same 7 values as before, now sourced from `features/resources`) | **Reconciled — unified onto `features/resources`.** `checklists`→`checklist`, `youtube`→`video` still map cleanly onto business-engine's `ResourceType` (unchanged, see that enum's own docstring for why its values stayed independent — Prisma migration constraint); `books`/`courses`/`communities`/`templates`/`documents` still have no `ResourceType` equivalent |
+| 19 | KPIs | — (deliberately not merged with business-library's `kpis`) | The whole fixed 10-key enum (MRR/ARR/CAC/LTV/Churn/GrossMargin/NetMargin/LeadConversion/CloseRate/CustomerRetention) | **Layered by design, not a conflict (Architecture Reconciliation, decision 5):** this fixed, closed set is the comparable core used for cross-business analytics/matching; business-library's `kpis` (§34, open-ended array) and the Knowledge Engine's KPI domain are the extensible, business-specific metric catalog authored content can draw from on top of this core set. Not one subsuming the other — do not unify further |
 | 20 | AI Metadata | `matchingHints` = `matchingMetadata` (§38) — full reuse of its ~17 fields | 4 hint fields (`blueprintHints`, `marketingHints`, `financialHints`, `generationHints`) | `blueprintHints` conceptually overlaps `blueprintStructure.promptContext` (§37) — not hidden, flagged |
-| 21 | Business Lifecycle | `LocalizedText` (content fields) | The whole 8-stage lifecycle model | Closest business-library relative is `ninetyDayPlan` (§35), a single-business 90-day plan — not the same as this shared 8-stage model. Cross-references this feature's own KPI enum (row 19) rather than duplicating it |
+| 21 | Business Lifecycle | `LocalizedText` (content fields); **as of Architecture Reconciliation (decision 2), the stage vocabulary itself is now `features/roadmap`'s canonical 10-stage `RoadmapStageKey`**, re-exported under this section's original local names (`BusinessLifecycleStage`/`BUSINESS_LIFECYCLE_STAGE_ORDER`) rather than redeclared | The wrapper shape (`BusinessLifecycleStageProfile`/`BusinessLifecycle`) | **Reconciled — unified onto `features/roadmap`'s v2 stage list.** See `types/sections/business-lifecycle.ts`'s docstring for why the old "Idea" stage is a genuine loss (not an equivalent rename onto "Preparation"), and for the flagged cross-feature circular import this reconciliation introduced (verified safe via `npm run typecheck`/`npm run build`). Closest business-library relative is still `ninetyDayPlan` (§35), a single-business 90-day plan — not the same as this shared stage model. Cross-references this feature's own KPI enum (row 19) rather than duplicating it |
 
-## Existing archetype vocabularies (still unreconciled)
+## Existing archetype vocabularies (partially reconciled — Architecture Reconciliation, decision 1)
 
-Per row 7/2 above — **three separate archetype vocabularies now exist in
-this codebase**, from three different sprints:
+Per row 7/2 above — **three separate archetype vocabularies exist in
+this codebase**, from three different sprints. As of the Architecture
+Reconciliation sprint, two of the three now have a resolved
+relationship; the third remains genuinely separate by design:
 
 | Vocabulary | Keys | Defined in | Used for |
 |---|---|---|---|
-| Founder Fit (this feature, §2) / business-library's `founderArchetypeSchema` | 6: `theBuilder`, `theConnector`, `theOperator`, `theVisionary`, `theSpecialist`, `theHustler` | `business-library/schema.ts` | Which founder archetype(s) a Business DNA profile ideally fits |
-| **Entrepreneur DNA Match** (this feature, §7) | 7: `builder`, `visionary`, `operator`, `creator`, `seller`, `leader`, `analyst` | `types/sections/entrepreneur-dna-match.ts` (mirrors `DnaArchetypeKey`) | Scoring a *person* against the results page's 7 DNA Profile cards |
-| Primary/Overarching Archetype | 5: `systemsBuilder`, `visionaryOperator`, `creativeStrategist`, `growthArchitect`, `executionSpecialist` | `src/features/assessment/components/results/config.ts` (`OverarchingArchetypeKey`) | The results page's single headline archetype label |
+| Founder Fit (this feature, §2) / business-library's `founderArchetypeSchema` | 6: `theBuilder`, `theConnector`, `theOperator`, `theVisionary`, `theSpecialist`, `theHustler` | `business-library/schema.ts` | Which founder archetype(s) a Business DNA profile ideally fits. **Superseded by the 7-key Entrepreneur DNA model below; retained only for legacy migration** — see `business-library/README.md`'s "⚠️ Legacy Format" section. Not merged with either row below: this vocabulary describes what a *business* wants, the other two describe what a *person* is |
+| **Entrepreneur DNA Match** (this feature, §7) | 7: `builder`, `visionary`, `operator`, `creator`, `seller`, `leader`, `analyst` | `types/sections/entrepreneur-dna-match.ts` (mirrors `DnaArchetypeKey`) | Scoring a *person* against the results page's 7 DNA Profile cards. **Canonical** — this shape does not change |
+| Primary/Overarching Archetype | 5: `systemsBuilder`, `visionaryOperator`, `creativeStrategist`, `growthArchitect`, `executionSpecialist` | `src/features/assessment/components/results/config.ts` (`OverarchingArchetypeKey`) | The results page's single headline archetype label. **RECONCILED: no longer an independently-authored vocabulary** — it's now documented (`@derived` JSDoc on `OverarchingArchetypeKey`) as a classification computed FROM the 7 Entrepreneur DNA Match / `DnaArchetypeKey` dimension scores above, via `deriveOverarchingArchetype()` (`assessment/components/results/derive-overarching-archetype.ts`) — not implemented this sprint (throws `NotImplementedError`, same convention as matching-engine/explanation-engine), since the actual classification algorithm is scoring/matching work, out of scope here |
 
-This document does not merge them. See
+This sprint's decision: the 5-key row is a **derived view** of the 7-key
+row, not an independent taxonomy — but it does NOT merge the two into
+one vocabulary (they keep separate keys, copy, and components), and it
+does NOT touch the 6-key legacy row at all. See
 [`docs/domain/02-entrepreneur-dna-specification.md`](../../../docs/domain/02-entrepreneur-dna-specification.md)
-for the fuller discussion — reconciling these three (or deciding they
-should coexist) is a deliberate future decision.
+for the fuller discussion of all three.
 
 ## The generic vs. reused section shapes
 

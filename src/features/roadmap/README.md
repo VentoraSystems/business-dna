@@ -31,49 +31,47 @@ Business Library → Business DNA Profile → Matching Engine → Blueprint → 
                                                                                         ↑ this feature
 ```
 
-## KNOWN CONFLICT — three stage lists, still not merged
+## RESOLVED — business-dna's Business Lifecycle now reuses this feature's stage list
 
-This feature's stage list is now on its **second** revision (v1 → v2,
-see "Specification History" above), and remains **intentionally
-different** from business-dna's existing 8-stage `BusinessLifecycleStage`
-(`@/features/business-dna/types/sections/business-lifecycle.ts`), which
-was never touched or aliased. That's now a **three-way divergence** —
-Roadmap v1 → Roadmap v2 → business-dna's Business Lifecycle — and all
-three still await a future reconciliation decision; none of this sprint's
-changes attempt to resolve it.
+**Reconciled as of the Architecture Reconciliation sprint: Business DNA
+Profile's Business Lifecycle now uses the same 10-stage vocabulary as
+`features/roadmap`.** This section previously documented a three-way
+divergence (Roadmap v1 → Roadmap v2 → business-dna's own, separate
+8-stage `BusinessLifecycleStage`); that divergence is resolved, not left
+alongside this note. `features/business-dna/types/sections/business-lifecycle.ts`
+now re-exports this feature's `RoadmapStageKey`/`ROADMAP_STAGE_ORDER`
+under its original local names (`BusinessLifecycleStage`/
+`BUSINESS_LIFECYCLE_STAGE_ORDER`) instead of redeclaring an independent
+list — see that file's docstring for the full reasoning, including:
 
-| # | Roadmap **v1** (9 stages, superseded) | # | Roadmap **v2** (10 stages, current) | # | business-dna's `BusinessLifecycleStage` (existing, 8 stages) |
-|---|---|---|---|---|---|
-| 1 | Preparation | 1 | Preparation | — | *(no equivalent — new)* |
-| 2 | Validation | 2 | Validation | 2 | Validation |
-| 3 | MVP | 3 | MVP | 3 | MVP |
-| — | *(none)* | 4 | **Launch (NEW in v2)** | — | *(no equivalent)* |
-| 4 | First Client | 5 | **First Customer (renamed in v2)** | 4 | First Clients |
-| 5 | Product Market Fit | 6 | Product Market Fit | — | *(no equivalent — new; closest is "Stable Revenue" conceptually, not the same thing)* |
-| 6 | Growth | 7 | Growth | — | *(no equivalent — new; business-dna jumps straight from First Clients to Stable Revenue)* |
-| 7 | Scaling | 8 | Scaling | 6 | Scaling |
-| 8 | Expansion | 9 | Expansion | 7 | Expansion |
-| 9 | Exit (optional) | 10 | **Exit (standard, no longer optional in v2)** | 8 | Exit |
-| — | *(no equivalent)* | — | *(no equivalent)* | 1 | Idea |
-| — | *(no equivalent)* | — | *(no equivalent)* | 5 | Stable Revenue |
+- **"Idea" is a genuine loss, not a rename onto "Preparation."**
+  business-dna's old first stage, "Idea" (pure ideation, before any
+  concept is settled), has no equivalent in this feature's list —
+  "Preparation" describes active pre-launch work *after* a concept
+  exists. Adopting this feature's vocabulary means Business DNA
+  Profile's Business Lifecycle can no longer represent pure ideation as
+  its own stage — documented as a deliberate trade, not silently dropped.
+- **A flagged circular import.** `features/roadmap/types/reused.ts`
+  already imports `BusinessDnaKpiKey` FROM `features/business-dna`; now
+  `features/business-dna`'s Business Lifecycle section imports
+  `RoadmapStageKey` FROM `features/roadmap` too — the two features
+  import from each other (each side pulling in only the other's small,
+  static enum with no initialization-order dependency between them).
+  Verified safe via `npm run typecheck` and `npm run build`. This
+  reverses the usual layering (every other Business Assets feature only
+  imports FROM business-dna, never the other way around) — a deliberate,
+  narrow exception made for this reconciliation, not a general pattern
+  to repeat.
 
-None of the three lists is a strict subset/superset of another — they
-diverge in the early stages (business-dna has "Idea" before Validation;
-Roadmap has "Preparation" instead, and treats Validation as the true
-first checkpoint), in the launch transition (v2 inserts a distinct
-"Launch" checkpoint that neither v1 nor business-dna has), and in the
-middle stages (Roadmap splits out "Product Market Fit" and "Growth" as
-distinct checkpoints between First Customer and Scaling, where
-business-dna has one "Stable Revenue" stage covering that whole span).
-`kpis` on each `RoadmapStage` still reuses business-dna's fixed
-`BusinessDnaKpiKey` vocabulary — only the stage list itself is kept
-separate, in all three versions.
+v1's old 9-stage list (superseded by v2, see "Specification History"
+above) never had a business-dna equivalent either, so no further mapping
+is needed there.
 
 ## Reuse table
 
 | Section | Reuses from | Genuinely new | Conflict to flag |
 |---|---|---|---|
-| Stage list (`RoadmapStageKey`, v2: 10 stages) | — | The whole enum | See "KNOWN CONFLICT" above — deliberately not merged with business-dna's `BusinessLifecycleStage` (8 stages); this is now a three-way divergence (v1 → v2 → business-dna) |
+| Stage list (`RoadmapStageKey`, v2: 10 stages) | — | The whole enum | **Resolved** — see "RESOLVED" section above. `features/business-dna`'s Business Lifecycle now re-exports this enum rather than declaring its own; not a conflict any more |
 | Per-stage `objectives`/`deliverables`/`checklist`/`commonMistakes`/`successCriteria`/`aiRecommendations` | — | The whole shape | — |
 | Per-stage `kpis` | `BusinessDnaKpiKey` (business-dna's fixed enum) — same pattern as Blueprint's/Financial's/Marketing's KPI sections | Wrapper (`kpis: BusinessDnaKpiKey[]` per stage, not a document-level list) | — |
 | AI Metadata | Same *pattern* as the other Business Assets' AI Metadata | The field set itself | Independently defined, same reasoning as `features/blueprint`'s `BlueprintAiMetadata` |

@@ -2,15 +2,20 @@ import type { BusinessDnaKpiKey } from "./reused";
 
 /**
  * The Roadmap's own v2 stage model — 10 stages, officially superseding
- * v1's 9-stage list (see README.md's "Specification History" /
- * "KNOWN CONFLICT" section). Changes from v1: "Launch" inserted between
- * MVP and First Customer; "First Client" renamed to "First Customer";
- * "Exit" is no longer documented as optional — it's a standard stage
- * now, same as every other. Still deliberately NOT the same list as
- * business-dna's 8-stage `BusinessLifecycleStage`
- * (idea/validation/mvp/firstClients/stableRevenue/scaling/expansion/exit)
- * — see README.md's three-way comparison table (v1 → v2 → business-dna)
- * for the full mapping and the still-unresolved "not merged" decision.
+ * v1's 9-stage list (see README.md's "Specification History" section).
+ * Changes from v1: "Launch" inserted between MVP and First Customer;
+ * "First Client" renamed to "First Customer"; "Exit" is no longer
+ * documented as optional — it's a standard stage now, same as every
+ * other.
+ *
+ * RECONCILED (Architecture Reconciliation sprint): `features/business-dna`'s
+ * Business Lifecycle section no longer declares its own separate stage
+ * list — it now re-exports this enum under its original local names
+ * (`BusinessLifecycleStage`/`BUSINESS_LIFECYCLE_STAGE_ORDER`, see
+ * `@/features/business-dna/types/sections/business-lifecycle.ts`)
+ * instead of redeclaring one. See README.md's "RESOLVED" section for
+ * the full reasoning, including why business-dna's old "Idea" stage has
+ * no equivalent here (a documented, deliberate loss, not a rename).
  */
 export enum RoadmapStageKey {
   Preparation = "preparation",

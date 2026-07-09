@@ -111,6 +111,14 @@ individual dimensions compare, and how those comparisons combine into one
 number, are different questions that may evolve on different timelines —
 see "Where ML could replace parts of this" below.
 
+**Future responsibility, flagged (Architecture Reconciliation, decision
+3):** the Assessment's skill self-ratings are 1-5 while
+`features/business-dna`'s Skill DNA section describes a business's skill
+requirements on a 1-10 scale — an intentional difference in
+granularity, not an inconsistency. This engine is where the 1-5→1-10
+conversion layer belongs once real scoring logic exists; no such
+conversion exists yet.
+
 ## Rule system
 
 `rules/rule-types.ts` defines `MatchingRule` as **data, not code**: a

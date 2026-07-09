@@ -120,11 +120,13 @@
   },
   "businessLifecycle": {
     "stages": [
-      { "stage": "idea", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
+      { "stage": "preparation", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
       { "stage": "validation", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
       { "stage": "mvp", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
-      { "stage": "firstClients", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
-      { "stage": "stableRevenue", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
+      { "stage": "launch", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
+      { "stage": "firstCustomer", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
+      { "stage": "productMarketFit", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
+      { "stage": "growth", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
       { "stage": "scaling", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
       { "stage": "expansion", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
       { "stage": "exit", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] }

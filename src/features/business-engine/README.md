@@ -97,6 +97,23 @@ that work starts. The generated content itself gets stored on the existing
 yet created) — never on the template rows, which stay reusable across
 every user who gets matched to that `BusinessType`.
 
+## Resources taxonomy: `ResourceType` stays independent (Architecture Reconciliation, decision 4)
+
+`schemas/enums.ts`'s `resourceTypeSchema` (article/guide/video/playbook/
+checklist) mirrors `prisma/schema.prisma`'s `ResourceType` enum, which
+backs `BusinessResource.resourceType` — a real database column. A
+later-built feature, `features/resources`, is now the canonical,
+broader (16-category) taxonomy for "resources" across the app (see that
+feature's README) — `features/business-dna`'s own Resources section was
+unified onto it. `ResourceType` here was **not** unified the same way:
+changing its enum values would require a Prisma migration
+(`schema.prisma` change plus a data migration for existing
+`BusinessResource` rows), which is out of scope for a
+TypeScript-vocabulary reconciliation sprint. `schemas/enums.ts`'s
+`resourceTypeSchema` docstring documents the mapping onto
+`features/resources`' `ResourceCategoryKey` instead, so the relationship
+is explicit even though the values stay independent and unchanged.
+
 ## Repositories
 
 All four are in `repositories/`, each as an interface plus a

@@ -10,6 +10,17 @@ not extend its schema, and do not change its validation behavior. Each
 of those four files carries a `@deprecated` comment block pointing back
 here; nothing in their exported behavior has changed.
 
+Its `founderArchetypeSchema` (6-key: `theBuilder`/`theConnector`/
+`theOperator`/`theVisionary`/`theSpecialist`/`theHustler`) specifically
+is **superseded by the 7-key Entrepreneur DNA model** (`features/business-dna`'s
+Entrepreneur DNA Match section, mirroring `DnaArchetypeKey` in
+`assessment/components/results/config.ts`) — per the Architecture
+Reconciliation sprint's decision 1. It is retained only for legacy
+migration of the one existing business authored under it; its schema is
+unchanged by that decision (see `features/business-dna/README.md`'s
+"Existing archetype vocabularies" section for the full picture across
+all three archetype vocabularies).
+
 **All new content goes through the structure described below** —
 `business-library/technology/`, validated against
 [`features/business-dna`](../src/features/business-dna/README.md)'s
@@ -178,6 +189,21 @@ packages, however canonical, contribute 0.
   unchanged. Only validates `./json/*.json` against the deprecated
   `schema.ts`. Exists solely because the one legacy document is still
   there; do not point new content at it.
+
+## KPIs: layered by design, not a conflict (Architecture Reconciliation, decision 5)
+
+`taxonomy/kpis.json` (an open-ended catalog, sourced from
+`features/business-dna`'s fixed `BusinessDnaKpiKey`, per the file's own
+`description` field) and `features/business-dna`'s Core KPI set
+(§19 — MRR/ARR/CAC/LTV/Churn/GrossMargin/NetMargin/LeadConversion/
+CloseRate/CustomerRetention) are **intentionally layered, not competing
+vocabularies**: the Core KPI set is the fixed, comparable metric set
+used for cross-business analytics/matching; this folder's `kpis.json`
+(and the Knowledge Engine's KPI domain) are the extensible,
+business-specific metric catalog authored content can draw from on top
+of that core set. Do not unify them further — see
+`features/business-dna/README.md`'s mapping table, row 19, for the same
+language applied there.
 
 ## Best practices
 

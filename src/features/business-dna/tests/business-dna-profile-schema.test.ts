@@ -62,6 +62,49 @@ describe("businessDnaProfileSchema", () => {
     };
     expect(businessDnaProfileSchema.safeParse(invalid).success).toBe(false);
   });
+
+  it("has 10 businessLifecycle stages, reconciled onto features/roadmap's v2 vocabulary", () => {
+    expect(emptyTemplate.businessLifecycle.stages).toHaveLength(10);
+  });
+
+  it("rejects the pre-reconciliation 'idea' stage (no longer part of the shared vocabulary)", () => {
+    const invalid = {
+      ...emptyTemplate,
+      businessLifecycle: {
+        stages: [{ stage: "idea", objectives: [], kpis: [], commonMistakes: [], recommendedActions: [], recommendedResources: [] }],
+      },
+    };
+    expect(businessDnaProfileSchema.safeParse(invalid).success).toBe(false);
+  });
+
+  it("accepts the new 'launch' and 'firstCustomer' stages (reused from features/roadmap's RoadmapStageKey)", () => {
+    const valid = {
+      ...emptyTemplate,
+      businessLifecycle: {
+        stages: [
+          { stage: "launch", objectives: [], kpis: [], commonMistakes: [], recommendedActions: [], recommendedResources: [] },
+          { stage: "firstCustomer", objectives: [], kpis: [], commonMistakes: [], recommendedActions: [], recommendedResources: [] },
+        ],
+      },
+    };
+    expect(businessDnaProfileSchema.safeParse(valid).success).toBe(true);
+  });
+
+  it("rejects a Resources entry with a category outside this section's subset of features/resources' vocabulary", () => {
+    const invalid = {
+      ...emptyTemplate,
+      resources: { resources: [{ category: "software", translationKey: "resources.example" }] },
+    };
+    expect(businessDnaProfileSchema.safeParse(invalid).success).toBe(false);
+  });
+
+  it("accepts a Resources entry from this section's 7-category subset (now sourced from features/resources' ResourceCategoryKey)", () => {
+    const valid = {
+      ...emptyTemplate,
+      resources: { resources: [{ category: "books", translationKey: "resources.example" }] },
+    };
+    expect(businessDnaProfileSchema.safeParse(valid).success).toBe(true);
+  });
 });
 
 describe("businessDnaProfileCreateSchema", () => {

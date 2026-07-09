@@ -69,6 +69,16 @@ export const DNA_ARCHETYPE_ICONS: Record<DnaArchetypeKey, LucideIcon> = {
  * leads with. Do not confuse `OverarchingArchetypeKey` with
  * `DnaArchetypeKey`: they have different keys, different copy, and
  * different components (`PrimaryArchetypeCard` vs. `DnaProfileCards`).
+ *
+ * @derived — RECONCILED as of the Architecture Reconciliation sprint:
+ * a value of this type is no longer an independently-authored input.
+ * It's a classification COMPUTED FROM the 7 `DnaArchetypeKey` dimension
+ * scores above, by `deriveOverarchingArchetype()` in
+ * `./derive-overarching-archetype.ts` (not implemented yet — see that
+ * file). Never author an `OverarchingArchetypeKey` value directly;
+ * `MOCK_DNA_RESULTS.overarchingArchetype` (`./mock-data.ts`) is
+ * illustrative placeholder data standing in for what that function will
+ * eventually compute, not a real derivation.
  */
 export type OverarchingArchetypeKey =
   | "systemsBuilder"

@@ -350,15 +350,26 @@ runtime, not just documented here.
 
 ---
 
-## Existing archetype vocabularies (a documented inconsistency)
+## Existing archetype vocabularies (partially reconciled)
 
 Three separate "archetype" vocabularies exist in this codebase today,
-from three different sprints, for three different purposes. **None of
-them is derived from the fourteen dimensions above, none of them is
-consumed by the Matching Engine, and none of them formally reconciles
-with either of the other two.** This section records that honestly,
-per this canon's own "prefer an honest gap over a papered-over one"
-principle (Document 1) — it does not pick a winner.
+from three different sprints, for three different purposes. **A later
+"Architecture Reconciliation" sprint resolved the relationship between
+two of the three:** the Primary/Overarching Archetype (5-key) is now
+documented as a **derived** classification computed from the DNA
+Profile (7-key) dimension scores below, via a not-yet-implemented
+`deriveOverarchingArchetype()` (`assessment/components/results/derive-overarching-archetype.ts`)
+— see `features/business-dna/README.md`'s "Existing archetype
+vocabularies" section for the current, authoritative state. It is
+**still true** that no vocabulary here is consumed by the Matching
+Engine yet, and the Founder Archetype (6-key, business-library, legacy)
+remains genuinely separate — superseded by the 7-key DNA Profile model
+for new work, retained only for migrating the one existing legacy
+business. This section is not rewritten below to describe the sprint
+where the derivation relationship was decided (that sprint postdates
+this document) — treat `features/business-dna/README.md` as the
+up-to-date source for the resolved parts, and the table below as
+historical context for why three vocabularies exist at all.
 
 | Vocabulary | Values | Defined in | Used for |
 |---|---|---|---|

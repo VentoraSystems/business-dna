@@ -20,7 +20,16 @@ import { GROWTH_OPPORTUNITY_IDS, OPPORTUNITY_SAMPLE_IDS, STRENGTH_IDS } from "./
  */
 export interface MockDnaResults {
   primaryArchetype: DnaArchetypeKey;
-  /** The single overarching "Primary Archetype" label — see OverarchingArchetypeKey in ./config for why this is a separate taxonomy from `primaryArchetype` above. */
+  /**
+   * The single overarching "Primary Archetype" label — see
+   * OverarchingArchetypeKey in ./config for why this is a separate
+   * taxonomy from `primaryArchetype` above. `@derived`: in a real
+   * result this value would come from `deriveOverarchingArchetype()`
+   * (./derive-overarching-archetype.ts, not implemented yet), computed
+   * from `dnaProfile` below — never hand-picked. The value on
+   * `MOCK_DNA_RESULTS` below is illustrative placeholder data standing
+   * in for that future computation.
+   */
   overarchingArchetype: OverarchingArchetypeKey;
   compatibilityScore: number;
   confidenceScore: number;
