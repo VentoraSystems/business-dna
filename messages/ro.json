@@ -271,11 +271,153 @@
       "unanswered": "Fără răspuns"
     },
     "results": {
-      "title": "Îți construim profilul antreprenorial.",
-      "subtitle": "Potrivirile tale vor apărea aici imediat ce sunt gata — durează de obicei aproximativ un minut.",
-      "cardTitlePlaceholder": "Potrivire în curând",
-      "cardSubtitlePlaceholder": "Acest card va afișa o potrivire de afacere odată ce analiza este completă.",
-      "backToDashboard": "Înapoi la Panoul principal"
+      "hero": {
+        "eyebrow": "ADN-ul tău antreprenorial",
+        "matchLabel": "Compatibilitate",
+        "confidenceValue": "{value}% încredere",
+        "summary": "Pe baza răspunsurilor tale de până acum, arăți o aliniere puternică cu trăsăturile de tip {archetype} — confort cu incertitudinea, atracție către idei noi și preferință pentru mișcări îndrăznețe în locul celor sigure."
+      },
+      "dnaProfile": {
+        "sectionTitle": "Profilul tău ADN",
+        "sectionSubtitle": "Cum se poziționează răspunsurile tale pe toate cele șapte arhetipuri de fondator.",
+        "archetypes": {
+          "builder": {
+            "name": "Constructorul",
+            "description": "Atras de a livra lucruri concrete și de a itera în văzul tuturor."
+          },
+          "visionary": {
+            "name": "Vizionarul",
+            "description": "Vede încotro se îndreaptă o piață înainte ca aceasta să ajungă acolo."
+          },
+          "operator": {
+            "name": "Operatorul",
+            "description": "Transformă procese haotice în sisteme repetabile."
+          },
+          "creator": {
+            "name": "Creatorul",
+            "description": "Conduce prin idei originale, conținut și meșteșug."
+          },
+          "seller": {
+            "name": "Vânzătorul",
+            "description": "Energizat de a prezenta, negocia și încheia afaceri."
+          },
+          "leader": {
+            "name": "Liderul",
+            "description": "Adună oamenii în jurul unui obiectiv comun."
+          },
+          "analyst": {
+            "name": "Analistul",
+            "description": "Fundamentează deciziile pe date înainte de a se angaja."
+          }
+        }
+      },
+      "strengths": {
+        "sectionTitle": "Punctele tale forte",
+        "items": {
+          "strategicVision": "Viziune strategică — gândești în mod natural cu câțiva pași înainte.",
+          "adaptability": "Adaptabilitate — te ajustezi rapid când planurile se schimbă.",
+          "riskAppetite": "Apetit pentru risc — incertitudinea nu te oprește din a acționa.",
+          "clearCommunication": "Comunicare clară — faci ideile complexe ușor de urmărit.",
+          "fastLearning": "Învățare rapidă — asimilezi repede domenii noi."
+        }
+      },
+      "growth": {
+        "sectionTitle": "Oportunități de creștere",
+        "items": {
+          "delegation": "Delegare — cedarea responsabilității în loc să ții totul în propriile mâini.",
+          "financialDiscipline": "Disciplină financiară — urmărire mai riguroasă a bugetului și a cheltuielilor.",
+          "technicalDepth": "Profunzime tehnică — aprofundarea instrumentelor din spatele ideii.",
+          "consistentExecution": "Execuție constantă — continuarea dincolo de primul avânt de energie.",
+          "networkBuilding": "Construirea rețelei — investiție în relații înainte de a avea nevoie de ele."
+        }
+      },
+      "workStyle": {
+        "sectionTitle": "Stil de lucru",
+        "sectionSubtitle": "Cum tinzi să operezi zi de zi.",
+        "dimensions": {
+          "risk": {
+            "label": "Toleranță la risc",
+            "description": "Cât de confortabil iei decizii fără o certitudine deplină."
+          },
+          "leadership": {
+            "label": "Leadership",
+            "description": "Cât de natural preiei conducerea și îndrumi pe alții."
+          },
+          "communicationStyle": {
+            "label": "Comunicare",
+            "description": "Cum preferi să explici idei și să oferi feedback."
+          },
+          "technicalAbility": {
+            "label": "Abilitate tehnică",
+            "description": "Cât de confortabil lucrezi direct cu instrumente și sisteme tehnice."
+          },
+          "creativity": {
+            "label": "Creativitate",
+            "description": "Cât de des alegi o abordare nouă în locul uneia deja testate."
+          },
+          "automationAffinity": {
+            "label": "Afinitate pentru automatizare",
+            "description": "Cât de mult te bazezi pe instrumente și automatizare în locul efortului manual."
+          },
+          "businessExperience": {
+            "label": "Experiență în afaceri",
+            "description": "Câtă experiență practică aduci din afaceri sau roluri anterioare."
+          },
+          "timeAvailability": {
+            "label": "Timp disponibil",
+            "description": "Câte ore pe săptămână poți aloca realist chiar acum."
+          }
+        }
+      },
+      "opportunities": {
+        "sectionTitle": "Oportunități recomandate",
+        "sectionSubtitle": "O primă imagine a tipurilor de afaceri care s-ar putea potrivi profilului tău.",
+        "disclaimer": "Exemplu ilustrativ — potrivirile tale reale sunt calculate după ce evaluarea ta este procesată complet.",
+        "compatibilityLabel": "Compatibilitate",
+        "budgetLabel": "Buget",
+        "exploreButton": "Explorează afacerea",
+        "difficulty": {
+          "low": "Dificultate scăzută",
+          "medium": "Dificultate medie",
+          "high": "Dificultate ridicată"
+        },
+        "scalability": {
+          "low": "Scalabilitate scăzută",
+          "medium": "Scalabilitate medie",
+          "high": "Scalabilitate ridicată"
+        },
+        "revenueSpeed": {
+          "slow": "Viteză de venituri lentă",
+          "moderate": "Viteză de venituri moderată",
+          "fast": "Viteză de venituri rapidă"
+        },
+        "samples": {
+          "sample1": {
+            "name": "Aplicație marketplace de servicii locale",
+            "description": "Exemplu ilustrativ — conectează clienți din apropiere cu prestatori de servicii independenți."
+          },
+          "sample2": {
+            "name": "Cutie de abonament de nișă",
+            "description": "Exemplu ilustrativ — un produs cu venituri recurente, curatoriat pentru un public specific."
+          },
+          "sample3": {
+            "name": "Instrument SaaS B2B pentru fluxuri de lucru",
+            "description": "Exemplu ilustrativ — software care automatizează o sarcină repetitivă pentru alte afaceri."
+          }
+        }
+      },
+      "whyTheseMatches": {
+        "sectionTitle": "De ce aceste potriviri",
+        "body": "Aceste exemple placeholder au fost alese pentru a ilustra cum vor fi prezentate compatibilitatea, dificultatea și scalabilitatea odată ce potrivirea reală va fi implementată.",
+        "reasons": {
+          "reason1": "Profilul tău ADN înclină spre viziune și creativitate, ceea ce se potrivește de obicei cu afaceri rapide, orientate spre idei.",
+          "reason2": "Stilul tău de lucru arată o toleranță solidă la risc, ceea ce deschide ușa unor modele de afaceri mai puțin convenționale.",
+          "reason3": "Timpul disponibil și experiența ta în afaceri conturează cât de ambițios poate fi un punct de plecare."
+        }
+      },
+      "cta": {
+        "continueButton": "Continuă spre Panoul de Control"
+      }
     },
     "thinking": {
       "analyzingPersonality": "Analizăm personalitatea…",

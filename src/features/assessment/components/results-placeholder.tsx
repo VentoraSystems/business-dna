@@ -2,46 +2,57 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { Sparkles } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Skeleton } from "@/components/ui/skeleton";
+import { DnaResultsHero } from "./results/dna-results-hero";
+import { DnaProfileCards } from "./results/dna-profile-cards";
+import { StrengthsAndGrowth } from "./results/strengths-and-growth";
+import { WorkStyleCards } from "./results/work-style-cards";
+import { RecommendedOpportunities } from "./results/recommended-opportunities";
+import { WhyTheseMatches } from "./results/why-these-matches";
+import { WHY_MATCH_REASON_IDS } from "./results/config";
+import { MOCK_DNA_RESULTS } from "./results/mock-data";
 
+/**
+ * The full "Entrepreneur DNA Results" experience. Everything here reads
+ * from `MOCK_DNA_RESULTS` — a placeholder object, not the Matching Engine
+ * — until real assessment scoring and business matching exist.
+ */
 export function ResultsPlaceholder() {
   const t = useTranslations("assessment.results");
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 16 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4 }}
-      className="mx-auto max-w-2xl py-8 text-center"
-    >
-      <div className="mx-auto mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-accent/15 text-accent-foreground">
-        <Sparkles className="h-6 w-6" />
-      </div>
-      <h1 className="mb-3 text-3xl">{t("title")}</h1>
-      <p className="mb-10 text-muted-foreground">{t("subtitle")}</p>
+    <div className="mx-auto flex max-w-5xl flex-col gap-16 pb-16">
+      <DnaResultsHero
+        primaryArchetype={MOCK_DNA_RESULTS.primaryArchetype}
+        compatibilityScore={MOCK_DNA_RESULTS.compatibilityScore}
+        confidenceScore={MOCK_DNA_RESULTS.confidenceScore}
+      />
 
-      <div className="grid gap-4 text-left sm:grid-cols-3">
-        {[0, 1, 2].map((i) => (
-          <Card key={i}>
-            <CardContent className="space-y-3 pt-6">
-              <p className="text-sm font-semibold text-muted-foreground">
-                {t("cardTitlePlaceholder")}
-              </p>
-              <Skeleton className="h-3 w-full" />
-              <Skeleton className="h-3 w-5/6" />
-              <p className="pt-2 text-xs text-muted-foreground">{t("cardSubtitlePlaceholder")}</p>
-            </CardContent>
-          </Card>
-        ))}
-      </div>
+      <DnaProfileCards profile={MOCK_DNA_RESULTS.dnaProfile} />
 
-      <Button variant="secondary" className="mt-10" asChild>
-        <Link href="/dashboard">{t("backToDashboard")}</Link>
-      </Button>
-    </motion.div>
+      <StrengthsAndGrowth
+        strengths={MOCK_DNA_RESULTS.strengths}
+        growthOpportunities={MOCK_DNA_RESULTS.growthOpportunities}
+      />
+
+      <WorkStyleCards workStyle={MOCK_DNA_RESULTS.workStyle} />
+
+      <RecommendedOpportunities opportunities={MOCK_DNA_RESULTS.opportunities} />
+
+      <WhyTheseMatches reasons={[...WHY_MATCH_REASON_IDS]} />
+
+      <motion.div
+        initial={{ opacity: 0, y: 12 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.4 }}
+        className="flex justify-center"
+      >
+        <Button size="lg" asChild>
+          <Link href="/dashboard">{t("cta.continueButton")}</Link>
+        </Button>
+      </motion.div>
+    </div>
   );
 }

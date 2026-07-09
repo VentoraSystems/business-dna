@@ -271,11 +271,153 @@
       "unanswered": "Not answered"
     },
     "results": {
-      "title": "We're building your entrepreneurial profile.",
-      "subtitle": "Your matches will appear here once they're ready — this usually takes about a minute.",
-      "cardTitlePlaceholder": "Match coming soon",
-      "cardSubtitlePlaceholder": "This card will show a business match once analysis is complete.",
-      "backToDashboard": "Back to Mission Control"
+      "hero": {
+        "eyebrow": "Your Entrepreneur DNA",
+        "matchLabel": "Compatibility",
+        "confidenceValue": "{value}% confidence",
+        "summary": "Based on your answers so far, you show strong alignment with {archetype} traits — comfort with ambiguity, a pull toward new ideas, and a bias for bold moves over safe ones."
+      },
+      "dnaProfile": {
+        "sectionTitle": "Your DNA Profile",
+        "sectionSubtitle": "How your answers map across all seven founder archetypes.",
+        "archetypes": {
+          "builder": {
+            "name": "The Builder",
+            "description": "Drawn to shipping tangible things and iterating in public."
+          },
+          "visionary": {
+            "name": "The Visionary",
+            "description": "Sees where a market is headed before it gets there."
+          },
+          "operator": {
+            "name": "The Operator",
+            "description": "Turns messy processes into repeatable systems."
+          },
+          "creator": {
+            "name": "The Creator",
+            "description": "Leads with original ideas, content, and craft."
+          },
+          "seller": {
+            "name": "The Seller",
+            "description": "Energized by pitching, negotiating, and closing."
+          },
+          "leader": {
+            "name": "The Leader",
+            "description": "Rallies people around a shared goal."
+          },
+          "analyst": {
+            "name": "The Analyst",
+            "description": "Grounds decisions in data before committing."
+          }
+        }
+      },
+      "strengths": {
+        "sectionTitle": "Your Top Strengths",
+        "items": {
+          "strategicVision": "Strategic vision — you naturally think several moves ahead.",
+          "adaptability": "Adaptability — you adjust quickly when plans change.",
+          "riskAppetite": "Risk appetite — uncertainty doesn't stop you from moving.",
+          "clearCommunication": "Clear communication — you make complex ideas easy to follow.",
+          "fastLearning": "Fast learning — you pick up new domains quickly."
+        }
+      },
+      "growth": {
+        "sectionTitle": "Growth Opportunities",
+        "items": {
+          "delegation": "Delegation — handing off ownership instead of holding on to everything.",
+          "financialDiscipline": "Financial discipline — tighter tracking of budget and burn.",
+          "technicalDepth": "Technical depth — going deeper on the tools behind the idea.",
+          "consistentExecution": "Consistent execution — following through past the first burst of energy.",
+          "networkBuilding": "Network building — investing in relationships before you need them."
+        }
+      },
+      "workStyle": {
+        "sectionTitle": "Work Style",
+        "sectionSubtitle": "How you tend to operate day-to-day.",
+        "dimensions": {
+          "risk": {
+            "label": "Risk Tolerance",
+            "description": "How comfortable you are making decisions without full certainty."
+          },
+          "leadership": {
+            "label": "Leadership",
+            "description": "How naturally you take charge and direct others."
+          },
+          "communicationStyle": {
+            "label": "Communication",
+            "description": "How you prefer to explain ideas and give feedback."
+          },
+          "technicalAbility": {
+            "label": "Technical Ability",
+            "description": "Your comfort working directly with technical tools and systems."
+          },
+          "creativity": {
+            "label": "Creativity",
+            "description": "How often you default to a novel approach over a proven one."
+          },
+          "automationAffinity": {
+            "label": "Automation Affinity",
+            "description": "How much you lean on tools and automation instead of manual effort."
+          },
+          "businessExperience": {
+            "label": "Business Experience",
+            "description": "How much hands-on experience you bring from prior ventures or roles."
+          },
+          "timeAvailability": {
+            "label": "Time Availability",
+            "description": "How many hours a week you can realistically commit right now."
+          }
+        }
+      },
+      "opportunities": {
+        "sectionTitle": "Recommended Opportunities",
+        "sectionSubtitle": "A first look at the kinds of businesses that could fit your profile.",
+        "disclaimer": "Illustrative example — your real matches are calculated once your assessment is fully processed.",
+        "compatibilityLabel": "Compatibility",
+        "budgetLabel": "Budget",
+        "exploreButton": "Explore Business",
+        "difficulty": {
+          "low": "Low difficulty",
+          "medium": "Medium difficulty",
+          "high": "High difficulty"
+        },
+        "scalability": {
+          "low": "Low scalability",
+          "medium": "Medium scalability",
+          "high": "High scalability"
+        },
+        "revenueSpeed": {
+          "slow": "Slow revenue speed",
+          "moderate": "Moderate revenue speed",
+          "fast": "Fast revenue speed"
+        },
+        "samples": {
+          "sample1": {
+            "name": "Local Service Marketplace App",
+            "description": "Illustrative example — connects nearby customers with independent service providers."
+          },
+          "sample2": {
+            "name": "Niche Subscription Box",
+            "description": "Illustrative example — a recurring-revenue product curated for a specific audience."
+          },
+          "sample3": {
+            "name": "B2B Workflow SaaS Tool",
+            "description": "Illustrative example — software that automates a repetitive task for other businesses."
+          }
+        }
+      },
+      "whyTheseMatches": {
+        "sectionTitle": "Why These Matches",
+        "body": "These placeholder examples were chosen to illustrate how compatibility, difficulty, and scalability will be presented once real matching is in place.",
+        "reasons": {
+          "reason1": "Your DNA profile leans toward vision and creativity, which tends to fit fast-moving, idea-driven businesses.",
+          "reason2": "Your work style shows solid risk tolerance, which opens the door to less conventional business models.",
+          "reason3": "Your available time and business experience shape how ambitious a starting point makes sense."
+        }
+      },
+      "cta": {
+        "continueButton": "Continue to Mission Control"
+      }
     },
     "thinking": {
       "analyzingPersonality": "Analyzing personality…",
