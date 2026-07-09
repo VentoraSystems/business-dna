@@ -701,7 +701,8 @@
             "travel": "Travel & hospitality",
             "sustainability": "Sustainability",
             "entertainment": "Entertainment",
-            "homeServices": "Home services"
+            "homeServices": "Home services",
+            "professionalServices": "Professional services"
           }
         },
         "businessModels": {
@@ -2707,6 +2708,1822 @@
         },
         "aiMetadata": {
           "generationHints": "Keep all guidance at the level of running/growing the practice — never give specific tax advice for an end client's actual return."
+        }
+      }
+    },
+    "lawFirm": {
+      "businessDna": {
+        "resources": {
+          "course1": "Course: Continuing Legal Education (CLE) business-law track",
+          "community1": "Community: Local bar association small-firm section",
+          "book1": "Book: \"The Path to Profitability for Small Law Firms\" by Ed Wesemann",
+          "checklist1": "Checklist: New-matter intake and conflict-check checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast assumes billable-hour capacity is the primary constraint until a second attorney is added."
+        },
+        "breakEven": {
+          "notes": "Structural estimate only — actual break-even depends on how quickly flat-fee volume builds."
+        },
+        "grossMargin": {
+          "notes": "High margin typical of a lean solo practice with low fixed overhead."
+        },
+        "netMargin": {
+          "notes": "After malpractice insurance, bar dues, and software costs."
+        },
+        "scenarios": {
+          "conservative": "A handful of flat-fee clients, no retainer clients yet.",
+          "expected": "A mix of flat-fee document work and 8-10 general-counsel retainer clients.",
+          "optimistic": "Full billable capacity plus 15+ retainer clients."
+        },
+        "risks": {
+          "risk1": "Revenue is hard-capped by billable hours until a second attorney is added.",
+          "risk2": "A malpractice claim, even if unsuccessful, can be costly and time-consuming to defend."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as capacity-constrained by billable hours, not infinitely scalable."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Contracts that hold up, not just contracts that close — practical business law for founders and small companies.",
+          "category": "Boutique business & commercial law practice"
+        },
+        "brandPromise": "A contract you can actually rely on, drafted by someone who carries the liability for getting it right.",
+        "uvp": {
+          "statement": "Bar-certified, malpractice-insured business law with flat, predictable pricing for standard documents.",
+          "diff1": "Flat-fee pricing for standardized documents",
+          "diff2": "Bar-certified with full malpractice coverage"
+        },
+        "icp": {
+          "description": "Startups and small businesses (2-50 employees) needing contracts, formation documents, and ongoing legal guidance without a full-time in-house counsel.",
+          "firmographics": "Early-to-growth-stage companies with recurring contract and compliance needs."
+        },
+        "personas": {
+          "persona1": {
+            "name": "First-time startup founder",
+            "description": "Founder who's never had a lawyer before and needs formation and founder-agreement documents."
+          },
+          "persona2": {
+            "name": "Growing small-business owner",
+            "description": "Owner whose contract volume has outgrown ad-hoc, unreviewed templates."
+          }
+        },
+        "painPoints": {
+          "point1": "Using unreviewed online contract templates that may not hold up if disputed.",
+          "point2": "Not knowing how much a legal matter will cost before starting."
+        },
+        "outcomes": {
+          "outcome1": "Confidence that contracts are enforceable and properly protect the business.",
+          "outcome2": "Predictable legal costs instead of an open-ended hourly bill."
+        },
+        "messaging": {
+          "core": "Stop guessing at your contracts. Get ones that actually hold up, for a price you know upfront.",
+          "support1": "Bar-certified and malpractice-insured, not a template mill."
+        },
+        "brandVoice": {
+          "tone": "Precise, measured, and confidence-inspiring.",
+          "attr1": "Precise",
+          "attr2": "Trustworthy"
+        },
+        "contentPillars": {
+          "pillar1": "Contract pitfalls founders commonly miss",
+          "pillar2": "Business-formation fundamentals"
+        },
+        "channelStrategy": "Referrals from accountants and consultants are primary; practical contract-law content builds secondary awareness; speaking at small-business events is experimental.",
+        "community": {
+          "description": "A referral relationship with accountants and business consultants who encounter legal needs they can't address themselves.",
+          "platform1": "Local bar association small-firm section"
+        },
+        "leadMagnets": {
+          "magnet1": "Free initial consultation and conflict check"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Referral introduction",
+            "description": "An accountant or consultant makes the introduction."
+          },
+          "stage2": {
+            "name": "Initial consultation",
+            "description": "Free consultation and conflict check."
+          },
+          "stage3": {
+            "name": "Engagement proposal",
+            "description": "A flat-fee or retainer engagement proposal."
+          }
+        },
+        "retention": {
+          "tactic1": "Quarterly general-counsel check-in calls included in every retainer."
+        },
+        "analytics": {
+          "metric1": "Consultation-to-engagement conversion rate"
+        },
+        "aiMetadata": {
+          "generationHints": "Never generate urgency-driven legal-scare messaging — this audience responds to precision and trust, not fear."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Set up malpractice insurance and practice-management software."
+          },
+          "deliverables": {
+            "0": "Active malpractice policy and configured trust-accounting software."
+          },
+          "checklist": {
+            "0": "Confirm malpractice coverage is active before accepting any client."
+          },
+          "commonMistakes": {
+            "0": "Underestimating malpractice insurance costs when budgeting."
+          },
+          "successCriteria": {
+            "0": "Malpractice insurance and trust accounting are both active."
+          },
+          "aiRecommendations": {
+            "0": "Confirm bar standing and insurance are both active before any marketing goes out."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Complete the first 5-10 flat-fee document engagements."
+          },
+          "deliverables": {
+            "0": "A reviewed set of standard document templates."
+          },
+          "checklist": {
+            "0": "Run a conflict-of-interest check before every engagement."
+          },
+          "commonMistakes": {
+            "0": "Skipping the conflict check for early, informal clients."
+          },
+          "successCriteria": {
+            "0": "10 flat-fee engagements completed without a conflict issue."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted first-pass review consistently, but always finish with a full attorney review."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardize the flat-fee document templates."
+          },
+          "deliverables": {
+            "0": "A template library for the most common document types."
+          },
+          "checklist": {
+            "0": "Store every reviewed template centrally for reuse."
+          },
+          "commonMistakes": {
+            "0": "Redrafting each document from scratch."
+          },
+          "successCriteria": {
+            "0": "Every new flat-fee engagement starts from a reviewed template."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted contract review to flag deviations from the standard template faster."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Announce the practice to the referral network of accountants and consultants."
+          },
+          "deliverables": {
+            "0": "Updated professional profiles and referral-partner outreach."
+          },
+          "checklist": {
+            "0": "Confirm trust-accounting setup before accepting any retainer funds."
+          },
+          "commonMistakes": {
+            "0": "Launching before trust-accounting software is properly configured."
+          },
+          "successCriteria": {
+            "0": "First referral-network introduction completed."
+          },
+          "aiRecommendations": {
+            "0": "Personalize referral-partner outreach based on their typical client's legal needs."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Deliver the first general-counsel retainer engagement."
+          },
+          "deliverables": {
+            "0": "Signed retainer agreement and completed first-quarter deliverables."
+          },
+          "checklist": {
+            "0": "Charge the full retainer rate even for the first client."
+          },
+          "commonMistakes": {
+            "0": "Underpricing the retainer to win the first client."
+          },
+          "successCriteria": {
+            "0": "First retainer client renews after the initial term."
+          },
+          "aiRecommendations": {
+            "0": "Set automated quarterly check-in reminders from the start of the retainer."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach a stable mix of retainer and flat-fee clients."
+          },
+          "deliverables": {
+            "0": "A documented practice-area qualification step for inquiries."
+          },
+          "checklist": {
+            "0": "Qualify inquiries against the firm's core practice areas before scheduling a consultation."
+          },
+          "commonMistakes": {
+            "0": "Accepting every inquiry regardless of practice-area fit."
+          },
+          "successCriteria": {
+            "0": "Revenue reaches the founder's target monthly income range."
+          },
+          "aiRecommendations": {
+            "0": "Route inquiries outside the core practice areas to a referral partner automatically."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Grow the general-counsel retainer base toward the milestone target."
+          },
+          "deliverables": {
+            "0": "Weekly billable-capacity tracking in place."
+          },
+          "checklist": {
+            "0": "Track weekly billable capacity to know when to bring on help."
+          },
+          "commonMistakes": {
+            "0": "Letting billable capacity max out without a plan to add help."
+          },
+          "successCriteria": {
+            "0": "Retainer client count reaches the milestone target."
+          },
+          "aiRecommendations": {
+            "0": "Flag capacity constraints automatically once utilization crosses a set threshold."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Hire the first associate attorney."
+          },
+          "deliverables": {
+            "0": "A documented onboarding and review process for the associate."
+          },
+          "checklist": {
+            "0": "Co-review the associate's early drafts closely for at least one quarter."
+          },
+          "commonMistakes": {
+            "0": "Handing off client relationships to the associate too abruptly."
+          },
+          "successCriteria": {
+            "0": "Associate independently handles at least 10 client matters."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted research to help the associate ramp up on precedent faster."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Expand into an adjacent practice area, such as employment-policy drafting."
+          },
+          "deliverables": {
+            "0": "Completed continuing education in the new practice area."
+          },
+          "checklist": {
+            "0": "Complete continuing education in the new area before marketing it."
+          },
+          "commonMistakes": {
+            "0": "Marketing a new practice area before building real depth in it."
+          },
+          "successCriteria": {
+            "0": "First client signed in the new practice area."
+          },
+          "aiRecommendations": {
+            "0": "Track which referral sources produce the best-fit clients for the new practice area."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Prepare the client book and matter files for a clean transition to an acquiring firm."
+          },
+          "deliverables": {
+            "0": "Standardized, complete matter files for every client."
+          },
+          "checklist": {
+            "0": "Confirm every matter file is organized consistently before due diligence."
+          },
+          "commonMistakes": {
+            "0": "Matter files organized inconsistently across clients."
+          },
+          "successCriteria": {
+            "0": "Client book and matter files transfer cleanly to a new owner."
+          },
+          "aiRecommendations": {
+            "0": "Use retainer-renewal history as evidence of client-relationship durability for buyers."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Growth is capacity-constrained by billable hours — do not suggest tactics that assume infinite scale before a second attorney exists."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The Path to Profitability for Small Law Firms",
+          "description": "Ed Wesemann's practical guide to running a lean, profitable small practice."
+        },
+        "item2": {
+          "title": "Continuing Legal Education (CLE) business-law track",
+          "description": "Mandatory ongoing education to maintain bar standing and stay current."
+        },
+        "item3": {
+          "title": "Local bar association small-firm section",
+          "description": "Peer network and referral source for solo and small-firm practitioners."
+        },
+        "item4": {
+          "title": "The Lawyerist Podcast",
+          "description": "Practice-management interviews aimed at small and solo law firms."
+        },
+        "item5": {
+          "title": "Local bar association regulatory-update bulletin",
+          "description": "Bar and regulatory change updates for practicing attorneys."
+        },
+        "item6": {
+          "title": "Clio",
+          "description": "The core practice-management platform for matter tracking and billing."
+        },
+        "item7": {
+          "title": "LawPay",
+          "description": "Trust-accounting-compliant payment processing built for law firms."
+        },
+        "item8": {
+          "title": "AI-assisted contract review and redlining",
+          "description": "Speeds up first-pass review, always followed by full attorney review."
+        },
+        "item9": {
+          "title": "Bar admission and good standing",
+          "description": "The foundational credential this practice is built on."
+        },
+        "item10": {
+          "title": "State bar annual small-firm conference",
+          "description": "Annual gathering for solo and small-firm practice management topics."
+        },
+        "item11": {
+          "title": "Bar association mentor-matching program",
+          "description": "Pairs new solo practitioners with an experienced small-firm mentor."
+        },
+        "item12": {
+          "title": "New-matter intake and conflict-check checklist",
+          "description": "Ensures every new matter clears a conflict check before work begins."
+        },
+        "aiMetadata": {
+          "generationHints": "Favor bar-credibility and malpractice-risk-management resources over generic small-business content."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Accountants and consultants regularly hit legal questions they can't answer — a reciprocal referral relationship with them is an underused pipeline."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A single missed deadline on a time-sensitive filing can trigger a malpractice claim regardless of the quality of the underlying work."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Billing purely by the hour for standardized work that clients would rather pay a flat fee for."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "A free initial consultation converts referral leads faster than any advertising, especially when paired with a clear flat-fee menu."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Track weekly billable-capacity utilization so hiring the next attorney is a planned decision, not a reactive scramble."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Standardize matter-file organization from the very first client — it pays off at tax time, at audit time, and at exit."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Firms that publish a clear flat-fee menu close more consultations than those that only quote hourly rates."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Most small-business clients don't leave over fees — they leave over slow response times to simple questions."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Malpractice insurance premiums rise as practice areas expand — budget for it before adding a new one."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Demand for flat-fee, predictable-pricing legal services is rising faster than demand for traditional hourly billing."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A solo business-law practice grew to 20 general-counsel retainer clients in 3 years purely through accountant and consultant referrals."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A firm that took on too many hourly clients without capacity planning missed deadlines and faced a malpractice complaint within its first year."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Can I run a boutique business-law practice remotely?",
+            "answer": "Largely yes — most document work and client meetings can be done remotely, with occasional in-person appearances as needed."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "AI contract-review tools will make small business-law practices obsolete.",
+            "fact": "AI speeds up first-pass review, but the attorney's judgment, liability, and signature remain the actual product clients are paying for."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Charge the full rate even for the first client of a new service line — underpricing early sets a hard-to-reverse expectation."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep all guidance at the level of running/growing the firm — never give specific legal advice for an end client's actual matter."
+        }
+      }
+    },
+    "hrConsultancy": {
+      "businessDna": {
+        "resources": {
+          "course1": "Course: SHRM Certified Professional (SHRM-CP) certification program",
+          "community1": "Community: Society for Human Resource Management (SHRM) local chapter",
+          "book1": "Book: \"The Progress Principle\" by Teresa Amabile & Steven Kramer",
+          "checklist1": "Checklist: New-client HR audit checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast assumes gradual retainer growth alongside less predictable project-based revenue."
+        },
+        "breakEven": {
+          "notes": "Structural estimate only — actual break-even depends on how quickly retainer trust builds."
+        },
+        "grossMargin": {
+          "notes": "Estimate accounting for HRIS software and insurance costs."
+        },
+        "netMargin": {
+          "notes": "After certification renewal, insurance, and software subscriptions."
+        },
+        "scenarios": {
+          "conservative": "A few project-based clients, no standing retainers yet.",
+          "expected": "5-6 fractional-HR retainer clients plus occasional project work.",
+          "optimistic": "8+ retainer clients plus a steady training and workshop pipeline."
+        },
+        "risks": {
+          "risk1": "HR spend is often cut early during a client's budget downturn.",
+          "risk2": "A mishandled sensitive employee-relations matter can end a retainer relationship abruptly."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as a blend of steady retainer growth and lumpier, less predictable project fees."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "The HR department you don't have to hire full-time — fractional HR support for growing small businesses.",
+          "category": "Fractional HR consultancy"
+        },
+        "brandPromise": "HR expertise on tap, without the overhead of a full-time hire.",
+        "uvp": {
+          "statement": "SHRM-certified fractional HR support, priced as a retainer instead of a full-time salary.",
+          "diff1": "SHRM-CP certified",
+          "diff2": "Fractional pricing — a fraction of a full-time HR hire"
+        },
+        "icp": {
+          "description": "Small businesses (10-75 employees) that have outgrown ad-hoc HR handling but aren't ready for a full-time HR hire.",
+          "firmographics": "Growing companies with no dedicated HR function yet."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Founder wearing the HR hat",
+            "description": "Founder handling HR themselves and increasingly overwhelmed by it."
+          },
+          "persona2": {
+            "name": "Operations lead facing a people problem",
+            "description": "Ops lead who just hit their first serious employee-relations issue and has no HR playbook."
+          }
+        },
+        "painPoints": {
+          "point1": "No documented HR policies, leaving the business exposed on compliance basics.",
+          "point2": "Feeling out of their depth on a sensitive employee-relations issue."
+        },
+        "outcomes": {
+          "outcome1": "A documented employee handbook and clear policies in place.",
+          "outcome2": "Confidence in how to handle the next difficult employee situation."
+        },
+        "messaging": {
+          "core": "Get real HR expertise without the full-time salary — on call for exactly the situations that need it.",
+          "support1": "SHRM-certified, not a generalist consultant guessing at HR."
+        },
+        "brandVoice": {
+          "tone": "Warm but authoritative.",
+          "attr1": "Empathetic",
+          "attr2": "Grounded"
+        },
+        "contentPillars": {
+          "pillar1": "Common HR mistakes small businesses make",
+          "pillar2": "Employee-policy fundamentals"
+        },
+        "channelStrategy": "Referrals from accountants and consultants are primary; practical HR content builds secondary awareness; LinkedIn thought leadership is experimental.",
+        "community": {
+          "description": "A referral relationship with accountants and business consultants whose clients start asking HR questions they can't answer.",
+          "platform1": "SHRM local chapter"
+        },
+        "leadMagnets": {
+          "magnet1": "Free HR-compliance mini-audit"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Referral introduction",
+            "description": "An accountant or consultant makes the introduction."
+          },
+          "stage2": {
+            "name": "HR audit",
+            "description": "A needs assessment of current HR gaps."
+          },
+          "stage3": {
+            "name": "Retainer or project proposal",
+            "description": "A tiered retainer or defined-scope project proposal."
+          }
+        },
+        "retention": {
+          "tactic1": "Quarterly compliance check-in calls included in every retainer."
+        },
+        "analytics": {
+          "metric1": "HR-audit-to-retainer conversion rate"
+        },
+        "aiMetadata": {
+          "generationHints": "Keep messaging empathetic and non-alarmist — this audience is often already anxious about a people problem."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Obtain SHRM-CP certification and set up professional liability insurance."
+          },
+          "deliverables": {
+            "0": "Active certification and insurance policy."
+          },
+          "checklist": {
+            "0": "Confirm liability insurance is active before taking on any client."
+          },
+          "commonMistakes": {
+            "0": "Skipping professional liability insurance to save money early."
+          },
+          "successCriteria": {
+            "0": "Certification and insurance are both active."
+          },
+          "aiRecommendations": {
+            "0": "Get SHRM-CP certified before marketing HR-audit services broadly."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Complete HR audits and initial policy work for 3-5 early clients."
+          },
+          "deliverables": {
+            "0": "Documented scope and deliverables for each early engagement."
+          },
+          "checklist": {
+            "0": "Define a clear, time-boxed scope even for discounted early engagements."
+          },
+          "commonMistakes": {
+            "0": "Giving away extensive free work without a clear scope."
+          },
+          "successCriteria": {
+            "0": "At least 3 completed HR audits with documented findings."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted policy drafting to speed up the first version, always followed by a full human review."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardize the HR-audit and handbook-drafting workflow."
+          },
+          "deliverables": {
+            "0": "A reusable HR-audit and handbook template library."
+          },
+          "checklist": {
+            "0": "Store every reviewed template centrally for reuse."
+          },
+          "commonMistakes": {
+            "0": "Rebuilding the handbook template from scratch for every client."
+          },
+          "successCriteria": {
+            "0": "Every new engagement starts from a reviewed template."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted job-description drafting to speed up a common, lower-risk deliverable."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Announce the consultancy to the referral network of accountants and consultants."
+          },
+          "deliverables": {
+            "0": "A published tiered retainer pricing structure."
+          },
+          "checklist": {
+            "0": "Publish clear retainer pricing before marketing broadly."
+          },
+          "commonMistakes": {
+            "0": "Launching before a clear retainer pricing structure exists."
+          },
+          "successCriteria": {
+            "0": "First referral-network introduction completed."
+          },
+          "aiRecommendations": {
+            "0": "Personalize referral-partner outreach based on the typical HR gaps their clients face."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Deliver the first HR audit and a signed retainer agreement."
+          },
+          "deliverables": {
+            "0": "Signed retainer agreement and a completed first-month deliverable."
+          },
+          "checklist": {
+            "0": "Set clear response-time expectations with the first retainer client."
+          },
+          "commonMistakes": {
+            "0": "Underscoping the retainer to win the first client."
+          },
+          "successCriteria": {
+            "0": "First client renews the retainer past the initial term."
+          },
+          "aiRecommendations": {
+            "0": "Set automated quarterly compliance check-in reminders from the start."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach a stable base of retainer clients covering the target monthly income."
+          },
+          "deliverables": {
+            "0": "A documented culture-fit qualification step for the HR audit."
+          },
+          "checklist": {
+            "0": "Qualify prospects on culture fit during the HR-audit conversation."
+          },
+          "commonMistakes": {
+            "0": "Taking on clients whose culture doesn't fit the consultancy's approach."
+          },
+          "successCriteria": {
+            "0": "Revenue reaches the founder's target monthly income range."
+          },
+          "aiRecommendations": {
+            "0": "Flag likely culture-fit mismatches early based on audit responses."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Grow the retainer base toward the milestone target."
+          },
+          "deliverables": {
+            "0": "A protected weekly calendar block for existing retainer clients."
+          },
+          "checklist": {
+            "0": "Protect a fixed weekly block for existing clients before booking new consultations."
+          },
+          "commonMistakes": {
+            "0": "Neglecting existing retainer clients while chasing new project work."
+          },
+          "successCriteria": {
+            "0": "Retainer client count reaches the milestone target."
+          },
+          "aiRecommendations": {
+            "0": "Flag retainer clients who haven't been contacted recently for a proactive check-in."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Hire the first associate HR consultant."
+          },
+          "deliverables": {
+            "0": "A documented onboarding and co-handling plan for sensitive cases."
+          },
+          "checklist": {
+            "0": "Co-handle sensitive client cases with the associate for the first two quarters."
+          },
+          "commonMistakes": {
+            "0": "Handing off sensitive employee-relations clients too abruptly."
+          },
+          "successCriteria": {
+            "0": "Associate independently manages at least 5 client relationships."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted drafting to help the associate ramp up on policy work faster."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Add a training and workshop service line for common HR topics."
+          },
+          "deliverables": {
+            "0": "Customized workshop content for at least 2 client industries."
+          },
+          "checklist": {
+            "0": "Customize workshop content per client industry before delivering it."
+          },
+          "commonMistakes": {
+            "0": "Building generic workshop content instead of tailoring it to client industries."
+          },
+          "successCriteria": {
+            "0": "First workshop delivered and booked for a second client."
+          },
+          "aiRecommendations": {
+            "0": "Track which workshop topics generate the most follow-up retainer interest."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Package the retainer client book and documented processes for acquisition."
+          },
+          "deliverables": {
+            "0": "Every client interaction and decision rationale logged in a shared system."
+          },
+          "checklist": {
+            "0": "Confirm client history is documented, not founder-dependent, before due diligence."
+          },
+          "commonMistakes": {
+            "0": "Keeping client relationship history undocumented and founder-dependent."
+          },
+          "successCriteria": {
+            "0": "Client book and documented processes transfer cleanly to a new owner."
+          },
+          "aiRecommendations": {
+            "0": "Use retainer-renewal history as evidence of client-relationship durability for buyers."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Growth depends on trust built over time — do not suggest tactics that assume fast, transactional client acquisition."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The Progress Principle",
+          "description": "Teresa Amabile and Steven Kramer on what actually motivates employees day to day."
+        },
+        "item2": {
+          "title": "SHRM Certified Professional (SHRM-CP) Program",
+          "description": "The core credential clients look for when vetting an HR consultant."
+        },
+        "item3": {
+          "title": "Society for Human Resource Management (SHRM)",
+          "description": "The main professional association and local-chapter network for HR practitioners."
+        },
+        "item4": {
+          "title": "HR Happy Hour Podcast",
+          "description": "Practical HR practice-management and trends discussion for practitioners."
+        },
+        "item5": {
+          "title": "SHRM HR Daily newsletter",
+          "description": "Daily employment-law and HR regulatory updates."
+        },
+        "item6": {
+          "title": "BambooHR",
+          "description": "A core HRIS platform recommended for small-business clients."
+        },
+        "item7": {
+          "title": "Lattice",
+          "description": "Performance-management software for clients building out review processes."
+        },
+        "item8": {
+          "title": "AI-assisted policy and job-description drafting",
+          "description": "Speeds up first-draft documents, always followed by full human review."
+        },
+        "item9": {
+          "title": "SHRM Certified Professional (SHRM-CP)",
+          "description": "The credential this practice is built around."
+        },
+        "item10": {
+          "title": "SHRM Annual Conference & Expo",
+          "description": "The main annual gathering for HR practitioners and consultants."
+        },
+        "item11": {
+          "title": "SHRM local-chapter mentor program",
+          "description": "Pairs new HR consultants with an experienced practice-owner mentor."
+        },
+        "item12": {
+          "title": "New-client HR audit checklist",
+          "description": "Ensures every new client's HR gaps are systematically identified."
+        },
+        "aiMetadata": {
+          "generationHints": "Favor SHRM-credibility and compliance-awareness resources over generic small-business management content."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Business consultants and accountants regularly encounter HR gaps in their clients — a reciprocal referral relationship is an underused pipeline."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Giving informal advice on a termination without documenting the reasoning can expose both the client and the consultant if challenged later."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Selling generic HR templates instead of a tailored audit that surfaces the client's actual gaps."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "A free HR-compliance mini-audit converts warm referrals faster than any generic HR-service pitch."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Co-handle sensitive employee-relations cases with a new associate for at least two quarters before any handoff."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Document every recommendation given to a client — it protects both parties and is simply good practice."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Consultancies that lead with a free audit close more retainers than those that lead with a generic service-menu pitch."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Most small businesses don't invest in HR until after their first serious employee-relations incident, not before."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Professional liability insurance premiums rise as the client base and case sensitivity grow — budget for it."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Demand for fractional HR support is rising faster than demand for full-time HR hires among small businesses under 75 employees."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A solo HR consultant grew to 10 retainer clients in 2 years purely through accountant and business-consultant referrals."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A consultancy that took on too many clients without a documented process gave inconsistent advice across clients and lost several retainers within a year."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Do I need to be an employment lawyer to offer HR consulting?",
+            "answer": "No — HR consulting focuses on policy, culture, and operations; complex legal questions should be referred to an employment attorney."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "AI HR chatbots will replace fractional HR consultants soon.",
+            "fact": "AI speeds up drafting policy documents, but sensitive employee-relations judgment and trust-building remain deeply human."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Set clear response-time expectations with every new retainer client on day one."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep all guidance at the level of running/growing the consultancy — never give specific employment-law compliance or legal advice for an end client's actual situation."
+        }
+      }
+    },
+    "recruitmentAgency": {
+      "businessDna": {
+        "resources": {
+          "course1": "Course: Advanced sourcing and Boolean search techniques",
+          "community1": "Community: National Association of Personnel Services (NAPS)",
+          "book1": "Book: \"The Robert Collins Guide to Recruiting\" by Robert D. Collins",
+          "checklist1": "Checklist: Client intake and role-scoping checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast assumes placement volume grows as the niche candidate pipeline deepens, not a smooth linear curve."
+        },
+        "breakEven": {
+          "notes": "Structural estimate only — actual break-even depends heavily on how quickly the niche pipeline produces placements."
+        },
+        "grossMargin": {
+          "notes": "High margin typical of a service business with low cost of goods sold."
+        },
+        "netMargin": {
+          "notes": "After ATS, sourcing-tool, and job-board subscription costs."
+        },
+        "scenarios": {
+          "conservative": "A handful of contingency placements, no retained-search clients yet.",
+          "expected": "Steady contingency placement volume plus 1-2 retained-search clients.",
+          "optimistic": "A strong niche pipeline plus multiple retained-search agreements."
+        },
+        "risks": {
+          "risk1": "A hiring freeze at a key client removes an active search and its fee overnight.",
+          "risk2": "A guarantee-period replacement means redoing a search at no additional fee."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as placement-driven and lumpy, sensitive to hiring-market cycles."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "The right hire, not just a fast one — niche-specialized recruiting with a real candidate pipeline.",
+          "category": "Niche-specialized recruitment agency"
+        },
+        "brandPromise": "A shortlist of candidates who actually fit, backed by a real placement guarantee.",
+        "uvp": {
+          "statement": "Niche-specialized recruiting with a deep, ready candidate pipeline and a genuine placement guarantee.",
+          "diff1": "Deep niche specialization, not generalist recruiting",
+          "diff2": "A genuine placement guarantee period"
+        },
+        "icp": {
+          "description": "Small-to-mid-sized companies hiring for a specific, hard-to-fill role type where generalist recruiters underperform.",
+          "firmographics": "Companies with 10-500 employees hiring 1-10 roles per year in the target niche."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Hiring manager burned by a bad generalist search",
+            "description": "Manager who tried a generalist recruiter and got a weak shortlist for a specialized role."
+          },
+          "persona2": {
+            "name": "Growing company hiring its first specialist in a role",
+            "description": "Company hiring for a role type it has no internal expertise to screen for."
+          }
+        },
+        "painPoints": {
+          "point1": "Getting a flood of unqualified resumes from generalist job-board postings.",
+          "point2": "Not having internal expertise to evaluate candidates in a specialized role."
+        },
+        "outcomes": {
+          "outcome1": "A short, high-quality shortlist instead of hundreds of unqualified resumes.",
+          "outcome2": "Confidence the new hire will actually work out, backed by a guarantee."
+        },
+        "messaging": {
+          "core": "Stop sifting through hundreds of resumes. Get a shortlist of candidates who actually fit the role.",
+          "support1": "Niche-specialized, not a generalist recruiter working every role type."
+        },
+        "brandVoice": {
+          "tone": "Energetic, consultative, and confident.",
+          "attr1": "Energetic",
+          "attr2": "Results-focused"
+        },
+        "contentPillars": {
+          "pillar1": "Hiring trends in the target niche",
+          "pillar2": "How to evaluate candidates in a specialized role"
+        },
+        "channelStrategy": "Referrals from hiring managers and placed candidates are primary; LinkedIn sourcing and employer-branding content build secondary awareness; niche hiring-trend content is experimental.",
+        "community": {
+          "description": "A network of past candidates and hiring managers in the target niche who both refer new business.",
+          "platform1": "NAPS local chapter"
+        },
+        "leadMagnets": {
+          "magnet1": "Free role-scoping consultation and market-rate salary benchmark"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Referral or inbound inquiry",
+            "description": "A hiring manager reaches out based on a referral or content."
+          },
+          "stage2": {
+            "name": "Role-scoping call",
+            "description": "A detailed conversation to define the role and ideal candidate profile."
+          },
+          "stage3": {
+            "name": "Search agreement and shortlist delivery",
+            "description": "A signed search agreement followed by an initial candidate shortlist."
+          }
+        },
+        "retention": {
+          "tactic1": "Proactively reaching out to past clients before their next likely hiring need."
+        },
+        "analytics": {
+          "metric1": "Search-to-placement close rate by niche"
+        },
+        "aiMetadata": {
+          "generationHints": "Emphasize niche depth and the placement guarantee in every message — the two biggest differentiators from generalist recruiters."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Set up the ATS/recruiting CRM and LinkedIn Recruiter license."
+          },
+          "deliverables": {
+            "0": "A configured ATS with the chosen niche pipeline structure."
+          },
+          "checklist": {
+            "0": "Confirm ATS and LinkedIn Recruiter are both active before sourcing begins."
+          },
+          "commonMistakes": {
+            "0": "Underbudgeting for LinkedIn Recruiter licensing."
+          },
+          "successCriteria": {
+            "0": "ATS and sourcing tools are both active."
+          },
+          "aiRecommendations": {
+            "0": "Pick one initial niche before setting up the pipeline structure."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Complete the first 3-5 placements in the chosen niche."
+          },
+          "deliverables": {
+            "0": "A documented candidate pipeline for the chosen niche."
+          },
+          "checklist": {
+            "0": "Stay within the chosen niche until the first 5 placements are complete."
+          },
+          "commonMistakes": {
+            "0": "Taking on searches outside the chosen niche too early."
+          },
+          "successCriteria": {
+            "0": "5 placements completed within the chosen niche."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted resume screening to speed up the first pass, always followed by a human screening call."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardize the client-intake and role-scoping workflow."
+          },
+          "deliverables": {
+            "0": "A structured intake checklist used for every search."
+          },
+          "checklist": {
+            "0": "Use the structured intake checklist before opening any search."
+          },
+          "commonMistakes": {
+            "0": "Starting to source before the role is fully scoped."
+          },
+          "successCriteria": {
+            "0": "Every open search has a completed intake checklist on file."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted sourcing to build the initial candidate list faster once the role is scoped."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Announce the agency's niche specialization to the target client market."
+          },
+          "deliverables": {
+            "0": "Updated LinkedIn presence and niche-specific outreach messaging."
+          },
+          "checklist": {
+            "0": "Lead every pitch with a niche-specific candidate pipeline example."
+          },
+          "commonMistakes": {
+            "0": "Positioning as a generalist recruiter instead of a niche specialist."
+          },
+          "successCriteria": {
+            "0": "First inbound inquiry received from niche-specific positioning."
+          },
+          "aiRecommendations": {
+            "0": "Personalize outreach messaging based on each hiring manager's specific role needs."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Complete the first paid placement with the guarantee period honored cleanly."
+          },
+          "deliverables": {
+            "0": "Signed search agreement and a completed placement."
+          },
+          "checklist": {
+            "0": "Hold the same screening bar for the first client as for every future one."
+          },
+          "commonMistakes": {
+            "0": "Rushing a placement to close the deal instead of screening thoroughly."
+          },
+          "successCriteria": {
+            "0": "First placement passes the guarantee period without a replacement needed."
+          },
+          "aiRecommendations": {
+            "0": "Flag candidates with a higher risk of an early departure using screening-signal patterns."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach 20 placements with a stable niche pipeline."
+          },
+          "deliverables": {
+            "0": "A documented view of which niche sources produce the best candidates."
+          },
+          "checklist": {
+            "0": "Deepen the primary niche fully before considering a second one."
+          },
+          "commonMistakes": {
+            "0": "Spreading across too many niches before any one is fully established."
+          },
+          "successCriteria": {
+            "0": "Revenue reaches the founder's target monthly income range."
+          },
+          "aiRecommendations": {
+            "0": "Identify the highest-converting sourcing channels automatically from placement history."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Move key clients from one-off contingency work to retained-search agreements."
+          },
+          "deliverables": {
+            "0": "A retained-search proposal template ready for repeat clients."
+          },
+          "checklist": {
+            "0": "Propose a retained-search agreement to any client with 2+ completed placements."
+          },
+          "commonMistakes": {
+            "0": "Never proposing a retained-search arrangement to repeat clients."
+          },
+          "successCriteria": {
+            "0": "First retained-search agreement signed."
+          },
+          "aiRecommendations": {
+            "0": "Flag repeat clients automatically as retained-search candidates after their second placement."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Add a second recruiter to expand placement capacity."
+          },
+          "deliverables": {
+            "0": "A written commission-split agreement for the new recruiter."
+          },
+          "checklist": {
+            "0": "Define the commission-split structure before the new recruiter's first search."
+          },
+          "commonMistakes": {
+            "0": "Hiring a recruiter without a clear commission-split structure."
+          },
+          "successCriteria": {
+            "0": "Second recruiter independently completes at least 5 placements."
+          },
+          "aiRecommendations": {
+            "0": "Use historical close-rate data to set realistic ramp expectations for the new recruiter."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Add a contract/temp staffing offer alongside permanent placement."
+          },
+          "deliverables": {
+            "0": "A distinct contract-staffing workflow and pricing sheet."
+          },
+          "checklist": {
+            "0": "Build the contract-staffing workflow before marketing it."
+          },
+          "commonMistakes": {
+            "0": "Treating contract staffing with the same process as permanent placement."
+          },
+          "successCriteria": {
+            "0": "First contract-staffing placement completed."
+          },
+          "aiRecommendations": {
+            "0": "Track which clients are likely candidates for contract staffing based on their hiring patterns."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Package the client book and candidate database for acquisition by a larger agency."
+          },
+          "deliverables": {
+            "0": "Every candidate interaction and client detail logged in the ATS."
+          },
+          "checklist": {
+            "0": "Confirm ATS records are complete enough to support a due-diligence review."
+          },
+          "commonMistakes": {
+            "0": "Candidate pipeline knowledge held only in the founder's head."
+          },
+          "successCriteria": {
+            "0": "Client book and candidate database transfer cleanly to a new owner."
+          },
+          "aiRecommendations": {
+            "0": "Use historical placement and guarantee-period data as evidence of quality for acquiring firms."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Growth is placement-driven and sensitive to hiring-market cycles — do not suggest tactics that assume steady, recession-proof demand."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The Robert Collins Guide to Recruiting",
+          "description": "Robert D. Collins' practical guide to building a recruiting desk from scratch."
+        },
+        "item2": {
+          "title": "Advanced Sourcing and Boolean Search Techniques",
+          "description": "Practical training on advanced candidate-sourcing search techniques."
+        },
+        "item3": {
+          "title": "National Association of Personnel Services (NAPS)",
+          "description": "The main professional association for staffing and recruiting agency owners."
+        },
+        "item4": {
+          "title": "The Full Desk Experience Podcast",
+          "description": "Practice-growth interviews for independent recruiting-agency owners."
+        },
+        "item5": {
+          "title": "Recruiting industry trends newsletter",
+          "description": "Hiring-market trend and sourcing-technique updates."
+        },
+        "item6": {
+          "title": "Bullhorn",
+          "description": "The core ATS/CRM platform for managing searches and candidates."
+        },
+        "item7": {
+          "title": "LinkedIn Recruiter",
+          "description": "The core sourcing platform for finding and reaching candidates."
+        },
+        "item8": {
+          "title": "AI-assisted resume screening",
+          "description": "Speeds up the first pass of candidate screening, always followed by a human review."
+        },
+        "item9": {
+          "title": "Certified Personnel Consultant (CPC)",
+          "description": "A recognized credential for staffing and recruiting professionals."
+        },
+        "item10": {
+          "title": "NAPS Annual Conference",
+          "description": "Annual gathering for independent staffing and recruiting agency owners."
+        },
+        "item11": {
+          "title": "NAPS mentor-matching program",
+          "description": "Pairs new recruiting-agency owners with an experienced mentor."
+        },
+        "item12": {
+          "title": "Client intake and role-scoping checklist",
+          "description": "Ensures every search starts with a fully defined role."
+        },
+        "aiMetadata": {
+          "generationHints": "Favor niche-specialization and sourcing-skill resources over generic sales content."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Placed candidates who move to new companies become a recurring referral source for future searches — an underused pipeline."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A single large client hiring freeze can eliminate a third of active revenue overnight if concentration isn't managed."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Chasing every open role instead of staying within a specialized niche where the pipeline is deep."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "A free role-scoping consultation with a market-rate salary benchmark converts warm referrals faster than any cold pitch."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Define the commission-split agreement with any new recruiter in writing before their first search."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Hold the same screening bar for every client, even the first one — a bad early placement damages reputation disproportionately."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Agencies that stay within one deep niche close searches faster than generalists chasing every open role."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Clients rarely switch recruiters over fee percentage — they switch over shortlist quality and speed."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "LinkedIn Recruiter licensing is the single largest recurring cost and is easy to underbudget in year one."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Demand for niche-specialized recruiters is rising faster than demand for generalist agencies as roles become more technical."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A solo niche recruiter completed 40 placements in 2 years by refusing to take searches outside their specialty."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "An agency that took searches across too many industries at once never built pipeline depth in any of them and lost clients to specialized competitors."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Do I need to pick just one niche when starting out?",
+            "answer": "Yes, at least initially — a deep pipeline in one niche closes searches faster than a shallow presence across many."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "AI job-matching platforms will fully replace human recruiters soon.",
+            "fact": "AI speeds up sourcing and screening, but assessing genuine fit and managing the human negotiation between client and candidate remains a recruiter's core value."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Propose a retained-search agreement to any client after their second completed placement."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep all guidance at the level of running/growing the agency — never give specific employment-law or hiring-decision advice for an end client's actual situation."
+        }
+      }
+    },
+    "businessConsultancy": {
+      "businessDna": {
+        "resources": {
+          "course1": "Course: Certified Management Consultant (CMC) preparation program",
+          "community1": "Community: Institute of Management Consultants (IMC/ICMCI) local chapter",
+          "book1": "Book: \"The Trusted Advisor\" by David H. Maister, Charles H. Green & Robert M. Galford",
+          "checklist1": "Checklist: Discovery and diagnostic engagement checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast assumes lumpy project revenue smoothed gradually by a growing advisory-retainer base."
+        },
+        "breakEven": {
+          "notes": "Structural estimate only — actual break-even depends on how quickly the case-study portfolio builds credibility."
+        },
+        "grossMargin": {
+          "notes": "High margin typical of an expertise-based service business with low delivery cost."
+        },
+        "netMargin": {
+          "notes": "After CRM, workshop tools, and travel costs."
+        },
+        "scenarios": {
+          "conservative": "1-2 project engagements per quarter, no advisory retainers yet.",
+          "expected": "A steady flow of project engagements plus 3-4 advisory retainer clients.",
+          "optimistic": "A full engagement calendar plus a productized diagnostic offer selling on its own."
+        },
+        "risks": {
+          "risk1": "Consulting budgets are often cut early during a client's downturn.",
+          "risk2": "A gap between signed engagements creates uneven monthly cash flow."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as lumpy project fees smoothed gradually by a growing advisory-retainer base."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Clarity on what to do next, and the plan to do it — strategic clarity for growing companies stuck on a decision.",
+          "category": "Strategy & management consultancy"
+        },
+        "brandPromise": "A clear, actionable plan at the end of every engagement, not just a slide deck of observations.",
+        "uvp": {
+          "statement": "A signature diagnostic framework that turns strategic ambiguity into a concrete, sequenced plan.",
+          "diff1": "A proprietary, repeatable diagnostic framework",
+          "diff2": "A documented case-study track record"
+        },
+        "icp": {
+          "description": "Growing companies (20-200 employees) facing a specific strategic decision — expansion, restructuring, or a growth plateau — without an internal strategy function.",
+          "firmographics": "Mid-market companies with a founder or leadership team facing a specific inflection point."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Founder facing a growth plateau",
+            "description": "Founder whose growth has stalled and isn't sure why."
+          },
+          "persona2": {
+            "name": "Leadership team weighing a major strategic decision",
+            "description": "Leadership team debating expansion, restructuring, or a new market without a structured way to decide."
+          }
+        },
+        "painPoints": {
+          "point1": "Too many internal opinions on what to do next, with no structured way to decide.",
+          "point2": "A strategic plan that never survives contact with actual implementation."
+        },
+        "outcomes": {
+          "outcome1": "A clear, sequenced plan the leadership team actually agrees on.",
+          "outcome2": "Confidence that the plan is grounded in the business's actual data, not generic best practices."
+        },
+        "messaging": {
+          "core": "Stop debating what to do next. Get a clear, sequenced plan your whole leadership team can actually execute.",
+          "support1": "A proprietary diagnostic framework, not a generic slide-deck exercise."
+        },
+        "brandVoice": {
+          "tone": "Confident, strategic, and outcome-focused.",
+          "attr1": "Strategic",
+          "attr2": "Decisive"
+        },
+        "contentPillars": {
+          "pillar1": "Frameworks for breaking through a growth plateau",
+          "pillar2": "Case studies from past engagements"
+        },
+        "channelStrategy": "Referrals from past clients and complementary professionals are primary; thought-leadership content and case studies build secondary awareness; speaking engagements are experimental.",
+        "community": {
+          "description": "A referral relationship with accountants, lawyers, and other advisors whose clients hit a strategic inflection point.",
+          "platform1": "IMC/ICMCI local chapter"
+        },
+        "leadMagnets": {
+          "magnet1": "Free growth-plateau diagnostic mini-assessment"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Referral or content discovery",
+            "description": "A prospect is referred or finds the firm's published content."
+          },
+          "stage2": {
+            "name": "Discovery conversation",
+            "description": "An initial conversation to understand the strategic question at hand."
+          },
+          "stage3": {
+            "name": "Engagement proposal",
+            "description": "A scoped project or retainer proposal."
+          }
+        },
+        "retention": {
+          "tactic1": "Quarterly business review calls included in every advisory retainer."
+        },
+        "analytics": {
+          "metric1": "Discovery-call-to-engagement close rate"
+        },
+        "aiMetadata": {
+          "generationHints": "Ground every message in a specific, measurable case-study outcome rather than generic strategic language."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Set up the CRM, deliverable-management software, and document 2-3 case studies."
+          },
+          "deliverables": {
+            "0": "A documented case-study portfolio from prior engagements."
+          },
+          "checklist": {
+            "0": "Confirm at least 2 case studies are documented before marketing begins."
+          },
+          "commonMistakes": {
+            "0": "Skipping a documented case-study portfolio before marketing."
+          },
+          "successCriteria": {
+            "0": "CRM setup and case-study portfolio are both complete."
+          },
+          "aiRecommendations": {
+            "0": "Document case studies with specific, measurable outcomes, not vague descriptions."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Complete the first 2-3 discovery-to-strategy engagements."
+          },
+          "deliverables": {
+            "0": "A documented engagement scope and timeline for each early client."
+          },
+          "checklist": {
+            "0": "Define a fixed engagement scope and timeline in writing before starting."
+          },
+          "commonMistakes": {
+            "0": "Letting engagement scope expand indefinitely without a clear boundary."
+          },
+          "successCriteria": {
+            "0": "2-3 engagements completed within their original scope and timeline."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted research synthesis to speed up the discovery phase, always followed by the consultant's own analysis."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Formalize the signature diagnostic framework used in every engagement."
+          },
+          "deliverables": {
+            "0": "A documented, reusable diagnostic framework template."
+          },
+          "checklist": {
+            "0": "Document the framework as a reusable deliverable template."
+          },
+          "commonMistakes": {
+            "0": "Running a different diagnostic approach for every client."
+          },
+          "successCriteria": {
+            "0": "Every new engagement starts from the documented framework."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted presentation drafting to speed up deliverable creation from the framework's standard structure."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publish the first thought-leadership content around the signature framework."
+          },
+          "deliverables": {
+            "0": "At least one detailed, published case study."
+          },
+          "checklist": {
+            "0": "Publish a detailed case study before the launch announcement."
+          },
+          "commonMistakes": {
+            "0": "Launching without any published case studies to back up claims."
+          },
+          "successCriteria": {
+            "0": "First referral or content-driven discovery call booked."
+          },
+          "aiRecommendations": {
+            "0": "Track which published case study generates the most discovery-call bookings."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Deliver the first paid engagement using the signature diagnostic framework."
+          },
+          "deliverables": {
+            "0": "Signed engagement agreement and a completed diagnostic deliverable."
+          },
+          "checklist": {
+            "0": "Charge the full engagement fee even for the first client."
+          },
+          "commonMistakes": {
+            "0": "Underscoping the fee to win the first client."
+          },
+          "successCriteria": {
+            "0": "First client's engagement produces a usable case study."
+          },
+          "aiRecommendations": {
+            "0": "Capture engagement outcome data systematically for future case-study use."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach 10 completed engagements using the standardized framework."
+          },
+          "deliverables": {
+            "0": "A documented qualification step for discovery calls."
+          },
+          "checklist": {
+            "0": "Qualify prospects against the firm's core expertise during the discovery call."
+          },
+          "commonMistakes": {
+            "0": "Accepting engagements far outside the firm's core expertise."
+          },
+          "successCriteria": {
+            "0": "Revenue reaches the founder's target monthly income range."
+          },
+          "aiRecommendations": {
+            "0": "Flag low-fit discovery-call requests automatically based on stated strategic question type."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Launch the first productized, fixed-scope diagnostic offer."
+          },
+          "deliverables": {
+            "0": "A fixed-scope, fixed-price offer package."
+          },
+          "checklist": {
+            "0": "Package the most requested engagement type into a fixed-scope offer."
+          },
+          "commonMistakes": {
+            "0": "Keeping every engagement fully bespoke, which slows the sales cycle unnecessarily."
+          },
+          "successCriteria": {
+            "0": "First productized offer sold without a custom scoping call."
+          },
+          "aiRecommendations": {
+            "0": "Track close-rate difference between the productized offer and fully bespoke proposals."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Bring on the first associate consultant."
+          },
+          "deliverables": {
+            "0": "A documented training plan using past case studies."
+          },
+          "checklist": {
+            "0": "Train the associate on the framework before their first solo engagement."
+          },
+          "commonMistakes": {
+            "0": "Handing off client-facing work before the associate is trained on the framework."
+          },
+          "successCriteria": {
+            "0": "Associate independently delivers at least 2 engagements."
+          },
+          "aiRecommendations": {
+            "0": "Use the documented framework and case studies as the associate's onboarding curriculum."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Expand into an adjacent advisory area, such as post-engagement implementation support."
+          },
+          "deliverables": {
+            "0": "At least 2 completed engagements in the new advisory area."
+          },
+          "checklist": {
+            "0": "Complete engagements in the new area before marketing it broadly."
+          },
+          "commonMistakes": {
+            "0": "Marketing a new advisory area before building real proof of results in it."
+          },
+          "successCriteria": {
+            "0": "First client signed in the new advisory area."
+          },
+          "aiRecommendations": {
+            "0": "Track which existing clients are the best candidates for the new advisory area based on engagement history."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Package the client book, case-study portfolio, and framework documentation for acquisition."
+          },
+          "deliverables": {
+            "0": "A fully documented, transferable diagnostic framework."
+          },
+          "checklist": {
+            "0": "Confirm the framework is documented well enough to be delivered by someone other than the founder."
+          },
+          "commonMistakes": {
+            "0": "Keeping the signature framework only in the founder's head."
+          },
+          "successCriteria": {
+            "0": "Framework, client book, and case studies transfer cleanly to a new owner."
+          },
+          "aiRecommendations": {
+            "0": "Use the case-study portfolio's measurable outcomes as evidence of practice value for buyers."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Growth depends on case-study credibility and framework repeatability, not paid-acquisition tactics."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The Trusted Advisor",
+          "description": "David H. Maister, Charles H. Green, and Robert M. Galford on building deep client trust as a consultant."
+        },
+        "item2": {
+          "title": "Certified Management Consultant (CMC) Program",
+          "description": "The core internationally recognized credential for management consultants."
+        },
+        "item3": {
+          "title": "Institute of Management Consultants (IMC/ICMCI)",
+          "description": "The main professional association and local-chapter network for management consultants."
+        },
+        "item4": {
+          "title": "Management Consulted Podcast",
+          "description": "Practice-growth and case-study discussion for independent consultants."
+        },
+        "item5": {
+          "title": "Consulting Success newsletter",
+          "description": "Practice-management and positioning advice for independent consultants."
+        },
+        "item6": {
+          "title": "Miro",
+          "description": "The core workshop-facilitation and visual-collaboration platform."
+        },
+        "item7": {
+          "title": "Notion",
+          "description": "Deliverable and knowledge-base management for engagement documentation."
+        },
+        "item8": {
+          "title": "AI-assisted research synthesis",
+          "description": "Speeds up the discovery phase's research work, always followed by the consultant's own analysis."
+        },
+        "item9": {
+          "title": "Certified Management Consultant (CMC)",
+          "description": "The credential this practice's credibility is built around."
+        },
+        "item10": {
+          "title": "ICMCI World Conference",
+          "description": "Annual gathering for management consultants worldwide."
+        },
+        "item11": {
+          "title": "IMC local-chapter mentor program",
+          "description": "Pairs new consultants with an experienced independent-practice mentor."
+        },
+        "item12": {
+          "title": "Discovery and diagnostic engagement checklist",
+          "description": "Ensures every new engagement follows the same structured discovery process."
+        },
+        "aiMetadata": {
+          "generationHints": "Favor case-study-credibility and framework-development resources over generic business-advice content."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Past clients facing a new strategic question are an underused source of repeat, higher-trust engagements."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A client blaming a poor outcome on the consultant's plan, even when execution was the real issue, can damage reputation disproportionately."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Delivering a generic strategy deck instead of a framework tailored to the client's specific data and constraints."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "A free growth-plateau mini-assessment converts warm referrals faster than any generic consulting pitch."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Train a new associate on the documented framework using past case studies before their first solo engagement."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Define the engagement scope and success criteria in writing before starting — it protects both parties and clarifies what \"done\" means."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Consultancies with a named, repeatable framework close discovery calls faster than those pitching fully bespoke, undefined engagements."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Most clients hire a consultant not for new information, but for outside permission to make a decision they were already leaning toward."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Travel costs for on-site workshops add up quickly and are easy to underbudget in the first year."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Demand for fixed-scope, productized diagnostic offers is rising faster than demand for fully open-ended strategy engagements."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A solo strategy consultant grew to 15 completed engagements in 2 years purely through referrals and a published case-study series."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A consultancy that let engagement scope creep indefinitely burned out its founder and delivered inconsistent results across clients."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Do I need an MBA to start a management consultancy?",
+            "answer": "No — real operating or leadership experience plus a documented track record of outcomes typically matters more to prospects than a specific degree."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "AI strategy tools will make management consultants obsolete.",
+            "fact": "AI speeds up research and drafting, but synthesizing a specific company's constraints, politics, and culture into an executable plan remains a deeply human skill."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Publish a detailed, specific-outcome case study for every completed engagement where the client is comfortable being referenced."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep all guidance at the level of running/growing the consultancy — never give specific strategic advice for an end client's actual business decision."
         }
       }
     }

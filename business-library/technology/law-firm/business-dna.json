@@ -1,0 +1,900 @@
+{
+  "identity": {
+    "id": "6f1a2b3c-0005-4a11-9e10-000000000005",
+    "slug": "law-firm",
+    "version": "1.0.0",
+    "name": {
+      "en": "Fairview Legal Partners",
+      "ro": "Fairview Legal Partners"
+    },
+    "tagline": {
+      "en": "Contracts that hold up, not just contracts that close.",
+      "ro": "Contracte care rezistă, nu doar contracte care se semnează."
+    },
+    "createdAt": "2026-07-09T00:00:00.000Z",
+    "updatedAt": "2026-07-09T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theSpecialist",
+      "theOperator"
+    ],
+    "summary": {
+      "en": "Best suited to a detail-rigorous specialist who finds precision drafting satisfying and is comfortable carrying professional liability.",
+      "ro": "Potrivită unui specialist riguros pe detalii, care găsește satisfacție în redactarea precisă și este confortabil să poarte răspundere profesională."
+    },
+    "minimumExperienceYears": 4
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 15000,
+      "maxInvestment": 45000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 2000,
+      "ongoingMonthlyCostMax": 5000,
+      "notes": {
+        "en": "Covers professional liability (malpractice) insurance, practice-management and trust-accounting software, and bar membership dues.",
+        "ro": "Acoperă asigurarea de răspundere profesională (malpraxis), software-ul de management al practicii și contabilitate fiduciară, precum și cotizațiile la barou."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "malpracticeInsuranceSetup",
+          "label": {
+            "en": "Professional liability (malpractice) insurance setup",
+            "ro": "Configurarea asigurării de răspundere profesională (malpraxis)"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        },
+        {
+          "key": "practiceManagementSoftware",
+          "label": {
+            "en": "Practice-management and trust-accounting software setup",
+            "ro": "Configurarea software-ului de management al practicii și contabilitate fiduciară"
+          },
+          "typicalMin": 800,
+          "typicalMax": 2500
+        },
+        {
+          "key": "officeSetup",
+          "label": {
+            "en": "Small office or shared legal-suite setup",
+            "ro": "Amenajare birou mic sau spațiu juridic partajat"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 5000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "malpracticePremium",
+          "label": {
+            "en": "Ongoing malpractice insurance premium",
+            "ro": "Prima continuă de asigurare de malpraxis"
+          },
+          "typicalMonthlyMin": 400,
+          "typicalMonthlyMax": 1000
+        },
+        {
+          "key": "barDuesAndCle",
+          "label": {
+            "en": "Bar membership dues and continuing legal education (CLE)",
+            "ro": "Cotizații la barou și educație juridică continuă"
+          },
+          "typicalMonthlyMin": 150,
+          "typicalMonthlyMax": 400
+        },
+        {
+          "key": "practiceSoftwareSubscription",
+          "label": {
+            "en": "Practice-management software subscription",
+            "ro": "Abonament software de management al practicii"
+          },
+          "typicalMonthlyMin": 150,
+          "typicalMonthlyMax": 400
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "hourlyBilling",
+          "label": {
+            "en": "Hourly billing for complex or negotiated matters",
+            "ro": "Facturare orară pentru cauze complexe sau negociate"
+          }
+        },
+        {
+          "key": "flatFeeDocuments",
+          "label": {
+            "en": "Flat-fee standardized documents (formation, contract templates)",
+            "ro": "Taxă fixă pentru documente standardizate (înființare, șabloane de contract)"
+          }
+        },
+        {
+          "key": "generalCounselRetainer",
+          "label": {
+            "en": "Monthly general-counsel retainer",
+            "ro": "Abonament lunar de consilier juridic general"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 6000,
+      "targetMonthlyIncomeMax": 22000,
+      "breakEvenTimelineMonths": 10,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Flat-fee document work brings in cash quickly; retainer relationships build a slower, more durable base.",
+        "ro": "Munca cu taxă fixă pentru documente aduce numerar rapid; relațiile de abonament construiesc o bază mai lentă, dar mai durabilă."
+      }
+    },
+    "profitMargin": {
+      "level": "high"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "occasional",
+    "onlineOffline": "hybrid",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 35,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 4
+      },
+      {
+        "key": "marketing",
+        "rating": 4
+      },
+      {
+        "key": "leadership",
+        "rating": 6
+      },
+      {
+        "key": "communication",
+        "rating": 9
+      },
+      {
+        "key": "negotiation",
+        "rating": 9
+      },
+      {
+        "key": "finance",
+        "rating": 5
+      },
+      {
+        "key": "operations",
+        "rating": 6
+      },
+      {
+        "key": "technology",
+        "rating": 5
+      },
+      {
+        "key": "automation",
+        "rating": 3
+      },
+      {
+        "key": "ai",
+        "rating": 3
+      },
+      {
+        "key": "programming",
+        "rating": 2
+      },
+      {
+        "key": "management",
+        "rating": 6
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 40
+      },
+      {
+        "key": "visionary",
+        "score": 30
+      },
+      {
+        "key": "operator",
+        "score": 60
+      },
+      {
+        "key": "creator",
+        "score": 25
+      },
+      {
+        "key": "seller",
+        "score": 40
+      },
+      {
+        "key": "leader",
+        "score": 70
+      },
+      {
+        "key": "analyst",
+        "score": 85
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": false,
+    "requiresTravel": true,
+    "isOnlineBusiness": false,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "low",
+      "notes": {
+        "en": "Hourly billing caps how much revenue one attorney can generate — scale requires adding attorneys, not just more clients.",
+        "ro": "Facturarea orară limitează venitul pe care un avocat îl poate genera — creșterea necesită angajarea altor avocați, nu doar mai mulți clienți."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high"
+    },
+    "aiResistance": {
+      "level": "high"
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Professional malpractice liability if drafting or advice is later disputed.",
+          "ro": "Răspundere de malpraxis profesional dacă redactarea sau sfaturile sunt contestate ulterior."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Maintain robust malpractice coverage and document every client communication.",
+          "ro": "Menține o acoperire solidă de malpraxis și documentează fiecare comunicare cu clientul."
+        }
+      },
+      {
+        "description": {
+          "en": "Bar and regulatory compliance requirements vary by jurisdiction and change over time.",
+          "ro": "Cerințele de conformitate ale baroului și de reglementare variază pe jurisdicție și se schimbă în timp."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Budget continuing legal education hours as a fixed annual cost.",
+          "ro": "Bugetează orele de educație juridică continuă ca un cost fix anual."
+        }
+      },
+      {
+        "description": {
+          "en": "Revenue has a hard ceiling tied to billable hours until a second attorney is added.",
+          "ro": "Venitul are un plafon strict legat de orele facturabile, până la angajarea unui al doilea avocat."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Shift mix toward flat-fee document products that don't scale linearly with hours.",
+          "ro": "Deplasează mixul către produse de documente cu taxă fixă, care nu cresc liniar cu orele."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Contracts that hold up, not just contracts that close — practical business law for founders and small companies.",
+        "ro": "Contracte care rezistă, nu doar contracte care se semnează — drept comercial practic pentru fondatori și firme mici."
+      },
+      "channels": [
+        {
+          "channelType": "referralProgram",
+          "description": {
+            "en": "Referrals from accountants, business consultants, and existing clients.",
+            "ro": "Recomandări de la contabili, consultanți de afaceri și clienți existenți."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "contentMarketing",
+          "description": {
+            "en": "Practical articles on contract pitfalls and business-formation basics.",
+            "ro": "Articole practice despre capcanele contractuale și noțiunile de bază ale înființării unei firme."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "eventsAndSponsorship",
+          "description": {
+            "en": "Speaking at small-business and startup events on legal fundamentals.",
+            "ro": "Prezentări la evenimente pentru afaceri mici și startup-uri despre elementele juridice fundamentale."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "low"
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "Consultative — a free initial consultation and conflict check is the standard first step.",
+        "ro": "Consultativă — o consultație inițială gratuită și o verificare a conflictelor de interese sunt pasul standard inițial."
+      },
+      "salesCycleLengthDays": 21,
+      "pricingModel": {
+        "en": "Hourly for complex or negotiated matters, flat fee for standardized documents, monthly retainer for ongoing general counsel.",
+        "ro": "Orar pentru cauze complexe sau negociate, taxă fixă pentru documente standardizate, abonament lunar pentru consiliere juridică generală continuă."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate"
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Initial consultation and conflict-of-interest check.",
+          "ro": "Consultația inițială și verificarea conflictului de interese."
+        },
+        {
+          "en": "Document drafting and internal review.",
+          "ro": "Redactarea documentelor și revizuirea internă."
+        },
+        {
+          "en": "Contract negotiation support on the client's behalf.",
+          "ro": "Suport la negocierea contractului, în numele clientului."
+        },
+        {
+          "en": "Quarterly general-counsel retainer check-ins.",
+          "ro": "Verificări trimestriale pentru clienții cu abonament de consiliere juridică generală."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Drafting and reviewing documents, responding to client questions, and tracking billable time.",
+        "ro": "Redactarea și revizuirea documentelor, răspunsul la întrebările clienților și urmărirea timpului facturabil."
+      }
+    },
+    "automation": {
+      "level": "low"
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "contractReviewAssistance",
+          "description": {
+            "en": "AI-assisted first-pass contract review and redlining suggestions.",
+            "ro": "Revizuire asistată de AI, la o primă trecere, și sugestii de modificări la contract."
+          },
+          "maturity": "emerging"
+        },
+        {
+          "area": "legalResearchAssistance",
+          "description": {
+            "en": "AI-assisted legal research to speed up precedent lookup.",
+            "ro": "Cercetare juridică asistată de AI, pentru a accelera căutarea precedentelor."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "Clio",
+        "category": "practiceManagementSoftware",
+        "isRequired": true,
+        "websiteUrl": "https://www.clio.com/"
+      },
+      {
+        "name": "LawPay",
+        "category": "trustAccountingAndBilling",
+        "isRequired": true,
+        "websiteUrl": "https://www.lawpay.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 36
+    },
+    "scaling": {
+      "path": {
+        "en": "Convert one-off transactional clients into ongoing general-counsel retainers, then bring on an associate attorney once billable capacity is consistently maxed.",
+        "ro": "Transformă clienții tranzacționali ocazionali în clienți cu abonament de consiliere juridică generală continuă, apoi adaugă un avocat asociat odată ce capacitatea facturabilă este constant la maximum."
+      },
+      "bottlenecks": [
+        {
+          "en": "Bar admission in additional jurisdictions takes time.",
+          "ro": "Admiterea în barou în jurisdicții suplimentare necesită timp."
+        },
+        {
+          "en": "Finding an associate attorney whose judgment matches the firm's standards.",
+          "ro": "Găsirea unui avocat asociat a cărui judecată corespunde standardelor firmei."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "15 clients on a general-counsel retainer.",
+            "ro": "15 clienți cu abonament de consiliere juridică generală."
+          }
+        },
+        {
+          "monthsFromLaunch": 30,
+          "description": {
+            "en": "First associate attorney hired.",
+            "ro": "Primul avocat asociat angajat."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Bar-certified with full malpractice coverage, unlike unlicensed contract-template services.",
+          "ro": "Atestat de barou, cu acoperire completă de malpraxis, spre deosebire de serviciile neautorizate de șabloane contractuale."
+        }
+      },
+      {
+        "description": {
+          "en": "Flat-fee document packages remove the client's biggest objection: an unpredictable legal bill.",
+          "ro": "Pachetele de documente cu taxă fixă elimină cea mai mare obiecție a clientului: o factură juridică imprevizibilă."
+        }
+      },
+      {
+        "description": {
+          "en": "Fast contract turnaround keeps deals moving instead of stalling on legal review.",
+          "ro": "Timpul rapid de livrare a contractelor menține tranzacțiile în mișcare, în loc să se blocheze la revizuirea juridică."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A boutique business-law practice serving startups and small companies with contracts, formation, and general-counsel retainers.",
+        "ro": "O practică juridică comercială boutique, care deservește startup-uri și firme mici cu contracte, înființare și abonamente de consiliere juridică generală."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.lawFirm.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.lawFirm.businessDna.resources.community1"
+      },
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.lawFirm.businessDna.resources.book1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.lawFirm.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "arr",
+        "targetDescription": {
+          "en": "Grow annual revenue across hourly, flat-fee, and retainer work combined.",
+          "ro": "Crește venitul anual pe segmentele orar, taxă fixă și abonament combinate."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Maintain gross margin above 65%, typical for a lean solo or small practice.",
+          "ro": "Menține marja brută peste 65%, tipică pentru o practică solo sau mică, eficientă."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep general-counsel retainer clients renewing above 90% annually.",
+          "ro": "Menține peste 90% rata anuală de reînnoire a clienților cu abonament de consiliere juridică generală."
+        }
+      },
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Close at least 1 in 2 initial consultations into a signed engagement.",
+          "ro": "Finalizează cel puțin 1 din 2 consultații inițiale într-un angajament semnat."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "negotiation",
+          "importance": 5
+        },
+        {
+          "key": "communication",
+          "importance": 5
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "management",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "detailOriented",
+          "importance": 5
+        },
+        {
+          "trait": "analytical",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "decisive",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 15000,
+        "max": 45000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 18000,
+        "max": 35000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 35,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "precise",
+        "consultative"
+      ],
+      "technicalLevel": 3,
+      "leadershipLevel": 4,
+      "creativityLevel": 2,
+      "salesAffinity": 2,
+      "automationAffinity": 2,
+      "remotePreference": "hybrid",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theSpecialist",
+        "theOperator"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize malpractice coverage and flat-fee predictability in the Executive Summary — the two strongest trust signals for a small-business audience.",
+      "ro": "Evidențiază acoperirea de malpraxis și predictibilitatea taxei fixe în Rezumatul executiv — cele două semnale de încredere cele mai puternice pentru un public de afaceri mici."
+    },
+    "marketingHints": {
+      "en": "Referrals from accountants and consultants convert far better than any advertising for this audience.",
+      "ro": "Recomandările de la contabili și consultanți se convertesc mult mai bine decât orice publicitate pentru acest public."
+    },
+    "financialHints": {
+      "en": "Model revenue with a hard hourly-capacity ceiling until a second attorney is added.",
+      "ro": "Modelează venitul cu un plafon strict de capacitate orară, până la angajarea unui al doilea avocat."
+    },
+    "generationHints": {
+      "en": "Tone should be precise, measured, and confidence-inspiring — never casual.",
+      "ro": "Tonul ar trebui să fie precis, măsurat și să inspire încredere — niciodată casual."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Set up malpractice insurance and practice-management software.",
+            "ro": "Configurează asigurarea de malpraxis și software-ul de management al practicii."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Underestimating malpractice insurance costs when budgeting.",
+            "ro": "Subestimarea costurilor de asigurare de malpraxis la bugetare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Get malpractice coverage active before accepting any client.",
+            "ro": "Activează acoperirea de malpraxis înainte de a accepta orice client."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.lawFirm.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Complete the first 5-10 flat-fee document engagements.",
+            "ro": "Finalizează primele 5-10 angajamente de documente cu taxă fixă."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Skipping the conflict-of-interest check for early, informal clients.",
+            "ro": "Omiterea verificării conflictului de interese pentru clienții timpurii, informali."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Run a conflict check before every engagement, no exceptions.",
+            "ro": "Rulează o verificare a conflictului de interese înainte de fiecare angajament, fără excepții."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Standardize the flat-fee document templates.",
+            "ro": "Standardizează șabloanele de documente cu taxă fixă."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Redrafting each document from scratch instead of using a reviewed template.",
+            "ro": "Redactarea fiecărui document de la zero, în loc de a folosi un șablon revizuit."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a reviewed template library for the most common document types.",
+            "ro": "Construiește o bibliotecă de șabloane revizuite pentru cele mai comune tipuri de documente."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Announce the practice to the referral network of accountants and consultants.",
+            "ro": "Anunță practica rețelei de recomandări formate din contabili și consultanți."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching before trust-accounting software is properly configured.",
+            "ro": "Lansarea înainte ca software-ul de contabilitate fiduciară să fie corect configurat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm trust-accounting setup is complete before accepting retainer funds.",
+            "ro": "Confirmă că configurarea contabilității fiduciare este completă înainte de a accepta fonduri de abonament."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Deliver the first general-counsel retainer engagement.",
+            "ro": "Livrează primul angajament de consiliere juridică generală cu abonament."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Underpricing the retainer to win the first client.",
+            "ro": "Subevaluarea abonamentului pentru a câștiga primul client."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Charge the full retainer rate even for the first client.",
+            "ro": "Percepe tariful integral al abonamentului chiar și pentru primul client."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable mix of retainer and flat-fee clients covering the target monthly income.",
+            "ro": "Atinge un mix stabil de clienți cu abonament și taxă fixă, care acoperă venitul lunar țintă."
+          }
+        ],
+        "kpis": [
+          "arr",
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Accepting every inquiry regardless of practice-area fit.",
+            "ro": "Acceptarea oricărei solicitări indiferent de potrivirea cu domeniul de practică."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Qualify inquiries against the firm's core practice areas before the consultation.",
+            "ro": "Califică solicitările față de domeniile de practică de bază ale firmei înainte de consultație."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Grow the general-counsel retainer base toward the milestone target.",
+            "ro": "Crește baza de clienți cu abonament de consiliere juridică generală spre obiectivul stabilit."
+          }
+        ],
+        "kpis": [
+          "arr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Letting billable-hour capacity max out without a plan to add help.",
+            "ro": "Lăsarea capacității de ore facturabile să ajungă la maximum fără un plan de a adăuga sprijin."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track weekly billable capacity to know exactly when to bring on help.",
+            "ro": "Urmărește capacitatea săptămânală facturabilă pentru a ști exact când să aduci sprijin."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Hire the first associate attorney.",
+            "ro": "Angajează primul avocat asociat."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Handing off client relationships to the associate too abruptly.",
+            "ro": "Transferarea relațiilor cu clienții către asociat prea brusc."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Co-review the associate's early drafts closely for at least one quarter.",
+            "ro": "Revizuiește atent, alături de asociat, primele sale redactări timp de cel puțin un trimestru."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into an adjacent practice area, such as employment-policy drafting.",
+            "ro": "Extinde-te într-un domeniu de practică adiacent, precum redactarea politicilor de muncă."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Marketing a new practice area before building real depth in it.",
+            "ro": "Promovarea unui nou domeniu de practică înainte de a construi o expertiză reală în el."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Complete continuing education in the new area before marketing it.",
+            "ro": "Finalizează educația continuă în noul domeniu înainte de a-l promova."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Prepare the client book and matter files for a clean transition to an acquiring firm.",
+            "ro": "Pregătește portofoliul de clienți și dosarele pentru o tranziție curată către o firmă achizitoare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Matter files organized inconsistently across clients.",
+            "ro": "Dosarele organizate inconsecvent între clienți."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Standardize matter-file organization from the very first client.",
+            "ro": "Standardizează organizarea dosarelor încă de la primul client."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

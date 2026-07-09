@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.businessConsultancy.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.businessConsultancy.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.businessConsultancy.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.businessConsultancy.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.businessConsultancy.marketing.uvp.diff1",
+      "businessLibrary.businessConsultancy.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2b",
+    "descriptionTranslationKey": "businessLibrary.businessConsultancy.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.businessConsultancy.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.businessConsultancy.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.businessConsultancy.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.businessConsultancy.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.businessConsultancy.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.businessConsultancy.marketing.painPoints.point1",
+      "businessLibrary.businessConsultancy.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.businessConsultancy.marketing.outcomes.outcome1",
+      "businessLibrary.businessConsultancy.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.businessConsultancy.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.businessConsultancy.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.businessConsultancy.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.businessConsultancy.marketing.brandVoice.attr1",
+      "businessLibrary.businessConsultancy.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.businessConsultancy.marketing.contentPillars.pillar1",
+      "businessLibrary.businessConsultancy.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "referralProgram",
+      "contentMarketing",
+      "eventsAndSponsorship"
+    ],
+    "strategyTranslationKey": "businessLibrary.businessConsultancy.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.businessConsultancy.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.businessConsultancy.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.businessConsultancy.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.businessConsultancy.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.businessConsultancy.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.businessConsultancy.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.businessConsultancy.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.businessConsultancy.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.businessConsultancy.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.businessConsultancy.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.businessConsultancy.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "closeRate",
+      "leadConversion"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.businessConsultancy.marketing.aiMetadata.generationHints"
+  }
+}

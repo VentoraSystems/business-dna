@@ -3,8 +3,8 @@
   "schemaVersion": "1.0.0",
   "_schemaVersionSource": "src/features/business-dna/schemas/business-dna-profile.schema.ts → BUSINESS_DNA_PROFILE_SCHEMA_VERSION — keep this value in sync; validate-packages.ts checks it.",
   "lastUpdated": "2026-07-09",
-  "businessCount": 4,
-  "_businessCountNote": "Counts only packages with metadata.status === \"published\". ai-automation-agency is status \"template\" — a placeholder structure, not a registered business — so it contributes 0. The 4 Professional Services packages below (accounting-firm, financial-consultancy, insurance-brokerage, tax-consultancy) are all status \"published\", contributing 4. See business-library/technology/PROFESSIONAL-SERVICES-INDUSTRY-REPORT.md for why only these 4 of the original 8 candidate businesses were authored.",
+  "businessCount": 8,
+  "_businessCountNote": "Counts only packages with metadata.status === \"published\". ai-automation-agency is status \"template\" — a placeholder structure, not a registered business — so it contributes 0. The 4 Professional Services packages (accounting-firm, financial-consultancy, insurance-brokerage, tax-consultancy) plus the 4 Taxonomy Expansion packages (law-firm, hr-consultancy, recruitment-agency, business-consultancy) are all status \"published\", contributing 8 total. See business-library/technology/PROFESSIONAL-SERVICES-INDUSTRY-REPORT.md for the original fit analysis — the latter 4 were deferred there and authored in this sprint after \"professionalServices\" was added to IndustryType.",
   "supportedLanguages": ["en", "ro"],
   "industries": "./taxonomy/industries.json",
   "categories": "./taxonomy/categories.json",
@@ -36,6 +36,30 @@
     {
       "slug": "tax-consultancy",
       "path": "./technology/tax-consultancy",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "law-firm",
+      "path": "./technology/law-firm",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "hr-consultancy",
+      "path": "./technology/hr-consultancy",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "recruitment-agency",
+      "path": "./technology/recruitment-agency",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "business-consultancy",
+      "path": "./technology/business-consultancy",
       "status": "published",
       "canonical": false
     }

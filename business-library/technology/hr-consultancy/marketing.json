@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.hrConsultancy.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.hrConsultancy.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.hrConsultancy.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.hrConsultancy.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.hrConsultancy.marketing.uvp.diff1",
+      "businessLibrary.hrConsultancy.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2b",
+    "descriptionTranslationKey": "businessLibrary.hrConsultancy.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.hrConsultancy.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.hrConsultancy.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.hrConsultancy.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.hrConsultancy.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.hrConsultancy.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.hrConsultancy.marketing.painPoints.point1",
+      "businessLibrary.hrConsultancy.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.hrConsultancy.marketing.outcomes.outcome1",
+      "businessLibrary.hrConsultancy.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.hrConsultancy.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.hrConsultancy.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.hrConsultancy.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.hrConsultancy.marketing.brandVoice.attr1",
+      "businessLibrary.hrConsultancy.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.hrConsultancy.marketing.contentPillars.pillar1",
+      "businessLibrary.hrConsultancy.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "referralProgram",
+      "contentMarketing",
+      "socialMedia"
+    ],
+    "strategyTranslationKey": "businessLibrary.hrConsultancy.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.hrConsultancy.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.hrConsultancy.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.hrConsultancy.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.hrConsultancy.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.hrConsultancy.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.hrConsultancy.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.hrConsultancy.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.hrConsultancy.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.hrConsultancy.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.hrConsultancy.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.hrConsultancy.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "leadConversion",
+      "customerRetention"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.hrConsultancy.marketing.aiMetadata.generationHints"
+  }
+}

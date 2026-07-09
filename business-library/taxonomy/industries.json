@@ -1,6 +1,6 @@
 {
   "domain": "industries",
-  "description": "The 10 platform industries. Reused verbatim from the existing IndustryType vocabulary — NOT a new list. Source of truth: src/features/business-engine/schemas/enums.ts → industryTypeSchema (also mirrored, by convention, in business-library/schema.ts's own industryTypeSchema and src/features/knowledge-engine's KnowledgeDomain.Industries domain).",
+  "description": "The 11 platform industries (10 original + \"professionalServices\", added in the Taxonomy Expansion sprint to support Law Firm/HR Consultancy/Recruitment Agency/Business Consultancy content). Reused verbatim from the existing IndustryType vocabulary — NOT a new list. Source of truth: src/features/business-engine/schemas/enums.ts → industryTypeSchema (also mirrored, by convention, in business-library/schema.ts's own industryTypeSchema and src/features/knowledge-engine's KnowledgeDomain.Industries domain).",
   "entries": [
     { "key": "health", "label": { "en": "Health", "ro": "Sănătate" } },
     { "key": "tech", "label": { "en": "Tech", "ro": "Tehnologie" } },
@@ -11,6 +11,7 @@
     { "key": "travel", "label": { "en": "Travel", "ro": "Călătorii" } },
     { "key": "sustainability", "label": { "en": "Sustainability", "ro": "Sustenabilitate" } },
     { "key": "entertainment", "label": { "en": "Entertainment", "ro": "Divertisment" } },
-    { "key": "homeServices", "label": { "en": "Home Services", "ro": "Servicii pentru casă" } }
+    { "key": "homeServices", "label": { "en": "Home Services", "ro": "Servicii pentru casă" } },
+    { "key": "professionalServices", "label": { "en": "Professional Services", "ro": "Servicii profesionale" } }
   ]
 }

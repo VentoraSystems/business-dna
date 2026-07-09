@@ -1,0 +1,146 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "crmAndDeliverableSoftware",
+      "workshopFacilitationTools",
+      "brandAndCaseStudyProduction"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "crmSubscription",
+      "workshopToolSubscription"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "travelForOnsiteEngagements",
+      "researchAndDataSubscriptions"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "projectEngagementFee",
+        "label": {
+          "en": "Project-based engagement fee",
+          "ro": "Taxă pentru angajament pe bază de proiect"
+        }
+      },
+      {
+        "key": "advisoryRetainer",
+        "label": {
+          "en": "Monthly advisory retainer",
+          "ro": "Abonament lunar de consultanță"
+        }
+      },
+      {
+        "key": "workshopTrainingFee",
+        "label": {
+          "en": "Workshop and training delivery fee",
+          "ro": "Taxă pentru livrarea de ateliere și instruiri"
+        }
+      },
+      {
+        "key": "speakingFacilitationFee",
+        "label": {
+          "en": "Speaking and facilitation fee",
+          "ro": "Taxă pentru prezentări și facilitare"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "projectFeePerEngagement": "currency",
+      "monthlyRetainerFee": "currency",
+      "engagementsPerQuarter": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "retainerConversionRate": "percent",
+      "engagementGrowthPerQuarter": "number"
+    },
+    "notesTranslationKey": "businessLibrary.businessConsultancy.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "projectMilestonePayments",
+      "retainerCollections"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 9,
+    "notesTranslationKey": "businessLibrary.businessConsultancy.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 72,
+    "notesTranslationKey": "businessLibrary.businessConsultancy.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 38,
+    "notesTranslationKey": "businessLibrary.businessConsultancy.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "associateConsultantSalary",
+      "researchAssistantContractCosts"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "thoughtLeadershipContentProduction",
+      "speakingEngagementTravel"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve",
+      "engagementDisputeReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "arr",
+      "closeRate",
+      "customerRetention",
+      "leadConversion"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 5500,
+      "notesTranslationKey": "businessLibrary.businessConsultancy.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 13000,
+      "notesTranslationKey": "businessLibrary.businessConsultancy.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 22000,
+      "notesTranslationKey": "businessLibrary.businessConsultancy.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.businessConsultancy.financial.risks.risk1",
+        "severity": "moderate"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.businessConsultancy.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.businessConsultancy.financial.aiMetadata.generationHints"
+  }
+}

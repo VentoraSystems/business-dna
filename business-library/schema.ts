@@ -106,6 +106,7 @@ export const industryTypeSchema = z.enum([
   "sustainability",
   "entertainment",
   "homeServices",
+  "professionalServices",
 ]);
 
 export const businessModelTypeSchema = z.enum([

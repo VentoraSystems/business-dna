@@ -1,0 +1,901 @@
+{
+  "identity": {
+    "id": "6f1a2b3c-0007-4a11-9e10-000000000007",
+    "slug": "recruitment-agency",
+    "version": "1.0.0",
+    "name": {
+      "en": "Crestpoint Talent Partners",
+      "ro": "Crestpoint Talent Partners"
+    },
+    "tagline": {
+      "en": "The right hire, not just a fast one.",
+      "ro": "Angajarea potrivită, nu doar una rapidă."
+    },
+    "createdAt": "2026-07-09T00:00:00.000Z",
+    "updatedAt": "2026-07-09T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theConnector",
+      "theHustler"
+    ],
+    "summary": {
+      "en": "Best suited to a natural relationship-builder who enjoys the hunt for the right candidate and thrives on a fast-paced, deadline-driven sales cycle.",
+      "ro": "Potrivită unui constructor natural de relații, care se bucură de căutarea candidatului potrivit și prosperă într-un ciclu de vânzare rapid, condus de termene."
+    },
+    "minimumExperienceYears": 2
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 10000,
+      "maxInvestment": 30000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 1500,
+      "ongoingMonthlyCostMax": 4000,
+      "notes": {
+        "en": "Covers an applicant-tracking system (ATS/CRM), LinkedIn Recruiter licensing, and job-board posting costs.",
+        "ro": "Acoperă un sistem de urmărire a candidaților (ATS/CRM), licențierea LinkedIn Recruiter și costurile de publicare pe platforme de joburi."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "atsSetup",
+          "label": {
+            "en": "ATS/recruiting-CRM setup",
+            "ro": "Configurarea ATS/CRM de recrutare"
+          },
+          "typicalMin": 800,
+          "typicalMax": 2500
+        },
+        {
+          "key": "linkedinRecruiterLicense",
+          "label": {
+            "en": "LinkedIn Recruiter license (first year)",
+            "ro": "Licență LinkedIn Recruiter (primul an)"
+          },
+          "typicalMin": 6000,
+          "typicalMax": 9000
+        },
+        {
+          "key": "jobBoardCredits",
+          "label": {
+            "en": "Initial job-board posting credits",
+            "ro": "Credite inițiale de publicare pe platforme de joburi"
+          },
+          "typicalMin": 500,
+          "typicalMax": 1500
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "atsSubscription",
+          "label": {
+            "en": "ATS/recruiting-CRM subscription",
+            "ro": "Abonament ATS/CRM de recrutare"
+          },
+          "typicalMonthlyMin": 200,
+          "typicalMonthlyMax": 600
+        },
+        {
+          "key": "sourcingToolSubscriptions",
+          "label": {
+            "en": "Sourcing-tool and job-board subscriptions",
+            "ro": "Abonamente pentru instrumente de sourcing și platforme de joburi"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 900
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "contingencyPlacementFee",
+          "label": {
+            "en": "Contingency placement fee (% of first-year salary)",
+            "ro": "Comision de plasare pe bază de contingență (% din salariul anual)"
+          }
+        },
+        {
+          "key": "retainedSearchFee",
+          "label": {
+            "en": "Retained-search fee (upfront + completion)",
+            "ro": "Taxă de căutare cu retainer (avans + finalizare)"
+          }
+        },
+        {
+          "key": "contractStaffingMarkup",
+          "label": {
+            "en": "Contract/temp staffing markup",
+            "ro": "Marjă pentru personal contractual/temporar"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 5000,
+      "targetMonthlyIncomeMax": 22000,
+      "breakEvenTimelineMonths": 8,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "fast",
+      "notes": {
+        "en": "Contingency placements can close in weeks once a strong candidate pipeline exists for a niche.",
+        "ro": "Plasările pe bază de contingență se pot finaliza în câteva săptămâni, odată ce există un pipeline solid de candidați pentru o nișă."
+      }
+    },
+    "profitMargin": {
+      "level": "high"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "none",
+    "onlineOffline": "online",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 35,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 9
+      },
+      {
+        "key": "marketing",
+        "rating": 6
+      },
+      {
+        "key": "leadership",
+        "rating": 6
+      },
+      {
+        "key": "communication",
+        "rating": 8
+      },
+      {
+        "key": "negotiation",
+        "rating": 8
+      },
+      {
+        "key": "finance",
+        "rating": 5
+      },
+      {
+        "key": "operations",
+        "rating": 6
+      },
+      {
+        "key": "technology",
+        "rating": 5
+      },
+      {
+        "key": "automation",
+        "rating": 4
+      },
+      {
+        "key": "ai",
+        "rating": 4
+      },
+      {
+        "key": "programming",
+        "rating": 2
+      },
+      {
+        "key": "management",
+        "rating": 6
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 40
+      },
+      {
+        "key": "visionary",
+        "score": 30
+      },
+      {
+        "key": "operator",
+        "score": 45
+      },
+      {
+        "key": "creator",
+        "score": 20
+      },
+      {
+        "key": "seller",
+        "score": 92
+      },
+      {
+        "key": "leader",
+        "score": 60
+      },
+      {
+        "key": "analyst",
+        "score": 55
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": true,
+    "isHighlyAutomatable": false,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": true,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "high",
+      "notes": {
+        "en": "Adding recruiters directly increases placement volume, unlike expertise-bound advisory businesses.",
+        "ro": "Angajarea de recrutori suplimentari crește direct volumul de plasări, spre deosebire de afacerile de consultanță limitate de expertiza unei singure persoane."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate"
+    },
+    "aiResistance": {
+      "level": "moderate"
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Hiring freezes during economic downturns hit placement revenue hard and quickly.",
+          "ro": "Înghețările de angajare din perioadele de recesiune afectează rapid și puternic veniturile din plasări."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Diversify across contingency, retained-search, and contract-staffing revenue.",
+          "ro": "Diversifică între venituri din contingență, căutare cu retainer și personal contractual."
+        }
+      },
+      {
+        "description": {
+          "en": "Candidate-guarantee periods require re-filling a role at no additional fee if the hire doesn't work out.",
+          "ro": "Perioadele de garanție a candidatului necesită reocuparea rolului fără taxă suplimentară dacă angajarea nu funcționează."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Screen thoroughly enough upfront to keep guarantee-period replacements rare.",
+          "ro": "Selectează suficient de riguros din start, pentru a menține rare înlocuirile din perioada de garanție."
+        }
+      },
+      {
+        "description": {
+          "en": "Heavy reliance on one or two large client accounts creates concentration risk.",
+          "ro": "Dependența puternică de unul sau două conturi mari de clienți creează risc de concentrare."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Cap any single client at under 25% of placement revenue.",
+          "ro": "Limitează orice client unic la sub 25% din veniturile din plasări."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "The right hire, not just a fast one — niche-specialized recruiting with a real candidate pipeline.",
+        "ro": "Angajarea potrivită, nu doar una rapidă — recrutare specializată pe nișă, cu un pipeline real de candidați."
+      },
+      "channels": [
+        {
+          "channelType": "referralProgram",
+          "description": {
+            "en": "Referrals from hiring managers and placed candidates.",
+            "ro": "Recomandări de la manageri de recrutare și candidați plasați."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "socialMedia",
+          "description": {
+            "en": "LinkedIn sourcing and employer-branding content.",
+            "ro": "Conținut de sourcing și de branding de angajator pe LinkedIn."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "contentMarketing",
+          "description": {
+            "en": "Niche hiring-trend articles for the target role/industry.",
+            "ro": "Articole despre tendințele de angajare, specifice rolului/industriei țintă."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate"
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "Consultative and candidate-pipeline-led — leading with a strong shortlist rather than a cold pitch.",
+        "ro": "Consultativă, condusă de pipeline-ul de candidați — se pornește de la o listă scurtă solidă, nu de la o abordare la rece."
+      },
+      "salesCycleLengthDays": 30,
+      "pricingModel": {
+        "en": "Contingency fee (percentage of first-year salary) or retained search with an upfront fee.",
+        "ro": "Comision de contingență (procent din salariul anual) sau căutare cu retainer și taxă în avans."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate"
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Client intake and role scoping.",
+          "ro": "Preluarea clientului și definirea rolului."
+        },
+        {
+          "en": "Candidate sourcing and screening.",
+          "ro": "Sourcing și selecția candidaților."
+        },
+        {
+          "en": "Interview coordination between client and candidates.",
+          "ro": "Coordonarea interviurilor între client și candidați."
+        },
+        {
+          "en": "Placement-guarantee-period follow-up.",
+          "ro": "Urmărirea perioadei de garanție a plasării."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Sourcing candidates, screening calls, coordinating interviews, and following up on active searches.",
+        "ro": "Sourcing de candidați, apeluri de selecție, coordonarea interviurilor și urmărirea căutărilor active."
+      }
+    },
+    "automation": {
+      "level": "moderate"
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "resumeScreening",
+          "description": {
+            "en": "AI-assisted resume screening and candidate-to-role matching.",
+            "ro": "Selecție CV asistată de AI și potrivire candidat-rol."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "sourcingAutomation",
+          "description": {
+            "en": "Automated candidate sourcing across LinkedIn and job boards.",
+            "ro": "Sourcing automat de candidați pe LinkedIn și platforme de joburi."
+          },
+          "maturity": "coreToModel"
+        }
+      ],
+      "aiDependencyLevel": "moderate"
+    },
+    "recommendedTools": [
+      {
+        "name": "Bullhorn",
+        "category": "atsAndCrm",
+        "isRequired": true,
+        "websiteUrl": "https://www.bullhorn.com/"
+      },
+      {
+        "name": "LinkedIn Recruiter",
+        "category": "sourcing",
+        "isRequired": true,
+        "websiteUrl": "https://business.linkedin.com/talent-solutions/recruiter"
+      },
+      {
+        "name": "JobAdder",
+        "category": "atsAndCrm",
+        "isRequired": false,
+        "websiteUrl": "https://www.jobadder.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "high",
+      "timeHorizonMonths": 30
+    },
+    "scaling": {
+      "path": {
+        "en": "Move from one-off contingency placements to retained-search agreements with a few key clients, then add a second recruiter.",
+        "ro": "Trece de la plasări individuale pe bază de contingență la acorduri de căutare cu retainer cu câțiva clienți cheie, apoi adaugă un al doilea recrutor."
+      },
+      "bottlenecks": [
+        {
+          "en": "Building a deep enough candidate pipeline per niche takes time.",
+          "ro": "Construirea unui pipeline de candidați suficient de profund pe nișă necesită timp."
+        },
+        {
+          "en": "Cash flow between placements can be uneven early on.",
+          "ro": "Fluxul de numerar între plasări poate fi neuniform la început."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 12,
+          "description": {
+            "en": "20 successful placements in the first year.",
+            "ro": "20 de plasări reușite în primul an."
+          }
+        },
+        {
+          "monthsFromLaunch": 15,
+          "description": {
+            "en": "First retained-search client signed.",
+            "ro": "Primul client cu căutare pe retainer semnat."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Niche specialization in a specific role type or industry produces a deeper, faster-moving candidate pipeline than generalist recruiters.",
+          "ro": "Specializarea pe nișă într-un anumit tip de rol sau industrie produce un pipeline de candidați mai profund și mai rapid decât recrutorii generaliști."
+        }
+      },
+      {
+        "description": {
+          "en": "A strong LinkedIn-sourcing presence generates inbound candidate interest without paid job-board spend.",
+          "ro": "O prezență puternică de sourcing pe LinkedIn generează interes inbound din partea candidaților, fără cheltuieli plătite pe platforme de joburi."
+        }
+      },
+      {
+        "description": {
+          "en": "A clear placement guarantee builds client trust and differentiates from lower-quality, high-volume recruiters.",
+          "ro": "O garanție clară de plasare construiește încrederea clienților și diferențiază de recrutorii de volum mare, cu calitate mai scăzută."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A niche-specialized recruitment agency built on contingency and retained-search placement fees, with a growth path toward a second recruiter.",
+        "ro": "O agenție de recrutare specializată pe nișă, construită pe comisioane de plasare pe bază de contingență și retainer, cu un traseu de creștere către un al doilea recrutor."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.recruitmentAgency.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.recruitmentAgency.businessDna.resources.community1"
+      },
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.recruitmentAgency.businessDna.resources.book1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.recruitmentAgency.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "arr",
+        "targetDescription": {
+          "en": "Grow annual placement revenue across contingency and retained search combined.",
+          "ro": "Crește venitul anual din plasări, pe segmentele de contingență și retainer combinate."
+        }
+      },
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Close at least 1 in 3 open searches into a completed placement.",
+          "ro": "Finalizează cel puțin 1 din 3 căutări deschise într-o plasare încheiată."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert referral inquiries into signed search agreements at a higher rate than cold outreach.",
+          "ro": "Transformă solicitările din recomandări în acorduri de căutare semnate la o rată mai mare decât prospectarea la rece."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep repeat-client rate above 60% year over year.",
+          "ro": "Menține rata de clienți recurenți peste 60% de la an la an."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "sales",
+          "importance": 5
+        },
+        {
+          "key": "negotiation",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "communication",
+          "importance": 4
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "persistent",
+          "importance": 4
+        },
+        {
+          "trait": "decisive",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "collaborative",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 10000,
+        "max": 30000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 12000,
+        "max": 25000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 35,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "persistent",
+        "consultative"
+      ],
+      "technicalLevel": 3,
+      "leadershipLevel": 3,
+      "creativityLevel": 2,
+      "salesAffinity": 5,
+      "automationAffinity": 3,
+      "remotePreference": "remote",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theConnector",
+        "theHustler"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize niche specialization and the placement guarantee in the Executive Summary — the two clearest differentiators from high-volume generalist recruiters.",
+      "ro": "Evidențiază specializarea pe nișă și garanția de plasare în Rezumatul executiv — cei doi diferențiatori cei mai clari față de recrutorii generaliști de volum mare."
+    },
+    "marketingHints": {
+      "en": "Referrals from placed candidates convert unusually well and are an underused channel beyond hiring-manager referrals.",
+      "ro": "Recomandările de la candidații plasați se convertesc neobișnuit de bine și sunt un canal subutilizat, dincolo de recomandările managerilor de recrutare."
+    },
+    "financialHints": {
+      "en": "Model revenue as placement-driven and lumpy, not a smooth recurring curve.",
+      "ro": "Modelează venitul ca fiind condus de plasări și neregulat, nu ca o curbă recurentă lină."
+    },
+    "generationHints": {
+      "en": "Tone should be energetic and consultative, reflecting genuine sales strength without sounding pushy.",
+      "ro": "Tonul ar trebui să fie energic și consultativ, reflectând o forță reală de vânzare fără a suna insistent."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Set up the ATS/recruiting CRM and LinkedIn Recruiter license.",
+            "ro": "Configurează ATS/CRM-ul de recrutare și licența LinkedIn Recruiter."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Underbudgeting for LinkedIn Recruiter, the single largest sourcing-tool cost.",
+            "ro": "Subestimarea bugetului pentru LinkedIn Recruiter, cel mai mare cost dintre instrumentele de sourcing."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pick one initial niche and build the ATS pipeline structure around it.",
+            "ro": "Alege o nișă inițială și construiește structura pipeline-ului ATS în jurul ei."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.recruitmentAgency.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Complete the first 3-5 placements in the chosen niche.",
+            "ro": "Finalizează primele 3-5 plasări în nișa aleasă."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Taking on searches outside the chosen niche too early, diluting pipeline depth.",
+            "ro": "Acceptarea unor căutări în afara nișei alese prea devreme, diluând profunzimea pipeline-ului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Stay within the chosen niche until the first 5 placements are complete.",
+            "ro": "Rămâi în nișa aleasă până la finalizarea primelor 5 plasări."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Standardize the client-intake and role-scoping workflow.",
+            "ro": "Standardizează fluxul de preluare a clienților și definire a rolului."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Starting to source before the role is fully scoped with the client.",
+            "ro": "Începerea sourcing-ului înainte ca rolul să fie complet definit cu clientul."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Use a structured intake checklist before opening any search.",
+            "ro": "Folosește o listă structurată de preluare înainte de a deschide orice căutare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.recruitmentAgency.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Announce the agency's niche specialization to the target client market.",
+            "ro": "Anunță specializarea de nișă a agenției pe piața de clienți țintă."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Positioning as a generalist recruiter instead of a niche specialist at launch.",
+            "ro": "Poziționarea ca recrutor generalist în loc de specialist de nișă, la lansare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Lead every pitch with a niche-specific candidate pipeline example.",
+            "ro": "Începe fiecare prezentare cu un exemplu de pipeline de candidați specific nișei."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Complete the first paid placement with the guarantee period honored cleanly.",
+            "ro": "Finalizează prima plasare plătită, cu perioada de garanție respectată corect."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Rushing a placement to close the deal instead of screening thoroughly.",
+            "ro": "Grăbirea unei plasări pentru a încheia tranzacția, în loc de o selecție riguroasă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Hold the same screening bar for the first client as for every future one.",
+            "ro": "Menține același standard de selecție pentru primul client ca pentru toți cei viitori."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach 20 placements with a stable niche pipeline.",
+            "ro": "Atinge 20 de plasări, cu un pipeline de nișă stabil."
+          }
+        ],
+        "kpis": [
+          "arr",
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Spreading across too many niches before any one is fully established.",
+            "ro": "Dispersarea în prea multe nișe înainte ca vreuna să fie complet stabilită."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Deepen the primary niche fully before considering a second one.",
+            "ro": "Aprofundează complet nișa principală înainte de a lua în considerare o a doua."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Move key clients from one-off contingency work to retained-search agreements.",
+            "ro": "Transformă clienții cheie din lucrări ocazionale de contingență în acorduri de căutare pe retainer."
+          }
+        ],
+        "kpis": [
+          "arr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Never proposing a retained-search arrangement to repeat clients.",
+            "ro": "Neproprunerea niciodată a unui aranjament de căutare pe retainer clienților recurenți."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Propose a retained-search agreement to any client with 2+ completed placements.",
+            "ro": "Propune un acord de căutare pe retainer oricărui client cu 2 sau mai multe plasări finalizate."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Add a second recruiter to expand placement capacity.",
+            "ro": "Adaugă un al doilea recrutor pentru a extinde capacitatea de plasare."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring a recruiter without a clear commission-split structure defined first.",
+            "ro": "Angajarea unui recrutor fără o structură clară de partajare a comisionului definită în prealabil."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Define the commission-split structure in writing before the new recruiter's first search.",
+            "ro": "Definește în scris structura de partajare a comisionului înainte de prima căutare a noului recrutor."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Add a contract/temp staffing offer alongside permanent placement.",
+            "ro": "Adaugă o ofertă de personal contractual/temporar, alături de plasarea permanentă."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Treating contract staffing with the same process as permanent placement.",
+            "ro": "Tratarea personalului contractual cu același proces ca plasarea permanentă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a distinct contract-staffing workflow before marketing it.",
+            "ro": "Construiește un flux distinct de personal contractual înainte de a-l promova."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Package the client book and candidate database for acquisition by a larger agency.",
+            "ro": "Pregătește portofoliul de clienți și baza de date de candidați pentru achiziție de către o agenție mai mare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Candidate pipeline knowledge held only in the founder's head, not the ATS.",
+            "ro": "Cunoștințele despre pipeline-ul de candidați deținute doar de fondator, nu în ATS."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Log every candidate interaction and client relationship detail in the ATS from day one.",
+            "ro": "Înregistrează fiecare interacțiune cu candidatul și detaliu al relației cu clientul în ATS încă din prima zi."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

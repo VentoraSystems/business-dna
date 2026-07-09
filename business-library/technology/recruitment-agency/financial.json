@@ -1,0 +1,139 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "atsSetup",
+      "linkedinRecruiterLicense",
+      "jobBoardCredits"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "atsSubscription",
+      "sourcingToolSubscriptions"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "jobBoardPostingFees",
+      "candidateAssessmentToolCosts"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "contingencyPlacementFee",
+        "label": {
+          "en": "Contingency placement fee",
+          "ro": "Comision de plasare pe bază de contingență"
+        }
+      },
+      {
+        "key": "retainedSearchFee",
+        "label": {
+          "en": "Retained-search fee",
+          "ro": "Taxă de căutare cu retainer"
+        }
+      },
+      {
+        "key": "contractStaffingMarkup",
+        "label": {
+          "en": "Contract/temp staffing markup",
+          "ro": "Marjă pentru personal contractual/temporar"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "contingencyFeePercent": "percent",
+      "averagePlacedSalary": "currency",
+      "retainedSearchUpfrontFee": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "placementsPerQuarter": "number",
+      "averageFeePerPlacement": "currency"
+    },
+    "notesTranslationKey": "businessLibrary.recruitmentAgency.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "placementFeeCollections",
+      "retainedSearchUpfrontInflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 8,
+    "notesTranslationKey": "businessLibrary.recruitmentAgency.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 75,
+    "notesTranslationKey": "businessLibrary.recruitmentAgency.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 40,
+    "notesTranslationKey": "businessLibrary.recruitmentAgency.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "secondRecruiterCommissionSplit",
+      "adminSupportWages"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "linkedInContentCreation",
+      "referralIncentives"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "fourMonthOperatingReserve",
+      "guaranteePeriodReplacementReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "arr",
+      "closeRate",
+      "leadConversion",
+      "customerRetention"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 4500,
+      "notesTranslationKey": "businessLibrary.recruitmentAgency.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 11000,
+      "notesTranslationKey": "businessLibrary.recruitmentAgency.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 20000,
+      "notesTranslationKey": "businessLibrary.recruitmentAgency.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.recruitmentAgency.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.recruitmentAgency.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.recruitmentAgency.financial.aiMetadata.generationHints"
+  }
+}

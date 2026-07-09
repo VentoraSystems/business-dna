@@ -701,7 +701,8 @@
             "travel": "Călătorii & ospitalitate",
             "sustainability": "Sustenabilitate",
             "entertainment": "Divertisment",
-            "homeServices": "Servicii pentru casă"
+            "homeServices": "Servicii pentru casă",
+            "professionalServices": "Servicii profesionale"
           }
         },
         "businessModels": {
@@ -2707,6 +2708,1822 @@
         },
         "aiMetadata": {
           "generationHints": "Păstrează toate recomandările la nivelul administrării/creșterii practicii — nu oferi niciodată sfaturi fiscale specifice pentru declarația reală a unui client final."
+        }
+      }
+    },
+    "lawFirm": {
+      "businessDna": {
+        "resources": {
+          "course1": "Curs: Educație juridică continuă, secțiunea de drept comercial",
+          "community1": "Comunitate: Secțiunea pentru firme mici a baroului local",
+          "book1": "Carte: „The Path to Profitability for Small Law Firms” de Ed Wesemann",
+          "checklist1": "Listă de verificare: Preluarea unei cauze noi și verificarea conflictului de interese"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune că, până la angajarea unui al doilea avocat, capacitatea de ore facturabile este principala constrângere."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — punctul de echilibru real depinde de viteza de creștere a volumului de taxă fixă."
+        },
+        "grossMargin": {
+          "notes": "Marjă ridicată, tipică unei practici solo eficiente, cu costuri fixe reduse."
+        },
+        "netMargin": {
+          "notes": "După asigurarea de malpraxis, cotizațiile de barou și costurile software."
+        },
+        "scenarios": {
+          "conservative": "Câțiva clienți cu taxă fixă, fără clienți cu abonament încă.",
+          "expected": "Un mix de lucrări cu taxă fixă și 8-10 clienți cu abonament de consiliere juridică generală.",
+          "optimistic": "Capacitate facturabilă completă, plus peste 15 clienți cu abonament."
+        },
+        "risks": {
+          "risk1": "Venitul este plafonat strict de orele facturabile, până la angajarea unui al doilea avocat.",
+          "risk2": "O plângere de malpraxis, chiar dacă nu are succes, poate fi costisitoare și consumatoare de timp pentru apărare."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul ca fiind limitat de capacitatea orelor facturabile, nu infinit scalabil."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Contracte care rezistă, nu doar contracte care se semnează — drept comercial practic pentru fondatori și firme mici.",
+          "category": "Practică juridică comercială boutique"
+        },
+        "brandPromise": "Un contract pe care chiar te poți baza, redactat de cineva care poartă răspunderea pentru corectitudinea lui.",
+        "uvp": {
+          "statement": "Drept comercial atestat de barou, asigurat pentru malpraxis, cu prețuri fixe și predictibile pentru documente standard.",
+          "diff1": "Prețuri fixe pentru documente standardizate",
+          "diff2": "Atestat de barou, cu acoperire completă de malpraxis"
+        },
+        "icp": {
+          "description": "Startup-uri și firme mici (2-50 de angajați) care au nevoie de contracte, documente de înființare și îndrumare juridică continuă, fără un consilier juridic intern permanent.",
+          "firmographics": "Firme aflate în etapa incipientă sau de creștere, cu nevoi recurente de contracte și conformitate."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Fondator de startup la prima experiență",
+            "description": "Fondator care nu a avut niciodată un avocat și are nevoie de documente de înființare și acord între fondatori."
+          },
+          "persona2": {
+            "name": "Proprietar de firmă mică în creștere",
+            "description": "Proprietar al cărui volum de contracte a depășit șabloanele ad-hoc, nerevizuite."
+          }
+        },
+        "painPoints": {
+          "point1": "Folosirea unor șabloane de contract nerevizuite, găsite online, care ar putea să nu reziste dacă sunt contestate.",
+          "point2": "Necunoașterea costului unei cauze juridice înainte de a începe."
+        },
+        "outcomes": {
+          "outcome1": "Încrederea că contractele sunt executorii și protejează corect afacerea.",
+          "outcome2": "Costuri juridice predictibile, în locul unei facturi orare deschise."
+        },
+        "messaging": {
+          "core": "Nu mai ghici la contractele tale. Obține unele care chiar rezistă, la un preț cunoscut din start.",
+          "support1": "Atestat de barou și asigurat pentru malpraxis, nu o fabrică de șabloane."
+        },
+        "brandVoice": {
+          "tone": "Precis, măsurat și care inspiră încredere.",
+          "attr1": "Precis",
+          "attr2": "Demn de încredere"
+        },
+        "contentPillars": {
+          "pillar1": "Capcane contractuale pe care fondatorii le ratează frecvent",
+          "pillar2": "Elementele fundamentale ale înființării unei firme"
+        },
+        "channelStrategy": "Recomandările de la contabili și consultanți sunt principale; conținutul practic despre dreptul contractual construiește notorietate secundară; prezentările la evenimente pentru afaceri mici sunt experimentale.",
+        "community": {
+          "description": "O relație de recomandare cu contabili și consultanți de afaceri care întâlnesc nevoi juridice pe care nu le pot rezolva singuri.",
+          "platform1": "Secțiunea pentru firme mici a baroului local"
+        },
+        "leadMagnets": {
+          "magnet1": "Consultație inițială și verificare a conflictului de interese, gratuite"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Introducere prin recomandare",
+            "description": "Un contabil sau consultant face prezentarea."
+          },
+          "stage2": {
+            "name": "Consultația inițială",
+            "description": "Consultație gratuită și verificare a conflictului de interese."
+          },
+          "stage3": {
+            "name": "Propunerea de angajament",
+            "description": "O propunere de angajament cu taxă fixă sau abonament."
+          }
+        },
+        "retention": {
+          "tactic1": "Apeluri trimestriale de verificare pentru consiliere juridică generală, incluse în fiecare abonament."
+        },
+        "analytics": {
+          "metric1": "Rata de conversie consultație-angajament"
+        },
+        "aiMetadata": {
+          "generationHints": "Nu genera niciodată mesaje bazate pe urgență sau frică juridică — acest public reacționează la precizie și încredere, nu la frică."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Configurează asigurarea de malpraxis și software-ul de management al practicii."
+          },
+          "deliverables": {
+            "0": "Poliță de malpraxis activă și software de contabilitate fiduciară configurat."
+          },
+          "checklist": {
+            "0": "Confirmă că acoperirea de malpraxis este activă înainte de a accepta orice client."
+          },
+          "commonMistakes": {
+            "0": "Subestimarea costurilor de asigurare de malpraxis la bugetare."
+          },
+          "successCriteria": {
+            "0": "Asigurarea de malpraxis și contabilitatea fiduciară sunt ambele active."
+          },
+          "aiRecommendations": {
+            "0": "Confirmă că statutul de barou și asigurarea sunt ambele active înainte de orice activitate de marketing."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Finalizează primele 5-10 angajamente de documente cu taxă fixă."
+          },
+          "deliverables": {
+            "0": "Un set revizuit de șabloane de documente standard."
+          },
+          "checklist": {
+            "0": "Rulează o verificare a conflictului de interese înainte de fiecare angajament."
+          },
+          "commonMistakes": {
+            "0": "Omiterea verificării conflictului de interese pentru clienții timpurii, informali."
+          },
+          "successCriteria": {
+            "0": "10 angajamente cu taxă fixă finalizate fără nicio problemă de conflict."
+          },
+          "aiRecommendations": {
+            "0": "Folosește constant revizuirea asistată de AI la o primă trecere, dar finalizează întotdeauna cu o revizuire completă a avocatului."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardizează șabloanele de documente cu taxă fixă."
+          },
+          "deliverables": {
+            "0": "O bibliotecă de șabloane pentru cele mai comune tipuri de documente."
+          },
+          "checklist": {
+            "0": "Stochează central fiecare șablon revizuit, pentru reutilizare."
+          },
+          "commonMistakes": {
+            "0": "Redactarea fiecărui document de la zero."
+          },
+          "successCriteria": {
+            "0": "Fiecare angajament nou cu taxă fixă pornește de la un șablon revizuit."
+          },
+          "aiRecommendations": {
+            "0": "Folosește revizuirea contractului asistată de AI pentru a semnala mai rapid abaterile de la șablonul standard."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Anunță practica rețelei de recomandări formate din contabili și consultanți."
+          },
+          "deliverables": {
+            "0": "Profiluri profesionale actualizate și comunicare către partenerii de recomandare."
+          },
+          "checklist": {
+            "0": "Confirmă configurarea contabilității fiduciare înainte de a accepta fonduri de abonament."
+          },
+          "commonMistakes": {
+            "0": "Lansarea înainte ca software-ul de contabilitate fiduciară să fie corect configurat."
+          },
+          "successCriteria": {
+            "0": "Prima prezentare din rețeaua de recomandări finalizată."
+          },
+          "aiRecommendations": {
+            "0": "Personalizează comunicarea către partenerii de recomandare pe baza nevoilor juridice tipice ale clienților lor."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Livrează primul angajament de consiliere juridică generală cu abonament."
+          },
+          "deliverables": {
+            "0": "Acord de abonament semnat și livrabilele primului trimestru finalizate."
+          },
+          "checklist": {
+            "0": "Percepe tariful integral al abonamentului chiar și pentru primul client."
+          },
+          "commonMistakes": {
+            "0": "Subevaluarea abonamentului pentru a câștiga primul client."
+          },
+          "successCriteria": {
+            "0": "Primul client cu abonament reînnoiește după perioada inițială."
+          },
+          "aiRecommendations": {
+            "0": "Setează mementouri automate de verificare trimestrială de la începutul abonamentului."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge un mix stabil de clienți cu abonament și taxă fixă."
+          },
+          "deliverables": {
+            "0": "Un pas documentat de calificare a domeniului de practică pentru solicitări."
+          },
+          "checklist": {
+            "0": "Califică solicitările față de domeniile de practică de bază ale firmei înainte de a programa o consultație."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea oricărei solicitări indiferent de potrivirea cu domeniul de practică."
+          },
+          "successCriteria": {
+            "0": "Venitul atinge intervalul lunar țintă al fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Direcționează automat solicitările din afara domeniilor de practică de bază către un partener de recomandare."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Crește baza de clienți cu abonament de consiliere juridică generală spre obiectivul stabilit."
+          },
+          "deliverables": {
+            "0": "Urmărire săptămânală a capacității facturabile, implementată."
+          },
+          "checklist": {
+            "0": "Urmărește capacitatea săptămânală facturabilă pentru a ști când să aduci sprijin."
+          },
+          "commonMistakes": {
+            "0": "Lăsarea capacității facturabile să ajungă la maximum fără un plan de a adăuga sprijin."
+          },
+          "successCriteria": {
+            "0": "Numărul de clienți cu abonament atinge obiectivul stabilit."
+          },
+          "aiRecommendations": {
+            "0": "Semnalează automat constrângerile de capacitate odată ce gradul de utilizare depășește un prag stabilit."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Angajează primul avocat asociat."
+          },
+          "deliverables": {
+            "0": "Un proces documentat de onboarding și revizuire pentru asociat."
+          },
+          "checklist": {
+            "0": "Revizuiește atent, alături de asociat, primele sale redactări timp de cel puțin un trimestru."
+          },
+          "commonMistakes": {
+            "0": "Transferarea relațiilor cu clienții către asociat prea brusc."
+          },
+          "successCriteria": {
+            "0": "Asociatul gestionează independent cel puțin 10 cauze ale clienților."
+          },
+          "aiRecommendations": {
+            "0": "Folosește cercetarea asistată de AI pentru a ajuta asociatul să se familiarizeze mai rapid cu precedentele."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Extinde-te într-un domeniu de practică adiacent, precum redactarea politicilor de muncă."
+          },
+          "deliverables": {
+            "0": "Educație continuă finalizată în noul domeniu de practică."
+          },
+          "checklist": {
+            "0": "Finalizează educația continuă în noul domeniu înainte de a-l promova."
+          },
+          "commonMistakes": {
+            "0": "Promovarea unui nou domeniu de practică înainte de a construi o expertiză reală în el."
+          },
+          "successCriteria": {
+            "0": "Primul client semnat în noul domeniu de practică."
+          },
+          "aiRecommendations": {
+            "0": "Urmărește care surse de recomandare produc clienții cei mai potriviți pentru noul domeniu de practică."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Pregătește portofoliul de clienți și dosarele pentru o tranziție curată către o firmă achizitoare."
+          },
+          "deliverables": {
+            "0": "Dosare standardizate și complete pentru fiecare client."
+          },
+          "checklist": {
+            "0": "Confirmă că fiecare dosar este organizat consecvent înainte de due diligence."
+          },
+          "commonMistakes": {
+            "0": "Dosarele organizate inconsecvent între clienți."
+          },
+          "successCriteria": {
+            "0": "Portofoliul de clienți și dosarele se transferă curat unui nou proprietar."
+          },
+          "aiRecommendations": {
+            "0": "Folosește istoricul de reînnoire a abonamentelor ca dovadă a durabilității relațiilor cu clienții pentru cumpărători."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Creșterea este limitată de capacitatea de ore facturabile — nu sugera tactici care presupun o scalare infinită înainte de existența unui al doilea avocat."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The Path to Profitability for Small Law Firms",
+          "description": "Ghidul practic al lui Ed Wesemann despre conducerea unei practici mici, eficiente și profitabile."
+        },
+        "item2": {
+          "title": "Educație juridică continuă, secțiunea de drept comercial",
+          "description": "Educație continuă obligatorie pentru menținerea statutului de barou și actualizarea cunoștințelor."
+        },
+        "item3": {
+          "title": "Secțiunea pentru firme mici a baroului local",
+          "description": "Rețea de colegi și sursă de recomandări pentru practicienii solo și din firme mici."
+        },
+        "item4": {
+          "title": "The Lawyerist Podcast",
+          "description": "Interviuri despre managementul practicii, adresate firmelor mici și solo."
+        },
+        "item5": {
+          "title": "Buletinul de actualizări de reglementare al baroului local",
+          "description": "Actualizări privind baroul și modificările de reglementare, pentru avocați practicanți."
+        },
+        "item6": {
+          "title": "Clio",
+          "description": "Platforma principală de management al practicii pentru urmărirea cauzelor și facturare."
+        },
+        "item7": {
+          "title": "LawPay",
+          "description": "Procesare de plăți conformă cu cerințele de contabilitate fiduciară, construită pentru firme de avocatură."
+        },
+        "item8": {
+          "title": "Revizuirea și modificarea contractului asistate de AI",
+          "description": "Accelerează revizuirea la prima trecere, urmată întotdeauna de o revizuire completă a avocatului."
+        },
+        "item9": {
+          "title": "Admiterea în barou și statutul activ",
+          "description": "Acreditarea fundamentală pe care se construiește această practică."
+        },
+        "item10": {
+          "title": "Conferința anuală a baroului de stat pentru firme mici",
+          "description": "Întâlnire anuală pe teme de management al practicii solo și de firmă mică."
+        },
+        "item11": {
+          "title": "Programul de mentorat al baroului",
+          "description": "Pune în legătură noii practicieni solo cu un mentor experimentat dintr-o firmă mică."
+        },
+        "item12": {
+          "title": "Lista de verificare pentru preluarea unei cauze noi și verificarea conflictului de interese",
+          "description": "Asigură că fiecare cauză nouă trece de verificarea conflictului de interese înainte de a începe lucrul."
+        },
+        "aiMetadata": {
+          "generationHints": "Preferă resursele legate de credibilitatea baroului și gestionarea riscului de malpraxis în locul conținutului generic pentru afaceri mici."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Contabilii și consultanții întâlnesc frecvent întrebări juridice la care nu pot răspunde — o relație reciprocă de recomandare cu ei este o sursă subutilizată."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Un singur termen ratat la o depunere sensibilă la timp poate declanșa o plângere de malpraxis, indiferent de calitatea muncii de fond."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Facturarea exclusiv pe oră pentru lucrări standardizate pentru care clienții ar prefera să plătească o taxă fixă."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "O consultație inițială gratuită convertește lead-urile din recomandări mai rapid decât orice publicitate, mai ales combinată cu un meniu clar de taxe fixe."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Urmărește utilizarea săptămânală a capacității facturabile, astfel încât angajarea următorului avocat să fie o decizie planificată, nu o reacție de urgență."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Standardizează organizarea dosarelor încă de la primul client — dă roade la momentul fiscal, la audit și la ieșirea din afacere."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Firmele care publică un meniu clar de taxe fixe finalizează mai multe consultații decât cele care oferă doar tarife orare."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea clienților firmelor mici nu pleacă din cauza onorariilor — pleacă din cauza timpilor lenți de răspuns la întrebări simple."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Primele de asigurare de malpraxis cresc pe măsură ce domeniile de practică se extind — bugetează pentru asta înainte de a adăuga unul nou."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cererea pentru servicii juridice cu preț fix și predictibil crește mai rapid decât cererea pentru facturarea orară tradițională."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "O practică solo de drept comercial a crescut la 20 de clienți cu abonament de consiliere juridică generală în 3 ani, doar prin recomandări de la contabili și consultanți."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "O firmă care a acceptat prea mulți clienți orari fără planificarea capacității a ratat termene și a înfruntat o plângere de malpraxis în primul an."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Pot conduce o practică boutique de drept comercial de la distanță?",
+            "answer": "În mare parte da — majoritatea lucrărilor cu documente și întâlnirilor cu clienții se pot face de la distanță, cu apariții ocazionale în persoană, după caz."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Instrumentele AI de revizuire a contractelor vor face obsolete practicile mici de drept comercial.",
+            "fact": "AI accelerează revizuirea la prima trecere, dar judecata, răspunderea și semnătura avocatului rămân produsul real pentru care plătesc clienții."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Percepe tariful integral chiar și pentru primul client al unei noi linii de servicii — subevaluarea timpurie stabilește o așteptare greu de inversat."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează toate recomandările la nivelul administrării/creșterii firmei — nu oferi niciodată sfaturi juridice specifice pentru cauza reală a unui client final."
+        }
+      }
+    },
+    "hrConsultancy": {
+      "businessDna": {
+        "resources": {
+          "course1": "Curs: Programul de certificare SHRM Certified Professional (SHRM-CP)",
+          "community1": "Comunitate: Filiala locală a Society for Human Resource Management (SHRM)",
+          "book1": "Carte: „The Progress Principle” de Teresa Amabile și Steven Kramer",
+          "checklist1": "Listă de verificare: Auditul de HR pentru clienți noi"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune o creștere graduală a abonamentelor, alături de venituri mai puțin predictibile din proiecte."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — punctul de echilibru real depinde de viteza de construire a încrederii pentru abonamente."
+        },
+        "grossMargin": {
+          "notes": "Estimare care ține cont de costurile software HRIS și de asigurare."
+        },
+        "netMargin": {
+          "notes": "După reînnoirea certificării, asigurare și abonamentele software."
+        },
+        "scenarios": {
+          "conservative": "Câțiva clienți pe bază de proiect, fără abonamente permanente încă.",
+          "expected": "5-6 clienți cu abonament de HR fracționat, plus lucrări ocazionale de proiect.",
+          "optimistic": "Peste 8 clienți cu abonament, plus un flux constant de instruiri și ateliere."
+        },
+        "risks": {
+          "risk1": "Cheltuielile de HR sunt adesea reduse devreme în perioadele de restrângere bugetară a clienților.",
+          "risk2": "O cauză sensibilă de relații cu angajații, gestionată greșit, poate încheia brusc o relație de abonament."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul ca un mix de creștere constantă a abonamentelor și taxe de proiect mai neregulate, mai puțin predictibile."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Departamentul de HR pe care nu trebuie să-l angajezi full-time — suport de HR fracționat pentru firme mici în creștere.",
+          "category": "Consultanță de HR fracționat"
+        },
+        "brandPromise": "Expertiză de HR la nevoie, fără costurile unei angajări full-time.",
+        "uvp": {
+          "statement": "Suport de HR fracționat, certificat SHRM, tarifat ca abonament, nu ca salariu full-time.",
+          "diff1": "Certificat SHRM-CP",
+          "diff2": "Preț fracționat — o fracțiune dintr-o angajare de HR full-time"
+        },
+        "icp": {
+          "description": "Firme mici (10-75 de angajați) care au depășit gestionarea ad-hoc a HR, dar nu sunt încă pregătite pentru o angajare de HR full-time.",
+          "firmographics": "Firme în creștere, fără o funcție de HR dedicată încă."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Fondator care poartă și pălăria de HR",
+            "description": "Fondator care se ocupă singur de HR și este tot mai copleșit de asta."
+          },
+          "persona2": {
+            "name": "Lider de operațiuni confruntat cu o problemă de personal",
+            "description": "Lider de operațiuni care tocmai a întâmpinat prima problemă serioasă de relații cu angajații și nu are un ghid de HR."
+          }
+        },
+        "painPoints": {
+          "point1": "Fără politici de HR documentate, ceea ce lasă afacerea expusă pe elementele de bază ale conformității.",
+          "point2": "Sentimentul de a fi depășiți de o problemă sensibilă de relații cu angajații."
+        },
+        "outcomes": {
+          "outcome1": "Un manual al angajatului documentat și politici clare puse în aplicare.",
+          "outcome2": "Încredere în modul de gestionare a următoarei situații dificile cu un angajat."
+        },
+        "messaging": {
+          "core": "Obține expertiză reală de HR fără salariul full-time — disponibilă exact pentru situațiile care au nevoie de ea.",
+          "support1": "Certificat SHRM, nu un consultant generalist care ghicește în HR."
+        },
+        "brandVoice": {
+          "tone": "Cald, dar autoritar.",
+          "attr1": "Empatic",
+          "attr2": "Ancorat"
+        },
+        "contentPillars": {
+          "pillar1": "Greșeli comune de HR făcute de firmele mici",
+          "pillar2": "Elementele fundamentale ale politicilor pentru angajați"
+        },
+        "channelStrategy": "Recomandările de la contabili și consultanți sunt principale; conținutul practic de HR construiește notorietate secundară; thought leadership-ul pe LinkedIn este experimental.",
+        "community": {
+          "description": "O relație de recomandare cu contabili și consultanți de afaceri ale căror clienți încep să pună întrebări de HR la care ei nu pot răspunde.",
+          "platform1": "Filiala locală SHRM"
+        },
+        "leadMagnets": {
+          "magnet1": "Mini-audit gratuit de conformitate HR"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Introducere prin recomandare",
+            "description": "Un contabil sau consultant face prezentarea."
+          },
+          "stage2": {
+            "name": "Auditul de HR",
+            "description": "O evaluare a nevoilor privind lipsurile actuale de HR."
+          },
+          "stage3": {
+            "name": "Propunere de abonament sau proiect",
+            "description": "O propunere de abonament pe niveluri sau de proiect cu domeniu definit."
+          }
+        },
+        "retention": {
+          "tactic1": "Apeluri trimestriale de verificare a conformității, incluse în fiecare abonament."
+        },
+        "analytics": {
+          "metric1": "Rata de conversie audit HR-abonament"
+        },
+        "aiMetadata": {
+          "generationHints": "Menține un mesaj empatic și non-alarmist — acest public este adesea deja anxios din cauza unei probleme de personal."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Obține certificarea SHRM-CP și configurează asigurarea de răspundere profesională."
+          },
+          "deliverables": {
+            "0": "Certificare și poliță de asigurare active."
+          },
+          "checklist": {
+            "0": "Confirmă că asigurarea de răspundere este activă înainte de a prelua orice client."
+          },
+          "commonMistakes": {
+            "0": "Renunțarea la asigurarea de răspundere profesională pentru a economisi la început."
+          },
+          "successCriteria": {
+            "0": "Certificarea și asigurarea sunt ambele active."
+          },
+          "aiRecommendations": {
+            "0": "Obține certificarea SHRM-CP înainte de a promova pe scară largă serviciile de audit HR."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Finalizează audituri de HR și lucrări inițiale de politici pentru 3-5 clienți din faza incipientă."
+          },
+          "deliverables": {
+            "0": "Domeniu și livrabile documentate pentru fiecare angajament timpuriu."
+          },
+          "checklist": {
+            "0": "Definește un domeniu clar, limitat în timp, chiar și pentru angajamentele timpurii cu discount."
+          },
+          "commonMistakes": {
+            "0": "Oferirea unei munci gratuite extinse, fără un domeniu clar."
+          },
+          "successCriteria": {
+            "0": "Cel puțin 3 audituri de HR finalizate, cu constatări documentate."
+          },
+          "aiRecommendations": {
+            "0": "Folosește redactarea politicilor asistată de AI pentru a accelera prima versiune, urmată întotdeauna de o revizuire umană completă."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardizează fluxul de audit HR și redactare a manualului."
+          },
+          "deliverables": {
+            "0": "O bibliotecă reutilizabilă de șabloane pentru audit HR și manual."
+          },
+          "checklist": {
+            "0": "Stochează central fiecare șablon revizuit, pentru reutilizare."
+          },
+          "commonMistakes": {
+            "0": "Reconstruirea șablonului de manual de la zero pentru fiecare client."
+          },
+          "successCriteria": {
+            "0": "Fiecare angajament nou pornește de la un șablon revizuit."
+          },
+          "aiRecommendations": {
+            "0": "Folosește redactarea fișelor de post asistată de AI pentru a accelera un livrabil comun, cu risc mai scăzut."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Anunță consultanța rețelei de recomandări formate din contabili și consultanți."
+          },
+          "deliverables": {
+            "0": "O structură publicată de prețuri pentru abonament, pe niveluri."
+          },
+          "checklist": {
+            "0": "Publică prețuri clare pentru abonament înainte de a face marketing amplu."
+          },
+          "commonMistakes": {
+            "0": "Lansarea înainte de a exista o structură clară de prețuri pentru abonament."
+          },
+          "successCriteria": {
+            "0": "Prima prezentare din rețeaua de recomandări finalizată."
+          },
+          "aiRecommendations": {
+            "0": "Personalizează comunicarea către partenerii de recomandare pe baza lipsurilor tipice de HR ale clienților lor."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Livrează primul audit de HR și un acord de abonament semnat."
+          },
+          "deliverables": {
+            "0": "Acord de abonament semnat și un livrabil finalizat în prima lună."
+          },
+          "checklist": {
+            "0": "Stabilește așteptări clare privind timpul de răspuns cu primul client cu abonament."
+          },
+          "commonMistakes": {
+            "0": "Subdimensionarea abonamentului pentru a câștiga primul client."
+          },
+          "successCriteria": {
+            "0": "Primul client reînnoiește abonamentul după perioada inițială."
+          },
+          "aiRecommendations": {
+            "0": "Setează mementouri automate de verificare trimestrială a conformității de la început."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge o bază stabilă de clienți cu abonament, care acoperă venitul lunar țintă."
+          },
+          "deliverables": {
+            "0": "Un pas documentat de calificare a potrivirii culturale pentru auditul de HR."
+          },
+          "checklist": {
+            "0": "Califică prospecții pe baza potrivirii culturale în timpul discuției de audit HR."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea unor clienți a căror cultură nu se potrivește abordării consultanței."
+          },
+          "successCriteria": {
+            "0": "Venitul atinge intervalul lunar țintă al fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Semnalează timpuriu potențialele nepotriviri culturale, pe baza răspunsurilor din audit."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Crește baza de abonamente spre obiectivul stabilit."
+          },
+          "deliverables": {
+            "0": "Un bloc săptămânal protejat în calendar pentru clienții existenți cu abonament."
+          },
+          "checklist": {
+            "0": "Protejează un bloc săptămânal fix pentru clienții existenți înainte de a programa consultații noi."
+          },
+          "commonMistakes": {
+            "0": "Neglijarea clienților existenți cu abonament în timp ce se urmărește lucrări noi de proiect."
+          },
+          "successCriteria": {
+            "0": "Numărul de clienți cu abonament atinge obiectivul stabilit."
+          },
+          "aiRecommendations": {
+            "0": "Semnalează clienții cu abonament care nu au fost contactați recent, pentru o verificare proactivă."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Angajează primul consultant HR asociat."
+          },
+          "deliverables": {
+            "0": "Un plan documentat de onboarding și gestionare comună pentru cazuri sensibile."
+          },
+          "checklist": {
+            "0": "Gestionează împreună cu asociatul cazurile sensibile ale clienților în primele două trimestre."
+          },
+          "commonMistakes": {
+            "0": "Transferarea prea bruscă a clienților cu situații sensibile de relații cu angajații."
+          },
+          "successCriteria": {
+            "0": "Asociatul gestionează independent cel puțin 5 relații cu clienți."
+          },
+          "aiRecommendations": {
+            "0": "Folosește redactarea asistată de AI pentru a ajuta asociatul să se familiarizeze mai rapid cu lucrările de politici."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Adaugă o linie de servicii de instruire și ateliere pentru teme comune de HR."
+          },
+          "deliverables": {
+            "0": "Conținut de atelier personalizat pentru cel puțin 2 industrii de clienți."
+          },
+          "checklist": {
+            "0": "Personalizează conținutul atelierului pe industria clientului înainte de livrare."
+          },
+          "commonMistakes": {
+            "0": "Construirea unui conținut generic pentru ateliere, în loc de a-l adapta industriilor clienților."
+          },
+          "successCriteria": {
+            "0": "Primul atelier livrat și rezervat pentru un al doilea client."
+          },
+          "aiRecommendations": {
+            "0": "Urmărește care teme de atelier generează cel mai mult interes ulterior pentru abonament."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Pregătește portofoliul de clienți cu abonament și procesele documentate pentru achiziție."
+          },
+          "deliverables": {
+            "0": "Fiecare interacțiune cu clientul și motivația deciziilor înregistrate într-un sistem partajat."
+          },
+          "checklist": {
+            "0": "Confirmă că istoricul clienților este documentat, nu dependent de fondator, înainte de due diligence."
+          },
+          "commonMistakes": {
+            "0": "Menținerea istoricului relațiilor cu clienții nedocumentat și dependent de fondator."
+          },
+          "successCriteria": {
+            "0": "Portofoliul de clienți și procesele documentate se transferă curat unui nou proprietar."
+          },
+          "aiRecommendations": {
+            "0": "Folosește istoricul de reînnoire a abonamentelor ca dovadă a durabilității relațiilor cu clienții pentru cumpărători."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Creșterea depinde de încrederea construită în timp — nu sugera tactici care presupun o achiziție de clienți rapidă și tranzacțională."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The Progress Principle",
+          "description": "Teresa Amabile și Steven Kramer despre ce motivează cu adevărat angajații zi de zi."
+        },
+        "item2": {
+          "title": "Programul SHRM Certified Professional (SHRM-CP)",
+          "description": "Acreditarea principală pe care clienții o caută la evaluarea unui consultant de HR."
+        },
+        "item3": {
+          "title": "Society for Human Resource Management (SHRM)",
+          "description": "Principala asociație profesională și rețea de filiale locale pentru practicienii de HR."
+        },
+        "item4": {
+          "title": "HR Happy Hour Podcast",
+          "description": "Discuții practice despre managementul practicii de HR și tendințe, pentru practicieni."
+        },
+        "item5": {
+          "title": "Newsletter-ul SHRM HR Daily",
+          "description": "Actualizări zilnice privind legislația muncii și reglementările de HR."
+        },
+        "item6": {
+          "title": "BambooHR",
+          "description": "O platformă HRIS de bază, recomandată pentru clienții firme mici."
+        },
+        "item7": {
+          "title": "Lattice",
+          "description": "Software de management al performanței pentru clienții care construiesc procese de evaluare."
+        },
+        "item8": {
+          "title": "Redactare de politici și fișe de post asistată de AI",
+          "description": "Accelerează primele variante ale documentelor, urmate întotdeauna de o revizuire umană completă."
+        },
+        "item9": {
+          "title": "SHRM Certified Professional (SHRM-CP)",
+          "description": "Acreditarea în jurul căreia este construită această practică."
+        },
+        "item10": {
+          "title": "Conferința și expoziția anuală SHRM",
+          "description": "Principala întâlnire anuală pentru practicienii și consultanții de HR."
+        },
+        "item11": {
+          "title": "Programul de mentorat al filialei locale SHRM",
+          "description": "Pune în legătură noii consultanți de HR cu un mentor experimentat, proprietar de practică."
+        },
+        "item12": {
+          "title": "Lista de verificare pentru auditul de HR al clienților noi",
+          "description": "Asigură identificarea sistematică a lipsurilor de HR ale fiecărui client nou."
+        },
+        "aiMetadata": {
+          "generationHints": "Preferă resursele de credibilitate SHRM și conștientizare a conformității în locul conținutului generic de management pentru afaceri mici."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Consultanții de afaceri și contabilii întâlnesc frecvent lipsuri de HR la clienții lor — o relație reciprocă de recomandare este o sursă subutilizată."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Oferirea unui sfat informal despre o concediere, fără a documenta motivația, poate expune atât clientul, cât și consultantul, dacă este contestat ulterior."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Vânzarea unor șabloane generice de HR în loc de un audit personalizat care scoate la iveală lipsurile reale ale clientului."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Un mini-audit gratuit de conformitate HR convertește recomandările calde mai rapid decât orice prezentare generică de servicii de HR."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Gestionează împreună cu un asociat nou cazurile sensibile de relații cu angajații timp de cel puțin două trimestre înainte de orice predare."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Documentează fiecare recomandare oferită unui client — protejează ambele părți și este pur și simplu o bună practică."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Consultanțele care încep cu un audit gratuit finalizează mai multe abonamente decât cele care încep cu o prezentare generică a meniului de servicii."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea firmelor mici nu investesc în HR decât după primul incident serios de relații cu angajații, nu înainte."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Primele de asigurare de răspundere profesională cresc pe măsură ce baza de clienți și sensibilitatea cazurilor cresc — bugetează pentru asta."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cererea pentru suport de HR fracționat crește mai rapid decât cererea pentru angajări de HR full-time în rândul firmelor mici cu sub 75 de angajați."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Un consultant solo de HR a crescut la 10 clienți cu abonament în 2 ani, doar prin recomandări de la contabili și consultanți de afaceri."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "O consultanță care a acceptat prea mulți clienți fără un proces documentat a oferit sfaturi inconsecvente între clienți și a pierdut mai multe abonamente în decurs de un an."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Trebuie să fiu avocat specializat în dreptul muncii pentru a oferi consultanță de HR?",
+            "answer": "Nu — consultanța de HR se concentrează pe politici, cultură și operațiuni; întrebările juridice complexe ar trebui direcționate către un avocat specializat în dreptul muncii."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Chatboții AI de HR vor înlocui în curând consultanții de HR fracționat.",
+            "fact": "AI accelerează redactarea documentelor de politică, dar judecata sensibilă în relațiile cu angajații și construirea încrederii rămân profund umane."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Stabilește așteptări clare privind timpul de răspuns cu fiecare client nou cu abonament, din prima zi."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează toate recomandările la nivelul administrării/creșterii consultanței — nu oferi niciodată sfaturi specifice de conformitate cu legislația muncii sau juridice pentru situația reală a unui client final."
+        }
+      }
+    },
+    "recruitmentAgency": {
+      "businessDna": {
+        "resources": {
+          "course1": "Curs: Tehnici avansate de sourcing și căutare booleană",
+          "community1": "Comunitate: National Association of Personnel Services (NAPS)",
+          "book1": "Carte: „The Robert Collins Guide to Recruiting” de Robert D. Collins",
+          "checklist1": "Listă de verificare: Preluarea clientului și definirea rolului"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune că volumul de plasări crește pe măsură ce pipeline-ul de candidați de nișă se aprofundează, nu ca o curbă liniară lină."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — punctul de echilibru real depinde puternic de viteza cu care pipeline-ul de nișă produce plasări."
+        },
+        "grossMargin": {
+          "notes": "Marjă ridicată, tipică unei afaceri de servicii cu costuri reduse ale bunurilor vândute."
+        },
+        "netMargin": {
+          "notes": "După costurile de abonament pentru ATS, instrumente de sourcing și platforme de joburi."
+        },
+        "scenarios": {
+          "conservative": "Câteva plasări pe bază de contingență, fără clienți cu căutare pe retainer încă.",
+          "expected": "Volum constant de plasări pe bază de contingență, plus 1-2 clienți cu căutare pe retainer.",
+          "optimistic": "Un pipeline de nișă solid, plus mai multe acorduri de căutare pe retainer."
+        },
+        "risks": {
+          "risk1": "O înghețare de angajare la un client cheie elimină peste noapte o căutare activă și comisionul aferent.",
+          "risk2": "O înlocuire în perioada de garanție înseamnă refacerea unei căutări fără taxă suplimentară."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul ca fiind condus de plasări și neregulat, sensibil la ciclurile pieței de angajare."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Angajarea potrivită, nu doar una rapidă — recrutare specializată pe nișă, cu un pipeline real de candidați.",
+          "category": "Agenție de recrutare specializată pe nișă"
+        },
+        "brandPromise": "O listă scurtă de candidați care chiar se potrivesc, susținută de o garanție reală de plasare.",
+        "uvp": {
+          "statement": "Recrutare specializată pe nișă, cu un pipeline profund și pregătit de candidați și o garanție reală de plasare.",
+          "diff1": "Specializare profundă pe nișă, nu recrutare generalistă",
+          "diff2": "O perioadă reală de garanție a plasării"
+        },
+        "icp": {
+          "description": "Firme mici și mijlocii care angajează pentru un tip specific de rol, greu de ocupat, unde recrutorii generaliști au performanțe slabe.",
+          "firmographics": "Firme cu 10-500 de angajați, care angajează 1-10 roluri pe an în nișa țintă."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Manager de recrutare dezamăgit de o căutare generalistă slabă",
+            "description": "Manager care a încercat un recrutor generalist și a primit o listă scurtă slabă pentru un rol specializat."
+          },
+          "persona2": {
+            "name": "Firmă în creștere care angajează primul specialist într-un rol",
+            "description": "Firmă care angajează pentru un tip de rol pentru care nu are expertiză internă de selecție."
+          }
+        },
+        "painPoints": {
+          "point1": "Primirea unui val de CV-uri necalificate din publicările generaliste pe platforme de joburi.",
+          "point2": "Lipsa expertizei interne pentru a evalua candidații într-un rol specializat."
+        },
+        "outcomes": {
+          "outcome1": "O listă scurtă, de înaltă calitate, în locul a sute de CV-uri necalificate.",
+          "outcome2": "Încrederea că noul angajat va funcționa cu adevărat, susținută de o garanție."
+        },
+        "messaging": {
+          "core": "Nu mai trece prin sute de CV-uri. Obține o listă scurtă de candidați care chiar se potrivesc rolului.",
+          "support1": "Specializat pe nișă, nu un recrutor generalist care lucrează pe orice tip de rol."
+        },
+        "brandVoice": {
+          "tone": "Energic, consultativ și încrezător.",
+          "attr1": "Energic",
+          "attr2": "Orientat spre rezultate"
+        },
+        "contentPillars": {
+          "pillar1": "Tendințe de angajare în nișa țintă",
+          "pillar2": "Cum să evaluezi candidații într-un rol specializat"
+        },
+        "channelStrategy": "Recomandările de la managerii de recrutare și candidații plasați sunt principale; conținutul de sourcing și branding de angajator pe LinkedIn construiește notorietate secundară; conținutul despre tendințele de angajare de nișă este experimental.",
+        "community": {
+          "description": "O rețea de foști candidați și manageri de recrutare din nișa țintă, care recomandă ambii afaceri noi.",
+          "platform1": "Filiala locală NAPS"
+        },
+        "leadMagnets": {
+          "magnet1": "Consultație gratuită de definire a rolului și un reper salarial de piață"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Recomandare sau solicitare inbound",
+            "description": "Un manager de recrutare contactează pe baza unei recomandări sau a unui conținut."
+          },
+          "stage2": {
+            "name": "Apelul de definire a rolului",
+            "description": "O discuție detaliată pentru a defini rolul și profilul candidatului ideal."
+          },
+          "stage3": {
+            "name": "Acordul de căutare și livrarea listei scurte",
+            "description": "Un acord de căutare semnat, urmat de o listă scurtă inițială de candidați."
+          }
+        },
+        "retention": {
+          "tactic1": "Contactarea proactivă a foștilor clienți înainte de următoarea nevoie probabilă de angajare."
+        },
+        "analytics": {
+          "metric1": "Rata de finalizare căutare-plasare, pe nișă"
+        },
+        "aiMetadata": {
+          "generationHints": "Evidențiază profunzimea de nișă și garanția de plasare în fiecare mesaj — cei doi diferențiatori cei mai mari față de recrutorii generaliști."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Configurează ATS/CRM-ul de recrutare și licența LinkedIn Recruiter."
+          },
+          "deliverables": {
+            "0": "Un ATS configurat cu structura de pipeline pentru nișa aleasă."
+          },
+          "checklist": {
+            "0": "Confirmă că ATS-ul și LinkedIn Recruiter sunt ambele active înainte de a începe sourcing-ul."
+          },
+          "commonMistakes": {
+            "0": "Subestimarea bugetului pentru licența LinkedIn Recruiter."
+          },
+          "successCriteria": {
+            "0": "ATS-ul și instrumentele de sourcing sunt ambele active."
+          },
+          "aiRecommendations": {
+            "0": "Alege o nișă inițială înainte de a configura structura pipeline-ului."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Finalizează primele 3-5 plasări în nișa aleasă."
+          },
+          "deliverables": {
+            "0": "Un pipeline de candidați documentat pentru nișa aleasă."
+          },
+          "checklist": {
+            "0": "Rămâi în nișa aleasă până la finalizarea primelor 5 plasări."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea unor căutări în afara nișei alese prea devreme."
+          },
+          "successCriteria": {
+            "0": "5 plasări finalizate în cadrul nișei alese."
+          },
+          "aiRecommendations": {
+            "0": "Folosește selecția CV-urilor asistată de AI pentru a accelera prima trecere, urmată întotdeauna de un apel de selecție uman."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardizează fluxul de preluare a clienților și definire a rolului."
+          },
+          "deliverables": {
+            "0": "O listă structurată de preluare, folosită pentru fiecare căutare."
+          },
+          "checklist": {
+            "0": "Folosește lista structurată de preluare înainte de a deschide orice căutare."
+          },
+          "commonMistakes": {
+            "0": "Începerea sourcing-ului înainte ca rolul să fie complet definit."
+          },
+          "successCriteria": {
+            "0": "Fiecare căutare deschisă are o listă de preluare completată în dosar."
+          },
+          "aiRecommendations": {
+            "0": "Folosește sourcing-ul asistat de AI pentru a construi mai rapid lista inițială de candidați, odată ce rolul este definit."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Anunță specializarea de nișă a agenției pe piața de clienți țintă."
+          },
+          "deliverables": {
+            "0": "Prezență LinkedIn actualizată și mesaje de comunicare specifice nișei."
+          },
+          "checklist": {
+            "0": "Începe fiecare prezentare cu un exemplu de pipeline de candidați specific nișei."
+          },
+          "commonMistakes": {
+            "0": "Poziționarea ca recrutor generalist în loc de specialist de nișă."
+          },
+          "successCriteria": {
+            "0": "Prima solicitare inbound primită din poziționarea specifică nișei."
+          },
+          "aiRecommendations": {
+            "0": "Personalizează mesajele de comunicare pe baza nevoilor specifice de rol ale fiecărui manager de recrutare."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Finalizează prima plasare plătită, cu perioada de garanție respectată corect."
+          },
+          "deliverables": {
+            "0": "Acord de căutare semnat și o plasare finalizată."
+          },
+          "checklist": {
+            "0": "Menține același standard de selecție pentru primul client ca pentru toți cei viitori."
+          },
+          "commonMistakes": {
+            "0": "Grăbirea unei plasări pentru a încheia tranzacția, în loc de o selecție riguroasă."
+          },
+          "successCriteria": {
+            "0": "Prima plasare trece de perioada de garanție fără a fi nevoie de o înlocuire."
+          },
+          "aiRecommendations": {
+            "0": "Semnalează candidații cu risc mai mare de plecare timpurie, folosind tipare din semnalele de selecție."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge 20 de plasări, cu un pipeline de nișă stabil."
+          },
+          "deliverables": {
+            "0": "O imagine documentată a surselor de nișă care produc cei mai buni candidați."
+          },
+          "checklist": {
+            "0": "Aprofundează complet nișa principală înainte de a lua în considerare o a doua."
+          },
+          "commonMistakes": {
+            "0": "Dispersarea în prea multe nișe înainte ca vreuna să fie complet stabilită."
+          },
+          "successCriteria": {
+            "0": "Venitul atinge intervalul lunar țintă al fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Identifică automat canalele de sourcing cu cea mai bună conversie, pe baza istoricului de plasări."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Transformă clienții cheie din lucrări ocazionale de contingență în acorduri de căutare pe retainer."
+          },
+          "deliverables": {
+            "0": "Un șablon de propunere de căutare pe retainer, pregătit pentru clienți recurenți."
+          },
+          "checklist": {
+            "0": "Propune un acord de căutare pe retainer oricărui client cu 2 sau mai multe plasări finalizate."
+          },
+          "commonMistakes": {
+            "0": "Neproprunerea niciodată a unui aranjament de căutare pe retainer clienților recurenți."
+          },
+          "successCriteria": {
+            "0": "Primul acord de căutare pe retainer semnat."
+          },
+          "aiRecommendations": {
+            "0": "Semnalează automat clienții recurenți ca fiind candidați pentru retainer, după a doua lor plasare."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Adaugă un al doilea recrutor pentru a extinde capacitatea de plasare."
+          },
+          "deliverables": {
+            "0": "Un acord scris de partajare a comisionului pentru noul recrutor."
+          },
+          "checklist": {
+            "0": "Definește structura de partajare a comisionului înainte de prima căutare a noului recrutor."
+          },
+          "commonMistakes": {
+            "0": "Angajarea unui recrutor fără o structură clară de partajare a comisionului."
+          },
+          "successCriteria": {
+            "0": "Al doilea recrutor finalizează independent cel puțin 5 plasări."
+          },
+          "aiRecommendations": {
+            "0": "Folosește datele istorice despre rata de finalizare pentru a stabili așteptări realiste de creștere pentru noul recrutor."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Adaugă o ofertă de personal contractual/temporar, alături de plasarea permanentă."
+          },
+          "deliverables": {
+            "0": "Un flux distinct de personal contractual și o grilă de prețuri."
+          },
+          "checklist": {
+            "0": "Construiește fluxul de personal contractual înainte de a-l promova."
+          },
+          "commonMistakes": {
+            "0": "Tratarea personalului contractual cu același proces ca plasarea permanentă."
+          },
+          "successCriteria": {
+            "0": "Prima plasare de personal contractual finalizată."
+          },
+          "aiRecommendations": {
+            "0": "Urmărește care clienți sunt candidați probabili pentru personal contractual, pe baza tiparelor lor de angajare."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Pregătește portofoliul de clienți și baza de date de candidați pentru achiziție de către o agenție mai mare."
+          },
+          "deliverables": {
+            "0": "Fiecare interacțiune cu candidatul și detaliu de client înregistrate în ATS."
+          },
+          "checklist": {
+            "0": "Confirmă că înregistrările din ATS sunt suficient de complete pentru a susține o revizuire de due diligence."
+          },
+          "commonMistakes": {
+            "0": "Cunoștințele despre pipeline-ul de candidați deținute doar de fondator."
+          },
+          "successCriteria": {
+            "0": "Portofoliul de clienți și baza de date de candidați se transferă curat unui nou proprietar."
+          },
+          "aiRecommendations": {
+            "0": "Folosește datele istorice despre plasări și perioada de garanție ca dovadă a calității pentru firmele achizitoare."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Creșterea este condusă de plasări și sensibilă la ciclurile pieței de angajare — nu sugera tactici care presupun o cerere constantă, imună la recesiune."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The Robert Collins Guide to Recruiting",
+          "description": "Ghidul practic al lui Robert D. Collins despre construirea unui birou de recrutare de la zero."
+        },
+        "item2": {
+          "title": "Tehnici avansate de sourcing și căutare booleană",
+          "description": "Instruire practică despre tehnici avansate de căutare pentru sourcing de candidați."
+        },
+        "item3": {
+          "title": "National Association of Personnel Services (NAPS)",
+          "description": "Principala asociație profesională pentru proprietarii de agenții de recrutare și staffing."
+        },
+        "item4": {
+          "title": "The Full Desk Experience Podcast",
+          "description": "Interviuri despre creșterea practicii pentru proprietarii de agenții de recrutare independente."
+        },
+        "item5": {
+          "title": "Newsletter despre tendințele din industria de recrutare",
+          "description": "Actualizări despre tendințele pieței de angajare și tehnici de sourcing."
+        },
+        "item6": {
+          "title": "Bullhorn",
+          "description": "Platforma principală ATS/CRM pentru gestionarea căutărilor și candidaților."
+        },
+        "item7": {
+          "title": "LinkedIn Recruiter",
+          "description": "Platforma principală de sourcing pentru găsirea și contactarea candidaților."
+        },
+        "item8": {
+          "title": "Selecția CV-urilor asistată de AI",
+          "description": "Accelerează prima trecere de selecție a candidaților, urmată întotdeauna de o revizuire umană."
+        },
+        "item9": {
+          "title": "Certified Personnel Consultant (CPC)",
+          "description": "O acreditare recunoscută pentru profesioniștii din recrutare și staffing."
+        },
+        "item10": {
+          "title": "Conferința anuală NAPS",
+          "description": "Întâlnire anuală pentru proprietarii de agenții independente de recrutare și staffing."
+        },
+        "item11": {
+          "title": "Programul de mentorat NAPS",
+          "description": "Pune în legătură noii proprietari de agenții de recrutare cu un mentor experimentat."
+        },
+        "item12": {
+          "title": "Lista de verificare pentru preluarea clientului și definirea rolului",
+          "description": "Asigură că fiecare căutare începe cu un rol complet definit."
+        },
+        "aiMetadata": {
+          "generationHints": "Preferă resursele legate de specializarea pe nișă și abilitățile de sourcing în locul conținutului generic de vânzări."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Candidații plasați care se mută la firme noi devin o sursă recurentă de recomandări pentru căutări viitoare — un pipeline subutilizat."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "O singură înghețare de angajare la un client mare poate elimina peste noapte o treime din venitul activ, dacă concentrarea nu este gestionată."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Urmărirea fiecărui rol deschis, în loc de a rămâne într-o nișă specializată unde pipeline-ul este profund."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "O consultație gratuită de definire a rolului, cu un reper salarial de piață, convertește recomandările calde mai rapid decât orice prezentare la rece."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Definește în scris acordul de partajare a comisionului cu orice recrutor nou, înainte de prima sa căutare."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Menține același standard de selecție pentru fiecare client, chiar și pentru primul — o plasare timpurie proastă afectează disproporționat reputația."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Agențiile care rămân într-o singură nișă profundă finalizează căutările mai rapid decât generaliștii care urmăresc orice rol deschis."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Clienții rareori schimbă recrutorii din cauza procentului de comision — schimbă din cauza calității și vitezei listei scurte."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Licența LinkedIn Recruiter este cel mai mare cost recurent și este ușor de subestimat în primul an."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cererea pentru recrutori specializați pe nișă crește mai rapid decât cererea pentru agenții generaliste, pe măsură ce rolurile devin mai tehnice."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Un recrutor solo de nișă a finalizat 40 de plasări în 2 ani, refuzând să accepte căutări în afara specialității sale."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "O agenție care a acceptat căutări în prea multe industrii simultan nu a construit niciodată profunzime de pipeline în niciuna dintre ele și a pierdut clienți în favoarea competitorilor specializați."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Trebuie să aleg o singură nișă la început?",
+            "answer": "Da, cel puțin inițial — un pipeline profund într-o nișă finalizează căutările mai rapid decât o prezență superficială în mai multe."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Platformele AI de potrivire a joburilor vor înlocui în curând complet recrutorii umani.",
+            "fact": "AI accelerează sourcing-ul și selecția, dar evaluarea potrivirii reale și gestionarea negocierii umane dintre client și candidat rămân valoarea centrală a unui recrutor."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Propune un acord de căutare pe retainer oricărui client după a doua sa plasare finalizată."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează toate recomandările la nivelul administrării/creșterii agenției — nu oferi niciodată sfaturi specifice de legislația muncii sau de decizie de angajare pentru situația reală a unui client final."
+        }
+      }
+    },
+    "businessConsultancy": {
+      "businessDna": {
+        "resources": {
+          "course1": "Curs: Programul de pregătire Certified Management Consultant (CMC)",
+          "community1": "Comunitate: Filiala locală a Institute of Management Consultants (IMC/ICMCI)",
+          "book1": "Carte: „The Trusted Advisor” de David H. Maister, Charles H. Green și Robert M. Galford",
+          "checklist1": "Listă de verificare: Angajamentul de descoperire și diagnostic"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune venituri neregulate din proiecte, netezite treptat de o bază tot mai mare de abonamente de consultanță."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — punctul de echilibru real depinde de viteza cu care portofoliul de studii de caz construiește credibilitate."
+        },
+        "grossMargin": {
+          "notes": "Marjă ridicată, tipică unei afaceri de servicii bazate pe expertiză, cu cost de livrare redus."
+        },
+        "netMargin": {
+          "notes": "După costurile de CRM, instrumente de atelier și deplasări."
+        },
+        "scenarios": {
+          "conservative": "1-2 angajamente de proiect pe trimestru, fără abonamente de consultanță încă.",
+          "expected": "Un flux constant de angajamente de proiect, plus 3-4 clienți cu abonament de consultanță.",
+          "optimistic": "Un calendar complet de angajamente, plus o ofertă de diagnostic productizată care se vinde de la sine."
+        },
+        "risks": {
+          "risk1": "Bugetele de consultanță sunt adesea reduse devreme în perioadele de recesiune ale clienților.",
+          "risk2": "Un gol între angajamentele semnate creează un flux de numerar lunar neuniform."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul ca taxe de proiect neregulate, netezite treptat de o bază tot mai mare de abonamente de consultanță."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Claritate asupra următorului pas și planul pentru a-l face — claritate strategică pentru firmele în creștere blocate într-o decizie.",
+          "category": "Consultanță de strategie și management"
+        },
+        "brandPromise": "Un plan clar și acționabil la finalul fiecărui angajament, nu doar o prezentare cu observații.",
+        "uvp": {
+          "statement": "Un cadru de diagnostic semnătură care transformă ambiguitatea strategică într-un plan concret și secvențiat.",
+          "diff1": "Un cadru de diagnostic propriu, repetabil",
+          "diff2": "Un istoric documentat de studii de caz"
+        },
+        "icp": {
+          "description": "Firme în creștere (20-200 de angajați) care se confruntă cu o decizie strategică specifică — extindere, restructurare sau un platou de creștere — fără o funcție internă de strategie.",
+          "firmographics": "Firme de dimensiuni medii, cu un fondator sau o echipă de conducere aflată într-un punct de inflexiune specific."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Fondator confruntat cu un platou de creștere",
+            "description": "Fondator a cărui creștere s-a oprit și nu este sigur de ce."
+          },
+          "persona2": {
+            "name": "Echipă de conducere care cântărește o decizie strategică majoră",
+            "description": "Echipă de conducere care dezbate extinderea, restructurarea sau o piață nouă, fără o modalitate structurată de a decide."
+          }
+        },
+        "painPoints": {
+          "point1": "Prea multe opinii interne despre ce trebuie făcut în continuare, fără o modalitate structurată de a decide.",
+          "point2": "Un plan strategic care nu supraviețuiește niciodată contactului cu implementarea reală."
+        },
+        "outcomes": {
+          "outcome1": "Un plan clar, secvențiat, asupra căruia echipa de conducere chiar cade de acord.",
+          "outcome2": "Încrederea că planul este ancorat în datele reale ale afacerii, nu în bune practici generice."
+        },
+        "messaging": {
+          "core": "Nu mai dezbate ce trebuie făcut în continuare. Obține un plan clar, secvențiat, pe care întreaga ta echipă de conducere îl poate chiar executa.",
+          "support1": "Un cadru de diagnostic propriu, nu un exercițiu generic de prezentare."
+        },
+        "brandVoice": {
+          "tone": "Încrezător, strategic și orientat spre rezultate.",
+          "attr1": "Strategic",
+          "attr2": "Decisiv"
+        },
+        "contentPillars": {
+          "pillar1": "Cadre pentru depășirea unui platou de creștere",
+          "pillar2": "Studii de caz din angajamente anterioare"
+        },
+        "channelStrategy": "Recomandările de la clienți anteriori și profesioniști complementari sunt principale; conținutul de thought-leadership și studiile de caz construiesc notorietate secundară; prezentările sunt experimentale.",
+        "community": {
+          "description": "O relație de recomandare cu contabili, avocați și alți consultanți ale căror clienți ating un punct de inflexiune strategic.",
+          "platform1": "Filiala locală IMC/ICMCI"
+        },
+        "leadMagnets": {
+          "magnet1": "Mini-evaluare gratuită de diagnostic al platoului de creștere"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Recomandare sau descoperire prin conținut",
+            "description": "Un prospect este recomandat sau găsește conținutul publicat al firmei."
+          },
+          "stage2": {
+            "name": "Discuția de descoperire",
+            "description": "O discuție inițială pentru a înțelege întrebarea strategică în cauză."
+          },
+          "stage3": {
+            "name": "Propunerea de angajament",
+            "description": "O propunere de proiect sau abonament, cu domeniu definit."
+          }
+        },
+        "retention": {
+          "tactic1": "Apeluri trimestriale de revizuire a afacerii, incluse în fiecare abonament de consultanță."
+        },
+        "analytics": {
+          "metric1": "Rata de finalizare apel de descoperire-angajament"
+        },
+        "aiMetadata": {
+          "generationHints": "Ancorează fiecare mesaj într-un rezultat specific și măsurabil dintr-un studiu de caz, nu în limbaj strategic generic."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Configurează CRM-ul, software-ul de management al livrabilelor și documentează 2-3 studii de caz."
+          },
+          "deliverables": {
+            "0": "Un portofoliu documentat de studii de caz din angajamente anterioare."
+          },
+          "checklist": {
+            "0": "Confirmă că cel puțin 2 studii de caz sunt documentate înainte de a începe marketingul."
+          },
+          "commonMistakes": {
+            "0": "Omiterea unui portofoliu documentat de studii de caz înainte de marketing."
+          },
+          "successCriteria": {
+            "0": "Configurarea CRM-ului și portofoliul de studii de caz sunt ambele complete."
+          },
+          "aiRecommendations": {
+            "0": "Documentează studiile de caz cu rezultate specifice și măsurabile, nu cu descrieri vagi."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Finalizează primele 2-3 angajamente de descoperire-strategie."
+          },
+          "deliverables": {
+            "0": "Un domeniu și termen de angajament documentate pentru fiecare client timpuriu."
+          },
+          "checklist": {
+            "0": "Definește în scris un domeniu și un termen fix pentru angajament, înainte de a începe."
+          },
+          "commonMistakes": {
+            "0": "Permiterea extinderii nedefinite a domeniului angajamentului, fără o limită clară."
+          },
+          "successCriteria": {
+            "0": "2-3 angajamente finalizate în domeniul și termenul original."
+          },
+          "aiRecommendations": {
+            "0": "Folosește sinteza de cercetare asistată de AI pentru a accelera faza de descoperire, urmată întotdeauna de propria analiză a consultantului."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Formalizează cadrul de diagnostic semnătură folosit în fiecare angajament."
+          },
+          "deliverables": {
+            "0": "Un șablon de cadru de diagnostic documentat și reutilizabil."
+          },
+          "checklist": {
+            "0": "Documentează cadrul ca șablon de livrabil reutilizabil."
+          },
+          "commonMistakes": {
+            "0": "Rularea unei abordări de diagnostic diferite pentru fiecare client."
+          },
+          "successCriteria": {
+            "0": "Fiecare angajament nou pornește de la cadrul documentat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește redactarea prezentărilor asistată de AI pentru a accelera crearea livrabilelor din structura standard a cadrului."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publică primul conținut de tip thought-leadership în jurul cadrului semnătură."
+          },
+          "deliverables": {
+            "0": "Cel puțin un studiu de caz detaliat, publicat."
+          },
+          "checklist": {
+            "0": "Publică un studiu de caz detaliat înainte de anunțul de lansare."
+          },
+          "commonMistakes": {
+            "0": "Lansarea fără niciun studiu de caz publicat care să susțină afirmațiile."
+          },
+          "successCriteria": {
+            "0": "Primul apel de descoperire, provenit din recomandare sau conținut, programat."
+          },
+          "aiRecommendations": {
+            "0": "Urmărește care studiu de caz publicat generează cele mai multe programări de apeluri de descoperire."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Livrează primul angajament plătit, folosind cadrul de diagnostic semnătură."
+          },
+          "deliverables": {
+            "0": "Acord de angajament semnat și un livrabil de diagnostic finalizat."
+          },
+          "checklist": {
+            "0": "Percepe taxa integrală de angajament chiar și pentru primul client."
+          },
+          "commonMistakes": {
+            "0": "Subdimensionarea taxei pentru a câștiga primul client."
+          },
+          "successCriteria": {
+            "0": "Angajamentul primului client produce un studiu de caz utilizabil."
+          },
+          "aiRecommendations": {
+            "0": "Colectează sistematic datele despre rezultatele angajamentului, pentru utilizare viitoare ca studiu de caz."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge 10 angajamente finalizate, folosind cadrul standardizat."
+          },
+          "deliverables": {
+            "0": "Un pas documentat de calificare pentru apelurile de descoperire."
+          },
+          "checklist": {
+            "0": "Califică prospecții față de expertiza de bază a firmei în timpul apelului de descoperire."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea unor angajamente mult în afara expertizei de bază a firmei."
+          },
+          "successCriteria": {
+            "0": "Venitul atinge intervalul lunar țintă al fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Semnalează automat solicitările de apeluri de descoperire cu potrivire scăzută, pe baza tipului de întrebare strategică declarată."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Lansează prima ofertă de diagnostic productizată, cu domeniu fix."
+          },
+          "deliverables": {
+            "0": "Un pachet de ofertă cu domeniu și preț fix."
+          },
+          "checklist": {
+            "0": "Ambalează cel mai solicitat tip de angajament într-o ofertă cu domeniu fix."
+          },
+          "commonMistakes": {
+            "0": "Menținerea fiecărui angajament complet personalizat, ceea ce încetinește inutil ciclul de vânzare."
+          },
+          "successCriteria": {
+            "0": "Prima ofertă productizată vândută fără un apel personalizat de definire a domeniului."
+          },
+          "aiRecommendations": {
+            "0": "Urmărește diferența ratei de finalizare între oferta productizată și propunerile complet personalizate."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Adaugă primul consultant asociat."
+          },
+          "deliverables": {
+            "0": "Un plan de instruire documentat, folosind studii de caz anterioare."
+          },
+          "checklist": {
+            "0": "Instruiește asociatul în cadrul metodologic înainte de primul său angajament solo."
+          },
+          "commonMistakes": {
+            "0": "Transferarea muncii cu clienții înainte ca asociatul să fie instruit în cadrul metodologic."
+          },
+          "successCriteria": {
+            "0": "Asociatul livrează independent cel puțin 2 angajamente."
+          },
+          "aiRecommendations": {
+            "0": "Folosește cadrul documentat și studiile de caz ca material de onboarding pentru asociat."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Extinde-te într-un domeniu de consultanță adiacent, precum suportul de implementare post-angajament."
+          },
+          "deliverables": {
+            "0": "Cel puțin 2 angajamente finalizate în noul domeniu de consultanță."
+          },
+          "checklist": {
+            "0": "Finalizează angajamente în noul domeniu înainte de a-l promova pe scară largă."
+          },
+          "commonMistakes": {
+            "0": "Promovarea unui nou domeniu de consultanță înainte de a construi dovezi reale de rezultate în el."
+          },
+          "successCriteria": {
+            "0": "Primul client semnat în noul domeniu de consultanță."
+          },
+          "aiRecommendations": {
+            "0": "Urmărește care clienți existenți sunt cei mai buni candidați pentru noul domeniu de consultanță, pe baza istoricului de angajamente."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Pregătește portofoliul de clienți, studiile de caz și documentația cadrului pentru achiziție."
+          },
+          "deliverables": {
+            "0": "Un cadru de diagnostic complet documentat și transferabil."
+          },
+          "checklist": {
+            "0": "Confirmă că cadrul este documentat suficient de bine pentru a fi livrat de altcineva decât fondatorul."
+          },
+          "commonMistakes": {
+            "0": "Menținerea cadrului semnătură doar în mintea fondatorului."
+          },
+          "successCriteria": {
+            "0": "Cadrul, portofoliul de clienți și studiile de caz se transferă curat unui nou proprietar."
+          },
+          "aiRecommendations": {
+            "0": "Folosește rezultatele măsurabile din portofoliul de studii de caz ca dovadă a valorii practicii pentru cumpărători."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Creșterea depinde de credibilitatea studiilor de caz și de repetabilitatea cadrului, nu de tactici de achiziție plătită."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The Trusted Advisor",
+          "description": "David H. Maister, Charles H. Green și Robert M. Galford despre construirea unei încrederi profunde a clienților, ca și consultant."
+        },
+        "item2": {
+          "title": "Programul Certified Management Consultant (CMC)",
+          "description": "Acreditarea principală, recunoscută internațional, pentru consultanții de management."
+        },
+        "item3": {
+          "title": "Institute of Management Consultants (IMC/ICMCI)",
+          "description": "Principala asociație profesională și rețea de filiale locale pentru consultanții de management."
+        },
+        "item4": {
+          "title": "Management Consulted Podcast",
+          "description": "Discuții despre creșterea practicii și studii de caz, pentru consultanți independenți."
+        },
+        "item5": {
+          "title": "Newsletter-ul Consulting Success",
+          "description": "Sfaturi de management al practicii și poziționare, pentru consultanți independenți."
+        },
+        "item6": {
+          "title": "Miro",
+          "description": "Platforma principală de facilitare a atelierelor și colaborare vizuală."
+        },
+        "item7": {
+          "title": "Notion",
+          "description": "Management al livrabilelor și bazei de cunoștințe pentru documentarea angajamentelor."
+        },
+        "item8": {
+          "title": "Sinteza de cercetare asistată de AI",
+          "description": "Accelerează munca de cercetare din faza de descoperire, urmată întotdeauna de propria analiză a consultantului."
+        },
+        "item9": {
+          "title": "Certified Management Consultant (CMC)",
+          "description": "Acreditarea în jurul căreia este construită credibilitatea acestei practici."
+        },
+        "item10": {
+          "title": "Conferința mondială ICMCI",
+          "description": "Întâlnire anuală pentru consultanții de management din întreaga lume."
+        },
+        "item11": {
+          "title": "Programul de mentorat al filialei locale IMC",
+          "description": "Pune în legătură noii consultanți cu un mentor experimentat, dintr-o practică independentă."
+        },
+        "item12": {
+          "title": "Lista de verificare pentru angajamentul de descoperire și diagnostic",
+          "description": "Asigură că fiecare angajament nou urmează același proces structurat de descoperire."
+        },
+        "aiMetadata": {
+          "generationHints": "Preferă resursele legate de credibilitatea studiilor de caz și dezvoltarea cadrului metodologic, în locul conținutului generic de sfaturi de afaceri."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Clienții anteriori care se confruntă cu o nouă întrebare strategică sunt o sursă subutilizată de angajamente repetate, cu încredere mai mare."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Un client care dă vina pe planul consultantului pentru un rezultat slab, chiar și când execuția a fost problema reală, poate afecta disproporționat reputația."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Livrarea unei prezentări strategice generice, în loc de un cadru adaptat datelor și constrângerilor specifice ale clientului."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "O mini-evaluare gratuită a platoului de creștere convertește recomandările calde mai rapid decât orice prezentare generică de consultanță."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Instruiește un nou asociat în cadrul documentat, folosind studii de caz anterioare, înainte de primul său angajament solo."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Definește în scris domeniul angajamentului și criteriile de succes înainte de a începe — protejează ambele părți și clarifică ce înseamnă „finalizat”."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Consultanțele cu un cadru numit și repetabil finalizează apelurile de descoperire mai rapid decât cele care propun angajamente complet personalizate și nedefinite."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea clienților angajează un consultant nu pentru informații noi, ci pentru permisiunea externă de a lua o decizie spre care oricum înclinau deja."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Costurile de deplasare pentru ateliere la fața locului se acumulează rapid și sunt ușor de subestimat în primul an."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cererea pentru oferte de diagnostic productizate, cu domeniu fix, crește mai rapid decât cererea pentru angajamente de strategie complet deschise."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Un consultant solo de strategie a crescut la 15 angajamente finalizate în 2 ani, doar prin recomandări și o serie publicată de studii de caz."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "O consultanță care a permis extinderea nedefinită a domeniului angajamentului și-a epuizat fondatorul și a livrat rezultate inconsecvente între clienți."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Am nevoie de un MBA pentru a începe o consultanță de management?",
+            "answer": "Nu — experiența operațională sau de conducere reală, plus un istoric documentat de rezultate, contează de obicei mai mult pentru prospecți decât o diplomă specifică."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Instrumentele de strategie AI vor face consultanții de management obsoleți.",
+            "fact": "AI accelerează cercetarea și redactarea, dar sintetizarea constrângerilor, politicii interne și culturii unei firme specifice într-un plan executabil rămâne o abilitate profund umană."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Publică un studiu de caz detaliat, cu rezultate specifice, pentru fiecare angajament finalizat în care clientul este confortabil să fie menționat."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează toate recomandările la nivelul administrării/creșterii consultanței — nu oferi niciodată sfaturi strategice specifice pentru decizia reală de afaceri a unui client final."
         }
       }
     }

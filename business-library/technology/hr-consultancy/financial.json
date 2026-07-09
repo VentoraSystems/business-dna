@@ -1,0 +1,145 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "certificationAndSetup",
+      "hrisSoftwareSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "hrisSubscription",
+      "professionalLiabilityPremium"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "travelForOnsiteEngagements",
+      "workshopMaterialsCosts"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "fractionalHrRetainer",
+        "label": {
+          "en": "Monthly fractional-HR retainer",
+          "ro": "Abonament lunar de HR fracționat"
+        }
+      },
+      {
+        "key": "projectFee",
+        "label": {
+          "en": "Project-based fee",
+          "ro": "Taxă bazată pe proiect"
+        }
+      },
+      {
+        "key": "hourlyConsulting",
+        "label": {
+          "en": "Hourly consulting",
+          "ro": "Consultanță tarifată pe oră"
+        }
+      },
+      {
+        "key": "trainingWorkshopFee",
+        "label": {
+          "en": "Training and workshop delivery fee",
+          "ro": "Taxă pentru livrarea de instruiri și ateliere"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "monthlyRetainerFee": "currency",
+      "projectFeePerEngagement": "currency",
+      "retainerClientCount": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "retainerClientGrowthPerQuarter": "number",
+      "projectEngagementsPerQuarter": "number"
+    },
+    "notesTranslationKey": "businessLibrary.hrConsultancy.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "retainerCollections",
+      "projectMilestonePayments"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 9,
+    "notesTranslationKey": "businessLibrary.hrConsultancy.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 58,
+    "notesTranslationKey": "businessLibrary.hrConsultancy.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 30,
+    "notesTranslationKey": "businessLibrary.hrConsultancy.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "associateConsultantFeeSplit",
+      "adminSupportWages"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "referralNetworkDevelopment",
+      "contentCreation"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "fourMonthOperatingReserve",
+      "professionalLiabilityClaimReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "mrr",
+      "customerRetention",
+      "leadConversion",
+      "grossMargin"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 4500,
+      "notesTranslationKey": "businessLibrary.hrConsultancy.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 10000,
+      "notesTranslationKey": "businessLibrary.hrConsultancy.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 17000,
+      "notesTranslationKey": "businessLibrary.hrConsultancy.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.hrConsultancy.financial.risks.risk1",
+        "severity": "moderate"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.hrConsultancy.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.hrConsultancy.financial.aiMetadata.generationHints"
+  }
+}

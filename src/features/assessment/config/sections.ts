@@ -164,6 +164,7 @@ export const assessmentSections: readonly SectionConfig[] = [
           "sustainability",
           "entertainment",
           "homeServices",
+          "professionalServices",
         ],
         isRequired: true,
       },

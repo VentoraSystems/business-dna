@@ -1,0 +1,895 @@
+{
+  "identity": {
+    "id": "6f1a2b3c-0006-4a11-9e10-000000000006",
+    "slug": "hr-consultancy",
+    "version": "1.0.0",
+    "name": {
+      "en": "Northbridge HR Partners",
+      "ro": "Northbridge HR Partners"
+    },
+    "tagline": {
+      "en": "The HR department you don't have to hire full-time.",
+      "ro": "Departamentul de HR pe care nu trebuie să-l angajezi full-time."
+    },
+    "createdAt": "2026-07-09T00:00:00.000Z",
+    "updatedAt": "2026-07-09T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theOperator",
+      "theConnector"
+    ],
+    "summary": {
+      "en": "Best suited to a people-centered operator who is calm under sensitive employee-relations situations and comfortable being the trusted outside voice on hard decisions.",
+      "ro": "Potrivită unui operator centrat pe oameni, calm în situații sensibile de relații cu angajații și confortabil să fie vocea externă de încredere în decizii dificile."
+    },
+    "minimumExperienceYears": 5
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 8000,
+      "maxInvestment": 25000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 1200,
+      "ongoingMonthlyCostMax": 3500,
+      "notes": {
+        "en": "Covers HR-certification renewal, HRIS/payroll-adjacent software subscriptions, and professional liability insurance.",
+        "ro": "Acoperă reînnoirea certificării HR, abonamentele software HRIS/adiacente salarizării și asigurarea de răspundere profesională."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "certificationAndSetup",
+          "label": {
+            "en": "SHRM-CP certification and professional liability insurance setup",
+            "ro": "Certificarea SHRM-CP și configurarea asigurării de răspundere profesională"
+          },
+          "typicalMin": 800,
+          "typicalMax": 2500
+        },
+        {
+          "key": "hrisSoftwareSetup",
+          "label": {
+            "en": "HRIS and policy-template software setup",
+            "ro": "Configurarea software-ului HRIS și a șabloanelor de politici"
+          },
+          "typicalMin": 600,
+          "typicalMax": 1800
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "hrisSubscription",
+          "label": {
+            "en": "HRIS and performance-management software subscriptions",
+            "ro": "Abonamente software HRIS și de management al performanței"
+          },
+          "typicalMonthlyMin": 200,
+          "typicalMonthlyMax": 600
+        },
+        {
+          "key": "professionalLiabilityPremium",
+          "label": {
+            "en": "Ongoing professional liability insurance premium",
+            "ro": "Prima continuă de asigurare de răspundere profesională"
+          },
+          "typicalMonthlyMin": 100,
+          "typicalMonthlyMax": 300
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "fractionalHrRetainer",
+          "label": {
+            "en": "Monthly fractional-HR retainer",
+            "ro": "Abonament lunar de HR fracționat"
+          }
+        },
+        {
+          "key": "projectFee",
+          "label": {
+            "en": "Project-based fee (handbook creation, org design)",
+            "ro": "Taxă bazată pe proiect (creare manual, design organizațional)"
+          }
+        },
+        {
+          "key": "hourlyConsulting",
+          "label": {
+            "en": "Hourly consulting for standalone issues",
+            "ro": "Consultanță tarifată pe oră pentru probleme punctuale"
+          }
+        },
+        {
+          "key": "trainingWorkshopFee",
+          "label": {
+            "en": "Training and workshop delivery fee",
+            "ro": "Taxă pentru livrarea de instruiri și ateliere"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 5000,
+      "targetMonthlyIncomeMax": 18000,
+      "breakEvenTimelineMonths": 9,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Retainer clients build steadily as trust develops; project fees provide faster but less predictable cash.",
+        "ro": "Clienții cu abonament cresc constant pe măsură ce se construiește încrederea; taxele pe proiect oferă numerar mai rapid, dar mai puțin predictibil."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "occasional",
+    "onlineOffline": "online",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 30,
+    "maxWeeklyHours": 50,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 5
+      },
+      {
+        "key": "marketing",
+        "rating": 5
+      },
+      {
+        "key": "leadership",
+        "rating": 8
+      },
+      {
+        "key": "communication",
+        "rating": 9
+      },
+      {
+        "key": "negotiation",
+        "rating": 6
+      },
+      {
+        "key": "finance",
+        "rating": 5
+      },
+      {
+        "key": "operations",
+        "rating": 7
+      },
+      {
+        "key": "technology",
+        "rating": 4
+      },
+      {
+        "key": "automation",
+        "rating": 3
+      },
+      {
+        "key": "ai",
+        "rating": 3
+      },
+      {
+        "key": "programming",
+        "rating": 2
+      },
+      {
+        "key": "management",
+        "rating": 8
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 45
+      },
+      {
+        "key": "visionary",
+        "score": 35
+      },
+      {
+        "key": "operator",
+        "score": 75
+      },
+      {
+        "key": "creator",
+        "score": 25
+      },
+      {
+        "key": "seller",
+        "score": 50
+      },
+      {
+        "key": "leader",
+        "score": 80
+      },
+      {
+        "key": "analyst",
+        "score": 60
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": true,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate",
+      "notes": {
+        "en": "Retainer clients scale reasonably well, but sensitive employee-relations work still needs the founder's direct judgment.",
+        "ro": "Clienții cu abonament se extind rezonabil, dar munca sensibilă de relații cu angajații necesită în continuare judecata directă a fondatorului."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate"
+    },
+    "aiResistance": {
+      "level": "high"
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Employment-law requirements vary by jurisdiction and change frequently, requiring constant monitoring.",
+          "ro": "Cerințele legislației muncii variază pe jurisdicție și se schimbă frecvent, necesitând monitorizare constantă."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Subscribe to regulatory-update sources and budget continuing-education hours.",
+          "ro": "Abonează-te la surse de actualizări legislative și bugetează ore de educație continuă."
+        }
+      },
+      {
+        "description": {
+          "en": "Handling confidential employee-relations matters carries reputational and liability exposure if mishandled.",
+          "ro": "Gestionarea unor situații confidențiale de relații cu angajații implică expunere reputațională și de răspundere dacă este gestionată greșit."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Maintain professional liability insurance and document every recommendation given to a client.",
+          "ro": "Menține o asigurare de răspundere profesională și documentează fiecare recomandare oferită unui client."
+        }
+      },
+      {
+        "description": {
+          "en": "HR spend is often one of the first line items businesses cut during a downturn.",
+          "ro": "Cheltuielile de HR sunt adesea printre primele reduse de firme în perioadele de recesiune."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Diversify across retainer, project, and training revenue so no single client type dominates.",
+          "ro": "Diversifică între abonament, proiect și venituri din instruire, astfel încât niciun tip de client să nu domine."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "The HR department you don't have to hire full-time — fractional HR support for growing small businesses.",
+        "ro": "Departamentul de HR pe care nu trebuie să-l angajezi full-time — suport de HR fracționat pentru firme mici în creștere."
+      },
+      "channels": [
+        {
+          "channelType": "referralProgram",
+          "description": {
+            "en": "Referrals from accountants, business consultants, and existing clients.",
+            "ro": "Recomandări de la contabili, consultanți de afaceri și clienți existenți."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "contentMarketing",
+          "description": {
+            "en": "Practical articles on employee-policy fundamentals and common HR mistakes.",
+            "ro": "Articole practice despre elementele fundamentale ale politicilor pentru angajați și greșeli comune de HR."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "socialMedia",
+          "description": {
+            "en": "LinkedIn thought-leadership posts on HR best practices for small teams.",
+            "ro": "Postări de tip thought-leadership pe LinkedIn despre cele mai bune practici de HR pentru echipe mici."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "low"
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "Consultative, needs-assessment-led — an HR audit is typically the first paid or complimentary step.",
+        "ro": "Consultativă, condusă de o evaluare a nevoilor — un audit de HR este de obicei primul pas, plătit sau gratuit."
+      },
+      "salesCycleLengthDays": 45,
+      "pricingModel": {
+        "en": "Monthly fractional-HR retainer or a project-based fee for defined deliverables.",
+        "ro": "Abonament lunar de HR fracționat sau taxă bazată pe proiect pentru livrabile definite."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate"
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "HR audit and needs assessment.",
+          "ro": "Auditul de HR și evaluarea nevoilor."
+        },
+        {
+          "en": "Policy and employee-handbook drafting.",
+          "ro": "Redactarea politicilor și a manualului angajatului."
+        },
+        {
+          "en": "Ongoing employee-relations support.",
+          "ro": "Suport continuu pentru relațiile cu angajații."
+        },
+        {
+          "en": "Quarterly compliance check-ins.",
+          "ro": "Verificări trimestriale de conformitate."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Responding to client employee-relations questions, drafting policy documents, and monitoring regulatory changes.",
+        "ro": "Răspunsul la întrebările clienților despre relațiile cu angajații, redactarea documentelor de politică și monitorizarea modificărilor legislative."
+      }
+    },
+    "automation": {
+      "level": "low"
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "policyDraftingAssistance",
+          "description": {
+            "en": "AI-assisted first-draft HR policy and handbook language.",
+            "ro": "Asistență AI pentru primul draft al politicilor de HR și textului manualului."
+          },
+          "maturity": "emerging"
+        },
+        {
+          "area": "jobDescriptionGeneration",
+          "description": {
+            "en": "AI-assisted job-description drafting for client hiring needs.",
+            "ro": "Redactare asistată de AI a fișelor de post pentru nevoile de angajare ale clienților."
+          },
+          "maturity": "established"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "BambooHR",
+        "category": "hris",
+        "isRequired": false,
+        "websiteUrl": "https://www.bamboohr.com/"
+      },
+      {
+        "name": "Gusto",
+        "category": "payrollAndBenefits",
+        "isRequired": false,
+        "websiteUrl": "https://gusto.com/"
+      },
+      {
+        "name": "Lattice",
+        "category": "performanceManagement",
+        "isRequired": false,
+        "websiteUrl": "https://lattice.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30
+    },
+    "scaling": {
+      "path": {
+        "en": "Move project-based clients onto standing fractional-HR retainers, then hire associate HR consultants who share the same judgment.",
+        "ro": "Transformă clienții pe bază de proiect în clienți cu abonament permanent de HR fracționat, apoi angajează consultanți HR asociați care împărtășesc aceeași judecată."
+      },
+      "bottlenecks": [
+        {
+          "en": "Building enough trust for sensitive HR work takes time.",
+          "ro": "Construirea unei încrederi suficiente pentru munca sensibilă de HR necesită timp."
+        },
+        {
+          "en": "Finding associate consultants who match the founder's judgment on people matters.",
+          "ro": "Găsirea unor consultanți asociați care se potrivesc cu judecata fondatorului în probleme de personal."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 12,
+          "description": {
+            "en": "8 clients on a standing fractional-HR retainer.",
+            "ro": "8 clienți pe abonament permanent de HR fracționat."
+          }
+        },
+        {
+          "monthsFromLaunch": 24,
+          "description": {
+            "en": "First associate HR consultant hired.",
+            "ro": "Primul consultant HR asociat angajat."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "SHRM-CP certification signals credibility to prospects comparing HR consultants.",
+          "ro": "Certificarea SHRM-CP transmite credibilitate potențialilor clienți care compară consultanți de HR."
+        }
+      },
+      {
+        "description": {
+          "en": "Fast turnaround on urgent employee-relations issues builds trust quickly.",
+          "ro": "Timpul rapid de răspuns la problemele urgente de relații cu angajații construiește rapid încredere."
+        }
+      },
+      {
+        "description": {
+          "en": "The fractional model costs a fraction of a full-time HR hire, an easy budget argument for small businesses.",
+          "ro": "Modelul fracționat costă o fracțiune dintr-o angajare de HR full-time, un argument bugetar ușor pentru firmele mici."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A fractional-HR consultancy serving small businesses that need HR expertise without a full-time hire, built on retainers and project-based policy work.",
+        "ro": "O consultanță de HR fracționat pentru firme mici care au nevoie de expertiză HR fără o angajare full-time, construită pe abonamente și lucrări de politici pe bază de proiect."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.hrConsultancy.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.hrConsultancy.businessDna.resources.community1"
+      },
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.hrConsultancy.businessDna.resources.book1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.hrConsultancy.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "mrr",
+        "targetDescription": {
+          "en": "Grow monthly recurring retainer revenue as trust and referrals build.",
+          "ro": "Crește venitul lunar recurent din abonamente pe măsură ce se construiesc încrederea și recomandările."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep annual retainer-client retention above 85%.",
+          "ro": "Menține retenția anuală a clienților cu abonament peste 85%."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert at least 1 in 3 HR-audit consultations into a signed retainer.",
+          "ro": "Transformă cel puțin 1 din 3 consultații de audit HR într-un abonament semnat."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Maintain gross margin above 55% once associate consultants are hired.",
+          "ro": "Menține marja brută peste 55% după angajarea consultanților asociați."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "communication",
+          "importance": 5
+        },
+        {
+          "key": "management",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "negotiation",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "collaborative",
+          "importance": 5
+        },
+        {
+          "trait": "patient",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "resilient",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 8000,
+        "max": 25000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 10000,
+        "max": 20000,
+        "currency": "EUR"
+      },
+      "riskProfile": "low",
+      "timeAvailability": {
+        "minWeeklyHours": 30,
+        "maxWeeklyHours": 50
+      },
+      "communicationStyle": [
+        "consultative",
+        "empathetic"
+      ],
+      "technicalLevel": 2,
+      "leadershipLevel": 4,
+      "creativityLevel": 2,
+      "salesAffinity": 3,
+      "automationAffinity": 2,
+      "remotePreference": "hybrid",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theOperator",
+        "theConnector"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the fractional-cost advantage over a full-time HR hire in the Executive Summary — the clearest budget argument for small-business prospects.",
+      "ro": "Evidențiază avantajul de cost fracționat față de o angajare de HR full-time în Rezumatul executiv — cel mai clar argument bugetar pentru prospecții de firme mici."
+    },
+    "marketingHints": {
+      "en": "Trust-building content on common HR mistakes converts better than generic HR-service advertising.",
+      "ro": "Conținutul de construire a încrederii despre greșeli comune de HR se convertește mai bine decât publicitatea generică pentru servicii de HR."
+    },
+    "financialHints": {
+      "en": "Model revenue as a blend of steady retainer growth and lumpier project fees.",
+      "ro": "Modelează venitul ca un mix de creștere constantă a abonamentelor și taxe de proiect mai neregulate."
+    },
+    "generationHints": {
+      "en": "Tone should be warm but authoritative — this work touches sensitive people situations.",
+      "ro": "Tonul ar trebui să fie cald, dar autoritar — această muncă atinge situații sensibile legate de oameni."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Obtain SHRM-CP certification and set up professional liability insurance.",
+            "ro": "Obține certificarea SHRM-CP și configurează asigurarea de răspundere profesională."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Skipping professional liability insurance to save money early.",
+            "ro": "Renunțarea la asigurarea de răspundere profesională pentru a economisi la început."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Get SHRM-CP certified before marketing HR-audit services.",
+            "ro": "Obține certificarea SHRM-CP înainte de a promova serviciile de audit HR."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.hrConsultancy.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Complete HR audits and initial policy work for 3-5 early clients.",
+            "ro": "Finalizează audituri de HR și lucrări inițiale de politici pentru 3-5 clienți din faza incipientă."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Giving away extensive free work without a clear scope.",
+            "ro": "Oferirea unei munci gratuite extinse, fără un domeniu clar."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Define a clear, time-boxed scope even for discounted early engagements.",
+            "ro": "Definește un domeniu clar, limitat în timp, chiar și pentru angajamentele timpurii cu discount."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Standardize the HR-audit and handbook-drafting workflow.",
+            "ro": "Standardizează fluxul de audit HR și redactare a manualului."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Rebuilding the handbook template from scratch for every client.",
+            "ro": "Reconstruirea șablonului de manual de la zero pentru fiecare client."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a reusable HR-audit and handbook template library.",
+            "ro": "Construiește o bibliotecă reutilizabilă de șabloane pentru audit HR și manual."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Announce the consultancy to the referral network of accountants and consultants.",
+            "ro": "Anunță consultanța rețelei de recomandări formate din contabili și consultanți."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching before a clear retainer pricing structure exists.",
+            "ro": "Lansarea înainte de a exista o structură clară de prețuri pentru abonament."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Publish a clear tiered retainer pricing structure before marketing broadly.",
+            "ro": "Publică o structură clară de prețuri pentru abonament, pe niveluri, înainte de a face marketing amplu."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Deliver the first HR audit and a signed retainer agreement.",
+            "ro": "Livrează primul audit de HR și un acord de abonament semnat."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Underscoping the retainer to win the first client.",
+            "ro": "Subdimensionarea abonamentului pentru a câștiga primul client."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Set clear response-time expectations with the first retainer client.",
+            "ro": "Stabilește așteptări clare privind timpul de răspuns cu primul client cu abonament."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable base of retainer clients covering the target monthly income.",
+            "ro": "Atinge o bază stabilă de clienți cu abonament, care acoperă venitul lunar țintă."
+          }
+        ],
+        "kpis": [
+          "mrr",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Taking on clients whose culture doesn't fit the consultancy's approach.",
+            "ro": "Acceptarea unor clienți a căror cultură nu se potrivește abordării consultanței."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Qualify prospects on culture fit during the HR-audit conversation.",
+            "ro": "Califică prospecții pe baza potrivirii culturale în timpul discuției de audit HR."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Grow the retainer base toward the milestone target.",
+            "ro": "Crește baza de abonamente spre obiectivul stabilit."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Neglecting existing retainer clients while chasing new project work.",
+            "ro": "Neglijarea clienților existenți cu abonament în timp ce se urmărește lucrări noi de proiect."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Protect a fixed weekly block for existing retainer clients before booking new consultations.",
+            "ro": "Protejează un bloc săptămânal fix pentru clienții existenți cu abonament înainte de a programa consultații noi."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Hire the first associate HR consultant.",
+            "ro": "Angajează primul consultant HR asociat."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Handing off sensitive employee-relations clients too abruptly.",
+            "ro": "Transferarea prea bruscă a clienților cu situații sensibile de relații cu angajații."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Co-handle sensitive client cases with the associate for the first two quarters.",
+            "ro": "Gestionează împreună cu asociatul cazurile sensibile ale clienților în primele două trimestre."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Add a training and workshop service line for common HR topics.",
+            "ro": "Adaugă o linie de servicii de instruire și ateliere pentru teme comune de HR."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Building generic workshop content instead of tailoring it to client industries.",
+            "ro": "Construirea unui conținut generic pentru ateliere, în loc de a-l adapta industriilor clienților."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Customize workshop content per client industry before delivering it.",
+            "ro": "Personalizează conținutul atelierului pe industria clientului înainte de livrare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Package the retainer client book and documented processes for acquisition by a larger HR consultancy.",
+            "ro": "Pregătește portofoliul de clienți cu abonament și procesele documentate pentru achiziție de către o consultanță HR mai mare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping client relationship history undocumented and founder-dependent.",
+            "ro": "Menținerea istoricului relațiilor cu clienții nedocumentat și dependent de fondator."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Log every client interaction and decision rationale in a shared system from day one.",
+            "ro": "Înregistrează fiecare interacțiune cu clientul și motivația deciziilor într-un sistem partajat încă din prima zi."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "malpracticeInsuranceSetup",
+      "practiceManagementSoftware",
+      "officeSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "malpracticePremium",
+      "barDuesAndCle",
+      "practiceSoftwareSubscription"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "courtFilingFees",
+      "expertWitnessOrResearchCosts"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "hourlyBilling",
+        "label": {
+          "en": "Hourly billing for complex or negotiated matters",
+          "ro": "Facturare orară pentru cauze complexe sau negociate"
+        }
+      },
+      {
+        "key": "flatFeeDocuments",
+        "label": {
+          "en": "Flat-fee standardized documents",
+          "ro": "Taxă fixă pentru documente standardizate"
+        }
+      },
+      {
+        "key": "generalCounselRetainer",
+        "label": {
+          "en": "Monthly general-counsel retainer",
+          "ro": "Abonament lunar de consilier juridic general"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "hourlyRate": "currency",
+      "flatFeePerDocumentType": "currency",
+      "retainerFee": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "retainerClientGrowthPerQuarter": "number",
+      "billableUtilizationRate": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.lawFirm.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "retainerCollections",
+      "flatFeeUpfrontPayments"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 10,
+    "notesTranslationKey": "businessLibrary.lawFirm.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 68,
+    "notesTranslationKey": "businessLibrary.lawFirm.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 35,
+    "notesTranslationKey": "businessLibrary.lawFirm.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "associateAttorneySalary",
+      "paralegalWages"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "referralNetworkDevelopment",
+      "contentCreation"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve",
+      "malpracticeClaimDeductibleReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "arr",
+      "grossMargin",
+      "customerRetention",
+      "closeRate"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 5500,
+      "notesTranslationKey": "businessLibrary.lawFirm.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 12000,
+      "notesTranslationKey": "businessLibrary.lawFirm.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 20000,
+      "notesTranslationKey": "businessLibrary.lawFirm.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.lawFirm.financial.risks.risk1",
+        "severity": "moderate"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.lawFirm.financial.risks.risk2",
+        "severity": "high"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.lawFirm.financial.aiMetadata.generationHints"
+  }
+}

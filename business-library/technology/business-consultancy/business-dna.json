@@ -1,0 +1,904 @@
+{
+  "identity": {
+    "id": "6f1a2b3c-0008-4a11-9e10-000000000008",
+    "slug": "business-consultancy",
+    "version": "1.0.0",
+    "name": {
+      "en": "Vantage Point Consulting",
+      "ro": "Vantage Point Consulting"
+    },
+    "tagline": {
+      "en": "Clarity on what to do next, and the plan to do it.",
+      "ro": "Claritate asupra următorului pas și planul pentru a-l face."
+    },
+    "createdAt": "2026-07-09T00:00:00.000Z",
+    "updatedAt": "2026-07-09T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theVisionary",
+      "theOperator"
+    ],
+    "summary": {
+      "en": "Best suited to a strategic visionary who can also translate big-picture thinking into a concrete, executable plan.",
+      "ro": "Potrivită unui vizionar strategic care poate transpune gândirea de ansamblu într-un plan concret și executabil."
+    },
+    "minimumExperienceYears": 6
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 12000,
+      "maxInvestment": 35000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 1500,
+      "ongoingMonthlyCostMax": 4000,
+      "notes": {
+        "en": "Covers a CRM, workshop-facilitation tools, and travel for on-site strategy sessions.",
+        "ro": "Acoperă un CRM, instrumente de facilitare a atelierelor și deplasările pentru sesiunile de strategie la fața locului."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "crmAndDeliverableSoftware",
+          "label": {
+            "en": "CRM and deliverable-management software setup",
+            "ro": "Configurarea CRM-ului și a software-ului de management al livrabilelor"
+          },
+          "typicalMin": 600,
+          "typicalMax": 2000
+        },
+        {
+          "key": "workshopFacilitationTools",
+          "label": {
+            "en": "Workshop-facilitation tool licenses (first year)",
+            "ro": "Licențe pentru instrumente de facilitare a atelierelor (primul an)"
+          },
+          "typicalMin": 400,
+          "typicalMax": 1200
+        },
+        {
+          "key": "brandAndCaseStudyProduction",
+          "label": {
+            "en": "Brand identity and case-study portfolio production",
+            "ro": "Producția identității de brand și a portofoliului de studii de caz"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "crmSubscription",
+          "label": {
+            "en": "CRM and deliverable-management software subscription",
+            "ro": "Abonament CRM și software de management al livrabilelor"
+          },
+          "typicalMonthlyMin": 150,
+          "typicalMonthlyMax": 450
+        },
+        {
+          "key": "workshopToolSubscription",
+          "label": {
+            "en": "Workshop-facilitation tool subscription",
+            "ro": "Abonament pentru instrumentul de facilitare a atelierelor"
+          },
+          "typicalMonthlyMin": 50,
+          "typicalMonthlyMax": 200
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "projectEngagementFee",
+          "label": {
+            "en": "Project-based engagement fee",
+            "ro": "Taxă pentru angajament pe bază de proiect"
+          }
+        },
+        {
+          "key": "advisoryRetainer",
+          "label": {
+            "en": "Monthly advisory retainer",
+            "ro": "Abonament lunar de consultanță"
+          }
+        },
+        {
+          "key": "workshopTrainingFee",
+          "label": {
+            "en": "Workshop and training delivery fee",
+            "ro": "Taxă pentru livrarea de ateliere și instruiri"
+          }
+        },
+        {
+          "key": "speakingFacilitationFee",
+          "label": {
+            "en": "Speaking and facilitation fee",
+            "ro": "Taxă pentru prezentări și facilitare"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 6000,
+      "targetMonthlyIncomeMax": 25000,
+      "breakEvenTimelineMonths": 9,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Project fees can be sizable but arrive in lumps; advisory retainers build a slower, steadier base.",
+        "ro": "Taxele de proiect pot fi substanțiale, dar sosesc în valuri; abonamentele de consultanță construiesc o bază mai lentă și mai constantă."
+      }
+    },
+    "profitMargin": {
+      "level": "high"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "occasional",
+    "onlineOffline": "hybrid",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 30,
+    "maxWeeklyHours": 50,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 6
+      },
+      {
+        "key": "marketing",
+        "rating": 6
+      },
+      {
+        "key": "leadership",
+        "rating": 8
+      },
+      {
+        "key": "communication",
+        "rating": 8
+      },
+      {
+        "key": "negotiation",
+        "rating": 6
+      },
+      {
+        "key": "finance",
+        "rating": 6
+      },
+      {
+        "key": "operations",
+        "rating": 6
+      },
+      {
+        "key": "technology",
+        "rating": 4
+      },
+      {
+        "key": "automation",
+        "rating": 3
+      },
+      {
+        "key": "ai",
+        "rating": 4
+      },
+      {
+        "key": "programming",
+        "rating": 2
+      },
+      {
+        "key": "management",
+        "rating": 7
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 50
+      },
+      {
+        "key": "visionary",
+        "score": 80
+      },
+      {
+        "key": "operator",
+        "score": 55
+      },
+      {
+        "key": "creator",
+        "score": 40
+      },
+      {
+        "key": "seller",
+        "score": 60
+      },
+      {
+        "key": "leader",
+        "score": 75
+      },
+      {
+        "key": "analyst",
+        "score": 70
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": true,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate",
+      "notes": {
+        "en": "A productized, fixed-scope diagnostic offer scales better than fully bespoke engagements, but expertise still bottlenecks around the founder.",
+        "ro": "O ofertă de diagnostic productizată, cu domeniu fix, se extinde mai bine decât angajamentele complet personalizate, dar expertiza rămâne în continuare limitată de fondator."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate"
+    },
+    "aiResistance": {
+      "level": "high"
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "The business's reputation is tightly bound to visible client outcomes, even ones partly outside the consultant's control.",
+          "ro": "Reputația afacerii este strâns legată de rezultatele vizibile ale clienților, chiar și de cele parțial în afara controlului consultantului."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Set clear engagement scope and success criteria in writing before starting.",
+          "ro": "Stabilește în scris un domeniu clar al angajamentului și criterii de succes înainte de a începe."
+        }
+      },
+      {
+        "description": {
+          "en": "Project-based revenue is lumpy, with gaps between signed engagements.",
+          "ro": "Venitul pe bază de proiect este neregulat, cu goluri între angajamentele semnate."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Build a retainer and productized-offer mix to smooth cash flow.",
+          "ro": "Construiește un mix de abonamente și oferte productizate, pentru a netezi fluxul de numerar."
+        }
+      },
+      {
+        "description": {
+          "en": "Consulting budgets are often one of the first line items cut during a client's downturn.",
+          "ro": "Bugetele de consultanță sunt adesea printre primele reduse în perioadele de recesiune ale clienților."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Position engagements around cost-saving or revenue-generating outcomes, which stay funded even in downturns.",
+          "ro": "Poziționează angajamentele în jurul rezultatelor de economisire a costurilor sau generare de venituri, care rămân finanțate chiar și în recesiuni."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Clarity on what to do next, and the plan to do it — strategic clarity for growing companies stuck on a decision.",
+        "ro": "Claritate asupra următorului pas și planul pentru a-l face — claritate strategică pentru firmele în creștere blocate într-o decizie."
+      },
+      "channels": [
+        {
+          "channelType": "referralProgram",
+          "description": {
+            "en": "Referrals from past clients and complementary professionals (accountants, lawyers).",
+            "ro": "Recomandări de la clienți anteriori și profesioniști complementari (contabili, avocați)."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "contentMarketing",
+          "description": {
+            "en": "Thought-leadership articles and case studies on the firm's signature diagnostic.",
+            "ro": "Articole de tip thought-leadership și studii de caz despre diagnosticul semnătură al firmei."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "eventsAndSponsorship",
+          "description": {
+            "en": "Speaking engagements at industry and business events.",
+            "ro": "Prezentări la evenimente din industrie și de afaceri."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate"
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "Consultative, thought-leadership-led — prospects often arrive already familiar with the firm's published frameworks.",
+        "ro": "Consultativă, condusă de thought-leadership — prospecții ajung adesea deja familiarizați cu cadrele publicate ale firmei."
+      },
+      "salesCycleLengthDays": 45,
+      "pricingModel": {
+        "en": "Project-based fee for a defined engagement or a monthly advisory retainer for ongoing guidance.",
+        "ro": "Taxă pe bază de proiect pentru un angajament definit sau abonament lunar de consultanță pentru îndrumare continuă."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate"
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Discovery and diagnostic assessment.",
+          "ro": "Evaluarea de descoperire și diagnostic."
+        },
+        {
+          "en": "Strategy and roadmap development.",
+          "ro": "Dezvoltarea strategiei și a foii de parcurs."
+        },
+        {
+          "en": "Implementation support alongside the client's team.",
+          "ro": "Suport de implementare alături de echipa clientului."
+        },
+        {
+          "en": "Quarterly business review for retainer clients.",
+          "ro": "Revizuirea trimestrială a afacerii pentru clienții cu abonament."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Client working sessions, research and analysis, and deliverable preparation.",
+        "ro": "Sesiuni de lucru cu clienții, cercetare și analiză, și pregătirea livrabilelor."
+      }
+    },
+    "automation": {
+      "level": "low"
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "researchSynthesis",
+          "description": {
+            "en": "AI-assisted synthesis of market research and competitive analysis.",
+            "ro": "Sinteză asistată de AI a cercetării de piață și analizei competitive."
+          },
+          "maturity": "emerging"
+        },
+        {
+          "area": "presentationDrafting",
+          "description": {
+            "en": "AI-assisted first-draft presentation and deliverable structuring.",
+            "ro": "Structurare asistată de AI a primului draft de prezentare și livrabil."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "Miro",
+        "category": "workshopFacilitation",
+        "isRequired": true,
+        "websiteUrl": "https://miro.com/"
+      },
+      {
+        "name": "Notion",
+        "category": "deliverableManagement",
+        "isRequired": false,
+        "websiteUrl": "https://www.notion.so/"
+      },
+      {
+        "name": "HubSpot",
+        "category": "crm",
+        "isRequired": false,
+        "websiteUrl": "https://www.hubspot.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30
+    },
+    "scaling": {
+      "path": {
+        "en": "Productize the most common engagement into a fixed-scope diagnostic offer to shorten sales cycles, then build a small associate-consultant bench.",
+        "ro": "Productizează cel mai comun angajament într-o ofertă de diagnostic cu domeniu fix, pentru a scurta ciclurile de vânzare, apoi construiește o mică echipă de consultanți asociați."
+      },
+      "bottlenecks": [
+        {
+          "en": "Expertise is personally bound to the founder, limiting how many engagements run at once.",
+          "ro": "Expertiza este legată personal de fondator, limitând câte angajamente rulează simultan."
+        },
+        {
+          "en": "Project-based revenue is lumpy and hard to forecast precisely.",
+          "ro": "Venitul pe bază de proiect este neregulat și greu de prognozat cu precizie."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 8,
+          "description": {
+            "en": "First productized diagnostic offer launched.",
+            "ro": "Prima ofertă de diagnostic productizată, lansată."
+          }
+        },
+        {
+          "monthsFromLaunch": 12,
+          "description": {
+            "en": "10 completed engagements.",
+            "ro": "10 angajamente finalizate."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "A signature diagnostic framework gives prospects a tangible, differentiated reason to choose this firm over a generalist.",
+          "ro": "Un cadru de diagnostic semnătură oferă prospecților un motiv tangibil și diferențiat de a alege această firmă în locul unui generalist."
+        }
+      },
+      {
+        "description": {
+          "en": "A strong case-study portfolio demonstrates real, specific outcomes rather than vague promises.",
+          "ro": "Un portofoliu solid de studii de caz demonstrează rezultate reale și specifice, nu promisiuni vagi."
+        }
+      },
+      {
+        "description": {
+          "en": "A thought-leadership content pipeline brings in prospects already pre-sold on the firm's approach.",
+          "ro": "Un flux de conținut de tip thought-leadership atrage prospecți deja convinși de abordarea firmei."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A strategy and management consultancy serving growing companies, built on a signature diagnostic framework, project fees, and advisory retainers.",
+        "ro": "O consultanță de strategie și management pentru firme în creștere, construită pe un cadru de diagnostic semnătură, taxe de proiect și abonamente de consultanță."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.businessConsultancy.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.businessConsultancy.businessDna.resources.community1"
+      },
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.businessConsultancy.businessDna.resources.book1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.businessConsultancy.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "arr",
+        "targetDescription": {
+          "en": "Grow annual revenue across project fees and advisory retainers combined.",
+          "ro": "Crește venitul anual pe segmentele de taxe de proiect și abonamente de consultanță combinate."
+        }
+      },
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Close at least 1 in 3 discovery conversations into a signed engagement.",
+          "ro": "Finalizează cel puțin 1 din 3 discuții de descoperire într-un angajament semnat."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Convert at least a quarter of project clients into an ongoing advisory retainer.",
+          "ro": "Transformă cel puțin un sfert din clienții de proiect într-un abonament continuu de consultanță."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert thought-leadership content readers into discovery-call bookings at a measurable rate.",
+          "ro": "Transformă cititorii de conținut thought-leadership în programări de apel de descoperire, la o rată măsurabilă."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "management",
+          "importance": 5
+        },
+        {
+          "key": "communication",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "sales",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "strategic",
+          "importance": 5
+        },
+        {
+          "trait": "collaborative",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "decisive",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 12000,
+        "max": 35000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 15000,
+        "max": 28000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 30,
+        "maxWeeklyHours": 50
+      },
+      "communicationStyle": [
+        "consultative",
+        "strategic"
+      ],
+      "technicalLevel": 2,
+      "leadershipLevel": 5,
+      "creativityLevel": 3,
+      "salesAffinity": 3,
+      "automationAffinity": 2,
+      "remotePreference": "hybrid",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theVisionary",
+        "theOperator"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Lead the Executive Summary with the signature diagnostic framework — it's the clearest differentiator from generalist consulting.",
+      "ro": "Începe Rezumatul executiv cu cadrul de diagnostic semnătură — este cel mai clar diferențiator față de consultanța generalistă."
+    },
+    "marketingHints": {
+      "en": "Case studies with specific, measurable outcomes convert far better than generic thought-leadership content.",
+      "ro": "Studiile de caz cu rezultate specifice și măsurabile se convertesc mult mai bine decât conținutul generic de thought-leadership."
+    },
+    "financialHints": {
+      "en": "Model revenue as lumpy project fees smoothed by a growing advisory-retainer base.",
+      "ro": "Modelează venitul ca taxe de proiect neregulate, netezite de o bază tot mai mare de abonamente de consultanță."
+    },
+    "generationHints": {
+      "en": "Tone should be confident, strategic, and outcome-focused.",
+      "ro": "Tonul ar trebui să fie încrezător, strategic și orientat spre rezultate."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Set up the CRM, deliverable-management software, and case-study portfolio.",
+            "ro": "Configurează CRM-ul, software-ul de management al livrabilelor și portofoliul de studii de caz."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Skipping a documented case-study portfolio before starting to market.",
+            "ro": "Omiterea unui portofoliu documentat de studii de caz înainte de a începe marketingul."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document 2-3 prior engagement outcomes as case studies before launch.",
+            "ro": "Documentează 2-3 rezultate ale angajamentelor anterioare ca studii de caz înainte de lansare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.businessConsultancy.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Complete the first 2-3 discovery-to-strategy engagements.",
+            "ro": "Finalizează primele 2-3 angajamente de descoperire-strategie."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Letting the engagement scope expand indefinitely without a clear boundary.",
+            "ro": "Permiterea extinderii nedefinite a domeniului angajamentului, fără o limită clară."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Define a fixed engagement scope and timeline in writing before starting.",
+            "ro": "Definește în scris un domeniu și un termen fix pentru angajament, înainte de a începe."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Formalize the signature diagnostic framework used in every engagement.",
+            "ro": "Formalizează cadrul de diagnostic semnătură folosit în fiecare angajament."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Running a different diagnostic approach for every client instead of a repeatable framework.",
+            "ro": "Rularea unei abordări de diagnostic diferite pentru fiecare client, în loc de un cadru repetabil."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document the diagnostic framework as a reusable deliverable template.",
+            "ro": "Documentează cadrul de diagnostic ca șablon de livrabil reutilizabil."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish the first thought-leadership content around the signature framework.",
+            "ro": "Publică primul conținut de tip thought-leadership în jurul cadrului semnătură."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching without any published case studies to back up claims.",
+            "ro": "Lansarea fără niciun studiu de caz publicat care să susțină afirmațiile."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Publish at least one detailed case study before the launch announcement.",
+            "ro": "Publică cel puțin un studiu de caz detaliat înainte de anunțul de lansare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Deliver the first paid engagement using the signature diagnostic framework.",
+            "ro": "Livrează primul angajament plătit, folosind cadrul de diagnostic semnătură."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Underscoping the fee to win the first client.",
+            "ro": "Subdimensionarea taxei pentru a câștiga primul client."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Charge the full engagement fee even for the first client.",
+            "ro": "Percepe taxa integrală de angajament chiar și pentru primul client."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach 10 completed engagements using the standardized framework.",
+            "ro": "Atinge 10 angajamente finalizate, folosind cadrul standardizat."
+          }
+        ],
+        "kpis": [
+          "arr",
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Accepting engagements far outside the firm's core expertise.",
+            "ro": "Acceptarea unor angajamente mult în afara expertizei de bază a firmei."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Qualify prospects against the firm's core expertise during the discovery call.",
+            "ro": "Califică prospecții față de expertiza de bază a firmei în timpul apelului de descoperire."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Launch the first productized, fixed-scope diagnostic offer.",
+            "ro": "Lansează prima ofertă de diagnostic productizată, cu domeniu fix."
+          }
+        ],
+        "kpis": [
+          "arr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Keeping every engagement fully bespoke, which slows the sales cycle unnecessarily.",
+            "ro": "Menținerea fiecărui angajament complet personalizat, ceea ce încetinește inutil ciclul de vânzare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Package the most requested engagement type into a fixed-scope, fixed-price offer.",
+            "ro": "Ambalează cel mai solicitat tip de angajament într-o ofertă cu domeniu și preț fix."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Bring on the first associate consultant.",
+            "ro": "Adaugă primul consultant asociat."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Handing off client-facing work to the associate before they're trained on the framework.",
+            "ro": "Transferarea muncii cu clienții către asociat înainte ca acesta să fie instruit în cadrul metodologic."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Train the associate on the signature framework using past case studies before their first solo engagement.",
+            "ro": "Instruiește asociatul în cadrul semnătură folosind studii de caz anterioare, înainte de primul său angajament solo."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into an adjacent advisory area, such as post-engagement implementation support.",
+            "ro": "Extinde-te într-un domeniu de consultanță adiacent, precum suportul de implementare post-angajament."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Marketing a new advisory area before building real proof of results in it.",
+            "ro": "Promovarea unui nou domeniu de consultanță înainte de a construi dovezi reale de rezultate în el."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Complete at least 2 engagements in the new area before marketing it broadly.",
+            "ro": "Finalizează cel puțin 2 angajamente în noul domeniu înainte de a-l promova pe scară largă."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Package the client book, case-study portfolio, and framework documentation for acquisition.",
+            "ro": "Pregătește portofoliul de clienți, studiile de caz și documentația cadrului pentru achiziție."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping the signature framework undocumented and only in the founder's head.",
+            "ro": "Menținerea cadrului semnătură nedocumentat, doar în mintea fondatorului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Fully document the framework so it's transferable to a new owner or associate.",
+            "ro": "Documentează complet cadrul, astfel încât să fie transferabil unui nou proprietar sau asociat."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}
