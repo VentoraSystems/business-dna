@@ -1,0 +1,1408 @@
+{
+  "$ref": "#/definitions/BusinessDnaProfile",
+  "definitions": {
+    "BusinessDnaProfile": {
+      "type": "object",
+      "properties": {
+        "identity": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "format": "uuid"
+            },
+            "slug": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 80,
+              "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+            },
+            "version": {
+              "type": "string",
+              "pattern": "^\\d+\\.\\d+\\.\\d+$"
+            },
+            "name": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "ro": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "en",
+                "ro"
+              ],
+              "additionalProperties": false
+            },
+            "tagline": {
+              "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+            },
+            "createdAt": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "updatedAt": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "draft",
+                "in_review",
+                "published",
+                "archived"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "slug",
+            "version",
+            "name",
+            "tagline",
+            "createdAt",
+            "updatedAt",
+            "status"
+          ],
+          "additionalProperties": false
+        },
+        "founderFit": {
+          "type": "object",
+          "properties": {
+            "idealArchetypes": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "theBuilder",
+                  "theConnector",
+                  "theOperator",
+                  "theVisionary",
+                  "theSpecialist",
+                  "theHustler"
+                ]
+              },
+              "minItems": 1
+            },
+            "summary": {
+              "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+            },
+            "minimumExperienceYears": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "idealArchetypes",
+            "summary"
+          ],
+          "additionalProperties": false
+        },
+        "financialDna": {
+          "type": "object",
+          "properties": {
+            "budget": {
+              "type": "object",
+              "properties": {
+                "minInvestment": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/founderFit/properties/minimumExperienceYears"
+                },
+                "maxInvestment": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/founderFit/properties/minimumExperienceYears"
+                },
+                "currency": {
+                  "type": "string",
+                  "minLength": 3,
+                  "maxLength": 3,
+                  "default": "EUR"
+                },
+                "ongoingMonthlyCostMin": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/founderFit/properties/minimumExperienceYears"
+                },
+                "ongoingMonthlyCostMax": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/founderFit/properties/minimumExperienceYears"
+                },
+                "notes": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                }
+              },
+              "required": [
+                "minInvestment",
+                "maxInvestment"
+              ],
+              "additionalProperties": false
+            },
+            "financialInformation": {
+              "type": "object",
+              "properties": {
+                "startupCosts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "key": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "label": {
+                        "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                      },
+                      "typicalMin": {
+                        "type": "number",
+                        "minimum": 0
+                      },
+                      "typicalMax": {
+                        "type": "number",
+                        "minimum": 0
+                      }
+                    },
+                    "required": [
+                      "key",
+                      "label"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "default": []
+                },
+                "recurringCosts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "key": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "label": {
+                        "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                      },
+                      "typicalMonthlyMin": {
+                        "type": "number",
+                        "minimum": 0
+                      },
+                      "typicalMonthlyMax": {
+                        "type": "number",
+                        "minimum": 0
+                      }
+                    },
+                    "required": [
+                      "key",
+                      "label"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "default": []
+                },
+                "revenueStreams": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "key": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "label": {
+                        "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                      }
+                    },
+                    "required": [
+                      "key",
+                      "label"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "default": []
+                },
+                "targetMonthlyIncomeMin": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/founderFit/properties/minimumExperienceYears"
+                },
+                "targetMonthlyIncomeMax": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/founderFit/properties/minimumExperienceYears"
+                },
+                "breakEvenTimelineMonths": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/founderFit/properties/minimumExperienceYears"
+                },
+                "currency": {
+                  "type": "string",
+                  "minLength": 3,
+                  "maxLength": 3,
+                  "default": "EUR"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "budget",
+            "financialInformation"
+          ],
+          "additionalProperties": false
+        },
+        "revenueDna": {
+          "type": "object",
+          "properties": {
+            "revenueSpeed": {
+              "type": "object",
+              "properties": {
+                "level": {
+                  "type": "string",
+                  "enum": [
+                    "slow",
+                    "moderate",
+                    "fast"
+                  ]
+                },
+                "notes": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                }
+              },
+              "required": [
+                "level"
+              ],
+              "additionalProperties": false
+            },
+            "profitMargin": {
+              "type": "object",
+              "properties": {
+                "level": {
+                  "type": "string",
+                  "enum": [
+                    "low",
+                    "moderate",
+                    "high"
+                  ]
+                },
+                "notes": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                }
+              },
+              "required": [
+                "level"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "revenueSpeed",
+            "profitMargin"
+          ],
+          "additionalProperties": false
+        },
+        "lifestyleDna": {
+          "type": "object",
+          "properties": {
+            "workMode": {
+              "type": "string",
+              "enum": [
+                "remote",
+                "hybrid",
+                "inPerson"
+              ]
+            },
+            "travelRequirement": {
+              "type": "string",
+              "enum": [
+                "none",
+                "occasional",
+                "frequent"
+              ]
+            },
+            "onlineOffline": {
+              "type": "string",
+              "enum": [
+                "online",
+                "offline",
+                "hybrid"
+              ]
+            },
+            "salesChannel": {
+              "type": "string",
+              "enum": [
+                "b2b",
+                "b2c",
+                "both"
+              ]
+            },
+            "minWeeklyHours": {
+              "$ref": "#/definitions/BusinessDnaProfile/properties/founderFit/properties/minimumExperienceYears"
+            },
+            "maxWeeklyHours": {
+              "$ref": "#/definitions/BusinessDnaProfile/properties/founderFit/properties/minimumExperienceYears"
+            },
+            "freedomLevel": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            },
+            "notes": {
+              "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+            }
+          },
+          "required": [
+            "workMode",
+            "travelRequirement",
+            "onlineOffline",
+            "salesChannel"
+          ],
+          "additionalProperties": false
+        },
+        "skillDna": {
+          "type": "object",
+          "properties": {
+            "ratings": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "key": {
+                    "type": "string",
+                    "enum": [
+                      "sales",
+                      "marketing",
+                      "leadership",
+                      "communication",
+                      "negotiation",
+                      "finance",
+                      "operations",
+                      "technology",
+                      "automation",
+                      "ai",
+                      "programming",
+                      "management"
+                    ]
+                  },
+                  "rating": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 10
+                  }
+                },
+                "required": [
+                  "key",
+                  "rating"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "ratings"
+          ],
+          "additionalProperties": false
+        },
+        "entrepreneurDnaMatch": {
+          "type": "object",
+          "properties": {
+            "scores": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "key": {
+                    "type": "string",
+                    "enum": [
+                      "builder",
+                      "visionary",
+                      "operator",
+                      "creator",
+                      "seller",
+                      "leader",
+                      "analyst"
+                    ]
+                  },
+                  "score": {
+                    "type": "number",
+                    "minimum": 1,
+                    "maximum": 100
+                  }
+                },
+                "required": [
+                  "key",
+                  "score"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "scores"
+          ],
+          "additionalProperties": false
+        },
+        "businessCharacteristics": {
+          "type": "object",
+          "properties": {
+            "isRemoteFriendly": {
+              "type": "boolean"
+            },
+            "isFullyRemote": {
+              "type": "boolean"
+            },
+            "requiresTravel": {
+              "type": "boolean"
+            },
+            "isOnlineBusiness": {
+              "type": "boolean"
+            },
+            "isB2B": {
+              "type": "boolean"
+            },
+            "isB2C": {
+              "type": "boolean"
+            },
+            "isSoloFounderFriendly": {
+              "type": "boolean"
+            },
+            "requiresEmployees": {
+              "type": "boolean"
+            },
+            "isHighlyScalable": {
+              "type": "boolean"
+            },
+            "isHighlyAutomatable": {
+              "type": "boolean"
+            },
+            "isAIResistant": {
+              "type": "boolean"
+            },
+            "requiresPhysicalLocation": {
+              "type": "boolean"
+            },
+            "isSubscriptionBased": {
+              "type": "boolean"
+            },
+            "isCapitalIntensive": {
+              "type": "boolean"
+            },
+            "requiresInventory": {
+              "type": "boolean"
+            },
+            "isSeasonalBusiness": {
+              "type": "boolean"
+            },
+            "isFranchisable": {
+              "type": "boolean"
+            },
+            "isRecessionResistant": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "isRemoteFriendly",
+            "isFullyRemote",
+            "requiresTravel",
+            "isOnlineBusiness",
+            "isB2B",
+            "isB2C",
+            "isSoloFounderFriendly",
+            "requiresEmployees",
+            "isHighlyScalable",
+            "isHighlyAutomatable",
+            "isAIResistant",
+            "requiresPhysicalLocation",
+            "isSubscriptionBased",
+            "isCapitalIntensive",
+            "requiresInventory",
+            "isSeasonalBusiness",
+            "isFranchisable",
+            "isRecessionResistant"
+          ],
+          "additionalProperties": false
+        },
+        "scalabilityDna": {
+          "type": "object",
+          "properties": {
+            "scalability": {
+              "type": "object",
+              "properties": {
+                "level": {
+                  "type": "string",
+                  "enum": [
+                    "low",
+                    "moderate",
+                    "high"
+                  ]
+                },
+                "notes": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                }
+              },
+              "required": [
+                "level"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "scalability"
+          ],
+          "additionalProperties": false
+        },
+        "riskDna": {
+          "type": "object",
+          "properties": {
+            "difficulty": {
+              "type": "object",
+              "properties": {
+                "level": {
+                  "type": "string",
+                  "enum": [
+                    "low",
+                    "moderate",
+                    "high"
+                  ]
+                },
+                "notes": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                }
+              },
+              "required": [
+                "level"
+              ],
+              "additionalProperties": false
+            },
+            "aiResistance": {
+              "type": "object",
+              "properties": {
+                "level": {
+                  "type": "string",
+                  "enum": [
+                    "low",
+                    "moderate",
+                    "high"
+                  ]
+                },
+                "notes": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                }
+              },
+              "required": [
+                "level"
+              ],
+              "additionalProperties": false
+            },
+            "risks": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "description": {
+                    "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                  },
+                  "severity": {
+                    "type": "string",
+                    "enum": [
+                      "low",
+                      "moderate",
+                      "high"
+                    ]
+                  },
+                  "mitigation": {
+                    "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                  }
+                },
+                "required": [
+                  "description",
+                  "severity"
+                ],
+                "additionalProperties": false
+              },
+              "default": []
+            }
+          },
+          "required": [
+            "difficulty",
+            "aiResistance"
+          ],
+          "additionalProperties": false
+        },
+        "marketingDna": {
+          "type": "object",
+          "properties": {
+            "marketingStrategy": {
+              "type": "object",
+              "properties": {
+                "positioning": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                },
+                "channels": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "channelType": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "description": {
+                        "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                      },
+                      "priority": {
+                        "type": "string",
+                        "enum": [
+                          "primary",
+                          "secondary",
+                          "experimental"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "channelType",
+                      "description",
+                      "priority"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "minItems": 1
+                }
+              },
+              "required": [
+                "positioning",
+                "channels"
+              ],
+              "additionalProperties": false
+            },
+            "marketingComplexity": {
+              "type": "object",
+              "properties": {
+                "level": {
+                  "type": "string",
+                  "enum": [
+                    "low",
+                    "moderate",
+                    "high"
+                  ]
+                },
+                "notes": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                }
+              },
+              "required": [
+                "level"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "marketingStrategy",
+            "marketingComplexity"
+          ],
+          "additionalProperties": false
+        },
+        "salesDna": {
+          "type": "object",
+          "properties": {
+            "salesStrategy": {
+              "type": "object",
+              "properties": {
+                "approach": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                },
+                "salesCycleLengthDays": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/founderFit/properties/minimumExperienceYears"
+                },
+                "pricingModel": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                }
+              },
+              "required": [
+                "approach"
+              ],
+              "additionalProperties": false
+            },
+            "salesComplexity": {
+              "type": "object",
+              "properties": {
+                "level": {
+                  "type": "string",
+                  "enum": [
+                    "low",
+                    "moderate",
+                    "high"
+                  ]
+                },
+                "notes": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                }
+              },
+              "required": [
+                "level"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "salesStrategy",
+            "salesComplexity"
+          ],
+          "additionalProperties": false
+        },
+        "operationsDna": {
+          "type": "object",
+          "properties": {
+            "operations": {
+              "type": "object",
+              "properties": {
+                "coreProcesses": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                  },
+                  "default": []
+                },
+                "dailyWorkflow": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                },
+                "fulfillmentModel": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                }
+              },
+              "additionalProperties": false
+            },
+            "automation": {
+              "type": "object",
+              "properties": {
+                "level": {
+                  "type": "string",
+                  "enum": [
+                    "low",
+                    "moderate",
+                    "high"
+                  ]
+                },
+                "notes": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                }
+              },
+              "required": [
+                "level"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "operations",
+            "automation"
+          ],
+          "additionalProperties": false
+        },
+        "technologyDna": {
+          "type": "object",
+          "properties": {
+            "aiUsage": {
+              "type": "object",
+              "properties": {
+                "useCases": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "area": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "description": {
+                        "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                      },
+                      "maturity": {
+                        "type": "string",
+                        "enum": [
+                          "emerging",
+                          "established",
+                          "coreToModel"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "area",
+                      "description",
+                      "maturity"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "default": []
+                },
+                "aiDependencyLevel": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/riskDna/properties/risks/items/properties/severity"
+                }
+              },
+              "required": [
+                "aiDependencyLevel"
+              ],
+              "additionalProperties": false
+            },
+            "recommendedTools": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "category": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "isRequired": {
+                    "type": "boolean",
+                    "default": true
+                  },
+                  "websiteUrl": {
+                    "type": "string",
+                    "format": "uri"
+                  }
+                },
+                "required": [
+                  "name",
+                  "category"
+                ],
+                "additionalProperties": false
+              },
+              "default": []
+            }
+          },
+          "required": [
+            "aiUsage"
+          ],
+          "additionalProperties": false
+        },
+        "growthDna": {
+          "type": "object",
+          "properties": {
+            "growthPotential": {
+              "type": "object",
+              "properties": {
+                "level": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/riskDna/properties/risks/items/properties/severity"
+                },
+                "ceilingNotes": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                },
+                "timeHorizonMonths": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/founderFit/properties/minimumExperienceYears"
+                }
+              },
+              "required": [
+                "level"
+              ],
+              "additionalProperties": false
+            },
+            "scaling": {
+              "type": "object",
+              "properties": {
+                "path": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                },
+                "bottlenecks": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                  },
+                  "default": []
+                },
+                "milestones": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "monthsFromLaunch": {
+                        "$ref": "#/definitions/BusinessDnaProfile/properties/founderFit/properties/minimumExperienceYears"
+                      },
+                      "description": {
+                        "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                      }
+                    },
+                    "required": [
+                      "monthsFromLaunch",
+                      "description"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "default": []
+                }
+              },
+              "required": [
+                "path"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "growthPotential",
+            "scaling"
+          ],
+          "additionalProperties": false
+        },
+        "successDna": {
+          "type": "object",
+          "properties": {
+            "advantages": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "description": {
+                    "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                  }
+                },
+                "required": [
+                  "description"
+                ],
+                "additionalProperties": false
+              },
+              "default": []
+            },
+            "benchmarkNotes": {
+              "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+            }
+          },
+          "additionalProperties": false
+        },
+        "blueprintReferences": {
+          "type": "object",
+          "properties": {
+            "blueprintStructure": {
+              "type": "object",
+              "properties": {
+                "sections": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 1
+                },
+                "promptContext": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                }
+              },
+              "required": [
+                "sections"
+              ],
+              "additionalProperties": false
+            },
+            "blueprintTemplateId": {
+              "type": "string",
+              "pattern": "^[cC][^\\s-]{8,}$"
+            },
+            "marketingTemplateId": {
+              "type": "string",
+              "pattern": "^[cC][^\\s-]{8,}$"
+            },
+            "financialTemplateId": {
+              "type": "string",
+              "pattern": "^[cC][^\\s-]{8,}$"
+            },
+            "launchTemplateId": {
+              "type": "string",
+              "pattern": "^[cC][^\\s-]{8,}$"
+            }
+          },
+          "required": [
+            "blueprintStructure"
+          ],
+          "additionalProperties": false
+        },
+        "resources": {
+          "type": "object",
+          "properties": {
+            "resources": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "category": {
+                    "type": "string",
+                    "enum": [
+                      "books",
+                      "courses",
+                      "youtube",
+                      "communities",
+                      "templates",
+                      "documents",
+                      "checklists"
+                    ]
+                  },
+                  "translationKey": {
+                    "type": "string",
+                    "minLength": 2,
+                    "maxLength": 160,
+                    "pattern": "^[a-zA-Z0-9]+(\\.[a-zA-Z0-9]+)*$"
+                  },
+                  "relatedResourceType": {
+                    "type": "string",
+                    "enum": [
+                      "article",
+                      "guide",
+                      "video",
+                      "playbook",
+                      "checklist"
+                    ]
+                  },
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  }
+                },
+                "required": [
+                  "category",
+                  "translationKey"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "resources"
+          ],
+          "additionalProperties": false
+        },
+        "kpis": {
+          "type": "object",
+          "properties": {
+            "targets": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "key": {
+                    "type": "string",
+                    "enum": [
+                      "mrr",
+                      "arr",
+                      "cac",
+                      "ltv",
+                      "churn",
+                      "grossMargin",
+                      "netMargin",
+                      "leadConversion",
+                      "closeRate",
+                      "customerRetention"
+                    ]
+                  },
+                  "targetDescription": {
+                    "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                  }
+                },
+                "required": [
+                  "key"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "targets"
+          ],
+          "additionalProperties": false
+        },
+        "aiMetadata": {
+          "type": "object",
+          "properties": {
+            "matchingHints": {
+              "type": "object",
+              "properties": {
+                "requiredSkills": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "key": {
+                        "type": "string",
+                        "enum": [
+                          "marketing",
+                          "sales",
+                          "programming",
+                          "ai",
+                          "finance",
+                          "management",
+                          "design",
+                          "content",
+                          "negotiation",
+                          "communication"
+                        ]
+                      },
+                      "importance": {
+                        "$ref": "#/definitions/BusinessDnaProfile/properties/lifestyleDna/properties/freedomLevel"
+                      }
+                    },
+                    "required": [
+                      "key",
+                      "importance"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "preferredSkills": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/BusinessDnaProfile/properties/aiMetadata/properties/matchingHints/properties/requiredSkills/items"
+                  }
+                },
+                "requiredPersonality": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "trait": {
+                        "type": "string",
+                        "enum": [
+                          "strategic",
+                          "persistent",
+                          "systemOriented",
+                          "growthMindset",
+                          "creative",
+                          "analytical",
+                          "collaborative",
+                          "decisive",
+                          "resilient",
+                          "detailOriented",
+                          "patient",
+                          "riskTolerant"
+                        ]
+                      },
+                      "importance": {
+                        "$ref": "#/definitions/BusinessDnaProfile/properties/lifestyleDna/properties/freedomLevel"
+                      }
+                    },
+                    "required": [
+                      "trait",
+                      "importance"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "preferredPersonality": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/BusinessDnaProfile/properties/aiMetadata/properties/matchingHints/properties/requiredPersonality/items"
+                  }
+                },
+                "requiredBudget": {
+                  "type": "object",
+                  "properties": {
+                    "min": {
+                      "$ref": "#/definitions/BusinessDnaProfile/properties/founderFit/properties/minimumExperienceYears"
+                    },
+                    "max": {
+                      "$ref": "#/definitions/BusinessDnaProfile/properties/founderFit/properties/minimumExperienceYears"
+                    },
+                    "currency": {
+                      "type": "string",
+                      "minLength": 3,
+                      "maxLength": 3,
+                      "default": "EUR"
+                    }
+                  },
+                  "required": [
+                    "min",
+                    "max"
+                  ],
+                  "additionalProperties": false
+                },
+                "preferredBudget": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/aiMetadata/properties/matchingHints/properties/requiredBudget"
+                },
+                "riskProfile": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/riskDna/properties/risks/items/properties/severity"
+                },
+                "timeAvailability": {
+                  "type": "object",
+                  "properties": {
+                    "minWeeklyHours": {
+                      "$ref": "#/definitions/BusinessDnaProfile/properties/founderFit/properties/minimumExperienceYears"
+                    },
+                    "maxWeeklyHours": {
+                      "$ref": "#/definitions/BusinessDnaProfile/properties/founderFit/properties/minimumExperienceYears"
+                    }
+                  },
+                  "required": [
+                    "minWeeklyHours"
+                  ],
+                  "additionalProperties": false
+                },
+                "communicationStyle": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "technicalLevel": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/lifestyleDna/properties/freedomLevel"
+                },
+                "leadershipLevel": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/lifestyleDna/properties/freedomLevel"
+                },
+                "creativityLevel": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/lifestyleDna/properties/freedomLevel"
+                },
+                "salesAffinity": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/lifestyleDna/properties/freedomLevel"
+                },
+                "automationAffinity": {
+                  "$ref": "#/definitions/BusinessDnaProfile/properties/lifestyleDna/properties/freedomLevel"
+                },
+                "remotePreference": {
+                  "type": "string",
+                  "enum": [
+                    "remote",
+                    "hybrid",
+                    "inPerson",
+                    "noPreference"
+                  ]
+                },
+                "travelPreference": {
+                  "type": "string",
+                  "enum": [
+                    "none",
+                    "occasional",
+                    "frequent",
+                    "noPreference"
+                  ]
+                },
+                "idealFounderArchetypes": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/BusinessDnaProfile/properties/founderFit/properties/idealArchetypes/items"
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "blueprintHints": {
+              "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+            },
+            "marketingHints": {
+              "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+            },
+            "financialHints": {
+              "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+            },
+            "generationHints": {
+              "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+            }
+          },
+          "required": [
+            "matchingHints"
+          ],
+          "additionalProperties": false
+        },
+        "businessLifecycle": {
+          "type": "object",
+          "properties": {
+            "stages": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "stage": {
+                    "type": "string",
+                    "enum": [
+                      "idea",
+                      "validation",
+                      "mvp",
+                      "firstClients",
+                      "stableRevenue",
+                      "scaling",
+                      "expansion",
+                      "exit"
+                    ]
+                  },
+                  "objectives": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                    }
+                  },
+                  "kpis": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "enum": [
+                        "mrr",
+                        "arr",
+                        "cac",
+                        "ltv",
+                        "churn",
+                        "grossMargin",
+                        "netMargin",
+                        "leadConversion",
+                        "closeRate",
+                        "customerRetention"
+                      ]
+                    }
+                  },
+                  "commonMistakes": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                    }
+                  },
+                  "recommendedActions": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/definitions/BusinessDnaProfile/properties/identity/properties/name"
+                    }
+                  },
+                  "recommendedResources": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/definitions/BusinessDnaProfile/properties/resources/properties/resources/items/properties/translationKey"
+                    }
+                  }
+                },
+                "required": [
+                  "stage",
+                  "objectives",
+                  "kpis",
+                  "commonMistakes",
+                  "recommendedActions",
+                  "recommendedResources"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "stages"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "identity",
+        "founderFit",
+        "financialDna",
+        "revenueDna",
+        "lifestyleDna",
+        "skillDna",
+        "entrepreneurDnaMatch",
+        "businessCharacteristics",
+        "scalabilityDna",
+        "riskDna",
+        "marketingDna",
+        "salesDna",
+        "operationsDna",
+        "technologyDna",
+        "growthDna",
+        "successDna",
+        "blueprintReferences",
+        "resources",
+        "kpis",
+        "aiMetadata",
+        "businessLifecycle"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
