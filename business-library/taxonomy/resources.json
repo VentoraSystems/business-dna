@@ -1,0 +1,13 @@
+{
+  "domain": "resources",
+  "description": "src/features/knowledge-engine has no dedicated Resources domain. The best existing canonical vocabulary to reuse here is features/business-dna's own Resources section categories. Source of truth: src/features/business-dna/types/sections/resources.ts → BUSINESS_DNA_RESOURCE_CATEGORY_KEYS (7 values). Only 2 of these 7 map onto business-engine's ResourceType (article/guide/video/playbook/checklist — src/features/business-engine/schemas/enums.ts): 'checklists'→'checklist' and 'youtube'→'video'. The other 5 ('books', 'courses', 'communities', 'templates', 'documents') have no ResourceType equivalent — see features/business-dna/README.md's mapping table for the same note.",
+  "entries": [
+    { "key": "books", "label": { "en": "Books", "ro": "Cărți" }, "relatedResourceType": null },
+    { "key": "courses", "label": { "en": "Courses", "ro": "Cursuri" }, "relatedResourceType": null },
+    { "key": "youtube", "label": { "en": "YouTube", "ro": "YouTube" }, "relatedResourceType": "video" },
+    { "key": "communities", "label": { "en": "Communities", "ro": "Comunități" }, "relatedResourceType": null },
+    { "key": "templates", "label": { "en": "Templates", "ro": "Șabloane" }, "relatedResourceType": null },
+    { "key": "documents", "label": { "en": "Documents", "ro": "Documente" }, "relatedResourceType": null },
+    { "key": "checklists", "label": { "en": "Checklists", "ro": "Liste de verificare" }, "relatedResourceType": "checklist" }
+  ]
+}

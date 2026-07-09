@@ -1,0 +1,16 @@
+{
+  "domain": "kpis",
+  "description": "src/features/knowledge-engine's KPIs domain has no closed vocabulary (deliberately open — see knowledge-engine/README.md). The best existing canonical vocabulary to reuse here is instead features/business-dna's own fixed KPI enum. Source of truth: src/features/business-dna/types/sections/kpis.ts → BusinessDnaKpiKey (10 values). Distinct from business-library/schema.ts's legacy kpis section, which is an open-ended array, not a closed list — see features/business-dna/README.md's mapping table for why the two are kept separate concepts.",
+  "entries": [
+    { "key": "mrr", "label": { "en": "Monthly Recurring Revenue (MRR)", "ro": "Venit recurent lunar (MRR)" } },
+    { "key": "arr", "label": { "en": "Annual Recurring Revenue (ARR)", "ro": "Venit recurent anual (ARR)" } },
+    { "key": "cac", "label": { "en": "Customer Acquisition Cost (CAC)", "ro": "Costul de achiziție a clienților (CAC)" } },
+    { "key": "ltv", "label": { "en": "Lifetime Value (LTV)", "ro": "Valoarea pe durata de viață (LTV)" } },
+    { "key": "churn", "label": { "en": "Churn", "ro": "Rata de abandon (churn)" } },
+    { "key": "grossMargin", "label": { "en": "Gross Margin", "ro": "Marja brută" } },
+    { "key": "netMargin", "label": { "en": "Net Margin", "ro": "Marja netă" } },
+    { "key": "leadConversion", "label": { "en": "Lead Conversion", "ro": "Conversia lead-urilor" } },
+    { "key": "closeRate", "label": { "en": "Close Rate", "ro": "Rata de închidere" } },
+    { "key": "customerRetention", "label": { "en": "Customer Retention", "ro": "Retenția clienților" } }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "aiTools",
+  "description": "src/features/knowledge-engine's AITools domain is a deliberate open catalog with no closed vocabulary (see knowledge-engine/README.md → 'Domains without a closed vocabulary') — there is nothing to mirror. These 8 are a small placeholder seed list of well-known, real AI tools (not fake content), for the content team to expand.",
+  "entries": [
+    { "key": "chatgpt", "label": { "en": "ChatGPT", "ro": "ChatGPT" }, "category": "conversationalAi" },
+    { "key": "claude", "label": { "en": "Claude", "ro": "Claude" }, "category": "conversationalAi" },
+    { "key": "midjourney", "label": { "en": "Midjourney", "ro": "Midjourney" }, "category": "imageGeneration" },
+    { "key": "github-copilot", "label": { "en": "GitHub Copilot", "ro": "GitHub Copilot" }, "category": "codeAssistance" },
+    { "key": "zapier", "label": { "en": "Zapier", "ro": "Zapier" }, "category": "automation" },
+    { "key": "make", "label": { "en": "Make", "ro": "Make" }, "category": "automation" },
+    { "key": "elevenlabs", "label": { "en": "ElevenLabs", "ro": "ElevenLabs" }, "category": "voiceGeneration" },
+    { "key": "perplexity", "label": { "en": "Perplexity", "ro": "Perplexity" }, "category": "research" }
+  ]
+}

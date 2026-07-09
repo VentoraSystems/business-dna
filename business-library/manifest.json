@@ -1,0 +1,19 @@
+{
+  "libraryVersion": "1.0.0",
+  "schemaVersion": "1.0.0",
+  "_schemaVersionSource": "src/features/business-dna/schemas/business-dna-profile.schema.ts → BUSINESS_DNA_PROFILE_SCHEMA_VERSION — keep this value in sync; validate-packages.ts checks it.",
+  "lastUpdated": "2026-07-09",
+  "businessCount": 0,
+  "_businessCountNote": "Counts only packages with metadata.status === \"published\". The one package below (ai-automation-agency) is status \"template\" — a placeholder structure, not a registered business yet — so it correctly contributes 0.",
+  "supportedLanguages": ["en", "ro"],
+  "industries": "./taxonomy/industries.json",
+  "categories": "./taxonomy/categories.json",
+  "packages": [
+    {
+      "slug": "ai-automation-agency",
+      "path": "./technology/ai-automation-agency",
+      "status": "template",
+      "canonical": true
+    }
+  ]
+}

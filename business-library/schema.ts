@@ -1,6 +1,17 @@
 import { z } from "zod";
 
 /**
+ * @deprecated — This is the legacy Business Genome format. It is kept
+ * only for backward compatibility with the one business authored under
+ * it (examples/ai-automation-agency.ts, json/ai-automation-agency.json).
+ * Do NOT use this for new businesses — use features/business-dna's
+ * BusinessDnaProfile contract via the new business-library/technology/
+ * structure instead. This format will be removed in a future migration
+ * sprint once existing content is migrated. Nothing in this file's
+ * exported behavior has changed because of this notice.
+ */
+
+/**
  * =============================================================================
  * BUSINESS GENOME SCHEMA
  * =============================================================================

@@ -1,0 +1,14 @@
+{
+  "domain": "categories",
+  "description": "Unlike industries/businessModels/skills, no closed vocabulary for 'category' exists anywhere in the codebase today (business-library's own category field, and business-engine's BusinessCategory, are both freeform). These 8 are illustrative placeholder categories only, each loosely tied to one industry — a starting scaffold for the content team to curate, not a finalized taxonomy.",
+  "entries": [
+    { "key": "ai-automation-agencies", "label": { "en": "AI Automation Agencies", "ro": "Agenții de automatizare AI" }, "industry": "tech" },
+    { "key": "subscription-boxes", "label": { "en": "Subscription Boxes", "ro": "Cutii de abonament" }, "industry": "food" },
+    { "key": "boutique-fitness-studios", "label": { "en": "Boutique Fitness Studios", "ro": "Studiouri de fitness boutique" }, "industry": "health" },
+    { "key": "online-course-platforms", "label": { "en": "Online Course Platforms", "ro": "Platforme de cursuri online" }, "industry": "education" },
+    { "key": "sustainable-fashion-brands", "label": { "en": "Sustainable Fashion Brands", "ro": "Branduri de modă sustenabilă" }, "industry": "fashion" },
+    { "key": "local-service-marketplaces", "label": { "en": "Local Service Marketplaces", "ro": "Piețe de servicii locale" }, "industry": "homeServices" },
+    { "key": "boutique-travel-agencies", "label": { "en": "Boutique Travel Agencies", "ro": "Agenții de turism boutique" }, "industry": "travel" },
+    { "key": "niche-content-studios", "label": { "en": "Niche Content Studios", "ro": "Studiouri de conținut de nișă" }, "industry": "entertainment" }
+  ]
+}

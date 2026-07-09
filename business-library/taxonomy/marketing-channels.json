@@ -1,0 +1,14 @@
+{
+  "domain": "marketingChannels",
+  "description": "Reused verbatim from src/features/knowledge-engine's own closed vocabulary for this domain. Source of truth: src/features/knowledge-engine/types/vocabularies.ts → MARKETING_CHANNEL_KEYS. Note: business-library/schema.ts's own marketingStrategy.channels[].channelType (legacy format) is freeform — this taxonomy is the closed vocabulary the new format should validate channel choices against instead.",
+  "entries": [
+    { "key": "seo", "label": { "en": "SEO", "ro": "SEO" } },
+    { "key": "paidSearch", "label": { "en": "Paid Search", "ro": "Căutare plătită" } },
+    { "key": "socialMedia", "label": { "en": "Social Media", "ro": "Rețele sociale" } },
+    { "key": "emailMarketing", "label": { "en": "Email Marketing", "ro": "Marketing prin email" } },
+    { "key": "contentMarketing", "label": { "en": "Content Marketing", "ro": "Marketing de conținut" } },
+    { "key": "influencerMarketing", "label": { "en": "Influencer Marketing", "ro": "Marketing prin influenceri" } },
+    { "key": "eventsAndSponsorship", "label": { "en": "Events & Sponsorship", "ro": "Evenimente și sponsorizări" } },
+    { "key": "referralProgram", "label": { "en": "Referral Program", "ro": "Program de recomandare" } }
+  ]
+}

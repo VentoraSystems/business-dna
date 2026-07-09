@@ -1,0 +1,16 @@
+{
+  "domain": "skills",
+  "description": "The 10 platform skill keys. Reused verbatim — NOT a new list. Source of truth: business-library/schema.ts → skillKeySchema (also src/features/business-engine's RequiredSkill.key vocabulary and src/features/knowledge-engine's Skills domain, which reuses this same skillKeySchema — see knowledge-engine/types/reused-vocabularies.ts). Note: this is a different, narrower vocabulary from features/business-dna's Skill DNA (12 keys, 1-10 scale) — see that feature's README for the documented conflict.",
+  "entries": [
+    { "key": "marketing", "label": { "en": "Marketing", "ro": "Marketing" } },
+    { "key": "sales", "label": { "en": "Sales", "ro": "Vânzări" } },
+    { "key": "programming", "label": { "en": "Programming", "ro": "Programare" } },
+    { "key": "ai", "label": { "en": "AI", "ro": "AI" } },
+    { "key": "finance", "label": { "en": "Finance", "ro": "Finanțe" } },
+    { "key": "management", "label": { "en": "Management", "ro": "Management" } },
+    { "key": "design", "label": { "en": "Design", "ro": "Design" } },
+    { "key": "content", "label": { "en": "Content", "ro": "Conținut" } },
+    { "key": "negotiation", "label": { "en": "Negotiation", "ro": "Negociere" } },
+    { "key": "communication", "label": { "en": "Communication", "ro": "Comunicare" } }
+  ]
+}

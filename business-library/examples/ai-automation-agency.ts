@@ -1,6 +1,18 @@
 import { businessGenomeSchema, BUSINESS_GENOME_SCHEMA_VERSION, type BusinessGenome } from "../schema";
 
 /**
+ * @deprecated — This is the legacy Business Genome format. It is kept
+ * only for backward compatibility with this one already-authored
+ * business. Do NOT use this for new businesses — use
+ * features/business-dna's BusinessDnaProfile contract via the new
+ * business-library/technology/ structure instead (see
+ * business-library/technology/ai-automation-agency/ for the new
+ * template). This format will be removed in a future migration sprint
+ * once existing content is migrated. Nothing in this file's exported
+ * behavior has changed because of this notice.
+ */
+
+/**
  * The single reference Business Genome for the Business Genome Library.
  * This is real, production-intended content — not a placeholder — for one
  * BusinessType: an AI Automation Agency. It exists to demonstrate every

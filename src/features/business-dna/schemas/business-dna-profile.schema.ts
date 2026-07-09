@@ -24,6 +24,16 @@ import {
 } from "./sections.schema";
 
 /**
+ * Versions this contract itself, independent of any one authored
+ * package's own version — mirrors `BUSINESS_GENOME_SCHEMA_VERSION` in
+ * business-library/schema.ts. Added for business-library's new
+ * technology/ authoring structure (see business-library/manifest.json
+ * and business-library/validate-packages.ts), which needs a single
+ * source of truth to check its own `schemaVersion` field against.
+ */
+export const BUSINESS_DNA_PROFILE_SCHEMA_VERSION = "1.0.0";
+
+/**
  * Not annotated `z.ZodType<BusinessDnaProfile>`: several of the section
  * schemas above (financialDnaSchema, riskDnaSchema, operationsDnaSchema,
  * technologyDnaSchema, growthDnaSchema, successDnaSchema) are themselves

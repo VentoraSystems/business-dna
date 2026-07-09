@@ -1,0 +1,14 @@
+{
+  "domain": "revenueModels",
+  "description": "Reused verbatim from src/features/knowledge-engine's own closed vocabulary for this domain. Source of truth: src/features/knowledge-engine/types/vocabularies.ts → REVENUE_MODEL_KEYS.",
+  "entries": [
+    { "key": "subscription", "label": { "en": "Subscription", "ro": "Abonament" } },
+    { "key": "oneTime", "label": { "en": "One-time", "ro": "O singură dată" } },
+    { "key": "usageBased", "label": { "en": "Usage-based", "ro": "Bazat pe utilizare" } },
+    { "key": "freemium", "label": { "en": "Freemium", "ro": "Freemium" } },
+    { "key": "transactionFee", "label": { "en": "Transaction Fee", "ro": "Taxă de tranzacție" } },
+    { "key": "licensing", "label": { "en": "Licensing", "ro": "Licențiere" } },
+    { "key": "advertising", "label": { "en": "Advertising", "ro": "Publicitate" } },
+    { "key": "affiliate", "label": { "en": "Affiliate", "ro": "Afiliere" } }
+  ]
+}

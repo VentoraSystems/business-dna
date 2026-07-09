@@ -1,0 +1,14 @@
+{
+  "domain": "businessModels",
+  "description": "The 8 platform business models. Reused verbatim from the existing BusinessModelType vocabulary — NOT a new list. Source of truth: src/features/business-engine/schemas/enums.ts → businessModelTypeSchema (also mirrored, by convention, in business-library/schema.ts's own businessModelTypeSchema and src/features/knowledge-engine's KnowledgeDomain.BusinessModels domain).",
+  "entries": [
+    { "key": "ecommerce", "label": { "en": "E-commerce", "ro": "Comerț electronic" } },
+    { "key": "saas", "label": { "en": "SaaS", "ro": "SaaS" } },
+    { "key": "service", "label": { "en": "Service", "ro": "Servicii" } },
+    { "key": "marketplace", "label": { "en": "Marketplace", "ro": "Piață (marketplace)" } },
+    { "key": "content", "label": { "en": "Content", "ro": "Conținut" } },
+    { "key": "physicalProduct", "label": { "en": "Physical Product", "ro": "Produs fizic" } },
+    { "key": "subscription", "label": { "en": "Subscription", "ro": "Abonament" } },
+    { "key": "agency", "label": { "en": "Agency", "ro": "Agenție" } }
+  ]
+}

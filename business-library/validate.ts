@@ -3,6 +3,16 @@ import path from "node:path";
 import { validateBusinessGenome } from "./schema";
 
 /**
+ * @deprecated — Validates the legacy Business Genome format only (see
+ * ./schema.ts). Do NOT use this for new content — new businesses go
+ * through business-library/technology/ and are validated by
+ * business-library/validate-packages.ts against features/business-dna's
+ * schema instead. This file's behavior is unchanged; kept only for the
+ * one legacy document still in ./json. Will be removed in a future
+ * migration sprint.
+ */
+
+/**
  * Validates every *.json file in ./json against the Business Genome
  * standard defined in ./schema.ts. Run with:
  *

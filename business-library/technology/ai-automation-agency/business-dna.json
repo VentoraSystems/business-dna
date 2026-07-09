@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "slug": "ai-automation-agency",
+    "version": "0.0.0",
+    "name": { "en": "__PLACEHOLDER__", "ro": "__PLACEHOLDER__" },
+    "tagline": { "en": "__PLACEHOLDER__", "ro": "__PLACEHOLDER__" },
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z",
+    "status": "draft"
+  },
+  "founderFit": {
+    "idealArchetypes": ["theBuilder"],
+    "summary": { "en": "__PLACEHOLDER__", "ro": "__PLACEHOLDER__" }
+  },
+  "financialDna": {
+    "budget": { "minInvestment": 0, "maxInvestment": 0, "currency": "EUR" },
+    "financialInformation": {
+      "startupCosts": [],
+      "recurringCosts": [],
+      "revenueStreams": [],
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": { "level": "slow" },
+    "profitMargin": { "level": "low" }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "none",
+    "onlineOffline": "online",
+    "salesChannel": "b2c"
+  },
+  "skillDna": {
+    "ratings": []
+  },
+  "entrepreneurDnaMatch": {
+    "scores": []
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": false,
+    "isFullyRemote": false,
+    "requiresTravel": false,
+    "isOnlineBusiness": false,
+    "isB2B": false,
+    "isB2C": false,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": { "level": "low" }
+  },
+  "riskDna": {
+    "difficulty": { "level": "low" },
+    "aiResistance": { "level": "low" },
+    "risks": []
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": { "en": "__PLACEHOLDER__", "ro": "__PLACEHOLDER__" },
+      "channels": [
+        {
+          "channelType": "__PLACEHOLDER__",
+          "description": { "en": "__PLACEHOLDER__", "ro": "__PLACEHOLDER__" },
+          "priority": "primary"
+        }
+      ]
+    },
+    "marketingComplexity": { "level": "low" }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": { "en": "__PLACEHOLDER__", "ro": "__PLACEHOLDER__" }
+    },
+    "salesComplexity": { "level": "low" }
+  },
+  "operationsDna": {
+    "operations": { "coreProcesses": [] },
+    "automation": { "level": "low" }
+  },
+  "technologyDna": {
+    "aiUsage": { "useCases": [], "aiDependencyLevel": "low" },
+    "recommendedTools": []
+  },
+  "growthDna": {
+    "growthPotential": { "level": "low" },
+    "scaling": {
+      "path": { "en": "__PLACEHOLDER__", "ro": "__PLACEHOLDER__" },
+      "bottlenecks": [],
+      "milestones": []
+    }
+  },
+  "successDna": {
+    "advantages": []
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": ["__PLACEHOLDER__"]
+    }
+  },
+  "resources": {
+    "resources": []
+  },
+  "kpis": {
+    "targets": []
+  },
+  "aiMetadata": {
+    "matchingHints": {}
+  },
+  "businessLifecycle": {
+    "stages": [
+      { "stage": "idea", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
+      { "stage": "validation", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
+      { "stage": "mvp", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
+      { "stage": "firstClients", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
+      { "stage": "stableRevenue", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
+      { "stage": "scaling", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
+      { "stage": "expansion", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] },
+      { "stage": "exit", "objectives": [], "kpis": [], "commonMistakes": [], "recommendedActions": [], "recommendedResources": [] }
+    ]
+  }
+}

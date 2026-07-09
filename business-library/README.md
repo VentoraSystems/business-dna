@@ -1,4 +1,216 @@
-# The Business Genome Library
+# Business Library
+
+## ⚠️ Legacy Format
+
+The original **Business Genome** format (`schema.ts`, `examples/`,
+`json/`, `validate.ts`) is **deprecated**. It is kept only for backward
+compatibility with the one business already authored under it
+(AI Automation Agency) — do **not** author any new business with it, do
+not extend its schema, and do not change its validation behavior. Each
+of those four files carries a `@deprecated` comment block pointing back
+here; nothing in their exported behavior has changed.
+
+**All new content goes through the structure described below** —
+`business-library/technology/`, validated against
+[`features/business-dna`](../src/features/business-dna/README.md)'s
+`BusinessDnaProfile` Zod schema, not `business-library/schema.ts`. See
+"Migration" at the end of this document for what happens to the legacy
+files next.
+
+## Purpose
+
+This is the single source of truth for every business concept BusinessDNA
+can recommend, plan, and generate documents for — **content**, same as
+before, just authored in a new structure that maps directly onto
+[`features/business-dna`](../src/features/business-dna/README.md)'s
+canonical `BusinessDnaProfile` contract instead of the legacy
+`schema.ts` format. Nothing in this folder recommends a business,
+matches a user, or implements any algorithm — that's still true of the
+new structure exactly as it was of the legacy one.
+
+## Architecture
+
+```
+Business Library  →  Business DNA Profile  →  Matching Engine  →  Blueprint / Marketing / Financial  →  AI Co-Founder
+(this folder)         (features/business-dna)   (src/features/         (generators, not yet built)         (not yet built)
+                                                  matching-engine)
+```
+
+- **Business Library** (`technology/*/`) — where a business is
+  *authored*: `business-dna.json` (validated against
+  `BusinessDnaProfile`), plus `blueprint.md`/`financial.json`/
+  `marketing.json`/`roadmap.json`/`resources.json`/`ai-notes.md` as
+  companion authoring surfaces for the generators listed below.
+- **Business DNA Profile** (`features/business-dna`) — the canonical
+  runtime shape every other system reads. See
+  [that feature's README](../src/features/business-dna/README.md) for
+  its 21 sections and how each maps to (or replaces) a legacy Business
+  Genome section.
+- **Matching Engine** (`src/features/matching-engine`) — will read
+  `aiMetadata.matchingHints` (the same `BusinessGenomeMatchingMetadata`
+  shape it already expected from the legacy format) once real scoring
+  logic exists.
+- **Blueprint / Marketing / Financial** — will read `blueprintReferences`/
+  `marketingDna`/`financialDna` plus the corresponding `aiMetadata.*Hints`
+  field, and this package's own `blueprint.md`/`marketing.json`/
+  `financial.json` companion files.
+- **AI Co-Founder** — will read `operationsDna`, `riskDna`, and
+  `businessLifecycle` for grounded, stage-appropriate advice, same role
+  the legacy format's `operations`/`kpis`/`risks`/`scaling.bottlenecks`
+  played.
+
+## New folder structure
+
+```
+business-library/
+  manifest.json              Library-wide metadata — versions, supported
+                              languages, and the registry of packages
+                              under ./technology (see "Canonical rules").
+  taxonomy/                  Small reference vocabularies for the new
+                              format's cross-reference fields. Each file
+                              reuses an existing canonical enum where one
+                              already exists (IndustryType,
+                              BusinessModelType, skillKeySchema, or a
+                              src/features/knowledge-engine vocabulary)
+                              rather than inventing a parallel list — see
+                              each file's own "description" field for its
+                              source.
+    industries.json            ← IndustryType (business-engine)
+    business-models.json       ← BusinessModelType (business-engine)
+    skills.json                 ← skillKeySchema (business-library, reused as-is)
+    categories.json             (no existing enum — small placeholder list)
+    revenue-models.json        ← knowledge-engine's RevenueModels domain
+    customer-types.json        ← knowledge-engine's CustomerTypes domain
+    pricing-models.json        ← knowledge-engine's PricingModels domain
+    marketing-channels.json    ← knowledge-engine's MarketingChannels domain
+    sales-channels.json        ← knowledge-engine's SalesMethods domain (see file for naming note)
+    tools.json                  (knowledge-engine's BusinessTools is an open catalog — small placeholder list)
+    ai-tools.json                (same — knowledge-engine's AITools is an open catalog)
+    kpis.json                   ← features/business-dna's BusinessDnaKpiKey (fixed 10-value enum)
+    resources.json              ← features/business-dna's BusinessDnaResourceCategory
+  technology/
+    <business-slug>/           One folder per business package.
+      README.md                 Human-readable summary.
+      metadata.json              Package identity/status — new to this format.
+      business-dna.json          Validates against BusinessDnaProfile.
+      blueprint.md                Mirrors BusinessBlueprintTemplate.
+      financial.json              Mirrors BusinessFinancialTemplate.
+      marketing.json              Mirrors BusinessMarketingTemplate.
+      roadmap.json                 Mirrors BusinessLaunchTemplate.
+      resources.json               This package's own resource list.
+      ai-notes.md                   Section headers for AiMetadata's 5 hint fields.
+      assets/                        Images/media for this business.
+```
+
+`technology/ai-automation-agency/` is today's one package — an **empty
+template**, not a real business (see its own README's `Status: template`
+and `Canonical: true`). It is the reference structure every future
+package should copy, the same role `examples/ai-automation-agency.ts`
+played for the legacy format.
+
+## Versioning
+
+Two versions, tracked in `manifest.json`:
+
+- `schemaVersion` — which version of `features/business-dna`'s
+  `BusinessDnaProfile` contract (`BUSINESS_DNA_PROFILE_SCHEMA_VERSION` in
+  `schemas/business-dna-profile.schema.ts`) every package in
+  `technology/` is expected to validate against. A contract change bumps
+  this across the whole library.
+- `libraryVersion` — this folder's own release version, independent of
+  the contract version.
+
+Per-package, `metadata.json`'s own `version` field tracks edits to that
+one business, and its `schemaVersion` field must match
+`manifest.json`'s — `validate-packages.ts` checks this consistency.
+
+## Canonical rules
+
+Only a package under `technology/` can be `canonical` going forward — no
+new content should ever be marked canonical under the legacy
+`schema.ts`/`examples/`/`json/` format again. A package's
+`metadata.json.canonical` (and its mirror in `manifest.json`'s
+`packages[]` entry) marks it as the reference structure future packages
+should copy; only one package should carry `canonical: true` at a time
+per intent (today, `ai-automation-agency`). A package's
+`metadata.json.status` — `template` / `draft` / `published` / etc. — is
+separate from `canonical`: a package can be canonical (the structure to
+copy) without being published (real, live content), which is exactly
+`ai-automation-agency`'s current state. See `manifest.json`'s
+`businessCount`, which only counts `published` packages — `template`
+packages, however canonical, contribute 0.
+
+## How new businesses are added
+
+1. **Copy `technology/ai-automation-agency/`** as your starting point —
+   every required file, and every `business-dna.json` section, is
+   easier to match by example than by reading `features/business-dna`'s
+   schema alone.
+2. **Pick a unique slug** and rename the folder to match. Register it in
+   `manifest.json`'s `packages[]` array — `validate-packages.ts` checks
+   that every `technology/` folder's slug is registered there.
+3. **Fill in `metadata.json`** with real values — `id`, `slug`, `version`,
+   `schemaVersion` (matching `manifest.json`'s), `status`, `difficulty`,
+   `industry`/`category`/`businessModel` (referencing `taxonomy/`), etc.
+4. **Author `business-dna.json`** against `features/business-dna`'s 21
+   sections. Cross-reference `taxonomy/*.json` for any field with a
+   closed vocabulary (industries, business models, skills, revenue
+   models, etc.) rather than inventing new string values.
+5. **Fill in the companion files** — `blueprint.md`, `financial.json`,
+   `marketing.json`, `roadmap.json`, `resources.json`, `ai-notes.md` —
+   as the corresponding generators are built.
+6. **Validate before committing.** Run
+   `npm run validate:business-library-packages`. It must pass.
+7. **Update `manifest.json`'s `businessCount`** once (and only once) the
+   package's `metadata.json.status` becomes `published` — a `template`
+   or `draft` package should not be counted.
+
+## Validation process
+
+- **`npm run validate:business-library-packages`** (`validate-packages.ts`)
+  — the one to use for all new content. Checks every `technology/*/`
+  package has its required files, a well-formed `metadata.json`,
+  a `business-dna.json` that validates against
+  `features/business-dna`'s `BusinessDnaProfile` schema, `schemaVersion`
+  consistency between `metadata.json` and `manifest.json`, and that the
+  package's slug is registered in `manifest.json`.
+- **`npm run validate:business-library`** (`validate.ts`) — legacy,
+  unchanged. Only validates `./json/*.json` against the deprecated
+  `schema.ts`. Exists solely because the one legacy document is still
+  there; do not point new content at it.
+
+## Best practices
+
+- Keep `taxonomy/*.json` values in sync with their source enums by
+  convention (same discipline the legacy format used — see its own "Keep
+  vocabulary aligned by convention" note below) — if a source enum
+  changes, update the corresponding taxonomy file in the same change.
+- Never mark more than one package `canonical: true` without a deliberate
+  reason — `ai-automation-agency` is canonical today specifically because
+  it's the reference *structure*, not because it's a real business.
+- Treat `businessCount` as a manually-curated signal of real, published
+  content — don't let it silently include templates or drafts.
+- One package, one folder, one slug — `metadata.json.slug` should be
+  unique across every `technology/` folder and match the folder name.
+
+## Migration
+
+A future sprint will migrate the one legacy Business Genome
+(`examples/ai-automation-agency.ts` / `json/ai-automation-agency.json`)
+into a real `technology/` package, and then remove
+`business-library/schema.ts`, `examples/`, `json/`, and `validate.ts`
+entirely. Until that migration happens, the legacy files stay exactly as
+they are — see "⚠️ Legacy Format" above.
+
+---
+
+## Legacy reference (Business Genome format — deprecated)
+
+Everything below this line describes the **legacy** Business Genome
+format. It is accurate and unchanged from before this document's new
+sections above were added — kept for reference only while the one
+legacy document above still exists. Do not use anything below for new
+content; see "How new businesses are added" above instead.
 
 This is the single source of truth for every business concept BusinessDNA
 can recommend, plan, and generate documents for. A **Business Genome** is

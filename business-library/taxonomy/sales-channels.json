@@ -1,0 +1,12 @@
+{
+  "domain": "salesMethods",
+  "description": "Named \"sales-channels.json\" per the epic's file list, but the content is knowledge-engine's SalesMethods domain — HOW a sale happens (direct/channel-partner/inside-sales/...), reused verbatim from src/features/knowledge-engine/types/vocabularies.ts → SALES_METHOD_KEYS. This is deliberately NOT business-engine's SalesChannel (b2b/b2c/both — WHO a business sells to, see customer-types.json for that concept instead) and NOT a new vocabulary invented for this file — knowledge-engine's own README documents the same naming caution.",
+  "entries": [
+    { "key": "directSales", "label": { "en": "Direct Sales", "ro": "Vânzări directe" } },
+    { "key": "channelPartner", "label": { "en": "Channel Partner", "ro": "Partener de canal" } },
+    { "key": "insideSales", "label": { "en": "Inside Sales", "ro": "Vânzări interne" } },
+    { "key": "fieldSales", "label": { "en": "Field Sales", "ro": "Vânzări pe teren" } },
+    { "key": "selfService", "label": { "en": "Self-service", "ro": "Autoservire" } },
+    { "key": "reseller", "label": { "en": "Reseller", "ro": "Revânzător" } }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "domain": "pricingModels",
+  "description": "Reused verbatim from src/features/knowledge-engine's own closed vocabulary for this domain. Source of truth: src/features/knowledge-engine/types/vocabularies.ts → PRICING_MODEL_KEYS.",
+  "entries": [
+    { "key": "flatRate", "label": { "en": "Flat Rate", "ro": "Tarif fix" } },
+    { "key": "tiered", "label": { "en": "Tiered", "ro": "Pe niveluri" } },
+    { "key": "usageBased", "label": { "en": "Usage-based", "ro": "Bazat pe utilizare" } },
+    { "key": "freemium", "label": { "en": "Freemium", "ro": "Freemium" } },
+    { "key": "valueBased", "label": { "en": "Value-based", "ro": "Bazat pe valoare" } },
+    { "key": "perSeat", "label": { "en": "Per Seat", "ro": "Per utilizator" } },
+    { "key": "dynamic", "label": { "en": "Dynamic", "ro": "Dinamic" } }
+  ]
+}
