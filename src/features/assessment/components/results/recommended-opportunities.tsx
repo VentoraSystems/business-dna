@@ -41,6 +41,11 @@ function formatBudget(min: number, max: number) {
   return `${format(min)} – ${format(max)}`;
 }
 
+function formatMonthlyRevenue(min: number, max: number) {
+  const format = (value: number) => `€${value.toLocaleString("en-US")}`;
+  return `${format(min)} – ${format(max)}`;
+}
+
 interface RecommendedOpportunitiesProps {
   opportunities: {
     id: (typeof OPPORTUNITY_SAMPLE_IDS)[number];
@@ -48,6 +53,8 @@ interface RecommendedOpportunitiesProps {
     difficulty: DifficultyLevel;
     budgetMin: number;
     budgetMax: number;
+    monthlyRevenueMin: number;
+    monthlyRevenueMax: number;
     revenueSpeed: RevenueSpeed;
     scalability: ScalabilityLevel;
   }[];
@@ -104,6 +111,11 @@ export function RecommendedOpportunities({ opportunities }: RecommendedOpportuni
 
                 <p className="text-xs text-muted-foreground">
                   {t("opportunities.budgetLabel")}: {formatBudget(opportunity.budgetMin, opportunity.budgetMax)}
+                </p>
+
+                <p className="text-xs text-muted-foreground">
+                  {t("opportunities.monthlyRevenueLabel")}:{" "}
+                  {formatMonthlyRevenue(opportunity.monthlyRevenueMin, opportunity.monthlyRevenueMax)}
                 </p>
 
                 <Button variant="secondary" className="mt-auto" disabled>

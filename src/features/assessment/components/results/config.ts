@@ -15,6 +15,11 @@ import {
   Zap,
   Briefcase,
   Clock,
+  Network,
+  Compass,
+  Wand2,
+  TrendingUp,
+  Target,
 } from "lucide-react";
 import { MatchingDimension } from "@/features/matching-engine/scoring/dimensions";
 
@@ -54,6 +59,38 @@ export const DNA_ARCHETYPE_ICONS: Record<DnaArchetypeKey, LucideIcon> = {
   seller: Megaphone,
   leader: Users,
   analyst: BarChart3,
+};
+
+/**
+ * The "Primary Archetype" section (one overarching label for the whole
+ * result) is a deliberately SEPARATE taxonomy from `DnaArchetypeKey`
+ * above — the 7 DNA Profile cards describe a *spread* across founder
+ * traits, while this is the single overarching persona the results page
+ * leads with. Do not confuse `OverarchingArchetypeKey` with
+ * `DnaArchetypeKey`: they have different keys, different copy, and
+ * different components (`PrimaryArchetypeCard` vs. `DnaProfileCards`).
+ */
+export type OverarchingArchetypeKey =
+  | "systemsBuilder"
+  | "visionaryOperator"
+  | "creativeStrategist"
+  | "growthArchitect"
+  | "executionSpecialist";
+
+export const OVERARCHING_ARCHETYPE_KEYS: readonly OverarchingArchetypeKey[] = [
+  "systemsBuilder",
+  "visionaryOperator",
+  "creativeStrategist",
+  "growthArchitect",
+  "executionSpecialist",
+];
+
+export const OVERARCHING_ARCHETYPE_ICONS: Record<OverarchingArchetypeKey, LucideIcon> = {
+  systemsBuilder: Network,
+  visionaryOperator: Compass,
+  creativeStrategist: Wand2,
+  growthArchitect: TrendingUp,
+  executionSpecialist: Target,
 };
 
 /**

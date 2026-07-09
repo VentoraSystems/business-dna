@@ -2,6 +2,7 @@ import { MatchingDimension } from "@/features/matching-engine/scoring/dimensions
 import type {
   DifficultyLevel,
   DnaArchetypeKey,
+  OverarchingArchetypeKey,
   RevenueSpeed,
   ScalabilityLevel,
   WorkStyleKey,
@@ -19,6 +20,8 @@ import { GROWTH_OPPORTUNITY_IDS, OPPORTUNITY_SAMPLE_IDS, STRENGTH_IDS } from "./
  */
 export interface MockDnaResults {
   primaryArchetype: DnaArchetypeKey;
+  /** The single overarching "Primary Archetype" label — see OverarchingArchetypeKey in ./config for why this is a separate taxonomy from `primaryArchetype` above. */
+  overarchingArchetype: OverarchingArchetypeKey;
   compatibilityScore: number;
   confidenceScore: number;
   dnaProfile: { key: DnaArchetypeKey; score: number }[];
@@ -31,6 +34,8 @@ export interface MockDnaResults {
     difficulty: DifficultyLevel;
     budgetMin: number;
     budgetMax: number;
+    monthlyRevenueMin: number;
+    monthlyRevenueMax: number;
     revenueSpeed: RevenueSpeed;
     scalability: ScalabilityLevel;
   }[];
@@ -38,6 +43,7 @@ export interface MockDnaResults {
 
 export const MOCK_DNA_RESULTS: MockDnaResults = {
   primaryArchetype: "visionary",
+  overarchingArchetype: "growthArchitect",
   compatibilityScore: 82,
   confidenceScore: 74,
   dnaProfile: [
@@ -68,6 +74,8 @@ export const MOCK_DNA_RESULTS: MockDnaResults = {
       difficulty: "medium",
       budgetMin: 5_000,
       budgetMax: 15_000,
+      monthlyRevenueMin: 2_000,
+      monthlyRevenueMax: 5_000,
       revenueSpeed: "fast",
       scalability: "high",
     },
@@ -77,6 +85,8 @@ export const MOCK_DNA_RESULTS: MockDnaResults = {
       difficulty: "low",
       budgetMin: 1_000,
       budgetMax: 5_000,
+      monthlyRevenueMin: 800,
+      monthlyRevenueMax: 2_500,
       revenueSpeed: "moderate",
       scalability: "medium",
     },
@@ -86,6 +96,8 @@ export const MOCK_DNA_RESULTS: MockDnaResults = {
       difficulty: "high",
       budgetMin: 20_000,
       budgetMax: 50_000,
+      monthlyRevenueMin: 4_000,
+      monthlyRevenueMax: 12_000,
       revenueSpeed: "slow",
       scalability: "high",
     },

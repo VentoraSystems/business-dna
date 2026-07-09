@@ -271,11 +271,45 @@
       "unanswered": "Not answered"
     },
     "results": {
+      "reveal": {
+        "title": "Your Entrepreneur DNA",
+        "subtitle": "We've analyzed thousands of data points from your answers."
+      },
       "hero": {
         "eyebrow": "Your Entrepreneur DNA",
         "matchLabel": "Compatibility",
         "confidenceValue": "{value}% confidence",
         "summary": "Based on your answers so far, you show strong alignment with {archetype} traits — comfort with ambiguity, a pull toward new ideas, and a bias for bold moves over safe ones."
+      },
+      "primaryArchetype": {
+        "eyebrow": "Your Primary Archetype",
+        "archetypes": {
+          "systemsBuilder": {
+            "title": "Systems Builder",
+            "description": "You turn ideas into processes that keep running without you in the room.",
+            "summary": "You think in workflows and checklists more than grand gestures — your edge comes from building things that hold up under repetition, not just from a single good idea."
+          },
+          "visionaryOperator": {
+            "title": "Visionary Operator",
+            "description": "You pair a long view of where things are headed with the discipline to actually run the day-to-day.",
+            "summary": "You're rare in combining big-picture thinking with operational follow-through — you can set the direction and still show up to execute it."
+          },
+          "creativeStrategist": {
+            "title": "Creative Strategist",
+            "description": "You lead with original ideas, then work backward into a plan that makes them real.",
+            "summary": "Your instinct is to imagine the unconventional option first, then apply structure — that ordering is what tends to set your work apart."
+          },
+          "growthArchitect": {
+            "title": "Growth Architect",
+            "description": "You're drawn to finding the mechanisms that make a business compound, not just start.",
+            "summary": "You naturally look past the launch toward what makes something scale — the channel, the loop, the second and third order effect."
+          },
+          "executionSpecialist": {
+            "title": "Execution Specialist",
+            "description": "You're most energized by shipping — turning a plan into something real, fast.",
+            "summary": "Where others deliberate, you tend to move — your strength is closing the gap between a decision and a finished result."
+          }
+        }
       },
       "dnaProfile": {
         "sectionTitle": "Your DNA Profile",
@@ -375,6 +409,7 @@
         "disclaimer": "Illustrative example — your real matches are calculated once your assessment is fully processed.",
         "compatibilityLabel": "Compatibility",
         "budgetLabel": "Budget",
+        "monthlyRevenueLabel": "Potential Monthly Revenue",
         "exploreButton": "Explore Business",
         "difficulty": {
           "low": "Low difficulty",
@@ -414,6 +449,17 @@
           "reason2": "Your work style shows solid risk tolerance, which opens the door to less conventional business models.",
           "reason3": "Your available time and business experience shape how ambitious a starting point makes sense."
         }
+      },
+      "certificate": {
+        "eyebrow": "BusinessDNA",
+        "title": "Certificate of Entrepreneurial DNA",
+        "nameLabel": "Prepared for",
+        "fallbackName": "Future Entrepreneur",
+        "archetypeLabel": "Primary Archetype",
+        "scoreLabel": "Overall DNA Score",
+        "dateLabel": "Analysis Date",
+        "downloadButton": "Download Certificate",
+        "downloadNotice": "Certificate download coming soon."
       },
       "cta": {
         "continueButton": "Continue to Mission Control"

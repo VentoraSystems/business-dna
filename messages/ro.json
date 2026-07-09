@@ -271,11 +271,45 @@
       "unanswered": "Fără răspuns"
     },
     "results": {
+      "reveal": {
+        "title": "ADN-ul tău antreprenorial",
+        "subtitle": "Am analizat mii de puncte de date din răspunsurile tale."
+      },
       "hero": {
         "eyebrow": "ADN-ul tău antreprenorial",
         "matchLabel": "Compatibilitate",
         "confidenceValue": "{value}% încredere",
         "summary": "Pe baza răspunsurilor tale de până acum, arăți o aliniere puternică cu trăsăturile de tip {archetype} — confort cu incertitudinea, atracție către idei noi și preferință pentru mișcări îndrăznețe în locul celor sigure."
+      },
+      "primaryArchetype": {
+        "eyebrow": "Arhetipul tău principal",
+        "archetypes": {
+          "systemsBuilder": {
+            "title": "Constructorul de sisteme",
+            "description": "Transformi ideile în procese care continuă să funcționeze fără să fii tu de față.",
+            "summary": "Gândești în fluxuri de lucru și liste de verificare mai degrabă decât în gesturi mărețe — avantajul tău vine din a construi lucruri care rezistă la repetiție, nu doar dintr-o singură idee bună."
+          },
+          "visionaryOperator": {
+            "title": "Operatorul vizionar",
+            "description": "Combini o viziune pe termen lung cu disciplina de a conduce efectiv activitatea zilnică.",
+            "summary": "Ești rar prin faptul că îmbini gândirea de ansamblu cu execuția operațională — poți stabili direcția și tot te implici să o pui în practică."
+          },
+          "creativeStrategist": {
+            "title": "Strategul creativ",
+            "description": "Pornești de la idei originale, apoi construiești înapoi un plan care le face reale.",
+            "summary": "Instinctul tău este să imaginezi mai întâi opțiunea neconvențională, apoi să aplici structură — această ordine este ceea ce tinde să îți diferențieze munca."
+          },
+          "growthArchitect": {
+            "title": "Arhitectul de creștere",
+            "description": "Ești atras de a găsi mecanismele care fac o afacere să se dezvolte exponențial, nu doar să pornească.",
+            "summary": "Privești în mod natural dincolo de lansare, spre ceea ce face ceva să scaleze — canalul, bucla, efectul de ordinul doi și trei."
+          },
+          "executionSpecialist": {
+            "title": "Specialistul în execuție",
+            "description": "Ești cel mai energizat de livrare — transformarea unui plan în ceva real, rapid.",
+            "summary": "Acolo unde alții deliberează, tu tinzi să acționezi — punctul tău forte este să reduci distanța dintre o decizie și un rezultat finalizat."
+          }
+        }
       },
       "dnaProfile": {
         "sectionTitle": "Profilul tău ADN",
@@ -375,6 +409,7 @@
         "disclaimer": "Exemplu ilustrativ — potrivirile tale reale sunt calculate după ce evaluarea ta este procesată complet.",
         "compatibilityLabel": "Compatibilitate",
         "budgetLabel": "Buget",
+        "monthlyRevenueLabel": "Venit lunar potențial",
         "exploreButton": "Explorează afacerea",
         "difficulty": {
           "low": "Dificultate scăzută",
@@ -414,6 +449,17 @@
           "reason2": "Stilul tău de lucru arată o toleranță solidă la risc, ceea ce deschide ușa unor modele de afaceri mai puțin convenționale.",
           "reason3": "Timpul disponibil și experiența ta în afaceri conturează cât de ambițios poate fi un punct de plecare."
         }
+      },
+      "certificate": {
+        "eyebrow": "BusinessDNA",
+        "title": "Certificat de ADN Antreprenorial",
+        "nameLabel": "Pregătit pentru",
+        "fallbackName": "Viitor Antreprenor",
+        "archetypeLabel": "Arhetip principal",
+        "scoreLabel": "Scor ADN general",
+        "dateLabel": "Data analizei",
+        "downloadButton": "Descarcă certificatul",
+        "downloadNotice": "Descărcarea certificatului va fi disponibilă în curând."
       },
       "cta": {
         "continueButton": "Continuă spre Panoul de Control"
