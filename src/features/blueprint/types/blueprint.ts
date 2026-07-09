@@ -1,48 +1,62 @@
 import type {
+  AiRecommendations,
+  Appendix,
+  AutomationOpportunities,
   BlueprintAiMetadata,
-  BlueprintFounderFit,
   BlueprintKpis,
-  BlueprintMarketing,
   BlueprintResources,
   BusinessOverview,
+  CompetitiveAdvantages,
+  CustomerIntelligence,
+  EntrepreneurFit,
   ExecutiveSummary,
+  ExitOpportunities,
   FinancialOverview,
-  GrowthRoadmap,
-  IdealCustomer,
-  LaunchChecklist,
-  Market,
-  Offer,
-  Operations,
-  Pricing,
-  Revenue,
-  Risks,
-  Sales,
-  SuccessFactors,
-  Team,
-  Technology,
+  LaunchStrategy,
+  MarketIntelligence,
+  MarketingSystem,
+  NinetyDayActionPlan,
+  OfferArchitecture,
+  OperationsSystem,
+  PricingStrategy,
+  RevenueArchitecture,
+  RiskAnalysis,
+  SalesSystem,
+  ScalingStrategy,
+  TeamStructure,
+  TechnologyStack,
 } from "./sections";
 
-/** The canonical Business Blueprint document shape — all 21 sections. See README.md's reuse table. */
+/**
+ * The canonical Business Blueprint document shape — v2, 25 sections
+ * plus the internal-only `aiMetadata` field. See README.md's
+ * "Specification History" and reuse table for the full v1→v2 mapping.
+ */
 export interface Blueprint {
   executiveSummary: ExecutiveSummary;
+  entrepreneurFit: EntrepreneurFit;
   businessOverview: BusinessOverview;
-  founderFit: BlueprintFounderFit;
-  market: Market;
-  idealCustomer: IdealCustomer;
-  offer: Offer;
-  pricing: Pricing;
-  revenue: Revenue;
-  marketing: BlueprintMarketing;
-  sales: Sales;
-  operations: Operations;
-  technology: Technology;
-  team: Team;
+  marketIntelligence: MarketIntelligence;
+  customerIntelligence: CustomerIntelligence;
+  offerArchitecture: OfferArchitecture;
+  revenueArchitecture: RevenueArchitecture;
+  pricingStrategy: PricingStrategy;
+  marketingSystem: MarketingSystem;
+  salesSystem: SalesSystem;
+  operationsSystem: OperationsSystem;
+  technologyStack: TechnologyStack;
+  automationOpportunities: AutomationOpportunities;
+  teamStructure: TeamStructure;
   financialOverview: FinancialOverview;
   kpis: BlueprintKpis;
-  launchChecklist: LaunchChecklist;
-  growthRoadmap: GrowthRoadmap;
-  risks: Risks;
-  successFactors: SuccessFactors;
+  riskAnalysis: RiskAnalysis;
+  competitiveAdvantages: CompetitiveAdvantages;
+  launchStrategy: LaunchStrategy;
+  ninetyDayActionPlan: NinetyDayActionPlan;
+  scalingStrategy: ScalingStrategy;
+  exitOpportunities: ExitOpportunities;
+  aiRecommendations: AiRecommendations;
   resources: BlueprintResources;
+  appendix: Appendix;
   aiMetadata: BlueprintAiMetadata;
 }

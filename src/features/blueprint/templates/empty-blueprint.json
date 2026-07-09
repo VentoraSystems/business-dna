@@ -4,27 +4,27 @@
     "whoThisIsForTranslationKey": "blueprint.executiveSummary.whoThisIsFor",
     "whoShouldAvoidItTranslationKey": "blueprint.executiveSummary.whoShouldAvoidIt"
   },
-  "businessOverview": {
-    "descriptionTranslationKey": "blueprint.businessOverview.description"
-  },
-  "founderFit": {
+  "entrepreneurFit": {
     "idealArchetypes": ["theBuilder"],
     "summary": { "en": "__PLACEHOLDER__", "ro": "__PLACEHOLDER__" }
   },
-  "market": {
+  "businessOverview": {
+    "descriptionTranslationKey": "blueprint.businessOverview.description"
+  },
+  "marketIntelligence": {
     "marketTrendsTranslationKeys": []
   },
-  "idealCustomer": {
+  "customerIntelligence": {
     "painPointsTranslationKeys": []
   },
-  "offer": {
+  "offerArchitecture": {
     "coreFeatureTranslationKeys": []
   },
-  "pricing": {},
-  "revenue": {
+  "revenueArchitecture": {
     "revenueStreamTranslationKeys": []
   },
-  "marketing": {
+  "pricingStrategy": {},
+  "marketingSystem": {
     "marketingStrategy": {
       "positioning": { "en": "__PLACEHOLDER__", "ro": "__PLACEHOLDER__" },
       "channels": [
@@ -37,18 +37,22 @@
     },
     "marketingComplexity": { "level": "low" }
   },
-  "sales": {
+  "salesSystem": {
     "salesMethods": []
   },
-  "operations": {
+  "operationsSystem": {
     "coreProcessTranslationKeys": []
   },
-  "technology": {
+  "technologyStack": {
     "techStackTranslationKeys": [],
     "toolKeys": [],
     "aiToolKeys": []
   },
-  "team": {
+  "automationOpportunities": {
+    "opportunityTranslationKeys": [],
+    "recommendedAiToolKeys": []
+  },
+  "teamStructure": {
     "roleTranslationKeys": []
   },
   "financialOverview": {
@@ -63,22 +67,36 @@
   "kpis": {
     "kpis": []
   },
-  "launchChecklist": {
-    "itemTranslationKeys": []
-  },
-  "growthRoadmap": {
-    "milestoneTranslationKeys": []
-  },
-  "risks": {
+  "riskAnalysis": {
     "difficulty": { "level": "low" },
     "aiResistance": { "level": "low" },
     "risks": []
   },
-  "successFactors": {
+  "competitiveAdvantages": {
     "advantages": []
+  },
+  "launchStrategy": {
+    "keyMilestoneTranslationKeys": []
+  },
+  "ninetyDayActionPlan": {
+    "weeks": [],
+    "checklistTranslationKeys": [],
+    "milestoneTranslationKeys": []
+  },
+  "scalingStrategy": {
+    "scalingLeverTranslationKeys": []
+  },
+  "exitOpportunities": {
+    "exitOptionTranslationKeys": []
+  },
+  "aiRecommendations": {
+    "recommendationTranslationKeys": []
   },
   "resources": {
     "resources": []
+  },
+  "appendix": {
+    "noteTranslationKeys": []
   },
   "aiMetadata": {}
 }

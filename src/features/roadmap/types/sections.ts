@@ -1,18 +1,23 @@
 import type { BusinessDnaKpiKey } from "./reused";
 
 /**
- * The Roadmap's own 9-stage model. GENUINELY NEW — and deliberately NOT
- * the same list as business-dna's 8-stage `BusinessLifecycleStage`
- * (idea/validation/mvp/firstClients/stableRevenue/scaling/expansion/exit).
- * See README.md's side-by-side comparison table for the full mapping and
- * the explicit "not merged" decision; `Exit` is optional here, matching
- * the epic's "Exit(optional)" note.
+ * The Roadmap's own v2 stage model — 10 stages, officially superseding
+ * v1's 9-stage list (see README.md's "Specification History" /
+ * "KNOWN CONFLICT" section). Changes from v1: "Launch" inserted between
+ * MVP and First Customer; "First Client" renamed to "First Customer";
+ * "Exit" is no longer documented as optional — it's a standard stage
+ * now, same as every other. Still deliberately NOT the same list as
+ * business-dna's 8-stage `BusinessLifecycleStage`
+ * (idea/validation/mvp/firstClients/stableRevenue/scaling/expansion/exit)
+ * — see README.md's three-way comparison table (v1 → v2 → business-dna)
+ * for the full mapping and the still-unresolved "not merged" decision.
  */
 export enum RoadmapStageKey {
   Preparation = "preparation",
   Validation = "validation",
   MVP = "mvp",
-  FirstClient = "firstClient",
+  Launch = "launch",
+  FirstCustomer = "firstCustomer",
   ProductMarketFit = "productMarketFit",
   Growth = "growth",
   Scaling = "scaling",
@@ -24,7 +29,8 @@ export const ROADMAP_STAGE_ORDER: readonly RoadmapStageKey[] = [
   RoadmapStageKey.Preparation,
   RoadmapStageKey.Validation,
   RoadmapStageKey.MVP,
-  RoadmapStageKey.FirstClient,
+  RoadmapStageKey.Launch,
+  RoadmapStageKey.FirstCustomer,
   RoadmapStageKey.ProductMarketFit,
   RoadmapStageKey.Growth,
   RoadmapStageKey.Scaling,
@@ -32,7 +38,7 @@ export const ROADMAP_STAGE_ORDER: readonly RoadmapStageKey[] = [
   RoadmapStageKey.Exit,
 ];
 
-/** Every stage in the 9-stage model carries this same shape. */
+/** Every stage in the 10-stage model carries this same shape — unchanged from v1: only the stage list itself changed, not the per-stage structure. */
 export interface RoadmapStage {
   stage: RoadmapStageKey;
   objectiveTranslationKeys: string[];

@@ -1,48 +1,59 @@
 # Business Blueprint
 
 _Skeleton — section headers only, no content. Each heading corresponds
-to one of the 21 sections in `types/blueprint.ts`; the structured data
-for most of them lives in `empty-blueprint.json`, not here — this
-Markdown file is the narrative-document view of the same 21 sections._
+to one of the 25 v2 sections in `types/blueprint.ts` (see README.md's
+"Specification History" for the v1→v2 change); the structured data for
+most of them lives in `empty-blueprint.json`, not here — this Markdown
+file is the narrative-document view of the same 25 sections._
 
 ## Executive Summary
 
+## Entrepreneur Fit
+
 ## Business Overview
 
-## Founder Fit
+## Market Intelligence
 
-## Market
+## Customer Intelligence
 
-## Ideal Customer
+## Offer Architecture
 
-## Offer
+## Revenue Architecture
 
-## Pricing
+## Pricing Strategy
 
-## Revenue
+## Marketing System
 
-## Marketing
+## Sales System
 
-## Sales
+## Operations System
 
-## Operations
+## Technology Stack
 
-## Technology
+## Automation Opportunities
 
-## Team
+## Team Structure
 
 ## Financial Overview
 
 ## KPIs
 
-## Launch Checklist
+## Risk Analysis
 
-## Growth Roadmap
+## Competitive Advantages
 
-## Risks
+## Launch Strategy
 
-## Success Factors
+## 90-Day Action Plan
+
+## Scaling Strategy
+
+## Exit Opportunities
+
+## AI Recommendations
 
 ## Resources
 
-<!-- AI Metadata is internal-only — deliberately not rendered as a heading here. -->
+## Appendix
+
+<!-- AI Metadata is internal-only — deliberately not rendered as a heading here, same as v1. -->

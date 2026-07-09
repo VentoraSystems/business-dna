@@ -31,7 +31,17 @@
       "aiRecommendationTranslationKeys": []
     },
     {
-      "stage": "firstClient",
+      "stage": "launch",
+      "objectiveTranslationKeys": [],
+      "deliverableTranslationKeys": [],
+      "checklistTranslationKeys": [],
+      "kpis": [],
+      "commonMistakeTranslationKeys": [],
+      "successCriteriaTranslationKeys": [],
+      "aiRecommendationTranslationKeys": []
+    },
+    {
+      "stage": "firstCustomer",
       "objectiveTranslationKeys": [],
       "deliverableTranslationKeys": [],
       "checklistTranslationKeys": [],

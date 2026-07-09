@@ -7,8 +7,15 @@ describe("roadmapSchema", () => {
     expect(roadmapSchema.safeParse(emptyTemplate).success).toBe(true);
   });
 
-  it("has exactly 9 stages in the empty template", () => {
-    expect(emptyTemplate.stages).toHaveLength(9);
+  it("has exactly 10 stages in the empty template (v2)", () => {
+    expect(emptyTemplate.stages).toHaveLength(10);
+  });
+
+  it("includes the new v2 'launch' stage and the renamed 'firstCustomer' stage", () => {
+    const stageKeys = emptyTemplate.stages.map((s) => s.stage);
+    expect(stageKeys).toContain("launch");
+    expect(stageKeys).toContain("firstCustomer");
+    expect(stageKeys).not.toContain("firstClient");
   });
 
   it("rejects a Roadmap missing the required top-level aiMetadata key", () => {
