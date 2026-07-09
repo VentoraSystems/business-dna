@@ -146,6 +146,11 @@ export async function completeAssessmentSession(sessionId: string) {
       data: { status: "completed", completedAt: new Date() },
     });
 
+    await tx.user.update({
+      where: { id: user.id },
+      data: { onboardingCompletedAt: new Date() },
+    });
+
     return tx.assessment.create({
       data: {
         userId: user.id,

@@ -160,6 +160,7 @@ model User {
   firstName      String?
   lastName       String?
   locale         Locale   @default(en)
+  onboardingCompletedAt DateTime?
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
 
