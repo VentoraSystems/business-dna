@@ -1,0 +1,148 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "licensingAndCertification",
+      "complianceSetup",
+      "planningSoftware",
+      "eoInsuranceFirstYear"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "complianceAndInsurance",
+      "planningSoftwareSubscriptions",
+      "crmSubscription"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "travelForClientMeetings",
+      "seminarHostingCosts"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "aumBasedFee",
+        "label": {
+          "en": "Assets-under-management (AUM) advisory fee",
+          "ro": "Comision de consultanță bazat pe activele administrate (AUM)"
+        }
+      },
+      {
+        "key": "flatPlanningFee",
+        "label": {
+          "en": "Flat one-time financial-plan fee",
+          "ro": "Taxă unică fixă pentru planul financiar"
+        }
+      },
+      {
+        "key": "hourlyConsulting",
+        "label": {
+          "en": "Hourly consulting for standalone questions",
+          "ro": "Consultanță tarifată pe oră pentru întrebări punctuale"
+        }
+      },
+      {
+        "key": "ongoingRetainer",
+        "label": {
+          "en": "Ongoing quarterly-review retainer",
+          "ro": "Abonament pentru revizuiri trimestriale continue"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "aumFeePercent": "percent",
+      "flatPlanningFee": "currency",
+      "assetsUnderManagement": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "aumGrowthRatePerYear": "percent",
+      "newClientsPerQuarter": "number"
+    },
+    "notesTranslationKey": "businessLibrary.financialConsultancy.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "quarterlyAumFeeCollection",
+      "annualPlanningFeeInflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 14,
+    "notesTranslationKey": "businessLibrary.financialConsultancy.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 70,
+    "notesTranslationKey": "businessLibrary.financialConsultancy.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 40,
+    "notesTranslationKey": "businessLibrary.financialConsultancy.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "juniorAdvisorFeeSplit",
+      "complianceOfficerContract"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "seminarHosting",
+      "referralNetworkDevelopment"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve",
+      "fiduciaryLiabilityClaimReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "arr",
+      "cac",
+      "ltv",
+      "customerRetention"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 5000,
+      "notesTranslationKey": "businessLibrary.financialConsultancy.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 13000,
+      "notesTranslationKey": "businessLibrary.financialConsultancy.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 25000,
+      "notesTranslationKey": "businessLibrary.financialConsultancy.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.financialConsultancy.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.financialConsultancy.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.financialConsultancy.financial.aiMetadata.generationHints"
+  }
+}

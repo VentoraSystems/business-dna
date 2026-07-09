@@ -3,8 +3,8 @@
   "schemaVersion": "1.0.0",
   "_schemaVersionSource": "src/features/business-dna/schemas/business-dna-profile.schema.ts → BUSINESS_DNA_PROFILE_SCHEMA_VERSION — keep this value in sync; validate-packages.ts checks it.",
   "lastUpdated": "2026-07-09",
-  "businessCount": 0,
-  "_businessCountNote": "Counts only packages with metadata.status === \"published\". The one package below (ai-automation-agency) is status \"template\" — a placeholder structure, not a registered business yet — so it correctly contributes 0.",
+  "businessCount": 4,
+  "_businessCountNote": "Counts only packages with metadata.status === \"published\". ai-automation-agency is status \"template\" — a placeholder structure, not a registered business — so it contributes 0. The 4 Professional Services packages below (accounting-firm, financial-consultancy, insurance-brokerage, tax-consultancy) are all status \"published\", contributing 4. See business-library/technology/PROFESSIONAL-SERVICES-INDUSTRY-REPORT.md for why only these 4 of the original 8 candidate businesses were authored.",
   "supportedLanguages": ["en", "ro"],
   "industries": "./taxonomy/industries.json",
   "categories": "./taxonomy/categories.json",
@@ -14,6 +14,30 @@
       "path": "./technology/ai-automation-agency",
       "status": "template",
       "canonical": true
+    },
+    {
+      "slug": "accounting-firm",
+      "path": "./technology/accounting-firm",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "financial-consultancy",
+      "path": "./technology/financial-consultancy",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "insurance-brokerage",
+      "path": "./technology/insurance-brokerage",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "tax-consultancy",
+      "path": "./technology/tax-consultancy",
+      "status": "published",
+      "canonical": false
     }
   ]
 }

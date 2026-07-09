@@ -1,0 +1,940 @@
+{
+  "identity": {
+    "id": "6f1a2b3c-0001-4a11-9e10-000000000001",
+    "slug": "accounting-firm",
+    "version": "1.0.0",
+    "name": {
+      "en": "Meridian Accounting Partners",
+      "ro": "Meridian Accounting Partners"
+    },
+    "tagline": {
+      "en": "Clean books, filed on time, every time.",
+      "ro": "Contabilitate curată, depusă la timp, de fiecare dată."
+    },
+    "createdAt": "2026-07-09T00:00:00.000Z",
+    "updatedAt": "2026-07-09T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theOperator",
+      "theSpecialist"
+    ],
+    "summary": {
+      "en": "Best suited to a detail-obsessed operator who enjoys process and closing the books on time more than pitching new clients.",
+      "ro": "Potrivită unui operator meticulos, care preferă procesele și închiderea la timp a lunii în locul prospectării agresive de clienți noi."
+    },
+    "minimumExperienceYears": 3
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 8000,
+      "maxInvestment": 22000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 1200,
+      "ongoingMonthlyCostMax": 3500,
+      "notes": {
+        "en": "Covers professional certification/licensing fees, accounting software subscriptions, professional indemnity insurance, and a part-time bookkeeper's salary in the first year.",
+        "ro": "Acoperă taxele de certificare/autorizare profesională, abonamentele software de contabilitate, asigurarea de răspundere profesională și salariul unui contabil part-time în primul an."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "professionalLicensing",
+          "label": {
+            "en": "Professional licensing & chartered body registration",
+            "ro": "Autorizare profesională și înregistrare la corpul profesional"
+          },
+          "typicalMin": 800,
+          "typicalMax": 2500
+        },
+        {
+          "key": "accountingSoftwareSetup",
+          "label": {
+            "en": "Accounting software setup (QuickBooks/Xero practice edition)",
+            "ro": "Configurare software de contabilitate (QuickBooks/Xero, ediție de practică)"
+          },
+          "typicalMin": 500,
+          "typicalMax": 1500
+        },
+        {
+          "key": "professionalIndemnityInsurance",
+          "label": {
+            "en": "Professional indemnity insurance (first year)",
+            "ro": "Asigurare de răspundere profesională (primul an)"
+          },
+          "typicalMin": 900,
+          "typicalMax": 2200
+        },
+        {
+          "key": "officeSetup",
+          "label": {
+            "en": "Small office or coworking setup",
+            "ro": "Amenajare birou mic sau spațiu coworking"
+          },
+          "typicalMin": 1000,
+          "typicalMax": 4000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "softwareSubscriptions",
+          "label": {
+            "en": "Practice software subscriptions (bookkeeping, payroll, e-filing)",
+            "ro": "Abonamente software de practică (contabilitate, salarizare, depunere electronică)"
+          },
+          "typicalMonthlyMin": 250,
+          "typicalMonthlyMax": 700
+        },
+        {
+          "key": "continuingEducation",
+          "label": {
+            "en": "Continuing professional education (CPE) credits",
+            "ro": "Credite de educație profesională continuă"
+          },
+          "typicalMonthlyMin": 80,
+          "typicalMonthlyMax": 200
+        },
+        {
+          "key": "staffWages",
+          "label": {
+            "en": "Part-time bookkeeper wages",
+            "ro": "Salariu contabil part-time"
+          },
+          "typicalMonthlyMin": 900,
+          "typicalMonthlyMax": 2200
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "monthlyBookkeepingRetainer",
+          "label": {
+            "en": "Monthly bookkeeping retainer",
+            "ro": "Abonament lunar de contabilitate"
+          }
+        },
+        {
+          "key": "annualTaxFilingFee",
+          "label": {
+            "en": "Annual tax filing fee",
+            "ro": "Taxă anuală pentru declarația fiscală"
+          }
+        },
+        {
+          "key": "payrollProcessingFee",
+          "label": {
+            "en": "Payroll processing fee",
+            "ro": "Taxă de procesare a salarizării"
+          }
+        },
+        {
+          "key": "advisoryHours",
+          "label": {
+            "en": "Ad-hoc financial advisory hours",
+            "ro": "Ore de consultanță financiară ad-hoc"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 6000,
+      "targetMonthlyIncomeMax": 18000,
+      "breakEvenTimelineMonths": 8,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Retainer clients ramp up steadily month over month rather than arriving in one large burst.",
+        "ro": "Clienții cu abonament cresc constant de la o lună la alta, nu apar dintr-o singură dată, în volum mare."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "none",
+    "onlineOffline": "hybrid",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 30,
+    "maxWeeklyHours": 50,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 5
+      },
+      {
+        "key": "marketing",
+        "rating": 4
+      },
+      {
+        "key": "leadership",
+        "rating": 6
+      },
+      {
+        "key": "communication",
+        "rating": 7
+      },
+      {
+        "key": "negotiation",
+        "rating": 5
+      },
+      {
+        "key": "finance",
+        "rating": 10
+      },
+      {
+        "key": "operations",
+        "rating": 9
+      },
+      {
+        "key": "technology",
+        "rating": 6
+      },
+      {
+        "key": "automation",
+        "rating": 6
+      },
+      {
+        "key": "ai",
+        "rating": 5
+      },
+      {
+        "key": "programming",
+        "rating": 3
+      },
+      {
+        "key": "management",
+        "rating": 7
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 55
+      },
+      {
+        "key": "visionary",
+        "score": 40
+      },
+      {
+        "key": "operator",
+        "score": 88
+      },
+      {
+        "key": "creator",
+        "score": 30
+      },
+      {
+        "key": "seller",
+        "score": 45
+      },
+      {
+        "key": "leader",
+        "score": 60
+      },
+      {
+        "key": "analyst",
+        "score": 92
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": false,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": true,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": true,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": true,
+    "isFranchisable": true,
+    "isRecessionResistant": true
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate"
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate"
+    },
+    "aiResistance": {
+      "level": "moderate"
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Regulatory or tax-code changes require constant retraining and process updates.",
+          "ro": "Modificările legislative sau fiscale impun reinstruire constantă și actualizarea proceselor."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Budget for continuing education and subscribe to professional-body regulatory alerts.",
+          "ro": "Alocă buget pentru educație continuă și abonează-te la alertele de reglementare ale corpului profesional."
+        }
+      },
+      {
+        "description": {
+          "en": "Client concentration — losing one or two large retainer clients materially dents monthly revenue.",
+          "ro": "Concentrarea clienților — pierderea a unul-doi clienți mari cu abonament afectează semnificativ venitul lunar."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Cap any single client at under 20% of monthly recurring revenue.",
+          "ro": "Limitează orice client unic la sub 20% din venitul lunar recurent."
+        }
+      },
+      {
+        "description": {
+          "en": "Bookkeeping automation software could commoditize the lowest-value transactional work.",
+          "ro": "Automatizarea software a contabilității poate transforma în marfă munca tranzacțională cu cea mai mică valoare."
+        },
+        "severity": "low",
+        "mitigation": {
+          "en": "Shift the service mix toward advisory and fractional CFO work over time.",
+          "ro": "Deplasează treptat mixul de servicii către consultanță și rol de CFO fracționat."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "The outsourced finance department for founders who'd rather build their business than reconcile their books.",
+        "ro": "Departamentul financiar externalizat pentru fondatorii care preferă să-și construiască afacerea în loc să-și reconcilieze conturile."
+      },
+      "channels": [
+        {
+          "channelType": "referralProgram",
+          "description": {
+            "en": "Referrals from lawyers, business consultants, and existing clients.",
+            "ro": "Recomandări de la avocați, consultanți de afaceri și clienți existenți."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "contentMarketing",
+          "description": {
+            "en": "Practical local-SEO blog posts on small-business tax deadlines and bookkeeping hygiene.",
+            "ro": "Articole practice de blog, optimizate SEO local, despre termene fiscale și igienă contabilă pentru firme mici."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "eventsAndSponsorship",
+          "description": {
+            "en": "Sponsoring local small-business meetups and chamber-of-commerce events.",
+            "ro": "Sponsorizarea întâlnirilor locale pentru afaceri mici și a evenimentelor camerei de comerț."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "low"
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "Consultative, referral-driven sales — a free books-health assessment is the typical first conversation.",
+        "ro": "Vânzare consultativă, bazată pe recomandări — o evaluare gratuită a stării contabilității este de obicei prima discuție."
+      },
+      "salesCycleLengthDays": 30,
+      "pricingModel": {
+        "en": "Tiered monthly retainer based on transaction volume and services included.",
+        "ro": "Abonament lunar pe niveluri, în funcție de volumul de tranzacții și serviciile incluse."
+      }
+    },
+    "salesComplexity": {
+      "level": "low"
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Monthly close and bank/credit-card reconciliation.",
+          "ro": "Închiderea lunară și reconcilierea conturilor bancare/cardurilor."
+        },
+        {
+          "en": "Quarterly estimated tax calculations.",
+          "ro": "Calculul trimestrial al impozitelor estimate."
+        },
+        {
+          "en": "Annual tax return preparation and filing.",
+          "ro": "Pregătirea și depunerea declarației fiscale anuale."
+        },
+        {
+          "en": "Bi-weekly or monthly payroll runs.",
+          "ro": "Procesarea salarizării bi-lunar sau lunar."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Categorize bank feed transactions, respond to client document requests, and flag any anomalies for review.",
+        "ro": "Categorizarea tranzacțiilor din fluxul bancar, răspuns la cererile de documente ale clienților și semnalarea anomaliilor pentru verificare."
+      },
+      "fulfillmentModel": {
+        "en": "Cloud-based practice management — clients upload documents to a shared portal; work is done remotely by staff.",
+        "ro": "Management de practică bazat pe cloud — clienții încarcă documente într-un portal partajat; munca este realizată la distanță de echipă."
+      }
+    },
+    "automation": {
+      "level": "moderate"
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "receiptCategorization",
+          "description": {
+            "en": "OCR and AI-assisted categorization of scanned receipts and invoices.",
+            "ro": "OCR și categorizare asistată de AI a chitanțelor și facturilor scanate."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "bankFeedMatching",
+          "description": {
+            "en": "Automated bank-feed transaction matching and rule-based categorization.",
+            "ro": "Potrivire automată a tranzacțiilor din fluxul bancar și categorizare bazată pe reguli."
+          },
+          "maturity": "coreToModel"
+        }
+      ],
+      "aiDependencyLevel": "moderate"
+    },
+    "recommendedTools": [
+      {
+        "name": "QuickBooks Online Accountant",
+        "category": "accountingSoftware",
+        "isRequired": true,
+        "websiteUrl": "https://quickbooks.intuit.com/accountants/"
+      },
+      {
+        "name": "Xero",
+        "category": "accountingSoftware",
+        "isRequired": false,
+        "websiteUrl": "https://www.xero.com/"
+      },
+      {
+        "name": "Dext",
+        "category": "receiptCapture",
+        "isRequired": true,
+        "websiteUrl": "https://dext.com/"
+      },
+      {
+        "name": "Gusto",
+        "category": "payroll",
+        "isRequired": false,
+        "websiteUrl": "https://gusto.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 36
+    },
+    "scaling": {
+      "path": {
+        "en": "Add senior bookkeepers to free the founder for advisory work, then introduce a fractional-CFO service tier for growth-stage clients.",
+        "ro": "Angajează contabili seniori pentru a elibera timpul fondatorului pentru consultanță, apoi introdu un nivel de serviciu de CFO fracționat pentru clienții în creștere."
+      },
+      "bottlenecks": [
+        {
+          "en": "Hiring bookkeepers who meet the firm's quality bar.",
+          "ro": "Angajarea unor contabili care ating standardul de calitate al firmei."
+        },
+        {
+          "en": "Tax-season capacity constraints.",
+          "ro": "Constrângeri de capacitate în sezonul fiscal."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 6,
+          "description": {
+            "en": "10 active monthly retainer clients.",
+            "ro": "10 clienți activi cu abonament lunar."
+          }
+        },
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "First fractional-CFO engagement signed.",
+            "ro": "Primul contract de CFO fracționat semnat."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Certified QuickBooks and Xero ProAdvisor status builds instant credibility with prospects.",
+          "ro": "Statutul de ProAdvisor certificat QuickBooks și Xero construiește credibilitate instantă în fața potențialilor clienți."
+        }
+      },
+      {
+        "description": {
+          "en": "5-business-day month-end close, faster than most local competitors.",
+          "ro": "Închidere de lună în 5 zile lucrătoare, mai rapidă decât majoritatea competitorilor locali."
+        }
+      },
+      {
+        "description": {
+          "en": "Transparent, flat-tiered pricing removes the biggest objection in accounting sales conversations.",
+          "ro": "Prețuri transparente, pe niveluri fixe, elimină cea mai mare obiecție din discuțiile de vânzare în contabilitate."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A small-business accounting and bookkeeping practice built around monthly retainers, seasonal tax filing, and a path to fractional-CFO advisory work.",
+        "ro": "O practică de contabilitate pentru firme mici, construită în jurul abonamentelor lunare, depunerilor fiscale sezoniere și unui traseu către consultanță de CFO fracționat."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.accountingFirm.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.accountingFirm.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.accountingFirm.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.accountingFirm.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "mrr",
+        "targetDescription": {
+          "en": "Grow monthly recurring retainer revenue steadily quarter over quarter.",
+          "ro": "Crește constant venitul lunar recurent din abonamente, trimestru după trimestru."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep annual retainer-client retention above 90%.",
+          "ro": "Menține retenția anuală a clienților cu abonament peste 90%."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Maintain gross margin above 55% once staff are hired.",
+          "ro": "Menține marja brută peste 55% după angajarea personalului."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert at least 1 in 3 referral consultations into a signed retainer.",
+          "ro": "Transformă cel puțin 1 din 3 consultații provenite din recomandări într-un abonament semnat."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "finance",
+          "importance": 5
+        },
+        {
+          "key": "management",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "sales",
+          "importance": 3
+        },
+        {
+          "key": "communication",
+          "importance": 4
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "detailOriented",
+          "importance": 5
+        },
+        {
+          "trait": "systemOriented",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "patient",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 8000,
+        "max": 22000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 10000,
+        "max": 18000,
+        "currency": "EUR"
+      },
+      "riskProfile": "low",
+      "timeAvailability": {
+        "minWeeklyHours": 30,
+        "maxWeeklyHours": 50
+      },
+      "communicationStyle": [
+        "consultative",
+        "precise"
+      ],
+      "technicalLevel": 3,
+      "leadershipLevel": 3,
+      "creativityLevel": 2,
+      "salesAffinity": 2,
+      "automationAffinity": 3,
+      "remotePreference": "hybrid",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theOperator",
+        "theSpecialist"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize month-end close speed and certification credibility in the Executive Summary.",
+      "ro": "Evidențiază viteza închiderii lunare și credibilitatea certificărilor în Rezumatul executiv."
+    },
+    "marketingHints": {
+      "en": "Lead with referral trust signals, not paid acquisition.",
+      "ro": "Pornește de la semnalele de încredere din recomandări, nu de la achiziția plătită."
+    },
+    "financialHints": {
+      "en": "Model revenue as a slow, steady retainer ramp, not a viral spike.",
+      "ro": "Modelează venitul ca o creștere lentă și constantă a abonamentelor, nu ca un vârf viral."
+    },
+    "generationHints": {
+      "en": "Keep tone precise and reassuring — this audience values accuracy over charisma.",
+      "ro": "Păstrează un ton precis și liniștitor — acest public prețuiește acuratețea mai mult decât carisma."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Obtain professional licensing and select core practice software.",
+            "ro": "Obține autorizarea profesională și alege software-ul principal de practică."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Under-budgeting for professional indemnity insurance.",
+            "ro": "Subestimarea bugetului pentru asigurarea de răspundere profesională."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Get QuickBooks or Xero ProAdvisor certified before taking on clients.",
+            "ro": "Obține certificarea ProAdvisor QuickBooks sau Xero înainte de a prelua clienți."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.accountingFirm.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Sign the first 2-3 retainer clients, even at a discount, to prove the workflow.",
+            "ro": "Semnează primii 2-3 clienți cu abonament, chiar și cu discount, pentru a valida fluxul de lucru."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Undercharging so much that the retainer isn't sustainable.",
+            "ro": "Subevaluarea prețului până la punctul în care abonamentul nu mai este sustenabil."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Time the first month-end close to validate the 5-day promise.",
+            "ro": "Cronometrează prima închidere de lună pentru a valida promisiunea de 5 zile."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Standardize the month-end close checklist across all clients.",
+            "ro": "Standardizează lista de verificare pentru închiderea lunară la toți clienții."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Customizing workflows per client instead of standardizing.",
+            "ro": "Personalizarea fluxurilor de lucru per client în loc de standardizare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document the checklist in the practice-management tool.",
+            "ro": "Documentează lista de verificare în instrumentul de management al practicii."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.accountingFirm.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publicly announce the practice and activate the referral network.",
+            "ro": "Anunță public practica și activează rețeaua de recomandări."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching before the client portal and onboarding flow are tested.",
+            "ro": "Lansarea înainte ca portalul clienților și fluxul de onboarding să fie testate."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Ask each early client for one warm referral.",
+            "ro": "Cere fiecărui client din faza incipientă o recomandare caldă."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Deliver a flawless first month-end close for a paying client.",
+            "ro": "Livrează o închidere de lună impecabilă pentru primul client plătitor."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Overpromising turnaround time under pressure to win the client.",
+            "ro": "Promisiuni exagerate de timp de livrare sub presiunea de a câștiga clientul."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Set clear document-submission deadlines with the client up front.",
+            "ro": "Stabilește de la început termene clare de transmitere a documentelor cu clientul."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach 10 retainer clients with under 10% monthly churn.",
+            "ro": "Atinge 10 clienți cu abonament, cu o rată de abandon lunară sub 10%."
+          }
+        ],
+        "kpis": [
+          "mrr",
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Taking every prospect instead of qualifying for fit.",
+            "ro": "Acceptarea oricărui prospect în loc de calificarea potrivirii."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Introduce a minimum-transaction-volume qualification for new clients.",
+            "ro": "Introdu un criteriu minim de volum de tranzacții pentru clienții noi."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Hire the first part-time bookkeeper to increase capacity.",
+            "ro": "Angajează primul contabil part-time pentru a crește capacitatea."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring reactively during tax-season crunch instead of ahead of it.",
+            "ro": "Angajare reactivă în perioada aglomerată fiscală, în loc de anticipat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Cross-train the new hire on both bookkeeping and payroll.",
+            "ro": "Instruiește noul angajat atât în contabilitate, cât și în salarizare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Introduce the fractional-CFO service tier for growth-stage clients.",
+            "ro": "Introdu nivelul de serviciu de CFO fracționat pentru clienții în creștere."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Pricing the CFO tier the same as basic bookkeeping.",
+            "ro": "Stabilirea prețului nivelului CFO la fel ca pentru contabilitatea de bază."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Package the CFO tier as a distinct, higher-priced offer.",
+            "ro": "Ambalează nivelul CFO ca ofertă distinctă, cu preț mai ridicat."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into an adjacent vertical, such as e-commerce seller bookkeeping.",
+            "ro": "Extinde-te într-un domeniu adiacent, precum contabilitatea pentru vânzători e-commerce."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding into a new vertical without adapting the onboarding process.",
+            "ro": "Extinderea într-un domeniu nou fără adaptarea procesului de onboarding."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a vertical-specific onboarding checklist before marketing to it.",
+            "ro": "Construiește o listă de verificare de onboarding specifică domeniului înainte de a face marketing pentru el."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Package the client book and standard operating procedures for a clean acquisition by a larger firm.",
+            "ro": "Pregătește portofoliul de clienți și procedurile standard de operare pentru o achiziție curată de către o firmă mai mare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping undocumented, founder-only client relationships that don't transfer.",
+            "ro": "Menținerea unor relații cu clienții nedocumentate, dependente exclusiv de fondator, care nu se pot transfera."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document every client's workflow so the book of business is transferable.",
+            "ro": "Documentează fluxul de lucru al fiecărui client astfel încât portofoliul să fie transferabil."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

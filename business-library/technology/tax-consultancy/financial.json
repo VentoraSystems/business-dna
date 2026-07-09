@@ -1,0 +1,147 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "eaCredentialingExam",
+      "professionalTaxSoftware",
+      "eFilingSystemSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "taxSoftwareSubscription",
+      "eFilingSystemFees"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "seasonalContractStaff",
+      "peakSeasonOvertimeCosts"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "individualTaxPrepFee",
+        "label": {
+          "en": "Individual tax return preparation fee",
+          "ro": "Taxă pentru întocmirea declarației fiscale individuale"
+        }
+      },
+      {
+        "key": "businessTaxFilingRetainer",
+        "label": {
+          "en": "Business tax filing retainer",
+          "ro": "Abonament pentru depunerea declarației fiscale a firmei"
+        }
+      },
+      {
+        "key": "taxPlanningEngagement",
+        "label": {
+          "en": "Year-round tax planning and strategy engagement",
+          "ro": "Angajament de planificare și strategie fiscală pe tot parcursul anului"
+        }
+      },
+      {
+        "key": "representationFee",
+        "label": {
+          "en": "Tax-authority audit representation fee",
+          "ro": "Taxă de reprezentare în fața autorității fiscale"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "flatFeePerComplexityTier": "currency",
+      "returnsFiledPerSeason": "number",
+      "businessRetainerFee": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "seasonalReturnGrowthRate": "percent",
+      "retainerClientCount": "number"
+    },
+    "notesTranslationKey": "businessLibrary.taxConsultancy.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "peakSeasonRevenueSurge",
+      "offSeasonRetainerIncome"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 6,
+    "notesTranslationKey": "businessLibrary.taxConsultancy.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 55,
+    "notesTranslationKey": "businessLibrary.taxConsultancy.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 28,
+    "notesTranslationKey": "businessLibrary.taxConsultancy.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "seasonalPreparerWages",
+      "seasonalPreparerTraining"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "localSeoContent",
+      "referralProgramIncentives",
+      "offSeasonEmailNewsletter"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthOffSeasonReserve",
+      "professionalLiabilityClaimReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "arr",
+      "grossMargin",
+      "leadConversion",
+      "customerRetention"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 4000,
+      "notesTranslationKey": "businessLibrary.taxConsultancy.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 9500,
+      "notesTranslationKey": "businessLibrary.taxConsultancy.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 16000,
+      "notesTranslationKey": "businessLibrary.taxConsultancy.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.taxConsultancy.financial.risks.risk1",
+        "severity": "moderate"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.taxConsultancy.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.taxConsultancy.financial.aiMetadata.generationHints"
+  }
+}

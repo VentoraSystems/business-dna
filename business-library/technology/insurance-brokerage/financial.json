@@ -1,0 +1,147 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "licensingAndAppointments",
+      "agencyManagementSystem",
+      "eoInsurance"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "amsAndRaterSubscriptions",
+      "eoInsurancePremium",
+      "officeOrCoworkingRent"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "travelForCommercialSiteVisits",
+      "carrierAppointmentRenewalFees"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "newBusinessCommission",
+        "label": {
+          "en": "New-business commission",
+          "ro": "Comision pentru afaceri noi"
+        }
+      },
+      {
+        "key": "renewalCommission",
+        "label": {
+          "en": "Policy renewal commission",
+          "ro": "Comision de reînnoire a poliței"
+        }
+      },
+      {
+        "key": "commercialConsultingFee",
+        "label": {
+          "en": "Fee-based commercial risk consulting",
+          "ro": "Taxă pentru consultanță de risc comercial"
+        }
+      },
+      {
+        "key": "contingencyBonus",
+        "label": {
+          "en": "Carrier contingency/volume bonus",
+          "ro": "Bonus de contingență/volum de la asigurător"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageCommissionRate": "percent",
+      "averagePremiumPerPolicy": "currency",
+      "activePolicyCount": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "renewalRetentionRate": "percent",
+      "newPoliciesPerMonth": "number"
+    },
+    "notesTranslationKey": "businessLibrary.insuranceBrokerage.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "monthlyCommissionPayouts",
+      "annualContingencyBonusInflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 10,
+    "notesTranslationKey": "businessLibrary.insuranceBrokerage.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 60,
+    "notesTranslationKey": "businessLibrary.insuranceBrokerage.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 30,
+    "notesTranslationKey": "businessLibrary.insuranceBrokerage.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "producerCommissionSplit",
+      "csrSalary"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "realEstateAndLenderReferralOutreach",
+      "localEventSponsorship"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "fourMonthOperatingReserve",
+      "eoClaimReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "arr",
+      "customerRetention",
+      "closeRate",
+      "leadConversion"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 4500,
+      "notesTranslationKey": "businessLibrary.insuranceBrokerage.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 10500,
+      "notesTranslationKey": "businessLibrary.insuranceBrokerage.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 20000,
+      "notesTranslationKey": "businessLibrary.insuranceBrokerage.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.insuranceBrokerage.financial.risks.risk1",
+        "severity": "moderate"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.insuranceBrokerage.financial.risks.risk2",
+        "severity": "low"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.insuranceBrokerage.financial.aiMetadata.generationHints"
+  }
+}

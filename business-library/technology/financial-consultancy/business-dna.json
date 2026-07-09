@@ -1,0 +1,904 @@
+{
+  "identity": {
+    "id": "6f1a2b3c-0002-4a11-9e10-000000000002",
+    "slug": "financial-consultancy",
+    "version": "1.0.0",
+    "name": {
+      "en": "Beacon Wealth Advisory",
+      "ro": "Beacon Wealth Advisory"
+    },
+    "tagline": {
+      "en": "Financial plans built for decades, not quarters.",
+      "ro": "Planuri financiare construite pentru decenii, nu pentru trimestre."
+    },
+    "createdAt": "2026-07-09T00:00:00.000Z",
+    "updatedAt": "2026-07-09T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theConnector",
+      "theSpecialist"
+    ],
+    "summary": {
+      "en": "Best suited to a trust-building connector who is patient enough for a long sales cycle and rigorous enough to earn a fiduciary certification.",
+      "ro": "Potrivită unui conector orientat spre construirea încrederii, suficient de răbdător pentru un ciclu lung de vânzare și suficient de riguros pentru a obține o certificare fiduciară."
+    },
+    "minimumExperienceYears": 5
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 15000,
+      "maxInvestment": 50000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 2500,
+      "ongoingMonthlyCostMax": 6000,
+      "notes": {
+        "en": "Covers CFP certification/licensing, compliance and E&O insurance, financial-planning software, and a CRM built for long client relationships.",
+        "ro": "Acoperă certificarea/autorizarea CFP, asigurarea de conformitate și E&O, software-ul de planificare financiară și un CRM construit pentru relații de lungă durată cu clienții."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "licensingAndCertification",
+          "label": {
+            "en": "CFP certification and regulatory licensing",
+            "ro": "Certificare CFP și autorizare de reglementare"
+          },
+          "typicalMin": 3000,
+          "typicalMax": 8000
+        },
+        {
+          "key": "complianceSetup",
+          "label": {
+            "en": "Compliance program and E&O insurance setup",
+            "ro": "Configurarea programului de conformitate și a asigurării E&O"
+          },
+          "typicalMin": 2500,
+          "typicalMax": 7000
+        },
+        {
+          "key": "planningSoftware",
+          "label": {
+            "en": "Financial-planning software licenses (first year)",
+            "ro": "Licențe software de planificare financiară (primul an)"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "complianceAndInsurance",
+          "label": {
+            "en": "Ongoing compliance and E&O insurance premiums",
+            "ro": "Prime continue de conformitate și asigurare E&O"
+          },
+          "typicalMonthlyMin": 600,
+          "typicalMonthlyMax": 1500
+        },
+        {
+          "key": "planningSoftwareSubscriptions",
+          "label": {
+            "en": "Financial-planning and CRM software subscriptions",
+            "ro": "Abonamente software de planificare financiară și CRM"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 900
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "aumBasedFee",
+          "label": {
+            "en": "Assets-under-management (AUM) advisory fee",
+            "ro": "Comision de consultanță bazat pe activele administrate (AUM)"
+          }
+        },
+        {
+          "key": "flatPlanningFee",
+          "label": {
+            "en": "Flat one-time financial-plan fee",
+            "ro": "Taxă unică fixă pentru planul financiar"
+          }
+        },
+        {
+          "key": "hourlyConsulting",
+          "label": {
+            "en": "Hourly consulting for standalone questions",
+            "ro": "Consultanță tarifată pe oră pentru întrebări punctuale"
+          }
+        },
+        {
+          "key": "ongoingRetainer",
+          "label": {
+            "en": "Ongoing quarterly-review retainer",
+            "ro": "Abonament pentru revizuiri trimestriale continue"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 5000,
+      "targetMonthlyIncomeMax": 25000,
+      "breakEvenTimelineMonths": 14,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "slow",
+      "notes": {
+        "en": "Trust-based sales cycles mean revenue builds slowly at first, then compounds as AUM grows.",
+        "ro": "Ciclurile de vânzare bazate pe încredere înseamnă că venitul crește lent la început, apoi se acumulează pe măsură ce AUM crește."
+      }
+    },
+    "profitMargin": {
+      "level": "high"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "occasional",
+    "onlineOffline": "hybrid",
+    "salesChannel": "both",
+    "minWeeklyHours": 35,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 8
+      },
+      {
+        "key": "marketing",
+        "rating": 6
+      },
+      {
+        "key": "leadership",
+        "rating": 8
+      },
+      {
+        "key": "communication",
+        "rating": 9
+      },
+      {
+        "key": "negotiation",
+        "rating": 7
+      },
+      {
+        "key": "finance",
+        "rating": 10
+      },
+      {
+        "key": "operations",
+        "rating": 6
+      },
+      {
+        "key": "technology",
+        "rating": 5
+      },
+      {
+        "key": "automation",
+        "rating": 4
+      },
+      {
+        "key": "ai",
+        "rating": 4
+      },
+      {
+        "key": "programming",
+        "rating": 2
+      },
+      {
+        "key": "management",
+        "rating": 7
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 45
+      },
+      {
+        "key": "visionary",
+        "score": 55
+      },
+      {
+        "key": "operator",
+        "score": 50
+      },
+      {
+        "key": "creator",
+        "score": 25
+      },
+      {
+        "key": "seller",
+        "score": 85
+      },
+      {
+        "key": "leader",
+        "score": 80
+      },
+      {
+        "key": "analyst",
+        "score": 75
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": false,
+    "requiresTravel": true,
+    "isOnlineBusiness": false,
+    "isB2B": true,
+    "isB2C": true,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": true,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "high",
+      "notes": {
+        "en": "AUM-based fees scale with portfolio value and referrals, without proportional new client-acquisition effort.",
+        "ro": "Comisioanele bazate pe AUM cresc odată cu valoarea portofoliului și recomandările, fără un efort proporțional de achiziție de clienți noi."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high"
+    },
+    "aiResistance": {
+      "level": "high"
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Regulatory licensing requirements are strict and vary by jurisdiction.",
+          "ro": "Cerințele de autorizare de reglementare sunt stricte și variază în funcție de jurisdicție."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Work with a compliance consultant during setup and renew licensing on schedule.",
+          "ro": "Colaborează cu un consultant de conformitate la înființare și reînnoiește autorizarea la timp."
+        }
+      },
+      {
+        "description": {
+          "en": "Market downturns reduce AUM and, with it, advisory fee revenue.",
+          "ro": "Recesiunile de piață reduc AUM și, odată cu acesta, veniturile din comisioane de consultanță."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Diversify revenue with flat planning fees that don't depend on AUM.",
+          "ro": "Diversifică veniturile cu taxe fixe de planificare care nu depind de AUM."
+        }
+      },
+      {
+        "description": {
+          "en": "Fiduciary liability exposure if advice is later disputed by a client.",
+          "ro": "Expunere la răspundere fiduciară dacă un client contestă ulterior sfaturile primite."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Maintain thorough documentation of every recommendation and its rationale.",
+          "ro": "Menține o documentație riguroasă a fiecărei recomandări și a motivației acesteia."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Financial plans built for decades, not quarters — fee-only, fiduciary advice with no commission conflicts.",
+        "ro": "Planuri financiare construite pentru decenii, nu pentru trimestre — consultanță fiduciară, doar pe bază de onorariu, fără conflicte de comision."
+      },
+      "channels": [
+        {
+          "channelType": "referralProgram",
+          "description": {
+            "en": "Referrals from accountants, estate attorneys, and existing clients.",
+            "ro": "Recomandări de la contabili, avocați de succesiuni și clienți existenți."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "eventsAndSponsorship",
+          "description": {
+            "en": "Small educational seminars on retirement and estate planning.",
+            "ro": "Seminarii educaționale mici despre planificarea pensiei și a succesiunii."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "contentMarketing",
+          "description": {
+            "en": "Long-form articles on financial-planning fundamentals.",
+            "ro": "Articole ample despre elementele fundamentale ale planificării financiare."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate"
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "Long, trust-building relationship sales — a complimentary discovery meeting is the standard first step.",
+        "ro": "Vânzare relațională, bazată pe construirea încrederii în timp — o întâlnire de descoperire gratuită este pasul standard inițial."
+      },
+      "salesCycleLengthDays": 90,
+      "pricingModel": {
+        "en": "AUM-based advisory fee or a flat one-time financial-plan fee.",
+        "ro": "Comision de consultanță bazat pe AUM sau o taxă unică fixă pentru planul financiar."
+      }
+    },
+    "salesComplexity": {
+      "level": "high"
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Initial discovery meeting and goals assessment.",
+          "ro": "Întâlnirea inițială de descoperire și evaluarea obiectivelor."
+        },
+        {
+          "en": "Financial plan drafting and presentation.",
+          "ro": "Redactarea și prezentarea planului financiar."
+        },
+        {
+          "en": "Quarterly portfolio review meetings.",
+          "ro": "Întâlniri trimestriale de revizuire a portofoliului."
+        },
+        {
+          "en": "Annual comprehensive plan refresh.",
+          "ro": "Reactualizarea anuală completă a planului."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Client meetings, portfolio monitoring, and plan updates in response to life or market changes.",
+        "ro": "Întâlniri cu clienții, monitorizarea portofoliului și actualizări ale planului ca răspuns la schimbări de viață sau de piață."
+      }
+    },
+    "automation": {
+      "level": "low"
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "portfolioRiskAnalysis",
+          "description": {
+            "en": "AI-assisted risk-tolerance and portfolio-scenario analysis.",
+            "ro": "Analiza asistată de AI a toleranței la risc și a scenariilor de portofoliu."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "meetingNoteSummarization",
+          "description": {
+            "en": "Automated summarization of client meeting notes into the CRM.",
+            "ro": "Rezumarea automată a notițelor de întâlnire cu clienții în CRM."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "RightCapital",
+        "category": "financialPlanningSoftware",
+        "isRequired": true,
+        "websiteUrl": "https://www.rightcapital.com/"
+      },
+      {
+        "name": "Riskalyze",
+        "category": "riskAssessment",
+        "isRequired": false,
+        "websiteUrl": "https://www.riskalyze.com/"
+      },
+      {
+        "name": "Redtail CRM",
+        "category": "crm",
+        "isRequired": true,
+        "websiteUrl": "https://www.redtailtechnology.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "high",
+      "timeHorizonMonths": 48
+    },
+    "scaling": {
+      "path": {
+        "en": "Grow assets under management through referrals and centers-of-influence relationships, then add junior advisors under a fee-split model.",
+        "ro": "Crește activele administrate prin recomandări și relații cu centre de influență, apoi adaugă consultanți juniori într-un model de partajare a onorariilor."
+      },
+      "bottlenecks": [
+        {
+          "en": "Licensing and compliance overhead when adding advisors.",
+          "ro": "Povara de autorizare și conformitate la adăugarea de consultanți."
+        },
+        {
+          "en": "Building enough trust for high-net-worth referrals takes years, not months.",
+          "ro": "Construirea unei încrederi suficiente pentru recomandări de la clienți cu patrimoniu ridicat durează ani, nu luni."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "First €5M in assets under management.",
+            "ro": "Primele 5 milioane EUR în active administrate."
+          }
+        },
+        {
+          "monthsFromLaunch": 30,
+          "description": {
+            "en": "First junior advisor hired under a fee-split arrangement.",
+            "ro": "Primul consultant junior angajat printr-un aranjament de partajare a onorariilor."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "CFP certification signals fiduciary rigor to prospects comparing advisors.",
+          "ro": "Certificarea CFP transmite rigoare fiduciară potențialilor clienți care compară consultanți."
+        }
+      },
+      {
+        "description": {
+          "en": "Fee-only structure removes the commission conflict-of-interest objection entirely.",
+          "ro": "Structura exclusiv pe bază de onorariu elimină complet obiecția legată de conflictul de interese din comisioane."
+        }
+      },
+      {
+        "description": {
+          "en": "A personalized quarterly-review cadence keeps retention far above the industry norm.",
+          "ro": "Un ritm personalizat de revizuire trimestrială menține retenția mult peste norma din industrie."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A fee-only financial planning and wealth advisory practice built on AUM-based fees, long trust-driven sales cycles, and referral-based growth.",
+        "ro": "O practică de planificare financiară și consultanță patrimonială exclusiv pe bază de onorariu, construită pe comisioane bazate pe AUM, cicluri lungi de vânzare bazate pe încredere și creștere prin recomandări."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.financialConsultancy.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.financialConsultancy.businessDna.resources.community1"
+      },
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.financialConsultancy.businessDna.resources.book1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.financialConsultancy.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "arr",
+        "targetDescription": {
+          "en": "Grow annual recurring advisory revenue as AUM compounds.",
+          "ro": "Crește veniturile anuale recurente din consultanță pe măsură ce AUM se acumulează."
+        }
+      },
+      {
+        "key": "cac",
+        "targetDescription": {
+          "en": "Keep client-acquisition cost low by relying on referrals over paid marketing.",
+          "ro": "Menține costul de achiziție a clienților scăzut, bazându-te pe recomandări în locul marketingului plătit."
+        }
+      },
+      {
+        "key": "ltv",
+        "targetDescription": {
+          "en": "Maximize client lifetime value through multi-decade advisory relationships.",
+          "ro": "Maximizează valoarea pe durata vieții clientului prin relații de consultanță pe mai multe decenii."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Maintain client retention above 95% annually.",
+          "ro": "Menține retenția clienților peste 95% anual."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "finance",
+          "importance": 5
+        },
+        {
+          "key": "communication",
+          "importance": 5
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "sales",
+          "importance": 4
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "patient",
+          "importance": 5
+        },
+        {
+          "trait": "collaborative",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "strategic",
+          "importance": 4
+        }
+      ],
+      "requiredBudget": {
+        "min": 15000,
+        "max": 50000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 20000,
+        "max": 40000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 35,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "consultative",
+        "relationship-first"
+      ],
+      "technicalLevel": 3,
+      "leadershipLevel": 4,
+      "creativityLevel": 2,
+      "salesAffinity": 4,
+      "automationAffinity": 2,
+      "remotePreference": "hybrid",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theConnector",
+        "theSpecialist"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Lead the Executive Summary with fiduciary/fee-only positioning — it's the strongest differentiator against commission-based competitors.",
+      "ro": "Începe Rezumatul executiv cu poziționarea fiduciară/exclusiv pe onorariu — este cel mai puternic diferențiator față de competitorii bazați pe comision."
+    },
+    "marketingHints": {
+      "en": "This audience buys on trust over years, not urgency — avoid promotional or scarcity-driven messaging.",
+      "ro": "Acest public cumpără pe baza încrederii construite în ani, nu din urgență — evită mesajele promoționale sau bazate pe raritate."
+    },
+    "financialHints": {
+      "en": "Model revenue as slow-to-build and AUM-compounding, not a fast ramp.",
+      "ro": "Modelează venitul ca fiind lent la construire și compus pe AUM, nu ca o creștere rapidă."
+    },
+    "generationHints": {
+      "en": "Tone should be measured, credentialed, and long-term-oriented.",
+      "ro": "Tonul ar trebui să fie măsurat, bazat pe acreditări și orientat pe termen lung."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Obtain CFP certification and required regulatory licensing.",
+            "ro": "Obține certificarea CFP și autorizarea de reglementare necesară."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Underestimating how long licensing approval takes.",
+            "ro": "Subestimarea duratei de aprobare a autorizării."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Start the licensing process before actively marketing.",
+            "ro": "Începe procesul de autorizare înainte de a face marketing activ."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.financialConsultancy.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Complete financial plans for 3-5 early clients, even pro bono if needed.",
+            "ro": "Finalizează planuri financiare pentru 3-5 clienți din faza incipientă, chiar pro bono dacă e nevoie."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Skipping thorough documentation on early, informal engagements.",
+            "ro": "Omiterea documentației riguroase la angajamentele timpurii, informale."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document every recommendation's rationale from the very first client.",
+            "ro": "Documentează motivația fiecărei recomandări încă de la primul client."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Standardize the discovery-meeting-to-plan workflow.",
+            "ro": "Standardizează fluxul de la întâlnirea de descoperire la plan."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Reinventing the plan format for every client instead of using a template.",
+            "ro": "Reinventarea formatului planului pentru fiecare client în loc de a folosi un șablon."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a repeatable financial-plan template in the planning software.",
+            "ro": "Construiește un șablon de plan financiar reutilizabil în software-ul de planificare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Announce the practice to the professional referral network (accountants, estate attorneys).",
+            "ro": "Anunță practica rețelei profesionale de recomandări (contabili, avocați de succesiuni)."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching before compliance documentation is fully in place.",
+            "ro": "Lansarea înainte ca documentația de conformitate să fie complet pusă la punct."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Host a small educational seminar as the launch event.",
+            "ro": "Organizează un mic seminar educațional ca eveniment de lansare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Deliver the first paid comprehensive financial plan.",
+            "ro": "Livrează primul plan financiar complet, plătit."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Underpricing the first engagement out of eagerness to win the client.",
+            "ro": "Subevaluarea prețului primului angajament din dorința de a câștiga clientul."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Charge the full planning fee even for the very first client.",
+            "ro": "Percepe taxa integrală de planificare chiar și pentru primul client."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable base of clients generating the target monthly income.",
+            "ro": "Atinge o bază stabilă de clienți care generează venitul lunar țintă."
+          }
+        ],
+        "kpis": [
+          "arr",
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Taking on clients whose goals don't fit the practice's planning philosophy.",
+            "ro": "Acceptarea unor clienți ale căror obiective nu se potrivesc filozofiei de planificare a practicii."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Qualify prospects on values fit during the discovery meeting, not just assets.",
+            "ro": "Evaluează potrivirea de valori a prospecților în întâlnirea de descoperire, nu doar activele."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Grow assets under management past the first meaningful threshold.",
+            "ro": "Crește activele administrate peste primul prag semnificativ."
+          }
+        ],
+        "kpis": [
+          "arr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Neglecting existing-client quarterly reviews while chasing new business.",
+            "ro": "Neglijarea revizuirilor trimestriale ale clienților existenți în timp ce se urmărește afaceri noi."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Protect quarterly review time on the calendar before booking new discovery meetings.",
+            "ro": "Protejează timpul de revizuire trimestrială în calendar înainte de a programa noi întâlniri de descoperire."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Bring on a junior advisor under a fee-split arrangement.",
+            "ro": "Adaugă un consultant junior printr-un aranjament de partajare a onorariilor."
+          }
+        ],
+        "kpis": [
+          "ltv"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Handing off client relationships to the junior advisor too abruptly.",
+            "ro": "Transferarea relațiilor cu clienții către consultantul junior prea brusc."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Co-lead client meetings with the junior advisor for the first two quarters.",
+            "ro": "Coordonează întâlnirile cu clienții alături de consultantul junior în primele două trimestre."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand the centers-of-influence network to a second professional vertical (e.g. estate attorneys).",
+            "ro": "Extinde rețeaua de centre de influență către un al doilea domeniu profesional (ex. avocați de succesiuni)."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Spreading referral-relationship effort too thin across too many verticals at once.",
+            "ro": "Dispersarea efortului de relaționare pentru recomandări în prea multe domenii simultan."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Deepen one new referral vertical fully before adding another.",
+            "ro": "Aprofundează complet un nou domeniu de recomandări înainte de a adăuga altul."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Prepare the practice's AUM book for a clean transition to an acquiring advisory firm.",
+            "ro": "Pregătește portofoliul de AUM al practicii pentru o tranziție curată către o firmă de consultanță achizitoare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Client relationships that exist only in the founder's head, not the CRM.",
+            "ro": "Relații cu clienții care există doar în mintea fondatorului, nu în CRM."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Keep every client interaction logged in the CRM from day one.",
+            "ro": "Menține fiecare interacțiune cu clientul înregistrată în CRM încă din prima zi."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

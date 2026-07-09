@@ -883,5 +883,1832 @@
       "required": "This field is required.",
       "invalidEmail": "Enter a valid email address."
     }
+  },
+  "businessLibrary": {
+    "accountingFirm": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"The E-Myth Accountant\" by Michael E. Gerber & J. C. Hair",
+          "course1": "Course: QuickBooks Online ProAdvisor Certification",
+          "community1": "Community: r/accounting and the QuickBooks Accountant community forum",
+          "checklist1": "Checklist: Month-end close checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast assumes steady retainer-client growth, not a viral spike — typical of referral-driven accounting practices."
+        },
+        "breakEven": {
+          "notes": "Structural estimate only — actual break-even depends on client-acquisition pace."
+        },
+        "grossMargin": {
+          "notes": "Estimate once a part-time bookkeeper is on staff; solo-founder margins run higher."
+        },
+        "netMargin": {
+          "notes": "After software, insurance, continuing education, and staff wages."
+        },
+        "scenarios": {
+          "conservative": "6 retainer clients at the base tier, slow referral flow.",
+          "expected": "12 retainer clients across mixed tiers plus seasonal tax filing income.",
+          "optimistic": "18+ retainer clients plus an active fractional-CFO engagement."
+        },
+        "risks": {
+          "risk1": "A large client leaving mid-year creates an immediate revenue gap.",
+          "risk2": "Tax-season staffing costs spike faster than tax-season revenue."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue growth as linear and retainer-based, not exponential."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "The outsourced finance department for founders who'd rather build their business than reconcile their books.",
+          "category": "Small-business accounting & bookkeeping"
+        },
+        "brandPromise": "Your books close in 5 business days, every month, without you lifting a finger.",
+        "uvp": {
+          "statement": "Certified ProAdvisor bookkeeping with transparent flat-tier pricing and a guaranteed close date.",
+          "diff1": "5-business-day guaranteed month-end close",
+          "diff2": "Flat, tiered pricing with no surprise invoices"
+        },
+        "icp": {
+          "description": "Small businesses and startups with 2-50 employees who have outgrown a spreadsheet but aren't ready for an in-house controller.",
+          "firmographics": "€200k-€3M annual revenue, service or e-commerce businesses."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Busy startup founder",
+            "description": "Founder who's been doing their own books in a spreadsheet and just closed a funding round."
+          },
+          "persona2": {
+            "name": "Established SMB owner",
+            "description": "Owner of a 10-year-old business frustrated with their current bookkeeper's slow turnaround."
+          }
+        },
+        "painPoints": {
+          "point1": "Books are always weeks behind, so decisions are made on stale numbers.",
+          "point2": "Surprise tax bills because no one was tracking quarterly estimates."
+        },
+        "outcomes": {
+          "outcome1": "Know the real cash position at any moment, not just at year-end.",
+          "outcome2": "Never miss a filing deadline or owe a surprise penalty."
+        },
+        "messaging": {
+          "core": "Stop chasing your books. Let them close themselves, on time, every month.",
+          "support1": "Certified ProAdvisor bookkeepers, not a call-center."
+        },
+        "brandVoice": {
+          "tone": "Precise, calm, and reassuring.",
+          "attr1": "Accurate",
+          "attr2": "Unhurried"
+        },
+        "contentPillars": {
+          "pillar1": "Small-business tax deadlines and compliance reminders",
+          "pillar2": "Bookkeeping hygiene and cash-flow visibility"
+        },
+        "channelStrategy": "Referrals from lawyers, business consultants, and existing clients are primary; local-SEO content and chamber-of-commerce sponsorships build secondary awareness.",
+        "community": {
+          "description": "A small, curated referral network of complementary professionals (lawyers, business consultants).",
+          "platform1": "Local chamber of commerce"
+        },
+        "leadMagnets": {
+          "magnet1": "Free 30-minute books-health assessment"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Referral introduction",
+            "description": "A trusted contact introduces the prospect."
+          },
+          "stage2": {
+            "name": "Books-health assessment",
+            "description": "Free review of current books and pain points."
+          },
+          "stage3": {
+            "name": "Tiered proposal",
+            "description": "A flat-fee proposal matched to transaction volume."
+          }
+        },
+        "retention": {
+          "tactic1": "Quarterly financial review call included in every retainer."
+        },
+        "analytics": {
+          "metric1": "Referral-to-client conversion rate"
+        },
+        "aiMetadata": {
+          "generationHints": "Keep every message grounded in trust and accuracy, never hype."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Get certified as a QuickBooks/Xero ProAdvisor.",
+            "1": "Register with the local chartered accounting body."
+          },
+          "deliverables": {
+            "0": "Signed professional indemnity insurance policy.",
+            "1": "Configured practice-management software."
+          },
+          "checklist": {
+            "0": "Confirm professional license is active.",
+            "1": "Set up a client document portal."
+          },
+          "commonMistakes": {
+            "0": "Skipping professional indemnity insurance to save money early."
+          },
+          "successCriteria": {
+            "0": "Licensing and insurance are both active."
+          },
+          "aiRecommendations": {
+            "0": "Prioritize ProAdvisor certification before any paid marketing."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Sign 2-3 paying retainer clients."
+          },
+          "deliverables": {
+            "0": "Completed books-health assessments for early prospects."
+          },
+          "checklist": {
+            "0": "Time the first month-end close against the 5-day promise."
+          },
+          "commonMistakes": {
+            "0": "Discounting so deeply the retainer isn't sustainable."
+          },
+          "successCriteria": {
+            "0": "At least 2 clients retained past their first quarter."
+          },
+          "aiRecommendations": {
+            "0": "Ask each validation client for one structured piece of feedback."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardize the month-end close checklist."
+          },
+          "deliverables": {
+            "0": "Documented standard operating procedure for onboarding."
+          },
+          "checklist": {
+            "0": "Store the checklist inside the practice-management tool."
+          },
+          "commonMistakes": {
+            "0": "Customizing the process per client instead of standardizing."
+          },
+          "successCriteria": {
+            "0": "Every active client follows the same close checklist."
+          },
+          "aiRecommendations": {
+            "0": "Use the same onboarding checklist for every new client to keep quality consistent."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publicly announce the practice through the referral network."
+          },
+          "deliverables": {
+            "0": "Updated professional profiles (LinkedIn, chamber of commerce directory)."
+          },
+          "checklist": {
+            "0": "Confirm the client portal and invoicing flow are tested end to end."
+          },
+          "commonMistakes": {
+            "0": "Launching before the onboarding flow has been tested with a real client."
+          },
+          "successCriteria": {
+            "0": "First public-facing referral conversation booked."
+          },
+          "aiRecommendations": {
+            "0": "Ask every early client for exactly one warm introduction."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Deliver a flawless first month-end close."
+          },
+          "deliverables": {
+            "0": "Signed engagement letter and onboarding checklist completed."
+          },
+          "checklist": {
+            "0": "Set clear document-submission deadlines with the client."
+          },
+          "commonMistakes": {
+            "0": "Overpromising turnaround time to win the client."
+          },
+          "successCriteria": {
+            "0": "First client renews past month three."
+          },
+          "aiRecommendations": {
+            "0": "Automate the document-reminder emails from day one."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach 10 retainer clients with under 10% monthly churn."
+          },
+          "deliverables": {
+            "0": "Client segmentation by transaction volume and service tier."
+          },
+          "checklist": {
+            "0": "Introduce a minimum-transaction-volume qualification for new clients."
+          },
+          "commonMistakes": {
+            "0": "Accepting every prospect regardless of fit."
+          },
+          "successCriteria": {
+            "0": "Retainer revenue exceeds the founder's target monthly income."
+          },
+          "aiRecommendations": {
+            "0": "Flag low-fit prospects automatically based on transaction volume."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Hire the first part-time bookkeeper."
+          },
+          "deliverables": {
+            "0": "Documented training plan for new hires."
+          },
+          "checklist": {
+            "0": "Cross-train the new hire on bookkeeping and payroll."
+          },
+          "commonMistakes": {
+            "0": "Hiring reactively during the tax-season crunch."
+          },
+          "successCriteria": {
+            "0": "New hire independently closes books for at least 5 clients."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted receipt categorization to free up the new hire's time for review work."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Launch the fractional-CFO service tier."
+          },
+          "deliverables": {
+            "0": "Distinct fractional-CFO service agreement and pricing sheet."
+          },
+          "checklist": {
+            "0": "Price the CFO tier separately from basic bookkeeping."
+          },
+          "commonMistakes": {
+            "0": "Pricing the CFO tier the same as basic bookkeeping."
+          },
+          "successCriteria": {
+            "0": "At least one client upgrades to the CFO tier."
+          },
+          "aiRecommendations": {
+            "0": "Identify upgrade candidates automatically from revenue-growth patterns in client books."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Expand into an adjacent vertical, such as e-commerce seller bookkeeping."
+          },
+          "deliverables": {
+            "0": "Vertical-specific onboarding checklist."
+          },
+          "checklist": {
+            "0": "Validate the new vertical's software integrations before marketing to it."
+          },
+          "commonMistakes": {
+            "0": "Expanding into a vertical without adapting onboarding."
+          },
+          "successCriteria": {
+            "0": "First client signed in the new vertical."
+          },
+          "aiRecommendations": {
+            "0": "Reuse the existing close checklist as the base for the new vertical's playbook."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Package the client book and SOPs for acquisition by a larger firm."
+          },
+          "deliverables": {
+            "0": "Documented SOPs for every recurring client workflow."
+          },
+          "checklist": {
+            "0": "Confirm every client relationship is documented, not founder-dependent."
+          },
+          "commonMistakes": {
+            "0": "Keeping undocumented, founder-only client relationships."
+          },
+          "successCriteria": {
+            "0": "Client book transfers cleanly to a new owner in due diligence."
+          },
+          "aiRecommendations": {
+            "0": "Use the accumulated close-time data as evidence of operational quality for buyers."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Growth is retainer-driven and gradual — do not suggest viral growth tactics."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The E-Myth Accountant",
+          "description": "Michael E. Gerber & J. C. Hair on building a scalable accounting practice, not just doing the work."
+        },
+        "item2": {
+          "title": "QuickBooks Online ProAdvisor Certification",
+          "description": "Free, official certification from Intuit that unlocks the ProAdvisor directory listing."
+        },
+        "item3": {
+          "title": "r/accounting",
+          "description": "Active practitioner community for practice-management and technical questions."
+        },
+        "item4": {
+          "title": "The Successful Bookkeeper Podcast",
+          "description": "Practice-growth interviews aimed specifically at bookkeeping firm owners."
+        },
+        "item5": {
+          "title": "AccountingWEB Daily Digest",
+          "description": "Daily regulatory and tax-code change alerts for practitioners."
+        },
+        "item6": {
+          "title": "QuickBooks Online Accountant",
+          "description": "The core practice-management and client bookkeeping platform."
+        },
+        "item7": {
+          "title": "Dext",
+          "description": "Receipt and invoice capture with OCR, feeding directly into the ledger."
+        },
+        "item8": {
+          "title": "Dext AI Categorization",
+          "description": "AI-assisted line-item categorization that speeds up monthly close."
+        },
+        "item9": {
+          "title": "Chartered/Certified Public Accountant credential",
+          "description": "The core professional credential clients look for when vetting a firm."
+        },
+        "item10": {
+          "title": "QuickBooks Connect",
+          "description": "Annual conference for accounting and bookkeeping practice owners."
+        },
+        "item11": {
+          "title": "Local chartered accounting body mentor program",
+          "description": "Pairs new practice owners with an experienced mentor in the same professional body."
+        },
+        "item12": {
+          "title": "Month-end close checklist",
+          "description": "The standardized checklist used to guarantee the 5-day close."
+        },
+        "aiMetadata": {
+          "generationHints": "Favor practitioner-credibility resources (certifications, professional bodies) over generic business content."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Selling a fractional-CFO tier to your best existing retainer clients is cheaper than acquiring new ones."
+          },
+          "item2": {
+            "title": "E-commerce sellers are chronically underserved by generalist bookkeepers and pay a premium for inventory-aware accounting."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A single missed quarterly estimated-tax deadline for a client can end the relationship instantly, regardless of your track record."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Pricing by the hour instead of by transaction volume, which punishes efficiency."
+          },
+          "item2": {
+            "title": "Taking on clients in industries the firm doesn't understand (e.g., inventory-heavy retail) without adjusting the process."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Offering a free books-health assessment converts warm referrals faster than any cold outreach."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Standardize the close checklist before hiring — otherwise every new hire reinvents the process."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Cap any single client at under 20% of monthly recurring revenue to avoid concentration risk."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Firms that publish their close-date guarantee publicly close more referral deals than those that don't."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Most small-business owners switch accountants not over price, but over slow response times."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Continuing-education credit renewal fees are easy to forget when budgeting the first year."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Demand for e-commerce and multi-currency bookkeeping is rising faster than demand for traditional single-location retail bookkeeping."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A one-person practice reached 25 retainer clients within 2 years by referral alone, with zero paid advertising."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A practice that took on too many low-margin, high-transaction-volume clients burned out its only bookkeeper within a year."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Do I need a physical office to start?",
+            "answer": "No — most client work can be done remotely through a cloud practice-management portal."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "AI will make bookkeepers obsolete within a few years.",
+            "fact": "AI automates the transactional categorization work, but advisory judgment and client trust remain human-led for the foreseeable future."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Send document-request reminders automatically 5 business days before the close deadline."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep all guidance at the level of running/growing the firm — never give specific tax or accounting advice for an end client's actual filing."
+        }
+      }
+    },
+    "financialConsultancy": {
+      "businessDna": {
+        "resources": {
+          "course1": "Course: CFP (Certified Financial Planner) certification program",
+          "community1": "Community: Financial Planning Association (FPA) local chapter",
+          "book1": "Book: \"The Million-Dollar Financial Advisor\" by David J. Mullen Jr.",
+          "checklist1": "Checklist: Annual comprehensive plan refresh checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast assumes slow early growth that compounds as AUM and referrals build over years, not a fast ramp."
+        },
+        "breakEven": {
+          "notes": "Structural estimate only — actual break-even depends heavily on referral-network development speed."
+        },
+        "grossMargin": {
+          "notes": "High margin once AUM is established, since incremental client servicing cost is low."
+        },
+        "netMargin": {
+          "notes": "After compliance, insurance, and software costs."
+        },
+        "scenarios": {
+          "conservative": "A handful of early clients, AUM still below the first meaningful threshold.",
+          "expected": "Steady referral flow, AUM past €5M with a mix of AUM and flat-fee clients.",
+          "optimistic": "Strong centers-of-influence network and a junior advisor generating additional fee-split revenue."
+        },
+        "risks": {
+          "risk1": "A prolonged market downturn reduces AUM-based fee revenue across the whole client base at once.",
+          "risk2": "Regulatory or licensing changes can require costly compliance updates."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as slow-building and AUM-dependent, sensitive to market cycles."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Financial plans built for decades, not quarters — fee-only, fiduciary advice with no commission conflicts.",
+          "category": "Fee-only financial planning & wealth advisory"
+        },
+        "brandPromise": "A plan built around your goals, reviewed every quarter, with no commissions clouding the advice.",
+        "uvp": {
+          "statement": "CFP-certified, fee-only fiduciary planning with a personalized quarterly review cadence.",
+          "diff1": "Fee-only — no commission conflicts of interest",
+          "diff2": "CFP-certified fiduciary standard"
+        },
+        "icp": {
+          "description": "Pre-retirees and business owners planning an exit, typically aged 45-65 with meaningful investable assets.",
+          "firmographics": "€250k+ investable assets or a business exit event on the horizon."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Pre-retiree planner",
+            "description": "Someone 5-10 years from retirement, unsure if their savings are on track."
+          },
+          "persona2": {
+            "name": "Business owner planning an exit",
+            "description": "Owner preparing to sell their business and needing a plan for the proceeds."
+          }
+        },
+        "painPoints": {
+          "point1": "Not knowing whether current savings support the retirement lifestyle they want.",
+          "point2": "Distrust of commission-based advisors who may recommend products that benefit the advisor."
+        },
+        "outcomes": {
+          "outcome1": "A clear, written plan with a specific retirement-readiness number.",
+          "outcome2": "Confidence that the advice given has no hidden commission incentive."
+        },
+        "messaging": {
+          "core": "A plan for the life you actually want to retire into, from an advisor with nothing to sell you but advice.",
+          "support1": "CFP-certified, fee-only, fiduciary — always."
+        },
+        "brandVoice": {
+          "tone": "Measured, credentialed, long-term-oriented.",
+          "attr1": "Trustworthy",
+          "attr2": "Unhurried"
+        },
+        "contentPillars": {
+          "pillar1": "Retirement-readiness fundamentals",
+          "pillar2": "Business-exit financial planning"
+        },
+        "channelStrategy": "Referrals from accountants and estate attorneys are primary; small educational seminars build secondary trust; long-form content builds experimental organic reach.",
+        "community": {
+          "description": "A centers-of-influence network of accountants and estate attorneys who refer clients in both directions.",
+          "platform1": "Financial Planning Association local chapter"
+        },
+        "leadMagnets": {
+          "magnet1": "Free retirement-readiness discovery meeting"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Referral introduction",
+            "description": "A trusted accountant or attorney makes the introduction."
+          },
+          "stage2": {
+            "name": "Discovery meeting",
+            "description": "Free goals-and-assets assessment."
+          },
+          "stage3": {
+            "name": "Financial plan proposal",
+            "description": "A flat-fee or AUM-based engagement proposal."
+          }
+        },
+        "retention": {
+          "tactic1": "Quarterly portfolio review meetings, calendared a year in advance."
+        },
+        "analytics": {
+          "metric1": "Referral-source conversion rate by professional partner"
+        },
+        "aiMetadata": {
+          "generationHints": "Never generate urgency-driven or scarcity-driven messaging — this audience buys on trust over years."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Obtain CFP certification and complete regulatory licensing."
+          },
+          "deliverables": {
+            "0": "Signed E&O insurance policy and compliance program documentation."
+          },
+          "checklist": {
+            "0": "Confirm licensing is approved in every jurisdiction served."
+          },
+          "commonMistakes": {
+            "0": "Underestimating licensing approval timelines."
+          },
+          "successCriteria": {
+            "0": "Licensing and compliance program are both active."
+          },
+          "aiRecommendations": {
+            "0": "Start the licensing process months before any planned launch date."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Complete financial plans for 3-5 early clients."
+          },
+          "deliverables": {
+            "0": "Documented rationale for every early recommendation."
+          },
+          "checklist": {
+            "0": "Use the standard plan template even for early, informal clients."
+          },
+          "commonMistakes": {
+            "0": "Skipping documentation on early, informal engagements."
+          },
+          "successCriteria": {
+            "0": "At least 3 completed, documented financial plans."
+          },
+          "aiRecommendations": {
+            "0": "Use plan-drafting software from the very first engagement to build a consistent record."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardize the discovery-meeting-to-plan workflow."
+          },
+          "deliverables": {
+            "0": "A repeatable financial-plan template in the planning software."
+          },
+          "checklist": {
+            "0": "Store the template centrally so every plan starts from the same structure."
+          },
+          "commonMistakes": {
+            "0": "Reinventing the plan format for every client."
+          },
+          "successCriteria": {
+            "0": "Every new client's plan starts from the standard template."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted meeting-note summarization to speed up plan drafting without changing the advice itself."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Announce the practice to the professional referral network."
+          },
+          "deliverables": {
+            "0": "Updated professional profiles and a hosted educational seminar."
+          },
+          "checklist": {
+            "0": "Confirm compliance documentation is complete before any public announcement."
+          },
+          "commonMistakes": {
+            "0": "Launching before compliance paperwork is fully in place."
+          },
+          "successCriteria": {
+            "0": "First seminar or referral-network introduction completed."
+          },
+          "aiRecommendations": {
+            "0": "Personalize the seminar follow-up outreach per attendee rather than sending a generic blast."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Deliver the first paid comprehensive financial plan."
+          },
+          "deliverables": {
+            "0": "Signed engagement letter and completed plan presentation."
+          },
+          "checklist": {
+            "0": "Charge the full planning fee, even for the first paying client."
+          },
+          "commonMistakes": {
+            "0": "Underpricing the first engagement out of eagerness to win the client."
+          },
+          "successCriteria": {
+            "0": "First client signs on for the ongoing quarterly-review retainer."
+          },
+          "aiRecommendations": {
+            "0": "Flag portfolio-risk anomalies automatically ahead of each quarterly review."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach a stable client base generating the target monthly income."
+          },
+          "deliverables": {
+            "0": "A documented values-fit qualification step in the discovery meeting."
+          },
+          "checklist": {
+            "0": "Qualify prospects on values fit, not just asset size."
+          },
+          "commonMistakes": {
+            "0": "Accepting every prospect regardless of values fit."
+          },
+          "successCriteria": {
+            "0": "Revenue reaches the founder's target monthly income range."
+          },
+          "aiRecommendations": {
+            "0": "Use CRM data to identify which referral sources produce the best-fit clients."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Grow assets under management past the first meaningful threshold."
+          },
+          "deliverables": {
+            "0": "Protected calendar blocks for quarterly reviews."
+          },
+          "checklist": {
+            "0": "Confirm every existing client has a scheduled quarterly review before booking new discovery meetings."
+          },
+          "commonMistakes": {
+            "0": "Neglecting existing-client reviews while chasing new business."
+          },
+          "successCriteria": {
+            "0": "AUM crosses the first meaningful growth threshold."
+          },
+          "aiRecommendations": {
+            "0": "Use portfolio-monitoring alerts to flag which clients need a review conversation soonest."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Bring on a junior advisor under a fee-split arrangement."
+          },
+          "deliverables": {
+            "0": "A documented fee-split agreement and onboarding plan for the junior advisor."
+          },
+          "checklist": {
+            "0": "Co-lead client meetings with the junior advisor for the first two quarters."
+          },
+          "commonMistakes": {
+            "0": "Handing off client relationships too abruptly."
+          },
+          "successCriteria": {
+            "0": "Junior advisor independently manages at least 10 client relationships."
+          },
+          "aiRecommendations": {
+            "0": "Use meeting-summarization AI to help the junior advisor ramp up on each client's history faster."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Expand the centers-of-influence network to a second professional vertical."
+          },
+          "deliverables": {
+            "0": "A dedicated relationship plan for the new referral vertical."
+          },
+          "checklist": {
+            "0": "Deepen one new referral vertical fully before adding a third."
+          },
+          "commonMistakes": {
+            "0": "Spreading referral-relationship effort too thin across too many verticals at once."
+          },
+          "successCriteria": {
+            "0": "First client signed through the new referral vertical."
+          },
+          "aiRecommendations": {
+            "0": "Track which vertical produces the highest-AUM referrals to prioritize future relationship-building time."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Prepare the AUM book for a clean transition to an acquiring advisory firm."
+          },
+          "deliverables": {
+            "0": "Every client interaction logged in the CRM, not held only in the founder's memory."
+          },
+          "checklist": {
+            "0": "Confirm CRM records are complete enough to support a due-diligence review."
+          },
+          "commonMistakes": {
+            "0": "Client relationships that exist only in the founder's head."
+          },
+          "successCriteria": {
+            "0": "AUM book transfers cleanly to an acquiring firm with client retention intact."
+          },
+          "aiRecommendations": {
+            "0": "Use CRM engagement history as evidence of relationship depth during acquisition due diligence."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Growth compounds slowly through trust and referrals — do not suggest paid-acquisition growth hacks."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The Million-Dollar Financial Advisor",
+          "description": "David J. Mullen Jr.'s interviews with top advisors on building a durable practice."
+        },
+        "item2": {
+          "title": "CFP Certification Program",
+          "description": "The core fiduciary credential clients and referral partners look for."
+        },
+        "item3": {
+          "title": "Financial Planning Association (FPA)",
+          "description": "The main professional body and local-chapter network for financial planners."
+        },
+        "item4": {
+          "title": "The Michael Kitces Nerd's Eye View",
+          "description": "In-depth analysis of financial-planning practice management and technical strategy."
+        },
+        "item5": {
+          "title": "Kitces.com Weekly Nerd's Eye View newsletter",
+          "description": "Regulatory updates and technical planning strategies for practitioners."
+        },
+        "item6": {
+          "title": "RightCapital",
+          "description": "Comprehensive financial-planning software for building client plans."
+        },
+        "item7": {
+          "title": "Redtail CRM",
+          "description": "The CRM built specifically for financial advisory client relationships."
+        },
+        "item8": {
+          "title": "AI meeting-note summarization inside the CRM",
+          "description": "Speeds up post-meeting documentation without touching the advice itself."
+        },
+        "item9": {
+          "title": "Certified Financial Planner (CFP)",
+          "description": "The fiduciary credential this practice is built around."
+        },
+        "item10": {
+          "title": "FPA Annual Conference",
+          "description": "The main annual gathering for financial-planning practice owners."
+        },
+        "item11": {
+          "title": "FPA local-chapter mentor program",
+          "description": "Pairs new advisors with an experienced fee-only fiduciary mentor."
+        },
+        "item12": {
+          "title": "Annual comprehensive plan refresh checklist",
+          "description": "Ensures every client's plan is revisited fully once a year."
+        },
+        "aiMetadata": {
+          "generationHints": "Favor fiduciary-credibility resources (CFP, FPA) over generic sales or marketing content."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Business owners approaching an exit are an underserved niche — most advisors focus only on retirees."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A single bad market cycle early in the practice's life can shake client confidence disproportionately to the actual portfolio impact."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Competing on investment returns instead of on planning quality and trust — a race the advisor can't consistently win."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "A free, no-obligation discovery meeting converts referral leads faster than any paid marketing."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Co-lead client meetings with a new junior advisor for at least two quarters before any handoff."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Document every recommendation's rationale — it's both good practice and fiduciary protection."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Advisors who host small educational seminars build referral trust faster than those relying on cold outreach."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Most clients choose an advisor based on trust from a referral, not on comparing investment performance across firms."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "E&O insurance premiums rise noticeably once AUM crosses certain thresholds — budget for it."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Demand for fee-only fiduciary advisors is rising faster than demand for commission-based ones, as awareness of conflicts of interest grows."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A solo fee-only advisor grew to €8M in AUM within 3 years purely through a centers-of-influence referral network."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "An advisor who marketed aggressively on investment returns lost credibility when a market downturn hit within the first year."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Do I need a large existing client base to start?",
+            "answer": "No — most advisors start with 3-5 clients from personal and professional networks and grow from there."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "You need to be a great stock-picker to be a great financial planner.",
+            "fact": "Most client value comes from planning discipline and behavioral coaching, not investment selection skill."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Calendar next year's quarterly review meetings for every client immediately after the current one ends."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep all guidance at the level of running/growing the practice — never give specific investment or financial advice for an end client's actual portfolio."
+        }
+      }
+    },
+    "insuranceBrokerage": {
+      "businessDna": {
+        "resources": {
+          "course1": "Course: CIC (Certified Insurance Counselor) designation program",
+          "community1": "Community: Independent Insurance Agents & Brokers of America (Big I)",
+          "book1": "Book: \"Cracking the Insurance Game\" by David M. Duford",
+          "checklist1": "Checklist: Annual policy renewal review checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast assumes renewal commissions compound as the book grows, with new-business sales layered on top."
+        },
+        "breakEven": {
+          "notes": "Structural estimate only — actual break-even depends on new-business sales pace and carrier appointment speed."
+        },
+        "grossMargin": {
+          "notes": "Renewal commissions carry very low servicing cost once the client relationship is established."
+        },
+        "netMargin": {
+          "notes": "After AMS, E&O insurance, and carrier-appointment maintenance costs."
+        },
+        "scenarios": {
+          "conservative": "A small book of 15-20 personal-lines policies, slow referral flow.",
+          "expected": "35-40 active policies with steady renewals and a growing referral network.",
+          "optimistic": "A growing commercial-lines book plus a strong personal-lines renewal base."
+        },
+        "risks": {
+          "risk1": "Losing a key carrier appointment removes an entire product line overnight.",
+          "risk2": "Commission-rate compression from carriers reduces per-policy revenue over time."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as renewal-compounding on top of new-business sales, not a single revenue curve."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "The right coverage, from someone who actually shops it for you across multiple carriers.",
+          "category": "Independent multi-carrier insurance brokerage"
+        },
+        "brandPromise": "We shop your coverage across carriers every renewal, so you never overpay for the same protection.",
+        "uvp": {
+          "statement": "Independent, multi-carrier comparison shopping with hands-on claims advocacy.",
+          "diff1": "Not captive to any single insurer",
+          "diff2": "Hands-on claims advocacy, not a call center"
+        },
+        "icp": {
+          "description": "Families and small-business owners needing personal or commercial coverage who are tired of dealing with a captive single-carrier agent.",
+          "firmographics": "Homeowners, small-business owners with 1-50 employees, families with life/health coverage needs."
+        },
+        "personas": {
+          "persona1": {
+            "name": "First-time homeowner",
+            "description": "Recently purchased a home and needs homeowners and auto coverage bundled."
+          },
+          "persona2": {
+            "name": "Small-business owner needing commercial coverage",
+            "description": "Owner who needs general liability, property, and workers' comp coverage as the business grows."
+          }
+        },
+        "painPoints": {
+          "point1": "Feeling locked into one insurer's pricing with no easy way to compare.",
+          "point2": "Slow, impersonal claims support when something actually goes wrong."
+        },
+        "outcomes": {
+          "outcome1": "Confidence that they're getting competitive pricing every renewal, not just the first year.",
+          "outcome2": "A real person to call when filing a claim, not a phone tree."
+        },
+        "messaging": {
+          "core": "One broker, every carrier — so you always know you're getting the best coverage for the price.",
+          "support1": "Independent and carrier-agnostic, always."
+        },
+        "brandVoice": {
+          "tone": "Warm, confident, and approachable.",
+          "attr1": "Approachable",
+          "attr2": "Advocative"
+        },
+        "contentPillars": {
+          "pillar1": "Coverage-gap awareness for homeowners and small businesses",
+          "pillar2": "Renewal-timing and re-shopping education"
+        },
+        "channelStrategy": "Referrals from existing clients, real-estate agents, and lenders are primary; local event sponsorship builds secondary awareness; short social posts on coverage gaps are experimental.",
+        "community": {
+          "description": "A referral network of real-estate agents and mortgage lenders who need a broker for their clients' insurance requirements.",
+          "platform1": "Local Realtor association"
+        },
+        "leadMagnets": {
+          "magnet1": "Free multi-carrier coverage comparison quote"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Referral or life-event trigger",
+            "description": "A referral or a life event (new home, new business) prompts the inquiry."
+          },
+          "stage2": {
+            "name": "Needs analysis",
+            "description": "A conversation to understand actual coverage needs and risk exposure."
+          },
+          "stage3": {
+            "name": "Comparative quote presentation",
+            "description": "Multiple carrier quotes presented side by side."
+          }
+        },
+        "retention": {
+          "tactic1": "Automated renewal re-shopping 60 days before every policy expiration."
+        },
+        "analytics": {
+          "metric1": "Renewal retention rate by policy type"
+        },
+        "aiMetadata": {
+          "generationHints": "Emphasize the multi-carrier, non-captive advantage in every message — it's the single biggest differentiator."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Obtain property & casualty and life & health licensing."
+          },
+          "deliverables": {
+            "0": "Signed carrier appointment agreements with at least 4-5 carriers per line."
+          },
+          "checklist": {
+            "0": "Confirm E&O insurance is active before writing any policy."
+          },
+          "commonMistakes": {
+            "0": "Applying for carrier appointments before licensing is finalized."
+          },
+          "successCriteria": {
+            "0": "Licensing and at least 3 carrier appointments are active."
+          },
+          "aiRecommendations": {
+            "0": "Apply to carriers with the strongest appetite for the target client segment first."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Bind the first 5-10 policies across personal lines."
+          },
+          "deliverables": {
+            "0": "Comparative quotes documented for each early client."
+          },
+          "checklist": {
+            "0": "Present at least 3 comparative quotes per prospect."
+          },
+          "commonMistakes": {
+            "0": "Quoting only one carrier instead of comparing several."
+          },
+          "successCriteria": {
+            "0": "At least 5 policies bound in the first quarter."
+          },
+          "aiRecommendations": {
+            "0": "Use the comparative rater for every quote, even ones that seem straightforward."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardize the needs-analysis and quoting workflow."
+          },
+          "deliverables": {
+            "0": "A documented needs-analysis template in the AMS."
+          },
+          "checklist": {
+            "0": "Log every client's stated coverage priorities in the AMS."
+          },
+          "commonMistakes": {
+            "0": "Skipping documented needs analysis for simple-seeming policies."
+          },
+          "successCriteria": {
+            "0": "Every bound policy has a documented needs analysis on file."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted comparative rating to speed up quote turnaround without skipping the needs analysis."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Announce the brokerage to the referral network of real-estate agents and lenders."
+          },
+          "deliverables": {
+            "0": "Updated professional listings and a launch announcement to the referral network."
+          },
+          "checklist": {
+            "0": "Confirm every planned carrier appointment is live before marketing broadly."
+          },
+          "commonMistakes": {
+            "0": "Launching before carrier appointments are fully active."
+          },
+          "successCriteria": {
+            "0": "First referral-network introduction meeting completed."
+          },
+          "aiRecommendations": {
+            "0": "Personalize outreach to each referral partner based on their typical client profile."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Bind the first paying client's policy and confirm smooth claims support if needed."
+          },
+          "deliverables": {
+            "0": "Signed policy and a written renewal-process explanation for the client."
+          },
+          "checklist": {
+            "0": "Walk every new client through the renewal process in writing."
+          },
+          "commonMistakes": {
+            "0": "Not explaining the renewal process clearly at binding."
+          },
+          "successCriteria": {
+            "0": "First client renews without a coverage complaint."
+          },
+          "aiRecommendations": {
+            "0": "Set an automated check-in message at the 30-day mark after binding to catch early concerns."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach 25-30 active policies with a stable renewal rate."
+          },
+          "deliverables": {
+            "0": "Automated renewal-reminder sequences configured in the AMS."
+          },
+          "checklist": {
+            "0": "Start renewal-reminder sequences 60 days before expiration for every policy."
+          },
+          "commonMistakes": {
+            "0": "Focusing only on new business and neglecting renewal follow-up."
+          },
+          "successCriteria": {
+            "0": "Renewal retention rate exceeds 85%."
+          },
+          "aiRecommendations": {
+            "0": "Flag policies at risk of non-renewal automatically based on engagement signals."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Cross-sell additional policies to the existing client book."
+          },
+          "deliverables": {
+            "0": "A full coverage review completed for every client at renewal."
+          },
+          "checklist": {
+            "0": "Review the client's full coverage picture at every renewal, not just the expiring policy."
+          },
+          "commonMistakes": {
+            "0": "Never revisiting existing clients' coverage needs after the initial sale."
+          },
+          "successCriteria": {
+            "0": "At least 1 in 4 renewals results in an additional policy sold."
+          },
+          "aiRecommendations": {
+            "0": "Surface cross-sell opportunities automatically based on life-event or business-growth signals."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Launch a dedicated commercial-lines practice for higher-premium accounts."
+          },
+          "deliverables": {
+            "0": "A distinct commercial-lines needs-analysis process and pricing sheet."
+          },
+          "checklist": {
+            "0": "Build the commercial-lines process before marketing to that segment."
+          },
+          "commonMistakes": {
+            "0": "Treating commercial accounts with the same process as personal lines."
+          },
+          "successCriteria": {
+            "0": "First commercial-lines account bound."
+          },
+          "aiRecommendations": {
+            "0": "Use industry classification data to identify which commercial verticals to target first."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Add a second producer to grow the commercial-lines book faster."
+          },
+          "deliverables": {
+            "0": "A written commission-split agreement for the new producer."
+          },
+          "checklist": {
+            "0": "Define the commission-split agreement before the producer's first sale."
+          },
+          "commonMistakes": {
+            "0": "Hiring a producer before the commission-split structure is clearly defined."
+          },
+          "successCriteria": {
+            "0": "New producer independently binds their first 5 policies."
+          },
+          "aiRecommendations": {
+            "0": "Use historical close-rate data to set realistic ramp expectations for the new producer."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Package the book of business for acquisition by a larger agency."
+          },
+          "deliverables": {
+            "0": "Every policy, renewal, and claim logged in the agency management system."
+          },
+          "checklist": {
+            "0": "Confirm all carrier and client records are complete in the AMS before due diligence."
+          },
+          "commonMistakes": {
+            "0": "Client and carrier records scattered across email instead of the AMS."
+          },
+          "successCriteria": {
+            "0": "Book of business transfers cleanly with retention intact."
+          },
+          "aiRecommendations": {
+            "0": "Use renewal-retention history as evidence of book quality for acquiring firms."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Growth compounds through renewals and cross-selling, not just new-business sales — reflect both in every stage."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Cracking the Insurance Game",
+          "description": "David M. Duford's practical guide to building an independent insurance book of business."
+        },
+        "item2": {
+          "title": "CIC (Certified Insurance Counselor) Program",
+          "description": "The core designation for building credibility with commercial-lines clients."
+        },
+        "item3": {
+          "title": "Independent Insurance Agents & Brokers of America (Big I)",
+          "description": "The main professional association and advocacy group for independent agencies."
+        },
+        "item4": {
+          "title": "Agency Nation Radio",
+          "description": "Practice-growth interviews for independent insurance agency owners."
+        },
+        "item5": {
+          "title": "Insurance Journal Daily",
+          "description": "Daily industry news covering carrier changes and market conditions."
+        },
+        "item6": {
+          "title": "EZLynx",
+          "description": "The core comparative-rating platform for quoting across multiple carriers."
+        },
+        "item7": {
+          "title": "Applied Epic",
+          "description": "Agency management system for policy, client, and renewal tracking."
+        },
+        "item8": {
+          "title": "AI-assisted renewal-reminder automation",
+          "description": "Reduces missed renewal windows without adding manual tracking work."
+        },
+        "item9": {
+          "title": "Certified Insurance Counselor (CIC)",
+          "description": "The credential most valued by commercial-lines prospects."
+        },
+        "item10": {
+          "title": "Big I Legislative & InsurPac Summit",
+          "description": "Annual gathering for independent agency owners on regulatory and industry trends."
+        },
+        "item11": {
+          "title": "Big I mentor-matching program",
+          "description": "Pairs new agency owners with an experienced independent-agency mentor."
+        },
+        "item12": {
+          "title": "Annual policy renewal review checklist",
+          "description": "Ensures every client's full coverage picture is reviewed at renewal, not just the expiring policy."
+        },
+        "aiMetadata": {
+          "generationHints": "Favor multi-carrier and claims-advocacy credibility resources over generic sales content."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Real-estate agents and mortgage lenders are an underused referral source — every home sale needs a new policy."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A single carrier dropping an entire product line can strand a book of clients with no easy replacement option."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Quoting only the carrier with the fastest turnaround instead of the best fit for the client's actual risk."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Offering a free multi-carrier comparison quote converts warm referrals faster than any advertising."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Define the commission-split structure with any new producer in writing before their first sale."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Document every coverage recommendation and every coverage the client declined, in writing, every time."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Agencies that automate renewal re-shopping retain more clients than those that only react when a client calls to shop around."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Clients rarely leave over price alone — slow claims support is the most common reason for switching brokers."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Carrier appointment renewal and continuing-education fees are easy to underbudget in year one."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Demand for bundled home-and-auto and small-commercial coverage is growing faster than demand for single-policy sales."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "An independent broker built a 200-policy book in 3 years primarily through real-estate agent referrals."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A brokerage that appointed with only one carrier lost its entire book when that carrier exited the regional market."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "How many carrier appointments do I need to start?",
+            "answer": "Most brokers start with 4-5 carrier appointments per line of business to have meaningful comparison options."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Independent brokers always cost clients more than going direct to an insurer.",
+            "fact": "Commission is built into the carrier's premium either way — an independent broker doesn't add a markup, and often finds a better rate through comparison."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Review a client's entire coverage picture at every renewal, not just the policy up for renewal."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep all guidance at the level of running/growing the brokerage — never recommend specific coverage or policy decisions for an end client's actual situation."
+        }
+      }
+    },
+    "taxConsultancy": {
+      "businessDna": {
+        "resources": {
+          "course1": "Course: Enrolled Agent (EA) exam preparation course",
+          "community1": "Community: National Association of Enrolled Agents (NAEA)",
+          "book1": "Book: \"The Tax and Legal Playbook\" by Mark J. Kohler",
+          "checklist1": "Checklist: Client document-intake checklist by return type"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast assumes a sharp seasonal concentration of revenue, smoothed only as business retainer clients grow."
+        },
+        "breakEven": {
+          "notes": "Structural estimate only — break-even is reachable within the first tax season given the low fixed-cost base."
+        },
+        "grossMargin": {
+          "notes": "Estimate accounting for seasonal contract-staff costs during peak filing weeks."
+        },
+        "netMargin": {
+          "notes": "After tax-software licensing, e-filing fees, and seasonal staffing."
+        },
+        "scenarios": {
+          "conservative": "120 individual returns at the base tier, minimal business retainer income.",
+          "expected": "200 individual returns plus 5 business retainer clients.",
+          "optimistic": "300+ individual returns plus 10 business retainer clients on year-round planning."
+        },
+        "risks": {
+          "risk1": "Self-service and AI-assisted tax software increasingly automates the simplest, most price-sensitive returns.",
+          "risk2": "A short season means a bad few weeks (illness, software outage) has an outsized revenue impact."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as sharply seasonal, with business retainers as the smoothing mechanism."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Every deduction found, every deadline met — technical tax expertise without the big-firm price tag.",
+          "category": "Individual & small-business tax preparation"
+        },
+        "brandPromise": "Your return, filed accurately and on time, with every deduction you're actually entitled to.",
+        "uvp": {
+          "statement": "Enrolled Agent-credentialed tax preparation with the right to represent you directly before the tax authority.",
+          "diff1": "Enrolled Agent — licensed to represent clients before the tax authority",
+          "diff2": "Flat, transparent per-complexity-tier pricing"
+        },
+        "icp": {
+          "description": "Individuals with moderately complex returns (self-employment, investments, rental property) and small-business owners needing annual filing.",
+          "firmographics": "Self-employed individuals and businesses with under 20 employees."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Self-employed freelancer",
+            "description": "Freelancer or contractor whose return got too complex for a self-service app."
+          },
+          "persona2": {
+            "name": "Small-business owner",
+            "description": "Owner needing annual business filing and occasional strategic tax guidance."
+          }
+        },
+        "painPoints": {
+          "point1": "Worried they're missing deductions they're entitled to.",
+          "point2": "Anxious about filing deadlines and potential penalties."
+        },
+        "outcomes": {
+          "outcome1": "Confidence that the return is accurate and maximizes legitimate deductions.",
+          "outcome2": "Peace of mind that the filing deadline will be met without last-minute stress."
+        },
+        "messaging": {
+          "core": "Stop guessing at your taxes. File with someone licensed to stand behind every number.",
+          "support1": "Enrolled Agent-credentialed, not a seasonal call-center preparer."
+        },
+        "brandVoice": {
+          "tone": "Precise, responsive, and reassuring under deadline pressure.",
+          "attr1": "Precise",
+          "attr2": "Responsive"
+        },
+        "contentPillars": {
+          "pillar1": "Filing-deadline reminders and requirements",
+          "pillar2": "Deduction and credit awareness for freelancers and small businesses"
+        },
+        "channelStrategy": "Referrals from existing clients and local accountants are primary; local-SEO content around filing deadlines builds secondary demand; a year-round newsletter is experimental off-season engagement.",
+        "community": {
+          "description": "A referral relationship with local bookkeepers and accountants who don't handle complex individual or business tax filings themselves.",
+          "platform1": "Local small-business association"
+        },
+        "leadMagnets": {
+          "magnet1": "Free \"which deductions am I missing\" mini-review"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Seasonal search or referral",
+            "description": "A prospect searches locally or gets referred ahead of the filing deadline."
+          },
+          "stage2": {
+            "name": "Document intake",
+            "description": "Structured checklist collects all needed tax documents upfront."
+          },
+          "stage3": {
+            "name": "Return preparation and delivery",
+            "description": "Return is prepared, reviewed, and e-filed with client sign-off."
+          }
+        },
+        "retention": {
+          "tactic1": "A mid-year tax-planning check-in email to every prior-season client."
+        },
+        "analytics": {
+          "metric1": "Year-over-year individual-client return rate"
+        },
+        "aiMetadata": {
+          "generationHints": "Deadline urgency is a legitimate and appropriate driver here, unlike in other regulated professional services."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Obtain Enrolled Agent credentialing and set up professional tax software."
+          },
+          "deliverables": {
+            "0": "Active PTIN/EFIN registration and a licensed tax-software installation."
+          },
+          "checklist": {
+            "0": "Confirm e-filing registration is approved before the season starts."
+          },
+          "commonMistakes": {
+            "0": "Underestimating how long EA credentialing takes."
+          },
+          "successCriteria": {
+            "0": "Credentialing and e-filing registration are both active."
+          },
+          "aiRecommendations": {
+            "0": "Start EA credentialing at least 6 months before the target launch season."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Prepare returns for the first 10-15 clients."
+          },
+          "deliverables": {
+            "0": "Timed preparation data for at least 3 complexity tiers."
+          },
+          "checklist": {
+            "0": "Time every early return to calibrate the pricing model."
+          },
+          "commonMistakes": {
+            "0": "Underpricing so heavily that peak-season margins don't cover the workload."
+          },
+          "successCriteria": {
+            "0": "Pricing model validated against at least 10 completed returns."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted document extraction from the very first client to build efficient habits early."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardize the document-intake-to-e-file workflow."
+          },
+          "deliverables": {
+            "0": "A structured document checklist per return type."
+          },
+          "checklist": {
+            "0": "Give every client the same checklist before their appointment."
+          },
+          "commonMistakes": {
+            "0": "Accepting documents in inconsistent formats that slow down preparation."
+          },
+          "successCriteria": {
+            "0": "Every client's documents arrive using the standard checklist."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted deduction-finding as a second check before final review, not a replacement for it."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Announce availability ahead of the upcoming tax season."
+          },
+          "deliverables": {
+            "0": "Local-SEO content live and referral outreach sent."
+          },
+          "checklist": {
+            "0": "Start marketing at least 8 weeks before the season starts."
+          },
+          "commonMistakes": {
+            "0": "Launching marketing too close to the filing deadline."
+          },
+          "successCriteria": {
+            "0": "First new-client bookings received ahead of peak season."
+          },
+          "aiRecommendations": {
+            "0": "Send automated appointment reminders as filing deadlines approach."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Deliver the first accurate, on-time e-filed return."
+          },
+          "deliverables": {
+            "0": "Signed engagement and confirmed e-file acceptance."
+          },
+          "checklist": {
+            "0": "Confirm the actual filing deadline with the client before promising a turnaround."
+          },
+          "commonMistakes": {
+            "0": "Rushing a complex return to hit a self-imposed deadline."
+          },
+          "successCriteria": {
+            "0": "First client's return is accepted without rejection or amendment."
+          },
+          "aiRecommendations": {
+            "0": "Flag missing documents automatically before the appointment, not during it."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "File 200 individual returns in the first full tax season."
+          },
+          "deliverables": {
+            "0": "A hard client cap per preparer set before the season."
+          },
+          "checklist": {
+            "0": "Confirm capacity limits are set before marketing drives more demand than can be served."
+          },
+          "commonMistakes": {
+            "0": "Taking on more clients than seasonal capacity can handle."
+          },
+          "successCriteria": {
+            "0": "200 returns filed with no missed deadlines."
+          },
+          "aiRecommendations": {
+            "0": "Use prior-season timing data to set a realistic client cap for the current season."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Convert a portion of individual clients into year-round tax-planning retainer clients."
+          },
+          "deliverables": {
+            "0": "A mid-year tax-planning check-in sent to every prior-season client."
+          },
+          "checklist": {
+            "0": "Send the mid-year check-in email to the full prior-season client list."
+          },
+          "commonMistakes": {
+            "0": "Only contacting clients during tax season."
+          },
+          "successCriteria": {
+            "0": "At least 5 clients convert to a year-round retainer."
+          },
+          "aiRecommendations": {
+            "0": "Identify likely retainer-conversion candidates automatically from return complexity and business ownership signals."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Hire seasonal contract preparers to expand peak-season capacity."
+          },
+          "deliverables": {
+            "0": "A documented seasonal-preparer training plan."
+          },
+          "checklist": {
+            "0": "Recruit and train seasonal preparers at least 6 weeks before the season."
+          },
+          "commonMistakes": {
+            "0": "Hiring seasonal staff too late to train them properly."
+          },
+          "successCriteria": {
+            "0": "Seasonal preparers independently handle at least 30% of peak-season volume."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted document extraction to shorten the new preparer's ramp-up time."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Add business tax filing and year-round planning retainers as a distinct service line."
+          },
+          "deliverables": {
+            "0": "A distinct offer and pricing sheet for business tax-planning retainers."
+          },
+          "checklist": {
+            "0": "Build the business retainer offer before marketing it broadly."
+          },
+          "commonMistakes": {
+            "0": "Marketing business tax services with the same messaging as individual tax prep."
+          },
+          "successCriteria": {
+            "0": "First business retainer client signed."
+          },
+          "aiRecommendations": {
+            "0": "Segment marketing messaging by individual vs. business audience automatically based on inquiry source."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Package the client list and seasonal workflow documentation for acquisition."
+          },
+          "deliverables": {
+            "0": "Fully documented document-intake-to-e-file process."
+          },
+          "checklist": {
+            "0": "Confirm every step of the seasonal workflow is written down, not just known by the founder."
+          },
+          "commonMistakes": {
+            "0": "Keeping seasonal workflow knowledge undocumented and founder-dependent."
+          },
+          "successCriteria": {
+            "0": "Client list and workflow documentation transfer cleanly to a new owner."
+          },
+          "aiRecommendations": {
+            "0": "Use historical season-over-season volume and retention data as evidence of practice value for buyers."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Growth is seasonal and capacity-constrained — do not suggest tactics that assume year-round even demand."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The Tax and Legal Playbook",
+          "description": "Mark J. Kohler's practical guide to tax strategy for small-business clients."
+        },
+        "item2": {
+          "title": "Enrolled Agent (EA) Exam Prep Course",
+          "description": "The core credentialing path that allows direct tax-authority representation."
+        },
+        "item3": {
+          "title": "National Association of Enrolled Agents (NAEA)",
+          "description": "The main professional association for Enrolled Agents."
+        },
+        "item4": {
+          "title": "The Tax Rep Network Podcast",
+          "description": "Practice-growth and representation strategy for tax professionals."
+        },
+        "item5": {
+          "title": "IRS/tax-authority practitioner update bulletin",
+          "description": "Official regulatory and tax-code change updates for practitioners."
+        },
+        "item6": {
+          "title": "Drake Tax",
+          "description": "The core professional tax-preparation and e-filing platform."
+        },
+        "item7": {
+          "title": "UltraTax CS",
+          "description": "An alternative professional tax-software platform for more complex returns."
+        },
+        "item8": {
+          "title": "AI-assisted tax-document data extraction",
+          "description": "Speeds up data entry from scanned W-2s, 1099s, and receipts."
+        },
+        "item9": {
+          "title": "Enrolled Agent (EA)",
+          "description": "The credential this practice is built around — the only one that grants unlimited practice rights before the tax authority."
+        },
+        "item10": {
+          "title": "NAEA National Tax Practice Institute",
+          "description": "Annual continuing-education event for Enrolled Agents."
+        },
+        "item11": {
+          "title": "NAEA mentor-matching program",
+          "description": "Pairs new Enrolled Agents with an experienced practice-owner mentor."
+        },
+        "item12": {
+          "title": "Client document-intake checklist by return type",
+          "description": "Ensures every client submits complete documentation before the appointment."
+        },
+        "aiMetadata": {
+          "generationHints": "Favor Enrolled Agent credentialing and representation-rights resources over generic tax-software marketing content."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Converting even a small fraction of seasonal individual clients into year-round business retainers meaningfully smooths cash flow."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A software outage or personal illness during peak season has an outsized impact given how concentrated the revenue window is."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Competing purely on price against self-service software instead of on complexity-handling and representation rights."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "A free \"which deductions am I missing\" mini-review converts warm referrals faster than any paid ad."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Recruit and train seasonal preparers at least 6 weeks before the season, not during the rush."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Set a hard client cap per preparer before the season starts — quality erodes fast past a certain volume."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Practices that send a mid-year tax-planning check-in retain more clients season over season than those that go quiet after filing."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Most clients switch preparers not over price, but after a missed deadline or an unexplained tax-authority notice."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Professional tax-software license renewal fees rise every year and are easy to underbudget."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Demand for representation before the tax authority (audits, notices) is rising as automated filing increases the volume of flagged returns."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A solo Enrolled Agent grew from 50 to 250 individual returns in 3 seasons purely through referrals and local SEO."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A practice that took on too many clients in its first season missed several filing deadlines and lost most of that client base the following year."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Can I run this business remotely?",
+            "answer": "Yes — most document exchange and return preparation can be done fully remotely through a secure client portal."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "AI tax software will fully replace human tax preparers within a few years.",
+            "fact": "AI automates simple returns well, but complex situations and tax-authority representation still require a credentialed human."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Confirm the actual filing deadline with every client before promising any turnaround time."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep all guidance at the level of running/growing the practice — never give specific tax advice for an end client's actual return."
+        }
+      }
+    }
   }
 }

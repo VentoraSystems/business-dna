@@ -1,0 +1,912 @@
+{
+  "identity": {
+    "id": "6f1a2b3c-0004-4a11-9e10-000000000004",
+    "slug": "tax-consultancy",
+    "version": "1.0.0",
+    "name": {
+      "en": "Ledgerline Tax Advisors",
+      "ro": "Ledgerline Tax Advisors"
+    },
+    "tagline": {
+      "en": "Every deduction found. Every deadline met.",
+      "ro": "Fiecare deducere găsită. Fiecare termen respectat."
+    },
+    "createdAt": "2026-07-09T00:00:00.000Z",
+    "updatedAt": "2026-07-09T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theSpecialist",
+      "theOperator"
+    ],
+    "summary": {
+      "en": "Best suited to a detail-driven specialist who thrives under seasonal deadline pressure and enjoys the technical puzzle of the tax code.",
+      "ro": "Potrivită unui specialist orientat spre detalii, care prosperă sub presiunea termenelor sezoniere și se bucură de provocarea tehnică a codului fiscal."
+    },
+    "minimumExperienceYears": 3
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 6000,
+      "maxInvestment": 20000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 1000,
+      "ongoingMonthlyCostMax": 3000,
+      "notes": {
+        "en": "Covers Enrolled Agent exam/credentialing, professional tax-prep software licenses, and e-filing system fees.",
+        "ro": "Acoperă examenul/atestarea de Enrolled Agent, licențele software profesionale pentru declarații fiscale și taxele sistemului de depunere electronică."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "eaCredentialingExam",
+          "label": {
+            "en": "Enrolled Agent exam and credentialing fees",
+            "ro": "Taxe de examen și atestare Enrolled Agent"
+          },
+          "typicalMin": 500,
+          "typicalMax": 1500
+        },
+        {
+          "key": "professionalTaxSoftware",
+          "label": {
+            "en": "Professional tax-preparation software license (first year)",
+            "ro": "Licență software profesional de întocmire a declarațiilor fiscale (primul an)"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        },
+        {
+          "key": "eFilingSystemSetup",
+          "label": {
+            "en": "E-filing system setup and PTIN/EFIN registration",
+            "ro": "Configurarea sistemului de depunere electronică și înregistrarea codurilor de practician"
+          },
+          "typicalMin": 300,
+          "typicalMax": 900
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "taxSoftwareSubscription",
+          "label": {
+            "en": "Professional tax-software annual subscription (amortized monthly)",
+            "ro": "Abonament anual software fiscal profesional (amortizat lunar)"
+          },
+          "typicalMonthlyMin": 200,
+          "typicalMonthlyMax": 600
+        },
+        {
+          "key": "seasonalContractStaff",
+          "label": {
+            "en": "Seasonal contract preparer wages",
+            "ro": "Salarii pentru personal contractual sezonier"
+          },
+          "typicalMonthlyMin": 0,
+          "typicalMonthlyMax": 2500
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "individualTaxPrepFee",
+          "label": {
+            "en": "Individual tax return preparation fee",
+            "ro": "Taxă pentru întocmirea declarației fiscale individuale"
+          }
+        },
+        {
+          "key": "businessTaxFilingRetainer",
+          "label": {
+            "en": "Business tax filing retainer",
+            "ro": "Abonament pentru depunerea declarației fiscale a firmei"
+          }
+        },
+        {
+          "key": "taxPlanningEngagement",
+          "label": {
+            "en": "Year-round tax planning and strategy engagement",
+            "ro": "Angajament de planificare și strategie fiscală pe tot parcursul anului"
+          }
+        },
+        {
+          "key": "representationFee",
+          "label": {
+            "en": "Tax-authority audit representation fee",
+            "ro": "Taxă de reprezentare în fața autorității fiscale"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 4000,
+      "targetMonthlyIncomeMax": 16000,
+      "breakEvenTimelineMonths": 6,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "fast",
+      "notes": {
+        "en": "Tax season produces a concentrated cash-flow surge over a few months rather than a steady year-round drip.",
+        "ro": "Sezonul fiscal produce un aflux concentrat de numerar pe parcursul câtorva luni, nu un flux constant pe tot anul."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "none",
+    "onlineOffline": "hybrid",
+    "salesChannel": "both",
+    "minWeeklyHours": 25,
+    "maxWeeklyHours": 60,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 4
+      },
+      {
+        "key": "marketing",
+        "rating": 4
+      },
+      {
+        "key": "leadership",
+        "rating": 5
+      },
+      {
+        "key": "communication",
+        "rating": 7
+      },
+      {
+        "key": "negotiation",
+        "rating": 6
+      },
+      {
+        "key": "finance",
+        "rating": 10
+      },
+      {
+        "key": "operations",
+        "rating": 8
+      },
+      {
+        "key": "technology",
+        "rating": 6
+      },
+      {
+        "key": "automation",
+        "rating": 5
+      },
+      {
+        "key": "ai",
+        "rating": 5
+      },
+      {
+        "key": "programming",
+        "rating": 3
+      },
+      {
+        "key": "management",
+        "rating": 6
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 45
+      },
+      {
+        "key": "visionary",
+        "score": 30
+      },
+      {
+        "key": "operator",
+        "score": 70
+      },
+      {
+        "key": "creator",
+        "score": 20
+      },
+      {
+        "key": "seller",
+        "score": 35
+      },
+      {
+        "key": "leader",
+        "score": 45
+      },
+      {
+        "key": "analyst",
+        "score": 95
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": true,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": true,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": true,
+    "isFranchisable": true,
+    "isRecessionResistant": true
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate",
+      "notes": {
+        "en": "Seasonal capacity constraints cap how many returns one preparer can handle during peak months.",
+        "ro": "Constrângerile de capacitate sezonieră limitează numărul de declarații pe care un practician le poate gestiona în lunile de vârf."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate"
+    },
+    "aiResistance": {
+      "level": "low"
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "AI-assisted and self-service tax software increasingly automates simple individual returns.",
+          "ro": "Software-ul fiscal asistat de AI și de auto-servire automatizează tot mai mult declarațiile individuale simple."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Shift the service mix toward complex returns, business filings, and year-round tax planning.",
+          "ro": "Deplasează mixul de servicii către declarații complexe, depuneri pentru firme și planificare fiscală pe tot parcursul anului."
+        }
+      },
+      {
+        "description": {
+          "en": "Revenue is heavily concentrated in a few months of the year.",
+          "ro": "Venitul este puternic concentrat în câteva luni ale anului."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Build a year-round tax-planning retainer offer to smooth cash flow.",
+          "ro": "Construiește o ofertă de abonament de planificare fiscală pe tot parcursul anului, pentru a netezi fluxul de numerar."
+        }
+      },
+      {
+        "description": {
+          "en": "Tax-code changes require retraining and software updates every year.",
+          "ro": "Modificările codului fiscal necesită reinstruire și actualizări software în fiecare an."
+        },
+        "severity": "low",
+        "mitigation": {
+          "en": "Budget annual continuing-education hours as a fixed cost of doing business.",
+          "ro": "Bugetează orele anuale de educație continuă ca un cost fix al activității."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Every deduction found, every deadline met — technical tax expertise without the big-firm price tag.",
+        "ro": "Fiecare deducere găsită, fiecare termen respectat — expertiză fiscală tehnică fără prețul unei firme mari."
+      },
+      "channels": [
+        {
+          "channelType": "referralProgram",
+          "description": {
+            "en": "Referrals from existing clients and local accountants who don't handle complex tax filings.",
+            "ro": "Recomandări de la clienți existenți și contabili locali care nu se ocupă de declarații fiscale complexe."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "seo",
+          "description": {
+            "en": "Local search optimization for \"tax preparer near me\" and seasonal filing-deadline searches.",
+            "ro": "Optimizare pentru căutări locale precum „consultant fiscal lângă mine” și căutări sezoniere despre termenele de depunere."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "emailMarketing",
+          "description": {
+            "en": "Year-round tax-tip newsletter to keep clients engaged outside tax season.",
+            "ro": "Newsletter cu sfaturi fiscale pe tot parcursul anului, pentru a menține clienții implicați în afara sezonului fiscal."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "low"
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "Seasonal, largely transactional first engagement that converts into a repeat, once-a-year relationship.",
+        "ro": "Un prim angajament sezonier, în mare parte tranzacțional, care se transformă într-o relație repetată, anuală."
+      },
+      "salesCycleLengthDays": 14,
+      "pricingModel": {
+        "en": "Flat fee per return-complexity tier for individuals; retainer for business clients.",
+        "ro": "Taxă fixă pe nivel de complexitate a declarației pentru persoane fizice; abonament pentru clienți firme."
+      }
+    },
+    "salesComplexity": {
+      "level": "low"
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Document collection and organization from clients.",
+          "ro": "Colectarea și organizarea documentelor de la clienți."
+        },
+        {
+          "en": "Return preparation and internal review.",
+          "ro": "Întocmirea declarației și revizuirea internă."
+        },
+        {
+          "en": "E-filing and confirmation tracking.",
+          "ro": "Depunerea electronică și urmărirea confirmării."
+        },
+        {
+          "en": "Year-round tax-planning check-ins for retainer clients.",
+          "ro": "Verificări de planificare fiscală pe tot parcursul anului pentru clienții cu abonament."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "During tax season: document intake, return preparation, and client Q&A. Off-season: tax planning and client relationship maintenance.",
+        "ro": "În sezonul fiscal: primirea documentelor, întocmirea declarațiilor și întrebări ale clienților. În afara sezonului: planificare fiscală și menținerea relației cu clienții."
+      }
+    },
+    "automation": {
+      "level": "moderate"
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "documentDataExtraction",
+          "description": {
+            "en": "AI-assisted extraction of data from scanned tax documents (W-2s, 1099s, receipts).",
+            "ro": "Extragere asistată de AI a datelor din documente fiscale scanate."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "deductionFinding",
+          "description": {
+            "en": "Software-assisted deduction and credit identification during return preparation.",
+            "ro": "Identificare a deducerilor și creditelor asistată de software, în timpul întocmirii declarației."
+          },
+          "maturity": "coreToModel"
+        }
+      ],
+      "aiDependencyLevel": "moderate"
+    },
+    "recommendedTools": [
+      {
+        "name": "Drake Tax",
+        "category": "professionalTaxSoftware",
+        "isRequired": true,
+        "websiteUrl": "https://www.drakesoftware.com/"
+      },
+      {
+        "name": "Lacerte",
+        "category": "professionalTaxSoftware",
+        "isRequired": false,
+        "websiteUrl": "https://accountants.intuit.com/tax/lacerte/"
+      },
+      {
+        "name": "UltraTax CS",
+        "category": "professionalTaxSoftware",
+        "isRequired": false,
+        "websiteUrl": "https://tax.thomsonreuters.com/en/ultratax-cs"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30
+    },
+    "scaling": {
+      "path": {
+        "en": "Convert seasonal individual tax clients into year-round business tax-planning retainer clients to smooth revenue across the year.",
+        "ro": "Transformă clienții sezonieri de declarații individuale în clienți cu abonament de planificare fiscală pe tot parcursul anului, pentru a netezi veniturile de-a lungul anului."
+      },
+      "bottlenecks": [
+        {
+          "en": "Extreme capacity constraints during peak tax-filing weeks.",
+          "ro": "Constrângeri extreme de capacitate în săptămânile de vârf ale depunerii fiscale."
+        },
+        {
+          "en": "Finding qualified seasonal contract preparers.",
+          "ro": "Găsirea unor practicieni contractuali sezonieri calificați."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 12,
+          "description": {
+            "en": "200 individual returns filed in the first full tax season.",
+            "ro": "200 de declarații individuale depuse în primul sezon fiscal complet."
+          }
+        },
+        {
+          "monthsFromLaunch": 24,
+          "description": {
+            "en": "10 business clients on a year-round tax-planning retainer.",
+            "ro": "10 clienți firme pe abonament de planificare fiscală pe tot parcursul anului."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Enrolled Agent (EA) credential allows direct representation before the tax authority, unlike unlicensed preparers.",
+          "ro": "Titlul de Enrolled Agent permite reprezentarea directă în fața autorității fiscale, spre deosebire de practicienii neautorizați."
+        }
+      },
+      {
+        "description": {
+          "en": "Fast e-file turnaround during peak season builds a strong word-of-mouth reputation.",
+          "ro": "Timpul rapid de depunere electronică în sezonul de vârf construiește o reputație solidă prin recomandări verbale."
+        }
+      },
+      {
+        "description": {
+          "en": "Transparent, flat per-complexity-tier pricing avoids the biggest client objection: an unpredictable bill.",
+          "ro": "Prețurile transparente, fixe, pe niveluri de complexitate, evită cea mai mare obiecție a clienților: o factură imprevizibilă."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A seasonal individual and business tax-preparation practice built on an Enrolled Agent credential, fast e-filing, and a path to year-round tax-planning retainers.",
+        "ro": "O practică sezonieră de întocmire a declarațiilor fiscale pentru persoane fizice și firme, construită pe titlul de Enrolled Agent, depunere electronică rapidă și un traseu către abonamente de planificare fiscală pe tot parcursul anului."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.taxConsultancy.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.taxConsultancy.businessDna.resources.community1"
+      },
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.taxConsultancy.businessDna.resources.book1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.taxConsultancy.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "arr",
+        "targetDescription": {
+          "en": "Grow total annual revenue across the seasonal individual and year-round business segments.",
+          "ro": "Crește venitul anual total pe segmentele sezoniere individuale și cele de firme pe tot parcursul anului."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Maintain gross margin above 50% despite seasonal staffing costs.",
+          "ro": "Menține marja brută peste 50%, în ciuda costurilor de personal sezonier."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert at least half of referral inquiries into a signed engagement.",
+          "ro": "Transformă cel puțin jumătate din solicitările de recomandare într-un angajament semnat."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep year-over-year individual-client return rate above 75%.",
+          "ro": "Menține rata de revenire a clienților individuali de la an la an peste 75%."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "finance",
+          "importance": 5
+        },
+        {
+          "key": "management",
+          "importance": 3
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "communication",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "detailOriented",
+          "importance": 5
+        },
+        {
+          "trait": "analytical",
+          "importance": 5
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "resilient",
+          "importance": 4
+        }
+      ],
+      "requiredBudget": {
+        "min": 6000,
+        "max": 20000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 8000,
+        "max": 16000,
+        "currency": "EUR"
+      },
+      "riskProfile": "low",
+      "timeAvailability": {
+        "minWeeklyHours": 25,
+        "maxWeeklyHours": 60
+      },
+      "communicationStyle": [
+        "precise",
+        "responsive"
+      ],
+      "technicalLevel": 4,
+      "leadershipLevel": 2,
+      "creativityLevel": 1,
+      "salesAffinity": 2,
+      "automationAffinity": 4,
+      "remotePreference": "hybrid",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theSpecialist",
+        "theOperator"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the Enrolled Agent credential and IRS/tax-authority representation rights in the Executive Summary — the clearest differentiator from unlicensed preparers.",
+      "ro": "Evidențiază titlul de Enrolled Agent și dreptul de reprezentare în fața autorității fiscale în Rezumatul executiv — cel mai clar diferențiator față de practicienii neautorizați."
+    },
+    "marketingHints": {
+      "en": "Seasonal urgency around filing deadlines is a legitimate, real driver here — unlike other regulated businesses, deadline-based messaging is appropriate.",
+      "ro": "Urgența sezonieră legată de termenele de depunere este un factor real și legitim aici — spre deosebire de alte afaceri reglementate, mesajele bazate pe termen sunt potrivite."
+    },
+    "financialHints": {
+      "en": "Model revenue as seasonally concentrated, not evenly spread across the year.",
+      "ro": "Modelează venitul ca fiind concentrat sezonier, nu distribuit uniform pe parcursul anului."
+    },
+    "generationHints": {
+      "en": "Tone should be precise and responsive — clients are often anxious about deadlines and want reassurance paired with competence.",
+      "ro": "Tonul ar trebui să fie precis și receptiv — clienții sunt adesea anxioși legat de termene și doresc liniștire combinată cu competență."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Obtain Enrolled Agent credentialing and set up professional tax software.",
+            "ro": "Obține atestarea de Enrolled Agent și configurează software-ul fiscal profesional."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Underestimating how long EA credentialing and e-filing registration takes.",
+            "ro": "Subestimarea duratei atestării EA și a înregistrării pentru depunere electronică."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Start the EA credentialing process well before the next tax season.",
+            "ro": "Începe procesul de atestare EA cu mult timp înainte de următorul sezon fiscal."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.taxConsultancy.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Prepare returns for the first 10-15 clients, even at a discounted rate.",
+            "ro": "Întocmește declarații pentru primii 10-15 clienți, chiar și la un preț redus."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Underpricing so heavily that peak-season margins don't cover the workload.",
+            "ro": "Subevaluarea prețului atât de mult încât marjele din sezonul de vârf nu acoperă volumul de muncă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Time each return to build an accurate per-complexity-tier pricing model.",
+            "ro": "Cronometrează fiecare declarație pentru a construi un model de preț precis pe niveluri de complexitate."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Standardize the document-intake-to-e-file workflow.",
+            "ro": "Standardizează fluxul de la colectarea documentelor la depunerea electronică."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Accepting documents in inconsistent formats that slow down preparation.",
+            "ro": "Acceptarea documentelor în formate inconsecvente, care încetinesc întocmirea."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Give every client the same structured document checklist before their appointment.",
+            "ro": "Oferă fiecărui client aceeași listă structurată de documente înainte de programare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.taxConsultancy.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Announce availability ahead of the upcoming tax season.",
+            "ro": "Anunță disponibilitatea înaintea sezonului fiscal următor."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching marketing too close to the filing deadline to convert new clients in time.",
+            "ro": "Lansarea marketingului prea aproape de termenul de depunere pentru a converti la timp clienți noi."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Start local-SEO and referral outreach at least 8 weeks before the season starts.",
+            "ro": "Începe activitățile de SEO local și de recomandări cu cel puțin 8 săptămâni înainte de startul sezonului."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Deliver the first accurate, on-time e-filed return.",
+            "ro": "Livrează prima declarație depusă electronic, corectă și la timp."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Rushing a complex return to hit a self-imposed deadline instead of the client's actual one.",
+            "ro": "Grăbirea unei declarații complexe pentru a respecta un termen auto-impus, în loc de termenul real al clientului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the actual filing deadline with the client before promising a turnaround time.",
+            "ro": "Confirmă termenul real de depunere cu clientul înainte de a promite un timp de livrare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "File 200 individual returns in the first full tax season.",
+            "ro": "Depune 200 de declarații individuale în primul sezon fiscal complet."
+          }
+        ],
+        "kpis": [
+          "arr",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Taking on more clients than seasonal capacity can handle without quality slipping.",
+            "ro": "Acceptarea mai multor clienți decât poate gestiona capacitatea sezonieră, fără a scădea calitatea."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Set a hard client cap per preparer before the season starts.",
+            "ro": "Stabilește un plafon strict de clienți per practician înainte de startul sezonului."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Convert a portion of individual clients into year-round tax-planning retainer clients.",
+            "ro": "Transformă o parte din clienții individuali în clienți cu abonament de planificare fiscală pe tot parcursul anului."
+          }
+        ],
+        "kpis": [
+          "arr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Only contacting clients during tax season, missing off-season planning opportunities.",
+            "ro": "Contactarea clienților doar în sezonul fiscal, ratând oportunitățile de planificare din afara sezonului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Send a mid-year tax-planning check-in to every prior-season client.",
+            "ro": "Trimite o verificare de planificare fiscală la mijlocul anului fiecărui client din sezonul anterior."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Hire seasonal contract preparers to expand peak-season capacity.",
+            "ro": "Angajează practicieni contractuali sezonieri pentru a extinde capacitatea din sezonul de vârf."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring seasonal staff too late to train them properly before the rush.",
+            "ro": "Angajarea personalului sezonier prea târziu pentru a-l instrui corespunzător înainte de aglomerație."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Recruit and train seasonal preparers at least 6 weeks before the season starts.",
+            "ro": "Recrutează și instruiește practicienii sezonieri cu cel puțin 6 săptămâni înainte de startul sezonului."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Add business tax filing and year-round planning retainers as a distinct service line.",
+            "ro": "Adaugă depunerea fiscală pentru firme și abonamentele de planificare pe tot parcursul anului ca linie de servicii distinctă."
+          }
+        ],
+        "kpis": [
+          "arr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Marketing business tax services with the same messaging as individual tax prep.",
+            "ro": "Promovarea serviciilor fiscale pentru firme cu același mesaj ca întocmirea declarațiilor individuale."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a distinct offer and pricing sheet for business tax-planning retainers.",
+            "ro": "Construiește o ofertă și o grilă de prețuri distincte pentru abonamentele de planificare fiscală pentru firme."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Package the client list and seasonal workflow documentation for acquisition by a larger tax practice.",
+            "ro": "Pregătește lista de clienți și documentația fluxului sezonier pentru achiziție de către o practică fiscală mai mare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping seasonal workflow knowledge undocumented and founder-dependent.",
+            "ro": "Menținerea cunoștințelor despre fluxul sezonier nedocumentate și dependente de fondator."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document the full document-intake-to-e-file process so it's transferable to a new owner.",
+            "ro": "Documentează întregul proces, de la colectarea documentelor la depunerea electronică, astfel încât să fie transferabil unui nou proprietar."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

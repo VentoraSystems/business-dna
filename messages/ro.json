@@ -883,5 +883,1832 @@
       "required": "Acest câmp este obligatoriu.",
       "invalidEmail": "Introdu o adresă de email validă."
     }
+  },
+  "businessLibrary": {
+    "accountingFirm": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: „The E-Myth Accountant” de Michael E. Gerber și J. C. Hair",
+          "course1": "Curs: Certificare QuickBooks Online ProAdvisor",
+          "community1": "Comunitate: r/accounting și forumul comunității QuickBooks Accountant",
+          "checklist1": "Listă de verificare: Închiderea de sfârșit de lună"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune o creștere constantă a clienților cu abonament, nu un vârf viral — tipic pentru practicile de contabilitate bazate pe recomandări."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — punctul de echilibru real depinde de ritmul de achiziție a clienților."
+        },
+        "grossMargin": {
+          "notes": "Estimare după angajarea unui contabil part-time; marjele în regim solo sunt mai mari."
+        },
+        "netMargin": {
+          "notes": "După software, asigurare, educație continuă și salarii."
+        },
+        "scenarios": {
+          "conservative": "6 clienți cu abonament la nivelul de bază, flux lent de recomandări.",
+          "expected": "12 clienți cu abonament pe niveluri mixte, plus venituri sezoniere din declarații fiscale.",
+          "optimistic": "Peste 18 clienți cu abonament, plus un contract activ de CFO fracționat."
+        },
+        "risks": {
+          "risk1": "Plecarea unui client mare la mijlocul anului creează un gol imediat de venit.",
+          "risk2": "Costurile de personal din sezonul fiscal cresc mai rapid decât veniturile din acel sezon."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează creșterea veniturilor ca fiind liniară și bazată pe abonamente, nu exponențială."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Departamentul financiar externalizat pentru fondatorii care preferă să-și construiască afacerea în loc să-și reconcilieze conturile.",
+          "category": "Contabilitate și evidență financiară pentru firme mici"
+        },
+        "brandPromise": "Contul tău se închide în 5 zile lucrătoare, în fiecare lună, fără niciun efort din partea ta.",
+        "uvp": {
+          "statement": "Contabilitate certificată ProAdvisor, cu prețuri transparente pe niveluri fixe și dată de închidere garantată.",
+          "diff1": "Închidere de lună garantată în 5 zile lucrătoare",
+          "diff2": "Prețuri fixe, pe niveluri, fără facturi surpriză"
+        },
+        "icp": {
+          "description": "Firme mici și startup-uri cu 2-50 de angajați care au depășit stadiul foii de calcul, dar nu sunt încă pregătite pentru un controller intern.",
+          "firmographics": "Venit anual de 200.000-3.000.000 EUR, firme de servicii sau e-commerce."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Fondator de startup ocupat",
+            "description": "Fondator care și-a ținut singur contabilitatea într-o foaie de calcul și tocmai a închis o rundă de finanțare."
+          },
+          "persona2": {
+            "name": "Proprietar de IMM consacrat",
+            "description": "Proprietar al unei afaceri de 10 ani, nemulțumit de viteza redusă a contabilului actual."
+          }
+        },
+        "painPoints": {
+          "point1": "Contabilitatea este mereu întârziată cu săptămâni, deciziile fiind luate pe cifre învechite.",
+          "point2": "Facturi fiscale surpriză, pentru că nimeni nu a urmărit estimările trimestriale."
+        },
+        "outcomes": {
+          "outcome1": "Cunoașterea poziției reale de numerar în orice moment, nu doar la finalul anului.",
+          "outcome2": "Niciodată să nu rateze un termen de depunere sau să datoreze o penalitate surpriză."
+        },
+        "messaging": {
+          "core": "Nu mai alerga după contabilitate. Las-o să se închidă singură, la timp, în fiecare lună.",
+          "support1": "Contabili certificați ProAdvisor, nu un call-center."
+        },
+        "brandVoice": {
+          "tone": "Precis, calm și liniștitor.",
+          "attr1": "Exact",
+          "attr2": "Fără grabă"
+        },
+        "contentPillars": {
+          "pillar1": "Termene fiscale și mementouri de conformitate pentru firme mici",
+          "pillar2": "Igiena contabilă și vizibilitatea fluxului de numerar"
+        },
+        "channelStrategy": "Recomandările de la avocați, consultanți de afaceri și clienți existenți sunt principale; conținutul SEO local și sponsorizările la camera de comerț construiesc notorietate secundară.",
+        "community": {
+          "description": "O rețea mică și curatoriată de recomandări între profesioniști complementari (avocați, consultanți de afaceri).",
+          "platform1": "Camera de comerț locală"
+        },
+        "leadMagnets": {
+          "magnet1": "Evaluare gratuită de 30 de minute a stării contabilității"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Introducere prin recomandare",
+            "description": "Un contact de încredere face prezentarea prospectului."
+          },
+          "stage2": {
+            "name": "Evaluarea stării contabilității",
+            "description": "Analiză gratuită a contabilității actuale și a problemelor."
+          },
+          "stage3": {
+            "name": "Propunere pe niveluri",
+            "description": "O propunere cu preț fix, potrivită volumului de tranzacții."
+          }
+        },
+        "retention": {
+          "tactic1": "Apel trimestrial de analiză financiară inclus în fiecare abonament."
+        },
+        "analytics": {
+          "metric1": "Rata de conversie recomandare-client"
+        },
+        "aiMetadata": {
+          "generationHints": "Menține fiecare mesaj ancorat în încredere și acuratețe, niciodată în hype."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Obține certificarea de ProAdvisor QuickBooks/Xero.",
+            "1": "Înregistrează-te la corpul profesional local de contabilitate."
+          },
+          "deliverables": {
+            "0": "Poliță de asigurare de răspundere profesională semnată.",
+            "1": "Software de management al practicii configurat."
+          },
+          "checklist": {
+            "0": "Confirmă că autorizația profesională este activă.",
+            "1": "Configurează un portal de documente pentru clienți."
+          },
+          "commonMistakes": {
+            "0": "Renunțarea la asigurarea de răspundere profesională pentru a economisi la început."
+          },
+          "successCriteria": {
+            "0": "Autorizarea și asigurarea sunt ambele active."
+          },
+          "aiRecommendations": {
+            "0": "Prioritizează certificarea ProAdvisor înaintea oricărui marketing plătit."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Semnează 2-3 clienți plătitori cu abonament."
+          },
+          "deliverables": {
+            "0": "Evaluări ale stării contabilității finalizate pentru primii prospecți."
+          },
+          "checklist": {
+            "0": "Cronometrează prima închidere de lună față de promisiunea de 5 zile."
+          },
+          "commonMistakes": {
+            "0": "Reducere de preț atât de mare încât abonamentul devine nesustenabil."
+          },
+          "successCriteria": {
+            "0": "Cel puțin 2 clienți păstrați după primul trimestru."
+          },
+          "aiRecommendations": {
+            "0": "Cere fiecărui client din validare un feedback structurat."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardizează lista de verificare pentru închiderea lunară."
+          },
+          "deliverables": {
+            "0": "Procedură standard de operare documentată pentru onboarding."
+          },
+          "checklist": {
+            "0": "Stochează lista de verificare în instrumentul de management al practicii."
+          },
+          "commonMistakes": {
+            "0": "Personalizarea procesului per client în loc de standardizare."
+          },
+          "successCriteria": {
+            "0": "Fiecare client activ urmează aceeași listă de verificare la închidere."
+          },
+          "aiRecommendations": {
+            "0": "Folosește aceeași listă de verificare la onboarding pentru fiecare client nou, pentru consistență."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Anunță public practica prin rețeaua de recomandări."
+          },
+          "deliverables": {
+            "0": "Profiluri profesionale actualizate (LinkedIn, directorul camerei de comerț)."
+          },
+          "checklist": {
+            "0": "Confirmă că portalul clienților și fluxul de facturare sunt testate integral."
+          },
+          "commonMistakes": {
+            "0": "Lansarea înainte ca fluxul de onboarding să fi fost testat cu un client real."
+          },
+          "successCriteria": {
+            "0": "Prima discuție de recomandare cu public extern programată."
+          },
+          "aiRecommendations": {
+            "0": "Cere fiecărui client din faza incipientă exact o recomandare caldă."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Livrează o primă închidere de lună impecabilă."
+          },
+          "deliverables": {
+            "0": "Scrisoare de angajament semnată și listă de onboarding finalizată."
+          },
+          "checklist": {
+            "0": "Stabilește termene clare de transmitere a documentelor cu clientul."
+          },
+          "commonMistakes": {
+            "0": "Promisiuni exagerate de timp de livrare pentru a câștiga clientul."
+          },
+          "successCriteria": {
+            "0": "Primul client reînnoiește după a treia lună."
+          },
+          "aiRecommendations": {
+            "0": "Automatizează de la început emailurile de reamintire a documentelor."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge 10 clienți cu abonament, cu abandon lunar sub 10%."
+          },
+          "deliverables": {
+            "0": "Segmentarea clienților după volumul de tranzacții și nivelul de serviciu."
+          },
+          "checklist": {
+            "0": "Introdu un criteriu minim de volum de tranzacții pentru clienții noi."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea oricărui prospect indiferent de potrivire."
+          },
+          "successCriteria": {
+            "0": "Venitul din abonamente depășește venitul lunar țintă al fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Semnalează automat prospecții cu potrivire scăzută pe baza volumului de tranzacții."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Angajează primul contabil part-time."
+          },
+          "deliverables": {
+            "0": "Plan de instruire documentat pentru noii angajați."
+          },
+          "checklist": {
+            "0": "Instruiește noul angajat atât în contabilitate, cât și în salarizare."
+          },
+          "commonMistakes": {
+            "0": "Angajare reactivă în perioada aglomerată fiscală."
+          },
+          "successCriteria": {
+            "0": "Noul angajat închide independent contabilitatea pentru cel puțin 5 clienți."
+          },
+          "aiRecommendations": {
+            "0": "Folosește categorizarea chitanțelor asistată de AI pentru a elibera timpul noului angajat pentru verificare."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Lansează nivelul de serviciu de CFO fracționat."
+          },
+          "deliverables": {
+            "0": "Contract și grilă de prețuri distincte pentru CFO fracționat."
+          },
+          "checklist": {
+            "0": "Stabilește prețul nivelului CFO separat de contabilitatea de bază."
+          },
+          "commonMistakes": {
+            "0": "Stabilirea prețului CFO la fel ca pentru contabilitatea de bază."
+          },
+          "successCriteria": {
+            "0": "Cel puțin un client trece la nivelul CFO."
+          },
+          "aiRecommendations": {
+            "0": "Identifică automat candidații pentru upgrade din tiparele de creștere a veniturilor din contabilitatea clienților."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Extinde-te într-un domeniu adiacent, precum contabilitatea pentru vânzători e-commerce."
+          },
+          "deliverables": {
+            "0": "Listă de verificare de onboarding specifică domeniului."
+          },
+          "checklist": {
+            "0": "Validează integrările software ale noului domeniu înainte de a face marketing pentru el."
+          },
+          "commonMistakes": {
+            "0": "Extinderea într-un domeniu nou fără adaptarea onboarding-ului."
+          },
+          "successCriteria": {
+            "0": "Primul client semnat în noul domeniu."
+          },
+          "aiRecommendations": {
+            "0": "Reutilizează lista de verificare existentă ca bază pentru playbook-ul noului domeniu."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Pregătește portofoliul de clienți și procedurile pentru o achiziție de către o firmă mai mare."
+          },
+          "deliverables": {
+            "0": "Proceduri documentate pentru fiecare flux de lucru recurent al clienților."
+          },
+          "checklist": {
+            "0": "Confirmă că fiecare relație cu clientul este documentată, nu dependentă de fondator."
+          },
+          "commonMistakes": {
+            "0": "Menținerea unor relații cu clienții nedocumentate, dependente exclusiv de fondator."
+          },
+          "successCriteria": {
+            "0": "Portofoliul de clienți se transferă curat unui nou proprietar în due diligence."
+          },
+          "aiRecommendations": {
+            "0": "Folosește datele acumulate despre timpul de închidere ca dovadă a calității operaționale pentru cumpărători."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Creșterea este condusă de abonamente și este graduală — nu sugera tactici de creștere virală."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The E-Myth Accountant",
+          "description": "Michael E. Gerber și J. C. Hair despre construirea unei practici de contabilitate scalabile, nu doar despre executarea muncii."
+        },
+        "item2": {
+          "title": "Certificare QuickBooks Online ProAdvisor",
+          "description": "Certificare oficială și gratuită de la Intuit, care deblochează listarea în directorul ProAdvisor."
+        },
+        "item3": {
+          "title": "r/accounting",
+          "description": "Comunitate activă de practicieni pentru întrebări de management al practicii și tehnice."
+        },
+        "item4": {
+          "title": "The Successful Bookkeeper Podcast",
+          "description": "Interviuri despre creșterea practicii, adresate specific proprietarilor de firme de contabilitate."
+        },
+        "item5": {
+          "title": "AccountingWEB Daily Digest",
+          "description": "Alerte zilnice despre modificări de reglementare și cod fiscal pentru practicieni."
+        },
+        "item6": {
+          "title": "QuickBooks Online Accountant",
+          "description": "Platforma principală de management al practicii și contabilitate pentru clienți."
+        },
+        "item7": {
+          "title": "Dext",
+          "description": "Captură de chitanțe și facturi cu OCR, alimentând direct registrul contabil."
+        },
+        "item8": {
+          "title": "Categorizarea AI din Dext",
+          "description": "Categorizare a liniilor de cont asistată de AI, care accelerează închiderea lunară."
+        },
+        "item9": {
+          "title": "Titlul de expert contabil autorizat/certificat",
+          "description": "Acreditarea profesională principală pe care clienții o caută la evaluarea unei firme."
+        },
+        "item10": {
+          "title": "QuickBooks Connect",
+          "description": "Conferință anuală pentru proprietarii de practici de contabilitate."
+        },
+        "item11": {
+          "title": "Program de mentorat al corpului local de experți contabili",
+          "description": "Pune în legătură noii proprietari de practici cu un mentor experimentat din același corp profesional."
+        },
+        "item12": {
+          "title": "Listă de verificare pentru închiderea lunară",
+          "description": "Lista de verificare standardizată folosită pentru a garanta închiderea în 5 zile."
+        },
+        "aiMetadata": {
+          "generationHints": "Preferă resursele care conferă credibilitate profesională (certificări, corpuri profesionale) în locul conținutului de afaceri generic."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Vânzarea unui nivel de CFO fracționat celor mai buni clienți existenți cu abonament este mai ieftină decât achiziția de clienți noi."
+          },
+          "item2": {
+            "title": "Vânzătorii e-commerce sunt frecvent neserviți de contabili generaliști și plătesc un premium pentru contabilitate care ține cont de stocuri."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Un singur termen ratat de plată a impozitului estimat trimestrial pentru un client poate încheia relația instant, indiferent de istoricul tău."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Tarifarea pe oră în loc de pe volum de tranzacții, ceea ce penalizează eficiența."
+          },
+          "item2": {
+            "title": "Acceptarea unor clienți din industrii pe care firma nu le înțelege (ex. retail cu stocuri mari) fără ajustarea procesului."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Oferirea unei evaluări gratuite a stării contabilității convertește recomandările calde mai rapid decât orice prospectare la rece."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Standardizează lista de verificare la închidere înainte de angajare — altfel fiecare angajat nou reinventează procesul."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Limitează orice client unic la sub 20% din venitul lunar recurent, pentru a evita riscul de concentrare."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Firmele care își publică public garanția datei de închidere încheie mai multe contracte din recomandări decât cele care nu o fac."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea proprietarilor de firme mici schimbă contabilul nu din cauza prețului, ci a timpilor de răspuns lenți."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Taxele de reînnoire a creditelor de educație continuă sunt ușor de uitat la bugetarea primului an."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cererea pentru contabilitate e-commerce și multi-valutară crește mai rapid decât cererea pentru contabilitatea tradițională de retail cu o singură locație."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "O practică de o singură persoană a ajuns la 25 de clienți cu abonament în 2 ani doar prin recomandări, fără nicio publicitate plătită."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "O practică care a acceptat prea mulți clienți cu marjă mică și volum mare de tranzacții și-a epuizat singurul contabil în mai puțin de un an."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Am nevoie de un birou fizic pentru a începe?",
+            "answer": "Nu — majoritatea muncii cu clienții se poate face de la distanță printr-un portal cloud de management al practicii."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "AI va face contabilii obsoleți în câțiva ani.",
+            "fact": "AI automatizează munca de categorizare tranzacțională, dar judecata de consultanță și încrederea clienților rămân conduse de oameni în viitorul apropiat."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Trimite automat mementouri de solicitare a documentelor cu 5 zile lucrătoare înainte de termenul de închidere."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează toate recomandările la nivelul administrării/creșterii firmei — nu oferi niciodată sfaturi fiscale sau contabile specifice pentru dosarul real al unui client final."
+        }
+      }
+    },
+    "financialConsultancy": {
+      "businessDna": {
+        "resources": {
+          "course1": "Curs: Programul de certificare CFP (Certified Financial Planner)",
+          "community1": "Comunitate: Filiala locală a Financial Planning Association (FPA)",
+          "book1": "Carte: „The Million-Dollar Financial Advisor” de David J. Mullen Jr.",
+          "checklist1": "Listă de verificare: Reactualizarea anuală completă a planului"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune o creștere lentă la început, care se acumulează pe măsură ce AUM și recomandările cresc de-a lungul anilor, nu o creștere rapidă."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — punctul de echilibru real depinde puternic de viteza de dezvoltare a rețelei de recomandări."
+        },
+        "grossMargin": {
+          "notes": "Marjă ridicată odată ce AUM este stabilit, deoarece costul marginal de deservire a clienților este scăzut."
+        },
+        "netMargin": {
+          "notes": "După costurile de conformitate, asigurare și software."
+        },
+        "scenarios": {
+          "conservative": "Câțiva clienți timpurii, AUM încă sub primul prag semnificativ.",
+          "expected": "Flux constant de recomandări, AUM peste 5 milioane EUR, cu un mix de clienți AUM și taxă fixă.",
+          "optimistic": "Rețea puternică de centre de influență și un consultant junior care generează venit suplimentar din partajarea onorariilor."
+        },
+        "risks": {
+          "risk1": "O recesiune de piață prelungită reduce veniturile din comisioane bazate pe AUM la nivelul întregii baze de clienți simultan.",
+          "risk2": "Modificările de reglementare sau de autorizare pot necesita actualizări costisitoare de conformitate."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul ca fiind lent la construire și dependent de AUM, sensibil la ciclurile de piață."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Planuri financiare construite pentru decenii, nu pentru trimestre — consultanță fiduciară, doar pe bază de onorariu, fără conflicte de comision.",
+          "category": "Planificare financiară și consultanță patrimonială exclusiv pe bază de onorariu"
+        },
+        "brandPromise": "Un plan construit în jurul obiectivelor tale, revizuit trimestrial, fără comisioane care să umbrească sfaturile.",
+        "uvp": {
+          "statement": "Planificare fiduciară certificată CFP, exclusiv pe bază de onorariu, cu un ritm personalizat de revizuire trimestrială.",
+          "diff1": "Exclusiv pe bază de onorariu — fără conflicte de interese din comisioane",
+          "diff2": "Standard fiduciar certificat CFP"
+        },
+        "icp": {
+          "description": "Persoane apropiate de pensionare și proprietari de afaceri care planifică o ieșire, de obicei cu vârste între 45-65 de ani și active investibile semnificative.",
+          "firmographics": "Peste 250.000 EUR active investibile sau o ieșire din afacere la orizont."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Planificator apropiat de pensionare",
+            "description": "Cineva la 5-10 ani de pensionare, nesigur dacă economiile sale sunt pe drumul cel bun."
+          },
+          "persona2": {
+            "name": "Proprietar de afacere care planifică o ieșire",
+            "description": "Proprietar care se pregătește să-și vândă afacerea și are nevoie de un plan pentru sumele obținute."
+          }
+        },
+        "painPoints": {
+          "point1": "Nu știu dacă economiile actuale susțin stilul de viață dorit la pensionare.",
+          "point2": "Neîncredere în consultanții bazați pe comision, care ar putea recomanda produse avantajoase pentru ei înșiși."
+        },
+        "outcomes": {
+          "outcome1": "Un plan clar, scris, cu un indicator specific de pregătire pentru pensionare.",
+          "outcome2": "Încrederea că sfaturile primite nu au niciun stimulent ascuns de comision."
+        },
+        "messaging": {
+          "core": "Un plan pentru viața pe care chiar vrei să o ai la pensie, de la un consultant care nu-ți vinde nimic altceva decât sfaturi.",
+          "support1": "Certificat CFP, exclusiv pe onorariu, fiduciar — întotdeauna."
+        },
+        "brandVoice": {
+          "tone": "Măsurat, bazat pe acreditări, orientat pe termen lung.",
+          "attr1": "Demn de încredere",
+          "attr2": "Fără grabă"
+        },
+        "contentPillars": {
+          "pillar1": "Elementele fundamentale ale pregătirii pentru pensionare",
+          "pillar2": "Planificarea financiară pentru ieșirea din afacere"
+        },
+        "channelStrategy": "Recomandările de la contabili și avocați de succesiuni sunt principale; seminariile educaționale mici construiesc încredere secundară; conținutul amplu construiește o rază organică experimentală.",
+        "community": {
+          "description": "O rețea de centre de influență formată din contabili și avocați de succesiuni care își recomandă reciproc clienți.",
+          "platform1": "Filiala locală a Financial Planning Association"
+        },
+        "leadMagnets": {
+          "magnet1": "Întâlnire gratuită de descoperire a pregătirii pentru pensionare"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Introducere prin recomandare",
+            "description": "Un contabil sau avocat de încredere face prezentarea."
+          },
+          "stage2": {
+            "name": "Întâlnirea de descoperire",
+            "description": "Evaluare gratuită a obiectivelor și activelor."
+          },
+          "stage3": {
+            "name": "Propunerea planului financiar",
+            "description": "O propunere de angajament cu taxă fixă sau bazată pe AUM."
+          }
+        },
+        "retention": {
+          "tactic1": "Întâlniri trimestriale de revizuire a portofoliului, programate cu un an în avans."
+        },
+        "analytics": {
+          "metric1": "Rata de conversie pe sursă de recomandare, per partener profesional"
+        },
+        "aiMetadata": {
+          "generationHints": "Nu genera niciodată mesaje bazate pe urgență sau raritate — acest public cumpără pe baza încrederii construite în ani."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Obține certificarea CFP și finalizează autorizarea de reglementare."
+          },
+          "deliverables": {
+            "0": "Poliță de asigurare E&O semnată și documentație a programului de conformitate."
+          },
+          "checklist": {
+            "0": "Confirmă că autorizarea este aprobată în fiecare jurisdicție deservită."
+          },
+          "commonMistakes": {
+            "0": "Subestimarea termenelor de aprobare a autorizării."
+          },
+          "successCriteria": {
+            "0": "Autorizarea și programul de conformitate sunt ambele active."
+          },
+          "aiRecommendations": {
+            "0": "Începe procesul de autorizare cu luni înainte de data de lansare planificată."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Finalizează planuri financiare pentru 3-5 clienți din faza incipientă."
+          },
+          "deliverables": {
+            "0": "Motivație documentată pentru fiecare recomandare timpurie."
+          },
+          "checklist": {
+            "0": "Folosește șablonul standard de plan chiar și pentru clienții timpurii, informali."
+          },
+          "commonMistakes": {
+            "0": "Omiterea documentației la angajamentele timpurii, informale."
+          },
+          "successCriteria": {
+            "0": "Cel puțin 3 planuri financiare finalizate și documentate."
+          },
+          "aiRecommendations": {
+            "0": "Folosește software-ul de redactare a planurilor încă din primul angajament pentru un istoric consecvent."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardizează fluxul de la întâlnirea de descoperire la plan."
+          },
+          "deliverables": {
+            "0": "Un șablon de plan financiar reutilizabil în software-ul de planificare."
+          },
+          "checklist": {
+            "0": "Stochează șablonul central, astfel încât fiecare plan să pornească de la aceeași structură."
+          },
+          "commonMistakes": {
+            "0": "Reinventarea formatului planului pentru fiecare client."
+          },
+          "successCriteria": {
+            "0": "Planul fiecărui client nou pornește de la șablonul standard."
+          },
+          "aiRecommendations": {
+            "0": "Folosește rezumarea notițelor de întâlnire asistată de AI pentru a accelera redactarea planului, fără a schimba sfaturile în sine."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Anunță practica rețelei profesionale de recomandări."
+          },
+          "deliverables": {
+            "0": "Profiluri profesionale actualizate și un seminar educațional organizat."
+          },
+          "checklist": {
+            "0": "Confirmă că documentația de conformitate este completă înainte de orice anunț public."
+          },
+          "commonMistakes": {
+            "0": "Lansarea înainte ca documentele de conformitate să fie complet puse la punct."
+          },
+          "successCriteria": {
+            "0": "Primul seminar sau prezentare din rețeaua de recomandări finalizat(ă)."
+          },
+          "aiRecommendations": {
+            "0": "Personalizează comunicarea de follow-up a seminarului per participant, în loc de un mesaj generic în masă."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Livrează primul plan financiar complet, plătit."
+          },
+          "deliverables": {
+            "0": "Scrisoare de angajament semnată și prezentare a planului finalizată."
+          },
+          "checklist": {
+            "0": "Percepe taxa integrală de planificare, chiar și pentru primul client plătitor."
+          },
+          "commonMistakes": {
+            "0": "Subevaluarea prețului primului angajament din dorința de a câștiga clientul."
+          },
+          "successCriteria": {
+            "0": "Primul client se înscrie pentru abonamentul de revizuire trimestrială continuă."
+          },
+          "aiRecommendations": {
+            "0": "Semnalează automat anomaliile de risc din portofoliu înaintea fiecărei revizuiri trimestriale."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge o bază stabilă de clienți care generează venitul lunar țintă."
+          },
+          "deliverables": {
+            "0": "Un pas documentat de calificare a potrivirii de valori în întâlnirea de descoperire."
+          },
+          "checklist": {
+            "0": "Califică prospecții pe baza potrivirii de valori, nu doar a mărimii activelor."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea oricărui prospect indiferent de potrivirea de valori."
+          },
+          "successCriteria": {
+            "0": "Venitul atinge intervalul lunar țintă al fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește datele din CRM pentru a identifica sursele de recomandare care produc cei mai potriviți clienți."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Crește activele administrate peste primul prag semnificativ."
+          },
+          "deliverables": {
+            "0": "Blocuri de calendar protejate pentru revizuirile trimestriale."
+          },
+          "checklist": {
+            "0": "Confirmă că fiecare client existent are o revizuire trimestrială programată înainte de a rezerva noi întâlniri de descoperire."
+          },
+          "commonMistakes": {
+            "0": "Neglijarea revizuirilor clienților existenți în timp ce se urmărește afaceri noi."
+          },
+          "successCriteria": {
+            "0": "AUM depășește primul prag semnificativ de creștere."
+          },
+          "aiRecommendations": {
+            "0": "Folosește alertele de monitorizare a portofoliului pentru a semnala care clienți au nevoie de o discuție de revizuire cel mai curând."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Adaugă un consultant junior printr-un aranjament de partajare a onorariilor."
+          },
+          "deliverables": {
+            "0": "Un acord documentat de partajare a onorariilor și un plan de onboarding pentru consultantul junior."
+          },
+          "checklist": {
+            "0": "Coordonează întâlnirile cu clienții alături de consultantul junior în primele două trimestre."
+          },
+          "commonMistakes": {
+            "0": "Transferarea relațiilor cu clienții prea brusc."
+          },
+          "successCriteria": {
+            "0": "Consultantul junior gestionează independent cel puțin 10 relații cu clienți."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI de rezumare a întâlnirilor pentru a ajuta consultantul junior să se familiarizeze mai rapid cu istoricul fiecărui client."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Extinde rețeaua de centre de influență către un al doilea domeniu profesional."
+          },
+          "deliverables": {
+            "0": "Un plan de relaționare dedicat pentru noul domeniu de recomandări."
+          },
+          "checklist": {
+            "0": "Aprofundează complet un nou domeniu de recomandări înainte de a adăuga un al treilea."
+          },
+          "commonMistakes": {
+            "0": "Dispersarea efortului de relaționare pentru recomandări în prea multe domenii simultan."
+          },
+          "successCriteria": {
+            "0": "Primul client semnat prin noul domeniu de recomandări."
+          },
+          "aiRecommendations": {
+            "0": "Urmărește care domeniu produce recomandările cu cel mai mare AUM pentru a prioritiza timpul viitor de relaționare."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Pregătește portofoliul de AUM pentru o tranziție curată către o firmă de consultanță achizitoare."
+          },
+          "deliverables": {
+            "0": "Fiecare interacțiune cu clientul înregistrată în CRM, nu păstrată doar în memoria fondatorului."
+          },
+          "checklist": {
+            "0": "Confirmă că înregistrările din CRM sunt suficient de complete pentru a susține o revizuire de due diligence."
+          },
+          "commonMistakes": {
+            "0": "Relații cu clienții care există doar în mintea fondatorului."
+          },
+          "successCriteria": {
+            "0": "Portofoliul de AUM se transferă curat unei firme achizitoare, cu retenția clienților intactă."
+          },
+          "aiRecommendations": {
+            "0": "Folosește istoricul de implicare din CRM ca dovadă a profunzimii relației în timpul due diligence-ului de achiziție."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Creșterea se acumulează lent prin încredere și recomandări — nu sugera tactici de creștere prin achiziție plătită."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The Million-Dollar Financial Advisor",
+          "description": "Interviurile lui David J. Mullen Jr. cu consultanți de top despre construirea unei practici durabile."
+        },
+        "item2": {
+          "title": "Programul de certificare CFP",
+          "description": "Acreditarea fiduciară principală pe care clienții și partenerii de recomandare o caută."
+        },
+        "item3": {
+          "title": "Financial Planning Association (FPA)",
+          "description": "Principalul corp profesional și rețeaua de filiale locale pentru planificatori financiari."
+        },
+        "item4": {
+          "title": "The Michael Kitces Nerd's Eye View",
+          "description": "Analiză aprofundată a managementului practicii de planificare financiară și a strategiei tehnice."
+        },
+        "item5": {
+          "title": "Newsletter-ul săptămânal Kitces.com Nerd's Eye View",
+          "description": "Actualizări de reglementare și strategii tehnice de planificare pentru practicieni."
+        },
+        "item6": {
+          "title": "RightCapital",
+          "description": "Software complet de planificare financiară pentru construirea planurilor clienților."
+        },
+        "item7": {
+          "title": "Redtail CRM",
+          "description": "CRM-ul construit special pentru relațiile cu clienții din consultanța financiară."
+        },
+        "item8": {
+          "title": "Rezumarea AI a notițelor de întâlnire în CRM",
+          "description": "Accelerează documentarea post-întâlnire fără a afecta sfaturile în sine."
+        },
+        "item9": {
+          "title": "Certified Financial Planner (CFP)",
+          "description": "Acreditarea fiduciară în jurul căreia este construită această practică."
+        },
+        "item10": {
+          "title": "Conferința anuală FPA",
+          "description": "Principala întâlnire anuală pentru proprietarii de practici de planificare financiară."
+        },
+        "item11": {
+          "title": "Programul de mentorat al filialei locale FPA",
+          "description": "Pune în legătură noii consultanți cu un mentor fiduciar experimentat, exclusiv pe onorariu."
+        },
+        "item12": {
+          "title": "Lista de verificare pentru reactualizarea anuală completă a planului",
+          "description": "Asigură că planul fiecărui client este revizuit complet o dată pe an."
+        },
+        "aiMetadata": {
+          "generationHints": "Preferă resursele care conferă credibilitate fiduciară (CFP, FPA) în locul conținutului generic de vânzări sau marketing."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Proprietarii de afaceri care se apropie de o ieșire sunt o nișă neservită — majoritatea consultanților se concentrează doar pe pensionari."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Un singur ciclu de piață nefavorabil la începutul practicii poate zdruncina încrederea clienților disproporționat față de impactul real asupra portofoliului."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Concurarea pe randamentele investițiilor în loc de calitatea planificării și încredere — o cursă pe care consultantul nu o poate câștiga constant."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "O întâlnire de descoperire gratuită, fără obligații, convertește lead-urile din recomandări mai rapid decât orice marketing plătit."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Coordonează întâlnirile cu clienții alături de un consultant junior nou timp de cel puțin două trimestre înainte de orice predare."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Documentează motivația fiecărei recomandări — este atât o bună practică, cât și o protecție fiduciară."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Consultanții care organizează seminarii educaționale mici construiesc încrederea pentru recomandări mai rapid decât cei care se bazează pe prospectarea la rece."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea clienților aleg un consultant pe baza încrederii dintr-o recomandare, nu comparând performanța investițiilor între firme."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Primele de asigurare E&O cresc vizibil odată ce AUM depășește anumite praguri — bugetează pentru asta."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cererea pentru consultanți fiduciari exclusiv pe onorariu crește mai rapid decât cererea pentru cei bazați pe comision, pe măsură ce crește conștientizarea conflictelor de interese."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Un consultant solo, exclusiv pe onorariu, a ajuns la 8 milioane EUR în AUM în 3 ani doar printr-o rețea de recomandări din centre de influență."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un consultant care a făcut marketing agresiv pe randamentele investițiilor și-a pierdut credibilitatea când o recesiune de piață a lovit în primul an."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Am nevoie de o bază mare de clienți existentă pentru a începe?",
+            "answer": "Nu — majoritatea consultanților încep cu 3-5 clienți din rețelele personale și profesionale și cresc de acolo."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Trebuie să fii un mare selector de acțiuni pentru a fi un mare planificator financiar.",
+            "fact": "Cea mai mare parte a valorii pentru client vine din disciplina de planificare și coaching comportamental, nu din abilitatea de selecție a investițiilor."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Programează întâlnirile de revizuire trimestrială ale anului următor pentru fiecare client imediat după încheierea celei curente."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează toate recomandările la nivelul administrării/creșterii practicii — nu oferi niciodată sfaturi de investiții sau financiare specifice pentru portofoliul real al unui client final."
+        }
+      }
+    },
+    "insuranceBrokerage": {
+      "businessDna": {
+        "resources": {
+          "course1": "Curs: Programul de titlu CIC (Certified Insurance Counselor)",
+          "community1": "Comunitate: Independent Insurance Agents & Brokers of America (Big I)",
+          "book1": "Carte: „Cracking the Insurance Game” de David M. Duford",
+          "checklist1": "Listă de verificare: Revizuirea anuală de reînnoire a poliței"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune că, pe măsură ce portofoliul crește, comisioanele de reînnoire se acumulează, cu vânzările de afaceri noi adăugate deasupra."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — punctul de echilibru real depinde de ritmul vânzărilor de afaceri noi și viteza contractelor cu asigurătorii."
+        },
+        "grossMargin": {
+          "notes": "Comisioanele de reînnoire au un cost de deservire foarte scăzut odată ce relația cu clientul este stabilită."
+        },
+        "netMargin": {
+          "notes": "După costurile de AMS, asigurare E&O și menținerea contractelor cu asigurătorii."
+        },
+        "scenarios": {
+          "conservative": "Un portofoliu mic de 15-20 de polițe personale, flux lent de recomandări.",
+          "expected": "35-40 de polițe active, cu reînnoiri constante și o rețea de recomandări în creștere.",
+          "optimistic": "Un portofoliu comercial în creștere, plus o bază solidă de reînnoiri pe linii personale."
+        },
+        "risks": {
+          "risk1": "Pierderea unui contract cheie cu un asigurător elimină peste noapte o întreagă linie de produse.",
+          "risk2": "Comprimarea ratelor de comision de la asigurători reduce venitul per poliță în timp."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul ca fiind cumulativ prin reînnoiri, adăugat peste vânzările de afaceri noi, nu ca o singură curbă de venit."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Asigurarea potrivită, de la cineva care chiar o caută pentru tine la mai mulți asigurători.",
+          "category": "Brokeraj de asigurări independent, cu mai mulți asigurători"
+        },
+        "brandPromise": "Îți căutăm acoperirea la mai mulți asigurători la fiecare reînnoire, ca să nu plătești niciodată în plus pentru aceeași protecție.",
+        "uvp": {
+          "statement": "Cumpărare comparativă independentă, la mai mulți asigurători, cu susținere activă în caz de daună.",
+          "diff1": "Nu este captiv niciunui asigurător",
+          "diff2": "Susținere activă în caz de daună, nu un call-center"
+        },
+        "icp": {
+          "description": "Familii și proprietari de firme mici care au nevoie de acoperire personală sau comercială și sunt sătui de un agent captiv unui singur asigurător.",
+          "firmographics": "Proprietari de locuințe, proprietari de firme mici cu 1-50 de angajați, familii cu nevoi de acoperire viață/sănătate."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Proprietar de locuință la prima achiziție",
+            "description": "A achiziționat recent o locuință și are nevoie de asigurare de locuință și auto grupate."
+          },
+          "persona2": {
+            "name": "Proprietar de firmă mică cu nevoie de acoperire comercială",
+            "description": "Proprietar care are nevoie de asigurare de răspundere generală, proprietate și accidente de muncă pe măsură ce afacerea crește."
+          }
+        },
+        "painPoints": {
+          "point1": "Senzația de a fi blocat la prețurile unui singur asigurător, fără o modalitate ușoară de comparare.",
+          "point2": "Suport lent și impersonal la daună, exact când ceva chiar merge prost."
+        },
+        "outcomes": {
+          "outcome1": "Încrederea că primesc prețuri competitive la fiecare reînnoire, nu doar în primul an.",
+          "outcome2": "O persoană reală de contactat la depunerea unei daune, nu un robot telefonic."
+        },
+        "messaging": {
+          "core": "Un broker, toți asigurătorii — ca să știi mereu că primești cea mai bună acoperire la preț corect.",
+          "support1": "Independent și neutru față de asigurători, întotdeauna."
+        },
+        "brandVoice": {
+          "tone": "Cald, încrezător și accesibil.",
+          "attr1": "Accesibil",
+          "attr2": "Susținător"
+        },
+        "contentPillars": {
+          "pillar1": "Conștientizarea golurilor de acoperire pentru proprietari de locuințe și firme mici",
+          "pillar2": "Educație despre momentul reînnoirii și re-cotare"
+        },
+        "channelStrategy": "Recomandările de la clienți existenți, agenți imobiliari și creditori sunt principale; sponsorizarea evenimentelor locale construiește notorietate secundară; postările sociale scurte despre goluri de acoperire sunt experimentale.",
+        "community": {
+          "description": "O rețea de recomandări formată din agenți imobiliari și creditori ipotecari care au nevoie de un broker pentru cerințele de asigurare ale clienților lor.",
+          "platform1": "Asociația locală a agenților imobiliari"
+        },
+        "leadMagnets": {
+          "magnet1": "Cotație gratuită de comparare a acoperirii la mai mulți asigurători"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Recomandare sau eveniment de viață declanșator",
+            "description": "O recomandare sau un eveniment de viață (locuință nouă, afacere nouă) declanșează solicitarea."
+          },
+          "stage2": {
+            "name": "Analiza nevoilor",
+            "description": "O discuție pentru a înțelege nevoile reale de acoperire și expunerea la risc."
+          },
+          "stage3": {
+            "name": "Prezentarea cotației comparative",
+            "description": "Mai multe cotații de la asigurători prezentate una lângă alta."
+          }
+        },
+        "retention": {
+          "tactic1": "Re-cotare automată la reînnoire cu 60 de zile înainte de expirarea fiecărei polițe."
+        },
+        "analytics": {
+          "metric1": "Rata de retenție la reînnoire, pe tip de poliță"
+        },
+        "aiMetadata": {
+          "generationHints": "Evidențiază în fiecare mesaj avantajul de a lucra cu mai mulți asigurători, fără a fi captiv — este cel mai mare diferențiator."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Obține autorizarea pentru asigurări generale și viață-sănătate."
+          },
+          "deliverables": {
+            "0": "Acorduri de contract semnate cu cel puțin 4-5 asigurători per linie."
+          },
+          "checklist": {
+            "0": "Confirmă că asigurarea E&O este activă înainte de a scrie orice poliță."
+          },
+          "commonMistakes": {
+            "0": "Solicitarea contractelor cu asigurătorii înainte de finalizarea autorizării."
+          },
+          "successCriteria": {
+            "0": "Autorizarea și cel puțin 3 contracte cu asigurători sunt active."
+          },
+          "aiRecommendations": {
+            "0": "Aplică mai întâi la asigurătorii cu cel mai mare apetit pentru segmentul de clienți țintă."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Semnează primele 5-10 polițe pe linii personale."
+          },
+          "deliverables": {
+            "0": "Cotații comparative documentate pentru fiecare client din faza incipientă."
+          },
+          "checklist": {
+            "0": "Prezintă cel puțin 3 cotații comparative per prospect."
+          },
+          "commonMistakes": {
+            "0": "Cotarea unui singur asigurător în loc de a compara mai mulți."
+          },
+          "successCriteria": {
+            "0": "Cel puțin 5 polițe semnate în primul trimestru."
+          },
+          "aiRecommendations": {
+            "0": "Folosește instrumentul de comparare pentru fiecare cotație, chiar și cele aparent simple."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardizează fluxul de analiză a nevoilor și cotare."
+          },
+          "deliverables": {
+            "0": "Un șablon documentat de analiză a nevoilor în AMS."
+          },
+          "checklist": {
+            "0": "Înregistrează în AMS prioritățile de acoperire declarate de fiecare client."
+          },
+          "commonMistakes": {
+            "0": "Omiterea analizei documentate a nevoilor pentru polițe aparent simple."
+          },
+          "successCriteria": {
+            "0": "Fiecare poliță semnată are o analiză documentată a nevoilor în dosar."
+          },
+          "aiRecommendations": {
+            "0": "Folosește cotarea comparativă asistată de AI pentru a accelera timpul de răspuns, fără a sări peste analiza nevoilor."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Anunță brokerajul rețelei de recomandări formate din agenți imobiliari și creditori."
+          },
+          "deliverables": {
+            "0": "Listări profesionale actualizate și un anunț de lansare către rețeaua de recomandări."
+          },
+          "checklist": {
+            "0": "Confirmă că fiecare contract planificat cu asigurătorul este activ înainte de a face marketing amplu."
+          },
+          "commonMistakes": {
+            "0": "Lansarea înainte ca toate contractele cu asigurătorii să fie active."
+          },
+          "successCriteria": {
+            "0": "Prima întâlnire de prezentare din rețeaua de recomandări finalizată."
+          },
+          "aiRecommendations": {
+            "0": "Personalizează comunicarea către fiecare partener de recomandare pe baza profilului tipic al clienților lor."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Semnează polița primului client plătitor și confirmă un suport fără probleme la daună, dacă este nevoie."
+          },
+          "deliverables": {
+            "0": "Poliță semnată și o explicație scrisă a procesului de reînnoire pentru client."
+          },
+          "checklist": {
+            "0": "Explică fiecărui client nou procesul de reînnoire, în scris."
+          },
+          "commonMistakes": {
+            "0": "Neexplicarea clară a procesului de reînnoire la semnare."
+          },
+          "successCriteria": {
+            "0": "Primul client reînnoiește fără nicio reclamație privind acoperirea."
+          },
+          "aiRecommendations": {
+            "0": "Setează un mesaj automat de verificare la 30 de zile după semnare, pentru a prinde din timp eventualele nelămuriri."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge 25-30 de polițe active cu o rată de reînnoire stabilă."
+          },
+          "deliverables": {
+            "0": "Secvențe automate de memento de reînnoire configurate în AMS."
+          },
+          "checklist": {
+            "0": "Începe secvențele de memento de reînnoire cu 60 de zile înainte de expirare pentru fiecare poliță."
+          },
+          "commonMistakes": {
+            "0": "Concentrarea doar pe afaceri noi și neglijarea urmăririi reînnoirilor."
+          },
+          "successCriteria": {
+            "0": "Rata de retenție la reînnoire depășește 85%."
+          },
+          "aiRecommendations": {
+            "0": "Semnalează automat polițele cu risc de nereînnoire, pe baza semnalelor de implicare."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Vinde încrucișat polițe suplimentare portofoliului existent de clienți."
+          },
+          "deliverables": {
+            "0": "O revizuire completă a acoperirii finalizată pentru fiecare client la reînnoire."
+          },
+          "checklist": {
+            "0": "Revizuiește imaginea completă de acoperire a clientului la fiecare reînnoire, nu doar polița care expiră."
+          },
+          "commonMistakes": {
+            "0": "Neverificarea nevoilor de acoperire ale clienților existenți după vânzarea inițială."
+          },
+          "successCriteria": {
+            "0": "Cel puțin 1 din 4 reînnoiri rezultă într-o poliță suplimentară vândută."
+          },
+          "aiRecommendations": {
+            "0": "Evidențiază automat oportunitățile de cross-selling pe baza semnalelor de eveniment de viață sau de creștere a afacerii."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Lansează o practică dedicată de asigurări comerciale pentru conturi cu prime mai mari."
+          },
+          "deliverables": {
+            "0": "Un proces distinct de analiză a nevoilor comerciale și o grilă de prețuri."
+          },
+          "checklist": {
+            "0": "Construiește procesul de asigurări comerciale înainte de a face marketing acelui segment."
+          },
+          "commonMistakes": {
+            "0": "Tratarea conturilor comerciale cu același proces ca liniile personale."
+          },
+          "successCriteria": {
+            "0": "Primul cont de asigurări comerciale semnat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește datele de clasificare a industriei pentru a identifica primele domenii comerciale de vizat."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Adaugă un al doilea agent producător pentru a crește mai rapid portofoliul comercial."
+          },
+          "deliverables": {
+            "0": "Un acord scris de partajare a comisionului pentru noul agent producător."
+          },
+          "checklist": {
+            "0": "Definește acordul de partajare a comisionului înainte de prima vânzare a agentului."
+          },
+          "commonMistakes": {
+            "0": "Angajarea unui agent producător înainte ca structura de partajare a comisionului să fie clar definită."
+          },
+          "successCriteria": {
+            "0": "Noul agent producător semnează independent primele 5 polițe."
+          },
+          "aiRecommendations": {
+            "0": "Folosește datele istorice despre rata de finalizare pentru a stabili așteptări realiste de creștere pentru noul agent."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Pregătește portofoliul de afaceri pentru achiziție de către o agenție mai mare."
+          },
+          "deliverables": {
+            "0": "Fiecare poliță, reînnoire și daună înregistrată în sistemul de management al agenției."
+          },
+          "checklist": {
+            "0": "Confirmă că toate înregistrările despre asigurători și clienți sunt complete în AMS înainte de due diligence."
+          },
+          "commonMistakes": {
+            "0": "Înregistrări despre clienți și asigurători dispersate în email în loc de AMS."
+          },
+          "successCriteria": {
+            "0": "Portofoliul de afaceri se transferă curat, cu retenția intactă."
+          },
+          "aiRecommendations": {
+            "0": "Folosește istoricul de retenție la reînnoire ca dovadă a calității portofoliului pentru firmele achizitoare."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Creșterea se acumulează prin reînnoiri și cross-selling, nu doar prin vânzări de afaceri noi — reflectă ambele în fiecare etapă."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Cracking the Insurance Game",
+          "description": "Ghidul practic al lui David M. Duford despre construirea unui portofoliu independent de asigurări."
+        },
+        "item2": {
+          "title": "Programul CIC (Certified Insurance Counselor)",
+          "description": "Titlul principal pentru construirea credibilității în fața clienților de asigurări comerciale."
+        },
+        "item3": {
+          "title": "Independent Insurance Agents & Brokers of America (Big I)",
+          "description": "Principala asociație profesională și grup de reprezentare pentru agențiile independente."
+        },
+        "item4": {
+          "title": "Agency Nation Radio",
+          "description": "Interviuri despre creșterea practicii pentru proprietarii de agenții de asigurări independente."
+        },
+        "item5": {
+          "title": "Insurance Journal Daily",
+          "description": "Știri zilnice din industrie, acoperind schimbările la asigurători și condițiile de piață."
+        },
+        "item6": {
+          "title": "EZLynx",
+          "description": "Platforma principală de cotare comparativă pentru mai mulți asigurători."
+        },
+        "item7": {
+          "title": "Applied Epic",
+          "description": "Sistem de management al agenției pentru urmărirea polițelor, clienților și reînnoirilor."
+        },
+        "item8": {
+          "title": "Automatizare AI a mementourilor de reînnoire",
+          "description": "Reduce ferestrele de reînnoire ratate, fără a adăuga muncă manuală de urmărire."
+        },
+        "item9": {
+          "title": "Certified Insurance Counselor (CIC)",
+          "description": "Acreditarea cea mai apreciată de prospecții de asigurări comerciale."
+        },
+        "item10": {
+          "title": "Summit-ul legislativ Big I & InsurPac",
+          "description": "Întâlnire anuală pentru proprietarii de agenții independente despre tendințele de reglementare și industrie."
+        },
+        "item11": {
+          "title": "Programul de mentorat Big I",
+          "description": "Pune în legătură noii proprietari de agenții cu un mentor experimentat dintr-o agenție independentă."
+        },
+        "item12": {
+          "title": "Lista de verificare pentru revizuirea anuală de reînnoire a poliței",
+          "description": "Asigură că imaginea completă de acoperire a fiecărui client este revizuită la reînnoire, nu doar polița care expiră."
+        },
+        "aiMetadata": {
+          "generationHints": "Preferă resursele de credibilitate legate de mai mulți asigurători și susținere la daună în locul conținutului generic de vânzări."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Agenții imobiliari și creditorii ipotecari sunt o sursă de recomandare subutilizată — fiecare vânzare de locuință necesită o poliță nouă."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Un singur asigurător care renunță la o întreagă linie de produse poate lăsa un portofoliu de clienți fără o opțiune ușoară de înlocuire."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Cotarea doar la asigurătorul cu cel mai rapid timp de răspuns, în loc de cea mai bună potrivire pentru riscul real al clientului."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Oferirea unei cotații gratuite de comparare la mai mulți asigurători convertește recomandările calde mai rapid decât orice publicitate."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Definește în scris structura de partajare a comisionului cu orice agent producător nou, înainte de prima sa vânzare."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Documentează în scris fiecare recomandare de acoperire și fiecare acoperire refuzată de client, de fiecare dată."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Agențiile care automatizează re-cotarea la reînnoire păstrează mai mulți clienți decât cele care reacționează doar când clientul sună să compare prețuri."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Clienții rareori pleacă doar din cauza prețului — suportul lent la daună este cel mai frecvent motiv pentru schimbarea brokerului."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Taxele de reînnoire a contractelor cu asigurătorii și de educație continuă sunt ușor de subestimat în primul an."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cererea pentru acoperire grupată locuință-auto și comercial mic crește mai rapid decât cererea pentru vânzări de polițe individuale."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Un broker independent a construit un portofoliu de 200 de polițe în 3 ani, în principal prin recomandări de la agenți imobiliari."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un brokeraj care avea contract doar cu un singur asigurător și-a pierdut întregul portofoliu când acel asigurător a ieșit de pe piața regională."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Câte contracte cu asigurători am nevoie pentru a începe?",
+            "answer": "Majoritatea brokerilor încep cu 4-5 contracte cu asigurători per linie de afaceri, pentru a avea opțiuni reale de comparație."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Brokerii independenți costă întotdeauna clienții mai mult decât apelarea directă la un asigurător.",
+            "fact": "Comisionul este inclus în prima asigurătorului oricum — un broker independent nu adaugă un adaos, și de multe ori găsește o rată mai bună prin comparație."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Revizuiește întreaga imagine de acoperire a unui client la fiecare reînnoire, nu doar polița care se reînnoiește."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează toate recomandările la nivelul administrării/creșterii brokerajului — nu recomanda niciodată decizii specifice de acoperire sau poliță pentru situația reală a unui client final."
+        }
+      }
+    },
+    "taxConsultancy": {
+      "businessDna": {
+        "resources": {
+          "course1": "Curs: Pregătire pentru examenul de Enrolled Agent (EA)",
+          "community1": "Comunitate: National Association of Enrolled Agents (NAEA)",
+          "book1": "Carte: „The Tax and Legal Playbook” de Mark J. Kohler",
+          "checklist1": "Listă de verificare: Colectarea documentelor de la client, pe tip de declarație"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune o concentrare sezonieră puternică a venitului, netezită doar pe măsură ce cresc clienții cu abonament pentru firme."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — punctul de echilibru este atins în primul sezon fiscal, având în vedere baza redusă de costuri fixe."
+        },
+        "grossMargin": {
+          "notes": "Estimare care ține cont de costurile de personal contractual sezonier în săptămânile de vârf de depunere."
+        },
+        "netMargin": {
+          "notes": "După licențierea software-ului fiscal, taxele de depunere electronică și personalul sezonier."
+        },
+        "scenarios": {
+          "conservative": "120 de declarații individuale la nivelul de bază, venit minim din abonamente pentru firme.",
+          "expected": "200 de declarații individuale, plus 5 clienți cu abonament pentru firme.",
+          "optimistic": "Peste 300 de declarații individuale, plus 10 clienți cu abonament pentru firme, pe planificare anuală."
+        },
+        "risks": {
+          "risk1": "Software-ul fiscal de auto-servire și asistat de AI automatizează tot mai mult cele mai simple declarații, sensibile la preț.",
+          "risk2": "Un sezon scurt înseamnă că o perioadă proastă de câteva săptămâni (boală, întrerupere software) are un impact disproporționat asupra venitului."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul ca fiind puternic sezonier, cu abonamentele pentru firme ca mecanism de netezire."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Fiecare deducere găsită, fiecare termen respectat — expertiză fiscală tehnică fără prețul unei firme mari.",
+          "category": "Întocmirea declarațiilor fiscale pentru persoane fizice și firme mici"
+        },
+        "brandPromise": "Declarația ta, depusă corect și la timp, cu fiecare deducere la care ai dreptul cu adevărat.",
+        "uvp": {
+          "statement": "Întocmire fiscală atestată de Enrolled Agent, cu dreptul de a te reprezenta direct în fața autorității fiscale.",
+          "diff1": "Enrolled Agent — autorizat să reprezinte clienții în fața autorității fiscale",
+          "diff2": "Prețuri fixe, transparente, pe niveluri de complexitate"
+        },
+        "icp": {
+          "description": "Persoane fizice cu declarații moderat complexe (activități independente, investiții, proprietăți închiriate) și proprietari de firme mici care au nevoie de depunere anuală.",
+          "firmographics": "Persoane care desfășoară activități independente și firme cu sub 20 de angajați."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Liber-profesionist",
+            "description": "Liber-profesionist sau contractor a cărui declarație a devenit prea complexă pentru o aplicație de auto-servire."
+          },
+          "persona2": {
+            "name": "Proprietar de firmă mică",
+            "description": "Proprietar care are nevoie de depunere anuală pentru firmă și îndrumare fiscală strategică ocazională."
+          }
+        },
+        "painPoints": {
+          "point1": "Îngrijorați că ratează deduceri la care au dreptul.",
+          "point2": "Anxioși legat de termenele de depunere și posibilele penalități."
+        },
+        "outcomes": {
+          "outcome1": "Încrederea că declarația este corectă și maximizează deducerile legitime.",
+          "outcome2": "Liniștea că termenul de depunere va fi respectat, fără stres de ultim moment."
+        },
+        "messaging": {
+          "core": "Nu mai ghici la taxe. Depune declarația cu cineva autorizat să stea în spatele fiecărei cifre.",
+          "support1": "Atestat Enrolled Agent, nu un practician sezonier de call-center."
+        },
+        "brandVoice": {
+          "tone": "Precis, receptiv și liniștitor sub presiunea termenelor.",
+          "attr1": "Precis",
+          "attr2": "Receptiv"
+        },
+        "contentPillars": {
+          "pillar1": "Mementouri și cerințe privind termenele de depunere",
+          "pillar2": "Conștientizarea deducerilor și creditelor pentru liber-profesioniști și firme mici"
+        },
+        "channelStrategy": "Recomandările de la clienți existenți și contabili locali sunt principale; conținutul SEO local despre termenele de depunere construiește cerere secundară; newsletter-ul anual este o implicare experimentală în afara sezonului.",
+        "community": {
+          "description": "O relație de recomandare cu contabili și evidențieri locali care nu se ocupă ei înșiși de declarații fiscale complexe pentru persoane fizice sau firme.",
+          "platform1": "Asociația locală a afacerilor mici"
+        },
+        "leadMagnets": {
+          "magnet1": "Mini-analiză gratuită „ce deduceri îmi lipsesc”"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Căutare sezonieră sau recomandare",
+            "description": "Un prospect caută local sau primește o recomandare înainte de termenul de depunere."
+          },
+          "stage2": {
+            "name": "Colectarea documentelor",
+            "description": "O listă structurată colectează din start toate documentele fiscale necesare."
+          },
+          "stage3": {
+            "name": "Întocmirea și livrarea declarației",
+            "description": "Declarația este întocmită, revizuită și depusă electronic, cu aprobarea clientului."
+          }
+        },
+        "retention": {
+          "tactic1": "Un email de verificare a planificării fiscale la mijlocul anului, către fiecare client din sezonul anterior."
+        },
+        "analytics": {
+          "metric1": "Rata de revenire a clienților individuali de la an la an"
+        },
+        "aiMetadata": {
+          "generationHints": "Urgența legată de termen este un factor legitim și potrivit aici, spre deosebire de alte servicii profesionale reglementate."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Obține atestarea de Enrolled Agent și configurează software-ul fiscal profesional."
+          },
+          "deliverables": {
+            "0": "Înregistrare activă a codurilor de practician și o instalare licențiată a software-ului fiscal."
+          },
+          "checklist": {
+            "0": "Confirmă că înregistrarea pentru depunere electronică este aprobată înainte de startul sezonului."
+          },
+          "commonMistakes": {
+            "0": "Subestimarea duratei de atestare EA."
+          },
+          "successCriteria": {
+            "0": "Atestarea și înregistrarea pentru depunere electronică sunt ambele active."
+          },
+          "aiRecommendations": {
+            "0": "Începe atestarea EA cu cel puțin 6 luni înainte de sezonul de lansare țintă."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Întocmește declarații pentru primii 10-15 clienți."
+          },
+          "deliverables": {
+            "0": "Date cronometrate de întocmire pentru cel puțin 3 niveluri de complexitate."
+          },
+          "checklist": {
+            "0": "Cronometrează fiecare declarație timpurie pentru a calibra modelul de prețuri."
+          },
+          "commonMistakes": {
+            "0": "Subevaluarea prețului atât de mult încât marjele din sezonul de vârf nu acoperă volumul de muncă."
+          },
+          "successCriteria": {
+            "0": "Model de prețuri validat pe baza a cel puțin 10 declarații finalizate."
+          },
+          "aiRecommendations": {
+            "0": "Folosește extragerea de date asistată de AI încă de la primul client pentru a construi obiceiuri eficiente de la început."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardizează fluxul de la colectarea documentelor la depunerea electronică."
+          },
+          "deliverables": {
+            "0": "O listă structurată de documente pe tip de declarație."
+          },
+          "checklist": {
+            "0": "Oferă fiecărui client aceeași listă înainte de programare."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea documentelor în formate inconsecvente, care încetinesc întocmirea."
+          },
+          "successCriteria": {
+            "0": "Documentele fiecărui client sosesc conform listei standard."
+          },
+          "aiRecommendations": {
+            "0": "Folosește identificarea deducerilor asistată de AI ca o verificare secundară înainte de revizuirea finală, nu ca înlocuitor al acesteia."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Anunță disponibilitatea înaintea sezonului fiscal următor."
+          },
+          "deliverables": {
+            "0": "Conținut SEO local activ și comunicare de recomandare trimisă."
+          },
+          "checklist": {
+            "0": "Începe activitățile de marketing cu cel puțin 8 săptămâni înainte de startul sezonului."
+          },
+          "commonMistakes": {
+            "0": "Lansarea marketingului prea aproape de termenul de depunere."
+          },
+          "successCriteria": {
+            "0": "Primele rezervări de clienți noi primite înainte de sezonul de vârf."
+          },
+          "aiRecommendations": {
+            "0": "Trimite mementouri automate de programare pe măsură ce se apropie termenele de depunere."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Livrează prima declarație depusă electronic, corectă și la timp."
+          },
+          "deliverables": {
+            "0": "Angajament semnat și confirmare de acceptare a depunerii electronice."
+          },
+          "checklist": {
+            "0": "Confirmă termenul real de depunere cu clientul înainte de a promite un timp de livrare."
+          },
+          "commonMistakes": {
+            "0": "Grăbirea unei declarații complexe pentru a respecta un termen auto-impus."
+          },
+          "successCriteria": {
+            "0": "Declarația primului client este acceptată fără respingere sau amendament."
+          },
+          "aiRecommendations": {
+            "0": "Semnalează automat documentele lipsă înainte de programare, nu în timpul ei."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Depune 200 de declarații individuale în primul sezon fiscal complet."
+          },
+          "deliverables": {
+            "0": "Un plafon strict de clienți per practician stabilit înainte de sezon."
+          },
+          "checklist": {
+            "0": "Confirmă că limitele de capacitate sunt stabilite înainte ca marketingul să genereze mai multă cerere decât se poate servi."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea mai multor clienți decât poate gestiona capacitatea sezonieră."
+          },
+          "successCriteria": {
+            "0": "200 de declarații depuse fără niciun termen ratat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește datele de cronometrare din sezonul anterior pentru a stabili un plafon realist de clienți pentru sezonul curent."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Transformă o parte din clienții individuali în clienți cu abonament de planificare fiscală pe tot parcursul anului."
+          },
+          "deliverables": {
+            "0": "O verificare de planificare fiscală la mijlocul anului, trimisă fiecărui client din sezonul anterior."
+          },
+          "checklist": {
+            "0": "Trimite emailul de verificare de la mijlocul anului către întreaga listă de clienți din sezonul anterior."
+          },
+          "commonMistakes": {
+            "0": "Contactarea clienților doar în sezonul fiscal."
+          },
+          "successCriteria": {
+            "0": "Cel puțin 5 clienți trec la un abonament pe tot parcursul anului."
+          },
+          "aiRecommendations": {
+            "0": "Identifică automat candidații probabili pentru conversia la abonament, pe baza complexității declarației și a semnalelor de proprietate a unei afaceri."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Angajează practicieni contractuali sezonieri pentru a extinde capacitatea din sezonul de vârf."
+          },
+          "deliverables": {
+            "0": "Un plan documentat de instruire pentru practicienii sezonieri."
+          },
+          "checklist": {
+            "0": "Recrutează și instruiește practicienii sezonieri cu cel puțin 6 săptămâni înainte de sezon."
+          },
+          "commonMistakes": {
+            "0": "Angajarea personalului sezonier prea târziu pentru a-l instrui corespunzător."
+          },
+          "successCriteria": {
+            "0": "Practicienii sezonieri gestionează independent cel puțin 30% din volumul din sezonul de vârf."
+          },
+          "aiRecommendations": {
+            "0": "Folosește extragerea de date asistată de AI pentru a scurta timpul de acomodare al noului practician."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Adaugă depunerea fiscală pentru firme și abonamentele de planificare pe tot parcursul anului ca linie de servicii distinctă."
+          },
+          "deliverables": {
+            "0": "O ofertă și o grilă de prețuri distincte pentru abonamentele de planificare fiscală pentru firme."
+          },
+          "checklist": {
+            "0": "Construiește oferta de abonament pentru firme înainte de a o promova pe scară largă."
+          },
+          "commonMistakes": {
+            "0": "Promovarea serviciilor fiscale pentru firme cu același mesaj ca întocmirea declarațiilor individuale."
+          },
+          "successCriteria": {
+            "0": "Primul client cu abonament pentru firme semnat."
+          },
+          "aiRecommendations": {
+            "0": "Segmentează automat mesajele de marketing pentru public individual versus firme, pe baza sursei solicitării."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Pregătește lista de clienți și documentația fluxului sezonier pentru achiziție."
+          },
+          "deliverables": {
+            "0": "Proces complet documentat, de la colectarea documentelor la depunerea electronică."
+          },
+          "checklist": {
+            "0": "Confirmă că fiecare pas al fluxului sezonier este scris, nu doar cunoscut de fondator."
+          },
+          "commonMistakes": {
+            "0": "Menținerea cunoștințelor despre fluxul sezonier nedocumentate și dependente de fondator."
+          },
+          "successCriteria": {
+            "0": "Lista de clienți și documentația fluxului se transferă curat unui nou proprietar."
+          },
+          "aiRecommendations": {
+            "0": "Folosește datele istorice despre volum și retenție de la un sezon la altul ca dovadă a valorii practicii pentru cumpărători."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Creșterea este sezonieră și limitată de capacitate — nu sugera tactici care presupun o cerere uniformă pe tot parcursul anului."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The Tax and Legal Playbook",
+          "description": "Ghidul practic al lui Mark J. Kohler despre strategia fiscală pentru clienți firme mici."
+        },
+        "item2": {
+          "title": "Curs de pregătire pentru examenul de Enrolled Agent (EA)",
+          "description": "Traseul principal de atestare care permite reprezentarea directă în fața autorității fiscale."
+        },
+        "item3": {
+          "title": "National Association of Enrolled Agents (NAEA)",
+          "description": "Principala asociație profesională pentru Enrolled Agents."
+        },
+        "item4": {
+          "title": "The Tax Rep Network Podcast",
+          "description": "Strategie de creștere a practicii și de reprezentare pentru profesioniștii fiscali."
+        },
+        "item5": {
+          "title": "Buletinul de actualizări pentru practicieni al autorității fiscale",
+          "description": "Actualizări oficiale de reglementare și modificări ale codului fiscal pentru practicieni."
+        },
+        "item6": {
+          "title": "Drake Tax",
+          "description": "Platforma principală profesională de întocmire a declarațiilor fiscale și depunere electronică."
+        },
+        "item7": {
+          "title": "UltraTax CS",
+          "description": "O platformă software fiscală profesională alternativă pentru declarații mai complexe."
+        },
+        "item8": {
+          "title": "Extragere de date din documente fiscale asistată de AI",
+          "description": "Accelerează introducerea datelor din documente fiscale scanate."
+        },
+        "item9": {
+          "title": "Enrolled Agent (EA)",
+          "description": "Acreditarea în jurul căreia este construită această practică — singura care oferă drepturi nelimitate de practică în fața autorității fiscale."
+        },
+        "item10": {
+          "title": "NAEA National Tax Practice Institute",
+          "description": "Eveniment anual de educație continuă pentru Enrolled Agents."
+        },
+        "item11": {
+          "title": "Programul de mentorat NAEA",
+          "description": "Pune în legătură noii Enrolled Agents cu un mentor experimentat, proprietar de practică."
+        },
+        "item12": {
+          "title": "Lista de verificare pentru colectarea documentelor de la client, pe tip de declarație",
+          "description": "Asigură că fiecare client trimite documentația completă înainte de programare."
+        },
+        "aiMetadata": {
+          "generationHints": "Preferă resursele legate de atestarea Enrolled Agent și drepturile de reprezentare în locul conținutului generic de marketing pentru software fiscal."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Transformarea chiar și a unei mici fracțiuni din clienții individuali sezonieri în abonamente pentru firme pe tot parcursul anului netezește semnificativ fluxul de numerar."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "O întrerupere software sau o boală personală în sezonul de vârf are un impact disproporționat, dată fiind concentrarea puternică a ferestrei de venit."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Concurarea exclusiv pe preț cu software-ul de auto-servire, în loc de gestionarea complexității și drepturile de reprezentare."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "O mini-analiză gratuită „ce deduceri îmi lipsesc” convertește recomandările calde mai rapid decât orice reclamă plătită."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Recrutează și instruiește practicienii sezonieri cu cel puțin 6 săptămâni înainte de sezon, nu în timpul aglomerației."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Stabilește un plafon strict de clienți per practician înainte de startul sezonului — calitatea scade rapid peste un anumit volum."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Practicile care trimit o verificare de planificare fiscală la mijlocul anului păstrează mai mulți clienți de la un sezon la altul decât cele care tac după depunere."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea clienților își schimbă practicianul nu din cauza prețului, ci după un termen ratat sau o notificare neexplicată de la autoritatea fiscală."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Taxele de reînnoire a licenței software fiscal profesional cresc în fiecare an și sunt ușor de subestimat."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cererea de reprezentare în fața autorității fiscale (audituri, notificări) crește pe măsură ce depunerea automatizată crește volumul declarațiilor semnalate."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Un Enrolled Agent solo a crescut de la 50 la 250 de declarații individuale în 3 sezoane, doar prin recomandări și SEO local."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "O practică ce a acceptat prea mulți clienți în primul sezon a ratat mai multe termene de depunere și a pierdut majoritatea acelei baze de clienți în anul următor."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Pot conduce această afacere de la distanță?",
+            "answer": "Da — majoritatea schimbului de documente și a întocmirii declarațiilor se poate face complet de la distanță, printr-un portal securizat pentru clienți."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Software-ul fiscal AI va înlocui complet practicienii fiscali umani în câțiva ani.",
+            "fact": "AI automatizează bine declarațiile simple, dar situațiile complexe și reprezentarea în fața autorității fiscale necesită în continuare un practician uman atestat."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Confirmă termenul real de depunere cu fiecare client înainte de a promite orice timp de livrare."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează toate recomandările la nivelul administrării/creșterii practicii — nu oferi niciodată sfaturi fiscale specifice pentru declarația reală a unui client final."
+        }
+      }
+    }
   }
 }

@@ -1,0 +1,906 @@
+{
+  "identity": {
+    "id": "6f1a2b3c-0003-4a11-9e10-000000000003",
+    "slug": "insurance-brokerage",
+    "version": "1.0.0",
+    "name": {
+      "en": "Harborlight Insurance Brokerage",
+      "ro": "Harborlight Insurance Brokerage"
+    },
+    "tagline": {
+      "en": "The right coverage, from someone who actually shops it for you.",
+      "ro": "Asigurarea potrivită, de la cineva care chiar o caută pentru tine."
+    },
+    "createdAt": "2026-07-09T00:00:00.000Z",
+    "updatedAt": "2026-07-09T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theConnector",
+      "theHustler"
+    ],
+    "summary": {
+      "en": "Best suited to a natural relationship-builder who enjoys sales conversations and cross-selling more than paperwork.",
+      "ro": "Potrivită unui constructor natural de relații, care preferă discuțiile de vânzare și cross-selling-ul în locul lucrului birocratic."
+    },
+    "minimumExperienceYears": 2
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 10000,
+      "maxInvestment": 30000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 1500,
+      "ongoingMonthlyCostMax": 4000,
+      "notes": {
+        "en": "Covers state licensing, errors & omissions insurance, an agency management system, and carrier-appointment application costs.",
+        "ro": "Acoperă autorizarea, asigurarea de erori și omisiuni, un sistem de management al agenției și costurile aplicațiilor pentru contractele cu asigurătorii."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "licensingAndAppointments",
+          "label": {
+            "en": "Property & casualty / life & health licensing and initial carrier appointments",
+            "ro": "Autorizare de asigurări generale/viață-sănătate și primele contracte cu asigurătorii"
+          },
+          "typicalMin": 1200,
+          "typicalMax": 3500
+        },
+        {
+          "key": "agencyManagementSystem",
+          "label": {
+            "en": "Agency management system (AMS) setup",
+            "ro": "Configurarea sistemului de management al agenției (AMS)"
+          },
+          "typicalMin": 1000,
+          "typicalMax": 3000
+        },
+        {
+          "key": "eoInsurance",
+          "label": {
+            "en": "Errors & omissions insurance (first year)",
+            "ro": "Asigurare de erori și omisiuni (primul an)"
+          },
+          "typicalMin": 800,
+          "typicalMax": 2000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "amsAndRaterSubscriptions",
+          "label": {
+            "en": "AMS and comparative-rater software subscriptions",
+            "ro": "Abonamente pentru AMS și software de comparare a tarifelor"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 800
+        },
+        {
+          "key": "eoInsurancePremium",
+          "label": {
+            "en": "Ongoing E&O insurance premium",
+            "ro": "Prima continuă de asigurare E&O"
+          },
+          "typicalMonthlyMin": 150,
+          "typicalMonthlyMax": 400
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "newBusinessCommission",
+          "label": {
+            "en": "New-business commission",
+            "ro": "Comision pentru afaceri noi"
+          }
+        },
+        {
+          "key": "renewalCommission",
+          "label": {
+            "en": "Policy renewal commission",
+            "ro": "Comision de reînnoire a poliței"
+          }
+        },
+        {
+          "key": "commercialConsultingFee",
+          "label": {
+            "en": "Fee-based commercial risk consulting",
+            "ro": "Taxă pentru consultanță de risc comercial"
+          }
+        },
+        {
+          "key": "contingencyBonus",
+          "label": {
+            "en": "Carrier contingency/volume bonus",
+            "ro": "Bonus de contingență/volum de la asigurător"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 5000,
+      "targetMonthlyIncomeMax": 20000,
+      "breakEvenTimelineMonths": 10,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Renewal commissions build a recurring revenue base year over year, even as new-business sales fluctuate.",
+        "ro": "Comisioanele de reînnoire construiesc o bază de venit recurent an de an, chiar dacă vânzările de afaceri noi fluctuează."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "occasional",
+    "onlineOffline": "hybrid",
+    "salesChannel": "both",
+    "minWeeklyHours": 35,
+    "maxWeeklyHours": 50,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 9
+      },
+      {
+        "key": "marketing",
+        "rating": 6
+      },
+      {
+        "key": "leadership",
+        "rating": 6
+      },
+      {
+        "key": "communication",
+        "rating": 8
+      },
+      {
+        "key": "negotiation",
+        "rating": 8
+      },
+      {
+        "key": "finance",
+        "rating": 6
+      },
+      {
+        "key": "operations",
+        "rating": 6
+      },
+      {
+        "key": "technology",
+        "rating": 5
+      },
+      {
+        "key": "automation",
+        "rating": 4
+      },
+      {
+        "key": "ai",
+        "rating": 3
+      },
+      {
+        "key": "programming",
+        "rating": 2
+      },
+      {
+        "key": "management",
+        "rating": 6
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 40
+      },
+      {
+        "key": "visionary",
+        "score": 35
+      },
+      {
+        "key": "operator",
+        "score": 55
+      },
+      {
+        "key": "creator",
+        "score": 20
+      },
+      {
+        "key": "seller",
+        "score": 95
+      },
+      {
+        "key": "leader",
+        "score": 65
+      },
+      {
+        "key": "analyst",
+        "score": 60
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": false,
+    "requiresTravel": true,
+    "isOnlineBusiness": false,
+    "isB2B": true,
+    "isB2C": true,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": true,
+    "isHighlyAutomatable": false,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": true,
+    "isRecessionResistant": true
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "high",
+      "notes": {
+        "en": "Cross-selling additional policies to an existing book of clients scales revenue without proportional new-client-acquisition effort.",
+        "ro": "Vânzarea încrucișată a unor polițe suplimentare către un portofoliu existent de clienți crește venitul fără un efort proporțional de achiziție de clienți noi."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate"
+    },
+    "aiResistance": {
+      "level": "moderate"
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Losing a key carrier appointment removes an entire product line from the shelf overnight.",
+          "ro": "Pierderea unui contract cheie cu un asigurător elimină peste noapte o întreagă linie de produse."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Maintain appointments with at least 4-5 carriers per line of business.",
+          "ro": "Menține contracte cu cel puțin 4-5 asigurători per linie de afaceri."
+        }
+      },
+      {
+        "description": {
+          "en": "Errors & omissions liability if a client's coverage gap is later disputed.",
+          "ro": "Răspundere de erori și omisiuni dacă un gol de acoperire al clientului este contestat ulterior."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Document every coverage recommendation and any coverage declined by the client in writing.",
+          "ro": "Documentează în scris fiecare recomandare de acoperire și orice acoperire refuzată de client."
+        }
+      },
+      {
+        "description": {
+          "en": "Carrier commission-rate compression reduces per-policy revenue over time.",
+          "ro": "Comprimarea ratelor de comision ale asigurătorilor reduce venitul per poliță în timp."
+        },
+        "severity": "low",
+        "mitigation": {
+          "en": "Diversify into fee-based commercial consulting to reduce dependence on commission rates.",
+          "ro": "Diversifică-te către consultanță comercială cu taxă, pentru a reduce dependența de ratele de comision."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "The right coverage, from someone who actually shops it for you across multiple carriers.",
+        "ro": "Asigurarea potrivită, de la cineva care chiar o caută pentru tine la mai mulți asigurători."
+      },
+      "channels": [
+        {
+          "channelType": "referralProgram",
+          "description": {
+            "en": "Referrals from existing clients, real-estate agents, and lenders.",
+            "ro": "Recomandări de la clienți existenți, agenți imobiliari și creditori."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "eventsAndSponsorship",
+          "description": {
+            "en": "Sponsoring local small-business and community events.",
+            "ro": "Sponsorizarea evenimentelor locale pentru afaceri mici și comunitate."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "socialMedia",
+          "description": {
+            "en": "Short educational posts on coverage gaps and renewal timing.",
+            "ro": "Postări educaționale scurte despre golurile de acoperire și momentul reînnoirii."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "low"
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "Consultative needs-analysis — comparing quotes across multiple carriers rather than pushing one product.",
+        "ro": "Analiză consultativă a nevoilor — compararea ofertelor de la mai mulți asigurători, nu împingerea unui singur produs."
+      },
+      "salesCycleLengthDays": 21,
+      "pricingModel": {
+        "en": "Commission-based, paid by the carrier — no direct fee to the client for most personal-lines policies.",
+        "ro": "Bazat pe comision, plătit de asigurător — fără taxă directă pentru client la majoritatea polițelor personale."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate"
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Needs analysis and comparative quoting across carriers.",
+          "ro": "Analiza nevoilor și cotare comparativă la mai mulți asigurători."
+        },
+        {
+          "en": "Policy binding and documentation.",
+          "ro": "Semnarea și documentarea poliței."
+        },
+        {
+          "en": "Annual renewal review and re-shopping.",
+          "ro": "Revizuirea anuală de reînnoire și re-cotare."
+        },
+        {
+          "en": "Claims support and advocacy on the client's behalf.",
+          "ro": "Suport și susținere în caz de daună, în numele clientului."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Running comparative quotes, following up on pending applications, and handling renewal and claims inquiries.",
+        "ro": "Rularea cotațiilor comparative, urmărirea cererilor în așteptare și gestionarea solicitărilor de reînnoire și daună."
+      }
+    },
+    "automation": {
+      "level": "moderate"
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "comparativeRating",
+          "description": {
+            "en": "Automated comparative rating across multiple carrier systems.",
+            "ro": "Cotare comparativă automată la mai multe sisteme de asigurători."
+          },
+          "maturity": "coreToModel"
+        },
+        {
+          "area": "renewalReminders",
+          "description": {
+            "en": "Automated renewal-reminder sequences ahead of policy expiration.",
+            "ro": "Secvențe automate de memento de reînnoire înainte de expirarea poliței."
+          },
+          "maturity": "established"
+        }
+      ],
+      "aiDependencyLevel": "moderate"
+    },
+    "recommendedTools": [
+      {
+        "name": "EZLynx",
+        "category": "comparativeRater",
+        "isRequired": true,
+        "websiteUrl": "https://www.ezlynx.com/"
+      },
+      {
+        "name": "Applied Epic",
+        "category": "agencyManagementSystem",
+        "isRequired": false,
+        "websiteUrl": "https://www.appliedsystems.com/"
+      },
+      {
+        "name": "HawkSoft",
+        "category": "agencyManagementSystem",
+        "isRequired": false,
+        "websiteUrl": "https://www.hawksoft.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "high",
+      "timeHorizonMonths": 36
+    },
+    "scaling": {
+      "path": {
+        "en": "Cross-sell additional policies to the existing client book, then grow a dedicated commercial-lines practice for higher-premium accounts.",
+        "ro": "Vinde încrucișat polițe suplimentare portofoliului existent de clienți, apoi dezvoltă o practică dedicată de asigurări comerciale pentru conturi cu prime mai mari."
+      },
+      "bottlenecks": [
+        {
+          "en": "Carrier appointment approval can take months for a new agency.",
+          "ro": "Aprobarea contractului cu asigurătorul poate dura luni pentru o agenție nouă."
+        },
+        {
+          "en": "Staff licensing requirements slow down hiring.",
+          "ro": "Cerințele de autorizare a personalului încetinesc angajarea."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 12,
+          "description": {
+            "en": "50 active policies across personal and commercial lines.",
+            "ro": "50 de polițe active pe linii personale și comerciale."
+          }
+        },
+        {
+          "monthsFromLaunch": 24,
+          "description": {
+            "en": "First commercial-lines book reaching €250,000 in annual premium.",
+            "ro": "Primul portofoliu de asigurări comerciale ajungând la 250.000 EUR prime anuale."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Multi-carrier comparison shopping — not captive to a single insurer's pricing or appetite.",
+          "ro": "Cumpărare comparativă la mai mulți asigurători — nu captiv prețurilor sau apetitului unui singur asigurător."
+        }
+      },
+      {
+        "description": {
+          "en": "CIC (Certified Insurance Counselor) designation builds credibility with commercial-lines prospects.",
+          "ro": "Titlul CIC (Certified Insurance Counselor) construiește credibilitate în fața prospecților de asigurări comerciale."
+        }
+      },
+      {
+        "description": {
+          "en": "Fast, hands-on claims advocacy differentiates from call-center-only competitors.",
+          "ro": "Susținerea rapidă și implicată în caz de daună diferențiază de competitorii care oferă doar call-center."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "An independent, multi-carrier insurance brokerage built on new-business and renewal commissions, cross-selling, and a growing commercial-lines book.",
+        "ro": "O brokeraj de asigurări independent, cu mai mulți asigurători, construit pe comisioane din afaceri noi și reînnoiri, cross-selling și un portofoliu comercial în creștere."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.insuranceBrokerage.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.insuranceBrokerage.businessDna.resources.community1"
+      },
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.insuranceBrokerage.businessDna.resources.book1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.insuranceBrokerage.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "arr",
+        "targetDescription": {
+          "en": "Grow annual renewal commission revenue as the client book compounds.",
+          "ro": "Crește veniturile anuale din comisioane de reînnoire pe măsură ce portofoliul de clienți se acumulează."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep annual policy-renewal retention above 88%.",
+          "ro": "Menține retenția anuală la reînnoirea polițelor peste 88%."
+        }
+      },
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Close at least 1 in 3 comparative quotes presented.",
+          "ro": "Finalizează cel puțin 1 din 3 cotații comparative prezentate."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert referral leads into bound policies at a higher rate than cold leads.",
+          "ro": "Convertește lead-urile din recomandări în polițe semnate la o rată mai mare decât lead-urile reci."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "sales",
+          "importance": 5
+        },
+        {
+          "key": "negotiation",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "communication",
+          "importance": 4
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "persistent",
+          "importance": 4
+        },
+        {
+          "trait": "collaborative",
+          "importance": 3
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "decisive",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 10000,
+        "max": 30000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 12000,
+        "max": 25000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 35,
+        "maxWeeklyHours": 50
+      },
+      "communicationStyle": [
+        "consultative",
+        "persistent"
+      ],
+      "technicalLevel": 3,
+      "leadershipLevel": 3,
+      "creativityLevel": 2,
+      "salesAffinity": 5,
+      "automationAffinity": 3,
+      "remotePreference": "hybrid",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theConnector",
+        "theHustler"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize multi-carrier comparison and claims advocacy in the Executive Summary — the two biggest trust signals over captive agents.",
+      "ro": "Evidențiază compararea la mai mulți asigurători și susținerea în caz de daună în Rezumatul executiv — cele două cele mai puternice semnale de încredere față de agenții captivi."
+    },
+    "marketingHints": {
+      "en": "Referrals from real-estate agents and lenders convert unusually well — worth a dedicated relationship-building effort.",
+      "ro": "Recomandările de la agenți imobiliari și creditori se convertesc neobișnuit de bine — merită un efort dedicat de relaționare."
+    },
+    "financialHints": {
+      "en": "Model revenue as renewal-compounding — the client book itself is the asset, not any single sale.",
+      "ro": "Modelează venitul ca fiind cumulativ prin reînnoiri — portofoliul de clienți în sine este activul, nu o singură vânzare."
+    },
+    "generationHints": {
+      "en": "Tone should be confident and consultative, reflecting genuine sales strength.",
+      "ro": "Tonul ar trebui să fie încrezător și consultativ, reflectând o forță reală de vânzare."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Obtain property & casualty and life & health licensing.",
+            "ro": "Obține autorizarea pentru asigurări generale și viață-sănătate."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Applying for carrier appointments before licensing is finalized.",
+            "ro": "Solicitarea contractelor cu asigurătorii înainte de finalizarea autorizării."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Apply for carrier appointments with at least 4-5 carriers per line.",
+            "ro": "Solicită contracte cu cel puțin 4-5 asigurători per linie."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.insuranceBrokerage.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Bind the first 5-10 policies across personal lines.",
+            "ro": "Semnează primele 5-10 polițe pe linii personale."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Quoting only one carrier instead of comparing several.",
+            "ro": "Cotarea unui singur asigurător în loc de a compara mai mulți."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Always present at least 3 comparative quotes per prospect.",
+            "ro": "Prezintă întotdeauna cel puțin 3 cotații comparative per prospect."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Standardize the needs-analysis and quoting workflow.",
+            "ro": "Standardizează fluxul de analiză a nevoilor și cotare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Skipping a documented needs analysis for simple-seeming policies.",
+            "ro": "Omiterea unei analize documentate a nevoilor pentru polițe aparent simple."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document every client's stated coverage priorities in the AMS.",
+            "ro": "Documentează în AMS prioritățile de acoperire declarate de fiecare client."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Announce the brokerage to the referral network of real-estate agents and lenders.",
+            "ro": "Anunță brokerajul rețelei de recomandări formate din agenți imobiliari și creditori."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching before carrier appointments are fully active.",
+            "ro": "Lansarea înainte ca toate contractele cu asigurătorii să fie active."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm every planned carrier appointment is live before marketing broadly.",
+            "ro": "Confirmă că fiecare contract planificat cu asigurătorul este activ înainte de a face marketing amplu."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Bind the first paying client's policy and confirm a smooth claims-support process.",
+            "ro": "Semnează polița primului client plătitor și confirmă un proces de suport la daună fără probleme."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not explaining the renewal process clearly at binding.",
+            "ro": "Neexplicarea clară a procesului de reînnoire la semnare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Walk every new client through what happens at renewal, in writing.",
+            "ro": "Explică fiecărui client nou, în scris, ce se întâmplă la reînnoire."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach 25-30 active policies with a stable renewal rate.",
+            "ro": "Atinge 25-30 de polițe active cu o rată de reînnoire stabilă."
+          }
+        ],
+        "kpis": [
+          "arr",
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Focusing only on new business and neglecting renewal follow-up.",
+            "ro": "Concentrarea doar pe afaceri noi și neglijarea urmăririi reînnoirilor."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Set automated renewal-reminder sequences starting 60 days out.",
+            "ro": "Setează secvențe automate de memento de reînnoire cu 60 de zile înainte."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Cross-sell additional policies to the existing client book.",
+            "ro": "Vinde încrucișat polițe suplimentare portofoliului existent de clienți."
+          }
+        ],
+        "kpis": [
+          "arr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Never revisiting existing clients' coverage needs after the initial sale.",
+            "ro": "Neverificarea nevoilor de acoperire ale clienților existenți după vânzarea inițială."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Review each client's full coverage picture at every renewal, not just the expiring policy.",
+            "ro": "Revizuiește imaginea completă de acoperire a fiecărui client la fiecare reînnoire, nu doar polița care expiră."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Launch a dedicated commercial-lines practice for higher-premium accounts.",
+            "ro": "Lansează o practică dedicată de asigurări comerciale pentru conturi cu prime mai mari."
+          }
+        ],
+        "kpis": [
+          "arr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Treating commercial accounts with the same process as personal lines.",
+            "ro": "Tratarea conturilor comerciale cu același proces ca liniile personale."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a distinct commercial-lines needs-analysis process before marketing to that segment.",
+            "ro": "Construiește un proces distinct de analiză a nevoilor comerciale înainte de a face marketing acelui segment."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Add a second producer to grow the commercial-lines book faster.",
+            "ro": "Adaugă un al doilea agent producător pentru a crește mai rapid portofoliul comercial."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Hiring a producer before the commission-split structure is clearly defined.",
+            "ro": "Angajarea unui agent producător înainte ca structura de partajare a comisionului să fie clar definită."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Define the commission-split agreement in writing before the producer's first sale.",
+            "ro": "Definește în scris acordul de partajare a comisionului înainte de prima vânzare a agentului."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Package the book of business for acquisition by a larger agency.",
+            "ro": "Pregătește portofoliul de afaceri pentru achiziție de către o agenție mai mare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Client and carrier records scattered across email instead of the AMS.",
+            "ro": "Înregistrări despre clienți și asigurători dispersate în email în loc de AMS."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Keep every policy, renewal, and claim logged in the agency management system from day one.",
+            "ro": "Menține fiecare poliță, reînnoire și daună înregistrată în sistemul de management al agenției încă din prima zi."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

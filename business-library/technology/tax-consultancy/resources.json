@@ -1,0 +1,67 @@
+{
+  "resources": [
+    {
+      "category": "books",
+      "titleTranslationKey": "businessLibrary.taxConsultancy.resources.item1.title",
+      "descriptionTranslationKey": "businessLibrary.taxConsultancy.resources.item1.description"
+    },
+    {
+      "category": "courses",
+      "titleTranslationKey": "businessLibrary.taxConsultancy.resources.item2.title",
+      "descriptionTranslationKey": "businessLibrary.taxConsultancy.resources.item2.description"
+    },
+    {
+      "category": "communities",
+      "titleTranslationKey": "businessLibrary.taxConsultancy.resources.item3.title",
+      "descriptionTranslationKey": "businessLibrary.taxConsultancy.resources.item3.description"
+    },
+    {
+      "category": "podcasts",
+      "titleTranslationKey": "businessLibrary.taxConsultancy.resources.item4.title",
+      "descriptionTranslationKey": "businessLibrary.taxConsultancy.resources.item4.description"
+    },
+    {
+      "category": "newsletters",
+      "titleTranslationKey": "businessLibrary.taxConsultancy.resources.item5.title",
+      "descriptionTranslationKey": "businessLibrary.taxConsultancy.resources.item5.description"
+    },
+    {
+      "category": "software",
+      "titleTranslationKey": "businessLibrary.taxConsultancy.resources.item6.title",
+      "descriptionTranslationKey": "businessLibrary.taxConsultancy.resources.item6.description"
+    },
+    {
+      "category": "software",
+      "titleTranslationKey": "businessLibrary.taxConsultancy.resources.item7.title",
+      "descriptionTranslationKey": "businessLibrary.taxConsultancy.resources.item7.description"
+    },
+    {
+      "category": "aiTools",
+      "titleTranslationKey": "businessLibrary.taxConsultancy.resources.item8.title",
+      "descriptionTranslationKey": "businessLibrary.taxConsultancy.resources.item8.description"
+    },
+    {
+      "category": "certifications",
+      "titleTranslationKey": "businessLibrary.taxConsultancy.resources.item9.title",
+      "descriptionTranslationKey": "businessLibrary.taxConsultancy.resources.item9.description"
+    },
+    {
+      "category": "events",
+      "titleTranslationKey": "businessLibrary.taxConsultancy.resources.item10.title",
+      "descriptionTranslationKey": "businessLibrary.taxConsultancy.resources.item10.description"
+    },
+    {
+      "category": "experts",
+      "titleTranslationKey": "businessLibrary.taxConsultancy.resources.item11.title",
+      "descriptionTranslationKey": "businessLibrary.taxConsultancy.resources.item11.description"
+    },
+    {
+      "category": "checklists",
+      "titleTranslationKey": "businessLibrary.taxConsultancy.resources.item12.title",
+      "descriptionTranslationKey": "businessLibrary.taxConsultancy.resources.item12.description"
+    }
+  ],
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.taxConsultancy.resources.aiMetadata.generationHints"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "professionalLicensing",
+      "accountingSoftwareSetup",
+      "professionalIndemnityInsurance",
+      "officeSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "softwareSubscriptions",
+      "continuingEducation",
+      "officeOrCoworkingRent",
+      "professionalIndemnityPremium"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "staffWages",
+      "seasonalContractStaff",
+      "eFilingTransactionFees"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "monthlyBookkeepingRetainer",
+        "label": {
+          "en": "Monthly bookkeeping retainer",
+          "ro": "Abonament lunar de contabilitate"
+        }
+      },
+      {
+        "key": "annualTaxFilingFee",
+        "label": {
+          "en": "Annual tax filing fee",
+          "ro": "Taxă anuală pentru declarația fiscală"
+        }
+      },
+      {
+        "key": "payrollProcessingFee",
+        "label": {
+          "en": "Payroll processing fee",
+          "ro": "Taxă de procesare a salarizării"
+        }
+      },
+      {
+        "key": "advisoryHours",
+        "label": {
+          "en": "Ad-hoc financial advisory hours",
+          "ro": "Ore de consultanță financiară ad-hoc"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "monthlyRetainerFee": "currency",
+      "hourlyAdvisoryRate": "currency",
+      "activeClientCount": "number",
+      "averageTransactionsPerClient": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "monthlyRetainerFee": "currency",
+      "clientGrowthRatePerQuarter": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.accountingFirm.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "retainerCollections",
+      "seasonalTaxFilingSurge",
+      "payrollCostOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 8,
+    "notesTranslationKey": "businessLibrary.accountingFirm.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 55,
+    "notesTranslationKey": "businessLibrary.accountingFirm.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 25,
+    "notesTranslationKey": "businessLibrary.accountingFirm.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "bookkeeperSalary",
+      "payrollSpecialistSalary",
+      "recruitingFees"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "localSeoContent",
+      "chamberOfCommerceSponsorship",
+      "referralProgramIncentives"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax",
+      "payrollTaxAdministration"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthOperatingReserve",
+      "professionalLiabilityClaimReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "mrr",
+      "grossMargin",
+      "customerRetention",
+      "leadConversion"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 6000,
+      "notesTranslationKey": "businessLibrary.accountingFirm.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 11000,
+      "notesTranslationKey": "businessLibrary.accountingFirm.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 18000,
+      "notesTranslationKey": "businessLibrary.accountingFirm.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.accountingFirm.financial.risks.risk1",
+        "severity": "moderate"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.accountingFirm.financial.risks.risk2",
+        "severity": "low"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.accountingFirm.financial.aiMetadata.generationHints"
+  }
+}
