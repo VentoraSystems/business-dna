@@ -1,0 +1,84 @@
+{
+  "executiveSummary": {
+    "businessSnapshotTranslationKey": "blueprint.executiveSummary.businessSnapshot",
+    "whoThisIsForTranslationKey": "blueprint.executiveSummary.whoThisIsFor",
+    "whoShouldAvoidItTranslationKey": "blueprint.executiveSummary.whoShouldAvoidIt"
+  },
+  "businessOverview": {
+    "descriptionTranslationKey": "blueprint.businessOverview.description"
+  },
+  "founderFit": {
+    "idealArchetypes": ["theBuilder"],
+    "summary": { "en": "__PLACEHOLDER__", "ro": "__PLACEHOLDER__" }
+  },
+  "market": {
+    "marketTrendsTranslationKeys": []
+  },
+  "idealCustomer": {
+    "painPointsTranslationKeys": []
+  },
+  "offer": {
+    "coreFeatureTranslationKeys": []
+  },
+  "pricing": {},
+  "revenue": {
+    "revenueStreamTranslationKeys": []
+  },
+  "marketing": {
+    "marketingStrategy": {
+      "positioning": { "en": "__PLACEHOLDER__", "ro": "__PLACEHOLDER__" },
+      "channels": [
+        {
+          "channelType": "__PLACEHOLDER__",
+          "description": { "en": "__PLACEHOLDER__", "ro": "__PLACEHOLDER__" },
+          "priority": "primary"
+        }
+      ]
+    },
+    "marketingComplexity": { "level": "low" }
+  },
+  "sales": {
+    "salesMethods": []
+  },
+  "operations": {
+    "coreProcessTranslationKeys": []
+  },
+  "technology": {
+    "techStackTranslationKeys": [],
+    "toolKeys": [],
+    "aiToolKeys": []
+  },
+  "team": {
+    "roleTranslationKeys": []
+  },
+  "financialOverview": {
+    "budget": { "minInvestment": 0, "maxInvestment": 0, "currency": "EUR" },
+    "financialInformation": {
+      "startupCosts": [],
+      "recurringCosts": [],
+      "revenueStreams": [],
+      "currency": "EUR"
+    }
+  },
+  "kpis": {
+    "kpis": []
+  },
+  "launchChecklist": {
+    "itemTranslationKeys": []
+  },
+  "growthRoadmap": {
+    "milestoneTranslationKeys": []
+  },
+  "risks": {
+    "difficulty": { "level": "low" },
+    "aiResistance": { "level": "low" },
+    "risks": []
+  },
+  "successFactors": {
+    "advantages": []
+  },
+  "resources": {
+    "resources": []
+  },
+  "aiMetadata": {}
+}

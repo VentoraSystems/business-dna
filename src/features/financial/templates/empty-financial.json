@@ -1,0 +1,24 @@
+{
+  "startupCosts": { "lineItemCategories": [] },
+  "monthlyFixedCosts": { "lineItemCategories": [] },
+  "variableCosts": { "lineItemCategories": [] },
+  "revenueStreams": { "revenueStreams": [] },
+  "pricingAssumptions": { "assumptionsSchema": {} },
+  "revenueForecast": { "assumptionsSchema": {} },
+  "cashFlow": { "lineItemCategories": [] },
+  "breakEven": {},
+  "grossMargin": {},
+  "netMargin": {},
+  "hiringCosts": { "lineItemCategories": [] },
+  "marketingBudget": { "lineItemCategories": [] },
+  "taxes": { "lineItemCategories": [] },
+  "emergencyReserve": { "lineItemCategories": [] },
+  "financialKpis": { "kpis": [] },
+  "scenarios": {
+    "conservative": {},
+    "expected": {},
+    "optimistic": {}
+  },
+  "financialRisks": { "risks": [] },
+  "aiMetadata": {}
+}

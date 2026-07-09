@@ -16,7 +16,8 @@ export const businessMarketingTemplateSchema = z.object({
   promptContext: z.string().max(2000).optional(),
 });
 
-const financialAssumptionTypeSchema = z.enum(["number", "percent", "currency"]);
+/** Exported (was module-private) so features/financial can reuse this exact assumption-type vocabulary instead of redeclaring it — see that feature's README. */
+export const financialAssumptionTypeSchema = z.enum(["number", "percent", "currency"]);
 
 export const businessFinancialTemplateSchema = z.object({
   businessTypeId: z.string().cuid(),
@@ -39,3 +40,4 @@ export type BusinessMarketingTemplateInput = z.infer<typeof businessMarketingTem
 export type BusinessFinancialTemplateInput = z.infer<typeof businessFinancialTemplateSchema>;
 export type BusinessLaunchTemplateInput = z.infer<typeof businessLaunchTemplateSchema>;
 export type LaunchMilestone = z.infer<typeof launchMilestoneSchema>;
+export type FinancialAssumptionType = z.infer<typeof financialAssumptionTypeSchema>;
