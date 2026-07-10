@@ -257,7 +257,8 @@
     },
     "validation": {
       "required": "This one needs an answer before you continue.",
-      "selectAtLeastOne": "Pick at least one option."
+      "selectAtLeastOne": "Pick at least one option.",
+      "resultsUnavailable": "We couldn't finish processing your assessment just now — please check your dashboard shortly."
     },
     "autosave": {
       "saving": "Saving…",
@@ -279,7 +280,8 @@
         "eyebrow": "Your Entrepreneur DNA",
         "matchLabel": "Compatibility",
         "confidenceValue": "{value}% confidence",
-        "summary": "Based on your answers so far, you show strong alignment with {archetype} traits — comfort with ambiguity, a pull toward new ideas, and a bias for bold moves over safe ones."
+        "summary": "Based on your answers so far, you show strong alignment with {archetype} traits — comfort with ambiguity, a pull toward new ideas, and a bias for bold moves over safe ones.",
+        "summaryGeneric": "This is how closely your answers align with your top-matched business, based on the dimensions that matter most for it."
       },
       "primaryArchetype": {
         "eyebrow": "Your Primary Archetype",
@@ -347,6 +349,7 @@
       },
       "strengths": {
         "sectionTitle": "Your Top Strengths",
+        "empty": "Nothing stood out strongly on your top match yet.",
         "items": {
           "strategicVision": "Strategic vision — you naturally think several moves ahead.",
           "adaptability": "Adaptability — you adjust quickly when plans change.",
@@ -357,6 +360,7 @@
       },
       "growth": {
         "sectionTitle": "Growth Opportunities",
+        "empty": "No clear gaps against your top match — nice alignment.",
         "items": {
           "delegation": "Delegation — handing off ownership instead of holding on to everything.",
           "financialDiscipline": "Financial discipline — tighter tracking of budget and burn.",
@@ -364,6 +368,22 @@
           "consistentExecution": "Consistent execution — following through past the first burst of energy.",
           "networkBuilding": "Network building — investing in relationships before you need them."
         }
+      },
+      "dimensionLabels": {
+        "skills": "Skills",
+        "budget": "Budget",
+        "lifestyle": "Lifestyle Fit",
+        "risk": "Risk Tolerance",
+        "timeline": "Timeline",
+        "industryPreference": "Industry Fit",
+        "businessModelPreference": "Business Model Fit",
+        "communicationStyle": "Communication",
+        "leadership": "Leadership",
+        "creativity": "Creativity",
+        "technicalAbility": "Technical Ability",
+        "salesOrientation": "Sales Orientation",
+        "location": "Location Preference",
+        "workStyle": "Work Style"
       },
       "workStyle": {
         "sectionTitle": "Work Style",
@@ -406,7 +426,8 @@
       "opportunities": {
         "sectionTitle": "Recommended Opportunities",
         "sectionSubtitle": "A first look at the kinds of businesses that could fit your profile.",
-        "disclaimer": "Illustrative example — your real matches are calculated once your assessment is fully processed.",
+        "disclaimer": "Ranked by how closely your answers align with each business's profile.",
+        "noResults": "We couldn't compute matches for this assessment yet — please try again shortly.",
         "compatibilityLabel": "Compatibility",
         "budgetLabel": "Budget",
         "monthlyRevenueLabel": "Potential Monthly Revenue",
@@ -443,12 +464,9 @@
       },
       "whyTheseMatches": {
         "sectionTitle": "Why These Matches",
-        "body": "These placeholder examples were chosen to illustrate how compatibility, difficulty, and scalability will be presented once real matching is in place.",
-        "reasons": {
-          "reason1": "Your DNA profile leans toward vision and creativity, which tends to fit fast-moving, idea-driven businesses.",
-          "reason2": "Your work style shows solid risk tolerance, which opens the door to less conventional business models.",
-          "reason3": "Your available time and business experience shape how ambitious a starting point makes sense."
-        }
+        "body": "Your top match scored strongly on these dimensions from your assessment.",
+        "reasonTemplate": "Strong alignment on {dimension}.",
+        "empty": "Your top match is a broad fit rather than standing out on any one dimension."
       },
       "certificate": {
         "eyebrow": "BusinessDNA",
@@ -745,7 +763,8 @@
     "investment": "Investment",
     "timeToFirstCustomer": "Time to first customer",
     "scalability": "Scalability",
-    "automation": "Automation"
+    "automation": "Automation",
+    "requiredSkills": "Skills this business draws on"
   },
   "blueprint": {
     "title": "Business plan",

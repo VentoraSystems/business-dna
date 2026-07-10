@@ -7,7 +7,15 @@ import { CompatibilityRing } from "./compatibility-ring";
 import { DNA_ARCHETYPE_ICONS, type DnaArchetypeKey } from "./config";
 
 interface DnaResultsHeroProps {
-  primaryArchetype: DnaArchetypeKey;
+  /**
+   * Optional — populating this requires the 14-MatchingDimension ->
+   * 7-DnaArchetypeKey mapping, which no phase has computed yet (a real
+   * product decision, not a simple default — see
+   * matching-engine/README.md and this feature's derive-overarching-archetype.ts).
+   * When absent, the hero shows the real score/confidence without a
+   * fabricated archetype label.
+   */
+  primaryArchetype?: DnaArchetypeKey;
   compatibilityScore: number;
   confidenceScore: number;
 }
@@ -18,7 +26,7 @@ export function DnaResultsHero({
   confidenceScore,
 }: DnaResultsHeroProps) {
   const t = useTranslations("assessment.results");
-  const ArchetypeIcon = DNA_ARCHETYPE_ICONS[primaryArchetype];
+  const ArchetypeIcon = primaryArchetype ? DNA_ARCHETYPE_ICONS[primaryArchetype] : null;
 
   return (
     <motion.div
@@ -39,19 +47,23 @@ export function DnaResultsHero({
         className="mb-8"
       />
 
-      <div className="mb-3 flex items-center gap-2">
-        <div className="flex h-9 w-9 items-center justify-center rounded-full bg-accent/15 text-accent-foreground">
-          <ArchetypeIcon className="h-5 w-5" />
+      {primaryArchetype && ArchetypeIcon && (
+        <div className="mb-3 flex items-center gap-2">
+          <div className="flex h-9 w-9 items-center justify-center rounded-full bg-accent/15 text-accent-foreground">
+            <ArchetypeIcon className="h-5 w-5" />
+          </div>
+          <h1 className="text-3xl">{t(`dnaProfile.archetypes.${primaryArchetype}.name`)}</h1>
         </div>
-        <h1 className="text-3xl">{t(`dnaProfile.archetypes.${primaryArchetype}.name`)}</h1>
-      </div>
+      )}
 
       <Badge variant="accent" className="mb-5">
         {t("hero.confidenceValue", { value: confidenceScore })}
       </Badge>
 
       <p className="max-w-md text-muted-foreground">
-        {t("hero.summary", { archetype: t(`dnaProfile.archetypes.${primaryArchetype}.name`) })}
+        {primaryArchetype
+          ? t("hero.summary", { archetype: t(`dnaProfile.archetypes.${primaryArchetype}.name`) })
+          : t("hero.summaryGeneric")}
       </p>
     </motion.div>
   );

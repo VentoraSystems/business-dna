@@ -18,7 +18,8 @@
     "db:seed": "tsx prisma/seed.ts",
     "db:seed:business-engine": "tsx prisma/seed-business-engine.ts",
     "db:studio": "prisma studio",
-    "matching-engine:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/matching-engine-integration-check.ts"
+    "matching-engine:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/matching-engine-integration-check.ts",
+    "results-pipeline:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/results-pipeline-integration-check.ts"
   },
   "dependencies": {
     "next": "^14.2.21",

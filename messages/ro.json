@@ -257,7 +257,8 @@
     },
     "validation": {
       "required": "Această întrebare are nevoie de un răspuns înainte să continui.",
-      "selectAtLeastOne": "Alege cel puțin o opțiune."
+      "selectAtLeastOne": "Alege cel puțin o opțiune.",
+      "resultsUnavailable": "Nu am putut finaliza procesarea evaluării tale chiar acum — te rugăm să verifici panoul principal în curând."
     },
     "autosave": {
       "saving": "Se salvează…",
@@ -279,7 +280,8 @@
         "eyebrow": "ADN-ul tău antreprenorial",
         "matchLabel": "Compatibilitate",
         "confidenceValue": "{value}% încredere",
-        "summary": "Pe baza răspunsurilor tale de până acum, arăți o aliniere puternică cu trăsăturile de tip {archetype} — confort cu incertitudinea, atracție către idei noi și preferință pentru mișcări îndrăznețe în locul celor sigure."
+        "summary": "Pe baza răspunsurilor tale de până acum, arăți o aliniere puternică cu trăsăturile de tip {archetype} — confort cu incertitudinea, atracție către idei noi și preferință pentru mișcări îndrăznețe în locul celor sigure.",
+        "summaryGeneric": "Aceasta arată cât de aproape sunt răspunsurile tale de cea mai bună afacere potrivită, pe baza dimensiunilor care contează cel mai mult pentru ea."
       },
       "primaryArchetype": {
         "eyebrow": "Arhetipul tău principal",
@@ -347,6 +349,7 @@
       },
       "strengths": {
         "sectionTitle": "Punctele tale forte",
+        "empty": "Nimic nu a ieșit puternic în evidență la cea mai bună potrivire a ta încă.",
         "items": {
           "strategicVision": "Viziune strategică — gândești în mod natural cu câțiva pași înainte.",
           "adaptability": "Adaptabilitate — te ajustezi rapid când planurile se schimbă.",
@@ -357,6 +360,7 @@
       },
       "growth": {
         "sectionTitle": "Oportunități de creștere",
+        "empty": "Nicio diferență clară față de cea mai bună potrivire a ta — o aliniere bună.",
         "items": {
           "delegation": "Delegare — cedarea responsabilității în loc să ții totul în propriile mâini.",
           "financialDiscipline": "Disciplină financiară — urmărire mai riguroasă a bugetului și a cheltuielilor.",
@@ -364,6 +368,22 @@
           "consistentExecution": "Execuție constantă — continuarea dincolo de primul avânt de energie.",
           "networkBuilding": "Construirea rețelei — investiție în relații înainte de a avea nevoie de ele."
         }
+      },
+      "dimensionLabels": {
+        "skills": "Abilități",
+        "budget": "Buget",
+        "lifestyle": "Potrivire stil de viață",
+        "risk": "Toleranță la risc",
+        "timeline": "Interval de timp",
+        "industryPreference": "Potrivire industrie",
+        "businessModelPreference": "Potrivire model de afaceri",
+        "communicationStyle": "Comunicare",
+        "leadership": "Leadership",
+        "creativity": "Creativitate",
+        "technicalAbility": "Abilitate tehnică",
+        "salesOrientation": "Orientare spre vânzări",
+        "location": "Preferință locație",
+        "workStyle": "Stil de lucru"
       },
       "workStyle": {
         "sectionTitle": "Stil de lucru",
@@ -406,7 +426,8 @@
       "opportunities": {
         "sectionTitle": "Oportunități recomandate",
         "sectionSubtitle": "O primă imagine a tipurilor de afaceri care s-ar putea potrivi profilului tău.",
-        "disclaimer": "Exemplu ilustrativ — potrivirile tale reale sunt calculate după ce evaluarea ta este procesată complet.",
+        "disclaimer": "Clasificate în funcție de cât de aproape sunt răspunsurile tale de profilul fiecărei afaceri.",
+        "noResults": "Nu am putut calcula potriviri pentru această evaluare încă — te rugăm să încerci din nou în curând.",
         "compatibilityLabel": "Compatibilitate",
         "budgetLabel": "Buget",
         "monthlyRevenueLabel": "Venit lunar potențial",
@@ -443,12 +464,9 @@
       },
       "whyTheseMatches": {
         "sectionTitle": "De ce aceste potriviri",
-        "body": "Aceste exemple placeholder au fost alese pentru a ilustra cum vor fi prezentate compatibilitatea, dificultatea și scalabilitatea odată ce potrivirea reală va fi implementată.",
-        "reasons": {
-          "reason1": "Profilul tău ADN înclină spre viziune și creativitate, ceea ce se potrivește de obicei cu afaceri rapide, orientate spre idei.",
-          "reason2": "Stilul tău de lucru arată o toleranță solidă la risc, ceea ce deschide ușa unor modele de afaceri mai puțin convenționale.",
-          "reason3": "Timpul disponibil și experiența ta în afaceri conturează cât de ambițios poate fi un punct de plecare."
-        }
+        "body": "Cea mai bună potrivire a ta a obținut scoruri puternice la aceste dimensiuni din evaluarea ta.",
+        "reasonTemplate": "Aliniere puternică la {dimension}.",
+        "empty": "Cea mai bună potrivire a ta este echilibrată, fără să iasă în evidență pe o singură dimensiune."
       },
       "certificate": {
         "eyebrow": "BusinessDNA",
@@ -745,7 +763,8 @@
     "investment": "Investiție",
     "timeToFirstCustomer": "Timp până la primul client",
     "scalability": "Scalabilitate",
-    "automation": "Automatizare"
+    "automation": "Automatizare",
+    "requiredSkills": "Abilități pe care se bazează această afacere"
   },
   "blueprint": {
     "title": "Plan de afaceri",

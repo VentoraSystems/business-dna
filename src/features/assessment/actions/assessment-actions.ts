@@ -6,7 +6,10 @@ import { db } from "@/lib/db";
 import { requireCurrentUser } from "@/lib/auth";
 import type { Locale } from "@/i18n/config";
 import type { AnswersState } from "../types";
-import type { RawAssessmentAnswers } from "@/features/matching-engine/types/assessment-input";
+import { createMatchingEngine } from "@/features/matching-engine/services/matching-engine";
+import type { ExplanationGenerator } from "@/features/matching-engine/services/explanation-generator";
+import { businessMatchRepository } from "@/features/business-engine/repositories";
+import { fetchRawAnswersForMatching } from "./fetch-raw-answers";
 
 /**
  * The question bank rarely changes at runtime, so memoize the key → id
@@ -131,8 +134,80 @@ export async function updateSessionStep(sessionId: string, currentStep: number) 
 }
 
 /**
- * Mark the session complete and create the Assessment record. `archetype`
- * is left null — that's the not-yet-built matching engine's job.
+ * Stands in for `ExplanationGenerator` purely so `DefaultMatchingEngine.run()`
+ * can reach its final "Business Match Results" stage — that service is a
+ * throwing placeholder by design (AI Explanation is out of scope for this
+ * phase, see matching-engine/README.md), and this results page is built to
+ * work entirely off `CompatibilityResult`'s raw scores/strengths/weaknesses
+ * without any AI-generated prose, so an empty string here is never rendered.
+ * Not a real implementation of that service — just an override, the same
+ * pattern `createMatchingEngine(overrides)` is designed for.
+ */
+const NO_OP_EXPLANATION_GENERATOR: ExplanationGenerator = {
+  explainMatch: async () => "",
+  explainStrengths: async () => "",
+  explainWeaknesses: async () => "",
+  suggestImprovements: async () => "",
+  summarizeBusiness: async () => "",
+};
+
+/**
+ * Runs the Matching Engine for a just-completed Assessment and persists
+ * every ranked result as a `BusinessMatchResult` row. Best-effort: a
+ * matching failure (or zero candidates) is logged, not thrown — assessment
+ * completion itself must succeed regardless of whether matching does, so a
+ * user is never stuck mid-flow because of a downstream scoring bug. The
+ * results page (see results-actions.ts) handles an assessment with no
+ * persisted matches as its own explicit empty state, not a crash.
+ *
+ * `scoreBreakdown`'s `contribution` field stores each dimension's raw 0-1
+ * alignment (`DimensionScore.rawValue`), not its weighted contribution to
+ * the overall score (`weightedValue`) — that's what the results page needs
+ * to recompute strengths/weaknesses and populate per-dimension displays;
+ * under Phase 2's uniform weighting the two are numerically identical
+ * today, but `rawValue` is the one that stays meaningful if a future phase
+ * assigns real per-dimension weights.
+ */
+async function runMatchingForAssessment(assessmentId: string, userId: string, locale: Locale): Promise<void> {
+  try {
+    const engine = createMatchingEngine({
+      fetchRawAnswers: fetchRawAnswersForMatching,
+      explanationGenerator: NO_OP_EXPLANATION_GENERATOR,
+    });
+    const results = await engine.run({ assessmentId, userId, locale });
+
+    if (results.length === 0) {
+      console.error(`[assessment] Matching produced zero candidates for assessment "${assessmentId}".`);
+      return;
+    }
+
+    await Promise.all(
+      results.map((result) =>
+        businessMatchRepository.create({
+          userId,
+          assessmentId,
+          businessTypeId: result.businessTypeId,
+          compatibilityScore: result.overallScore,
+          scoreBreakdown: result.dimensionScores.map((score) => ({
+            questionKey: score.dimension,
+            contribution: score.rawValue,
+            label: score.dimension,
+          })),
+        })
+      )
+    );
+  } catch (error) {
+    console.error(`[assessment] Matching engine failed for assessment "${assessmentId}":`, error);
+  }
+}
+
+/**
+ * Mark the session complete, create the Assessment record, and run the
+ * Matching Engine against it. `archetype` is left null — populating it
+ * would require the 14-dimension -> 7-key Entrepreneur DNA Match mapping,
+ * which is explicitly not decided (see matching-engine README's Phase 3
+ * notes and features/assessment/components/results/README-equivalent
+ * comments on deriveOverarchingArchetype()) — flagged, not guessed.
  */
 export async function completeAssessmentSession(sessionId: string) {
   const user = await requireCurrentUser();
@@ -161,36 +236,8 @@ export async function completeAssessmentSession(sessionId: string) {
     });
   });
 
+  await runMatchingForAssessment(assessment.id, user.id, session.locale);
+
   revalidatePath("/businesses");
   return { assessmentId: assessment.id };
-}
-
-/**
- * The `fetchRawAnswers` adapter `createMatchingEngine()` expects (see
- * `features/matching-engine`'s README — "whoever wires up a real
- * `fetchRawAnswers`... is expected to adapt one to the other"). Reads a
- * completed `Assessment`'s session answers and reshapes them from this
- * feature's own `AnswersState`/`SessionWithAnswers` into matching-engine's
- * deliberately independent `RawAssessmentAnswers` shape — mechanical field
- * renaming/wrapping, no scoring logic. Lives here (assessment ->
- * matching-engine), not in matching-engine itself, so that feature never
- * takes on a dependency on this one's Prisma models.
- */
-export async function fetchRawAnswersForMatching(assessmentId: string): Promise<RawAssessmentAnswers> {
-  const assessment = await db.assessment.findUniqueOrThrow({
-    where: { id: assessmentId },
-    include: { session: { include: { answers: { include: { question: true } } } } },
-  });
-
-  const answers: Record<string, unknown> = {};
-  for (const answer of assessment.session.answers) {
-    answers[answer.question.key] = answer.value;
-  }
-
-  return {
-    assessmentId: assessment.id,
-    userId: assessment.userId,
-    locale: assessment.locale,
-    answers,
-  };
 }

@@ -74,11 +74,10 @@ export const DNA_ARCHETYPE_ICONS: Record<DnaArchetypeKey, LucideIcon> = {
  * a value of this type is no longer an independently-authored input.
  * It's a classification COMPUTED FROM the 7 `DnaArchetypeKey` dimension
  * scores above, by `deriveOverarchingArchetype()` in
- * `./derive-overarching-archetype.ts` (not implemented yet — see that
- * file). Never author an `OverarchingArchetypeKey` value directly;
- * `MOCK_DNA_RESULTS.overarchingArchetype` (`./mock-data.ts`) is
- * illustrative placeholder data standing in for what that function will
- * eventually compute, not a real derivation.
+ * `./derive-overarching-archetype.ts` — implemented as of Phase 3, but
+ * not wired into the live results page, since nothing computes the real
+ * 7-key scores it needs as input (see that file's doc comment). Never
+ * author an `OverarchingArchetypeKey` value directly.
  */
 export type OverarchingArchetypeKey =
   | "systemsBuilder"
@@ -148,23 +147,3 @@ export const WORK_STYLE_ICONS: Record<WorkStyleKey, LucideIcon> = {
 export type DifficultyLevel = "low" | "medium" | "high";
 export type ScalabilityLevel = "low" | "medium" | "high";
 export type RevenueSpeed = "slow" | "moderate" | "fast";
-
-export const STRENGTH_IDS = [
-  "strategicVision",
-  "adaptability",
-  "riskAppetite",
-  "clearCommunication",
-  "fastLearning",
-] as const;
-
-export const GROWTH_OPPORTUNITY_IDS = [
-  "delegation",
-  "financialDiscipline",
-  "technicalDepth",
-  "consistentExecution",
-  "networkBuilding",
-] as const;
-
-export const OPPORTUNITY_SAMPLE_IDS = ["sample1", "sample2", "sample3"] as const;
-
-export const WHY_MATCH_REASON_IDS = ["reason1", "reason2", "reason3"] as const;

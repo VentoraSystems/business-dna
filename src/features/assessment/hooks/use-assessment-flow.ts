@@ -21,6 +21,7 @@ export function useAssessmentFlow({ sessionId, initialStep, initialAnswers }: Us
   const [answers, setAnswers] = React.useState<AnswersState>(initialAnswers);
   const [saveStatus, setSaveStatus] = React.useState<"idle" | "saving" | "saved">("idle");
   const [isSubmitting, setIsSubmitting] = React.useState(false);
+  const [assessmentId, setAssessmentId] = React.useState<string | null>(null);
   const debounceRef = React.useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const currentQuestion = flattenedQuestions[stepIndex];
@@ -92,7 +93,8 @@ export function useAssessmentFlow({ sessionId, initialStep, initialAnswers }: Us
 
   async function handleThinkingComplete() {
     try {
-      await completeAssessmentSession(sessionId);
+      const { assessmentId: newAssessmentId } = await completeAssessmentSession(sessionId);
+      setAssessmentId(newAssessmentId);
     } finally {
       setIsSubmitting(false);
       setPhase("results");
@@ -123,6 +125,7 @@ export function useAssessmentFlow({ sessionId, initialStep, initialAnswers }: Us
     saveStatus,
     isSubmitting,
     progressPercent,
+    assessmentId,
     startFlow,
     goNext,
     goBack,

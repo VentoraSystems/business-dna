@@ -94,7 +94,18 @@ export function AssessmentFlow({ sessionId, initialStep, initialAnswers }: Asses
   }
 
   if (flow.phase === "results") {
-    return <ResultsPlaceholder />;
+    // completeAssessmentSession() failed before this phase was reached (rare — the hook still
+    // transitions to "results" so the user isn't stuck on the thinking screen forever) —
+    // there's no assessmentId to fetch results for, so surface that plainly instead of
+    // rendering a results page with nothing behind it.
+    if (!flow.assessmentId) {
+      return (
+        <div className="mx-auto max-w-lg py-16 text-center">
+          <p className="text-muted-foreground">{tValidation("resultsUnavailable")}</p>
+        </div>
+      );
+    }
+    return <ResultsPlaceholder assessmentId={flow.assessmentId} />;
   }
 
   // phase === "section"

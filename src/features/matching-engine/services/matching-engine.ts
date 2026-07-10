@@ -58,9 +58,16 @@ interface PerCandidateScoring {
   ruleResults: Awaited<ReturnType<RuleEngine["evaluate"]>>;
 }
 
-/** rawValue >= this -> a "strength"; <= (1 - this) -> a "weakness". v1 stub thresholds — see assembleResults(). */
-const STRENGTH_THRESHOLD = 0.7;
-const WEAKNESS_THRESHOLD = 0.3;
+/**
+ * rawValue >= this -> a "strength"; <= this -> a "weakness". v1 stub
+ * thresholds — see assembleResults(). Exported so a read path that
+ * recomputes strengths/weaknesses from a persisted `scoreBreakdown` (which
+ * only stores rawValue per dimension, not the derived label) can reuse the
+ * exact same cutoffs rather than re-declaring them — see
+ * features/assessment/actions/results-actions.ts.
+ */
+export const STRENGTH_THRESHOLD = 0.7;
+export const WEAKNESS_THRESHOLD = 0.3;
 /** A user's self-rating (0-1, from a 1-5 rating question) at or above this counts as "has this skill" for matchedSkills/missingSkills. */
 const SKILL_MATCH_THRESHOLD = 0.5;
 

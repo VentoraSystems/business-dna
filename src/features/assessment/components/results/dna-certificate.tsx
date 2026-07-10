@@ -10,7 +10,8 @@ import type { Locale } from "@/i18n/config";
 import { OVERARCHING_ARCHETYPE_ICONS, type OverarchingArchetypeKey } from "./config";
 
 interface DnaCertificateProps {
-  overarchingArchetype: OverarchingArchetypeKey;
+  /** Optional — see DnaResultsHeroProps.primaryArchetype for why this can be absent in v1. */
+  overarchingArchetype?: OverarchingArchetypeKey;
   overallScore: number;
 }
 
@@ -27,7 +28,7 @@ export function DnaCertificate({ overarchingArchetype, overallScore }: DnaCertif
   const locale = useLocale() as Locale;
   const t = useTranslations("assessment.results");
   const [showDownloadNotice, setShowDownloadNotice] = React.useState(false);
-  const ArchetypeIcon = OVERARCHING_ARCHETYPE_ICONS[overarchingArchetype];
+  const ArchetypeIcon = overarchingArchetype ? OVERARCHING_ARCHETYPE_ICONS[overarchingArchetype] : null;
 
   const displayName =
     user?.fullName || [user?.firstName, user?.lastName].filter(Boolean).join(" ") || t("certificate.fallbackName");
@@ -63,24 +64,26 @@ export function DnaCertificate({ overarchingArchetype, overallScore }: DnaCertif
         </div>
 
         <div className="grid w-full max-w-sm grid-cols-2 gap-6 text-left sm:grid-cols-3">
-          <div>
-            <p className="text-xs uppercase tracking-wide text-muted-foreground">
-              {t("certificate.archetypeLabel")}
-            </p>
-            <div className="mt-1 flex items-center gap-1.5">
-              <ArchetypeIcon className="h-4 w-4 text-accent-foreground" />
-              <p className="text-sm font-semibold">
-                {t(`primaryArchetype.archetypes.${overarchingArchetype}.title`)}
+          {overarchingArchetype && ArchetypeIcon && (
+            <div>
+              <p className="text-xs uppercase tracking-wide text-muted-foreground">
+                {t("certificate.archetypeLabel")}
               </p>
+              <div className="mt-1 flex items-center gap-1.5">
+                <ArchetypeIcon className="h-4 w-4 text-accent-foreground" />
+                <p className="text-sm font-semibold">
+                  {t(`primaryArchetype.archetypes.${overarchingArchetype}.title`)}
+                </p>
+              </div>
             </div>
-          </div>
+          )}
           <div>
             <p className="text-xs uppercase tracking-wide text-muted-foreground">
               {t("certificate.scoreLabel")}
             </p>
             <p className="mt-1 text-sm font-semibold">{overallScore}%</p>
           </div>
-          <div className="col-span-2 sm:col-span-1">
+          <div className={overarchingArchetype ? "col-span-2 sm:col-span-1" : undefined}>
             <p className="text-xs uppercase tracking-wide text-muted-foreground">
               {t("certificate.dateLabel")}
             </p>

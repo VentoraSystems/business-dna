@@ -1,28 +1,22 @@
 "use client";
 
+import * as React from "react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import { Sparkles } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
+import { EmptyState } from "@/components/ui/empty-state";
 import { RevealIntro } from "./results/reveal-intro";
 import { DnaResultsHero } from "./results/dna-results-hero";
-import { PrimaryArchetypeCard } from "./results/primary-archetype-card";
-import { DnaProfileCards } from "./results/dna-profile-cards";
 import { StrengthsAndGrowth } from "./results/strengths-and-growth";
 import { WorkStyleCards } from "./results/work-style-cards";
 import { RecommendedOpportunities } from "./results/recommended-opportunities";
 import { WhyTheseMatches } from "./results/why-these-matches";
 import { DnaCertificate } from "./results/dna-certificate";
-import { WHY_MATCH_REASON_IDS } from "./results/config";
-import { MOCK_DNA_RESULTS } from "./results/mock-data";
+import { getAssessmentResults, type AssessmentResultsData } from "../actions/results-actions";
 
-/**
- * Section-level reveal, mirroring the card-level stagger pattern already
- * used in dna-profile-cards.tsx / work-style-cards.tsx / etc. — just
- * applied to whole sections instead of individual cards, so "Reveal" fades
- * in first and everything below cascades in after it, one section at a
- * time, instead of appearing all at once.
- */
 const sectionContainerVariants = {
   hidden: {},
   show: { transition: { staggerChildren: 0.15 } },
@@ -33,17 +27,70 @@ const sectionItemVariants = {
   show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 };
 
+interface ResultsPlaceholderProps {
+  assessmentId: string;
+}
+
 /**
- * The full "Entrepreneur DNA Results" experience. Everything here reads
- * from `MOCK_DNA_RESULTS` — a placeholder object, not the Matching Engine
- * — until real assessment scoring and business matching exist.
+ * The "Entrepreneur DNA Results" experience. Real as of Phase 3 — reads
+ * `getAssessmentResults()` (results-actions.ts), which returns what
+ * `completeAssessmentSession()` persisted via the Matching Engine, rather
+ * than the `MOCK_DNA_RESULTS` this used to render unconditionally.
  *
- * Eleven sections, in order: Reveal, DNA Score, Primary Archetype, DNA
- * Profile, Strengths + Growth Opportunities, Work Style, Best
- * Opportunities, Why These Fit, Certificate, Mission Control CTA.
+ * Two sections from the original 11 are not rendered here on purpose:
+ * "Primary Archetype" and "DNA Profile" (the 7-founder-archetype cards)
+ * both depend on `DnaArchetypeKey` scores that no phase has ever computed
+ * — Phase 2 scores the 14 `MatchingDimension`s, a different vocabulary,
+ * and there's no specified mapping from one to the other. Rather than
+ * fabricate one, those two sections are omitted; `DnaResultsHero` and
+ * `DnaCertificate` render their real score/confidence without a
+ * fabricated archetype label (see their own `primaryArchetype`/
+ * `overarchingArchetype` props, now optional). See
+ * `results/derive-overarching-archetype.ts` for the one piece of that
+ * chain (7-key scores -> 5-key headline) that *is* implemented, and its
+ * doc comment for why it isn't wired in here.
  */
-export function ResultsPlaceholder() {
+export function ResultsPlaceholder({ assessmentId }: ResultsPlaceholderProps) {
   const t = useTranslations("assessment.results");
+  const tCommon = useTranslations("common");
+  const [data, setData] = React.useState<AssessmentResultsData | null | undefined>(undefined);
+
+  React.useEffect(() => {
+    let cancelled = false;
+    getAssessmentResults(assessmentId).then((result) => {
+      if (!cancelled) setData(result);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [assessmentId]);
+
+  if (data === undefined) {
+    return (
+      <div className="mx-auto max-w-2xl space-y-4 py-12">
+        <Skeleton className="mx-auto h-48 w-48 rounded-full" />
+        <Skeleton className="mx-auto h-6 w-64" />
+        <Skeleton className="mx-auto h-4 w-80" />
+      </div>
+    );
+  }
+
+  if (data === null || data.opportunities.length === 0) {
+    return (
+      <div className="mx-auto max-w-2xl py-12">
+        <EmptyState
+          icon={Sparkles}
+          title={t("opportunities.sectionTitle")}
+          description={t("opportunities.noResults")}
+          action={
+            <Button asChild>
+              <Link href="/dashboard">{tCommon("continue")}</Link>
+            </Button>
+          }
+        />
+      </div>
+    );
+  }
 
   return (
     <motion.div
@@ -60,54 +107,39 @@ export function ResultsPlaceholder() {
       {/* 2. DNA Score */}
       <motion.div variants={sectionItemVariants}>
         <DnaResultsHero
-          primaryArchetype={MOCK_DNA_RESULTS.primaryArchetype}
-          compatibilityScore={MOCK_DNA_RESULTS.compatibilityScore}
-          confidenceScore={MOCK_DNA_RESULTS.confidenceScore}
+          compatibilityScore={data.overallScore}
+          confidenceScore={Math.round(data.confidenceScore * 100)}
         />
       </motion.div>
 
-      {/* 3. Primary Archetype */}
+      {/* 3. Strengths + Growth Opportunities */}
       <motion.div variants={sectionItemVariants}>
-        <PrimaryArchetypeCard overarchingArchetype={MOCK_DNA_RESULTS.overarchingArchetype} />
+        <StrengthsAndGrowth strengths={data.strengths} weaknesses={data.weaknesses} />
       </motion.div>
 
-      {/* 4. DNA Profile */}
+      {/* 4. Work Style */}
+      {data.workStyle.length > 0 && (
+        <motion.div variants={sectionItemVariants}>
+          <WorkStyleCards workStyle={data.workStyle} />
+        </motion.div>
+      )}
+
+      {/* 5. Best Opportunities */}
       <motion.div variants={sectionItemVariants}>
-        <DnaProfileCards profile={MOCK_DNA_RESULTS.dnaProfile} />
+        <RecommendedOpportunities opportunities={data.opportunities} />
       </motion.div>
 
-      {/* 5-6. Strengths + Growth Opportunities */}
+      {/* 6. Why These Fit */}
       <motion.div variants={sectionItemVariants}>
-        <StrengthsAndGrowth
-          strengths={MOCK_DNA_RESULTS.strengths}
-          growthOpportunities={MOCK_DNA_RESULTS.growthOpportunities}
-        />
+        <WhyTheseMatches dimensions={data.strengths} />
       </motion.div>
 
-      {/* 7. Work Style */}
+      {/* 7. Certificate */}
       <motion.div variants={sectionItemVariants}>
-        <WorkStyleCards workStyle={MOCK_DNA_RESULTS.workStyle} />
+        <DnaCertificate overallScore={data.overallScore} />
       </motion.div>
 
-      {/* 8. Best Opportunities */}
-      <motion.div variants={sectionItemVariants}>
-        <RecommendedOpportunities opportunities={MOCK_DNA_RESULTS.opportunities} />
-      </motion.div>
-
-      {/* 9. Why These Fit */}
-      <motion.div variants={sectionItemVariants}>
-        <WhyTheseMatches reasons={[...WHY_MATCH_REASON_IDS]} />
-      </motion.div>
-
-      {/* 10. Certificate */}
-      <motion.div variants={sectionItemVariants}>
-        <DnaCertificate
-          overarchingArchetype={MOCK_DNA_RESULTS.overarchingArchetype}
-          overallScore={MOCK_DNA_RESULTS.compatibilityScore}
-        />
-      </motion.div>
-
-      {/* 11. Mission Control CTA */}
+      {/* 8. Mission Control CTA */}
       <motion.div variants={sectionItemVariants} className="flex justify-center">
         <Button size="lg" asChild>
           <Link href="/dashboard">{t("cta.continueButton")}</Link>
