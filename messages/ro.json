@@ -5907,6 +5907,2306 @@
           "generationHints": "Păstrează fiecare observație specifică consultanței de strategie independente și neutre față de furnizori — nu sfaturi generice de consultanță managerială sau de furnizor de AI."
         }
       }
+    },
+    "mobileAppDevelopmentAgency": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: „The Mobile App Handbook” de Andrew Chen",
+          "course1": "Curs: traseul oficial de auto-studiu „App Store Review Guidelines” de la Apple",
+          "community1": "Comunitate: r/iOSProgramming, r/androiddev și Discord-ul comunității Flutter",
+          "checklist1": "Listă de verificare: conformitate App Store și Play Store, înainte de trimitere"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune 2-3 proiecte concurente, per platformă, plus o bază tot mai mare de abonamente de mentenanță pentru compatibilitatea OS, cu un vârf sezonier de mentenanță în jurul lansărilor majore de OS."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — pragul de rentabilitate real depinde de termenele de verificare din magazinele de aplicații, aflate în afara controlului direct al studioului."
+        },
+        "grossMargin": {
+          "notes": "Estimare valabilă pentru o echipă de livrare restrânsă, de 2-3 persoane; marja scade dacă un ciclu de retrimitere prelungește termenul proiectului."
+        },
+        "netMargin": {
+          "notes": "După salariile specialiștilor pe platformă, mentenanța laboratorului de dispozitive și uneltele cloud/de raportare a erorilor, pe toate proiectele active."
+        },
+        "scenarios": {
+          "conservative": "O aplicație în dezvoltare activă, fără clienți cu abonament încă.",
+          "expected": "2-3 proiecte de aplicații concurente, plus 2 abonamente de mentenanță pentru compatibilitatea OS.",
+          "optimistic": "Peste 4 proiecte concurente, un portofoliu complet de abonamente de mentenanță și un pachet productizat de aplicație de bază care se vinde."
+        },
+        "risks": {
+          "risk1": "O respingere neașteptată la App Store sau Play Store întârzie cu săptămâni plata etapei de lansare.",
+          "risk2": "O limitare a framework-ului cross-platform forțează o rescriere costisitoare, într-o etapă târzie, în cod nativ."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul în segmente discrete, per platformă, cu un vârf sezonier de mentenanță în jurul lansărilor majore de OS."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Aplicații native care trec de verificarea App Store din prima încercare — construite de o echipă care a trecut deja prin procesul de verificare Apple și Google.",
+          "category": "Studio de dezvoltare a aplicațiilor mobile"
+        },
+        "brandPromise": "O aplicație testată real în laboratorul de dispozitive, trimisă cu o verificare de conformitate prealabilă, live în buzunarul tău la timp.",
+        "uvp": {
+          "statement": "Un istoric dovedit de aprobări din prima încercare la App Store și un manager de lansare dedicat înseamnă că data lansării tale nu depinde de presupuneri despre ce va respinge Apple sau Google.",
+          "diff1": "Istoric dovedit de aprobări din prima încercare la App Store și Play Store",
+          "diff2": "Un manager de lansare dedicat, care gestionează întreaga comunicare cu verificatorii"
+        },
+        "icp": {
+          "description": "Fondatori de startup-uri finanțate care își construiesc primul produs mobil și lideri de produs sau operațiuni din companii mari, care au nevoie de o aplicație nativă sau cross-platform construită de specialiști.",
+          "firmographics": "Startup-uri de consum de la seed la Series B sau companii mid-market până la enterprise, care au nevoie de o aplicație internă pentru operațiuni de teren sau destinată clienților."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Fondator de aplicație de consum",
+            "description": "Are o idee de produs validată și are nevoie de o aplicație iOS/Android elegantă, aprobată în magazin, pentru a o lansa către utilizatori reali."
+          },
+          "persona2": {
+            "name": "Lider de operațiuni enterprise",
+            "description": "Are nevoie de o aplicație internă pentru operațiuni de teren (scanare coduri de bare, sincronizare offline, integrări hardware) pe care echipa internă de web nu o poate construi."
+          }
+        },
+        "painPoints": {
+          "point1": "O aplicație anterioară a fost respinsă la verificarea App Store, fără expertiză internă clară pentru a o remedia și retrimite.",
+          "point2": "Subestimarea mentenanței continue de compatibilitate OS pe care o necesită o aplicație live, după fiecare lansare anuală majoră de iOS/Android."
+        },
+        "outcomes": {
+          "outcome1": "O aplicație live în ambele magazine de aplicații, la termenul promis, aprobată din prima sau a doua încercare.",
+          "outcome2": "O aplicație întreținută, care continuă să funcționeze la fiecare actualizare majoră anuală de OS, fără o remediere de urgență neașteptată."
+        },
+        "messaging": {
+          "core": "Nu mai ghici ce va respinge Apple. Livrează cu o echipă care a trecut deja prin procesul de verificare.",
+          "support1": "Testare reală în laboratorul de dispozitive, un manager de lansare dedicat și un preț fix per platformă."
+        },
+        "brandVoice": {
+          "tone": "Încrezător din punct de vedere tehnic și specific, niciodată vag despre compromisurile de platformă.",
+          "attr1": "Precis",
+          "attr2": "Testat în practică"
+        },
+        "contentPillars": {
+          "pillar1": "Studii de caz de aprobare la App Store și Play Store, cu termene reale de la respingere la aprobare",
+          "pillar2": "Compromisuri nativ versus cross-platform pentru anumite tipuri de funcționalități"
+        },
+        "channelStrategy": "Un portofoliu de aplicații live, publicate, și evaluările lor din magazine sunt principalul argument de vânzare; recomandările din rețeaua fondatorilor și sponsorizarea conferințelor de dezvoltare mobilă construiesc vizibilitate secundară și experimentală.",
+        "community": {
+          "description": "O rețea de fondatori de startup-uri și manageri de produs care au avut deja o aplicație livrată prin studio.",
+          "platform1": "Comunități Slack și Discord de dezvoltare mobilă"
+        },
+        "leadMagnets": {
+          "magnet1": "Evaluare gratuită a riscului de respingere la App Store, pentru o specificație de aplicație existentă"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Descoperire prin portofoliu sau recomandare",
+            "description": "Un prospect găsește studioul printr-un studiu de caz de aplicație live sau o recomandare de la un fondator."
+          },
+          "stage2": {
+            "name": "Apel de stabilire a scopului tehnic",
+            "description": "Un apel analizează specificația de produs în raport cu constrângerile de platformă și decizia nativ-versus-cross-platform."
+          },
+          "stage3": {
+            "name": "Ofertă cu scop fix, per platformă",
+            "description": "O ofertă construită direct pe baza constatărilor tehnice ale apelului de stabilire a scopului."
+          }
+        },
+        "retention": {
+          "tactic1": "Oferă proactiv abonamentul de mentenanță pentru compatibilitatea OS la lansare, încadrat în jurul următoarei versiuni anuale de OS."
+        },
+        "analytics": {
+          "metric1": "Rata de conversie de la apelul de stabilire a scopului tehnic la proiectul semnat"
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează fiecare mesaj ancorat în rezultate reale din magazinele de aplicații, nu în limbaj generic de tipul „construim aplicații”."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Configurează conturile de dezvoltator Apple și Google și construiește laboratorul de testare pe dispozitive."
+          },
+          "deliverables": {
+            "0": "O listă de verificare a conformității pre-trimitere, construită pe baza motivelor publicate de respingere."
+          },
+          "checklist": {
+            "0": "Confirmă că hardware-ul de testare pe dispozitive reale este pregătit, nu doar simulatoare."
+          },
+          "commonMistakes": {
+            "0": "Sărirea peste hardware-ul de testare pe dispozitive reale, în favoarea exclusivă a simulatoarelor."
+          },
+          "successCriteria": {
+            "0": "Laboratorul de dispozitive și lista de verificare a conformității sunt ambele gata de utilizare."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a sintetiza cele mai recente schimbări de reguli App Store și Play Store în lista de verificare a conformității."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Vinde și livrează prima aplicație printr-un apel de stabilire a scopului tehnic."
+          },
+          "deliverables": {
+            "0": "O decizie de platformă confirmată și o specificație tehnică pentru primul client."
+          },
+          "checklist": {
+            "0": "Confirmă decizia nativ-versus-cross-platform, înainte de a oferta un preț fix."
+          },
+          "commonMistakes": {
+            "0": "Ofertarea unui preț fix înainte de a confirma decizia nativ-versus-cross-platform."
+          },
+          "successCriteria": {
+            "0": "Scopul și prețul primului proiect sunt ambele confirmate în scris."
+          },
+          "aiRecommendations": {
+            "0": "Folosește estimare asistată de AI pentru a verifica estimarea de timp a apelului de stabilire a scopului, înainte de ofertare."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Livrează prima aplicație prin build-uri TestFlight/canal de testare internă și trimite-o spre verificare."
+          },
+          "deliverables": {
+            "0": "Un build testat în laboratorul de dispozitive, gata pentru trimiterea către magazinul de aplicații."
+          },
+          "checklist": {
+            "0": "Rulează fiecare build prin laboratorul de dispozitive înainte de trimitere, nu doar prin simulator."
+          },
+          "commonMistakes": {
+            "0": "Trimiterea către magazinele de aplicații fără a rula lista de verificare a conformității pre-trimitere."
+          },
+          "successCriteria": {
+            "0": "Primul build trece de lista internă de verificare a conformității, înainte de trimitere."
+          },
+          "aiRecommendations": {
+            "0": "Folosește analiza asistată de AI a jurnalelor de erori, în timpul testării interne, pentru a depista din timp erorile specifice dispozitivelor."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Obține aprobarea și publicarea primei aplicații în ambele magazine de aplicații."
+          },
+          "deliverables": {
+            "0": "O listare publicată și live în magazinul de aplicații."
+          },
+          "checklist": {
+            "0": "Alocă timp pentru cel puțin un ciclu de retrimitere."
+          },
+          "commonMistakes": {
+            "0": "Neplanificarea timpului pentru cel puțin un ciclu de retrimitere."
+          },
+          "successCriteria": {
+            "0": "Aplicația este live și aprobată în ambele magazine, în termenul promis."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta primul studiu de caz de aprobare în magazinul de aplicații, odată ce aplicația este live."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Livrează prima aplicație la timp și transformă clientul într-un abonament de mentenanță."
+          },
+          "deliverables": {
+            "0": "Un acord semnat de abonament de mentenanță pentru compatibilitatea OS."
+          },
+          "checklist": {
+            "0": "Oferă proactiv abonamentul de mentenanță la lansare."
+          },
+          "commonMistakes": {
+            "0": "Presupunerea că aplicația nu mai are nevoie de mentenanță odată aprobată și publicată."
+          },
+          "successCriteria": {
+            "0": "Primul client semnează abonamentul de mentenanță la lansare."
+          },
+          "aiRecommendations": {
+            "0": "Automatizează monitorizarea statusului de verificare din magazinul de aplicații, astfel încât echipa să fie alertată imediat ce apare o decizie."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge 3 aplicații live în ambele magazine, cu o rată constantă de aprobare din prima încercare."
+          },
+          "deliverables": {
+            "0": "O listă de verificare documentată pentru calificarea prospecților, pe baza stivei tehnice dovedite a echipei."
+          },
+          "checklist": {
+            "0": "Califică lista de funcționalități a fiecărui prospect nou în raport cu lista de verificare a conformității, înainte de ofertare."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea de proiecte cu funcționalități dependente de hardware, în afara stivei dovedite a echipei."
+          },
+          "successCriteria": {
+            "0": "Toate cele 3 aplicații mențin o rată de aprobare din prima sau a doua încercare."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a semnala cererile de funcționalități care declanșează istoric respingeri în magazinele de aplicații, înainte de ofertare."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Angajează al doilea specialist pe platformă, pentru a rula construcții de aplicații concurente."
+          },
+          "deliverables": {
+            "0": "Un plan documentat de integrare, care acoperă lista de conformitate și laboratorul de dispozitive."
+          },
+          "checklist": {
+            "0": "Cuplează noul angajat cu managerul de lansare, la prima trimitere către magazinul de aplicații."
+          },
+          "commonMistakes": {
+            "0": "Angajarea unui dezvoltator mobil generalist, în loc de un specialist pe platformă."
+          },
+          "successCriteria": {
+            "0": "Noul angajat conduce independent o trimitere aprobată din prima încercare."
+          },
+          "aiRecommendations": {
+            "0": "Folosește documentație de integrare generată de AI pentru lista de conformitate și fluxul laboratorului de dispozitive."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Specializează-te pe o nișă în care expertiza de integrare hardware justifică prețuri premium."
+          },
+          "deliverables": {
+            "0": "O pagină de destinație dedicată, cu studii de caz specifice nișei."
+          },
+          "checklist": {
+            "0": "Confirmă că cel puțin 2 aplicații finalizate aparțin aceleiași nișe, înainte de a te specializa."
+          },
+          "commonMistakes": {
+            "0": "Dispersarea marketingului pe prea multe categorii de aplicații, în loc de o singură nișă recognoscibilă."
+          },
+          "successCriteria": {
+            "0": "Pagina de destinație a nișei generează prima solicitare organică."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza care proiecte anterioare din nișă au adus marja cea mai mare."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Lansează un pachet productizat de aplicație de bază, pentru a scurta ciclul de vânzare pentru clienții mai mici."
+          },
+          "deliverables": {
+            "0": "Un pachet de aplicație de bază, cu preț fix și scop fix, cu preț publicat."
+          },
+          "checklist": {
+            "0": "Limitează strict, în scris, scopul funcționalităților ofertei productizate."
+          },
+          "commonMistakes": {
+            "0": "Subevaluarea prețului ofertei productizate în raport cu adevăratul cost de mentenanță pentru App Store."
+          },
+          "successCriteria": {
+            "0": "Primul client al ofertei productizate este semnat și livrat în limitele scopului stabilit."
+          },
+          "aiRecommendations": {
+            "0": "Folosește șabloane inițiale generate de AI pentru a standardiza baza de cod a ofertei productizate."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Documentează portofoliul de clienți, contractele de mentenanță și acreditările din magazinele de aplicații, pentru o achiziție curată."
+          },
+          "deliverables": {
+            "0": "Un set complet și transferabil de acreditări și documentație pentru conturile din magazinele de aplicații."
+          },
+          "checklist": {
+            "0": "Confirmă că proprietatea conturilor din magazinele de aplicații se poate transfera curat către un nou proprietar."
+          },
+          "commonMistakes": {
+            "0": "Menținerea conturilor de dezvoltator din magazinele de aplicații și a acreditărilor de semnare nedocumentate și dependente exclusiv de fondator."
+          },
+          "successCriteria": {
+            "0": "O firmă achizitoare poate prelua toate conturile active din magazinele de aplicații fără prezența fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește documentație asistată de AI pentru a cataloga acreditările de semnare și accesul la conturi ale fiecărei aplicații, înainte de vânzare."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează îndrumările fiecărei etape specifice livrării pe platforme mobile, nu unui traseu generic de dezvoltare software."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "„The Mobile App Handbook” de Andrew Chen",
+          "description": "Un ghid practic despre strategia de produs mobil, util pentru discuțiile de stabilire a scopului cu fondatori non-tehnici."
+        },
+        "item2": {
+          "title": "Traseul oficial de auto-studiu „App Store Review Guidelines” de la Apple",
+          "description": "Documentul sursă principal pentru construirea unei liste de verificare a conformității pre-trimitere corecte."
+        },
+        "item3": {
+          "title": "r/iOSProgramming și r/androiddev",
+          "description": "Comunități active de dezvoltatori, utile pentru rezolvarea problemelor specifice platformei și semnale de recrutare."
+        },
+        "item4": {
+          "title": "Podcastul „App Masters”",
+          "description": "Interviuri despre strategia de business pentru aplicații mobile, ASO și experiențe de aprobare în magazinele de aplicații."
+        },
+        "item5": {
+          "title": "Newsletter-ul „iOS Dev Weekly”",
+          "description": "O sinteză săptămânală a schimbărilor de platformă iOS relevante pentru conformitate și planificare tehnică."
+        },
+        "item6": {
+          "title": "Xcode",
+          "description": "Principalul lanț de unelte pentru dezvoltare și trimitere iOS."
+        },
+        "item7": {
+          "title": "Android Studio",
+          "description": "Principalul lanț de unelte pentru dezvoltare și trimitere Android."
+        },
+        "item8": {
+          "title": "Firebase Crashlytics",
+          "description": "Raportare a erorilor asistată de AI, folosită pentru triajul erorilor pe matricea de dispozitive."
+        },
+        "item9": {
+          "title": "Apple Certified iOS Developer / Google Associate Android Developer",
+          "description": "Certificări care semnalează expertiza de platformă direct prospecților care compară studiouri."
+        },
+        "item10": {
+          "title": "WWDC și Google I/O",
+          "description": "Conferințe anuale de platformă, care oferă o previzualizare a schimbărilor de OS relevante pentru planificarea compatibilității."
+        },
+        "item11": {
+          "title": "Un specialist freelancer în ASO (optimizare pentru magazinele de aplicații)",
+          "description": "Un colaborator la cerere pentru clienții care doresc optimizare dedicată a listării în magazin, dincolo de construcția de bază."
+        },
+        "item12": {
+          "title": "Listă de verificare a conformității App Store și Play Store, înainte de trimitere",
+          "description": "Lista standard rulată înainte de fiecare trimitere către magazinele de aplicații, care acoperă conformitatea cu regulile, acuratețea metadatelor și cerințele de divulgare a confidențialității."
+        },
+        "aiMetadata": {
+          "generationHints": "Preferă resursele care construiesc credibilitate specifică platformei și acuratețe de conformitate, nu sfaturi generice pentru startup-uri."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Companiile cu o forță de muncă de teren (livrare, mentenanță, inspecție) au adesea o nevoie urgentă și neacoperită de aplicații cu funcționare offline, pe care o agenție web generalistă nu o va propune."
+          },
+          "item2": {
+            "title": "O aplicație bine evaluată în magazinul unei platforme atrage adesea interes organic din partea unor companii adiacente din aceeași nișă, care au văzut-o în listările din magazin."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "O singură respingere de profil înalt la un magazin de aplicații, discutată public de un client, poate afecta credibilitatea de bază a studioului mai rapid decât aproape orice altă greșeală."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Ofertarea unui proiect fără a confirma dacă vreo funcționalitate necesită acces la locație în fundal, Bluetooth sau cameră — toate declanșatoare comune de respingere."
+          },
+          "item2": {
+            "title": "Tratarea unui framework cross-platform ca pe o economie de cost garantată, fără a-l verifica în prealabil în raport cu funcționalitățile specifice, dependente de hardware, ale clientului."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Oferirea unei evaluări gratuite a riscului de respingere la App Store, pentru o specificație existentă, este un magnet de lead-uri mult mai puternic decât o pagină generică de 'contactează-ne'."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Specializarea pe o nișă după 2-3 aplicații similare permite echipei să oferteze mai rapid și cu mai puține surprize de integrare hardware decât rămânând generalistă."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Credibilitatea ta se construiește aplicație cu aplicație, public, într-o listare de magazin pe care oricine o poate verifica — tratează fiecare aplicație livrată ca o referință publică, nu ca un livrabil privat."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clienții care sar peste apelul de stabilire a scopului tehnic, pentru a economisi timp, sunt cei mai predispuși să descopere o funcționalitate care declanșează respingere abia după ce construcția este finalizată."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea eșecurilor agențiilor mobile provin din subestimarea mentenanței continue de compatibilitate OS, nu din construcția inițială în sine."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Infrastructura de notificări push și costurile de API backend se scalează adesea odată cu creșterea utilizatorilor clientului, în moduri pe care oferta inițială cu preț fix nu le-a anticipat."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cererile tot mai frecvente ale clienților pentru funcționalitate 'offline-first' semnalează o cerere în creștere din partea nișelor de servicii de teren și logistică, nu doar din aplicațiile de consum."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Un studio care s-a specializat în aplicații pentru servicii de teren, după al treilea proiect similar, și-a dublat onorariul mediu de proiect per platformă într-un an."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un studio care a ofertat un preț fix înainte de a confirma o cerință hardware Bluetooth a unui client a trebuit să absoarbă o rescriere costisitoare în cod nativ, la mijlocul proiectului."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Ar trebui să construiesc nativ sau cross-platform?",
+            "answer": "Depinde de setul de funcționalități — framework-urile cross-platform funcționează bine pentru majoritatea aplicațiilor bazate pe logică de business, dar orice funcționalitate dependentă de hardware sau critică pentru performanță (cameră, Bluetooth, procesare în fundal) ar trebui semnalată pentru dezvoltare nativă în etapa de stabilire a scopului, nu descoperită la mijlocul construcției."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Un framework cross-platform economisește întotdeauna bani față de construirea de aplicații native.",
+            "fact": "Economisește bani doar atunci când setul de funcționalități nu necesită integrare hardware profundă — pentru aplicații cu nevoi de cameră, Bluetooth sau procesare în fundal, limitările cross-platform pot forța o rescriere costisitoare, într-o etapă târzie, în cod nativ."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Rulează întotdeauna o verificare de conformitate pre-trimitere în raport cu regulile actuale App Store și Play Store, înainte de fiecare trimitere, deoarece regulile se schimbă mai des decât se așteaptă majoritatea echipelor."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează fiecare observație specifică riscului de livrare pe platforme mobile (aprobare în magazin, fragmentare a dispozitivelor) — nu sfaturi generice pentru agenții de software."
+        }
+      }
+    },
+    "cybersecurityConsultancy": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: „The Web Application Hacker's Handbook” de Dafydd Stuttard și Marcus Pinto",
+          "course1": "Curs: OSCP de la Offensive Security (Penetration Testing with Kali Linux)",
+          "community1": "Comunitate: r/netsec și filiala locală OWASP",
+          "checklist1": "Listă de verificare: reguli de angajament și stabilirea scopului înainte de testare"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune vânzări de angajamente grupate în jurul termenelor de conformitate ale clienților (sezon de audit, runde de finanțare), cu angajamente anuale repetate ca principal strat recurent."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — pragul de rentabilitate real depinde de viteza cu care relațiile de recomandare orientate spre conformitate (avocați, auditori) încep să genereze solicitări calificate."
+        },
+        "grossMargin": {
+          "notes": "Estimare valabilă pentru o echipă de livrare restrânsă, de doi testeri; marja scade dacă un angajament necesită un al treilea tester specializat pentru un tip de sistem de nișă."
+        },
+        "netMargin": {
+          "notes": "După salariile testerilor certificați, primele de asigurare de răspundere profesională și abonamentele uneltelor de testare."
+        },
+        "scenarios": {
+          "conservative": "1 angajament pe trimestru, rată minimă de clienți repetați încă.",
+          "expected": "1-2 angajamente pe lună, cu aproximativ 60% conversie către angajamentul anual repetat.",
+          "optimistic": "Peste 3 angajamente pe lună, un portofoliu complet de clienți repetați anual și cerere incipientă pentru evaluarea de pregătire pentru conformitate de nivel de intrare."
+        },
+        "risks": {
+          "risk1": "Un test activ provoacă o perturbare neintenționată a sistemului de producție al unui client, declanșând o reclamație de răspundere.",
+          "risk2": "O vulnerabilitate critică ratată este exploatată ulterior, expunând firma unui risc reputațional și legal."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul ca vânzări discrete, de mare valoare, de angajamente, grupate în jurul termenelor de conformitate, nu ca o curbă de abonament."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Descoperă vulnerabilitatea înaintea atacatorului — un test de penetrare cu onorariu fix, cu un raport pe care auditorul, investitorul sau clientul enterprise îl va accepta efectiv.",
+          "category": "Consultanță de securitate cibernetică"
+        },
+        "brandPromise": "Un test certificat, limitat de reguli de angajament, și un raport de constatări pe care auditorul tău îl acceptă din prima lectură.",
+        "uvp": {
+          "statement": "Un format de raport construit pentru a satisface auditorii SOC 2 și ISO 27001 din prima trimitere, livrat de o echipă certificată, obligată printr-un document semnat de reguli de angajament.",
+          "diff1": "Format de raport pre-validat în raport cu liste reale de verificare ale auditorilor",
+          "diff2": "Un document semnat de reguli de angajament protejează atât sistemele clientului, cât și integritatea livrării"
+        },
+        "icp": {
+          "description": "CTO, lideri de securitate și responsabili de conformitate din companii mid-market care se confruntă cu un termen extern de conformitate — un audit SOC 2, un chestionar de securitate al unui client enterprise sau due diligence din partea unui investitor.",
+          "firmographics": "Companii mid-market cu 50-500 de angajați, de obicei afaceri SaaS sau fintech care urmăresc vânzări enterprise sau o rundă de finanțare."
+        },
+        "personas": {
+          "persona1": {
+            "name": "CTO SaaS care negociază o tranzacție enterprise",
+            "description": "Are nevoie de un raport curat de test de penetrare, pentru a satisface chestionarul de securitate al unui client mare, înainte de închiderea tranzacției."
+          },
+          "persona2": {
+            "name": "Responsabil de conformitate care se pregătește pentru SOC 2",
+            "description": "Are nevoie de un test independent de penetrare, pe care auditorul îl va accepta ca dovadă pentru raportul SOC 2."
+          }
+        },
+        "painPoints": {
+          "point1": "Un raport anterior de audit sau scanare a fost respins de auditor ca insuficient sau prea generic.",
+          "point2": "O tranzacție enterprise este blocată în așteptarea unei verificări de securitate, fără o echipă internă calificată să o deruleze."
+        },
+        "outcomes": {
+          "outcome1": "Un raport de constatări acceptat de auditor sau de clientul enterprise din prima trimitere.",
+          "outcome2": "Un plan clar și prioritizat de remediere, pe care echipa de inginerie îl poate aplica imediat."
+        },
+        "messaging": {
+          "core": "Nu lăsa un raport de securitate respins să-ți blocheze tranzacția sau auditul. Obține unul construit pentru a fi acceptat.",
+          "support1": "Testeri certificați, un proces semnat de reguli de angajament și un format de raport pe care auditorii îl recunosc."
+        },
+        "brandVoice": {
+          "tone": "Precis, calm și fără alarmism.",
+          "attr1": "Riguros",
+          "attr2": "De încredere"
+        },
+        "contentPillars": {
+          "pillar1": "Ce caută efectiv auditorii într-un raport de test de penetrare",
+          "pillar2": "Cercetare originală de vulnerabilități și studii de caz de divulgare responsabilă"
+        },
+        "channelStrategy": "Recomandările de la avocați, auditori și investitori care solicită un test de penetrare drept condiție de tranzacție sunt principale; prezentările la conferințe de securitate și cercetarea de vulnerabilități construiesc credibilitate secundară și experimentală.",
+        "community": {
+          "description": "O rețea de recomandări formată din avocați de conformitate, auditori SOC 2 și investitori de risc, care solicită de rutină un test de penetrare pentru companiile din portofoliu.",
+          "platform1": "Filiala locală OWASP și circuitul conferințelor de securitate"
+        },
+        "leadMagnets": {
+          "magnet1": "Listă de verificare gratuită pentru pregătirea testului de penetrare SOC 2"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Recomandare orientată spre conformitate",
+            "description": "Un avocat, auditor sau investitor recomandă prospectul înaintea unui termen limită."
+          },
+          "stage2": {
+            "name": "Apel de stabilire a scopului și reguli de angajament",
+            "description": "Un apel definește perimetrul sistemului și produce un document semnat de reguli de angajament."
+          },
+          "stage3": {
+            "name": "Ofertă de angajament cu onorariu fix",
+            "description": "O ofertă delimitată la perimetrul de sistem și fereastra de testare definite."
+          }
+        },
+        "retention": {
+          "tactic1": "Oferă proactiv o rată pentru angajamentul anual repetat la livrarea raportului, sincronizată cu următorul ciclu de conformitate al clientului."
+        },
+        "analytics": {
+          "metric1": "Rata de conversie de la solicitarea orientată spre conformitate la angajamentul semnat"
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează fiecare mesaj precis și bazat pe dovezi — acest public nu are încredere în marketingul de securitate bazat pe frică."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Obține certificările echipei și pune la punct asigurarea de răspundere profesională."
+          },
+          "deliverables": {
+            "0": "Un model semnat de contract de reguli de angajament."
+          },
+          "checklist": {
+            "0": "Confirmă că acoperirea asigurării de răspundere se potrivește cu scopul angajamentelor planificate."
+          },
+          "commonMistakes": {
+            "0": "Subestimarea bugetului pentru asigurarea de răspundere profesională, având în vedere expunerea testării active."
+          },
+          "successCriteria": {
+            "0": "Certificările și asigurarea sunt ambele active înainte de primul angajament."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a sintetiza cerințele actuale SOC 2 și ISO 27001 în lista de verificare a metodologiei proprii a firmei."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Vinde și livrează primul angajament de testare de penetrare."
+          },
+          "deliverables": {
+            "0": "Un raport de constatări finalizat pentru primul client."
+          },
+          "checklist": {
+            "0": "Impune documentul semnat de reguli de angajament, înainte de începerea oricărei testări."
+          },
+          "commonMistakes": {
+            "0": "Sărirea peste documentul de reguli de angajament, pentru a încheia mai rapid contractul cu primul client."
+          },
+          "successCriteria": {
+            "0": "Raportul primului angajament este acceptat fără o cerere de retrimitere."
+          },
+          "aiRecommendations": {
+            "0": "Folosește recunoaștere asistată de AI pentru a accelera faza de cartografiere a suprafeței de atac a primului angajament."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardizează modelul de raport de constatări, la un format pe care auditorii de conformitate îl acceptă fără revizuire."
+          },
+          "deliverables": {
+            "0": "Un model reutilizabil de raport, validat de auditori."
+          },
+          "checklist": {
+            "0": "Revizuiește modelul de raport în raport cu o listă de verificare reală a unui auditor SOC 2 sau ISO 27001."
+          },
+          "commonMistakes": {
+            "0": "Redactarea rapoartelor de constatări într-un format adaptat inginerilor, nu auditorilor de conformitate."
+          },
+          "successCriteria": {
+            "0": "Raportul celui de-al doilea angajament este acceptat fără feedback legat de format."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta prima versiune a fiecărui raport de constatări, verificată linie cu linie de un tester certificat."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publică cercetări originale despre vulnerabilități și activează relațiile de recomandare orientate spre conformitate."
+          },
+          "deliverables": {
+            "0": "Un articol publicat de cercetare de vulnerabilități, anonimizat."
+          },
+          "checklist": {
+            "0": "Confirmă că niciun rezultat specific unui client nu este dezvăluit în cercetarea publicată."
+          },
+          "commonMistakes": {
+            "0": "Publicarea unei cercetări de vulnerabilități care dezvăluie constatările specifice ale unui client."
+          },
+          "successCriteria": {
+            "0": "Cercetarea publicată generează cel puțin o solicitare calificată organică."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta o schiță a articolului de cercetare de vulnerabilități, apoi verifică fiecare afirmație tehnică printr-un tester certificat."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Livrează raportul primului angajament și obține acceptarea lui de către auditorul clientului, din prima trimitere."
+          },
+          "deliverables": {
+            "0": "Un raport de constatări acceptat și, dacă este cazul, un abonament semnat de supraveghere a remedierii."
+          },
+          "checklist": {
+            "0": "Oferă proactiv rata pentru angajamentul anual repetat, la livrarea raportului."
+          },
+          "commonMistakes": {
+            "0": "Subestimarea timpului de redactare a raportului necesar pentru a face constatările pregătite pentru auditor."
+          },
+          "successCriteria": {
+            "0": "Auditorul clientului acceptă raportul fără a solicita revizuiri."
+          },
+          "aiRecommendations": {
+            "0": "Folosește redactare asistată de AI a raportului pentru a scurta timpul dintre finalizarea testării și livrarea raportului."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge 5 angajamente finalizate, cu rapoarte constant acceptate."
+          },
+          "deliverables": {
+            "0": "O listă de verificare documentată pentru calificarea perimetrului de sistem al prospecților noi."
+          },
+          "checklist": {
+            "0": "Califică perimetrul de sistem al fiecărui prospect nou în raport cu expertiza de testare dovedită a echipei."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea de angajamente pentru tipuri de sisteme pentru care echipa nu are expertiza dovedită necesară pentru a testa în siguranță."
+          },
+          "successCriteria": {
+            "0": "Toate cele 5 angajamente sunt livrate cu rapoarte acceptate din prima trimitere."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a compara profilul de sistem al fiecărui prospect nou cu angajamentele anterioare de succes ale echipei."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Angajează al doilea tester certificat, pentru a permite angajamente concurente."
+          },
+          "deliverables": {
+            "0": "Un plan documentat de integrare, care acoperă metodologia firmei și standardele de raportare."
+          },
+          "checklist": {
+            "0": "Cuplează noul angajat cu fondatorul, la primele două angajamente."
+          },
+          "commonMistakes": {
+            "0": "Angajarea unui profesionist de securitate generalist, în loc de un tester de penetrare certificat."
+          },
+          "successCriteria": {
+            "0": "Noul angajat livrează independent un angajament cu raport acceptat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește documentație de integrare generată de AI pentru a transfera constant metodologia firmei."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Lansează o evaluare de pregătire pentru conformitate, mai ușoară, cu onorariu fix, ca ofertă de intrare cu preț mai mic."
+          },
+          "deliverables": {
+            "0": "O ofertă de evaluare de nivel de intrare publicată, cu scop și preț definite."
+          },
+          "checklist": {
+            "0": "Proiectează evaluarea de intrare astfel încât să scoată la iveală în mod natural constatări care justifică un test complet de penetrare."
+          },
+          "commonMistakes": {
+            "0": "Stabilirea unui preț atât de mic pentru evaluarea de nivel de intrare încât canibalizează vânzările testelor complete de penetrare."
+          },
+          "successCriteria": {
+            "0": "Cel puțin un client de nivel de intrare face upgrade la un test complet de penetrare."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a identifica ce constatări ale evaluării de intrare duc cel mai des la o vânzare suplimentară pentru angajamentul complet."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Extinde-te către un cadru de conformitate adiacent, precum HIPAA sau PCI-DSS."
+          },
+          "deliverables": {
+            "0": "Cel puțin un membru al echipei certificat în noul cadru."
+          },
+          "checklist": {
+            "0": "Certifică cel puțin un membru al echipei în noul cadru, înainte de a-l promova public."
+          },
+          "commonMistakes": {
+            "0": "Promovarea expertizei într-un cadru de conformitate nou, înainte ca echipa să fie efectiv certificată pentru el."
+          },
+          "successCriteria": {
+            "0": "Primul client este semnat și livrat conform noului cadru de conformitate."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a corela cerințele noului cadru cu metodologia de testare existentă a firmei."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Documentează portofoliul de clienți, contractele de angajament anual și metodologia de testare, pentru o achiziție curată."
+          },
+          "deliverables": {
+            "0": "Un ghid de metodologie de testare, de sine stătător, transferabil."
+          },
+          "checklist": {
+            "0": "Formalizează metodologia de testare și modelul de raport, independent de orice fondator individual."
+          },
+          "commonMistakes": {
+            "0": "Menținerea metodologiei de testare și a istoricului relațiilor cu clienții nedocumentate și dependente de fondator."
+          },
+          "successCriteria": {
+            "0": "O firmă achizitoare poate revizui metodologia documentată fără prezența fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește documentație asistată de AI pentru a formaliza cazurile limită ale metodologiei, înainte de due diligence."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează îndrumările fiecărei etape specifice unei afaceri de testare de securitate certificate, bazate pe proiecte, nu unui traseu generic de servicii IT."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "„The Web Application Hacker's Handbook” de Dafydd Stuttard și Marcus Pinto",
+          "description": "O referință tehnică fundamentală pentru metodologia de testare de penetrare a aplicațiilor web."
+        },
+        "item2": {
+          "title": "OSCP de la Offensive Security (Penetration Testing with Kali Linux)",
+          "description": "Principala certificare recunoscută în industrie, care semnalează credibilitate practică în testarea de penetrare."
+        },
+        "item3": {
+          "title": "r/netsec și filiala locală OWASP",
+          "description": "Comunități active de securitate, utile pentru a rămâne la curent cu clase emergente de vulnerabilități și semnale de recrutare."
+        },
+        "item4": {
+          "title": "Podcastul „Darknet Diaries”",
+          "description": "Studii de caz reale de incidente de securitate, utile pentru comunicarea riscurilor către clienți."
+        },
+        "item5": {
+          "title": "Newsletter-ul „tl;dr sec”",
+          "description": "O sinteză săptămânală curatoriată de cercetare de securitate și unelte relevante pentru testarea de penetrare."
+        },
+        "item6": {
+          "title": "Burp Suite",
+          "description": "Principala platformă de testare a securității aplicațiilor web."
+        },
+        "item7": {
+          "title": "Nmap",
+          "description": "Unealtă de descoperire a rețelei și audit de securitate, folosită în faza de recunoaștere."
+        },
+        "item8": {
+          "title": "Metasploit",
+          "description": "Framework de exploatare asistat de AI, folosit pentru validarea în siguranță a vulnerabilităților identificate."
+        },
+        "item9": {
+          "title": "OSCE (Offensive Security Certified Expert)",
+          "description": "O certificare avansată, care semnalează prospecților enterprise o expertiză mai profundă de exploatare."
+        },
+        "item10": {
+          "title": "DEF CON și Black Hat",
+          "description": "Conferințe majore de securitate, pentru construirea credibilității tehnice și menținerea la curent cu tehnicile de atac."
+        },
+        "item11": {
+          "title": "Un avocat specializat în conformitate SOC 2/ISO 27001",
+          "description": "Un consilier juridic la cerere, pentru clienții care navighează cerințele de audit alături de evaluarea tehnică."
+        },
+        "item12": {
+          "title": "Listă de verificare pentru reguli de angajament și stabilirea scopului înainte de testare",
+          "description": "Lista standard și modelul de contract folosite pentru a defini perimetrul sistemului și constrângerile de testare, înainte de începerea oricărui angajament."
+        },
+        "aiMetadata": {
+          "generationHints": "Preferă resursele care construiesc credibilitate certificată, recunoscută de auditori, nu conținut generic de marketing de securitate IT."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Companiile care se pregătesc pentru primul lor audit SOC 2 au adesea nevoie de îndrumare despre ce înseamnă efectiv 'dovadă' pentru un auditor, nu doar de testul în sine — acea expertiză adiacentă este o vânzare suplimentară naturală."
+          },
+          "item2": {
+            "title": "Un responsabil de conformitate mulțumit se mută adesea între companii și rămâne o sursă durabilă de recomandări timp de ani de la angajamentul inițial."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Un test cu scop stabilit prea larg, fără un perimetru clar de sistem, poate atinge din neatenție infrastructura unui furnizor terț, creând o expunere legală dincolo de relația cu clientul."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Acceptarea unei descrieri verbale a scopului, în loc de o definiție scrisă și semnată a perimetrului de sistem, înainte de începerea testării."
+          },
+          "item2": {
+            "title": "Livrarea unui raport excelent din punct de vedere tehnic, pe care un auditor îl respinge totuși pentru că nu se potrivește cu cadrul specific de colectare a dovezilor al acestuia."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "O listă gratuită de verificare pentru pregătirea testului de penetrare SOC 2 convertește prospecții anxioși în privința conformității în apeluri de stabilire a scopului mult mai bine decât un pitch generic de securitate."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Adaugă un al doilea tester doar atunci când cererea de angajamente necesită constant ferestre paralele de testare — angajarea înainte de acea cerere adaugă doar costuri de salarizare neutilizate."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Reputația ta se construiește pe rapoarte care rezistă la analiza unui auditor, nu pe ingeniozitatea exploatării în sine — scrie pentru verificator, nu doar pentru inginer."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clienții care sosesc deja sub presiunea unui termen limită sunt cei mai rapizi de închis, dar cei mai puțin toleranți la orice întârziere de programare — protejează disponibilitatea ferestrei de testare în consecință."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea testelor de penetrare pentru audituri de conformitate sunt tratate de clienți ca un exercițiu de bifat o căsuță — firmele care câștigă afaceri anuale repetate sunt cele care livrează constatări pe care inginerii clientului chiar le pun în practică."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Primele de asigurare de răspundere profesională cresc odată cu scara și criticitatea sistemelor testate, un element ușor de subestimat în buget pe măsură ce baza de clienți crește spre companii mai mari."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cerințele tot mai frecvente de chestionare de securitate din partea clienților enterprise pentru furnizori SaaS mai mici semnalează o cerere în creștere pentru testare de penetrare accesibilă, la preț mid-market, nu doar audituri de nivel enterprise."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "O consultanță care și-a specializat modelul de raport special pentru cerințele de dovezi SOC 2 a câștigat trei recomandări de la un singur auditor mulțumit, într-un an."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "O firmă care a sărit peste un document scris de reguli de angajament, la un angajament grăbit, a provocat o întrerupere neplanificată a producției și a pierdut complet relația cu clientul."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Avem nevoie de un test de penetrare sau de o scanare de vulnerabilități?",
+            "answer": "O scanare de vulnerabilități este automatizată și superficială — utilă pentru monitorizare continuă, dar insuficientă ca dovadă de conformitate. Un test de penetrare este o evaluare manuală, condusă de experți, pe care majoritatea auditorilor SOC 2 și ISO 27001 o cer în mod specific."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Un scanner automat de vulnerabilități poate înlocui un test manual de penetrare în scopuri de conformitate.",
+            "fact": "Majoritatea cadrelor de conformitate fac o distincție explicită între scanarea automată și testarea de penetrare manuală, condusă de experți — un raport automat, de unul singur, nu va satisface un auditor SOC 2 sau ISO 27001."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Livrează întotdeauna constatările într-un apel privat, programat, de sinteză, înainte de a trimite raportul scris, astfel încât echipa clientului să nu fie luată prin surprindere de o constatare critică în scris."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează fiecare observație specifică testării de penetrare certificate, orientate spre conformitate — nu sfaturi generice pentru securitate IT sau servicii gestionate."
+        }
+      }
+    },
+    "itManagedServices": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: „Managed Services in a Month” de Karl W. Palachuk",
+          "course1": "Curs: traseul de certificare CompTIA Network+ / A+",
+          "community1": "Comunitate: r/msp și grupul local de discuții pentru colegi din MSP-uri",
+          "checklist1": "Listă de verificare: integrarea clienților noi și auditul de rețea"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune o creștere constantă a MRR-ului per utilizator, pe măsură ce numărul de dispozitive gestionate se acumulează client cu client, nu printr-un singur contract mare."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — pragul de rentabilitate real depinde de viteza cu care auditurile gratuite de rețea se transformă în contracte lunare semnate."
+        },
+        "grossMargin": {
+          "notes": "Estimare valabilă pentru o echipă restrânsă de 2-3 tehnicieni; marja scade dacă incidentele de gardă din afara programului depășesc rata bugetată."
+        },
+        "netMargin": {
+          "notes": "După salariile tehnicienilor, abonamentele RMM/ticketing și indemnizațiile de gardă."
+        },
+        "scenarios": {
+          "conservative": "3 clienți pe contracte lunare, sub 100 de dispozitive gestionate.",
+          "expected": "8 clienți pe contracte lunare, în jur de 300 de dispozitive gestionate.",
+          "optimistic": "Peste 15 clienți pe contracte lunare, peste 600 de dispozitive gestionate, și nivelul de consultanță strategică vândut clienților de top."
+        },
+        "risks": {
+          "risk1": "Un timp de răspuns SLA nerespectat, din cauza unui gol de personal, declanșează o penalitate contractuală sau abandonul clientului.",
+          "risk2": "Abandonul unui singur client mare elimină deodată o pondere disproporționată din venitul lunar recurent."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul ca MRR per utilizator, în creștere cumulativă, cea mai apropiată de un abonament formă din această categorie de servicii tehnologice."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Întregul tău departament IT, la un cost mai mic decât o singură angajare internă — helpdesk, monitorizare și actualizări, acoperite.",
+          "category": "Furnizor de servicii IT gestionate (MSP)"
+        },
+        "brandPromise": "Rețeaua ta este monitorizată 24/7, backup-urile tale sunt verificate, iar un tehnician răspunde înainte să observi măcar că ceva nu este în regulă.",
+        "uvp": {
+          "statement": "Monitorizarea automată 24/7 depistează problemele înainte ca acestea să devină întreruperi, iar un preț transparent per utilizator înseamnă fără facturi surpriză.",
+          "diff1": "Monitorizare automată 24/7 și detectare a anomaliilor",
+          "diff2": "Prețuri transparente, publicate, per utilizator, fără taxe ascunse"
+        },
+        "icp": {
+          "description": "Afaceri mici și mijlocii (20-200 angajați), care au nevoie de operațiuni IT externalizate, dar nu pot justifica încă un departament IT intern complet.",
+          "firmographics": "Companii cu 20-200 de angajați și 30-300 de dispozitive gestionate, de obicei din servicii profesionale, sănătate sau producție ușoară."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Manager de birou copleșit",
+            "description": "A gestionat informal plângeri legate de IT și știe că afacerea a depășit soluțiile improvizate."
+          },
+          "persona2": {
+            "name": "Lider operațional dintr-o companie în creștere",
+            "description": "Crește rapid numărul de angajați și are nevoie de integrare IT, alocare de dispozitive și suport care să țină pasul."
+          }
+        },
+        "painPoints": {
+          "point1": "Dispozitivele rămân neactualizate luni de zile, deoarece nimeni nu se ocupă de IT cu normă întreagă.",
+          "point2": "Nu există o cale clară de escaladare atunci când ceva se strică în afara programului."
+        },
+        "outcomes": {
+          "outcome1": "O rețea complet monitorizată, actualizată și cu backup, cu o cale clară de escaladare a suportului.",
+          "outcome2": "Costuri IT lunare previzibile și bugetabile, în loc de facturi surpriză de reparație de urgență."
+        },
+        "messaging": {
+          "core": "Nu mai fi propriul tău departament IT. Obține monitorizare 24/7, un helpdesk și o singură factură lunară previzibilă.",
+          "support1": "Un audit gratuit de rețea îți arată exact ce este în pericol, înainte să semnezi orice."
+        },
+        "brandVoice": {
+          "tone": "Liniștitor, direct și netehnic.",
+          "attr1": "De încredere",
+          "attr2": "Accesibil"
+        },
+        "contentPillars": {
+          "pillar1": "Constatări reale, anonimizate, din audituri gratuite de rețea",
+          "pillar2": "Cât ar trebui să bugeteze o afacere în creștere pentru suport IT"
+        },
+        "channelStrategy": "Recomandările de la camerele locale de comerț, contabili și consultanți de afaceri sunt principale; listările în directoare MSP și prospectarea directă țintită construiesc vizibilitate secundară și experimentală.",
+        "community": {
+          "description": "O rețea de recomandări formată din profesioniști locali din servicii pentru afaceri (contabili, consultanți, avocați), care observă care clienți se confruntă cu probleme IT.",
+          "platform1": "Camera locală de comerț și asociațiile de afaceri mici"
+        },
+        "leadMagnets": {
+          "magnet1": "Audit gratuit de securitate a rețelei și dispozitivelor"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Descoperire prin recomandare sau director",
+            "description": "Un contact local de afaceri sau o listare în director MSP declanșează prima solicitare."
+          },
+          "stage2": {
+            "name": "Audit gratuit de rețea și dispozitive",
+            "description": "O evaluare fără costuri scoate la iveală lacunele existente în actualizări, backup-uri și monitorizare."
+          },
+          "stage3": {
+            "name": "Ofertă pe niveluri, per utilizator",
+            "description": "O ofertă lunară bazată pe numărul de dispozitive gestionate și nivelul de SLA ales."
+          }
+        },
+        "retention": {
+          "tactic1": "Trimite un rezumat lunar de performanță, care arată timpul de funcționare, tichetele rezolvate și actualizările aplicate, astfel încât valoarea să rămână vizibilă."
+        },
+        "analytics": {
+          "metric1": "Rata de conversie de la auditul gratuit la contractul semnat"
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează fiecare mesaj direct și liniștitor — acest cumpărător își dorește predictibilitate, nu jargon tehnic."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Configurează platforma RMM și sistemul de ticketing pentru helpdesk, și angajează primul tehnician."
+          },
+          "deliverables": {
+            "0": "O platformă RMM și un sistem de ticketing configurate, gata pentru primul client."
+          },
+          "checklist": {
+            "0": "Redactează modelul de contract SLA și meniul de prețuri pe niveluri, înainte de primul apel cu un prospect."
+          },
+          "commonMistakes": {
+            "0": "Semnarea primului client înainte ca sistemele de monitorizare și ticketing să fie complet configurate."
+          },
+          "successCriteria": {
+            "0": "Platforma RMM și sistemul de ticketing sunt ambele active și testate."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a configura pragurile de bază ale alertelor de monitorizare, pe baza recomandărilor implicite ale furnizorului."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Vinde și livrează primul contract lunar de servicii gestionate al unui client."
+          },
+          "deliverables": {
+            "0": "Un audit de rețea finalizat și un contract semnat pentru primul client."
+          },
+          "checklist": {
+            "0": "Derulează auditul gratuit de rețea, înainte de a oferta orice tarif lunar."
+          },
+          "commonMistakes": {
+            "0": "Subevaluarea prețului primului contract atât de mult încât devine nesustenabil odată ce volumul de tichete devine real."
+          },
+          "successCriteria": {
+            "0": "Contractul primului client reflectă un tarif sustenabil per utilizator."
+          },
+          "aiRecommendations": {
+            "0": "Folosește scanare de rețea asistată de AI, pentru a accelera timpul de livrare a auditului gratuit."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardizează fluxul de triaj al tichetelor de helpdesk, în raport cu țintele de timp de răspuns SLA."
+          },
+          "deliverables": {
+            "0": "Un flux documentat de prioritizare a tichetelor și timp de răspuns."
+          },
+          "checklist": {
+            "0": "Documentează nivelurile de prioritate ale triajului tichetelor în sistemul de ticketing."
+          },
+          "commonMistakes": {
+            "0": "Gestionarea triajului tichetelor ad-hoc, în loc de un flux documentat de prioritizare SLA."
+          },
+          "successCriteria": {
+            "0": "Fiecare tichet primit este triat în raport cu nivelurile de prioritate documentate."
+          },
+          "aiRecommendations": {
+            "0": "Folosește triaj de tichete condus de AI, pentru a categoriza automat tichetele primite după urgență."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publică public meniul de prețuri pe niveluri și activează relațiile de recomandare din rețeaua locală de afaceri."
+          },
+          "deliverables": {
+            "0": "O pagină de prețuri publicată și o rotație de gardă activă."
+          },
+          "checklist": {
+            "0": "Confirmă că rotația de gardă poate acoperi efectiv alertele critice din afara programului, înainte de lansare."
+          },
+          "commonMistakes": {
+            "0": "Lansarea fără a confirma că rotația de gardă poate acoperi efectiv alertele critice din afara programului."
+          },
+          "successCriteria": {
+            "0": "Prima solicitare organică sosește dintr-o recomandare sau o listare în director."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta textul paginii publice de prețuri, într-un limbaj simplu, netehnic."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Livrează o primă lună impecabilă de monitorizare, actualizări și suport de helpdesk."
+          },
+          "deliverables": {
+            "0": "Un rezumat de performanță pentru prima lună, transmis clientului."
+          },
+          "checklist": {
+            "0": "Stabilește de la început căi clare de escaladare cu clientul, pentru tichete de rutină și întreruperi critice."
+          },
+          "commonMistakes": {
+            "0": "Promisiuni exagerate de timp de răspuns sub presiunea de a câștiga clientul, înainte ca personalul să le poată susține fiabil."
+          },
+          "successCriteria": {
+            "0": "Primul client reînnoiește după luna a doua, fără încălcări SLA."
+          },
+          "aiRecommendations": {
+            "0": "Automatizează generarea rezumatului lunar de performanță, pe baza datelor RMM și de ticketing."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge 5 clienți pe contracte lunare semnate, per utilizator, cu o rată de abandon lunară sub 10%."
+          },
+          "deliverables": {
+            "0": "Un criteriu documentat de calificare privind numărul minim de dispozitive pentru prospecții noi."
+          },
+          "checklist": {
+            "0": "Introdu un criteriu minim de număr de dispozitive pentru clienții noi."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea fiecărui prospect, indiferent de potrivirea numărului de dispozitive gestionate cu capacitatea actuală a tehnicienilor."
+          },
+          "successCriteria": {
+            "0": "Toți cei 5 clienți mențin conformitatea SLA, cu o rată de abandon lunară sub 10%."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a semnala prospecții al căror număr de dispozitive ar solicita capacitatea actuală a tehnicienilor, înainte de semnare."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Angajează al doilea tehnician de nivel 1, pentru a menține sănătos raportul tehnician-dispozitive."
+          },
+          "deliverables": {
+            "0": "O rotație de gardă actualizată, care include noul tehnician."
+          },
+          "checklist": {
+            "0": "Angajează înainte de pragul de număr de dispozitive care, istoric, a solicitat performanța SLA."
+          },
+          "commonMistakes": {
+            "0": "Angajare reactivă, doar după ce timpii de răspuns SLA au început deja să scadă."
+          },
+          "successCriteria": {
+            "0": "Noul tehnician este complet integrat și acoperă tichete independent."
+          },
+          "aiRecommendations": {
+            "0": "Folosește documentație de integrare generată de AI, care acoperă platforma RMM și procedurile de escaladare."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Introdu un nivel de consultanță IT strategică, proactiv și cu marjă mai mare, pentru clienții care au depășit suportul de bază."
+          },
+          "deliverables": {
+            "0": "Un acord de serviciu distinct pentru nivelul de consultanță și o fișă de prețuri."
+          },
+          "checklist": {
+            "0": "Ambalează nivelul de consultanță ca ofertă distinctă, cu preț mai ridicat și livrabile proprii."
+          },
+          "commonMistakes": {
+            "0": "Stabilirea prețului nivelului de consultanță la fel ca pentru monitorizarea de bază per utilizator."
+          },
+          "successCriteria": {
+            "0": "Cel puțin un client face upgrade la nivelul de consultanță."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a identifica ce clienți, prin tiparele lor de utilizare, semnalează pregătirea pentru nivelul de consultanță."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Extinde-te într-o nișă adiacentă cu nevoi specifice de conformitate, precum suportul IT pentru cabinete medicale sau firme de avocatură."
+          },
+          "deliverables": {
+            "0": "O listă de verificare de onboarding și conformitate specifică nișei."
+          },
+          "checklist": {
+            "0": "Construiește lista de verificare de conformitate specifică nișei, înainte de a face marketing pentru ea."
+          },
+          "commonMistakes": {
+            "0": "Extinderea către o nișă sensibilă la conformitate, fără a adapta SLA-ul și nivelul de bază de securitate."
+          },
+          "successCriteria": {
+            "0": "Primul client este semnat și integrat în noua nișă."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a corela cerințele de conformitate ale noii nișe cu nivelul de bază de securitate existent al firmei."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Documentează portofoliul de clienți, contractele SLA și configurațiile de monitorizare, pentru o achiziție curată."
+          },
+          "deliverables": {
+            "0": "Un set complet de documentație, cu acces controlat, pentru rețeaua fiecărui client."
+          },
+          "checklist": {
+            "0": "Documentează topologia de rețea și acreditările fiecărui client, într-un sistem transferabil."
+          },
+          "commonMistakes": {
+            "0": "Menținerea configurațiilor de rețea specifice clienților nedocumentate și dependente exclusiv de fondator."
+          },
+          "successCriteria": {
+            "0": "Un MSP achizitor poate revizui documentația și prelua monitorizarea fără prezența fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește documentație asistată de AI pentru a cataloga configurația de rețea a fiecărui client, înainte de due diligence."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează îndrumările fiecărei etape specifice operațiunilor IT gestionate continue, nu unui traseu de consultanță tehnologică bazat pe proiecte."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "„Managed Services in a Month” de Karl W. Palachuk",
+          "description": "Un ghid practic pentru lansarea și stabilirea prețurilor unei afaceri IT de servicii gestionate."
+        },
+        "item2": {
+          "title": "Traseul de certificare CompTIA Network+ / A+",
+          "description": "Certificări IT fundamentale, care semnalează credibilitatea tehnicienilor clienților mici."
+        },
+        "item3": {
+          "title": "r/msp",
+          "description": "O comunitate activă de proprietari și tehnicieni MSP, utilă pentru comparații de unelte și repere de preț."
+        },
+        "item4": {
+          "title": "Podcastul „MSP Radio”",
+          "description": "Interviuri cu proprietari de MSP despre operațiuni, prețuri și strategie de creștere."
+        },
+        "item5": {
+          "title": "Newsletter-ul „MSP Insights”",
+          "description": "Tendințe din industrie și actualizări de unelte relevante pentru conducerea unei afaceri de servicii gestionate."
+        },
+        "item6": {
+          "title": "NinjaOne",
+          "description": "Platforma principală RMM (monitorizare și management de la distanță)."
+        },
+        "item7": {
+          "title": "Freshservice",
+          "description": "Software de ticketing pentru helpdesk și urmărire SLA."
+        },
+        "item8": {
+          "title": "Modul de detectare a anomaliilor bazat pe AI pentru platforma RMM",
+          "description": "Semnalează comportamentul anormal al rețelei sau dispozitivelor, înainte ca acesta să devină o întrerupere vizibilă pentru client."
+        },
+        "item9": {
+          "title": "CompTIA Network+",
+          "description": "O certificare de nivel de intrare pentru tehnicieni, recunoscută pe scară largă de clienții mici."
+        },
+        "item10": {
+          "title": "Întâlniri locale de grup pentru colegi din MSP-uri",
+          "description": "Întâlniri regionale unde proprietarii de MSP-uri compară modele de preț și practici operaționale."
+        },
+        "item11": {
+          "title": "Un specialist în backup și recuperare în caz de dezastru",
+          "description": "Un colaborator la cerere pentru clienții cu cerințe complexe de backup, orientate spre conformitate."
+        },
+        "item12": {
+          "title": "Listă de verificare pentru integrarea clienților noi și auditul de rețea",
+          "description": "Lista standard rulată la începutul colaborării cu fiecare client nou, care acoperă inventarul de dispozitive, statusul actualizărilor și verificarea backup-urilor."
+        },
+        "aiMetadata": {
+          "generationHints": "Preferă resursele care construiesc fiabilitate operațională și încredere în prețuri, nu referințe tehnice de inginerie profundă."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Companiile care își cresc rapid numărul de angajați au adesea nevoie de suport de alocare a dispozitivelor, o extensie naturală a contractului de bază de servicii gestionate, nu o vânzare separată."
+          },
+          "item2": {
+            "title": "Recomandarea unui client mulțumit către un alt șef de departament din aceeași companie (nu doar către o companie nouă) este o sursă subutilizată de extindere a contractului."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Absența neplanificată a unui singur tehnician în timpul unei întreruperi critice poate încălca un SLA și declanșa clauza de reziliere a contractului unui client."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Ofertarea unui tarif per utilizator fără a confirma mai întâi numărul real de dispozitive gestionate, în timpul auditului gratuit."
+          },
+          "item2": {
+            "title": "Tratarea rețelei fiecărui client ca fiind identică, în loc de ajustarea pragurilor de monitorizare pentru mixul specific de dispozitive."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Un audit gratuit de rețea care scoate la iveală chiar și 2-3 probleme concrete, rezolvabile, convertește mult mai bine decât un pitch generic de tipul 'facem suport IT'."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Angajează următorul tehnician înainte de pragul de număr de dispozitive care, istoric, a solicitat performanța SLA, nu după."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Clienții nu observă un suport IT bun — observă doar unul prost — deci absența plângerilor este metrica ta reală de succes, nu laudele clienților."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clienții care negociază cel mai dur tariful lunar sunt, statistic, cei mai predispuși să genereze cel mai mare volum de tichete de suport în raport cu numărul lor de dispozitive."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea abandonurilor de clienți MSP nu sunt cauzate de eșecuri tehnice — sunt cauzate de senzația clienților că nu pot ajunge la nimeni atunci când ceva se strică."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Incidentele de gardă din afara programului se acumulează mai repede decât bugetează majoritatea noilor proprietari de MSP, mai ales în primul an, înainte ca pragurile de monitorizare să fie corect ajustate."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cererile tot mai frecvente ale clienților pentru suport IT specific conformității (HIPAA, PCI-DSS) semnalează o nișă subservită, cu marjă mai mare, dincolo de IT-ul generic de birou."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Un MSP care și-a publicat public prețurile transparente per utilizator a văzut scăderea volumului de apeluri de vânzare, dar rata de conversie a apelurilor calificate s-a mai mult decât dublat."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un MSP care a preluat un client cu de două ori mai multe dispozitive decât putea susține echipa sa de tehnicieni a ajuns într-un litigiu privind încălcarea SLA, în primul trimestru."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Ar trebui să stabilim prețul per dispozitiv sau per utilizator?",
+            "answer": "Prețul per dispozitiv este mai simplu de ofertat și auditat, dar prețul per utilizator reflectă mai bine volumul de suport pentru companiile în care angajații folosesc mai multe dispozitive — majoritatea MSP-urilor optează implicit pentru per dispozitiv, cu excepția cazului în care mediul unui client este neobișnuit de bogat în dispozitive per persoană."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Mai multe alerte de monitorizare înseamnă întotdeauna un serviciu mai bun.",
+            "fact": "Pragurile de alertă prost ajustate creează oboseală de alertă, care face ca tehnicienii să rateze alertele care contează cu adevărat — un MSP bine condus ajustează pragurile pentru a scoate la iveală riscul real, nu zgomotul."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Trimite întotdeauna un rezumat lunar de performanță clientului, chiar și atunci când nimic nu a mers prost — un serviciu invizibil are nevoie de un punct de dovadă vizibil."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează fiecare observație specifică operațiunilor IT continue, bazate pe abonament — nu sfaturi de consultanță tehnologică bazate pe proiecte."
+        }
+      }
+    },
+    "devopsConsultancy": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: „The Site Reliability Workbook” de echipa Google SRE",
+          "course1": "Curs: HashiCorp Certified: Terraform Associate",
+          "community1": "Comunitate: r/devops și Slack-ul CNCF (Cloud Native Computing Foundation)",
+          "checklist1": "Listă de verificare: audit de infrastructură și plan de revenire, înainte de migrare"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune 1-2 proiecte de infrastructură concurente, plus o bază mică, cu creștere mai lentă, de abonamente de supraveghere a infrastructurii."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — pragul de rentabilitate real depinde de viteza cu care auditurile tehnice se transformă în proiecte semnate."
+        },
+        "grossMargin": {
+          "notes": "Estimare valabilă pentru livrare solo, cu costuri generale minime; marja scade doar dacă un proiect necesită un colaborator neplanificat pentru o stivă de nișă."
+        },
+        "netMargin": {
+          "notes": "După costurile cloud pentru sandbox, reînnoirile de certificare și abonamentele pentru unelte de monitorizare/IaC."
+        },
+        "scenarios": {
+          "conservative": "1 proiect de infrastructură pe trimestru, fără clienți cu abonament încă.",
+          "expected": "1-2 proiecte concurente, plus 1 abonament de supraveghere a infrastructurii.",
+          "optimistic": "Peste 3 proiecte concurente, 2-3 abonamente active și cerere incipientă pentru o ofertă productizată de verificare a stării infrastructurii."
+        },
+        "risks": {
+          "risk1": "O migrare provoacă o întrerupere neplanificată a producției, afectând relația cu clientul și reputația consultanței.",
+          "risk2": "Inginerii interni ai clientului rezistă noii infrastructuri după plecarea consultantului, revenind la practici vechi, mai riscante."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul ca vânzări discrete, de proiecte cu marjă ridicată, nu ca o curbă de abonament."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Livrează mai repede și dormi mai liniștit — infrastructură și pipeline-uri de lansare construite de cineva care a fost chemat la ora 3 dimineața exact pentru acest tip de problemă.",
+          "category": "Consultanță DevOps"
+        },
+        "brandPromise": "Un plan incremental de migrare, cu o revenire testată la fiecare pas, și o echipă care poate chiar să-l opereze după plecarea ta.",
+        "uvp": {
+          "statement": "Fiecare migrare vine cu un punct de revenire testat la fiecare etapă și o sesiune obligatorie de transfer de cunoștințe — nicio infrastructură de tip cutie neagră, pe care echipa ta nu o poate întreține.",
+          "diff1": "Migrări incrementale, cu puncte de revenire testate la fiecare etapă",
+          "diff2": "Transfer obligatoriu de cunoștințe — fără dependență de furnizor după încheierea angajamentului"
+        },
+        "icp": {
+          "description": "CTO și lideri de inginerie din startup-uri și scaleup-uri, cu un produs live, dar cu un proces de lansare manual, ad-hoc sau din ce în ce mai riscant.",
+          "firmographics": "Companii de la seed la Series C, cu 5-50 de ingineri, cu un produs deja în producție."
+        },
+        "personas": {
+          "persona1": {
+            "name": "CTO al unui startup în creștere",
+            "description": "Procesul de lansare care funcționa la 3 ingineri provoacă acum incidente săptămânale la 20."
+          },
+          "persona2": {
+            "name": "Lider de inginerie surprins de costurile cloud",
+            "description": "A descoperit o factură cloud neașteptat de mare și are nevoie atât de optimizare a costurilor, cât și de o vizibilitate mai bună asupra infrastructurii."
+          }
+        },
+        "painPoints": {
+          "point1": "Lansările sunt manuale, nedocumentate, și depind de un singur inginer care se întâmplă să țină minte pașii.",
+          "point2": "Nu există un plan de revenire testat, deci fiecare lansare implică un risc de producție necuantificat."
+        },
+        "outcomes": {
+          "outcome1": "Un pipeline CI/CD documentat și automatizat, pe care întreaga echipă îl poate folosi cu încredere.",
+          "outcome2": "Un plan de revenire testat, care transformă o lansare riscantă într-una de rutină."
+        },
+        "messaging": {
+          "core": "Nu mai lansa pe bază de speranță. Obține un pipeline cu o revenire testată la fiecare pas.",
+          "support1": "Construit de cineva care a fost chiar chemat pentru o lansare eșuată, nu doar a citit despre una."
+        },
+        "brandVoice": {
+          "tone": "Direct, precis din punct de vedere tehnic și fără exagerări.",
+          "attr1": "Testat în practică",
+          "attr2": "Pragmatic"
+        },
+        "contentPillars": {
+          "pillar1": "Studii de caz reale de migrare, cu termene efective și planuri de revenire",
+          "pillar2": "Tehnici de optimizare a costurilor cloud, cu economii măsurabile"
+        },
+        "channelStrategy": "Studiile de caz tehnice care documentează rezultate reale de migrare sunt principale; recomandările din rețeaua de CTO și contribuțiile open-source construiesc credibilitate secundară și experimentală.",
+        "community": {
+          "description": "O rețea de CTO și lideri de inginerie, construită pe parcursul unei cariere anterioare de inginerie, plus vizibilitate din contribuții la unelte open-source.",
+          "platform1": "Slack-ul CNCF și comunitățile de leadership în inginerie"
+        },
+        "leadMagnets": {
+          "magnet1": "Apel gratuit de 30 de minute pentru evaluarea riscului de infrastructură"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Descoperire prin studiu de caz sau recomandare",
+            "description": "Un studiu de caz tehnic sau o recomandare din rețeaua de CTO declanșează prima discuție."
+          },
+          "stage2": {
+            "name": "Audit tehnic de infrastructură",
+            "description": "Un audit structurat cuantifică riscul real de lansare și infrastructură al clientului."
+          },
+          "stage3": {
+            "name": "Ofertă de migrare cu scop fix",
+            "description": "O ofertă cu preț fix, construită direct pe baza constatărilor auditului."
+          }
+        },
+        "retention": {
+          "tactic1": "Oferă abonamentul de supraveghere a infrastructurii la finalizarea proiectului, încadrat în jurul monitorizării continue a costurilor și urmăririi actualizărilor de platformă."
+        },
+        "analytics": {
+          "metric1": "Rata de conversie de la auditul tehnic la proiectul semnat"
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează fiecare mesaj ancorat în rezultate tehnice specifice, nu în limbaj generic de tipul 'transformare DevOps'."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Obține certificările de platformă cloud și configurează mediul sandbox de testare."
+          },
+          "deliverables": {
+            "0": "Un mediu sandbox testat, care oglindește tipare comune de infrastructură ale clienților."
+          },
+          "checklist": {
+            "0": "Confirmă că mediul sandbox poate simula în siguranță o revenire, înainte de a lucra cu un client real."
+          },
+          "commonMistakes": {
+            "0": "Sărirea peste un mediu sandbox corespunzător și testarea tiparelor de migrare direct în sistemul de staging al clientului."
+          },
+          "successCriteria": {
+            "0": "Certificările și mediul sandbox sunt ambele gata."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a schița tipare comune de infrastructură-ca-cod pentru mediul sandbox."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Vinde și livrează primul audit de infrastructură și proiect de migrare."
+          },
+          "deliverables": {
+            "0": "Un audit tehnic finalizat, cu riscuri cuantificate, pentru primul prospect."
+          },
+          "checklist": {
+            "0": "Finalizează auditul de infrastructură, înainte de a oferta orice preț fix."
+          },
+          "commonMistakes": {
+            "0": "Ofertarea unui preț fix înainte de finalizarea unui audit tehnic real al infrastructurii actuale a clientului."
+          },
+          "successCriteria": {
+            "0": "Primul audit se transformă într-un proiect de migrare semnat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește analiză de jurnale asistată de AI, pentru a accelera faza de diagnostic a auditului tehnic."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Livrează prima migrare folosind un plan incremental, cu puncte de revenire testate."
+          },
+          "deliverables": {
+            "0": "O migrare finalizată, cu fiecare punct de revenire testat mai întâi în sandbox."
+          },
+          "checklist": {
+            "0": "Testează fiecare punct de revenire în mediul sandbox, înainte de a atinge producția."
+          },
+          "commonMistakes": {
+            "0": "Sărirea peste un test de revenire la orice etapă, sub presiunea termenului limită."
+          },
+          "successCriteria": {
+            "0": "Prima migrare se finalizează fără niciun incident de producție neplanificat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a genera cod boilerplate de infrastructură pentru fiecare etapă de migrare, revizuit înainte de aplicare."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publică primul studiu de caz de migrare și activează canalul de recomandări din rețeaua de CTO."
+          },
+          "deliverables": {
+            "0": "Un studiu de caz tehnic publicat, aprobat de client."
+          },
+          "checklist": {
+            "0": "Obține acordul explicit al clientului pentru orice detaliu tehnic partajat public."
+          },
+          "commonMistakes": {
+            "0": "Publicarea unui studiu de caz fără acordul explicit al clientului privind detaliile tehnice partajate."
+          },
+          "successCriteria": {
+            "0": "Studiul de caz generează cel puțin o solicitare calificată organică."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta studiul de caz, apoi verifică personal fiecare afirmație tehnică."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Finalizează prima migrare fără niciun incident de producție raportat de client."
+          },
+          "deliverables": {
+            "0": "O sesiune finalizată de transfer de cunoștințe cu echipa internă a clientului."
+          },
+          "checklist": {
+            "0": "Derulează sesiunea de transfer de cunoștințe înainte de factura finală, nu după."
+          },
+          "commonMistakes": {
+            "0": "Sărirea peste sesiunea obligatorie de transfer de cunoștințe, pentru a economisi timp la finalizarea proiectului."
+          },
+          "successCriteria": {
+            "0": "Echipa clientului poate opera independent noua infrastructură, după predare."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a genera o primă versiune a ghidului de operare pentru echipa clientului, pe baza documentației de migrare."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge 3 migrări finalizate, cu un istoric constant fără incidente."
+          },
+          "deliverables": {
+            "0": "O listă de verificare documentată, care potrivește stivele prospecților cu expertiza dovedită."
+          },
+          "checklist": {
+            "0": "Califică stiva fiecărui prospect nou în raport cu expertiza dovedită, înainte de ofertare."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea de migrări pentru stive de infrastructură din afara expertizei dovedite a consultantului."
+          },
+          "successCriteria": {
+            "0": "Toate cele 3 migrări mențin istoricul fără incidente."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a compara stiva fiecărui prospect nou cu angajamentele anterioare de succes, înainte de ofertare."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Adaugă al doilea inginer DevOps senior, pentru a rula proiecte de infrastructură concurente."
+          },
+          "deliverables": {
+            "0": "Un plan documentat de integrare, care acoperă procesul de audit și disciplina de revenire."
+          },
+          "checklist": {
+            "0": "Cuplează noul angajat cu fondatorul, la prima migrare, înainte de a-l lăsa să conducă una independent."
+          },
+          "commonMistakes": {
+            "0": "Angajarea unui inginer generalist, în loc de cineva cu experiență reală în incidente de producție."
+          },
+          "successCriteria": {
+            "0": "Noul angajat finalizează independent o migrare, fără incidente."
+          },
+          "aiRecommendations": {
+            "0": "Folosește documentație de integrare generată de AI, care acoperă metodologia de audit și revenire a firmei."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Productizează un abonament recurent de verificare a stării infrastructurii."
+          },
+          "deliverables": {
+            "0": "O ofertă publicată de abonament de verificare, cu scop și preț definite."
+          },
+          "checklist": {
+            "0": "Ambalează abonamentul de verificare ca ofertă mai ușoară și cu preț distinct."
+          },
+          "commonMistakes": {
+            "0": "Stabilirea prețului abonamentului de verificare la fel ca pentru un proiect complet de migrare."
+          },
+          "successCriteria": {
+            "0": "Primul client de abonament de verificare semnează."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a identifica tipare recurente de risc de infrastructură din angajamentele anterioare, pentru a standardiza oferta de verificare."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Extinde-te într-o specializare adiacentă, precum auditurile de optimizare a costurilor cloud."
+          },
+          "deliverables": {
+            "0": "Cel puțin 2 angajamente finalizate de optimizare a costurilor, care susțin noua specializare."
+          },
+          "checklist": {
+            "0": "Finalizează cel puțin 2 angajamente de optimizare a costurilor, intern sau pro bono, înainte de a promova specializarea."
+          },
+          "commonMistakes": {
+            "0": "Promovarea unei noi specializări, înainte de a finaliza suficiente angajamente reale care să susțină afirmația."
+          },
+          "successCriteria": {
+            "0": "Primul angajament plătit de optimizare a costurilor este semnat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește analiză de costuri cloud asistată de AI, pentru a identifica mai rapid oportunitățile de optimizare în angajamentele pilot ale noii specializări."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Documentează portofoliul de clienți, contractele de abonament și ghidurile de migrare, pentru o achiziție curată."
+          },
+          "deliverables": {
+            "0": "Un set documentat, de sine stătător, de ghiduri de migrare și decizii de arhitectură."
+          },
+          "checklist": {
+            "0": "Standardizează ghidurile de migrare într-un activ documentat și transferabil."
+          },
+          "commonMistakes": {
+            "0": "Menținerea ghidurilor de migrare și a deciziilor de arhitectură nedocumentate și dependente exclusiv de fondator."
+          },
+          "successCriteria": {
+            "0": "O consultanță achizitoare poate revizui ghidurile fără prezența fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește documentație asistată de AI pentru a formaliza înregistrările deciziilor de arhitectură, înainte de due diligence."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează îndrumările fiecărei etape specifice consultanței de infrastructură livrabile solo, nu unui traseu generic de servicii gestionate."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "„The Site Reliability Workbook” de echipa Google SRE",
+          "description": "Un companion practic al cărții originale SRE, axat pe implementarea practicilor de fiabilitate în sisteme reale."
+        },
+        "item2": {
+          "title": "HashiCorp Certified: Terraform Associate",
+          "description": "Un semnal de credibilitate pentru expertiza de infrastructură-ca-cod, în discuțiile tehnice cu clienții."
+        },
+        "item3": {
+          "title": "r/devops și Slack-ul CNCF",
+          "description": "Comunități active pentru a rămâne la curent cu uneltele cloud-native și semnale de recrutare."
+        },
+        "item4": {
+          "title": "Podcastul „The Ship It Podcast”",
+          "description": "Interviuri cu lideri de inginerie despre decizii reale de lansare și infrastructură."
+        },
+        "item5": {
+          "title": "Newsletter-ul „SRE Weekly”",
+          "description": "O sinteză săptămânală curatoriată a incidentelor, postmortem-urilor și celor mai bune practici de inginerie de fiabilitate."
+        },
+        "item6": {
+          "title": "Terraform",
+          "description": "Principala unealtă de infrastructură-ca-cod, pentru medii reproductibile."
+        },
+        "item7": {
+          "title": "Kubernetes",
+          "description": "Principala platformă de orchestrare a containerelor, pentru migrările clienților."
+        },
+        "item8": {
+          "title": "GitHub Copilot",
+          "description": "Asistent AI de programare în pereche, folosit pentru a accelera codul boilerplate de infrastructură."
+        },
+        "item9": {
+          "title": "Certified Kubernetes Administrator (CKA)",
+          "description": "O certificare avansată, care semnalează o expertiză mai profundă de orchestrare a containerelor."
+        },
+        "item10": {
+          "title": "KubeCon + CloudNativeCon",
+          "description": "Principala conferință cloud-native, pentru construirea credibilității tehnice și menținerea la curent."
+        },
+        "item11": {
+          "title": "Un specialist freelancer în revizuire de securitate",
+          "description": "Un colaborator la cerere, pentru clienții a căror migrare scoate la iveală o problemă de securitate dincolo de scopul de bază al angajamentului."
+        },
+        "item12": {
+          "title": "Listă de verificare pentru audit de infrastructură și plan de revenire, înainte de migrare",
+          "description": "Lista standard rulată înainte de fiecare migrare, care acoperă documentarea stării actuale, evaluarea riscurilor și validarea planului de revenire."
+        },
+        "aiMetadata": {
+          "generationHints": "Preferă resursele care construiesc credibilitate tehnică profundă și rigoare de inginerie a fiabilității, nu conținut generic de consultanță IT."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "O factură cloud neașteptat de mare a unui client este adesea un declanșator de vânzare mai puternic decât un incident de lansare — munca de vizibilitate a costurilor deschide uși pe care pitch-urile de prevenire a incidentelor nu le deschid."
+          },
+          "item2": {
+            "title": "Liderii de inginerie care se mută la o companie nouă după o migrare reușită sunt o sursă de lead-uri calde, subutilizată."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "O migrare care pare completă, dar sare peste un test real de revenire, poate eșua silențios exact în singurul scenariu în care un incident real l-ar declanșa."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Tratarea auditului tehnic ca pe o formalitate, în loc de un proces real de descoperire a riscurilor, înainte de ofertare."
+          },
+          "item2": {
+            "title": "Subestimarea timpului de inginerie al clientului necesar efectiv pentru faza de transfer de cunoștințe."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Un apel gratuit de 30 de minute de evaluare a riscului de infrastructură convertește mult mai bine decât un pitch generic de 'consultanță DevOps'."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Adaugă un al doilea inginer doar atunci când cererea de audituri tehnice depășește constant capacitatea de livrare a unei singure persoane — angajarea înainte de acea cerere adaugă doar costuri de salarizare neutilizate."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Reputația ta se construiește pe migrările care nu au provocat niciun incident, nu pe cele impresionante din punct de vedere tehnic — plictisitor și fiabil bate ingenios și riscant de fiecare dată."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clienții care rezistă fazei de transfer de cunoștințe sunt cei mai predispuși să revină în șase luni, având nevoie de o altă migrare."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea eșecurilor de consultanță în infrastructură provin din sărirea fazei de audit pentru a încheia mai repede o afacere, nu din lipsa competenței tehnice."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Costurile cloud pentru sandbox se acumulează silențios pe mai multe medii de clienți, dacă nu sunt dezafectate prompt după fiecare angajament."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cererile tot mai frecvente ale clienților pentru migrări de 'infrastructură AI' semnalează o mutare a cererii către expertiza de clustere GPU și pipeline-uri de inferență, o specializare dincolo de DevOps-ul tradițional pentru aplicații web."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "O consultanță care a publicat un studiu de caz detaliat și onest despre o migrare care a întâmpinat o problemă (și cum a gestionat-o planul de revenire) a generat mai multă încredere organică decât orice poveste de succes lustruită."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un consultant care a sărit peste testul de revenire în sandbox, pentru a economisi o săptămână, a provocat o întrerupere reală de producție, atunci când calea de revenire netestată a eșuat în timpul migrării reale."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Ar trebui să migrăm totul deodată sau incremental?",
+            "answer": "Incremental, întotdeauna — o migrare unică, dintr-o dată, maximizează riscul și face mult mai dificilă identificarea cauzei oricărui eșec; migrările în etape, cu puncte de revenire testate la fiecare pas, îți permit să izolezi și să inversezi exact partea care s-a stricat."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Munca unui consultant DevOps se termină odată ce noul pipeline este lansat.",
+            "fact": "Munca nu se termină până când echipa proprie a clientului nu poate opera independent noua infrastructură — sărirea peste transferul de cunoștințe doar amână următorul angajament costisitor de consultanță al clientului."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Nu prezenta niciodată un plan de migrare fără o cale de revenire testată pentru fiecare etapă în parte, fără excepții."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează fiecare observație specifică consultanței de infrastructură și pipeline de lansare, livrabilă solo — nu sfaturi generice pentru operațiuni IT sau servicii gestionate."
+        }
+      }
+    },
+    "dataAnalyticsConsultancy": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: „Storytelling with Data” de Cole Nussbaumer Knaflic",
+          "course1": "Curs: dbt Fundamentals (dbt Labs)",
+          "community1": "Comunitate: r/dataengineering și Slack-ul Locally Optimistic",
+          "checklist1": "Listă de verificare: audit al surselor de date și calitatea pipeline-ului"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune vânzări neregulate de proiecte la început, care se accelerează pe măsură ce crește biblioteca reutilizabilă de șabloane, plus o bază de abonamente de analiză în creștere lentă și cumulativă."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — pragul de rentabilitate real depinde de viteza cu care apelurile gratuite de audit al datelor se transformă în proiecte semnate."
+        },
+        "grossMargin": {
+          "notes": "Estimarea se îmbunătățește în timp, pe măsură ce șabloanele reutilizabile de pipeline reduc timpul de livrare per proiect; primele proiecte personalizate rulează la o marjă mai mică."
+        },
+        "netMargin": {
+          "notes": "După găzduirea depozitului de date, abonamentele pentru unelte BI și costurile uneltelor de curățare a datelor asistate de AI."
+        },
+        "scenarios": {
+          "conservative": "1 proiect pe trimestru, fără clienți cu abonament încă.",
+          "expected": "2 proiecte pe lună, plus 2 abonamente de analiză.",
+          "optimistic": "Peste 4 proiecte pe lună, peste 5 abonamente active și lucrări de modele predictive vândute clienților maturi."
+        },
+        "risks": {
+          "risk1": "Probleme nedescoperite de calitate a datelor clientului depășesc estimarea inițială cu scop fix a proiectului.",
+          "risk2": "Acuratețea unui model predictiv scade silențios în timp, creând un risc reputațional dacă clientul observă primul."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul ca vânzări de proiecte în accelerare, cu marja îmbunătățindu-se pe măsură ce crește biblioteca reutilizabilă de șabloane."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Transformă foile de calcul și datele deconectate într-un singur tablou de bord, care chiar răspunde la întrebarea pe care echipa de conducere o tot pune.",
+          "category": "Consultanță de analiză de date"
+        },
+        "brandPromise": "Un singur tablou de bord, construit din toate datele tale dispersate, care răspunde la întrebarea de care te-ai săturat să o pui la fiecare ședință.",
+        "uvp": {
+          "statement": "Un apel gratuit de audit al datelor dezvăluie starea reală a datelor tale, înainte de a oferta orice preț, iar o bibliotecă în creștere de șabloane de pipeline dovedite înseamnă livrare mai rapidă decât o construcție complet personalizată, de fiecare dată.",
+          "diff1": "Apel gratuit de audit al datelor, înainte de a oferta orice preț fix",
+          "diff2": "O bibliotecă în creștere de șabloane de pipeline reutilizabile accelerează fiecare proiect nou"
+        },
+        "icp": {
+          "description": "Lideri operaționali și financiari din companii mid-market ale căror date se află în foi de calcul și unelte deconectate, fără o echipă internă dedicată de date.",
+          "firmographics": "Companii cu venituri de €5M-€100M, de obicei cu 30-300 de angajați, care se bazează încă pe raportare manuală în foi de calcul pentru decizii cheie."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Lider operațional copleșit de foi de calcul",
+            "description": "Compilează manual rapoarte din peste 5 unelte deconectate în fiecare săptămână și știe că trebuie să existe o cale mai bună."
+          },
+          "persona2": {
+            "name": "Lider financiar cu un termen de raportare pentru board",
+            "description": "Are nevoie de un tablou de bord fiabil și automatizat pentru raportarea recurentă către board și investitori, nu de încă o foaie de calcul unică."
+          }
+        },
+        "painPoints": {
+          "point1": "Echipa de conducere tot pune o întrebare la care nicio foaie de calcul actuală nu poate răspunde în mod fiabil.",
+          "point2": "Datele sunt dispersate în unelte care nu au fost niciodată concepute să comunice între ele."
+        },
+        "outcomes": {
+          "outcome1": "Un tablou de bord fiabil, care răspunde automat la întrebarea recurentă a conducerii.",
+          "outcome2": "Un raport lunar de perspective, care scoate la iveală tendințele înainte să devină probleme."
+        },
+        "messaging": {
+          "core": "Nu mai construi manual același raport în fiecare săptămână. Obține un tablou de bord care doar răspunde la întrebare.",
+          "support1": "Un audit gratuit de date îți arată exact ce este posibil, înainte să cheltuiești vreun ban."
+        },
+        "brandVoice": {
+          "tone": "Analitic, clar și orientat spre rezultatul de afaceri.",
+          "attr1": "Clarificator",
+          "attr2": "Precis"
+        },
+        "contentPillars": {
+          "pillar1": "Transformări de tablouri de bord înainte/după, cu întrebarea exactă de afaceri la care fiecare răspunde",
+          "pillar2": "Cum să depistezi problemele de calitate a datelor înainte să strice un tablou de bord"
+        },
+        "channelStrategy": "Studiile de caz publicate de transformare a tabloului de bord înainte/după sunt principale; recomandările din rețeaua fondatorului și prospectarea directă țintită către lideri operaționali construiesc vizibilitate secundară și experimentală.",
+        "community": {
+          "description": "O rețea de lideri operaționali și financiari care au beneficiat de o transformare de tablou de bord.",
+          "platform1": "Slack-ul Locally Optimistic (comunitate de date)"
+        },
+        "leadMagnets": {
+          "magnet1": "Apel gratuit de audit al datelor, care analizează sursele actuale și lacunele de raportare"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Descoperire prin studiu de caz sau recomandare",
+            "description": "Un studiu de caz înainte/după sau o recomandare declanșează prima discuție."
+          },
+          "stage2": {
+            "name": "Apel gratuit de audit al datelor",
+            "description": "O analiză fără costuri a surselor de date actuale ale clientului și a întrebării de afaceri la care nu pot răspunde."
+          },
+          "stage3": {
+            "name": "Ofertă de pipeline și tablou de bord, cu scop fix",
+            "description": "O ofertă construită direct pe baza constatărilor auditului."
+          }
+        },
+        "retention": {
+          "tactic1": "Oferă abonamentul lunar de analiză la livrare, încadrat în jurul prospețimii datelor și perspectivelor continue, nu doar al mentenanței."
+        },
+        "analytics": {
+          "metric1": "Rata de conversie de la apelul de audit al datelor la proiectul semnat"
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează fiecare mesaj tradus în întrebarea specifică de afaceri la care se răspunde, nu în jargon tehnic."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Configurează depozitul de date în cloud și uneltele BI, și construiește 2-3 șabloane reutilizabile de pipeline."
+          },
+          "deliverables": {
+            "0": "Un tablou de bord eșantion, construit din surse de date comune, ca element de portofoliu."
+          },
+          "checklist": {
+            "0": "Confirmă că cel puțin 2 șabloane reutilizabile de pipeline sunt gata, înainte de primul client."
+          },
+          "commonMistakes": {
+            "0": "Începerea lucrului cu clienții fără niciun șablon reutilizabil de pipeline, reconstruind totul de la zero de fiecare dată."
+          },
+          "successCriteria": {
+            "0": "Depozitul de date, uneltele BI și șabloanele inițiale sunt toate pregătite."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a schița tipare comune de pipeline ETL pentru biblioteca inițială de șabloane."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Vinde și livrează primul proiect de pipeline de date și tablou de bord."
+          },
+          "deliverables": {
+            "0": "Un eșantion finalizat de audit al datelor și un proiect semnat pentru primul client."
+          },
+          "checklist": {
+            "0": "Rulează un mic eșantion de audit al datelor, înainte de a oferta orice preț fix."
+          },
+          "commonMistakes": {
+            "0": "Ofertarea unui preț fix înainte de a rula un eșantion de audit al datelor, pentru a verifica starea reală a surselor clientului."
+          },
+          "successCriteria": {
+            "0": "Scopul primului proiect reflectă calitatea reală, auditată, a datelor."
+          },
+          "aiRecommendations": {
+            "0": "Folosește profilare a datelor asistată de AI, pentru a accelera eșantionul inițial de audit."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Livrează primul tablou de bord prin cicluri iterative de revizuire cu părțile interesate."
+          },
+          "deliverables": {
+            "0": "O schiță a tabloului de bord, distribuită după prima săptămână de lucru."
+          },
+          "checklist": {
+            "0": "Distribuie o schiță aproximativă a tabloului de bord devreme, pentru a confirma că întrebarea de afaceri primește răspunsul corect."
+          },
+          "commonMistakes": {
+            "0": "Construirea întregului tablou de bord înainte de a arăta clientului vreun progres intermediar."
+          },
+          "successCriteria": {
+            "0": "Clientul confirmă că schița răspunde la întrebarea de afaceri corectă, înainte de finisarea finală."
+          },
+          "aiRecommendations": {
+            "0": "Folosește curățare a datelor asistată de AI, pentru a accelera remedierea problemelor de calitate găsite în timpul construcției."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publică primul studiu de caz de transformare a tabloului de bord înainte/după și activează canalul de recomandări din rețeaua fondatorului."
+          },
+          "deliverables": {
+            "0": "Un studiu de caz publicat, folosind cifre anonimizate sau ilustrative."
+          },
+          "checklist": {
+            "0": "Confirmă că studiul de caz folosește date anonimizate sau ilustrative, nu cifre reale ale clientului."
+          },
+          "commonMistakes": {
+            "0": "Publicarea unui studiu de caz cu date reale ale clientului, în loc de cifre anonimizate sau ilustrative."
+          },
+          "successCriteria": {
+            "0": "Studiul de caz generează cel puțin o solicitare calificată organică."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta narativul studiului de caz, apoi verifică că fiecare cifră este corect anonimizată."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Livrează primul tablou de bord la timp și transformă clientul într-un abonament lunar de analiză."
+          },
+          "deliverables": {
+            "0": "Un acord de abonament de analiză, semnat la livrare."
+          },
+          "checklist": {
+            "0": "Oferă abonamentul de analiză proactiv la livrare, încadrat în jurul prospețimii datelor."
+          },
+          "commonMistakes": {
+            "0": "Presupunerea că tabloul de bord nu mai are nevoie de mentenanță continuă odată livrat."
+          },
+          "successCriteria": {
+            "0": "Primul client semnează abonamentul de analiză la livrare."
+          },
+          "aiRecommendations": {
+            "0": "Automatizează o verificare a prospețimii datelor, care alertează dacă sursa de date a clientului nu se mai actualizează."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge 5 proiecte livrate de tablou de bord/pipeline, cu o bibliotecă reutilizabilă de șabloane în creștere."
+          },
+          "deliverables": {
+            "0": "O listă de verificare documentată, care potrivește sursele de date ale prospecților cu biblioteca de șabloane."
+          },
+          "checklist": {
+            "0": "Califică sursele de date ale fiecărui prospect nou în raport cu biblioteca de șabloane în creștere, înainte de ofertare."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea de surse de date sau întrebări de afaceri în afara expertizei dovedite, doar pentru a umple capacitatea."
+          },
+          "successCriteria": {
+            "0": "Cel puțin 3 din cele 5 proiecte reutilizează componente existente de șablon."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a identifica ce părți din fiecare angajament nou pot reutiliza componente existente de șablon."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Transformă primii 3 clienți în abonamentul lunar de analiză."
+          },
+          "deliverables": {
+            "0": "Un model definit de raport lunar de perspective, pentru clienții cu abonament."
+          },
+          "checklist": {
+            "0": "Definește un livrabil lunar concret de raport de perspective, pentru fiecare client cu abonament."
+          },
+          "commonMistakes": {
+            "0": "Permiterea ca abonamentul de analiză să alunece spre cereri nestructurate, ad-hoc, în loc de un livrabil lunar definit."
+          },
+          "successCriteria": {
+            "0": "Toți cei 3 clienți cu abonament primesc un raport lunar constant și la timp."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta prima versiune a fiecărui raport lunar de perspective, apoi verifică și rafinează înainte de trimitere."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Adaugă un al doilea consultant de date, pentru a rula angajamente concurente folosind biblioteca comună de șabloane."
+          },
+          "deliverables": {
+            "0": "Un plan documentat de integrare, construit în jurul bibliotecii existente de șabloane."
+          },
+          "checklist": {
+            "0": "Cuplează noul angajat cu fondatorul, la primele două angajamente, înainte de a-l lăsa să conducă unul independent."
+          },
+          "commonMistakes": {
+            "0": "Angajarea unei persoane fără abilitatea tehnică și capacitatea de a traduce constatările pentru părțile interesate non-tehnice."
+          },
+          "successCriteria": {
+            "0": "Noul angajat livrează independent un proiect, folosind biblioteca comună de șabloane."
+          },
+          "aiRecommendations": {
+            "0": "Folosește documentație de integrare generată de AI, care acoperă biblioteca de șabloane și metodologia de audit."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Extinde oferta pentru a include construcția de modele predictive, pentru clienții ale căror tablouri de bord au ajuns la maturitate."
+          },
+          "deliverables": {
+            "0": "Primul angajament de model predictiv, cu monitorizare a acurateței integrată."
+          },
+          "checklist": {
+            "0": "Include monitorizarea acurateței modelului ca parte nenegociabilă a fiecărui angajament de model predictiv."
+          },
+          "commonMistakes": {
+            "0": "Lansarea unei oferte de model predictiv fără a integra și monitorizarea automată a acurateței."
+          },
+          "successCriteria": {
+            "0": "Primul client de model predictiv este semnat și livrat cu monitorizare implementată."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a ajuta la proiectarea tabloului de bord inițial de monitorizare a acurateței, pentru clienții cu modele predictive."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Documentează portofoliul de clienți, contractele de abonament și biblioteca reutilizabilă de șabloane, pentru o achiziție curată."
+          },
+          "deliverables": {
+            "0": "O versiune standardizată și documentată a bibliotecii de șabloane de pipeline."
+          },
+          "checklist": {
+            "0": "Standardizează biblioteca de șabloane într-un activ documentat și transferabil."
+          },
+          "commonMistakes": {
+            "0": "Menținerea bibliotecii de șabloane de pipeline nedocumentată și dependentă de organizarea personală de fișiere a fondatorului."
+          },
+          "successCriteria": {
+            "0": "O firmă achizitoare poate revizui și folosi biblioteca de șabloane fără prezența fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește documentație asistată de AI pentru a cataloga fiecare componentă de șablon, înainte de due diligence."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează îndrumările fiecărei etape specifice consultanței de pipeline de date și tablou de bord, livrabilă solo, nu unui traseu generic de unelte BI."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "„Storytelling with Data” de Cole Nussbaumer Knaflic",
+          "description": "Un ghid fundamental pentru proiectarea de tablouri de bord și vizualizări care comunică clar cu părțile interesate non-tehnice."
+        },
+        "item2": {
+          "title": "dbt Fundamentals (dbt Labs)",
+          "description": "Instruire structurată pe principala unealtă de transformare a datelor, folosită în majoritatea construcțiilor moderne de pipeline."
+        },
+        "item3": {
+          "title": "r/dataengineering și Slack-ul Locally Optimistic",
+          "description": "Comunități active pentru discuții despre arhitectura pipeline-urilor și semnale de recrutare."
+        },
+        "item4": {
+          "title": "Podcastul „The Analytics Engineering Podcast”",
+          "description": "Interviuri despre arhitectura reală a pipeline-urilor și decizii de design pentru tablouri de bord."
+        },
+        "item5": {
+          "title": "Newsletter-ul „Data Elixir”",
+          "description": "O sinteză săptămânală curatoriată a tendințelor din ingineria datelor și uneltele de analiză."
+        },
+        "item6": {
+          "title": "dbt",
+          "description": "Principala unealtă de transformare a datelor, pentru construirea stratului de pipeline ETL."
+        },
+        "item7": {
+          "title": "Metabase",
+          "description": "Principala unealtă BI și de tablou de bord, folosită pentru livrabilele clienților."
+        },
+        "item8": {
+          "title": "O unealtă de profilare a datelor asistată de AI",
+          "description": "Accelerează identificarea problemelor de calitate a datelor, în timpul auditului inițial și al construcției pipeline-ului."
+        },
+        "item9": {
+          "title": "Certificarea dbt Analytics Engineering",
+          "description": "O certificare care semnalează expertiza de pipeline de date moderne, prospecților care compară consultanți."
+        },
+        "item10": {
+          "title": "Coalesce (conferința dbt Labs)",
+          "description": "Principala conferință de inginerie a analizei, pentru construirea credibilității tehnice."
+        },
+        "item11": {
+          "title": "Un designer freelancer de vizualizare a datelor",
+          "description": "Un colaborator la cerere, pentru clienții care doresc un design mai rafinat al tabloului de bord, dincolo de construcția standard."
+        },
+        "item12": {
+          "title": "Listă de verificare pentru auditul surselor de date și calitatea pipeline-ului",
+          "description": "Lista standard rulată la începutul fiecărui angajament, care acoperă inventarul surselor de date, eșantionarea calității și stabilirea scopului întrebării de afaceri."
+        },
+        "aiMetadata": {
+          "generationHints": "Preferă resursele care construiesc credibilitate în modelarea datelor și abilitatea de comunicare prin tablouri de bord, nu marketing generic pentru software BI."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Liderii financiari care se pregătesc pentru o ședință de board sau o rundă de finanțare sunt adesea clienții care se închid cel mai rapid, deoarece presiunea termenului limită face evidentă imediat valoarea unui tablou de bord fiabil."
+          },
+          "item2": {
+            "title": "Prima lună de utilizare reală a unui tablou de bord scoate adesea la iveală o a doua întrebare de date, nelegată de prima, pe care clientul nu a pus-o inițial — o oportunitate naturală de extindere."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Un model predictiv care părea acurat la livrare poate devia silențios, pe măsură ce afacerea de bază a clientului se schimbă, iar fără monitorizare, nimeni nu observă până când o decizie greșită iese la iveală."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Ofertarea unui onorariu de proiect pe baza descrierii verbale a clientului despre datele sale, în loc de un eșantion real de audit."
+          },
+          "item2": {
+            "title": "Construirea unui tablou de bord impresionant din punct de vedere tehnic, care nu corespunde întrebării specifice pe care echipa de conducere o pune efectiv în ședințe."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Un apel gratuit de audit al datelor care scoate la iveală chiar și o singură problemă concretă, rezolvabilă, de calitate a datelor, convertește mult mai bine decât un pitch generic de 'facem analiză de date'."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Construiește biblioteca de șabloane din angajamente reale cu clienți, nu speculative — șabloanele dau roade doar odată ce un al doilea client real are nevoie de același tipar."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Valoarea ta nu este rafinamentul tehnic al tabloului de bord — este traducerea datelor dezordonate în singura propoziție de care CEO-ul are efectiv nevoie."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clienții ale căror surse de date sunt cele mai dezordonate sunt adesea cei care beneficiază cel mai mult, dar și cei mai predispuși să depășească o estimare naivă cu scop fix."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea proiectelor de tablou de bord eșuează nu din cauza unui design slab de vizualizare, ci pentru că rezolvă întrebarea greșită de afaceri, deoarece nimeni nu a confirmat-o de la început."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Costurile de găzduire a depozitului de date și a pipeline-ului se scalează odată cu volumul de date al clientului, în moduri pe care oferta inițială cu preț fix poate să nu le fi anticipat pentru clienții cu volum mare."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cererile tot mai frecvente ale clienților pentru 'perspective bazate pe AI' semnalează un confort crescut cu rezumate narative automatizate, nu doar grafice statice — o vânzare suplimentară naturală către funcția de generare a perspectivelor asistată de AI."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "O consultanță care a construit un șablon reutilizabil de pipeline de date pentru e-commerce, după al treilea client similar, a redus la jumătate timpul de livrare pentru fiecare angajament e-commerce ulterior."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un consultant care a ofertat un preț fix pe baza descrierii verbale a clientului despre datele sale a descoperit la mijlocul proiectului că trei foi de calcul 'simple' erau de fapt exporturi inconsistente, editate manual, depășind bugetul."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Ar trebui să construim un pipeline personalizat sau să folosim o unealtă BI gata făcută?",
+            "answer": "Depinde de complexitatea surselor de date — uneltele BI gata făcute funcționează bine pentru surse de date unice și curate, dar datele din surse multiple și dezordonate (majoritatea situațiilor reale mid-market) au de obicei nevoie de un strat ETL personalizat, înainte ca orice unealtă de tablou de bord să poată arăta ceva de încredere."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Mai multe date fac întotdeauna un tablou de bord mai valoros.",
+            "fact": "Un tablou de bord care răspunde bine la o singură întrebare clară de afaceri este mult mai valoros decât unul care arată fiecare metrică disponibilă — majoritatea proiectelor eșuate de tablou de bord au încercat să răspundă la prea multe întrebări deodată, în loc de cea care conta cu adevărat."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Confirmă întotdeauna, în scris, întrebarea exactă de afaceri la care trebuie să răspundă un tablou de bord, înainte de a construi ceva, deoarece 'mai multă vizibilitate asupra datelor' nu este un brief suficient de specific pentru a construi pe baza lui."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează fiecare observație specifică consultanței de pipeline de date și tablou de bord, livrabilă solo — nu sfaturi generice pentru unelte BI sau consultanță software."
+        }
+      }
     }
   }
 }

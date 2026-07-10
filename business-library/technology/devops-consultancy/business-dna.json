@@ -1,0 +1,933 @@
+{
+  "identity": {
+    "id": "be2992f1-805f-4596-9242-c03bcb6dba12",
+    "slug": "devops-consultancy",
+    "version": "1.0.0",
+    "name": {
+      "en": "Foundry Lane DevOps",
+      "ro": "Foundry Lane DevOps"
+    },
+    "tagline": {
+      "en": "Ship faster and sleep better.",
+      "ro": "Livrează mai repede și dormi mai liniștit."
+    },
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theBuilder",
+      "theOperator"
+    ],
+    "summary": {
+      "en": "Best suited to a senior engineer who's personally been paged at 3am for a bad deployment before — that scar tissue is what makes the incremental, rollback-first migration approach credible to a nervous engineering team.",
+      "ro": "Potrivit unui inginer senior care a fost personal chemat la ora 3 dimineața pentru o lansare eșuată — acea experiență directă este ceea ce face credibilă abordarea incrementală, cu prioritate pe revenire, în fața unei echipe de inginerie neliniștite."
+    },
+    "minimumExperienceYears": 5
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 10000,
+      "maxInvestment": 26000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 2000,
+      "ongoingMonthlyCostMax": 6000,
+      "notes": {
+        "en": "Covers cloud-platform certifications, a sandbox environment for testing migrations before touching a client's production systems, and tooling licenses — deliberately lean, since this is a solo-deliverable consultancy, not a team-based build shop.",
+        "ro": "Acoperă certificările pe platforme cloud, un mediu sandbox pentru testarea migrărilor înainte de a atinge sistemele de producție ale clientului, și licențele de unelte — deliberat redus, deoarece aceasta este o consultanță livrabilă solo, nu un atelier de construcție bazat pe echipă."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "cloudCertifications",
+          "label": {
+            "en": "Cloud platform certifications (AWS/GCP/Azure)",
+            "ro": "Certificări pe platforme cloud (AWS/GCP/Azure)"
+          },
+          "typicalMin": 1000,
+          "typicalMax": 3000
+        },
+        {
+          "key": "sandboxEnvironmentSetup",
+          "label": {
+            "en": "Sandbox cloud environment for testing migrations before touching client production",
+            "ro": "Mediu cloud sandbox pentru testarea migrărilor, înainte de a atinge producția clientului"
+          },
+          "typicalMin": 500,
+          "typicalMax": 2000
+        },
+        {
+          "key": "toolingLicenses",
+          "label": {
+            "en": "Infrastructure-as-code and monitoring tooling licenses",
+            "ro": "Licențe pentru unelte de infrastructură-ca-cod și monitorizare"
+          },
+          "typicalMin": 600,
+          "typicalMax": 1800
+        },
+        {
+          "key": "legalAndContractTemplates",
+          "label": {
+            "en": "Legal setup and engagement contract templates",
+            "ro": "Configurare juridică și modele de contract de angajament"
+          },
+          "typicalMin": 1000,
+          "typicalMax": 3000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "cloudSandboxCosts",
+          "label": {
+            "en": "Ongoing cloud costs for the sandbox/testing environment",
+            "ro": "Costuri cloud continue pentru mediul sandbox/de testare"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 900
+        },
+        {
+          "key": "monitoringAndIacToolingSubscriptions",
+          "label": {
+            "en": "Monitoring and infrastructure-as-code tooling subscriptions",
+            "ro": "Abonamente pentru unelte de monitorizare și infrastructură-ca-cod"
+          },
+          "typicalMonthlyMin": 200,
+          "typicalMonthlyMax": 700
+        },
+        {
+          "key": "continuingCertificationCosts",
+          "label": {
+            "en": "Continuing cloud-platform certification renewals",
+            "ro": "Reînnoiri continue ale certificărilor de platformă cloud"
+          },
+          "typicalMonthlyMin": 100,
+          "typicalMonthlyMax": 400
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "infrastructureProjectFee",
+          "label": {
+            "en": "Fixed-scope infrastructure migration or build project fee",
+            "ro": "Onorariu de proiect cu scop fix pentru migrarea sau construcția infrastructurii"
+          }
+        },
+        {
+          "key": "infrastructureOversightRetainer",
+          "label": {
+            "en": "Monthly infrastructure-oversight retainer",
+            "ro": "Abonament lunar de supraveghere a infrastructurii"
+          }
+        },
+        {
+          "key": "incidentResponseAdvisoryHours",
+          "label": {
+            "en": "Ad-hoc incident-response advisory hours",
+            "ro": "Ore ad-hoc de consultanță pentru răspuns la incidente"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 14000,
+      "targetMonthlyIncomeMax": 38000,
+      "breakEvenTimelineMonths": 7,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Revenue arrives as discrete infrastructure-project sales rather than a smooth ramp; unlike a maintenance-heavy software build, a well-built pipeline needs less ongoing hand-holding, so retainer conversion is slower than in comparable project-based businesses.",
+        "ro": "Venitul sosește sub formă de vânzări discrete de proiecte de infrastructură, nu printr-o creștere lină; spre deosebire de o construcție software cu mentenanță intensă, un pipeline bine construit are nevoie de mai puțină susținere continuă, așa că rata de conversie către abonamente este mai lentă decât la afaceri comparabile, bazate pe proiecte."
+      }
+    },
+    "profitMargin": {
+      "level": "high"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "none",
+    "onlineOffline": "online",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 35,
+    "maxWeeklyHours": 50,
+    "freedomLevel": 4
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 4
+      },
+      {
+        "key": "marketing",
+        "rating": 3
+      },
+      {
+        "key": "leadership",
+        "rating": 4
+      },
+      {
+        "key": "communication",
+        "rating": 5
+      },
+      {
+        "key": "negotiation",
+        "rating": 4
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 7
+      },
+      {
+        "key": "technology",
+        "rating": 8
+      },
+      {
+        "key": "automation",
+        "rating": 9
+      },
+      {
+        "key": "ai",
+        "rating": 5
+      },
+      {
+        "key": "programming",
+        "rating": 7
+      },
+      {
+        "key": "management",
+        "rating": 5
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 75
+      },
+      {
+        "key": "visionary",
+        "score": 45
+      },
+      {
+        "key": "operator",
+        "score": 70
+      },
+      {
+        "key": "creator",
+        "score": 40
+      },
+      {
+        "key": "seller",
+        "score": 30
+      },
+      {
+        "key": "leader",
+        "score": 40
+      },
+      {
+        "key": "analyst",
+        "score": 65
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate"
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high"
+    },
+    "aiResistance": {
+      "level": "moderate"
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "A botched migration (e.g. to Kubernetes) can cause a production outage that damages both the client relationship and the consultancy's reputation.",
+          "ro": "O migrare eșuată (de ex. către Kubernetes) poate provoca o întrerupere a producției, care afectează atât relația cu clientul, cât și reputația consultanței."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Never migrate directly against production — build an incremental plan with a tested rollback checkpoint at every stage.",
+          "ro": "Nu migra niciodată direct în producție — construiește un plan incremental, cu un punct de revenire testat la fiecare etapă."
+        }
+      },
+      {
+        "description": {
+          "en": "Cloud platforms' rapid pace of change requires continuous re-certification of the consultant's own tooling expertise.",
+          "ro": "Ritmul rapid de schimbare al platformelor cloud necesită recertificarea continuă a expertizei proprii a consultantului în materie de unelte."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Budget dedicated weekly time for platform-update tracking and certification renewal, treated as a business cost, not an afterthought.",
+          "ro": "Alocă timp săptămânal dedicat pentru urmărirea actualizărilor de platformă și reînnoirea certificărilor, tratat ca un cost de afaceri, nu ca un gând ulterior."
+        }
+      },
+      {
+        "description": {
+          "en": "A client's in-house engineers may resist externally imposed infrastructure changes, undermining long-term adoption after the consultant leaves.",
+          "ro": "Inginerii interni ai clientului pot rezista schimbărilor de infrastructură impuse din exterior, subminând adoptarea pe termen lung după plecarea consultantului."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Make knowledge-transfer sessions with the in-house team a mandatory, non-negotiable phase before project close.",
+          "ro": "Fă din sesiunile de transfer de cunoștințe către echipa internă o etapă obligatorie, nenegociabilă, înainte de finalizarea proiectului."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Ship faster and sleep better — infrastructure and deployment pipelines built by someone who's been paged at 3am for exactly this kind of problem before.",
+        "ro": "Livrează mai repede și dormi mai liniștit — infrastructură și pipeline-uri de lansare construite de cineva care a fost chemat la ora 3 dimineața exact pentru acest tip de problemă."
+      },
+      "channels": [
+        {
+          "channelType": "engineeringBlogCaseStudies",
+          "description": {
+            "en": "Technical case studies documenting real migration timelines, rollback plans, and measurable deployment-speed improvements.",
+            "ro": "Studii de caz tehnice, care documentează termene reale de migrare, planuri de revenire și îmbunătățiri măsurabile ale vitezei de lansare."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "ctoNetworkReferrals",
+          "description": {
+            "en": "Referrals from CTOs and engineering leaders in a personal professional network built over a prior engineering career.",
+            "ro": "Recomandări de la CTO și lideri de inginerie, dintr-o rețea profesională personală construită pe parcursul unei cariere anterioare de inginerie."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "openSourceContributions",
+          "description": {
+            "en": "Visible contributions to widely used DevOps tooling projects to build direct technical credibility.",
+            "ro": "Contribuții vizibile la proiecte de unelte DevOps larg utilizate, pentru a construi credibilitate tehnică directă."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate"
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A technical audit of the client's current deployment pipeline and infrastructure precedes any fixed-price proposal, surfacing concrete risks (manual deploys, no rollback plan, unmonitored cloud costs) the client may not have fully quantified.",
+        "ro": "Un audit tehnic al pipeline-ului de lansare și al infrastructurii actuale a clientului precedă orice ofertă cu preț fix, scoțând la iveală riscuri concrete (lansări manuale, fără plan de revenire, costuri cloud nemonitorizate) pe care clientul poate să nu le fi cuantificat complet."
+      },
+      "salesCycleLengthDays": 35,
+      "pricingModel": {
+        "en": "Fixed-scope infrastructure project fee, plus an optional monthly infrastructure-oversight retainer.",
+        "ro": "Onorariu de proiect cu scop fix pentru infrastructură, plus un abonament lunar opțional de supraveghere a infrastructurii."
+      }
+    },
+    "salesComplexity": {
+      "level": "high"
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "An initial infrastructure audit and risk assessment.",
+          "ro": "Un audit inițial al infrastructurii și o evaluare a riscurilor."
+        },
+        {
+          "en": "An incremental migration plan with tested rollback checkpoints at each stage.",
+          "ro": "Un plan incremental de migrare, cu puncte de revenire testate la fiecare etapă."
+        },
+        {
+          "en": "CI/CD pipeline build and automated testing against a staging environment.",
+          "ro": "Construcția pipeline-ului CI/CD și testarea automată într-un mediu de staging."
+        },
+        {
+          "en": "Mandatory knowledge-transfer sessions with the client's in-house engineers before project close.",
+          "ro": "Sesiuni obligatorii de transfer de cunoștințe către inginerii interni ai clientului, înainte de finalizarea proiectului."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Infrastructure-as-code development against a staging environment, automated testing of each pipeline change, and documentation of every architecture decision.",
+        "ro": "Dezvoltare de infrastructură-ca-cod într-un mediu de staging, testare automată a fiecărei modificări de pipeline și documentarea fiecărei decizii de arhitectură."
+      },
+      "fulfillmentModel": {
+        "en": "A solo senior DevOps engineer works directly with the client's engineering team, temporarily embedding to both build the infrastructure and transfer the operational knowledge needed to run it after the engagement ends.",
+        "ro": "Un inginer DevOps senior, singur, lucrează direct cu echipa de inginerie a clientului, integrându-se temporar pentru a construi infrastructura și a transfera cunoștințele operaționale necesare pentru a o opera după încheierea angajamentului."
+      }
+    },
+    "automation": {
+      "level": "high"
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "aiAssistedIacGeneration",
+          "description": {
+            "en": "AI accelerates writing infrastructure-as-code boilerplate (Terraform modules) for common, well-understood patterns.",
+            "ro": "AI accelerează scrierea codului boilerplate de infrastructură-ca-cod (module Terraform) pentru tipare comune, bine înțelese."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "aiAssistedIncidentPostmortems",
+          "description": {
+            "en": "AI drafts a first-pass incident postmortem summary from deployment logs, which the consultant then verifies and refines.",
+            "ro": "AI redactează o primă versiune a rezumatului postmortem al unui incident, pe baza jurnalelor de lansare, pe care consultantul o verifică și o rafinează ulterior."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "high"
+    },
+    "recommendedTools": [
+      {
+        "name": "Terraform",
+        "category": "infrastructureAsCode",
+        "isRequired": true,
+        "websiteUrl": "https://www.terraform.io/"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "containerOrchestration",
+        "isRequired": true,
+        "websiteUrl": "https://kubernetes.io/"
+      },
+      {
+        "name": "GitHub Actions",
+        "category": "cicdPipeline",
+        "isRequired": false,
+        "websiteUrl": "https://github.com/features/actions"
+      },
+      {
+        "name": "Datadog",
+        "category": "monitoringAndObservability",
+        "isRequired": false,
+        "websiteUrl": "https://www.datadoghq.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30
+    },
+    "scaling": {
+      "path": {
+        "en": "Bring on a second senior DevOps engineer to run concurrent infrastructure projects, then productize a recurring \"infrastructure health check\" retainer that generates renewed project work as client infrastructure evolves.",
+        "ro": "Adaugă un al doilea inginer DevOps senior, pentru a rula proiecte de infrastructură concurente, apoi productizează un abonament recurent de \"verificare a stării infrastructurii\", care generează muncă de proiect reînnoită pe măsură ce infrastructura clientului evoluează."
+      },
+      "bottlenecks": [
+        {
+          "en": "Senior DevOps engineering talent with genuine production-incident experience is scarce.",
+          "ro": "Talentul de inginerie DevOps senior, cu experiență reală în incidente de producție, este rar."
+        },
+        {
+          "en": "Each infrastructure migration is bespoke enough that engagements don't compress into a repeatable template as easily as web or mobile builds.",
+          "ro": "Fiecare migrare de infrastructură este suficient de personalizată încât angajamentele nu se pot comprima într-un model repetabil la fel de ușor ca la construcțiile web sau mobile."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 6,
+          "description": {
+            "en": "First 3 infrastructure migrations completed with zero client-reported production incidents.",
+            "ro": "Primele 3 migrări de infrastructură finalizate, fără niciun incident de producție raportat de clienți."
+          }
+        },
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "First client signed onto a 12-month infrastructure-oversight retainer.",
+            "ro": "Primul client semnat pe un abonament de 12 luni de supraveghere a infrastructurii."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "An incremental migration plan with rollback checkpoints at every stage removes the biggest fear in infrastructure work — an irreversible production outage.",
+          "ro": "Un plan incremental de migrare, cu puncte de revenire la fiecare etapă, elimină cea mai mare teamă din munca de infrastructură — o întrerupere ireversibilă a producției."
+        }
+      },
+      {
+        "description": {
+          "en": "A mandatory knowledge-transfer phase before project close means the client's team can actually operate what was built, avoiding vendor lock-in.",
+          "ro": "O etapă obligatorie de transfer de cunoștințe, înainte de finalizarea proiectului, înseamnă că echipa clientului poate opera efectiv ceea ce a fost construit, evitând dependența de furnizor."
+        }
+      },
+      {
+        "description": {
+          "en": "A technical audit before any fixed price is quoted surfaces the client's real infrastructure risk, making the sales conversation concrete instead of abstract.",
+          "ro": "Un audit tehnic, înainte de orice preț fix ofertat, scoate la iveală riscul real de infrastructură al clientului, făcând discuția de vânzare concretă, nu abstractă."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A solo-deliverable DevOps consultancy selling fixed-scope infrastructure and CI/CD pipeline overhauls to engineering teams at startups and scaleups, priced per project plus an optional infrastructure-oversight retainer, distinct from general software development or IT operations.",
+        "ro": "O consultanță DevOps livrabilă solo, care vinde renovări cu scop fix ale infrastructurii și pipeline-urilor CI/CD, către echipe de inginerie din startup-uri și scaleup-uri, cu preț pe proiect, plus un abonament opțional de supraveghere a infrastructurii, distinctă de dezvoltarea software generală sau operațiunile IT."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.devopsConsultancy.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.devopsConsultancy.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.devopsConsultancy.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.devopsConsultancy.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert at least 1 in 3 technical infrastructure audits into a signed project.",
+          "ro": "Transformă cel puțin 1 din 3 audituri tehnice de infrastructură într-un proiect semnat."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Keep gross margin above 65% per project given the low overhead of a solo-deliverable consultancy.",
+          "ro": "Menține marja brută peste 65% per proiect, având în vedere costurile generale reduse ale unei consultanțe livrabile solo."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Convert at least 25% of completed projects into an ongoing infrastructure-oversight retainer.",
+          "ro": "Transformă cel puțin 25% din proiectele finalizate într-un abonament continuu de supraveghere a infrastructurii."
+        }
+      },
+      {
+        "key": "mrr",
+        "targetDescription": {
+          "en": "Grow infrastructure-oversight retainer MRR steadily as the completed-project portfolio grows.",
+          "ro": "Crește constant MRR-ul din abonamentele de supraveghere a infrastructurii, pe măsură ce crește portofoliul de proiecte finalizate."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "programming",
+          "importance": 5
+        },
+        {
+          "key": "ai",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "negotiation",
+          "importance": 3
+        },
+        {
+          "key": "communication",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "systemOriented",
+          "importance": 5
+        },
+        {
+          "trait": "analytical",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "patient",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 10000,
+        "max": 26000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 14000,
+        "max": 22000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 35,
+        "maxWeeklyHours": 50
+      },
+      "communicationStyle": [
+        "direct",
+        "technical"
+      ],
+      "technicalLevel": 5,
+      "leadershipLevel": 3,
+      "creativityLevel": 3,
+      "salesAffinity": 2,
+      "automationAffinity": 5,
+      "remotePreference": "remote",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theBuilder",
+        "theOperator"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the incremental, rollback-checkpointed migration approach in the Executive Summary — the fear of an irreversible production outage is the single biggest objection this business must overcome.",
+      "ro": "Evidențiază abordarea incrementală de migrare, cu puncte de revenire, în Rezumatul executiv — teama de o întrerupere ireversibilă a producției este cea mai mare obiecție pe care trebuie să o depășească această afacere."
+    },
+    "marketingHints": {
+      "en": "Lead with specific technical war stories and measurable deployment-time improvements, not generic \"DevOps transformation\" consulting-speak.",
+      "ro": "Pornește de la povești tehnice concrete și îmbunătățiri măsurabile ale timpului de lansare, nu de la un limbaj generic de consultanță de tipul \"transformare DevOps\"."
+    },
+    "financialHints": {
+      "en": "Model revenue as fixed-scope infrastructure projects with a smaller, optional infrastructure-oversight retainer layer — a well-built pipeline needs less ongoing hand-holding, so retainer conversion runs slower than in comparable project-based businesses.",
+      "ro": "Modelează venitul ca proiecte de infrastructură cu scop fix, cu un strat opțional și mai mic de abonament de supraveghere a infrastructurii — un pipeline bine construit are nevoie de mai puțină susținere continuă, așa că rata de conversie către abonament este mai lentă decât la afaceri comparabile, bazate pe proiecte."
+    },
+    "generationHints": {
+      "en": "Keep tone technically credible and specific about tooling (Terraform, Kubernetes, CI/CD) — this audience is engineers and CTOs who can spot generic consulting language immediately.",
+      "ro": "Păstrează un ton credibil din punct de vedere tehnic și specific despre unelte (Terraform, Kubernetes, CI/CD) — acest public este format din ingineri și CTO care recunosc imediat limbajul generic de consultanță."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Obtain cloud-platform certifications and set up the sandbox testing environment.",
+            "ro": "Obține certificările de platformă cloud și configurează mediul sandbox de testare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Skipping a proper sandbox environment and testing migration patterns directly against a client's staging system.",
+            "ro": "Sărirea peste un mediu sandbox corespunzător și testarea tiparelor de migrare direct în sistemul de staging al clientului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Draft the standard infrastructure-audit checklist and engagement contract template before approaching the first prospect.",
+            "ro": "Redactează lista standard de audit al infrastructurii și modelul de contract de angajament, înainte de a aborda primul prospect."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.devopsConsultancy.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Sell and deliver the first infrastructure audit and migration project.",
+            "ro": "Vinde și livrează primul audit de infrastructură și proiect de migrare."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Quoting a fixed price before completing a real technical audit of the client's current infrastructure.",
+            "ro": "Ofertarea unui preț fix înainte de finalizarea unui audit tehnic real al infrastructurii actuale a clientului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Complete the infrastructure audit and present concrete, quantified risks before quoting.",
+            "ro": "Finalizează auditul de infrastructură și prezintă riscuri concrete și cuantificate, înainte de ofertare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Deliver the first migration using an incremental plan with tested rollback checkpoints.",
+            "ro": "Livrează prima migrare folosind un plan incremental, cu puncte de revenire testate."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Skipping a rollback test at any stage under deadline pressure.",
+            "ro": "Sărirea peste un test de revenire la orice etapă, sub presiunea termenului limită."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Test every rollback checkpoint in the sandbox environment before touching production.",
+            "ro": "Testează fiecare punct de revenire în mediul sandbox, înainte de a atinge producția."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.devopsConsultancy.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish the first migration case study and activate the CTO-network referral channel.",
+            "ro": "Publică primul studiu de caz de migrare și activează canalul de recomandări din rețeaua de CTO."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Publishing a case study without the client's explicit sign-off on the technical details shared.",
+            "ro": "Publicarea unui studiu de caz fără acordul explicit al clientului privind detaliile tehnice partajate."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Ask the first delivered client for one warm introduction to another engineering leader.",
+            "ro": "Cere primului client livrat o prezentare caldă către un alt lider de inginerie."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Complete the first migration with zero client-reported production incidents.",
+            "ro": "Finalizează prima migrare fără niciun incident de producție raportat de client."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Skipping the mandatory knowledge-transfer session to save time at project close.",
+            "ro": "Sărirea peste sesiunea obligatorie de transfer de cunoștințe, pentru a economisi timp la finalizarea proiectului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Run the knowledge-transfer session before the final invoice, not after.",
+            "ro": "Derulează sesiunea de transfer de cunoștințe înainte de factura finală, nu după."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach 3 completed migrations with a consistent zero-incident track record.",
+            "ro": "Atinge 3 migrări finalizate, cu un istoric constant fără incidente."
+          }
+        ],
+        "kpis": [
+          "closeRate",
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Taking on migrations against infrastructure stacks outside the consultant's proven expertise.",
+            "ro": "Acceptarea de migrări pentru stive de infrastructură din afara expertizei dovedite a consultantului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Qualify every new prospect's stack against proven expertise before quoting.",
+            "ro": "Califică stiva fiecărui prospect nou în raport cu expertiza dovedită, înainte de ofertare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Bring on a second senior DevOps engineer to run concurrent infrastructure projects.",
+            "ro": "Adaugă un al doilea inginer DevOps senior, pentru a rula proiecte de infrastructură concurente."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring a generalist engineer instead of someone with genuine production-incident experience.",
+            "ro": "Angajarea unui inginer generalist, în loc de cineva cu experiență reală în incidente de producție."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pair the new hire with the founder on their first migration before running one independently.",
+            "ro": "Cuplează noul angajat cu fondatorul, la prima migrare, înainte de a-l lăsa să conducă una independent."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Productize a recurring infrastructure health-check retainer.",
+            "ro": "Productizează un abonament recurent de verificare a stării infrastructurii."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Pricing the health-check retainer the same as a full migration project.",
+            "ro": "Stabilirea prețului abonamentului de verificare la fel ca pentru un proiect complet de migrare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Package the health-check retainer as a lighter-touch, distinctly priced offer.",
+            "ro": "Ambalează abonamentul de verificare ca ofertă mai ușoară și cu preț distinct."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into an adjacent specialty, such as cloud cost optimization audits.",
+            "ro": "Extinde-te într-o specializare adiacentă, precum auditurile de optimizare a costurilor cloud."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Marketing a new specialty before completing enough real engagements to back the claim.",
+            "ro": "Promovarea unei noi specializări, înainte de a finaliza suficiente angajamente reale care să susțină afirmația."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Complete at least 2 cost-optimization engagements internally or pro bono before marketing the specialty publicly.",
+            "ro": "Finalizează cel puțin 2 angajamente de optimizare a costurilor, intern sau pro bono, înainte de a promova public specializarea."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the client book, retainer contracts, and migration playbooks for a clean acquisition by a larger consultancy.",
+            "ro": "Documentează portofoliul de clienți, contractele de abonament și ghidurile de migrare, pentru o achiziție curată de către o consultanță mai mare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping migration playbooks and architecture decisions undocumented and founder-only.",
+            "ro": "Menținerea ghidurilor de migrare și a deciziilor de arhitectură nedocumentate și dependente exclusiv de fondator."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Standardize migration playbooks into a documented, transferable asset before pursuing an acquisition conversation.",
+            "ro": "Standardizează ghidurile de migrare într-un activ documentat și transferabil, înainte de a purta o discuție de achiziție."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "developerAccountsAndCertificates",
+      "deviceLabHardware",
+      "initialContractorRetainer",
+      "portfolioAndCollateral"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "engineeringSalaries",
+      "cloudAndCrashReportingTooling",
+      "deviceLabMaintenance"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "contractEngineerSurge",
+      "resubmissionReviewFees",
+      "recruitingFees"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "perPlatformProjectFee",
+        "label": {
+          "en": "Fixed-scope per-platform project fee",
+          "ro": "Onorariu de proiect cu scop fix, per platformă"
+        }
+      },
+      {
+        "key": "osCompatibilityMaintenanceRetainer",
+        "label": {
+          "en": "Post-launch OS-compatibility maintenance retainer",
+          "ro": "Abonament de mentenanță post-lansare pentru compatibilitatea cu OS-ul"
+        }
+      },
+      {
+        "key": "appStoreOptimizationHours",
+        "label": {
+          "en": "Ad-hoc App Store optimization and resubmission support hours",
+          "ro": "Ore ad-hoc de optimizare pentru App Store și suport pentru retrimitere"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageProjectFeePerPlatform": "currency",
+      "avgProjectDurationWeeks": "number",
+      "concurrentProjectCount": "number",
+      "maintenanceRetainerMonthlyFee": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "appsShippedPerQuarter": "number",
+      "retainerConversionRate": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "milestonePaymentInflows",
+      "retainerCollections",
+      "contractorPayrollOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 10,
+    "notesTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 40,
+    "notesTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 16,
+    "notesTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "seniorIosEngineerSalary",
+      "seniorAndroidEngineerSalary",
+      "releaseManagerSalary"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "appStoreCaseStudyProduction",
+      "mobileDevConferenceSponsorship",
+      "referralIncentives"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxAdministration"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthPayrollReserve",
+      "deviceLabReplacementReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "closeRate",
+      "grossMargin",
+      "customerRetention",
+      "mrr"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 13000,
+      "notesTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 27000,
+      "notesTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 48000,
+      "notesTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.financial.aiMetadata.generationHints"
+  }
+}

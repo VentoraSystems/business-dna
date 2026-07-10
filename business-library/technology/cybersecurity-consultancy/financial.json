@@ -1,0 +1,145 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "professionalLiabilityInsurance",
+      "certificationAndTrainingCosts",
+      "testingToolingLicenses",
+      "legalAndEngagementContractTemplates"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "certifiedTesterSalaries",
+      "toolingSubscriptions",
+      "insurancePremiums"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "contractTesterSurge",
+      "recertificationTraining",
+      "recruitingFees"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "penetrationTestEngagementFee",
+        "label": {
+          "en": "Fixed-fee penetration test engagement",
+          "ro": "Onorariu fix pentru angajamentul de testare de penetrare"
+        }
+      },
+      {
+        "key": "complianceAuditEngagementFee",
+        "label": {
+          "en": "Fixed-fee compliance readiness audit",
+          "ro": "Onorariu fix pentru auditul de pregătire pentru conformitate"
+        }
+      },
+      {
+        "key": "remediationOversightRetainer",
+        "label": {
+          "en": "Monthly remediation-oversight advisory retainer",
+          "ro": "Abonament lunar de consultanță pentru supravegherea remedierii"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageEngagementFee": "currency",
+      "avgEngagementDurationDays": "number",
+      "engagementsPerQuarter": "number",
+      "remediationRetainerMonthlyFee": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "engagementsClosedPerQuarter": "number",
+      "annualRepeatEngagementRate": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.cybersecurityConsultancy.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "engagementFeeCollections",
+      "retainerCollections",
+      "certifiedTesterPayroll"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 9,
+    "notesTranslationKey": "businessLibrary.cybersecurityConsultancy.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 55,
+    "notesTranslationKey": "businessLibrary.cybersecurityConsultancy.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 30,
+    "notesTranslationKey": "businessLibrary.cybersecurityConsultancy.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "seniorPenetrationTesterSalary",
+      "certificationSponsorship"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "securityConferenceSponsorship",
+      "vulnerabilityResearchPublication",
+      "referralIncentives"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxAdministration"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthPayrollReserve",
+      "professionalLiabilityClaimReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "closeRate",
+      "grossMargin",
+      "customerRetention",
+      "arr"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 15000,
+      "notesTranslationKey": "businessLibrary.cybersecurityConsultancy.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 32000,
+      "notesTranslationKey": "businessLibrary.cybersecurityConsultancy.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 58000,
+      "notesTranslationKey": "businessLibrary.cybersecurityConsultancy.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.cybersecurityConsultancy.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.cybersecurityConsultancy.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.cybersecurityConsultancy.financial.aiMetadata.generationHints"
+  }
+}

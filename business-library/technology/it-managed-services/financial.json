@@ -1,0 +1,146 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "rmmPlatformSetup",
+      "helpdeskTicketingSystemSetup",
+      "initialTechnicianHiring",
+      "legalAndSlaContractTemplates"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "technicianSalaries",
+      "rmmAndTicketingSubscriptions",
+      "onCallStipends"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "afterHoursOvertimePay",
+      "hardwareReplacementParts",
+      "recruitingFees"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "perSeatMonthlyFee",
+        "label": {
+          "en": "Tiered per-device or per-user monthly fee",
+          "ro": "Taxă lunară pe niveluri, per dispozitiv sau per utilizator"
+        }
+      },
+      {
+        "key": "slaResponseTierUpgrade",
+        "label": {
+          "en": "Premium SLA response-time tier upgrade",
+          "ro": "Upgrade la nivelul premium de SLA privind timpul de răspuns"
+        }
+      },
+      {
+        "key": "projectHardwareRefreshFee",
+        "label": {
+          "en": "Ad-hoc hardware refresh and network upgrade project fees",
+          "ro": "Onorarii de proiect ad-hoc pentru reînnoirea hardware-ului și modernizarea rețelei"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "perSeatMonthlyFee": "currency",
+      "managedDeviceCount": "number",
+      "activeClientCount": "number",
+      "slaUpgradePercentTake": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "managedDeviceGrowthRatePerQuarter": "percent",
+      "clientChurnRate": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.itManagedServices.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "perSeatCollections",
+      "onboardingProjectFeeInflow",
+      "technicianPayrollOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 8,
+    "notesTranslationKey": "businessLibrary.itManagedServices.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 40,
+    "notesTranslationKey": "businessLibrary.itManagedServices.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 18,
+    "notesTranslationKey": "businessLibrary.itManagedServices.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "tier1TechnicianSalary",
+      "tier2TechnicianSalary",
+      "recruitingFees"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "localBusinessNetworkSponsorship",
+      "mspDirectoryListingFees",
+      "referralIncentives"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxAdministration"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthPayrollReserve",
+      "hardwareFailureContingency"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "mrr",
+      "customerRetention",
+      "grossMargin",
+      "closeRate"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 8000,
+      "notesTranslationKey": "businessLibrary.itManagedServices.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 17000,
+      "notesTranslationKey": "businessLibrary.itManagedServices.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 32000,
+      "notesTranslationKey": "businessLibrary.itManagedServices.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.itManagedServices.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.itManagedServices.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.itManagedServices.financial.aiMetadata.generationHints"
+  }
+}

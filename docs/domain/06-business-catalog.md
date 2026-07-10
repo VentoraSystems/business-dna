@@ -147,7 +147,7 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 
 | Category | Entries | Already Authored |
 |---|---:|---:|
-| `technology-services` | 20 | 4 |
+| `technology-services` | 20 | 9 |
 | `subscription-boxes` | 10 | 0 |
 | `boutique-fitness-studios` | 9 | 0 |
 | `online-course-platforms` | 10 | 0 |
@@ -175,7 +175,7 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 | `psychology-practices` | 1 | 0 |
 | `coffee-shops` | 1 | 0 |
 | `restaurants` | 1 | 0 |
-| **Total** | **147** | **12** |
+| **Total** | **147** | **17** |
 
 ---
 
@@ -194,6 +194,16 @@ Agency, and AI Consulting — bringing this category's authored count to
 4 of 20. See `business-library/technology/{software-house,
 web-development-agency,ai-consulting}/` for the full packages.*
 
+*Knowledge Authoring Batch 2 (2026-07-10, final batch for this category)
+authored the remaining 5 P1 candidates — Mobile App Development Agency,
+Cybersecurity Consultancy, IT Managed Services, DevOps Consultancy, and
+Data Analytics Consultancy — completing all 9 originally planned
+`technology-services` businesses (9 of 20 rows now authored; the
+remaining 11 are P2/P3 unauthored candidates). See
+`business-library/technology/{mobile-app-development-agency,
+cybersecurity-consultancy,it-managed-services,devops-consultancy,
+data-analytics-consultancy}/` for the full packages.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | technology-services | AI Automation Agency | ai-automation-agency | tech | agency | P1 | moderate | Low | No | low | No | ✅ |
@@ -210,12 +220,12 @@ web-development-agency,ai-consulting}/` for the full packages.*
 | technology-services | AI Recruiting Screening Automation Agency | ai-recruiting-screening-agency | tech | agency | P3 | moderate | Medium | Yes | moderate | No | |
 | technology-services | Software House | software-house | tech | service | P1 | high | Medium | No | moderate | Yes | ✅ |
 | technology-services | Web Development Agency | web-development-agency | tech | agency | P1 | moderate | Low | Yes | moderate | No | ✅ |
-| technology-services | Mobile App Development Agency | mobile-app-development-agency | tech | agency | P1 | high | Medium | No | moderate | Yes | |
+| technology-services | Mobile App Development Agency | mobile-app-development-agency | tech | agency | P1 | high | Medium | No | moderate | Yes | ✅ |
 | technology-services | AI Consulting | ai-consulting | tech | service | P1 | high | Medium | Yes | moderate | Yes | ✅ |
-| technology-services | Cybersecurity Consultancy | cybersecurity-consultancy | tech | service | P1 | high | High | No | moderate | Yes | |
-| technology-services | IT Managed Services | it-managed-services | tech | service | P1 | moderate | Medium | No | high | No | |
-| technology-services | DevOps Consultancy | devops-consultancy | tech | service | P1 | high | Medium | Yes | moderate | Yes | |
-| technology-services | Data Analytics Consultancy | data-analytics-consultancy | tech | service | P1 | high | Medium | Yes | high | Yes | |
+| technology-services | Cybersecurity Consultancy | cybersecurity-consultancy | tech | service | P1 | high | High | No | moderate | Yes | ✅ |
+| technology-services | IT Managed Services | it-managed-services | tech | service | P1 | moderate | Medium | No | high | No | ✅ |
+| technology-services | DevOps Consultancy | devops-consultancy | tech | service | P1 | high | Medium | Yes | moderate | Yes | ✅ |
+| technology-services | Data Analytics Consultancy | data-analytics-consultancy | tech | service | P1 | high | Medium | Yes | high | Yes | ✅ |
 
 ## `subscription-boxes`
 

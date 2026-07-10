@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.cybersecurityConsultancy.marketing.uvp.diff1",
+      "businessLibrary.cybersecurityConsultancy.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2b",
+    "descriptionTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.cybersecurityConsultancy.marketing.painPoints.point1",
+      "businessLibrary.cybersecurityConsultancy.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.cybersecurityConsultancy.marketing.outcomes.outcome1",
+      "businessLibrary.cybersecurityConsultancy.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.cybersecurityConsultancy.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.cybersecurityConsultancy.marketing.brandVoice.attr1",
+      "businessLibrary.cybersecurityConsultancy.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.cybersecurityConsultancy.marketing.contentPillars.pillar1",
+      "businessLibrary.cybersecurityConsultancy.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "complianceDrivenReferrals",
+      "securityConferenceSpeaking",
+      "contentMarketingVulnerabilityResearch"
+    ],
+    "strategyTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.cybersecurityConsultancy.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.cybersecurityConsultancy.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.cybersecurityConsultancy.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.cybersecurityConsultancy.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "closeRate",
+      "customerRetention"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.cybersecurityConsultancy.marketing.aiMetadata.generationHints"
+  }
+}

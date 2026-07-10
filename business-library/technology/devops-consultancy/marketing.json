@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.devopsConsultancy.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.devopsConsultancy.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.devopsConsultancy.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.devopsConsultancy.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.devopsConsultancy.marketing.uvp.diff1",
+      "businessLibrary.devopsConsultancy.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2b",
+    "descriptionTranslationKey": "businessLibrary.devopsConsultancy.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.devopsConsultancy.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.devopsConsultancy.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.devopsConsultancy.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.devopsConsultancy.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.devopsConsultancy.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.devopsConsultancy.marketing.painPoints.point1",
+      "businessLibrary.devopsConsultancy.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.devopsConsultancy.marketing.outcomes.outcome1",
+      "businessLibrary.devopsConsultancy.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.devopsConsultancy.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.devopsConsultancy.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.devopsConsultancy.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.devopsConsultancy.marketing.brandVoice.attr1",
+      "businessLibrary.devopsConsultancy.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.devopsConsultancy.marketing.contentPillars.pillar1",
+      "businessLibrary.devopsConsultancy.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "engineeringBlogCaseStudies",
+      "ctoNetworkReferrals",
+      "openSourceContributions"
+    ],
+    "strategyTranslationKey": "businessLibrary.devopsConsultancy.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.devopsConsultancy.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.devopsConsultancy.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.devopsConsultancy.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.devopsConsultancy.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.devopsConsultancy.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.devopsConsultancy.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.devopsConsultancy.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.devopsConsultancy.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.devopsConsultancy.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.devopsConsultancy.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.devopsConsultancy.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "closeRate",
+      "customerRetention"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.devopsConsultancy.marketing.aiMetadata.generationHints"
+  }
+}

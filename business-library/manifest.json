@@ -3,8 +3,8 @@
   "schemaVersion": "1.0.0",
   "_schemaVersionSource": "src/features/business-dna/schemas/business-dna-profile.schema.ts → BUSINESS_DNA_PROFILE_SCHEMA_VERSION — keep this value in sync; validate-packages.ts checks it.",
   "lastUpdated": "2026-07-10",
-  "businessCount": 11,
-  "_businessCountNote": "Counts only packages with metadata.status === \"published\". ai-automation-agency is status \"template\" — a placeholder structure, not a registered business — so it contributes 0. The 4 Professional Services packages (accounting-firm, financial-consultancy, insurance-brokerage, tax-consultancy) plus the 4 Taxonomy Expansion packages (law-firm, hr-consultancy, recruitment-agency, business-consultancy) are all status \"published\", contributing 8. software-house, web-development-agency, and ai-consulting (Knowledge Authoring Batch 1, Technology Services expansion) are also \"published\", contributing a 9th, 10th, and 11th — see docs/domain/06-business-catalog.md.",
+  "businessCount": 16,
+  "_businessCountNote": "Counts only packages with metadata.status === \"published\". ai-automation-agency is status \"template\" — a placeholder structure, not a registered business — so it contributes 0. The 4 Professional Services packages (accounting-firm, financial-consultancy, insurance-brokerage, tax-consultancy) plus the 4 Taxonomy Expansion packages (law-firm, hr-consultancy, recruitment-agency, business-consultancy) are all status \"published\", contributing 8. software-house, web-development-agency, and ai-consulting (Knowledge Authoring Batch 1, Technology Services expansion) are also \"published\", contributing a 9th, 10th, and 11th. mobile-app-development-agency, cybersecurity-consultancy, it-managed-services, devops-consultancy, and data-analytics-consultancy (Batch 2) contribute a 12th through 16th, completing all 9 planned technology-services businesses — see docs/domain/06-business-catalog.md.",
   "supportedLanguages": ["en", "ro"],
   "industries": "./taxonomy/industries.json",
   "categories": "./taxonomy/categories.json",
@@ -78,6 +78,36 @@
     {
       "slug": "ai-consulting",
       "path": "./technology/ai-consulting",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "mobile-app-development-agency",
+      "path": "./technology/mobile-app-development-agency",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "cybersecurity-consultancy",
+      "path": "./technology/cybersecurity-consultancy",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "it-managed-services",
+      "path": "./technology/it-managed-services",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "devops-consultancy",
+      "path": "./technology/devops-consultancy",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "data-analytics-consultancy",
+      "path": "./technology/data-analytics-consultancy",
       "status": "published",
       "canonical": false
     }

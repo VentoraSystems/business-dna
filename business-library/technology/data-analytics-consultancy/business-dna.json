@@ -1,0 +1,933 @@
+{
+  "identity": {
+    "id": "36f227e4-39f0-4392-b659-8c80f9cb7124",
+    "slug": "data-analytics-consultancy",
+    "version": "1.0.0",
+    "name": {
+      "en": "Lucidwell Data Partners",
+      "ro": "Lucidwell Data Partners"
+    },
+    "tagline": {
+      "en": "Turn your spreadsheets into one dashboard that actually answers the question.",
+      "ro": "Transformă foile de calcul într-un singur tabel de bord care chiar răspunde la întrebare."
+    },
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theBuilder",
+      "theSpecialist"
+    ],
+    "summary": {
+      "en": "Best suited to someone who can both untangle a genuinely messy data pipeline and explain the result in the one sentence a non-technical executive actually needs to hear.",
+      "ro": "Potrivit unei persoane capabile atât să descâlcească un pipeline de date cu adevărat dezordonat, cât și să explice rezultatul într-o singură propoziție, exact ceea ce are nevoie să audă un director non-tehnic."
+    },
+    "minimumExperienceYears": 4
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 9000,
+      "maxInvestment": 24000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 1800,
+      "ongoingMonthlyCostMax": 5000,
+      "notes": {
+        "en": "Covers cloud data-warehouse costs, BI/dashboard tooling licenses, and a portfolio site showcasing before/after dashboard transformations — deliberately lean, since this is a solo-deliverable consultancy.",
+        "ro": "Acoperă costurile depozitului de date în cloud, licențele pentru unelte BI/tablou de bord și un site de portofoliu care prezintă transformări de tablouri de bord înainte/după — deliberat redus, deoarece aceasta este o consultanță livrabilă solo."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "dataWarehouseSetup",
+          "label": {
+            "en": "Cloud data-warehouse account setup",
+            "ro": "Configurarea contului de depozit de date în cloud"
+          },
+          "typicalMin": 500,
+          "typicalMax": 1500
+        },
+        {
+          "key": "biToolingLicenses",
+          "label": {
+            "en": "BI/dashboard tooling licenses",
+            "ro": "Licențe pentru unelte BI/tablou de bord"
+          },
+          "typicalMin": 600,
+          "typicalMax": 1800
+        },
+        {
+          "key": "portfolioAndCaseStudySite",
+          "label": {
+            "en": "Portfolio site showcasing before/after dashboard transformations",
+            "ro": "Site de portofoliu care prezintă transformări de tablouri de bord înainte/după"
+          },
+          "typicalMin": 1000,
+          "typicalMax": 2500
+        },
+        {
+          "key": "legalAndContractTemplates",
+          "label": {
+            "en": "Legal setup and engagement contract templates",
+            "ro": "Configurare juridică și modele de contract de angajament"
+          },
+          "typicalMin": 800,
+          "typicalMax": 2000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "dataWarehouseAndPipelineCosts",
+          "label": {
+            "en": "Ongoing cloud data-warehouse and pipeline-hosting costs",
+            "ro": "Costuri continue de găzduire a depozitului de date și a pipeline-ului în cloud"
+          },
+          "typicalMonthlyMin": 400,
+          "typicalMonthlyMax": 1200
+        },
+        {
+          "key": "biToolingSubscriptions",
+          "label": {
+            "en": "BI/dashboard tooling subscriptions",
+            "ro": "Abonamente pentru unelte BI/tablou de bord"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 900
+        },
+        {
+          "key": "aiAssistedToolingSubscriptions",
+          "label": {
+            "en": "AI-assisted data-cleaning and insight-generation tooling subscriptions",
+            "ro": "Abonamente pentru unelte de curățare a datelor și generare a perspectivelor, asistate de AI"
+          },
+          "typicalMonthlyMin": 150,
+          "typicalMonthlyMax": 500
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "pipelineAndDashboardProjectFee",
+          "label": {
+            "en": "Fixed-scope data pipeline and dashboard build project fee",
+            "ro": "Onorariu de proiect cu scop fix pentru construcția pipeline-ului de date și a tabloului de bord"
+          }
+        },
+        {
+          "key": "monthlyAnalyticsRetainer",
+          "label": {
+            "en": "Monthly analytics retainer (maintenance and insights reporting)",
+            "ro": "Abonament lunar de analiză (mentenanță și raportare de perspective)"
+          }
+        },
+        {
+          "key": "predictiveModelBuildFee",
+          "label": {
+            "en": "Ad-hoc predictive-model build fee",
+            "ro": "Onorariu ad-hoc pentru construcția unui model predictiv"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 13000,
+      "targetMonthlyIncomeMax": 36000,
+      "breakEvenTimelineMonths": 7,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Early engagements are lumpy, fully bespoke project sales; as a reusable template library grows, later projects close faster and the monthly analytics-retainer layer compounds alongside them.",
+        "ro": "Angajamentele timpurii sunt vânzări de proiecte neregulate, complet personalizate; pe măsură ce crește o bibliotecă reutilizabilă de șabloane, proiectele ulterioare se închid mai repede, iar stratul de abonament lunar de analiză se acumulează alături de ele."
+      }
+    },
+    "profitMargin": {
+      "level": "high"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "none",
+    "onlineOffline": "online",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 35,
+    "maxWeeklyHours": 50,
+    "freedomLevel": 4
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 4
+      },
+      {
+        "key": "marketing",
+        "rating": 3
+      },
+      {
+        "key": "leadership",
+        "rating": 4
+      },
+      {
+        "key": "communication",
+        "rating": 6
+      },
+      {
+        "key": "negotiation",
+        "rating": 4
+      },
+      {
+        "key": "finance",
+        "rating": 5
+      },
+      {
+        "key": "operations",
+        "rating": 5
+      },
+      {
+        "key": "technology",
+        "rating": 7
+      },
+      {
+        "key": "automation",
+        "rating": 6
+      },
+      {
+        "key": "ai",
+        "rating": 7
+      },
+      {
+        "key": "programming",
+        "rating": 7
+      },
+      {
+        "key": "management",
+        "rating": 5
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 65
+      },
+      {
+        "key": "visionary",
+        "score": 50
+      },
+      {
+        "key": "operator",
+        "score": 55
+      },
+      {
+        "key": "creator",
+        "score": 50
+      },
+      {
+        "key": "seller",
+        "score": 35
+      },
+      {
+        "key": "leader",
+        "score": 40
+      },
+      {
+        "key": "analyst",
+        "score": 90
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": true,
+    "isHighlyAutomatable": true,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "high"
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high"
+    },
+    "aiResistance": {
+      "level": "low"
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Client data-quality issues discovered mid-project (missing fields, inconsistent formats) can blow up the original fixed-scope estimate.",
+          "ro": "Problemele de calitate a datelor clientului, descoperite la mijlocul proiectului (câmpuri lipsă, formate inconsistente), pot depăși estimarea inițială cu scop fix."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Run a paid data-audit sample before quoting a fixed price, sized to reveal the real state of the client's data sources.",
+          "ro": "Derulează un eșantion plătit de audit al datelor, înainte de a oferta un preț fix, dimensionat pentru a dezvălui starea reală a surselor de date ale clientului."
+        }
+      },
+      {
+        "description": {
+          "en": "A predictive model can silently degrade in accuracy over time if its inputs drift, creating reputational risk if the client notices before the consultant does.",
+          "ro": "Un model predictiv își poate pierde silențios acuratețea în timp, dacă datele sale de intrare deviază, creând un risc reputațional dacă clientul observă înaintea consultantului."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Build automated model-accuracy monitoring into every predictive-model engagement, not as an afterthought.",
+          "ro": "Integrează monitorizarea automată a acurateței modelului în fiecare angajament de model predictiv, nu ca un gând ulterior."
+        }
+      },
+      {
+        "description": {
+          "en": "The rise of AI-native BI tools and no-code dashboard builders threatens to commoditize basic dashboard-building work.",
+          "ro": "Ascensiunea uneltelor BI native AI și a constructorilor de tablouri de bord fără cod amenință să transforme în marfă munca de bază de construcție a tablourilor de bord."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Shift the service mix toward messy multi-source data integration and predictive modeling, the parts no-code tools handle poorly.",
+          "ro": "Deplasează treptat mixul de servicii către integrarea de date complexe, din surse multiple, și modelarea predictivă, părțile pe care uneltele fără cod le gestionează prost."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Turn your spreadsheets and disconnected data into one dashboard that actually answers the question your leadership team keeps asking.",
+        "ro": "Transformă foile de calcul și datele deconectate într-un singur tablou de bord, care chiar răspunde la întrebarea pe care echipa de conducere o tot pune."
+      },
+      "channels": [
+        {
+          "channelType": "dataCaseStudyContentMarketing",
+          "description": {
+            "en": "Published before/after case studies showing a client's data transformation from scattered spreadsheets to one clear dashboard.",
+            "ro": "Studii de caz publicate înainte/după, care arată transformarea datelor unui client, de la foi de calcul dispersate la un tablou de bord clar."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "founderNetworkReferrals",
+          "description": {
+            "en": "Referrals from operations leaders and past clients who've had a data transformation delivered.",
+            "ro": "Recomandări de la lideri operaționali și foști clienți care au beneficiat de o transformare a datelor."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "targetedOutboundToOperationsLeaders",
+          "description": {
+            "en": "Targeted outbound to operations and finance leaders at companies known to still rely on manual spreadsheet reporting.",
+            "ro": "Prospectare directă țintită către lideri operaționali și financiari din companii cunoscute că se bazează încă pe raportare manuală în foi de calcul."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate"
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A free data-audit call reviews the client's existing data sources and the specific business question they can't currently answer, before quoting a fixed-scope pipeline and dashboard build.",
+        "ro": "Un apel gratuit de audit al datelor analizează sursele de date existente ale clientului și întrebarea specifică de afaceri la care nu pot răspunde momentan, înainte de a oferta un scop fix pentru construcția pipeline-ului și a tabloului de bord."
+      },
+      "salesCycleLengthDays": 28,
+      "pricingModel": {
+        "en": "Fixed-scope data pipeline and dashboard build fee, plus an optional monthly analytics retainer for maintenance and ongoing insights reporting.",
+        "ro": "Onorariu cu scop fix pentru construcția pipeline-ului de date și a tabloului de bord, plus un abonament lunar opțional de analiză pentru mentenanță și raportare continuă de perspective."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate"
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "A data-source audit and business-question scoping call.",
+          "ro": "Un audit al surselor de date și un apel de stabilire a scopului întrebării de afaceri."
+        },
+        {
+          "en": "An ETL pipeline build connecting disparate data sources into one warehouse.",
+          "ro": "Construcția unui pipeline ETL, care conectează surse de date disparate într-un singur depozit."
+        },
+        {
+          "en": "Dashboard design and iterative stakeholder review cycles.",
+          "ro": "Proiectarea tabloului de bord și cicluri iterative de revizuire cu părțile interesate."
+        },
+        {
+          "en": "Monthly data-freshness monitoring and insights-report delivery for retainer clients.",
+          "ro": "Monitorizarea lunară a prospețimii datelor și livrarea raportului de perspective pentru clienții cu abonament."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Pipeline development and testing against sample data, dashboard iteration based on stakeholder feedback, and monitoring data-freshness alerts for active retainer clients.",
+        "ro": "Dezvoltarea și testarea pipeline-ului pe date eșantion, iterarea tabloului de bord pe baza feedback-ului părților interesate și monitorizarea alertelor de prospețime a datelor pentru clienții activi cu abonament."
+      },
+      "fulfillmentModel": {
+        "en": "A solo data consultant builds a client's ETL pipeline and dashboard directly, reusing a library of proven pipeline templates and dashboard components to accelerate delivery across similar engagements.",
+        "ro": "Un consultant de date, singur, construiește direct pipeline-ul ETL și tabloul de bord al clientului, reutilizând o bibliotecă de șabloane de pipeline și componente de tablou de bord dovedite, pentru a accelera livrarea în angajamente similare."
+      }
+    },
+    "automation": {
+      "level": "high"
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "aiAssistedDataCleaning",
+          "description": {
+            "en": "AI-assisted tools accelerate identifying and correcting data-quality issues during pipeline development.",
+            "ro": "Uneltele asistate de AI accelerează identificarea și corectarea problemelor de calitate a datelor, în timpul dezvoltării pipeline-ului."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "aiAssistedInsightGeneration",
+          "description": {
+            "en": "AI drafts a first-pass narrative summary of dashboard trends for the monthly retainer insights report, which the consultant then verifies and refines.",
+            "ro": "AI redactează o primă versiune a rezumatului narativ al tendințelor din tabloul de bord, pentru raportul lunar de perspective al abonamentului, pe care consultantul îl verifică și rafinează ulterior."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "high"
+    },
+    "recommendedTools": [
+      {
+        "name": "dbt",
+        "category": "dataTransformation",
+        "isRequired": true,
+        "websiteUrl": "https://www.getdbt.com/"
+      },
+      {
+        "name": "Metabase",
+        "category": "businessIntelligence",
+        "isRequired": true,
+        "websiteUrl": "https://www.metabase.com/"
+      },
+      {
+        "name": "Fivetran",
+        "category": "dataIngestion",
+        "isRequired": false,
+        "websiteUrl": "https://www.fivetran.com/"
+      },
+      {
+        "name": "Python (pandas)",
+        "category": "dataProcessing",
+        "isRequired": false,
+        "websiteUrl": "https://pandas.pydata.org/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "high",
+      "timeHorizonMonths": 30
+    },
+    "scaling": {
+      "path": {
+        "en": "Build a library of reusable pipeline templates and dashboard components across common data-source combinations, then bring on a second data consultant to run concurrent engagements using that shared template library.",
+        "ro": "Construiește o bibliotecă de șabloane de pipeline reutilizabile și componente de tablou de bord, pentru combinații comune de surse de date, apoi adaugă un al doilea consultant de date, pentru a rula angajamente concurente folosind acea bibliotecă comună de șabloane."
+      },
+      "bottlenecks": [
+        {
+          "en": "Each new client's data sources and quality issues are different enough that full templatization takes longer than expected.",
+          "ro": "Sursele de date și problemele de calitate ale fiecărui client nou sunt suficient de diferite încât templatizarea completă durează mai mult decât se estima."
+        },
+        {
+          "en": "Senior data-engineering talent with both technical and business-communication skill is scarce.",
+          "ro": "Talentul de inginerie de date senior, cu abilități atât tehnice, cât și de comunicare de afaceri, este rar."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 6,
+          "description": {
+            "en": "First 5 dashboard/pipeline projects delivered.",
+            "ro": "Primele 5 proiecte de tablou de bord/pipeline livrate."
+          }
+        },
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "First 3 clients converted to the monthly analytics retainer.",
+            "ro": "Primii 3 clienți transformați în abonamentul lunar de analiză."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "A reusable library of pipeline templates and dashboard components lets later engagements move faster and at higher margin than the first few bespoke builds.",
+          "ro": "O bibliotecă reutilizabilă de șabloane de pipeline și componente de tablou de bord permite ca angajamentele ulterioare să avanseze mai repede și cu marjă mai mare decât primele construcții personalizate."
+        }
+      },
+      {
+        "description": {
+          "en": "A free data-audit call surfaces the client's real, current data mess before any price is quoted, making the sales conversation concrete.",
+          "ro": "Un apel gratuit de audit al datelor scoate la iveală dezordinea reală și actuală a datelor clientului, înainte de a oferta orice preț, făcând discuția de vânzare concretă."
+        }
+      },
+      {
+        "description": {
+          "en": "The optional monthly analytics retainer converts a one-time dashboard build into an ongoing insights relationship, protecting against dashboards going stale and unused.",
+          "ro": "Abonamentul lunar opțional de analiză transformă o construcție unică de tablou de bord într-o relație continuă de perspective, protejând împotriva riscului ca tablourile de bord să devină învechite și neutilizate."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A solo-deliverable data analytics consultancy building ETL pipelines, BI dashboards, and predictive models for mid-market companies with disconnected data and no dedicated data team, priced on fixed-scope projects plus an optional monthly analytics retainer, distinct from pure AI strategy advisory or general software development.",
+        "ro": "O consultanță de analiză de date livrabilă solo, care construiește pipeline-uri ETL, tablouri de bord BI și modele predictive pentru companii mid-market cu date deconectate și fără o echipă dedicată de date, cu preț pe proiecte cu scop fix, plus un abonament lunar opțional de analiză, distinctă de consultanța pură de strategie AI sau de dezvoltarea software generală."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.dataAnalyticsConsultancy.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.dataAnalyticsConsultancy.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.dataAnalyticsConsultancy.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.dataAnalyticsConsultancy.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert at least half of free data-audit calls into a signed pipeline/dashboard project.",
+          "ro": "Transformă cel puțin jumătate din apelurile gratuite de audit al datelor într-un proiect semnat de pipeline/tablou de bord."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Grow gross margin above 60% as the reusable template library reduces per-project delivery time.",
+          "ro": "Crește marja brută peste 60%, pe măsură ce biblioteca reutilizabilă de șabloane reduce timpul de livrare per proiect."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Convert at least 35% of completed dashboard projects into an ongoing analytics retainer.",
+          "ro": "Transformă cel puțin 35% din proiectele finalizate de tablou de bord într-un abonament continuu de analiză."
+        }
+      },
+      {
+        "key": "mrr",
+        "targetDescription": {
+          "en": "Grow analytics-retainer MRR steadily as the delivered-dashboard portfolio grows.",
+          "ro": "Crește constant MRR-ul din abonamentele de analiză, pe măsură ce crește portofoliul de tablouri de bord livrate."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "ai",
+          "importance": 5
+        },
+        {
+          "key": "programming",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "communication",
+          "importance": 3
+        },
+        {
+          "key": "finance",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "analytical",
+          "importance": 5
+        },
+        {
+          "trait": "systemOriented",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "detailOriented",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 9000,
+        "max": 24000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 12000,
+        "max": 20000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 35,
+        "maxWeeklyHours": 50
+      },
+      "communicationStyle": [
+        "analytical",
+        "clear"
+      ],
+      "technicalLevel": 5,
+      "leadershipLevel": 3,
+      "creativityLevel": 3,
+      "salesAffinity": 2,
+      "automationAffinity": 5,
+      "remotePreference": "remote",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theBuilder",
+        "theSpecialist"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the before/after transformation from scattered spreadsheets to one clear dashboard in the Executive Summary — that concrete visual contrast is the strongest sales asset this business has.",
+      "ro": "Evidențiază transformarea înainte/după, de la foi de calcul dispersate la un tablou de bord clar, în Rezumatul executiv — acel contrast vizual concret este cel mai puternic argument de vânzare al acestei afaceri."
+    },
+    "marketingHints": {
+      "en": "Lead with specific before/after dashboard transformations and the exact business question each one answers, not generic \"data analytics\" language.",
+      "ro": "Pornește de la transformări concrete de tablouri de bord înainte/după și de la întrebarea exactă de afaceri la care fiecare răspunde, nu de la un limbaj generic de \"analiză de date\"."
+    },
+    "financialHints": {
+      "en": "Model revenue as fixed-scope project sales accelerating over time as the reusable template library grows, plus a genuinely recurring analytics-retainer layer.",
+      "ro": "Modelează venitul ca vânzări de proiecte cu scop fix, care se accelerează în timp pe măsură ce crește biblioteca reutilizabilă de șabloane, plus un strat cu adevărat recurent de abonament de analiză."
+    },
+    "generationHints": {
+      "en": "Keep tone analytical, clear, and business-outcome-focused — translate technical data work into the specific business question it answers, not jargon.",
+      "ro": "Păstrează un ton analitic, clar și orientat spre rezultatul de afaceri — tradu munca tehnică de date în întrebarea specifică de afaceri la care răspunde, nu în jargon."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Set up the cloud data warehouse and BI tooling, and build 2-3 reusable pipeline templates.",
+            "ro": "Configurează depozitul de date în cloud și uneltele BI, și construiește 2-3 șabloane reutilizabile de pipeline."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Starting client work without any reusable pipeline templates, rebuilding everything from scratch each time.",
+            "ro": "Începerea lucrului cu clienții fără niciun șablon reutilizabil de pipeline, reconstruind totul de la zero de fiecare dată."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a sample dashboard using common data sources (spreadsheets, a CRM export) as a portfolio piece before the first client.",
+            "ro": "Construiește un tablou de bord eșantion, folosind surse de date comune (foi de calcul, export CRM), ca element de portofoliu, înainte de primul client."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.dataAnalyticsConsultancy.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Sell and deliver the first data pipeline and dashboard project.",
+            "ro": "Vinde și livrează primul proiect de pipeline de date și tablou de bord."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Quoting a fixed price before running a data-audit sample to check the real state of the client's sources.",
+            "ro": "Ofertarea unui preț fix înainte de a rula un eșantion de audit al datelor, pentru a verifica starea reală a surselor clientului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Run a small data-audit sample before quoting, sized to reveal genuine data-quality risk.",
+            "ro": "Derulează un mic eșantion de audit al datelor, înainte de ofertare, dimensionat pentru a dezvălui riscul real de calitate a datelor."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Deliver the first dashboard through iterative stakeholder review cycles.",
+            "ro": "Livrează primul tablou de bord prin cicluri iterative de revizuire cu părțile interesate."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Building the entire dashboard before showing the client any intermediate progress.",
+            "ro": "Construirea întregului tablou de bord înainte de a arăta clientului vreun progres intermediar."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Share a rough dashboard draft after the first week to confirm the business question is being answered correctly.",
+            "ro": "Distribuie o schiță aproximativă a tabloului de bord după prima săptămână, pentru a confirma că întrebarea de afaceri primește răspunsul corect."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.dataAnalyticsConsultancy.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish the first before/after dashboard case study and activate the founder-network referral channel.",
+            "ro": "Publică primul studiu de caz de transformare a tabloului de bord înainte/după și activează canalul de recomandări din rețeaua fondatorului."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Publishing a case study with real client data instead of anonymized or illustrative figures.",
+            "ro": "Publicarea unui studiu de caz cu date reale ale clientului, în loc de cifre anonimizate sau ilustrative."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Ask the first delivered client for one warm referral once the dashboard is live.",
+            "ro": "Cere primului client livrat o recomandare caldă, odată ce tabloul de bord este live."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Deliver the first dashboard on time and convert the client into the monthly analytics retainer.",
+            "ro": "Livrează primul tablou de bord la timp și transformă clientul într-un abonament lunar de analiză."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Assuming the dashboard needs no ongoing maintenance once delivered.",
+            "ro": "Presupunerea că tabloul de bord nu mai are nevoie de mentenanță continuă odată livrat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Offer the analytics retainer proactively at delivery, framed around data freshness and monthly insight reporting.",
+            "ro": "Oferă proactiv abonamentul de analiză la livrare, încadrat în jurul prospețimii datelor și raportării lunare de perspective."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach 5 delivered dashboard/pipeline projects with a growing reusable template library.",
+            "ro": "Atinge 5 proiecte livrate de tablou de bord/pipeline, cu o bibliotecă reutilizabilă de șabloane în creștere."
+          }
+        ],
+        "kpis": [
+          "closeRate",
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Taking on data sources or business questions outside proven expertise just to fill capacity.",
+            "ro": "Acceptarea de surse de date sau întrebări de afaceri în afara expertizei dovedite, doar pentru a umple capacitatea."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Qualify every new prospect's data sources against the growing template library before quoting.",
+            "ro": "Califică sursele de date ale fiecărui prospect nou în raport cu biblioteca de șabloane în creștere, înainte de ofertare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Convert the first 3 clients onto the monthly analytics retainer.",
+            "ro": "Transformă primii 3 clienți în abonamentul lunar de analiză."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Letting the analytics retainer drift into unstructured, ad-hoc requests instead of a defined monthly deliverable.",
+            "ro": "Permiterea ca abonamentul de analiză să alunece spre cereri nestructurate, ad-hoc, în loc de un livrabil lunar definit."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Define a concrete monthly insights-report deliverable for every retainer client.",
+            "ro": "Definește un livrabil lunar concret de raport de perspective, pentru fiecare client cu abonament."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Bring on a second data consultant to run concurrent engagements using the shared template library.",
+            "ro": "Adaugă un al doilea consultant de date, pentru a rula angajamente concurente folosind biblioteca comună de șabloane."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring someone without both the technical skill and the ability to translate findings for non-technical stakeholders.",
+            "ro": "Angajarea unei persoane fără abilitatea tehnică și capacitatea de a traduce constatările pentru părțile interesate non-tehnice."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pair the new hire with the founder on their first two engagements before running one independently.",
+            "ro": "Cuplează noul angajat cu fondatorul, la primele două angajamente, înainte de a-l lăsa să conducă unul independent."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand the offer to include predictive-model builds for clients whose dashboards have matured.",
+            "ro": "Extinde oferta pentru a include construcția de modele predictive, pentru clienții ale căror tablouri de bord au ajuns la maturitate."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Launching a predictive-model offer without also building automated accuracy-monitoring into it.",
+            "ro": "Lansarea unei oferte de model predictiv fără a integra și monitorizarea automată a acurateței."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Include model-accuracy monitoring as a non-negotiable part of every predictive-model engagement.",
+            "ro": "Include monitorizarea acurateței modelului ca parte nenegociabilă a fiecărui angajament de model predictiv."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the client book, retainer contracts, and the reusable template library for a clean acquisition.",
+            "ro": "Documentează portofoliul de clienți, contractele de abonament și biblioteca reutilizabilă de șabloane, pentru o achiziție curată."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping the pipeline template library undocumented and dependent on the founder's personal file organization.",
+            "ro": "Menținerea bibliotecii de șabloane de pipeline nedocumentată și dependentă de organizarea personală de fișiere a fondatorului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Standardize the template library into a documented, transferable asset before pursuing an acquisition conversation.",
+            "ro": "Standardizează biblioteca de șabloane într-un activ documentat și transferabil, înainte de a purta o discuție de achiziție."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

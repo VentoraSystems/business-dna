@@ -1,0 +1,144 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "cloudCertifications",
+      "sandboxEnvironmentSetup",
+      "toolingLicenses",
+      "legalAndContractTemplates"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "cloudSandboxCosts",
+      "monitoringAndIacToolingSubscriptions",
+      "continuingCertificationCosts"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "contractEngineerSurge",
+      "incidentResponseOvertime",
+      "recruitingFees"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "infrastructureProjectFee",
+        "label": {
+          "en": "Fixed-scope infrastructure migration or build project fee",
+          "ro": "Onorariu de proiect cu scop fix pentru migrarea sau construcția infrastructurii"
+        }
+      },
+      {
+        "key": "infrastructureOversightRetainer",
+        "label": {
+          "en": "Monthly infrastructure-oversight retainer",
+          "ro": "Abonament lunar de supraveghere a infrastructurii"
+        }
+      },
+      {
+        "key": "incidentResponseAdvisoryHours",
+        "label": {
+          "en": "Ad-hoc incident-response advisory hours",
+          "ro": "Ore ad-hoc de consultanță pentru răspuns la incidente"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageProjectFee": "currency",
+      "avgProjectDurationWeeks": "number",
+      "concurrentProjectCount": "number",
+      "oversightRetainerMonthlyFee": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "projectsClosedPerQuarter": "number",
+      "retainerConversionRate": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.devopsConsultancy.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "milestonePaymentInflows",
+      "retainerCollections",
+      "sandboxCloudCostOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 7,
+    "notesTranslationKey": "businessLibrary.devopsConsultancy.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 65,
+    "notesTranslationKey": "businessLibrary.devopsConsultancy.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 45,
+    "notesTranslationKey": "businessLibrary.devopsConsultancy.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "secondSeniorDevopsEngineerSalary"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "engineeringCaseStudyProduction",
+      "openSourceSponsorship",
+      "referralIncentives"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthOperatingReserve",
+      "incidentLiabilityReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "closeRate",
+      "grossMargin",
+      "customerRetention",
+      "mrr"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 11000,
+      "notesTranslationKey": "businessLibrary.devopsConsultancy.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 24000,
+      "notesTranslationKey": "businessLibrary.devopsConsultancy.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 42000,
+      "notesTranslationKey": "businessLibrary.devopsConsultancy.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.devopsConsultancy.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.devopsConsultancy.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.devopsConsultancy.financial.aiMetadata.generationHints"
+  }
+}

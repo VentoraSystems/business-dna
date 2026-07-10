@@ -1,0 +1,142 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "dataWarehouseSetup",
+      "biToolingLicenses",
+      "portfolioAndCaseStudySite",
+      "legalAndContractTemplates"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "dataWarehouseAndPipelineCosts",
+      "biToolingSubscriptions",
+      "aiAssistedToolingSubscriptions"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "contractConsultantSurge",
+      "thirdPartyDataApiCosts",
+      "recruitingFees"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "pipelineAndDashboardProjectFee",
+        "label": {
+          "en": "Fixed-scope data pipeline and dashboard build project fee",
+          "ro": "Onorariu de proiect cu scop fix pentru construcția pipeline-ului de date și a tabloului de bord"
+        }
+      },
+      {
+        "key": "monthlyAnalyticsRetainer",
+        "label": {
+          "en": "Monthly analytics retainer",
+          "ro": "Abonament lunar de analiză"
+        }
+      },
+      {
+        "key": "predictiveModelBuildFee",
+        "label": {
+          "en": "Ad-hoc predictive-model build fee",
+          "ro": "Onorariu ad-hoc pentru construcția unui model predictiv"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageProjectFee": "currency",
+      "avgProjectDurationWeeks": "number",
+      "concurrentProjectCount": "number",
+      "analyticsRetainerMonthlyFee": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "projectsClosedPerQuarter": "number",
+      "retainerConversionRate": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.dataAnalyticsConsultancy.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "milestonePaymentInflows",
+      "retainerCollections",
+      "dataWarehouseCostOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 7,
+    "notesTranslationKey": "businessLibrary.dataAnalyticsConsultancy.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 60,
+    "notesTranslationKey": "businessLibrary.dataAnalyticsConsultancy.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 42,
+    "notesTranslationKey": "businessLibrary.dataAnalyticsConsultancy.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "secondDataConsultantSalary"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "dataCaseStudyProduction",
+      "referralIncentives"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "closeRate",
+      "grossMargin",
+      "customerRetention",
+      "mrr"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 10000,
+      "notesTranslationKey": "businessLibrary.dataAnalyticsConsultancy.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 22000,
+      "notesTranslationKey": "businessLibrary.dataAnalyticsConsultancy.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 40000,
+      "notesTranslationKey": "businessLibrary.dataAnalyticsConsultancy.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.dataAnalyticsConsultancy.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.dataAnalyticsConsultancy.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.dataAnalyticsConsultancy.financial.aiMetadata.generationHints"
+  }
+}

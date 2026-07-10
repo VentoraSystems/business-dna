@@ -1,0 +1,933 @@
+{
+  "identity": {
+    "id": "782b4e91-5570-40c7-bbba-cbafd9933aac",
+    "slug": "it-managed-services",
+    "version": "1.0.0",
+    "name": {
+      "en": "Millbrook IT Partners",
+      "ro": "Millbrook IT Partners"
+    },
+    "tagline": {
+      "en": "Your entire IT department, for less than one in-house hire.",
+      "ro": "Întregul tău departament IT, la un cost mai mic decât o singură angajare internă."
+    },
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theOperator",
+      "theBuilder"
+    ],
+    "summary": {
+      "en": "Best suited to a process-minded operator who finds satisfaction in a quiet, well-monitored network more than a flashy technical showcase — this is a steady operations business, not a project-based sprint.",
+      "ro": "Potrivit unui operator orientat spre proces, care găsește satisfacție într-o rețea liniștită și bine monitorizată, mai mult decât într-o vitrină tehnică spectaculoasă — aceasta este o afacere de operațiuni constante, nu un sprint bazat pe proiecte."
+    },
+    "minimumExperienceYears": 4
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 12000,
+      "maxInvestment": 28000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 7000,
+      "ongoingMonthlyCostMax": 18000,
+      "notes": {
+        "en": "Covers RMM (remote monitoring and management) platform licensing, a helpdesk ticketing system, and 2-3 tier-1 technician salaries — this is a labor-heavy ongoing operations business, not a lean project shop.",
+        "ro": "Acoperă licențierea platformei RMM (monitorizare și management de la distanță), un sistem de ticketing pentru helpdesk și salariile a 2-3 tehnicieni de nivel 1 — aceasta este o afacere de operațiuni continue, intensivă în forță de muncă, nu un atelier de proiecte restrâns."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "rmmPlatformSetup",
+          "label": {
+            "en": "RMM (remote monitoring and management) platform setup",
+            "ro": "Configurarea platformei RMM (monitorizare și management de la distanță)"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        },
+        {
+          "key": "helpdeskTicketingSystemSetup",
+          "label": {
+            "en": "Helpdesk ticketing system setup",
+            "ro": "Configurarea sistemului de ticketing pentru helpdesk"
+          },
+          "typicalMin": 800,
+          "typicalMax": 2000
+        },
+        {
+          "key": "initialTechnicianHiring",
+          "label": {
+            "en": "Initial tier-1 technician hiring and onboarding",
+            "ro": "Angajarea și integrarea inițială a tehnicienilor de nivel 1"
+          },
+          "typicalMin": 6000,
+          "typicalMax": 14000
+        },
+        {
+          "key": "legalAndSlaContractTemplates",
+          "label": {
+            "en": "Legal setup and SLA contract templates",
+            "ro": "Configurare juridică și modele de contract SLA"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "technicianSalaries",
+          "label": {
+            "en": "Tier-1 and tier-2 technician salaries",
+            "ro": "Salarii pentru tehnicieni de nivel 1 și 2"
+          },
+          "typicalMonthlyMin": 5500,
+          "typicalMonthlyMax": 14000
+        },
+        {
+          "key": "rmmAndTicketingSubscriptions",
+          "label": {
+            "en": "RMM and helpdesk ticketing platform subscriptions",
+            "ro": "Abonamente pentru platforma RMM și sistemul de ticketing"
+          },
+          "typicalMonthlyMin": 500,
+          "typicalMonthlyMax": 1800
+        },
+        {
+          "key": "onCallStipends",
+          "label": {
+            "en": "After-hours on-call rotation stipends",
+            "ro": "Indemnizații pentru rotația de gardă în afara programului"
+          },
+          "typicalMonthlyMin": 400,
+          "typicalMonthlyMax": 1200
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "perSeatMonthlyFee",
+          "label": {
+            "en": "Tiered per-device or per-user monthly fee",
+            "ro": "Taxă lunară pe niveluri, per dispozitiv sau per utilizator"
+          }
+        },
+        {
+          "key": "slaResponseTierUpgrade",
+          "label": {
+            "en": "Premium SLA response-time tier upgrade",
+            "ro": "Upgrade la nivelul premium de SLA privind timpul de răspuns"
+          }
+        },
+        {
+          "key": "projectHardwareRefreshFee",
+          "label": {
+            "en": "Ad-hoc hardware refresh and network upgrade project fees",
+            "ro": "Onorarii de proiect ad-hoc pentru reînnoirea hardware-ului și modernizarea rețelei"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 10000,
+      "targetMonthlyIncomeMax": 30000,
+      "breakEvenTimelineMonths": 8,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Per-seat monthly contracts ramp steadily as the managed-device count grows client by client, rather than arriving in large lump-sum payments.",
+        "ro": "Contractele lunare per utilizator cresc constant pe măsură ce numărul de dispozitive gestionate crește client cu client, nu prin plăți mari, dintr-o singură dată."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "occasional",
+    "onlineOffline": "hybrid",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 40,
+    "maxWeeklyHours": 50,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 4
+      },
+      {
+        "key": "marketing",
+        "rating": 3
+      },
+      {
+        "key": "leadership",
+        "rating": 5
+      },
+      {
+        "key": "communication",
+        "rating": 6
+      },
+      {
+        "key": "negotiation",
+        "rating": 4
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 8
+      },
+      {
+        "key": "technology",
+        "rating": 7
+      },
+      {
+        "key": "automation",
+        "rating": 5
+      },
+      {
+        "key": "ai",
+        "rating": 4
+      },
+      {
+        "key": "programming",
+        "rating": 3
+      },
+      {
+        "key": "management",
+        "rating": 6
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 45
+      },
+      {
+        "key": "visionary",
+        "score": 25
+      },
+      {
+        "key": "operator",
+        "score": 85
+      },
+      {
+        "key": "creator",
+        "score": 25
+      },
+      {
+        "key": "seller",
+        "score": 40
+      },
+      {
+        "key": "leader",
+        "score": 55
+      },
+      {
+        "key": "analyst",
+        "score": 55
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": false,
+    "requiresTravel": true,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": true,
+    "isHighlyAutomatable": true,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": true,
+    "isRecessionResistant": true
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "high"
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate"
+    },
+    "aiResistance": {
+      "level": "low"
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Missing a response-time SLA during a staffing gap risks contractual penalties or client churn.",
+          "ro": "Nerespectarea unui SLA de timp de răspuns, din cauza unui gol de personal, riscă penalități contractuale sau pierderea clientului."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Maintain an on-call rotation with cross-trained backup technicians so no single absence breaches an SLA.",
+          "ro": "Menține o rotație de gardă cu tehnicieni de rezervă instruiți încrucișat, astfel încât nicio absență individuală să nu încalce un SLA."
+        }
+      },
+      {
+        "description": {
+          "en": "Revenue concentration in a small number of large per-seat clients means one churn event removes a disproportionate share of MRR.",
+          "ro": "Concentrarea veniturilor pe un număr mic de clienți mari, per utilizator, înseamnă că un singur eveniment de abandon elimină o pondere disproporționată din MRR."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Cap any single client's managed-device count at under 25% of total managed devices under contract.",
+          "ro": "Limitează numărul de dispozitive gestionate al oricărui client unic la sub 25% din totalul dispozitivelor gestionate sub contract."
+        }
+      },
+      {
+        "description": {
+          "en": "AI-driven remote monitoring and self-service IT tools are commoditizing basic tier-1 helpdesk work, compressing per-seat pricing at the low end.",
+          "ro": "Monitorizarea de la distanță condusă de AI și uneltele IT de autoservire transformă în marfă munca de bază de helpdesk de nivel 1, comprimând prețurile per utilizator la segmentul inferior."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Shift the service mix toward higher-margin strategic IT advisory and security-hardening work as basic monitoring commoditizes.",
+          "ro": "Deplasează treptat mixul de servicii către consultanță strategică IT și lucrări de întărire a securității, cu marjă mai mare, pe măsură ce monitorizarea de bază devine marfă."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Your entire IT department, for less than one in-house hire — helpdesk, monitoring, and patching, covered.",
+        "ro": "Întregul tău departament IT, la un cost mai mic decât o singură angajare internă — helpdesk, monitorizare și actualizări, acoperite."
+      },
+      "channels": [
+        {
+          "channelType": "localBusinessNetworkReferrals",
+          "description": {
+            "en": "Referrals from local chambers of commerce, accountants, and business consultants who see which clients are struggling with IT.",
+            "ro": "Recomandări din partea camerelor locale de comerț, contabililor și consultanților de afaceri, care observă care clienți se confruntă cu probleme IT."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "mspDirectoryListings",
+          "description": {
+            "en": "Listings on managed-service-provider comparison directories where office managers actively search for support.",
+            "ro": "Listări pe directoare de comparare a furnizorilor de servicii gestionate, unde managerii de birou caută activ suport."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "coldOutboundToOfficeManagers",
+          "description": {
+            "en": "Targeted outbound to office managers and operations leads at companies with visible signs of IT neglect (outdated websites, public complaints).",
+            "ro": "Prospectare directă țintită către manageri de birou și lideri operaționali din companii cu semne vizibile de neglijență IT (site-uri învechite, plângeri publice)."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "low"
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A free network and device audit is the standard first conversation, surfacing existing gaps (unpatched devices, expired backups) before quoting a per-seat monthly rate.",
+        "ro": "Un audit gratuit de rețea și dispozitive este discuția standard de început, care scoate la iveală lacunele existente (dispozitive neactualizate, backup-uri expirate), înainte de a oferta o taxă lunară per utilizator."
+      },
+      "salesCycleLengthDays": 25,
+      "pricingModel": {
+        "en": "Tiered per-device or per-user monthly fee, with SLA response-time tiers priced separately.",
+        "ro": "Taxă lunară pe niveluri, per dispozitiv sau per utilizator, cu niveluri de SLA privind timpul de răspuns, taxate separat."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate"
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "24/7 remote monitoring and alerting via RMM tooling.",
+          "ro": "Monitorizare și alertare de la distanță, 24/7, prin unelte RMM."
+        },
+        {
+          "en": "Scheduled patch management and backup verification.",
+          "ro": "Management programat al actualizărilor și verificarea backup-urilor."
+        },
+        {
+          "en": "Tier-1 and tier-2 helpdesk ticket triage against SLA response times.",
+          "ro": "Triajul tichetelor de helpdesk de nivel 1 și 2, în raport cu timpii de răspuns SLA."
+        },
+        {
+          "en": "Quarterly on-site network and hardware review.",
+          "ro": "Revizuire trimestrială la sediu a rețelei și hardware-ului."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Helpdesk ticket-queue triage against SLA response-time targets, automated monitoring-alert review, and scheduled maintenance windows.",
+        "ro": "Triajul cozii de tichete de helpdesk în raport cu țintele de timp de răspuns SLA, revizuirea alertelor de monitorizare automată și ferestrele programate de mentenanță."
+      },
+      "fulfillmentModel": {
+        "en": "A small technician team covers helpdesk tickets and remote monitoring during business hours, with an on-call rotation for after-hours critical alerts and quarterly on-site visits for hardware-dependent work.",
+        "ro": "O echipă mică de tehnicieni acoperă tichetele de helpdesk și monitorizarea de la distanță în timpul programului de lucru, cu o rotație de gardă pentru alertele critice din afara programului și vizite trimestriale la sediu pentru lucrări dependente de hardware."
+      }
+    },
+    "automation": {
+      "level": "high"
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "aiTicketTriage",
+          "description": {
+            "en": "AI automatically categorizes and routes incoming helpdesk tickets by urgency and type, before a technician touches them.",
+            "ro": "AI categorizează și direcționează automat tichetele de helpdesk primite, în funcție de urgență și tip, înainte ca un tehnician să le atingă."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "aiAnomalyDetection",
+          "description": {
+            "en": "AI-assisted monitoring flags anomalous network or device behavior before it escalates into a client-visible outage.",
+            "ro": "Monitorizarea asistată de AI semnalează comportamentul anormal al rețelei sau dispozitivelor, înainte ca acesta să escaladeze într-o întrerupere vizibilă pentru client."
+          },
+          "maturity": "established"
+        }
+      ],
+      "aiDependencyLevel": "high"
+    },
+    "recommendedTools": [
+      {
+        "name": "NinjaOne",
+        "category": "remoteMonitoringAndManagement",
+        "isRequired": true,
+        "websiteUrl": "https://www.ninjaone.com/"
+      },
+      {
+        "name": "Freshservice",
+        "category": "helpdeskTicketing",
+        "isRequired": true,
+        "websiteUrl": "https://www.freshworks.com/freshservice/"
+      },
+      {
+        "name": "Veeam",
+        "category": "backupAndDisasterRecovery",
+        "isRequired": false,
+        "websiteUrl": "https://www.veeam.com/"
+      },
+      {
+        "name": "1Password Business",
+        "category": "credentialVault",
+        "isRequired": false,
+        "websiteUrl": "https://1password.com/business"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "high",
+      "timeHorizonMonths": 30
+    },
+    "scaling": {
+      "path": {
+        "en": "Hire additional tier-1 technicians as the per-seat client base grows, keeping the technician-to-managed-device ratio constant, then introduce a higher-margin, proactive strategic-IT-advisory tier for clients who've outgrown basic helpdesk support.",
+        "ro": "Angajează tehnicieni suplimentari de nivel 1 pe măsură ce baza de clienți per utilizator crește, menținând constant raportul tehnician-dispozitive gestionate, apoi introdu un nivel de consultanță IT strategică, proactiv și cu marjă mai mare, pentru clienții care au depășit suportul de bază de helpdesk."
+      },
+      "bottlenecks": [
+        {
+          "en": "Technician hiring must scale in lockstep with managed-device count or SLA response times slip.",
+          "ro": "Angajarea de tehnicieni trebuie să se scaleze în pas cu numărul de dispozitive gestionate, altfel timpii de răspuns SLA scad."
+        },
+        {
+          "en": "A single large client churning removes a disproportionate share of per-seat MRR at once.",
+          "ro": "Abandonul unui singur client mare elimină deodată o pondere disproporționată din MRR-ul per utilizator."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 6,
+          "description": {
+            "en": "First 5 clients on a signed monthly per-seat contract.",
+            "ro": "Primii 5 clienți pe un contract lunar semnat, per utilizator."
+          }
+        },
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "500+ managed devices under contract across the client base.",
+            "ro": "Peste 500 de dispozitive gestionate sub contract, la nivelul întregii baze de clienți."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "A published, transparent per-seat pricing menu removes the \"how much will IT support cost\" uncertainty that stalls most MSP sales conversations.",
+          "ro": "Un meniu de prețuri per utilizator, transparent și publicat, elimină incertitudinea legată de \"cât va costa suportul IT\", care blochează majoritatea discuțiilor de vânzare pentru furnizorii de servicii gestionate."
+        }
+      },
+      {
+        "description": {
+          "en": "24/7 automated monitoring catches issues before they become client-visible outages, the strongest differentiator against a reactive break-fix competitor.",
+          "ro": "Monitorizarea automată 24/7 depistează problemele înainte ca acestea să devină întreruperi vizibile pentru client, cel mai puternic factor de diferențiere față de un competitor reactiv, de tip \"repari când se strică\"."
+        }
+      },
+      {
+        "description": {
+          "en": "A free initial network and device audit surfaces real, tangible problems (unpatched devices, expired backups) that make the sales conversation concrete rather than hypothetical.",
+          "ro": "Un audit inițial gratuit de rețea și dispozitive scoate la iveală probleme reale și tangibile (dispozitive neactualizate, backup-uri expirate), care fac discuția de vânzare concretă, nu ipotetică."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "An IT managed services provider (MSP) running continuous, outsourced IT operations — helpdesk, monitoring, patching, backups — for small-to-mid-size businesses on a tiered per-seat monthly subscription, distinct from project-based technology consultancies.",
+        "ro": "Un furnizor de servicii IT gestionate (MSP), care derulează operațiuni IT externalizate continue — helpdesk, monitorizare, actualizări, backup-uri — pentru afaceri mici și mijlocii, pe bază de abonament lunar pe niveluri, per utilizator, distinct de consultanțele tehnologice bazate pe proiecte."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.itManagedServices.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.itManagedServices.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.itManagedServices.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.itManagedServices.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "mrr",
+        "targetDescription": {
+          "en": "Grow per-seat monthly recurring revenue steadily as managed-device count grows.",
+          "ro": "Crește constant venitul lunar recurent per utilizator, pe măsură ce crește numărul de dispozitive gestionate."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep annual client retention above 90% — churn is the single biggest threat to this recurring-revenue model.",
+          "ro": "Menține retenția anuală a clienților peste 90% — abandonul este cea mai mare amenințare pentru acest model de venit recurent."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Maintain gross margin above 40% once the technician team is fully staffed.",
+          "ro": "Menține marja brută peste 40%, odată ce echipa de tehnicieni este complet formată."
+        }
+      },
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert at least half of free network-audit prospects into a signed monthly contract.",
+          "ro": "Transformă cel puțin jumătate din prospecții cu audit gratuit de rețea într-un contract lunar semnat."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "management",
+          "importance": 5
+        },
+        {
+          "key": "communication",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "sales",
+          "importance": 3
+        },
+        {
+          "key": "negotiation",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "systemOriented",
+          "importance": 5
+        },
+        {
+          "trait": "patient",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "collaborative",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 12000,
+        "max": 28000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 15000,
+        "max": 24000,
+        "currency": "EUR"
+      },
+      "riskProfile": "low",
+      "timeAvailability": {
+        "minWeeklyHours": 40,
+        "maxWeeklyHours": 50
+      },
+      "communicationStyle": [
+        "patient",
+        "reliable"
+      ],
+      "technicalLevel": 4,
+      "leadershipLevel": 3,
+      "creativityLevel": 2,
+      "salesAffinity": 3,
+      "automationAffinity": 4,
+      "remotePreference": "hybrid",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theOperator",
+        "theBuilder"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize 24/7 monitoring coverage and transparent per-seat pricing in the Executive Summary — predictability, not technical sophistication, is what an office manager buying IT support actually cares about.",
+      "ro": "Evidențiază acoperirea de monitorizare 24/7 și prețurile transparente per utilizator în Rezumatul executiv — predictibilitatea, nu sofisticarea tehnică, este ceea ce contează efectiv pentru un manager de birou care cumpără suport IT."
+    },
+    "marketingHints": {
+      "en": "Lead with a free network-audit offer and the concrete, visible problems it surfaces, not abstract \"IT support\" messaging.",
+      "ro": "Pornește de la o ofertă de audit gratuit de rețea și problemele concrete, vizibile, pe care aceasta le scoate la iveală, nu de la mesaje abstracte de tipul \"suport IT\"."
+    },
+    "financialHints": {
+      "en": "Model revenue as steady, compounding per-seat MRR growth — the most subscription-like revenue shape of any technology-services business in this catalog.",
+      "ro": "Modelează venitul ca o creștere constantă și cumulativă a MRR-ului per utilizator — cea mai apropiată de un abonament formă de venit dintre toate afacerile de servicii tehnologice din acest catalog."
+    },
+    "generationHints": {
+      "en": "Keep tone reassuring, plain-spoken, and non-technical — this buyer is often an office manager or small-business owner, not an IT professional.",
+      "ro": "Păstrează un ton liniștitor, direct și netehnic — acest cumpărător este adesea un manager de birou sau un proprietar de afacere mică, nu un profesionist IT."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Set up the RMM platform and helpdesk ticketing system, and hire the first tier-1 technician.",
+            "ro": "Configurează platforma RMM și sistemul de ticketing pentru helpdesk, și angajează primul tehnician de nivel 1."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Signing the first client before the monitoring and ticketing systems are fully configured.",
+            "ro": "Semnarea primului client înainte ca sistemele de monitorizare și ticketing să fie complet configurate."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Draft the standard SLA contract template and tiered pricing menu before approaching the first prospect.",
+            "ro": "Redactează modelul standard de contract SLA și meniul de prețuri pe niveluri, înainte de a aborda primul prospect."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.itManagedServices.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Sell and deliver the first client's monthly managed-services contract.",
+            "ro": "Vinde și livrează primul contract lunar de servicii gestionate al unui client."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Underpricing the first contract so heavily it isn't sustainable once support-ticket volume becomes real.",
+            "ro": "Subevaluarea prețului primului contract atât de mult încât devine nesustenabil odată ce volumul real de tichete de suport apare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Run the free network audit on the first prospect to surface concrete, visible problems before quoting.",
+            "ro": "Derulează auditul gratuit de rețea la primul prospect, pentru a scoate la iveală probleme concrete și vizibile, înainte de ofertare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Standardize the helpdesk ticket-triage workflow against SLA response-time targets.",
+            "ro": "Standardizează fluxul de triaj al tichetelor de helpdesk, în raport cu țintele de timp de răspuns SLA."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Handling ticket triage ad hoc instead of against a documented SLA-priority workflow.",
+            "ro": "Gestionarea triajului tichetelor ad-hoc, în loc de un flux documentat de prioritizare SLA."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document the ticket-triage priority levels and response-time targets in the ticketing system.",
+            "ro": "Documentează nivelurile de prioritate ale triajului tichetelor și țintele de timp de răspuns în sistemul de ticketing."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.itManagedServices.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish the tiered pricing menu publicly and activate local business-network referral relationships.",
+            "ro": "Publică public meniul de prețuri pe niveluri și activează relațiile de recomandare din rețeaua locală de afaceri."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching without confirming the on-call rotation can actually cover after-hours critical alerts.",
+            "ro": "Lansarea fără a confirma că rotația de gardă poate acoperi efectiv alertele critice din afara programului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Ask each early client for one warm introduction to another local business owner.",
+            "ro": "Cere fiecărui client incipient o prezentare caldă către un alt proprietar de afacere locală."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Deliver a flawless first month of monitoring, patching, and helpdesk support for the first client.",
+            "ro": "Livrează o primă lună impecabilă de monitorizare, actualizări și suport de helpdesk pentru primul client."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Overpromising response times under pressure to win the client, before staffing can reliably support them.",
+            "ro": "Promisiuni exagerate de timp de răspuns sub presiunea de a câștiga clientul, înainte ca personalul să le poată susține fiabil."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Set clear escalation paths with the client up front for both routine tickets and critical outages.",
+            "ro": "Stabilește de la început căi clare de escaladare cu clientul, atât pentru tichete de rutină, cât și pentru întreruperi critice."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach 5 clients on signed monthly per-seat contracts with under 10% monthly churn.",
+            "ro": "Atinge 5 clienți pe contracte lunare semnate, per utilizator, cu o rată de abandon lunară sub 10%."
+          }
+        ],
+        "kpis": [
+          "mrr",
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Taking on every prospect regardless of managed-device count fit for the current technician capacity.",
+            "ro": "Acceptarea fiecărui prospect, indiferent de potrivirea numărului de dispozitive gestionate cu capacitatea actuală a tehnicienilor."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Introduce a minimum-device-count qualification for new clients to keep unit economics healthy.",
+            "ro": "Introdu un criteriu minim de număr de dispozitive pentru clienții noi, pentru a menține sănătoasă economia unitară."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Hire the second tier-1 technician to keep the technician-to-device ratio healthy as the client base grows.",
+            "ro": "Angajează al doilea tehnician de nivel 1, pentru a menține sănătos raportul tehnician-dispozitive, pe măsură ce baza de clienți crește."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring reactively only after SLA response times have already started slipping.",
+            "ro": "Angajare reactivă, doar după ce timpii de răspuns SLA au început deja să scadă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Hire ahead of the device-count threshold that historically strained the current team's SLA performance.",
+            "ro": "Angajează înainte de pragul de număr de dispozitive care, istoric, a solicitat performanța SLA a echipei actuale."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Introduce a higher-margin, proactive strategic-IT-advisory tier for clients who've outgrown basic helpdesk support.",
+            "ro": "Introdu un nivel de consultanță IT strategică, proactiv și cu marjă mai mare, pentru clienții care au depășit suportul de bază de helpdesk."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Pricing the advisory tier the same as basic per-seat monitoring.",
+            "ro": "Stabilirea prețului nivelului de consultanță la fel ca pentru monitorizarea de bază per utilizator."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Package the advisory tier as a distinct, higher-priced offer with its own deliverables.",
+            "ro": "Ambalează nivelul de consultanță ca ofertă distinctă, cu preț mai ridicat și livrabile proprii."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into an adjacent vertical with specific compliance needs, such as healthcare or legal-office IT support.",
+            "ro": "Extinde-te într-o nișă adiacentă cu nevoi specifice de conformitate, precum suportul IT pentru cabinete medicale sau firme de avocatură."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding into a compliance-sensitive vertical without adapting the SLA and security baseline to its specific requirements.",
+            "ro": "Extinderea către o nișă sensibilă la conformitate, fără a adapta SLA-ul și nivelul de bază de securitate la cerințele sale specifice."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a vertical-specific onboarding and compliance checklist before marketing to it.",
+            "ro": "Construiește o listă de verificare de onboarding și conformitate specifică nișei, înainte de a face marketing pentru ea."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the client book, SLA contracts, and monitoring configurations for a clean acquisition by a larger MSP.",
+            "ro": "Documentează portofoliul de clienți, contractele SLA și configurațiile de monitorizare, pentru o achiziție curată de către un MSP mai mare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping client-specific network configurations undocumented and founder-only.",
+            "ro": "Menținerea configurațiilor de rețea specifice clienților nedocumentate și dependente exclusiv de fondator."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document every client's network topology and credentials in a transferable, access-controlled system.",
+            "ro": "Documentează topologia de rețea și acreditările fiecărui client într-un sistem transferabil, cu acces controlat."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.mobileAppDevelopmentAgency.marketing.uvp.diff1",
+      "businessLibrary.mobileAppDevelopmentAgency.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2b",
+    "descriptionTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.mobileAppDevelopmentAgency.marketing.painPoints.point1",
+      "businessLibrary.mobileAppDevelopmentAgency.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.mobileAppDevelopmentAgency.marketing.outcomes.outcome1",
+      "businessLibrary.mobileAppDevelopmentAgency.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.mobileAppDevelopmentAgency.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.mobileAppDevelopmentAgency.marketing.brandVoice.attr1",
+      "businessLibrary.mobileAppDevelopmentAgency.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.mobileAppDevelopmentAgency.marketing.contentPillars.pillar1",
+      "businessLibrary.mobileAppDevelopmentAgency.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "appStoreCaseStudyMarketing",
+      "founderNetworkReferrals",
+      "mobileDevConferenceSponsorship"
+    ],
+    "strategyTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.mobileAppDevelopmentAgency.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.mobileAppDevelopmentAgency.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.mobileAppDevelopmentAgency.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.mobileAppDevelopmentAgency.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "closeRate",
+      "customerRetention"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.mobileAppDevelopmentAgency.marketing.aiMetadata.generationHints"
+  }
+}

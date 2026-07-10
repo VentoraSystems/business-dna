@@ -1,0 +1,933 @@
+{
+  "identity": {
+    "id": "95dde0bc-fcac-4877-9664-68438f91618d",
+    "slug": "mobile-app-development-agency",
+    "version": "1.0.0",
+    "name": {
+      "en": "Copperline Mobile Studio",
+      "ro": "Copperline Mobile Studio"
+    },
+    "tagline": {
+      "en": "Native apps that pass App Store review the first time.",
+      "ro": "Aplicații native care trec de verificarea App Store din prima încercare."
+    },
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theBuilder",
+      "theOperator"
+    ],
+    "summary": {
+      "en": "Best suited to a technically credible operator who has personally shipped an app through both Apple's and Google's review process — that scar tissue is what lets you set realistic timelines and defend them to an anxious client.",
+      "ro": "Potrivit unui operator cu credibilitate tehnică, care a trecut personal o aplicație prin procesul de verificare atât al Apple, cât și al Google — acea experiență directă este ceea ce îți permite să stabilești termene realiste și să le aperi în fața unui client neliniștit."
+    },
+    "minimumExperienceYears": 4
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 15000,
+      "maxInvestment": 30000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 6000,
+      "ongoingMonthlyCostMax": 16000,
+      "notes": {
+        "en": "Covers Apple/Google developer accounts, device-lab hardware for real-device testing, tooling licenses, and 1-2 platform-specialist contractors retained before the first project closes.",
+        "ro": "Acoperă conturile de dezvoltator Apple/Google, echipamentele pentru laboratorul de testare pe dispozitive reale, licențele de unelte și 1-2 colaboratori specializați pe platformă, angajați înainte de închiderea primului proiect."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "developerAccountsAndCertificates",
+          "label": {
+            "en": "Apple Developer Program and Google Play Console accounts",
+            "ro": "Conturi Apple Developer Program și Google Play Console"
+          },
+          "typicalMin": 300,
+          "typicalMax": 800
+        },
+        {
+          "key": "deviceLabHardware",
+          "label": {
+            "en": "Device-lab hardware for real-device testing across OS versions",
+            "ro": "Echipamente pentru laboratorul de dispozitive, pentru testare pe hardware real, pe toate versiunile de OS"
+          },
+          "typicalMin": 3000,
+          "typicalMax": 8000
+        },
+        {
+          "key": "initialContractorRetainer",
+          "label": {
+            "en": "Initial platform-specialist contractor retainer before the first client payment lands",
+            "ro": "Avans reținut pentru colaboratorii specializați pe platformă, înainte de încasarea primei plăți de la client"
+          },
+          "typicalMin": 8000,
+          "typicalMax": 16000
+        },
+        {
+          "key": "portfolioAndCollateral",
+          "label": {
+            "en": "Portfolio site and app-store-approval case studies",
+            "ro": "Site de portofoliu și studii de caz privind aprobările în magazinele de aplicații"
+          },
+          "typicalMin": 1200,
+          "typicalMax": 3000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "engineeringSalaries",
+          "label": {
+            "en": "Platform-specialist engineering salaries or contractor retainers",
+            "ro": "Salarii de inginerie sau retainere pentru colaboratori specializați pe platformă"
+          },
+          "typicalMonthlyMin": 5000,
+          "typicalMonthlyMax": 13000
+        },
+        {
+          "key": "cloudAndCrashReportingTooling",
+          "label": {
+            "en": "Cloud backend, push-notification infrastructure, and crash-reporting tooling",
+            "ro": "Backend cloud, infrastructură de notificări push și unelte de raportare a erorilor"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 1200
+        },
+        {
+          "key": "deviceLabMaintenance",
+          "label": {
+            "en": "Device-lab hardware refresh and OS-version license renewals",
+            "ro": "Reînnoirea hardware-ului laboratorului de dispozitive și a licențelor pentru versiunile de OS"
+          },
+          "typicalMonthlyMin": 200,
+          "typicalMonthlyMax": 600
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "perPlatformProjectFee",
+          "label": {
+            "en": "Fixed-scope per-platform project fee",
+            "ro": "Onorariu de proiect cu scop fix, per platformă"
+          }
+        },
+        {
+          "key": "osCompatibilityMaintenanceRetainer",
+          "label": {
+            "en": "Post-launch OS-compatibility maintenance retainer",
+            "ro": "Abonament de mentenanță post-lansare pentru compatibilitatea cu noile versiuni de OS"
+          }
+        },
+        {
+          "key": "appStoreOptimizationHours",
+          "label": {
+            "en": "Ad-hoc App Store optimization and resubmission support hours",
+            "ro": "Ore ad-hoc de optimizare pentru App Store și suport pentru retrimitere"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 16000,
+      "targetMonthlyIncomeMax": 42000,
+      "breakEvenTimelineMonths": 10,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Revenue arrives in lumpy per-platform milestone payments, with an added seasonal bump in maintenance work around major annual iOS/Android releases.",
+        "ro": "Venitul sosește în plăți neregulate, pe etape, per platformă, cu un vârf sezonier suplimentar de lucrări de mentenanță în jurul lansărilor anuale majore iOS/Android."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "none",
+    "onlineOffline": "online",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 40,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 4
+      },
+      {
+        "key": "marketing",
+        "rating": 4
+      },
+      {
+        "key": "leadership",
+        "rating": 5
+      },
+      {
+        "key": "communication",
+        "rating": 6
+      },
+      {
+        "key": "negotiation",
+        "rating": 4
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 6
+      },
+      {
+        "key": "technology",
+        "rating": 8
+      },
+      {
+        "key": "automation",
+        "rating": 4
+      },
+      {
+        "key": "ai",
+        "rating": 4
+      },
+      {
+        "key": "programming",
+        "rating": 8
+      },
+      {
+        "key": "management",
+        "rating": 6
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 85
+      },
+      {
+        "key": "visionary",
+        "score": 40
+      },
+      {
+        "key": "operator",
+        "score": 65
+      },
+      {
+        "key": "creator",
+        "score": 55
+      },
+      {
+        "key": "seller",
+        "score": 35
+      },
+      {
+        "key": "leader",
+        "score": 55
+      },
+      {
+        "key": "analyst",
+        "score": 55
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": true,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate"
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high"
+    },
+    "aiResistance": {
+      "level": "moderate"
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "App Store or Play Store rejection can delay a launch and its milestone payment by weeks, entirely outside the studio's direct control.",
+          "ro": "Respingerea de către App Store sau Play Store poate întârzia o lansare și plata etapei aferente cu săptămâni întregi, complet în afara controlului direct al studioului."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Build a pre-submission compliance checklist from past rejection reasons and run every app against it before the first submission.",
+          "ro": "Construiește o listă de verificare a conformității pre-trimitere, bazată pe motivele anterioare de respingere, și verifică fiecare aplicație pe baza ei înainte de prima trimitere."
+        }
+      },
+      {
+        "description": {
+          "en": "OS version fragmentation requires ongoing compatibility maintenance across iOS and Android updates, an open-ended cost most fixed-price quotes underestimate.",
+          "ro": "Fragmentarea versiunilor de OS necesită mentenanță continuă de compatibilitate la actualizările iOS și Android, un cost deschis pe care majoritatea ofertelor cu preț fix îl subestimează."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Sell the OS-compatibility maintenance retainer as a mandatory add-on, not an optional extra, for any app expected to stay live past one year.",
+          "ro": "Vinde abonamentul de mentenanță pentru compatibilitatea OS ca serviciu obligatoriu, nu ca opțiune suplimentară, pentru orice aplicație ce urmează să rămână activă peste un an."
+        }
+      },
+      {
+        "description": {
+          "en": "Cross-platform framework limitations can force an expensive late-stage rewrite to native code for complex features (camera, Bluetooth, background processing).",
+          "ro": "Limitările framework-urilor cross-platform pot forța o rescriere costisitoare, într-o etapă târzie, în cod nativ, pentru funcționalități complexe (cameră, Bluetooth, procesare în fundal)."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Flag hardware-dependent or performance-critical features during technical scoping and recommend native development for those specific modules upfront.",
+          "ro": "Semnalează funcționalitățile dependente de hardware sau critice pentru performanță în etapa de stabilire a scopului tehnic și recomandă dezvoltare nativă pentru acele module specifice, de la început."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Native apps that pass App Store review the first time — built by a team that's shipped through Apple's and Google's review gauntlet before.",
+        "ro": "Aplicații native care trec de verificarea App Store din prima încercare — construite de o echipă care a trecut deja prin procesul de verificare Apple și Google."
+      },
+      "channels": [
+        {
+          "channelType": "appStoreCaseStudyMarketing",
+          "description": {
+            "en": "A portfolio of live, published apps with their store ratings and approval track record as the primary proof point.",
+            "ro": "Un portofoliu de aplicații live, publicate, cu evaluările din magazine și istoricul de aprobări, ca principal argument de vânzare."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "founderNetworkReferrals",
+          "description": {
+            "en": "Referrals from startup founders and product managers who've had an app shipped through the studio before.",
+            "ro": "Recomandări de la fondatori de startup-uri și manageri de produs care au avut deja o aplicație livrată prin studio."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "mobileDevConferenceSponsorship",
+          "description": {
+            "en": "Sponsoring mobile-development conferences and meetups to build platform-specific credibility.",
+            "ro": "Sponsorizarea conferințelor și întâlnirilor de dezvoltare mobilă, pentru a construi credibilitate specifică platformei."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate"
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A technical scoping call reviews the client's product spec against platform-specific constraints (App Store guidelines, device fragmentation, offline-sync needs) before any fixed price is quoted.",
+        "ro": "Un apel de stabilire a scopului tehnic analizează specificația de produs a clientului în raport cu constrângerile specifice platformei (reguli App Store, fragmentare a dispozitivelor, nevoi de sincronizare offline), înainte de a oferta orice preț fix."
+      },
+      "salesCycleLengthDays": 40,
+      "pricingModel": {
+        "en": "Fixed-scope per-platform project fee, plus a post-launch OS-compatibility maintenance retainer.",
+        "ro": "Onorariu de proiect cu scop fix, per platformă, plus un abonament de mentenanță post-lansare pentru compatibilitatea cu OS-ul."
+      }
+    },
+    "salesComplexity": {
+      "level": "high"
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Platform-specific technical scoping, including the native-vs-cross-platform decision.",
+          "ro": "Stabilirea scopului tehnic specific platformei, inclusiv decizia nativ-versus-cross-platform."
+        },
+        {
+          "en": "Two-week sprint cycles with TestFlight and Play Console internal-testing-track builds.",
+          "ro": "Cicluri de sprint de două săptămâni, cu build-uri pe TestFlight și pe canalul de testare internă din Play Console."
+        },
+        {
+          "en": "App Store and Play Store submission and review-status management.",
+          "ro": "Gestionarea trimiterii și a statusului de verificare pentru App Store și Play Store."
+        },
+        {
+          "en": "Post-launch OS-compatibility maintenance across annual iOS and Android releases.",
+          "ro": "Mentenanță de compatibilitate OS post-lansare, la fiecare versiune anuală de iOS și Android."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "A daily cross-platform standup, a rotating device-lab testing slot, and monitoring of any pending app-store review status.",
+        "ro": "Un standup zilnic cross-platform, un interval rotativ de testare în laboratorul de dispozitive și monitorizarea oricărui status de verificare în curs în magazinele de aplicații."
+      },
+      "fulfillmentModel": {
+        "en": "A small team of platform specialists (an iOS engineer, an Android engineer, or a cross-platform lead) builds against a shared backlog, with a dedicated release manager handling app-store submission and reviewer communication.",
+        "ro": "O echipă mică de specialiști pe platformă (un inginer iOS, un inginer Android sau un lider cross-platform) construiește pe baza unui backlog comun, cu un manager de lansare dedicat, care gestionează trimiterea către magazine și comunicarea cu verificatorii."
+      }
+    },
+    "automation": {
+      "level": "low"
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "aiAssistedCrashTriage",
+          "description": {
+            "en": "AI-assisted crash-log analysis prioritizes bug fixes across a fragmented device and OS-version matrix.",
+            "ro": "Analiza asistată de AI a jurnalelor de erori prioritizează remedierile de erori pe o matrice fragmentată de dispozitive și versiuni de OS."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "aiCodeReviewMobile",
+          "description": {
+            "en": "AI-assisted code review flags platform-specific anti-patterns before app-store submission.",
+            "ro": "Revizuirea de cod asistată de AI semnalează anti-tiparele specifice platformei, înainte de trimiterea către magazinele de aplicații."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "moderate"
+    },
+    "recommendedTools": [
+      {
+        "name": "Xcode",
+        "category": "iosDevelopment",
+        "isRequired": true,
+        "websiteUrl": "https://developer.apple.com/xcode/"
+      },
+      {
+        "name": "Android Studio",
+        "category": "androidDevelopment",
+        "isRequired": true,
+        "websiteUrl": "https://developer.android.com/studio"
+      },
+      {
+        "name": "Flutter",
+        "category": "crossPlatformFramework",
+        "isRequired": false,
+        "websiteUrl": "https://flutter.dev/"
+      },
+      {
+        "name": "Firebase Crashlytics",
+        "category": "crashReporting",
+        "isRequired": false,
+        "websiteUrl": "https://firebase.google.com/products/crashlytics"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 36
+    },
+    "scaling": {
+      "path": {
+        "en": "Add a second cross-platform engineering pod to run concurrent app builds, then specialize into one vertical (e.g. field-service or healthtech apps) where device-integration expertise commands premium pricing.",
+        "ro": "Adaugă un al doilea grup de inginerie cross-platform, pentru a rula construcții de aplicații concurente, apoi specializează-te pe o singură nișă (de ex. aplicații pentru service de teren sau healthtech), unde expertiza de integrare hardware justifică prețuri premium."
+      },
+      "bottlenecks": [
+        {
+          "en": "Senior platform-specialist hiring (iOS, Android) is slow and expensive.",
+          "ro": "Angajarea de specialiști seniori pe platformă (iOS, Android) este lentă și costisitoare."
+        },
+        {
+          "en": "App store review delays are outside the studio's direct control and can slip launch dates.",
+          "ro": "Întârzierile de verificare din magazinele de aplicații sunt în afara controlului direct al studioului și pot decala datele de lansare."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 6,
+          "description": {
+            "en": "First 3 apps live in both app stores.",
+            "ro": "Primele 3 aplicații live în ambele magazine de aplicații."
+          }
+        },
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "First client signed onto a 12-month OS-compatibility maintenance retainer.",
+            "ro": "Primul client semnat pe un abonament de 12 luni de mentenanță pentru compatibilitatea OS."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "A proven track record of first-attempt App Store and Play Store approvals reduces the client's launch-timeline risk.",
+          "ro": "Un istoric dovedit de aprobări din prima încercare la App Store și Play Store reduce riscul de întârziere a lansării pentru client."
+        }
+      },
+      {
+        "description": {
+          "en": "A dedicated release manager removes the single biggest mobile-specific friction point — review rejections and resubmission cycles.",
+          "ro": "Un manager de lansare dedicat elimină cel mai mare punct de fricțiune specific mobilului — respingerile de verificare și ciclurile de retrimitere."
+        }
+      },
+      {
+        "description": {
+          "en": "Device-lab testing across real hardware catches fragmentation bugs a simulator-only workflow would miss.",
+          "ro": "Testarea în laboratorul de dispozitive, pe hardware real, depistează erorile de fragmentare pe care un flux de lucru bazat exclusiv pe simulator le-ar rata."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A mobile app development studio building native and cross-platform iOS/Android apps for funded startups and enterprises, priced on fixed-scope per-platform projects plus an OS-compatibility maintenance retainer.",
+        "ro": "Un studio de dezvoltare a aplicațiilor mobile, care construiește aplicații native și cross-platform iOS/Android pentru startup-uri finanțate și companii, cu preț pe proiecte cu scop fix, per platformă, plus un abonament de mentenanță pentru compatibilitatea cu OS-ul."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.mobileAppDevelopmentAgency.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.mobileAppDevelopmentAgency.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.mobileAppDevelopmentAgency.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.mobileAppDevelopmentAgency.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert at least 1 in 3 technical scoping calls into a signed per-platform project.",
+          "ro": "Transformă cel puțin 1 din 3 apeluri de stabilire a scopului tehnic într-un proiect semnat, per platformă."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Keep gross margin above 40% per project after platform-specialist costs.",
+          "ro": "Menține marja brută peste 40% per proiect, după costurile specialiștilor pe platformă."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Convert at least 50% of launched apps into an OS-compatibility maintenance retainer.",
+          "ro": "Transformă cel puțin 50% din aplicațiile lansate într-un abonament de mentenanță pentru compatibilitatea OS."
+        }
+      },
+      {
+        "key": "mrr",
+        "targetDescription": {
+          "en": "Grow maintenance-retainer MRR steadily as the delivered-app portfolio grows.",
+          "ro": "Crește constant MRR-ul din abonamentele de mentenanță, pe măsură ce crește portofoliul de aplicații livrate."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "programming",
+          "importance": 5
+        },
+        {
+          "key": "management",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "negotiation",
+          "importance": 3
+        },
+        {
+          "key": "communication",
+          "importance": 4
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "systemOriented",
+          "importance": 5
+        },
+        {
+          "trait": "decisive",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "resilient",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 15000,
+        "max": 30000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 18000,
+        "max": 26000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 40,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "direct",
+        "technical"
+      ],
+      "technicalLevel": 5,
+      "leadershipLevel": 4,
+      "creativityLevel": 3,
+      "salesAffinity": 2,
+      "automationAffinity": 3,
+      "remotePreference": "hybrid",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theBuilder",
+        "theOperator"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the studio's App Store and Play Store approval track record in the Executive Summary — review rejection is the single biggest fear driving mobile-app buyers to hire specialists instead of a generalist software house.",
+      "ro": "Evidențiază istoricul de aprobări la App Store și Play Store al studioului în Rezumatul executiv — respingerea la verificare este cea mai mare temere care determină cumpărătorii de aplicații mobile să angajeze specialiști, nu o firmă generalistă de software."
+    },
+    "marketingHints": {
+      "en": "Lead with a portfolio of live, published apps and their store ratings, not generic \"we build apps\" messaging.",
+      "ro": "Pornește de la un portofoliu de aplicații live, publicate, și evaluările lor din magazine, nu de la mesaje generice de tipul \"construim aplicații\"."
+    },
+    "financialHints": {
+      "en": "Model revenue as lumpy per-platform project fees smoothed by a growing OS-compatibility maintenance retainer base, similar in shape to a custom software studio but with an added seasonal spike around major OS releases.",
+      "ro": "Modelează venitul ca onorarii de proiect neregulate, per platformă, uniformizate de o bază tot mai mare de abonamente de mentenanță pentru compatibilitatea OS, similar ca formă cu un studio de software personalizat, dar cu un vârf sezonier suplimentar în jurul lansărilor majore de OS."
+    },
+    "generationHints": {
+      "en": "Keep tone technically specific about platform differences (iOS vs. Android vs. cross-platform trade-offs) — this audience can tell a mobile specialist from a generalist within one sentence.",
+      "ro": "Păstrează un ton tehnic specific despre diferențele dintre platforme (compromisuri iOS vs. Android vs. cross-platform) — acest public poate distinge un specialist mobil de un generalist dintr-o singură propoziție."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Set up Apple and Google developer accounts and build the device-testing lab.",
+            "ro": "Configurează conturile de dezvoltator Apple și Google și construiește laboratorul de testare pe dispozitive."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Skipping real-device testing hardware in favor of simulators only, missing fragmentation bugs later.",
+            "ro": "Sărirea peste hardware-ul de testare pe dispozitive reale, în favoarea exclusivă a simulatoarelor, ratând mai târziu erorile de fragmentare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Draft a pre-submission compliance checklist from published App Store and Play Store rejection reasons.",
+            "ro": "Redactează o listă de verificare a conformității pre-trimitere, pe baza motivelor publicate de respingere de la App Store și Play Store."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.mobileAppDevelopmentAgency.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Sell and deliver the first app through a technical scoping call.",
+            "ro": "Vinde și livrează prima aplicație printr-un apel de stabilire a scopului tehnic."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Quoting a fixed price before confirming the native-vs-cross-platform decision with the client.",
+            "ro": "Ofertarea unui preț fix înainte de a confirma cu clientul decizia nativ-versus-cross-platform."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the platform decision and any hardware-dependent features before quoting.",
+            "ro": "Confirmă decizia de platformă și orice funcționalitate dependentă de hardware, înainte de ofertare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Deliver the first app through TestFlight/internal-testing-track builds and submit for review.",
+            "ro": "Livrează prima aplicație prin build-uri TestFlight/canal de testare internă și trimite-o spre verificare."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Submitting to the app stores without running the pre-submission compliance checklist.",
+            "ro": "Trimiterea către magazinele de aplicații fără a rula lista de verificare a conformității pre-trimitere."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Run every build through the device lab before submission, not just the simulator.",
+            "ro": "Rulează fiecare build prin laboratorul de dispozitive înainte de trimitere, nu doar prin simulator."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.mobileAppDevelopmentAgency.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Get the first app approved and live in both app stores.",
+            "ro": "Obține aprobarea și publicarea primei aplicații în ambele magazine de aplicații."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Not budgeting time for at least one resubmission cycle.",
+            "ro": "Neplanificarea timpului pentru cel puțin un ciclu de retrimitere."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Publish the first app-store-approval case study once the app is live.",
+            "ro": "Publică primul studiu de caz de aprobare în magazinul de aplicații, odată ce aplicația este live."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Deliver the first app on time and convert the client into the OS-compatibility maintenance retainer.",
+            "ro": "Livrează prima aplicație la timp și transformă clientul într-un abonament de mentenanță pentru compatibilitatea OS."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Assuming the app needs no maintenance once it's approved and live.",
+            "ro": "Presupunerea că aplicația nu mai are nevoie de mentenanță odată aprobată și publicată."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Offer the maintenance retainer proactively at launch, framed around the next OS release cycle.",
+            "ro": "Oferă proactiv abonamentul de mentenanță la lansare, încadrat în jurul următorului ciclu de lansare de OS."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach 3 apps live in both stores with a consistent first-attempt approval rate.",
+            "ro": "Atinge 3 aplicații live în ambele magazine, cu o rată constantă de aprobare din prima încercare."
+          }
+        ],
+        "kpis": [
+          "closeRate",
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Taking on projects with hardware-dependent features outside the team's proven technical stack.",
+            "ro": "Acceptarea de proiecte cu funcționalități dependente de hardware, în afara stivei tehnice dovedite a echipei."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Qualify every new prospect's feature list against the pre-submission compliance checklist before quoting.",
+            "ro": "Califică lista de funcționalități a fiecărui prospect nou în raport cu lista de verificare a conformității pre-trimitere, înainte de ofertare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Hire the second platform specialist to run concurrent app builds.",
+            "ro": "Angajează al doilea specialist pe platformă, pentru a rula construcții de aplicații concurente."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring a generalist mobile developer instead of a platform specialist for complex, hardware-dependent projects.",
+            "ro": "Angajarea unui dezvoltator mobil generalist, în loc de un specialist pe platformă, pentru proiecte complexe, dependente de hardware."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pair the new hire with the release manager on their first app-store submission.",
+            "ro": "Cuplează noul angajat cu managerul de lansare, la prima trimitere către magazinul de aplicații."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Specialize into one vertical where device-integration expertise commands premium pricing.",
+            "ro": "Specializează-te pe o nișă în care expertiza de integrare hardware justifică prețuri premium."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Spreading marketing across too many app categories instead of one recognizable vertical.",
+            "ro": "Dispersarea marketingului pe prea multe categorii de aplicații, în loc de o singură nișă recognoscibilă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Package vertical-specific case studies into a dedicated landing page.",
+            "ro": "Ambalează studiile de caz specifice nișei într-o pagină de destinație dedicată."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Launch a productized starter-app package to shorten the sales cycle for smaller clients.",
+            "ro": "Lansează un pachet productizat de aplicație de bază, pentru a scurta ciclul de vânzare pentru clienții mai mici."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Underpricing the productized offer relative to its true App Store maintenance cost.",
+            "ro": "Subevaluarea prețului ofertei productizate în raport cu adevăratul cost de mentenanță pentru App Store."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Cap the productized offer's feature scope tightly in writing.",
+            "ro": "Limitează strict, în scris, scopul funcționalităților ofertei productizate."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the client book, maintenance-retainer contracts, and app-store credentials for a clean acquisition.",
+            "ro": "Documentează portofoliul de clienți, contractele de abonament de mentenanță și acreditările din magazinele de aplicații, pentru o achiziție curată."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping app-store developer accounts and signing credentials undocumented and founder-only.",
+            "ro": "Menținerea conturilor de dezvoltator din magazinele de aplicații și a acreditărilor de semnare nedocumentate și dependente exclusiv de fondator."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Transfer app-store account ownership and signing credentials cleanly as part of the acquisition process.",
+            "ro": "Transferă curat proprietatea conturilor din magazinele de aplicații și acreditările de semnare, ca parte a procesului de achiziție."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

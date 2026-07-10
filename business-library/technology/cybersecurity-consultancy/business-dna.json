@@ -1,0 +1,932 @@
+{
+  "identity": {
+    "id": "8666270a-582c-4037-88f7-185c5c93c381",
+    "slug": "cybersecurity-consultancy",
+    "version": "1.0.0",
+    "name": {
+      "en": "Sentinel Ridge Security",
+      "ro": "Sentinel Ridge Security"
+    },
+    "tagline": {
+      "en": "Find the vulnerability before the attacker does.",
+      "ro": "Descoperă vulnerabilitatea înaintea atacatorului."
+    },
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theSpecialist",
+      "theOperator"
+    ],
+    "summary": {
+      "en": "Best suited to a certified, hands-on penetration tester who can also write a report an auditor will accept on the first read — technical depth alone isn't enough if the findings can't survive a compliance reviewer's scrutiny.",
+      "ro": "Potrivit unui tester de penetrare certificat, cu experiență practică, care poate scrie și un raport pe care un auditor îl acceptă din prima lectură — profunzimea tehnică singură nu este suficientă dacă rezultatele nu rezistă la analiza unui verificator de conformitate."
+    },
+    "minimumExperienceYears": 6
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 32000,
+      "maxInvestment": 65000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 8000,
+      "ongoingMonthlyCostMax": 20000,
+      "notes": {
+        "en": "Covers professional liability and errors-and-omissions insurance, certified-tester salaries or contractor retainers, and specialized testing tooling licenses — deliberately higher than a typical tech-services startup budget given the liability exposure of active penetration testing.",
+        "ro": "Acoperă asigurarea de răspundere profesională și de erori și omisiuni, salariile sau retainerele colaboratorilor testeri certificați și licențele pentru unelte specializate de testare — deliberat mai ridicat decât bugetul tipic al unui startup de servicii tehnologice, având în vedere expunerea la răspundere a testării active de penetrare."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "professionalLiabilityInsurance",
+          "label": {
+            "en": "Professional liability and errors-and-omissions insurance",
+            "ro": "Asigurare de răspundere profesională și de erori și omisiuni"
+          },
+          "typicalMin": 4000,
+          "typicalMax": 10000
+        },
+        {
+          "key": "certificationAndTrainingCosts",
+          "label": {
+            "en": "Team certification costs (OSCP, OSCE, CISSP)",
+            "ro": "Costuri de certificare a echipei (OSCP, OSCE, CISSP)"
+          },
+          "typicalMin": 3000,
+          "typicalMax": 8000
+        },
+        {
+          "key": "testingToolingLicenses",
+          "label": {
+            "en": "Penetration-testing and vulnerability-scanning tooling licenses",
+            "ro": "Licențe pentru unelte de testare de penetrare și scanare a vulnerabilităților"
+          },
+          "typicalMin": 2000,
+          "typicalMax": 6000
+        },
+        {
+          "key": "legalAndEngagementContractTemplates",
+          "label": {
+            "en": "Legal setup and rules-of-engagement contract templates",
+            "ro": "Configurare juridică și modele de contract pentru reguli de angajament"
+          },
+          "typicalMin": 2000,
+          "typicalMax": 5000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "certifiedTesterSalaries",
+          "label": {
+            "en": "Certified penetration tester salaries or contractor retainers",
+            "ro": "Salarii de testeri de penetrare certificați sau retainere pentru colaboratori"
+          },
+          "typicalMonthlyMin": 6000,
+          "typicalMonthlyMax": 16000
+        },
+        {
+          "key": "toolingSubscriptions",
+          "label": {
+            "en": "Ongoing testing-tool and vulnerability-database subscriptions",
+            "ro": "Abonamente continue pentru unelte de testare și baze de date de vulnerabilități"
+          },
+          "typicalMonthlyMin": 400,
+          "typicalMonthlyMax": 1200
+        },
+        {
+          "key": "insurancePremiums",
+          "label": {
+            "en": "Ongoing professional liability insurance premiums",
+            "ro": "Prime continue de asigurare de răspundere profesională"
+          },
+          "typicalMonthlyMin": 400,
+          "typicalMonthlyMax": 1000
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "penetrationTestEngagementFee",
+          "label": {
+            "en": "Fixed-fee penetration test engagement",
+            "ro": "Onorariu fix pentru angajamentul de testare de penetrare"
+          }
+        },
+        {
+          "key": "complianceAuditEngagementFee",
+          "label": {
+            "en": "Fixed-fee compliance readiness audit (SOC 2, ISO 27001)",
+            "ro": "Onorariu fix pentru auditul de pregătire pentru conformitate (SOC 2, ISO 27001)"
+          }
+        },
+        {
+          "key": "remediationOversightRetainer",
+          "label": {
+            "en": "Monthly remediation-oversight advisory retainer",
+            "ro": "Abonament lunar de consultanță pentru supravegherea remedierii"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 20000,
+      "targetMonthlyIncomeMax": 55000,
+      "breakEvenTimelineMonths": 9,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Revenue arrives as discrete engagement sales clustered around clients' compliance deadlines (audit season, funding rounds, enterprise-deal security reviews), not a smooth monthly ramp.",
+        "ro": "Venitul sosește sub formă de vânzări discrete de angajamente, grupate în jurul termenelor de conformitate ale clienților (sezon de audit, runde de finanțare, verificări de securitate pentru contracte enterprise), nu printr-o creștere lunară lină."
+      }
+    },
+    "profitMargin": {
+      "level": "high"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "occasional",
+    "onlineOffline": "online",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 40,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 4
+      },
+      {
+        "key": "marketing",
+        "rating": 3
+      },
+      {
+        "key": "leadership",
+        "rating": 5
+      },
+      {
+        "key": "communication",
+        "rating": 6
+      },
+      {
+        "key": "negotiation",
+        "rating": 4
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 5
+      },
+      {
+        "key": "technology",
+        "rating": 8
+      },
+      {
+        "key": "automation",
+        "rating": 5
+      },
+      {
+        "key": "ai",
+        "rating": 5
+      },
+      {
+        "key": "programming",
+        "rating": 6
+      },
+      {
+        "key": "management",
+        "rating": 6
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 55
+      },
+      {
+        "key": "visionary",
+        "score": 40
+      },
+      {
+        "key": "operator",
+        "score": 60
+      },
+      {
+        "key": "creator",
+        "score": 35
+      },
+      {
+        "key": "seller",
+        "score": 40
+      },
+      {
+        "key": "leader",
+        "score": 55
+      },
+      {
+        "key": "analyst",
+        "score": 85
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": false,
+    "requiresTravel": true,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": true
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate"
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high"
+    },
+    "aiResistance": {
+      "level": "high"
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "An active penetration test that causes unintended production disruption, or misses a critical vulnerability later exploited, exposes the firm to significant liability.",
+          "ro": "Un test activ de penetrare care provoacă o perturbare neintenționată a producției, sau ratează o vulnerabilitate critică exploatată ulterior, expune firma unei răspunderi semnificative."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Define a strict, signed rules-of-engagement document before every test, and carry professional liability insurance sized to the largest client's system exposure.",
+          "ro": "Definește un document strict și semnat de reguli de angajament, înainte de fiecare test, și menține o asigurare de răspundere profesională dimensionată la expunerea sistemului celui mai mare client."
+        }
+      },
+      {
+        "description": {
+          "en": "Talent scarcity for certified penetration testers (OSCP/OSCE-level) constrains how many engagements the firm can run concurrently.",
+          "ro": "Deficitul de talente pentru testeri de penetrare certificați (nivel OSCP/OSCE) limitează câte angajamente poate derula firma concurent."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Build a bench of trusted contract testers who can flex onto engagements during peak compliance-deadline season.",
+          "ro": "Construiește o rezervă de testeri colaboratori de încredere, care se pot alătura flexibil angajamentelor în sezonul de vârf al termenelor de conformitate."
+        }
+      },
+      {
+        "description": {
+          "en": "Compliance framework requirements (SOC 2, ISO 27001) evolve periodically, requiring the firm's own methodology to be continuously recertified against the current standard.",
+          "ro": "Cerințele cadrelor de conformitate (SOC 2, ISO 27001) evoluează periodic, necesitând recertificarea continuă a metodologiei proprii a firmei față de standardul actual."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Assign one senior team member to track framework updates full-time as part of their role, not as an afterthought.",
+          "ro": "Alocă unui membru senior al echipei sarcina de a urmări actualizările cadrelor cu normă întreagă, ca parte a rolului său, nu ca gând ulterior."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Find the vulnerability before the attacker does — a fixed-fee penetration test with a report your auditor, investor, or enterprise customer will actually accept.",
+        "ro": "Descoperă vulnerabilitatea înaintea atacatorului — un test de penetrare cu onorariu fix, cu un raport pe care auditorul, investitorul sau clientul enterprise îl va accepta efectiv."
+      },
+      "channels": [
+        {
+          "channelType": "complianceDrivenReferrals",
+          "description": {
+            "en": "Referrals from lawyers, auditors, and venture investors who require a penetration test as a condition of a deal, audit, or funding round.",
+            "ro": "Recomandări de la avocați, auditori și investitori de risc, care solicită un test de penetrare drept condiție pentru o tranzacție, un audit sau o rundă de finanțare."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "securityConferenceSpeaking",
+          "description": {
+            "en": "Speaking slots at security conferences to build direct technical credibility with prospective clients' engineering teams.",
+            "ro": "Sesiuni de prezentare la conferințe de securitate, pentru a construi credibilitate tehnică directă în fața echipelor de inginerie ale potențialilor clienți."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "contentMarketingVulnerabilityResearch",
+          "description": {
+            "en": "Publishing original vulnerability research to build technical authority beyond a generic \"penetration testing\" vendor listing.",
+            "ro": "Publicarea de cercetări originale despre vulnerabilități, pentru a construi autoritate tehnică dincolo de o listare generică de furnizor de \"testare de penetrare\"."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate"
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "Compliance-driven, deadline-anchored sales — most engagements are triggered by an external deadline (a SOC 2 audit, an enterprise customer's security questionnaire, a funding-round closing condition), not general risk awareness alone.",
+        "ro": "Vânzare orientată pe conformitate, ancorată în termene — majoritatea angajamentelor sunt declanșate de un termen extern (un audit SOC 2, un chestionar de securitate al unui client enterprise, o condiție de închidere a unei runde de finanțare), nu doar de conștientizarea generală a riscului."
+      },
+      "salesCycleLengthDays": 30,
+      "pricingModel": {
+        "en": "Fixed-fee penetration test or compliance audit engagement scoped to a defined system boundary, plus an optional remediation-oversight retainer.",
+        "ro": "Onorariu fix pentru un angajament de testare de penetrare sau audit de conformitate, delimitat la un perimetru de sistem definit, plus un abonament opțional de supraveghere a remedierii."
+      }
+    },
+    "salesComplexity": {
+      "level": "high"
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "A scoping call defining the system boundary and signed rules of engagement.",
+          "ro": "Un apel de stabilire a scopului, care definește perimetrul sistemului și regulile de angajament semnate."
+        },
+        {
+          "en": "A multi-day active penetration test or audit conducted by two or more certified testers in parallel.",
+          "ro": "Un test activ de penetrare sau un audit de mai multe zile, derulat de doi sau mai mulți testeri certificați, în paralel."
+        },
+        {
+          "en": "A written findings report with severity-ranked remediation steps.",
+          "ro": "Un raport scris de constatări, cu pași de remediere clasificați după severitate."
+        },
+        {
+          "en": "An optional remediation-verification retest once fixes are implemented.",
+          "ro": "Un retest opțional de verificare a remedierii, odată ce corecțiile sunt implementate."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Structured, rules-of-engagement-bound testing during the engagement window, real-time findings documentation, and a final concentrated report-writing sprint.",
+        "ro": "Testare structurată, limitată la regulile de angajament, pe durata angajamentului, documentarea constatărilor în timp real și un sprint final concentrat de redactare a raportului."
+      },
+      "fulfillmentModel": {
+        "en": "A team of certified penetration testers runs a time-boxed, rules-of-engagement-bound assessment against the client's defined system boundary and delivers a written report — the firm does not operate or monitor the client's systems on an ongoing basis.",
+        "ro": "O echipă de testeri de penetrare certificați derulează o evaluare limitată în timp și în regulile de angajament, asupra perimetrului de sistem definit de client, și livrează un raport scris — firma nu operează și nu monitorizează sistemele clientului în mod continuu."
+      }
+    },
+    "automation": {
+      "level": "low"
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "aiAssistedReconnaissance",
+          "description": {
+            "en": "AI-assisted tools accelerate the reconnaissance and attack-surface-mapping phase of an engagement.",
+            "ro": "Uneltele asistate de AI accelerează faza de recunoaștere și cartografiere a suprafeței de atac a unui angajament."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "aiAssistedReportDrafting",
+          "description": {
+            "en": "AI drafts a first pass of the findings report from structured testing notes, which a certified tester then verifies line by line.",
+            "ro": "AI redactează o primă versiune a raportului de constatări, pe baza notelor structurate de testare, pe care un tester certificat o verifică ulterior linie cu linie."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "moderate"
+    },
+    "recommendedTools": [
+      {
+        "name": "Burp Suite",
+        "category": "webApplicationTesting",
+        "isRequired": true,
+        "websiteUrl": "https://portswigger.net/burp"
+      },
+      {
+        "name": "Nmap",
+        "category": "networkScanning",
+        "isRequired": true,
+        "websiteUrl": "https://nmap.org/"
+      },
+      {
+        "name": "Metasploit",
+        "category": "exploitationFramework",
+        "isRequired": false,
+        "websiteUrl": "https://www.metasploit.com/"
+      },
+      {
+        "name": "A SOC 2 / ISO 27001 compliance-mapping tool",
+        "category": "complianceFramework",
+        "isRequired": false
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30
+    },
+    "scaling": {
+      "path": {
+        "en": "Add a second certified-tester pod to run concurrent engagements, then productize a lighter-touch, fixed-fee compliance-readiness assessment as a lower-priced entry offer that upsells into a full penetration test.",
+        "ro": "Adaugă un al doilea grup de testeri certificați, pentru a rula angajamente concurente, apoi productizează o evaluare de pregătire pentru conformitate, mai ușoară și cu onorariu fix, ca ofertă de intrare cu preț mai mic, care se transformă în vânzare suplimentară către un test complet de penetrare."
+      },
+      "bottlenecks": [
+        {
+          "en": "Certified penetration tester hiring (OSCP/OSCE-level) is scarce and slow.",
+          "ro": "Angajarea de testeri de penetrare certificați (nivel OSCP/OSCE) este rară și lentă."
+        },
+        {
+          "en": "Engagement scheduling is constrained by needing two or more testers available simultaneously for the testing window.",
+          "ro": "Programarea angajamentelor este limitată de necesitatea de a avea doi sau mai mulți testeri disponibili simultan pentru fereastra de testare."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 6,
+          "description": {
+            "en": "First 5 completed engagements with clean, accepted reports.",
+            "ro": "Primele 5 angajamente finalizate, cu rapoarte curate și acceptate."
+          }
+        },
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "First enterprise client signed onto an annual recurring penetration-test contract.",
+            "ro": "Primul client enterprise semnat pe un contract anual recurent de testare de penetrare."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "A report format built to satisfy SOC 2 auditors and enterprise security-questionnaire reviewers on first submission avoids a costly resubmission cycle for the client.",
+          "ro": "Un format de raport construit pentru a satisface auditorii SOC 2 și verificatorii de chestionare de securitate enterprise din prima trimitere, evită un ciclu costisitor de retrimitere pentru client."
+        }
+      },
+      {
+        "description": {
+          "en": "A defined rules-of-engagement process protects both the client's production systems and the firm's own liability exposure.",
+          "ro": "Un proces definit de reguli de angajament protejează atât sistemele de producție ale clientului, cât și expunerea la răspundere a firmei."
+        }
+      },
+      {
+        "description": {
+          "en": "Original vulnerability research published by the team builds technical credibility that a generic \"penetration testing\" vendor listing can't match.",
+          "ro": "Cercetarea originală de vulnerabilități publicată de echipă construiește o credibilitate tehnică pe care o listare generică de furnizor de \"testare de penetrare\" nu o poate egala."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A cybersecurity consultancy selling fixed-fee penetration tests and compliance-readiness audits to mid-market companies facing a compliance deadline (SOC 2, ISO 27001, an enterprise customer's security questionnaire), staffed by certified testers and billed per engagement, not as ongoing operations.",
+        "ro": "O consultanță de securitate cibernetică, care vinde teste de penetrare cu onorariu fix și audituri de pregătire pentru conformitate companiilor mid-market care se confruntă cu un termen de conformitate (SOC 2, ISO 27001, un chestionar de securitate al unui client enterprise), cu personal testeri certificați și facturare pe angajament, nu ca operațiuni continue."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.cybersecurityConsultancy.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.cybersecurityConsultancy.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.cybersecurityConsultancy.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.cybersecurityConsultancy.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert at least half of compliance-driven inquiries into a signed engagement.",
+          "ro": "Transformă cel puțin jumătate din solicitările generate de conformitate într-un angajament semnat."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Maintain gross margin above 55% per engagement after certified-tester costs.",
+          "ro": "Menține marja brută peste 55% per angajament, după costurile testerilor certificați."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Convert at least 60% of first-time clients into an annual repeat engagement.",
+          "ro": "Transformă cel puțin 60% din clienții la prima colaborare într-un angajament anual repetat."
+        }
+      },
+      {
+        "key": "arr",
+        "targetDescription": {
+          "en": "Grow annual recurring-engagement revenue steadily as the client base of compliance-cycle repeat clients grows — this business runs on annual cycles, not monthly ones.",
+          "ro": "Crește constant venitul anual recurent din angajamente, pe măsură ce crește baza de clienți cu cicluri repetate de conformitate — această afacere funcționează pe cicluri anuale, nu lunare."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "ai",
+          "importance": 5
+        },
+        {
+          "key": "management",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "communication",
+          "importance": 4
+        },
+        {
+          "key": "negotiation",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "analytical",
+          "importance": 5
+        },
+        {
+          "trait": "riskTolerant",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "detailOriented",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 32000,
+        "max": 65000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 38000,
+        "max": 55000,
+        "currency": "EUR"
+      },
+      "riskProfile": "high",
+      "timeAvailability": {
+        "minWeeklyHours": 40,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "precise",
+        "direct"
+      ],
+      "technicalLevel": 5,
+      "leadershipLevel": 4,
+      "creativityLevel": 3,
+      "salesAffinity": 2,
+      "automationAffinity": 3,
+      "remotePreference": "hybrid",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theSpecialist",
+        "theOperator"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the firm's certifications (OSCP, OSCE) and its report-acceptance track record with auditors in the Executive Summary — credibility with compliance reviewers, not marketing polish, is what closes this sale.",
+      "ro": "Evidențiază certificările firmei (OSCP, OSCE) și istoricul de acceptare a rapoartelor de către auditori în Rezumatul executiv — credibilitatea în fața verificatorilor de conformitate, nu lustrul de marketing, este ceea ce încheie această vânzare."
+    },
+    "marketingHints": {
+      "en": "Lead with compliance-deadline urgency and auditor-acceptance track record, not generic \"we do penetration testing\" messaging.",
+      "ro": "Pornește de la urgența termenelor de conformitate și istoricul de acceptare de către auditori, nu de la mesaje generice de tipul \"facem testare de penetrare\"."
+    },
+    "financialHints": {
+      "en": "Model revenue as discrete audit/penetration-test engagement sales clustered around clients' compliance deadlines, with annual repeat engagements as the primary recurring layer — think ARR, not MRR.",
+      "ro": "Modelează venitul ca vânzări discrete de angajamente de audit/testare de penetrare, grupate în jurul termenelor de conformitate ale clienților, cu angajamente anuale repetate ca principal strat recurent — gândește în termeni de ARR, nu de MRR."
+    },
+    "generationHints": {
+      "en": "Keep tone precise, risk-literate, and non-alarmist — this audience (security and compliance professionals) is skeptical of fear-based sales tactics.",
+      "ro": "Păstrează un ton precis, alfabetizat în materie de risc și fără alarmism — acest public (profesioniști în securitate și conformitate) este sceptic față de tacticile de vânzare bazate pe frică."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Obtain team certifications and put professional liability insurance in place.",
+            "ro": "Obține certificările echipei și pune la punct asigurarea de răspundere profesională."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Under-budgeting for professional liability insurance given the exposure of active testing.",
+            "ro": "Subestimarea bugetului pentru asigurarea de răspundere profesională, având în vedere expunerea testării active."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Draft the standard rules-of-engagement contract template before approaching the first prospect.",
+            "ro": "Redactează modelul standard de contract de reguli de angajament, înainte de a aborda primul prospect."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cybersecurityConsultancy.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Sell and deliver the first penetration test engagement.",
+            "ro": "Vinde și livrează primul angajament de testare de penetrare."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Skipping a signed rules-of-engagement document to close the first client faster.",
+            "ro": "Sărirea peste un document semnat de reguli de angajament, pentru a încheia mai rapid contractul cu primul client."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Require the signed rules-of-engagement document before any testing begins, without exception.",
+            "ro": "Impune documentul semnat de reguli de angajament, înainte de începerea oricărei testări, fără excepție."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Standardize the findings-report template to a format compliance auditors accept without revision.",
+            "ro": "Standardizează modelul de raport de constatări, la un format pe care auditorii de conformitate îl acceptă fără revizuire."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Writing findings reports in a format tailored to engineers rather than to a compliance auditor's expectations.",
+            "ro": "Redactarea rapoartelor de constatări într-un format adaptat inginerilor, nu așteptărilor unui auditor de conformitate."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Review the report template against a real SOC 2 or ISO 27001 auditor's checklist before finalizing it.",
+            "ro": "Revizuiește modelul de raport în raport cu o listă de verificare reală a unui auditor SOC 2 sau ISO 27001, înainte de a-l finaliza."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cybersecurityConsultancy.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish original vulnerability research and activate compliance-driven referral relationships with lawyers and auditors.",
+            "ro": "Publică cercetări originale despre vulnerabilități și activează relațiile de recomandare orientate spre conformitate cu avocați și auditori."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Publishing vulnerability research that discloses a client's specific findings instead of general, anonymized techniques.",
+            "ro": "Publicarea unei cercetări de vulnerabilități care dezvăluie constatările specifice ale unui client, în loc de tehnici generale, anonimizate."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Ask every satisfied client for one warm introduction to their compliance or legal counterpart at another company.",
+            "ro": "Cere fiecărui client mulțumit o prezentare caldă către omologul său de conformitate sau juridic dintr-o altă companie."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Deliver the first engagement's report and get it accepted by the client's auditor on first submission.",
+            "ro": "Livrează raportul primului angajament și obține acceptarea lui de către auditorul clientului, din prima trimitere."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Underestimating the report-writing time needed to make findings auditor-ready.",
+            "ro": "Subestimarea timpului de redactare a raportului necesar pentru a face constatările pregătite pentru auditor."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Offer the annual repeat-engagement discount proactively at report delivery.",
+            "ro": "Oferă proactiv reducerea pentru angajamentul anual repetat, la livrarea raportului."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach 5 completed engagements with consistently accepted reports.",
+            "ro": "Atinge 5 angajamente finalizate, cu rapoarte constant acceptate."
+          }
+        ],
+        "kpis": [
+          "closeRate",
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Taking on engagements against system boundaries the team lacks proven expertise to test safely.",
+            "ro": "Acceptarea de angajamente pentru perimetre de sistem pentru care echipa nu are expertiza dovedită necesară pentru a testa în siguranță."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Qualify every new prospect's system boundary against the team's proven testing expertise before quoting.",
+            "ro": "Califică perimetrul de sistem al fiecărui prospect nou în raport cu expertiza de testare dovedită a echipei, înainte de ofertare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Hire the second certified tester to enable concurrent engagements.",
+            "ro": "Angajează al doilea tester certificat, pentru a permite angajamente concurente."
+          }
+        ],
+        "kpis": [
+          "arr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring a generalist security professional instead of a certified penetration tester.",
+            "ro": "Angajarea unui profesionist de securitate generalist, în loc de un tester de penetrare certificat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pair the new hire with the founder on their first two engagements before running one independently.",
+            "ro": "Cuplează noul angajat cu fondatorul, la primele două angajamente, înainte de a-l lăsa să conducă unul independent."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Launch a lighter-touch, fixed-fee compliance-readiness assessment as a lower-priced entry offer.",
+            "ro": "Lansează o evaluare de pregătire pentru conformitate, mai ușoară, cu onorariu fix, ca ofertă de intrare cu preț mai mic."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Pricing the entry-level assessment so low it cannibalizes full penetration-test sales.",
+            "ro": "Stabilirea unui preț atât de mic pentru evaluarea de nivel de intrare încât canibalizează vânzările testelor complete de penetrare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Design the entry assessment to naturally surface findings that justify upselling into a full penetration test.",
+            "ro": "Proiectează evaluarea de intrare astfel încât să scoată la iveală în mod natural constatări care justifică vânzarea suplimentară către un test complet de penetrare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into an adjacent compliance framework (e.g. HIPAA or PCI-DSS) beyond the initial SOC 2/ISO 27001 focus.",
+            "ro": "Extinde-te către un cadru de conformitate adiacent (de ex. HIPAA sau PCI-DSS), dincolo de focusul inițial pe SOC 2/ISO 27001."
+          }
+        ],
+        "kpis": [
+          "arr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Marketing expertise in a new compliance framework before the team has actually been certified against it.",
+            "ro": "Promovarea expertizei într-un cadru de conformitate nou, înainte ca echipa să fi fost efectiv certificată pentru el."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Certify at least one team member in the new framework before marketing it publicly.",
+            "ro": "Certifică cel puțin un membru al echipei în noul cadru, înainte de a-l promova public."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the client book, annual-engagement contracts, and testing methodology for a clean acquisition by a larger security firm.",
+            "ro": "Documentează portofoliul de clienți, contractele de angajament anual și metodologia de testare, pentru o achiziție curată de către o firmă de securitate mai mare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping testing methodology and client-relationship history undocumented and founder-dependent.",
+            "ro": "Menținerea metodologiei de testare și a istoricului relațiilor cu clienții nedocumentate și dependente de fondator."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Formalize the testing methodology and report template into a standalone, transferable playbook before pursuing an acquisition conversation.",
+            "ro": "Formalizează metodologia de testare și modelul de raport într-un ghid de sine stătător, transferabil, înainte de a purta o discuție de achiziție."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}
