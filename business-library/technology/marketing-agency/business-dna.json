@@ -1,0 +1,933 @@
+{
+  "identity": {
+    "id": "49bd7b4d-8a75-4037-8b38-e71fb01b935d",
+    "slug": "marketing-agency",
+    "version": "1.0.0",
+    "name": {
+      "en": "Fernway Marketing Group",
+      "ro": "Fernway Marketing Group"
+    },
+    "tagline": {
+      "en": "The marketing team your Series A budget can actually afford.",
+      "ro": "Echipa de marketing pe care bugetul tău de la runda Series A și-o poate permite cu adevărat."
+    },
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theConnector",
+      "theHustler"
+    ],
+    "summary": {
+      "en": "Best suited to a data-literate marketer who's comfortable being judged on pipeline numbers every month, not just creative output — this is a performance business as much as a creative one.",
+      "ro": "Potrivit unui marketer alfabetizat în date, confortabil să fie evaluat lunar pe baza cifrelor de pipeline, nu doar pe baza rezultatului creativ — aceasta este la fel de mult o afacere de performanță, cât și una creativă."
+    },
+    "minimumExperienceYears": 4
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 4000,
+      "maxInvestment": 9000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 800,
+      "ongoingMonthlyCostMax": 2500,
+      "notes": {
+        "en": "Covers a CRM/marketing-automation platform, SEO tooling, and a portfolio site with named case studies — deliberately lean, since ad spend itself is the client's budget, passed through, not the agency's own cost.",
+        "ro": "Acoperă o platformă CRM/automatizare de marketing, unelte SEO și un site de portofoliu cu studii de caz numite — deliberat redus, deoarece bugetul de publicitate este cel al clientului, transferat direct, nu un cost propriu al agenției."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "crmAndAutomationSetup",
+          "label": {
+            "en": "CRM and marketing-automation platform setup",
+            "ro": "Configurarea platformei CRM și de automatizare a marketingului"
+          },
+          "typicalMin": 500,
+          "typicalMax": 1500
+        },
+        {
+          "key": "seoAndAnalyticsToolingSetup",
+          "label": {
+            "en": "SEO and analytics tooling setup",
+            "ro": "Configurarea uneltelor SEO și de analiză"
+          },
+          "typicalMin": 400,
+          "typicalMax": 1200
+        },
+        {
+          "key": "portfolioAndCaseStudySite",
+          "label": {
+            "en": "Portfolio site with named campaign case studies",
+            "ro": "Site de portofoliu cu studii de caz de campanii, numite"
+          },
+          "typicalMin": 1000,
+          "typicalMax": 2500
+        },
+        {
+          "key": "legalAndRetainerContractTemplates",
+          "label": {
+            "en": "Legal setup and retainer contract templates",
+            "ro": "Configurare juridică și modele de contract de abonament"
+          },
+          "typicalMin": 800,
+          "typicalMax": 2000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "crmAndAutomationSubscriptions",
+          "label": {
+            "en": "CRM and marketing-automation subscriptions",
+            "ro": "Abonamente CRM și de automatizare a marketingului"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 900
+        },
+        {
+          "key": "seoAndAiToolingSubscriptions",
+          "label": {
+            "en": "SEO and AI content-tooling subscriptions",
+            "ro": "Abonamente pentru unelte SEO și de conținut AI"
+          },
+          "typicalMonthlyMin": 200,
+          "typicalMonthlyMax": 700
+        },
+        {
+          "key": "freelancerBenchRetainers",
+          "label": {
+            "en": "Freelance specialist bench (design, copywriting, paid media)",
+            "ro": "Rezervă de specialiști freelanceri (design, copywriting, publicitate plătită)"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 900
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "monthlyRetainerFee",
+          "label": {
+            "en": "Tiered monthly marketing retainer",
+            "ro": "Abonament lunar de marketing, pe niveluri"
+          }
+        },
+        {
+          "key": "launchSprintProjectFee",
+          "label": {
+            "en": "Fixed-scope campaign launch-sprint fee",
+            "ro": "Onorariu cu scop fix pentru sprintul de lansare a campaniei"
+          }
+        },
+        {
+          "key": "adHocStrategyAdvisoryHours",
+          "label": {
+            "en": "Ad-hoc marketing strategy advisory hours",
+            "ro": "Ore ad-hoc de consultanță în strategie de marketing"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 6000,
+      "targetMonthlyIncomeMax": 18000,
+      "breakEvenTimelineMonths": 5,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Unlike a project-based technology business, revenue here is a genuine monthly retainer from day one — marketing work doesn't have a natural 'done' state, so the ramp is about adding retainer clients, not converting projects into retainers.",
+        "ro": "Spre deosebire de o afacere tehnologică bazată pe proiecte, venitul aici este un abonament lunar autentic, chiar de la început — munca de marketing nu are o stare naturală de „finalizat”, așa că creșterea înseamnă adăugarea de clienți cu abonament, nu conversia proiectelor în abonamente."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "none",
+    "onlineOffline": "online",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 35,
+    "maxWeeklyHours": 50,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 6
+      },
+      {
+        "key": "marketing",
+        "rating": 9
+      },
+      {
+        "key": "leadership",
+        "rating": 4
+      },
+      {
+        "key": "communication",
+        "rating": 7
+      },
+      {
+        "key": "negotiation",
+        "rating": 4
+      },
+      {
+        "key": "finance",
+        "rating": 3
+      },
+      {
+        "key": "operations",
+        "rating": 5
+      },
+      {
+        "key": "technology",
+        "rating": 6
+      },
+      {
+        "key": "automation",
+        "rating": 5
+      },
+      {
+        "key": "ai",
+        "rating": 6
+      },
+      {
+        "key": "programming",
+        "rating": 3
+      },
+      {
+        "key": "management",
+        "rating": 5
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 55
+      },
+      {
+        "key": "visionary",
+        "score": 55
+      },
+      {
+        "key": "operator",
+        "score": 50
+      },
+      {
+        "key": "creator",
+        "score": 65
+      },
+      {
+        "key": "seller",
+        "score": 60
+      },
+      {
+        "key": "leader",
+        "score": 45
+      },
+      {
+        "key": "analyst",
+        "score": 50
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate"
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate"
+    },
+    "aiResistance": {
+      "level": "low"
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Marketing budgets are often the first line item cut when a client's business slows, causing retainer churn independent of the agency's own campaign performance.",
+          "ro": "Bugetele de marketing sunt adesea primul element eliminat atunci când afacerea unui client încetinește, provocând abandonul abonamentului, independent de performanța proprie a campaniei agenției."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Diversify the client roster across industries and funding stages so no single client's budget cycle can sink the agency's own MRR.",
+          "ro": "Diversifică portofoliul de clienți pe industrii și etape de finanțare, astfel încât ciclul bugetar al unui singur client să nu poată afecta MRR-ul propriu al agenției."
+        }
+      },
+      {
+        "description": {
+          "en": "Proving ROI attribution across a multi-channel campaign is genuinely hard, and a client who doesn't see clear attribution may churn even when the campaign is actually working.",
+          "ro": "Demonstrarea atribuirii ROI pe o campanie multi-canal este cu adevărat dificilă, iar un client care nu vede o atribuire clară poate renunța chiar și atunci când campania funcționează de fapt."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Set explicit, agreed-upon attribution methodology and reporting cadence with the client before the retainer starts, not after a dispute arises.",
+          "ro": "Stabilește o metodologie explicită de atribuire și o cadență de raportare, convenite cu clientul, înainte de începerea abonamentului, nu după apariția unui litigiu."
+        }
+      },
+      {
+        "description": {
+          "en": "AI content-generation tools are commoditizing basic copywriting and ad-creative production, compressing margins on the lowest-value deliverables.",
+          "ro": "Uneltele de generare a conținutului cu AI transformă în marfă redactarea de bază și producția de materiale publicitare, comprimând marjele la livrabilele cu valoare cea mai mică."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Shift the value proposition toward strategy, funnel architecture, and attribution analysis — the parts AI tools handle poorly — rather than competing on raw content volume.",
+          "ro": "Deplasează propunerea de valoare către strategie, arhitectura pâlniei de conversie și analiza atribuirii — părțile pe care uneltele AI le gestionează prost — în loc să concurezi pe volumul brut de conținut."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "The marketing team your Series A budget can actually afford — full-funnel demand generation without the agency-of-record price tag.",
+        "ro": "Echipa de marketing pe care bugetul tău de la runda Series A și-o poate permite cu adevărat — generare de cerere pe întreaga pâlnie de conversie, fără prețul unei agenții de top."
+      },
+      "channels": [
+        {
+          "channelType": "foundersNetworkReferrals",
+          "description": {
+            "en": "Referrals from startup founders and investors who've seen a client's campaign results firsthand.",
+            "ro": "Recomandări de la fondatori de startup-uri și investitori care au văzut direct rezultatele campaniei unui client."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "caseStudyContentMarketing",
+          "description": {
+            "en": "Published case studies naming real clients and campaign metrics (CAC, conversion lift, pipeline generated).",
+            "ro": "Studii de caz publicate, care numesc clienți reali și metrici de campanie (CAC, creșterea conversiei, pipeline generat)."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "linkedInThoughtLeadership",
+          "description": {
+            "en": "Regular LinkedIn posts breaking down real campaign data and funnel decisions to build category authority.",
+            "ro": "Postări regulate pe LinkedIn, care descompun date reale de campanie și decizii de pâlnie de conversie, pentru a construi autoritate de categorie."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate"
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A free 30-minute funnel audit reviews the prospect's current marketing stack and conversion funnel, surfacing 2-3 concrete gaps before proposing a retainer scope.",
+        "ro": "Un audit gratuit de 30 de minute al pâlniei de conversie analizează stiva actuală de marketing și pâlnia de conversie a prospectului, scoțând la iveală 2-3 lacune concrete, înainte de a propune scopul unui abonament."
+      },
+      "salesCycleLengthDays": 21,
+      "pricingModel": {
+        "en": "Tiered monthly retainer (single-channel focus vs. full-funnel), with a minimum 3-month initial commitment given campaign ramp-up time.",
+        "ro": "Abonament lunar pe niveluri (focus pe un singur canal versus întreaga pâlnie), cu un angajament inițial minim de 3 luni, având în vedere timpul de creștere a campaniei."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate"
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "A monthly funnel audit and channel-performance review.",
+          "ro": "Un audit lunar al pâlniei de conversie și o revizuire a performanței canalelor."
+        },
+        {
+          "en": "Content-calendar and campaign-production sprints.",
+          "ro": "Sprinturi de calendar de conținut și producție de campanie."
+        },
+        {
+          "en": "A weekly performance-reporting call with the client.",
+          "ro": "Un apel săptămânal de raportare a performanței cu clientul."
+        },
+        {
+          "en": "A quarterly strategy reset based on accumulated funnel data.",
+          "ro": "O resetare trimestrială a strategiei, pe baza datelor acumulate ale pâlniei de conversie."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Campaign execution across active channels, content production against the editorial calendar, and daily ad-performance and budget-pacing checks.",
+        "ro": "Execuția campaniei pe canalele active, producția de conținut conform calendarului editorial și verificări zilnice ale performanței publicitare și ritmului bugetului."
+      },
+      "fulfillmentModel": {
+        "en": "A solo strategist runs the account directly, using a bench of specialist freelancers (paid media, design, copywriting) for execution capacity as retainer scope grows.",
+        "ro": "Un strateg, singur, gestionează direct contul, folosind o rezervă de freelanceri specializați (publicitate plătită, design, copywriting) pentru capacitate de execuție, pe măsură ce scopul abonamentului crește."
+      }
+    },
+    "automation": {
+      "level": "moderate"
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "aiAssistedContentDrafting",
+          "description": {
+            "en": "AI drafts first-pass ad copy and blog content, which the strategist edits for brand voice, accuracy, and strategic fit.",
+            "ro": "AI redactează o primă versiune a textelor publicitare și a conținutului de blog, pe care strategul le editează pentru tonul brandului, acuratețe și potrivire strategică."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "aiAssistedCampaignOptimization",
+          "description": {
+            "en": "AI-assisted bidding and audience optimization within paid-media platforms improves campaign efficiency without manual bid management.",
+            "ro": "Licitarea și optimizarea audienței asistate de AI, în platformele de publicitate plătită, îmbunătățesc eficiența campaniei fără gestionare manuală a licitațiilor."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "high"
+    },
+    "recommendedTools": [
+      {
+        "name": "HubSpot",
+        "category": "crmAndMarketingAutomation",
+        "isRequired": true,
+        "websiteUrl": "https://www.hubspot.com/"
+      },
+      {
+        "name": "Google Ads / Meta Ads Manager",
+        "category": "paidMedia",
+        "isRequired": true,
+        "websiteUrl": "https://ads.google.com/"
+      },
+      {
+        "name": "Semrush",
+        "category": "seoAndContentResearch",
+        "isRequired": false,
+        "websiteUrl": "https://www.semrush.com/"
+      },
+      {
+        "name": "Jasper",
+        "category": "aiContentGeneration",
+        "isRequired": false,
+        "websiteUrl": "https://www.jasper.ai/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 24
+    },
+    "scaling": {
+      "path": {
+        "en": "Bring on a second strategist to manage additional retainer accounts, then productize a fixed-scope \"launch sprint\" offer (a 6-week campaign build) as a lower-commitment entry point that upsells into the ongoing retainer.",
+        "ro": "Adaugă un al doilea strateg, pentru a gestiona conturi suplimentare cu abonament, apoi productizează o ofertă cu scop fix de „sprint de lansare” (o construcție de campanie de 6 săptămâni), ca punct de intrare cu angajament mai redus, care se transformă în vânzare suplimentară către abonamentul continuu."
+      },
+      "bottlenecks": [
+        {
+          "en": "The founder's personal account-management capacity caps the number of retainer clients that can be served at a high quality bar.",
+          "ro": "Capacitatea personală de gestionare a conturilor a fondatorului limitează numărul de clienți cu abonament care pot fi serviți la un standard ridicat de calitate."
+        },
+        {
+          "en": "Freelancer bench quality varies, and a bad execution freelancer can damage the agency's own reputation with the end client.",
+          "ro": "Calitatea rezervei de freelanceri variază, iar un freelancer de execuție slab poate afecta reputația proprie a agenției în fața clientului final."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 6,
+          "description": {
+            "en": "First 5 clients on signed monthly retainers.",
+            "ro": "Primii 5 clienți pe abonamente lunare semnate."
+          }
+        },
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "First client renews past a 12-month retainer relationship.",
+            "ro": "Primul client reînnoiește dincolo de o relație de abonament de 12 luni."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "A free funnel audit surfaces concrete, specific gaps before any retainer is proposed, making the sales conversation tangible rather than a generic pitch.",
+          "ro": "Un audit gratuit al pâlniei de conversie scoate la iveală lacune concrete și specifice, înainte de a propune orice abonament, făcând discuția de vânzare tangibilă, nu un pitch generic."
+        }
+      },
+      {
+        "description": {
+          "en": "Publishing the agency's own campaign results as named case studies builds trust that a \"trust us, we're experts\" pitch can't match.",
+          "ro": "Publicarea rezultatelor proprii de campanie ale agenției, ca studii de caz numite, construiește o încredere pe care un pitch de tipul „ai încredere în noi, suntem experți” nu o poate egala."
+        }
+      },
+      {
+        "description": {
+          "en": "A minimum 3-month commitment protects against clients judging campaign performance before a channel has had time to actually ramp up.",
+          "ro": "Un angajament minim de 3 luni protejează împotriva evaluării performanței campaniei de către clienți, înainte ca un canal să fi avut timp să crească efectiv."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A full-funnel digital marketing agency serving B2B SaaS and tech startups (Series A-C) who need ongoing demand generation but can't yet justify a full in-house marketing team, priced on a genuine monthly retainer from day one rather than a project fee.",
+        "ro": "O agenție de marketing digital pe întreaga pâlnie de conversie, care servește startup-uri B2B SaaS și tehnologice (Series A-C), care au nevoie de generare continuă de cerere, dar nu pot justifica încă o echipă completă internă de marketing, cu preț pe un abonament lunar autentic de la început, nu pe un onorariu de proiect."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.marketingAgency.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.marketingAgency.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.marketingAgency.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.marketingAgency.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert at least 1 in 3 free funnel audits into a signed retainer.",
+          "ro": "Transformă cel puțin 1 din 3 audituri gratuite ale pâlniei de conversie într-un abonament semnat."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep retainer-client retention above 80% past the initial 3-month commitment.",
+          "ro": "Menține retenția clienților cu abonament peste 80%, dincolo de angajamentul inițial de 3 luni."
+        }
+      },
+      {
+        "key": "mrr",
+        "targetDescription": {
+          "en": "Grow monthly recurring retainer revenue steadily as the client roster grows.",
+          "ro": "Crește constant venitul lunar recurent din abonamente, pe măsură ce crește portofoliul de clienți."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Maintain gross margin above 50% after freelancer-bench execution costs.",
+          "ro": "Menține marja brută peste 50%, după costurile de execuție ale rezervei de freelanceri."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "marketing",
+          "importance": 5
+        },
+        {
+          "key": "content",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "sales",
+          "importance": 3
+        },
+        {
+          "key": "ai",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "creative",
+          "importance": 4
+        },
+        {
+          "trait": "collaborative",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "growthMindset",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 4000,
+        "max": 9000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 5000,
+        "max": 8000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 35,
+        "maxWeeklyHours": 50
+      },
+      "communicationStyle": [
+        "persuasive",
+        "clear"
+      ],
+      "technicalLevel": 3,
+      "leadershipLevel": 3,
+      "creativityLevel": 5,
+      "salesAffinity": 4,
+      "automationAffinity": 3,
+      "remotePreference": "remote",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theConnector",
+        "theHustler"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the free funnel audit and specific, named campaign results in the Executive Summary — this audience is skeptical of generic \"we do marketing\" pitches and wants proof.",
+      "ro": "Evidențiază auditul gratuit al pâlniei de conversie și rezultatele concrete, numite, ale campaniei, în Rezumatul executiv — acest public este sceptic față de pitch-urile generice de tipul „facem marketing” și vrea dovezi."
+    },
+    "marketingHints": {
+      "en": "Lead with named case studies and concrete metrics (CAC, conversion lift), not generic \"we drive growth\" language.",
+      "ro": "Pornește de la studii de caz numite și metrici concrete (CAC, creșterea conversiei), nu de la un limbaj generic de tipul „generăm creștere”."
+    },
+    "financialHints": {
+      "en": "Model revenue as a genuine monthly retainer from day one, not a project-fee-plus-retainer pattern — marketing work doesn't have a natural \"done\" state the way a software build does.",
+      "ro": "Modelează venitul ca un abonament lunar autentic de la început, nu ca un model de onorariu de proiect plus abonament — munca de marketing nu are o stare naturală de „finalizat”, așa cum are o construcție software."
+    },
+    "generationHints": {
+      "en": "Keep tone confident, data-literate, and specific — this audience (SaaS founders and marketing leads) can spot vague marketing-speak instantly, which is ironic and worth leaning into as a differentiator.",
+      "ro": "Păstrează un ton încrezător, alfabetizat în date și specific — acest public (fondatori SaaS și lideri de marketing) poate recunoaște instantaneu limbajul vag de marketing, ceea ce este ironic și merită exploatat ca factor de diferențiere."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Set up the CRM/marketing-automation stack and draft the retainer contract template.",
+            "ro": "Configurează stiva CRM/automatizare de marketing și redactează modelul de contract de abonament."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching without a documented attribution methodology, leading to disputes with the first client.",
+            "ro": "Lansarea fără o metodologie documentată de atribuire, ceea ce duce la dispute cu primul client."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a sample funnel audit template before approaching the first prospect.",
+            "ro": "Construiește un model eșantion de audit al pâlniei de conversie, înainte de a aborda primul prospect."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.marketingAgency.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Sell and deliver the first monthly retainer through a free funnel audit.",
+            "ro": "Vinde și livrează primul abonament lunar printr-un audit gratuit al pâlniei de conversie."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Discounting the retainer so heavily it isn't sustainable once execution costs are real.",
+            "ro": "Reducerea prea mare a prețului abonamentului, până la punctul în care devine nesustenabil odată ce costurile reale de execuție apar."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the minimum 3-month commitment in writing before starting any campaign work.",
+            "ro": "Confirmă în scris angajamentul minim de 3 luni, înainte de a începe orice lucrare de campanie."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Standardize the weekly performance-reporting format for the first client.",
+            "ro": "Standardizează formatul săptămânal de raportare a performanței pentru primul client."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Reporting only vanity metrics instead of pipeline and conversion data the client actually cares about.",
+            "ro": "Raportarea doar a metricilor de vanitate, în loc de datele de pipeline și conversie care contează efectiv pentru client."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Agree on the exact metrics to report before the first campaign launches.",
+            "ro": "Convine asupra metricilor exacte de raportat, înainte de lansarea primei campanii."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.marketingAgency.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish the first named case study and activate the founders-network referral channel.",
+            "ro": "Publică primul studiu de caz numit și activează canalul de recomandări din rețeaua fondatorilor."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Publishing a case study before results are statistically meaningful.",
+            "ro": "Publicarea unui studiu de caz înainte ca rezultatele să fie semnificative statistic."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Wait for at least 60 days of campaign data before publishing a results-based case study.",
+            "ro": "Așteaptă cel puțin 60 de zile de date de campanie, înainte de a publica un studiu de caz bazat pe rezultate."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Deliver the first 3 months of the retainer with clear, agreed-upon attribution reporting.",
+            "ro": "Livrează primele 3 luni ale abonamentului, cu raportare clară și convenită a atribuirii."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Letting scope quietly expand into extra channels without adjusting the retainer price.",
+            "ro": "Permiterea extinderii silențioase a scopului către canale suplimentare, fără ajustarea prețului abonamentului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Hold a formal 90-day review with the client to confirm renewal and any scope changes.",
+            "ro": "Organizează o revizuire formală la 90 de zile cu clientul, pentru a confirma reînnoirea și orice modificări de scop."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach 5 clients on signed monthly retainers with consistent attribution reporting.",
+            "ro": "Atinge 5 clienți pe abonamente lunare semnate, cu raportare constantă a atribuirii."
+          }
+        ],
+        "kpis": [
+          "closeRate",
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Taking on clients outside the proven B2B SaaS ICP just to fill retainer capacity.",
+            "ro": "Acceptarea de clienți în afara profilului dovedit de client ideal B2B SaaS, doar pentru a umple capacitatea de abonamente."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Qualify every new prospect's stage and budget against the proven ICP before proposing a retainer.",
+            "ro": "Califică etapa și bugetul fiecărui prospect nou, în raport cu profilul dovedit de client ideal, înainte de a propune un abonament."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Bring on a second strategist to manage additional retainer accounts.",
+            "ro": "Adaugă un al doilea strateg, pentru a gestiona conturi suplimentare cu abonament."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring a generalist marketer instead of someone with proven paid-media or SEO depth.",
+            "ro": "Angajarea unui marketer generalist, în loc de cineva cu profunzime dovedită în publicitate plătită sau SEO."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pair the new strategist with the founder on their first client's monthly reporting call.",
+            "ro": "Cuplează noul strateg cu fondatorul, la primul apel lunar de raportare al unui client."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Productize the fixed-scope launch-sprint offer as a lower-commitment entry point.",
+            "ro": "Productizează oferta cu scop fix de sprint de lansare, ca punct de intrare cu angajament mai redus."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Pricing the launch sprint so low it doesn't cover the freelancer-bench execution cost.",
+            "ro": "Stabilirea unui preț atât de mic pentru sprintul de lansare încât nu acoperă costul de execuție al rezervei de freelanceri."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Design the launch sprint to naturally surface an upsell case into the ongoing retainer.",
+            "ro": "Proiectează sprintul de lansare astfel încât să scoată la iveală în mod natural un caz de vânzare suplimentară către abonamentul continuu."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into an adjacent vertical beyond B2B SaaS, such as fintech or dev-tools startups.",
+            "ro": "Extinde-te într-o nișă adiacentă, dincolo de B2B SaaS, precum startup-uri fintech sau dev-tools."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding into a new vertical without adapting the funnel-audit template to its specific buyer journey.",
+            "ro": "Extinderea către o nișă nouă, fără adaptarea modelului de audit al pâlniei de conversie la parcursul specific al cumpărătorului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Adapt the funnel-audit template to the new vertical's buyer journey before marketing to it.",
+            "ro": "Adaptează modelul de audit al pâlniei de conversie la parcursul cumpărătorului din noua nișă, înainte de a face marketing pentru ea."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the client book, retainer contracts, and campaign playbooks for a clean acquisition by a larger agency.",
+            "ro": "Documentează portofoliul de clienți, contractele de abonament și ghidurile de campanie, pentru o achiziție curată de către o agenție mai mare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping campaign strategy and freelancer relationships undocumented and founder-only.",
+            "ro": "Menținerea strategiei de campanie și a relațiilor cu freelancerii nedocumentate și dependente exclusiv de fondator."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Standardize campaign playbooks and freelancer contracts into a documented, transferable asset.",
+            "ro": "Standardizează ghidurile de campanie și contractele cu freelancerii într-un activ documentat și transferabil."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

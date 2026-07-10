@@ -1,0 +1,142 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "crmAndAutomationSetup",
+      "seoAndAnalyticsToolingSetup",
+      "portfolioAndCaseStudySite",
+      "legalAndRetainerContractTemplates"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "crmAndAutomationSubscriptions",
+      "seoAndAiToolingSubscriptions",
+      "freelancerBenchRetainers"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "paidAdSpendPassthrough",
+      "freelancerSurgeCapacity",
+      "stockAssetAndDesignLicensing"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "monthlyRetainerFee",
+        "label": {
+          "en": "Monthly full-funnel marketing retainer",
+          "ro": "Abonament lunar de marketing pe tot parcursul funnel-ului"
+        }
+      },
+      {
+        "key": "launchSprintProjectFee",
+        "label": {
+          "en": "One-time launch-sprint project fee",
+          "ro": "Onorariu unic de proiect pentru sprintul de lansare"
+        }
+      },
+      {
+        "key": "adHocStrategyAdvisoryHours",
+        "label": {
+          "en": "Ad-hoc strategy advisory hours",
+          "ro": "Ore de consultanță strategică ad-hoc"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageMonthlyRetainerFee": "currency",
+      "minimumRetainerCommitmentMonths": "number",
+      "activeRetainerClientCount": "number",
+      "launchSprintFee": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "retainersClosedPerQuarter": "number",
+      "retainerChurnRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.marketingAgency.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "monthlyRetainerCollections",
+      "launchSprintMilestonePayments",
+      "adSpendPassthroughOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 5,
+    "notesTranslationKey": "businessLibrary.marketingAgency.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 55,
+    "notesTranslationKey": "businessLibrary.marketingAgency.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 34,
+    "notesTranslationKey": "businessLibrary.marketingAgency.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "secondStrategistSalary"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "caseStudyProduction",
+      "referralIncentives"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "closeRate",
+      "customerRetention",
+      "mrr",
+      "grossMargin"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 6000,
+      "notesTranslationKey": "businessLibrary.marketingAgency.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 13000,
+      "notesTranslationKey": "businessLibrary.marketingAgency.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 24000,
+      "notesTranslationKey": "businessLibrary.marketingAgency.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.marketingAgency.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.marketingAgency.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.marketingAgency.financial.aiMetadata.generationHints"
+  }
+}

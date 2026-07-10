@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.architectureStudio.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.architectureStudio.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.architectureStudio.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.architectureStudio.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.architectureStudio.marketing.uvp.diff1",
+      "businessLibrary.architectureStudio.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2c",
+    "descriptionTranslationKey": "businessLibrary.architectureStudio.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.architectureStudio.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.architectureStudio.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.architectureStudio.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.architectureStudio.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.architectureStudio.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.architectureStudio.marketing.painPoints.point1",
+      "businessLibrary.architectureStudio.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.architectureStudio.marketing.outcomes.outcome1",
+      "businessLibrary.architectureStudio.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.architectureStudio.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.architectureStudio.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.architectureStudio.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.architectureStudio.marketing.brandVoice.attr1",
+      "businessLibrary.architectureStudio.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.architectureStudio.marketing.contentPillars.pillar1",
+      "businessLibrary.architectureStudio.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "referralsFromContractorsAndRealEstateAgents",
+      "portfolioAndPublishedProjectFeatures",
+      "localHomeShowAndBuilderEventNetworking"
+    ],
+    "strategyTranslationKey": "businessLibrary.architectureStudio.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.architectureStudio.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.architectureStudio.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.architectureStudio.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.architectureStudio.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.architectureStudio.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.architectureStudio.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.architectureStudio.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.architectureStudio.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.architectureStudio.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.architectureStudio.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.architectureStudio.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "closeRate",
+      "customerRetention"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.architectureStudio.marketing.aiMetadata.generationHints"
+  }
+}

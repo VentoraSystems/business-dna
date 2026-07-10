@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.marketingAgency.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.marketingAgency.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.marketingAgency.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.marketingAgency.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.marketingAgency.marketing.uvp.diff1",
+      "businessLibrary.marketingAgency.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2b",
+    "descriptionTranslationKey": "businessLibrary.marketingAgency.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.marketingAgency.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.marketingAgency.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.marketingAgency.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.marketingAgency.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.marketingAgency.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.marketingAgency.marketing.painPoints.point1",
+      "businessLibrary.marketingAgency.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.marketingAgency.marketing.outcomes.outcome1",
+      "businessLibrary.marketingAgency.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.marketingAgency.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.marketingAgency.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.marketingAgency.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.marketingAgency.marketing.brandVoice.attr1",
+      "businessLibrary.marketingAgency.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.marketingAgency.marketing.contentPillars.pillar1",
+      "businessLibrary.marketingAgency.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "foundersNetworkReferrals",
+      "caseStudyContentMarketing",
+      "linkedInThoughtLeadership"
+    ],
+    "strategyTranslationKey": "businessLibrary.marketingAgency.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.marketingAgency.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.marketingAgency.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.marketingAgency.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.marketingAgency.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.marketingAgency.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.marketingAgency.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.marketingAgency.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.marketingAgency.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.marketingAgency.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.marketingAgency.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.marketingAgency.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "closeRate",
+      "customerRetention"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.marketingAgency.marketing.aiMetadata.generationHints"
+  }
+}

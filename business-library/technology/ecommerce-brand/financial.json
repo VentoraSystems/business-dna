@@ -1,0 +1,141 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "initialInventoryProduction",
+      "ecommercePlatformAndAppSetup",
+      "productPhotographyAndCatalog",
+      "brandIdentityAndPackagingDesign"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "platformAndAppSubscriptions",
+      "warehousingAndFulfillmentFees"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "paidAdsAndInfluencerSpend",
+      "paymentProcessingFees",
+      "returnAndResizingShippingCosts"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "directProductSales",
+        "label": {
+          "en": "Direct-to-consumer product sales",
+          "ro": "Vânzări directe către consumator"
+        }
+      },
+      {
+        "key": "limitedEditionCollectionDrops",
+        "label": {
+          "en": "Limited-edition collection drops",
+          "ro": "Lansări de colecții în ediție limitată"
+        }
+      },
+      {
+        "key": "corporateGiftingBulkOrders",
+        "label": {
+          "en": "Corporate gifting bulk orders",
+          "ro": "Comenzi corporative en-gros pentru cadouri"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageOrderValue": "currency",
+      "unitsPerCollectionRun": "number",
+      "repeatPurchaseRatePercent": "percent",
+      "blendedCustomerAcquisitionCost": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "unitsSoldPerMonth": "number",
+      "giftingSeasonUpliftPercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.ecommerceBrand.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "orderPaymentInflows",
+      "inventoryProductionOutflow",
+      "paidAdSpendOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 9,
+    "notesTranslationKey": "businessLibrary.ecommerceBrand.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 55,
+    "notesTranslationKey": "businessLibrary.ecommerceBrand.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 28,
+    "notesTranslationKey": "businessLibrary.ecommerceBrand.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "customerServiceContractorHours"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "influencerAndUgcSeedingBudget",
+      "paidSocialAndShoppingAdsBudget"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "salesTaxAndVatRemittance",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "cac",
+      "ltv",
+      "grossMargin",
+      "customerRetention"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 6000,
+      "notesTranslationKey": "businessLibrary.ecommerceBrand.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 13000,
+      "notesTranslationKey": "businessLibrary.ecommerceBrand.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 28000,
+      "notesTranslationKey": "businessLibrary.ecommerceBrand.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.ecommerceBrand.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.ecommerceBrand.financial.risks.risk2",
+        "severity": "high"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.ecommerceBrand.financial.aiMetadata.generationHints"
+  }
+}

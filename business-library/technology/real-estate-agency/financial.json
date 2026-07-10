@@ -1,0 +1,142 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "realEstateLicensingAndMlsAccess",
+      "crmAndTransactionManagementSetup",
+      "professionalPhotographyAndSignageSetup",
+      "marketingMaterialsAndBrandingSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "mlsAndAssociationDues",
+      "crmAndTransactionSoftwareSubscriptions",
+      "brokerageDeskFeesOrSplit"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "portalLeadGenerationSpend",
+      "listingPhotographyAndStagingCosts",
+      "neighborhoodFarmingMailerCosts"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "buyerRepresentationCommission",
+        "label": {
+          "en": "Buyer representation commission",
+          "ro": "Comision de reprezentare a cumpărătorului"
+        }
+      },
+      {
+        "key": "sellerRepresentationCommission",
+        "label": {
+          "en": "Seller representation commission",
+          "ro": "Comision de reprezentare a vânzătorului"
+        }
+      },
+      {
+        "key": "referralFeeIncome",
+        "label": {
+          "en": "Referral fee income from out-of-area agents",
+          "ro": "Venit din comisioane de recomandare de la agenți din alte zone"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageHomeSalePrice": "currency",
+      "commissionPercentPerSide": "percent",
+      "brokerageSplitPercent": "percent",
+      "transactionsClosedPerYear": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "closingsPerQuarter": "number",
+      "referralShareOfClosingsPercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.realEstateAgency.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "commissionPayoutAtClosing",
+      "deskFeeAndSplitOutflow",
+      "portalLeadSpendOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 6,
+    "notesTranslationKey": "businessLibrary.realEstateAgency.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 60,
+    "notesTranslationKey": "businessLibrary.realEstateAgency.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 35,
+    "notesTranslationKey": "businessLibrary.realEstateAgency.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "buyersAgentOrTransactionCoordinatorFee"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "neighborhoodFarmingSponsorships",
+      "pastClientAppreciationEvents"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "closeRate",
+      "leadConversion",
+      "customerRetention",
+      "netMargin"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 4000,
+      "notesTranslationKey": "businessLibrary.realEstateAgency.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 10000,
+      "notesTranslationKey": "businessLibrary.realEstateAgency.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 20000,
+      "notesTranslationKey": "businessLibrary.realEstateAgency.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.realEstateAgency.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.realEstateAgency.financial.risks.risk2",
+        "severity": "high"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.realEstateAgency.financial.aiMetadata.generationHints"
+  }
+}

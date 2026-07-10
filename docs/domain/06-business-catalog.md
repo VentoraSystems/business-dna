@@ -163,11 +163,11 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 | `hr-consultancies` | 6 | 1 |
 | `recruitment-agencies` | 7 | 1 |
 | `business-consultancies` | 7 | 1 |
-| `marketing-agencies` | 1 | 0 |
-| `ecommerce` | 1 | 0 |
-| `coaching` | 1 | 0 |
-| `architecture` | 1 | 0 |
-| `real-estate` | 1 | 0 |
+| `marketing-agencies` | 1 | 1 |
+| `ecommerce` | 1 | 1 |
+| `coaching` | 1 | 1 |
+| `architecture` | 1 | 1 |
+| `real-estate` | 1 | 1 |
 | `cleaning-services` | 1 | 0 |
 | `beauty-wellness` | 1 | 0 |
 | `dental-clinics` | 1 | 0 |
@@ -175,7 +175,7 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 | `psychology-practices` | 1 | 0 |
 | `coffee-shops` | 1 | 0 |
 | `restaurants` | 1 | 0 |
-| **Total** | **147** | **17** |
+| **Total** | **147** | **22** |
 
 ---
 
@@ -431,7 +431,7 @@ data-analytics-consultancy}/` for the full packages.*
 
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| marketing-agencies | Marketing Agency | marketing-agency | tech | agency | P1 | moderate | Low | Yes | moderate | No | |
+| marketing-agencies | Marketing Agency | marketing-agency | tech | agency | P1 | moderate | Low | Yes | moderate | No | ✅ |
 
 ## `ecommerce`
 
@@ -439,7 +439,7 @@ data-analytics-consultancy}/` for the full packages.*
 
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| ecommerce | E-commerce Brand | ecommerce-brand | fashion | ecommerce | P1 | moderate | Medium | Yes | moderate | No | |
+| ecommerce | E-commerce Brand | ecommerce-brand | fashion | ecommerce | P1 | moderate | Medium | Yes | moderate | No | ✅ |
 
 ## `coaching`
 
@@ -447,7 +447,7 @@ data-analytics-consultancy}/` for the full packages.*
 
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| coaching | Coaching Business | coaching-business | professionalServices | service | P1 | moderate | Low | Yes | moderate | No | |
+| coaching | Coaching Business | coaching-business | professionalServices | service | P1 | moderate | Low | Yes | moderate | No | ✅ |
 
 ## `architecture`
 
@@ -455,7 +455,7 @@ data-analytics-consultancy}/` for the full packages.*
 
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| architecture | Architecture Studio | architecture-studio | professionalServices | service | P1 | high | High | Yes | low | Yes | |
+| architecture | Architecture Studio | architecture-studio | professionalServices | service | P1 | high | High | Yes | low | Yes | ✅ |
 
 ## `real-estate`
 
@@ -463,7 +463,7 @@ data-analytics-consultancy}/` for the full packages.*
 
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| real-estate | Real Estate Agency | real-estate-agency | homeServices | agency | P1 | moderate | Medium | Yes | moderate | No | |
+| real-estate | Real Estate Agency | real-estate-agency | homeServices | agency | P1 | moderate | Medium | Yes | moderate | No | ✅ |
 
 ## `cleaning-services`
 

@@ -1,0 +1,850 @@
+{
+  "identity": {
+    "id": "762ac1d1-0258-4659-a34d-2053770648e9",
+    "slug": "architecture-studio",
+    "version": "1.0.0",
+    "name": {
+      "en": "Kestrel Vale Architecture Studio",
+      "ro": "Kestrel Vale Architecture Studio"
+    },
+    "tagline": {
+      "en": "Residential architecture for people who plan to stay awhile.",
+      "ro": "Arhitectură rezidențială pentru oameni care plănuiesc să rămână o vreme."
+    },
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": ["theSpecialist", "theVisionary"],
+    "summary": {
+      "en": "Best suited to a licensed architect who wants to run a small, design-led practice directly rather than climbing the ladder inside a large firm — this is a genuinely licensure-gated professional service, not a general design or renovation business.",
+      "ro": "Potrivit unui arhitect licențiat care dorește să conducă direct o practică mică, orientată spre design, în loc să urce ierarhia într-o firmă mare — aceasta este un serviciu profesional cu adevărat condiționat de licențiere, nu o afacere generală de design sau renovare."
+    },
+    "minimumExperienceYears": 6
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 20000,
+      "maxInvestment": 60000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 1500,
+      "ongoingMonthlyCostMax": 4000,
+      "notes": {
+        "en": "The largest of the five new flagship businesses' budgets — professional liability insurance, licensing/credentialing, and CAD/BIM software are all non-negotiable costs of practicing legally as an architect.",
+        "ro": "Cel mai mare buget dintre cele cinci noi afaceri emblematice — asigurarea de răspundere profesională, licențierea/atestarea și software-ul CAD/BIM sunt toate costuri nenegociabile pentru a practica legal ca arhitect."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "architecturalLicensingAndCredentialing",
+          "label": {
+            "en": "Architectural licensing and credentialing fees",
+            "ro": "Taxe de licențiere și atestare arhitecturală"
+          },
+          "typicalMin": 2000,
+          "typicalMax": 6000
+        },
+        {
+          "key": "cadAndBimSoftwareSetup",
+          "label": {
+            "en": "CAD and BIM software setup",
+            "ro": "Configurarea software-ului CAD și BIM"
+          },
+          "typicalMin": 3000,
+          "typicalMax": 8000
+        },
+        {
+          "key": "professionalLiabilityInsuranceSetup",
+          "label": {
+            "en": "Professional liability (errors & omissions) insurance setup",
+            "ro": "Configurarea asigurării de răspundere profesională (erori și omisiuni)"
+          },
+          "typicalMin": 4000,
+          "typicalMax": 12000
+        },
+        {
+          "key": "portfolioAndShowcaseSiteSetup",
+          "label": {
+            "en": "Portfolio and project-showcase site setup",
+            "ro": "Configurarea site-ului de portofoliu și prezentare a proiectelor"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "cadAndBimSoftwareSubscriptions",
+          "label": {
+            "en": "CAD and BIM software subscriptions",
+            "ro": "Abonamente software CAD și BIM"
+          },
+          "typicalMonthlyMin": 200,
+          "typicalMonthlyMax": 600
+        },
+        {
+          "key": "professionalLiabilityInsurancePremiums",
+          "label": {
+            "en": "Professional liability insurance premiums",
+            "ro": "Prime de asigurare de răspundere profesională"
+          },
+          "typicalMonthlyMin": 400,
+          "typicalMonthlyMax": 1200
+        },
+        {
+          "key": "structuralEngineeringConsultantFees",
+          "label": {
+            "en": "Structural engineering consultant fees",
+            "ro": "Onorarii pentru consultanți în inginerie structurală"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 1500
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "fixedFeeDesignProjectFee",
+          "label": {
+            "en": "Fixed-fee design project fee",
+            "ro": "Onorariu de proiect de design cu preț fix"
+          }
+        },
+        {
+          "key": "percentageOfConstructionCostFee",
+          "label": {
+            "en": "Percentage-of-construction-cost fee",
+            "ro": "Onorariu procentual din costul construcției"
+          }
+        },
+        {
+          "key": "permitAndCodeComplianceConsultingFee",
+          "label": {
+            "en": "Permit and code-compliance consulting fee",
+            "ro": "Onorariu de consultanță pentru autorizații și conformitate cu codul"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 8000,
+      "targetMonthlyIncomeMax": 25000,
+      "breakEvenTimelineMonths": 10,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "slow",
+      "notes": {
+        "en": "The slowest revenue speed of any business in this set — a single custom home design project runs for months from initial consultation through construction-administration close-out, and the sales cycle itself is long given the size of the purchase decision.",
+        "ro": "Cea mai lentă viteză de venit dintre toate afacerile din acest set — un singur proiect de design pentru o casă personalizată durează luni de zile, de la consultația inițială până la finalizarea administrării construcției, iar ciclul de vânzări în sine este lung, având în vedere dimensiunea deciziei de achiziție."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate",
+      "notes": {
+        "en": "Mandatory professional liability insurance and structural-engineering consultant fees keep margin moderate rather than high, despite premium project fees.",
+        "ro": "Asigurarea obligatorie de răspundere profesională și onorariile consultanților în inginerie structurală mențin marja moderată, nu ridicată, în ciuda onorariilor premium de proiect."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "occasional",
+    "onlineOffline": "hybrid",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 35,
+    "maxWeeklyHours": 50,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      { "key": "sales", "rating": 4 },
+      { "key": "marketing", "rating": 5 },
+      { "key": "leadership", "rating": 5 },
+      { "key": "communication", "rating": 7 },
+      { "key": "negotiation", "rating": 5 },
+      { "key": "finance", "rating": 4 },
+      { "key": "operations", "rating": 6 },
+      { "key": "technology", "rating": 6 },
+      { "key": "automation", "rating": 3 },
+      { "key": "ai", "rating": 3 },
+      { "key": "programming", "rating": 2 },
+      { "key": "management", "rating": 6 }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      { "key": "builder", "score": 55 },
+      { "key": "visionary", "score": 65 },
+      { "key": "operator", "score": 55 },
+      { "key": "creator", "score": 60 },
+      { "key": "seller", "score": 35 },
+      { "key": "leader", "score": 45 },
+      { "key": "analyst", "score": 55 }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": false,
+    "isFullyRemote": false,
+    "requiresTravel": true,
+    "isOnlineBusiness": false,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "low",
+      "notes": {
+        "en": "The lowest scalability of any business in this set — each project requires the licensed architect's own direct design judgment and legal sign-off, which cannot be delegated away the way execution work can in other professional services.",
+        "ro": "Cea mai scăzută scalabilitate dintre toate afacerile din acest set — fiecare proiect necesită judecata de design proprie și semnătura legală a arhitectului licențiat, care nu poate fi delegată așa cum poate fi munca de execuție în alte servicii profesionale."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high",
+      "notes": {
+        "en": "The highest difficulty of any business in this set — architectural licensure itself requires years of education and supervised experience before this business can legally operate at all.",
+        "ro": "Cea mai mare dificultate dintre toate afacerile din acest set — licențierea arhitecturală în sine necesită ani de educație și experiență supravegheată, înainte ca această afacere să poată funcționa legal."
+      }
+    },
+    "aiResistance": {
+      "level": "high",
+      "notes": {
+        "en": "Design judgment tied to personal legal liability and licensure is one of the hardest professional-service skill sets for AI tools to substitute for, even as rendering and code-checking tools improve.",
+        "ro": "Judecata de design legată de răspunderea legală personală și de licențiere este unul dintre cele mai greu de înlocuit seturi de abilități de servicii profesionale de către instrumentele AI, chiar dacă instrumentele de randare și verificare a codului se îmbunătățesc."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "A design error carries genuine legal and insurance liability exposure that most other businesses in this library simply don't face.",
+          "ro": "O eroare de design implică o expunere reală la răspundere legală și de asigurare, pe care majoritatea celorlalte afaceri din această bibliotecă pur și simplu nu o întâmpină."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Long project timelines are vulnerable to client-side budget changes or delays that can stall or kill a project mid-design.",
+          "ro": "Termenele lungi ale proiectelor sunt vulnerabile la schimbări de buget sau întârzieri din partea clientului, care pot bloca sau opri un proiect la jumătatea designului."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Custom residential architecture is a discretionary luxury spend that's among the first cut when the housing market softens.",
+          "ro": "Arhitectura rezidențială personalizată este o cheltuială discreționară de lux, printre primele reduse atunci când piața imobiliară se înmoaie."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Residential architecture for people who plan to stay awhile — thoughtful, code-compliant custom home design led by a licensed architect, not a renovation-show fantasy.",
+        "ro": "Arhitectură rezidențială pentru oameni care plănuiesc să rămână o vreme — design personalizat de casă, gândit temeinic și conform codului, condus de un arhitect licențiat, nu o fantezie de emisiune de renovare."
+      },
+      "channels": [
+        {
+          "channelType": "referralsFromContractorsAndRealEstateAgents",
+          "description": {
+            "en": "Referrals from trusted general contractors and real estate agents who've seen the studio's work firsthand on prior projects.",
+            "ro": "Recomandări de la antreprenori generali de încredere și agenți imobiliari, care au văzut direct munca studioului la proiecte anterioare."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "portfolioAndPublishedProjectFeatures",
+          "description": {
+            "en": "A curated portfolio site and features in local design publications showcasing completed homes.",
+            "ro": "Un site de portofoliu curatoriat și apariții în publicații locale de design, care prezintă casele finalizate."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "localHomeShowAndBuilderEventNetworking",
+          "description": {
+            "en": "Attending local home shows and builder association events to meet prospective clients and referral partners directly.",
+            "ro": "Participarea la târguri locale de locuințe și evenimente ale asociațiilor de constructori, pentru a întâlni direct potențiali clienți și parteneri de recomandare."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "Growth relies mostly on a trusted referral network and a strong portfolio rather than paid-media management or content production at scale.",
+        "ro": "Creșterea se bazează în principal pe o rețea de recomandări de încredere și un portofoliu solid, nu pe gestionarea publicității plătite sau producția de conținut la scară largă."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "An in-person or video site and program consultation reviews the homeowner's lot, budget, and goals before proposing a fixed-fee or percentage-of-construction-cost design agreement.",
+        "ro": "O consultație în persoană sau video, despre teren și program, analizează terenul, bugetul și obiectivele proprietarului, înainte de a propune un acord de design cu preț fix sau procentual din costul construcției."
+      },
+      "salesCycleLengthDays": 45,
+      "pricingModel": {
+        "en": "Either a fixed design fee for a clearly defined scope, or a percentage of total construction cost (typically 8-12%) for full design-through-construction-administration services.",
+        "ro": "Fie un onorariu de design fix pentru un domeniu de aplicare clar definit, fie un procent din costul total al construcției (de obicei 8-12%), pentru servicii complete, de la design până la administrarea construcției."
+      }
+    },
+    "salesComplexity": {
+      "level": "high",
+      "notes": {
+        "en": "A custom home design is one of the largest discretionary purchases a client will make, competing against other architects and design-build firms for a decision that takes real trust-building time.",
+        "ro": "Un design de casă personalizat este una dintre cele mai mari achiziții discreționare pe care le va face un client, concurând cu alți arhitecți și firme de design-construcție, pentru o decizie care necesită timp real de construire a încrederii."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "An initial site and lot analysis and programming session with the homeowner",
+          "ro": "O sesiune inițială de analiză a terenului și de programare, cu proprietarul"
+        },
+        {
+          "en": "Schematic design and design-development drawing phases",
+          "ro": "Fazele de design schematic și de dezvoltare a designului"
+        },
+        {
+          "en": "Permitting and code-compliance documentation preparation",
+          "ro": "Pregătirea documentației pentru autorizații și conformitate cu codul"
+        },
+        {
+          "en": "Construction-administration site visits during the build phase",
+          "ro": "Vizite la șantier pentru administrarea construcției, în timpul fazei de construcție"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "A mix of drafting and design-review time in the studio, coordination calls with structural engineers and contractors, and periodic site visits for projects under construction.",
+        "ro": "O combinație de timp de desenare și revizuire a designului în studio, apeluri de coordonare cu inginerii structurali și antreprenorii, precum și vizite periodice la șantier pentru proiectele aflate în construcție."
+      },
+      "fulfillmentModel": {
+        "en": "A solo licensed architect leads all design decisions and sign-offs directly, bringing in a structural engineering consultant per project as needed.",
+        "ro": "Un arhitect licențiat, singur, conduce direct toate deciziile de design și semnăturile, aducând un consultant în inginerie structurală per proiect, după cum este necesar."
+      }
+    },
+    "automation": {
+      "level": "low",
+      "notes": {
+        "en": "Bespoke design work resists automation by nature; only rendering production and preliminary code-compliance checks are AI-assisted.",
+        "ro": "Munca de design personalizat rezistă automatizării prin natura sa; doar producția de randări și verificările preliminare de conformitate cu codul sunt asistate de AI."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "renderingAndVisualization",
+          "description": {
+            "en": "AI-assisted rendering accelerates producing photorealistic visualizations for client presentations.",
+            "ro": "Randarea asistată de AI accelerează producerea vizualizărilor fotorealiste pentru prezentările către clienți."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "codeComplianceChecking",
+          "description": {
+            "en": "AI-assisted preliminary code-compliance checking flags potential issues before formal permit submission.",
+            "ro": "Verificarea preliminară a conformității cu codul, asistată de AI, semnalează potențiale probleme înainte de depunerea formală a autorizației."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "Revit",
+        "category": "bimSoftware",
+        "isRequired": true,
+        "websiteUrl": "https://www.autodesk.com/products/revit/"
+      },
+      {
+        "name": "SketchUp",
+        "category": "conceptualDesignSoftware",
+        "isRequired": true,
+        "websiteUrl": "https://www.sketchup.com/"
+      },
+      {
+        "name": "Enscape",
+        "category": "renderingSoftware",
+        "isRequired": false,
+        "websiteUrl": "https://enscape3d.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "low",
+      "timeHorizonMonths": 36,
+      "notes": {
+        "en": "The longest time horizon and lowest growth ceiling of any business in this set — bespoke, licensure-gated design work grows through reputation and referral depth, not volume.",
+        "ro": "Cel mai lung orizont de timp și cel mai scăzut plafon de creștere dintre toate afacerile din acest set — munca de design personalizată, condiționată de licențiere, crește prin reputație și profunzimea recomandărilor, nu prin volum."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Bring on a licensed associate architect to take on additional concurrent projects, then deepen a referral pipeline with a small number of trusted general contractors and real estate agents.",
+        "ro": "Adaugă un arhitect asociat licențiat, pentru a prelua proiecte suplimentare simultane, apoi aprofundează o rețea de recomandări cu un număr mic de antreprenori generali și agenți imobiliari de încredere."
+      },
+      "bottlenecks": [
+        {
+          "en": "The principal architect's own licensure and design-review time caps how many concurrent projects the studio can responsibly run.",
+          "ro": "Propria licențiere și timpul de revizuire a designului al arhitectului principal limitează câte proiecte simultane poate rula responsabil studioul."
+        },
+        {
+          "en": "Construction-administration site visits are geographically bound, limiting how far from the studio's base clients can realistically be served.",
+          "ro": "Vizitele la șantier pentru administrarea construcției sunt limitate geografic, limitând cât de departe de baza studioului pot fi serviți realist clienții."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 12,
+          "description": {
+            "en": "The first project completes from initial design through construction-administration close-out.",
+            "ro": "Primul proiect se finalizează, de la designul inițial până la închiderea administrării construcției."
+          }
+        },
+        {
+          "monthsFromLaunch": 30,
+          "description": {
+            "en": "The first associate architect is hired to run a second concurrent project.",
+            "ro": "Primul arhitect asociat este angajat pentru a conduce un al doilea proiect simultan."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "A licensed-architect-led process carries real legal and insurance credibility that an unlicensed designer or drafter cannot offer.",
+          "ro": "Un proces condus de un arhitect licențiat are o credibilitate legală și de asigurare reală, pe care un designer sau desenator nelicențiat nu o poate oferi."
+        }
+      },
+      {
+        "description": {
+          "en": "A trusted referral network of contractors and real estate agents pre-qualifies serious clients before the first consultation even happens.",
+          "ro": "O rețea de recomandări de încredere, formată din antreprenori și agenți imobiliari, pre-califică clienții serioși înainte chiar de prima consultație."
+        }
+      },
+      {
+        "description": {
+          "en": "A percentage-of-construction-cost pricing option aligns the studio's incentives directly with delivering a buildable, well-specified design.",
+          "ro": "O opțiune de preț procentual din costul construcției aliniază direct stimulentele studioului cu livrarea unui design fezabil și bine specificat."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A solo, licensed-architect-led residential design studio for custom home projects, sold through a fixed-fee or percentage-of-construction-cost agreement, growing primarily through a referral network of trusted contractors and real estate agents rather than paid marketing.",
+        "ro": "Un studio solo de design rezidențial, condus de un arhitect licențiat, pentru proiecte de case personalizate, vândut printr-un acord cu preț fix sau procentual din costul construcției, crescând în principal printr-o rețea de recomandări de la antreprenori și agenți imobiliari de încredere, nu prin marketing plătit."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.architectureStudio.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.architectureStudio.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.architectureStudio.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.architectureStudio.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert a healthy share of consultations into signed design agreements despite a long, high-consideration sales cycle.",
+          "ro": "Transformă o cotă sănătoasă din consultații în acorduri de design semnate, în ciuda unui ciclu de vânzări lung, cu considerație ridicată."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect margin against mandatory insurance and structural-engineering consultant costs.",
+          "ro": "Protejează marja împotriva costurilor obligatorii de asigurare și de consultanță în inginerie structurală."
+        }
+      },
+      {
+        "key": "netMargin",
+        "targetDescription": {
+          "en": "Maintain healthy net margin despite the high fixed cost of licensing and liability insurance.",
+          "ro": "Menține o marjă netă sănătoasă, în ciuda costului fix ridicat al licențierii și asigurării de răspundere."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Convert single-project clients into referral sources and repeat clients for future projects (additions, second homes).",
+          "ro": "Transformă clienții cu un singur proiect în surse de recomandare și clienți fideli pentru proiecte viitoare (extinderi, a doua locuință)."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        { "key": "design", "importance": 5 },
+        { "key": "communication", "importance": 4 }
+      ],
+      "preferredSkills": [
+        { "key": "negotiation", "importance": 3 },
+        { "key": "management", "importance": 3 }
+      ],
+      "requiredPersonality": [
+        { "trait": "detailOriented", "importance": 5 },
+        { "trait": "strategic", "importance": 4 }
+      ],
+      "preferredPersonality": [
+        { "trait": "patient", "importance": 3 }
+      ],
+      "requiredBudget": { "min": 20000, "max": 60000, "currency": "EUR" },
+      "preferredBudget": { "min": 30000, "max": 50000, "currency": "EUR" },
+      "riskProfile": "high",
+      "timeAvailability": { "minWeeklyHours": 35, "maxWeeklyHours": 50 },
+      "communicationStyle": ["precise", "consultative"],
+      "technicalLevel": 4,
+      "leadershipLevel": 4,
+      "creativityLevel": 5,
+      "salesAffinity": 2,
+      "automationAffinity": 2,
+      "remotePreference": "hybrid",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": ["theSpecialist", "theVisionary"]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the licensure-gated credibility and the percentage-of-construction-cost pricing option in the Offer Architecture and Pricing sections — both are what separate this business from an unlicensed designer or drafting service.",
+      "ro": "Subliniază credibilitatea condiționată de licențiere și opțiunea de preț procentual din costul construcției în secțiunile Arhitectura ofertei și Strategia de preț — ambele diferențiază această afacere de un designer sau serviciu de desenare nelicențiat."
+    },
+    "marketingHints": {
+      "en": "Lead with real completed project photography and named contractor/agent referral relationships, not generic architectural-style inspiration content.",
+      "ro": "Începe cu fotografii reale ale proiectelor finalizate și relații de recomandare numite cu antreprenori/agenți, nu cu conținut generic de inspirație de stil arhitectural."
+    },
+    "financialHints": {
+      "en": "Model revenue as slow-building, long-cycle project fees with a genuinely high fixed cost base from insurance and licensing, unlike lower-overhead professional services.",
+      "ro": "Modelează veniturile ca onorarii de proiect cu ciclu lung și creștere lentă, cu o bază de costuri fixe cu adevărat ridicată din asigurare și licențiere, spre deosebire de serviciile profesionale cu costuri generale mai mici."
+    },
+    "generationHints": {
+      "en": "Keep generated tone precise and credentialed — describe design decisions the way a licensed architect explaining code and structural tradeoffs to a client would, not generic home-design blog language.",
+      "ro": "Menține un ton generat precis și atestat — descrie deciziile de design așa cum ar face-o un arhitect licențiat, care explică unui client compromisurile de cod și structurale, nu un limbaj generic de blog despre design de locuințe."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Complete architectural licensing, set up professional liability insurance, and configure CAD/BIM software.",
+            "ro": "Finalizează licențierea arhitecturală, configurează asigurarea de răspundere profesională și configurează software-ul CAD/BIM."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Starting client work before professional liability insurance is fully in place, exposing the practice to uninsured risk.",
+            "ro": "Începerea lucrului cu clienții înainte ca asigurarea de răspundere profesională să fie complet activă, expunând practica la risc neasigurat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm active professional liability insurance coverage before accepting the first paid client engagement.",
+            "ro": "Confirmă acoperirea activă a asigurării de răspundere profesională, înainte de a accepta primul angajament plătit cu un client."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.architectureStudio.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Run initial consultations with 5-8 target homeowners or referral partners to validate demand and pricing.",
+            "ro": "Desfășoară consultații inițiale cu 5-8 proprietari țintă sau parteneri de recomandare, pentru a valida cererea și prețul."
+          }
+        ],
+        "kpis": ["closeRate"],
+        "commonMistakes": [
+          {
+            "en": "Underpricing the first design agreement just to close a deal, which is hard to correct on a long-cycle project once signed.",
+            "ro": "Subevaluarea primului acord de design doar pentru a încheia o afacere, ceea ce este greu de corectat pe un proiect cu ciclu lung, odată semnat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Test the intended fee structure with at least two real consultations before adjusting it.",
+            "ro": "Testează structura de onorarii intenționată cu cel puțin două consultații reale, înainte de a o ajusta."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.architectureStudio.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Deliver the first schematic design and design-development phases for the first signed client.",
+            "ro": "Livrează primele faze de design schematic și de dezvoltare a designului, pentru primul client semnat."
+          }
+        ],
+        "kpis": ["grossMargin"],
+        "commonMistakes": [
+          {
+            "en": "Skipping a formal site and lot analysis before starting schematic design, leading to costly revisions later.",
+            "ro": "Sărirea peste o analiză formală a terenului, înainte de a începe designul schematic, ceea ce duce la revizuiri costisitoare ulterior."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Complete a thorough site and lot analysis and programming session before starting any schematic drawings.",
+            "ro": "Finalizează o analiză temeinică a terenului și o sesiune de programare, înainte de a începe orice desen schematic."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.architectureStudio.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish the first completed project on the portfolio site and formalize a referral ask with the general contractor involved.",
+            "ro": "Publică primul proiect finalizat pe site-ul de portofoliu și oficializează o cerere de recomandare cu antreprenorul general implicat."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Publishing renderings instead of real completed-project photography, which undermines credibility with prospective clients.",
+            "ro": "Publicarea de randări în loc de fotografii reale ale proiectului finalizat, ceea ce subminează credibilitatea în fața potențialilor clienți."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Commission professional photography of the first completed project before publishing it.",
+            "ro": "Comandă fotografii profesionale ale primului proiect finalizat, înainte de a-l publica."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.architectureStudio.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Complete construction-administration close-out for the first project and request a formal referral.",
+            "ro": "Finalizează închiderea administrării construcției pentru primul proiect și solicită o recomandare formală."
+          }
+        ],
+        "kpis": ["customerRetention"],
+        "commonMistakes": [
+          {
+            "en": "Ending the relationship at project handover instead of requesting a referral while the client relationship is still warm.",
+            "ro": "Încheierea relației la predarea proiectului, în loc să soliciți o recomandare cât timp relația cu clientul este încă activă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Request a referral and a testimonial immediately after the final construction-administration site visit.",
+            "ro": "Solicită o recomandare și o mărturie imediat după ultima vizită de administrare a construcției la șantier."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.architectureStudio.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Establish a steady referral pipeline from a small number of trusted contractors and real estate agents.",
+            "ro": "Stabilește o rețea constantă de recomandări de la un număr mic de antreprenori și agenți imobiliari de încredere."
+          }
+        ],
+        "kpis": ["closeRate", "grossMargin"],
+        "commonMistakes": [
+          {
+            "en": "Spreading referral-relationship effort too thin across too many contractors before any single relationship is proven.",
+            "ro": "Împrăștierea prea subțire a efortului de relație de recomandare, pe prea mulți antreprenori, înainte ca o singură relație să fie dovedită."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Deepen the relationship with the two or three contractors who've already produced qualified referrals.",
+            "ro": "Aprofundează relația cu cei doi sau trei antreprenori care au produs deja recomandări calificate."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.architectureStudio.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Grow project volume within the principal architect's sustainable concurrent-project capacity.",
+            "ro": "Crește volumul de proiecte în limita capacității sustenabile de proiecte simultane a arhitectului principal."
+          }
+        ],
+        "kpis": ["mrr"],
+        "commonMistakes": [
+          {
+            "en": "Accepting more concurrent projects than can be given proper design attention, risking quality and liability exposure.",
+            "ro": "Acceptarea mai multor proiecte simultane decât pot primi atenția de design corespunzătoare, riscând calitatea și expunerea la răspundere."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Set an explicit concurrent-project cap and hold to it even when referral volume increases.",
+            "ro": "Stabilește un plafon explicit de proiecte simultane și respectă-l chiar și atunci când volumul de recomandări crește."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.architectureStudio.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Hire the first licensed associate architect to take on a second concurrent project.",
+            "ro": "Angajează primul arhitect asociat licențiat, pentru a prelua un al doilea proiect simultan."
+          }
+        ],
+        "kpis": ["grossMargin"],
+        "commonMistakes": [
+          {
+            "en": "Hiring an associate architect before design standards and review processes are documented well enough to maintain quality.",
+            "ro": "Angajarea unui arhitect asociat înainte ca standardele de design și procesele de revizuire să fie documentate suficient de bine pentru a menține calitatea."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document design standards and the review process before the associate architect's first independent project.",
+            "ro": "Documentează standardele de design și procesul de revizuire, înainte de primul proiect independent al arhitectului asociat."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.architectureStudio.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand the referral network into an adjacent geographic area or a second housing typology (e.g. small multi-family).",
+            "ro": "Extinde rețeaua de recomandări într-o zonă geografică adiacentă sau o a doua tipologie de locuință (de ex. mici imobile multifamiliale)."
+          }
+        ],
+        "kpis": ["mrr"],
+        "commonMistakes": [
+          {
+            "en": "Expanding into a new geography before construction-administration travel logistics have been properly planned.",
+            "ro": "Extinderea într-o nouă zonă geografică, înainte ca logistica de deplasare pentru administrarea construcției să fie planificată corespunzător."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pilot the new geography or typology with a single project before committing to a broader referral push there.",
+            "ro": "Testează noua zonă geografică sau tipologie cu un singur proiect, înainte de a te angaja pentru o extindere mai amplă a recomandărilor acolo."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.architectureStudio.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Package the project portfolio, referral network, and associate-architect team for a potential acquisition by a larger design or design-build firm.",
+            "ro": "Pregătește portofoliul de proiecte, rețeaua de recomandări și echipa de arhitecți asociați, pentru o posibilă achiziție de către o firmă mai mare de design sau design-construcție."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Waiting until a buyer is at the table to start documenting the project portfolio and referral relationships.",
+            "ro": "Așteptarea apariției unui cumpărător pentru a începe documentarea portofoliului de proiecte și a relațiilor de recomandare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, ongoing documentation of completed projects and referral-source relationships so it's acquisition-ready at any time.",
+            "ro": "Menține o documentație curată și continuă a proiectelor finalizate și a relațiilor cu sursele de recomandare, astfel încât să fie pregătită pentru achiziție în orice moment."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.architectureStudio.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

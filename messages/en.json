@@ -8207,6 +8207,2394 @@
           "generationHints": "Keep every insight specific to solo-deliverable data pipeline and dashboard consulting — not generic BI-tool or software-consulting advice."
         }
       }
+    },
+    "marketingAgency": {
+      "financial": {
+        "revenueForecast": {
+          "notes": "Retainer count grows linearly as funnel audits convert; launch-sprint fees add lumpy upside on top of the compounding retainer base."
+        },
+        "breakEven": {
+          "notes": "Break-even is reached once four clients are on stable monthly retainers, covering the freelancer bench and tooling subscriptions."
+        },
+        "grossMargin": {
+          "notes": "Gross margin improves as the freelancer bench is used more efficiently across multiple concurrent retainer clients."
+        },
+        "netMargin": {
+          "notes": "Net margin assumes a lean solo-strategist structure with freelancer costs treated as a pass-through variable cost."
+        },
+        "scenarios": {
+          "conservative": "Two retainer clients at the low end of the pricing tier, covering fixed costs with minimal buffer.",
+          "expected": "Four to five retainer clients at blended pricing, with one launch-sprint project per quarter.",
+          "optimistic": "Eight or more retainer clients plus a steady stream of launch-sprint projects from referrals."
+        },
+        "risks": {
+          "risk1": "Marketing budgets are typically the first line item cut in a downturn, causing retainer churn independent of campaign performance.",
+          "risk2": "Proving ROI attribution across multi-channel campaigns is genuinely difficult, which can undermine renewal conversations even when results are strong."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as a genuine monthly retainer from the first signed client, not a project fee with an optional retainer bolted on afterward."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "The marketing team your Series A budget can actually afford — full-funnel demand generation without the agency-of-record price tag.",
+          "category": "Full-funnel marketing agency for early-stage B2B SaaS"
+        },
+        "brandPromise": "A board-ready growth number, owned by one accountable team, without hiring a full in-house department.",
+        "uvp": {
+          "statement": "One retainer covers content, paid acquisition, and lifecycle marketing — coordinated under a single strategist instead of scattered across freelancers.",
+          "diff1": "A free 30-minute funnel audit makes the sales conversation concrete before any contract is signed.",
+          "diff2": "Named case studies with real, verifiable metrics instead of generic agency claims."
+        },
+        "icp": {
+          "description": "Seed-to-Series-A B2B SaaS founders with a board-level growth mandate and no dedicated marketing hire yet.",
+          "firmographics": "5-40 employees, $500K-$5M ARR, venture-backed, no in-house marketing lead."
+        },
+        "personas": {
+          "persona1": {
+            "name": "The Post-Raise Founder",
+            "description": "Just closed a seed or Series A round and needs a credible pipeline number for the next board meeting."
+          },
+          "persona2": {
+            "name": "The Solo Growth Hire",
+            "description": "The company's first marketing hire, overwhelmed and looking for an execution partner rather than more strategy decks."
+          }
+        },
+        "painPoints": {
+          "point1": "The board is asking for a pipeline number that nobody on the team currently owns.",
+          "point2": "Marketing spend is scattered across freelancers with no single throughline or accountable owner."
+        },
+        "outcomes": {
+          "outcome1": "A predictable, reportable pipeline number to bring to the next board meeting.",
+          "outcome2": "One accountable team running content, paid, and lifecycle instead of five disconnected freelancers."
+        },
+        "messaging": {
+          "core": "Full-funnel marketing, run by one accountable team, priced for a Series A budget.",
+          "support1": "Every retainer opens with a free funnel audit — no scope is set before the numbers are on the table."
+        },
+        "brandVoice": {
+          "tone": "Data-literate and confident",
+          "attr1": "Direct",
+          "attr2": "Metrics-driven"
+        },
+        "contentPillars": {
+          "pillar1": "Named case studies with real before/after growth metrics",
+          "pillar2": "Practical funnel-audit frameworks founders can apply themselves"
+        },
+        "channelStrategy": "Founder-network referrals drive the majority of new retainers; published case-study content and LinkedIn thought leadership build secondary and experimental awareness.",
+        "community": {
+          "description": "An informal referral network of founder clients and their investor networks rather than a formal public community.",
+          "platform1": "LinkedIn"
+        },
+        "leadMagnets": {
+          "magnet1": "Free 30-minute funnel audit call"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Awareness",
+            "description": "A founder sees a named case study shared by a portfolio-mate or investor."
+          },
+          "stage2": {
+            "name": "Consideration",
+            "description": "The founder books the free 30-minute funnel audit call."
+          },
+          "stage3": {
+            "name": "Conversion",
+            "description": "The audit converts into a scoped retainer proposal with a three-month minimum commitment."
+          }
+        },
+        "retention": {
+          "tactic1": "A weekly reporting call and quarterly strategy reset keep the founder engaged with visible progress toward the board-level number."
+        },
+        "analytics": {
+          "metric1": "Retainer client count and monthly recurring revenue growth"
+        },
+        "aiMetadata": {
+          "generationHints": "Lead with specific named case studies and their exact before/after metrics, not generic full-funnel marketing language."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Set up CRM, ad accounts, and analytics tooling, and assemble an initial freelancer bench."
+          },
+          "deliverables": {
+            "0": "A working HubSpot CRM instance, connected ad accounts, and a shortlist of 3-5 vetted freelancers."
+          },
+          "checklist": {
+            "0": "Confirm ad account access and CRM automation flows before the first client call."
+          },
+          "commonMistakes": {
+            "0": "Signing the first retainer before the freelancer bench is lined up, leaving no delivery capacity."
+          },
+          "successCriteria": {
+            "0": "Tooling is live and at least three freelancers have confirmed availability."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft the initial CRM automation sequences, then review each one manually before activating."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Run funnel audits with 8-10 target founders to validate pricing and offer scope."
+          },
+          "deliverables": {
+            "0": "A validated retainer pricing tier and a documented funnel-audit script."
+          },
+          "checklist": {
+            "0": "Track how many audits convert into a paid proposal versus a polite decline."
+          },
+          "kpis": [
+            "closeRate"
+          ],
+          "commonMistakes": {
+            "0": "Under-pricing the first retainer just to close a deal, which then becomes hard to renegotiate later."
+          },
+          "successCriteria": {
+            "0": "At least two founders accept a proposal at the intended retainer price."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to summarize patterns across audit calls and refine the funnel-audit script."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Deliver the first full monthly retainer cycle for the first signed client."
+          },
+          "deliverables": {
+            "0": "One completed content-calendar sprint, one paid campaign live, and one reporting call delivered."
+          },
+          "checklist": {
+            "0": "Confirm the freelancer bench delivered on time for the first sprint."
+          },
+          "kpis": [
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Over-promising channel coverage in month one before the operating rhythm is proven."
+          },
+          "successCriteria": {
+            "0": "The first client completes a full monthly cycle without a scope dispute."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted content drafting to keep the first content-calendar sprint on schedule."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publish the first named case study and formalize the referral ask with existing clients."
+          },
+          "deliverables": {
+            "0": "A published case study with real, named metrics and a referral request sent to every active client."
+          },
+          "checklist": {
+            "0": "Get written client permission before naming any metrics publicly."
+          },
+          "commonMistakes": {
+            "0": "Publishing vague, unnamed results that fail to differentiate from generic agency marketing."
+          },
+          "successCriteria": {
+            "0": "The case study generates at least one qualified inbound funnel-audit booking."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft the case-study narrative, then verify every metric against the client's actual reporting data."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Retain the first client past the three-month minimum commitment."
+          },
+          "deliverables": {
+            "0": "A renewed retainer agreement beyond the initial three-month term."
+          },
+          "checklist": {
+            "0": "Hold the quarterly strategy reset before the three-month mark to surface renewal risk early."
+          },
+          "kpis": [
+            "customerRetention"
+          ],
+          "commonMistakes": {
+            "0": "Waiting until the renewal conversation to address a client's concerns instead of surfacing them earlier."
+          },
+          "successCriteria": {
+            "0": "The first client renews for at least a second three-month term."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to flag underperforming campaign segments early enough to course-correct before the renewal conversation."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach four to five concurrent retainer clients with a repeatable funnel-audit-to-close process."
+          },
+          "deliverables": {
+            "0": "A documented, repeatable sales process from funnel audit to signed retainer."
+          },
+          "checklist": {
+            "0": "Confirm the close rate holds steady across at least ten consecutive funnel audits."
+          },
+          "kpis": [
+            "closeRate",
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Taking on a client outside the ICP just to hit a revenue target, diluting case-study consistency."
+          },
+          "successCriteria": {
+            "0": "Four or more clients are on stable retainers with a documented, repeatable sales process."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to identify which ICP segment produces the highest close rate and double down there."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Grow monthly recurring revenue by expanding the freelancer bench to support more concurrent clients."
+          },
+          "deliverables": {
+            "0": "An expanded freelancer bench with documented onboarding checklists for design and copy roles."
+          },
+          "checklist": {
+            "0": "Confirm bench capacity before accepting a new retainer client."
+          },
+          "kpis": [
+            "mrr"
+          ],
+          "commonMistakes": {
+            "0": "Growing client count faster than the freelancer bench can support, degrading delivery quality."
+          },
+          "successCriteria": {
+            "0": "Monthly recurring revenue grows for three consecutive months without a delivery-quality complaint."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted campaign-optimization suggestions to keep quality consistent as client count grows."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Hire a second in-house strategist and productize the launch-sprint offer as a standalone entry point."
+          },
+          "deliverables": {
+            "0": "A second strategist onboarded, and a standalone launch-sprint offer documented and priced."
+          },
+          "checklist": {
+            "0": "Confirm the second strategist can independently run a funnel audit before handing off client ownership."
+          },
+          "kpis": [
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Hiring a second strategist before the sales process is documented well enough to train against."
+          },
+          "successCriteria": {
+            "0": "The second strategist independently manages at least two retainer clients."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to turn the founder's funnel-audit script into a training document for the new strategist."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Expand into an adjacent vertical or company-stage segment beyond the original ICP."
+          },
+          "deliverables": {
+            "0": "A documented case study and pricing tier for the new segment."
+          },
+          "checklist": {
+            "0": "Validate the new segment with at least three funnel audits before committing marketing spend to it."
+          },
+          "kpis": [
+            "mrr"
+          ],
+          "commonMistakes": {
+            "0": "Diluting the core ICP positioning while chasing an adjacent segment that doesn't yet have proof."
+          },
+          "successCriteria": {
+            "0": "The new segment produces at least one signed retainer and a documented case study."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to compare funnel-audit conversion rates between the original ICP and the new segment before scaling spend."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Package the client roster, case studies, and sales process for a potential acquisition by a larger agency."
+          },
+          "deliverables": {
+            "0": "A documented client book, renewal history, and repeatable funnel-audit sales process ready for due diligence."
+          },
+          "checklist": {
+            "0": "Confirm client contracts are transferable before entering acquisition conversations."
+          },
+          "commonMistakes": {
+            "0": "Waiting until a buyer is at the table to start documenting the sales process and client history."
+          },
+          "successCriteria": {
+            "0": "A qualified acquirer completes due diligence based on the documented client book and process."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to compile historical campaign performance data into a due-diligence-ready summary."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep generated tone data-literate and confident — always ground claims in named case studies and concrete metrics."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "This Is Marketing by Seth Godin",
+          "description": "A foundational read on building genuine trust and positioning before running a single campaign."
+        },
+        "item2": {
+          "title": "HubSpot Academy Inbound Marketing Certification",
+          "description": "A free, practical course covering CRM-driven lifecycle marketing fundamentals."
+        },
+        "item3": {
+          "title": "Demand Curve Community",
+          "description": "An active community of B2B growth marketers sharing tactics and benchmarks."
+        },
+        "item4": {
+          "title": "Marketing Against the Grain",
+          "description": "A podcast on modern B2B demand-generation tactics from practicing operators."
+        },
+        "item5": {
+          "title": "Lenny's Newsletter",
+          "description": "A widely-read newsletter covering growth and product-marketing case studies relevant to SaaS clients."
+        },
+        "item6": {
+          "title": "HubSpot",
+          "description": "CRM and lifecycle marketing automation platform used to run client campaigns."
+        },
+        "item7": {
+          "title": "Semrush",
+          "description": "SEO and competitive research tooling used during the free funnel audit."
+        },
+        "item8": {
+          "title": "Jasper",
+          "description": "AI-assisted content drafting tool used to accelerate the content-calendar sprint."
+        },
+        "item9": {
+          "title": "HubSpot Inbound Marketing Certification",
+          "description": "A recognized certification that strengthens credibility during founder-facing sales conversations."
+        },
+        "item10": {
+          "title": "SaaStr Annual",
+          "description": "A major B2B SaaS founder event valuable for direct referral-network building."
+        },
+        "item11": {
+          "title": "A fractional CMO advisor network",
+          "description": "A network of experienced fractional CMOs available for referral partnerships and overflow strategy work."
+        },
+        "item12": {
+          "title": "Monthly Retainer Onboarding Checklist",
+          "description": "A checklist ensuring every new retainer client is fully onboarded into CRM, reporting, and the content calendar within the first two weeks."
+        },
+        "aiMetadata": {
+          "generationHints": "Recommend resources that reinforce a data-literate, metrics-first approach to B2B demand generation, not generic marketing advice."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Portfolio-wide referrals from a single venture fund can produce several clients from one satisfied founder."
+          },
+          "item2": {
+            "title": "A productized launch-sprint offer can become a lower-commitment entry point that upsells into the full retainer."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A single large client leaving can wipe out a meaningful share of monthly recurring revenue at this stage of the business."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Skipping the three-month minimum commitment to close a hesitant client, then losing them before the funnel has time to compound."
+          },
+          "item2": {
+            "title": "Taking on a client outside the core ICP just to hit a short-term revenue target."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Publishing one named case study with real metrics typically outperforms months of generic content marketing."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Document the funnel-audit script before hiring a second strategist so quality doesn't depend on the founder alone."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Treat the free funnel audit as the actual product demo — it's the single highest-leverage 30 minutes in the sales process."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clients who complete a full quarterly strategy reset renew at a meaningfully higher rate than those who skip it."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Most churn in this business happens from unmanaged expectations, not from actual campaign underperformance."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Freelancer bench retainer fees during slow months can quietly erode margin if capacity isn't matched to active client load."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "A rising volume of inbound funnel-audit requests from a specific investor's portfolio signals a referral relationship worth formalizing."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A client's board-reported pipeline number doubling within two retainer cycles became the agency's strongest referral driver."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A client who insisted on skipping the funnel audit and set their own scope churned within the first two months."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Why require a three-month minimum commitment?",
+            "answer": "Full-funnel marketing needs at least one full cycle to show real results — judging performance before then leads to premature and unfair churn decisions."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "A marketing agency's only job is running ads.",
+            "fact": "The highest-value work is coordinating content, paid, and lifecycle together — ads alone rarely move a board-level pipeline number."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Hold the quarterly strategy reset before, not after, a client shows signs of disengagement."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Emphasize that most risk in this business is relationship and expectation management, not campaign execution skill."
+        }
+      },
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"Contagious: Why Things Catch On\" by Jonah Berger",
+          "course1": "Course: HubSpot Academy Inbound Marketing Certification",
+          "community1": "Community: Demand Curve Community",
+          "checklist1": "Checklist: Monthly Retainer Onboarding Checklist"
+        }
+      }
+    },
+    "ecommerceBrand": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"Different: Escaping the Competitive Herd\" by Youngme Moon",
+          "course1": "Course: Shopify Compass Ecommerce Fundamentals",
+          "community1": "Community: Ecommerce Fuel Community",
+          "checklist1": "Checklist: New Collection Launch Checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Revenue starts slow while the first inventory run sells through, then accelerates as repeat-purchase and gifting-season cohorts compound on top of new-customer acquisition."
+        },
+        "breakEven": {
+          "notes": "Break-even is reached once the first collection's inventory investment is recovered and monthly repeat-purchase revenue covers ongoing ad spend and fulfillment fees."
+        },
+        "grossMargin": {
+          "notes": "Gross margin holds moderate as direct-to-consumer pricing offsets paid-acquisition and inventory carrying costs."
+        },
+        "netMargin": {
+          "notes": "Net margin assumes a lean solo-founder structure with fulfillment outsourced to a third-party logistics partner."
+        },
+        "scenarios": {
+          "conservative": "The first collection sells through slowly with a thin early repeat-purchase base and modest ad spend.",
+          "expected": "The first collection sells through within the target window and a second collection launches on schedule.",
+          "optimistic": "Strong gifting-season demand plus early wholesale interest accelerates the second collection and a bridal line."
+        },
+        "risks": {
+          "risk1": "Capital tied up in unsold inventory can strain cash flow if a collection sells more slowly than forecast.",
+          "risk2": "Rising Meta and Google ad costs can erode margins faster than pricing or repeat-purchase rate can compensate."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as slow-building direct sales that accelerate through repeat purchases and gifting-season spikes, with cash flow gated by inventory production cycles."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Fine jewelry, made to keep — not to trend. Ethically-sourced, lab-grown pieces designed for daily wear, not just gift-wrap moments.",
+          "category": "Direct-to-consumer fine jewelry brand"
+        },
+        "brandPromise": "A piece you'll still wear in five years, sourced with a clear conscience and backed by a no-risk try-at-home window.",
+        "uvp": {
+          "statement": "Ethically-sourced, lab-grown fine jewelry designed for everyday wear, with a 30-day try-at-home window and free resizing that removes the risk of buying sight unseen.",
+          "diff1": "A free 30-day try-at-home return window with complimentary resizing.",
+          "diff2": "A verifiable ethically-sourced, lab-grown materials story, not a vague sustainability claim."
+        },
+        "icp": {
+          "description": "Design-conscious professional women aged 28-45 buying fine jewelry for themselves or as a considered gift, who care about material provenance.",
+          "firmographics": "Urban and suburban professionals, household income above $75K, active on Instagram and TikTok, prior online-shopping comfort with considered-purchase categories."
+        },
+        "personas": {
+          "persona1": {
+            "name": "The Self-Purchaser",
+            "description": "Buys herself a meaningful piece to mark a personal milestone, and cares as much about the materials story as the design."
+          },
+          "persona2": {
+            "name": "The Considered Gifter",
+            "description": "Buying for a partner or close friend, wants a piece that reads as thoughtful and higher-quality than mass-market costume jewelry."
+          }
+        },
+        "painPoints": {
+          "point1": "Uncertain about ring or chain sizing when buying online, without ever having tried the piece on.",
+          "point2": "Distrustful of vague 'ethically sourced' claims from mass-market jewelry brands with no verifiable sourcing story."
+        },
+        "outcomes": {
+          "outcome1": "A piece that fits perfectly on arrival, or free resizing if it doesn't.",
+          "outcome2": "Confidence that the materials are genuinely ethically-sourced, not just marketing language."
+        },
+        "messaging": {
+          "core": "Fine jewelry, made to keep — not to trend.",
+          "support1": "Every piece ships with a 30-day try-at-home window and free resizing, so there's no risk in buying without trying it on first."
+        },
+        "brandVoice": {
+          "tone": "Warm and design-confident",
+          "attr1": "Craft-focused",
+          "attr2": "Honest about materials"
+        },
+        "contentPillars": {
+          "pillar1": "Real customer UGC showing pieces worn in daily life",
+          "pillar2": "Behind-the-scenes sourcing and craft stories about lab-grown materials"
+        },
+        "channelStrategy": "Micro-influencer and UGC seeding drives primary discovery; Meta and Google Shopping ads convert warmed audiences; email and SMS lifecycle flows drive repeat purchases from the existing customer list.",
+        "community": {
+          "description": "An informal community of repeat customers who share styling photos and collection previews rather than a formal public forum.",
+          "platform1": "Instagram"
+        },
+        "leadMagnets": {
+          "magnet1": "Free ring-sizing guide and virtual try-on tool"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Awareness",
+            "description": "A prospective customer sees a piece worn in an influencer's or friend's UGC post."
+          },
+          "stage2": {
+            "name": "Consideration",
+            "description": "She browses the catalog, reads the sourcing story, and checks the sizing guide."
+          },
+          "stage3": {
+            "name": "Conversion",
+            "description": "She checks out online, reassured by the 30-day try-at-home window and free resizing."
+          }
+        },
+        "retention": {
+          "tactic1": "Post-purchase email flows introduce the next collection drop and reward repeat purchases with early access."
+        },
+        "analytics": {
+          "metric1": "Repeat-purchase rate and blended customer acquisition cost"
+        },
+        "aiMetadata": {
+          "generationHints": "Lead with real customer UGC and influencer content showing pieces worn in daily life, not staged studio-only product shots."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Finalize the first collection design, source lab-grown materials, and set up the ecommerce platform and fulfillment partner."
+          },
+          "deliverables": {
+            "0": "A finalized first-collection design file and a signed sourcing agreement with a lab-grown materials supplier."
+          },
+          "checklist": {
+            "0": "Confirm supplier quality-control standards before committing to a full production run."
+          },
+          "commonMistakes": {
+            "0": "Producing too large an initial inventory run before the design is validated with real customer feedback."
+          },
+          "successCriteria": {
+            "0": "A pilot production run is ready to ship to an early-access list."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted photo editing to prepare pilot-run product images ahead of the full catalog shoot."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Sell the pilot production run directly to an early-access list to validate pricing and design appeal."
+          },
+          "deliverables": {
+            "0": "A validated price point and a documented early-access sales conversion rate."
+          },
+          "checklist": {
+            "0": "Track how many early-access buyers convert at full price versus only at a discount."
+          },
+          "kpis": [
+            "closeRate"
+          ],
+          "commonMistakes": {
+            "0": "Discounting heavily to move the pilot run, which distorts the true demand signal for the next production decision."
+          },
+          "successCriteria": {
+            "0": "The pilot run sells through at full intended price within the early-access list."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze early-access purchase patterns and flag which SKUs are underperforming."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Launch the full first collection on the live storefront with complete product photography and the try-at-home return policy."
+          },
+          "deliverables": {
+            "0": "A live storefront with the full first collection, complete photography, and a published returns policy."
+          },
+          "checklist": {
+            "0": "Confirm the 30-day try-at-home policy and resizing process are clearly published before launch."
+          },
+          "kpis": [
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Launching without a clear returns and sizing policy, which drives up customer-service load and refund rates."
+          },
+          "successCriteria": {
+            "0": "The storefront processes its first order without a returns-policy dispute."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted photo editing to keep catalog production on schedule for launch."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Drive initial traffic through influencer and UGC seeding, and launch the first paid-ad campaigns."
+          },
+          "deliverables": {
+            "0": "A seeded group of micro-influencers with organic posts live, and the first paid-ad campaigns launched."
+          },
+          "checklist": {
+            "0": "Confirm organic UGC response before scaling paid-ad spend behind it."
+          },
+          "commonMistakes": {
+            "0": "Spending heavily on paid ads before organic UGC and influencer content has validated which pieces resonate."
+          },
+          "successCriteria": {
+            "0": "At least one piece shows clear organic UGC traction before paid spend scales."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to identify which UGC content style drives the highest engagement before allocating paid budget."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Convert the first wave of buyers into repeat customers through post-purchase email lifecycle flows."
+          },
+          "deliverables": {
+            "0": "An automated post-purchase email flow live for all first-wave customers."
+          },
+          "checklist": {
+            "0": "Confirm the post-purchase flow includes a review request and a preview of the next collection."
+          },
+          "kpis": [
+            "customerRetention"
+          ],
+          "commonMistakes": {
+            "0": "Treating the first sale as the end of the relationship instead of the start of a lifecycle-marketing sequence."
+          },
+          "successCriteria": {
+            "0": "At least one repeat purchase occurs from the first-wave customer list."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to personalize post-purchase email content based on the specific piece purchased."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Identify which pieces and price points drive the highest repeat-purchase rate and double down on them in future collections."
+          },
+          "deliverables": {
+            "0": "A documented ranking of best-selling and highest-repeat-rate SKUs."
+          },
+          "checklist": {
+            "0": "Confirm at least one full sales cycle of data before retiring any underperforming SKU."
+          },
+          "kpis": [
+            "closeRate",
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Expanding the catalog too broadly before a clear best-selling core has been identified."
+          },
+          "successCriteria": {
+            "0": "A clear best-selling core of SKUs is identified and reflected in the next production order."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze which product attributes (price, material, style) correlate most with repeat purchases."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Grow monthly revenue by scaling proven paid-ad campaigns and expanding the email/SMS lifecycle program."
+          },
+          "deliverables": {
+            "0": "A scaled paid-ad budget behind proven campaigns and an expanded SMS lifecycle program."
+          },
+          "checklist": {
+            "0": "Confirm inventory production timelines can support the planned ad-spend increase before scaling."
+          },
+          "kpis": [
+            "mrr"
+          ],
+          "commonMistakes": {
+            "0": "Scaling ad spend faster than inventory production capacity can support, leading to stockouts on bestsellers."
+          },
+          "successCriteria": {
+            "0": "Monthly revenue grows for three consecutive months without a bestseller stockout."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted demand forecasting to time production orders against planned ad-spend increases."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Launch a second product line, such as a bridal/wedding collection, and formalize wholesale partnerships with boutiques."
+          },
+          "deliverables": {
+            "0": "A launched second product line and at least one signed wholesale boutique agreement."
+          },
+          "checklist": {
+            "0": "Validate the second product line with a small pilot batch before committing to full wholesale production."
+          },
+          "kpis": [
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Diluting brand positioning by launching a second line before the core collection has a clear, proven identity."
+          },
+          "successCriteria": {
+            "0": "The second product line generates its first wholesale order."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to identify which existing customers show the highest affinity for the new product line before marketing it broadly."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Expand into new geographic markets or additional wholesale boutique channels beyond the initial direct-to-consumer base."
+          },
+          "deliverables": {
+            "0": "A documented shipping and fulfillment plan for at least one new geographic market."
+          },
+          "checklist": {
+            "0": "Validate new-market shipping costs and return logistics with a limited SKU set before a full international rollout."
+          },
+          "kpis": [
+            "mrr"
+          ],
+          "commonMistakes": {
+            "0": "Expanding shipping to new regions before fulfillment costs and return logistics are properly modeled."
+          },
+          "successCriteria": {
+            "0": "The new market generates its first completed order and return cycle without a logistics failure."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to model landed cost and delivery time for candidate new markets before committing to expansion."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Package the brand's customer list, repeat-purchase data, and wholesale relationships for a potential acquisition by a larger consumer-goods company."
+          },
+          "deliverables": {
+            "0": "A documented customer-cohort report, repeat-purchase data, and wholesale relationship summary ready for due diligence."
+          },
+          "checklist": {
+            "0": "Confirm customer data and supplier agreements are transferable before entering acquisition conversations."
+          },
+          "commonMistakes": {
+            "0": "Waiting until a buyer is at the table to start documenting customer cohort and retention data."
+          },
+          "successCriteria": {
+            "0": "A qualified acquirer completes due diligence based on the documented customer and wholesale data."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to compile historical cohort and repeat-purchase data into a due-diligence-ready summary."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep generated tone warm and design-confident — describe pieces the way an experienced jewelry brand founder would, grounded in materials and craft."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Different: Escaping the Competitive Herd by Youngme Moon",
+          "description": "A sharp argument for genuine brand differentiation over feature-for-feature competition, directly relevant to standing out in a crowded jewelry market."
+        },
+        "item2": {
+          "title": "Shopify Compass Ecommerce Fundamentals",
+          "description": "A free, practical course covering ecommerce store setup, checkout optimization, and fulfillment basics."
+        },
+        "item3": {
+          "title": "Ecommerce Fuel Community",
+          "description": "An active community of independent ecommerce brand founders sharing tactics on paid ads, retention, and fulfillment."
+        },
+        "item4": {
+          "title": "The Business of Fashion Podcast",
+          "description": "A podcast covering brand-building and direct-to-consumer strategy across the fashion and jewelry industry."
+        },
+        "item5": {
+          "title": "Modern Retail Newsletter",
+          "description": "A newsletter tracking direct-to-consumer brand strategy, paid-acquisition trends, and retention tactics."
+        },
+        "item6": {
+          "title": "Shopify",
+          "description": "Ecommerce platform used to run the storefront, checkout, and order management."
+        },
+        "item7": {
+          "title": "Klaviyo",
+          "description": "Email and SMS lifecycle marketing platform used for post-purchase flows and gifting-season campaigns."
+        },
+        "item8": {
+          "title": "Loox",
+          "description": "AI-assisted reviews and user-generated-content collection tool used to build social proof on product pages."
+        },
+        "item9": {
+          "title": "Shopify Compass Ecommerce Certification",
+          "description": "A recognized certification that strengthens operational credibility when negotiating with suppliers and wholesale partners."
+        },
+        "item10": {
+          "title": "NY NOW Jewelry & Accessories Market",
+          "description": "A major trade event valuable for sourcing relationships and early wholesale boutique connections."
+        },
+        "item11": {
+          "title": "A network of ethical gemstone and lab-grown-diamond suppliers",
+          "description": "A vetted supplier network for sourcing ethically-produced materials with verifiable provenance documentation."
+        },
+        "item12": {
+          "title": "New Collection Launch Checklist",
+          "description": "A checklist covering supplier QC sign-off, photography, catalog updates, and email/ad sequencing before any new collection goes live."
+        },
+        "aiMetadata": {
+          "generationHints": "Recommend resources that reinforce a materials-honest, design-confident approach to direct-to-consumer jewelry, not generic ecommerce growth-hacking advice."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Corporate gifting bulk orders around the holidays can smooth otherwise seasonal revenue with a predictable B2B-adjacent channel."
+          },
+          "item2": {
+            "title": "A documented sourcing story can itself become shareable content, reducing reliance on paid ads for discovery."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A single slow-moving collection can tie up enough working capital to delay the next production run and stall growth."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Over-producing the first collection before real demand is validated with a small pilot batch."
+          },
+          "item2": {
+            "title": "Launching without a clearly published sizing and returns policy, which drives up customer-service load."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Publishing real customer UGC typically outperforms professionally staged studio photography for driving conversions."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Validate a second product line with a small pilot batch before committing to a full wholesale production run."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Treat the 30-day try-at-home window as the actual product demo — it does more to convert hesitant buyers than any ad creative."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Customers who request a resizing convert to a second purchase at a meaningfully higher rate than those who don't."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Most fine-jewelry returns are driven by sizing uncertainty, not dissatisfaction with the piece itself."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Free resizing and return shipping costs can quietly erode margin if not priced into the original product cost."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "A rising volume of gifting-season bulk inquiries from the same corporate buyer signals a wholesale relationship worth formalizing."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A limited-edition collection drop that sold out within 48 hours became the brand's strongest organic UGC driver."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A brand that skipped the pilot batch and over-produced its first full collection was left carrying unsold inventory for two quarters."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Why offer a 30-day try-at-home window on fine jewelry?",
+            "answer": "Buying jewelry online without trying it on is the single biggest hesitation for this customer — removing that risk converts far more browsers into buyers than any discount would."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Direct-to-consumer jewelry brands only compete on price.",
+            "fact": "The strongest differentiator is a verifiable materials and sourcing story — price alone invites a race to the bottom against mass-market competitors."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Validate every new SKU with a small pilot batch before committing capital to a full production run."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Emphasize that most risk in this business is inventory and cash-flow management, not creative or design skill."
+        }
+      }
+    },
+    "coachingBusiness": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"The Making of a Manager\" by Julie Zhuo",
+          "course1": "Course: International Coaching Federation (ICF) Associate Certified Coach Certification",
+          "community1": "Community: r/managers and the Rands Leadership Slack",
+          "checklist1": "Checklist: First-Time-Manager Discovery Call Checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Revenue builds through package-based sales that compound as corporate contracts renew across quarterly cycles, with a genuinely high margin once certification and setup costs are covered."
+        },
+        "breakEven": {
+          "notes": "Break-even is reached once the first two or three coaching packages are signed, given the naturally low ongoing cost base of a time-based service."
+        },
+        "grossMargin": {
+          "notes": "Gross margin stays very high since the core cost is the coach's own time rather than materials or tooling."
+        },
+        "netMargin": {
+          "notes": "Net margin assumes a lean solo-founder structure with minimal recurring tooling costs."
+        },
+        "scenarios": {
+          "conservative": "A handful of individual-pay clients with no company-sponsored contract yet.",
+          "expected": "Two to three company-sponsored contracts renewing quarterly, plus a small individual-pay client base.",
+          "optimistic": "A full quarterly calendar of company-sponsored contracts plus a successful first cohort of the group coaching program."
+        },
+        "risks": {
+          "risk1": "Corporate L&D and training budgets are often among the first line items cut in a downturn, directly threatening company-sponsored contracts.",
+          "risk2": "The founder's own calendar is the hard ceiling on 1:1 revenue — growth requires a genuine business-model shift, not just more hours."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as package-based sales with quarterly renewal cycles for company-sponsored engagements, recognizing the founder's own calendar as the hard capacity ceiling."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "The management training your promotion didn't come with — practical leadership coaching for first-time managers at fast-growing tech companies.",
+          "category": "Executive coaching for first-time managers"
+        },
+        "brandPromise": "A manager who knows exactly how to handle the situation in front of them, not a binder of generic leadership theory.",
+        "uvp": {
+          "statement": "One-on-one coaching for first-time managers at fast-growing tech companies, grounded in real management experience, starting with a free discovery call that clarifies specific leadership gaps.",
+          "diff1": "A free discovery call that surfaces concrete leadership gaps before any commitment.",
+          "diff2": "Package-based pricing that gives a corporate budget-holder a predictable, invoiceable cost."
+        },
+        "icp": {
+          "description": "HR and L&D leaders at fast-growing tech companies sponsoring coaching for newly-promoted first-time managers, alongside the managers themselves.",
+          "firmographics": "50-500 employee tech and scaleup companies with an active L&D budget and a steady stream of individual-contributor-to-manager promotions."
+        },
+        "personas": {
+          "persona1": {
+            "name": "The First-Time Manager",
+            "description": "Recently promoted from an individual-contributor role and unsure how to handle their first difficult team conversation."
+          },
+          "persona2": {
+            "name": "The L&D Sponsor",
+            "description": "An HR or People Ops leader looking for a credible, provable way to support a wave of new managers without building an internal training program from scratch."
+          }
+        },
+        "painPoints": {
+          "point1": "A newly-promoted manager who doesn't know how to handle a specific, real team situation.",
+          "point2": "An HR sponsor skeptical of vague, unproven coaching claims with no clear outcome measurement."
+        },
+        "outcomes": {
+          "outcome1": "Confidence handling real team situations instead of generic leadership theory.",
+          "outcome2": "A provable, quarter-over-quarter outcome the HR sponsor can report up to their own leadership."
+        },
+        "messaging": {
+          "core": "The management training your promotion didn't come with.",
+          "support1": "Every engagement starts with a free discovery call that clarifies the specific leadership gaps to work on, not a generic curriculum."
+        },
+        "brandVoice": {
+          "tone": "Grounded and practical",
+          "attr1": "Direct",
+          "attr2": "Credible"
+        },
+        "contentPillars": {
+          "pillar1": "Real first-time-manager scenarios and how to handle them",
+          "pillar2": "Practical frameworks for the specific conversations new managers dread"
+        },
+        "channelStrategy": "LinkedIn thought-leadership content builds primary awareness among managers and HR leaders; HR/L&D buyer referrals from successful engagements build secondary trust; lunch-and-learn webinars generate experimental warm introductions.",
+        "community": {
+          "description": "An informal network of HR and L&D sponsors and coaching alumni who refer new engagements, rather than a formal public community.",
+          "platform1": "LinkedIn"
+        },
+        "leadMagnets": {
+          "magnet1": "Free lunch-and-learn webinar on first-time-manager pitfalls"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Awareness",
+            "description": "An HR leader or manager sees a LinkedIn post breaking down a real first-time-manager scenario."
+          },
+          "stage2": {
+            "name": "Consideration",
+            "description": "They book a free 20-minute discovery call to discuss specific leadership gaps."
+          },
+          "stage3": {
+            "name": "Conversion",
+            "description": "The discovery call converts into a proposed coaching package, sold directly or invoiced to the L&D budget."
+          }
+        },
+        "retention": {
+          "tactic1": "A mid-engagement progress summary shared with the HR sponsor builds the case for renewal before the conversation even starts."
+        },
+        "analytics": {
+          "metric1": "Discovery-call-to-signed-package close rate and quarterly contract renewal rate"
+        },
+        "aiMetadata": {
+          "generationHints": "Lead with specific, real first-time-manager scenarios and how to handle them, not generic 'unlock your leadership potential' language."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The Making of a Manager by Julie Zhuo",
+          "description": "A practical, grounded account of the real challenges first-time managers face, directly relevant to this coaching niche."
+        },
+        "item2": {
+          "title": "International Coaching Federation (ICF) Associate Certified Coach Certification",
+          "description": "A recognized coaching certification that builds credibility with corporate L&D buyers."
+        },
+        "item3": {
+          "title": "Rands Leadership Slack Community",
+          "description": "An active community of engineering and tech managers discussing real leadership challenges."
+        },
+        "item4": {
+          "title": "Manager Tools Podcast",
+          "description": "A long-running podcast covering practical, tactical management skills relevant to first-time managers."
+        },
+        "item5": {
+          "title": "First Round Review Newsletter",
+          "description": "A newsletter covering management and leadership case studies from operators at growth-stage tech companies."
+        },
+        "item6": {
+          "title": "Calendly",
+          "description": "Scheduling tool used to book discovery calls and coaching sessions."
+        },
+        "item7": {
+          "title": "Zoom",
+          "description": "Video-conferencing platform used to deliver all coaching sessions remotely."
+        },
+        "item8": {
+          "title": "An AI-assisted session-notes tool",
+          "description": "An AI tool that transcribes and summarizes coaching sessions, freeing the coach to stay fully present in the conversation."
+        },
+        "item9": {
+          "title": "ICF Associate Certified Coach Certification",
+          "description": "A recognized certification that strengthens credibility when selling into a corporate L&D budget."
+        },
+        "item10": {
+          "title": "ATD International Conference & Expo",
+          "description": "A major talent-development trade event valuable for building HR and L&D buyer relationships."
+        },
+        "item11": {
+          "title": "A network of fellow executive coaches",
+          "description": "A referral network of coaches with adjacent specialties for cross-referrals and overflow capacity."
+        },
+        "item12": {
+          "title": "First-Time-Manager Discovery Call Checklist",
+          "description": "A checklist covering the questions and qualification criteria for a productive discovery call with a manager or their HR sponsor."
+        },
+        "aiMetadata": {
+          "generationHints": "Recommend resources that reinforce a grounded, practical approach to first-time-manager coaching, not generic motivational leadership content."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "A successful engagement with one manager at a company often surfaces two or three more candidates from the same HR sponsor."
+          },
+          "item2": {
+            "title": "A documented before/after outcome from one engagement can become the centerpiece of the next corporate sales conversation."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A single large corporate contract ending can remove a meaningful share of monthly revenue at this stage of the business."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Pricing the first package too low just to close a deal, which becomes hard to renegotiate at renewal."
+          },
+          "item2": {
+            "title": "Taking on a client whose leadership gaps don't match the coach's actual expertise, just to hit a revenue target."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Publishing one concrete before/after coaching outcome typically outperforms months of generic motivational content."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Document the coaching methodology and quality standards before onboarding the first associate coach."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Treat the free discovery call as the actual product demo — it's the single highest-leverage 20 minutes in the sales process."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Company-sponsored contracts that include a mid-engagement progress check-in with the manager's supervisor renew at a meaningfully higher rate."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Most coaching-engagement churn happens from unclear expectations at the outset, not from poor coaching quality."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Professional liability insurance and periodic recertification costs can quietly add up if not budgeted for from the start."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "A rising volume of promotion-related discovery-call requests from the same company signals a wave of new managers worth proposing a cohort program for."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A first-time manager's team engagement scores improving within one quarter became the coach's strongest referral driver with that company's HR team."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A coach who skipped the discovery call and applied a one-size-fits-all curriculum saw the engagement end without renewal."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Why does every engagement start with a free discovery call?",
+            "answer": "Every first-time manager's specific gaps are different — a generic curriculum without a discovery call rarely produces a result worth renewing for."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Leadership coaching is just generic motivational talk.",
+            "fact": "Effective coaching for first-time managers is grounded in real, specific team scenarios — the same rigor a good manager would apply to any other skill."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Share progress data with the HR sponsor throughout the engagement, not just at the renewal conversation."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Emphasize that most risk in this business is calendar capacity and budget-holder trust, not coaching skill itself."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Complete a coaching certification, set up scheduling and video tooling, and build a simple booking site."
+          },
+          "deliverables": {
+            "0": "A completed coaching certification and a live booking site with scheduling and video tooling connected."
+          },
+          "checklist": {
+            "0": "Confirm the coaching certification is recognized by corporate L&D buyers before launch."
+          },
+          "commonMistakes": {
+            "0": "Skipping formal coaching certification, which undermines credibility with corporate L&D buyers who expect it."
+          },
+          "successCriteria": {
+            "0": "The booking site is live and ready to take the first discovery call."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft the initial discovery-call script, then refine it after the first few real calls."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Run free discovery calls with 8-10 target managers or their HR sponsors to validate the offer and pricing."
+          },
+          "deliverables": {
+            "0": "A validated package price and a documented discovery-call conversion rate."
+          },
+          "checklist": {
+            "0": "Track how many discovery calls convert into a signed package versus a polite decline."
+          },
+          "commonMistakes": {
+            "0": "Pricing the first package too low just to close a deal, which becomes hard to renegotiate later."
+          },
+          "successCriteria": {
+            "0": "At least two managers or sponsors accept a proposal at the intended package price."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to summarize patterns across discovery calls and refine the qualification criteria."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Deliver the first full coaching package end-to-end for the first signed client."
+          },
+          "deliverables": {
+            "0": "A completed initial assessment, a full cycle of biweekly sessions, and an end-of-engagement outcomes review."
+          },
+          "checklist": {
+            "0": "Confirm concrete, measurable goals are set before the first coaching session."
+          },
+          "commonMistakes": {
+            "0": "Over-promising outcomes in the first engagement before the coaching format itself is proven."
+          },
+          "successCriteria": {
+            "0": "The first client completes the full package without a scope dispute."
+          },
+          "aiRecommendations": {
+            "0": "Use the AI-assisted session-notes tool from the very first session to build a consistent record."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publish the first LinkedIn thought-leadership content and formalize a referral ask with the first HR sponsor."
+          },
+          "deliverables": {
+            "0": "A published thought-leadership post and a referral request sent to the first satisfied sponsor."
+          },
+          "checklist": {
+            "0": "Get written client permission before referencing any specific engagement outcome publicly."
+          },
+          "commonMistakes": {
+            "0": "Publishing vague motivational content instead of specific, credible first-time-manager scenarios."
+          },
+          "successCriteria": {
+            "0": "The published content generates at least one qualified inbound discovery-call booking."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft the thought-leadership post, then verify every detail against the actual anonymized engagement."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Retain the first company-sponsored contract past its initial quarterly term."
+          },
+          "deliverables": {
+            "0": "A renewed contract beyond the initial quarterly term."
+          },
+          "checklist": {
+            "0": "Share a mid-engagement progress summary with the HR sponsor before the renewal conversation."
+          },
+          "commonMistakes": {
+            "0": "Waiting until the renewal conversation to surface progress data instead of sharing it throughout the engagement."
+          },
+          "successCriteria": {
+            "0": "The first contract renews for at least a second quarterly term."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to compile session themes into a mid-engagement progress summary for the HR sponsor."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach a steady base of company-sponsored contracts with a documented, repeatable discovery-to-close process."
+          },
+          "deliverables": {
+            "0": "A documented discovery-call script and qualification criteria."
+          },
+          "checklist": {
+            "0": "Confirm the close rate holds steady across at least ten consecutive discovery calls."
+          },
+          "commonMistakes": {
+            "0": "Taking on a client whose leadership gaps don't match the coach's actual expertise, just to hit a revenue target."
+          },
+          "successCriteria": {
+            "0": "Multiple company-sponsored contracts are active with a documented, repeatable sales process."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to identify which discovery-call qualification signals correlate most with successful renewals."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Design and pilot a cohort-based group coaching program to serve multiple managers without 1:1 calendar limits."
+          },
+          "deliverables": {
+            "0": "A piloted group coaching program with its first small cohort completed."
+          },
+          "checklist": {
+            "0": "Confirm the group curriculum is grounded in the proven 1:1 coaching methodology before piloting."
+          },
+          "commonMistakes": {
+            "0": "Launching a group program before the 1:1 curriculum it's based on has been proven with individual clients."
+          },
+          "successCriteria": {
+            "0": "The pilot cohort completes the program with positive feedback and at least one renewal or referral."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to synthesize common themes across 1:1 engagements into the group program curriculum."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Onboard the first associate coach to the network to take on additional corporate accounts."
+          },
+          "deliverables": {
+            "0": "A documented coaching methodology and the first associate coach onboarded."
+          },
+          "checklist": {
+            "0": "Confirm the associate coach can independently run a discovery call before handing off client ownership."
+          },
+          "commonMistakes": {
+            "0": "Onboarding an associate coach before the coaching methodology is documented well enough to train against."
+          },
+          "successCriteria": {
+            "0": "The associate coach independently manages at least one corporate account."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to turn the founder's coaching notes and frameworks into a training document for the new associate."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Expand into an adjacent coaching niche, such as coaching for newly-promoted directors, beyond first-time managers."
+          },
+          "deliverables": {
+            "0": "A documented case study and pricing tier for the new segment."
+          },
+          "checklist": {
+            "0": "Validate the new segment with at least three discovery calls before committing marketing effort to it."
+          },
+          "commonMistakes": {
+            "0": "Diluting the core positioning around first-time managers while chasing an adjacent segment without proof."
+          },
+          "successCriteria": {
+            "0": "The new segment produces at least one signed engagement and a documented case study."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to compare discovery-call conversion rates between the original ICP and the new segment before scaling outreach."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Package the client roster, associate-coach network, and documented methodology for a potential acquisition by a larger coaching or L&D firm."
+          },
+          "deliverables": {
+            "0": "A documented client book, renewal history, and coaching methodology ready for due diligence."
+          },
+          "checklist": {
+            "0": "Confirm client contracts are transferable before entering acquisition conversations."
+          },
+          "commonMistakes": {
+            "0": "Waiting until a buyer is at the table to start documenting the coaching methodology and client outcomes."
+          },
+          "successCriteria": {
+            "0": "A qualified acquirer completes due diligence based on the documented client book and methodology."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to compile historical engagement outcomes into a due-diligence-ready summary."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep generated tone grounded and practical — describe real management scenarios the way an experienced people-manager-turned-coach would."
+        }
+      }
+    },
+    "architectureStudio": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"How Buildings Learn\" by Stewart Brand",
+          "course1": "Course: NCARB Architect Registration Examination (ARE) Prep",
+          "community1": "Community: r/architecture and the Young Architect Forum",
+          "checklist1": "Checklist: Site and Program Consultation Checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Revenue builds slowly across long project timelines, with percentage-of-construction-cost fees scaling income with project size without requiring proportionally more marketing effort."
+        },
+        "breakEven": {
+          "notes": "Break-even takes the longest of any business in this set, given the fixed cost of licensing and insurance relative to the slow pace of signing the first few projects."
+        },
+        "grossMargin": {
+          "notes": "Gross margin is held down by mandatory structural-engineering consultant fees and printing/submittal costs on top of the architect's own design time."
+        },
+        "netMargin": {
+          "notes": "Net margin reflects the high fixed cost of professional liability insurance and licensing maintenance relative to project volume."
+        },
+        "scenarios": {
+          "conservative": "A single project in progress with a long gap before the next signed agreement.",
+          "expected": "Two to three concurrent projects at different phases, sustained by a steady referral pipeline.",
+          "optimistic": "A full concurrent-project pipeline plus the first associate architect supporting a second project stream."
+        },
+        "risks": {
+          "risk1": "A design error carries genuine legal and insurance liability exposure that most other businesses in this library simply don't face.",
+          "risk2": "Long project timelines are vulnerable to client-side budget changes or delays that can stall or kill a project mid-design."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as slow-building, long-cycle project fees with a genuinely high fixed cost base from insurance and licensing."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Residential architecture for people who plan to stay awhile — thoughtful, code-compliant custom home design led by a licensed architect, not a renovation-show fantasy.",
+          "category": "Licensed residential architecture practice"
+        },
+        "brandPromise": "A home designed by someone legally and professionally accountable for getting the structure, the code, and the buildability right.",
+        "uvp": {
+          "statement": "Custom residential design led directly by a licensed architect, from initial site analysis through construction-administration close-out, with pricing options that align the studio's incentives with a buildable design.",
+          "diff1": "Licensed-architect-led credibility and legal accountability that an unlicensed designer cannot offer.",
+          "diff2": "A percentage-of-construction-cost pricing option that aligns incentives with a buildable, well-specified design."
+        },
+        "icp": {
+          "description": "Homeowners building a new custom home or undertaking a substantial renovation who want a licensed architect's design judgment and legal accountability.",
+          "firmographics": "Individual homeowners with construction budgets typically above $400K, often referred by a general contractor or real estate agent."
+        },
+        "personas": {
+          "persona1": {
+            "name": "The Custom-Build Homeowner",
+            "description": "Building a new home from the ground up and wants a licensed architect's judgment on both design and buildability."
+          },
+          "persona2": {
+            "name": "The Referring Contractor",
+            "description": "A general contractor who refers clients needing a licensed architect for projects requiring permits and structural sign-off."
+          }
+        },
+        "painPoints": {
+          "point1": "Uncertainty about whether a design will actually be buildable within the intended budget.",
+          "point2": "Difficulty finding an architect willing to take on a single custom-home project rather than only large commercial work."
+        },
+        "outcomes": {
+          "outcome1": "A design that is confirmed buildable within budget before construction begins.",
+          "outcome2": "Legal and professional accountability for the design throughout construction."
+        },
+        "messaging": {
+          "core": "Residential architecture for people who plan to stay awhile.",
+          "support1": "Every project starts with a site and program consultation that grounds the design in the real lot, budget, and goals before any drawings begin."
+        },
+        "brandVoice": {
+          "tone": "Precise and credentialed",
+          "attr1": "Thoughtful",
+          "attr2": "Code-literate"
+        },
+        "contentPillars": {
+          "pillar1": "Real completed project photography and the design decisions behind them",
+          "pillar2": "Practical explanations of code and structural tradeoffs for homeowners"
+        },
+        "channelStrategy": "Referrals from trusted general contractors and real estate agents drive the majority of new projects; a curated portfolio site and local design-publication features build secondary awareness; local home-show networking generates experimental introductions.",
+        "community": {
+          "description": "An informal referral network of contractors, real estate agents, and past clients rather than a formal public community.",
+          "platform1": "LinkedIn"
+        },
+        "leadMagnets": {
+          "magnet1": "Free initial site and program consultation"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Awareness",
+            "description": "A homeowner is referred by their general contractor or real estate agent, or discovers the portfolio site directly."
+          },
+          "stage2": {
+            "name": "Consideration",
+            "description": "They book an initial site and program consultation to discuss their lot, budget, and goals."
+          },
+          "stage3": {
+            "name": "Conversion",
+            "description": "The consultation converts into a signed fixed-fee or percentage-of-construction-cost design agreement."
+          }
+        },
+        "retention": {
+          "tactic1": "Regular design-development review meetings keep the homeowner engaged and confident throughout the long project timeline."
+        },
+        "analytics": {
+          "metric1": "Consultation-to-signed-agreement close rate and referral-source conversion rate"
+        },
+        "aiMetadata": {
+          "generationHints": "Lead with real completed project photography and named contractor/agent referral relationships, not generic architectural-style inspiration content."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Complete architectural licensing, set up professional liability insurance, and configure CAD/BIM software."
+          },
+          "deliverables": {
+            "0": "Active architectural licensure, confirmed professional liability insurance coverage, and a configured CAD/BIM software setup."
+          },
+          "checklist": {
+            "0": "Confirm licensing and insurance are both fully active before accepting any paid client work."
+          },
+          "commonMistakes": {
+            "0": "Starting client work before professional liability insurance is fully in place, exposing the practice to uninsured risk."
+          },
+          "successCriteria": {
+            "0": "Licensing, insurance, and software are all confirmed active and ready for the first client."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft initial CAD/BIM project templates that speed up the first schematic design phase."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Run initial consultations with 5-8 target homeowners or referral partners to validate demand and pricing."
+          },
+          "deliverables": {
+            "0": "A validated fee structure and a documented consultation-to-agreement conversion rate."
+          },
+          "checklist": {
+            "0": "Track how many consultations convert into a signed agreement versus a polite decline."
+          },
+          "kpis": [
+            "closeRate"
+          ],
+          "commonMistakes": {
+            "0": "Underpricing the first design agreement just to close a deal, which is hard to correct once signed."
+          },
+          "successCriteria": {
+            "0": "At least one homeowner accepts a proposal at the intended fee structure."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze patterns across early consultations and refine the intake questionnaire."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Deliver the first schematic design and design-development phases for the first signed client."
+          },
+          "deliverables": {
+            "0": "Completed schematic design and design-development drawings for the first project."
+          },
+          "checklist": {
+            "0": "Confirm a thorough site and lot analysis is complete before starting schematic drawings."
+          },
+          "kpis": [
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Skipping a formal site and lot analysis before starting schematic design, leading to costly revisions later."
+          },
+          "successCriteria": {
+            "0": "The design-development phase is approved by the client without a major scope revision."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted rendering to accelerate producing client-presentation visuals during design development."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publish the first completed project on the portfolio site and formalize a referral ask with the general contractor involved."
+          },
+          "deliverables": {
+            "0": "A published portfolio entry with professional project photography and a referral request sent to the contractor."
+          },
+          "checklist": {
+            "0": "Commission professional photography before publishing any completed project."
+          },
+          "commonMistakes": {
+            "0": "Publishing renderings instead of real completed-project photography, which undermines credibility."
+          },
+          "successCriteria": {
+            "0": "The published project generates at least one qualified inbound consultation request."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft the portfolio project description, then verify every technical detail before publishing."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Complete construction-administration close-out for the first project and request a formal referral."
+          },
+          "deliverables": {
+            "0": "A completed construction-administration close-out and a documented client testimonial."
+          },
+          "checklist": {
+            "0": "Request the referral and testimonial immediately after the final site visit, while the relationship is warm."
+          },
+          "kpis": [
+            "customerRetention"
+          ],
+          "commonMistakes": {
+            "0": "Ending the relationship at project handover instead of requesting a referral while the client relationship is still warm."
+          },
+          "successCriteria": {
+            "0": "The first client provides a testimonial and at least one qualified referral."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to compile a summary of the completed project's key decisions for the client's own records."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Establish a steady referral pipeline from a small number of trusted contractors and real estate agents."
+          },
+          "deliverables": {
+            "0": "A documented referral pipeline with at least two consistent referral sources."
+          },
+          "checklist": {
+            "0": "Confirm which referral sources produce qualified consultations versus unqualified inquiries."
+          },
+          "kpis": [
+            "closeRate",
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Spreading referral-relationship effort too thin across too many contractors before any single relationship is proven."
+          },
+          "successCriteria": {
+            "0": "At least two referral sources consistently produce qualified consultations."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to track and analyze which referral source produces the highest close rate."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Grow project volume within the principal architect's sustainable concurrent-project capacity."
+          },
+          "deliverables": {
+            "0": "A documented concurrent-project capacity limit and a full project pipeline within it."
+          },
+          "checklist": {
+            "0": "Set an explicit concurrent-project cap before accepting new signed agreements."
+          },
+          "kpis": [
+            "mrr"
+          ],
+          "commonMistakes": {
+            "0": "Accepting more concurrent projects than can be given proper design attention, risking quality and liability exposure."
+          },
+          "successCriteria": {
+            "0": "The practice operates at its sustainable project capacity without a quality complaint."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted code-compliance checking to reduce review time as concurrent project volume grows."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Hire the first licensed associate architect to take on a second concurrent project."
+          },
+          "deliverables": {
+            "0": "Documented design standards and a review process, with the first associate architect onboarded."
+          },
+          "checklist": {
+            "0": "Confirm design standards and review processes are documented before the associate's first independent project."
+          },
+          "kpis": [
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Hiring an associate architect before design standards and review processes are documented well enough to maintain quality."
+          },
+          "successCriteria": {
+            "0": "The associate architect independently manages a second concurrent project."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to turn the principal architect's design standards into a documented training reference for the associate."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Expand the referral network into an adjacent geographic area or a second housing typology."
+          },
+          "deliverables": {
+            "0": "A piloted project in the new geography or typology and an expanded referral network there."
+          },
+          "checklist": {
+            "0": "Plan construction-administration travel logistics before committing to a new geography."
+          },
+          "kpis": [
+            "mrr"
+          ],
+          "commonMistakes": {
+            "0": "Expanding into a new geography before construction-administration travel logistics have been properly planned."
+          },
+          "successCriteria": {
+            "0": "The pilot project in the new geography or typology completes successfully."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to model travel-time and site-visit logistics for candidate new geographies before committing."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Package the project portfolio, referral network, and associate-architect team for a potential acquisition by a larger design or design-build firm."
+          },
+          "deliverables": {
+            "0": "A documented project portfolio, referral-source summary, and team structure ready for due diligence."
+          },
+          "checklist": {
+            "0": "Confirm client and referral-partner relationships are documented and transferable before entering acquisition conversations."
+          },
+          "commonMistakes": {
+            "0": "Waiting until a buyer is at the table to start documenting the project portfolio and referral relationships."
+          },
+          "successCriteria": {
+            "0": "A qualified acquirer completes due diligence based on the documented portfolio and referral network."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to compile historical project outcomes into a due-diligence-ready summary."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep generated tone precise and credentialed — describe design decisions the way a licensed architect would."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "How Buildings Learn by Stewart Brand",
+          "description": "A foundational perspective on how buildings actually get used and adapted over time, directly relevant to designing homes that last."
+        },
+        "item2": {
+          "title": "NCARB Architect Registration Examination (ARE) Prep Course",
+          "description": "A structured preparation course for the licensing examination required to practice architecture."
+        },
+        "item3": {
+          "title": "Young Architect Forum",
+          "description": "An active community of licensed and licensure-track architects discussing practice management and design."
+        },
+        "item4": {
+          "title": "Practice Disrupted Podcast",
+          "description": "A podcast covering the business side of running a small architecture practice."
+        },
+        "item5": {
+          "title": "Architect's Newspaper Newsletter",
+          "description": "A newsletter tracking residential architecture trends, projects, and practice news."
+        },
+        "item6": {
+          "title": "Revit",
+          "description": "BIM software used for detailed architectural modeling and construction documentation."
+        },
+        "item7": {
+          "title": "SketchUp",
+          "description": "Conceptual design software used for early-stage massing and client presentations."
+        },
+        "item8": {
+          "title": "Enscape",
+          "description": "AI-assisted rendering plugin used to produce photorealistic visualizations for client presentations."
+        },
+        "item9": {
+          "title": "NCARB Architect Registration Examination (ARE)",
+          "description": "The required licensing examination to practice architecture and legally sign off on residential design work."
+        },
+        "item10": {
+          "title": "AIA Conference on Architecture",
+          "description": "A major architecture trade event valuable for continuing education and industry relationships."
+        },
+        "item11": {
+          "title": "A network of structural engineering consultants",
+          "description": "A vetted network of structural engineers for project-by-project consulting on custom home designs."
+        },
+        "item12": {
+          "title": "Site and Program Consultation Checklist",
+          "description": "A checklist covering the questions and site-analysis steps for a productive initial consultation with a homeowner."
+        },
+        "aiMetadata": {
+          "generationHints": "Recommend resources that reinforce licensure credibility and practical practice-management skills, not generic architectural inspiration content."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "A single strong relationship with one general contractor can produce a steady stream of qualified referrals over years."
+          },
+          "item2": {
+            "title": "A well-documented completed project can become the centerpiece of a local design-publication feature, generating inbound interest at no cost."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A single client-side delay or budget change on a long project can leave a meaningful capacity gap before the next signed agreement."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Underpricing the first design agreement just to close a deal, which is very hard to correct once a long project is underway."
+          },
+          "item2": {
+            "title": "Skipping a thorough site and lot analysis before starting schematic design, leading to costly revisions later."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Publishing one professionally photographed completed project typically outperforms months of generic content."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Document design standards and review processes before onboarding the first associate architect."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Treat the initial site and program consultation as the actual product demo — it's what makes the sales conversation concrete."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clients who receive regular design-development review meetings stay confident and engaged even through a long project timeline."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Most project friction comes from unmanaged budget expectations, not from the design itself."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Structural engineering consultant fees and printing/submittal costs can quietly erode margin if not priced into the original fee."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "A rising volume of referrals from the same general contractor signals a relationship worth formally deepening."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A completed custom home featured in a local design publication became the studio's strongest inbound-lead source for a full year."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A studio that skipped a thorough site analysis and underpriced an early project absorbed costly mid-project revisions that erased its margin."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Why does every project start with a site and program consultation?",
+            "answer": "A design that ignores the real lot, budget, and structural constraints leads to expensive revisions later — the consultation grounds the entire project in reality from day one."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Any designer can do what a licensed architect does, just cheaper.",
+            "fact": "Licensure carries legal accountability for structural safety and code compliance that an unlicensed designer cannot legally assume."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Hold regular design-development review meetings throughout the project, not just at major milestones."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Emphasize that most risk in this business is licensure-related liability and long-cycle client management, not design skill itself."
+        }
+      }
+    },
+    "realEstateAgency": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"The Millionaire Real Estate Agent\" by Gary Keller",
+          "course1": "Course: National Association of REALTORS (NAR) Pre-Licensing Course",
+          "community1": "Community: r/realtors and the local MLS association forum",
+          "checklist1": "Checklist: Listing Consultation and Comparative Market Analysis Checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Revenue is genuinely lumpy, arriving as single commission payouts per closing, with volume compounding as the neighborhood-farming and referral engine matures."
+        },
+        "breakEven": {
+          "notes": "Break-even is reached once the first two or three transactions close, given the naturally low ongoing cost base relative to commission income."
+        },
+        "grossMargin": {
+          "notes": "Gross margin is reduced by the brokerage desk fee or commission split before the agent sees net income."
+        },
+        "netMargin": {
+          "notes": "Net margin depends heavily on how much of transaction volume comes from low-cost referrals versus paid portal-lead spend."
+        },
+        "scenarios": {
+          "conservative": "One or two transactions closing per quarter, sourced mostly from the agent's existing sphere of influence.",
+          "expected": "Steady quarterly transaction volume from a mix of neighborhood farming, referrals, and some paid portal leads.",
+          "optimistic": "A strong seasonal market plus a mature referral engine producing a full pipeline of concurrent transactions."
+        },
+        "risks": {
+          "risk1": "Commission income is entirely transaction-dependent with no base salary — a slow market or a personal dry spell hits income directly.",
+          "risk2": "Real estate is highly sensitive to interest-rate cycles and housing-market downturns, which can dry up transaction volume for extended periods."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as lumpy, transaction-dependent commission income with no base salary, distinct from any retainer or subscription model."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Your neighborhood, actually known — a local agent who's walked every block, not a rotating call-center voice.",
+          "category": "Local residential real estate representation"
+        },
+        "brandPromise": "A confident, well-negotiated closing, guided by someone who actually knows this specific neighborhood block by block.",
+        "uvp": {
+          "statement": "Buyer and seller representation from an agent who has genuinely walked and studied this specific neighborhood, backed by a free consultation before any commitment.",
+          "diff1": "A free listing or buyer consultation that makes the value proposition concrete before any commitment.",
+          "diff2": "Deep, walked-the-block neighborhood knowledge that generic portal search cannot replicate."
+        },
+        "icp": {
+          "description": "Homeowners buying or selling property in a specific local neighborhood who want personal, locally-grounded representation.",
+          "firmographics": "Individual homeowners and buyers in a defined local market, typically first-time or repeat movers within the same metro area."
+        },
+        "personas": {
+          "persona1": {
+            "name": "The First-Time Seller",
+            "description": "Selling a home for the first time and unsure how to price it competitively or navigate the negotiation process."
+          },
+          "persona2": {
+            "name": "The Relocating Buyer",
+            "description": "Moving into a new neighborhood and wants a local expert who can explain the real trade-offs between streets and school zones."
+          }
+        },
+        "painPoints": {
+          "point1": "Not knowing the true local market value of a home beyond a generic portal estimate.",
+          "point2": "Distrust of a rotating call-center-style agent experience with no real local knowledge."
+        },
+        "outcomes": {
+          "outcome1": "A confident, well-negotiated price backed by real local market knowledge.",
+          "outcome2": "A smooth closing process with clear guidance at every step."
+        },
+        "messaging": {
+          "core": "Your neighborhood, actually known.",
+          "support1": "Every client starts with a free consultation that clarifies timeline, budget, and must-haves before any commitment."
+        },
+        "brandVoice": {
+          "tone": "Warm and locally specific",
+          "attr1": "Persistent",
+          "attr2": "Trustworthy"
+        },
+        "contentPillars": {
+          "pillar1": "Real neighborhood market updates and named transaction outcomes",
+          "pillar2": "Practical guidance on the local buying and selling process"
+        },
+        "channelStrategy": "Consistent neighborhood farming through local sponsorships and mailers drives primary awareness; past-client and sphere-of-influence referrals build secondary trust; paid portal leads generate experimental supplemental volume.",
+        "community": {
+          "description": "An informal network of past clients and neighborhood contacts rather than a formal public community.",
+          "platform1": "Facebook"
+        },
+        "leadMagnets": {
+          "magnet1": "Free home-value estimate and neighborhood market report"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Awareness",
+            "description": "A homeowner sees a neighborhood mailer or hears about the agent from a past client."
+          },
+          "stage2": {
+            "name": "Consideration",
+            "description": "They book a free listing or buyer consultation to discuss their specific situation."
+          },
+          "stage3": {
+            "name": "Conversion",
+            "description": "The consultation converts into a signed representation agreement."
+          }
+        },
+        "retention": {
+          "tactic1": "Periodic check-ins and market updates with past clients keep the agent top-of-mind for future transactions and referrals."
+        },
+        "analytics": {
+          "metric1": "Consultation-to-signed-agreement close rate and referral share of closed transactions"
+        },
+        "aiMetadata": {
+          "generationHints": "Lead with specific, walked-the-block neighborhood knowledge and named past-client outcomes, not generic 'your local expert' portal-agent language."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Complete real estate licensing, join a sponsoring brokerage, and set up MLS access and CRM tooling."
+          },
+          "deliverables": {
+            "0": "An active real estate license, a signed brokerage agreement, and a configured MLS/CRM setup."
+          },
+          "checklist": {
+            "0": "Compare at least two sponsoring brokerages on training, lead support, and desk-fee structure before signing."
+          },
+          "commonMistakes": {
+            "0": "Choosing a sponsoring brokerage based on commission split alone without considering training, lead support, and desk fees."
+          },
+          "successCriteria": {
+            "0": "Licensing and brokerage onboarding are complete and MLS/CRM access is active."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft initial CRM contact-tagging categories for the agent's existing sphere of influence."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Run listing or buyer consultations with 8-10 contacts from the agent's existing sphere of influence to validate the pitch."
+          },
+          "deliverables": {
+            "0": "A documented consultation script and an initial conversion-rate data point."
+          },
+          "checklist": {
+            "0": "Contact every existing personal and professional connection directly before spending on portal-lead generation."
+          },
+          "kpis": [
+            "closeRate"
+          ],
+          "commonMistakes": {
+            "0": "Waiting for portal leads instead of first mining the agent's own existing sphere of influence for the first clients."
+          },
+          "successCriteria": {
+            "0": "At least one sphere-of-influence contact books a consultation."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help segment and prioritize the sphere-of-influence contact list by likely near-term transaction readiness."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Close the first buyer or seller transaction from consultation through to signing."
+          },
+          "deliverables": {
+            "0": "A completed comparative market analysis, an active listing or buyer search, and a closed transaction."
+          },
+          "checklist": {
+            "0": "Build a thorough comparative market analysis using at least five recent comparable sales before the first listing consultation."
+          },
+          "kpis": [
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Under-preparing the comparative market analysis for the first listing, which undermines pricing credibility with the seller."
+          },
+          "successCriteria": {
+            "0": "The first transaction closes without a major pricing or negotiation dispute."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted comparative market analysis tools to speed up pulling comparable sales data."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Begin actively farming a specific target neighborhood through local sponsorships and consistent mailers."
+          },
+          "deliverables": {
+            "0": "A defined target neighborhood with an active mailer and local-sponsorship presence."
+          },
+          "checklist": {
+            "0": "Choose a single, clearly bounded neighborhood to farm consistently rather than spreading effort across several."
+          },
+          "commonMistakes": {
+            "0": "Farming too broad a geographic area to build genuine recognition in any single neighborhood."
+          },
+          "successCriteria": {
+            "0": "The first inbound inquiry arrives directly from neighborhood-farming activity."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft neighborhood mailer copy, then verify every market statistic before printing."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Request a referral and a testimonial from the first closed transaction's client."
+          },
+          "deliverables": {
+            "0": "A documented testimonial and at least one active referral from the first client."
+          },
+          "checklist": {
+            "0": "Set up a periodic check-in and market-update cadence with every past client starting immediately after closing."
+          },
+          "kpis": [
+            "customerRetention"
+          ],
+          "commonMistakes": {
+            "0": "Losing touch with a past client immediately after closing instead of starting a periodic check-in cadence."
+          },
+          "successCriteria": {
+            "0": "The first client provides a testimonial and refers at least one new prospect."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to schedule and personalize periodic market-update messages to past clients."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach a steady base of transactions sourced primarily from the neighborhood-farming and referral engine rather than paid leads."
+          },
+          "deliverables": {
+            "0": "A documented breakdown of transaction sources showing referral and farming share growing over paid leads."
+          },
+          "checklist": {
+            "0": "Track what share of closed transactions comes from referrals versus paid leads, and shift budget accordingly."
+          },
+          "kpis": [
+            "closeRate",
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Continuing to over-rely on paid portal leads even after the referral engine starts producing consistent volume."
+          },
+          "successCriteria": {
+            "0": "Referrals and farming activity produce the majority of new transactions."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze which lead source produces the highest close rate and reallocate spend accordingly."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Grow transaction volume within the agent's sustainable concurrent-showing and negotiation capacity."
+          },
+          "deliverables": {
+            "0": "A documented concurrent-client cap and a stable transaction pipeline within it."
+          },
+          "checklist": {
+            "0": "Set an explicit concurrent-client cap and hold to it even during a strong seasonal market."
+          },
+          "kpis": [
+            "mrr"
+          ],
+          "commonMistakes": {
+            "0": "Taking on more concurrent clients than can be given proper attention, risking service quality during negotiation and closing."
+          },
+          "successCriteria": {
+            "0": "Transaction volume grows for two consecutive quarters without a service-quality complaint."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted CRM follow-up automation to maintain client communication quality as volume grows."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Bring on a licensed buyer's-agent or transaction coordinator to handle overflow volume."
+          },
+          "deliverables": {
+            "0": "A hired buyer's-agent or transaction coordinator supporting a stable share of transaction volume."
+          },
+          "checklist": {
+            "0": "Confirm at least six months of stable transaction volume before adding a buyer's-agent or transaction coordinator."
+          },
+          "kpis": [
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Hiring help before the referral and lead pipeline is stable enough to support the additional overhead."
+          },
+          "successCriteria": {
+            "0": "The new hire independently handles a meaningful share of transaction volume."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to document the agent's own transaction-coordination checklist as a training reference for the new hire."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Expand neighborhood farming into an adjacent area or add a specialty niche (e.g. relocation or investment property clients)."
+          },
+          "deliverables": {
+            "0": "A piloted expansion into a new neighborhood or specialty niche with at least one closed transaction."
+          },
+          "checklist": {
+            "0": "Validate the new area or niche with a small number of transactions before committing significant farming budget to it."
+          },
+          "kpis": [
+            "mrr"
+          ],
+          "commonMistakes": {
+            "0": "Diluting the core neighborhood-expert positioning while chasing a new area or niche without proof of demand."
+          },
+          "successCriteria": {
+            "0": "The new area or niche produces at least one closed transaction and a documented case study."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to compare lead-conversion rates between the core neighborhood and the new area or niche before scaling farming spend."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Package the past-client database, referral network, and transaction history for a potential team merger or brokerage partnership."
+          },
+          "deliverables": {
+            "0": "A documented past-client database, referral network summary, and transaction history ready for a merger or partnership conversation."
+          },
+          "checklist": {
+            "0": "Confirm client and referral relationships are documented before entering merger or partnership conversations."
+          },
+          "commonMistakes": {
+            "0": "Waiting until a merger or partnership opportunity appears to start documenting the client database and referral relationships."
+          },
+          "successCriteria": {
+            "0": "A prospective team or brokerage partner reviews the documented client and transaction history favorably."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to compile historical transaction and referral data into a partnership-ready summary."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep generated tone warm, persistent, and locally specific — describe neighborhoods and transactions the way an agent who's actually walked the block would."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The Millionaire Real Estate Agent by Gary Keller",
+          "description": "A foundational, practical framework for building a lead-generation and referral system as a residential agent."
+        },
+        "item2": {
+          "title": "National Association of REALTORS (NAR) Pre-Licensing Course",
+          "description": "A required course covering the fundamentals and legal requirements of practicing real estate."
+        },
+        "item3": {
+          "title": "Local MLS Association Forum",
+          "description": "An active community of local licensed agents discussing market conditions and transaction practices."
+        },
+        "item4": {
+          "title": "Real Estate Rockstars Podcast",
+          "description": "A podcast covering lead generation, negotiation, and business-building tactics for residential agents."
+        },
+        "item5": {
+          "title": "Inman News Newsletter",
+          "description": "A widely-read newsletter tracking residential real estate industry news and market trends."
+        },
+        "item6": {
+          "title": "Follow Up Boss",
+          "description": "CRM and lead-management platform used to track sphere-of-influence and portal leads."
+        },
+        "item7": {
+          "title": "DocuSign",
+          "description": "E-signature and transaction-document platform used to manage offers and closing paperwork."
+        },
+        "item8": {
+          "title": "Matterport",
+          "description": "AI-assisted 3D virtual tour tool used to create immersive listing walkthroughs."
+        },
+        "item9": {
+          "title": "NAR REALTOR Designation",
+          "description": "A recognized professional designation that strengthens credibility with prospective clients."
+        },
+        "item10": {
+          "title": "NAR NXT Realtors Conference & Expo",
+          "description": "A major residential real estate trade event valuable for continuing education and industry relationships."
+        },
+        "item11": {
+          "title": "A network of mortgage brokers and home inspectors",
+          "description": "A referral network of trusted mortgage brokers and home inspectors to support client transactions smoothly."
+        },
+        "item12": {
+          "title": "Listing Consultation and Comparative Market Analysis Checklist",
+          "description": "A checklist covering the steps and data points needed for a thorough, credible listing consultation."
+        },
+        "aiMetadata": {
+          "generationHints": "Recommend resources that reinforce a relationship- and referral-driven approach to residential real estate, not generic sales-hustle content."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "A satisfied past client's neighbors often become the next round of referrals if the agent stays visibly present in the area."
+          },
+          "item2": {
+            "title": "Offering a free home-value estimate to sphere-of-influence contacts can surface sellers who weren't actively thinking about listing yet."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A sudden interest-rate rise can freeze buyer activity in a specific price band for months at a time."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Farming too broad a geographic area instead of building genuine recognition in one specific neighborhood first."
+          },
+          "item2": {
+            "title": "Under-preparing the comparative market analysis for the first few listings, undermining pricing credibility with sellers."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Mining the agent's own existing sphere of influence typically produces the first closed transaction faster than any paid lead source."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Confirm at least six months of stable transaction volume before adding a buyer's-agent or transaction coordinator."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Treat the free listing or buyer consultation as the actual product demo — it's what makes the sales conversation concrete."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clients who receive periodic market-update check-ins after closing refer at a meaningfully higher rate than those who don't."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Most transaction friction comes from unmanaged expectations about price and timeline, not from the negotiation itself."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Portal-lead-generation spend can quietly erode net margin if referral and farming volume aren't tracked separately."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "A rising volume of home-value-estimate requests from a specific block signals sellers considering listing soon."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A well-executed neighborhood-farming campaign over two years turned a cold geographic area into the agent's single largest referral source."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "An agent who relied entirely on paid portal leads without building a referral engine saw income evaporate the moment ad spend was cut."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Why does every client start with a free consultation?",
+            "answer": "A consultation grounds the entire relationship in the client's real timeline, budget, and must-haves before any commitment — skipping it leads to mismatched expectations later."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Listing portals have made real estate agents unnecessary.",
+            "fact": "Portals handle basic search, but negotiation, local market judgment, and transaction coordination still require a human agent's expertise."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Maintain a consistent, periodic check-in cadence with every past client, not just around anniversaries of their purchase."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Emphasize that most risk in this business is income volatility and market-cycle exposure, not sales skill itself."
+        }
+      }
     }
   }
 }

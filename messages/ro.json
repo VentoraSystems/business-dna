@@ -8207,6 +8207,2394 @@
           "generationHints": "Păstrează fiecare observație specifică consultanței de pipeline de date și tablou de bord, livrabilă solo — nu sfaturi generice pentru unelte BI sau consultanță software."
         }
       }
+    },
+    "marketingAgency": {
+      "financial": {
+        "revenueForecast": {
+          "notes": "Numărul de abonamente crește liniar pe măsură ce auditurile de funnel se transformă în clienți; onorariile pentru sprintul de lansare adaugă un plus variabil peste baza de abonamente în creștere."
+        },
+        "breakEven": {
+          "notes": "Pragul de rentabilitate este atins odată ce patru clienți au abonamente lunare stabile, acoperind rețeaua de freelanceri și abonamentele software."
+        },
+        "grossMargin": {
+          "notes": "Marja brută se îmbunătățește pe măsură ce rețeaua de freelanceri este utilizată mai eficient pentru mai mulți clienți simultan."
+        },
+        "netMargin": {
+          "notes": "Marja netă presupune o structură suplă, cu un singur strateg, costurile cu freelancerii fiind tratate drept cost variabil repercutat."
+        },
+        "scenarios": {
+          "conservative": "Doi clienți cu abonament la limita inferioară a nivelului de preț, acoperind costurile fixe cu o marjă minimă.",
+          "expected": "Patru până la cinci clienți cu abonament la un preț mediu, plus un proiect de sprint de lansare pe trimestru.",
+          "optimistic": "Opt sau mai mulți clienți cu abonament, plus un flux constant de proiecte de sprint de lansare din recomandări."
+        },
+        "risks": {
+          "risk1": "Bugetele de marketing sunt de obicei prima linie tăiată într-o recesiune, provocând pierderi de clienți independent de performanța campaniilor.",
+          "risk2": "Demonstrarea atribuirii ROI pe canale multiple este cu adevărat dificilă, ceea ce poate submina discuțiile de reînnoire chiar și atunci când rezultatele sunt solide."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează veniturile ca un abonament lunar autentic încă de la primul client semnat, nu ca un onorariu de proiect cu un abonament opțional adăugat ulterior."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Echipa de marketing pe care bugetul tău de Serie A și-o poate permite cu adevărat — generare de cerere pe tot parcursul funnel-ului, fără prețul unei agenții de sistem.",
+          "category": "Agenție de marketing full-funnel pentru companii B2B SaaS aflate la început de drum"
+        },
+        "brandPromise": "Un indicator de creștere pregătit pentru consiliul de administrație, deținut de o singură echipă responsabilă, fără a angaja un întreg departament intern.",
+        "uvp": {
+          "statement": "Un singur abonament acoperă conținut, achiziție plătită și marketing pe ciclul de viață — coordonate de un singur strateg în loc să fie împrăștiate între freelanceri.",
+          "diff1": "Un audit gratuit de funnel de 30 de minute face conversația de vânzare concretă înainte de semnarea oricărui contract.",
+          "diff2": "Studii de caz numite, cu metrici reale și verificabile, în loc de afirmații generice de agenție."
+        },
+        "icp": {
+          "description": "Fondatori de companii B2B SaaS aflate între etapa seed și Seria A, cu un mandat de creștere la nivel de consiliu și fără un angajat dedicat de marketing.",
+          "firmographics": "5-40 de angajați, 500.000-5.000.000 USD venit anual recurent, finanțate cu capital de risc, fără șef de marketing intern."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Fondatorul de după finanțare",
+            "description": "Tocmai a închis o rundă seed sau Serie A și are nevoie de un indicator credibil de pipeline pentru următoarea ședință a consiliului."
+          },
+          "persona2": {
+            "name": "Angajatul solo de creștere",
+            "description": "Primul angajat de marketing al companiei, copleșit și în căutare de un partener de execuție, nu de încă un set de documente strategice."
+          }
+        },
+        "painPoints": {
+          "point1": "Consiliul de administrație cere un indicator de pipeline pe care nimeni din echipă nu îl deține în prezent.",
+          "point2": "Cheltuielile de marketing sunt împrăștiate între freelanceri, fără un fir conducător unic sau un responsabil clar."
+        },
+        "outcomes": {
+          "outcome1": "Un indicator de pipeline previzibil și raportabil pentru următoarea ședință a consiliului de administrație.",
+          "outcome2": "O singură echipă responsabilă care rulează conținut, plătit și marketing pe ciclul de viață, în loc de cinci freelanceri separați."
+        },
+        "messaging": {
+          "core": "Marketing full-funnel, condus de o singură echipă responsabilă, prețuit pentru un buget de Serie A.",
+          "support1": "Fiecare abonament începe cu un audit gratuit de funnel — niciun scop nu este stabilit înainte ca cifrele să fie pe masă."
+        },
+        "brandVoice": {
+          "tone": "Alfabetizat în date și încrezător",
+          "attr1": "Direct",
+          "attr2": "Orientat spre metrici"
+        },
+        "contentPillars": {
+          "pillar1": "Studii de caz numite, cu metrici reale de creștere înainte/după",
+          "pillar2": "Cadre practice de audit de funnel pe care fondatorii le pot aplica singuri"
+        },
+        "channelStrategy": "Recomandările din rețeaua fondatorilor generează majoritatea abonamentelor noi; conținutul publicat de studii de caz și lidershipul de gândire pe LinkedIn construiesc vizibilitate secundară și experimentală.",
+        "community": {
+          "description": "O rețea informală de recomandări formată din fondatori clienți și rețelele lor de investitori, mai degrabă decât o comunitate publică formală.",
+          "platform1": "LinkedIn"
+        },
+        "leadMagnets": {
+          "magnet1": "Apel gratuit de audit de funnel de 30 de minute"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Conștientizare",
+            "description": "Un fondator vede un studiu de caz numit, distribuit de un coleg din portofoliu sau de un investitor."
+          },
+          "stage2": {
+            "name": "Considerare",
+            "description": "Fondatorul programează apelul gratuit de audit de funnel de 30 de minute."
+          },
+          "stage3": {
+            "name": "Conversie",
+            "description": "Auditul se transformă într-o propunere de abonament cu un angajament minim de trei luni."
+          }
+        },
+        "retention": {
+          "tactic1": "Un apel săptămânal de raportare și o reevaluare strategică trimestrială mențin fondatorul implicat prin progres vizibil către indicatorul de la nivelul consiliului."
+        },
+        "analytics": {
+          "metric1": "Numărul de clienți cu abonament și creșterea venitului lunar recurent"
+        },
+        "aiMetadata": {
+          "generationHints": "Începe cu studii de caz numite, concrete, și metricile lor exacte înainte/după, nu cu un limbaj generic despre marketing full-funnel."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Configurează CRM-ul, conturile de publicitate și instrumentele de analiză și formează o rețea inițială de freelanceri."
+          },
+          "deliverables": {
+            "0": "O instanță funcțională de CRM HubSpot, conturi de publicitate conectate și o listă scurtă de 3-5 freelanceri verificați."
+          },
+          "checklist": {
+            "0": "Confirmă accesul la conturile de publicitate și fluxurile de automatizare CRM înainte de primul apel cu un client."
+          },
+          "commonMistakes": {
+            "0": "Semnarea primului abonament înainte ca rețeaua de freelanceri să fie pregătită, lăsând compania fără capacitate de livrare."
+          },
+          "successCriteria": {
+            "0": "Instrumentele sunt funcționale și cel puțin trei freelanceri și-au confirmat disponibilitatea."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta secvențele inițiale de automatizare CRM, apoi revizuiește-le manual înainte de activare."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Desfășoară audituri de funnel cu 8-10 fondatori țintă pentru a valida prețul și scopul ofertei."
+          },
+          "deliverables": {
+            "0": "Un nivel de preț de abonament validat și un script documentat pentru auditul de funnel."
+          },
+          "checklist": {
+            "0": "Urmărește câte audituri se transformă într-o propunere plătită față de un refuz politicos."
+          },
+          "kpis": [
+            "closeRate"
+          ],
+          "commonMistakes": {
+            "0": "Subevaluarea primului abonament doar pentru a încheia o afacere, ceea ce devine apoi greu de renegociat."
+          },
+          "successCriteria": {
+            "0": "Cel puțin doi fondatori acceptă o propunere la prețul de abonament intenționat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a rezuma tiparele din apelurile de audit și pentru a rafina scriptul de audit de funnel."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Livrează primul ciclu complet de abonament lunar pentru primul client semnat."
+          },
+          "deliverables": {
+            "0": "Un sprint complet de calendar de conținut, o campanie plătită activă și un apel de raportare livrat."
+          },
+          "checklist": {
+            "0": "Confirmă că rețeaua de freelanceri a livrat la timp pentru primul sprint."
+          },
+          "kpis": [
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Promiterea excesivă a acoperirii canalelor în prima lună, înainte ca ritmul operațional să fie dovedit."
+          },
+          "successCriteria": {
+            "0": "Primul client finalizează un ciclu lunar complet fără dispută privind scopul."
+          },
+          "aiRecommendations": {
+            "0": "Folosește redactarea de conținut asistată de AI pentru a menține primul sprint de calendar de conținut conform planificării."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publică primul studiu de caz numit și oficializează cererea de recomandare cu clienții existenți."
+          },
+          "deliverables": {
+            "0": "Un studiu de caz publicat cu metrici reale, numite, și o cerere de recomandare trimisă fiecărui client activ."
+          },
+          "checklist": {
+            "0": "Obține permisiunea scrisă a clientului înainte de a numi public orice metrică."
+          },
+          "commonMistakes": {
+            "0": "Publicarea unor rezultate vagi, nenumite, care nu reușesc să diferențieze de marketingul generic de agenție."
+          },
+          "successCriteria": {
+            "0": "Studiul de caz generează cel puțin o programare calificată pentru auditul de funnel."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta narațiunea studiului de caz, apoi verifică fiecare metrică față de datele reale de raportare ale clientului."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Reține primul client dincolo de angajamentul minim de trei luni."
+          },
+          "deliverables": {
+            "0": "Un acord de abonament reînnoit dincolo de termenul inițial de trei luni."
+          },
+          "checklist": {
+            "0": "Organizează reevaluarea strategică trimestrială înainte de pragul de trei luni pentru a identifica din timp riscul de reînnoire."
+          },
+          "kpis": [
+            "customerRetention"
+          ],
+          "commonMistakes": {
+            "0": "Așteptarea discuției de reînnoire pentru a aborda îngrijorările unui client, în loc să le identifici mai devreme."
+          },
+          "successCriteria": {
+            "0": "Primul client se reînnoiește pentru cel puțin un al doilea termen de trei luni."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a semnala din timp segmentele de campanie cu performanțe slabe, pentru a corecta cursul înainte de discuția de reînnoire."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Ajunge la patru-cinci clienți simultani cu abonament, cu un proces repetabil de la audit de funnel la semnare."
+          },
+          "deliverables": {
+            "0": "Un proces de vânzare documentat și repetabil, de la auditul de funnel la abonamentul semnat."
+          },
+          "checklist": {
+            "0": "Confirmă că rata de conversie rămâne constantă pe parcursul a cel puțin zece audituri consecutive de funnel."
+          },
+          "kpis": [
+            "closeRate",
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Acceptarea unui client din afara profilului ideal doar pentru a atinge o țintă de venit, diluând coerența studiilor de caz."
+          },
+          "successCriteria": {
+            "0": "Patru sau mai mulți clienți au abonamente stabile, cu un proces de vânzare documentat și repetabil."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a identifica ce segment de profil ideal produce cea mai mare rată de conversie și concentrează-te acolo."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Crește venitul lunar recurent prin extinderea rețelei de freelanceri pentru a susține mai mulți clienți simultani."
+          },
+          "deliverables": {
+            "0": "O rețea extinsă de freelanceri, cu liste de verificare documentate pentru integrarea rolurilor de design și copywriting."
+          },
+          "checklist": {
+            "0": "Confirmă capacitatea rețelei înainte de a accepta un nou client cu abonament."
+          },
+          "kpis": [
+            "mrr"
+          ],
+          "commonMistakes": {
+            "0": "Creșterea numărului de clienți mai rapid decât poate susține rețeaua de freelanceri, degradând calitatea livrării."
+          },
+          "successCriteria": {
+            "0": "Venitul lunar recurent crește timp de trei luni consecutive fără nicio plângere privind calitatea livrării."
+          },
+          "aiRecommendations": {
+            "0": "Folosește sugestii de optimizare a campaniilor asistate de AI pentru a menține calitatea constantă pe măsură ce crește numărul de clienți."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Angajează un al doilea strateg intern și transformă oferta de sprint de lansare într-un produs de sine stătător."
+          },
+          "deliverables": {
+            "0": "Un al doilea strateg integrat și o ofertă de sine stătătoare de sprint de lansare documentată și prețuită."
+          },
+          "checklist": {
+            "0": "Confirmă că al doilea strateg poate desfășura independent un audit de funnel înainte de a-i preda proprietatea clienților."
+          },
+          "kpis": [
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Angajarea unui al doilea strateg înainte ca procesul de vânzare să fie documentat suficient pentru a putea fi predat."
+          },
+          "successCriteria": {
+            "0": "Al doilea strateg gestionează independent cel puțin doi clienți cu abonament."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a transforma scriptul de audit de funnel al fondatorului într-un document de instruire pentru noul strateg."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Extinde-te într-un vertical adiacent sau un segment de etapă a companiei dincolo de profilul ideal inițial."
+          },
+          "deliverables": {
+            "0": "Un studiu de caz documentat și un nivel de preț pentru noul segment."
+          },
+          "checklist": {
+            "0": "Validează noul segment cu cel puțin trei audituri de funnel înainte de a aloca buget de marketing acestuia."
+          },
+          "kpis": [
+            "mrr"
+          ],
+          "commonMistakes": {
+            "0": "Diluarea poziționării profilului ideal de bază în timp ce urmărești un segment adiacent care nu are încă dovezi."
+          },
+          "successCriteria": {
+            "0": "Noul segment produce cel puțin un abonament semnat și un studiu de caz documentat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a compara ratele de conversie ale auditului de funnel între profilul ideal inițial și noul segment înainte de a extinde bugetul."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Pregătește portofoliul de clienți, studiile de caz și procesul de vânzare pentru o posibilă achiziție de către o agenție mai mare."
+          },
+          "deliverables": {
+            "0": "Un portofoliu de clienți documentat, un istoric de reînnoiri și un proces repetabil de vânzare prin audit de funnel, pregătite pentru due diligence."
+          },
+          "checklist": {
+            "0": "Confirmă că contractele clienților sunt transferabile înainte de a intra în discuții de achiziție."
+          },
+          "commonMistakes": {
+            "0": "Așteptarea apariției unui cumpărător pentru a începe documentarea procesului de vânzare și a istoricului clienților."
+          },
+          "successCriteria": {
+            "0": "Un cumpărător calificat finalizează due diligence pe baza portofoliului de clienți și a procesului documentat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a compila datele istorice de performanță a campaniilor într-un rezumat pregătit pentru due diligence."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține un ton generat alfabetizat în date și încrezător — bazează întotdeauna afirmațiile pe studii de caz numite și metrici concrete."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "This Is Marketing de Seth Godin",
+          "description": "O lectură fundamentală despre construirea unei încrederi autentice și a poziționării înainte de a rula vreo campanie."
+        },
+        "item2": {
+          "title": "Certificarea Inbound Marketing HubSpot Academy",
+          "description": "Un curs gratuit și practic care acoperă fundamentele marketingului pe ciclul de viață bazat pe CRM."
+        },
+        "item3": {
+          "title": "Comunitatea Demand Curve",
+          "description": "O comunitate activă de marketeri de creștere B2B care împărtășesc tactici și repere."
+        },
+        "item4": {
+          "title": "Marketing Against the Grain",
+          "description": "Un podcast despre tactici moderne de generare a cererii B2B, prezentate de practicieni activi."
+        },
+        "item5": {
+          "title": "Newsletter-ul lui Lenny",
+          "description": "Un newsletter foarte citit care acoperă studii de caz despre creștere și marketing de produs relevante pentru clienții SaaS."
+        },
+        "item6": {
+          "title": "HubSpot",
+          "description": "Platformă de CRM și automatizare a marketingului pe ciclul de viață, folosită pentru a rula campaniile clienților."
+        },
+        "item7": {
+          "title": "Semrush",
+          "description": "Instrumente de SEO și cercetare competitivă folosite în timpul auditului gratuit de funnel."
+        },
+        "item8": {
+          "title": "Jasper",
+          "description": "Instrument de redactare a conținutului asistat de AI, folosit pentru a accelera sprintul calendarului de conținut."
+        },
+        "item9": {
+          "title": "Certificarea Inbound Marketing HubSpot",
+          "description": "O certificare recunoscută care întărește credibilitatea în conversațiile de vânzare cu fondatorii."
+        },
+        "item10": {
+          "title": "SaaStr Annual",
+          "description": "Un eveniment major pentru fondatorii de companii B2B SaaS, valoros pentru construirea directă a rețelei de recomandări."
+        },
+        "item11": {
+          "title": "O rețea de consultanți CMO fracționali",
+          "description": "O rețea de CMO fracționali experimentați, disponibili pentru parteneriate de recomandare și lucrări strategice suplimentare."
+        },
+        "item12": {
+          "title": "Lista de verificare pentru integrarea abonamentului lunar",
+          "description": "O listă de verificare care asigură integrarea completă a fiecărui client nou cu abonament în CRM, raportare și calendarul de conținut în primele două săptămâni."
+        },
+        "aiMetadata": {
+          "generationHints": "Recomandă resurse care întăresc o abordare alfabetizată în date, orientată spre metrici, pentru generarea cererii B2B, nu sfaturi generice de marketing."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Recomandările la nivelul întregului portofoliu ale unui singur fond de risc pot produce mai mulți clienți dintr-un singur fondator mulțumit."
+          },
+          "item2": {
+            "title": "O ofertă de sprint de lansare transformată în produs poate deveni un punct de intrare cu angajament redus, care se transformă ulterior în abonamentul complet."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Pierderea unui singur client mare poate șterge o parte semnificativă din venitul lunar recurent în această etapă a afacerii."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Renunțarea la angajamentul minim de trei luni pentru a încheia un client ezitant, pierzându-l apoi înainte ca funnel-ul să aibă timp să dea rezultate."
+          },
+          "item2": {
+            "title": "Acceptarea unui client din afara profilului ideal doar pentru a atinge o țintă de venit pe termen scurt."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Publicarea unui singur studiu de caz numit, cu metrici reale, depășește de obicei luni întregi de marketing de conținut generic."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Documentează scriptul de audit de funnel înainte de a angaja un al doilea strateg, astfel încât calitatea să nu depindă doar de fondator."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Tratează auditul gratuit de funnel ca fiind produsul demo real — sunt cele mai valoroase 30 de minute din întregul proces de vânzare."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clienții care finalizează o reevaluare strategică trimestrială completă se reînnoiesc la o rată semnificativ mai mare decât cei care o omit."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea pierderilor de clienți în această afacere provin din așteptări negestionate, nu din performanța reală slabă a campaniilor."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Onorariile de retenție ale rețelei de freelanceri în lunile mai lente pot eroda discret marja dacă nu este ajustată capacitatea la volumul actual de clienți."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Un volum crescând de cereri de audit de funnel din portofoliul unui anumit investitor semnalează o relație de recomandare demnă de oficializat."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Dublarea indicatorului de pipeline raportat consiliului de administrație al unui client în două cicluri de abonament a devenit cel mai puternic motor de recomandare al agenției."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un client care a insistat să sară peste auditul de funnel și să-și stabilească propriul scop a renunțat în primele două luni."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "De ce este necesar un angajament minim de trei luni?",
+            "answer": "Marketingul full-funnel are nevoie de cel puțin un ciclu complet pentru a arăta rezultate reale — evaluarea performanței înainte de acest termen duce la decizii premature și nedrepte de renunțare."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Singura sarcină a unei agenții de marketing este să ruleze reclame.",
+            "fact": "Cea mai valoroasă muncă este coordonarea conținutului, a publicității plătite și a marketingului pe ciclul de viață împreună — reclamele singure rareori mișcă un indicator de pipeline la nivel de consiliu."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Organizează reevaluarea strategică trimestrială înainte, nu după, ca un client să dea semne de dezangajare."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Subliniază că cel mai mare risc în această afacere ține de gestionarea relației și a așteptărilor, nu de abilitatea de execuție a campaniilor."
+        }
+      },
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: \"Contagious: Why Things Catch On\" de Jonah Berger",
+          "course1": "Curs: Certificarea Inbound Marketing HubSpot Academy",
+          "community1": "Comunitate: Comunitatea Demand Curve",
+          "checklist1": "Listă de verificare: Lista de verificare pentru integrarea abonamentului lunar"
+        }
+      }
+    },
+    "ecommerceBrand": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: \"Different: Escaping the Competitive Herd\" de Youngme Moon",
+          "course1": "Curs: Shopify Compass — Fundamentele comerțului electronic",
+          "community1": "Comunitate: Comunitatea Ecommerce Fuel",
+          "checklist1": "Listă de verificare: Lista de verificare pentru lansarea unei colecții noi"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Veniturile încep lent în timp ce primul lot de stoc se vinde, apoi se accelerează pe măsură ce cohortele de achiziții repetate și de sezon de cadouri se adaugă peste achiziția de clienți noi."
+        },
+        "breakEven": {
+          "notes": "Pragul de rentabilitate este atins odată ce investiția în stocul primei colecții este recuperată, iar veniturile lunare din achiziții repetate acoperă cheltuielile publicitare și taxele de livrare curente."
+        },
+        "grossMargin": {
+          "notes": "Marja brută rămâne moderată, prețurile directe către consumator compensând costurile de achiziție plătită și de deținere a stocului."
+        },
+        "netMargin": {
+          "notes": "Marja netă presupune o structură suplă, cu un singur fondator, livrarea fiind externalizată către un partener logistic terț."
+        },
+        "scenarios": {
+          "conservative": "Prima colecție se vinde lent, cu o bază incipientă redusă de achiziții repetate și cheltuieli publicitare modeste.",
+          "expected": "Prima colecție se vinde complet în intervalul țintă, iar a doua colecție se lansează conform planificării.",
+          "optimistic": "Cererea puternică din sezonul de cadouri, plus interesul timpuriu en-gros, accelerează a doua colecție și o linie pentru nuntă."
+        },
+        "risks": {
+          "risk1": "Capitalul blocat în stocuri nevândute poate pune presiune pe fluxul de numerar dacă o colecție se vinde mai lent decât s-a prognozat.",
+          "risk2": "Creșterea costurilor publicitare pe Meta și Google poate eroda marjele mai rapid decât pot compensa prețurile sau rata de achiziții repetate."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează veniturile ca vânzări directe cu creștere lentă, care se accelerează prin achiziții repetate și vârfuri din sezonul de cadouri, cu fluxul de numerar limitat de ciclurile de producție a stocului."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Bijuterii fine, făcute să rămână — nu să treacă din modă. Piese cu proveniență etică, din diamante crescute în laborator, concepute pentru purtare zilnică, nu doar pentru momente de cadou.",
+          "category": "Brand de bijuterii fine direct către consumator"
+        },
+        "brandPromise": "O piesă pe care o vei purta încă și peste cinci ani, cu o proveniență clară din punct de vedere etic și susținută de o fereastră de probă acasă fără risc.",
+        "uvp": {
+          "statement": "Bijuterii fine cu proveniență etică, din materiale crescute în laborator, concepute pentru purtare zilnică, cu o fereastră de 30 de zile pentru probă acasă și ajustare gratuită a mărimii, care elimină riscul cumpărării fără a vedea produsul în persoană.",
+          "diff1": "O fereastră gratuită de retur de 30 de zile pentru probă acasă, cu ajustare gratuită a mărimii.",
+          "diff2": "O poveste verificabilă despre materiale cu proveniență etică, crescute în laborator, nu o afirmație vagă despre sustenabilitate."
+        },
+        "icp": {
+          "description": "Femei profesioniste, conștiente de design, cu vârste între 28-45 de ani, care cumpără bijuterii fine pentru ele însele sau ca un cadou bine gândit, și care țin la proveniența materialelor.",
+          "firmographics": "Profesioniste urbane și suburbane, venit pe gospodărie peste 75.000 USD, active pe Instagram și TikTok, obișnuite cu cumpărăturile online în categorii de achiziție bine gândite."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Cumpărătoarea pentru sine",
+            "description": "Își cumpără o piesă semnificativă pentru a marca un moment personal important și îi pasă la fel de mult de povestea materialelor ca și de design."
+          },
+          "persona2": {
+            "name": "Cadoritoarea atentă",
+            "description": "Cumpără pentru un partener sau un prieten apropiat, dorind o piesă care pare atent aleasă și de calitate superioară față de bijuteriile de masă."
+          }
+        },
+        "painPoints": {
+          "point1": "Nesigură în privința mărimii inelului sau lanțului atunci când cumpără online, fără să fi probat vreodată piesa.",
+          "point2": "Neîncrezătoare în afirmațiile vagi despre 'proveniență etică' ale brandurilor de bijuterii de masă, fără o poveste de aprovizionare verificabilă."
+        },
+        "outcomes": {
+          "outcome1": "O piesă care se potrivește perfect la sosire, sau ajustare gratuită a mărimii dacă nu se potrivește.",
+          "outcome2": "Încrederea că materialele au cu adevărat o proveniență etică, nu doar un limbaj de marketing."
+        },
+        "messaging": {
+          "core": "Bijuterii fine, făcute să rămână — nu să treacă din modă.",
+          "support1": "Fiecare piesă este livrată cu o fereastră de 30 de zile pentru probă acasă și ajustare gratuită a mărimii, deci nu există niciun risc în a cumpăra fără a proba mai întâi."
+        },
+        "brandVoice": {
+          "tone": "Cald și încrezător în design",
+          "attr1": "Concentrat pe meșteșug",
+          "attr2": "Onest în privința materialelor"
+        },
+        "contentPillars": {
+          "pillar1": "Conținut UGC real de la clienți, care arată piesele purtate în viața de zi cu zi",
+          "pillar2": "Povești din culise despre aprovizionare și meșteșug, legate de materialele crescute în laborator"
+        },
+        "channelStrategy": "Colaborările cu micro-influenceri și conținutul UGC generează descoperirea principală; reclamele Meta și Google Shopping transformă audiențele încălzite; fluxurile de e-mail și SMS pe ciclul de viață generează achiziții repetate de la lista existentă de clienți.",
+        "community": {
+          "description": "O comunitate informală de clienți fideli care distribuie fotografii de styling și previzualizări ale colecțiilor, mai degrabă decât un forum public formal.",
+          "platform1": "Instagram"
+        },
+        "leadMagnets": {
+          "magnet1": "Ghid gratuit pentru mărimea inelului și instrument de probă virtuală"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Conștientizare",
+            "description": "O potențială clientă vede o piesă purtată într-o postare UGC a unui influencer sau a unei prietene."
+          },
+          "stage2": {
+            "name": "Considerare",
+            "description": "Ea răsfoiește catalogul, citește povestea aprovizionării și verifică ghidul de mărimi."
+          },
+          "stage3": {
+            "name": "Conversie",
+            "description": "Ea finalizează comanda online, liniștită de fereastra de 30 de zile pentru probă acasă și ajustarea gratuită a mărimii."
+          }
+        },
+        "retention": {
+          "tactic1": "Fluxurile de e-mail post-achiziție prezintă următoarea lansare de colecție și recompensează achizițiile repetate cu acces timpuriu."
+        },
+        "analytics": {
+          "metric1": "Rata de achiziții repetate și costul mixt de achiziție a clienților"
+        },
+        "aiMetadata": {
+          "generationHints": "Începe cu conținut UGC real de la clienți și de la influenceri, arătând piesele purtate în viața de zi cu zi, nu doar fotografii de produs realizate exclusiv în studio."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Finalizează designul primei colecții, aprovizionează materialele crescute în laborator și configurează platforma de comerț electronic și partenerul de livrare."
+          },
+          "deliverables": {
+            "0": "Un fișier de design finalizat pentru prima colecție și un acord de aprovizionare semnat cu un furnizor de materiale crescute în laborator."
+          },
+          "checklist": {
+            "0": "Confirmă standardele de control al calității ale furnizorului înainte de a te angaja pentru un lot complet de producție."
+          },
+          "commonMistakes": {
+            "0": "Producerea unui lot inițial de stoc prea mare înainte ca designul să fie validat cu feedback real de la clienți."
+          },
+          "successCriteria": {
+            "0": "Un lot pilot de producție este gata de expediere către o listă cu acces timpuriu."
+          },
+          "aiRecommendations": {
+            "0": "Folosește editarea foto asistată de AI pentru a pregăti imaginile de produs ale lotului pilot, înainte de ședința foto completă a catalogului."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Vinde lotul pilot de producție direct unei liste cu acces timpuriu pentru a valida prețul și atractivitatea designului."
+          },
+          "deliverables": {
+            "0": "Un preț validat și o rată documentată de conversie a vânzărilor pentru accesul timpuriu."
+          },
+          "checklist": {
+            "0": "Urmărește câți cumpărători cu acces timpuriu convertesc la preț integral față de doar cu reducere."
+          },
+          "kpis": [
+            "closeRate"
+          ],
+          "commonMistakes": {
+            "0": "Reducerea puternică a prețului pentru a vinde lotul pilot, ceea ce distorsionează semnalul real al cererii pentru următoarea decizie de producție."
+          },
+          "successCriteria": {
+            "0": "Lotul pilot se vinde complet la prețul integral intenționat, în cadrul listei cu acces timpuriu."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza tiparele de achiziție din accesul timpuriu și pentru a semnala ce produse au performanțe slabe."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Lansează prima colecție completă pe magazinul online activ, cu fotografii complete de produs și politica de retur pentru probă acasă."
+          },
+          "deliverables": {
+            "0": "Un magazin online activ cu prima colecție completă, fotografii complete și o politică de retur publicată."
+          },
+          "checklist": {
+            "0": "Confirmă că politica de 30 de zile pentru probă acasă și procesul de ajustare a mărimii sunt publicate clar înainte de lansare."
+          },
+          "kpis": [
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Lansarea fără o politică clară de retur și de mărime, ceea ce crește volumul de serviciu clienți și rata rambursărilor."
+          },
+          "successCriteria": {
+            "0": "Magazinul procesează prima comandă fără o dispută privind politica de retur."
+          },
+          "aiRecommendations": {
+            "0": "Folosește editarea foto asistată de AI pentru a menține producția catalogului conform planificării pentru lansare."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Generează traficul inițial prin colaborări cu influenceri și conținut UGC și lansează primele campanii de reclame plătite."
+          },
+          "deliverables": {
+            "0": "Un grup de micro-influenceri cu postări organice active și primele campanii de reclame plătite lansate."
+          },
+          "checklist": {
+            "0": "Confirmă răspunsul organic UGC înainte de a scala cheltuielile publicitare din spatele lui."
+          },
+          "commonMistakes": {
+            "0": "Cheltuirea excesivă pe reclame plătite înainte ca conținutul UGC organic și cel al influencerilor să fi validat ce piese rezonează."
+          },
+          "successCriteria": {
+            "0": "Cel puțin o piesă arată o tracțiune UGC organică clară înainte de scalarea cheltuielilor plătite."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a identifica ce stil de conținut UGC generează cel mai mare angajament înainte de a aloca bugetul plătit."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Transformă primul val de cumpărători în clienți fideli prin fluxuri de e-mail post-achiziție pe ciclul de viață."
+          },
+          "deliverables": {
+            "0": "Un flux automat de e-mail post-achiziție activ pentru toți clienții din primul val."
+          },
+          "checklist": {
+            "0": "Confirmă că fluxul post-achiziție include o cerere de recenzie și o previzualizare a următoarei colecții."
+          },
+          "kpis": [
+            "customerRetention"
+          ],
+          "commonMistakes": {
+            "0": "Tratarea primei vânzări ca sfârșitul relației, în loc de începutul unei secvențe de marketing pe ciclul de viață."
+          },
+          "successCriteria": {
+            "0": "Are loc cel puțin o achiziție repetată din lista de clienți din primul val."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a personaliza conținutul e-mailului post-achiziție, pe baza piesei specifice cumpărate."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Identifică ce piese și niveluri de preț generează cea mai mare rată de achiziții repetate și investește mai mult în ele în colecțiile viitoare."
+          },
+          "deliverables": {
+            "0": "O clasificare documentată a produselor cele mai vândute și cu cea mai mare rată de achiziții repetate."
+          },
+          "checklist": {
+            "0": "Confirmă cel puțin un ciclu complet de vânzări de date înainte de a retrage orice produs cu performanțe slabe."
+          },
+          "kpis": [
+            "closeRate",
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Extinderea prea largă a catalogului înainte de a identifica un nucleu clar de produse cele mai vândute."
+          },
+          "successCriteria": {
+            "0": "Un nucleu clar de produse cele mai vândute este identificat și reflectat în următoarea comandă de producție."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza ce atribute de produs (preț, material, stil) corelează cel mai mult cu achizițiile repetate."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Crește veniturile lunare prin scalarea campaniilor de reclame plătite dovedite și extinderea programului de e-mail/SMS pe ciclul de viață."
+          },
+          "deliverables": {
+            "0": "Un buget publicitar plătit scalat în spatele campaniilor dovedite și un program SMS extins pe ciclul de viață."
+          },
+          "checklist": {
+            "0": "Confirmă că termenele de producție a stocului pot susține creșterea planificată a cheltuielilor publicitare înainte de a scala."
+          },
+          "kpis": [
+            "mrr"
+          ],
+          "commonMistakes": {
+            "0": "Scalarea cheltuielilor publicitare mai rapid decât poate susține capacitatea de producție a stocului, ceea ce duce la epuizarea stocului la produsele cele mai vândute."
+          },
+          "successCriteria": {
+            "0": "Veniturile lunare cresc timp de trei luni consecutive fără epuizarea stocului la niciun produs de top."
+          },
+          "aiRecommendations": {
+            "0": "Folosește prognoza cererii asistată de AI pentru a sincroniza comenzile de producție cu creșterile planificate ale cheltuielilor publicitare."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Lansează o a doua linie de produse, precum o colecție pentru nuntă, și formalizează parteneriate en-gros cu boutique-uri."
+          },
+          "deliverables": {
+            "0": "O a doua linie de produse lansată și cel puțin un acord en-gros semnat cu un boutique."
+          },
+          "checklist": {
+            "0": "Validează a doua linie de produse cu un lot pilot mic înainte de a te angaja pentru producția en-gros completă."
+          },
+          "kpis": [
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Diluarea poziționării brandului prin lansarea unei a doua linii înainte ca colecția de bază să aibă o identitate clară și dovedită."
+          },
+          "successCriteria": {
+            "0": "A doua linie de produse generează prima sa comandă en-gros."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a identifica ce clienți existenți arată cea mai mare afinitate pentru noua linie de produse, înainte de a o promova pe scară largă."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Extinde-te pe noi piețe geografice sau canale suplimentare de boutique en-gros, dincolo de baza inițială directă către consumator."
+          },
+          "deliverables": {
+            "0": "Un plan documentat de livrare și fulfillment pentru cel puțin o nouă piață geografică."
+          },
+          "checklist": {
+            "0": "Validează costurile de livrare pe noua piață și logistica retururilor cu un set limitat de produse, înainte de o lansare internațională completă."
+          },
+          "kpis": [
+            "mrr"
+          ],
+          "commonMistakes": {
+            "0": "Extinderea livrării către noi regiuni înainte ca fiecare cost de livrare și logistica retururilor să fie modelate corespunzător."
+          },
+          "successCriteria": {
+            "0": "Noua piață generează prima comandă completă și primul ciclu de retur fără o eșuare logistică."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a modela costul de livrare și timpul de expediere pentru piețele noi candidate, înainte de a te angaja pentru extindere."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Pregătește lista de clienți a brandului, datele privind achizițiile repetate și relațiile en-gros pentru o posibilă achiziție de către o companie mai mare de bunuri de consum."
+          },
+          "deliverables": {
+            "0": "Un raport documentat al cohortelor de clienți, datele de achiziții repetate și un rezumat al relațiilor en-gros, pregătite pentru due diligence."
+          },
+          "checklist": {
+            "0": "Confirmă că datele clienților și acordurile cu furnizorii sunt transferabile înainte de a intra în discuții de achiziție."
+          },
+          "commonMistakes": {
+            "0": "Așteptarea apariției unui cumpărător pentru a începe documentarea datelor despre cohortele de clienți și retenție."
+          },
+          "successCriteria": {
+            "0": "Un cumpărător calificat finalizează due diligence pe baza datelor documentate despre clienți și en-gros."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a compila datele istorice despre cohorte și achiziții repetate într-un rezumat pregătit pentru due diligence."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține un ton generat cald și încrezător în design — descrie piesele așa cum ar face-o un fondator experimentat de brand de bijuterii, ancorat în materiale și meșteșug."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Different: Escaping the Competitive Herd de Youngme Moon",
+          "description": "Un argument tăios pentru o diferențiere autentică a brandului, în locul competiției caracteristică-cu-caracteristică, relevant direct pentru a ieși în evidență pe o piață aglomerată de bijuterii."
+        },
+        "item2": {
+          "title": "Shopify Compass — Fundamentele comerțului electronic",
+          "description": "Un curs gratuit și practic care acoperă configurarea magazinului de comerț electronic, optimizarea finalizării comenzii și elementele de bază ale livrării."
+        },
+        "item3": {
+          "title": "Comunitatea Ecommerce Fuel",
+          "description": "O comunitate activă de fondatori de branduri independente de comerț electronic, care împărtășesc tactici despre reclame plătite, retenție și livrare."
+        },
+        "item4": {
+          "title": "Podcastul The Business of Fashion",
+          "description": "Un podcast care acoperă construirea brandului și strategia direct către consumator în industria modei și a bijuteriilor."
+        },
+        "item5": {
+          "title": "Newsletter-ul Modern Retail",
+          "description": "Un newsletter care urmărește strategia brandurilor direct către consumator, tendințele de achiziție plătită și tacticile de retenție."
+        },
+        "item6": {
+          "title": "Shopify",
+          "description": "Platformă de comerț electronic folosită pentru a rula magazinul, finalizarea comenzii și gestionarea comenzilor."
+        },
+        "item7": {
+          "title": "Klaviyo",
+          "description": "Platformă de marketing prin e-mail și SMS pe ciclul de viață, folosită pentru fluxurile post-achiziție și campaniile din sezonul de cadouri."
+        },
+        "item8": {
+          "title": "Loox",
+          "description": "Instrument de colectare a recenziilor și conținutului generat de utilizatori, asistat de AI, folosit pentru a construi dovada socială pe paginile de produs."
+        },
+        "item9": {
+          "title": "Certificarea Shopify Compass pentru comerț electronic",
+          "description": "O certificare recunoscută care întărește credibilitatea operațională în negocierile cu furnizorii și partenerii en-gros."
+        },
+        "item10": {
+          "title": "Târgul NY NOW pentru bijuterii și accesorii",
+          "description": "Un eveniment comercial major, valoros pentru relațiile de aprovizionare și conexiunile timpurii cu boutique-uri en-gros."
+        },
+        "item11": {
+          "title": "O rețea de furnizori de pietre prețioase etice și diamante crescute în laborator",
+          "description": "O rețea de furnizori verificați pentru aprovizionarea cu materiale produse etic, cu documentație de proveniență verificabilă."
+        },
+        "item12": {
+          "title": "Lista de verificare pentru lansarea unei colecții noi",
+          "description": "O listă de verificare care acoperă aprobarea controlului calității de la furnizor, fotografierea, actualizările de catalog și secvențierea e-mailurilor/reclamelor înainte ca orice colecție nouă să fie lansată."
+        },
+        "aiMetadata": {
+          "generationHints": "Recomandă resurse care întăresc o abordare onestă în privința materialelor și încrezătoare în design pentru bijuteriile direct către consumator, nu sfaturi generice de growth-hacking pentru comerțul electronic."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Comenzile en-gros corporative de cadouri în jurul sărbătorilor pot netezi veniturile altfel sezoniere, printr-un canal B2B-adiacent previzibil."
+          },
+          "item2": {
+            "title": "O poveste documentată de aprovizionare poate deveni ea însăși conținut care se distribuie, reducând dependența de reclamele plătite pentru descoperire."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "O singură colecție cu vânzări lente poate bloca suficient capital de lucru pentru a întârzia următorul lot de producție și a stagna creșterea."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Supraproducerea primei colecții înainte ca cererea reală să fie validată printr-un lot pilot mic."
+          },
+          "item2": {
+            "title": "Lansarea fără o politică clar publicată de mărime și retur, ceea ce crește volumul de serviciu clienți."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Publicarea conținutului UGC real de la clienți depășește de obicei fotografia de studio realizată profesional, în privința conversiilor."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Validează a doua linie de produse cu un lot pilot mic înainte de a te angaja pentru un lot complet de producție en-gros."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Tratează fereastra de 30 de zile pentru probă acasă ca fiind produsul demo real — face mai mult pentru a converti cumpărătorii ezitanți decât orice material publicitar."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clienții care solicită o ajustare a mărimii convertesc la o a doua achiziție la o rată semnificativ mai mare decât cei care nu o fac."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea retururilor de bijuterii fine sunt determinate de incertitudinea privind mărimea, nu de nemulțumirea față de piesa în sine."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Ajustarea gratuită a mărimii și costurile de expediere pentru retur pot eroda discret marja, dacă nu sunt incluse în costul inițial al produsului."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Un volum crescând de cereri en-gros de sezon de cadouri de la același cumpărător corporativ semnalează o relație en-gros demnă de oficializat."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "O lansare de colecție în ediție limitată, epuizată în 48 de ore, a devenit cel mai puternic motor organic de conținut UGC al brandului."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un brand care a sărit peste lotul pilot și a supraprodus prima colecție completă a rămas cu stoc nevândut timp de două trimestre."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "De ce oferim o fereastră de 30 de zile pentru probă acasă la bijuteriile fine?",
+            "answer": "Cumpărarea bijuteriilor online fără a le proba este cea mai mare ezitare pentru acest client — eliminarea acestui risc convertește mult mai mulți vizitatori în cumpărători decât ar face-o orice reducere."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Brandurile de bijuterii direct către consumator concurează doar pe preț.",
+            "fact": "Cel mai puternic diferențiator este o poveste verificabilă despre materiale și aprovizionare — prețul singur invită la o cursă către minim, împotriva competitorilor de masă."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Validează fiecare produs nou cu un lot pilot mic înainte de a angaja capital pentru un lot complet de producție."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Subliniază că cel mai mare risc în această afacere este gestionarea stocului și a fluxului de numerar, nu abilitatea creativă sau de design."
+        }
+      }
+    },
+    "coachingBusiness": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: \"The Making of a Manager\" de Julie Zhuo",
+          "course1": "Curs: Certificarea Associate Certified Coach (ICF)",
+          "community1": "Comunitate: r/managers și Slack-ul Rands Leadership",
+          "checklist1": "Listă de verificare: Lista de verificare pentru apelul de descoperire al managerului la prima experiență"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Veniturile se construiesc prin vânzări bazate pe pachete, care se acumulează pe măsură ce contractele corporative se reînnoiesc pe cicluri trimestriale, cu o marjă cu adevărat mare odată ce costurile de certificare și configurare sunt acoperite."
+        },
+        "breakEven": {
+          "notes": "Pragul de rentabilitate este atins odată ce primele două sau trei pachete de coaching sunt semnate, având în vedere baza de costuri curente natural scăzută a unui serviciu bazat pe timp."
+        },
+        "grossMargin": {
+          "notes": "Marja brută rămâne foarte mare, deoarece costul de bază este timpul propriu al coach-ului, nu materialele sau instrumentele."
+        },
+        "netMargin": {
+          "notes": "Marja netă presupune o structură suplă, cu un singur fondator, cu costuri minime de instrumente recurente."
+        },
+        "scenarios": {
+          "conservative": "Câțiva clienți cu plată individuală, fără niciun contract sponsorizat de companie încă.",
+          "expected": "Două-trei contracte sponsorizate de companie, reînnoite trimestrial, plus o mică bază de clienți cu plată individuală.",
+          "optimistic": "Un calendar trimestrial complet de contracte sponsorizate de companie, plus o primă cohortă de succes a programului de coaching de grup."
+        },
+        "risks": {
+          "risk1": "Bugetele corporative de învățare și dezvoltare și de instruire sunt adesea printre primele elemente tăiate într-o recesiune, amenințând direct contractele sponsorizate de companie.",
+          "risk2": "Propriul calendar al fondatorului este plafonul dur pentru veniturile din coaching individual — creșterea necesită o schimbare autentică a modelului de afaceri, nu doar mai multe ore."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează veniturile ca vânzări bazate pe pachete, cu cicluri trimestriale de reînnoire pentru angajamentele sponsorizate de companie, recunoscând propriul calendar al fondatorului ca plafon dur de capacitate."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Instruirea de management pe care promovarea ta nu a inclus-o — coaching practic de leadership pentru manageri la prima experiență, în companii tech cu creștere rapidă.",
+          "category": "Coaching executiv pentru manageri la prima experiență"
+        },
+        "brandPromise": "Un manager care știe exact cum să gestioneze situația din fața lui, nu un dosar cu teorie generică de leadership.",
+        "uvp": {
+          "statement": "Coaching individual pentru manageri la prima experiență, în companii tech cu creștere rapidă, ancorat în experiență reală de management, începând cu un apel gratuit de descoperire care clarifică lacunele specifice de leadership.",
+          "diff1": "Un apel gratuit de descoperire care scoate la iveală lacune concrete de leadership, înainte de orice angajament.",
+          "diff2": "Prețuri bazate pe pachete, care oferă unui deținător de buget corporativ un cost previzibil, facturabil."
+        },
+        "icp": {
+          "description": "Lideri HR și de învățare și dezvoltare din companii tech cu creștere rapidă, care sponsorizează coaching pentru managerii nou-promovați la prima experiență, alături de managerii înșiși.",
+          "firmographics": "Companii tech și scaleup cu 50-500 de angajați, cu un buget activ de învățare și dezvoltare și un flux constant de promovări de la contribuitor individual la manager."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Managerul la prima experiență",
+            "description": "Recent promovat dintr-un rol de contribuitor individual și nesigur cum să gestioneze prima sa conversație dificilă de echipă."
+          },
+          "persona2": {
+            "name": "Sponsorul de învățare și dezvoltare",
+            "description": "Un lider HR sau People Ops în căutarea unei modalități credibile și demonstrabile de a sprijini un val de manageri noi, fără a construi un program intern de instruire de la zero."
+          }
+        },
+        "painPoints": {
+          "point1": "Un manager nou-promovat care nu știe cum să gestioneze o situație de echipă specifică, reală.",
+          "point2": "Un sponsor HR sceptic în privința afirmațiilor vagi, nedovedite, de coaching, fără o măsurare clară a rezultatelor."
+        },
+        "outcomes": {
+          "outcome1": "Încredere în gestionarea situațiilor reale de echipă, în locul teoriei generice de leadership.",
+          "outcome2": "Un rezultat demonstrabil, de la un trimestru la altul, pe care sponsorul HR îl poate raporta propriei conduceri."
+        },
+        "messaging": {
+          "core": "Instruirea de management pe care promovarea ta nu a inclus-o.",
+          "support1": "Fiecare angajament începe cu un apel gratuit de descoperire, care clarifică lacunele specifice de leadership de lucrat, nu o programă generică."
+        },
+        "brandVoice": {
+          "tone": "Ancorat și practic",
+          "attr1": "Direct",
+          "attr2": "Credibil"
+        },
+        "contentPillars": {
+          "pillar1": "Scenarii reale ale managerilor la prima experiență și cum să le gestioneze",
+          "pillar2": "Cadre practice pentru conversațiile specifice de care se tem noii manageri"
+        },
+        "channelStrategy": "Conținutul de lidership de gândire pe LinkedIn construiește conștientizarea principală în rândul managerilor și liderilor HR; recomandările de la cumpărătorii HR/L&D din angajamente de succes construiesc încredere secundară; webinariile de tip prânz-și-învățare generează prezentări calde experimentale.",
+        "community": {
+          "description": "O rețea informală de sponsori HR și de învățare și dezvoltare și foști clienți de coaching care recomandă noi angajamente, mai degrabă decât o comunitate publică formală.",
+          "platform1": "LinkedIn"
+        },
+        "leadMagnets": {
+          "magnet1": "Webinar gratuit de tip prânz-și-învățare despre capcanele managerilor la prima experiență"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Conștientizare",
+            "description": "Un lider HR sau un manager vede o postare pe LinkedIn care descompune un scenariu real al unui manager la prima experiență."
+          },
+          "stage2": {
+            "name": "Considerare",
+            "description": "Ei programează un apel gratuit de descoperire de 20 de minute, pentru a discuta lacunele specifice de leadership."
+          },
+          "stage3": {
+            "name": "Conversie",
+            "description": "Apelul de descoperire se transformă într-un pachet de coaching propus, vândut direct sau facturat bugetului de învățare și dezvoltare."
+          }
+        },
+        "retention": {
+          "tactic1": "Un rezumat al progresului la jumătatea angajamentului, împărtășit cu sponsorul HR, construiește argumentul pentru reînnoire chiar înainte ca discuția să înceapă."
+        },
+        "analytics": {
+          "metric1": "Rata de conversie de la apelul de descoperire la pachetul semnat și rata de reînnoire trimestrială a contractelor"
+        },
+        "aiMetadata": {
+          "generationHints": "Începe cu scenarii specifice, reale, ale managerilor la prima experiență și cum să le gestioneze, nu cu un limbaj generic despre „deblocarea potențialului de leadership”."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The Making of a Manager de Julie Zhuo",
+          "description": "O relatare practică și ancorată a provocărilor reale cu care se confruntă managerii la prima experiență, direct relevantă pentru această nișă de coaching."
+        },
+        "item2": {
+          "title": "Certificarea Associate Certified Coach (ICF)",
+          "description": "O certificare de coaching recunoscută, care construiește credibilitate în fața cumpărătorilor corporativi de învățare și dezvoltare."
+        },
+        "item3": {
+          "title": "Comunitatea Slack Rands Leadership",
+          "description": "O comunitate activă de manageri de inginerie și tehnologie, care discută provocări reale de leadership."
+        },
+        "item4": {
+          "title": "Podcastul Manager Tools",
+          "description": "Un podcast de lungă durată, care acoperă abilități practice și tactice de management, relevante pentru managerii la prima experiență."
+        },
+        "item5": {
+          "title": "Newsletter-ul First Round Review",
+          "description": "Un newsletter care acoperă studii de caz de management și leadership de la operatori din companii tech aflate în etapa de creștere."
+        },
+        "item6": {
+          "title": "Calendly",
+          "description": "Instrument de programare folosit pentru a rezerva apeluri de descoperire și sesiuni de coaching."
+        },
+        "item7": {
+          "title": "Zoom",
+          "description": "Platformă de videoconferință folosită pentru a livra toate sesiunile de coaching de la distanță."
+        },
+        "item8": {
+          "title": "Un instrument de notițe de sesiune asistat de AI",
+          "description": "Un instrument AI care transcrie și rezumă sesiunile de coaching, eliberând coach-ul pentru a rămâne complet prezent în conversație."
+        },
+        "item9": {
+          "title": "Certificarea Associate Certified Coach (ICF)",
+          "description": "O certificare recunoscută care întărește credibilitatea atunci când vinzi către un buget corporativ de învățare și dezvoltare."
+        },
+        "item10": {
+          "title": "Conferința și Expoziția Internațională ATD",
+          "description": "Un eveniment comercial major de dezvoltare a talentelor, valoros pentru construirea relațiilor cu cumpărătorii HR și de învățare și dezvoltare."
+        },
+        "item11": {
+          "title": "O rețea de coach-i executivi colegi",
+          "description": "O rețea de recomandări de coach-i cu specializări adiacente, pentru recomandări încrucișate și capacitate suplimentară."
+        },
+        "item12": {
+          "title": "Lista de verificare pentru apelul de descoperire al managerului la prima experiență",
+          "description": "O listă de verificare care acoperă întrebările și criteriile de calificare pentru un apel de descoperire productiv, cu un manager sau sponsorul său HR."
+        },
+        "aiMetadata": {
+          "generationHints": "Recomandă resurse care întăresc o abordare ancorată și practică a coaching-ului pentru manageri la prima experiență, nu conținut generic motivațional de leadership."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Un angajament de succes cu un manager dintr-o companie scoate adesea la iveală încă doi sau trei candidați de la același sponsor HR."
+          },
+          "item2": {
+            "title": "Un rezultat documentat înainte/după dintr-un angajament poate deveni piesa centrală a următoarei discuții corporative de vânzare."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Încheierea unui singur contract corporativ mare poate elimina o cotă semnificativă din venitul lunar, în această etapă a afacerii."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Prețuirea prea scăzută a primului pachet doar pentru a încheia o afacere, ceea ce devine greu de renegociat la reînnoire."
+          },
+          "item2": {
+            "title": "Acceptarea unui client ale cărui lacune de leadership nu se potrivesc cu expertiza reală a coach-ului, doar pentru a atinge o țintă de venit."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Publicarea unui rezultat concret de coaching, înainte/după, depășește de obicei luni întregi de conținut motivațional generic."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Documentează metodologia de coaching și standardele de calitate înainte de a integra primul coach asociat."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Tratează apelul gratuit de descoperire ca fiind produsul demo real — sunt cele mai valoroase 20 de minute din întregul proces de vânzare."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Contractele sponsorizate de companie care includ o verificare a progresului la jumătatea angajamentului, cu supervizorul managerului, se reînnoiesc la o rată semnificativ mai mare."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea pierderilor de clienți în angajamentele de coaching provin din așteptări neclare de la început, nu din calitatea slabă a coaching-ului."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Asigurarea de răspundere profesională și costurile periodice de recertificare se pot acumula discret, dacă nu sunt bugetate de la început."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Un volum crescând de cereri de apel de descoperire legate de promovări, din aceeași companie, semnalează un val de manageri noi, pentru care merită propus un program de cohortă."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Îmbunătățirea scorurilor de implicare a echipei unui manager la prima experiență, în decurs de un trimestru, a devenit cel mai puternic motor de recomandare al coach-ului în fața echipei HR a acelei companii."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un coach care a sărit peste apelul de descoperire și a aplicat o programă universală a văzut angajamentul încheindu-se fără reînnoire."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "De ce începe fiecare angajament cu un apel gratuit de descoperire?",
+            "answer": "Lacunele specifice ale fiecărui manager la prima experiență sunt diferite — o programă generică, fără un apel de descoperire, produce rareori un rezultat care să merite reînnoit."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Coaching-ul de leadership este doar o discuție motivațională generică.",
+            "fact": "Coaching-ul eficient pentru managerii la prima experiență este ancorat în scenarii reale, specifice, de echipă — același rigoare pe care un manager bun l-ar aplica oricărei alte abilități."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Împărtășește datele privind progresul cu sponsorul HR pe parcursul angajamentului, nu doar la discuția de reînnoire."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Subliniază că cel mai mare risc în această afacere este capacitatea calendarului și încrederea deținătorului de buget, nu abilitatea de coaching în sine."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Finalizează o certificare de coaching, configurează instrumentele de programare și video și construiește un site simplu de rezervări."
+          },
+          "deliverables": {
+            "0": "O certificare de coaching finalizată și un site de rezervări activ, cu instrumente de programare și video conectate."
+          },
+          "checklist": {
+            "0": "Confirmă că certificarea de coaching este recunoscută de cumpărătorii corporativi de învățare și dezvoltare, înainte de lansare."
+          },
+          "commonMistakes": {
+            "0": "Sărirea peste certificarea formală de coaching, ceea ce subminează credibilitatea în fața cumpărătorilor corporativi de învățare și dezvoltare, care o așteaptă."
+          },
+          "successCriteria": {
+            "0": "Site-ul de rezervări este activ și pregătit să primească primul apel de descoperire."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta scriptul inițial al apelului de descoperire, apoi rafinează-l după primele apeluri reale."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Desfășoară apeluri gratuite de descoperire cu 8-10 manageri țintă sau sponsorii lor HR, pentru a valida oferta și prețul."
+          },
+          "deliverables": {
+            "0": "Un preț de pachet validat și o rată documentată de conversie a apelurilor de descoperire."
+          },
+          "checklist": {
+            "0": "Urmărește câte apeluri de descoperire se transformă într-un pachet semnat față de un refuz politicos."
+          },
+          "commonMistakes": {
+            "0": "Prețuirea prea scăzută a primului pachet doar pentru a încheia o afacere, ceea ce devine greu de renegociat ulterior."
+          },
+          "successCriteria": {
+            "0": "Cel puțin doi manageri sau sponsori acceptă o propunere la prețul de pachet intenționat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a rezuma tiparele din apelurile de descoperire și pentru a rafina criteriile de calificare."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Livrează primul pachet complet de coaching, de la un capăt la altul, pentru primul client semnat."
+          },
+          "deliverables": {
+            "0": "O evaluare inițială finalizată, un ciclu complet de sesiuni bisăptămânale și o revizuire a rezultatelor la finalul angajamentului."
+          },
+          "checklist": {
+            "0": "Confirmă că obiectivele concrete și măsurabile sunt stabilite înainte de prima sesiune de coaching."
+          },
+          "commonMistakes": {
+            "0": "Promiterea excesivă a rezultatelor în primul angajament, înainte ca formatul de coaching în sine să fie dovedit."
+          },
+          "successCriteria": {
+            "0": "Primul client finalizează pachetul complet fără dispută privind scopul."
+          },
+          "aiRecommendations": {
+            "0": "Folosește instrumentul de notițe de sesiune asistat de AI încă din prima sesiune, pentru a construi o evidență consecventă."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publică primul conținut de lidership de gândire pe LinkedIn și oficializează o cerere de recomandare cu primul sponsor HR."
+          },
+          "deliverables": {
+            "0": "O postare de lidership de gândire publicată și o cerere de recomandare trimisă primului sponsor mulțumit."
+          },
+          "checklist": {
+            "0": "Obține permisiunea scrisă a clientului înainte de a face referire public la orice rezultat specific al angajamentului."
+          },
+          "commonMistakes": {
+            "0": "Publicarea de conținut motivațional vag, în loc de scenarii specifice și credibile ale managerilor la prima experiență."
+          },
+          "successCriteria": {
+            "0": "Conținutul publicat generează cel puțin o programare calificată pentru apelul de descoperire."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta postarea de lidership de gândire, apoi verifică fiecare detaliu față de angajamentul real anonimizat."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Reține primul contract sponsorizat de companie dincolo de termenul său trimestrial inițial."
+          },
+          "deliverables": {
+            "0": "Un contract reînnoit dincolo de termenul trimestrial inițial."
+          },
+          "checklist": {
+            "0": "Împărtășește un rezumat al progresului la jumătatea angajamentului cu sponsorul HR, înainte de discuția de reînnoire."
+          },
+          "commonMistakes": {
+            "0": "Așteptarea discuției de reînnoire pentru a prezenta datele privind progresul, în loc să le împărtășești pe parcursul angajamentului."
+          },
+          "successCriteria": {
+            "0": "Primul contract se reînnoiește pentru cel puțin un al doilea termen trimestrial."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a compila temele sesiunilor într-un rezumat al progresului la jumătatea angajamentului, pentru sponsorul HR."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge o bază stabilă de contracte sponsorizate de companie, cu un proces documentat și repetabil de la descoperire la semnare."
+          },
+          "deliverables": {
+            "0": "Un script documentat pentru apelul de descoperire și criterii de calificare."
+          },
+          "checklist": {
+            "0": "Confirmă că rata de conversie rămâne constantă pe parcursul a cel puțin zece apeluri de descoperire consecutive."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea unui client ale cărui lacune de leadership nu se potrivesc cu expertiza reală a coach-ului, doar pentru a atinge o țintă de venit."
+          },
+          "successCriteria": {
+            "0": "Mai multe contracte sponsorizate de companie sunt active, cu un proces de vânzare documentat și repetabil."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a identifica ce semnale de calificare din apelul de descoperire corelează cel mai mult cu reînnoirile de succes."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Proiectează și testează un program de coaching de grup, bazat pe cohorte, pentru a servi mai mulți manageri fără limitele calendarului individual."
+          },
+          "deliverables": {
+            "0": "Un program de coaching de grup testat, cu prima sa cohortă mică finalizată."
+          },
+          "checklist": {
+            "0": "Confirmă că programa de grup este ancorată în metodologia dovedită de coaching individual, înainte de testare."
+          },
+          "commonMistakes": {
+            "0": "Lansarea unui program de grup înainte ca programa 1:1 pe care se bazează să fi fost dovedită cu clienți individuali."
+          },
+          "successCriteria": {
+            "0": "Cohorta pilot finalizează programul cu feedback pozitiv și cel puțin o reînnoire sau recomandare."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a sintetiza temele comune din angajamentele individuale în programa programului de grup."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Integrează primul coach asociat în rețea, pentru a prelua conturi corporative suplimentare."
+          },
+          "deliverables": {
+            "0": "O metodologie de coaching documentată și primul coach asociat integrat."
+          },
+          "checklist": {
+            "0": "Confirmă că coach-ul asociat poate desfășura independent un apel de descoperire, înainte de a-i preda proprietatea clienților."
+          },
+          "commonMistakes": {
+            "0": "Integrarea unui coach asociat înainte ca metodologia de coaching să fie documentată suficient de bine pentru a putea fi predată."
+          },
+          "successCriteria": {
+            "0": "Coach-ul asociat gestionează independent cel puțin un cont corporativ."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a transforma notițele și cadrele de coaching ale fondatorului într-un document de instruire pentru noul asociat."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Extinde-te într-o nișă de coaching adiacentă, precum coaching pentru directori nou-promovați, dincolo de managerii la prima experiență."
+          },
+          "deliverables": {
+            "0": "Un studiu de caz documentat și un nivel de preț pentru noul segment."
+          },
+          "checklist": {
+            "0": "Validează noul segment cu cel puțin trei apeluri de descoperire, înainte de a angaja efort de marketing pentru el."
+          },
+          "commonMistakes": {
+            "0": "Diluarea poziționării de bază în jurul managerilor la prima experiență, în timp ce urmărești un segment adiacent fără dovezi."
+          },
+          "successCriteria": {
+            "0": "Noul segment produce cel puțin un angajament semnat și un studiu de caz documentat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a compara ratele de conversie ale apelurilor de descoperire între profilul ideal inițial și noul segment, înainte de a scala eforturile."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Pregătește portofoliul de clienți, rețeaua de coach-i asociați și metodologia documentată, pentru o posibilă achiziție de către o firmă mai mare de coaching sau de învățare și dezvoltare."
+          },
+          "deliverables": {
+            "0": "Un portofoliu de clienți documentat, un istoric de reînnoiri și o metodologie de coaching, pregătite pentru due diligence."
+          },
+          "checklist": {
+            "0": "Confirmă că contractele clienților sunt transferabile, înainte de a intra în discuții de achiziție."
+          },
+          "commonMistakes": {
+            "0": "Așteptarea apariției unui cumpărător pentru a începe documentarea metodologiei de coaching și a rezultatelor clienților."
+          },
+          "successCriteria": {
+            "0": "Un cumpărător calificat finalizează due diligence pe baza portofoliului de clienți și a metodologiei documentate."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a compila rezultatele istorice ale angajamentelor într-un rezumat pregătit pentru due diligence."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține un ton generat ancorat și practic — descrie scenarii reale de management așa cum ar face-o un manager de oameni experimentat, devenit coach."
+        }
+      }
+    },
+    "architectureStudio": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: \"How Buildings Learn\" de Stewart Brand",
+          "course1": "Curs: Pregătire pentru examenul NCARB de atestare a arhitecților (ARE)",
+          "community1": "Comunitate: r/architecture și Forumul Young Architect",
+          "checklist1": "Listă de verificare: Lista de verificare pentru consultația de teren și program"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Veniturile se construiesc lent pe parcursul unor termene lungi de proiect, onorariile procentuale din costul construcției scalând veniturile cu dimensiunea proiectului, fără a necesita proporțional mai mult efort de marketing."
+        },
+        "breakEven": {
+          "notes": "Pragul de rentabilitate durează cel mai mult dintre toate afacerile din acest set, având în vedere costul fix al licențierii și asigurării, în raport cu ritmul lent de semnare a primelor proiecte."
+        },
+        "grossMargin": {
+          "notes": "Marja brută este limitată de onorariile obligatorii ale consultanților în inginerie structurală și de costurile de printare/depunere, pe lângă timpul propriu de design al arhitectului."
+        },
+        "netMargin": {
+          "notes": "Marja netă reflectă costul fix ridicat al asigurării de răspundere profesională și al menținerii licenței, în raport cu volumul de proiecte."
+        },
+        "scenarios": {
+          "conservative": "Un singur proiect în desfășurare, cu un decalaj lung înainte de următorul acord semnat.",
+          "expected": "Două-trei proiecte simultane în faze diferite, susținute de o rețea constantă de recomandări.",
+          "optimistic": "O rețea completă de proiecte simultane, plus primul arhitect asociat care susține un al doilea flux de proiecte."
+        },
+        "risks": {
+          "risk1": "O eroare de design implică o expunere reală la răspundere legală și de asigurare, pe care majoritatea celorlalte afaceri din această bibliotecă pur și simplu nu o întâmpină.",
+          "risk2": "Termenele lungi ale proiectelor sunt vulnerabile la schimbări de buget sau întârzieri din partea clientului, care pot bloca sau opri un proiect la jumătatea designului."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează veniturile ca onorarii de proiect cu ciclu lung și creștere lentă, cu o bază de costuri fixe cu adevărat ridicată din asigurare și licențiere."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Arhitectură rezidențială pentru oameni care plănuiesc să rămână o vreme — design personalizat de casă, gândit temeinic și conform codului, condus de un arhitect licențiat, nu o fantezie de emisiune de renovare.",
+          "category": "Practică de arhitectură rezidențială licențiată"
+        },
+        "brandPromise": "O casă proiectată de cineva răspunzător legal și profesional pentru a face structura, codul și fezabilitatea corecte.",
+        "uvp": {
+          "statement": "Design rezidențial personalizat, condus direct de un arhitect licențiat, de la analiza inițială a terenului până la închiderea administrării construcției, cu opțiuni de preț care aliniază stimulentele studioului cu un design fezabil.",
+          "diff1": "Credibilitate condusă de un arhitect licențiat și răspundere legală, pe care un designer nelicențiat nu le poate oferi.",
+          "diff2": "O opțiune de preț procentual din costul construcției, care aliniază stimulentele cu un design fezabil și bine specificat."
+        },
+        "icp": {
+          "description": "Proprietari care construiesc o casă nouă personalizată sau întreprind o renovare substanțială și doresc judecata de design și răspunderea legală a unui arhitect licențiat.",
+          "firmographics": "Proprietari individuali cu bugete de construcție de obicei peste 400.000 USD, adesea recomandați de un antreprenor general sau agent imobiliar."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Proprietarul construcției personalizate",
+            "description": "Construiește o casă nouă de la zero și dorește judecata unui arhitect licențiat, atât despre design, cât și despre fezabilitate."
+          },
+          "persona2": {
+            "name": "Antreprenorul care recomandă",
+            "description": "Un antreprenor general care recomandă clienți care au nevoie de un arhitect licențiat pentru proiecte ce necesită autorizații și semnătură structurală."
+          }
+        },
+        "painPoints": {
+          "point1": "Incertitudine dacă un design va fi cu adevărat fezabil în limita bugetului intenționat.",
+          "point2": "Dificultate în a găsi un arhitect dispus să preia un singur proiect de casă personalizată, în loc să lucreze doar la proiecte comerciale mari."
+        },
+        "outcomes": {
+          "outcome1": "Un design confirmat ca fezabil în limita bugetului, înainte de începerea construcției.",
+          "outcome2": "Răspundere legală și profesională pentru design, pe tot parcursul construcției."
+        },
+        "messaging": {
+          "core": "Arhitectură rezidențială pentru oameni care plănuiesc să rămână o vreme.",
+          "support1": "Fiecare proiect începe cu o consultație de teren și program, care ancorează designul în terenul real, buget și obiective, înainte de a începe orice desen."
+        },
+        "brandVoice": {
+          "tone": "Precis și atestat",
+          "attr1": "Gândit temeinic",
+          "attr2": "Cunoscător al codului"
+        },
+        "contentPillars": {
+          "pillar1": "Fotografii reale ale proiectelor finalizate și deciziile de design din spatele lor",
+          "pillar2": "Explicații practice ale compromisurilor de cod și structurale pentru proprietari"
+        },
+        "channelStrategy": "Recomandările de la antreprenori generali și agenți imobiliari de încredere generează majoritatea proiectelor noi; un site de portofoliu curatoriat și apariții în publicații locale de design construiesc conștientizare secundară; networking-ul la târguri locale de locuințe generează prezentări experimentale.",
+        "community": {
+          "description": "O rețea informală de recomandări formată din antreprenori, agenți imobiliari și clienți anteriori, mai degrabă decât o comunitate publică formală.",
+          "platform1": "LinkedIn"
+        },
+        "leadMagnets": {
+          "magnet1": "Consultație inițială gratuită de teren și program"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Conștientizare",
+            "description": "Un proprietar este recomandat de antreprenorul general sau agentul imobiliar, sau descoperă direct site-ul de portofoliu."
+          },
+          "stage2": {
+            "name": "Considerare",
+            "description": "Ei programează o consultație inițială de teren și program, pentru a discuta terenul, bugetul și obiectivele."
+          },
+          "stage3": {
+            "name": "Conversie",
+            "description": "Consultația se transformă într-un acord de design semnat, cu preț fix sau procentual din costul construcției."
+          }
+        },
+        "retention": {
+          "tactic1": "Întâlnirile regulate de revizuire a dezvoltării designului mențin proprietarul implicat și încrezător pe tot parcursul termenului lung al proiectului."
+        },
+        "analytics": {
+          "metric1": "Rata de conversie de la consultație la acord semnat și rata de conversie a surselor de recomandare"
+        },
+        "aiMetadata": {
+          "generationHints": "Începe cu fotografii reale ale proiectelor finalizate și relații de recomandare numite cu antreprenori/agenți, nu cu conținut generic de inspirație de stil arhitectural."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Finalizează licențierea arhitecturală, configurează asigurarea de răspundere profesională și configurează software-ul CAD/BIM."
+          },
+          "deliverables": {
+            "0": "Licențiere arhitecturală activă, acoperire confirmată de asigurare de răspundere profesională și o configurare software CAD/BIM funcțională."
+          },
+          "checklist": {
+            "0": "Confirmă că licențierea și asigurarea sunt complet active, înainte de a accepta orice lucru plătit cu un client."
+          },
+          "commonMistakes": {
+            "0": "Începerea lucrului cu clienții înainte ca asigurarea de răspundere profesională să fie complet activă, expunând practica la risc neasigurat."
+          },
+          "successCriteria": {
+            "0": "Licențierea, asigurarea și software-ul sunt confirmate active și pregătite pentru primul client."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta șabloane inițiale de proiect CAD/BIM, care accelerează prima fază de design schematic."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Desfășoară consultații inițiale cu 5-8 proprietari țintă sau parteneri de recomandare, pentru a valida cererea și prețul."
+          },
+          "deliverables": {
+            "0": "O structură de onorarii validată și o rată documentată de conversie de la consultație la acord."
+          },
+          "checklist": {
+            "0": "Urmărește câte consultații se transformă într-un acord semnat față de un refuz politicos."
+          },
+          "kpis": [
+            "closeRate"
+          ],
+          "commonMistakes": {
+            "0": "Subevaluarea primului acord de design doar pentru a încheia o afacere, ceea ce este greu de corectat odată semnat."
+          },
+          "successCriteria": {
+            "0": "Cel puțin un proprietar acceptă o propunere la structura de onorarii intenționată."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza tiparele din consultațiile timpurii și pentru a rafina chestionarul de admitere."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Livrează primele faze de design schematic și de dezvoltare a designului, pentru primul client semnat."
+          },
+          "deliverables": {
+            "0": "Desene de design schematic și de dezvoltare a designului, finalizate pentru primul proiect."
+          },
+          "checklist": {
+            "0": "Confirmă că o analiză temeinică a terenului este finalizată, înainte de a începe desenele schematice."
+          },
+          "kpis": [
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Sărirea peste o analiză formală a terenului, înainte de a începe designul schematic, ceea ce duce la revizuiri costisitoare ulterior."
+          },
+          "successCriteria": {
+            "0": "Faza de dezvoltare a designului este aprobată de client fără o revizuire majoră a scopului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește randarea asistată de AI pentru a accelera producerea vizualelor de prezentare pentru client, în timpul dezvoltării designului."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publică primul proiect finalizat pe site-ul de portofoliu și oficializează o cerere de recomandare cu antreprenorul general implicat."
+          },
+          "deliverables": {
+            "0": "O intrare de portofoliu publicată, cu fotografii profesionale ale proiectului, și o cerere de recomandare trimisă antreprenorului."
+          },
+          "checklist": {
+            "0": "Comandă fotografii profesionale, înainte de a publica orice proiect finalizat."
+          },
+          "commonMistakes": {
+            "0": "Publicarea de randări în loc de fotografii reale ale proiectului finalizat, ceea ce subminează credibilitatea."
+          },
+          "successCriteria": {
+            "0": "Proiectul publicat generează cel puțin o cerere de consultație calificată."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta descrierea proiectului de portofoliu, apoi verifică fiecare detaliu tehnic înainte de publicare."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Finalizează închiderea administrării construcției pentru primul proiect și solicită o recomandare formală."
+          },
+          "deliverables": {
+            "0": "O închidere finalizată a administrării construcției și o mărturie documentată a clientului."
+          },
+          "checklist": {
+            "0": "Solicită recomandarea și mărturia imediat după ultima vizită la șantier, cât timp relația este activă."
+          },
+          "kpis": [
+            "customerRetention"
+          ],
+          "commonMistakes": {
+            "0": "Încheierea relației la predarea proiectului, în loc să soliciți o recomandare cât timp relația cu clientul este încă activă."
+          },
+          "successCriteria": {
+            "0": "Primul client oferă o mărturie și cel puțin o recomandare calificată."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a compila un rezumat al deciziilor cheie ale proiectului finalizat, pentru evidențele proprii ale clientului."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Stabilește o rețea constantă de recomandări de la un număr mic de antreprenori și agenți imobiliari de încredere."
+          },
+          "deliverables": {
+            "0": "O rețea de recomandări documentată, cu cel puțin două surse constante de recomandare."
+          },
+          "checklist": {
+            "0": "Confirmă ce surse de recomandare produc consultații calificate față de cereri necalificate."
+          },
+          "kpis": [
+            "closeRate",
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Împrăștierea prea subțire a efortului de relație de recomandare, pe prea mulți antreprenori, înainte ca o singură relație să fie dovedită."
+          },
+          "successCriteria": {
+            "0": "Cel puțin două surse de recomandare produc constant consultații calificate."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a urmări și analiza ce sursă de recomandare produce cea mai mare rată de conversie."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Crește volumul de proiecte în limita capacității sustenabile de proiecte simultane a arhitectului principal."
+          },
+          "deliverables": {
+            "0": "O limită documentată a capacității de proiecte simultane și o rețea completă de proiecte în limita ei."
+          },
+          "checklist": {
+            "0": "Stabilește un plafon explicit de proiecte simultane, înainte de a accepta noi acorduri semnate."
+          },
+          "kpis": [
+            "mrr"
+          ],
+          "commonMistakes": {
+            "0": "Acceptarea mai multor proiecte simultane decât pot primi atenția de design corespunzătoare, riscând calitatea și expunerea la răspundere."
+          },
+          "successCriteria": {
+            "0": "Practica funcționează la capacitatea sa sustenabilă de proiecte, fără nicio plângere privind calitatea."
+          },
+          "aiRecommendations": {
+            "0": "Folosește verificarea conformității cu codul asistată de AI, pentru a reduce timpul de revizuire pe măsură ce volumul de proiecte simultane crește."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Angajează primul arhitect asociat licențiat, pentru a prelua un al doilea proiect simultan."
+          },
+          "deliverables": {
+            "0": "Standarde de design și un proces de revizuire documentate, cu primul arhitect asociat integrat."
+          },
+          "checklist": {
+            "0": "Confirmă că standardele de design și procesele de revizuire sunt documentate, înainte de primul proiect independent al asociatului."
+          },
+          "kpis": [
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Angajarea unui arhitect asociat înainte ca standardele de design și procesele de revizuire să fie documentate suficient de bine pentru a menține calitatea."
+          },
+          "successCriteria": {
+            "0": "Arhitectul asociat gestionează independent un al doilea proiect simultan."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a transforma standardele de design ale arhitectului principal într-o referință de instruire documentată, pentru asociat."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Extinde rețeaua de recomandări într-o zonă geografică adiacentă sau o a doua tipologie de locuință."
+          },
+          "deliverables": {
+            "0": "Un proiect testat în noua zonă geografică sau tipologie și o rețea de recomandări extinsă acolo."
+          },
+          "checklist": {
+            "0": "Planifică logistica de deplasare pentru administrarea construcției, înainte de a te angaja pentru o nouă zonă geografică."
+          },
+          "kpis": [
+            "mrr"
+          ],
+          "commonMistakes": {
+            "0": "Extinderea într-o nouă zonă geografică, înainte ca logistica de deplasare pentru administrarea construcției să fie planificată corespunzător."
+          },
+          "successCriteria": {
+            "0": "Proiectul pilot din noua zonă geografică sau tipologie se finalizează cu succes."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a modela logistica timpului de deplasare și a vizitelor la șantier, pentru zonele geografice noi candidate, înainte de angajament."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Pregătește portofoliul de proiecte, rețeaua de recomandări și echipa de arhitecți asociați, pentru o posibilă achiziție de către o firmă mai mare de design sau design-construcție."
+          },
+          "deliverables": {
+            "0": "Un portofoliu de proiecte documentat, un rezumat al surselor de recomandare și o structură de echipă, pregătite pentru due diligence."
+          },
+          "checklist": {
+            "0": "Confirmă că relațiile cu clienții și partenerii de recomandare sunt documentate și transferabile, înainte de a intra în discuții de achiziție."
+          },
+          "commonMistakes": {
+            "0": "Așteptarea apariției unui cumpărător pentru a începe documentarea portofoliului de proiecte și a relațiilor de recomandare."
+          },
+          "successCriteria": {
+            "0": "Un cumpărător calificat finalizează due diligence pe baza portofoliului documentat și a rețelei de recomandări."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a compila rezultatele istorice ale proiectelor într-un rezumat pregătit pentru due diligence."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține un ton generat precis și atestat — descrie deciziile de design așa cum ar face-o un arhitect licențiat."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "How Buildings Learn de Stewart Brand",
+          "description": "O perspectivă fundamentală asupra modului în care clădirile sunt de fapt folosite și adaptate în timp, direct relevantă pentru proiectarea unor case durabile."
+        },
+        "item2": {
+          "title": "Curs de pregătire pentru examenul NCARB de atestare a arhitecților (ARE)",
+          "description": "Un curs structurat de pregătire pentru examenul de licențiere necesar pentru a practica arhitectura."
+        },
+        "item3": {
+          "title": "Forumul Young Architect",
+          "description": "O comunitate activă de arhitecți licențiați și în curs de licențiere, care discută despre gestionarea practicii și design."
+        },
+        "item4": {
+          "title": "Podcastul Practice Disrupted",
+          "description": "Un podcast care acoperă latura de afaceri a conducerii unei mici practici de arhitectură."
+        },
+        "item5": {
+          "title": "Newsletter-ul Architect's Newspaper",
+          "description": "Un newsletter care urmărește tendințele, proiectele și noutățile din practica arhitecturii rezidențiale."
+        },
+        "item6": {
+          "title": "Revit",
+          "description": "Software BIM folosit pentru modelarea arhitecturală detaliată și documentația de construcție."
+        },
+        "item7": {
+          "title": "SketchUp",
+          "description": "Software de design conceptual folosit pentru volumetrie în etapă timpurie și prezentări către clienți."
+        },
+        "item8": {
+          "title": "Enscape",
+          "description": "Plugin de randare asistat de AI, folosit pentru a produce vizualizări fotorealiste pentru prezentările către clienți."
+        },
+        "item9": {
+          "title": "Examenul NCARB de atestare a arhitecților (ARE)",
+          "description": "Examenul de licențiere necesar pentru a practica arhitectura și a semna legal lucrări de design rezidențial."
+        },
+        "item10": {
+          "title": "Conferința AIA despre Arhitectură",
+          "description": "Un eveniment comercial major de arhitectură, valoros pentru educație continuă și relații din industrie."
+        },
+        "item11": {
+          "title": "O rețea de consultanți în inginerie structurală",
+          "description": "O rețea verificată de ingineri structurali, pentru consultanță proiect cu proiect, pentru designuri de case personalizate."
+        },
+        "item12": {
+          "title": "Lista de verificare pentru consultația de teren și program",
+          "description": "O listă de verificare care acoperă întrebările și pașii de analiză a terenului, pentru o consultație inițială productivă cu un proprietar."
+        },
+        "aiMetadata": {
+          "generationHints": "Recomandă resurse care întăresc credibilitatea de licențiere și abilitățile practice de gestionare a practicii, nu conținut generic de inspirație arhitecturală."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "O singură relație puternică cu un antreprenor general poate produce un flux constant de recomandări calificate de-a lungul anilor."
+          },
+          "item2": {
+            "title": "Un proiect finalizat, bine documentat, poate deveni piesa centrală a unei apariții într-o publicație locală de design, generând interes fără niciun cost."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "O singură întârziere sau schimbare de buget din partea clientului, pe un proiect lung, poate lăsa un gol semnificativ de capacitate înainte de următorul acord semnat."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Subevaluarea primului acord de design doar pentru a încheia o afacere, ceea ce este foarte greu de corectat odată ce un proiect lung este în desfășurare."
+          },
+          "item2": {
+            "title": "Sărirea peste o analiză temeinică a terenului, înainte de a începe designul schematic, ceea ce duce la revizuiri costisitoare ulterior."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Publicarea unui singur proiect finalizat, fotografiat profesional, depășește de obicei luni întregi de conținut generic."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Documentează standardele de design și procesele de revizuire, înainte de a integra primul arhitect asociat."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Tratează consultația inițială de teren și program ca fiind produsul demo real — este ceea ce face concretă discuția de vânzare."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clienții care primesc întâlniri regulate de revizuire a dezvoltării designului rămân încrezători și implicați chiar și pe parcursul unui termen lung de proiect."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea fricțiunilor de proiect provin din așteptări negestionate legate de buget, nu din designul în sine."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Onorariile consultanților în inginerie structurală și costurile de printare/depunere pot eroda discret marja, dacă nu sunt incluse în onorariul inițial."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Un volum crescând de recomandări de la același antreprenor general semnalează o relație demnă de aprofundat formal."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "O casă personalizată finalizată, prezentată într-o publicație locală de design, a devenit cea mai puternică sursă de clienți potențiali a studioului pentru un an întreg."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un studio care a sărit peste o analiză temeinică a terenului și a subevaluat un proiect timpuriu a absorbit revizuiri costisitoare la jumătatea proiectului, care i-au șters marja."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "De ce începe fiecare proiect cu o consultație de teren și program?",
+            "answer": "Un design care ignoră terenul real, bugetul și constrângerile structurale duce la revizuiri costisitoare ulterior — consultația ancorează întregul proiect în realitate, încă din prima zi."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Orice designer poate face ce face un arhitect licențiat, doar mai ieftin.",
+            "fact": "Licențierea implică răspundere legală pentru siguranța structurală și conformitatea cu codul, pe care un designer nelicențiat nu și-o poate asuma legal."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Organizează întâlniri regulate de revizuire a dezvoltării designului pe tot parcursul proiectului, nu doar la etapele majore."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Subliniază că cel mai mare risc în această afacere este răspunderea legată de licențiere și gestionarea clienților pe termen lung, nu abilitatea de design în sine."
+        }
+      }
+    },
+    "realEstateAgency": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: \"The Millionaire Real Estate Agent\" de Gary Keller",
+          "course1": "Curs: Cursul de pre-licențiere al Asociației Naționale a Agenților Imobiliari (NAR)",
+          "community1": "Comunitate: r/realtors și forumul asociației locale MLS",
+          "checklist1": "Listă de verificare: Lista de verificare pentru consultația de listare și analiza comparativă de piață"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Veniturile sunt cu adevărat neregulate, sosind ca plăți unice de comision per finalizare, cu volumul acumulându-se pe măsură ce motorul de cultivare a cartierului și de recomandări se maturizează."
+        },
+        "breakEven": {
+          "notes": "Pragul de rentabilitate este atins odată ce primele două sau trei tranzacții se finalizează, având în vedere baza de costuri curente natural scăzută, în raport cu venitul din comision."
+        },
+        "grossMargin": {
+          "notes": "Marja brută este redusă de taxa de birou a agenției de intermediere sau de cota din comision, înainte ca agentul să vadă venitul net."
+        },
+        "netMargin": {
+          "notes": "Marja netă depinde puternic de cât din volumul de tranzacții provine din recomandări cu cost redus, față de cheltuielile plătite pentru clienți potențiali din portal."
+        },
+        "scenarios": {
+          "conservative": "Una sau două tranzacții finalizate pe trimestru, provenite în principal din sfera existentă de influență a agentului.",
+          "expected": "Volum trimestrial constant de tranzacții, dintr-o combinație de cultivare a cartierului, recomandări și câțiva clienți potențiali plătiți din portal.",
+          "optimistic": "O piață sezonieră puternică, plus un motor de recomandări matur, care produce o rețea completă de tranzacții simultane."
+        },
+        "risks": {
+          "risk1": "Venitul din comision depinde în totalitate de tranzacții, fără salariu de bază — o piață lentă sau o perioadă personală mai slabă afectează direct venitul.",
+          "risk2": "Sectorul imobiliar este foarte sensibil la ciclurile ratei dobânzii și la recesiunile pieței imobiliare, care pot seca volumul de tranzacții pentru perioade extinse."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează veniturile ca venit din comision neregulat, dependent de tranzacții, fără salariu de bază, distinct de orice model de abonament sau retenție."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Cartierul tău, cu adevărat cunoscut — un agent local care a cutreierat fiecare stradă, nu o voce rotativă de call-center.",
+          "category": "Reprezentare imobiliară rezidențială locală"
+        },
+        "brandPromise": "O finalizare încrezătoare, bine negociată, ghidată de cineva care cunoaște cu adevărat acest cartier specific, stradă cu stradă.",
+        "uvp": {
+          "statement": "Reprezentare pentru cumpărători și vânzători de la un agent care a cutreierat și studiat cu adevărat acest cartier specific, susținută de o consultație gratuită înainte de orice angajament.",
+          "diff1": "O consultație gratuită de listare sau pentru cumpărători, care face propunerea de valoare concretă, înainte de orice angajament.",
+          "diff2": "Cunoașterea profundă a cartierului, dobândită prin cutreierarea străzilor, pe care căutarea generică pe portal nu o poate reproduce."
+        },
+        "icp": {
+          "description": "Proprietari care cumpără sau vând proprietăți într-un anumit cartier local și doresc reprezentare personală, ancorată local.",
+          "firmographics": "Proprietari și cumpărători individuali pe o piață locală definită, de obicei la prima mutare sau relocare în cadrul aceleiași zone metropolitane."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Vânzătorul la prima experiență",
+            "description": "Vinde o casă pentru prima dată și nu este sigur cum să o prețuiască competitiv sau cum să navigheze procesul de negociere."
+          },
+          "persona2": {
+            "name": "Cumpărătorul care se relochează",
+            "description": "Se mută într-un cartier nou și dorește un expert local care să poată explica compromisurile reale dintre străzi și zonele școlare."
+          }
+        },
+        "painPoints": {
+          "point1": "Necunoașterea valorii reale de piață locală a unei case, dincolo de o estimare generică de portal.",
+          "point2": "Neîncrederea într-o experiență de agent de tip call-center rotativ, fără cunoștințe locale reale."
+        },
+        "outcomes": {
+          "outcome1": "Un preț încrezător, bine negociat, susținut de cunoștințe reale de piață locală.",
+          "outcome2": "Un proces de finalizare fără probleme, cu îndrumare clară la fiecare pas."
+        },
+        "messaging": {
+          "core": "Cartierul tău, cu adevărat cunoscut.",
+          "support1": "Fiecare client începe cu o consultație gratuită, care clarifică termenul, bugetul și cerințele esențiale, înainte de orice angajament."
+        },
+        "brandVoice": {
+          "tone": "Cald și specific local",
+          "attr1": "Persistent",
+          "attr2": "De încredere"
+        },
+        "contentPillars": {
+          "pillar1": "Actualizări reale ale pieței de cartier și rezultate numite ale tranzacțiilor",
+          "pillar2": "Îndrumare practică despre procesul local de cumpărare și vânzare"
+        },
+        "channelStrategy": "Cultivarea constantă a cartierului, prin sponsorizări locale și materiale poștale, generează conștientizarea principală; recomandările de la clienți anteriori și din sfera de influență construiesc încredere secundară; clienții potențiali plătiți din portal generează volum experimental suplimentar.",
+        "community": {
+          "description": "O rețea informală de clienți anteriori și contacte de cartier, mai degrabă decât o comunitate publică formală.",
+          "platform1": "Facebook"
+        },
+        "leadMagnets": {
+          "magnet1": "Estimare gratuită a valorii locuinței și raport de piață al cartierului"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Conștientizare",
+            "description": "Un proprietar vede un material poștal de cartier sau aude despre agent de la un client anterior."
+          },
+          "stage2": {
+            "name": "Considerare",
+            "description": "Ei programează o consultație gratuită de listare sau pentru cumpărători, pentru a discuta situația lor specifică."
+          },
+          "stage3": {
+            "name": "Conversie",
+            "description": "Consultația se transformă într-un acord de reprezentare semnat."
+          }
+        },
+        "retention": {
+          "tactic1": "Verificările periodice și actualizările de piață cu clienții anteriori mențin agentul în prim-plan pentru tranzacții și recomandări viitoare."
+        },
+        "analytics": {
+          "metric1": "Rata de conversie de la consultație la acord semnat și cota de recomandări din tranzacțiile finalizate"
+        },
+        "aiMetadata": {
+          "generationHints": "Începe cu cunoașterea specifică a cartierului, dobândită prin cutreierarea străzilor, și rezultate numite ale clienților anteriori, nu cu un limbaj generic de agent de portal de tipul „expertul tău local”."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Finalizează licențierea imobiliară, alătură-te unei agenții de intermediere sponsorizatoare și configurează accesul MLS și instrumentele CRM."
+          },
+          "deliverables": {
+            "0": "O licență imobiliară activă, un acord de intermediere semnat și o configurare MLS/CRM funcțională."
+          },
+          "checklist": {
+            "0": "Compară cel puțin două agenții de intermediere sponsorizatoare în privința instruirii, sprijinului pentru clienți potențiali și structurii taxelor de birou, înainte de a semna."
+          },
+          "commonMistakes": {
+            "0": "Alegerea unei agenții de intermediere sponsorizatoare doar pe baza cotei de comision, fără a lua în considerare instruirea, sprijinul pentru clienți potențiali și taxele de birou."
+          },
+          "successCriteria": {
+            "0": "Licențierea și integrarea la agenția de intermediere sunt finalizate, iar accesul MLS/CRM este activ."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta categoriile inițiale de etichetare a contactelor CRM, pentru sfera existentă de influență a agentului."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Desfășoară consultații de listare sau pentru cumpărători cu 8-10 contacte din sfera de influență existentă a agentului, pentru a valida pitch-ul."
+          },
+          "deliverables": {
+            "0": "Un script de consultație documentat și un punct de date inițial privind rata de conversie."
+          },
+          "checklist": {
+            "0": "Contactează direct fiecare conexiune personală și profesională existentă, înainte de a cheltui pe generarea de clienți potențiali din portal."
+          },
+          "kpis": [
+            "closeRate"
+          ],
+          "commonMistakes": {
+            "0": "Așteptarea clienților potențiali din portal, în loc să exploatezi mai întâi propria sferă de influență existentă a agentului, pentru primii clienți."
+          },
+          "successCriteria": {
+            "0": "Cel puțin un contact din sfera de influență programează o consultație."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a ajuta la segmentarea și prioritizarea listei de contacte din sfera de influență, în funcție de pregătirea probabilă pentru tranzacții pe termen scurt."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Finalizează prima tranzacție de cumpărare sau vânzare, de la consultație până la semnare."
+          },
+          "deliverables": {
+            "0": "O analiză comparativă de piață finalizată, un anunț activ sau o căutare pentru cumpărător și o tranzacție finalizată."
+          },
+          "checklist": {
+            "0": "Construiește o analiză comparativă de piață temeinică, folosind cel puțin cinci vânzări comparabile recente, înainte de prima consultație de listare."
+          },
+          "kpis": [
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Pregătirea insuficientă a analizei comparative de piață pentru primul anunț, ceea ce subminează credibilitatea prețului în fața vânzătorului."
+          },
+          "successCriteria": {
+            "0": "Prima tranzacție se finalizează fără o dispută majoră privind prețul sau negocierea."
+          },
+          "aiRecommendations": {
+            "0": "Folosește instrumente de analiză comparativă de piață asistate de AI, pentru a accelera extragerea datelor de vânzări comparabile."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Începe cultivarea activă a unui anumit cartier țintă, prin sponsorizări locale și materiale poștale constante."
+          },
+          "deliverables": {
+            "0": "Un cartier țintă definit, cu o prezență activă de materiale poștale și sponsorizare locală."
+          },
+          "checklist": {
+            "0": "Alege un singur cartier, clar delimitat, pentru a-l cultiva constant, în loc să răspândești efortul pe mai multe."
+          },
+          "commonMistakes": {
+            "0": "Cultivarea unei zone geografice prea largi, pentru a construi o recunoaștere autentică în orice cartier."
+          },
+          "successCriteria": {
+            "0": "Prima cerere primită vine direct din activitatea de cultivare a cartierului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta textul materialului poștal de cartier, apoi verifică fiecare statistică de piață înainte de tipărire."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Solicită o recomandare și o mărturie de la clientul primei tranzacții finalizate."
+          },
+          "deliverables": {
+            "0": "O mărturie documentată și cel puțin o recomandare activă de la primul client."
+          },
+          "checklist": {
+            "0": "Stabilește un ritm periodic de verificare și actualizare a pieței cu fiecare client anterior, începând imediat după finalizare."
+          },
+          "kpis": [
+            "customerRetention"
+          ],
+          "commonMistakes": {
+            "0": "Pierderea legăturii cu un client anterior imediat după finalizare, în loc să începi un ritm periodic de verificare."
+          },
+          "successCriteria": {
+            "0": "Primul client oferă o mărturie și recomandă cel puțin un nou prospect."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a programa și personaliza mesaje periodice de actualizare a pieței către clienții anteriori."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge o bază stabilă de tranzacții, provenite în principal din motorul de cultivare a cartierului și de recomandări, nu din clienți potențiali plătiți."
+          },
+          "deliverables": {
+            "0": "O defalcare documentată a surselor de tranzacții, arătând creșterea cotei de recomandări și cultivare față de clienții potențiali plătiți."
+          },
+          "checklist": {
+            "0": "Urmărește ce cotă din tranzacțiile finalizate provine din recomandări față de clienți potențiali plătiți, și ajustează bugetul în consecință."
+          },
+          "kpis": [
+            "closeRate",
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Continuarea dependenței excesive de clienții potențiali plătiți din portal, chiar și după ce motorul de recomandări începe să producă un volum constant."
+          },
+          "successCriteria": {
+            "0": "Recomandările și activitatea de cultivare produc majoritatea tranzacțiilor noi."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza ce sursă de clienți potențiali produce cea mai mare rată de conversie și pentru a realoca cheltuielile în consecință."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Crește volumul de tranzacții în limita capacității sustenabile de vizionări și negocieri simultane a agentului."
+          },
+          "deliverables": {
+            "0": "Un plafon documentat de clienți simultani și o rețea stabilă de tranzacții în limita lui."
+          },
+          "checklist": {
+            "0": "Stabilește un plafon explicit de clienți simultani și respectă-l chiar și într-o piață sezonieră puternică."
+          },
+          "kpis": [
+            "mrr"
+          ],
+          "commonMistakes": {
+            "0": "Preluarea a mai mulți clienți simultani decât pot primi atenția corespunzătoare, riscând calitatea serviciului în timpul negocierii și finalizării."
+          },
+          "successCriteria": {
+            "0": "Volumul de tranzacții crește timp de două trimestre consecutive, fără nicio plângere privind calitatea serviciului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește automatizarea urmăririi CRM asistată de AI, pentru a menține calitatea comunicării cu clienții pe măsură ce volumul crește."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Adaugă un agent de cumpărare licențiat sau coordonator de tranzacții, pentru a gestiona volumul suplimentar."
+          },
+          "deliverables": {
+            "0": "Un agent de cumpărare sau coordonator de tranzacții angajat, care susține o cotă stabilă din volumul de tranzacții."
+          },
+          "checklist": {
+            "0": "Confirmă cel puțin șase luni de volum stabil de tranzacții, înainte de a adăuga un agent de cumpărare sau coordonator de tranzacții."
+          },
+          "kpis": [
+            "grossMargin"
+          ],
+          "commonMistakes": {
+            "0": "Angajarea de ajutor înainte ca rețeaua de recomandări și de clienți potențiali să fie suficient de stabilă pentru a susține costurile suplimentare."
+          },
+          "successCriteria": {
+            "0": "Noul angajat gestionează independent o cotă semnificativă din volumul de tranzacții."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a documenta propria listă de verificare a coordonării tranzacțiilor a agentului, ca referință de instruire pentru noul angajat."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Extinde cultivarea cartierului într-o zonă adiacentă sau adaugă o nișă de specialitate (de ex. clienți de relocare sau proprietăți de investiție)."
+          },
+          "deliverables": {
+            "0": "O extindere testată într-un cartier nou sau o nișă de specialitate, cu cel puțin o tranzacție finalizată."
+          },
+          "checklist": {
+            "0": "Validează noua zonă sau nișă cu un număr mic de tranzacții, înainte de a angaja un buget semnificativ de cultivare pentru ea."
+          },
+          "kpis": [
+            "mrr"
+          ],
+          "commonMistakes": {
+            "0": "Diluarea poziționării de bază de expert în cartier, în timp ce urmărești o nouă zonă sau nișă, fără dovezi ale cererii."
+          },
+          "successCriteria": {
+            "0": "Noua zonă sau nișă produce cel puțin o tranzacție finalizată și un studiu de caz documentat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a compara ratele de conversie a clienților potențiali între cartierul de bază și noua zonă sau nișă, înainte de a scala cheltuielile de cultivare."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Pregătește baza de date a clienților anteriori, rețeaua de recomandări și istoricul tranzacțiilor, pentru o posibilă fuziune de echipă sau parteneriat de intermediere."
+          },
+          "deliverables": {
+            "0": "O bază de date a clienților anteriori documentată, un rezumat al rețelei de recomandări și un istoric al tranzacțiilor, pregătite pentru o discuție de fuziune sau parteneriat."
+          },
+          "checklist": {
+            "0": "Confirmă că relațiile cu clienții și cele de recomandare sunt documentate, înainte de a intra în discuții de fuziune sau parteneriat."
+          },
+          "commonMistakes": {
+            "0": "Așteptarea apariției unei oportunități de fuziune sau parteneriat, pentru a începe documentarea bazei de date a clienților și a relațiilor de recomandare."
+          },
+          "successCriteria": {
+            "0": "Un potențial partener de echipă sau agenție analizează favorabil istoricul documentat al clienților și tranzacțiilor."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a compila datele istorice de tranzacții și recomandări într-un rezumat pregătit pentru parteneriat."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține un ton generat cald, persistent și specific local — descrie cartierele și tranzacțiile așa cum ar face-o un agent care a cutreierat cu adevărat strada."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "The Millionaire Real Estate Agent de Gary Keller",
+          "description": "Un cadru fundamental și practic pentru construirea unui sistem de generare a clienților potențiali și de recomandări, ca agent rezidențial."
+        },
+        "item2": {
+          "title": "Cursul de pre-licențiere al Asociației Naționale a Agenților Imobiliari (NAR)",
+          "description": "Un curs obligatoriu care acoperă fundamentele și cerințele legale ale practicării activității imobiliare."
+        },
+        "item3": {
+          "title": "Forumul asociației locale MLS",
+          "description": "O comunitate activă de agenți licențiați locali, care discută despre condițiile de piață și practicile de tranzacționare."
+        },
+        "item4": {
+          "title": "Podcastul Real Estate Rockstars",
+          "description": "Un podcast care acoperă generarea de clienți potențiali, negocierea și tacticile de construire a afacerii pentru agenții rezidențiali."
+        },
+        "item5": {
+          "title": "Newsletter-ul Inman News",
+          "description": "Un newsletter foarte citit, care urmărește noutățile din industria imobiliară rezidențială și tendințele pieței."
+        },
+        "item6": {
+          "title": "Follow Up Boss",
+          "description": "Platformă CRM și de gestionare a clienților potențiali, folosită pentru a urmări sfera de influență și clienții potențiali din portal."
+        },
+        "item7": {
+          "title": "DocuSign",
+          "description": "Platformă de semnătură electronică și documente de tranzacție, folosită pentru a gestiona ofertele și actele de finalizare."
+        },
+        "item8": {
+          "title": "Matterport",
+          "description": "Instrument de tur virtual 3D asistat de AI, folosit pentru a crea prezentări imersive ale anunțurilor."
+        },
+        "item9": {
+          "title": "Titulatura NAR REALTOR",
+          "description": "O titulatură profesională recunoscută, care întărește credibilitatea în fața potențialilor clienți."
+        },
+        "item10": {
+          "title": "Conferința și Expoziția NAR NXT Realtors",
+          "description": "Un eveniment comercial major imobiliar rezidențial, valoros pentru educație continuă și relații din industrie."
+        },
+        "item11": {
+          "title": "O rețea de brokeri de credite ipotecare și inspectori de locuințe",
+          "description": "O rețea de recomandări de brokeri de credite ipotecare și inspectori de locuințe de încredere, pentru a susține tranzacțiile clienților fără probleme."
+        },
+        "item12": {
+          "title": "Lista de verificare pentru consultația de listare și analiza comparativă de piață",
+          "description": "O listă de verificare care acoperă pașii și punctele de date necesare pentru o consultație de listare temeinică și credibilă."
+        },
+        "aiMetadata": {
+          "generationHints": "Recomandă resurse care întăresc o abordare bazată pe relații și recomandări pentru activitatea imobiliară rezidențială, nu conținut generic de tip hustle de vânzări."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Vecinii unui client anterior mulțumit devin adesea următorul val de recomandări, dacă agentul rămâne vizibil prezent în zonă."
+          },
+          "item2": {
+            "title": "Oferirea unei estimări gratuite a valorii locuinței contactelor din sfera de influență poate scoate la iveală vânzători care nu se gândeau încă activ la listare."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "O creștere bruscă a ratei dobânzii poate îngheța activitatea cumpărătorilor într-o anumită bandă de preț, luni la rând."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Cultivarea unei zone geografice prea largi, în loc să construiești mai întâi o recunoaștere autentică într-un anumit cartier."
+          },
+          "item2": {
+            "title": "Pregătirea insuficientă a analizei comparative de piață pentru primele câteva anunțuri, subminând credibilitatea prețului în fața vânzătorilor."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Exploatarea propriei sfere de influență existente a agentului produce de obicei prima tranzacție finalizată mai rapid decât orice sursă de clienți potențiali plătiți."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Confirmă cel puțin șase luni de volum stabil de tranzacții, înainte de a adăuga un agent de cumpărare sau coordonator de tranzacții."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Tratează consultația gratuită de listare sau pentru cumpărători ca fiind produsul demo real — este ceea ce face concretă discuția de vânzare."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clienții care primesc verificări periodice de actualizare a pieței după finalizare recomandă la o rată semnificativ mai mare decât cei care nu primesc."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea fricțiunilor de tranzacție provin din așteptări negestionate privind prețul și termenul, nu din negocierea în sine."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Cheltuielile de generare a clienților potențiali din portal pot eroda discret marja netă, dacă volumul de recomandări și cultivare nu este urmărit separat."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Un volum crescând de cereri de estimare a valorii locuinței, dintr-o anumită stradă, semnalează vânzători care iau în considerare listarea în curând."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "O campanie de cultivare a cartierului, bine executată timp de doi ani, a transformat o zonă geografică rece în cea mai mare sursă de recomandări a agentului."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un agent care s-a bazat în totalitate pe clienți potențiali plătiți din portal, fără a construi un motor de recomandări, a văzut venitul evaporându-se în momentul în care cheltuielile publicitare au fost reduse."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "De ce începe fiecare client cu o consultație gratuită?",
+            "answer": "O consultație ancorează întreaga relație în termenul, bugetul și cerințele esențiale reale ale clientului, înainte de orice angajament — omiterea ei duce la așteptări nepotrivite ulterior."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Portalurile de anunțuri au făcut agenții imobiliari inutili.",
+            "fact": "Portalurile gestionează căutarea de bază, dar negocierea, judecata de piață locală și coordonarea tranzacțiilor necesită încă expertiza unui agent uman."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Menține un ritm constant, periodic, de verificare cu fiecare client anterior, nu doar în jurul aniversărilor achiziției lor."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Subliniază că cel mai mare risc în această afacere este volatilitatea venitului și expunerea la ciclurile pieței, nu abilitatea de vânzare în sine."
+        }
+      }
     }
   }
 }

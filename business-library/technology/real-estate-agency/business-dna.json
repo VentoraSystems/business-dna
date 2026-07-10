@@ -1,0 +1,963 @@
+{
+  "identity": {
+    "id": "b319aad8-15eb-49de-ac29-1192eaf5607f",
+    "slug": "real-estate-agency",
+    "version": "1.0.0",
+    "name": {
+      "en": "Bellwood Realty Group",
+      "ro": "Bellwood Realty Group"
+    },
+    "tagline": {
+      "en": "Your neighborhood, actually known.",
+      "ro": "Cartierul tău, cu adevărat cunoscut."
+    },
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theConnector",
+      "theHustler"
+    ],
+    "summary": {
+      "en": "Best suited to a licensed agent who thrives on relationship-building and negotiation and is comfortable with commission-only income — this is a transaction and brokerage business, not a design or construction service.",
+      "ro": "Potrivit unui agent licențiat care prosperă prin construirea de relații și negociere și este confortabil cu un venit exclusiv din comision — aceasta este o afacere de tranzacții și intermediere, nu un serviciu de design sau construcție."
+    },
+    "minimumExperienceYears": 2
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 5000,
+      "maxInvestment": 15000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 600,
+      "ongoingMonthlyCostMax": 2000,
+      "notes": {
+        "en": "Covers real estate licensing, MLS access, a CRM/transaction-management system, and professional photography/signage — a genuinely medium budget tier, well below the architecture studio's licensing and insurance costs.",
+        "ro": "Acoperă licențierea imobiliară, accesul MLS, un sistem CRM/de gestionare a tranzacțiilor și fotografie profesională/semnalistică — un nivel de buget cu adevărat mediu, mult sub costurile de licențiere și asigurare ale studioului de arhitectură."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "realEstateLicensingAndMlsAccess",
+          "label": {
+            "en": "Real estate licensing and MLS access",
+            "ro": "Licențierea imobiliară și accesul MLS"
+          },
+          "typicalMin": 800,
+          "typicalMax": 2500
+        },
+        {
+          "key": "crmAndTransactionManagementSetup",
+          "label": {
+            "en": "CRM and transaction-management software setup",
+            "ro": "Configurarea software-ului CRM și de gestionare a tranzacțiilor"
+          },
+          "typicalMin": 500,
+          "typicalMax": 1500
+        },
+        {
+          "key": "professionalPhotographyAndSignageSetup",
+          "label": {
+            "en": "Professional photography and signage setup",
+            "ro": "Configurarea fotografiei profesionale și a semnalisticii"
+          },
+          "typicalMin": 800,
+          "typicalMax": 2000
+        },
+        {
+          "key": "marketingMaterialsAndBrandingSetup",
+          "label": {
+            "en": "Marketing materials and personal branding setup",
+            "ro": "Configurarea materialelor de marketing și a brandingului personal"
+          },
+          "typicalMin": 1000,
+          "typicalMax": 3000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "mlsAndAssociationDues",
+          "label": {
+            "en": "MLS and real estate association dues",
+            "ro": "Cotizații MLS și de asociație imobiliară"
+          },
+          "typicalMonthlyMin": 100,
+          "typicalMonthlyMax": 300
+        },
+        {
+          "key": "crmAndTransactionSoftwareSubscriptions",
+          "label": {
+            "en": "CRM and transaction-management software subscriptions",
+            "ro": "Abonamente software CRM și de gestionare a tranzacțiilor"
+          },
+          "typicalMonthlyMin": 100,
+          "typicalMonthlyMax": 400
+        },
+        {
+          "key": "brokerageDeskFeesOrSplit",
+          "label": {
+            "en": "Brokerage desk fees or commission split",
+            "ro": "Taxe de birou de intermediere sau cota din comision"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 1200
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "buyerRepresentationCommission",
+          "label": {
+            "en": "Buyer representation commission",
+            "ro": "Comision de reprezentare a cumpărătorului"
+          }
+        },
+        {
+          "key": "sellerRepresentationCommission",
+          "label": {
+            "en": "Seller representation commission",
+            "ro": "Comision de reprezentare a vânzătorului"
+          }
+        },
+        {
+          "key": "referralFeeIncome",
+          "label": {
+            "en": "Referral fee income from out-of-area agents",
+            "ro": "Venit din comisioane de recomandare de la agenți din alte zone"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 5000,
+      "targetMonthlyIncomeMax": 18000,
+      "breakEvenTimelineMonths": 6,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Revenue is genuinely lumpy — each transaction takes weeks to months to close and pays out as a single commission at closing, unlike a retainer or subscription model.",
+        "ro": "Veniturile sunt cu adevărat neregulate — fiecare tranzacție durează săptămâni până la luni pentru a se finaliza și se plătește ca un singur comision la finalizare, spre deosebire de un model de abonament sau retenție."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate",
+      "notes": {
+        "en": "The brokerage desk fee or commission split takes a meaningful cut before the agent sees net income, keeping margin moderate rather than high despite no inventory or product costs.",
+        "ro": "Taxa de birou a agenției de intermediere sau cota din comision ia o parte semnificativă, înainte ca agentul să vadă venitul net, menținând marja moderată, nu ridicată, în ciuda absenței costurilor de stoc sau de produs."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "frequent",
+    "onlineOffline": "hybrid",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 40,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 9
+      },
+      {
+        "key": "marketing",
+        "rating": 6
+      },
+      {
+        "key": "leadership",
+        "rating": 3
+      },
+      {
+        "key": "communication",
+        "rating": 8
+      },
+      {
+        "key": "negotiation",
+        "rating": 8
+      },
+      {
+        "key": "finance",
+        "rating": 3
+      },
+      {
+        "key": "operations",
+        "rating": 5
+      },
+      {
+        "key": "technology",
+        "rating": 4
+      },
+      {
+        "key": "automation",
+        "rating": 3
+      },
+      {
+        "key": "ai",
+        "rating": 3
+      },
+      {
+        "key": "programming",
+        "rating": 1
+      },
+      {
+        "key": "management",
+        "rating": 4
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 40
+      },
+      {
+        "key": "visionary",
+        "score": 35
+      },
+      {
+        "key": "operator",
+        "score": 45
+      },
+      {
+        "key": "creator",
+        "score": 30
+      },
+      {
+        "key": "seller",
+        "score": 75
+      },
+      {
+        "key": "leader",
+        "score": 40
+      },
+      {
+        "key": "analyst",
+        "score": 40
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": false,
+    "isFullyRemote": false,
+    "requiresTravel": true,
+    "isOnlineBusiness": false,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": true,
+    "isFranchisable": true,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate",
+      "notes": {
+        "en": "Scaling comes from a growing past-client referral base and eventually a small team, not from any product or automation leverage.",
+        "ro": "Scalarea vine dintr-o bază tot mai mare de recomandări de la clienți anteriori și, în cele din urmă, dintr-o echipă mică, nu dintr-un produs sau efect de automatizare."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "Licensing itself is achievable in months, not years — the real barrier is building enough of a client pipeline to survive the commission-only income model.",
+        "ro": "Licențierea în sine este realizabilă în luni, nu ani — bariera reală este construirea unui pipeline suficient de clienți, pentru a supraviețui modelului de venit exclusiv din comision."
+      }
+    },
+    "aiResistance": {
+      "level": "low",
+      "notes": {
+        "en": "The lowest AI-resistance of any business in this set — automated valuation models, virtual tours, and portal-driven search are already commoditizing the basic listing-search-showing function that used to require an agent.",
+        "ro": "Cea mai scăzută rezistență la AI dintre toate afacerile din acest set — modelele automate de evaluare, turele virtuale și căutarea condusă de portaluri deja transformă în marfă funcția de bază de căutare-vizualizare a anunțurilor, care odinioară necesita un agent."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Commission income is entirely transaction-dependent with no base salary — a slow market or a personal dry spell hits income directly.",
+          "ro": "Venitul din comision depinde în totalitate de tranzacții, fără salariu de bază — o piață lentă sau o perioadă personală mai slabă afectează direct venitul."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Real estate is highly sensitive to interest-rate cycles and housing-market downturns, which can dry up transaction volume for extended periods.",
+          "ro": "Sectorul imobiliar este foarte sensibil la ciclurile ratei dobânzii și la recesiunile pieței imobiliare, care pot seca volumul de tranzacții pentru perioade extinse."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Listing portals, iBuyer platforms, and discount/flat-fee brokerages are commoditizing the basic listing-search-showing function.",
+          "ro": "Portalurile de anunțuri, platformele iBuyer și agențiile de intermediere cu reducere/tarif fix transformă în marfă funcția de bază de căutare-vizualizare a anunțurilor."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Your neighborhood, actually known — a local agent who's walked every block, not a rotating call-center voice.",
+        "ro": "Cartierul tău, cu adevărat cunoscut — un agent local care a cutreierat fiecare stradă, nu o voce rotativă de call-center."
+      },
+      "channels": [
+        {
+          "channelType": "farmingAndLocalCommunitySponsorship",
+          "description": {
+            "en": "Consistently 'farming' a specific neighborhood through local sponsorships, mailers, and community presence to become the recognized local expert.",
+            "ro": "„Cultivarea” constantă a unui anumit cartier prin sponsorizări locale, materiale poștale și prezență în comunitate, pentru a deveni expertul local recunoscut."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "pastClientAndSphereOfInfluenceReferrals",
+          "description": {
+            "en": "Referrals from past clients and personal sphere of influence, nurtured through periodic check-ins and market updates.",
+            "ro": "Recomandări de la clienți anteriori și din sfera personală de influență, cultivate prin verificări periodice și actualizări de piață."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "zillowAndPortalLeadGeneration",
+          "description": {
+            "en": "Paid lead generation through listing portals as a supplemental, experimental channel while the referral base is still growing.",
+            "ro": "Generarea de clienți potențiali plătiți, prin portaluri de anunțuri, ca un canal suplimentar, experimental, în timp ce baza de recomandări este încă în creștere."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Requires consistent local presence and relationship nurturing rather than complex multi-channel campaign management.",
+        "ro": "Necesită o prezență locală constantă și cultivarea relațiilor, mai degrabă decât gestionarea complexă a campaniilor pe mai multe canale."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A free in-home listing consultation or buyer-needs interview clarifies the client's timeline, budget, and must-haves before signing a representation agreement.",
+        "ro": "O consultație gratuită de listare la domiciliu sau un interviu despre nevoile cumpărătorului clarifică termenul, bugetul și cerințele esențiale ale clientului, înainte de a semna un acord de reprezentare."
+      },
+      "salesCycleLengthDays": 60,
+      "pricingModel": {
+        "en": "Standard commission split (typically 2.5-3% per side) paid at closing, shared with the brokerage per the agent's desk agreement.",
+        "ro": "Cota standard de comision (de obicei 2,5-3% pe parte) plătită la finalizare, împărțită cu agenția de intermediere conform acordului de birou al agentului."
+      }
+    },
+    "salesComplexity": {
+      "level": "high",
+      "notes": {
+        "en": "A home purchase or sale is one of the largest financial decisions a client will make, involving genuine negotiation, competing agents, and real emotional stakes.",
+        "ro": "Cumpărarea sau vânzarea unei case este una dintre cele mai mari decizii financiare pe care le va lua un client, implicând negociere reală, agenți concurenți și mize emoționale reale."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "A listing consultation and comparative market analysis for sellers",
+          "ro": "O consultație de listare și o analiză comparativă de piață pentru vânzători"
+        },
+        {
+          "en": "Professional photography and MLS listing creation",
+          "ro": "Fotografie profesională și crearea anunțului MLS"
+        },
+        {
+          "en": "Showings and open houses for both buyer and seller clients",
+          "ro": "Vizionări și zile porți deschise, pentru clienți cumpărători și vânzători"
+        },
+        {
+          "en": "Offer negotiation and closing coordination through to signing",
+          "ro": "Negocierea ofertei și coordonarea finalizării, până la semnare"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "A mix of showings, client calls, comparative market analysis preparation, and administrative transaction-coordination work, heavily weighted toward evenings and weekends when clients are available.",
+        "ro": "O combinație de vizionări, apeluri cu clienții, pregătirea analizei comparative de piață și munca administrativă de coordonare a tranzacțiilor, cu o pondere mare seara și în weekend, când clienții sunt disponibili."
+      },
+      "fulfillmentModel": {
+        "en": "A solo agent handles all client-facing work directly under a sponsoring brokerage, which provides the MLS access, legal framework, and desk infrastructure.",
+        "ro": "Un agent singur gestionează direct toată munca orientată către client, sub o agenție de intermediere sponsorizatoare, care oferă accesul MLS, cadrul legal și infrastructura de birou."
+      }
+    },
+    "automation": {
+      "level": "moderate",
+      "notes": {
+        "en": "CRM follow-ups, showing scheduling, and e-signature document routing are automated, but the core relationship, negotiation, and advisory work remains manual.",
+        "ro": "Urmăririle CRM, programarea vizionărilor și direcționarea documentelor cu semnătură electronică sunt automatizate, dar munca de bază de relație, negociere și consultanță rămâne manuală."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "listingDescriptionWriting",
+          "description": {
+            "en": "AI drafts a first-pass MLS listing description, which the agent edits for accuracy and local flavor.",
+            "ro": "AI redactează o primă versiune a descrierii anunțului MLS, pe care agentul o editează pentru acuratețe și specific local."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "comparativeMarketAnalysis",
+          "description": {
+            "en": "AI-assisted comparative market analysis speeds up pulling and summarizing comparable sales data for a listing consultation.",
+            "ro": "Analiza comparativă de piață asistată de AI accelerează extragerea și rezumarea datelor de vânzări comparabile, pentru o consultație de listare."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "moderate"
+    },
+    "recommendedTools": [
+      {
+        "name": "Follow Up Boss",
+        "category": "crmAndLeadManagement",
+        "isRequired": true,
+        "websiteUrl": "https://www.followupboss.com/"
+      },
+      {
+        "name": "DocuSign",
+        "category": "eSignatureAndTransactionManagement",
+        "isRequired": true,
+        "websiteUrl": "https://www.docusign.com/"
+      },
+      {
+        "name": "Matterport",
+        "category": "virtualTourSoftware",
+        "isRequired": false,
+        "websiteUrl": "https://matterport.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 24,
+      "notes": {
+        "en": "Growth is gated by the agent's own showing and negotiation time until a small team is built, and by broader housing-market cycles outside the agent's control.",
+        "ro": "Creșterea este limitată de propriul timp de vizionare și negociere al agentului, până când este construită o echipă mică, precum și de ciclurile mai ample ale pieței imobiliare, aflate în afara controlului agentului."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Build a repeatable neighborhood-farming system and a strong past-client referral engine, then bring on a licensed buyer's-agent or transaction coordinator to handle overflow volume.",
+        "ro": "Construiește un sistem repetabil de cultivare a cartierului și un motor puternic de recomandări de la clienți anteriori, apoi adaugă un agent de cumpărare licențiat sau un coordonator de tranzacții, pentru a gestiona volumul suplimentar."
+      },
+      "bottlenecks": [
+        {
+          "en": "The agent's own showing and negotiation time caps how many concurrent transactions can be handled well.",
+          "ro": "Propriul timp de vizionare și negociere al agentului limitează câte tranzacții simultane pot fi gestionate bine."
+        },
+        {
+          "en": "Commission income is inherently lumpy and unpredictable month to month, making growth investment harder to plan.",
+          "ro": "Venitul din comision este inerent neregulat și imprevizibil de la o lună la alta, ceea ce face mai dificilă planificarea investiției în creștere."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 6,
+          "description": {
+            "en": "The first three transactions close and a documented past-client database exists.",
+            "ro": "Primele trei tranzacții se finalizează și există o bază de date documentată a clienților anteriori."
+          }
+        },
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "The first buyer's-agent or transaction coordinator is hired to handle overflow volume.",
+            "ro": "Primul agent de cumpărare sau coordonator de tranzacții este angajat, pentru a gestiona volumul suplimentar."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "A free listing or buyer consultation makes the value proposition concrete before any commitment, unlike a generic portal search.",
+          "ro": "O consultație gratuită de listare sau pentru cumpărător face propunerea de valoare concretă, înainte de orice angajament, spre deosebire de o căutare generică pe portal."
+        }
+      },
+      {
+        "description": {
+          "en": "Deep, walked-the-block neighborhood knowledge is something generic portal search and automated valuation tools genuinely cannot replicate.",
+          "ro": "Cunoașterea profundă a cartierului, dobândită prin cutreierarea străzilor, este ceva ce căutarea generică pe portal și instrumentele automate de evaluare nu pot reproduce cu adevărat."
+        }
+      },
+      {
+        "description": {
+          "en": "A growing past-client referral engine reduces reliance on expensive portal-lead-generation spend over time.",
+          "ro": "Un motor tot mai mare de recomandări de la clienți anteriori reduce dependența de cheltuielile costisitoare de generare a clienților potențiali prin portal, în timp."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A solo, commission-based residential real estate agent representing buyers and sellers in a specific local neighborhood, working under a sponsoring brokerage, growing through neighborhood farming and past-client referrals rather than paid portal leads alone.",
+        "ro": "Un agent imobiliar rezidențial solo, bazat pe comision, care reprezintă cumpărători și vânzători într-un anumit cartier local, lucrând sub o agenție de intermediere sponsorizatoare, crescând prin cultivarea cartierului și recomandările de la clienți anteriori, nu doar prin clienți potențiali plătiți din portaluri."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.realEstateAgency.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.realEstateAgency.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.realEstateAgency.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.realEstateAgency.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert a healthy share of listing and buyer consultations into signed representation agreements.",
+          "ro": "Transformă o cotă sănătoasă din consultațiile de listare și pentru cumpărători în acorduri de reprezentare semnate."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert portal leads and sphere-of-influence contacts into booked consultations.",
+          "ro": "Transformă clienții potențiali din portal și contactele din sfera de influență în consultații programate."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Convert past clients into repeat transactions and referral sources over multiple years.",
+          "ro": "Transformă clienții anteriori în tranzacții repetate și surse de recomandare, pe parcursul mai multor ani."
+        }
+      },
+      {
+        "key": "netMargin",
+        "targetDescription": {
+          "en": "Protect net commission income against brokerage desk fees and portal-lead-generation spend.",
+          "ro": "Protejează venitul net din comision împotriva taxelor de birou ale agenției de intermediere și a cheltuielilor de generare a clienților potențiali din portal."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "sales",
+          "importance": 5
+        },
+        {
+          "key": "negotiation",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "marketing",
+          "importance": 3
+        },
+        {
+          "key": "communication",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "persistent",
+          "importance": 5
+        },
+        {
+          "trait": "resilient",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "collaborative",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 5000,
+        "max": 15000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 7000,
+        "max": 12000,
+        "currency": "EUR"
+      },
+      "riskProfile": "high",
+      "timeAvailability": {
+        "minWeeklyHours": 40,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "persuasive",
+        "warm"
+      ],
+      "technicalLevel": 2,
+      "leadershipLevel": 2,
+      "creativityLevel": 2,
+      "salesAffinity": 5,
+      "automationAffinity": 2,
+      "remotePreference": "hybrid",
+      "travelPreference": "frequent",
+      "idealFounderArchetypes": [
+        "theConnector",
+        "theHustler"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the free listing/buyer consultation and the commission-only income model in the Offer Architecture and Financial Overview sections — both are what make this business fundamentally different from the design-fee model of the architecture-studio business elsewhere in this library.",
+      "ro": "Subliniază consultația gratuită de listare/pentru cumpărători și modelul de venit exclusiv din comision în secțiunile Arhitectura ofertei și Prezentarea financiară — ambele fac ca această afacere să fie fundamental diferită de modelul de onorariu de design al afacerii architecture-studio, prezentă în altă parte a acestei biblioteci."
+    },
+    "marketingHints": {
+      "en": "Lead with specific, walked-the-block neighborhood knowledge and named past-client outcomes, not generic 'your local expert' portal-agent language.",
+      "ro": "Începe cu cunoașterea specifică a cartierului, dobândită prin cutreierarea străzilor, și rezultate numite ale clienților anteriori, nu cu un limbaj generic de agent de portal de tipul „expertul tău local”."
+    },
+    "financialHints": {
+      "en": "Model revenue as lumpy, transaction-dependent commission income with no base salary, distinct from any retainer or subscription-style business elsewhere in this library.",
+      "ro": "Modelează veniturile ca venit din comision neregulat, dependent de tranzacții, fără salariu de bază, distinct de orice afacere de tip abonament sau retenție, prezentă în altă parte a acestei biblioteci."
+    },
+    "generationHints": {
+      "en": "Keep generated tone warm, persistent, and locally specific — describe neighborhoods and transactions the way an agent who's actually walked the block would, not generic real-estate marketing copy.",
+      "ro": "Menține un ton generat cald, persistent și specific local — descrie cartierele și tranzacțiile așa cum ar face-o un agent care a cutreierat cu adevărat strada, nu un text generic de marketing imobiliar."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Complete real estate licensing, join a sponsoring brokerage, and set up MLS access and CRM tooling.",
+            "ro": "Finalizează licențierea imobiliară, alătură-te unei agenții de intermediere sponsorizatoare și configurează accesul MLS și instrumentele CRM."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Choosing a sponsoring brokerage based on commission split alone without considering training, lead support, and desk fees.",
+            "ro": "Alegerea unei agenții de intermediere sponsorizatoare doar pe baza cotei de comision, fără a lua în considerare instruirea, sprijinul pentru clienți potențiali și taxele de birou."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Compare at least two sponsoring brokerages on training, lead support, and total desk-fee structure before signing on.",
+            "ro": "Compară cel puțin două agenții de intermediere sponsorizatoare în privința instruirii, sprijinului pentru clienți potențiali și structurii totale a taxelor de birou, înainte de a semna."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.realEstateAgency.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Run listing or buyer consultations with 8-10 contacts from the agent's existing sphere of influence to validate the pitch.",
+            "ro": "Desfășoară consultații de listare sau pentru cumpărători cu 8-10 contacte din sfera de influență existentă a agentului, pentru a valida pitch-ul."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Waiting for portal leads instead of first mining the agent's own existing sphere of influence for the first clients.",
+            "ro": "Așteptarea clienților potențiali din portal, în loc să exploatezi mai întâi propria sferă de influență existentă a agentului, pentru primii clienți."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Contact every existing personal and professional connection directly before spending on portal-lead generation.",
+            "ro": "Contactează direct fiecare conexiune personală și profesională existentă, înainte de a cheltui pe generarea de clienți potențiali din portal."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.realEstateAgency.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Close the first buyer or seller transaction from consultation through to signing.",
+            "ro": "Finalizează prima tranzacție de cumpărare sau vânzare, de la consultație până la semnare."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Under-preparing the comparative market analysis for the first listing, which undermines pricing credibility with the seller.",
+            "ro": "Pregătirea insuficientă a analizei comparative de piață pentru primul anunț, ceea ce subminează credibilitatea prețului în fața vânzătorului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a thorough comparative market analysis using at least five recent comparable sales before the first listing consultation.",
+            "ro": "Construiește o analiză comparativă de piață temeinică, folosind cel puțin cinci vânzări comparabile recente, înainte de prima consultație de listare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.realEstateAgency.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Begin actively farming a specific target neighborhood through local sponsorships and consistent mailers.",
+            "ro": "Începe cultivarea activă a unui anumit cartier țintă, prin sponsorizări locale și materiale poștale constante."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Farming too broad a geographic area to build genuine recognition in any single neighborhood.",
+            "ro": "Cultivarea unei zone geografice prea largi, pentru a construi o recunoaștere autentică în orice cartier."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Choose a single, clearly bounded neighborhood to farm consistently rather than spreading effort across several.",
+            "ro": "Alege un singur cartier, clar delimitat, pentru a-l cultiva constant, în loc să răspândești efortul pe mai multe."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.realEstateAgency.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Request a referral and a testimonial from the first closed transaction's client.",
+            "ro": "Solicită o recomandare și o mărturie de la clientul primei tranzacții finalizate."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Losing touch with a past client immediately after closing instead of starting a periodic check-in cadence.",
+            "ro": "Pierderea legăturii cu un client anterior imediat după finalizare, în loc să începi un ritm periodic de verificare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Set up a periodic check-in and market-update cadence with every past client starting immediately after closing.",
+            "ro": "Stabilește un ritm periodic de verificare și actualizare a pieței cu fiecare client anterior, începând imediat după finalizare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.realEstateAgency.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a steady base of transactions sourced primarily from the neighborhood-farming and referral engine rather than paid leads.",
+            "ro": "Atinge o bază stabilă de tranzacții, provenite în principal din motorul de cultivare a cartierului și de recomandări, nu din clienți potențiali plătiți."
+          }
+        ],
+        "kpis": [
+          "closeRate",
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Continuing to over-rely on paid portal leads even after the referral engine starts producing consistent volume.",
+            "ro": "Continuarea dependenței excesive de clienții potențiali plătiți din portal, chiar și după ce motorul de recomandări începe să producă un volum constant."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track what share of closed transactions comes from referrals versus paid leads, and shift budget accordingly.",
+            "ro": "Urmărește ce cotă din tranzacțiile finalizate provine din recomandări față de clienți potențiali plătiți, și ajustează bugetul în consecință."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.realEstateAgency.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Grow transaction volume within the agent's sustainable concurrent-showing and negotiation capacity.",
+            "ro": "Crește volumul de tranzacții în limita capacității sustenabile de vizionări și negocieri simultane a agentului."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Taking on more concurrent clients than can be given proper attention, risking service quality during negotiation and closing.",
+            "ro": "Preluarea a mai mulți clienți simultani decât pot primi atenția corespunzătoare, riscând calitatea serviciului în timpul negocierii și finalizării."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Set an explicit concurrent-client cap and hold to it even during a strong seasonal market.",
+            "ro": "Stabilește un plafon explicit de clienți simultani și respectă-l chiar și într-o piață sezonieră puternică."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.realEstateAgency.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Bring on a licensed buyer's-agent or transaction coordinator to handle overflow volume.",
+            "ro": "Adaugă un agent de cumpărare licențiat sau coordonator de tranzacții, pentru a gestiona volumul suplimentar."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring help before the referral and lead pipeline is stable enough to support the additional overhead.",
+            "ro": "Angajarea de ajutor înainte ca rețeaua de recomandări și de clienți potențiali să fie suficient de stabilă pentru a susține costurile suplimentare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm at least six months of stable transaction volume before adding a buyer's-agent or transaction coordinator.",
+            "ro": "Confirmă cel puțin șase luni de volum stabil de tranzacții, înainte de a adăuga un agent de cumpărare sau coordonator de tranzacții."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.realEstateAgency.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand neighborhood farming into an adjacent area or add a specialty niche (e.g. relocation or investment property clients).",
+            "ro": "Extinde cultivarea cartierului într-o zonă adiacentă sau adaugă o nișă de specialitate (de ex. clienți de relocare sau proprietăți de investiție)."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Diluting the core neighborhood-expert positioning while chasing a new area or niche without proof of demand.",
+            "ro": "Diluarea poziționării de bază de expert în cartier, în timp ce urmărești o nouă zonă sau nișă, fără dovezi ale cererii."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Validate the new area or niche with a small number of transactions before committing significant farming budget to it.",
+            "ro": "Validează noua zonă sau nișă cu un număr mic de tranzacții, înainte de a angaja un buget semnificativ de cultivare pentru ea."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.realEstateAgency.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Package the past-client database, referral network, and transaction history for a potential team merger or brokerage partnership.",
+            "ro": "Pregătește baza de date a clienților anteriori, rețeaua de recomandări și istoricul tranzacțiilor, pentru o posibilă fuziune de echipă sau parteneriat de intermediere."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Waiting until a merger or partnership opportunity appears to start documenting the client database and referral relationships.",
+            "ro": "Așteptarea apariției unei oportunități de fuziune sau parteneriat, pentru a începe documentarea bazei de date a clienților și a relațiilor de recomandare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain a clean, ongoing past-client database and transaction history so it's ready for a merger or partnership conversation at any time.",
+            "ro": "Menține o bază de date curată și continuă a clienților anteriori și un istoric al tranzacțiilor, astfel încât să fie pregătită pentru o discuție de fuziune sau parteneriat în orice moment."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.realEstateAgency.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

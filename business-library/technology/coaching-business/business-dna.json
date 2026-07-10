@@ -1,0 +1,963 @@
+{
+  "identity": {
+    "id": "1bcb715f-8691-4292-b960-821552662f21",
+    "slug": "coaching-business",
+    "version": "1.0.0",
+    "name": {
+      "en": "Clearpath Leadership Coaching",
+      "ro": "Clearpath Leadership Coaching"
+    },
+    "tagline": {
+      "en": "The management training your promotion didn't come with.",
+      "ro": "Instruirea de management pe care promovarea ta nu a inclus-o."
+    },
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theSpecialist",
+      "theConnector"
+    ],
+    "summary": {
+      "en": "Best suited to a founder with real, hands-on people-management experience who genuinely enjoys one-on-one developmental conversations more than building products or systems.",
+      "ro": "Potrivit unui fondator cu experiență reală, practică, de gestionare a oamenilor, care se bucură cu adevărat de conversații de dezvoltare unu-la-unu mai mult decât de construirea de produse sau sisteme."
+    },
+    "minimumExperienceYears": 8
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 2000,
+      "maxInvestment": 6000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 300,
+      "ongoingMonthlyCostMax": 900,
+      "notes": {
+        "en": "Deliberately lean — the core asset is the coach's own experience and time, not tooling or inventory. Covers a coaching certification, scheduling/video setup, and a simple booking site.",
+        "ro": "Deliberat redus — activul de bază este experiența și timpul propriu al coach-ului, nu instrumentele sau stocul. Acoperă o certificare de coaching, configurarea programării/video și un site simplu de rezervări."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "coachingCertificationAndTraining",
+          "label": {
+            "en": "Coaching certification and training",
+            "ro": "Certificare și pregătire în coaching"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        },
+        {
+          "key": "schedulingAndVideoConferencingSetup",
+          "label": {
+            "en": "Scheduling and video-conferencing setup",
+            "ro": "Configurarea programării și a videoconferinței"
+          },
+          "typicalMin": 100,
+          "typicalMax": 300
+        },
+        {
+          "key": "websiteAndBookingPageSetup",
+          "label": {
+            "en": "Website and booking page setup",
+            "ro": "Configurarea site-ului și a paginii de rezervări"
+          },
+          "typicalMin": 300,
+          "typicalMax": 900
+        },
+        {
+          "key": "assessmentToolLicensing",
+          "label": {
+            "en": "Leadership assessment tool licensing (e.g. 360-feedback instrument)",
+            "ro": "Licențierea instrumentului de evaluare a leadership-ului (de ex. instrument de feedback 360)"
+          },
+          "typicalMin": 200,
+          "typicalMax": 800
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "schedulingAndVideoToolSubscriptions",
+          "label": {
+            "en": "Scheduling and video-conferencing subscriptions",
+            "ro": "Abonamente de programare și videoconferință"
+          },
+          "typicalMonthlyMin": 40,
+          "typicalMonthlyMax": 120
+        },
+        {
+          "key": "assessmentToolSubscriptions",
+          "label": {
+            "en": "Assessment and survey tool subscriptions",
+            "ro": "Abonamente pentru instrumente de evaluare și sondaje"
+          },
+          "typicalMonthlyMin": 60,
+          "typicalMonthlyMax": 200
+        },
+        {
+          "key": "professionalLiabilityInsurance",
+          "label": {
+            "en": "Professional liability insurance",
+            "ro": "Asigurare de răspundere profesională"
+          },
+          "typicalMonthlyMin": 50,
+          "typicalMonthlyMax": 150
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "individualCoachingPackageFee",
+          "label": {
+            "en": "Individual coaching package fee",
+            "ro": "Onorariu pentru pachetul individual de coaching"
+          }
+        },
+        {
+          "key": "cohortBasedGroupCoachingProgramFee",
+          "label": {
+            "en": "Cohort-based group coaching program fee",
+            "ro": "Onorariu pentru programul de coaching de grup, bazat pe cohorte"
+          }
+        },
+        {
+          "key": "corporateLdRetainerContract",
+          "label": {
+            "en": "Corporate L&D retainer contract",
+            "ro": "Contract de abonament corporativ de învățare și dezvoltare"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 5000,
+      "targetMonthlyIncomeMax": 15000,
+      "breakEvenTimelineMonths": 4,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "The sales cycle involves an HR or L&D sponsor in company-sponsored engagements, which slows the first few deals, but package-based pricing and quarterly renewals build predictable revenue once the first few corporate relationships land.",
+        "ro": "Ciclul de vânzări implică un sponsor HR sau de învățare și dezvoltare în angajamentele sponsorizate de companie, ceea ce încetinește primele câteva contracte, dar prețurile bazate pe pachete și reînnoirile trimestriale construiesc venituri previzibile odată ce primele relații corporative se stabilesc."
+      }
+    },
+    "profitMargin": {
+      "level": "high",
+      "notes": {
+        "en": "The core cost is the coach's own time, not materials or tooling — once certification and setup costs are covered, margin on each additional coaching package is very high.",
+        "ro": "Costul de bază este timpul propriu al coach-ului, nu materialele sau instrumentele — odată ce costurile de certificare și configurare sunt acoperite, marja pentru fiecare pachet suplimentar de coaching este foarte mare."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "none",
+    "onlineOffline": "online",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 25,
+    "maxWeeklyHours": 40,
+    "freedomLevel": 4
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 5
+      },
+      {
+        "key": "marketing",
+        "rating": 6
+      },
+      {
+        "key": "leadership",
+        "rating": 8
+      },
+      {
+        "key": "communication",
+        "rating": 9
+      },
+      {
+        "key": "negotiation",
+        "rating": 5
+      },
+      {
+        "key": "finance",
+        "rating": 3
+      },
+      {
+        "key": "operations",
+        "rating": 4
+      },
+      {
+        "key": "technology",
+        "rating": 3
+      },
+      {
+        "key": "automation",
+        "rating": 2
+      },
+      {
+        "key": "ai",
+        "rating": 3
+      },
+      {
+        "key": "programming",
+        "rating": 1
+      },
+      {
+        "key": "management",
+        "rating": 7
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 45
+      },
+      {
+        "key": "visionary",
+        "score": 50
+      },
+      {
+        "key": "operator",
+        "score": 45
+      },
+      {
+        "key": "creator",
+        "score": 40
+      },
+      {
+        "key": "seller",
+        "score": 50
+      },
+      {
+        "key": "leader",
+        "score": 65
+      },
+      {
+        "key": "analyst",
+        "score": 50
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate",
+      "notes": {
+        "en": "1:1 coaching capacity is capped by the founder's own calendar; scaling requires shifting toward cohort-based group programs or building an associate-coach network.",
+        "ro": "Capacitatea de coaching individual este limitată de propriul calendar al fondatorului; scalarea necesită trecerea către programe de grup bazate pe cohorte sau construirea unei rețele de coach-i asociați."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "The barrier isn't technical — it's having genuine, credible management experience and the interpersonal skill to run a productive developmental conversation.",
+        "ro": "Bariera nu este tehnică — este experiența de management reală și credibilă, și abilitatea interpersonală de a conduce o conversație de dezvoltare productivă."
+      }
+    },
+    "aiResistance": {
+      "level": "high",
+      "notes": {
+        "en": "A genuine one-on-one human coaching relationship, built on trust and lived management experience, is one of the hardest things in this business library for AI tools to replicate.",
+        "ro": "O relație autentică de coaching individual, construită pe încredere și experiență de management trăită, este unul dintre cele mai greu de reprodus lucruri de către instrumentele AI, din întreaga bibliotecă de afaceri."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Corporate L&D and training budgets are often among the first line items cut in a downturn, directly threatening company-sponsored contracts.",
+          "ro": "Bugetele corporative de învățare și dezvoltare și de instruire sunt adesea printre primele elemente tăiate într-o recesiune, amenințând direct contractele sponsorizate de companie."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "The founder's own calendar is the hard ceiling on 1:1 revenue — growth requires a genuine business-model shift, not just more hours.",
+          "ro": "Propriul calendar al fondatorului este plafonul dur pentru veniturile din coaching individual — creșterea necesită o schimbare autentică a modelului de afaceri, nu doar mai multe ore."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "Proving the ROI of coaching to a budget-holder is inherently soft and hard to quantify compared to other professional services.",
+          "ro": "Demonstrarea ROI-ului coaching-ului către un deținător de buget este inerent greu de cuantificat, comparativ cu alte servicii profesionale."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "The management training your promotion didn't come with — practical leadership coaching for first-time managers at fast-growing tech companies.",
+        "ro": "Instruirea de management pe care promovarea ta nu a inclus-o — coaching practic de leadership pentru manageri la prima experiență, în companii tech cu creștere rapidă."
+      },
+      "channels": [
+        {
+          "channelType": "linkedInThoughtLeadershipContent",
+          "description": {
+            "en": "Regular LinkedIn posts breaking down real first-time-manager scenarios and how to handle them.",
+            "ro": "Postări regulate pe LinkedIn, care descompun scenarii reale ale managerilor la prima experiență și cum să le gestioneze."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "hrAndLdBuyerReferrals",
+          "description": {
+            "en": "Referrals from HR and L&D leaders at companies who've sponsored a successful engagement.",
+            "ro": "Recomandări de la liderii HR și de învățare și dezvoltare din companii care au sponsorizat un angajament de succes."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "webinarAndLunchAndLearnSessions",
+          "description": {
+            "en": "Free lunch-and-learn webinars for HR teams on first-time-manager pitfalls, used to generate warm introductions.",
+            "ro": "Webinarii gratuite de tip prânz-și-învățare pentru echipele HR despre capcanele managerilor la prima experiență, folosite pentru a genera prezentări calde."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Requires consistent thought-leadership content and relationship-building with HR/L&D buyers, but no complex multi-channel paid-media management.",
+        "ro": "Necesită conținut constant de lidership de gândire și construirea de relații cu cumpărătorii HR/L&D, dar nu o gestionare complexă a publicității plătite pe mai multe canale."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A free 20-minute discovery call with the manager or their HR/L&D sponsor clarifies specific leadership gaps before proposing a coaching package.",
+        "ro": "Un apel gratuit de descoperire de 20 de minute, cu managerul sau sponsorul HR/L&D al acestuia, clarifică lacunele specifice de leadership, înainte de a propune un pachet de coaching."
+      },
+      "salesCycleLengthDays": 30,
+      "pricingModel": {
+        "en": "Package-based pricing (a fixed number of sessions per quarter), sold either directly to the individual manager or invoiced to the company's L&D budget.",
+        "ro": "Prețuri bazate pe pachete (un număr fix de sesiuni pe trimestru), vândute fie direct managerului individual, fie facturate bugetului de învățare și dezvoltare al companiei."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Company-sponsored engagements involve an HR or L&D sponsor as a second stakeholder, adding real but manageable complexity compared to a purely individual-pay sale.",
+        "ro": "Angajamentele sponsorizate de companie implică un sponsor HR sau de învățare și dezvoltare ca a doua parte interesată, adăugând o complexitate reală, dar gestionabilă, comparativ cu o vânzare pur individuală."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "An initial assessment and goals-setting session to clarify specific leadership gaps",
+          "ro": "O sesiune inițială de evaluare și stabilire a obiectivelor, pentru a clarifica lacunele specifice de leadership"
+        },
+        {
+          "en": "Biweekly one-on-one coaching sessions across the engagement",
+          "ro": "Sesiuni bisăptămânale de coaching unu-la-unu, pe parcursul angajamentului"
+        },
+        {
+          "en": "Structured progress check-ins with the manager's own supervisor for company-sponsored engagements",
+          "ro": "Verificări structurate ale progresului cu supervizorul propriu al managerului, pentru angajamentele sponsorizate de companie"
+        },
+        {
+          "en": "An end-of-engagement outcomes review and renewal conversation",
+          "ro": "O revizuire a rezultatelor la finalul angajamentului și o discuție de reînnoire"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Back-to-back coaching sessions during core hours, with session-notes and action-item follow-up handled between calls.",
+        "ro": "Sesiuni de coaching consecutive în orele de bază, cu notițele de sesiune și urmărirea acțiunilor gestionate între apeluri."
+      },
+      "fulfillmentModel": {
+        "en": "A solo coach delivers all sessions directly — this is a genuinely personal-relationship business, not one that outsources delivery to a bench.",
+        "ro": "Un coach singur livrează toate sesiunile direct — aceasta este o afacere cu adevărat bazată pe relații personale, nu una care externalizează livrarea către o rezervă de colaboratori."
+      }
+    },
+    "automation": {
+      "level": "low",
+      "notes": {
+        "en": "The core deliverable is a live human conversation, which resists automation by design; only scheduling and session-notes summarization are automated.",
+        "ro": "Livrabilul de bază este o conversație umană în timp real, care rezistă automatizării prin natura sa; doar programarea și rezumarea notițelor de sesiune sunt automatizate."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "sessionNotesAndActionItems",
+          "description": {
+            "en": "AI transcribes and summarizes session notes and action items, freeing the coach to stay fully present during the conversation.",
+            "ro": "AI transcrie și rezumă notițele de sesiune și elementele de acțiune, eliberând coach-ul pentru a rămâne complet prezent în timpul conversației."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "progressTrackingSurveys",
+          "description": {
+            "en": "AI-assisted analysis of periodic 360-feedback survey results highlights emerging patterns between sessions.",
+            "ro": "Analiza asistată de AI a rezultatelor sondajelor periodice de feedback 360 evidențiază tiparele emergente între sesiuni."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "Calendly",
+        "category": "scheduling",
+        "isRequired": true,
+        "websiteUrl": "https://calendly.com/"
+      },
+      {
+        "name": "Zoom",
+        "category": "videoConferencing",
+        "isRequired": true,
+        "websiteUrl": "https://zoom.us/"
+      },
+      {
+        "name": "CliftonStrengths",
+        "category": "leadershipAssessment",
+        "isRequired": false,
+        "websiteUrl": "https://www.gallup.com/cliftonstrengths/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 24,
+      "notes": {
+        "en": "Growth beyond the founder's own calendar requires a genuine model shift toward group programs or an associate network, not just more hours worked.",
+        "ro": "Creșterea dincolo de propriul calendar al fondatorului necesită o schimbare autentică a modelului către programe de grup sau o rețea de asociați, nu doar mai multe ore lucrate."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Package a cohort-based group coaching program to serve multiple first-time managers at once without being capped by 1:1 session capacity, then build a small associate-coach network to take on additional corporate accounts.",
+        "ro": "Transformă în produs un program de coaching de grup, bazat pe cohorte, pentru a servi mai mulți manageri la prima experiență simultan, fără a fi limitat de capacitatea sesiunilor individuale, apoi construiește o mică rețea de coach-i asociați pentru a prelua conturi corporative suplimentare."
+      },
+      "bottlenecks": [
+        {
+          "en": "The founder's own calendar caps 1:1 revenue regardless of demand.",
+          "ro": "Propriul calendar al fondatorului limitează veniturile din coaching individual, indiferent de cerere."
+        },
+        {
+          "en": "It's hard to prove ROI to a new corporate budget-holder without existing case studies from prior engagements.",
+          "ro": "Este greu să demonstrezi ROI-ul unui nou deținător de buget corporativ, fără studii de caz existente din angajamentele anterioare."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 6,
+          "description": {
+            "en": "The first company-sponsored contract renews for a second cohort.",
+            "ro": "Primul contract sponsorizat de companie se reînnoiește pentru o a doua cohortă."
+          }
+        },
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "The first associate coach is onboarded to the network to take on additional corporate accounts.",
+            "ro": "Primul coach asociat este integrat în rețea, pentru a prelua conturi corporative suplimentare."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "A free discovery call surfaces concrete, specific leadership gaps before any commitment, making the sales conversation tangible rather than a generic coaching pitch.",
+          "ro": "Un apel gratuit de descoperire scoate la iveală lacune concrete și specifice de leadership, înainte de orice angajament, făcând discuția de vânzare tangibilă, nu un pitch generic de coaching."
+        }
+      },
+      {
+        "description": {
+          "en": "A genuine one-on-one human relationship built on lived management experience is something AI coaching tools genuinely cannot replicate.",
+          "ro": "O relație umană autentică unu-la-unu, construită pe experiență de management trăită, este ceva ce instrumentele AI de coaching nu pot reproduce cu adevărat."
+        }
+      },
+      {
+        "description": {
+          "en": "Package-based pricing gives a corporate budget-holder a predictable, invoiceable cost instead of open-ended hourly billing.",
+          "ro": "Prețurile bazate pe pachete oferă unui deținător de buget corporativ un cost previzibil, facturabil, în loc de facturare orară deschisă."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A solo executive-coaching practice for first-time managers and newly-promoted team leads at fast-growing tech companies, sold either directly to the individual manager or as a company-sponsored L&D engagement, always opening with a free discovery call.",
+        "ro": "O practică solo de coaching executiv pentru manageri la prima experiență și lideri de echipă nou-promovați, în companii tech cu creștere rapidă, vândută fie direct managerului individual, fie ca angajament sponsorizat de companie prin bugetul de învățare și dezvoltare, începând întotdeauna cu un apel gratuit de descoperire."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.coachingBusiness.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.coachingBusiness.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.coachingBusiness.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.coachingBusiness.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert a healthy share of free discovery calls into signed coaching packages.",
+          "ro": "Transformă o cotă sănătoasă din apelurile gratuite de descoperire în pachete de coaching semnate."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Retain company-sponsored contracts across multiple quarterly renewal cycles.",
+          "ro": "Reține contractele sponsorizate de companie pe parcursul mai multor cicluri trimestriale de reînnoire."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect the naturally high margin of a time-based service against underpricing early packages.",
+          "ro": "Protejează marja natural ridicată a unui serviciu bazat pe timp, împotriva subevaluării pachetelor timpurii."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert HR/L&D webinar attendees and referrals into booked discovery calls.",
+          "ro": "Transformă participanții la webinarii HR/L&D și recomandările în apeluri de descoperire programate."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "communication",
+          "importance": 5
+        },
+        {
+          "key": "management",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "negotiation",
+          "importance": 3
+        },
+        {
+          "key": "marketing",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "collaborative",
+          "importance": 5
+        },
+        {
+          "trait": "patient",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "strategic",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 2000,
+        "max": 6000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 3000,
+        "max": 5000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 25,
+        "maxWeeklyHours": 40
+      },
+      "communicationStyle": [
+        "empathetic",
+        "direct"
+      ],
+      "technicalLevel": 2,
+      "leadershipLevel": 5,
+      "creativityLevel": 3,
+      "salesAffinity": 3,
+      "automationAffinity": 2,
+      "remotePreference": "remote",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theSpecialist",
+        "theConnector"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the free discovery call and the company-sponsor dynamic in the Offer Architecture and Sales System sections — a second stakeholder (HR/L&D) is often part of the buying decision.",
+      "ro": "Subliniază apelul gratuit de descoperire și dinamica sponsorului companiei în secțiunile Arhitectura ofertei și Sistemul de vânzări — o a doua parte interesată (HR/L&D) face adesea parte din decizia de cumpărare."
+    },
+    "marketingHints": {
+      "en": "Lead with specific, real first-time-manager scenarios and how to handle them, not generic 'unlock your leadership potential' language.",
+      "ro": "Începe cu scenarii specifice, reale, ale managerilor la prima experiență și cum să le gestioneze, nu cu un limbaj generic despre „deblocarea potențialului de leadership”."
+    },
+    "financialHints": {
+      "en": "Model revenue as package-based sales with quarterly renewal cycles for company-sponsored engagements, recognizing the founder's own calendar as the hard capacity ceiling.",
+      "ro": "Modelează veniturile ca vânzări bazate pe pachete, cu cicluri trimestriale de reînnoire pentru angajamentele sponsorizate de companie, recunoscând propriul calendar al fondatorului ca plafon dur de capacitate."
+    },
+    "generationHints": {
+      "en": "Keep generated tone grounded and practical — describe real management scenarios the way an experienced people-manager-turned-coach would, not generic motivational coaching language.",
+      "ro": "Menține un ton generat ancorat și practic — descrie scenarii reale de management așa cum ar face-o un manager de oameni experimentat, devenit coach, nu un limbaj generic motivațional de coaching."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Complete a coaching certification, set up scheduling and video tooling, and build a simple booking site.",
+            "ro": "Finalizează o certificare de coaching, configurează instrumentele de programare și video și construiește un site simplu de rezervări."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Skipping formal coaching certification, which undermines credibility with corporate L&D buyers who expect it.",
+            "ro": "Sărirea peste certificarea formală de coaching, ceea ce subminează credibilitatea în fața cumpărătorilor corporativi de învățare și dezvoltare, care o așteaptă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Complete a recognized coaching certification before offering paid engagements.",
+            "ro": "Finalizează o certificare de coaching recunoscută înainte de a oferi angajamente plătite."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coachingBusiness.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Run free discovery calls with 8-10 target managers or their HR sponsors to validate the offer and pricing.",
+            "ro": "Desfășoară apeluri gratuite de descoperire cu 8-10 manageri țintă sau sponsorii lor HR, pentru a valida oferta și prețul."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Pricing the first package too low just to close a deal, which becomes hard to renegotiate later.",
+            "ro": "Prețuirea prea scăzută a primului pachet doar pentru a încheia o afacere, ceea ce devine greu de renegociat ulterior."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Test the intended package price with at least two discovery calls before adjusting it.",
+            "ro": "Testează prețul intenționat al pachetului cu cel puțin două apeluri de descoperire înainte de a-l ajusta."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coachingBusiness.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Deliver the first full coaching package end-to-end for the first signed client.",
+            "ro": "Livrează primul pachet complet de coaching, de la un capăt la altul, pentru primul client semnat."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Over-promising outcomes in the first engagement before the coaching format itself is proven.",
+            "ro": "Promiterea excesivă a rezultatelor în primul angajament, înainte ca formatul de coaching în sine să fie dovedit."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Run the initial assessment session and set concrete, measurable goals before the first coaching session.",
+            "ro": "Desfășoară sesiunea inițială de evaluare și stabilește obiective concrete, măsurabile, înainte de prima sesiune de coaching."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coachingBusiness.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish the first LinkedIn thought-leadership content and formalize a referral ask with the first HR sponsor.",
+            "ro": "Publică primul conținut de lidership de gândire pe LinkedIn și oficializează o cerere de recomandare cu primul sponsor HR."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Publishing vague motivational content instead of specific, credible first-time-manager scenarios.",
+            "ro": "Publicarea de conținut motivațional vag, în loc de scenarii specifice și credibile ale managerilor la prima experiență."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Publish one concrete before/after coaching outcome as the first piece of thought-leadership content.",
+            "ro": "Publică un rezultat concret de coaching, înainte/după, ca prima piesă de conținut de lidership de gândire."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coachingBusiness.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Retain the first company-sponsored contract past its initial quarterly term.",
+            "ro": "Reține primul contract sponsorizat de companie dincolo de termenul său trimestrial inițial."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Waiting until the renewal conversation to surface progress data instead of sharing it throughout the engagement.",
+            "ro": "Așteptarea discuției de reînnoire pentru a prezenta datele privind progresul, în loc să le împărtășești pe parcursul angajamentului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Share a mid-engagement progress summary with the HR sponsor before the renewal conversation begins.",
+            "ro": "Împărtășește un rezumat al progresului la jumătatea angajamentului cu sponsorul HR, înainte de începerea discuției de reînnoire."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coachingBusiness.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a steady base of company-sponsored contracts with a documented, repeatable discovery-to-close process.",
+            "ro": "Atinge o bază stabilă de contracte sponsorizate de companie, cu un proces documentat și repetabil de la descoperire la semnare."
+          }
+        ],
+        "kpis": [
+          "closeRate",
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Taking on a client whose leadership gaps don't match the coach's actual expertise, just to hit a revenue target.",
+            "ro": "Acceptarea unui client ale cărui lacune de leadership nu se potrivesc cu expertiza reală a coach-ului, doar pentru a atinge o țintă de venit."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document the discovery-call script and qualification criteria once a repeatable pattern emerges.",
+            "ro": "Documentează scriptul apelului de descoperire și criteriile de calificare, odată ce apare un tipar repetabil."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coachingBusiness.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Design and pilot a cohort-based group coaching program to serve multiple managers without 1:1 calendar limits.",
+            "ro": "Proiectează și testează un program de coaching de grup, bazat pe cohorte, pentru a servi mai mulți manageri fără limitele calendarului individual."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Launching a group program before the 1:1 curriculum it's based on has been proven with individual clients.",
+            "ro": "Lansarea unui program de grup înainte ca programa 1:1 pe care se bazează să fi fost dovedită cu clienți individuali."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pilot the group program with a single small cohort before selling it broadly.",
+            "ro": "Testează programul de grup cu o singură cohortă mică, înainte de a-l vinde pe scară largă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coachingBusiness.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Onboard the first associate coach to the network to take on additional corporate accounts.",
+            "ro": "Integrează primul coach asociat în rețea, pentru a prelua conturi corporative suplimentare."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Onboarding an associate coach before the coaching methodology is documented well enough to train against.",
+            "ro": "Integrarea unui coach asociat înainte ca metodologia de coaching să fie documentată suficient de bine pentru a putea fi predată."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document the coaching methodology and quality standards before bringing on the first associate coach.",
+            "ro": "Documentează metodologia de coaching și standardele de calitate, înainte de a aduce primul coach asociat."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coachingBusiness.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into an adjacent coaching niche, such as coaching for newly-promoted directors, beyond first-time managers.",
+            "ro": "Extinde-te într-o nișă de coaching adiacentă, precum coaching pentru directori nou-promovați, dincolo de managerii la prima experiență."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Diluting the core positioning around first-time managers while chasing an adjacent segment without proof.",
+            "ro": "Diluarea poziționării de bază în jurul managerilor la prima experiență, în timp ce urmărești un segment adiacent fără dovezi."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Validate the new segment with a small number of engagements before committing significant marketing effort to it.",
+            "ro": "Validează noul segment cu un număr mic de angajamente, înainte de a angaja un efort de marketing semnificativ pentru el."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coachingBusiness.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Package the client roster, associate-coach network, and documented methodology for a potential acquisition by a larger coaching or L&D firm.",
+            "ro": "Pregătește portofoliul de clienți, rețeaua de coach-i asociați și metodologia documentată, pentru o posibilă achiziție de către o firmă mai mare de coaching sau de învățare și dezvoltare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Waiting until a buyer is at the table to start documenting the coaching methodology and client outcomes.",
+            "ro": "Așteptarea apariției unui cumpărător pentru a începe documentarea metodologiei de coaching și a rezultatelor clienților."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, ongoing documentation of client outcomes and the coaching methodology so it's acquisition-ready at any time.",
+            "ro": "Menține o documentație curată și continuă a rezultatelor clienților și a metodologiei de coaching, astfel încât să fie pregătită pentru achiziție în orice moment."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coachingBusiness.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

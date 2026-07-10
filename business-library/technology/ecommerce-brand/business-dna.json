@@ -1,0 +1,846 @@
+{
+  "identity": {
+    "id": "6bdafd47-844a-4413-8fbc-5b4b88a3e576",
+    "slug": "ecommerce-brand",
+    "version": "1.0.0",
+    "name": {
+      "en": "Solstice Jewelry Co.",
+      "ro": "Solstice Jewelry Co."
+    },
+    "tagline": {
+      "en": "Fine jewelry, made to keep — not to trend.",
+      "ro": "Bijuterii fine, făcute să rămână — nu să treacă din modă."
+    },
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": ["theVisionary", "theOperator"],
+    "summary": {
+      "en": "Best suited to a founder with a genuine design point of view who also enjoys the operational discipline of inventory and fulfillment — this is a physical-goods business, not a pure content or service play.",
+      "ro": "Potrivit unui fondator cu o viziune de design autentică, care se bucură și de disciplina operațională a gestionării stocurilor și livrărilor — aceasta este o afacere cu produse fizice, nu un simplu joc de conținut sau servicii."
+    },
+    "minimumExperienceYears": 2
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 15000,
+      "maxInvestment": 40000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 3000,
+      "ongoingMonthlyCostMax": 9000,
+      "notes": {
+        "en": "Covers the first inventory production run, ecommerce platform setup, product photography, and brand packaging design — the largest single line item is inventory, unlike a service business.",
+        "ro": "Acoperă primul lot de producție de stoc, configurarea platformei de comerț electronic, fotografia de produs și designul ambalajului brandului — cel mai mare element individual este stocul, spre deosebire de o afacere de servicii."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "initialInventoryProduction",
+          "label": {
+            "en": "Initial inventory production run",
+            "ro": "Producția inițială de stoc"
+          },
+          "typicalMin": 8000,
+          "typicalMax": 22000
+        },
+        {
+          "key": "ecommercePlatformAndAppSetup",
+          "label": {
+            "en": "Ecommerce platform and app setup",
+            "ro": "Configurarea platformei de comerț electronic și a aplicațiilor"
+          },
+          "typicalMin": 800,
+          "typicalMax": 2500
+        },
+        {
+          "key": "productPhotographyAndCatalog",
+          "label": {
+            "en": "Product photography and catalog production",
+            "ro": "Fotografierea produselor și producția catalogului"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        },
+        {
+          "key": "brandIdentityAndPackagingDesign",
+          "label": {
+            "en": "Brand identity and packaging design",
+            "ro": "Identitatea de brand și designul ambalajului"
+          },
+          "typicalMin": 2000,
+          "typicalMax": 5000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "platformAndAppSubscriptions",
+          "label": {
+            "en": "Ecommerce platform and app subscriptions",
+            "ro": "Abonamente la platforma de comerț electronic și aplicații"
+          },
+          "typicalMonthlyMin": 200,
+          "typicalMonthlyMax": 600
+        },
+        {
+          "key": "paidAdsAndInfluencerSpend",
+          "label": {
+            "en": "Paid ads and influencer/UGC seeding spend",
+            "ro": "Cheltuieli pentru reclame plătite și colaborări cu influenceri/UGC"
+          },
+          "typicalMonthlyMin": 1500,
+          "typicalMonthlyMax": 5000
+        },
+        {
+          "key": "warehousingAndFulfillmentFees",
+          "label": {
+            "en": "Third-party warehousing and fulfillment fees",
+            "ro": "Taxe de depozitare și livrare prin terți"
+          },
+          "typicalMonthlyMin": 500,
+          "typicalMonthlyMax": 1800
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "directProductSales",
+          "label": {
+            "en": "Direct-to-consumer product sales",
+            "ro": "Vânzări directe către consumator"
+          }
+        },
+        {
+          "key": "limitedEditionCollectionDrops",
+          "label": {
+            "en": "Limited-edition collection drops",
+            "ro": "Lansări de colecții în ediție limitată"
+          }
+        },
+        {
+          "key": "corporateGiftingBulkOrders",
+          "label": {
+            "en": "Corporate gifting bulk orders",
+            "ro": "Comenzi corporative en-gros pentru cadouri"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 8000,
+      "targetMonthlyIncomeMax": 30000,
+      "breakEvenTimelineMonths": 9,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "slow",
+      "notes": {
+        "en": "Unlike a service business that can sign a client in week one, an ecommerce brand needs time to produce its first inventory run, build initial audience trust, and convert first-time buyers into repeat customers — revenue compounds slowly at first, then accelerates as repeat-purchase and gifting-season cohorts mature.",
+        "ro": "Spre deosebire de o afacere de servicii care poate semna un client în prima săptămână, un brand de comerț electronic are nevoie de timp pentru a produce primul lot de stoc, a construi încrederea inițială a publicului și a transforma cumpărătorii la prima achiziție în clienți fideli — veniturile cresc lent la început, apoi se accelerează pe măsură ce cohortele de achiziții repetate și de sezon de cadouri se maturizează."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate",
+      "notes": {
+        "en": "Direct-to-consumer pricing bypasses traditional jewelry-retail markup layers, but paid-acquisition cost and inventory carrying cost keep margins moderate rather than high.",
+        "ro": "Prețurile directe către consumator evită straturile tradiționale de adaos comercial ale bijutierilor, dar costul achiziției plătite și costul deținerii stocului mențin marjele moderate, nu ridicate."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "occasional",
+    "onlineOffline": "online",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 40,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      { "key": "sales", "rating": 6 },
+      { "key": "marketing", "rating": 8 },
+      { "key": "leadership", "rating": 4 },
+      { "key": "communication", "rating": 6 },
+      { "key": "negotiation", "rating": 6 },
+      { "key": "finance", "rating": 5 },
+      { "key": "operations", "rating": 7 },
+      { "key": "technology", "rating": 5 },
+      { "key": "automation", "rating": 4 },
+      { "key": "ai", "rating": 4 },
+      { "key": "programming", "rating": 2 },
+      { "key": "management", "rating": 5 }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      { "key": "builder", "score": 60 },
+      { "key": "visionary", "score": 65 },
+      { "key": "operator", "score": 60 },
+      { "key": "creator", "score": 65 },
+      { "key": "seller", "score": 55 },
+      { "key": "leader", "score": 40 },
+      { "key": "analyst", "score": 45 }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": false,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": true,
+    "requiresInventory": true,
+    "isSeasonalBusiness": true,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate",
+      "notes": {
+        "en": "Scaling requires proportionally more working capital for inventory, unlike a pure-service business — SKU expansion is gated by cash flow, not just demand.",
+        "ro": "Scalarea necesită proporțional mai mult capital de lucru pentru stoc, spre deosebire de o afacere pur de servicii — extinderea gamei de produse este limitată de fluxul de numerar, nu doar de cerere."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "Moderate difficulty: the barrier isn't technical skill but the combination of design judgment, supplier sourcing, and enough working capital to carry inventory through a full sales cycle.",
+        "ro": "Dificultate moderată: bariera nu este abilitatea tehnică, ci combinația dintre judecata de design, sursele de aprovizionare și suficient capital de lucru pentru a susține stocul pe parcursul unui ciclu complet de vânzări."
+      }
+    },
+    "aiResistance": {
+      "level": "moderate",
+      "notes": {
+        "en": "Physical product design, sourcing relationships, and brand trust are harder for AI tools to replicate than pure content or code work, but AI-generated product photography and ad creative are lowering the barrier for lookalike competitors.",
+        "ro": "Designul produsului fizic, relațiile de aprovizionare și încrederea în brand sunt mai greu de reprodus de instrumentele AI decât munca pur de conținut sau cod, dar fotografia de produs și materialele publicitare generate de AI reduc bariera pentru competitorii care copiază conceptul."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Capital is tied up in unsold inventory, so a slow-moving collection directly strains cash flow rather than just opportunity cost.",
+          "ro": "Capitalul este blocat în stocuri nevândute, astfel încât o colecție cu vânzări lente pune presiune directă pe fluxul de numerar, nu doar un cost de oportunitate."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Rising Meta and Google ad costs (CAC creep) can erode margins faster than pricing or repeat-purchase rate can compensate.",
+          "ro": "Creșterea costurilor publicitare pe Meta și Google (creșterea CAC) poate eroda marjele mai rapid decât pot compensa prețurile sau rata de achiziții repetate."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Lower-cost knockoff or dropshipped lookalike pieces can undercut on price once a design proves popular.",
+          "ro": "Piesele imitație sau dropshipping la preț mai mic pot submina prețul odată ce un design devine popular."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Fine jewelry, made to keep — not to trend. Ethically-sourced, lab-grown pieces designed for daily wear, not just gift-wrap moments.",
+        "ro": "Bijuterii fine, făcute să rămână — nu să treacă din modă. Piese cu proveniență etică, din diamante crescute în laborator, concepute pentru purtare zilnică, nu doar pentru momente de cadou."
+      },
+      "channels": [
+        {
+          "channelType": "ugcAndInfluencerSeeding",
+          "description": {
+            "en": "Seeding product to micro-influencers and encouraging organic UGC showing pieces worn in daily life.",
+            "ro": "Oferirea de produse micro-influencerilor și încurajarea conținutului UGC organic care arată piesele purtate în viața de zi cu zi."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "metaAndGoogleShoppingAds",
+          "description": {
+            "en": "Paid acquisition through Meta and Google Shopping ads targeting design-conscious professional women.",
+            "ro": "Achiziție plătită prin reclame Meta și Google Shopping, direcționate către femei profesioniste conștiente de design."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "emailLifecycleMarketing",
+          "description": {
+            "en": "Post-purchase and gifting-season email/SMS flows to drive repeat purchases from the existing customer list.",
+            "ro": "Fluxuri de e-mail/SMS post-achiziție și de sezon de cadouri, pentru a genera achiziții repetate de la lista existentă de clienți."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Requires consistent visual content production and paid-ad management, but no complex multi-stakeholder B2B sales messaging.",
+        "ro": "Necesită producție constantă de conținut vizual și gestionarea reclamelor plătite, dar nu un mesaj complex de vânzare B2B cu mai multe părți interesate."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "Direct-to-consumer online checkout, backed by a 30-day try-at-home return window and free resizing, to remove purchase hesitation on fit and quality when buying sight unseen.",
+        "ro": "Finalizare directă a comenzii online către consumator, susținută de o fereastră de retur de 30 de zile pentru probă acasă și ajustare gratuită a mărimii, pentru a elimina ezitarea la achiziție privind mărimea și calitatea atunci când cumperi fără a vedea produsul în persoană."
+      },
+      "salesCycleLengthDays": 3,
+      "pricingModel": {
+        "en": "Tiered price points from $150 to $800 across everyday and statement pieces, with limited-edition collection drops creating purchase urgency.",
+        "ro": "Niveluri de preț etajate, de la 150 la 800 USD, pentru piese de zi cu zi și piese statement, cu lansări de colecții în ediție limitată care creează urgență de cumpărare."
+      }
+    },
+    "salesComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "A single-step online checkout is far simpler than a multi-call B2B sales cycle — the hard work is upstream, in product design and trust-building content.",
+        "ro": "O finalizare a comenzii online într-un singur pas este mult mai simplă decât un ciclu de vânzări B2B cu mai multe apeluri — munca dificilă se află în amonte, în designul produsului și conținutul care construiește încredere."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Supplier sourcing and quality control for lab-grown stones and metals",
+          "ro": "Sursă de aprovizionare și controlul calității pentru pietre crescute în laborator și metale"
+        },
+        {
+          "en": "Product photography and catalog updates for each new collection",
+          "ro": "Fotografierea produselor și actualizarea catalogului pentru fiecare colecție nouă"
+        },
+        {
+          "en": "Order fulfillment and shipping coordination through a third-party logistics partner",
+          "ro": "Coordonarea livrării comenzilor și a expedierii prin intermediul unui partener logistic terț"
+        },
+        {
+          "en": "Customer service for sizing questions, exchanges, and returns",
+          "ro": "Serviciul clienți pentru întrebări despre mărime, schimburi și retururi"
+        }
+      ],
+      "notes": {
+        "en": "A lean solo-founder model relies on a third-party logistics partner for warehousing and shipping, keeping the founder focused on design, sourcing, and marketing.",
+        "ro": "Un model suplu, cu un singur fondator, se bazează pe un partener logistic terț pentru depozitare și expediere, permițând fondatorului să se concentreze pe design, aprovizionare și marketing."
+      }
+    },
+    "automation": {
+      "level": "moderate",
+      "notes": {
+        "en": "Order routing, shipping notifications, and post-purchase email flows are automated; product photography editing and customer-service triage are AI-assisted but human-reviewed.",
+        "ro": "Direcționarea comenzilor, notificările de expediere și fluxurile de e-mail post-achiziție sunt automatizate; editarea fotografiilor de produs și trierea serviciului clienți sunt asistate de AI, dar revizuite de o persoană."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "productPhotographyEditing",
+          "description": {
+            "en": "AI-assisted product photography editing and background cleanup before catalog publishing.",
+            "ro": "Editare asistată de AI a fotografiilor de produs și curățarea fundalului înainte de publicarea în catalog."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "customerServiceChatbot",
+          "description": {
+            "en": "AI-assisted customer service chatbot handling common sizing and shipping questions before escalating to a human.",
+            "ro": "Chatbot de serviciu clienți asistat de AI, care gestionează întrebările comune despre mărime și livrare înainte de a escalada către o persoană."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "moderate"
+    },
+    "recommendedTools": [
+      {
+        "name": "Shopify",
+        "category": "ecommercePlatform",
+        "isRequired": true,
+        "websiteUrl": "https://www.shopify.com/"
+      },
+      {
+        "name": "Klaviyo",
+        "category": "emailAndSmsLifecycle",
+        "isRequired": true,
+        "websiteUrl": "https://www.klaviyo.com/"
+      },
+      {
+        "name": "Loox",
+        "category": "reviewsAndUgc",
+        "isRequired": false,
+        "websiteUrl": "https://loox.io/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 24,
+      "notes": {
+        "en": "Growth is gated by working capital for inventory expansion and paid-acquisition efficiency, not by demand alone.",
+        "ro": "Creșterea este limitată de capitalul de lucru pentru extinderea stocului și de eficiența achiziției plătite, nu doar de cerere."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Expand the SKU catalog into adjacent categories such as a bridal/wedding line, and build wholesale partnerships with independent boutiques once the direct-to-consumer channel is proven.",
+        "ro": "Extinde catalogul de produse în categorii adiacente, precum o linie pentru nuntă, și construiește parteneriate en-gros cu boutique-uri independente odată ce canalul direct către consumator este dovedit."
+      },
+      "bottlenecks": [
+        {
+          "en": "Cash tied up in existing inventory limits how quickly new SKUs can be produced and launched.",
+          "ro": "Numerarul blocat în stocul existent limitează cât de repede pot fi produse și lansate noi produse."
+        },
+        {
+          "en": "Heavy reliance on paid ads for discovery leaves growth vulnerable to rising acquisition costs.",
+          "ro": "Dependența puternică de reclamele plătite pentru descoperire lasă creșterea vulnerabilă la costurile de achiziție în creștere."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 6,
+          "description": {
+            "en": "Repeat-purchase rate among the first customer cohort reaches 20%.",
+            "ro": "Rata de achiziții repetate în rândul primei cohorte de clienți atinge 20%."
+          }
+        },
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "Launch a second product line and the first wholesale boutique partnership.",
+            "ro": "Lansarea unei a doua linii de produse și primul parteneriat en-gros cu un boutique."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "A free 30-day try-at-home window with complimentary resizing removes the biggest hesitation in buying fine jewelry online, sight unseen.",
+          "ro": "O fereastră gratuită de 30 de zile pentru probă acasă, cu ajustare gratuită a mărimii, elimină cea mai mare ezitare la cumpărarea de bijuterii fine online, fără a le vedea în persoană."
+        }
+      },
+      {
+        "description": {
+          "en": "An ethically-sourced, lab-grown materials story differentiates clearly from both mass-market costume jewelry and traditional mined-diamond luxury houses.",
+          "ro": "O poveste despre materiale cu proveniență etică, crescute în laborator, diferențiază clar atât de bijuteriile de masă cât și de casele tradiționale de lux cu diamante extrase din mine."
+        }
+      },
+      {
+        "description": {
+          "en": "A direct relationship with customers through owned channels enables fast iteration on which styles to restock versus retire.",
+          "ro": "O relație directă cu clienții prin canale proprii permite o iterație rapidă asupra stilurilor de reaprovizionat versus retras din vânzare."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A direct-to-consumer fine jewelry brand built around ethically-sourced, lab-grown pieces designed for daily wear, sold through owned ecommerce channels with a try-at-home return window that removes online-purchase hesitation.",
+        "ro": "Un brand de bijuterii fine direct către consumator, construit în jurul unor piese cu proveniență etică, crescute în laborator, concepute pentru purtare zilnică, vândute prin canale proprii de comerț electronic, cu o fereastră de retur pentru probă acasă care elimină ezitarea la achiziția online."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.ecommerceBrand.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.ecommerceBrand.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.ecommerceBrand.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.ecommerceBrand.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "cac",
+        "targetDescription": {
+          "en": "Keep blended customer acquisition cost low enough that the first purchase alone remains profitable after shipping and payment fees.",
+          "ro": "Menține costul mixt de achiziție a clienților suficient de scăzut încât prima achiziție să rămână profitabilă după taxele de expediere și de plată."
+        }
+      },
+      {
+        "key": "ltv",
+        "targetDescription": {
+          "en": "Grow customer lifetime value through repeat purchases and gifting-season upsells, not just first-order margin.",
+          "ro": "Crește valoarea pe durata de viață a clientului prin achiziții repetate și vânzări suplimentare în sezonul de cadouri, nu doar prin marja primei comenzi."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against rising paid-ad costs and inventory carrying costs.",
+          "ro": "Protejează marja brută împotriva costurilor de publicitate plătită în creștere și a costurilor de deținere a stocului."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Build a repeat-purchase base large enough to reduce reliance on paid acquisition for revenue growth over time.",
+          "ro": "Construiește o bază de achiziții repetate suficient de mare pentru a reduce dependența de achiziția plătită pentru creșterea veniturilor în timp."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        { "key": "marketing", "importance": 5 },
+        { "key": "design", "importance": 4 }
+      ],
+      "preferredSkills": [
+        { "key": "negotiation", "importance": 3 },
+        { "key": "sales", "importance": 3 }
+      ],
+      "requiredPersonality": [
+        { "trait": "creative", "importance": 5 },
+        { "trait": "detailOriented", "importance": 4 }
+      ],
+      "preferredPersonality": [
+        { "trait": "resilient", "importance": 3 }
+      ],
+      "requiredBudget": { "min": 15000, "max": 40000, "currency": "EUR" },
+      "preferredBudget": { "min": 18000, "max": 30000, "currency": "EUR" },
+      "riskProfile": "moderate",
+      "timeAvailability": { "minWeeklyHours": 40, "maxWeeklyHours": 55 },
+      "communicationStyle": ["visual", "persuasive"],
+      "technicalLevel": 3,
+      "leadershipLevel": 3,
+      "creativityLevel": 5,
+      "salesAffinity": 3,
+      "automationAffinity": 3,
+      "remotePreference": "hybrid",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": ["theVisionary", "theOperator"]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the try-at-home return window and the ethically-sourced materials story in the Offer Architecture section — those two elements do the heaviest lifting against online-purchase hesitation.",
+      "ro": "Subliniază fereastra de retur pentru probă acasă și povestea materialelor cu proveniență etică în secțiunea Arhitectura ofertei — aceste două elemente au cel mai mare impact împotriva ezitării la achiziția online."
+    },
+    "marketingHints": {
+      "en": "Lead with real customer UGC and influencer content showing pieces worn in daily life, not staged studio-only product shots.",
+      "ro": "Începe cu conținut UGC real de la clienți și de la influenceri, arătând piesele purtate în viața de zi cu zi, nu doar fotografii de produs realizate exclusiv în studio."
+    },
+    "financialHints": {
+      "en": "Model revenue as slow-building direct sales that accelerate through repeat purchases and gifting-season spikes, with cash flow gated by inventory production cycles.",
+      "ro": "Modelează veniturile ca vânzări directe cu creștere lentă, care se accelerează prin achiziții repetate și vârfuri din sezonul de cadouri, cu fluxul de numerar limitat de ciclurile de producție a stocului."
+    },
+    "generationHints": {
+      "en": "Keep generated tone warm and design-confident — describe pieces the way an experienced jewelry brand founder would, grounded in materials and craft, not generic ecommerce marketing language.",
+      "ro": "Menține un ton generat cald și încrezător în design — descrie piesele așa cum ar face-o un fondator experimentat de brand de bijuterii, ancorat în materiale și meșteșug, nu într-un limbaj generic de marketing pentru comerț electronic."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Finalize the first collection design, source lab-grown materials, and set up the ecommerce platform and fulfillment partner.",
+            "ro": "Finalizează designul primei colecții, aprovizionează materialele crescute în laborator și configurează platforma de comerț electronic și partenerul de livrare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Producing too large an initial inventory run before the design is validated with real customer feedback.",
+            "ro": "Producerea unui lot inițial de stoc prea mare înainte ca designul să fie validat cu feedback real de la clienți."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Order a small pilot production run and gather feedback from a limited early-access group before committing to full-scale production.",
+            "ro": "Comandă un lot pilot de producție mic și adună feedback de la un grup restrâns cu acces timpuriu înainte de a te angaja pentru producția la scară completă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.ecommerceBrand.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Sell the pilot production run directly to an early-access list to validate pricing and design appeal.",
+            "ro": "Vinde lotul pilot de producție direct unei liste cu acces timpuriu pentru a valida prețul și atractivitatea designului."
+          }
+        ],
+        "kpis": ["closeRate"],
+        "commonMistakes": [
+          {
+            "en": "Discounting heavily to move the pilot run, which distorts true demand signal for the next production decision.",
+            "ro": "Reducerea puternică a prețului pentru a vinde lotul pilot, ceea ce distorsionează semnalul real al cererii pentru următoarea decizie de producție."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Sell the pilot run at intended full price to get an honest read on demand before scaling production.",
+            "ro": "Vinde lotul pilot la prețul integral intenționat pentru a obține o citire onestă a cererii înainte de a scala producția."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.ecommerceBrand.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Launch the full first collection on the live storefront with complete product photography and the try-at-home return policy.",
+            "ro": "Lansează prima colecție completă pe magazinul online activ, cu fotografii complete de produs și politica de retur pentru probă acasă."
+          }
+        ],
+        "kpis": ["grossMargin"],
+        "commonMistakes": [
+          {
+            "en": "Launching without a clear returns and sizing policy, which drives up customer-service load and refund rates.",
+            "ro": "Lansarea fără o politică clară de retur și de mărime, ceea ce crește volumul de serviciu clienți și rata rambursărilor."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Publish a clear 30-day try-at-home policy with free resizing before driving any paid traffic to the storefront.",
+            "ro": "Publică o politică clară de 30 de zile pentru probă acasă, cu ajustare gratuită a mărimii, înainte de a direcționa orice trafic plătit către magazin."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.ecommerceBrand.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Drive initial traffic through influencer and UGC seeding, and launch the first paid-ad campaigns.",
+            "ro": "Generează traficul inițial prin colaborări cu influenceri și conținut UGC și lansează primele campanii de reclame plătite."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Spending heavily on paid ads before organic UGC and influencer content has validated which pieces resonate.",
+            "ro": "Cheltuirea excesivă pe reclame plătite înainte ca conținutul UGC organic și cel al influencerilor să fi validat ce piese rezonează."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Seed product to a small group of micro-influencers first and use their organic response to prioritize paid-ad creative.",
+            "ro": "Oferă produse mai întâi unui grup mic de micro-influenceri și folosește răspunsul lor organic pentru a prioritiza materialele pentru reclamele plătite."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.ecommerceBrand.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first wave of buyers into repeat customers through post-purchase email lifecycle flows.",
+            "ro": "Transformă primul val de cumpărători în clienți fideli prin fluxuri de e-mail post-achiziție pe ciclul de viață."
+          }
+        ],
+        "kpis": ["customerRetention"],
+        "commonMistakes": [
+          {
+            "en": "Treating the first sale as the end of the relationship instead of the start of a lifecycle-marketing sequence.",
+            "ro": "Tratarea primei vânzări ca sfârșitul relației, în loc de începutul unei secvențe de marketing pe ciclul de viață."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Set up an automated post-purchase email flow that requests a review and introduces the next collection drop.",
+            "ro": "Configurează un flux automat de e-mail post-achiziție care solicită o recenzie și prezintă următoarea lansare de colecție."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.ecommerceBrand.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Identify which pieces and price points drive the highest repeat-purchase rate and double down on them in future collections.",
+            "ro": "Identifică ce piese și niveluri de preț generează cea mai mare rată de achiziții repetate și investește mai mult în ele în colecțiile viitoare."
+          }
+        ],
+        "kpis": ["closeRate", "grossMargin"],
+        "commonMistakes": [
+          {
+            "en": "Expanding the catalog too broadly before a clear best-selling core has been identified.",
+            "ro": "Extinderea prea largă a catalogului înainte de a identifica un nucleu clar de produse cele mai vândute."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Retire underperforming SKUs and reinvest production capital into proven best-sellers.",
+            "ro": "Retrage produsele cu performanțe slabe și reinvestește capitalul de producție în produsele dovedite ca fiind cele mai vândute."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.ecommerceBrand.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Grow monthly revenue by scaling proven paid-ad campaigns and expanding the email/SMS lifecycle program.",
+            "ro": "Crește veniturile lunare prin scalarea campaniilor de reclame plătite dovedite și extinderea programului de e-mail/SMS pe ciclul de viață."
+          }
+        ],
+        "kpis": ["mrr"],
+        "commonMistakes": [
+          {
+            "en": "Scaling ad spend faster than inventory production capacity can support, leading to stockouts on bestsellers.",
+            "ro": "Scalarea cheltuielilor publicitare mai rapid decât poate susține capacitatea de producție a stocului, ceea ce duce la epuizarea stocului la produsele cele mai vândute."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Forecast inventory production timelines against planned ad-spend increases before scaling campaigns.",
+            "ro": "Prognozează termenele de producție a stocului în raport cu creșterile planificate ale cheltuielilor publicitare înainte de a scala campaniile."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.ecommerceBrand.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Launch a second product line, such as a bridal/wedding collection, and formalize wholesale partnerships with boutiques.",
+            "ro": "Lansează o a doua linie de produse, precum o colecție pentru nuntă, și formalizează parteneriate en-gros cu boutique-uri."
+          }
+        ],
+        "kpis": ["grossMargin"],
+        "commonMistakes": [
+          {
+            "en": "Diluting brand positioning by launching a second line before the core collection has a clear, proven identity.",
+            "ro": "Diluarea poziționării brandului prin lansarea unei a doua linii înainte ca colecția de bază să aibă o identitate clară și dovedită."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Validate the second product line with a small pilot batch before committing to full wholesale production.",
+            "ro": "Validează a doua linie de produse cu un lot pilot mic înainte de a te angaja pentru producția en-gros completă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.ecommerceBrand.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into new geographic markets or additional wholesale boutique channels beyond the initial direct-to-consumer base.",
+            "ro": "Extinde-te pe noi piețe geografice sau canale suplimentare de boutique en-gros, dincolo de baza inițială directă către consumator."
+          }
+        ],
+        "kpis": ["mrr"],
+        "commonMistakes": [
+          {
+            "en": "Expanding shipping to new regions before fulfillment costs and return logistics are properly modeled.",
+            "ro": "Extinderea livrării către noi regiuni înainte ca fiecare cost de livrare și logistica retururilor să fie modelate corespunzător."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pilot new-market shipping with a limited SKU set before rolling out the full catalog internationally.",
+            "ro": "Testează livrarea pe noi piețe cu un set limitat de produse înainte de a lansa întregul catalog la nivel internațional."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.ecommerceBrand.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Package the brand's customer list, repeat-purchase data, and wholesale relationships for a potential acquisition by a larger consumer-goods company.",
+            "ro": "Pregătește lista de clienți a brandului, datele privind achizițiile repetate și relațiile en-gros pentru o posibilă achiziție de către o companie mai mare de bunuri de consum."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Waiting until a buyer is at the table to start documenting customer cohort and retention data.",
+            "ro": "Așteptarea apariției unui cumpărător pentru a începe documentarea datelor despre cohortele de clienți și retenție."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, ongoing customer-cohort and repeat-purchase reporting so it's acquisition-ready at any time.",
+            "ro": "Menține o raportare curată și continuă a cohortelor de clienți și a achizițiilor repetate, astfel încât să fie pregătită pentru achiziție în orice moment."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.ecommerceBrand.businessDna.resources.community1"
+        ]
+      }
+    ]
+  }
+}

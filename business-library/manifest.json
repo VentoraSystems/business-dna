@@ -3,8 +3,8 @@
   "schemaVersion": "1.0.0",
   "_schemaVersionSource": "src/features/business-dna/schemas/business-dna-profile.schema.ts → BUSINESS_DNA_PROFILE_SCHEMA_VERSION — keep this value in sync; validate-packages.ts checks it.",
   "lastUpdated": "2026-07-10",
-  "businessCount": 16,
-  "_businessCountNote": "Counts only packages with metadata.status === \"published\". ai-automation-agency is status \"template\" — a placeholder structure, not a registered business — so it contributes 0. The 4 Professional Services packages (accounting-firm, financial-consultancy, insurance-brokerage, tax-consultancy) plus the 4 Taxonomy Expansion packages (law-firm, hr-consultancy, recruitment-agency, business-consultancy) are all status \"published\", contributing 8. software-house, web-development-agency, and ai-consulting (Knowledge Authoring Batch 1, Technology Services expansion) are also \"published\", contributing a 9th, 10th, and 11th. mobile-app-development-agency, cybersecurity-consultancy, it-managed-services, devops-consultancy, and data-analytics-consultancy (Batch 2) contribute a 12th through 16th, completing all 9 planned technology-services businesses — see docs/domain/06-business-catalog.md.",
+  "businessCount": 21,
+  "_businessCountNote": "Counts only packages with metadata.status === \"published\". ai-automation-agency is status \"template\" — a placeholder structure, not a registered business — so it contributes 0. The 4 Professional Services packages (accounting-firm, financial-consultancy, insurance-brokerage, tax-consultancy) plus the 4 Taxonomy Expansion packages (law-firm, hr-consultancy, recruitment-agency, business-consultancy) are all status \"published\", contributing 8. software-house, web-development-agency, and ai-consulting (Knowledge Authoring Batch 1, Technology Services expansion) are also \"published\", contributing a 9th, 10th, and 11th. mobile-app-development-agency, cybersecurity-consultancy, it-managed-services, devops-consultancy, and data-analytics-consultancy (Batch 2) contribute a 12th through 16th, completing all 9 planned technology-services businesses. marketing-agency, ecommerce-brand, coaching-business, architecture-studio, and real-estate-agency (Batch 3, first flagship businesses authored under the new marketing-agencies, ecommerce, coaching, architecture, and real-estate categories) contribute a 17th through 21st — see docs/domain/06-business-catalog.md.",
   "supportedLanguages": ["en", "ro"],
   "industries": "./taxonomy/industries.json",
   "categories": "./taxonomy/categories.json",
@@ -108,6 +108,36 @@
     {
       "slug": "data-analytics-consultancy",
       "path": "./technology/data-analytics-consultancy",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "marketing-agency",
+      "path": "./technology/marketing-agency",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "ecommerce-brand",
+      "path": "./technology/ecommerce-brand",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "coaching-business",
+      "path": "./technology/coaching-business",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "architecture-studio",
+      "path": "./technology/architecture-studio",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "real-estate-agency",
+      "path": "./technology/real-estate-agency",
       "status": "published",
       "canonical": false
     }

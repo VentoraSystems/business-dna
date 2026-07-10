@@ -1,0 +1,141 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "coachingCertificationAndTraining",
+      "schedulingAndVideoConferencingSetup",
+      "websiteAndBookingPageSetup",
+      "assessmentToolLicensing"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "schedulingAndVideoToolSubscriptions",
+      "assessmentToolSubscriptions",
+      "professionalLiabilityInsurance"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "associateCoachSurgeCapacity",
+      "webinarAndEventHostingCosts"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "individualCoachingPackageFee",
+        "label": {
+          "en": "Individual coaching package fee",
+          "ro": "Onorariu pentru pachetul individual de coaching"
+        }
+      },
+      {
+        "key": "cohortBasedGroupCoachingProgramFee",
+        "label": {
+          "en": "Cohort-based group coaching program fee",
+          "ro": "Onorariu pentru programul de coaching de grup, bazat pe cohorte"
+        }
+      },
+      {
+        "key": "corporateLdRetainerContract",
+        "label": {
+          "en": "Corporate L&D retainer contract",
+          "ro": "Contract de abonament corporativ de învățare și dezvoltare"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averagePackageFee": "currency",
+      "sessionsPerPackage": "number",
+      "activeClientCount": "number",
+      "groupProgramFeePerSeat": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "packagesClosedPerQuarter": "number",
+      "corporateRenewalRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.coachingBusiness.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "packagePaymentInflows",
+      "corporateInvoiceCollections",
+      "certificationAndToolingOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 4,
+    "notesTranslationKey": "businessLibrary.coachingBusiness.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 82,
+    "notesTranslationKey": "businessLibrary.coachingBusiness.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 60,
+    "notesTranslationKey": "businessLibrary.coachingBusiness.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "firstAssociateCoachContractorFee"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "linkedInContentProduction",
+      "webinarHostingCosts"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "closeRate",
+      "customerRetention",
+      "grossMargin",
+      "leadConversion"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 4000,
+      "notesTranslationKey": "businessLibrary.coachingBusiness.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 9000,
+      "notesTranslationKey": "businessLibrary.coachingBusiness.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 17000,
+      "notesTranslationKey": "businessLibrary.coachingBusiness.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.coachingBusiness.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.coachingBusiness.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.coachingBusiness.financial.aiMetadata.generationHints"
+  }
+}

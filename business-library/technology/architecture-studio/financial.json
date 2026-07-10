@@ -1,0 +1,141 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "architecturalLicensingAndCredentialing",
+      "cadAndBimSoftwareSetup",
+      "professionalLiabilityInsuranceSetup",
+      "portfolioAndShowcaseSiteSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "cadAndBimSoftwareSubscriptions",
+      "professionalLiabilityInsurancePremiums"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "structuralEngineeringConsultantFees",
+      "printingAndSubmittalCosts",
+      "siteVisitTravelCosts"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "fixedFeeDesignProjectFee",
+        "label": {
+          "en": "Fixed-fee design project fee",
+          "ro": "Onorariu de proiect de design cu preț fix"
+        }
+      },
+      {
+        "key": "percentageOfConstructionCostFee",
+        "label": {
+          "en": "Percentage-of-construction-cost fee",
+          "ro": "Onorariu procentual din costul construcției"
+        }
+      },
+      {
+        "key": "permitAndCodeComplianceConsultingFee",
+        "label": {
+          "en": "Permit and code-compliance consulting fee",
+          "ro": "Onorariu de consultanță pentru autorizații și conformitate cu codul"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageProjectFee": "currency",
+      "avgProjectDurationMonths": "number",
+      "concurrentProjectCount": "number",
+      "percentageOfConstructionCostRate": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "projectsSignedPerYear": "number",
+      "referralConversionRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.architectureStudio.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "designPhaseMilestonePayments",
+      "constructionAdministrationFeeInstallments",
+      "insuranceAndLicensingOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 10,
+    "notesTranslationKey": "businessLibrary.architectureStudio.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 48,
+    "notesTranslationKey": "businessLibrary.architectureStudio.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 30,
+    "notesTranslationKey": "businessLibrary.architectureStudio.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "associateArchitectSalary"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "portfolioPhotographyProduction",
+      "homeShowAndEventSponsorship"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "closeRate",
+      "grossMargin",
+      "netMargin",
+      "customerRetention"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 8000,
+      "notesTranslationKey": "businessLibrary.architectureStudio.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 15000,
+      "notesTranslationKey": "businessLibrary.architectureStudio.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 28000,
+      "notesTranslationKey": "businessLibrary.architectureStudio.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.architectureStudio.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.architectureStudio.financial.risks.risk2",
+        "severity": "high"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.architectureStudio.financial.aiMetadata.generationHints"
+  }
+}
