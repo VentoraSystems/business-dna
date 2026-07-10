@@ -1,8 +1,8 @@
 {
   "domain": "categories",
-  "description": "Unlike industries/businessModels/skills, no closed vocabulary for 'category' exists anywhere in the codebase today (business-library's own category field, and business-engine's BusinessCategory, are both freeform). These 8 are illustrative placeholder categories only, each loosely tied to one industry — a starting scaffold for the content team to curate, not a finalized taxonomy.",
+  "description": "Unlike industries/businessModels/skills, no closed vocabulary for 'category' exists anywhere in the codebase today (business-library's own category field, and business-engine's BusinessCategory, are both freeform). This is a curated, still-growing scaffold for the content team to author against — not a finalized taxonomy. 28 entries as of the 2026-07-10 Technology Services rename/expansion (see docs/domain/06-business-catalog.md for the full authoring backlog these map to).",
   "entries": [
-    { "key": "ai-automation-agencies", "label": { "en": "AI Automation Agencies", "ro": "Agenții de automatizare AI" }, "industry": "tech" },
+    { "key": "technology-services", "label": { "en": "Technology Services", "ro": "Servicii tehnologice" }, "industry": "tech" },
     { "key": "subscription-boxes", "label": { "en": "Subscription Boxes", "ro": "Cutii de abonament" }, "industry": "food", "businessModel": "subscription" },
     { "key": "boutique-fitness-studios", "label": { "en": "Boutique Fitness Studios", "ro": "Studiouri de fitness boutique" }, "industry": "health" },
     { "key": "online-course-platforms", "label": { "en": "Online Course Platforms", "ro": "Platforme de cursuri online" }, "industry": "education" },
@@ -17,6 +17,18 @@
     { "key": "law-firms", "label": { "en": "Law Firms", "ro": "Firme de avocatură" }, "industry": "professionalServices" },
     { "key": "hr-consultancies", "label": { "en": "HR Consultancies", "ro": "Consultanțe de resurse umane" }, "industry": "professionalServices" },
     { "key": "recruitment-agencies", "label": { "en": "Recruitment Agencies", "ro": "Agenții de recrutare" }, "industry": "professionalServices" },
-    { "key": "business-consultancies", "label": { "en": "Business Consultancies", "ro": "Consultanțe de afaceri" }, "industry": "professionalServices" }
+    { "key": "business-consultancies", "label": { "en": "Business Consultancies", "ro": "Consultanțe de afaceri" }, "industry": "professionalServices" },
+    { "key": "marketing-agencies", "label": { "en": "Marketing Agencies", "ro": "Agenții de marketing" }, "industry": "tech" },
+    { "key": "ecommerce", "label": { "en": "E-commerce", "ro": "Comerț electronic" }, "description": "No fixed industry default — per-business IndustryType varies by what's actually sold (food, fashion, health, etc.), same pattern as subscription-boxes/local-service-marketplaces. Author time must set the real vertical per business." },
+    { "key": "coaching", "label": { "en": "Coaching", "ro": "Coaching" }, "industry": "professionalServices", "description": "Default is professionalServices (business/career/executive coaching archetype); education is a valid per-business override for skills/learning-focused coaching practices." },
+    { "key": "architecture", "label": { "en": "Architecture", "ro": "Arhitectură" }, "industry": "professionalServices" },
+    { "key": "real-estate", "label": { "en": "Real Estate", "ro": "Imobiliare" }, "industry": "homeServices" },
+    { "key": "cleaning-services", "label": { "en": "Cleaning Services", "ro": "Servicii de curățenie" }, "industry": "homeServices" },
+    { "key": "beauty-wellness", "label": { "en": "Beauty & Wellness", "ro": "Frumusețe și wellness" }, "industry": "health" },
+    { "key": "dental-clinics", "label": { "en": "Dental Clinics", "ro": "Clinici stomatologice" }, "industry": "health" },
+    { "key": "veterinary-clinics", "label": { "en": "Veterinary Clinics", "ro": "Clinici veterinare" }, "industry": "health" },
+    { "key": "psychology-practices", "label": { "en": "Psychology Practices", "ro": "Cabinete de psihologie" }, "industry": "health" },
+    { "key": "coffee-shops", "label": { "en": "Coffee Shops", "ro": "Cafenele" }, "industry": "food" },
+    { "key": "restaurants", "label": { "en": "Restaurants", "ro": "Restaurante" }, "industry": "food" }
   ]
 }

@@ -3,7 +3,7 @@
 - **Business Name:** AI Automation Agency
 - **Version:** 0.0.0
 - **Status:** template
-- **Category:** ai-automation-agencies (see `../../taxonomy/categories.json`)
+- **Category:** technology-services (see `../../taxonomy/categories.json` — renamed from `ai-automation-agencies` on 2026-07-10, same business, no folder move)
 - **Business Model:** agency (see `../../taxonomy/business-models.json`)
 - **Created At:** 2026-07-09
 - **Last Updated:** 2026-07-09

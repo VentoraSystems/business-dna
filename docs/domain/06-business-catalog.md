@@ -64,17 +64,24 @@ current after the `mediaProduction` addition):
 these three values.
 
 **Business Library taxonomy categories** — `business-library/taxonomy/
-categories.json`, 16 entries (confirmed against the file directly, not
-assumed from the mapping report): `ai-automation-agencies`,
-`subscription-boxes`, `boutique-fitness-studios`,
+categories.json`, **28 entries** as of the 2026-07-10 Taxonomy
+Synchronization (confirmed against the file directly): `technology-services`
+(renamed from `ai-automation-agencies` — same 9-business-type scope,
+now expanded), `subscription-boxes`, `boutique-fitness-studios`,
 `online-course-platforms`, `sustainable-fashion-brands`,
 `local-service-marketplaces`, `boutique-travel-agencies`,
 `niche-content-studios`, `accounting-firms`, `financial-consultancies`,
 `insurance-brokerages`, `tax-consultancies`, `law-firms`,
-`hr-consultancies`, `recruitment-agencies`, `business-consultancies`.
+`hr-consultancies`, `recruitment-agencies`, `business-consultancies`,
+`marketing-agencies`, `ecommerce`, `coaching`, `architecture`,
+`real-estate`, `cleaning-services`, `beauty-wellness`, `dental-clinics`,
+`veterinary-clinics`, `psychology-practices`, `coffee-shops`,
+`restaurants`.
 
-No enum value, category key, or category count was invented — every
-value used in the tables below is one of the values listed above.
+No enum value or category key was invented — every value used in the
+tables below is one of the values listed above, or one of the 12
+`IndustryType`/8 `BusinessModelType` values confirmed earlier in this
+section.
 
 **Note on `IndustryType` vs. Category:** per
 `05-industry-mapping-report.md` §5, a category's own `industry` tag in
@@ -134,9 +141,13 @@ re-estimated.
 
 ## Category breakdown (summary)
 
+*Updated 2026-07-10 for the Taxonomy Synchronization: `ai-automation-agencies`
+renamed to `technology-services` and expanded with 8 new unauthored
+entries; 12 new categories added, each with one flagship P1 entry.*
+
 | Category | Entries | Already Authored |
 |---|---:|---:|
-| `ai-automation-agencies` | 12 | 1 |
+| `technology-services` | 20 | 1 |
 | `subscription-boxes` | 10 | 0 |
 | `boutique-fitness-studios` | 9 | 0 |
 | `online-course-platforms` | 10 | 0 |
@@ -152,26 +163,53 @@ re-estimated.
 | `hr-consultancies` | 6 | 1 |
 | `recruitment-agencies` | 7 | 1 |
 | `business-consultancies` | 7 | 1 |
-| **Total** | **127** | **9** |
+| `marketing-agencies` | 1 | 0 |
+| `ecommerce` | 1 | 0 |
+| `coaching` | 1 | 0 |
+| `architecture` | 1 | 0 |
+| `real-estate` | 1 | 0 |
+| `cleaning-services` | 1 | 0 |
+| `beauty-wellness` | 1 | 0 |
+| `dental-clinics` | 1 | 0 |
+| `veterinary-clinics` | 1 | 0 |
+| `psychology-practices` | 1 | 0 |
+| `coffee-shops` | 1 | 0 |
+| `restaurants` | 1 | 0 |
+| **Total** | **147** | **9** |
 
 ---
 
-## `ai-automation-agencies`
+## `technology-services`
+
+*Renamed from `ai-automation-agencies` on 2026-07-10 (Taxonomy
+Synchronization) — same 9-business-type scope the category always
+implied (AI/tech service agencies), now with an explicit broader label
+and 8 additional unauthored candidates. The already-authored "AI
+Automation Agency" row below is the same business as before — only its
+category label changed, no duplicate was created.*
 
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| ai-automation-agencies | AI Automation Agency | ai-automation-agency | tech | agency | P1 | moderate | Low | No | low | No | ✅ |
-| ai-automation-agencies | AI Customer Support Chatbot Studio | ai-chatbot-support-studio | tech | agency | P2 | moderate | Low | Yes | moderate | No | |
-| ai-automation-agencies | RPA Workflow Automation Consultancy | rpa-workflow-consultancy | tech | service | P2 | moderate | Low | Yes | low | No | |
-| ai-automation-agencies | AI Sales Outreach Automation Agency | ai-sales-outreach-agency | tech | agency | P2 | moderate | Low | Yes | moderate | No | |
-| ai-automation-agencies | Vertical AI Agent Studio for Real Estate | ai-agent-studio-real-estate | tech | agency | P3 | moderate | Medium | Yes | moderate | No | |
-| ai-automation-agencies | AI Document Processing SaaS | ai-document-processing-saas | tech | saas | P2 | high | High | No | high | Yes | |
-| ai-automation-agencies | Voice AI IVR Automation Agency | voice-ai-ivr-agency | tech | agency | P3 | moderate | Medium | Yes | moderate | No | |
-| ai-automation-agencies | AI Data Enrichment Service | ai-data-enrichment-service | tech | service | P3 | moderate | Low | Yes | low | No | |
-| ai-automation-agencies | No-Code AI Workflow Builder SaaS | nocode-ai-workflow-saas | tech | saas | P2 | high | Very High | No | high | Yes | |
-| ai-automation-agencies | AI Marketing Ops Automation Agency | ai-marketing-ops-agency | tech | agency | P3 | moderate | Low | Yes | moderate | No | |
-| ai-automation-agencies | Custom LLM Integration Consultancy | llm-integration-consultancy | tech | service | P2 | high | Medium | Yes | moderate | Yes | |
-| ai-automation-agencies | AI Recruiting Screening Automation Agency | ai-recruiting-screening-agency | tech | agency | P3 | moderate | Medium | Yes | moderate | No | |
+| technology-services | AI Automation Agency | ai-automation-agency | tech | agency | P1 | moderate | Low | No | low | No | ✅ |
+| technology-services | AI Customer Support Chatbot Studio | ai-chatbot-support-studio | tech | agency | P2 | moderate | Low | Yes | moderate | No | |
+| technology-services | RPA Workflow Automation Consultancy | rpa-workflow-consultancy | tech | service | P2 | moderate | Low | Yes | low | No | |
+| technology-services | AI Sales Outreach Automation Agency | ai-sales-outreach-agency | tech | agency | P2 | moderate | Low | Yes | moderate | No | |
+| technology-services | Vertical AI Agent Studio for Real Estate | ai-agent-studio-real-estate | tech | agency | P3 | moderate | Medium | Yes | moderate | No | |
+| technology-services | AI Document Processing SaaS | ai-document-processing-saas | tech | saas | P2 | high | High | No | high | Yes | |
+| technology-services | Voice AI IVR Automation Agency | voice-ai-ivr-agency | tech | agency | P3 | moderate | Medium | Yes | moderate | No | |
+| technology-services | AI Data Enrichment Service | ai-data-enrichment-service | tech | service | P3 | moderate | Low | Yes | low | No | |
+| technology-services | No-Code AI Workflow Builder SaaS | nocode-ai-workflow-saas | tech | saas | P2 | high | Very High | No | high | Yes | |
+| technology-services | AI Marketing Ops Automation Agency | ai-marketing-ops-agency | tech | agency | P3 | moderate | Low | Yes | moderate | No | |
+| technology-services | Custom LLM Integration Consultancy | llm-integration-consultancy | tech | service | P2 | high | Medium | Yes | moderate | Yes | |
+| technology-services | AI Recruiting Screening Automation Agency | ai-recruiting-screening-agency | tech | agency | P3 | moderate | Medium | Yes | moderate | No | |
+| technology-services | Software House | software-house | tech | service | P1 | high | Medium | No | moderate | Yes | |
+| technology-services | Web Development Agency | web-development-agency | tech | agency | P1 | moderate | Low | Yes | moderate | No | |
+| technology-services | Mobile App Development Agency | mobile-app-development-agency | tech | agency | P1 | high | Medium | No | moderate | Yes | |
+| technology-services | AI Consulting | ai-consulting | tech | service | P1 | high | Medium | Yes | moderate | Yes | |
+| technology-services | Cybersecurity Consultancy | cybersecurity-consultancy | tech | service | P1 | high | High | No | moderate | Yes | |
+| technology-services | IT Managed Services | it-managed-services | tech | service | P1 | moderate | Medium | No | high | No | |
+| technology-services | DevOps Consultancy | devops-consultancy | tech | service | P1 | high | Medium | Yes | moderate | Yes | |
+| technology-services | Data Analytics Consultancy | data-analytics-consultancy | tech | service | P1 | high | Medium | Yes | high | Yes | |
 
 ## `subscription-boxes`
 
@@ -368,6 +406,104 @@ re-estimated.
 | business-consultancies | Process Automation Consultancy | process-automation-consultancy | professionalServices | service | P3 | moderate | Medium | Yes | moderate | No | |
 | business-consultancies | Change Management Consultancy | change-management-consultancy | professionalServices | service | P3 | high | Medium | Yes | moderate | Yes | |
 | business-consultancies | Family Business Succession Consultancy | family-business-succession-consultancy | professionalServices | service | P3 | high | Medium | No | low | Yes | |
+
+---
+
+## `marketing-agencies`
+
+*New category added 2026-07-10 (Taxonomy Synchronization). Flagship P1 entry only — batch expansion deferred.*
+
+| Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| marketing-agencies | Marketing Agency | marketing-agency | tech | agency | P1 | moderate | Low | Yes | moderate | No | |
+
+## `ecommerce`
+
+*New category added 2026-07-10. No fixed `industry` default at the category level (see `categories.json`) — `fashion` used below as a representative example for this flagship entry; per real authored business, `industry` must be set to the actual vertical sold (food, health, fashion, etc.), same pattern as `subscription-boxes`.*
+
+| Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| ecommerce | E-commerce Brand | ecommerce-brand | fashion | ecommerce | P1 | moderate | Medium | Yes | moderate | No | |
+
+## `coaching`
+
+*New category added 2026-07-10. Default `industry` is `professionalServices` (business/career/executive coaching archetype); `education` is a valid per-business override for skills/learning-focused coaching (see `categories.json`).*
+
+| Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| coaching | Coaching Business | coaching-business | professionalServices | service | P1 | moderate | Low | Yes | moderate | No | |
+
+## `architecture`
+
+*New category added 2026-07-10.*
+
+| Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| architecture | Architecture Studio | architecture-studio | professionalServices | service | P1 | high | High | Yes | low | Yes | |
+
+## `real-estate`
+
+*New category added 2026-07-10. `homeServices` is the closest existing `IndustryType` fit — a lossy mapping (per the same conflation pattern flagged for `local-service-marketplaces`), not an exact vertical match.*
+
+| Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| real-estate | Real Estate Agency | real-estate-agency | homeServices | agency | P1 | moderate | Medium | Yes | moderate | No | |
+
+## `cleaning-services`
+
+*New category added 2026-07-10. Distinct from `local-service-marketplaces`' "House Cleaning Services Marketplace" — this is a single operating company (`service`), not a marketplace aggregating independent providers.*
+
+| Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| cleaning-services | Cleaning Company | cleaning-company | homeServices | service | P1 | moderate | Low | Yes | low | No | |
+
+## `beauty-wellness`
+
+*New category added 2026-07-10.*
+
+| Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| beauty-wellness | Beauty Salon | beauty-salon | health | service | P1 | moderate | Medium | No | low | No | |
+
+## `dental-clinics`
+
+*New category added 2026-07-10. Regulated/licensed clinical practice — apply the same educational-framing discipline established for the Professional Services batch (law-firm, accounting-firm, etc.) at authoring time; nothing here implies unlicensed practice.*
+
+| Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| dental-clinics | Dental Clinic | dental-clinic | health | service | P1 | high | Very High | No | low | Yes | |
+
+## `veterinary-clinics`
+
+*New category added 2026-07-10. Regulated/licensed clinical practice — same educational-framing discipline as `dental-clinics` applies at authoring time.*
+
+| Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| veterinary-clinics | Veterinary Clinic | veterinary-clinic | health | service | P1 | high | Very High | No | low | Yes | |
+
+## `psychology-practices`
+
+*New category added 2026-07-10. Regulated/licensed clinical practice — same educational-framing discipline as `dental-clinics` applies at authoring time.*
+
+| Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| psychology-practices | Psychology Practice | psychology-practice | health | service | P1 | moderate | Low | Yes | low | No | |
+
+## `coffee-shops`
+
+*New category added 2026-07-10. Distinct from `subscription-boxes`' "Specialty Coffee Subscription Box" — this is a physical dine-in/retail venue (`physicalProduct`), not a recurring shipped box (`subscription`).*
+
+| Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| coffee-shops | Coffee Shop | coffee-shop | food | physicalProduct | P1 | moderate | Medium | No | low | No | |
+
+## `restaurants`
+
+*New category added 2026-07-10.*
+
+| Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| restaurants | Restaurant | restaurant | food | physicalProduct | P1 | high | High | No | low | Yes | |
 
 ---
 
