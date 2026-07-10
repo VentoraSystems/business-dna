@@ -4526,6 +4526,1387 @@
           "generationHints": "Keep all guidance at the level of running/growing the consultancy — never give specific strategic advice for an end client's actual business decision."
         }
       }
+    },
+    "softwareHouse": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"The Nature of Software Development\" by Ron Jeffries",
+          "course1": "Course: AWS Certified Solutions Architect – Associate",
+          "community1": "Community: r/ExperiencedDevs and the Software Development Consultants Slack",
+          "checklist1": "Checklist: Pre-launch staging QA checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast assumes 2-3 concurrent fixed-scope projects plus a growing maintenance-retainer base, not a single large contract."
+        },
+        "breakEven": {
+          "notes": "Structural estimate only — actual break-even depends on how quickly the discovery-sprint-to-signed-project pipeline fills."
+        },
+        "grossMargin": {
+          "notes": "Estimate assumes a lean 2-3 person delivery team; margin compresses if scope changes go unpriced."
+        },
+        "netMargin": {
+          "notes": "After contractor/engineer payroll, cloud hosting, and tooling licenses across all active projects."
+        },
+        "scenarios": {
+          "conservative": "1-2 fixed-scope projects running, no retainer clients yet.",
+          "expected": "3 concurrent projects plus 2 maintenance-retainer clients.",
+          "optimistic": "4+ concurrent projects, a full maintenance-retainer roster, and a productized starter-scope offer selling."
+        },
+        "risks": {
+          "risk1": "An unpriced scope change on a fixed-price project turns a profitable engagement into a break-even one.",
+          "risk2": "A senior engineer's departure mid-project delays delivery and risks the milestone payment."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue in discrete project-sized chunks, not a smooth monthly curve."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "The engineering team funded founders and mid-market operators hire when the project is too custom for a template and too specialized to build in-house yet.",
+          "category": "Custom software development studio"
+        },
+        "brandPromise": "A technical spec before a price, a demo every two weeks, and a project manager who actually answers.",
+        "uvp": {
+          "statement": "A paid discovery sprint turns every fixed price into a real technical spec, not a guess — and a dedicated project manager means you're never chasing an engineer for an update.",
+          "diff1": "Paid discovery sprint precedes every fixed-price quote",
+          "diff2": "Dedicated project manager, not a rotating cast of engineers"
+        },
+        "icp": {
+          "description": "Funded startup founders building their first real product, and operations or product leaders at mid-market companies (50-500 employees) commissioning an internal tool no off-the-shelf SaaS product covers.",
+          "firmographics": "Seed-to-Series-B startups, or mid-market companies with €5M-€100M revenue needing a custom internal system."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Funded non-technical founder",
+            "description": "Just closed a seed round and needs their first real product built without hiring a full engineering team yet."
+          },
+          "persona2": {
+            "name": "Mid-market operations lead",
+            "description": "Needs a custom internal tool (inventory, logistics, ops dashboard) that no off-the-shelf SaaS product handles, and the in-house team has no spare capacity."
+          }
+        },
+        "painPoints": {
+          "point1": "A previous freelancer or contractor disappeared mid-project, leaving undocumented, unfinished code.",
+          "point2": "In-house engineers are fully booked on the core product and can't take on an internal-tooling project."
+        },
+        "outcomes": {
+          "outcome1": "A working product or internal tool shipped on the agreed budget and timeline.",
+          "outcome2": "A documented, maintainable codebase the client's future in-house team can actually take over."
+        },
+        "messaging": {
+          "core": "Stop hoping the freelancer finishes. Get a team that scopes it honestly, ships every two weeks, and shows you the demo.",
+          "support1": "Senior engineers, a dedicated project manager, and a fixed price you can actually plan around."
+        },
+        "brandVoice": {
+          "tone": "Direct, technically precise, and unhyped.",
+          "attr1": "Credible",
+          "attr2": "Accountable"
+        },
+        "contentPillars": {
+          "pillar1": "Engineering case studies with named outcomes and real architecture decisions",
+          "pillar2": "How to scope and budget a custom software project without getting burned"
+        },
+        "channelStrategy": "Referrals from investors, product agencies, and past clients are primary; technical content and targeted outbound build secondary and experimental awareness.",
+        "community": {
+          "description": "A small, curated network of investors and product agencies who refer portfolio companies needing engineering help.",
+          "platform1": "Founder/CTO Slack communities"
+        },
+        "leadMagnets": {
+          "magnet1": "Free technical-scoping call before any paid discovery sprint"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Referral or content inquiry",
+            "description": "A warm introduction or an engineering case study prompts the first conversation."
+          },
+          "stage2": {
+            "name": "Paid discovery sprint",
+            "description": "A short, paid technical-scoping engagement produces the real spec."
+          },
+          "stage3": {
+            "name": "Fixed-scope proposal",
+            "description": "A fixed-price proposal built directly from the discovery sprint's spec."
+          }
+        },
+        "retention": {
+          "tactic1": "Proactively offer the maintenance retainer at project handoff, not after the first bug report."
+        },
+        "analytics": {
+          "metric1": "Discovery-sprint-to-signed-project close rate"
+        },
+        "aiMetadata": {
+          "generationHints": "Keep every message grounded in delivery accountability, not generic 'innovative solutions' language."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Form the company and draft the standard MSA/SOW contract templates.",
+            "1": "Select core delivery tooling (project management, version control, CI/CD)."
+          },
+          "deliverables": {
+            "0": "A reusable discovery-sprint proposal template."
+          },
+          "checklist": {
+            "0": "Confirm the change-order process is documented before taking on any client."
+          },
+          "commonMistakes": {
+            "0": "Starting client work without a signed change-order process for scope changes."
+          },
+          "successCriteria": {
+            "0": "Contract templates and delivery tooling are both ready to use."
+          },
+          "aiRecommendations": {
+            "0": "Use an AI coding assistant to scaffold the internal project-tracking setup, not client-facing work yet."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Sell and deliver the first paid discovery sprint to a real prospect."
+          },
+          "deliverables": {
+            "0": "A completed technical spec and fixed-price proposal for the first prospect."
+          },
+          "checklist": {
+            "0": "Price the discovery sprint low but never free."
+          },
+          "commonMistakes": {
+            "0": "Giving away technical scoping for free to win the first client."
+          },
+          "successCriteria": {
+            "0": "The first discovery sprint converts into a signed fixed-scope project."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted estimation tools to sanity-check the discovery sprint's time estimate before quoting."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Deliver the first fixed-scope project end to end using the two-week sprint cadence."
+          },
+          "deliverables": {
+            "0": "A shipped, staging-QA-tested first release."
+          },
+          "checklist": {
+            "0": "Confirm every sprint ends with a live client demo."
+          },
+          "commonMistakes": {
+            "0": "Skipping the staging-QA pass under deadline pressure."
+          },
+          "successCriteria": {
+            "0": "The first project ships on the agreed budget and timeline."
+          },
+          "aiRecommendations": {
+            "0": "Use AI pair-programming tools to accelerate boilerplate code and free engineer time for architecture decisions."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publish the first engineering case study and activate the investor/agency referral network."
+          },
+          "deliverables": {
+            "0": "A published, client-approved case study."
+          },
+          "checklist": {
+            "0": "Get explicit client sign-off before publishing any case study."
+          },
+          "commonMistakes": {
+            "0": "Publishing a case study without the client's explicit sign-off."
+          },
+          "successCriteria": {
+            "0": "At least one warm referral is generated from the first published case study."
+          },
+          "aiRecommendations": {
+            "0": "Use AI drafting tools to speed up the case-study write-up, then have an engineer fact-check every technical claim."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Deliver the first project fully on time and on the quoted budget."
+          },
+          "deliverables": {
+            "0": "A signed maintenance-retainer agreement at project handoff."
+          },
+          "checklist": {
+            "0": "Offer the maintenance retainer proactively at completion."
+          },
+          "commonMistakes": {
+            "0": "Absorbing unpriced scope changes to keep the first client happy."
+          },
+          "successCriteria": {
+            "0": "The first client renews the maintenance retainer past month three."
+          },
+          "aiRecommendations": {
+            "0": "Automate maintenance-request intake with a simple AI-triaged ticket form."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach 3 concurrent fixed-scope projects with a consistent on-time delivery rate."
+          },
+          "deliverables": {
+            "0": "A documented qualification checklist for new prospects."
+          },
+          "checklist": {
+            "0": "Qualify every new prospect against the team's proven technical stack before quoting."
+          },
+          "commonMistakes": {
+            "0": "Taking on projects outside the team's core technical strengths just to fill capacity."
+          },
+          "successCriteria": {
+            "0": "All 3 concurrent projects are delivered on time and within 10% of the quoted budget."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted code review across all concurrent projects to catch issues before they compound."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Hire the second senior engineer to remove the key-person delivery bottleneck."
+          },
+          "deliverables": {
+            "0": "A documented onboarding plan for new engineering hires."
+          },
+          "checklist": {
+            "0": "Pair every new engineer with the project manager for their first client demo."
+          },
+          "commonMistakes": {
+            "0": "Hiring for technical skill alone without screening for client-facing communication."
+          },
+          "successCriteria": {
+            "0": "The new hire independently leads at least one client demo."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-generated onboarding documentation drafts, reviewed and corrected by a senior engineer."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Specialize into one vertical niche to command premium fixed-scope pricing."
+          },
+          "deliverables": {
+            "0": "A dedicated landing page featuring vertical-specific case studies."
+          },
+          "checklist": {
+            "0": "Confirm at least 2 completed projects share the same vertical before committing to specialize."
+          },
+          "commonMistakes": {
+            "0": "Spreading marketing across too many industries instead of building one recognizable niche."
+          },
+          "successCriteria": {
+            "0": "The niche-specific landing page generates its first inbound inquiry."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze past project data and identify which vertical delivers the highest margin."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Launch a productized starter-scope offer to shorten the sales cycle for smaller clients."
+          },
+          "deliverables": {
+            "0": "A fixed-price, fixed-scope MVP package with a published price."
+          },
+          "checklist": {
+            "0": "Cap the productized offer's scope tightly in writing."
+          },
+          "commonMistakes": {
+            "0": "Underpricing the productized offer relative to its true delivery cost."
+          },
+          "successCriteria": {
+            "0": "The first productized-offer client is signed and delivered within its capped scope."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-generated project templates to standardize the productized offer's starting codebase."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Document the client book, retainer contracts, and engineering playbooks for a clean acquisition."
+          },
+          "deliverables": {
+            "0": "A complete, standardized documentation set across every active client project."
+          },
+          "checklist": {
+            "0": "Confirm no critical architecture knowledge exists only in the founder's head."
+          },
+          "commonMistakes": {
+            "0": "Keeping critical architecture knowledge undocumented and dependent on one founder."
+          },
+          "successCriteria": {
+            "0": "An acquiring studio can review the documentation and confidently take over active projects."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted documentation generation to close remaining documentation gaps before due diligence."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep each stage's guidance specific to a project-based delivery business, not a generic SaaS roadmap."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "\"The Nature of Software Development\" by Ron Jeffries",
+          "description": "A grounded framework for scoping and delivering software as a series of small, valuable steps rather than one large upfront estimate."
+        },
+        "item2": {
+          "title": "AWS Certified Solutions Architect – Associate",
+          "description": "A credibility signal for client-facing technical scoping conversations, especially with non-technical founders."
+        },
+        "item3": {
+          "title": "r/ExperiencedDevs",
+          "description": "A community of working engineers useful for technical hiring signals and staying current on delivery practices."
+        },
+        "item4": {
+          "title": "\"Software Engineering Daily\" podcast",
+          "description": "Interviews with engineering leaders on real-world architecture and delivery decisions."
+        },
+        "item5": {
+          "title": "\"Pragmatic Engineer\" newsletter",
+          "description": "Practical coverage of engineering management and delivery practices at growing companies."
+        },
+        "item6": {
+          "title": "Linear",
+          "description": "Project management and sprint tracking built for engineering teams."
+        },
+        "item7": {
+          "title": "GitHub",
+          "description": "Version control, code review, and CI/CD for every client project."
+        },
+        "item8": {
+          "title": "GitHub Copilot",
+          "description": "AI pair-programming assistant used across active projects to accelerate boilerplate and test writing."
+        },
+        "item9": {
+          "title": "Certified ScrumMaster (CSM)",
+          "description": "A credential for the project manager role, useful when clients ask about delivery-process rigor."
+        },
+        "item10": {
+          "title": "Local CTO/founder meetups and demo days",
+          "description": "Where warm introductions to funded founders and investors actually happen."
+        },
+        "item11": {
+          "title": "A fractional CTO advisor",
+          "description": "A part-time technical advisor who reviews architecture decisions on projects outside the founder's core expertise."
+        },
+        "item12": {
+          "title": "Pre-launch staging QA checklist",
+          "description": "The standard checklist run before every production release, covering regression tests, security review, and rollback plan."
+        },
+        "aiMetadata": {
+          "generationHints": "Favor resources that build technical and delivery credibility, not generic startup advice."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Mid-market companies often have a backlog of internal-tooling requests their in-house team has deprioritized for years — these are lower-glamour but highly winnable projects."
+          },
+          "item2": {
+            "title": "Past clients who move to a new company after a successful project are a warm, underused lead source."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A single unpriced scope change can turn a project's entire margin negative if it's not caught and priced within the first week."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Quoting a fixed price from a sales conversation instead of a real technical discovery sprint."
+          },
+          "item2": {
+            "title": "Letting one senior engineer become the only person who understands a project's architecture."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Offering the maintenance retainer at project handoff converts far better than trying to sell it separately weeks later."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Specializing into one vertical after 2-3 similar projects lets you quote faster and with more confidence than staying a generalist."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Your job stops being 'best engineer' and starts being 'the person who makes sure the estimate, the sprint, and the client all stay aligned.'"
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clients who skip the discovery sprint to save money are the ones most likely to request expensive, unpriced scope changes later."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Most software-shop failures come from underpriced fixed-scope quotes, not from technical incompetence."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Client-requested third-party API integrations often carry ongoing usage fees the client, not the studio, should be budgeting for — clarify this in the contract."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "A rising volume of inbound requests for 'AI integration' work signals demand shifting from ground-up builds toward wiring existing AI APIs into legacy systems."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A studio that specialized in logistics back-office tools after its third similar project doubled its average project fee within a year."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A studio that took on a healthcare-compliance project without HIPAA-adjacent experience lost the client mid-project when a compliance gap surfaced."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Should I bill hourly or fixed-scope?",
+            "answer": "Fixed-scope, always preceded by a paid discovery sprint — hourly billing puts the client's budget risk entirely on their shoulders and makes every conversation about time instead of outcomes."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "A software studio just needs great engineers to succeed.",
+            "fact": "Great engineers with poor scoping and communication discipline lose money on every fixed-price project — delivery process matters as much as coding skill."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Never let a client's first interaction with an engineer happen without the project manager present."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep every insight specific to project-based software delivery — not generic startup or SaaS advice."
+        }
+      }
+    },
+    "webDevelopmentAgency": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"Don't Make Me Think\" by Steve Krug",
+          "course1": "Course: Webflow University's Client Projects track",
+          "community1": "Community: r/webdev and the Webflow Experts Slack",
+          "checklist1": "Checklist: Pre-launch site QA checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast assumes a steady flow of small, short-cycle project sales, not a few large contracts, plus a slowly compounding care-plan retainer base."
+        },
+        "breakEven": {
+          "notes": "Structural estimate only — actual break-even depends on how quickly local SEO and referrals generate the first inquiries."
+        },
+        "grossMargin": {
+          "notes": "Estimate assumes most builds are solo-delivered; margin compresses when a project requires the subcontracted designer."
+        },
+        "netMargin": {
+          "notes": "After platform subscriptions, stock-asset renewals, and any subcontracted design fees."
+        },
+        "scenarios": {
+          "conservative": "1-2 sites delivered per month, minimal care-plan conversion.",
+          "expected": "3-4 sites delivered per month with roughly 60% converting to the care-plan retainer.",
+          "optimistic": "6+ sites delivered per month, a full care-plan roster, and a productized add-on catalog selling well."
+        },
+        "risks": {
+          "risk1": "Freelance marketplaces and AI website builders undercut pricing at the entry tier faster than expected.",
+          "risk2": "A platform pricing or policy change forces unplanned, unpaid rework across the client base."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as many small, frequent project sales, not a few large contracts."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "A professional website, live in three weeks, not three months — built on proven templates, not a blank canvas and a six-figure agency retainer.",
+          "category": "Templated web design agency"
+        },
+        "brandPromise": "A fixed price, one round of revisions, and a live website in three weeks — no surprises.",
+        "uvp": {
+          "statement": "A published, fixed-price tiered menu means you know the cost before the first call, and a three-week turnaround means you're not waiting on an agency's schedule.",
+          "diff1": "Published fixed-price tiered menu, no custom-quote back-and-forth",
+          "diff2": "Three-week turnaround backed by a strict one-round-of-revisions policy"
+        },
+        "icp": {
+          "description": "Small and local business owners and solo professionals who need a credible web presence fast, without a six-figure custom-agency budget.",
+          "firmographics": "1-20 employee local businesses, solo professionals, and early-stage startups needing a marketing or storefront site."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Local service-business owner",
+            "description": "Runs a local business with an outdated or nonexistent website and no time to manage a long custom-design process."
+          },
+          "persona2": {
+            "name": "Solo professional or early-stage founder",
+            "description": "Needs a clean, credible site fast to support a launch or a rebrand, on a tight budget."
+          }
+        },
+        "painPoints": {
+          "point1": "Not knowing what a website 'should' cost, and fearing a custom quote will balloon.",
+          "point2": "A previous agency or freelancer took months longer than promised."
+        },
+        "outcomes": {
+          "outcome1": "A live, professional website within three weeks of kickoff.",
+          "outcome2": "A predictable monthly cost for hosting, updates, and security through the care-plan retainer."
+        },
+        "messaging": {
+          "core": "See the price before you book the call. See the site live in three weeks.",
+          "support1": "One round of revisions, one fixed price, no surprises."
+        },
+        "brandVoice": {
+          "tone": "Friendly, fast-moving, and straightforward.",
+          "attr1": "Approachable",
+          "attr2": "Fast"
+        },
+        "contentPillars": {
+          "pillar1": "Before/after site redesigns showing turnaround speed",
+          "pillar2": "What a small-business website should actually cost"
+        },
+        "channelStrategy": "Local SEO and Google Business visibility are primary; before/after social content and freelance-marketplace listings build secondary and experimental awareness.",
+        "community": {
+          "description": "An informal referral network of local business owners and marketplace clients who've had a site delivered.",
+          "platform1": "Local business Facebook groups"
+        },
+        "leadMagnets": {
+          "magnet1": "Free 10-minute website teardown video"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Local search or social discovery",
+            "description": "A prospect finds the studio via Google Business or a before/after social post."
+          },
+          "stage2": {
+            "name": "Self-qualified tier selection",
+            "description": "The prospect picks a price tier from the published menu before booking a call."
+          },
+          "stage3": {
+            "name": "Discovery questionnaire",
+            "description": "A short intake form collects brand assets and content before the build starts."
+          }
+        },
+        "retention": {
+          "tactic1": "Bundle the first month of the care-plan retainer free into every project's launch handoff."
+        },
+        "analytics": {
+          "metric1": "Tiered-menu inquiry-to-signed-project close rate"
+        },
+        "aiMetadata": {
+          "generationHints": "Keep every message short, friendly, and price-transparent — this audience is put off by jargon or vague agency-speak."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Set up the core platform license, portfolio site, and the fixed-price tiered menu."
+          },
+          "deliverables": {
+            "0": "2-3 template starting points built per site tier."
+          },
+          "checklist": {
+            "0": "Publish the pricing menu publicly before taking on the first client."
+          },
+          "commonMistakes": {
+            "0": "Launching without a published price menu, forcing every inquiry into a custom-quote call."
+          },
+          "successCriteria": {
+            "0": "The pricing menu and at least one template per tier are ready to demo."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft the initial pricing-menu copy, then simplify it for a non-technical reader."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Sell and deliver the first 2-3 sites, even at a discounted rate."
+          },
+          "deliverables": {
+            "0": "2-3 delivered sites with client testimonials."
+          },
+          "checklist": {
+            "0": "Enforce the one-round-of-revisions policy from the very first client."
+          },
+          "commonMistakes": {
+            "0": "Allowing unlimited revision rounds on the first clients to keep them happy."
+          },
+          "successCriteria": {
+            "0": "All early clients are delivered within the three-week turnaround target."
+          },
+          "aiRecommendations": {
+            "0": "Use an AI copywriting draft to speed up the first sites' content population."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardize the discovery questionnaire and template-population workflow."
+          },
+          "deliverables": {
+            "0": "A documented, repeatable build workflow."
+          },
+          "checklist": {
+            "0": "Time each build stage to confirm the three-week turnaround promise is realistic."
+          },
+          "commonMistakes": {
+            "0": "Customizing the build process per client instead of standardizing it."
+          },
+          "successCriteria": {
+            "0": "Every new site follows the same standardized workflow."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-generated image alternatives for clients without a photography budget."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publish the pricing menu publicly and activate local SEO and social channels."
+          },
+          "deliverables": {
+            "0": "An updated Google Business profile and the first before/after case-study post."
+          },
+          "checklist": {
+            "0": "Confirm the template library can support the promised turnaround time before marketing goes live."
+          },
+          "commonMistakes": {
+            "0": "Launching marketing before the template library can support the promised turnaround time."
+          },
+          "successCriteria": {
+            "0": "The first inbound inquiry arrives from a marketing channel, not a referral."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft social captions for each before/after case study post."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Deliver the first site on time and convert the client into the care-plan retainer."
+          },
+          "deliverables": {
+            "0": "A signed care-plan retainer agreement at launch handoff."
+          },
+          "checklist": {
+            "0": "Bundle the first month of the care-plan retainer into the launch handoff for free."
+          },
+          "commonMistakes": {
+            "0": "Forgetting to offer the care-plan retainer at the moment of highest client satisfaction — launch day."
+          },
+          "successCriteria": {
+            "0": "The first client renews the care-plan retainer past month two."
+          },
+          "aiRecommendations": {
+            "0": "Automate the care-plan renewal reminder email sequence."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach 10 delivered sites with at least 60% converting to the care-plan retainer."
+          },
+          "deliverables": {
+            "0": "A documented tier-fit qualification checklist for new inquiries."
+          },
+          "checklist": {
+            "0": "Cap concurrent in-progress projects to protect the three-week turnaround promise."
+          },
+          "commonMistakes": {
+            "0": "Accepting every inquiry regardless of tier fit, overloading the delivery queue."
+          },
+          "successCriteria": {
+            "0": "Average delivery time across all 10 sites stays under three weeks."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to flag inquiries whose requirements exceed the published tier scope before booking a call."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Bring on a second builder or subcontracted designer to run projects in parallel."
+          },
+          "deliverables": {
+            "0": "A documented build workflow ready to hand off to a second builder."
+          },
+          "checklist": {
+            "0": "Document the full build workflow as a checklist before delegating any project."
+          },
+          "commonMistakes": {
+            "0": "Delegating client calls before the process is documented well enough to hand off."
+          },
+          "successCriteria": {
+            "0": "The second builder independently delivers a site within the turnaround target."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-generated onboarding documentation for the new builder, reviewed by the founder."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Productize the most common add-ons (copywriting, local SEO setup) as fixed-price upsells."
+          },
+          "deliverables": {
+            "0": "A published add-on price list."
+          },
+          "checklist": {
+            "0": "Add the top 3 requested add-ons to the public pricing menu."
+          },
+          "commonMistakes": {
+            "0": "Quoting add-ons custom per client instead of publishing a fixed add-on price list."
+          },
+          "successCriteria": {
+            "0": "At least one add-on sells to a majority of new clients."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to identify which add-on requests recur most often across past client intake forms."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Expand the tiered menu to cover a new site category, such as booking-based service businesses."
+          },
+          "deliverables": {
+            "0": "A tested template for the new site category."
+          },
+          "checklist": {
+            "0": "Build and test the new category's template on an internal project before selling it."
+          },
+          "commonMistakes": {
+            "0": "Expanding into a new site category without a proven template for it yet."
+          },
+          "successCriteria": {
+            "0": "The first client is signed and delivered in the new site category."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to generate starter copy for the new category's template before selling it."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Package the client book, template library, and care-plan contracts for a clean acquisition."
+          },
+          "deliverables": {
+            "0": "A documented, standardized template library free of one-off client customizations."
+          },
+          "checklist": {
+            "0": "Standardize any one-off client customizations back into the core template library before selling the business."
+          },
+          "commonMistakes": {
+            "0": "Keeping undocumented client customizations that don't transfer cleanly to a new owner."
+          },
+          "successCriteria": {
+            "0": "An acquiring studio can take over the client book and template library without founder involvement."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted documentation to catalog every client customization before a sale."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep each stage's guidance specific to a fast-turnaround, template-based delivery business, not a custom-engineering roadmap."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "\"Don't Make Me Think\" by Steve Krug",
+          "description": "A foundational, practical guide to web usability that keeps templated builds client-friendly instead of over-designed."
+        },
+        "item2": {
+          "title": "Webflow University's Client Projects track",
+          "description": "Structured training on running client website projects specifically on Webflow."
+        },
+        "item3": {
+          "title": "r/webdev",
+          "description": "A broad web-development community useful for platform troubleshooting and pricing benchmarks."
+        },
+        "item4": {
+          "title": "\"The Business of Web Design\" podcast",
+          "description": "Practical episodes on pricing, client management, and running a small web studio."
+        },
+        "item5": {
+          "title": "\"Web Designer Business Weekly\" newsletter",
+          "description": "Roundups of pricing trends and small-studio operations advice."
+        },
+        "item6": {
+          "title": "Webflow",
+          "description": "The studio's primary no-code website builder platform."
+        },
+        "item7": {
+          "title": "WordPress + Elementor",
+          "description": "Alternate platform used for clients who specifically request WordPress."
+        },
+        "item8": {
+          "title": "Midjourney",
+          "description": "AI image generation used as a stock-photo alternative for budget-constrained clients."
+        },
+        "item9": {
+          "title": "Webflow Certified Partner",
+          "description": "A credential that signals platform expertise directly to prospects comparing studios."
+        },
+        "item10": {
+          "title": "Local chamber of commerce mixers",
+          "description": "A source of local-business referrals and word-of-mouth."
+        },
+        "item11": {
+          "title": "A freelance copywriter",
+          "description": "An on-call subcontractor for clients who want custom copywriting beyond the AI-assisted first draft."
+        },
+        "item12": {
+          "title": "Pre-launch site QA checklist",
+          "description": "The standard checklist run before every site goes live, covering mobile responsiveness, broken links, and page-speed checks."
+        },
+        "aiMetadata": {
+          "generationHints": "Favor resources that build speed and pricing confidence, not deep technical engineering references."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Local businesses with an outdated site rarely shop around once they find a studio that can move fast — speed sells harder than design quality here."
+          },
+          "item2": {
+            "title": "A single well-reviewed local client generates more referral business than any paid ad campaign at this price point."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A platform's sudden pricing or template-license change can force unpaid rework across dozens of client sites at once."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Quoting outside the published tiered menu to win a hesitant prospect, which erodes the pricing model's credibility."
+          },
+          "item2": {
+            "title": "Allowing 'just one more small revision' past the agreed round, which compounds across every project."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Bundling the first month of the care-plan retainer free at launch converts far better than pitching it as a separate line item."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "A second builder should inherit a fully documented, checklist-driven workflow, not tribal knowledge in the founder's head."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Your biggest lever isn't better design — it's a faster, more predictable process than every competitor quoting the same small-business client."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clients who negotiate hardest on price before signing are statistically the ones most likely to request extra, unpaid revisions later."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Most small web studios fail from underpricing and scope creep, not from a lack of design talent."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Stock-asset and font-license renewals quietly accumulate across dozens of active sites if they aren't tracked centrally."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Rising client requests to 'add AI chat' to a site signal demand shifting toward simple AI-widget integrations, not full custom builds."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A studio that published its pricing menu publicly saw its sales-call volume drop but its close rate on those calls more than double."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A studio that allowed unlimited revisions on its first few clients to build goodwill ended up delivering every project at a loss."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Should I offer unlimited revisions to win more clients?",
+            "answer": "No — a capped, published revision policy protects both turnaround time and margin, and serious clients respect the clarity more than an open-ended promise."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Templated websites can't command a professional price.",
+            "fact": "Clients pay for speed, reliability, and a predictable process at least as much as for a from-scratch design — a well-run templated studio competes on delivery, not on claiming to be 'custom.'"
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Always collect brand assets and content in a single structured intake form before the build starts, not piecemeal over email."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep every insight specific to fast-turnaround, template-based web delivery — not generic freelance or agency advice."
+        }
+      }
+    },
+    "aiConsulting": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"Prediction Machines\" by Ajay Agrawal, Joshua Gans & Avi Goldfarb",
+          "course1": "Course: MIT Sloan's \"Artificial Intelligence: Implications for Business Strategy\"",
+          "community1": "Community: the CIO/CTO peer network on r/ExperiencedDevs and local operations-leadership meetups",
+          "checklist1": "Checklist: AI-readiness diagnostic sprint scoping checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast assumes discrete diagnostic-sprint sales rather than a smooth ramp, with the advisory retainer building a smaller recurring layer over time."
+        },
+        "breakEven": {
+          "notes": "Structural estimate only — actual break-even depends on how quickly the founder's executive network converts into the first paid sprints."
+        },
+        "grossMargin": {
+          "notes": "Estimate assumes a solo-delivered engagement with near-zero marginal delivery cost per sprint."
+        },
+        "netMargin": {
+          "notes": "After research subscriptions, engagement software, and occasional travel for on-site workshops."
+        },
+        "scenarios": {
+          "conservative": "1 diagnostic sprint sold per quarter, no retainer clients yet.",
+          "expected": "1 sprint per month plus 2 active advisory retainers.",
+          "optimistic": "2+ sprints per month, a full advisory-retainer roster, and early licensing interest in the framework."
+        },
+        "risks": {
+          "risk1": "A prospect expecting implementation, not strategy, churns the sales conversation and wastes cycle time.",
+          "risk2": "A diagnostic built on a stale understanding of the current AI-tooling landscape damages the firm's credibility."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as discrete, high-value sprint sales, not a subscription curve."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Know exactly where AI will and won't move the needle — before you spend a cent building it.",
+          "category": "Independent AI strategy advisory"
+        },
+        "brandPromise": "A vendor-neutral, defensible AI roadmap in under a month — not a 12-month engagement with a consultancy that also sells the solution.",
+        "uvp": {
+          "statement": "A structured, vendor-neutral opportunity-scoring framework turns a vague AI mandate into a ranked, defensible roadmap in weeks, not months.",
+          "diff1": "Explicitly vendor-neutral — no implementation upsell conflict of interest",
+          "diff2": "Fixed-fee diagnostic sprint gives budget certainty before any build spend"
+        },
+        "icp": {
+          "description": "COOs and CTOs at mid-market companies who feel pressure to show AI progress but lack a rigorous framework for prioritizing competing initiatives.",
+          "firmographics": "Mid-market companies with 200-2,000 employees across any industry, typically post-Series-C or established privately held businesses."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Pressured mid-market COO",
+            "description": "Fields competing AI pitches from department heads and vendors, with no independent way to rank them."
+          },
+          "persona2": {
+            "name": "Skeptical CTO",
+            "description": "Has seen AI vendor pitches inflate ROI claims and wants an independent, technically credible second opinion before committing budget."
+          }
+        },
+        "painPoints": {
+          "point1": "Several competing AI initiatives are pitched internally with no rigorous way to compare their cost, effort, and expected return.",
+          "point2": "Every AI vendor conversation is inherently biased toward that vendor's own product."
+        },
+        "outcomes": {
+          "outcome1": "A ranked, defensible roadmap the leadership team can present to the board with confidence.",
+          "outcome2": "Budget committed only to AI initiatives with a proven, prioritized business case."
+        },
+        "messaging": {
+          "core": "Before you build anything AI, know which initiative is actually worth building.",
+          "support1": "An independent, vendor-neutral diagnostic — not a sales pitch dressed up as strategy."
+        },
+        "brandVoice": {
+          "tone": "Sharp, independent, and unimpressed by hype.",
+          "attr1": "Credible",
+          "attr2": "Independent"
+        },
+        "contentPillars": {
+          "pillar1": "How to prioritize competing AI initiatives without vendor bias",
+          "pillar2": "Real-world case studies of AI investments that didn't pay off, and why"
+        },
+        "channelStrategy": "Referrals from the founder's executive network are primary; thought-leadership content and conference speaking build secondary and experimental awareness.",
+        "community": {
+          "description": "An informal peer network of COOs and CTOs who exchange referrals and validate the framework's credibility.",
+          "platform1": "Private executive Slack and LinkedIn groups"
+        },
+        "leadMagnets": {
+          "magnet1": "Free AI-opportunity self-assessment scorecard"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Executive referral or thought-leadership contact",
+            "description": "A peer introduction or a published article prompts the first conversation."
+          },
+          "stage2": {
+            "name": "Diagnostic-scoping call",
+            "description": "A single call with the COO or CTO confirms fit and scope."
+          },
+          "stage3": {
+            "name": "Fixed-fee sprint proposal",
+            "description": "A proposal outlining the diagnostic sprint's scope, timeline, and fixed fee."
+          }
+        },
+        "retention": {
+          "tactic1": "Frame the advisory retainer explicitly as implementation oversight, not a vague ongoing check-in."
+        },
+        "analytics": {
+          "metric1": "Diagnostic-scoping-call to signed-sprint close rate"
+        },
+        "aiMetadata": {
+          "generationHints": "Keep every message sharp and specific — this audience penalizes vague AI buzzwords more than almost any other."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Build the opportunity-scoring framework and the fixed-fee diagnostic-sprint proposal template."
+          },
+          "deliverables": {
+            "0": "A documented, versioned opportunity-scoring rubric."
+          },
+          "checklist": {
+            "0": "Pilot the framework internally or with a trusted advisor before selling it."
+          },
+          "commonMistakes": {
+            "0": "Launching without a documented, repeatable diagnostic framework, forcing every engagement to be improvised."
+          },
+          "successCriteria": {
+            "0": "The framework and proposal template are both ready to present."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted research to stress-test the framework's scoring criteria against current market data."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Sell and deliver the first diagnostic sprint through a personal network referral."
+          },
+          "deliverables": {
+            "0": "A completed diagnostic roadmap for the first client."
+          },
+          "checklist": {
+            "0": "Confirm the first client's scope is diagnosis only, not implementation."
+          },
+          "commonMistakes": {
+            "0": "Discounting the diagnostic sprint so heavily it undermines the firm's premium positioning."
+          },
+          "successCriteria": {
+            "0": "The first client provides a candid, usable reference."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted competitive research to enrich the first diagnostic's market context."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardize the stakeholder-interview and opportunity-scoring workshop format."
+          },
+          "deliverables": {
+            "0": "A reusable workshop facilitation guide."
+          },
+          "checklist": {
+            "0": "Document the workshop format so any future advisor could run it consistently."
+          },
+          "commonMistakes": {
+            "0": "Customizing the diagnostic methodology per client instead of standardizing it."
+          },
+          "successCriteria": {
+            "0": "The second engagement follows the same standardized workshop format as the first."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft the first version of each roadmap deliverable, then hand-edit for accuracy and tone."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publish the first thought-leadership article and activate the executive-network referral channel."
+          },
+          "deliverables": {
+            "0": "A published, vendor-neutral point-of-view article."
+          },
+          "checklist": {
+            "0": "Confirm the article takes a specific, defensible position rather than generic AI commentary."
+          },
+          "commonMistakes": {
+            "0": "Publishing generic AI-hype content instead of a sharp, vendor-neutral point of view."
+          },
+          "successCriteria": {
+            "0": "The article generates at least one qualified inbound inquiry."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft an initial outline, then rewrite the argument in the founder's own voice."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Deliver the first diagnostic sprint's roadmap on time and with clear, defensible prioritization."
+          },
+          "deliverables": {
+            "0": "A signed advisory-retainer agreement, if the client proceeds to implementation."
+          },
+          "checklist": {
+            "0": "Offer the advisory retainer proactively, framed explicitly as oversight, not implementation."
+          },
+          "commonMistakes": {
+            "0": "Letting scope quietly expand into implementation work to keep the first client happy."
+          },
+          "successCriteria": {
+            "0": "The client acts on at least one recommendation from the roadmap within 90 days."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted monitoring to flag any market changes that affect the delivered roadmap's assumptions."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach 5 delivered diagnostic sprints with consistently strong client feedback."
+          },
+          "deliverables": {
+            "0": "A documented prospect-qualification checklist."
+          },
+          "checklist": {
+            "0": "Qualify every new prospect's company size and mandate clarity before booking the scoping call."
+          },
+          "commonMistakes": {
+            "0": "Taking on prospects outside mid-market who need enterprise-scale complexity the framework wasn't built for."
+          },
+          "successCriteria": {
+            "0": "All 5 engagements are delivered within the promised diagnostic-sprint timeline."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to compare each new prospect's profile against past successful engagements before accepting the scoping call."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Convert the first advisory retainer client past a 6-month renewal."
+          },
+          "deliverables": {
+            "0": "A documented monthly advisory-retainer deliverable template."
+          },
+          "checklist": {
+            "0": "Define a concrete monthly deliverable for every advisory retainer, not just \"availability.\""
+          },
+          "commonMistakes": {
+            "0": "Letting the advisory retainer drift into unpaid, informal check-ins instead of a structured monthly deliverable."
+          },
+          "successCriteria": {
+            "0": "The retainer client renews without a renegotiation of scope or price."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft the monthly retainer deliverable's first pass before the advisor's final review."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Bring on a second senior advisor to run parallel diagnostic sprints."
+          },
+          "deliverables": {
+            "0": "A documented onboarding plan for the new advisor."
+          },
+          "checklist": {
+            "0": "Pair the new advisor with the founder on their first two engagements before running one solo."
+          },
+          "commonMistakes": {
+            "0": "Hiring an advisor without the founder's cross-industry credibility, weakening the firm's trust signal."
+          },
+          "successCriteria": {
+            "0": "The new advisor independently delivers a diagnostic sprint with client satisfaction matching the founder's own engagements."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-generated onboarding documentation to transfer the framework consistently to the new advisor."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Package the opportunity-scoring framework into a licensable methodology for other boutique advisories."
+          },
+          "deliverables": {
+            "0": "A documented, licensable version of the framework."
+          },
+          "checklist": {
+            "0": "Require at least 10 completed engagements before offering the methodology as a licensable product."
+          },
+          "commonMistakes": {
+            "0": "Licensing the methodology before it's been proven consistent across enough independent engagements."
+          },
+          "successCriteria": {
+            "0": "The first external advisory licenses the framework."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to identify patterns across past engagements that validate the framework's consistency before licensing it."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Document the opportunity-scoring framework and client relationships for a clean acquisition."
+          },
+          "deliverables": {
+            "0": "A standalone, documented framework and case-study portfolio."
+          },
+          "checklist": {
+            "0": "Formalize the framework and playbooks into a documented asset independent of the founder."
+          },
+          "commonMistakes": {
+            "0": "Keeping the diagnostic methodology as tacit, founder-only knowledge instead of a documented asset."
+          },
+          "successCriteria": {
+            "0": "An acquiring firm can review the documented framework and case studies without the founder present."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted documentation to formalize the framework's edge cases and exceptions before due diligence."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep each stage's guidance specific to a solo-principal advisory business, not a generic consulting-firm roadmap."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "\"Prediction Machines\" by Ajay Agrawal, Joshua Gans & Avi Goldfarb",
+          "description": "A foundational economic framework for evaluating where AI genuinely changes a business's cost structure versus where it's hype."
+        },
+        "item2": {
+          "title": "MIT Sloan's \"Artificial Intelligence: Implications for Business Strategy\"",
+          "description": "An executive-level course that builds the credibility signal needed for C-suite advisory conversations."
+        },
+        "item3": {
+          "title": "CIO/CTO peer network meetups",
+          "description": "In-person and online communities useful for referrals and staying current on real (not hyped) enterprise AI adoption."
+        },
+        "item4": {
+          "title": "\"Exponential View\" podcast",
+          "description": "Independent, non-vendor-affiliated commentary on AI's real business implications."
+        },
+        "item5": {
+          "title": "\"The Batch\" newsletter (DeepLearning.AI)",
+          "description": "A concise weekly digest of real AI developments, useful for keeping the diagnostic framework current."
+        },
+        "item6": {
+          "title": "Notion",
+          "description": "Engagement documentation and the opportunity-scoring workspace."
+        },
+        "item7": {
+          "title": "Miro",
+          "description": "Workshop facilitation and stakeholder-interview synthesis."
+        },
+        "item8": {
+          "title": "Perplexity",
+          "description": "AI-assisted research tool for tracking competitor and AI-vendor announcements between engagements."
+        },
+        "item9": {
+          "title": "Certified Management Consultant (CMC)",
+          "description": "A credential that signals independent advisory rigor to skeptical executive buyers."
+        },
+        "item10": {
+          "title": "Industry operations-leadership conferences",
+          "description": "Speaking opportunities that build category authority and generate warm inbound interest."
+        },
+        "item11": {
+          "title": "A fractional legal advisor",
+          "description": "Reviews advisory-engagement contracts and scope-of-work boundaries to prevent implementation-creep disputes."
+        },
+        "item12": {
+          "title": "AI-readiness diagnostic sprint scoping checklist",
+          "description": "The standard checklist used to confirm a prospect's fit and scope before booking a paid diagnostic sprint."
+        },
+        "aiMetadata": {
+          "generationHints": "Favor resources that build independent credibility and rigor, not generic AI-hype content."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Mid-market companies rarely have anyone internally whose full-time job is prioritizing AI initiatives objectively — that vacuum is the business's real opening."
+          },
+          "item2": {
+            "title": "A well-delivered diagnostic sprint often surfaces a second, unrelated engagement opportunity (e.g. a broader digital-strategy review) the client didn't originally request."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A single client who publicly complains the engagement was \"just slides, no action\" can do outsized damage to a trust-based, referral-driven business."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Accepting a scoping call from a prospect who explicitly wants a build, hoping to convert them to a diagnostic instead."
+          },
+          "item2": {
+            "title": "Presenting the opportunity-scoring framework as a black box instead of walking the client through its logic."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "A short, free AI-opportunity self-assessment scorecard converts cold LinkedIn contacts into scoping calls far better than a generic pitch deck."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "License the framework only after enough engagements prove it produces consistent, defensible results independent of who's facilitating it."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Your credibility is the entire business — protect it by walking away from engagements where the client has already decided what they want to hear."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clients who arrive with a specific vendor already chosen are the ones most likely to push back hardest on a vendor-neutral recommendation."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Most failed enterprise AI initiatives were never properly scoped against a cost/effort/ROI framework in the first place — the failure predates the technology."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Maintaining genuine cross-industry AI credibility requires real, ongoing research time that's easy to underbudget once client delivery work fills the calendar."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "A rising share of inbound inquiries asking specifically for \"AI governance\" rather than \"AI opportunities\" signals the market maturing past pure opportunity-scoring."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "An advisory that turned down three build-focused prospects in its first quarter to stay strictly diagnostic built a reputation that quadrupled its referral rate within a year."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "An advisor who let one client's engagement quietly expand into free implementation guidance burned 40 unpaid hours and still lost the client to a cheaper vendor."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Should I ever get pulled into implementation work?",
+            "answer": "Only through an explicitly separate, clearly scoped advisory retainer focused on oversight — never as an informal extension of the diagnostic engagement, which erodes both margin and positioning."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "An AI strategy advisory needs to be able to build what it recommends to be credible.",
+            "fact": "The opposite is usually true — explicit vendor-neutrality (not being able to profit from the build) is precisely what makes the recommendation trustworthy to a skeptical executive."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Always deliver the roadmap as a working document the client can act on independently, not a locked presentation that requires the advisor to interpret it."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep every insight specific to independent, vendor-neutral strategy advisory — not generic management-consulting or AI-vendor advice."
+        }
+      }
     }
   }
 }

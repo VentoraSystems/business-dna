@@ -1,0 +1,152 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "platformLicensesSetup",
+      "portfolioSiteAndTemplates",
+      "stockAssetSubscriptions",
+      "legalAndInvoicingSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "platformSubscriptions",
+      "stockAssetRenewals",
+      "invoicingSoftware"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "subcontractedDesignerFees",
+      "paidListingFees",
+      "revisionOverageWork"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "landingPageProjectFee",
+        "label": {
+          "en": "Landing page project fee",
+          "ro": "Onorariu de proiect pentru pagină de destinație"
+        }
+      },
+      {
+        "key": "brochureSiteProjectFee",
+        "label": {
+          "en": "Multi-page brochure site project fee",
+          "ro": "Onorariu de proiect pentru site de prezentare cu mai multe pagini"
+        }
+      },
+      {
+        "key": "ecommerceStorefrontProjectFee",
+        "label": {
+          "en": "E-commerce storefront project fee",
+          "ro": "Onorariu de proiect pentru magazin online"
+        }
+      },
+      {
+        "key": "monthlyCarePlanRetainer",
+        "label": {
+          "en": "Monthly care-plan retainer",
+          "ro": "Abonament lunar de mentenanță"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "landingPageFee": "currency",
+      "brochureSiteFee": "currency",
+      "ecommerceStorefrontFee": "currency",
+      "carePlanMonthlyFee": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "sitesDeliveredPerMonth": "number",
+      "carePlanConversionRate": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.webDevelopmentAgency.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "projectFeeCollections",
+      "carePlanRetainerCollections",
+      "subcontractorPayouts"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 4,
+    "notesTranslationKey": "businessLibrary.webDevelopmentAgency.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 60,
+    "notesTranslationKey": "businessLibrary.webDevelopmentAgency.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 40,
+    "notesTranslationKey": "businessLibrary.webDevelopmentAgency.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "subcontractedDesignerFees",
+      "secondBuilderContractorFees"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "localSeoTools",
+      "socialContentProduction",
+      "freelanceMarketplaceFees"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "twoMonthOperatingReserve",
+      "platformMigrationReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "closeRate",
+      "customerRetention",
+      "mrr",
+      "grossMargin"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 3500,
+      "notesTranslationKey": "businessLibrary.webDevelopmentAgency.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 7500,
+      "notesTranslationKey": "businessLibrary.webDevelopmentAgency.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 13000,
+      "notesTranslationKey": "businessLibrary.webDevelopmentAgency.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.webDevelopmentAgency.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.webDevelopmentAgency.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.webDevelopmentAgency.financial.aiMetadata.generationHints"
+  }
+}

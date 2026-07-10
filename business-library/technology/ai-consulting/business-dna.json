@@ -1,0 +1,932 @@
+{
+  "identity": {
+    "id": "dbb3e40f-47b9-4a47-bd0a-193d6c995d4f",
+    "slug": "ai-consulting",
+    "version": "1.0.0",
+    "name": {
+      "en": "Grayridge AI Advisory",
+      "ro": "Grayridge AI Advisory"
+    },
+    "tagline": {
+      "en": "Know exactly where AI will and won't move the needle — before you spend a cent building it.",
+      "ro": "Află exact unde AI va conta cu adevărat și unde nu — înainte să cheltuiești vreun ban ca să-l construiești."
+    },
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theVisionary",
+      "theSpecialist"
+    ],
+    "summary": {
+      "en": "Best suited to someone with genuine cross-industry AI depth and the executive presence to tell a COO their favorite AI initiative isn't worth building — credibility and independence matter more here than sales charisma.",
+      "ro": "Potrivit unei persoane cu o profunzime reală, transversală pe industrii, în domeniul AI, și cu prezența executivă necesară pentru a-i spune unui COO că inițiativa sa preferată legată de AI nu merită construită — credibilitatea și independența contează aici mai mult decât carisma de vânzări."
+    },
+    "minimumExperienceYears": 6
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 8000,
+      "maxInvestment": 25000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 1500,
+      "ongoingMonthlyCostMax": 4000,
+      "notes": {
+        "en": "Covers positioning/website, sales collateral, engagement-management software, and research subscriptions to track the fast-moving AI tooling landscape — deliberately light, since this business doesn't hire engineers or build anything.",
+        "ro": "Acoperă poziționarea/site-ul, materialele de vânzare, software-ul de gestionare a angajamentelor și abonamentele de cercetare pentru a urmări peisajul AI în schimbare rapidă — deliberat redus, deoarece această afacere nu angajează ingineri și nu construiește nimic."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "positioningAndSalesCollateral",
+          "label": {
+            "en": "Positioning, website, and sales collateral",
+            "ro": "Poziționare, site și materiale de vânzare"
+          },
+          "typicalMin": 2000,
+          "typicalMax": 6000
+        },
+        {
+          "key": "engagementManagementSoftware",
+          "label": {
+            "en": "Engagement management and diagnostic-workshop software",
+            "ro": "Software de gestionare a angajamentelor și pentru ateliere de diagnostic"
+          },
+          "typicalMin": 500,
+          "typicalMax": 1500
+        },
+        {
+          "key": "legalAndContractTemplates",
+          "label": {
+            "en": "Legal setup and advisory-engagement contract templates",
+            "ro": "Configurare juridică și modele de contract pentru angajamente de consultanță"
+          },
+          "typicalMin": 800,
+          "typicalMax": 2500
+        },
+        {
+          "key": "researchSubscriptions",
+          "label": {
+            "en": "Industry research and AI-vendor tracking subscriptions",
+            "ro": "Abonamente de cercetare de industrie și urmărire a furnizorilor de AI"
+          },
+          "typicalMin": 1000,
+          "typicalMax": 3000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "researchAndToolTrackingSubscriptions",
+          "label": {
+            "en": "Ongoing research and AI-tool tracking subscriptions",
+            "ro": "Abonamente continue de cercetare și urmărire a uneltelor AI"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 900
+        },
+        {
+          "key": "engagementSoftware",
+          "label": {
+            "en": "Engagement management and workshop-facilitation software",
+            "ro": "Software de gestionare a angajamentelor și facilitare a atelierelor"
+          },
+          "typicalMonthlyMin": 100,
+          "typicalMonthlyMax": 300
+        },
+        {
+          "key": "travelForOnSiteWorkshops",
+          "label": {
+            "en": "Occasional travel for on-site diagnostic workshops",
+            "ro": "Deplasări ocazionale pentru ateliere de diagnostic la sediul clientului"
+          },
+          "typicalMonthlyMin": 200,
+          "typicalMonthlyMax": 1200
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "diagnosticSprintFee",
+          "label": {
+            "en": "Fixed-fee AI-readiness diagnostic sprint",
+            "ro": "Onorariu fix pentru sprintul de diagnostic al pregătirii pentru AI"
+          }
+        },
+        {
+          "key": "advisoryRetainer",
+          "label": {
+            "en": "Monthly implementation-oversight advisory retainer",
+            "ro": "Abonament lunar de consultanță pentru supravegherea implementării"
+          }
+        },
+        {
+          "key": "workshopFacilitationFee",
+          "label": {
+            "en": "Ad-hoc opportunity-prioritization workshop facilitation",
+            "ro": "Facilitare ad-hoc a atelierelor de prioritizare a oportunităților"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 12000,
+      "targetMonthlyIncomeMax": 35000,
+      "breakEvenTimelineMonths": 6,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Revenue arrives as discrete diagnostic-sprint sales rather than a smooth ramp, with the advisory retainer building a smaller, slower recurring layer on top.",
+        "ro": "Venitul sosește sub formă de vânzări discrete de sprinturi de diagnostic, nu printr-o creștere lină, cu abonamentul de consultanță construind deasupra un strat recurent mai mic și mai lent."
+      }
+    },
+    "profitMargin": {
+      "level": "high"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "occasional",
+    "onlineOffline": "online",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 30,
+    "maxWeeklyHours": 45,
+    "freedomLevel": 4
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 5
+      },
+      {
+        "key": "marketing",
+        "rating": 4
+      },
+      {
+        "key": "leadership",
+        "rating": 7
+      },
+      {
+        "key": "communication",
+        "rating": 8
+      },
+      {
+        "key": "negotiation",
+        "rating": 6
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 4
+      },
+      {
+        "key": "technology",
+        "rating": 7
+      },
+      {
+        "key": "automation",
+        "rating": 5
+      },
+      {
+        "key": "ai",
+        "rating": 9
+      },
+      {
+        "key": "programming",
+        "rating": 3
+      },
+      {
+        "key": "management",
+        "rating": 7
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 30
+      },
+      {
+        "key": "visionary",
+        "score": 85
+      },
+      {
+        "key": "operator",
+        "score": 45
+      },
+      {
+        "key": "creator",
+        "score": 50
+      },
+      {
+        "key": "seller",
+        "score": 55
+      },
+      {
+        "key": "leader",
+        "score": 70
+      },
+      {
+        "key": "analyst",
+        "score": 80
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": true,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate"
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high"
+    },
+    "aiResistance": {
+      "level": "high"
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Being dismissed as \"just PowerPoint consulting\" by leadership teams who expect a strategy engagement to end in a working product.",
+          "ro": "Riscul de a fi respinsă drept \"doar consultanță de PowerPoint\" de echipele de conducere care se așteaptă ca un angajament de strategie să se încheie cu un produs funcțional."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Set explicit scope boundaries at the start of every engagement — this firm delivers a prioritized roadmap and vendor-neutral evaluation, not code — and partner with (rather than compete against) implementation firms like `ai-automation-agency` or `software-house` for the build phase.",
+          "ro": "Stabilește limite explicite de scop la începutul fiecărui angajament — firma livrează o foaie de parcurs prioritizată și o evaluare neutră față de furnizori, nu cod — și colaborează cu firme de implementare (precum `ai-automation-agency` sau `software-house`), în loc să concurezi cu ele, pentru faza de construcție."
+        }
+      },
+      {
+        "description": {
+          "en": "Scope confusion with prospects who actually want a build, not a strategy, wastes sales-cycle time on a poor-fit lead.",
+          "ro": "Confuzia de scop cu prospecții care de fapt își doresc o construcție, nu o strategie, irosește timpul ciclului de vânzare pe un lead nepotrivit."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Screen every inbound inquiry against a short qualification checklist before booking the first call.",
+          "ro": "Filtrează fiecare solicitare primită printr-o scurtă listă de calificare, înainte de a programa primul apel."
+        }
+      },
+      {
+        "description": {
+          "en": "The AI tooling and model landscape shifts monthly, and a diagnostic built on stale assumptions damages credibility fast.",
+          "ro": "Peisajul uneltelor și modelelor AI se schimbă lunar, iar un diagnostic construit pe presupuneri învechite afectează rapid credibilitatea."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Budget dedicated weekly research time and maintain a living, versioned opportunity-scoring framework rather than a static one.",
+          "ro": "Alocă timp săptămânal dedicat cercetării și menține un cadru de evaluare a oportunităților viu, versionat, nu unul static."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Know exactly where AI will and won't move the needle — before you spend a cent building it.",
+        "ro": "Află exact unde AI va conta cu adevărat și unde nu — înainte să cheltuiești vreun ban ca să-l construiești."
+      },
+      "channels": [
+        {
+          "channelType": "executiveNetworkReferrals",
+          "description": {
+            "en": "Referrals from a personal network of COOs, CTOs, and board advisors built over a prior operating career.",
+            "ro": "Recomandări dintr-o rețea personală de COO, CTO și consilieri de board, construită pe parcursul unei cariere operaționale anterioare."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "thoughtLeadershipContent",
+          "description": {
+            "en": "Bylined articles and LinkedIn commentary on AI opportunity prioritization, deliberately vendor-neutral in tone.",
+            "ro": "Articole semnate și comentarii pe LinkedIn despre prioritizarea oportunităților AI, cu un ton deliberat neutru față de furnizori."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "conferenceSpeaking",
+          "description": {
+            "en": "Speaking slots at operations and technology-leadership conferences to build category authority.",
+            "ro": "Sesiuni de prezentare la conferințe de operațiuni și leadership tehnologic, pentru a construi autoritate de categorie."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate"
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "Executive-level consultative selling — a single diagnostic-scoping conversation directly with the COO or CTO, not a multi-stakeholder procurement process.",
+        "ro": "Vânzare consultativă la nivel executiv — o singură discuție de stabilire a scopului diagnosticului, direct cu COO-ul sau CTO-ul, nu un proces de achiziție cu mai mulți factori de decizie."
+      },
+      "salesCycleLengthDays": 35,
+      "pricingModel": {
+        "en": "Fixed-fee diagnostic sprint, followed by an optional monthly advisory retainer during implementation.",
+        "ro": "Sprint de diagnostic cu onorariu fix, urmat de un abonament lunar opțional de consultanță pe durata implementării."
+      }
+    },
+    "salesComplexity": {
+      "level": "high"
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "AI-readiness audit interviews across department heads.",
+          "ro": "Interviuri de audit al pregătirii pentru AI, cu șefii de departamente."
+        },
+        {
+          "en": "Opportunity-scoring workshop with the leadership team.",
+          "ro": "Atelier de evaluare a oportunităților, cu echipa de conducere."
+        },
+        {
+          "en": "Delivery of a prioritized, written roadmap document.",
+          "ro": "Livrarea unui document de foaie de parcurs, prioritizat și scris."
+        },
+        {
+          "en": "Optional ongoing implementation-oversight advisory.",
+          "ro": "Consultanță opțională, continuă, de supraveghere a implementării."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Structured stakeholder interviews, opportunity-scoring workspace updates, and roadmap-deck drafting between client workshops.",
+        "ro": "Interviuri structurate cu părțile interesate, actualizări ale spațiului de evaluare a oportunităților și redactarea foii de parcurs, între atelierele cu clientul."
+      },
+      "fulfillmentModel": {
+        "en": "A solo principal advisor runs each diagnostic sprint directly with the client's leadership team and produces a written roadmap deliverable — no engineering or implementation work is performed by the firm itself.",
+        "ro": "Un consultant principal, singur, derulează fiecare sprint de diagnostic direct cu echipa de conducere a clientului și produce o foaie de parcurs scrisă — firma nu efectuează nicio muncă de inginerie sau implementare."
+      }
+    },
+    "automation": {
+      "level": "low"
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "aiOpportunityScoringFramework",
+          "description": {
+            "en": "A structured internal rubric evaluates each candidate AI use case for cost, effort, and expected ROI, keeping the roadmap defensible rather than a gut-feel list.",
+            "ro": "O grilă internă structurată evaluează fiecare caz de utilizare AI candidat, în funcție de cost, efort și ROI estimat, menținând foaia de parcurs justificabilă, nu o listă bazată pe intuiție."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "competitiveIntelligenceMonitoring",
+          "description": {
+            "en": "AI-assisted monitoring of competitor and AI-vendor announcements keeps every diagnostic current with a fast-moving market.",
+            "ro": "Monitorizarea asistată de AI a anunțurilor concurenților și furnizorilor de AI menține fiecare diagnostic actualizat într-o piață în schimbare rapidă."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "high"
+    },
+    "recommendedTools": [
+      {
+        "name": "Notion",
+        "category": "engagementDocumentation",
+        "isRequired": true,
+        "websiteUrl": "https://www.notion.so/"
+      },
+      {
+        "name": "A vendor-neutral AI opportunity-scoring matrix template",
+        "category": "diagnosticFramework",
+        "isRequired": true
+      },
+      {
+        "name": "Miro",
+        "category": "workshopFacilitation",
+        "isRequired": false,
+        "websiteUrl": "https://miro.com/"
+      },
+      {
+        "name": "LinkedIn Sales Navigator",
+        "category": "networkOutreach",
+        "isRequired": false,
+        "websiteUrl": "https://business.linkedin.com/sales-solutions/sales-navigator"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30
+    },
+    "scaling": {
+      "path": {
+        "en": "Bring on a second senior advisor to run parallel diagnostic sprints, then package the opportunity-scoring framework into a licensable methodology other boutique advisories can use under a training arrangement.",
+        "ro": "Adaugă un al doilea consultant senior pentru a rula sprinturi de diagnostic în paralel, apoi productizează cadrul de evaluare a oportunităților într-o metodologie licențiabilă, pe care alte firme de consultanță boutique o pot folosi printr-un acord de instruire."
+      },
+      "bottlenecks": [
+        {
+          "en": "The founder's personal credibility and network are the primary sales engine and don't transfer easily to a new hire.",
+          "ro": "Credibilitatea personală și rețeaua fondatorului sunt principalul motor de vânzări și nu se transferă ușor unui angajat nou."
+        },
+        {
+          "en": "Staying credible requires continuous, time-consuming tracking of a fast-moving AI tooling landscape.",
+          "ro": "Menținerea credibilității necesită urmărirea continuă și consumatoare de timp a unui peisaj de unelte AI în schimbare rapidă."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 6,
+          "description": {
+            "en": "First 5 diagnostic sprints delivered.",
+            "ro": "Primele 5 sprinturi de diagnostic livrate."
+          }
+        },
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "First advisory retainer renewed past 6 months.",
+            "ro": "Primul abonament de consultanță reînnoit după 6 luni."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Explicit vendor-neutral positioning builds trust that a tool-selling competitor or implementation agency can't credibly match.",
+          "ro": "Poziționarea explicit neutră față de furnizori construiește o încredere pe care un competitor care vinde unelte sau o agenție de implementare nu o pot egala credibil."
+        }
+      },
+      {
+        "description": {
+          "en": "A fixed-fee diagnostic sprint gives leadership teams budget certainty before committing to any implementation spend.",
+          "ro": "Un sprint de diagnostic cu onorariu fix oferă echipelor de conducere certitudine bugetară înainte de a se angaja în orice cheltuială de implementare."
+        }
+      },
+      {
+        "description": {
+          "en": "A structured opportunity-scoring framework turns a vague \"we should do something with AI\" mandate into a ranked, defensible roadmap.",
+          "ro": "Un cadru structurat de evaluare a oportunităților transformă un mandat vag de tipul \"ar trebui să facem ceva cu AI\" într-o foaie de parcurs clasificată și justificabilă."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "An independent AI strategy advisory selling fixed-fee diagnostic sprints and opportunity-prioritization roadmaps to mid-market leadership teams — explicitly not an implementation or engineering service.",
+        "ro": "O firmă independentă de consultanță în strategie AI, care vinde sprinturi de diagnostic cu onorariu fix și foi de parcurs de prioritizare a oportunităților, către echipe de conducere din companii mid-market — explicit, nu un serviciu de implementare sau inginerie."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.aiConsulting.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.aiConsulting.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.aiConsulting.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.aiConsulting.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert at least 1 in 3 qualified diagnostic-scoping calls into a signed sprint.",
+          "ro": "Transformă cel puțin 1 din 3 apeluri calificate de stabilire a scopului diagnosticului într-un sprint semnat."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Maintain gross margin above 75% given the near-zero delivery cost of an advisory engagement.",
+          "ro": "Menține marja brută peste 75%, dat fiind costul de livrare aproape nul al unui angajament de consultanță."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Convert at least 40% of completed diagnostic sprints into an ongoing advisory retainer.",
+          "ro": "Transformă cel puțin 40% din sprinturile de diagnostic finalizate într-un abonament continuu de consultanță."
+        }
+      },
+      {
+        "key": "mrr",
+        "targetDescription": {
+          "en": "Grow advisory-retainer MRR steadily as the delivered-diagnostic base grows.",
+          "ro": "Crește constant MRR-ul din abonamentele de consultanță, pe măsură ce crește baza de diagnostice livrate."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "ai",
+          "importance": 5
+        },
+        {
+          "key": "management",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "communication",
+          "importance": 4
+        },
+        {
+          "key": "negotiation",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "analytical",
+          "importance": 5
+        },
+        {
+          "trait": "strategic",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "decisive",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 8000,
+        "max": 25000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 10000,
+        "max": 20000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 30,
+        "maxWeeklyHours": 45
+      },
+      "communicationStyle": [
+        "consultative",
+        "direct"
+      ],
+      "technicalLevel": 4,
+      "leadershipLevel": 4,
+      "creativityLevel": 3,
+      "salesAffinity": 3,
+      "automationAffinity": 4,
+      "remotePreference": "remote",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theVisionary",
+        "theSpecialist"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize vendor-neutrality and the fixed-fee diagnostic structure in the Executive Summary — that's what separates this from both an implementation shop and a slow, expensive big-name consultancy.",
+      "ro": "Evidențiază neutralitatea față de furnizori și structura de diagnostic cu onorariu fix în Rezumatul executiv — acesta este elementul care o diferențiază atât de o firmă de implementare, cât și de o consultanță mare, lentă și scumpă."
+    },
+    "marketingHints": {
+      "en": "Lead with thought-leadership credibility and peer referrals, not paid acquisition — this is a trust sale, not a demand-generation sale.",
+      "ro": "Pornește de la credibilitatea de lider de opinie și recomandările din rețea, nu de la achiziția plătită — aceasta este o vânzare bazată pe încredere, nu una de generare a cererii."
+    },
+    "financialHints": {
+      "en": "Model revenue as discrete diagnostic-sprint sales, with the advisory retainer as a smaller, slower-building recurring layer on top.",
+      "ro": "Modelează venitul ca vânzări discrete de sprinturi de diagnostic, cu abonamentul de consultanță ca strat recurent, mai mic și cu creștere mai lentă, deasupra."
+    },
+    "generationHints": {
+      "en": "Keep tone sharp, vendor-neutral, and confident — this audience (COOs, CTOs) is skeptical of hype and allergic to vague AI buzzwords.",
+      "ro": "Păstrează un ton tăios, neutru față de furnizori și încrezător — acest public (COO, CTO) este sceptic față de hype și alergic la termeni AI vagi și la modă."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Build the opportunity-scoring framework and the fixed-fee diagnostic-sprint proposal template.",
+            "ro": "Construiește cadrul de evaluare a oportunităților și modelul de propunere pentru sprintul de diagnostic cu onorariu fix."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching without a documented, repeatable diagnostic framework, forcing every engagement to be improvised.",
+            "ro": "Lansarea fără un cadru de diagnostic documentat și repetabil, forțând improvizarea fiecărui angajament."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pilot the diagnostic framework internally or with a trusted advisor before selling it to a paying client.",
+            "ro": "Testează intern cadrul de diagnostic sau împreună cu un consilier de încredere, înainte de a-l vinde unui client plătitor."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.aiConsulting.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Sell and deliver the first diagnostic sprint through a personal network referral.",
+            "ro": "Vinde și livrează primul sprint de diagnostic printr-o recomandare din rețeaua personală."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Discounting the diagnostic sprint so heavily it undermines the firm's premium, vendor-neutral positioning.",
+            "ro": "Reducerea prea mare a prețului sprintului de diagnostic, subminând poziționarea premium și neutră față de furnizori a firmei."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Ask the first client for a candid reference before closing the second client.",
+            "ro": "Cere primului client o referință sinceră, înainte de a încheia contractul cu al doilea client."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Standardize the stakeholder-interview and opportunity-scoring workshop format.",
+            "ro": "Standardizează formatul interviurilor cu părțile interesate și al atelierului de evaluare a oportunităților."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Customizing the diagnostic methodology per client instead of standardizing it.",
+            "ro": "Personalizarea metodologiei de diagnostic per client, în loc de standardizare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document the workshop format as a reusable facilitation guide.",
+            "ro": "Documentează formatul atelierului ca ghid de facilitare reutilizabil."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.aiConsulting.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish the first thought-leadership article and activate the executive-network referral channel.",
+            "ro": "Publică primul articol de lider de opinie și activează canalul de recomandări din rețeaua executivă."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Publishing generic AI-hype content instead of a sharp, vendor-neutral point of view.",
+            "ro": "Publicarea unui conținut generic despre hype-ul AI, în loc de un punct de vedere tăios și neutru față de furnizori."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Ask every early client for one warm introduction to a peer executive.",
+            "ro": "Cere fiecărui client incipient o prezentare caldă către un coleg executiv."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Deliver the first diagnostic sprint's roadmap on time and with clear, defensible prioritization.",
+            "ro": "Livrează foaia de parcurs a primului sprint de diagnostic la timp, cu o prioritizare clară și justificabilă."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Letting scope quietly expand into implementation work to keep the first client happy.",
+            "ro": "Permiterea extinderii silențioase a scopului către muncă de implementare, pentru a menține mulțumit primul client."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Offer the advisory retainer proactively at roadmap delivery, framed explicitly as oversight, not implementation.",
+            "ro": "Oferă proactiv abonamentul de consultanță la livrarea foii de parcurs, încadrat explicit ca supraveghere, nu ca implementare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach 5 delivered diagnostic sprints with consistently strong client feedback.",
+            "ro": "Atinge 5 sprinturi de diagnostic livrate, cu feedback constant pozitiv din partea clienților."
+          }
+        ],
+        "kpis": [
+          "closeRate",
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Taking on prospects outside mid-market who need enterprise-scale engagement complexity the framework wasn't built for.",
+            "ro": "Acceptarea de prospecți în afara segmentului mid-market, care au nevoie de o complexitate de angajament la scară enterprise, pentru care cadrul nu a fost construit."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Qualify every new prospect's company size and mandate clarity before booking the diagnostic-scoping call.",
+            "ro": "Califică dimensiunea companiei și claritatea mandatului fiecărui prospect nou, înainte de a programa apelul de stabilire a scopului diagnosticului."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Convert the first advisory retainer client past a 6-month renewal.",
+            "ro": "Transformă primul client cu abonament de consultanță într-o reînnoire de peste 6 luni."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Letting the advisory retainer drift into unpaid, informal check-ins instead of a structured monthly deliverable.",
+            "ro": "Permiterea ca abonamentul de consultanță să alunece spre verificări informale, neplătite, în loc de un livrabil lunar structurat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Define a concrete monthly deliverable for every advisory retainer, not just \"availability.\"",
+            "ro": "Definește un livrabil lunar concret pentru fiecare abonament de consultanță, nu doar \"disponibilitate\"."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Bring on a second senior advisor to run parallel diagnostic sprints.",
+            "ro": "Adaugă un al doilea consultant senior pentru a rula sprinturi de diagnostic în paralel."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring an advisor without the founder's cross-industry credibility, weakening the firm's vendor-neutral trust signal.",
+            "ro": "Angajarea unui consultant fără credibilitatea transversală pe industrii a fondatorului, slăbind semnalul de încredere neutru față de furnizori al firmei."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pair the new advisor with the founder on their first two engagements before running one solo.",
+            "ro": "Cuplează noul consultant cu fondatorul pentru primele două angajamente, înainte de a-l lăsa să conducă unul singur."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Package the opportunity-scoring framework into a licensable methodology for other boutique advisories.",
+            "ro": "Productizează cadrul de evaluare a oportunităților într-o metodologie licențiabilă pentru alte firme de consultanță boutique."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Licensing the methodology before it's been proven consistent across enough independent engagements.",
+            "ro": "Licențierea metodologiei înainte ca aceasta să fi fost dovedită constantă în suficiente angajamente independente."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Require at least 10 completed engagements before offering the methodology as a licensable product.",
+            "ro": "Cere cel puțin 10 angajamente finalizate, înainte de a oferi metodologia ca produs licențiabil."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the opportunity-scoring framework and client relationships for a clean acquisition by a larger advisory firm.",
+            "ro": "Documentează cadrul de evaluare a oportunităților și relațiile cu clienții pentru o achiziție curată de către o firmă de consultanță mai mare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping the diagnostic methodology as tacit, founder-only knowledge instead of a documented asset.",
+            "ro": "Menținerea metodologiei de diagnostic ca o cunoștință tacită, exclusiv a fondatorului, în loc de un activ documentat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Formalize the framework, client case studies, and advisory playbooks into a standalone documented asset before pursuing an acquisition conversation.",
+            "ro": "Formalizează cadrul, studiile de caz ale clienților și ghidurile de consultanță într-un activ documentat de sine stătător, înainte de a purta o discuție de achiziție."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

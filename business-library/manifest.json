@@ -2,9 +2,9 @@
   "libraryVersion": "1.0.0",
   "schemaVersion": "1.0.0",
   "_schemaVersionSource": "src/features/business-dna/schemas/business-dna-profile.schema.ts → BUSINESS_DNA_PROFILE_SCHEMA_VERSION — keep this value in sync; validate-packages.ts checks it.",
-  "lastUpdated": "2026-07-09",
-  "businessCount": 8,
-  "_businessCountNote": "Counts only packages with metadata.status === \"published\". ai-automation-agency is status \"template\" — a placeholder structure, not a registered business — so it contributes 0. The 4 Professional Services packages (accounting-firm, financial-consultancy, insurance-brokerage, tax-consultancy) plus the 4 Taxonomy Expansion packages (law-firm, hr-consultancy, recruitment-agency, business-consultancy) are all status \"published\", contributing 8 total. See business-library/technology/PROFESSIONAL-SERVICES-INDUSTRY-REPORT.md for the original fit analysis — the latter 4 were deferred there and authored in this sprint after \"professionalServices\" was added to IndustryType.",
+  "lastUpdated": "2026-07-10",
+  "businessCount": 11,
+  "_businessCountNote": "Counts only packages with metadata.status === \"published\". ai-automation-agency is status \"template\" — a placeholder structure, not a registered business — so it contributes 0. The 4 Professional Services packages (accounting-firm, financial-consultancy, insurance-brokerage, tax-consultancy) plus the 4 Taxonomy Expansion packages (law-firm, hr-consultancy, recruitment-agency, business-consultancy) are all status \"published\", contributing 8. software-house, web-development-agency, and ai-consulting (Knowledge Authoring Batch 1, Technology Services expansion) are also \"published\", contributing a 9th, 10th, and 11th — see docs/domain/06-business-catalog.md.",
   "supportedLanguages": ["en", "ro"],
   "industries": "./taxonomy/industries.json",
   "categories": "./taxonomy/categories.json",
@@ -60,6 +60,24 @@
     {
       "slug": "business-consultancy",
       "path": "./technology/business-consultancy",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "software-house",
+      "path": "./technology/software-house",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "web-development-agency",
+      "path": "./technology/web-development-agency",
+      "status": "published",
+      "canonical": false
+    },
+    {
+      "slug": "ai-consulting",
+      "path": "./technology/ai-consulting",
       "status": "published",
       "canonical": false
     }

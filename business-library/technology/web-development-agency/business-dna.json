@@ -1,0 +1,940 @@
+{
+  "identity": {
+    "id": "fafc4c35-e615-4a48-8017-07a0a55d7dc4",
+    "slug": "web-development-agency",
+    "version": "1.0.0",
+    "name": {
+      "en": "Lightwell Web Studio",
+      "ro": "Lightwell Web Studio"
+    },
+    "tagline": {
+      "en": "A professional website, live in three weeks, not three months.",
+      "ro": "Un site profesional, publicat în trei săptămâni, nu în trei luni."
+    },
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theBuilder",
+      "theHustler"
+    ],
+    "summary": {
+      "en": "Best suited to a fast-moving generalist who's comfortable running client calls, populating a template, and closing the next sale in the same afternoon — not someone who wants to obsess over one bespoke build for months.",
+      "ro": "Potrivit unui generalist rapid, confortabil să susțină apeluri cu clienți, să populeze un șablon și să încheie următoarea vânzare în aceeași după-amiază — nu cuiva care vrea să se concentreze luni de zile pe o singură construcție personalizată."
+    },
+    "minimumExperienceYears": 1
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 3000,
+      "maxInvestment": 9000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 400,
+      "ongoingMonthlyCostMax": 1200,
+      "notes": {
+        "en": "Covers Webflow/WordPress/Shopify licenses, a portfolio site, stock-asset subscriptions, and a small buffer to subcontract a designer on overflow projects.",
+        "ro": "Acoperă licențele Webflow/WordPress/Shopify, un site de portofoliu, abonamentele pentru materiale grafice de stoc și o mică rezervă pentru a subcontracta un designer la proiectele în exces."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "platformLicensesSetup",
+          "label": {
+            "en": "Webflow/WordPress/Shopify platform licenses and initial setup",
+            "ro": "Licențe pentru platformele Webflow/WordPress/Shopify și configurare inițială"
+          },
+          "typicalMin": 400,
+          "typicalMax": 1200
+        },
+        {
+          "key": "portfolioSiteAndTemplates",
+          "label": {
+            "en": "Portfolio site and starter template library",
+            "ro": "Site de portofoliu și bibliotecă de șabloane de bază"
+          },
+          "typicalMin": 800,
+          "typicalMax": 2000
+        },
+        {
+          "key": "stockAssetSubscriptions",
+          "label": {
+            "en": "Stock photo/icon subscriptions",
+            "ro": "Abonamente pentru fotografii/iconițe de stoc"
+          },
+          "typicalMin": 200,
+          "typicalMax": 600
+        },
+        {
+          "key": "legalAndInvoicingSetup",
+          "label": {
+            "en": "Business registration and invoicing/contract software",
+            "ro": "Înregistrarea firmei și software de facturare/contracte"
+          },
+          "typicalMin": 500,
+          "typicalMax": 1500
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "platformSubscriptions",
+          "label": {
+            "en": "Website platform and hosting subscriptions across all client sites",
+            "ro": "Abonamente de platformă și găzduire pentru toate site-urile clienților"
+          },
+          "typicalMonthlyMin": 150,
+          "typicalMonthlyMax": 500
+        },
+        {
+          "key": "subcontractedDesignerFees",
+          "label": {
+            "en": "Subcontracted designer fees on overflow projects",
+            "ro": "Onorarii pentru designerul subcontractat la proiectele în exces"
+          },
+          "typicalMonthlyMin": 0,
+          "typicalMonthlyMax": 800
+        },
+        {
+          "key": "stockAssetRenewals",
+          "label": {
+            "en": "Stock asset and font-license renewals",
+            "ro": "Reînnoiri pentru materiale de stoc și licențe de fonturi"
+          },
+          "typicalMonthlyMin": 50,
+          "typicalMonthlyMax": 150
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "landingPageProjectFee",
+          "label": {
+            "en": "Landing page project fee",
+            "ro": "Onorariu de proiect pentru pagină de destinație"
+          }
+        },
+        {
+          "key": "brochureSiteProjectFee",
+          "label": {
+            "en": "Multi-page brochure site project fee",
+            "ro": "Onorariu de proiect pentru site de prezentare cu mai multe pagini"
+          }
+        },
+        {
+          "key": "ecommerceStorefrontProjectFee",
+          "label": {
+            "en": "E-commerce storefront project fee",
+            "ro": "Onorariu de proiect pentru magazin online"
+          }
+        },
+        {
+          "key": "monthlyCarePlanRetainer",
+          "label": {
+            "en": "Monthly care-plan retainer (hosting, updates, security patches)",
+            "ro": "Abonament lunar de mentenanță (găzduire, actualizări, patch-uri de securitate)"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 4000,
+      "targetMonthlyIncomeMax": 12000,
+      "breakEvenTimelineMonths": 4,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "fast",
+      "notes": {
+        "en": "Short 2-4 week project cycles and a self-qualifying tiered price menu mean cash comes in frequently, in small chunks, rather than in a few large contracts.",
+        "ro": "Ciclurile scurte de proiect (2-4 săptămâni) și un meniu de prețuri pe niveluri, auto-calificat, înseamnă că banii intră frecvent, în sume mici, nu prin câteva contracte mari."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "none",
+    "onlineOffline": "online",
+    "salesChannel": "both",
+    "minWeeklyHours": 25,
+    "maxWeeklyHours": 45,
+    "freedomLevel": 4
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 6
+      },
+      {
+        "key": "marketing",
+        "rating": 6
+      },
+      {
+        "key": "leadership",
+        "rating": 3
+      },
+      {
+        "key": "communication",
+        "rating": 6
+      },
+      {
+        "key": "negotiation",
+        "rating": 4
+      },
+      {
+        "key": "finance",
+        "rating": 3
+      },
+      {
+        "key": "operations",
+        "rating": 5
+      },
+      {
+        "key": "technology",
+        "rating": 7
+      },
+      {
+        "key": "automation",
+        "rating": 4
+      },
+      {
+        "key": "ai",
+        "rating": 4
+      },
+      {
+        "key": "programming",
+        "rating": 6
+      },
+      {
+        "key": "management",
+        "rating": 4
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 65
+      },
+      {
+        "key": "visionary",
+        "score": 40
+      },
+      {
+        "key": "operator",
+        "score": 55
+      },
+      {
+        "key": "creator",
+        "score": 60
+      },
+      {
+        "key": "seller",
+        "score": 60
+      },
+      {
+        "key": "leader",
+        "score": 35
+      },
+      {
+        "key": "analyst",
+        "score": 40
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": true,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": true,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate"
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate"
+    },
+    "aiResistance": {
+      "level": "low"
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Race-to-the-bottom pricing pressure from freelance marketplaces and AI website builders competing on the same low-tier projects.",
+          "ro": "Presiune de scădere continuă a prețurilor din partea platformelor de freelanceri și a constructorilor de site-uri bazați pe AI, care concurează pe aceleași proiecte de nivel scăzut."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Compete on turnaround speed, revision discipline, and the care-plan relationship, not on being the cheapest option.",
+          "ro": "Concurează pe viteza de livrare, disciplina de revizuire și relația din planul de mentenanță, nu pe a fi cea mai ieftină opțiune."
+        }
+      },
+      {
+        "description": {
+          "en": "Platform dependency — a Webflow or WordPress pricing or policy change can force unplanned rework across the entire client base.",
+          "ro": "Dependența de platformă — o schimbare de preț sau politică la Webflow sau WordPress poate forța o reluare neplanificată a muncii pe întreaga bază de clienți."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Standardize builds on one primary platform per site category so a platform change only needs to be absorbed once, not per client.",
+          "ro": "Standardizează construcțiile pe o singură platformă principală per categorie de site, astfel încât o schimbare de platformă să fie absorbită o singură dată, nu per client."
+        }
+      },
+      {
+        "description": {
+          "en": "Low stickiness on the entry-tier care-plan retainer leads to higher churn than the project-fee revenue alone would suggest.",
+          "ro": "Aderență scăzută la nivelul de bază al abonamentului de mentenanță duce la o rată de abandon mai mare decât ar sugera doar veniturile din onorariile de proiect."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Bundle a small monthly content update or performance report into every care-plan tier so clients see recurring value, not just a hosting bill.",
+          "ro": "Include o mică actualizare lunară de conținut sau un raport de performanță în fiecare nivel al abonamentului de mentenanță, astfel încât clienții să vadă o valoare recurentă, nu doar o factură de găzduire."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "A professional website, live in three weeks, not three months — built on proven templates, not a blank canvas and a six-figure agency retainer.",
+        "ro": "Un site profesional, publicat în trei săptămâni, nu în trei luni — construit pe șabloane dovedite, nu pe o pânză albă și un abonament de agenție cu preț de șase cifre."
+      },
+      "channels": [
+        {
+          "channelType": "localSeoAndGoogleBusiness",
+          "description": {
+            "en": "Local SEO and a strong Google Business profile targeting small businesses searching for a web designer near them.",
+            "ro": "SEO local și un profil Google Business puternic, care țintește afacerile mici ce caută un web designer în apropiere."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "portfolioSocialMarketing",
+          "description": {
+            "en": "Before/after site-redesign posts on Instagram and LinkedIn showcasing turnaround speed.",
+            "ro": "Postări de tip înainte/după pentru redesign-uri de site pe Instagram și LinkedIn, care evidențiază viteza de livrare."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "freelanceMarketplaceListings",
+          "description": {
+            "en": "Listings on freelance marketplaces as a top-of-funnel lead source, upsold into the full tiered offer.",
+            "ro": "Anunțuri pe platforme de freelanceri, ca sursă de lead-uri la începutul pâlniei, cu vânzare suplimentară către oferta completă pe niveluri."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "low"
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "Low-friction, price-anchored sales — a published, fixed-price tiered menu on the studio's own website lets most prospects self-qualify before the first call.",
+        "ro": "Vânzare cu friction redus, ancorată în preț — un meniu de prețuri pe niveluri, publicat pe site-ul propriu al studioului, permite majorității prospecților să se auto-califice înainte de primul apel."
+      },
+      "salesCycleLengthDays": 12,
+      "pricingModel": {
+        "en": "Flat per-tier project fee (landing page / brochure site / e-commerce storefront) plus a monthly care-plan retainer.",
+        "ro": "Onorariu de proiect fix pe niveluri (pagină de destinație / site de prezentare / magazin online), plus un abonament lunar de mentenanță."
+      }
+    },
+    "salesComplexity": {
+      "level": "low"
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Discovery questionnaire and brand-asset collection at kickoff.",
+          "ro": "Chestionar de descoperire și colectarea materialelor de brand la începutul proiectului."
+        },
+        {
+          "en": "Template selection and content population against the client's brand assets.",
+          "ro": "Selectarea șablonului și popularea conținutului pe baza materialelor de brand ale clientului."
+        },
+        {
+          "en": "One structured round of client revisions before launch.",
+          "ro": "O rundă structurată de revizuiri ale clientului, înainte de lansare."
+        },
+        {
+          "en": "Launch and hand-off into the monthly care-plan retainer.",
+          "ro": "Lansarea și predarea către abonamentul lunar de mentenanță."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Client calls are batched into set weekly blocks; the rest of the day is spent building against the current project queue and answering same-day care-plan support tickets.",
+        "ro": "Apelurile cu clienții sunt grupate în intervale fixe săptămânale; restul zilei este dedicat construcției pe baza cozii curente de proiecte și răspunsului, în aceeași zi, la tichetele de suport din planul de mentenanță."
+      },
+      "fulfillmentModel": {
+        "en": "A solo founder plus a subcontracted designer build each site on a proven template platform, with a fixed one-round-of-revisions policy to keep turnaround predictable.",
+        "ro": "Un fondator solo, împreună cu un designer subcontractat, construiesc fiecare site pe o platformă de șabloane dovedită, cu o politică fixă de o singură rundă de revizuiri, pentru a menține un termen de livrare previzibil."
+      }
+    },
+    "automation": {
+      "level": "moderate"
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "aiCopywritingAssist",
+          "description": {
+            "en": "AI drafts first-pass website copy from the client's discovery questionnaire, which the founder then edits for accuracy and voice.",
+            "ro": "AI generează o primă versiune a textelor site-ului pe baza chestionarului de descoperire al clientului, pe care fondatorul o editează ulterior pentru acuratețe și ton."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "aiImageGeneration",
+          "description": {
+            "en": "AI-generated stock-alternative imagery for clients without their own photography budget.",
+            "ro": "Imagini generate de AI, ca alternativă la fotografiile de stoc, pentru clienții fără buget propriu de fotografie."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "moderate"
+    },
+    "recommendedTools": [
+      {
+        "name": "Webflow",
+        "category": "websiteBuilder",
+        "isRequired": true,
+        "websiteUrl": "https://webflow.com/"
+      },
+      {
+        "name": "WordPress + Elementor",
+        "category": "websiteBuilder",
+        "isRequired": false,
+        "websiteUrl": "https://elementor.com/"
+      },
+      {
+        "name": "Shopify",
+        "category": "ecommercePlatform",
+        "isRequired": false,
+        "websiteUrl": "https://www.shopify.com/"
+      },
+      {
+        "name": "Figma",
+        "category": "design",
+        "isRequired": false,
+        "websiteUrl": "https://www.figma.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 24
+    },
+    "scaling": {
+      "path": {
+        "en": "Bring on a second builder to run parallel projects, then productize the most common add-ons (copywriting, local SEO setup, booking-system integration) as fixed-price upsells instead of custom quotes.",
+        "ro": "Adaugă un al doilea constructor pentru a rula proiecte în paralel, apoi productizează cele mai comune servicii adiționale (redactare texte, configurare SEO local, integrare sistem de programări) ca vânzări suplimentare cu preț fix, nu ca oferte personalizate."
+      },
+      "bottlenecks": [
+        {
+          "en": "The founder is the bottleneck on every client call and revision round.",
+          "ro": "Fondatorul este blocajul la fiecare apel cu clientul și la fiecare rundă de revizuire."
+        },
+        {
+          "en": "Webflow or WordPress platform changes can force unplanned rework across the client base.",
+          "ro": "Schimbările de platformă Webflow sau WordPress pot forța o reluare neplanificată a muncii pe întreaga bază de clienți."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 3,
+          "description": {
+            "en": "First 10 delivered sites.",
+            "ro": "Primele 10 site-uri livrate."
+          }
+        },
+        {
+          "monthsFromLaunch": 12,
+          "description": {
+            "en": "50+ active care-plan retainer clients.",
+            "ro": "Peste 50 de clienți activi cu abonament de mentenanță."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "A published, fixed-price tiered menu removes the \"how much will this cost\" back-and-forth that stalls most web-agency sales calls.",
+          "ro": "Un meniu de prețuri pe niveluri, publicat și fix, elimină schimbul de replici despre \"cât va costa\" care blochează majoritatea apelurilor de vânzare din agențiile web."
+        }
+      },
+      {
+        "description": {
+          "en": "A strict one-round-of-revisions policy keeps average project turnaround under three weeks.",
+          "ro": "O politică strictă de o singură rundă de revizuiri menține termenul mediu de livrare a proiectului sub trei săptămâni."
+        }
+      },
+      {
+        "description": {
+          "en": "The monthly care-plan retainer converts a one-time project sale into recurring revenue without any additional sales effort.",
+          "ro": "Abonamentul lunar de mentenanță transformă o vânzare unică de proiect în venit recurent, fără niciun efort suplimentar de vânzare."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A templated web design agency building fast-turnaround websites for small and local businesses and startups, priced on flat per-tier project fees plus a monthly care-plan retainer.",
+        "ro": "O agenție de web design pe bază de șabloane, care construiește site-uri cu livrare rapidă pentru afaceri mici, locale și startup-uri, cu preț pe onorarii fixe pe niveluri de proiect, plus un abonament lunar de mentenanță."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.webDevelopmentAgency.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.webDevelopmentAgency.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.webDevelopmentAgency.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.webDevelopmentAgency.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert at least half of self-qualified tiered-menu inquiries into a signed project.",
+          "ro": "Transformă cel puțin jumătate din solicitările auto-calificate prin meniul pe niveluri într-un proiect semnat."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep monthly care-plan retention above 70% past the first renewal.",
+          "ro": "Menține retenția lunară a abonamentului de mentenanță peste 70% după prima reînnoire."
+        }
+      },
+      {
+        "key": "mrr",
+        "targetDescription": {
+          "en": "Grow care-plan retainer MRR steadily as the delivered-site base grows.",
+          "ro": "Crește constant MRR-ul din abonamentele de mentenanță, pe măsură ce crește baza de site-uri livrate."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Maintain gross margin above 60% per project after subcontracted design costs.",
+          "ro": "Menține marja brută peste 60% per proiect, după costurile de design subcontractat."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "sales",
+          "importance": 4
+        },
+        {
+          "key": "design",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "marketing",
+          "importance": 3
+        },
+        {
+          "key": "communication",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "decisive",
+          "importance": 4
+        },
+        {
+          "trait": "creative",
+          "importance": 3
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "persistent",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 3000,
+        "max": 9000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 4000,
+        "max": 7000,
+        "currency": "EUR"
+      },
+      "riskProfile": "low",
+      "timeAvailability": {
+        "minWeeklyHours": 25,
+        "maxWeeklyHours": 45
+      },
+      "communicationStyle": [
+        "friendly",
+        "efficient"
+      ],
+      "technicalLevel": 3,
+      "leadershipLevel": 2,
+      "creativityLevel": 4,
+      "salesAffinity": 4,
+      "automationAffinity": 3,
+      "remotePreference": "remote",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theBuilder",
+        "theHustler"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize turnaround speed and the fixed-price tiered menu in the Executive Summary — that's the single biggest objection this business removes.",
+      "ro": "Evidențiază viteza de livrare și meniul de prețuri fixe pe niveluri în Rezumatul executiv — aceasta este cea mai mare obiecție pe care o elimină această afacere."
+    },
+    "marketingHints": {
+      "en": "Lead with before/after visuals and turnaround time, not generic \"we build websites\" messaging.",
+      "ro": "Pornește de la imagini înainte/după și timpul de livrare, nu de la mesaje generice de tipul \"construim site-uri\"."
+    },
+    "financialHints": {
+      "en": "Model revenue as frequent, small project sales rather than a few large contracts, with the care-plan retainer as a slow-building MRR floor.",
+      "ro": "Modelează venitul ca vânzări frecvente, de proiecte mici, nu ca puține contracte mari, cu abonamentul de mentenanță ca bază de MRR în creștere lentă."
+    },
+    "generationHints": {
+      "en": "Keep tone friendly, fast-moving, and approachable — this audience is a small-business owner, not a technical buyer.",
+      "ro": "Păstrează un ton prietenos, alert și accesibil — acest public este un proprietar de afacere mică, nu un cumpărător tehnic."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Set up the core platform license, portfolio site, and the fixed-price tiered menu.",
+            "ro": "Configurează licența platformei principale, site-ul de portofoliu și meniul de prețuri fixe pe niveluri."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching without a published price menu, forcing every inquiry into a custom-quote call.",
+            "ro": "Lansarea fără un meniu de prețuri publicat, forțând fiecare solicitare într-un apel de ofertă personalizată."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build 2-3 template starting points per site tier before taking on the first client.",
+            "ro": "Construiește 2-3 puncte de plecare tip șablon pentru fiecare nivel de site, înainte de a prelua primul client."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.webDevelopmentAgency.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Sell and deliver the first 2-3 sites, even at a discounted rate.",
+            "ro": "Vinde și livrează primele 2-3 site-uri, chiar și la un preț redus."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Allowing unlimited revision rounds on the first clients to keep them happy.",
+            "ro": "Permiterea unor runde nelimitate de revizuire la primii clienți, pentru a-i menține mulțumiți."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Enforce the one-round-of-revisions policy from the very first client.",
+            "ro": "Aplică politica de o singură rundă de revizuiri chiar de la primul client."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Standardize the discovery questionnaire and template-population workflow.",
+            "ro": "Standardizează chestionarul de descoperire și fluxul de populare a șablonului."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Customizing the build process per client instead of standardizing it.",
+            "ro": "Personalizarea procesului de construcție per client, în loc de standardizare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Time each build stage to confirm the three-week turnaround promise is realistic.",
+            "ro": "Cronometrează fiecare etapă de construcție pentru a confirma că promisiunea de trei săptămâni este realistă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.webDevelopmentAgency.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish the pricing menu publicly and activate local SEO and social channels.",
+            "ro": "Publică public meniul de prețuri și activează canalele SEO local și social media."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching marketing before the template library can support the promised turnaround time.",
+            "ro": "Lansarea marketingului înainte ca biblioteca de șabloane să poată susține timpul de livrare promis."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Post the first before/after case study within the first week of launch.",
+            "ro": "Publică primul studiu de caz înainte/după în prima săptămână de la lansare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Deliver the first site on time and convert the client into the care-plan retainer.",
+            "ro": "Livrează primul site la timp și transformă clientul într-un abonament de mentenanță."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Forgetting to offer the care-plan retainer at the moment of highest client satisfaction — launch day.",
+            "ro": "Uitarea de a oferi abonamentul de mentenanță în momentul de maximă satisfacție a clientului — ziua lansării."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Bundle the first month of the care-plan retainer into the launch handoff for free.",
+            "ro": "Include gratuit prima lună de abonament de mentenanță în predarea de la lansare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach 10 delivered sites with at least 60% converting to the care-plan retainer.",
+            "ro": "Atinge 10 site-uri livrate, cu cel puțin 60% conversie către abonamentul de mentenanță."
+          }
+        ],
+        "kpis": [
+          "closeRate",
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Accepting every inquiry regardless of tier fit, overloading the delivery queue.",
+            "ro": "Acceptarea fiecărei solicitări indiferent de potrivirea nivelului, supraîncărcând coada de livrare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Cap concurrent in-progress projects to protect the three-week turnaround promise.",
+            "ro": "Limitează proiectele concurente în derulare pentru a proteja promisiunea de livrare în trei săptămâni."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Bring on a second builder or subcontracted designer to run projects in parallel.",
+            "ro": "Adaugă un al doilea constructor sau designer subcontractat pentru a rula proiecte în paralel."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Delegating client calls before the process is documented well enough to hand off.",
+            "ro": "Delegarea apelurilor cu clienții înainte ca procesul să fie suficient de bine documentat pentru predare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document the full build workflow as a checklist before delegating any project.",
+            "ro": "Documentează întregul flux de construcție ca listă de verificare, înainte de a delega orice proiect."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Productize the most common add-ons (copywriting, local SEO setup) as fixed-price upsells.",
+            "ro": "Productizează cele mai comune servicii adiționale (redactare texte, configurare SEO local) ca vânzări suplimentare cu preț fix."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Quoting add-ons custom per client instead of publishing a fixed add-on price list.",
+            "ro": "Ofertarea serviciilor adiționale personalizat, per client, în loc de publicarea unei liste fixe de prețuri pentru servicii adiționale."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Add the top 3 requested add-ons to the public pricing menu.",
+            "ro": "Adaugă primele 3 servicii adiționale cerute în meniul public de prețuri."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand the tiered menu to cover a new site category, such as booking-based service businesses.",
+            "ro": "Extinde meniul pe niveluri pentru a acoperi o nouă categorie de site, precum afacerile de servicii bazate pe programări."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding into a new site category without a proven template for it yet.",
+            "ro": "Extinderea către o nouă categorie de site fără un șablon dovedit pentru aceasta încă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build and test the new category's template on an internal project before selling it.",
+            "ro": "Construiește și testează șablonul noii categorii pe un proiect intern, înainte de a-l vinde."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Package the client book, template library, and care-plan contracts for a clean acquisition by a larger studio.",
+            "ro": "Pregătește portofoliul de clienți, biblioteca de șabloane și contractele de mentenanță pentru o achiziție curată de către un studio mai mare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping undocumented client customizations that don't transfer cleanly to a new owner.",
+            "ro": "Menținerea unor personalizări nedocumentate ale clienților, care nu se transferă curat către un nou proprietar."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Standardize any one-off client customizations back into the core template library before selling the business.",
+            "ro": "Standardizează orice personalizare unică a clienților înapoi în biblioteca de bază de șabloane, înainte de vânzarea afacerii."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

@@ -147,7 +147,7 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 
 | Category | Entries | Already Authored |
 |---|---:|---:|
-| `technology-services` | 20 | 1 |
+| `technology-services` | 20 | 4 |
 | `subscription-boxes` | 10 | 0 |
 | `boutique-fitness-studios` | 9 | 0 |
 | `online-course-platforms` | 10 | 0 |
@@ -175,7 +175,7 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 | `psychology-practices` | 1 | 0 |
 | `coffee-shops` | 1 | 0 |
 | `restaurants` | 1 | 0 |
-| **Total** | **147** | **9** |
+| **Total** | **147** | **12** |
 
 ---
 
@@ -187,6 +187,12 @@ implied (AI/tech service agencies), now with an explicit broader label
 and 8 additional unauthored candidates. The already-authored "AI
 Automation Agency" row below is the same business as before — only its
 category label changed, no duplicate was created.*
+
+*Knowledge Authoring Batch 1 (2026-07-10) authored 3 more of this
+category's P1 candidates in full — Software House, Web Development
+Agency, and AI Consulting — bringing this category's authored count to
+4 of 20. See `business-library/technology/{software-house,
+web-development-agency,ai-consulting}/` for the full packages.*
 
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -202,10 +208,10 @@ category label changed, no duplicate was created.*
 | technology-services | AI Marketing Ops Automation Agency | ai-marketing-ops-agency | tech | agency | P3 | moderate | Low | Yes | moderate | No | |
 | technology-services | Custom LLM Integration Consultancy | llm-integration-consultancy | tech | service | P2 | high | Medium | Yes | moderate | Yes | |
 | technology-services | AI Recruiting Screening Automation Agency | ai-recruiting-screening-agency | tech | agency | P3 | moderate | Medium | Yes | moderate | No | |
-| technology-services | Software House | software-house | tech | service | P1 | high | Medium | No | moderate | Yes | |
-| technology-services | Web Development Agency | web-development-agency | tech | agency | P1 | moderate | Low | Yes | moderate | No | |
+| technology-services | Software House | software-house | tech | service | P1 | high | Medium | No | moderate | Yes | ✅ |
+| technology-services | Web Development Agency | web-development-agency | tech | agency | P1 | moderate | Low | Yes | moderate | No | ✅ |
 | technology-services | Mobile App Development Agency | mobile-app-development-agency | tech | agency | P1 | high | Medium | No | moderate | Yes | |
-| technology-services | AI Consulting | ai-consulting | tech | service | P1 | high | Medium | Yes | moderate | Yes | |
+| technology-services | AI Consulting | ai-consulting | tech | service | P1 | high | Medium | Yes | moderate | Yes | ✅ |
 | technology-services | Cybersecurity Consultancy | cybersecurity-consultancy | tech | service | P1 | high | High | No | moderate | Yes | |
 | technology-services | IT Managed Services | it-managed-services | tech | service | P1 | moderate | Medium | No | high | No | |
 | technology-services | DevOps Consultancy | devops-consultancy | tech | service | P1 | high | Medium | Yes | moderate | Yes | |

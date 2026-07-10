@@ -1,0 +1,147 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "companyFormationLegal",
+      "devToolingLicenses",
+      "initialContractorRetainer",
+      "portfolioSiteAndCollateral"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "engineeringSalaries",
+      "cloudHostingAndCiTooling",
+      "projectManagementSoftware"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "contractEngineerSurge",
+      "thirdPartyApiCosts",
+      "recruitingFees"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "fixedScopeProjectFees",
+        "label": {
+          "en": "Fixed-scope project fees, billed per milestone",
+          "ro": "Onorarii de proiect cu scop fix, facturate pe etape"
+        }
+      },
+      {
+        "key": "ongoingMaintenanceRetainer",
+        "label": {
+          "en": "Post-launch maintenance and support retainer",
+          "ro": "Abonament de mentenanță și suport post-lansare"
+        }
+      },
+      {
+        "key": "technicalAdvisoryHours",
+        "label": {
+          "en": "Ad-hoc technical advisory hours",
+          "ro": "Ore de consultanță tehnică ad-hoc"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageProjectFee": "currency",
+      "avgProjectDurationWeeks": "number",
+      "concurrentProjectCount": "number",
+      "maintenanceRetainerMonthlyFee": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "projectsClosedPerQuarter": "number",
+      "retainerConversionRate": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.softwareHouse.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "milestonePaymentInflows",
+      "retainerCollections",
+      "contractorPayrollOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 10,
+    "notesTranslationKey": "businessLibrary.softwareHouse.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 45,
+    "notesTranslationKey": "businessLibrary.softwareHouse.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 18,
+    "notesTranslationKey": "businessLibrary.softwareHouse.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "seniorEngineerSalary",
+      "projectManagerSalary",
+      "recruitingFees"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "technicalContentProduction",
+      "conferenceSponsorship",
+      "referralIncentives"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxAdministration",
+      "contractorWithholding"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthPayrollReserve",
+      "clientDisputeLegalReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "grossMargin",
+      "closeRate",
+      "customerRetention",
+      "mrr"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 12000,
+      "notesTranslationKey": "businessLibrary.softwareHouse.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 26000,
+      "notesTranslationKey": "businessLibrary.softwareHouse.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 45000,
+      "notesTranslationKey": "businessLibrary.softwareHouse.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.softwareHouse.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.softwareHouse.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.softwareHouse.financial.aiMetadata.generationHints"
+  }
+}

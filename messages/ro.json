@@ -4526,6 +4526,1387 @@
           "generationHints": "Păstrează toate recomandările la nivelul administrării/creșterii consultanței — nu oferi niciodată sfaturi strategice specifice pentru decizia reală de afaceri a unui client final."
         }
       }
+    },
+    "softwareHouse": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: „The Nature of Software Development” de Ron Jeffries",
+          "course1": "Curs: AWS Certified Solutions Architect – Associate",
+          "community1": "Comunitate: r/ExperiencedDevs și grupul Slack Software Development Consultants",
+          "checklist1": "Listă de verificare: Lista QA de staging înainte de lansare"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune 2-3 proiecte concurente cu scop fix, plus o bază tot mai mare de clienți cu abonament de mentenanță, nu un singur contract mare."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — pragul de rentabilitate real depinde de viteza cu care se umple pipeline-ul de la sprintul de descoperire la proiectul semnat."
+        },
+        "grossMargin": {
+          "notes": "Estimare valabilă pentru o echipă de livrare restrânsă, de 2-3 persoane; marja scade dacă modificările de scop nu sunt taxate."
+        },
+        "netMargin": {
+          "notes": "După salariile colaboratorilor/inginerilor, găzduirea cloud și licențele uneltelor, pe toate proiectele active."
+        },
+        "scenarios": {
+          "conservative": "1-2 proiecte cu scop fix în derulare, fără clienți cu abonament încă.",
+          "expected": "3 proiecte concurente plus 2 clienți cu abonament de mentenanță.",
+          "optimistic": "4+ proiecte concurente, un portofoliu complet de abonamente de mentenanță și o ofertă productizată de scop de bază care se vinde."
+        },
+        "risks": {
+          "risk1": "O modificare de scop netaxată pe un proiect cu preț fix transformă un angajament profitabil într-unul la limita rentabilității.",
+          "risk2": "Plecarea unui inginer senior la mijlocul unui proiect întârzie livrarea și pune în pericol plata pe etapă."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul în segmente discrete, de mărimea unui proiect, nu ca o curbă lunară lină."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Echipa de inginerie pe care fondatorii finanțați și operatorii mid-market o angajează atunci când proiectul este prea personalizat pentru un șablon și prea specializat pentru a fi construit intern încă.",
+          "category": "Studio de dezvoltare software personalizat"
+        },
+        "brandPromise": "O specificație tehnică înainte de preț, o demonstrație la fiecare două săptămâni și un manager de proiect care chiar răspunde.",
+        "uvp": {
+          "statement": "Un sprint de descoperire plătit transformă fiecare preț fix într-o specificație tehnică reală, nu într-o presupunere — iar un manager de proiect dedicat înseamnă că nu mai alergi niciodată după un inginer pentru o actualizare.",
+          "diff1": "Sprint de descoperire plătit înaintea fiecărei oferte cu preț fix",
+          "diff2": "Manager de proiect dedicat, nu o distribuție rotativă de ingineri"
+        },
+        "icp": {
+          "description": "Fondatori de startup-uri finanțate care își construiesc primul produs real și lideri operaționali sau de produs din companii mid-market (50-500 angajați) care comandă o unealtă internă pe care niciun produs SaaS de pe piață nu o acoperă.",
+          "firmographics": "Startup-uri de la seed la Series B sau companii mid-market cu venituri de €5M-€100M care au nevoie de un sistem intern personalizat."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Fondator finanțat, non-tehnic",
+            "description": "Tocmai a încheiat o rundă seed și are nevoie ca primul său produs real să fie construit, fără să angajeze încă o echipă completă de inginerie."
+          },
+          "persona2": {
+            "name": "Lider operațional mid-market",
+            "description": "Are nevoie de o unealtă internă personalizată (inventar, logistică, panou operațional) pe care niciun produs SaaS de pe piață nu o gestionează, iar echipa internă nu are capacitate liberă."
+          }
+        },
+        "painPoints": {
+          "point1": "Un fost freelancer sau colaborator a dispărut la mijlocul proiectului, lăsând cod nedocumentat și neterminat.",
+          "point2": "Inginerii interni sunt complet ocupați cu produsul de bază și nu pot prelua un proiect de unelte interne."
+        },
+        "outcomes": {
+          "outcome1": "Un produs funcțional sau o unealtă internă livrată în bugetul și termenul convenite.",
+          "outcome2": "O bază de cod documentată și mentenabilă, pe care viitoarea echipă internă a clientului o poate prelua efectiv."
+        },
+        "messaging": {
+          "core": "Nu mai spera că freelancerul termină. Ia o echipă care stabilește onest scopul, livrează la fiecare două săptămâni și îți arată demonstrația.",
+          "support1": "Ingineri seniori, un manager de proiect dedicat și un preț fix pe care chiar poți să-l planifici."
+        },
+        "brandVoice": {
+          "tone": "Direct, precis din punct de vedere tehnic și fără exagerări.",
+          "attr1": "Credibil",
+          "attr2": "Responsabil"
+        },
+        "contentPillars": {
+          "pillar1": "Studii de caz de inginerie cu rezultate concrete și decizii reale de arhitectură",
+          "pillar2": "Cum să stabilești scopul și bugetul unui proiect software personalizat fără să fii dezamăgit"
+        },
+        "channelStrategy": "Recomandările de la investitori, agenții de produs și foști clienți sunt principale; conținutul tehnic și prospectarea directă țintită construiesc vizibilitate secundară și experimentală.",
+        "community": {
+          "description": "O rețea mică și selectată de investitori și agenții de produs care recomandă companii din portofoliu cu nevoie de ajutor de inginerie.",
+          "platform1": "Comunități Slack pentru fondatori/CTO"
+        },
+        "leadMagnets": {
+          "magnet1": "Apel gratuit de stabilire tehnică a scopului, înainte de orice sprint de descoperire plătit"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Recomandare sau contact prin conținut",
+            "description": "O prezentare de încredere sau un studiu de caz de inginerie declanșează prima discuție."
+          },
+          "stage2": {
+            "name": "Sprint de descoperire plătit",
+            "description": "Un angajament scurt și plătit de stabilire tehnică a scopului produce specificația reală."
+          },
+          "stage3": {
+            "name": "Ofertă cu scop fix",
+            "description": "O ofertă cu preț fix construită direct din specificația sprintului de descoperire."
+          }
+        },
+        "retention": {
+          "tactic1": "Oferă proactiv abonamentul de mentenanță la predarea proiectului, nu după primul raport de eroare."
+        },
+        "analytics": {
+          "metric1": "Rata de conversie de la sprintul de descoperire la proiectul semnat"
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează fiecare mesaj ancorat în responsabilitatea livrării, nu în limbaj generic de tipul 'soluții inovatoare'."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Înființează firma și redactează modelele standard de contract MSA/SOW.",
+            "1": "Alege uneltele principale de livrare (management de proiect, control al versiunilor, CI/CD)."
+          },
+          "deliverables": {
+            "0": "Un model reutilizabil de propunere pentru sprintul de descoperire."
+          },
+          "checklist": {
+            "0": "Confirmă că procesul de ordin de schimbare este documentat înainte de a prelua orice client."
+          },
+          "commonMistakes": {
+            "0": "Începerea lucrului cu clienții fără un proces semnat de ordin de schimbare pentru modificările de scop."
+          },
+          "successCriteria": {
+            "0": "Modelele de contract și uneltele de livrare sunt ambele gata de utilizare."
+          },
+          "aiRecommendations": {
+            "0": "Folosește un asistent AI de programare pentru a schița configurarea internă de urmărire a proiectelor, nu încă pentru lucrul cu clienții."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Vinde și livrează primul sprint de descoperire plătit unui prospect real."
+          },
+          "deliverables": {
+            "0": "O specificație tehnică completă și o ofertă cu preț fix pentru primul prospect."
+          },
+          "checklist": {
+            "0": "Stabilește un preț mic, dar niciodată gratuit, pentru sprintul de descoperire."
+          },
+          "commonMistakes": {
+            "0": "Oferirea gratuită a stabilirii scopului tehnic pentru a câștiga primul client."
+          },
+          "successCriteria": {
+            "0": "Primul sprint de descoperire se transformă într-un proiect semnat, cu scop fix."
+          },
+          "aiRecommendations": {
+            "0": "Folosește unelte de estimare asistate de AI pentru a verifica estimarea de timp a sprintului de descoperire, înainte de ofertare."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Livrează primul proiect cu scop fix, integral, folosind cadența de sprint de două săptămâni."
+          },
+          "deliverables": {
+            "0": "O primă lansare livrată și testată QA în staging."
+          },
+          "checklist": {
+            "0": "Confirmă că fiecare sprint se încheie cu o demonstrație live pentru client."
+          },
+          "commonMistakes": {
+            "0": "Sărirea peste testarea QA în staging, sub presiunea termenului limită."
+          },
+          "successCriteria": {
+            "0": "Primul proiect este livrat în bugetul și termenul convenite."
+          },
+          "aiRecommendations": {
+            "0": "Folosește unelte AI de programare în pereche pentru a accelera codul boilerplate și a elibera timp pentru decizii de arhitectură."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publică primul studiu de caz de inginerie și activează rețeaua de recomandări de la investitori/agenții."
+          },
+          "deliverables": {
+            "0": "Un studiu de caz publicat, aprobat de client."
+          },
+          "checklist": {
+            "0": "Obține acordul explicit al clientului înainte de a publica orice studiu de caz."
+          },
+          "commonMistakes": {
+            "0": "Publicarea unui studiu de caz fără acordul explicit al clientului."
+          },
+          "successCriteria": {
+            "0": "Se generează cel puțin o recomandare caldă din primul studiu de caz publicat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește unelte AI de redactare pentru a accelera scrierea studiului de caz, apoi verifică fiecare afirmație tehnică printr-un inginer."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Livrează primul proiect integral, la timp și în bugetul ofertat."
+          },
+          "deliverables": {
+            "0": "Un acord de abonament de mentenanță semnat la predarea proiectului."
+          },
+          "checklist": {
+            "0": "Oferă proactiv abonamentul de mentenanță la finalizare."
+          },
+          "commonMistakes": {
+            "0": "Absorbirea modificărilor de scop netaxate pentru a menține mulțumit primul client."
+          },
+          "successCriteria": {
+            "0": "Primul client reînnoiește abonamentul de mentenanță după luna a treia."
+          },
+          "aiRecommendations": {
+            "0": "Automatizează preluarea cererilor de mentenanță printr-un formular simplu de tichete triate cu AI."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge 3 proiecte concurente cu scop fix, cu o rată constantă de livrare la timp."
+          },
+          "deliverables": {
+            "0": "O listă de verificare documentată pentru calificarea prospecților noi."
+          },
+          "checklist": {
+            "0": "Califică fiecare prospect nou în funcție de stiva tehnică dovedită a echipei, înainte de ofertare."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea de proiecte în afara punctelor forte tehnice ale echipei doar pentru a umple capacitatea."
+          },
+          "successCriteria": {
+            "0": "Toate cele 3 proiecte concurente sunt livrate la timp și în limita a 10% față de bugetul ofertat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește revizuirea de cod asistată de AI pe toate proiectele concurente pentru a depista problemele înainte să se acumuleze."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Angajează al doilea inginer senior pentru a elimina blocajul de livrare cauzat de o singură persoană-cheie."
+          },
+          "deliverables": {
+            "0": "Un plan documentat de integrare pentru noii angajați din inginerie."
+          },
+          "checklist": {
+            "0": "Cuplează fiecare inginer nou cu managerul de proiect pentru prima demonstrație cu clientul."
+          },
+          "commonMistakes": {
+            "0": "Angajarea exclusiv pe criterii tehnice, fără evaluarea comunicării cu clientul."
+          },
+          "successCriteria": {
+            "0": "Noul angajat conduce independent cel puțin o demonstrație pentru client."
+          },
+          "aiRecommendations": {
+            "0": "Folosește ciorne de documentație de integrare generate de AI, revizuite și corectate de un inginer senior."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Specializează-te pe o nișă verticală pentru a obține prețuri premium la proiectele cu scop fix."
+          },
+          "deliverables": {
+            "0": "O pagină de destinație dedicată, cu studii de caz specifice nișei."
+          },
+          "checklist": {
+            "0": "Confirmă că cel puțin 2 proiecte finalizate aparțin aceleiași nișe, înainte de a te specializa."
+          },
+          "commonMistakes": {
+            "0": "Dispersarea marketingului pe prea multe industrii, în loc de a construi o singură nișă recognoscibilă."
+          },
+          "successCriteria": {
+            "0": "Pagina de destinație specifică nișei generează prima solicitare din surse organice."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza datele proiectelor anterioare și a identifica ce nișă aduce marja cea mai mare."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Lansează o ofertă productizată de scop de bază pentru a scurta ciclul de vânzare pentru clienții mai mici."
+          },
+          "deliverables": {
+            "0": "Un pachet MVP cu preț fix și scop fix, cu preț publicat."
+          },
+          "checklist": {
+            "0": "Limitează strict, în scris, scopul ofertei productizate."
+          },
+          "commonMistakes": {
+            "0": "Subevaluarea prețului ofertei productizate în raport cu adevăratul cost de livrare."
+          },
+          "successCriteria": {
+            "0": "Primul client al ofertei productizate este semnat și livrat în limitele scopului stabilit."
+          },
+          "aiRecommendations": {
+            "0": "Folosește șabloane de proiect generate de AI pentru a standardiza baza de cod inițială a ofertei productizate."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Documentează portofoliul de clienți, contractele de abonament și ghidurile de inginerie pentru o achiziție curată."
+          },
+          "deliverables": {
+            "0": "Un set complet și standardizat de documentație pe fiecare proiect activ de client."
+          },
+          "checklist": {
+            "0": "Confirmă că nicio cunoștință critică de arhitectură nu există doar în mintea fondatorului."
+          },
+          "commonMistakes": {
+            "0": "Menținerea cunoștințelor critice de arhitectură nedocumentate și dependente de un singur fondator."
+          },
+          "successCriteria": {
+            "0": "O firmă achizitoare poate revizui documentația și prelua cu încredere proiectele active."
+          },
+          "aiRecommendations": {
+            "0": "Folosește generarea de documentație asistată de AI pentru a închide golurile rămase, înainte de due diligence."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează îndrumările fiecărei etape specifice unei afaceri de livrare bazate pe proiecte, nu unui traseu generic pentru SaaS."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "„The Nature of Software Development” de Ron Jeffries",
+          "description": "Un cadru bine ancorat pentru stabilirea scopului și livrarea software-ului ca o serie de pași mici și valoroși, nu ca o estimare unică, mare, de la început."
+        },
+        "item2": {
+          "title": "AWS Certified Solutions Architect – Associate",
+          "description": "Un semnal de credibilitate în discuțiile tehnice de stabilire a scopului cu clienții, mai ales cu fondatori non-tehnici."
+        },
+        "item3": {
+          "title": "r/ExperiencedDevs",
+          "description": "O comunitate de ingineri activi, utilă pentru semnale de recrutare tehnică și pentru a rămâne la curent cu practicile de livrare."
+        },
+        "item4": {
+          "title": "Podcastul „Software Engineering Daily”",
+          "description": "Interviuri cu lideri de inginerie despre decizii reale de arhitectură și livrare."
+        },
+        "item5": {
+          "title": "Newsletter-ul „Pragmatic Engineer”",
+          "description": "Acoperire practică a managementului de inginerie și a practicilor de livrare în companii în creștere."
+        },
+        "item6": {
+          "title": "Linear",
+          "description": "Management de proiect și urmărire a sprinturilor, construit pentru echipe de inginerie."
+        },
+        "item7": {
+          "title": "GitHub",
+          "description": "Control al versiunilor, revizuire de cod și CI/CD pentru fiecare proiect de client."
+        },
+        "item8": {
+          "title": "GitHub Copilot",
+          "description": "Asistent AI de programare în pereche, folosit pe toate proiectele active pentru a accelera codul boilerplate și scrierea testelor."
+        },
+        "item9": {
+          "title": "Certified ScrumMaster (CSM)",
+          "description": "O certificare pentru rolul de manager de proiect, utilă când clienții întreabă despre rigoarea procesului de livrare."
+        },
+        "item10": {
+          "title": "Întâlniri locale pentru CTO/fondatori și zile demo",
+          "description": "Locul unde chiar au loc prezentările de încredere către fondatori finanțați și investitori."
+        },
+        "item11": {
+          "title": "Un consultant CTO fracționat",
+          "description": "Un consilier tehnic part-time care revizuiește deciziile de arhitectură pe proiecte din afara expertizei de bază a fondatorului."
+        },
+        "item12": {
+          "title": "Lista QA de staging înainte de lansare",
+          "description": "Lista standard rulată înainte de fiecare lansare în producție, care acoperă testele de regresie, revizuirea de securitate și planul de revenire."
+        },
+        "aiMetadata": {
+          "generationHints": "Preferă resursele care construiesc credibilitate tehnică și de livrare, nu sfaturi generice pentru startup-uri."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Companiile mid-market au adesea o listă de așteptare de cereri de unelte interne pe care echipa proprie le-a amânat ani de zile — acestea sunt proiecte mai puțin spectaculoase, dar foarte câștigabile."
+          },
+          "item2": {
+            "title": "Foștii clienți care se mută la o companie nouă după un proiect reușit sunt o sursă de lead-uri calde, subutilizată."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "O singură modificare de scop netaxată poate face ca marja întregului proiect să devină negativă, dacă nu este depistată și taxată în prima săptămână."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Ofertarea unui preț fix pe baza unei discuții de vânzare, în loc de un sprint real de descoperire tehnică."
+          },
+          "item2": {
+            "title": "Permiterea ca un singur inginer senior să devină singura persoană care înțelege arhitectura unui proiect."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Oferirea abonamentului de mentenanță la predarea proiectului convertește mult mai bine decât încercarea de a-l vinde separat, săptămâni mai târziu."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Specializarea pe o nișă după 2-3 proiecte similare îți permite să ofertezi mai rapid și cu mai multă încredere decât rămânând generalist."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Rolul tău încetează să mai fie 'cel mai bun inginer' și devine 'persoana care se asigură că estimarea, sprintul și clientul rămân aliniați.'"
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clienții care sar peste sprintul de descoperire pentru a economisi bani sunt cei mai predispuși să ceară ulterior modificări de scop scumpe și netaxate."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea eșecurilor firmelor de software provin din oferte cu scop fix subevaluate, nu din incompetență tehnică."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Integrările cu API-uri terțe cerute de client implică adesea taxe de utilizare continue pe care clientul, nu studioul, ar trebui să le bugeteze — clarifică acest lucru în contract."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Un volum crescut de solicitări pentru 'integrare AI' semnalează o mutare a cererii de la construcții de la zero către conectarea unor API-uri AI existente cu sisteme mai vechi."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Un studio care s-a specializat în unelte back-office pentru logistică, după al treilea proiect similar, și-a dublat onorariul mediu de proiect într-un an."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un studio care a preluat un proiect de conformitate în domeniul sănătății, fără experiență adiacentă HIPAA, a pierdut clientul la mijlocul proiectului, când a apărut un gol de conformitate."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Ar trebui să facturez pe oră sau cu scop fix?",
+            "answer": "Cu scop fix, precedat mereu de un sprint de descoperire plătit — facturarea pe oră pune riscul bugetar în întregime pe umerii clientului și transformă fiecare discuție într-una despre timp, nu despre rezultate."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Un studio de software are nevoie doar de ingineri excelenți pentru a reuși.",
+            "fact": "Inginerii excelenți, cu o disciplină slabă de stabilire a scopului și comunicare, pierd bani pe fiecare proiect cu preț fix — procesul de livrare contează la fel de mult ca abilitatea de programare."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Nu lăsa niciodată ca prima interacțiune a unui client cu un inginer să aibă loc fără prezența managerului de proiect."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează fiecare observație specifică livrării de software bazate pe proiecte — nu sfaturi generice pentru startup-uri sau SaaS."
+        }
+      }
+    },
+    "webDevelopmentAgency": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: „Don't Make Me Think” de Steve Krug",
+          "course1": "Curs: Traseul Client Projects de la Webflow University",
+          "community1": "Comunitate: r/webdev și grupul Slack Webflow Experts",
+          "checklist1": "Listă de verificare: QA pentru site înainte de lansare"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune un flux constant de vânzări mici, cu ciclu scurt de proiect, nu câteva contracte mari, plus o bază de abonamente de mentenanță în creștere lentă."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — pragul de rentabilitate real depinde de viteza cu care SEO local și recomandările generează primele solicitări."
+        },
+        "grossMargin": {
+          "notes": "Estimare valabilă când majoritatea construcțiilor sunt livrate solo; marja scade atunci când un proiect necesită designerul subcontractat."
+        },
+        "netMargin": {
+          "notes": "După abonamentele de platformă, reînnoirile materialelor de stoc și eventualele onorarii de design subcontractat."
+        },
+        "scenarios": {
+          "conservative": "1-2 site-uri livrate pe lună, conversie minimă către abonamentul de mentenanță.",
+          "expected": "3-4 site-uri livrate pe lună, cu aproximativ 60% conversie către abonamentul de mentenanță.",
+          "optimistic": "Peste 6 site-uri livrate pe lună, un portofoliu complet de abonamente de mentenanță și un catalog de servicii adiționale productizate care se vinde bine."
+        },
+        "risks": {
+          "risk1": "Platformele de freelanceri și constructorii de site-uri bazați pe AI subminează prețurile de la nivelul de bază mai repede decât se aștepta.",
+          "risk2": "O schimbare de preț sau politică a platformei forțează o reluare neplanificată și neplătită a muncii pe întreaga bază de clienți."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul ca multe vânzări mici și frecvente de proiecte, nu ca puține contracte mari."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Un site profesional, publicat în trei săptămâni, nu în trei luni — construit pe șabloane dovedite, nu pe o pânză albă și un abonament de agenție cu preț de șase cifre.",
+          "category": "Agenție de web design pe bază de șabloane"
+        },
+        "brandPromise": "Un preț fix, o rundă de revizuiri și un site live în trei săptămâni — fără surprize.",
+        "uvp": {
+          "statement": "Un meniu de prețuri fixe pe niveluri, publicat, înseamnă că știi costul înainte de primul apel, iar livrarea în trei săptămâni înseamnă că nu mai aștepți după programul unei agenții.",
+          "diff1": "Meniu de prețuri fixe pe niveluri, publicat, fără schimb de replici pentru ofertă personalizată",
+          "diff2": "Livrare în trei săptămâni, susținută de o politică strictă de o singură rundă de revizuiri"
+        },
+        "icp": {
+          "description": "Proprietari de afaceri mici și locale și profesioniști independenți care au nevoie rapid de o prezență web credibilă, fără un buget de agenție cu preț de șase cifre.",
+          "firmographics": "Afaceri locale cu 1-20 de angajați, profesioniști independenți și startup-uri incipiente care au nevoie de un site de marketing sau vitrină."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Proprietar de afacere locală de servicii",
+            "description": "Conduce o afacere locală cu un site învechit sau inexistent și nu are timp să gestioneze un proces lung de design personalizat."
+          },
+          "persona2": {
+            "name": "Profesionist independent sau fondator la început de drum",
+            "description": "Are nevoie rapid de un site curat și credibil, pentru a susține o lansare sau un rebranding, cu buget redus."
+          }
+        },
+        "painPoints": {
+          "point1": "Nu știe cât „ar trebui” să coste un site și se teme că o ofertă personalizată va exploda ca preț.",
+          "point2": "O agenție sau un freelancer anterior a durat cu multe luni mai mult decât s-a promis."
+        },
+        "outcomes": {
+          "outcome1": "Un site web profesional, live, în trei săptămâni de la începerea proiectului.",
+          "outcome2": "Un cost lunar previzibil pentru găzduire, actualizări și securitate, prin abonamentul de mentenanță."
+        },
+        "messaging": {
+          "core": "Vezi prețul înainte să programezi apelul. Vezi site-ul live în trei săptămâni.",
+          "support1": "O rundă de revizuiri, un preț fix, fără surprize."
+        },
+        "brandVoice": {
+          "tone": "Prietenos, alert și direct.",
+          "attr1": "Accesibil",
+          "attr2": "Rapid"
+        },
+        "contentPillars": {
+          "pillar1": "Redesign-uri de site înainte/după, care arată viteza de livrare",
+          "pillar2": "Cât ar trebui să coste efectiv un site pentru o afacere mică"
+        },
+        "channelStrategy": "SEO local și vizibilitatea pe Google Business sunt principale; conținutul social înainte/după și anunțurile pe platforme de freelanceri construiesc vizibilitate secundară și experimentală.",
+        "community": {
+          "description": "O rețea informală de recomandări formată din proprietari de afaceri locale și clienți din platforme, cărora li s-a livrat un site.",
+          "platform1": "Grupuri Facebook pentru afaceri locale"
+        },
+        "leadMagnets": {
+          "magnet1": "Videoclip gratuit de 10 minute cu analiza site-ului actual"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Descoperire prin căutare locală sau social media",
+            "description": "Un prospect găsește studioul prin Google Business sau o postare social media înainte/după."
+          },
+          "stage2": {
+            "name": "Selecție auto-calificată a nivelului",
+            "description": "Prospectul alege un nivel de preț din meniul publicat, înainte de a programa un apel."
+          },
+          "stage3": {
+            "name": "Chestionar de descoperire",
+            "description": "Un formular scurt de preluare colectează materialele de brand și conținutul înainte de începerea construcției."
+          }
+        },
+        "retention": {
+          "tactic1": "Include gratuit prima lună de abonament de mentenanță în predarea de la lansarea fiecărui proiect."
+        },
+        "analytics": {
+          "metric1": "Rata de conversie de la solicitarea prin meniul pe niveluri la proiectul semnat"
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează fiecare mesaj scurt, prietenos și transparent în privința prețului — acest public este descurajat de jargon sau de un limbaj vag de agenție."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Configurează licența platformei principale, site-ul de portofoliu și meniul de prețuri fixe pe niveluri."
+          },
+          "deliverables": {
+            "0": "2-3 puncte de plecare tip șablon construite pentru fiecare nivel de site."
+          },
+          "checklist": {
+            "0": "Publică public meniul de prețuri înainte de a prelua primul client."
+          },
+          "commonMistakes": {
+            "0": "Lansarea fără un meniu de prețuri publicat, forțând fiecare solicitare într-un apel de ofertă personalizată."
+          },
+          "successCriteria": {
+            "0": "Meniul de prețuri și cel puțin un șablon per nivel sunt gata de prezentat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta textul inițial al meniului de prețuri, apoi simplifică-l pentru un cititor non-tehnic."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Vinde și livrează primele 2-3 site-uri, chiar și la un preț redus."
+          },
+          "deliverables": {
+            "0": "2-3 site-uri livrate, cu testimoniale de la clienți."
+          },
+          "checklist": {
+            "0": "Aplică politica de o singură rundă de revizuiri chiar de la primul client."
+          },
+          "commonMistakes": {
+            "0": "Permiterea unor runde nelimitate de revizuire la primii clienți, pentru a-i menține mulțumiți."
+          },
+          "successCriteria": {
+            "0": "Toți clienții incipienți sunt livrați în limita termenului de trei săptămâni."
+          },
+          "aiRecommendations": {
+            "0": "Folosește o ciornă de texte generată de AI pentru a accelera popularea conținutului primelor site-uri."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardizează chestionarul de descoperire și fluxul de populare a șablonului."
+          },
+          "deliverables": {
+            "0": "Un flux de construcție documentat și repetabil."
+          },
+          "checklist": {
+            "0": "Cronometrează fiecare etapă de construcție pentru a confirma că promisiunea de trei săptămâni este realistă."
+          },
+          "commonMistakes": {
+            "0": "Personalizarea procesului de construcție per client, în loc de standardizare."
+          },
+          "successCriteria": {
+            "0": "Fiecare site nou urmează același flux standardizat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește alternative de imagini generate de AI pentru clienții fără buget propriu de fotografie."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publică public meniul de prețuri și activează canalele SEO local și social media."
+          },
+          "deliverables": {
+            "0": "Un profil Google Business actualizat și prima postare de studiu de caz înainte/după."
+          },
+          "checklist": {
+            "0": "Confirmă că biblioteca de șabloane poate susține timpul de livrare promis, înainte ca marketingul să pornească."
+          },
+          "commonMistakes": {
+            "0": "Lansarea marketingului înainte ca biblioteca de șabloane să poată susține timpul de livrare promis."
+          },
+          "successCriteria": {
+            "0": "Prima solicitare organică sosește dintr-un canal de marketing, nu dintr-o recomandare."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta textele pentru fiecare postare de studiu de caz înainte/după."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Livrează primul site la timp și transformă clientul într-un abonament de mentenanță."
+          },
+          "deliverables": {
+            "0": "Un acord de abonament de mentenanță semnat la predarea de la lansare."
+          },
+          "checklist": {
+            "0": "Include gratuit prima lună de abonament de mentenanță în predarea de la lansare."
+          },
+          "commonMistakes": {
+            "0": "Uitarea de a oferi abonamentul de mentenanță în momentul de maximă satisfacție a clientului — ziua lansării."
+          },
+          "successCriteria": {
+            "0": "Primul client reînnoiește abonamentul de mentenanță după luna a doua."
+          },
+          "aiRecommendations": {
+            "0": "Automatizează secvența de e-mailuri de reamintire pentru reînnoirea abonamentului de mentenanță."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge 10 site-uri livrate, cu cel puțin 60% conversie către abonamentul de mentenanță."
+          },
+          "deliverables": {
+            "0": "O listă de verificare documentată pentru calificarea potrivirii de nivel a solicitărilor noi."
+          },
+          "checklist": {
+            "0": "Limitează proiectele concurente în derulare pentru a proteja promisiunea de livrare în trei săptămâni."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea fiecărei solicitări indiferent de potrivirea nivelului, supraîncărcând coada de livrare."
+          },
+          "successCriteria": {
+            "0": "Timpul mediu de livrare pentru toate cele 10 site-uri rămâne sub trei săptămâni."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a semnala solicitările ale căror cerințe depășesc scopul nivelului publicat, înainte de a programa un apel."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Adaugă un al doilea constructor sau designer subcontractat pentru a rula proiecte în paralel."
+          },
+          "deliverables": {
+            "0": "Un flux de construcție documentat, gata de predare către al doilea constructor."
+          },
+          "checklist": {
+            "0": "Documentează întregul flux de construcție ca listă de verificare, înainte de a delega orice proiect."
+          },
+          "commonMistakes": {
+            "0": "Delegarea apelurilor cu clienții înainte ca procesul să fie suficient de bine documentat pentru predare."
+          },
+          "successCriteria": {
+            "0": "Al doilea constructor livrează independent un site în limita termenului stabilit."
+          },
+          "aiRecommendations": {
+            "0": "Folosește documentație de integrare generată de AI pentru noul constructor, revizuită de fondator."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Productizează cele mai comune servicii adiționale (redactare texte, configurare SEO local) ca vânzări suplimentare cu preț fix."
+          },
+          "deliverables": {
+            "0": "O listă publicată de prețuri pentru servicii adiționale."
+          },
+          "checklist": {
+            "0": "Adaugă primele 3 servicii adiționale cerute în meniul public de prețuri."
+          },
+          "commonMistakes": {
+            "0": "Ofertarea serviciilor adiționale personalizat, per client, în loc de publicarea unei liste fixe de prețuri."
+          },
+          "successCriteria": {
+            "0": "Cel puțin un serviciu adițional se vinde majorității clienților noi."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a identifica ce servicii adiționale sunt cerute cel mai des în formularele de preluare ale clienților anteriori."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Extinde meniul pe niveluri pentru a acoperi o nouă categorie de site, precum afacerile de servicii bazate pe programări."
+          },
+          "deliverables": {
+            "0": "Un șablon testat pentru noua categorie de site."
+          },
+          "checklist": {
+            "0": "Construiește și testează șablonul noii categorii pe un proiect intern, înainte de a-l vinde."
+          },
+          "commonMistakes": {
+            "0": "Extinderea către o nouă categorie de site fără un șablon dovedit pentru aceasta încă."
+          },
+          "successCriteria": {
+            "0": "Primul client este semnat și livrat în noua categorie de site."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a genera texte inițiale pentru șablonul noii categorii, înainte de a-l vinde."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Pregătește portofoliul de clienți, biblioteca de șabloane și contractele de mentenanță pentru o achiziție curată."
+          },
+          "deliverables": {
+            "0": "O bibliotecă de șabloane documentată și standardizată, fără personalizări unice ale clienților."
+          },
+          "checklist": {
+            "0": "Standardizează orice personalizare unică a clienților înapoi în biblioteca de bază de șabloane, înainte de vânzarea afacerii."
+          },
+          "commonMistakes": {
+            "0": "Menținerea unor personalizări nedocumentate ale clienților, care nu se transferă curat către un nou proprietar."
+          },
+          "successCriteria": {
+            "0": "Un studio achizitor poate prelua portofoliul de clienți și biblioteca de șabloane fără implicarea fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește documentație asistată de AI pentru a cataloga fiecare personalizare a clienților, înainte de vânzare."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează îndrumările fiecărei etape specifice unei afaceri de livrare rapidă, pe bază de șabloane, nu unui traseu de inginerie personalizată."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "„Don't Make Me Think” de Steve Krug",
+          "description": "Un ghid fundamental și practic despre uzabilitatea web, care păstrează construcțiile pe bază de șabloane prietenoase pentru client, nu supra-elaborate."
+        },
+        "item2": {
+          "title": "Traseul Client Projects de la Webflow University",
+          "description": "Instruire structurată pentru gestionarea proiectelor de site-uri ale clienților, specific pe Webflow."
+        },
+        "item3": {
+          "title": "r/webdev",
+          "description": "O comunitate largă de dezvoltare web, utilă pentru rezolvarea problemelor de platformă și repere de preț."
+        },
+        "item4": {
+          "title": "Podcastul „The Business of Web Design”",
+          "description": "Episoade practice despre prețuri, managementul clienților și conducerea unui studio web mic."
+        },
+        "item5": {
+          "title": "Newsletter-ul „Web Designer Business Weekly”",
+          "description": "Sinteze despre tendințele de prețuri și sfaturi de operare pentru studiouri mici."
+        },
+        "item6": {
+          "title": "Webflow",
+          "description": "Platforma principală, fără cod, folosită de studio pentru construcția site-urilor."
+        },
+        "item7": {
+          "title": "WordPress + Elementor",
+          "description": "Platformă alternativă folosită pentru clienții care solicită explicit WordPress."
+        },
+        "item8": {
+          "title": "Midjourney",
+          "description": "Generare de imagini cu AI, folosită ca alternativă la fotografiile de stoc pentru clienții cu buget limitat."
+        },
+        "item9": {
+          "title": "Webflow Certified Partner",
+          "description": "O certificare care semnalează expertiza de platformă direct prospecților care compară studiouri."
+        },
+        "item10": {
+          "title": "Întâlniri ale camerei locale de comerț",
+          "description": "O sursă de recomandări de la afaceri locale și marketing prin recomandare."
+        },
+        "item11": {
+          "title": "Un copywriter freelancer",
+          "description": "Un colaborator la cerere pentru clienții care doresc texte personalizate, dincolo de prima ciornă asistată de AI."
+        },
+        "item12": {
+          "title": "Lista QA pentru site înainte de lansare",
+          "description": "Lista standard rulată înainte ca fiecare site să devină live, care acoperă responsivitatea mobilă, linkurile întrerupte și viteza paginii."
+        },
+        "aiMetadata": {
+          "generationHints": "Preferă resursele care construiesc viteză și încredere în prețuri, nu referințe tehnice de inginerie profundă."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Afacerile locale cu un site învechit rareori mai caută alte opțiuni odată ce găsesc un studio care se mișcă rapid — viteza vinde mai bine decât calitatea designului aici."
+          },
+          "item2": {
+            "title": "Un singur client local cu recenzii bune generează mai multe recomandări decât orice campanie plătită la acest nivel de preț."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "O schimbare bruscă de preț sau de licență de șablon la o platformă poate forța reluarea neplătită a muncii pe zeci de site-uri de clienți simultan."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Ofertarea în afara meniului publicat pe niveluri pentru a câștiga un prospect ezitant, ceea ce erodează credibilitatea modelului de prețuri."
+          },
+          "item2": {
+            "title": "Permiterea „încă unei mici revizuiri” peste runda convenită, care se acumulează pe fiecare proiect."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Includerea gratuită a primei luni de abonament de mentenanță la lansare convertește mult mai bine decât prezentarea acesteia ca element separat de plată."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Al doilea constructor ar trebui să moștenească un flux complet documentat, bazat pe liste de verificare, nu cunoștințe transmise informal din mintea fondatorului."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Cea mai mare pârghie nu este un design mai bun — este un proces mai rapid și mai previzibil decât toți competitorii care ofertează același client de afacere mică."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clienții care negociază cel mai dur prețul înainte de semnare sunt, statistic, cei mai predispuși să ceară ulterior revizuiri suplimentare, netaxate."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea studiourilor web mici eșuează din cauza subevaluării prețurilor și extinderii necontrolate a scopului, nu din lipsă de talent de design."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Reînnoirile materialelor de stoc și ale licențelor de fonturi se acumulează silențios pe zeci de site-uri active, dacă nu sunt urmărite centralizat."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cererile tot mai frecvente ale clienților de a 'adăuga chat AI' pe un site semnalează o mutare a cererii spre integrări simple de widget-uri AI, nu construcții complet personalizate."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Un studio care și-a publicat public meniul de prețuri a văzut scăderea numărului de apeluri de vânzare, dar rata de conversie a acelor apeluri s-a mai mult decât dublat."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un studio care a permis revizuiri nelimitate la primii clienți, pentru a construi bunăvoință, a ajuns să livreze fiecare proiect în pierdere."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Ar trebui să ofer revizuiri nelimitate pentru a câștiga mai mulți clienți?",
+            "answer": "Nu — o politică de revizuire limitată și publicată protejează atât timpul de livrare, cât și marja, iar clienții serioși respectă claritatea mai mult decât o promisiune deschisă."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Site-urile pe bază de șabloane nu pot avea un preț profesional.",
+            "fact": "Clienții plătesc pentru viteză, fiabilitate și un proces previzibil cel puțin la fel de mult ca pentru un design de la zero — un studio pe bază de șabloane, bine condus, concurează prin livrare, nu prin a pretinde că este 'personalizat'."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Colectează întotdeauna materialele de brand și conținutul într-un singur formular structurat de preluare, înainte de a începe construcția, nu fragmentat prin e-mail."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează fiecare observație specifică livrării rapide de site-uri pe bază de șabloane — nu sfaturi generice pentru freelanceri sau agenții."
+        }
+      }
+    },
+    "aiConsulting": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: „Prediction Machines” de Ajay Agrawal, Joshua Gans și Avi Goldfarb",
+          "course1": "Curs: „Artificial Intelligence: Implications for Business Strategy” de la MIT Sloan",
+          "community1": "Comunitate: rețeaua de colegi CIO/CTO de pe r/ExperiencedDevs și întâlnirile locale de leadership operațional",
+          "checklist1": "Listă de verificare: stabilirea scopului sprintului de diagnostic al pregătirii pentru AI"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune vânzări discrete de sprinturi de diagnostic, nu o creștere lină, cu abonamentul de consultanță construind în timp un strat recurent mai mic."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — pragul de rentabilitate real depinde de viteza cu care rețeaua executivă a fondatorului se transformă în primele sprinturi plătite."
+        },
+        "grossMargin": {
+          "notes": "Estimare valabilă pentru un angajament livrat solo, cu un cost marginal de livrare aproape nul per sprint."
+        },
+        "netMargin": {
+          "notes": "După abonamentele de cercetare, software-ul de gestionare a angajamentelor și eventualele deplasări pentru ateliere la sediul clientului."
+        },
+        "scenarios": {
+          "conservative": "1 sprint de diagnostic vândut pe trimestru, fără clienți cu abonament încă.",
+          "expected": "1 sprint pe lună, plus 2 abonamente active de consultanță.",
+          "optimistic": "Peste 2 sprinturi pe lună, un portofoliu complet de abonamente de consultanță și interes incipient pentru licențierea cadrului."
+        },
+        "risks": {
+          "risk1": "Un prospect care se așteaptă la implementare, nu la strategie, blochează discuția de vânzare și irosește timp din ciclul de vânzare.",
+          "risk2": "Un diagnostic construit pe o înțelegere învechită a peisajului actual de unelte AI dăunează credibilității firmei."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul ca vânzări discrete, de mare valoare, per sprint, nu ca o curbă de abonament."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Află exact unde AI va conta cu adevărat și unde nu — înainte să cheltuiești vreun ban ca să-l construiești.",
+          "category": "Consultanță independentă în strategie AI"
+        },
+        "brandPromise": "O foaie de parcurs AI neutră față de furnizori și justificabilă, în mai puțin de o lună — nu un angajament de 12 luni cu o consultanță care vinde și soluția.",
+        "uvp": {
+          "statement": "Un cadru structurat și neutru față de furnizori, de evaluare a oportunităților, transformă un mandat AI vag într-o foaie de parcurs clasificată și justificabilă, în săptămâni, nu luni.",
+          "diff1": "Explicit neutră față de furnizori — fără conflictul de interese al vânzării suplimentare de implementare",
+          "diff2": "Sprintul de diagnostic cu onorariu fix oferă certitudine bugetară înainte de orice cheltuială de construcție"
+        },
+        "icp": {
+          "description": "COO și CTO din companii mid-market, care simt presiunea de a arăta progres în AI, dar nu au un cadru riguros pentru a prioritiza inițiativele concurente.",
+          "firmographics": "Companii mid-market cu 200-2.000 de angajați, din orice industrie, de obicei după runda Series C sau afaceri private consacrate."
+        },
+        "personas": {
+          "persona1": {
+            "name": "COO presat din segmentul mid-market",
+            "description": "Primește propuneri AI concurente de la șefii de departamente și furnizori, fără o modalitate independentă de a le clasifica."
+          },
+          "persona2": {
+            "name": "CTO sceptic",
+            "description": "A văzut furnizori de AI umflând promisiunile de ROI și vrea o a doua opinie independentă și credibilă tehnic, înainte de a aloca buget."
+          }
+        },
+        "painPoints": {
+          "point1": "Mai multe inițiative AI concurente sunt propuse intern, fără o modalitate riguroasă de a le compara costul, efortul și randamentul așteptat.",
+          "point2": "Orice discuție cu un furnizor de AI este în mod inerent părtinitoare în favoarea produsului propriu al furnizorului."
+        },
+        "outcomes": {
+          "outcome1": "O foaie de parcurs clasificată și justificabilă, pe care echipa de conducere o poate prezenta board-ului cu încredere.",
+          "outcome2": "Buget alocat doar inițiativelor AI cu un caz de afaceri dovedit și prioritizat."
+        },
+        "messaging": {
+          "core": "Înainte să construiești ceva legat de AI, află care inițiativă merită cu adevărat construită.",
+          "support1": "Un diagnostic independent, neutru față de furnizori — nu un pitch de vânzare deghizat în strategie."
+        },
+        "brandVoice": {
+          "tone": "Tăios, independent și neimpresionat de hype.",
+          "attr1": "Credibil",
+          "attr2": "Independent"
+        },
+        "contentPillars": {
+          "pillar1": "Cum să prioritizezi inițiative AI concurente fără părtinire față de furnizori",
+          "pillar2": "Studii de caz reale despre investiții în AI care nu au dat roade, și de ce"
+        },
+        "channelStrategy": "Recomandările din rețeaua executivă a fondatorului sunt principale; conținutul de lider de opinie și prezentările la conferințe construiesc vizibilitate secundară și experimentală.",
+        "community": {
+          "description": "O rețea informală de colegi COO și CTO care fac schimb de recomandări și validează credibilitatea cadrului.",
+          "platform1": "Grupuri private executive pe Slack și LinkedIn"
+        },
+        "leadMagnets": {
+          "magnet1": "Fișă gratuită de auto-evaluare a oportunităților AI"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Recomandare executivă sau contact de lider de opinie",
+            "description": "O prezentare din partea unui coleg sau un articol publicat declanșează prima discuție."
+          },
+          "stage2": {
+            "name": "Apel de stabilire a scopului diagnosticului",
+            "description": "Un singur apel cu COO-ul sau CTO-ul confirmă potrivirea și scopul."
+          },
+          "stage3": {
+            "name": "Ofertă de sprint cu onorariu fix",
+            "description": "O ofertă care descrie scopul, calendarul și onorariul fix al sprintului de diagnostic."
+          }
+        },
+        "retention": {
+          "tactic1": "Încadrează abonamentul de consultanță explicit ca supraveghere a implementării, nu ca o verificare vagă și continuă."
+        },
+        "analytics": {
+          "metric1": "Rata de conversie de la apelul de stabilire a scopului la sprintul semnat"
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează fiecare mesaj tăios și specific — acest public penalizează termenii AI vagi mai mult decât aproape orice alt public."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Construiește cadrul de evaluare a oportunităților și modelul de propunere pentru sprintul de diagnostic cu onorariu fix."
+          },
+          "deliverables": {
+            "0": "O grilă de evaluare a oportunităților, documentată și versionată."
+          },
+          "checklist": {
+            "0": "Testează cadrul intern sau împreună cu un consilier de încredere, înainte de a-l vinde."
+          },
+          "commonMistakes": {
+            "0": "Lansarea fără un cadru de diagnostic documentat și repetabil, forțând improvizarea fiecărui angajament."
+          },
+          "successCriteria": {
+            "0": "Cadrul și modelul de propunere sunt ambele gata de prezentat."
+          },
+          "aiRecommendations": {
+            "0": "Folosește cercetare asistată de AI pentru a testa criteriile de evaluare ale cadrului față de datele actuale de piață."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Vinde și livrează primul sprint de diagnostic printr-o recomandare din rețeaua personală."
+          },
+          "deliverables": {
+            "0": "O foaie de parcurs de diagnostic finalizată pentru primul client."
+          },
+          "checklist": {
+            "0": "Confirmă că scopul primului client este doar diagnostic, nu implementare."
+          },
+          "commonMistakes": {
+            "0": "Reducerea prea mare a prețului sprintului de diagnostic, subminând poziționarea premium a firmei."
+          },
+          "successCriteria": {
+            "0": "Primul client oferă o referință sinceră și utilizabilă."
+          },
+          "aiRecommendations": {
+            "0": "Folosește cercetare competitivă asistată de AI pentru a îmbogăți contextul de piață al primului diagnostic."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardizează formatul interviurilor cu părțile interesate și al atelierului de evaluare a oportunităților."
+          },
+          "deliverables": {
+            "0": "Un ghid reutilizabil de facilitare a atelierului."
+          },
+          "checklist": {
+            "0": "Documentează formatul atelierului astfel încât orice viitor consultant să-l poată desfășura constant."
+          },
+          "commonMistakes": {
+            "0": "Personalizarea metodologiei de diagnostic per client, în loc de standardizare."
+          },
+          "successCriteria": {
+            "0": "Al doilea angajament urmează același format standardizat de atelier ca și primul."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta prima versiune a fiecărui livrabil de foaie de parcurs, apoi editează manual pentru acuratețe și ton."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publică primul articol de lider de opinie și activează canalul de recomandări din rețeaua executivă."
+          },
+          "deliverables": {
+            "0": "Un articol publicat, cu punct de vedere neutru față de furnizori."
+          },
+          "checklist": {
+            "0": "Confirmă că articolul adoptă o poziție specifică și justificabilă, nu un comentariu generic despre AI."
+          },
+          "commonMistakes": {
+            "0": "Publicarea unui conținut generic despre hype-ul AI, în loc de un punct de vedere tăios și neutru față de furnizori."
+          },
+          "successCriteria": {
+            "0": "Articolul generează cel puțin o solicitare calificată organică."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta o schiță inițială, apoi rescrie argumentul în vocea proprie a fondatorului."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Livrează foaia de parcurs a primului sprint de diagnostic la timp, cu o prioritizare clară și justificabilă."
+          },
+          "deliverables": {
+            "0": "Un acord de abonament de consultanță semnat, dacă clientul continuă spre implementare."
+          },
+          "checklist": {
+            "0": "Oferă proactiv abonamentul de consultanță, încadrat explicit ca supraveghere, nu ca implementare."
+          },
+          "commonMistakes": {
+            "0": "Permiterea extinderii silențioase a scopului către muncă de implementare, pentru a menține mulțumit primul client."
+          },
+          "successCriteria": {
+            "0": "Clientul acționează pe baza a cel puțin unei recomandări din foaia de parcurs, în 90 de zile."
+          },
+          "aiRecommendations": {
+            "0": "Folosește monitorizare asistată de AI pentru a semnala schimbările de piață care afectează presupunerile foii de parcurs livrate."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge 5 sprinturi de diagnostic livrate, cu feedback constant pozitiv din partea clienților."
+          },
+          "deliverables": {
+            "0": "O listă de verificare documentată pentru calificarea prospecților."
+          },
+          "checklist": {
+            "0": "Califică dimensiunea companiei și claritatea mandatului fiecărui prospect nou, înainte de a programa apelul de stabilire a scopului."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea de prospecți în afara segmentului mid-market, care au nevoie de o complexitate la scară enterprise pentru care cadrul nu a fost construit."
+          },
+          "successCriteria": {
+            "0": "Toate cele 5 angajamente sunt livrate în intervalul promis al sprintului de diagnostic."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a compara profilul fiecărui prospect nou cu angajamentele anterioare de succes, înainte de a accepta apelul de stabilire a scopului."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Transformă primul client cu abonament de consultanță într-o reînnoire de peste 6 luni."
+          },
+          "deliverables": {
+            "0": "Un model documentat de livrabil lunar pentru abonamentul de consultanță."
+          },
+          "checklist": {
+            "0": "Definește un livrabil lunar concret pentru fiecare abonament de consultanță, nu doar 'disponibilitate'."
+          },
+          "commonMistakes": {
+            "0": "Permiterea ca abonamentul de consultanță să alunece spre verificări informale, neplătite, în loc de un livrabil lunar structurat."
+          },
+          "successCriteria": {
+            "0": "Clientul cu abonament reînnoiește fără o renegociere a scopului sau prețului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta prima versiune a livrabilului lunar de abonament, înainte de revizuirea finală a consultantului."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Adaugă un al doilea consultant senior pentru a rula sprinturi de diagnostic în paralel."
+          },
+          "deliverables": {
+            "0": "Un plan documentat de integrare pentru noul consultant."
+          },
+          "checklist": {
+            "0": "Cuplează noul consultant cu fondatorul pentru primele două angajamente, înainte de a-l lăsa să conducă unul singur."
+          },
+          "commonMistakes": {
+            "0": "Angajarea unui consultant fără credibilitatea transversală pe industrii a fondatorului, slăbind semnalul de încredere al firmei."
+          },
+          "successCriteria": {
+            "0": "Noul consultant livrează independent un sprint de diagnostic, cu satisfacția clientului la nivelul angajamentelor proprii ale fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește documentație de integrare generată de AI pentru a transfera constant cadrul către noul consultant."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Productizează cadrul de evaluare a oportunităților într-o metodologie licențiabilă pentru alte firme de consultanță boutique."
+          },
+          "deliverables": {
+            "0": "O versiune documentată și licențiabilă a cadrului."
+          },
+          "checklist": {
+            "0": "Cere cel puțin 10 angajamente finalizate, înainte de a oferi metodologia ca produs licențiabil."
+          },
+          "commonMistakes": {
+            "0": "Licențierea metodologiei înainte ca aceasta să fi fost dovedită constantă în suficiente angajamente independente."
+          },
+          "successCriteria": {
+            "0": "Prima firmă de consultanță externă licențiază cadrul."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a identifica tipare în angajamentele anterioare, care validează consistența cadrului înainte de licențiere."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Documentează cadrul de evaluare a oportunităților și relațiile cu clienții pentru o achiziție curată."
+          },
+          "deliverables": {
+            "0": "Un cadru documentat, de sine stătător, și un portofoliu de studii de caz."
+          },
+          "checklist": {
+            "0": "Formalizează cadrul și ghidurile într-un activ documentat, independent de fondator."
+          },
+          "commonMistakes": {
+            "0": "Menținerea metodologiei de diagnostic ca o cunoștință tacită, exclusiv a fondatorului, în loc de un activ documentat."
+          },
+          "successCriteria": {
+            "0": "O firmă achizitoare poate revizui cadrul documentat și studiile de caz fără prezența fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește documentație asistată de AI pentru a formaliza cazurile limită și excepțiile cadrului, înainte de due diligence."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează îndrumările fiecărei etape specifice unei afaceri de consultanță condusă de un singur principal, nu unui traseu generic de firmă de consultanță."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "„Prediction Machines” de Ajay Agrawal, Joshua Gans și Avi Goldfarb",
+          "description": "Un cadru economic fundamental pentru a evalua unde AI schimbă cu adevărat structura de costuri a unei afaceri și unde este doar hype."
+        },
+        "item2": {
+          "title": "„Artificial Intelligence: Implications for Business Strategy” de la MIT Sloan",
+          "description": "Un curs la nivel executiv, care construiește semnalul de credibilitate necesar pentru discuțiile de consultanță cu conducerea executivă."
+        },
+        "item3": {
+          "title": "Întâlniri ale rețelei de colegi CIO/CTO",
+          "description": "Comunități în persoană și online, utile pentru recomandări și pentru a rămâne la curent cu adoptarea reală (nu exagerată) a AI în întreprinderi."
+        },
+        "item4": {
+          "title": "Podcastul „Exponential View”",
+          "description": "Comentarii independente, neafiliate unui furnizor, despre implicațiile reale de business ale AI."
+        },
+        "item5": {
+          "title": "Newsletter-ul „The Batch” (DeepLearning.AI)",
+          "description": "Un rezumat săptămânal concis al evoluțiilor reale din AI, util pentru menținerea actualizată a cadrului de diagnostic."
+        },
+        "item6": {
+          "title": "Notion",
+          "description": "Documentația angajamentelor și spațiul de lucru pentru evaluarea oportunităților."
+        },
+        "item7": {
+          "title": "Miro",
+          "description": "Facilitarea atelierelor și sinteza interviurilor cu părțile interesate."
+        },
+        "item8": {
+          "title": "Perplexity",
+          "description": "Unealtă de cercetare asistată de AI pentru urmărirea anunțurilor concurenților și furnizorilor de AI între angajamente."
+        },
+        "item9": {
+          "title": "Certified Management Consultant (CMC)",
+          "description": "O certificare care semnalează rigoare de consultanță independentă pentru cumpărătorii executivi sceptici."
+        },
+        "item10": {
+          "title": "Conferințe de leadership operațional din industrie",
+          "description": "Oportunități de prezentare care construiesc autoritate de categorie și generează interes organic."
+        },
+        "item11": {
+          "title": "Un consilier juridic fracționat",
+          "description": "Revizuiește contractele de angajament de consultanță și limitele scopului de lucru, pentru a preveni disputele legate de extinderea către implementare."
+        },
+        "item12": {
+          "title": "Listă de verificare pentru stabilirea scopului sprintului de diagnostic al pregătirii pentru AI",
+          "description": "Lista standard folosită pentru a confirma potrivirea și scopul unui prospect, înainte de a programa un sprint de diagnostic plătit."
+        },
+        "aiMetadata": {
+          "generationHints": "Preferă resursele care construiesc credibilitate și rigoare independentă, nu conținut generic despre hype-ul AI."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Companiile mid-market rareori au pe cineva intern al cărui rol full-time este prioritizarea obiectivă a inițiativelor AI — acel gol este adevărata oportunitate a afacerii."
+          },
+          "item2": {
+            "title": "Un sprint de diagnostic bine livrat scoate adesea la iveală o a doua oportunitate de angajament, nelegată direct (de ex. o revizuire mai amplă a strategiei digitale), pe care clientul nu a solicitat-o inițial."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Un singur client care se plânge public că angajamentul a fost 'doar slide-uri, fără acțiune' poate afecta disproporționat o afacere bazată pe încredere și recomandări."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Acceptarea unui apel de stabilire a scopului cu un prospect care își dorește explicit o construcție, sperând să-l convertești la un diagnostic în schimb."
+          },
+          "item2": {
+            "title": "Prezentarea cadrului de evaluare a oportunităților ca o cutie neagră, în loc de a parcurge logica sa împreună cu clientul."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "O fișă scurtă și gratuită de auto-evaluare a oportunităților AI convertește contactele reci de pe LinkedIn în apeluri de stabilire a scopului mult mai bine decât un pitch deck generic."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Licențiază cadrul doar după ce suficiente angajamente dovedesc că produce rezultate constante și justificabile, indiferent de cine îl facilitează."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Credibilitatea ta este întreaga afacere — protejeaz-o renunțând la angajamentele în care clientul a decis deja ce vrea să audă."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Clienții care vin cu un furnizor deja ales sunt cei mai predispuși să conteste cel mai dur o recomandare neutră față de furnizori."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea inițiativelor AI eșuate în întreprinderi nu au fost niciodată evaluate corect printr-un cadru cost/efort/ROI de la bun început — eșecul precede tehnologia."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Menținerea unei credibilități AI reale, transversale pe industrii, necesită timp real și continuu de cercetare, ușor de subestimat odată ce munca de livrare pentru clienți umple calendarul."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "O pondere tot mai mare de solicitări care cer explicit 'guvernanță AI', nu 'oportunități AI', semnalează o maturizare a pieței dincolo de simpla evaluare a oportunităților."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "O consultanță care a refuzat trei prospecți orientați spre construcție în primul trimestru, pentru a rămâne strict de diagnostic, și-a construit o reputație care i-a cvadruplat rata de recomandări într-un an."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un consultant care a permis ca angajamentul unui client să se extindă silențios spre îndrumare gratuită de implementare a consumat 40 de ore neplătite și tot a pierdut clientul în fața unui furnizor mai ieftin."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Ar trebui să fiu vreodată atras în muncă de implementare?",
+            "answer": "Doar printr-un abonament de consultanță separat explicit și cu scop clar definit, axat pe supraveghere — niciodată ca o extensie informală a angajamentului de diagnostic, ceea ce erodează atât marja, cât și poziționarea."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "O consultanță de strategie AI trebuie să poată construi ceea ce recomandă, pentru a fi credibilă.",
+            "fact": "De obicei este invers — neutralitatea explicită față de furnizori (incapacitatea de a profita din construcție) este exact ceea ce face recomandarea de încredere pentru un cadru executiv sceptic."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Livrează întotdeauna foaia de parcurs ca document funcțional pe care clientul îl poate folosi independent, nu ca o prezentare închisă care necesită interpretarea consultantului."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează fiecare observație specifică consultanței de strategie independente și neutre față de furnizori — nu sfaturi generice de consultanță managerială sau de furnizor de AI."
+        }
+      }
     }
   }
 }

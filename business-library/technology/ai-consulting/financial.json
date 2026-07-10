@@ -1,0 +1,138 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "positioningAndSalesCollateral",
+      "engagementManagementSoftware",
+      "legalAndContractTemplates",
+      "researchSubscriptions"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "researchAndToolTrackingSubscriptions",
+      "engagementSoftware"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "travelForOnSiteWorkshops",
+      "secondAdvisorContractorFees"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "diagnosticSprintFee",
+        "label": {
+          "en": "Fixed-fee AI-readiness diagnostic sprint",
+          "ro": "Onorariu fix pentru sprintul de diagnostic al pregătirii pentru AI"
+        }
+      },
+      {
+        "key": "advisoryRetainer",
+        "label": {
+          "en": "Monthly implementation-oversight advisory retainer",
+          "ro": "Abonament lunar de consultanță pentru supravegherea implementării"
+        }
+      },
+      {
+        "key": "workshopFacilitationFee",
+        "label": {
+          "en": "Ad-hoc opportunity-prioritization workshop facilitation",
+          "ro": "Facilitare ad-hoc a atelierelor de prioritizare a oportunităților"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "diagnosticSprintFee": "currency",
+      "advisoryRetainerMonthlyFee": "currency",
+      "sprintsClosedPerQuarter": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "sprintsSoldPerQuarter": "number",
+      "retainerConversionRate": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.aiConsulting.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "diagnosticSprintCollections",
+      "advisoryRetainerCollections"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 6,
+    "notesTranslationKey": "businessLibrary.aiConsulting.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 75,
+    "notesTranslationKey": "businessLibrary.aiConsulting.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 55,
+    "notesTranslationKey": "businessLibrary.aiConsulting.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "secondSeniorAdvisorFees"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "thoughtLeadershipContentProduction",
+      "conferenceSpeakingTravel"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "closeRate",
+      "grossMargin",
+      "customerRetention",
+      "mrr"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 10000,
+      "notesTranslationKey": "businessLibrary.aiConsulting.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 20000,
+      "notesTranslationKey": "businessLibrary.aiConsulting.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 38000,
+      "notesTranslationKey": "businessLibrary.aiConsulting.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.aiConsulting.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.aiConsulting.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.aiConsulting.financial.aiMetadata.generationHints"
+  }
+}
