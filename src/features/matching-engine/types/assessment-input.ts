@@ -65,4 +65,14 @@ export interface AssessmentFeatureVector {
   userId: string;
   locale: Locale;
   dimensionInputs: Partial<Record<MatchingDimension, DimensionInput>>;
+  /**
+   * Raw multi-select answers for the two dimensions ScoreCalculator treats
+   * as set-membership rather than numeric distance (industryPreference:
+   * `interests.industries`; businessModelPreference: `interests.businessModels`)
+   * — see `BusinessCandidate.industryCode`/`.businessModelCode` for why.
+   * `dimensionInputs` still carries a scalar for these two keys (breadth of
+   * selection, for introspection/explanation), but ScoreCalculator ignores
+   * it in favor of checking the candidate's code against this set directly.
+   */
+  rawCategorySelections?: Partial<Record<MatchingDimension, string[]>>;
 }

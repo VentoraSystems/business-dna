@@ -20,6 +20,15 @@ export interface BusinessRepository {
   findFullById(id: string): Promise<FullBusinessType | null>;
   findFullBySlug(slug: string): Promise<FullBusinessType | null>;
   list(filters?: BusinessTypeListFilters): Promise<BusinessTypeSummary[]>;
+  /**
+   * Same filtering as `list()`, but with every relation `findFullById`
+   * would include (lifestyle/risk/budget/revenue/timeline/skills/etc.).
+   * Added for `features/matching-engine`'s `BusinessCandidateProvider`,
+   * which needs those normalized attributes to build a scorable
+   * `BusinessCandidate` — `list()`'s lighter `businessTypeSummaryInclude`
+   * (category/industry only) isn't enough for that.
+   */
+  listFull(filters?: BusinessTypeListFilters): Promise<FullBusinessType[]>;
   count(filters?: BusinessTypeListFilters): Promise<number>;
   listCategories(industryId?: string): Promise<BusinessCategory[]>;
   listIndustries(): Promise<BusinessIndustry[]>;
@@ -52,6 +61,16 @@ class PrismaBusinessRepository implements BusinessRepository {
     return db.businessType.findMany({
       where: buildWhere(filters),
       include: businessTypeSummaryInclude,
+      take: filters?.take ?? 50,
+      skip: filters?.skip ?? 0,
+      orderBy: { createdAt: "desc" },
+    });
+  }
+
+  async listFull(filters?: BusinessTypeListFilters) {
+    return db.businessType.findMany({
+      where: buildWhere(filters),
+      include: fullBusinessTypeInclude,
       take: filters?.take ?? 50,
       skip: filters?.skip ?? 0,
       orderBy: { createdAt: "desc" },

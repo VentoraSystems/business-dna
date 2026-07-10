@@ -32,3 +32,27 @@ export class PlaceholderRankingEngine implements RankingEngine {
     );
   }
 }
+
+/** How many ranked candidates a v1 run surfaces — see README.md for why 10. */
+export const DEFAULT_RANKING_LIMIT = 10;
+
+/**
+ * v1 implementation: sort by `overallScore` descending and take the top N
+ * (default 10 — the catalog only has 21 candidates today, so 10 is enough
+ * to feel like a curated shortlist without being so small it hides a
+ * legitimately close second-place match; revisit once the catalog is much
+ * larger or once diversity/confidence-cutoff logic exists, per this
+ * interface's own docstring). No diversity, dedup, or confidence
+ * filtering yet — a real future ranking model plugs in here without the
+ * interface needing to change.
+ */
+export class DefaultRankingEngine implements RankingEngine {
+  constructor(private readonly limit: number = DEFAULT_RANKING_LIMIT) {}
+
+  async rank(scoredCandidates: ScoredCandidate[]): Promise<RankedCandidate[]> {
+    return [...scoredCandidates]
+      .sort((a, b) => b.compatibility.overallScore - a.compatibility.overallScore)
+      .slice(0, this.limit)
+      .map((scored, index) => ({ ...scored, rank: index + 1 }));
+  }
+}

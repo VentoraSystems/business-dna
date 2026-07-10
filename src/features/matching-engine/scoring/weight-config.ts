@@ -1,4 +1,4 @@
-import { MatchingDimension } from "./dimensions";
+import { ALL_MATCHING_DIMENSIONS, MatchingDimension } from "./dimensions";
 
 /**
  * A weight per dimension, in the range [-1, 1] once real values exist:
@@ -23,14 +23,23 @@ export interface WeightConfig {
 }
 
 /**
- * Deliberately empty. No dimension has a weight yet — assigning one is a
- * product/data decision for whoever designs the actual matching algorithm,
- * not something this scaffold should pre-empt. `weights: {}` means every
- * dimension currently contributes exactly 0 to any score.
+ * v1 default: every one of the 14 `MatchingDimension`s contributes equally
+ * (weight 1) to a candidate's score. This was a deliberate product decision
+ * for the first real scoring pass — no dimension is judged more important
+ * than another yet (e.g. budget isn't weighted above communicationStyle) —
+ * rather than an engineering default. A future phase may replace this with
+ * per-dimension weights informed by real match outcomes; `WeightConfig`
+ * stays versioned (see above) specifically so that transition doesn't need
+ * a schema change.
+ *
+ * Formerly `UNWEIGHTED_CONFIG` (`weights: {}`, every dimension contributing
+ * 0) — renamed together with its value now that a real weighting exists,
+ * so nothing in this codebase still calls a uniformly-weighted config
+ * "unweighted".
  */
-export const UNWEIGHTED_CONFIG: WeightConfig = {
-  version: "unassigned",
-  weights: {},
+export const UNIFORM_CONFIG: WeightConfig = {
+  version: "v1-uniform",
+  weights: Object.fromEntries(ALL_MATCHING_DIMENSIONS.map((dimension) => [dimension, 1])) as DimensionWeightMap,
 };
 
 export function getDimensionWeight(config: WeightConfig, dimension: MatchingDimension): number {

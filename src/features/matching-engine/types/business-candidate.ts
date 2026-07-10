@@ -21,6 +21,20 @@ export interface BusinessCandidate {
   dimensionProfile: Partial<Record<MatchingDimension, number>>;
   /** RequiredSkill keys this BusinessType's BusinessSkill rows reference. */
   skillKeys: string[];
+  /**
+   * Raw industry/businessModel codes, kept alongside `dimensionProfile`
+   * rather than folded into it as a 0-1 number. `industryPreference` and
+   * `businessModelPreference` are set-membership comparisons (does this
+   * candidate's single industry/businessModel appear in the user's
+   * multi-select answer?), not numeric distances — there's no ordering
+   * over "tech"/"health"/"finance"/etc. that a scalar diff could express
+   * honestly, unlike e.g. remote/hybrid/inPerson, which really is a
+   * spectrum (see dimension-mapping.ts). `ScoreCalculator` reads these two
+   * fields directly for those two dimensions instead of diffing
+   * `dimensionProfile`.
+   */
+  industryCode?: string;
+  businessModelCode?: string;
 }
 
 export interface BusinessCandidateFilters {

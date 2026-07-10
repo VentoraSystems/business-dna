@@ -6,6 +6,7 @@ import { db } from "@/lib/db";
 import { requireCurrentUser } from "@/lib/auth";
 import type { Locale } from "@/i18n/config";
 import type { AnswersState } from "../types";
+import type { RawAssessmentAnswers } from "@/features/matching-engine/types/assessment-input";
 
 /**
  * The question bank rarely changes at runtime, so memoize the key → id
@@ -162,4 +163,34 @@ export async function completeAssessmentSession(sessionId: string) {
 
   revalidatePath("/businesses");
   return { assessmentId: assessment.id };
+}
+
+/**
+ * The `fetchRawAnswers` adapter `createMatchingEngine()` expects (see
+ * `features/matching-engine`'s README — "whoever wires up a real
+ * `fetchRawAnswers`... is expected to adapt one to the other"). Reads a
+ * completed `Assessment`'s session answers and reshapes them from this
+ * feature's own `AnswersState`/`SessionWithAnswers` into matching-engine's
+ * deliberately independent `RawAssessmentAnswers` shape — mechanical field
+ * renaming/wrapping, no scoring logic. Lives here (assessment ->
+ * matching-engine), not in matching-engine itself, so that feature never
+ * takes on a dependency on this one's Prisma models.
+ */
+export async function fetchRawAnswersForMatching(assessmentId: string): Promise<RawAssessmentAnswers> {
+  const assessment = await db.assessment.findUniqueOrThrow({
+    where: { id: assessmentId },
+    include: { session: { include: { answers: { include: { question: true } } } } },
+  });
+
+  const answers: Record<string, unknown> = {};
+  for (const answer of assessment.session.answers) {
+    answers[answer.question.key] = answer.value;
+  }
+
+  return {
+    assessmentId: assessment.id,
+    userId: assessment.userId,
+    locale: assessment.locale,
+    answers,
+  };
 }
