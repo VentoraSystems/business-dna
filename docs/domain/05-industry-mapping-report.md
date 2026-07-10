@@ -174,8 +174,160 @@ adding a new `IndustryType` value.
 
 ---
 
+## 5. Deep-Dive: Temporary Mappings Reassessed
+
+Before recommending a schema migration, this section checks how
+`IndustryType` is **actually consumed** by downstream code today — not
+how the architecture is eventually intended to use it — for the two
+Section 2 categories. The finding that shapes both verdicts below:
+across the whole repo, `IndustryType` is **actively read and branched
+on in exactly one place** — the Business Engine catalog's `list()`
+query filter (`src/features/business-engine/repositories/business-repository.ts`,
+`buildWhere()`: `...(filters.industryCode ? { category: { industry: { code: filters.industryCode } } } : {})`,
+exercised end-to-end via `GET /api/business-types?industry=` in
+`src/app/api/business-types/route.ts`). Everywhere else it's a
+**declared field with no consuming logic yet**:
+
+| Consumer | Status | Detail |
+|---|---|---|
+| Matching Engine | Declared, not consumed | `scoring/dimensions.ts` declares `MatchingDimension.IndustryPreference` as an enum member; no scorer, weight config, or rule file in `matching-engine/**` ever reads it. |
+| Blueprint | Declared, not consumed | `industry?: IndustryType` exists on `BusinessOverview` (`types/sections.ts`); `features/blueprint` is CRUD/schema/DTO only — there is no generation logic anywhere in the repo that reads this field to vary output. |
+| Marketing | Not even declared | `features/marketing` has no `industry` field on any of its own types and no code referencing `IndustryType` at all. |
+| KPI sets | Declared elsewhere, not consumed for selection | `BusinessDnaKpiKey` (`business-dna/types/sections/kpis.ts`) is one fixed, universal 10-metric list applied to every profile regardless of industry; `IndustryType` appears elsewhere only as a tag value in vocabulary unions (e.g. Knowledge Engine cross-references), never as a KPI-selection input. |
+| Financial | Not even declared | `features/financial` has no `industry` field anywhere in its types, schemas, or templates. |
+| Business Engine catalog | **Actively consumed** | Real Prisma `where` filter on `BusinessType.category.industry.code`, used by the catalog browse/list endpoint. The route's own comment notes this is "no compatibility scoring, no personalization" — pure catalog filtering. |
+
+This means the honest "what breaks today" story for both categories is
+narrower than the original report implied: nothing in Matching Engine,
+Blueprint, Marketing, or KPI selection can be "misled" by a bad
+industry tag today, because none of them read the field yet. The one
+concrete, currently-real harm is **catalog filtering** — a business
+mistagged to the wrong `IndustryType` becomes invisible to anyone
+browsing/filtering the catalog by the industry it actually belongs to.
+The architectural risk for the other four consumers is real but
+prospective: the fields exist because industry-conditional Matching
+Engine/Blueprint/Marketing/KPI logic is clearly the intended future
+architecture, and a mistagged category would silently feed wrong
+assumptions into that logic once it's built — but that has not happened
+yet, and this report does not claim otherwise.
+
+### 5.1 `subscription-boxes`
+
+- **Current `IndustryType`:** `food`. **Business-model attribute being
+  conflated:** "subscription" — already a first-class value in
+  `businessModelTypeSchema` (`ecommerce`/`saas`/`service`/`marketplace`/
+  `content`/`physicalProduct`/`subscription`/`agency`, defined in
+  `business-engine/schemas/enums.ts` and mirrored in
+  `business-library/schema.ts`). The category name describes *how*
+  the product reaches the customer (a recurring, curated shipment),
+  not *what* is being sold — food is just the one example the
+  placeholder scaffold picked.
+- **Downstream consumption, concretely:**
+  - *Business Engine catalog filter (actively consumed):* if a real
+    beauty-subscription-box business were authored and tagged
+    `industry: "food"` (inheriting the category's current tag), a user
+    filtering `GET /api/business-types?industry=fashion` (the closest
+    real vertical for a beauty product) would never see it — it would
+    only surface under a `food` filter, where it doesn't belong. This
+    is a real, demonstrable bug in the one place `IndustryType`
+    currently does something.
+  - *Matching Engine / Blueprint / Marketing / KPIs:* no current
+    breakage, per the table above — none of these read `industry` yet.
+    Prospectively, once Blueprint generation exists, an
+    `industry: "food"`-tagged beauty-box Blueprint would risk pulling
+    food-market framing (grocery/CPG competitive landscape) into a
+    business that actually competes in beauty/personal care — but this
+    is a future risk to flag, not a present one.
+  - *Financial:* no industry-conditional cost-category logic exists at
+    all (financial templates are industry-agnostic), so mistagging
+    causes no financial-module distortion today or foreseeably under
+    the current architecture.
+- **Industry problem or business-model problem?** **Business model.**
+  The dimension actually being described — "recurring curated
+  shipment" — is exactly what `businessModelTypeSchema`'s `subscription`
+  value already exists to capture. Adding a new `IndustryType` would
+  not fix the real issue (which vertical does this box serve?); it
+  would just create another mis-scoped bucket.
+- **Verdict: Needs different architectural fix (not IndustryType).**
+  The correct fix is authoring discipline at the point a real business
+  is authored: set `industry` to whatever vertical the box's contents
+  actually belong to (`food`, `fashion`, `health`, etc.) **and**
+  `businessModel: "subscription"` in that business's `metadata.json` —
+  a field that already exists and is already populated correctly for
+  every currently-authored business (e.g. `accounting-firm`'s
+  `"businessModel": "service"`). The one real gap: `categories.json`'s
+  placeholder-category entries have no `businessModel` field at all
+  (only `key`/`label`/`industry`) — that's a documentation/scaffold
+  gap in how placeholder categories are recorded, not a schema
+  blocker, since real authored businesses already have the field
+  available via `metadata.json`. Out of scope for an `IndustryType`
+  schema migration.
+
+### 5.2 `local-service-marketplaces`
+
+- **Current `IndustryType`:** `homeServices`. **Business-model
+  attribute being conflated:** "marketplace" — also already a
+  first-class `businessModelTypeSchema` value. "Local service
+  marketplace" describes a matching/aggregation business model (many
+  independent providers, one platform), not a single industry — the
+  category could just as easily match customers with tutors (education),
+  personal trainers (health), or freelance professional-services
+  providers (professionalServices) as with home-repair providers.
+- **Downstream consumption, concretely:**
+  - *Business Engine catalog filter (actively consumed):* a real
+    tutoring-marketplace business tagged `industry: "homeServices"`
+    (inherited from this category) would be invisible to a user
+    filtering `?industry=education`, and would incorrectly surface
+    under a `homeServices` filter alongside actual home-repair
+    businesses — the same concrete bug pattern as 5.1.
+  - *Matching Engine / Blueprint / Marketing / KPIs:* no current
+    breakage — none of these consume `industry` yet, per the table
+    above. Prospectively, a Blueprint for a tutoring marketplace tagged
+    `homeServices` would risk inheriting home-repair-style market
+    framing (contractor licensing, on-site service logistics) instead
+    of education-marketplace framing (tutor vetting, session
+    scheduling, learning outcomes) — again, a future risk, not a
+    present one.
+  - *Financial:* no industry-conditional logic exists, so no present
+    or foreseeable distortion under the current architecture.
+- **Industry problem or business-model problem?** **Business model.**
+  Same reasoning as 5.1 — "marketplace" is the actual concept being
+  described, and it's already a dedicated `businessModelTypeSchema`
+  value distinct from industry.
+- **Verdict: Needs different architectural fix (not IndustryType).**
+  Same fix as 5.1: tag the real vertical on `industry` and
+  `businessModel: "marketplace"` on `metadata.json` when a real
+  business is authored under this category (or split the placeholder
+  into vertical-specific categories, e.g.
+  `home-repair-service-marketplaces` vs. `tutoring-marketplaces`, each
+  correctly industry-tagged). No new `IndustryType` value is warranted.
+  Out of scope for an `IndustryType` schema migration.
+
+---
+
+## 6. Final Schema Migration Scope (Recommendation)
+
+Consolidating Section 3's original finding with this deep-dive:
+
+| Proposed `IndustryType` enum value | Source | Included in next migration? |
+|---|---|---|
+| `mediaProduction` | `niche-content-studios` (Section 3) | **Yes** — the only category in the entire 16-entry taxonomy with no adequate existing `IndustryType`, even as a lossy fit. Still Low priority (unauthored placeholder, nothing currently blocked) but the correct fix genuinely is a new enum value. |
+| _(none)_ — `subscription-boxes` | Reassessed in 5.1 | **No** — business-model problem, not an industry problem. Fix: tag the real vertical + `businessModel: "subscription"` at authoring time. |
+| _(none)_ — `local-service-marketplaces` | Reassessed in 5.2 | **No** — business-model problem, not an industry problem. Fix: tag the real vertical + `businessModel: "marketplace"` at authoring time. |
+
+**Recommended next schema migration adds exactly one `IndustryType`
+value: `mediaProduction`.** Neither Section 2 category should be
+promoted to a dedicated `IndustryType` — both are cases where the
+Business Library's authoring process needs to use the `businessModel`
+field it already has, not a new industry bucket. This keeps the
+`IndustryType` enum scoped to what it's actually for (industry
+vertical) and avoids growing it with values that really belong on a
+different, already-existing dimension.
+
+---
+
 ## Summary
 
 - **Section 1 (Direct Mappings):** 13 of 16 categories.
-- **Section 2 (Temporary Acceptable Mappings):** 2 of 16 categories.
-- **Section 3 (Categories Requiring Taxonomy Expansion):** 1 of 16 categories.
+- **Section 2 (Temporary Acceptable Mappings):** 2 of 16 categories — both reassessed in Section 5; **neither promoted** to a dedicated `IndustryType` (business-model problems, not industry problems).
+- **Section 3 (Categories Requiring Taxonomy Expansion):** 1 of 16 categories (`niche-content-studios` → `mediaProduction`, confirmed for the next migration in Section 6).
