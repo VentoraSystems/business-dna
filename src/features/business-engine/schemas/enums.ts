@@ -42,6 +42,7 @@ export const industryTypeSchema = z.enum([
   "entertainment",
   "homeServices",
   "professionalServices",
+  "mediaProduction",
 ]);
 
 export const lifestyleModeSchema = z.enum(["remote", "hybrid", "inPerson"]);

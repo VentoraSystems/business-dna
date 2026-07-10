@@ -107,6 +107,7 @@ export const industryTypeSchema = z.enum([
   "entertainment",
   "homeServices",
   "professionalServices",
+  "mediaProduction",
 ]);
 
 export const businessModelTypeSchema = z.enum([
