@@ -109,14 +109,18 @@ Fourteen dimensions, as specified, in `scoring/dimensions.ts`:
 `workStyle`.
 
 `scoring/weight-config.ts` defines `WeightConfig` — a versioned map from
-dimension to weight — and exports one instance, `UNIFORM_CONFIG`
-(formerly `UNWEIGHTED_CONFIG`, `weights: {}`, renamed in Phase 2 alongside
-its value): every dimension now weighs exactly 1, a deliberate v1 product
-decision (no dimension is judged more important than another yet), not an
-engineering default. Versioning still exists so the engine can support
-more than one configuration side by side later (A/B testing a new
-weighting, or letting a specific product decision override the default)
-without a schema change.
+dimension to weight — and exports one instance, `DEFAULT_CONFIG`
+(formerly `UNIFORM_CONFIG`, formerly `UNWEIGHTED_CONFIG` — renamed each
+time its value stopped matching its name). As of the budget-mismatch fix,
+`budget` weighs 5x every other dimension (still weight 1); this is a
+deliberate product decision — a bad budget fit should visibly drag a
+business down the ranking even though `NoOpRuleEngine` never hard-excludes
+it (see "Rule system" below) — not an engineering default, and not
+something any other dimension's weight was changed to accommodate.
+Versioning still exists so the engine can support more than one
+configuration side by side later (A/B testing a new weighting, or letting
+a specific product decision override the default) without a schema
+change.
 
 `ScoreCalculator` turns one (assessment, candidate, weights) triple into a
 `DimensionScore[]` — one entry per shared dimension, carrying both the raw

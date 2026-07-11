@@ -1,19 +1,23 @@
 import { describe, it, expect } from "vitest";
-import { UNIFORM_CONFIG, getDimensionWeight } from "../scoring/weight-config";
+import { DEFAULT_CONFIG, getDimensionWeight } from "../scoring/weight-config";
 import { ALL_MATCHING_DIMENSIONS, MatchingDimension } from "../scoring/dimensions";
 
-describe("UNIFORM_CONFIG", () => {
-  it("assigns weight 1 to every one of the 14 dimensions", () => {
-    expect(Object.keys(UNIFORM_CONFIG.weights)).toHaveLength(ALL_MATCHING_DIMENSIONS.length);
+describe("DEFAULT_CONFIG", () => {
+  it("has a weight for every one of the 14 dimensions", () => {
+    expect(Object.keys(DEFAULT_CONFIG.weights)).toHaveLength(ALL_MATCHING_DIMENSIONS.length);
+  });
+
+  it("weights budget 5x every other dimension", () => {
+    expect(DEFAULT_CONFIG.weights[MatchingDimension.Budget]).toBe(5);
     for (const dimension of ALL_MATCHING_DIMENSIONS) {
-      expect(UNIFORM_CONFIG.weights[dimension]).toBe(1);
+      if (dimension === MatchingDimension.Budget) continue;
+      expect(DEFAULT_CONFIG.weights[dimension]).toBe(1);
     }
   });
 
-  it("getDimensionWeight returns 1 for every dimension", () => {
-    for (const dimension of Object.values(MatchingDimension)) {
-      expect(getDimensionWeight(UNIFORM_CONFIG, dimension)).toBe(1);
-    }
+  it("getDimensionWeight reflects the same per-dimension values", () => {
+    expect(getDimensionWeight(DEFAULT_CONFIG, MatchingDimension.Budget)).toBe(5);
+    expect(getDimensionWeight(DEFAULT_CONFIG, MatchingDimension.Risk)).toBe(1);
   });
 
   it("getDimensionWeight still defaults to 0 for a config that omits a dimension", () => {

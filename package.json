@@ -19,7 +19,9 @@
     "db:seed:business-engine": "tsx prisma/seed-business-engine.ts",
     "db:studio": "prisma studio",
     "matching-engine:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/matching-engine-integration-check.ts",
-    "results-pipeline:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/results-pipeline-integration-check.ts"
+    "results-pipeline:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/results-pipeline-integration-check.ts",
+    "answer-persistence:check": "tsx scripts/answer-persistence-check.ts",
+    "budget-weight:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/budget-weight-before-after-check.ts"
   },
   "dependencies": {
     "next": "^14.2.21",

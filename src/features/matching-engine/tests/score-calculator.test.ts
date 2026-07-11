@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { PlaceholderScoreCalculator, DefaultScoreCalculator } from "../scoring/score-calculator";
-import { UNIFORM_CONFIG } from "../scoring/weight-config";
+import { DEFAULT_CONFIG } from "../scoring/weight-config";
 import { MatchingDimension } from "../scoring/dimensions";
 import { NotImplementedError } from "../utils/errors";
 import type { AssessmentFeatureVector } from "../types/assessment-input";
@@ -13,7 +13,7 @@ describe("PlaceholderScoreCalculator", () => {
       calculator.calculateDimensionScores(
         { assessmentId: "a1", userId: "u1", locale: "en", dimensionInputs: {} },
         { businessTypeId: "bt1", slug: "x", translationKey: "x", dimensionProfile: {}, skillKeys: [] },
-        UNIFORM_CONFIG
+        DEFAULT_CONFIG
       )
     ).rejects.toBeInstanceOf(NotImplementedError);
   });
@@ -40,15 +40,17 @@ describe("DefaultScoreCalculator", () => {
       skillKeys: [],
     };
 
-    const scores = await calculator.calculateDimensionScores(assessmentFeatures, candidate, UNIFORM_CONFIG);
+    const scores = await calculator.calculateDimensionScores(assessmentFeatures, candidate, DEFAULT_CONFIG);
 
     expect(scores).toHaveLength(2);
     const budget = scores.find((s) => s.dimension === MatchingDimension.Budget);
     expect(budget?.rawValue).toBeCloseTo(0.8, 5); // 1 - |0.8 - 0.6|
-    expect(budget?.weight).toBe(1);
-    expect(budget?.weightedValue).toBeCloseTo(0.8, 5);
+    expect(budget?.weight).toBe(5); // DEFAULT_CONFIG weights budget 5x the rest
+    expect(budget?.weightedValue).toBeCloseTo(4, 5); // 0.8 * 5
     const risk = scores.find((s) => s.dimension === MatchingDimension.Risk);
     expect(risk?.rawValue).toBeCloseTo(0.3, 5); // 1 - |0.2 - 0.9|
+    expect(risk?.weight).toBe(1);
+    expect(risk?.weightedValue).toBeCloseTo(0.3, 5);
   });
 
   it("skips a dimension present on only one side", async () => {
@@ -68,7 +70,7 @@ describe("DefaultScoreCalculator", () => {
       skillKeys: [],
     };
 
-    const scores = await calculator.calculateDimensionScores(assessmentFeatures, candidate, UNIFORM_CONFIG);
+    const scores = await calculator.calculateDimensionScores(assessmentFeatures, candidate, DEFAULT_CONFIG);
     expect(scores).toEqual([]);
   });
 
@@ -98,11 +100,11 @@ describe("DefaultScoreCalculator", () => {
       industryCode: "health",
     };
 
-    const matchingScores = await calculator.calculateDimensionScores(assessmentFeatures, matchingCandidate, UNIFORM_CONFIG);
+    const matchingScores = await calculator.calculateDimensionScores(assessmentFeatures, matchingCandidate, DEFAULT_CONFIG);
     expect(matchingScores.find((s) => s.dimension === MatchingDimension.IndustryPreference)?.rawValue).toBe(1);
     expect(matchingScores.find((s) => s.dimension === MatchingDimension.BusinessModelPreference)?.rawValue).toBe(0);
 
-    const nonMatchingScores = await calculator.calculateDimensionScores(assessmentFeatures, nonMatchingCandidate, UNIFORM_CONFIG);
+    const nonMatchingScores = await calculator.calculateDimensionScores(assessmentFeatures, nonMatchingCandidate, DEFAULT_CONFIG);
     expect(nonMatchingScores.find((s) => s.dimension === MatchingDimension.IndustryPreference)?.rawValue).toBe(0);
   });
 });

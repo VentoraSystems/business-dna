@@ -22,24 +22,41 @@ export interface WeightConfig {
   weights: DimensionWeightMap;
 }
 
+/** Every dimension's weight before `BUDGET_WEIGHT_OVERRIDE` is applied below. */
+const BASE_WEIGHT = 1;
+
 /**
- * v1 default: every one of the 14 `MatchingDimension`s contributes equally
- * (weight 1) to a candidate's score. This was a deliberate product decision
- * for the first real scoring pass — no dimension is judged more important
- * than another yet (e.g. budget isn't weighted above communicationStyle) —
- * rather than an engineering default. A future phase may replace this with
- * per-dimension weights informed by real match outcomes; `WeightConfig`
- * stays versioned (see above) specifically so that transition doesn't need
- * a schema change.
- *
- * Formerly `UNWEIGHTED_CONFIG` (`weights: {}`, every dimension contributing
- * 0) — renamed together with its value now that a real weighting exists,
- * so nothing in this codebase still calls a uniformly-weighted config
- * "unweighted".
+ * Product decision (not an engineering default): a budget mismatch should
+ * never hard-exclude a business (see `NoOpRuleEngine` — no hard exclusions
+ * exist for v1), but it should visibly drag a bad-fit business down the
+ * ranking rather than being drowned out by the other 13 dimensions. 5x the
+ * base weight was chosen as a simple, defensible multiplier — strong enough
+ * that a real budget mismatch measurably outweighs a handful of well-matched
+ * dimensions, without being so extreme that budget becomes the *only*
+ * dimension that matters. Revisit with real match-outcome data once any
+ * exists.
  */
-export const UNIFORM_CONFIG: WeightConfig = {
-  version: "v1-uniform",
-  weights: Object.fromEntries(ALL_MATCHING_DIMENSIONS.map((dimension) => [dimension, 1])) as DimensionWeightMap,
+const BUDGET_WEIGHT_OVERRIDE = 5;
+
+/**
+ * v1 default: 13 of the 14 `MatchingDimension`s contribute equally (weight
+ * `BASE_WEIGHT`); `budget` is weighted `BUDGET_WEIGHT_OVERRIDE`x higher per
+ * the product decision above. `WeightConfig` stays versioned (see above) so
+ * a future phase can replace this with per-dimension weights informed by
+ * real match outcomes without a schema change.
+ *
+ * Formerly `UNIFORM_CONFIG` (every dimension at `BASE_WEIGHT`, no
+ * dimension weighted above another) — renamed now that one dimension is no
+ * longer uniform with the rest, so nothing in this codebase still calls a
+ * non-uniformly-weighted config "uniform". Before that, `UNWEIGHTED_CONFIG`
+ * (`weights: {}`, every dimension contributing 0).
+ */
+export const DEFAULT_CONFIG: WeightConfig = {
+  version: "v2-budget-weighted",
+  weights: {
+    ...(Object.fromEntries(ALL_MATCHING_DIMENSIONS.map((dimension) => [dimension, BASE_WEIGHT])) as DimensionWeightMap),
+    [MatchingDimension.Budget]: BUDGET_WEIGHT_OVERRIDE,
+  },
 };
 
 export function getDimensionWeight(config: WeightConfig, dimension: MatchingDimension): number {

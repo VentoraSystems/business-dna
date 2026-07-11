@@ -3,7 +3,7 @@ import { MatchingPipelineStage } from "../types/pipeline";
 import type { Locale } from "@/i18n/config";
 import type { CompatibilityResult } from "../types/compatibility-result";
 import type { RawAssessmentAnswers, NormalizedAssessmentProfile } from "../types/assessment-input";
-import { UNIFORM_CONFIG, type WeightConfig } from "../scoring/weight-config";
+import { DEFAULT_CONFIG, type WeightConfig } from "../scoring/weight-config";
 import { matchingRules } from "../rules/rule-registry";
 import { SKILL_KEYS } from "../scoring/dimension-mapping";
 import { type AssessmentNormalizer, DefaultAssessmentNormalizer } from "./assessment-normalizer";
@@ -75,7 +75,7 @@ export class DefaultMatchingEngine implements MatchingEngine {
   constructor(private readonly deps: MatchingEngineDependencies) {}
 
   async run(request: MatchingRequest): Promise<CompatibilityResult[]> {
-    const weights = request.weightConfig ?? UNIFORM_CONFIG;
+    const weights = request.weightConfig ?? DEFAULT_CONFIG;
 
     // Stage 1 — Assessment Answers.
     const rawAnswers = await this.deps.fetchRawAnswers(request.assessmentId);

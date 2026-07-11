@@ -4,12 +4,23 @@ import { cache } from "react";
 import { revalidatePath } from "next/cache";
 import { db } from "@/lib/db";
 import { requireCurrentUser } from "@/lib/auth";
-import type { Locale } from "@/i18n/config";
+import { defaultLocale, type Locale } from "@/i18n/config";
 import type { AnswersState } from "../types";
 import { createMatchingEngine } from "@/features/matching-engine/services/matching-engine";
 import type { ExplanationGenerator } from "@/features/matching-engine/services/explanation-generator";
 import { businessMatchRepository } from "@/features/business-engine/repositories";
 import { fetchRawAnswersForMatching } from "./fetch-raw-answers";
+
+/**
+ * Matches next-intl's `localePrefix: "as-needed"` routing (see
+ * src/i18n/navigation.ts): the default locale has no URL prefix, so
+ * `/assessment` is the real path for `en`, `/ro/assessment` for `ro`.
+ * `revalidatePath()` needs the exact rendered path, not a locale-agnostic
+ * one — passing the wrong one silently revalidates nothing.
+ */
+function assessmentPathFor(locale: Locale): string {
+  return locale === defaultLocale ? "/assessment" : `/${locale}/assessment`;
+}
 
 /**
  * The question bank rarely changes at runtime, so memoize the key → id
@@ -87,6 +98,15 @@ function toSessionWithAnswers(session: RawSessionWithAnswers): SessionWithAnswer
  * Autosave a single answer plus the user's current position in the flow.
  * Upserts on [sessionId, questionId] so re-answering never creates
  * duplicate rows.
+ *
+ * Also revalidates the Assessment page's path — without this, Next.js's
+ * client-side Router Cache can keep serving the RSC payload from the
+ * user's *first* visit (before any answers existed) on a later
+ * client-side navigation back to `/assessment`, even though every answer
+ * really is persisted correctly underneath. This was the actual root
+ * cause of "my answers disappeared after I left and came back": the data
+ * was always there in the database, but the page the user saw hadn't been
+ * told to fetch it again.
  */
 export async function saveAnswer(input: {
   sessionId: string;
@@ -118,10 +138,11 @@ export async function saveAnswer(input: {
     }),
   ]);
 
+  revalidatePath(assessmentPathFor(session.locale));
   return { success: true as const };
 }
 
-/** Update only the current step, e.g. when the user navigates back. */
+/** Update only the current step, e.g. when the user navigates back. Same cache-freshness reasoning as saveAnswer() above. */
 export async function updateSessionStep(sessionId: string, currentStep: number) {
   const user = await requireCurrentUser();
   const session = await db.assessmentSession.findUnique({ where: { id: sessionId } });
@@ -130,6 +151,7 @@ export async function updateSessionStep(sessionId: string, currentStep: number) 
   }
 
   await db.assessmentSession.update({ where: { id: sessionId }, data: { currentStep } });
+  revalidatePath(assessmentPathFor(session.locale));
   return { success: true as const };
 }
 
