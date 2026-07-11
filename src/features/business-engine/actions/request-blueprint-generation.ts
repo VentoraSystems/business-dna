@@ -3,6 +3,12 @@
 import { waitUntil } from "@vercel/functions";
 import { db } from "@/lib/db";
 import { requireCurrentUser } from "@/lib/auth";
+import { openai } from "@/ai/openai";
+import { buildBlueprintSystemPrompt, buildBlueprintUserPrompt } from "@/ai/prompts/blueprint";
+import { readBlueprintGenerationContext } from "@/features/business-engine/utils/blueprint-generation-context";
+import { blueprintContentSchema, type BlueprintContent } from "@/features/business-engine/schemas/blueprint-content";
+import { fetchRawAnswersForMatching } from "@/features/assessment/actions/fetch-raw-answers";
+import type { Locale } from "@/i18n/config";
 
 export interface RequestBlueprintGenerationResult {
   blueprintId: string;
@@ -19,11 +25,8 @@ export interface RequestBlueprintGenerationResult {
  * event loop regardless, since there's no per-request Lambda to freeze.
  *
  * Fire-and-forget trigger: resets the Blueprint to "generating" and hands
- * the actual generation work to generateBlueprintContent() via
- * waitUntil(), so this action returns immediately. generateBlueprintContent()
- * is a stub in this phase (Part 1) — it just proves the
- * trigger -> background -> status-flip mechanism works. The real AI
- * generation logic is Part 2.
+ * the real generation work to generateBlueprintContent() via waitUntil(),
+ * so this action returns immediately.
  */
 export async function requestBlueprintGeneration(businessId: string): Promise<RequestBlueprintGenerationResult> {
   const user = await requireCurrentUser();
@@ -44,37 +47,81 @@ export async function requestBlueprintGeneration(businessId: string): Promise<Re
   return { blueprintId: blueprint.id };
 }
 
-/** Stand-in for the artificial latency a real AI call (Part 2) would have. */
-const STUB_GENERATION_DELAY_MS = 1500;
+const MODEL = "gpt-4o-mini";
 
 /**
- * STUB — Part 1 only. Sets status to "ready" with a hardcoded test
- * payload after a short simulated delay. Real prompt/AI generation logic
- * is Part 2, built on top of this same trigger.
+ * One full model call: build the prompt from real business/user content,
+ * call the model with `response_format: { type: "json_object" }` (loose
+ * JSON-mode — guarantees syntactically valid JSON; blueprintContentSchema
+ * below is what actually guarantees the exact 15 keys/shape, since
+ * OpenAI's stricter `json_schema` Structured Outputs mode requires
+ * `additionalProperties: false` and no-optional-fields at every nesting
+ * level, which fights the swot/businessModelCanvas sub-objects for no real
+ * benefit once Zod is validating anyway), then parse + validate. Throws on
+ * any failure — the caller is responsible for retrying/giving up.
+ */
+async function generateAndValidate(
+  slug: string,
+  locale: Locale,
+  assessmentId: string
+): Promise<BlueprintContent> {
+  const context = readBlueprintGenerationContext(slug, locale);
+  const rawAnswers = await fetchRawAnswersForMatching(assessmentId);
+
+  const systemPrompt = buildBlueprintSystemPrompt(locale);
+  const userPrompt = buildBlueprintUserPrompt(context, rawAnswers);
+
+  const completion = await openai.chat.completions.create({
+    model: MODEL,
+    response_format: { type: "json_object" },
+    messages: [
+      { role: "system", content: systemPrompt },
+      { role: "user", content: userPrompt },
+    ],
+  });
+
+  const raw = completion.choices[0]?.message?.content ?? "";
+  const parsed: unknown = JSON.parse(raw);
+  return blueprintContentSchema.parse(parsed);
+}
+
+/**
+ * Real AI generation (Part 2) — replaces Part 1's hardcoded stub entirely.
+ * Validates the response against blueprintContentSchema before persisting;
+ * on failure, retries once; if the retry also fails, persists status
+ * "failed" with a clear error instead of malformed content.
  */
 async function generateBlueprintContent(blueprintId: string): Promise<void> {
   try {
-    await new Promise((resolve) => setTimeout(resolve, STUB_GENERATION_DELAY_MS));
+    const blueprint = await db.blueprint.findUniqueOrThrow({
+      where: { id: blueprintId },
+      include: { business: { include: { businessType: true } } },
+    });
+    const { business } = blueprint;
+    if (!business.businessTypeId || !business.businessType) {
+      throw new Error("Business has no linked BusinessType — cannot generate a Blueprint without one.");
+    }
+    if (!business.assessmentId) {
+      throw new Error("Business has no linked Assessment — cannot personalize a Blueprint without one.");
+    }
+
+    let content: BlueprintContent;
+    try {
+      content = await generateAndValidate(business.businessType.slug, blueprint.locale, business.assessmentId);
+    } catch {
+      // Validation/parse/API failure on the first attempt — retry once before giving up.
+      content = await generateAndValidate(business.businessType.slug, blueprint.locale, business.assessmentId);
+    }
 
     await db.blueprint.update({
       where: { id: blueprintId },
-      data: {
-        status: "ready",
-        error: null,
-        content: {
-          _stub: true,
-          generatedAt: new Date().toISOString(),
-          sections: [
-            { key: "executiveSummary", body: "Stub content — real generation lands in Part 2." },
-          ],
-        },
-      },
+      data: { status: "ready", error: null, content: content as object },
     });
   } catch (error) {
     await db.blueprint
       .update({
         where: { id: blueprintId },
-        data: { status: "failed", error: error instanceof Error ? error.message : "Unknown error" },
+        data: { status: "failed", error: error instanceof Error ? error.message.slice(0, 2000) : "Unknown error" },
       })
       .catch(() => {});
   }
