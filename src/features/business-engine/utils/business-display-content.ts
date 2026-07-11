@@ -44,7 +44,14 @@ export function readBusinessDisplayContent(slug: string, locale: Locale): Busine
     };
   } catch {
     // A business-dna.json can legitimately be missing — fall back to the slug rather than
-    // let one bad/missing file break the page that's rendering it.
+    // let one bad/missing file break the page that's rendering it. Note this catch also
+    // used to mask a real bug: on Vercel, fs.readFileSync(business-library/**) failed with
+    // ENOENT for any caller reached through a Server Action (this file's read wasn't in the
+    // deployed function's traced file list), so callers like results-actions.ts were quietly
+    // falling back to slug-only names in production instead of erroring. Fixed at the root by
+    // next.config.mjs's outputFileTracingIncludes (see the "Vercel serverless filesystem fix"
+    // commit) — this catch should no longer see ENOENT from a missing file, only a genuinely
+    // malformed/absent business-dna.json.
     return fallback;
   }
 }
