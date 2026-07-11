@@ -297,14 +297,23 @@ model Business {
   @@map("businesses")
 }
 
+enum BlueprintStatus {
+  pending
+  generating
+  ready
+  failed
+}
+
 model Blueprint {
-  id          String   @id @default(cuid())
-  businessId  String   @unique
-  business    Business @relation(fields: [businessId], references: [id], onDelete: Cascade)
-  locale      Locale   @default(en)
+  id          String          @id @default(cuid())
+  businessId  String          @unique
+  business    Business        @relation(fields: [businessId], references: [id], onDelete: Cascade)
+  locale      Locale          @default(en)
+  status      BlueprintStatus @default(pending)
+  error       String?
   content     Json
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
 
   @@map("blueprints")
 }
