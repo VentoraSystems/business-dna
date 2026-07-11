@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { PageHeader } from "@/components/layout/page-header";
+import { Link } from "@/i18n/navigation";
 import { db } from "@/lib/db";
 import { requireCurrentUser } from "@/lib/auth";
 
@@ -42,7 +43,9 @@ export default async function BusinessDetailPage({
           <PageHeader title={business.name} subtitle={business.summary ?? undefined} />
         </div>
         <div className="flex flex-wrap gap-2">
-          <Button variant="secondary" size="sm">{tButtons("generatePlan")}</Button>
+          <Button variant="secondary" size="sm" asChild>
+            <Link href={`/businesses/${businessId}/blueprint`}>{tButtons("generatePlan")}</Link>
+          </Button>
           <Button variant="secondary" size="sm">{tButtons("generateBranding")}</Button>
           <Button variant="secondary" size="sm">{tButtons("generateWebsite")}</Button>
           <Button variant="secondary" size="sm">{tButtons("generateFinancialModel")}</Button>

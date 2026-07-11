@@ -788,6 +788,37 @@
       "growthPlan": "Growth Plan",
       "riskAnalysis": "Risk Analysis",
       "exitStrategy": "Exit Strategy"
+    },
+    "swot": {
+      "strengths": "Strengths",
+      "weaknesses": "Weaknesses",
+      "opportunities": "Opportunities",
+      "threats": "Threats"
+    },
+    "canvas": {
+      "keyPartners": "Key Partners",
+      "keyActivities": "Key Activities",
+      "keyResources": "Key Resources",
+      "valuePropositions": "Value Propositions",
+      "customerRelationships": "Customer Relationships",
+      "channels": "Channels",
+      "customerSegments": "Customer Segments",
+      "costStructure": "Cost Structure",
+      "revenueStreams": "Revenue Streams"
+    },
+    "generating": {
+      "subtitle": "This usually takes 10-20 seconds.",
+      "messages": [
+        "Reading your assessment answers…",
+        "Grounding the plan in real business data…",
+        "Personalizing your financial forecast…",
+        "Writing your 15-section business plan…",
+        "Finalizing…"
+      ]
+    },
+    "failed": {
+      "title": "Generation failed",
+      "description": "Something went wrong while generating your business plan."
     }
   },
   "roadmap": {
