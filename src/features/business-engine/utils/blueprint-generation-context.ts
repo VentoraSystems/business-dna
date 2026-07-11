@@ -4,27 +4,35 @@ import path from "node:path";
 import { locales, type Locale } from "@/i18n/config";
 
 const BUSINESS_LIBRARY_DIR = path.join(process.cwd(), "business-library", "technology");
-const MESSAGES_DIR = path.join(process.cwd(), "messages");
 
-const messagesCache = new Map<Locale, Record<string, unknown>>();
-
-function loadMessages(locale: Locale): Record<string, unknown> {
-  const cached = messagesCache.get(locale);
-  if (cached) return cached;
-  const raw = JSON.parse(readFileSync(path.join(MESSAGES_DIR, `${locale}.json`), "utf-8")) as Record<string, unknown>;
-  messagesCache.set(locale, raw);
-  return raw;
+/**
+ * Loads messages/<locale>.json the same way src/i18n/request.ts does
+ * (`await import(...)`), NOT via fs — a runtime `fs.readFileSync` of
+ * project files works locally but breaks on Vercel: files read via `fs`
+ * at request time aren't included in the deployed serverless function
+ * bundle unless Next's file tracer can statically resolve the path (see
+ * README/commit history — this is what caused
+ * "ENOENT ... open '/var/task/messages/en.json'" in production). A
+ * bundler-resolved `import()` sidesteps the problem entirely: webpack
+ * bundles both locale files directly into the function's JS output, so
+ * there's nothing for the tracer to miss. business-library/**'s reads
+ * below stay on fs.readFileSync (the per-business slug is unbounded and
+ * can't be statically imported) — outputFileTracingIncludes in
+ * next.config.mjs covers those instead.
+ */
+async function loadMessages(locale: Locale): Promise<Record<string, unknown>> {
+  const messages = locale === "en" ? await import("../../../../messages/en.json") : await import("../../../../messages/ro.json");
+  return messages.default as Record<string, unknown>;
 }
 
 /**
  * Resolves a dot-path translation key (e.g.
  * "businessLibrary.softwareHouse.marketing.positioning.statement") against
- * messages/<locale>.json. Falls back to the key itself — a missing
- * translation shouldn't break generation, same fallback philosophy as
- * readBusinessDisplayContent().
+ * an already-loaded messages object. Falls back to the key itself — a
+ * missing translation shouldn't break generation, same fallback philosophy
+ * as readBusinessDisplayContent().
  */
-function resolveTranslationKey(key: string, locale: Locale): string {
-  const messages = loadMessages(locale);
+function resolveTranslationKey(key: string, messages: Record<string, unknown>): string {
   const parts = key.split(".");
   let node: unknown = messages;
   for (const part of parts) {
@@ -44,18 +52,18 @@ function resolveTranslationKey(key: string, locale: Locale): string {
  * doesn't care whether the key is called "titleTranslationKey" or "title",
  * only that the value is real text instead of an opaque key string.
  */
-function resolveTranslationKeysDeep(node: unknown, locale: Locale): unknown {
-  if (Array.isArray(node)) return node.map((item) => resolveTranslationKeysDeep(item, locale));
+function resolveTranslationKeysDeep(node: unknown, messages: Record<string, unknown>): unknown {
+  if (Array.isArray(node)) return node.map((item) => resolveTranslationKeysDeep(item, messages));
   if (node && typeof node === "object") {
     const result: Record<string, unknown> = {};
     for (const [key, value] of Object.entries(node as Record<string, unknown>)) {
       const isKeyField = key.toLowerCase().includes("translationkey");
       if (isKeyField && typeof value === "string") {
-        result[key] = resolveTranslationKey(value, locale);
+        result[key] = resolveTranslationKey(value, messages);
       } else if (isKeyField && Array.isArray(value)) {
-        result[key] = value.map((k) => (typeof k === "string" ? resolveTranslationKey(k, locale) : k));
+        result[key] = value.map((k) => (typeof k === "string" ? resolveTranslationKey(k, messages) : k));
       } else {
-        result[key] = resolveTranslationKeysDeep(value, locale);
+        result[key] = resolveTranslationKeysDeep(value, messages);
       }
     }
     return result;
@@ -146,9 +154,10 @@ export interface BlueprintGenerationContext {
  * Gathers every real, authored piece of content available for one
  * BusinessType, locale-resolved, ready to feed a generation prompt.
  * Read-only — never modifies business-library content, same convention as
- * readBusinessDisplayContent().
+ * readBusinessDisplayContent(). Async because loading messages/<locale>.json
+ * now goes through a bundler-resolved `import()` (see loadMessages()).
  */
-export function readBlueprintGenerationContext(slug: string, locale: Locale): BlueprintGenerationContext {
+export async function readBlueprintGenerationContext(slug: string, locale: Locale): Promise<BlueprintGenerationContext> {
   const dna = readJson(slug, "business-dna.json") as Record<string, unknown>;
   const businessDna: Record<string, unknown> = {};
   for (const key of DNA_SECTIONS_FOR_GENERATION) {
@@ -160,6 +169,8 @@ export function readBlueprintGenerationContext(slug: string, locale: Locale): Bl
   )?.blueprintStructure?.promptContext;
   const promptContext = promptContextRaw?.[locale] ?? promptContextRaw?.en ?? "";
 
+  const messages = await loadMessages(locale);
+
   return {
     slug,
     locale,
@@ -167,8 +178,8 @@ export function readBlueprintGenerationContext(slug: string, locale: Locale): Bl
     promptContext,
     blueprintNotes: readText(slug, "blueprint.md"),
     aiNotes: readText(slug, "ai-notes.md"),
-    marketing: resolveTranslationKeysDeep(readJson(slug, "marketing.json"), locale),
-    financial: resolveTranslationKeysDeep(readJson(slug, "financial.json"), locale),
-    businessInsights: resolveTranslationKeysDeep(readJson(slug, "business-insights.json"), locale),
+    marketing: resolveTranslationKeysDeep(readJson(slug, "marketing.json"), messages),
+    financial: resolveTranslationKeysDeep(readJson(slug, "financial.json"), messages),
+    businessInsights: resolveTranslationKeysDeep(readJson(slug, "business-insights.json"), messages),
   };
 }

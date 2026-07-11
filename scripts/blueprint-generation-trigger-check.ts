@@ -135,7 +135,7 @@ function restoreOpenAi() {
 
 /** Mirrors generateAndValidate() exactly (see src/features/business-engine/actions/request-blueprint-generation.ts) — the real context/prompt/schema pipeline, calling the (mocked) openai client the same way the real code does. */
 async function generateAndValidate(slug: string, locale: "en" | "ro", assessmentId: string) {
-  const context = readBlueprintGenerationContext(slug, locale);
+  const context = await readBlueprintGenerationContext(slug, locale);
   const rawAnswers = await fetchRawAnswersForMatching(assessmentId);
   const systemPrompt = buildBlueprintSystemPrompt(locale);
   const userPrompt = buildBlueprintUserPrompt(context, rawAnswers);

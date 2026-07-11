@@ -65,7 +65,7 @@ async function generateAndValidate(
   locale: Locale,
   assessmentId: string
 ): Promise<BlueprintContent> {
-  const context = readBlueprintGenerationContext(slug, locale);
+  const context = await readBlueprintGenerationContext(slug, locale);
   const rawAnswers = await fetchRawAnswersForMatching(assessmentId);
 
   const systemPrompt = buildBlueprintSystemPrompt(locale);
