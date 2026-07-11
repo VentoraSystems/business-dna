@@ -1,12 +1,14 @@
 "use client";
 
+import { useState, useTransition } from "react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Info } from "lucide-react";
-import { Link } from "@/i18n/navigation";
+import { Link, useRouter } from "@/i18n/navigation";
 import { Badge, type BadgeProps } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { adoptBusinessMatch } from "@/features/business-engine/actions/adopt-business-match";
 import type { DifficultyLevel, RevenueSpeed, ScalabilityLevel } from "./config";
 import type { ResultsOpportunity } from "@/features/assessment/actions/results-actions";
 
@@ -56,6 +58,41 @@ function formatEuros(value: number) {
  */
 interface RecommendedOpportunitiesProps {
   opportunities: ResultsOpportunity[];
+}
+
+/**
+ * "Choose This Business" sits alongside "Explore Business" rather than
+ * replacing it — Explore is a read-only look at the catalog entry, Adopt
+ * commits the user and creates their own Business record. Each card owns
+ * its own pending/error state so adopting one match doesn't disable the
+ * others.
+ */
+function AdoptButton({ matchResultId }: { matchResultId: string }) {
+  const t = useTranslations("assessment.results.opportunities");
+  const router = useRouter();
+  const [isPending, startTransition] = useTransition();
+  const [hasError, setHasError] = useState(false);
+
+  function handleAdopt() {
+    setHasError(false);
+    startTransition(async () => {
+      try {
+        const business = await adoptBusinessMatch(matchResultId);
+        router.push(`/businesses/${business.id}`);
+      } catch {
+        setHasError(true);
+      }
+    });
+  }
+
+  return (
+    <>
+      <Button onClick={handleAdopt} disabled={isPending}>
+        {isPending ? t("adoptButtonPending") : t("adoptButton")}
+      </Button>
+      {hasError && <p className="text-xs text-destructive">{t("adoptError")}</p>}
+    </>
+  );
 }
 
 export function RecommendedOpportunities({ opportunities }: RecommendedOpportunitiesProps) {
@@ -118,9 +155,12 @@ export function RecommendedOpportunities({ opportunities }: RecommendedOpportuni
                     {formatEuros(opportunity.monthlyRevenueMax)}
                   </p>
 
-                  <Button variant="secondary" className="mt-auto" asChild>
-                    <Link href={`/businesses/type/${opportunity.slug}`}>{t("opportunities.exploreButton")}</Link>
-                  </Button>
+                  <div className="mt-auto flex flex-col gap-2">
+                    <AdoptButton matchResultId={opportunity.matchResultId} />
+                    <Button variant="secondary" asChild>
+                      <Link href={`/businesses/type/${opportunity.slug}`}>{t("opportunities.exploreButton")}</Link>
+                    </Button>
+                  </div>
                 </CardContent>
               </Card>
             </motion.div>

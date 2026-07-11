@@ -24,6 +24,7 @@ function toUiLevel(prismaLevel: "low" | "moderate" | "high"): "low" | "medium" |
 }
 
 export interface ResultsOpportunity {
+  matchResultId: string;
   businessTypeId: string;
   slug: string;
   name: string;
@@ -137,6 +138,7 @@ export async function getAssessmentResults(assessmentId: string): Promise<Assess
       const budget = result.businessType.budget!;
       const revenue = result.businessType.revenue!;
       return {
+        matchResultId: result.id,
         businessTypeId: result.businessTypeId,
         slug: result.businessType.slug,
         name: content.name,
