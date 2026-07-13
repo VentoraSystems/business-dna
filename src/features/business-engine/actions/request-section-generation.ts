@@ -41,15 +41,25 @@ export async function requestSectionGeneration(
 ): Promise<RequestSectionGenerationResult> {
   const user = await requireCurrentUser();
 
-  const business = await db.business.findUnique({ where: { id: businessId } });
+  const business = await db.business.findUnique({ where: { id: businessId }, include: { assessment: true } });
   if (!business || business.userId !== user.id) {
     throw new Error("BUSINESS_NOT_FOUND");
   }
 
+  // NOT user.locale: nothing in this app ever sets it to anything but the schema's
+  // @default(en) — neither getCurrentUser()'s upsert nor the Clerk user.created/user.updated
+  // webhook include it, so every User row's locale is permanently "en" regardless of which
+  // URL the user actually browses. Assessment.locale, by contrast, IS reliably correct — it's
+  // threaded explicitly from the page's real URL locale at assessment-start time (see
+  // getOrCreateActiveSession(locale) in assessment-actions.ts). This is what caused a Romanian
+  // user's Blueprint to generate in English: the locale VALUE was wrong, not the prompt's
+  // locale instruction (which was already correct for whatever value it received).
+  const blueprintLocale = business.assessment?.locale ?? user.locale;
+
   const blueprint = await db.blueprint.upsert({
     where: { businessId },
     update: {},
-    create: { businessId, locale: user.locale },
+    create: { businessId, locale: blueprintLocale },
   });
 
   const section = await db.blueprintSection.upsert({
@@ -66,11 +76,51 @@ export async function requestSectionGeneration(
 const MODEL = "gpt-4o-mini";
 
 /**
+ * Common English function/stopwords that essentially never appear in
+ * genuine Romanian prose. A defensive backstop, not the primary fix (the
+ * primary fix is using the correct locale VALUE — see
+ * requestSectionGeneration above) — even with a correct locale value and a
+ * strong prompt instruction, an LLM call is never 100% guaranteed to
+ * comply, so this catches that residual risk instead of silently
+ * persisting English content under a "ro" Blueprint.
+ */
+const ENGLISH_STOPWORDS = new Set([
+  "the", "and", "is", "are", "of", "to", "in", "for", "with", "this", "that",
+  "your", "you", "will", "should", "their", "from", "as", "on", "be", "it",
+]);
+
+function extractTextForLanguageCheck(content: unknown): string {
+  if (!content || typeof content !== "object") return "";
+  const values = Object.values(content as Record<string, unknown>);
+  const parts: string[] = [];
+  for (const value of values) {
+    if (typeof value === "string") parts.push(value);
+    else if (Array.isArray(value)) parts.push(...value.filter((v): v is string => typeof v === "string"));
+  }
+  return parts.join(" ");
+}
+
+/** Deliberately generous threshold — a few incidental English loanwords/tool names shouldn't trip this. */
+const ENGLISH_STOPWORD_RATIO_THRESHOLD = 0.08;
+const MIN_WORDS_TO_JUDGE = 20;
+
+function looksLikeWrongLanguage(content: unknown, expectedLocale: Locale): boolean {
+  if (expectedLocale !== "ro") return false; // only need to guard the non-English case
+  const text = extractTextForLanguageCheck(content).toLowerCase();
+  const words = text.split(/[^a-zăâîșț]+/).filter(Boolean);
+  if (words.length < MIN_WORDS_TO_JUDGE) return false; // too short to judge reliably
+  const englishHits = words.filter((word) => ENGLISH_STOPWORDS.has(word)).length;
+  return englishHits / words.length > ENGLISH_STOPWORD_RATIO_THRESHOLD;
+}
+
+/**
  * One full model call for one section: build the section-scoped prompt
  * from real business/user content, call the model with
  * response_format: { type: "json_object" } (loose JSON-mode — the
  * per-section Zod schema is what actually guarantees the right shape),
- * parse, validate. Throws on any failure — the caller retries once.
+ * parse, validate, and heuristically check the output language actually
+ * matches what was asked for. Throws on any failure — the caller retries
+ * once.
  */
 async function generateAndValidateSection(
   slug: string,
@@ -95,7 +145,13 @@ async function generateAndValidateSection(
 
   const raw = completion.choices[0]?.message?.content ?? "";
   const parsed: unknown = JSON.parse(raw);
-  return getSectionContentSchema(sectionKey).parse(parsed);
+  const validated = getSectionContentSchema(sectionKey).parse(parsed);
+
+  if (looksLikeWrongLanguage(validated, locale)) {
+    throw new Error(`Generated content for "${sectionKey}" appears to be in the wrong language (expected "${locale}").`);
+  }
+
+  return validated;
 }
 
 /**

@@ -25,6 +25,7 @@
     "adopt-business-match:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/adopt-business-match-check.ts",
     "section-trigger:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/section-generation-trigger-check.ts",
     "section-generation:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/section-generation-real-check.ts",
+    "section-locale-fix:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/section-locale-fix-check.ts",
     "my-businesses-listing:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/my-businesses-listing-check.ts"
   },
   "dependencies": {
