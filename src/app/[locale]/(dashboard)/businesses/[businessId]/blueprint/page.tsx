@@ -9,6 +9,7 @@ import { db } from "@/lib/db";
 import { requireCurrentUser } from "@/lib/auth";
 import { listSectionStatuses } from "@/features/business-engine/actions/section-status";
 import type { BlueprintStatus } from "@prisma/client";
+import type { BlueprintSectionKey } from "@/features/business-engine/actions/request-section-generation";
 
 const STATUS_BADGE_VARIANT: Record<BlueprintStatus | "none", BadgeProps["variant"]> = {
   none: "neutral",
@@ -17,6 +18,9 @@ const STATUS_BADGE_VARIANT: Record<BlueprintStatus | "none", BadgeProps["variant
   ready: "success",
   failed: "error",
 };
+
+/** Roadmap Part 3: these 2 sections' content (Part 2's structured task list) is displayed and managed on the Roadmap page instead of a prose section view. */
+const ROADMAP_LINKED_SECTION_KEYS = new Set<BlueprintSectionKey>(["launchPlan", "growthPlan"]);
 
 export default async function BusinessBlueprintLandingPage({
   params,
@@ -44,7 +48,14 @@ export default async function BusinessBlueprintLandingPage({
       </div>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {sections.map(({ sectionKey, status }) => (
-          <Link key={sectionKey} href={`/businesses/${businessId}/blueprint/${sectionKey}`}>
+          <Link
+            key={sectionKey}
+            href={
+              ROADMAP_LINKED_SECTION_KEYS.has(sectionKey)
+                ? `/businesses/${businessId}/roadmap`
+                : `/businesses/${businessId}/blueprint/${sectionKey}`
+            }
+          >
             <Card className="h-full transition-colors hover:border-accent">
               <CardContent className="flex h-full flex-col gap-3 py-5">
                 <p className="font-display text-lg">{t(`sections.${sectionKey}`)}</p>

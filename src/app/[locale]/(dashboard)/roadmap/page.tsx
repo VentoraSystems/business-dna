@@ -1,21 +1,32 @@
-import { Map } from "lucide-react";
-import { getTranslations, setRequestLocale } from "next-intl/server";
-import { PageHeader } from "@/components/layout/page-header";
-import { EmptyState } from "@/components/ui/empty-state";
+import { setRequestLocale } from "next-intl/server";
+import { redirect } from "@/i18n/navigation";
+import { db } from "@/lib/db";
+import { requireCurrentUser } from "@/lib/auth";
 
-export default async function RoadmapPage({
+/**
+ * Same pattern as the Blueprint top-level redirect (see
+ * businesses/[businessId]/blueprint's sibling top-level route) — the
+ * sidebar's generic "Roadmap" nav link has no business context, so it
+ * redirects to the user's most-recently-adopted business's roadmap, or to
+ * the businesses list (which already has a real empty state) if they
+ * haven't adopted one yet.
+ */
+export default async function RoadmapRedirectPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations("roadmap");
 
-  return (
-    <div className="mx-auto max-w-6xl">
-      <PageHeader title={t("title")} subtitle={t("subtitle")} />
-      <EmptyState icon={Map} title={t("title")} description={t("emptyDescription")} />
-    </div>
-  );
+  const user = await requireCurrentUser();
+  const mostRecentBusiness = await db.business.findFirst({
+    where: { userId: user.id },
+    orderBy: { createdAt: "desc" },
+  });
+
+  if (mostRecentBusiness) {
+    redirect({ href: `/businesses/${mostRecentBusiness.id}/roadmap`, locale });
+  }
+  redirect({ href: "/businesses", locale });
 }

@@ -832,7 +832,61 @@
     "title": "Roadmap",
     "subtitle": "Your month-by-month launch plan.",
     "month": "Month {number}",
-    "emptyDescription": "Generate a launch plan from a business to see your roadmap here."
+    "emptyDescription": "Generate a launch plan from a business to see your roadmap here.",
+    "backToBlueprint": "Business plan",
+    "personalized": "Personalized",
+    "xpValue": "+{value} XP",
+    "emptyTasksInStage": "No tasks in this stage yet.",
+    "newBadgeToast": "New badge unlocked: {badge}",
+    "stageStatus": {
+      "completed": "Completed",
+      "inProgress": "In progress",
+      "upcoming": "Upcoming"
+    },
+    "stages": {
+      "preparation": "Preparation",
+      "validation": "Validation",
+      "mvp": "MVP",
+      "launch": "Launch",
+      "firstCustomer": "First Customer",
+      "productMarketFit": "Product-Market Fit",
+      "growth": "Growth",
+      "scaling": "Scaling",
+      "expansion": "Expansion",
+      "exit": "Exit"
+    },
+    "hero": {
+      "eyebrow": "Your progress",
+      "level": "Level {level}",
+      "xpToNext": "{xpIntoLevel}/{xpForNextLevel} XP to next level"
+    },
+    "badges": {
+      "firstStep": {
+        "name": "First Step",
+        "unlockedDescription": "Completed your first task.",
+        "lockedDescription": "Complete your first task to unlock."
+      },
+      "readyToLaunch": {
+        "name": "Ready to Launch",
+        "unlockedDescription": "Completed every Launch-stage task.",
+        "lockedDescription": "Complete every Launch-stage task to unlock."
+      },
+      "firstCustomer": {
+        "name": "First Customer",
+        "unlockedDescription": "Completed every First Customer-stage task.",
+        "lockedDescription": "Complete every First Customer-stage task to unlock."
+      },
+      "halfwayThere": {
+        "name": "Halfway There",
+        "unlockedDescription": "Completed half of your roadmap tasks.",
+        "lockedDescription": "Complete 50% of your tasks to unlock."
+      },
+      "roadmapComplete": {
+        "name": "Roadmap Complete",
+        "unlockedDescription": "Completed your entire roadmap!",
+        "lockedDescription": "Complete every task to unlock."
+      }
+    }
   },
   "coFounder": {
     "title": "AI Co-Founder",

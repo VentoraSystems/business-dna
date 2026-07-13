@@ -832,7 +832,61 @@
     "title": "Foaia de parcurs",
     "subtitle": "Planul tău de lansare, lună de lună.",
     "month": "Luna {number}",
-    "emptyDescription": "Generează un plan de lansare pentru o afacere ca să vezi aici foaia de parcurs."
+    "emptyDescription": "Generează un plan de lansare pentru o afacere ca să vezi aici foaia de parcurs.",
+    "backToBlueprint": "Plan de afaceri",
+    "personalized": "Personalizat",
+    "xpValue": "+{value} XP",
+    "emptyTasksInStage": "Încă nu există sarcini în această etapă.",
+    "newBadgeToast": "Insignă nouă deblocată: {badge}",
+    "stageStatus": {
+      "completed": "Finalizată",
+      "inProgress": "În desfășurare",
+      "upcoming": "Următoarea"
+    },
+    "stages": {
+      "preparation": "Pregătire",
+      "validation": "Validare",
+      "mvp": "MVP",
+      "launch": "Lansare",
+      "firstCustomer": "Primul client",
+      "productMarketFit": "Potrivire produs-piață",
+      "growth": "Creștere",
+      "scaling": "Scalare",
+      "expansion": "Expansiune",
+      "exit": "Ieșire"
+    },
+    "hero": {
+      "eyebrow": "Progresul tău",
+      "level": "Nivelul {level}",
+      "xpToNext": "{xpIntoLevel}/{xpForNextLevel} XP până la nivelul următor"
+    },
+    "badges": {
+      "firstStep": {
+        "name": "Primul pas",
+        "unlockedDescription": "Ai finalizat prima ta sarcină.",
+        "lockedDescription": "Finalizează prima sarcină pentru a debloca."
+      },
+      "readyToLaunch": {
+        "name": "Gata de lansare",
+        "unlockedDescription": "Ai finalizat toate sarcinile din etapa de Lansare.",
+        "lockedDescription": "Finalizează toate sarcinile din etapa de Lansare pentru a debloca."
+      },
+      "firstCustomer": {
+        "name": "Primul client",
+        "unlockedDescription": "Ai finalizat toate sarcinile din etapa Primul client.",
+        "lockedDescription": "Finalizează toate sarcinile din etapa Primul client pentru a debloca."
+      },
+      "halfwayThere": {
+        "name": "La jumătatea drumului",
+        "unlockedDescription": "Ai finalizat jumătate din sarcinile foii de parcurs.",
+        "lockedDescription": "Finalizează 50% din sarcini pentru a debloca."
+      },
+      "roadmapComplete": {
+        "name": "Foaie de parcurs completă",
+        "unlockedDescription": "Ai finalizat întreaga foaie de parcurs!",
+        "lockedDescription": "Finalizează toate sarcinile pentru a debloca."
+      }
+    }
   },
   "coFounder": {
     "title": "Co-Fondator AI",
