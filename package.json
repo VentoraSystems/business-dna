@@ -29,7 +29,8 @@
     "roadmap-seed:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/roadmap-seed-check.ts",
     "my-businesses-listing:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/my-businesses-listing-check.ts",
     "roadmap-enrichment:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/roadmap-ai-enrichment-check.ts",
-    "roadmap-view:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/roadmap-view-check.ts"
+    "roadmap-view:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/roadmap-view-check.ts",
+    "roadmap-self-heal:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/roadmap-self-heal-check.ts"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.9.13",

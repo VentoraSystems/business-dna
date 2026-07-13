@@ -4,6 +4,7 @@ import { db } from "@/lib/db";
 import { requireCurrentUser } from "@/lib/auth";
 import { recomputeRoadmapProgress } from "@/features/business-engine/utils/roadmap-progress";
 import type { RoadmapBadgeKey } from "@/features/business-engine/utils/roadmap-progress";
+import { seedRoadmapIfMissing } from "@/features/business-engine/utils/roadmap-seeding";
 import { RoadmapStageKey, ROADMAP_STAGE_ORDER } from "@/features/roadmap/types/sections";
 
 // "use server" files may only export async functions — these are all type-only
@@ -60,23 +61,47 @@ function stageStatus(tasks: RoadmapTaskView[]): RoadmapStageView["status"] {
  * grouped by stage in RoadmapStageKey order (deterministic Part 1 tasks and
  * AI-enriched Part 2 tasks are mixed together within a stage, each task's
  * own order field deciding position — sourceSectionKey is what
- * distinguishes them visually, not separate lists). Returns null if this
- * Business has no Roadmap yet (its BusinessType has no authored
- * roadmap.json, or seeding silently no-op'd) — a legitimate, expected
- * state, not an error.
+ * distinguishes them visually, not separate lists).
+ *
+ * Self-healing: seedRoadmapIfMissing() previously only ever ran once, at
+ * adoption time (adoptBusinessMatch()) — a Business whose seeding attempt
+ * failed there (e.g. adopted before this app's Roadmap schema columns
+ * existed in production yet) had no retriable path afterward, and the
+ * Roadmap page could only ever show a dead-end "no roadmap" empty state
+ * for it. Retrying the same idempotent seed here means any Business stuck
+ * in that state heals itself on its next page visit, no re-adoption
+ * needed (re-adopting the same match result is a no-op anyway).
+ *
+ * Still returns null afterward if this Business's BusinessType genuinely
+ * has no authored roadmap.json at all — a real, if rare, state (none of
+ * the 21 published businesses are currently missing one, but the schema
+ * doesn't guarantee it for every future one).
  */
 export async function getRoadmapView(businessId: string): Promise<RoadmapView | null> {
   const user = await requireCurrentUser();
 
-  const business = await db.business.findUnique({ where: { id: businessId } });
+  const business = await db.business.findUnique({
+    where: { id: businessId },
+    include: { businessType: true, assessment: true },
+  });
   if (!business || business.userId !== user.id) {
     throw new Error("BUSINESS_NOT_FOUND");
   }
 
-  const roadmap = await db.roadmap.findUnique({
+  let roadmap = await db.roadmap.findUnique({
     where: { businessId },
     include: { milestones: true },
   });
+
+  if (!roadmap && business.businessType && business.assessmentId) {
+    // NOT user.locale — see the same locale-resolution note in
+    // requestSectionGeneration()/adoptBusinessMatch(): User.locale is never
+    // reliably set, Assessment.locale is.
+    const locale = business.assessment?.locale ?? user.locale;
+    await seedRoadmapIfMissing(business.id, user.id, business.businessType.slug, business.assessmentId, locale);
+    roadmap = await db.roadmap.findUnique({ where: { businessId }, include: { milestones: true } });
+  }
+
   if (!roadmap) return null;
 
   const tasksByStage = new Map<RoadmapStageKey, RoadmapTaskView[]>(ROADMAP_STAGE_ORDER.map((stage) => [stage, []]));
