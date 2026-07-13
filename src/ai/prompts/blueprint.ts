@@ -28,7 +28,8 @@ export const BLUEPRINT_SECTION_KEYS = [
 
 export type BlueprintSectionKey = (typeof BLUEPRINT_SECTION_KEYS)[number];
 
-const STRUCTURED_SECTION_KEYS = new Set<BlueprintSectionKey>(["swot", "businessModelCanvas"]);
+/** launchPlan/growthPlan produce an actionable task list (see section-content.ts's roadmapPlanSectionContentSchema) instead of prose — Roadmap Part 2 enriches Part 1's deterministic seed with these, additively. */
+const ROADMAP_TASK_SECTION_KEYS = new Set<BlueprintSectionKey>(["launchPlan", "growthPlan"]);
 
 /**
  * Locale bug fix (see git history / task report for the full
@@ -92,9 +93,9 @@ const SECTION_LENGTH_GUIDANCE: Record<BlueprintSectionKey, string> = {
   operations:
     "Write 500-700 words covering the core recurring workflow, the tools/software actually needed to run it, and which parts the user should do themselves at their current skill/time-availability level versus delegate or automate.",
   launchPlan:
-    "Write 500-700 words as a week-by-week or month-by-month plan explicitly built around the user's REAL desired timeline from their assessment (not a generic 90-day plan) — if their timeline is shorter or longer than typical for this business, say so explicitly and adjust the plan's pacing to fit.",
+    "Produce 4-8 concrete, personalized action items (not prose) explicitly built around the user's REAL desired timeline, budget, and skill ratings from their assessment — not a generic checklist. Each item must be specific enough that the user could act on it this week (a named first step, not a vague phase label like \"prepare for launch\"). If their real timeline is shorter or longer than typical for this business, the items' pacing should reflect that explicitly.",
   growthPlan:
-    "Write 500-700 words covering the first scaling lever (e.g. hire, new channel, new segment), the biggest bottleneck to expect, and 2-3 concrete milestones with realistic timeframes for reaching them.",
+    "Produce 4-8 concrete, personalized action items (not prose) covering the first scaling lever (e.g. a specific hire, channel, or segment), grounded in the user's real budget and skill ratings — e.g. lean toward a channel/tactic that fits their actual marketing/sales skill level, not a generic \"hire a marketer\" suggestion if their budget can't support it. Each item must be specific enough to act on, not a vague milestone label.",
   riskAnalysis:
     "Write 500-700 words identifying the 3 biggest real risks (grounded in the reference material's risk data, not generic business risks), a specific mitigation for each, and how the user's own risk tolerance and financial cushion (from their assessment) should shape how cautiously they proceed.",
   exitStrategy:
@@ -171,6 +172,24 @@ function pickBusinessDna(context: BlueprintGenerationContext, keys: string[]): R
   return picked;
 }
 
+function buildOutputFormatLines(sectionKey: BlueprintSectionKey): string[] {
+  if (sectionKey === "swot") {
+    return [`Return a single JSON object with exactly these 4 keys, each an array of strings: strengths, weaknesses, opportunities, threats.`];
+  }
+  if (sectionKey === "businessModelCanvas") {
+    return [
+      `Return a single JSON object with exactly these 9 string keys: keyPartners, keyActivities, keyResources, valuePropositions, customerRelationships, channels, customerSegments, costStructure, revenueStreams.`,
+    ];
+  }
+  if (ROADMAP_TASK_SECTION_KEYS.has(sectionKey)) {
+    return [
+      `Return a single JSON object with exactly one key: "tasks", an array of 4-8 objects.`,
+      `Each task object has exactly 3 keys: "title" (a short, specific action, not a phase label), "description" (1-2 sentences of concrete detail — what to actually do, and why it matters for this specific user), and "xpValue" (an integer 5-25 — harder/more impactful tasks get a higher value, quick/easy ones lower).`,
+    ];
+  }
+  return [`Return a single JSON object with exactly one key: "body", a single string containing this section's full text.`];
+}
+
 export function buildSectionUserPrompt(
   context: BlueprintGenerationContext,
   rawAnswers: RawAssessmentAnswers,
@@ -178,17 +197,7 @@ export function buildSectionUserPrompt(
 ): string {
   const selection = SECTION_CONTEXT_SELECTION[sectionKey];
   const pickedDna = pickBusinessDna(context, selection.businessDnaKeys);
-  const isStructured = STRUCTURED_SECTION_KEYS.has(sectionKey);
-
-  const outputFormatLines = isStructured
-    ? sectionKey === "swot"
-      ? [
-          `Return a single JSON object with exactly these 4 keys, each an array of strings: strengths, weaknesses, opportunities, threats.`,
-        ]
-      : [
-          `Return a single JSON object with exactly these 9 string keys: keyPartners, keyActivities, keyResources, valuePropositions, customerRelationships, channels, customerSegments, costStructure, revenueStreams.`,
-        ]
-    : [`Return a single JSON object with exactly one key: "body", a single string containing this section's full text.`];
+  const outputFormatLines = buildOutputFormatLines(sectionKey);
 
   return [
     buildLocaleReinforcement(context.locale),

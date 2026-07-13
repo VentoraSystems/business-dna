@@ -7,8 +7,10 @@ import { openai } from "@/ai/openai";
 import { buildSectionSystemPrompt, buildSectionUserPrompt } from "@/ai/prompts/blueprint";
 import type { BlueprintSectionKey } from "@/ai/prompts/blueprint";
 import { readBlueprintGenerationContext } from "@/features/business-engine/utils/blueprint-generation-context";
-import { getSectionContentSchema } from "@/features/business-engine/schemas/section-content";
+import { getSectionContentSchema, type RoadmapPlanSectionContent } from "@/features/business-engine/schemas/section-content";
 import { fetchRawAnswersForMatching } from "@/features/assessment/actions/fetch-raw-answers";
+import { recomputeRoadmapProgress } from "@/features/business-engine/utils/roadmap-progress";
+import { RoadmapStageKey, ROADMAP_STAGE_ORDER } from "@/features/roadmap/types/sections";
 import type { Locale } from "@/i18n/config";
 
 // "use server" files may only export async functions — BlueprintSectionKey is a type-only
@@ -154,6 +156,70 @@ async function generateAndValidateSection(
   return validated;
 }
 
+/** Which Roadmap stage each roadmap-task-producing section enriches — Launch/growth confirmed against features/roadmap's real RoadmapStageKey values. */
+const SECTION_KEY_TO_ROADMAP_STAGE: Partial<Record<BlueprintSectionKey, RoadmapStageKey>> = {
+  launchPlan: RoadmapStageKey.Launch,
+  growthPlan: RoadmapStageKey.Growth,
+};
+
+/**
+ * Roadmap Part 2: additive enrichment, layered on top of Part 1's
+ * deterministic roadmap.json seed — never touches those tasks
+ * (sourceSectionKey is null on them; this function only ever
+ * creates/deletes tasks tagged with THIS section's key).
+ *
+ * Idempotency approach, chosen deliberately: delete-and-recreate this
+ * section's previously AI-generated tasks (by sourceSectionKey) rather
+ * than upserting by some artificial stable index. An AI-generated task
+ * list has no real identity across regenerations — a regeneration can
+ * produce a different count or completely different content, so an
+ * index-based upsert would still need to delete "extra" old rows whenever
+ * the new list is shorter, making delete-and-recreate simpler and no less
+ * correct. Real trade-off, stated explicitly: if a user had already
+ * completed one of this section's OLD AI-generated tasks, regenerating
+ * the section loses that completion — Part 1's deterministic tasks are
+ * never affected. A later phase's UI may want to warn about this before
+ * letting a user regenerate a section that already has completed tasks.
+ *
+ * No-ops (does not create a Roadmap) if this Business has none yet — this
+ * is enrichment on top of Part 1's seeding, not a replacement for it.
+ */
+async function createRoadmapTasksFromSection(businessId: string, sectionKey: BlueprintSectionKey, content: unknown): Promise<void> {
+  const stage = SECTION_KEY_TO_ROADMAP_STAGE[sectionKey];
+  if (!stage) return;
+
+  const roadmap = await db.roadmap.findUnique({ where: { businessId } });
+  if (!roadmap) return;
+
+  const { tasks } = content as RoadmapPlanSectionContent;
+
+  await db.roadmapTask.deleteMany({ where: { roadmapId: roadmap.id, sourceSectionKey: sectionKey } });
+
+  const remainingTasksInStage = await db.roadmapTask.findMany({
+    where: { roadmapId: roadmap.id, stage },
+    select: { order: true },
+  });
+  const startOrder = remainingTasksInStage.length > 0 ? Math.max(...remainingTasksInStage.map((t) => t.order)) + 1 : 0;
+  const month = ROADMAP_STAGE_ORDER.indexOf(stage) + 1;
+
+  await db.roadmapTask.createMany({
+    data: tasks.map((task, index) => ({
+      roadmapId: roadmap.id,
+      title: task.title,
+      description: task.description,
+      stage,
+      month,
+      order: startOrder + index,
+      xpValue: task.xpValue,
+      sourceSectionKey: sectionKey,
+    })),
+  });
+
+  // Task count changed — totalXp/badge state may need to change too (e.g. a completed
+  // deterministic task's share of "halfwayThere" shifts once more tasks exist).
+  await recomputeRoadmapProgress(roadmap.id);
+}
+
 /**
  * Real AI generation, one section at a time — replaces the earlier
  * hardcoded stub entirely. Validates the response against that section's
@@ -189,6 +255,14 @@ async function generateSectionContent(sectionId: string): Promise<void> {
       where: { id: sectionId },
       data: { status: "ready", error: null, content: content as object },
     });
+
+    // Roadmap Part 2 enrichment — a failure here must never undo the section generation
+    // that just succeeded above; the section stays "ready" regardless.
+    try {
+      await createRoadmapTasksFromSection(business.id, sectionKey, content);
+    } catch (error) {
+      console.error(`createRoadmapTasksFromSection failed for business ${business.id}, section ${sectionKey}:`, error);
+    }
   } catch (error) {
     await db.blueprintSection
       .update({

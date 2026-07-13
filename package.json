@@ -27,7 +27,8 @@
     "section-generation:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/section-generation-real-check.ts",
     "section-locale-fix:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/section-locale-fix-check.ts",
     "roadmap-seed:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/roadmap-seed-check.ts",
-    "my-businesses-listing:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/my-businesses-listing-check.ts"
+    "my-businesses-listing:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/my-businesses-listing-check.ts",
+    "roadmap-enrichment:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/roadmap-ai-enrichment-check.ts"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.9.13",
