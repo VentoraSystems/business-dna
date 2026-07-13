@@ -29,8 +29,20 @@ export async function adoptBusinessMatch(matchResultId: string): Promise<Adopted
   const existing = await db.business.findUnique({ where: { matchResultId } });
   if (existing) return { id: existing.id };
 
+  // NOT user.locale: nothing in this app ever sets it to anything but the schema's
+  // @default(en) — same bug already fixed for Blueprint generation (see
+  // requestSectionGeneration() in request-section-generation.ts). Assessment.locale is
+  // reliably correct — threaded explicitly from the real page URL at assessment-start time
+  // (getOrCreateActiveSession(locale) in assessment-actions.ts) — so it's queried directly
+  // here rather than widening businessMatchRepository's shared include for one caller.
+  const assessment = await db.assessment.findUnique({
+    where: { id: matchResult.assessmentId },
+    select: { locale: true },
+  });
+  const displayLocale = assessment?.locale ?? user.locale;
+
   const { businessType } = matchResult;
-  const content = readBusinessDisplayContent(businessType.slug, user.locale);
+  const content = readBusinessDisplayContent(businessType.slug, displayLocale);
 
   try {
     const business = await db.business.create({
