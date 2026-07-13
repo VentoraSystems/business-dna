@@ -156,23 +156,23 @@ enum ResourceType {
 }
 
 model User {
-  id             String   @id @default(cuid())
-  clerkId        String   @unique
-  email          String   @unique
-  firstName      String?
-  lastName       String?
-  locale         Locale   @default(en)
+  id                    String    @id @default(cuid())
+  clerkId               String    @unique
+  email                 String    @unique
+  firstName             String?
+  lastName              String?
+  locale                Locale    @default(en)
   onboardingCompletedAt DateTime?
-  createdAt      DateTime @default(now())
-  updatedAt      DateTime @updatedAt
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
 
-  subscription   Subscription?
+  subscription       Subscription?
   assessmentSessions AssessmentSession[]
-  assessments    Assessment[]
-  businesses     Business[]
-  matchResults   BusinessMatchResult[]
-  roadmaps       Roadmap[]
-  conversations  CoFounderConversation[]
+  assessments        Assessment[]
+  businesses         Business[]
+  matchResults       BusinessMatchResult[]
+  roadmaps           Roadmap[]
+  conversations      CoFounderConversation[]
 
   @@map("users")
 }
@@ -195,18 +195,18 @@ model Subscription {
 // updated on every autosave, and either completed or left abandoned.
 // This is what "resume later" reads from and writes to.
 model AssessmentSession {
-  id           String                  @id @default(cuid())
-  userId       String
-  user         User                    @relation(fields: [userId], references: [id], onDelete: Cascade)
-  locale       Locale                  @default(en)
-  status       AssessmentSessionStatus @default(in_progress)
-  currentStep  Int                     @default(0)
-  startedAt    DateTime                @default(now())
-  completedAt  DateTime?
-  updatedAt    DateTime                @updatedAt
+  id          String                  @id @default(cuid())
+  userId      String
+  user        User                    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  locale      Locale                  @default(en)
+  status      AssessmentSessionStatus @default(in_progress)
+  currentStep Int                     @default(0)
+  startedAt   DateTime                @default(now())
+  completedAt DateTime?
+  updatedAt   DateTime                @updatedAt
 
-  answers      AssessmentAnswer[]
-  assessment   Assessment?
+  answers    AssessmentAnswer[]
+  assessment Assessment?
 
   @@map("assessment_sessions")
 }
@@ -224,7 +224,7 @@ model AssessmentQuestion {
   isRequired Boolean                @default(true)
   createdAt  DateTime               @default(now())
 
-  answers    AssessmentAnswer[]
+  answers         AssessmentAnswer[]
   questionWeights BusinessQuestionWeight[]
 
   @@index([sectionKey])
@@ -253,46 +253,46 @@ model AssessmentAnswer {
 // stable, immutable-once-created id to reference — `archetype` is filled in
 // later by the (not yet implemented) matching engine.
 model Assessment {
-  id          String    @id @default(cuid())
+  id          String            @id @default(cuid())
   userId      String
-  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
-  sessionId   String    @unique
+  user        User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  sessionId   String            @unique
   session     AssessmentSession @relation(fields: [sessionId], references: [id])
-  locale      Locale    @default(en)
+  locale      Locale            @default(en)
   archetype   String?
   completedAt DateTime?
-  createdAt   DateTime  @default(now())
+  createdAt   DateTime          @default(now())
 
-  businesses  Business[]
+  businesses   Business[]
   matchResults BusinessMatchResult[]
 
   @@map("assessments")
 }
 
 model Business {
-  id             String             @id @default(cuid())
+  id             String               @id @default(cuid())
   userId         String
-  user           User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user           User                 @relation(fields: [userId], references: [id], onDelete: Cascade)
   assessmentId   String?
-  assessment     Assessment?        @relation(fields: [assessmentId], references: [id])
+  assessment     Assessment?          @relation(fields: [assessmentId], references: [id])
   // Provenance back into the Business Engine catalog — both optional and
   // both nullable-on-delete, since a user's Business must survive even if
   // the catalog entry it came from is later retired.
   businessTypeId String?
-  businessType   BusinessType?      @relation(fields: [businessTypeId], references: [id], onDelete: SetNull)
-  matchResultId  String?            @unique
+  businessType   BusinessType?        @relation(fields: [businessTypeId], references: [id], onDelete: SetNull)
+  matchResultId  String?              @unique
   matchResult    BusinessMatchResult? @relation(fields: [matchResultId], references: [id], onDelete: SetNull)
   name           String
   summary        String?
   compatibility  Int?
-  difficulty     BusinessDifficulty @default(moderate)
+  difficulty     BusinessDifficulty   @default(moderate)
   investmentMin  Int?
   investmentMax  Int?
-  createdAt      DateTime           @default(now())
-  updatedAt      DateTime           @updatedAt
+  createdAt      DateTime             @default(now())
+  updatedAt      DateTime             @updatedAt
 
-  blueprint      Blueprint?
-  roadmap        Roadmap?
+  blueprint Blueprint?
+  roadmap   Roadmap?
 
   @@map("businesses")
 }
@@ -309,14 +309,14 @@ enum BlueprintStatus {
 /// is generated, and persists, independently) — this row is now just the
 /// document's identity/locale.
 model Blueprint {
-  id          String             @id @default(cuid())
-  businessId  String             @unique
-  business    Business           @relation(fields: [businessId], references: [id], onDelete: Cascade)
-  locale      Locale             @default(en)
-  createdAt   DateTime           @default(now())
-  updatedAt   DateTime           @updatedAt
+  id         String   @id @default(cuid())
+  businessId String   @unique
+  business   Business @relation(fields: [businessId], references: [id], onDelete: Cascade)
+  locale     Locale   @default(en)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
 
-  sections    BlueprintSection[]
+  sections BlueprintSection[]
 
   @@map("blueprints")
 }
@@ -347,18 +347,49 @@ model BlueprintSection {
 /// src/features/roadmap/types/sections.ts). totalXp/unlockedBadgeKeys are
 /// derived state, recomputed by recomputeRoadmapProgress() whenever a task's
 /// completion changes — never written to directly elsewhere.
+///
+/// currentStreak/longestStreak/lastActivityDate (Roadmap engagement layer
+/// Part 1) are maintained by the separate recordRoadmapActivity() helper
+/// (src/features/business-engine/utils/roadmap-streak.ts), called on every
+/// RoadmapTask completion AND every DailyActionCompletion — NOT by
+/// recomputeRoadmapProgress(), which stays scoped to totalXp/badges only.
+/// lastActivityDate is always truncated to UTC-midnight date-only precision
+/// before being compared/stored — see recordRoadmapActivity()'s own
+/// comment for why.
+/// engagementXp (Roadmap engagement layer Part 1) is a SEPARATE
+/// accumulator from totalXp, on purpose: recomputeRoadmapProgress()
+/// unconditionally overwrites totalXp as `sum(completed
+/// RoadmapTask.xpValue)` every time it runs (a full recompute, not an
+/// increment) — every DailyActionCompletion's xpValue and every
+/// surprise-bonus-XP roll would be silently erased the very next time ANY
+/// task is toggled if they were written into totalXp directly.
+/// engagementXp is never touched by recomputeRoadmapProgress, so it
+/// survives task toggles; the user's real total is always `totalXp +
+/// engagementXp`, computed wherever XP is surfaced (getRoadmapView,
+/// toggleTaskCompletion, completeDailyAction — see those for the full
+/// reasoning). currentStreak/longestStreak/lastActivityDate are
+/// maintained by the separate recordRoadmapActivity() helper
+/// (src/features/business-engine/utils/roadmap-streak.ts), called on
+/// every RoadmapTask completion AND every DailyActionCompletion.
+/// lastActivityDate is always truncated to UTC-midnight date-only
+/// precision before being compared/stored.
 model Roadmap {
-  id                String        @id @default(cuid())
+  id                String    @id @default(cuid())
   userId            String
-  user              User          @relation(fields: [userId], references: [id], onDelete: Cascade)
-  businessId        String        @unique
-  business          Business      @relation(fields: [businessId], references: [id], onDelete: Cascade)
-  totalXp           Int           @default(0)
-  unlockedBadgeKeys String[]      @default([])
-  createdAt         DateTime      @default(now())
-  updatedAt         DateTime      @updatedAt
+  user              User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  businessId        String    @unique
+  business          Business  @relation(fields: [businessId], references: [id], onDelete: Cascade)
+  totalXp           Int       @default(0)
+  unlockedBadgeKeys String[]  @default([])
+  currentStreak     Int       @default(0)
+  longestStreak     Int       @default(0)
+  lastActivityDate  DateTime?
+  engagementXp      Int       @default(0)
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
 
-  milestones        RoadmapTask[]
+  milestones             RoadmapTask[]
+  dailyActionCompletions DailyActionCompletion[]
 
   @@map("roadmaps")
 }
@@ -386,6 +417,47 @@ model RoadmapTask {
   createdAt        DateTime  @default(now())
 
   @@map("roadmap_tasks")
+}
+
+/// Small fixed CATALOG of generic, stage-agnostic daily engagement actions
+/// (Roadmap engagement layer Part 1) — shared across every user's Roadmap,
+/// not per-user data (see DailyActionCompletion for the per-user, per-day
+/// record). `key` is the stable app-level identifier (the vocabulary lives
+/// in src/features/roadmap/types/daily-actions.ts, same "plain string, not
+/// a Prisma enum" precedent as RoadmapTask.stage/BlueprintSection.sectionKey).
+/// `translationKey` follows this project's established catalog-metadata
+/// convention (see e.g. BusinessTag/BusinessResource) — resolved at render
+/// time as `${translationKey}.title` / `${translationKey}.description`,
+/// not baked into a column, since this content is generic/global rather
+/// than per-business authored content.
+model DailyAction {
+  id             String   @id @default(cuid())
+  key            String   @unique
+  translationKey String   @unique
+  xpValue        Int      @default(5)
+  createdAt      DateTime @default(now())
+
+  @@map("daily_actions")
+}
+
+/// One user's completion of one DailyAction on one calendar day.
+/// `completedAt` is a DATE, not a DATETIME (@db.Date — no time component
+/// stored) — deliberately, since "already done today" is a date-only
+/// question; app code always writes it truncated to UTC midnight (see
+/// recordRoadmapActivity()'s toUtcDateOnly()). The unique constraint below
+/// is what actually prevents completing the same action twice for credit
+/// on the same day — completeDailyAction() catches its violation and
+/// raises a friendly error instead of a raw DB one.
+model DailyActionCompletion {
+  id             String   @id @default(cuid())
+  roadmapId      String
+  roadmap        Roadmap  @relation(fields: [roadmapId], references: [id], onDelete: Cascade)
+  dailyActionKey String
+  completedAt    DateTime @db.Date
+  createdAt      DateTime @default(now())
+
+  @@unique([roadmapId, dailyActionKey, completedAt])
+  @@map("daily_action_completions")
 }
 
 model CoFounderConversation {
@@ -425,17 +497,17 @@ model CoFounderConversation {
 /// display metadata (translation key, icon, ordering) an admin UI or the
 /// public catalog can render without touching code.
 model BusinessIndustry {
-  id           String       @id @default(cuid())
-  code         IndustryType @unique
-  slug         String       @unique
-  translationKey String     @unique
-  icon         String?
-  sortOrder    Int          @default(0)
-  isActive     Boolean      @default(true)
-  createdAt    DateTime     @default(now())
-  updatedAt    DateTime     @updatedAt
+  id             String       @id @default(cuid())
+  code           IndustryType @unique
+  slug           String       @unique
+  translationKey String       @unique
+  icon           String?
+  sortOrder      Int          @default(0)
+  isActive       Boolean      @default(true)
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
 
-  categories   BusinessCategory[]
+  categories BusinessCategory[]
 
   @@map("business_industries")
 }
@@ -444,18 +516,18 @@ model BusinessIndustry {
 /// tools" within the "tech" industry). Unlike industries, categories are not
 /// enum-backed — they're expected to grow over time without a code change.
 model BusinessCategory {
-  id             String   @id @default(cuid())
-  slug           String   @unique
-  translationKey String   @unique
+  id             String           @id @default(cuid())
+  slug           String           @unique
+  translationKey String           @unique
   industryId     String
   industry       BusinessIndustry @relation(fields: [industryId], references: [id], onDelete: Restrict)
   icon           String?
-  sortOrder      Int      @default(0)
-  isActive       Boolean  @default(true)
-  createdAt      DateTime @default(now())
-  updatedAt      DateTime @updatedAt
+  sortOrder      Int              @default(0)
+  isActive       Boolean          @default(true)
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
 
-  businessTypes  BusinessType[]
+  businessTypes BusinessType[]
 
   @@index([industryId])
   @@map("business_categories")
@@ -483,20 +555,20 @@ model BusinessType {
   updatedAt        DateTime           @updatedAt
 
   // Normalized attributes (each 0 or 1 row per BusinessType).
-  lifestyle          BusinessLifestyle?
-  risk                BusinessRisk?
-  budget              BusinessBudget?
-  revenue             BusinessRevenue?
-  timeline            BusinessTimeline?
-  blueprintTemplate   BusinessBlueprintTemplate?
-  marketingTemplate   BusinessMarketingTemplate?
-  financialTemplate   BusinessFinancialTemplate?
-  launchTemplate      BusinessLaunchTemplate?
+  lifestyle         BusinessLifestyle?
+  risk              BusinessRisk?
+  budget            BusinessBudget?
+  revenue           BusinessRevenue?
+  timeline          BusinessTimeline?
+  blueprintTemplate BusinessBlueprintTemplate?
+  marketingTemplate BusinessMarketingTemplate?
+  financialTemplate BusinessFinancialTemplate?
+  launchTemplate    BusinessLaunchTemplate?
 
   // Child collections (many rows per BusinessType, not shared elsewhere).
-  requirements   BusinessRequirement[]
-  advantages     BusinessAdvantage[]
-  disadvantages  BusinessDisadvantage[]
+  requirements  BusinessRequirement[]
+  advantages    BusinessAdvantage[]
+  disadvantages BusinessDisadvantage[]
 
   // Many-to-many against shared master lists.
   skills    BusinessSkill[]
@@ -509,7 +581,7 @@ model BusinessType {
   matchResults    BusinessMatchResult[]
 
   // Reverse side of Business.businessTypeId (a user's saved instance).
-  userBusinesses  Business[]
+  userBusinesses Business[]
 
   @@index([categoryId])
   @@map("business_types")
@@ -528,7 +600,7 @@ model RequiredSkill {
   translationKey String   @unique
   createdAt      DateTime @default(now())
 
-  businessTypes  BusinessSkill[]
+  businessTypes BusinessSkill[]
 
   @@map("required_skills")
 }
@@ -554,17 +626,17 @@ model BusinessSkill {
 /// names and enums intentionally mirror the Assessment's `lifestyle`
 /// section so answers can be compared directly.
 model BusinessLifestyle {
-  id                 String             @id @default(cuid())
-  businessTypeId     String             @unique
-  businessType       BusinessType       @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
-  workMode           LifestyleMode      @default(hybrid)
-  travelRequirement  TravelRequirement  @default(none)
-  teamSize           TeamSizePreference @default(solo)
-  salesChannel       SalesChannel       @default(both)
-  onlineOffline      OnlineOfflineMode  @default(hybrid)
-  minWeeklyHours     Int?
-  maxWeeklyHours     Int?
-  freedomLevel       Int?               // 1-5, same scale as the Assessment's `freedom` rating question.
+  id                String             @id @default(cuid())
+  businessTypeId    String             @unique
+  businessType      BusinessType       @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  workMode          LifestyleMode      @default(hybrid)
+  travelRequirement TravelRequirement  @default(none)
+  teamSize          TeamSizePreference @default(solo)
+  salesChannel      SalesChannel       @default(both)
+  onlineOffline     OnlineOfflineMode  @default(hybrid)
+  minWeeklyHours    Int?
+  maxWeeklyHours    Int?
+  freedomLevel      Int? // 1-5, same scale as the Assessment's `freedom` rating question.
 
   @@map("business_lifestyles")
 }
@@ -572,12 +644,12 @@ model BusinessLifestyle {
 /// How much uncertainty this BusinessType carries. Mirrors the Assessment's
 /// `risk` section.
 model BusinessRisk {
-  id                   String       @id @default(cuid())
-  businessTypeId       String       @unique
-  businessType         BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
-  riskLevel            RiskLevel    @default(moderate)
-  failureImpact        Int?         // 1-5, same scale as the Assessment's `failureTolerance` question.
-  requiredConfidence   Int?         // 1-5, same scale as the Assessment's `investmentConfidence` question.
+  id                 String       @id @default(cuid())
+  businessTypeId     String       @unique
+  businessType       BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  riskLevel          RiskLevel    @default(moderate)
+  failureImpact      Int? // 1-5, same scale as the Assessment's `failureTolerance` question.
+  requiredConfidence Int? // 1-5, same scale as the Assessment's `investmentConfidence` question.
 
   @@map("business_risks")
 }
@@ -586,12 +658,12 @@ model BusinessRisk {
 /// `financialSituation.budget` question so a user's stated budget can be
 /// compared to `minInvestment`/`maxInvestment` directly.
 model BusinessBudget {
-  id             String       @id @default(cuid())
-  businessTypeId String       @unique
-  businessType   BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
-  minInvestment  Int
-  maxInvestment  Int
-  currency       String       @default("EUR")
+  id                    String       @id @default(cuid())
+  businessTypeId        String       @unique
+  businessType          BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  minInvestment         Int
+  maxInvestment         Int
+  currency              String       @default("EUR")
   ongoingMonthlyCostMin Int?
   ongoingMonthlyCostMax Int?
 
@@ -601,12 +673,12 @@ model BusinessBudget {
 /// What this BusinessType could realistically earn, and how it earns it.
 /// Mirrors the Assessment's `financialSituation.targetMonthlyIncome`.
 model BusinessRevenue {
-  id                     String            @id @default(cuid())
-  businessTypeId         String            @unique
-  businessType           BusinessType      @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  id                     String       @id @default(cuid())
+  businessTypeId         String       @unique
+  businessType           BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
   targetMonthlyIncomeMin Int?
   targetMonthlyIncomeMax Int?
-  revenueSpeed           RevenueSpeed      @default(moderate)
+  revenueSpeed           RevenueSpeed @default(moderate)
 
   @@map("business_revenues")
 }
@@ -614,12 +686,12 @@ model BusinessRevenue {
 /// How long this BusinessType typically takes to reach key milestones.
 /// Mirrors the Assessment's `financialSituation.desiredTimeline`.
 model BusinessTimeline {
-  id                        String       @id @default(cuid())
-  businessTypeId            String       @unique
-  businessType              BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
-  timeToFirstCustomerWeeks  Int?
-  timeToBreakEvenMonths     Int?
-  timeToScaleMonths         Int?
+  id                       String       @id @default(cuid())
+  businessTypeId           String       @unique
+  businessType             BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  timeToFirstCustomerWeeks Int?
+  timeToBreakEvenMonths    Int?
+  timeToScaleMonths        Int?
 
   @@map("business_timelines")
 }
@@ -639,8 +711,8 @@ model BusinessBlueprintTemplate {
   id             String       @id @default(cuid())
   businessTypeId String       @unique
   businessType   BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
-  sections       Json         // string[] of section keys, e.g. ["executiveSummary", "marketAnalysis", ...]
-  promptContext  String?      // optional freeform hint passed to the generator, not shown to the user
+  sections       Json // string[] of section keys, e.g. ["executiveSummary", "marketAnalysis", ...]
+  promptContext  String? // optional freeform hint passed to the generator, not shown to the user
   createdAt      DateTime     @default(now())
   updatedAt      DateTime     @updatedAt
 
@@ -653,7 +725,7 @@ model BusinessMarketingTemplate {
   id             String       @id @default(cuid())
   businessTypeId String       @unique
   businessType   BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
-  channelTypes   Json         // string[] of channel-type keys, e.g. ["localSeo", "instagram", "referral"]
+  channelTypes   Json // string[] of channel-type keys, e.g. ["localSeo", "instagram", "referral"]
   promptContext  String?
   createdAt      DateTime     @default(now())
   updatedAt      DateTime     @updatedAt
@@ -667,8 +739,8 @@ model BusinessFinancialTemplate {
   id                 String       @id @default(cuid())
   businessTypeId     String       @unique
   businessType       BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
-  lineItemCategories Json         // string[], e.g. ["revenue", "cogs", "opex", "capex"]
-  assumptionsSchema  Json         // { [inputKey]: "number" | "percent" | "currency" } — defines the shape of user-provided assumptions
+  lineItemCategories Json // string[], e.g. ["revenue", "cogs", "opex", "capex"]
+  assumptionsSchema  Json // { [inputKey]: "number" | "percent" | "currency" } — defines the shape of user-provided assumptions
   createdAt          DateTime     @default(now())
   updatedAt          DateTime     @updatedAt
 
@@ -681,7 +753,7 @@ model BusinessLaunchTemplate {
   id             String       @id @default(cuid())
   businessTypeId String       @unique
   businessType   BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
-  milestones     Json         // { month: number, themeTranslationKey: string }[]
+  milestones     Json // { month: number, themeTranslationKey: string }[]
   createdAt      DateTime     @default(now())
   updatedAt      DateTime     @updatedAt
 
@@ -697,7 +769,7 @@ model BusinessTag {
   translationKey String   @unique
   createdAt      DateTime @default(now())
 
-  businessTypes  BusinessTypeTag[]
+  businessTypes BusinessTypeTag[]
 
   @@map("business_tags")
 }
@@ -720,10 +792,10 @@ model BusinessTool {
   slug           String   @unique
   translationKey String   @unique
   websiteUrl     String?
-  category       String?  // freeform grouping, e.g. "scheduling", "accounting"
+  category       String? // freeform grouping, e.g. "scheduling", "accounting"
   createdAt      DateTime @default(now())
 
-  businessTypes  BusinessTypeTool[]
+  businessTypes BusinessTypeTool[]
 
   @@map("business_tools")
 }
@@ -750,7 +822,7 @@ model BusinessResource {
   url            String?
   createdAt      DateTime     @default(now())
 
-  businessTypes  BusinessTypeResource[]
+  businessTypes BusinessTypeResource[]
 
   @@map("business_resources")
 }
@@ -818,7 +890,7 @@ model BusinessQuestionWeight {
   businessType   BusinessType       @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
   questionId     String
   question       AssessmentQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
-  optionKey      String?            // set for choice-type questions to weight a specific option; null = whole-question weight (sliders/ratings)
+  optionKey      String? // set for choice-type questions to weight a specific option; null = whole-question weight (sliders/ratings)
   weight         Float              @default(0)
   createdAt      DateTime           @default(now())
   updatedAt      DateTime           @updatedAt
@@ -833,18 +905,18 @@ model BusinessQuestionWeight {
 /// `Business` (the user's saved instance) may optionally point back to the
 /// BusinessMatchResult it was created from via `Business.matchResultId`.
 model BusinessMatchResult {
-  id                  String       @id @default(cuid())
-  userId              String
-  user                User         @relation(fields: [userId], references: [id], onDelete: Cascade)
-  assessmentId        String
-  assessment          Assessment   @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
-  businessTypeId      String
-  businessType        BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
-  compatibilityScore  Float
-  scoreBreakdown      Json?        // per-question/per-attribute contribution, for the "why this match" explanation UI
-  createdAt           DateTime     @default(now())
+  id                 String       @id @default(cuid())
+  userId             String
+  user               User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  assessmentId       String
+  assessment         Assessment   @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+  businessTypeId     String
+  businessType       BusinessType @relation(fields: [businessTypeId], references: [id], onDelete: Cascade)
+  compatibilityScore Float
+  scoreBreakdown     Json? // per-question/per-attribute contribution, for the "why this match" explanation UI
+  createdAt          DateTime     @default(now())
 
-  business            Business?
+  business Business?
 
   @@unique([assessmentId, businessTypeId])
   @@index([userId])

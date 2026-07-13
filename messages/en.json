@@ -886,6 +886,32 @@
         "unlockedDescription": "Completed your entire roadmap!",
         "lockedDescription": "Complete every task to unlock."
       }
+    },
+    "dailyActions": {
+      "reflectProgress": {
+        "title": "Reflect on today's progress",
+        "description": "Take two minutes to note what actually moved your business forward today."
+      },
+      "reviewBudget": {
+        "title": "Check in on your budget",
+        "description": "A quick look at your spending so far — small course corrections are easiest when caught early."
+      },
+      "readBusinessTip": {
+        "title": "Read today's business tip",
+        "description": "A short, practical tip to keep you sharp — takes less than a minute."
+      },
+      "scanCompetitor": {
+        "title": "Check what a competitor is doing",
+        "description": "Spend a few minutes on a competitor's latest move — inspiration and warning signs both matter."
+      },
+      "reachOutToSomeone": {
+        "title": "Reach out to someone in your network",
+        "description": "A quick message to a mentor, peer, or potential customer keeps your momentum visible to others."
+      },
+      "planTomorrow": {
+        "title": "Set tomorrow's top priority",
+        "description": "Decide the one thing that matters most tomorrow, before today ends."
+      }
     }
   },
   "coFounder": {

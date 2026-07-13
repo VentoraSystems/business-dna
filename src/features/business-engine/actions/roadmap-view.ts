@@ -5,22 +5,14 @@ import { requireCurrentUser } from "@/lib/auth";
 import { recomputeRoadmapProgress } from "@/features/business-engine/utils/roadmap-progress";
 import type { RoadmapBadgeKey } from "@/features/business-engine/utils/roadmap-progress";
 import { seedRoadmapIfMissing } from "@/features/business-engine/utils/roadmap-seeding";
+import { recordRoadmapActivity } from "@/features/business-engine/utils/roadmap-streak";
+import { rollBonusXp } from "@/features/business-engine/utils/roadmap-bonus-xp";
+import { levelFromXp, effectiveTotalXp } from "@/features/business-engine/utils/roadmap-xp";
 import { RoadmapStageKey, ROADMAP_STAGE_ORDER } from "@/features/roadmap/types/sections";
 
 // "use server" files may only export async functions — these are all type-only
 // exports (erased at runtime), which the react-server compiler allows.
 export type { RoadmapBadgeKey };
-
-/** Flat XP-per-task model established in Part 1 (10 XP/task by default, AI tasks vary 5-25) — level is derived, never stored. */
-const XP_PER_LEVEL = 100;
-
-function levelFromXp(totalXp: number) {
-  return {
-    level: Math.floor(totalXp / XP_PER_LEVEL) + 1,
-    xpIntoLevel: totalXp % XP_PER_LEVEL,
-    xpForNextLevel: XP_PER_LEVEL,
-  };
-}
 
 export interface RoadmapTaskView {
   id: string;
@@ -47,6 +39,8 @@ export interface RoadmapView {
   xpForNextLevel: number;
   unlockedBadgeKeys: RoadmapBadgeKey[];
   stages: RoadmapStageView[];
+  currentStreak: number;
+  longestStreak: number;
 }
 
 function stageStatus(tasks: RoadmapTaskView[]): RoadmapStageView["status"] {
@@ -123,16 +117,19 @@ export async function getRoadmapView(businessId: string): Promise<RoadmapView | 
     return { stage, tasks, status: stageStatus(tasks) };
   });
 
-  const { level, xpIntoLevel, xpForNextLevel } = levelFromXp(roadmap.totalXp);
+  const totalXp = effectiveTotalXp(roadmap);
+  const { level, xpIntoLevel, xpForNextLevel } = levelFromXp(totalXp);
 
   return {
     roadmapId: roadmap.id,
-    totalXp: roadmap.totalXp,
+    totalXp,
     level,
     xpIntoLevel,
     xpForNextLevel,
     unlockedBadgeKeys: roadmap.unlockedBadgeKeys as RoadmapBadgeKey[],
     stages,
+    currentStreak: roadmap.currentStreak,
+    longestStreak: roadmap.longestStreak,
   };
 }
 
@@ -144,6 +141,10 @@ export interface ToggleTaskCompletionResult {
   xpForNextLevel: number;
   unlockedBadgeKeys: RoadmapBadgeKey[];
   newlyUnlocked: RoadmapBadgeKey[];
+  currentStreak: number;
+  longestStreak: number;
+  /** > 0 when the surprise-bonus roll fired on this completion (see roadmap-bonus-xp.ts) — 0 on every un-completion and on most completions. Already included in totalXp; surfaced separately so a later UI phase can show a distinct "Bonus XP!" moment. */
+  bonusXp: number;
 }
 
 /**
@@ -152,6 +153,13 @@ export interface ToggleTaskCompletionResult {
  * needs to update without a full page reload. Ownership is checked via
  * the task's parent Roadmap.userId directly (Roadmap carries its own
  * userId — no need to round-trip through Business).
+ *
+ * Engagement layer Part 1, completion only (never on un-completion):
+ * records streak activity, and rolls for surprise bonus XP — any bonus is
+ * added to Roadmap.engagementXp, NOT totalXp (see effectiveTotalXp()'s
+ * comment for why totalXp itself can't safely absorb it). Badge
+ * conditions are untouched and do not consider bonus XP or streaks —
+ * recomputeRoadmapProgress() itself is not modified by this phase.
  */
 export async function toggleTaskCompletion(taskId: string): Promise<ToggleTaskCompletionResult> {
   const user = await requireCurrentUser();
@@ -171,15 +179,33 @@ export async function toggleTaskCompletion(taskId: string): Promise<ToggleTaskCo
   });
 
   const progress = await recomputeRoadmapProgress(task.roadmapId);
-  const { level, xpIntoLevel, xpForNextLevel } = levelFromXp(progress.totalXp);
+  let bonusXp = 0;
+
+  if (nowCompleted) {
+    await recordRoadmapActivity(task.roadmapId);
+    bonusXp = rollBonusXp();
+    if (bonusXp > 0) {
+      await db.roadmap.update({ where: { id: task.roadmapId }, data: { engagementXp: { increment: bonusXp } } });
+    }
+  }
+
+  const roadmap = await db.roadmap.findUniqueOrThrow({
+    where: { id: task.roadmapId },
+    select: { currentStreak: true, longestStreak: true, engagementXp: true },
+  });
+  const totalXp = effectiveTotalXp({ totalXp: progress.totalXp, engagementXp: roadmap.engagementXp });
+  const { level, xpIntoLevel, xpForNextLevel } = levelFromXp(totalXp);
 
   return {
     completed: nowCompleted,
-    totalXp: progress.totalXp,
+    totalXp,
     level,
     xpIntoLevel,
     xpForNextLevel,
     unlockedBadgeKeys: progress.unlockedBadgeKeys,
     newlyUnlocked: progress.newlyUnlocked,
+    currentStreak: roadmap.currentStreak,
+    longestStreak: roadmap.longestStreak,
+    bonusXp,
   };
 }

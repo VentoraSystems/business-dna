@@ -17,6 +17,7 @@
     "db:push": "prisma db push",
     "db:seed": "tsx prisma/seed.ts",
     "db:seed:business-engine": "tsx prisma/seed-business-engine.ts",
+    "db:seed:daily-actions": "tsx prisma/seed-daily-actions.ts",
     "db:studio": "prisma studio",
     "matching-engine:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/matching-engine-integration-check.ts",
     "results-pipeline:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/results-pipeline-integration-check.ts",
@@ -30,7 +31,8 @@
     "my-businesses-listing:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/my-businesses-listing-check.ts",
     "roadmap-enrichment:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/roadmap-ai-enrichment-check.ts",
     "roadmap-view:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/roadmap-view-check.ts",
-    "roadmap-self-heal:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/roadmap-self-heal-check.ts"
+    "roadmap-self-heal:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/roadmap-self-heal-check.ts",
+    "roadmap-engagement:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/roadmap-engagement-check.ts"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.9.13",
