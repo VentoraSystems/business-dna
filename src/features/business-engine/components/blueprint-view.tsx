@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { FileText, AlertCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { EmptyState } from "@/components/ui/empty-state";
 import { requestBlueprintGeneration } from "@/features/business-engine/actions/request-blueprint-generation";
 import { getBlueprintStatus } from "@/features/business-engine/actions/blueprint-status";
@@ -15,8 +15,8 @@ import type { BlueprintStatus } from "@prisma/client";
 /** Within Part 2's ~8-20s expected latency range. */
 const POLL_INTERVAL_MS = 2500;
 
+/** executiveSummary is rendered separately, as a hero section — see ReadyState. */
 const PLAIN_STRING_SECTION_KEYS = [
-  "executiveSummary",
   "businessDescription",
   "targetAudience",
   "marketAnalysis",
@@ -175,29 +175,50 @@ function FailedState({ error, onRetry, isRetrying }: { error: string | null; onR
   );
 }
 
+/**
+ * scroll-mt-24 (96px) compensates for AppTopbar's sticky 64px header, plus
+ * a ~32px visual buffer — without it, anchor-scrolling from the sidebar
+ * lands each heading right underneath the sticky bar, hidden or cut off.
+ */
+const SCROLL_MARGIN = "scroll-mt-24";
+
 function ReadyState({ content }: { content: BlueprintContent }) {
   const t = useTranslations("blueprint");
   return (
     <div className="space-y-6">
+      <section id="executiveSummary" className={SCROLL_MARGIN}>
+        <Card className="border-accent/30 bg-accent/5">
+          <CardHeader>
+            <p className="text-xs font-semibold uppercase tracking-wide text-accent-foreground">{t("title")}</p>
+            <CardTitle className="text-2xl">{t("sections.executiveSummary")}</CardTitle>
+          </CardHeader>
+          <CardContent className="pt-0">
+            <p className="whitespace-pre-wrap text-base leading-relaxed text-foreground">{content.executiveSummary}</p>
+          </CardContent>
+        </Card>
+      </section>
+
       {PLAIN_STRING_SECTION_KEYS.map((key) => (
-        <section key={key} id={key}>
+        <section key={key} id={key} className={SCROLL_MARGIN}>
           <Card>
-            <CardContent className="py-5">
-              <h2 className="mb-2 text-lg font-semibold">{t(`sections.${key}`)}</h2>
-              <p className="whitespace-pre-wrap text-sm text-muted-foreground">{content[key]}</p>
+            <CardHeader>
+              <CardTitle>{t(`sections.${key}`)}</CardTitle>
+            </CardHeader>
+            <CardContent className="pt-0">
+              <p className="whitespace-pre-wrap text-sm leading-relaxed text-foreground">{content[key]}</p>
             </CardContent>
           </Card>
         </section>
       ))}
 
-      <section id="swot">
-        <h2 className="mb-2 text-lg font-semibold">{t("sections.swot")}</h2>
+      <section id="swot" className={SCROLL_MARGIN}>
+        <h2 className="mb-3 font-display text-xl">{t("sections.swot")}</h2>
         <div className="grid gap-4 sm:grid-cols-2">
           {SWOT_KEYS.map((key) => (
             <Card key={key}>
               <CardContent className="py-5">
                 <h3 className="mb-2 text-sm font-semibold">{t(`swot.${key}`)}</h3>
-                <ul className="list-inside list-disc space-y-1 text-sm text-muted-foreground">
+                <ul className="list-inside list-disc space-y-1 text-sm leading-relaxed text-foreground">
                   {content.swot[key].map((item, i) => (
                     <li key={i}>{item}</li>
                   ))}
@@ -208,14 +229,14 @@ function ReadyState({ content }: { content: BlueprintContent }) {
         </div>
       </section>
 
-      <section id="businessModelCanvas">
-        <h2 className="mb-2 text-lg font-semibold">{t("sections.businessModelCanvas")}</h2>
+      <section id="businessModelCanvas" className={SCROLL_MARGIN}>
+        <h2 className="mb-3 font-display text-xl">{t("sections.businessModelCanvas")}</h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {CANVAS_KEYS.map((key) => (
             <Card key={key}>
               <CardContent className="py-5">
                 <h3 className="mb-2 text-sm font-semibold">{t(`canvas.${key}`)}</h3>
-                <p className="text-sm text-muted-foreground">{content.businessModelCanvas[key]}</p>
+                <p className="text-sm leading-relaxed text-foreground">{content.businessModelCanvas[key]}</p>
               </CardContent>
             </Card>
           ))}
