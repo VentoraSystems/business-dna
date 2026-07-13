@@ -860,6 +860,16 @@
       "level": "Level {level}",
       "xpToNext": "{xpIntoLevel}/{xpForNextLevel} XP to next level"
     },
+    "streak": {
+      "current": "{count} day streak",
+      "zero": "Complete a task to start your streak",
+      "longestLabel": "Best: {count} days"
+    },
+    "bonusXpMoment": "+{value} Bonus XP! 🎉",
+    "dailyActionsSection": {
+      "title": "Today's quick wins",
+      "subtitle": "Small daily actions that keep your streak alive."
+    },
     "badges": {
       "firstStep": {
         "name": "First Step",

@@ -860,6 +860,16 @@
       "level": "Nivelul {level}",
       "xpToNext": "{xpIntoLevel}/{xpForNextLevel} XP până la nivelul următor"
     },
+    "streak": {
+      "current": "{count} zile la rând",
+      "zero": "Finalizează o sarcină ca să începi o serie",
+      "longestLabel": "Record: {count} zile"
+    },
+    "bonusXpMoment": "+{value} XP Bonus! 🎉",
+    "dailyActionsSection": {
+      "title": "Câștigurile rapide de azi",
+      "subtitle": "Acțiuni mici, zilnice, care îți mențin seria activă."
+    },
     "badges": {
       "firstStep": {
         "name": "Primul pas",

@@ -7,6 +7,7 @@ import { EmptyState } from "@/components/ui/empty-state";
 import { db } from "@/lib/db";
 import { requireCurrentUser } from "@/lib/auth";
 import { getRoadmapView } from "@/features/business-engine/actions/roadmap-view";
+import { getTodaysDailyActions } from "@/features/business-engine/actions/daily-actions";
 import { RoadmapPageView } from "@/features/business-engine/components/roadmap-page-view";
 
 export default async function BusinessRoadmapPage({
@@ -23,6 +24,7 @@ export default async function BusinessRoadmapPage({
   if (!business || business.userId !== user.id) notFound();
 
   const view = await getRoadmapView(businessId);
+  const dailyActions = view ? await getTodaysDailyActions(view.roadmapId) : [];
 
   return (
     <div className="mx-auto max-w-3xl space-y-6">
@@ -36,7 +38,11 @@ export default async function BusinessRoadmapPage({
         </Link>
         <PageHeader title={t("title")} subtitle={business.name} />
       </div>
-      {view ? <RoadmapPageView initialView={view} /> : <EmptyState icon={Map} title={t("title")} description={t("emptyDescription")} />}
+      {view ? (
+        <RoadmapPageView initialView={view} initialDailyActions={dailyActions} />
+      ) : (
+        <EmptyState icon={Map} title={t("title")} description={t("emptyDescription")} />
+      )}
     </div>
   );
 }
