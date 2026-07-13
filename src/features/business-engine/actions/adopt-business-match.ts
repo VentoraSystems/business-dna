@@ -5,6 +5,8 @@ import { db } from "@/lib/db";
 import { requireCurrentUser } from "@/lib/auth";
 import { businessMatchRepository } from "@/features/business-engine/repositories";
 import { readBusinessDisplayContent } from "@/features/business-engine/utils/business-display-content";
+import { readRoadmapSeedTasks } from "@/features/business-engine/utils/roadmap-seed-content";
+import type { Locale } from "@/i18n/config";
 
 export interface AdoptedBusiness {
   id: string;
@@ -27,7 +29,10 @@ export async function adoptBusinessMatch(matchResultId: string): Promise<Adopted
   }
 
   const existing = await db.business.findUnique({ where: { matchResultId } });
-  if (existing) return { id: existing.id };
+  if (existing) {
+    await seedRoadmapIfMissing(existing.id, user.id, matchResult.businessType.slug, matchResult.assessmentId, user.locale);
+    return { id: existing.id };
+  }
 
   // NOT user.locale: nothing in this app ever sets it to anything but the schema's
   // @default(en) — same bug already fixed for Blueprint generation (see
@@ -59,12 +64,56 @@ export async function adoptBusinessMatch(matchResultId: string): Promise<Adopted
         investmentMax: businessType.budget?.maxInvestment,
       },
     });
+    await seedRoadmapIfMissing(business.id, user.id, businessType.slug, matchResult.assessmentId, displayLocale);
     return { id: business.id };
   } catch (error) {
     if (error instanceof Prisma.PrismaClientKnownRequestError && error.code === "P2002") {
       const raceWinner = await db.business.findUnique({ where: { matchResultId } });
-      if (raceWinner) return { id: raceWinner.id };
+      if (raceWinner) {
+        await seedRoadmapIfMissing(raceWinner.id, user.id, businessType.slug, matchResult.assessmentId, displayLocale);
+        return { id: raceWinner.id };
+      }
     }
     throw error;
+  }
+}
+
+/**
+ * Seeds a Roadmap (10 stages' worth of RoadmapTask rows, one per authored
+ * roadmap.json checklist item) for a newly-adopted Business — deterministic,
+ * not AI-generated (sourceSectionKey stays null on every task this creates;
+ * a later phase's Blueprint generation is what sets it). Idempotent: a
+ * Roadmap already existing for this Business (Roadmap.businessId is
+ * unique) is left untouched, no duplicate tasks. Never lets a seeding
+ * failure fail the adoption itself — Business is the primary deliverable,
+ * the Roadmap is an enrichment on top of it.
+ */
+async function seedRoadmapIfMissing(
+  businessId: string,
+  userId: string,
+  businessTypeSlug: string,
+  assessmentId: string,
+  locale: Locale
+): Promise<void> {
+  try {
+    const existingRoadmap = await db.roadmap.findUnique({ where: { businessId } });
+    if (existingRoadmap) return;
+
+    const seedTasks = await readRoadmapSeedTasks(businessTypeSlug, locale);
+    if (seedTasks.length === 0) return;
+
+    const roadmap = await db.roadmap.create({ data: { userId, businessId } });
+    await db.roadmapTask.createMany({
+      data: seedTasks.map((task) => ({
+        roadmapId: roadmap.id,
+        title: task.title,
+        stage: task.stage,
+        month: task.month,
+        order: task.order,
+      })),
+    });
+  } catch (error) {
+    if (error instanceof Prisma.PrismaClientKnownRequestError && error.code === "P2002") return; // race: another request already seeded it
+    console.error(`seedRoadmapIfMissing failed for business ${businessId} (assessment ${assessmentId}):`, error);
   }
 }

@@ -342,28 +342,48 @@ model BlueprintSection {
   @@map("blueprint_sections")
 }
 
+/// One per adopted Business — a user's interactive journey through that
+/// business's 10-stage roadmap (see RoadmapStageKey in
+/// src/features/roadmap/types/sections.ts). totalXp/unlockedBadgeKeys are
+/// derived state, recomputed by recomputeRoadmapProgress() whenever a task's
+/// completion changes — never written to directly elsewhere.
 model Roadmap {
-  id         String       @id @default(cuid())
-  userId     String
-  user       User         @relation(fields: [userId], references: [id], onDelete: Cascade)
-  businessId String       @unique
-  business   Business     @relation(fields: [businessId], references: [id], onDelete: Cascade)
-  createdAt  DateTime     @default(now())
+  id                String        @id @default(cuid())
+  userId            String
+  user              User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  businessId        String        @unique
+  business          Business      @relation(fields: [businessId], references: [id], onDelete: Cascade)
+  totalXp           Int           @default(0)
+  unlockedBadgeKeys String[]      @default([])
+  createdAt         DateTime      @default(now())
+  updatedAt         DateTime      @updatedAt
 
-  milestones RoadmapTask[]
+  milestones        RoadmapTask[]
 
   @@map("roadmaps")
 }
 
+/// One checklist item within one stage of a Roadmap. `stage` is a plain
+/// string, not a Prisma enum — the 10-stage vocabulary (RoadmapStageKey)
+/// lives in application code, not the schema, same precedent as
+/// BlueprintSection.sectionKey. `sourceSectionKey` is null for every task
+/// seeded deterministically from a business's authored roadmap.json (all of
+/// Part 1) — set only when a later phase's Blueprint AI generation
+/// (launchPlan/growthPlan) contributes a task instead.
 model RoadmapTask {
-  id         String    @id @default(cuid())
-  roadmapId  String
-  roadmap    Roadmap   @relation(fields: [roadmapId], references: [id], onDelete: Cascade)
-  title      String
-  month      Int
-  isDone     Boolean   @default(false)
-  dueDate    DateTime?
-  createdAt  DateTime  @default(now())
+  id               String    @id @default(cuid())
+  roadmapId        String
+  roadmap          Roadmap   @relation(fields: [roadmapId], references: [id], onDelete: Cascade)
+  title            String
+  description      String?
+  stage            String
+  order            Int       @default(0)
+  xpValue          Int       @default(10)
+  month            Int
+  completedAt      DateTime?
+  dueDate          DateTime?
+  sourceSectionKey String?
+  createdAt        DateTime  @default(now())
 
   @@map("roadmap_tasks")
 }
