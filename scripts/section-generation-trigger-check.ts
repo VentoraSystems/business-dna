@@ -21,7 +21,15 @@ import { BLUEPRINT_SECTION_KEYS } from "../src/ai/prompts/blueprint";
 type SectionKey = (typeof BLUEPRINT_SECTION_KEYS)[number];
 const STUB_GENERATION_DELAY_MS = 1500;
 
-/** Mirrors generateSectionContent() exactly (see src/features/business-engine/actions/request-section-generation.ts). */
+/**
+ * A fake, instant-complete stand-in for generateSectionContent() — that
+ * function now does real AI generation (see request-section-generation.ts
+ * and scripts/section-generation-real-check.ts, which exercises the real
+ * one with a mocked model response). This script only cares about the
+ * trigger/status-transition/persistence mechanics around it, so it keeps
+ * a minimal fake here rather than paying the real prompt-building cost
+ * for a check that isn't testing prompt content.
+ */
 async function generateSectionContentStub(sectionId: string): Promise<void> {
   await new Promise((resolve) => setTimeout(resolve, STUB_GENERATION_DELAY_MS));
   await db.blueprintSection.update({
