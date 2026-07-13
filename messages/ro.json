@@ -806,6 +806,13 @@
       "costStructure": "Structura costurilor",
       "revenueStreams": "Surse de venit"
     },
+    "status": {
+      "none": "Negenerat încă",
+      "pending": "Negenerat încă",
+      "generating": "Se generează…",
+      "ready": "Gata",
+      "failed": "Eșuat"
+    },
     "generating": {
       "subtitle": "De obicei durează 10-20 de secunde.",
       "messages": [

@@ -806,6 +806,13 @@
       "costStructure": "Cost Structure",
       "revenueStreams": "Revenue Streams"
     },
+    "status": {
+      "none": "Not generated yet",
+      "pending": "Not generated yet",
+      "generating": "Generating…",
+      "ready": "Ready",
+      "failed": "Failed"
+    },
     "generating": {
       "subtitle": "This usually takes 10-20 seconds.",
       "messages": [

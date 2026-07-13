@@ -304,18 +304,42 @@ enum BlueprintStatus {
   failed
 }
 
+/// One per adopted Business — the document as a whole. Per-section
+/// status/content/error moved to BlueprintSection (each of the 15 sections
+/// is generated, and persists, independently) — this row is now just the
+/// document's identity/locale.
 model Blueprint {
+  id          String             @id @default(cuid())
+  businessId  String             @unique
+  business    Business           @relation(fields: [businessId], references: [id], onDelete: Cascade)
+  locale      Locale             @default(en)
+  createdAt   DateTime           @default(now())
+  updatedAt   DateTime           @updatedAt
+
+  sections    BlueprintSection[]
+
+  @@map("blueprints")
+}
+
+/// One row per section (executiveSummary, swot, financialForecast, etc. —
+/// see BLUEPRINT_SECTION_KEYS in src/ai/prompts/blueprint.ts for the
+/// canonical 15 keys). sectionKey isn't enum-backed since the section list
+/// is defined in application code, not the schema. Generated and persisted
+/// independently: visiting a section that's already "ready" reads this row
+/// back rather than regenerating.
+model BlueprintSection {
   id          String          @id @default(cuid())
-  businessId  String          @unique
-  business    Business        @relation(fields: [businessId], references: [id], onDelete: Cascade)
-  locale      Locale          @default(en)
+  blueprintId String
+  blueprint   Blueprint       @relation(fields: [blueprintId], references: [id], onDelete: Cascade)
+  sectionKey  String
   status      BlueprintStatus @default(pending)
+  content     Json?
   error       String?
-  content     Json
   createdAt   DateTime        @default(now())
   updatedAt   DateTime        @updatedAt
 
-  @@map("blueprints")
+  @@unique([blueprintId, sectionKey])
+  @@map("blueprint_sections")
 }
 
 model Roadmap {
