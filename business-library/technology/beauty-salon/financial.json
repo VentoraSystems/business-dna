@@ -1,0 +1,150 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "storefrontLeaseDepositAndBuildout",
+      "salonChairsAndStylingStations",
+      "initialRetailProductInventory",
+      "bookingAndPosSystemSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "storefrontLease",
+      "stylistWagesOrCommissionPayouts",
+      "productRestockingAndSupplies"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "retailProductCostOfGoods",
+      "socialContentAndInfluencerCosts",
+      "utilitiesAndSalonSupplies"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "hairCuttingColoringAndStyling",
+        "label": {
+          "en": "Haircutting, coloring, and styling services",
+          "ro": "Servicii de tuns, vopsit și styling"
+        }
+      },
+      {
+        "key": "blowoutAndBrowServices",
+        "label": {
+          "en": "Blowout and brow-shaping services",
+          "ro": "Servicii de coafat și conturare a sprâncenelor"
+        }
+      },
+      {
+        "key": "monthlyBlowoutMembership",
+        "label": {
+          "en": "Monthly blowout membership plans",
+          "ro": "Abonamente lunare de coafat"
+        }
+      },
+      {
+        "key": "retailHairProductSales",
+        "label": {
+          "en": "Retail hair-product sales",
+          "ro": "Vânzări de produse de îngrijire a părului"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageServiceTicketValue": "currency",
+      "chairsInUse": "number",
+      "appointmentsPerChairPerWeek": "number",
+      "membershipMonthlyFee": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "chairUtilizationRatePercent": "percent",
+      "membershipSignUpsPerMonth": "number"
+    },
+    "notesTranslationKey": "businessLibrary.beautySalon.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "sameDayServiceRevenueInflow",
+      "leaseAndStylistPayrollOutflow",
+      "productInventoryOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 9,
+    "notesTranslationKey": "businessLibrary.beautySalon.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 50,
+    "notesTranslationKey": "businessLibrary.beautySalon.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 22,
+    "notesTranslationKey": "businessLibrary.beautySalon.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "stylistRecruitingCosts",
+      "newStylistOnboardingAndTraining"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "socialContentProductionCosts",
+      "clientReferralDiscountProgram"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxOnStylists"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthLeaseReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "customerRetention",
+      "grossMargin",
+      "leadConversion",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 3000,
+      "notesTranslationKey": "businessLibrary.beautySalon.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 7500,
+      "notesTranslationKey": "businessLibrary.beautySalon.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 13000,
+      "notesTranslationKey": "businessLibrary.beautySalon.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.beautySalon.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.beautySalon.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.beautySalon.financial.aiMetadata.generationHints"
+  }
+}

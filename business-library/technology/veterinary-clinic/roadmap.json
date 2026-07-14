@@ -1,0 +1,242 @@
+{
+  "stages": [
+    {
+      "stage": "preparation",
+      "objectiveTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.preparation.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.preparation.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.preparation.checklist.0"
+      ],
+      "kpis": [],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.preparation.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.preparation.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.preparation.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "validation",
+      "objectiveTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.validation.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.validation.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.validation.checklist.0"
+      ],
+      "kpis": [
+        "leadConversion"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.validation.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.validation.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.validation.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "mvp",
+      "objectiveTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.mvp.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.mvp.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.mvp.checklist.0"
+      ],
+      "kpis": [
+        "customerRetention"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.mvp.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.mvp.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.mvp.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "launch",
+      "objectiveTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.launch.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.launch.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.launch.checklist.0"
+      ],
+      "kpis": [],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.launch.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.launch.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.launch.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "firstCustomer",
+      "objectiveTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.firstCustomer.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.firstCustomer.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.firstCustomer.checklist.0"
+      ],
+      "kpis": [
+        "customerRetention"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.firstCustomer.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.firstCustomer.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.firstCustomer.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "productMarketFit",
+      "objectiveTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.productMarketFit.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.productMarketFit.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.productMarketFit.checklist.0"
+      ],
+      "kpis": [
+        "customerRetention",
+        "leadConversion"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.productMarketFit.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.productMarketFit.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.productMarketFit.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "growth",
+      "objectiveTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.growth.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.growth.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.growth.checklist.0"
+      ],
+      "kpis": [
+        "mrr"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.growth.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.growth.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.growth.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "scaling",
+      "objectiveTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.scaling.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.scaling.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.scaling.checklist.0"
+      ],
+      "kpis": [
+        "grossMargin"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.scaling.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.scaling.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.scaling.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "expansion",
+      "objectiveTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.expansion.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.expansion.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.expansion.checklist.0"
+      ],
+      "kpis": [
+        "mrr"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.expansion.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.expansion.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.expansion.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "exit",
+      "objectiveTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.exit.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.exit.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.exit.checklist.0"
+      ],
+      "kpis": [],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.exit.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.exit.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.veterinaryClinic.roadmap.exit.aiRecommendations.0"
+      ]
+    }
+  ],
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.veterinaryClinic.roadmap.aiMetadata.generationHints"
+  }
+}

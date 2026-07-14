@@ -1,0 +1,142 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "officeAndTelehealthSetup",
+      "practiceManagementAndTelehealthSoftware",
+      "licensingAndProfessionalLiabilityInsurance",
+      "initialMarketingAndWebsite"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "officeLeaseOrCoworkingFee",
+      "practiceManagementSoftwareSubscription",
+      "professionalLiabilityInsurance"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "continuingEducationCosts",
+      "clinicalSupervisionOrConsultationFees",
+      "directoryListingFees"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "individualTherapySessionFees",
+        "label": {
+          "en": "Individual therapy session fees",
+          "ro": "Onorarii pentru ședințele de terapie individuală"
+        }
+      },
+      {
+        "key": "monthlySessionPackagePricing",
+        "label": {
+          "en": "Discounted monthly 4-session package pricing",
+          "ro": "Preț redus pentru pachetul lunar de 4 ședințe"
+        }
+      },
+      {
+        "key": "outOfNetworkSuperbillReimbursement",
+        "label": {
+          "en": "Out-of-network superbills for client insurance reimbursement",
+          "ro": "Facturi detaliate în afara rețelei, pentru rambursarea de către asigurarea clientului"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageSessionFee": "currency",
+      "sessionsPerWeek": "number",
+      "packageAttachRatePercent": "percent",
+      "slidingScaleAllotmentPercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "newClientsPerMonth": "number",
+      "weeklyRetentionRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.psychologyPractice.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "privatePaySessionInflow",
+      "packagePrepaymentInflow",
+      "softwareAndInsuranceOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 6,
+    "notesTranslationKey": "businessLibrary.psychologyPractice.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 78,
+    "notesTranslationKey": "businessLibrary.psychologyPractice.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 55,
+    "notesTranslationKey": "businessLibrary.psychologyPractice.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "associateClinicianOnboarding"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "directoryListingFees",
+      "websiteAndLocalSeo"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentIncomeTax",
+      "quarterlyEstimatedTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "customerRetention",
+      "grossMargin",
+      "leadConversion",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 4000,
+      "notesTranslationKey": "businessLibrary.psychologyPractice.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 9500,
+      "notesTranslationKey": "businessLibrary.psychologyPractice.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 15000,
+      "notesTranslationKey": "businessLibrary.psychologyPractice.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.psychologyPractice.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.psychologyPractice.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.psychologyPractice.financial.aiMetadata.generationHints"
+  }
+}

@@ -1,0 +1,955 @@
+{
+  "identity": {
+    "id": "7456adc3-9939-4f9f-8d94-afa7195ee971",
+    "slug": "cleaning-company",
+    "version": "1.0.0",
+    "name": {
+      "en": "Brightline Cleaning Co.",
+      "ro": "Brightline Cleaning Co."
+    },
+    "tagline": {
+      "en": "The same trusted team, every single visit.",
+      "ro": "Aceeași echipă de încredere, la fiecare vizită."
+    },
+    "createdAt": "2026-07-14T00:00:00.000Z",
+    "updatedAt": "2026-07-14T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theOperator",
+      "theBuilder"
+    ],
+    "summary": {
+      "en": "Best suited to a hands-on operator who is comfortable cleaning homes personally in the first months, then shifts into hiring, training, and scheduling a small team — this is a systems and reliability business, not a sales-led one.",
+      "ro": "Potrivit unui operator implicat direct, confortabil să curețe personal locuințe în primele luni, apoi să treacă la angajarea, instruirea și programarea unei echipe mici — aceasta este o afacere bazată pe sisteme și fiabilitate, nu una condusă de vânzări."
+    },
+    "minimumExperienceYears": 0
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 1500,
+      "maxInvestment": 6000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 300,
+      "ongoingMonthlyCostMax": 900,
+      "notes": {
+        "en": "Covers cleaning supplies and equipment, a small branded vehicle decal, bonding/liability insurance, and basic scheduling software — a genuinely low budget tier since there's no storefront or specialized equipment to finance.",
+        "ro": "Acoperă consumabile și echipamente de curățenie, un autocolant mic de brand pentru vehicul, asigurarea de garanție/răspundere civilă și un software de bază de programare — un nivel de buget cu adevărat scăzut, întrucât nu există vitrină sau echipament specializat de finanțat."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "cleaningSuppliesAndEquipment",
+          "label": {
+            "en": "Commercial-grade cleaning supplies and equipment",
+            "ro": "Consumabile și echipamente de curățenie de nivel comercial"
+          },
+          "typicalMin": 600,
+          "typicalMax": 1500
+        },
+        {
+          "key": "bondingAndLiabilityInsurance",
+          "label": {
+            "en": "Bonding and general liability insurance setup",
+            "ro": "Configurarea asigurării de garanție și de răspundere civilă generală"
+          },
+          "typicalMin": 400,
+          "typicalMax": 1200
+        },
+        {
+          "key": "schedulingAndInvoicingSoftwareSetup",
+          "label": {
+            "en": "Scheduling and invoicing software setup",
+            "ro": "Configurarea software-ului de programare și facturare"
+          },
+          "typicalMin": 200,
+          "typicalMax": 600
+        },
+        {
+          "key": "brandedVehicleAndUniformSetup",
+          "label": {
+            "en": "Branded vehicle decal and uniform setup",
+            "ro": "Configurarea autocolantului de vehicul de brand și a uniformelor"
+          },
+          "typicalMin": 300,
+          "typicalMax": 700
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "cleaningSuppliesReplenishment",
+          "label": {
+            "en": "Cleaning supplies replenishment",
+            "ro": "Reaprovizionarea cu consumabile de curățenie"
+          },
+          "typicalMonthlyMin": 100,
+          "typicalMonthlyMax": 250
+        },
+        {
+          "key": "insuranceAndBondingPremiums",
+          "label": {
+            "en": "Insurance and bonding premiums",
+            "ro": "Primele de asigurare și de garanție"
+          },
+          "typicalMonthlyMin": 80,
+          "typicalMonthlyMax": 200
+        },
+        {
+          "key": "schedulingSoftwareSubscription",
+          "label": {
+            "en": "Scheduling and invoicing software subscription",
+            "ro": "Abonamentul software de programare și facturare"
+          },
+          "typicalMonthlyMin": 40,
+          "typicalMonthlyMax": 150
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "recurringBiweeklyCleaningContracts",
+          "label": {
+            "en": "Recurring bi-weekly and weekly cleaning contracts",
+            "ro": "Contracte recurente de curățenie bilunare și săptămânale"
+          }
+        },
+        {
+          "key": "oneTimeDeepCleans",
+          "label": {
+            "en": "One-time deep cleans and move-in/move-out cleans",
+            "ro": "Curățenii generale unice și curățenii la mutare"
+          }
+        },
+        {
+          "key": "addOnServices",
+          "label": {
+            "en": "Add-on services (inside oven, inside fridge, interior windows)",
+            "ro": "Servicii suplimentare (interior cuptor, interior frigider, geamuri interioare)"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 3000,
+      "targetMonthlyIncomeMax": 9000,
+      "breakEvenTimelineMonths": 4,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "fast",
+      "notes": {
+        "en": "A recurring bi-weekly contract starts paying out within the first one to two weeks of outreach, much faster than a project- or retainer-based professional service.",
+        "ro": "Un contract recurent bilunar începe să genereze venituri în prima sau a doua săptămână de la contactare, mult mai rapid decât un serviciu profesional bazat pe proiect sau pe retenție."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate",
+      "notes": {
+        "en": "Labor (the owner's own time early on, then hourly cleaning technicians) is the dominant cost, keeping margin solidly moderate rather than high once a team is paid hourly.",
+        "ro": "Forța de muncă (timpul propriu al proprietarului la început, apoi tehnicienii de curățenie plătiți cu ora) este costul dominant, menținând marja solid moderată, nu ridicată, odată ce o echipă este plătită cu ora."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "inPerson",
+    "travelRequirement": "occasional",
+    "onlineOffline": "offline",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 35,
+    "maxWeeklyHours": 50,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 5
+      },
+      {
+        "key": "marketing",
+        "rating": 4
+      },
+      {
+        "key": "leadership",
+        "rating": 5
+      },
+      {
+        "key": "communication",
+        "rating": 6
+      },
+      {
+        "key": "negotiation",
+        "rating": 3
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 8
+      },
+      {
+        "key": "technology",
+        "rating": 3
+      },
+      {
+        "key": "automation",
+        "rating": 3
+      },
+      {
+        "key": "ai",
+        "rating": 2
+      },
+      {
+        "key": "programming",
+        "rating": 1
+      },
+      {
+        "key": "management",
+        "rating": 7
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 55
+      },
+      {
+        "key": "visionary",
+        "score": 20
+      },
+      {
+        "key": "operator",
+        "score": 80
+      },
+      {
+        "key": "creator",
+        "score": 15
+      },
+      {
+        "key": "seller",
+        "score": 40
+      },
+      {
+        "key": "leader",
+        "score": 50
+      },
+      {
+        "key": "analyst",
+        "score": 30
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": false,
+    "isFullyRemote": false,
+    "requiresTravel": true,
+    "isOnlineBusiness": false,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": true,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "low",
+      "notes": {
+        "en": "Growth is capped by how many cleaning teams can be hired, trained, and kept reliably staffed — there is no product or software leverage to multiply revenue without adding people.",
+        "ro": "Creșterea este limitată de câte echipe de curățenie pot fi angajate, instruite și menținute constant — nu există un efect de pârghie de produs sau software pentru a multiplica veniturile fără a adăuga personal."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "No licensing barrier to entry, but building a reliable, trustworthy team and a full recurring client schedule takes real operational discipline.",
+        "ro": "Nicio barieră de licențiere la intrare, dar construirea unei echipe de încredere, fiabile și a unui program complet de clienți recurenți necesită o disciplină operațională reală."
+      }
+    },
+    "aiResistance": {
+      "level": "high",
+      "notes": {
+        "en": "Physical, in-home cleaning work cannot be automated or performed remotely by software — one of the most AI-resistant businesses in this library.",
+        "ro": "Munca fizică de curățenie la domiciliu nu poate fi automatizată sau efectuată de la distanță de un software — una dintre cele mai rezistente afaceri la AI din această bibliotecă."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Cleaner no-shows or turnover directly damage trust with recurring clients who expect the same reliable team every visit.",
+          "ro": "Absențele sau fluctuația personalului de curățenie afectează direct încrederea clienților recurenți, care așteaptă aceeași echipă fiabilă la fiecare vizită."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "In-home access requires trustworthy, background-checked staff — a single theft or damage incident can end a client relationship and harm reputation broadly.",
+          "ro": "Accesul la domiciliu necesită personal de încredere, verificat — un singur incident de furt sau daună poate încheia o relație cu clientul și poate afecta grav reputația."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Low barrier to entry means new competitors and app-based marketplaces can undercut on price.",
+          "ro": "Bariera scăzută la intrare înseamnă că noi concurenți și piețe bazate pe aplicații pot subcota prețurile."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "The same trusted team, every single visit — not a rotating stranger from an app.",
+        "ro": "Aceeași echipă de încredere, la fiecare vizită — nu un străin diferit dintr-o aplicație."
+      },
+      "channels": [
+        {
+          "channelType": "neighborhoodDoorHangersAndReferrals",
+          "description": {
+            "en": "Door hangers and lawn signs in target neighborhoods paired with a referral discount for existing clients who bring in a neighbor.",
+            "ro": "Fluturași de ușă și indicatoare stradale în cartierele țintă, combinate cu o reducere pentru clienții existenți care aduc un vecin."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "googleBusinessProfileAndLocalSeo",
+          "description": {
+            "en": "A well-reviewed Google Business Profile capturing high-intent local search for recurring house cleaning.",
+            "ro": "Un profil Google Business bine recenzat, care captează căutările locale cu intenție ridicată pentru curățenie recurentă la domiciliu."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "facebookLocalCommunityGroups",
+          "description": {
+            "en": "Posting in local neighborhood Facebook groups as a supplemental, low-cost awareness channel.",
+            "ro": "Postarea în grupuri locale de cartier pe Facebook, ca un canal suplimentar de conștientizare, cu costuri reduse."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "Local reputation and word of mouth do most of the work — no complex multi-channel campaign management required.",
+        "ro": "Reputația locală și recomandările verbale fac cea mai mare parte a muncii — nu este necesară gestionarea complexă a campaniilor pe mai multe canale."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A free in-home walkthrough quote sets the recurring price up front based on home size and condition, converting directly into a scheduled first visit.",
+        "ro": "O evaluare gratuită la domiciliu stabilește prețul recurent din start, pe baza dimensiunii și stării locuinței, transformându-se direct într-o primă vizită programată."
+      },
+      "salesCycleLengthDays": 5,
+      "pricingModel": {
+        "en": "Flat per-visit rate by home size and frequency (e.g. €90 bi-weekly for a 3-bedroom home), billed automatically after each visit.",
+        "ro": "Tarif fix pe vizită, în funcție de dimensiunea locuinței și frecvență (de ex. 90 € bilunar pentru o locuință cu 3 dormitoare), facturat automat după fiecare vizită."
+      }
+    },
+    "salesComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "A short, low-stakes sales cycle compared to most businesses in this library — most prospects decide within days of the free walkthrough quote.",
+        "ro": "Un ciclu de vânzare scurt, cu miză redusă, comparativ cu majoritatea afacerilor din această bibliotecă — majoritatea potențialilor clienți decid în câteva zile de la evaluarea gratuită."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "A free in-home walkthrough and quote based on square footage and condition",
+          "ro": "O evaluare și ofertă gratuită la domiciliu, pe baza suprafeței și stării locuinței"
+        },
+        {
+          "en": "Recruiting, background-checking, and training cleaning technicians on a standardized checklist",
+          "ro": "Recrutarea, verificarea antecedentelor și instruirea tehnicienilor de curățenie pe o listă de verificare standardizată"
+        },
+        {
+          "en": "Route scheduling to keep the same team assigned to the same recurring clients",
+          "ro": "Programarea traseelor pentru a menține aceeași echipă alocată acelorași clienți recurenți"
+        },
+        {
+          "en": "Post-visit quality-control check-ins and client follow-up",
+          "ro": "Verificări de control al calității post-vizită și urmărirea clienților"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "A structured daily route of scheduled cleaning visits, with the owner splitting time between hands-on cleaning early on and dispatch, quality checks, and hiring as the team grows.",
+        "ro": "Un traseu zilnic structurat de vizite de curățenie programate, proprietarul împărțindu-și timpul între curățenia directă la început și expediere, verificări de calitate și angajare, pe măsură ce echipa crește."
+      },
+      "fulfillmentModel": {
+        "en": "The owner cleans directly in the first months, then shifts to hiring and dispatching 2-person cleaning teams assigned consistently to the same client roster.",
+        "ro": "Proprietarul curăță direct în primele luni, apoi trece la angajarea și expedierea echipelor de curățenie de 2 persoane, alocate constant aceluiași portofoliu de clienți."
+      }
+    },
+    "automation": {
+      "level": "moderate",
+      "notes": {
+        "en": "Scheduling, automated billing after each visit, and appointment reminders are automated, but the cleaning itself and client relationship remain fully manual.",
+        "ro": "Programarea, facturarea automată după fiecare vizită și memento-urile pentru programări sunt automatizate, dar curățenia în sine și relația cu clientul rămân complet manuale."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "customerServiceChatbots",
+          "description": {
+            "en": "AI-assisted chat on the booking page answers common pricing and scheduling questions before a lead ever calls.",
+            "ro": "Chat-ul asistat de AI pe pagina de rezervare răspunde la întrebările comune despre preț și programare, înainte ca un client potențial să sune."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "Housecall Pro",
+        "category": "schedulingAndDispatch",
+        "isRequired": true,
+        "websiteUrl": "https://www.housecallpro.com/"
+      },
+      {
+        "name": "QuickBooks",
+        "category": "invoicingAndAccounting",
+        "isRequired": true,
+        "websiteUrl": "https://quickbooks.intuit.com/"
+      },
+      {
+        "name": "Checkr",
+        "category": "backgroundChecks",
+        "isRequired": false,
+        "websiteUrl": "https://checkr.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 24,
+      "notes": {
+        "en": "Growth is steady but people-gated — each new cleaning team added expands capacity by a fixed, predictable amount rather than compounding on its own.",
+        "ro": "Creșterea este constantă, dar limitată de personal — fiecare nouă echipă de curățenie adăugată extinde capacitatea cu o cantitate fixă, previzibilă, nu se multiplică de la sine."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Fill the owner's own cleaning schedule first, then hire and train a second team once there's a waitlist, repeating the pattern as recurring revenue supports it.",
+        "ro": "Umple mai întâi propriul program de curățenie al proprietarului, apoi angajează și instruiește o a doua echipă odată ce există o listă de așteptare, repetând tiparul pe măsură ce veniturile recurente o permit."
+      },
+      "bottlenecks": [
+        {
+          "en": "Finding and retaining trustworthy, reliable cleaning staff is the single biggest constraint on growth.",
+          "ro": "Găsirea și păstrarea unui personal de curățenie de încredere și fiabil este cea mai mare constrângere asupra creșterii."
+        },
+        {
+          "en": "Route density matters — clients spread across too wide a geographic area waste team travel time between visits.",
+          "ro": "Densitatea traseelor contează — clienții răspândiți pe o zonă geografică prea largă irosesc timpul de deplasare al echipei între vizite."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 4,
+          "description": {
+            "en": "The owner's own cleaning schedule is fully booked with recurring clients.",
+            "ro": "Programul propriu de curățenie al proprietarului este complet ocupat cu clienți recurenți."
+          }
+        },
+        {
+          "monthsFromLaunch": 10,
+          "description": {
+            "en": "The first hired cleaning team is fully trained and handling its own recurring client route.",
+            "ro": "Prima echipă de curățenie angajată este complet instruită și gestionează propriul traseu de clienți recurenți."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Assigning the same team to the same clients directly solves the biggest complaint about app-based cleaning marketplaces: a different, unknown cleaner every visit.",
+          "ro": "Alocarea aceleiași echipe acelorași clienți rezolvă direct cea mai mare plângere legată de piețele de curățenie bazate pe aplicații: un curățător diferit și necunoscut la fiecare vizită."
+        }
+      },
+      {
+        "description": {
+          "en": "Fast revenue speed compared to most businesses in this library — a signed recurring contract starts paying out within days.",
+          "ro": "Viteză rapidă a veniturilor, comparativ cu majoritatea afacerilor din această bibliotecă — un contract recurent semnat începe să genereze venituri în câteva zile."
+        }
+      },
+      {
+        "description": {
+          "en": "Genuinely AI-resistant, in-person work that cannot be commoditized by software the way many desk-based services can.",
+          "ro": "Muncă cu adevărat rezistentă la AI, în persoană, care nu poate fi transformată în marfă de un software, așa cum se întâmplă cu multe servicii de birou."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A residential recurring-cleaning company where the owner cleans directly at first, then hires and trains W2 cleaning technicians, keeping the same 2-person team assigned to the same recurring clients for continuity, growing through neighborhood referrals and local reputation rather than a marketplace app.",
+        "ro": "O companie de curățenie recurentă rezidențială în care proprietarul curăță direct la început, apoi angajează și instruiește tehnicieni de curățenie, menținând aceeași echipă de 2 persoane alocată acelorași clienți recurenți pentru continuitate, crescând prin recomandări de cartier și reputație locală, nu printr-o aplicație de tip piață."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.cleaningCompany.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.cleaningCompany.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.cleaningCompany.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.cleaningCompany.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep recurring clients on a stable bi-weekly or weekly schedule month over month.",
+          "ro": "Menține clienții recurenți pe un program stabil bilunar sau săptămânal, lună de lună."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert free in-home walkthrough quotes into signed recurring contracts.",
+          "ro": "Transformă evaluările gratuite la domiciliu în contracte recurente semnate."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against rising cleaning-technician wages and supply costs.",
+          "ro": "Protejează marja brută împotriva creșterii salariilor tehnicienilor de curățenie și a costurilor cu consumabilele."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep recurring-client cancellations low through consistent team assignment and quality control.",
+          "ro": "Menține anulările clienților recurenți scăzute prin alocarea constantă a echipei și controlul calității."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "management",
+          "importance": 4
+        },
+        {
+          "key": "sales",
+          "importance": 3
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "marketing",
+          "importance": 2
+        },
+        {
+          "key": "communication",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "detailOriented",
+          "importance": 5
+        },
+        {
+          "trait": "persistent",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "collaborative",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 1500,
+        "max": 6000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 2500,
+        "max": 5000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 35,
+        "maxWeeklyHours": 50
+      },
+      "communicationStyle": [
+        "direct",
+        "warm"
+      ],
+      "technicalLevel": 2,
+      "leadershipLevel": 3,
+      "creativityLevel": 1,
+      "salesAffinity": 3,
+      "automationAffinity": 2,
+      "remotePreference": "inPerson",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theOperator",
+        "theBuilder"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the consistent-team-every-visit promise and the owner-cleans-first-then-hires operating model in the Offer Architecture and Team Structure sections — that continuity is the core differentiator from app-based cleaning marketplaces.",
+      "ro": "Subliniază promisiunea unei echipe constante la fiecare vizită și modelul operațional în care proprietarul curăță întâi, apoi angajează, în secțiunile Arhitectura ofertei și Structura echipei — această continuitate este diferențiatorul de bază față de piețele de curățenie bazate pe aplicații."
+    },
+    "marketingHints": {
+      "en": "Lead with reliability and the same-team promise, not price — door hangers and referral discounts in specific neighborhoods outperform generic 'affordable cleaning' messaging.",
+      "ro": "Începe cu fiabilitatea și promisiunea aceleiași echipe, nu cu prețul — fluturașii de ușă și reducerile pentru recomandări în cartiere specifice au performanțe mai bune decât un mesaj generic de „curățenie accesibilă”."
+    },
+    "financialHints": {
+      "en": "Model revenue as fast-starting recurring contracts (paying out within days of signing) with labor as the dominant cost line, distinct from the lumpy commission income of real-estate-agency elsewhere in this library.",
+      "ro": "Modelează veniturile ca fiind contracte recurente cu pornire rapidă (care generează venituri în câteva zile de la semnare), cu forța de muncă drept costul dominant, distinct de venitul din comision neregulat al real-estate-agency, prezent în altă parte a acestei biblioteci."
+    },
+    "generationHints": {
+      "en": "Keep generated tone practical, reliability-focused, and concrete about scheduling and team continuity — avoid generic 'sparkling clean home' marketing filler.",
+      "ro": "Menține un ton generat practic, axat pe fiabilitate și concret despre programare și continuitatea echipei — evită umplutura generică de marketing de tipul „casă strălucitoare”."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Set up bonding and liability insurance, source commercial-grade supplies, and configure scheduling/invoicing software.",
+            "ro": "Configurează asigurarea de garanție și răspundere civilă, procură consumabile de nivel comercial și configurează software-ul de programare/facturare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Skipping bonding and liability insurance to save money, leaving no protection if something is damaged or goes missing in a client's home.",
+            "ro": "Renunțarea la asigurarea de garanție și răspundere civilă pentru a economisi bani, fără protecție dacă ceva este deteriorat sau dispare din locuința unui client."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Get bonding and liability insurance in place before the first paid visit, not after.",
+            "ro": "Obține asigurarea de garanție și răspundere civilă înainte de prima vizită plătită, nu după."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cleaningCompany.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Book 5-8 free in-home walkthrough quotes in a single target neighborhood to validate pricing and demand.",
+            "ro": "Programează 5-8 evaluări gratuite la domiciliu, într-un singur cartier țintă, pentru a valida prețul și cererea."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Pricing too low on the first few clients out of nervousness, making it hard to raise prices later without losing them.",
+            "ro": "Prețuri prea mici pentru primii clienți, din nesiguranță, ceea ce face dificilă creșterea ulterioară a prețurilor fără a-i pierde."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Set the real recurring price from the very first quote instead of offering an introductory discount that must later be revoked.",
+            "ro": "Stabilește prețul recurent real încă de la prima evaluare, în loc să oferi o reducere introductivă care va trebui retrasă ulterior."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cleaningCompany.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first month of recurring visits for the first 3-5 signed clients personally.",
+            "ro": "Finalizează prima lună de vizite recurente pentru primii 3-5 clienți semnați, personal."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not documenting a standardized room-by-room checklist early, making quality inconsistent once a second cleaner is added later.",
+            "ro": "Nedocumentarea unei liste de verificare standardizate, cameră cu cameră, de la început, ceea ce duce la o calitate inconsistentă odată ce se adaugă un al doilea curățător mai târziu."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Write a standardized room-by-room cleaning checklist during the first month, even while working solo.",
+            "ro": "Scrie o listă de verificare standardizată de curățenie, cameră cu cameră, în prima lună, chiar și în timp ce lucrezi singur."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cleaningCompany.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Start the door-hanger and referral-discount campaign in the target neighborhood to fill the recurring client schedule.",
+            "ro": "Începe campania de fluturași de ușă și reduceri pentru recomandări, în cartierul țintă, pentru a completa programul de clienți recurenți."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Spreading door-hanger distribution across too many neighborhoods at once instead of saturating one first.",
+            "ro": "Distribuirea fluturașilor de ușă în prea multe cartiere simultan, în loc să saturezi mai întâi unul singur."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Saturate a single target neighborhood with door hangers before expanding to a second one.",
+            "ro": "Saturează un singur cartier țintă cu fluturași de ușă, înainte de a te extinde la un al doilea."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cleaningCompany.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Ask the first satisfied recurring client directly for a referral and a Google review.",
+            "ro": "Solicită direct primului client recurent mulțumit o recomandare și o recenzie Google."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Waiting passively for referrals instead of directly asking satisfied clients after a few successful visits.",
+            "ro": "Așteptarea pasivă a recomandărilor, în loc să soliciți direct clienților mulțumiți, după câteva vizite reușite."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Ask every client directly for a referral after their third successful visit, with a concrete discount incentive.",
+            "ro": "Solicită direct fiecărui client o recomandare, după a treia vizită reușită, cu un stimulent concret sub formă de reducere."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cleaningCompany.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a fully booked personal cleaning schedule with a waitlist forming for new recurring clients.",
+            "ro": "Atinge un program personal de curățenie complet ocupat, cu o listă de așteptare pentru noi clienți recurenți."
+          }
+        ],
+        "kpis": [
+          "customerRetention",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Continuing to take on clients personally past capacity instead of starting to hire once a waitlist forms.",
+            "ro": "Continuarea preluării personale a clienților peste capacitate, în loc să începi angajarea odată ce se formează o listă de așteptare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Start recruiting the first hire as soon as a genuine waitlist of 3+ prospective clients forms.",
+            "ro": "Începe recrutarea primului angajat de îndată ce se formează o listă de așteptare reală de 3+ clienți potențiali."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cleaningCompany.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Hire, background-check, and train the first cleaning team on the standardized checklist.",
+            "ro": "Angajează, verifică antecedentele și instruiește prima echipă de curățenie pe lista de verificare standardizată."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Skipping a real background check on a new hire to fill a schedule gap faster, risking client trust and safety.",
+            "ro": "Renunțarea la o verificare reală a antecedentelor unui nou angajat, pentru a completa mai rapid un gol în program, riscând încrederea și siguranța clientului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Run a full background check on every hire before assigning them to any client's home, with no exceptions.",
+            "ro": "Efectuează o verificare completă a antecedentelor pentru fiecare angajat, înainte de a-l aloca la locuința oricărui client, fără excepții."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cleaningCompany.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Add a second and third cleaning team, shifting the owner fully into scheduling, quality control, and hiring.",
+            "ro": "Adaugă o a doua și a treia echipă de curățenie, trecând proprietarul complet la programare, control al calității și angajare."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding route density too thinly across a wide geographic area, wasting team travel time between visits.",
+            "ro": "Extinderea densității traseelor prea subțire, pe o zonă geografică largă, irosind timpul de deplasare al echipei între vizite."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Prioritize filling out an existing neighborhood's route density before expanding into a new geographic area.",
+            "ro": "Prioritizează completarea densității traseului dintr-un cartier existent, înainte de a te extinde într-o nouă zonă geografică."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cleaningCompany.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into an adjacent neighborhood or add a specialty service line (e.g. move-in/move-out deep cleans).",
+            "ro": "Extinde-te într-un cartier adiacent sau adaugă o linie de servicii specializate (de ex. curățenii generale la mutare)."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Diluting the core reliable-recurring-team positioning by chasing one-off jobs across too wide an area.",
+            "ro": "Diluarea poziționării de bază, a echipei recurente și fiabile, urmărind lucrări unice pe o zonă prea largă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Validate a new neighborhood or service line with existing clients' referrals before investing in dedicated marketing there.",
+            "ro": "Validează un cartier nou sau o linie de servicii cu recomandările clienților existenți, înainte de a investi în marketing dedicat acolo."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cleaningCompany.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document recurring-client contracts, team structure, and standard operating procedures to package the business for sale.",
+            "ro": "Documentează contractele clienților recurenți, structura echipei și procedurile standard de operare, pentru a pregăti afacerea pentru vânzare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping standard operating procedures only in the owner's head, making the business much harder to value or hand off.",
+            "ro": "Păstrarea procedurilor standard de operare doar în mintea proprietarului, ceea ce face afacerea mult mai greu de evaluat sau de predat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Write down every standard operating procedure and keep the recurring-client contract list current on an ongoing basis, not just before a sale.",
+            "ro": "Scrie fiecare procedură standard de operare și menține lista de contracte ale clienților recurenți actualizată permanent, nu doar înainte de o vânzare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cleaningCompany.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

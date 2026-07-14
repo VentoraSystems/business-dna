@@ -1,0 +1,143 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "cleaningSuppliesAndEquipment",
+      "bondingAndLiabilityInsurance",
+      "schedulingAndInvoicingSoftwareSetup",
+      "brandedVehicleAndUniformSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "cleaningSuppliesReplenishment",
+      "insuranceAndBondingPremiums",
+      "schedulingSoftwareSubscription"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "cleaningTechnicianHourlyWages",
+      "fuelAndVehicleMaintenance",
+      "doorHangerAndPrintMarketingCosts"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "recurringBiweeklyCleaningContracts",
+        "label": {
+          "en": "Recurring bi-weekly and weekly cleaning contracts",
+          "ro": "Contracte recurente de curățenie bilunare și săptămânale"
+        }
+      },
+      {
+        "key": "oneTimeDeepCleans",
+        "label": {
+          "en": "One-time deep cleans and move-in/move-out cleans",
+          "ro": "Curățenii generale unice și curățenii la mutare"
+        }
+      },
+      {
+        "key": "addOnServices",
+        "label": {
+          "en": "Add-on services (inside oven, inside fridge, interior windows)",
+          "ro": "Servicii suplimentare (interior cuptor, interior frigider, geamuri interioare)"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageContractValuePerVisit": "currency",
+      "visitsPerRecurringClientPerMonth": "number",
+      "cleaningTechnicianHourlyWage": "currency",
+      "activeRecurringClientsPerTeam": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "recurringClientsAddedPerMonth": "number",
+      "monthlyChurnRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.cleaningCompany.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "recurringContractBillingInflow",
+      "cleaningTechnicianPayrollOutflow",
+      "suppliesAndInsuranceOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 4,
+    "notesTranslationKey": "businessLibrary.cleaningCompany.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 55,
+    "notesTranslationKey": "businessLibrary.cleaningCompany.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 28,
+    "notesTranslationKey": "businessLibrary.cleaningCompany.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "cleaningTechnicianRecruitingAndBackgroundChecks",
+      "cleaningTechnicianOnboardingAndTraining"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "doorHangerAndSignagePrinting",
+      "referralDiscountProgram"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "payrollTaxOnHiredTechnicians"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "customerRetention",
+      "leadConversion",
+      "grossMargin",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 2200,
+      "notesTranslationKey": "businessLibrary.cleaningCompany.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 5500,
+      "notesTranslationKey": "businessLibrary.cleaningCompany.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 9500,
+      "notesTranslationKey": "businessLibrary.cleaningCompany.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.cleaningCompany.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.cleaningCompany.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.cleaningCompany.financial.aiMetadata.generationHints"
+  }
+}

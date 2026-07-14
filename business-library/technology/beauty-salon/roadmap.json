@@ -1,0 +1,242 @@
+{
+  "stages": [
+    {
+      "stage": "preparation",
+      "objectiveTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.preparation.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.preparation.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.preparation.checklist.0"
+      ],
+      "kpis": [],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.preparation.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.preparation.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.preparation.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "validation",
+      "objectiveTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.validation.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.validation.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.validation.checklist.0"
+      ],
+      "kpis": [
+        "leadConversion"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.validation.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.validation.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.validation.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "mvp",
+      "objectiveTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.mvp.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.mvp.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.mvp.checklist.0"
+      ],
+      "kpis": [
+        "customerRetention"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.mvp.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.mvp.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.mvp.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "launch",
+      "objectiveTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.launch.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.launch.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.launch.checklist.0"
+      ],
+      "kpis": [],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.launch.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.launch.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.launch.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "firstCustomer",
+      "objectiveTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.firstCustomer.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.firstCustomer.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.firstCustomer.checklist.0"
+      ],
+      "kpis": [
+        "customerRetention"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.firstCustomer.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.firstCustomer.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.firstCustomer.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "productMarketFit",
+      "objectiveTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.productMarketFit.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.productMarketFit.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.productMarketFit.checklist.0"
+      ],
+      "kpis": [
+        "customerRetention",
+        "leadConversion"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.productMarketFit.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.productMarketFit.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.productMarketFit.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "growth",
+      "objectiveTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.growth.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.growth.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.growth.checklist.0"
+      ],
+      "kpis": [
+        "mrr"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.growth.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.growth.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.growth.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "scaling",
+      "objectiveTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.scaling.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.scaling.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.scaling.checklist.0"
+      ],
+      "kpis": [
+        "grossMargin"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.scaling.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.scaling.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.scaling.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "expansion",
+      "objectiveTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.expansion.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.expansion.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.expansion.checklist.0"
+      ],
+      "kpis": [
+        "mrr"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.expansion.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.expansion.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.expansion.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "exit",
+      "objectiveTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.exit.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.exit.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.exit.checklist.0"
+      ],
+      "kpis": [],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.exit.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.exit.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.beautySalon.roadmap.exit.aiRecommendations.0"
+      ]
+    }
+  ],
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.beautySalon.roadmap.aiMetadata.generationHints"
+  }
+}

@@ -1,0 +1,955 @@
+{
+  "identity": {
+    "id": "279a4c02-4567-4f7a-9a10-d2c724cc5bfd",
+    "slug": "dental-clinic",
+    "version": "1.0.0",
+    "name": {
+      "en": "Meridian Dental Studio",
+      "ro": "Meridian Dental Studio"
+    },
+    "tagline": {
+      "en": "Modern dentistry that doesn't feel clinical.",
+      "ro": "Stomatologie modernă care nu se simte clinică."
+    },
+    "createdAt": "2026-07-14T00:00:00.000Z",
+    "updatedAt": "2026-07-14T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theSpecialist",
+      "theOperator"
+    ],
+    "summary": {
+      "en": "Best suited to a licensed dentist with several years of associateship experience who is ready to carry the regulatory, financial, and staffing responsibility of owning a practice — this is business-planning guidance only, not clinical training, and assumes real dental licensure and clinical competence are already in place.",
+      "ro": "Potrivit unui medic stomatolog licențiat, cu câțiva ani de experiență ca asociat, pregătit să preia responsabilitatea de reglementare, financiară și de personal a deținerii unui cabinet — acestea sunt îndrumări de planificare a afacerii, nu instruire clinică, și presupun că licențierea și competența clinică reale sunt deja în vigoare."
+    },
+    "minimumExperienceYears": 5
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 75000,
+      "maxInvestment": 180000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 12000,
+      "ongoingMonthlyCostMax": 28000,
+      "notes": {
+        "en": "Covers dental chairs, X-ray and imaging equipment, sterilization systems, buildout, and initial staffing — the highest budget tier in this library, driven by specialized clinical equipment rather than storefront cost alone.",
+        "ro": "Acoperă fotoliile stomatologice, echipamentul de radiografie și imagistică, sistemele de sterilizare, amenajarea și personalul inițial — cel mai ridicat nivel de buget din această bibliotecă, determinat de echipamentul clinic specializat, nu doar de costul vitrinei."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "dentalChairsAndOperatoryEquipment",
+          "label": {
+            "en": "Dental chairs and operatory equipment",
+            "ro": "Fotolii stomatologice și echipament de cabinet"
+          },
+          "typicalMin": 30000,
+          "typicalMax": 70000
+        },
+        {
+          "key": "xrayAndImagingEquipment",
+          "label": {
+            "en": "X-ray and digital imaging equipment",
+            "ro": "Echipament de radiografie și imagistică digitală"
+          },
+          "typicalMin": 15000,
+          "typicalMax": 35000
+        },
+        {
+          "key": "sterilizationAndComplianceSetup",
+          "label": {
+            "en": "Sterilization equipment and regulatory compliance setup",
+            "ro": "Echipament de sterilizare și configurarea conformității de reglementare"
+          },
+          "typicalMin": 8000,
+          "typicalMax": 20000
+        },
+        {
+          "key": "practiceBuildoutAndFrontOfficeSetup",
+          "label": {
+            "en": "Practice buildout and front-office setup",
+            "ro": "Amenajarea cabinetului și configurarea recepției"
+          },
+          "typicalMin": 15000,
+          "typicalMax": 40000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "practiceLeaseOrMortgage",
+          "label": {
+            "en": "Practice space lease or mortgage",
+            "ro": "Chiria sau ipoteca spațiului cabinetului"
+          },
+          "typicalMonthlyMin": 2500,
+          "typicalMonthlyMax": 6000
+        },
+        {
+          "key": "clinicalAndFrontOfficeStaffWages",
+          "label": {
+            "en": "Hygienist, assistant, and front-office staff wages",
+            "ro": "Salariile igienistului, asistentului și personalului de recepție"
+          },
+          "typicalMonthlyMin": 7000,
+          "typicalMonthlyMax": 16000
+        },
+        {
+          "key": "malpracticeAndProfessionalLiabilityInsurance",
+          "label": {
+            "en": "Malpractice and professional liability insurance",
+            "ro": "Asigurarea de malpraxis și răspundere profesională"
+          },
+          "typicalMonthlyMin": 500,
+          "typicalMonthlyMax": 1200
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "preventiveAndRestorativeCareFees",
+          "label": {
+            "en": "Preventive and restorative care fees (cleanings, fillings, crowns)",
+            "ro": "Onorarii pentru îngrijire preventivă și restaurativă (curățări, plombe, coroane)"
+          }
+        },
+        {
+          "key": "electiveCosmeticServices",
+          "label": {
+            "en": "Elective cosmetic services (whitening, veneers)",
+            "ro": "Servicii cosmetice opționale (albire, fațete)"
+          }
+        },
+        {
+          "key": "inHouseMembershipPlan",
+          "label": {
+            "en": "In-house dental membership plan for uninsured patients",
+            "ro": "Plan de abonament dentar intern, pentru pacienții neasigurați"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 15000,
+      "targetMonthlyIncomeMax": 45000,
+      "breakEvenTimelineMonths": 18,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Routine care is billed and collected quickly, but insurance reimbursement cycles and larger restorative or cosmetic treatment plans slow overall cash collection.",
+        "ro": "Îngrijirea de rutină este facturată și încasată rapid, dar ciclurile de rambursare a asigurărilor și planurile de tratament restaurativ sau cosmetic mai mari încetinesc încasarea globală a numerarului."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate",
+      "notes": {
+        "en": "High equipment, lease, and staffing costs keep margin moderate despite premium elective-service pricing.",
+        "ro": "Costurile ridicate de echipament, chirie și personal mențin marja moderată, în ciuda prețurilor premium pentru serviciile opționale."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "inPerson",
+    "travelRequirement": "none",
+    "onlineOffline": "offline",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 45,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 3
+      },
+      {
+        "key": "marketing",
+        "rating": 4
+      },
+      {
+        "key": "leadership",
+        "rating": 6
+      },
+      {
+        "key": "communication",
+        "rating": 7
+      },
+      {
+        "key": "negotiation",
+        "rating": 3
+      },
+      {
+        "key": "finance",
+        "rating": 5
+      },
+      {
+        "key": "operations",
+        "rating": 7
+      },
+      {
+        "key": "technology",
+        "rating": 5
+      },
+      {
+        "key": "automation",
+        "rating": 2
+      },
+      {
+        "key": "ai",
+        "rating": 2
+      },
+      {
+        "key": "programming",
+        "rating": 1
+      },
+      {
+        "key": "management",
+        "rating": 6
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 45
+      },
+      {
+        "key": "visionary",
+        "score": 20
+      },
+      {
+        "key": "operator",
+        "score": 65
+      },
+      {
+        "key": "creator",
+        "score": 30
+      },
+      {
+        "key": "seller",
+        "score": 20
+      },
+      {
+        "key": "leader",
+        "score": 55
+      },
+      {
+        "key": "analyst",
+        "score": 50
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": false,
+    "isFullyRemote": false,
+    "requiresTravel": false,
+    "isOnlineBusiness": false,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": true,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": true,
+    "requiresInventory": true,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": true
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "low",
+      "notes": {
+        "en": "Growth is capped by chair count and licensed clinical staff within one practice location, with expansion typically meaning a second full practice, not incremental capacity.",
+        "ro": "Creșterea este limitată de numărul de fotolii și personalul clinic licențiat, într-o singură locație de cabinet, extinderea însemnând de obicei un al doilea cabinet complet, nu o capacitate incrementală."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high",
+      "notes": {
+        "en": "The highest combination of capital requirement and regulatory complexity in this library — dental licensure, facility compliance, and equipment financing all gate the ability to open at all.",
+        "ro": "Cea mai ridicată combinație de cerință de capital și complexitate de reglementare din această bibliotecă — licențierea stomatologică, conformitatea unității și finanțarea echipamentului limitează toate capacitatea de a deschide."
+      }
+    },
+    "aiResistance": {
+      "level": "high",
+      "notes": {
+        "en": "Hands-on clinical dental care requires licensed, in-person practitioners and cannot be automated or delivered remotely.",
+        "ro": "Îngrijirea dentară clinică practică necesită practicieni licențiați, prezenți fizic, și nu poate fi automatizată sau furnizată de la distanță."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Very high upfront capital investment in equipment and buildout creates significant financial exposure before the practice generates any revenue.",
+          "ro": "Investiția inițială de capital foarte ridicată, în echipament și amenajare, creează o expunere financiară semnificativă, înainte ca practica să genereze venituri."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Malpractice liability exposure requires robust professional insurance and rigorous clinical documentation practices.",
+          "ro": "Expunerea la răspundere de malpraxis necesită o asigurare profesională robustă și practici riguroase de documentare clinică."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Regulatory and licensing compliance (facility, equipment, continuing education) must be maintained continuously, not just at opening.",
+          "ro": "Conformitatea de reglementare și licențiere (unitate, echipament, educație continuă) trebuie menținută continuu, nu doar la deschidere."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Modern dentistry that doesn't feel clinical — comprehensive preventive care with elective cosmetic options, in a comfortable, unhurried setting.",
+        "ro": "Stomatologie modernă care nu se simte clinică — îngrijire preventivă completă, cu opțiuni cosmetice opționale, într-un cadru confortabil, fără grabă."
+      },
+      "channels": [
+        {
+          "channelType": "insurancePanelListingsAndReferrals",
+          "description": {
+            "en": "Being listed on major dental insurance panels and building referral relationships with local physicians and orthodontists.",
+            "ro": "Înscrierea pe principalele panouri de asigurări dentare și construirea de relații de recomandare cu medicii locali și ortodonții."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "googleReviewsAndLocalSeo",
+          "description": {
+            "en": "A strong Google review base and local SEO presence capturing high-intent 'dentist near me' search.",
+            "ro": "O bază solidă de recenzii Google și prezență SEO locală, care captează căutările locale cu intenție ridicată de tipul „stomatolog aproape de mine”."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "cosmeticBeforeAfterSocialContent",
+          "description": {
+            "en": "Before/after whitening and veneer content on social media as a supplemental, experimental channel to attract elective cosmetic patients.",
+            "ro": "Conținut de albire și fațete, înainte/după, pe rețelele sociale, ca un canal suplimentar, experimental, pentru a atrage pacienți pentru servicii cosmetice opționale."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Requires managing insurance panel relationships alongside patient-facing marketing, more layered than a purely consumer-direct service business.",
+        "ro": "Necesită gestionarea relațiilor cu panourile de asigurări, alături de marketingul orientat către pacienți, mai stratificat decât o afacere de servicii pur directe către consumator."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A new-patient exam, cleaning, and X-rays visit builds the initial relationship, with elective cosmetic services presented as a follow-up recommendation once trust is established.",
+        "ro": "O vizită de examinare, curățare și radiografii pentru pacientul nou construiește relația inițială, serviciile cosmetice opționale fiind prezentate ca o recomandare ulterioară, odată ce încrederea este stabilită."
+      },
+      "salesCycleLengthDays": 30,
+      "pricingModel": {
+        "en": "Per-procedure fee schedule (e.g. €90 standard cleaning, €700-900 crown, €350 whitening, €600-900 per veneer), plus an optional €300/year in-house membership plan for uninsured patients.",
+        "ro": "Grilă de tarife pe procedură (de ex. 90 € curățare standard, 700-900 € coroană, 350 € albire, 600-900 € per fațetă), plus un plan opțional de abonament intern de 300 €/an, pentru pacienții neasigurați."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Larger restorative or cosmetic treatment plans require clear cost communication and financing options, more involved than a single-visit service decision.",
+        "ro": "Planurile de tratament restaurativ sau cosmetic mai mari necesită o comunicare clară a costurilor și opțiuni de finanțare, mai complexe decât o decizie de serviciu într-o singură vizită."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "New-patient intake, exam, cleaning, and X-ray imaging",
+          "ro": "Admiterea pacientului nou, examinare, curățare și imagistică prin radiografie"
+        },
+        {
+          "en": "Insurance verification, claims submission, and billing",
+          "ro": "Verificarea asigurării, depunerea cererilor de despăgubire și facturarea"
+        },
+        {
+          "en": "Recall scheduling for routine 6-month cleanings and checkups",
+          "ro": "Programarea de reamintire, pentru curățările și controalele de rutină la 6 luni"
+        },
+        {
+          "en": "Sterilization and regulatory compliance protocols between patients",
+          "ro": "Protocoale de sterilizare și conformitate de reglementare, între pacienți"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "A full day of scheduled patient appointments across operatories, with the dentist moving between chairs supported by hygienists and assistants, and front-office staff managing scheduling, billing, and insurance.",
+        "ro": "O zi plină de programări ale pacienților, în cabinete, medicul stomatolog deplasându-se între fotolii, susținut de igieniști și asistenți, iar personalul de recepție gestionând programarea, facturarea și asigurarea."
+      },
+      "fulfillmentModel": {
+        "en": "A licensed dentist supported by hygienists, dental assistants, and front-office staff, delivering both routine preventive care and elective cosmetic services within the same practice.",
+        "ro": "Un medic stomatolog licențiat, susținut de igieniști, asistenți dentari și personal de recepție, oferind atât îngrijire preventivă de rutină, cât și servicii cosmetice opționale, în cadrul aceluiași cabinet."
+      }
+    },
+    "automation": {
+      "level": "moderate",
+      "notes": {
+        "en": "Appointment reminders, recall scheduling, and insurance-claim submission are automated, but all clinical care remains fully manual and licensed-practitioner-led.",
+        "ro": "Memento-urile pentru programări, programarea de reamintire și depunerea cererilor de asigurare sunt automatizate, dar toată îngrijirea clinică rămâne complet manuală și condusă de practicieni licențiați."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "insuranceClaimsProcessing",
+          "description": {
+            "en": "AI-assisted claims processing flags likely denials and coding errors before submission to reduce reimbursement delays.",
+            "ro": "Procesarea cererilor de despăgubire, asistată de AI, semnalează probabilele respingeri și erori de codificare, înainte de depunere, pentru a reduce întârzierile de rambursare."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "Dentrix",
+        "category": "practiceManagementAndScheduling",
+        "isRequired": true,
+        "websiteUrl": "https://www.dentrix.com/"
+      },
+      {
+        "name": "DEXIS",
+        "category": "digitalImagingAndXray",
+        "isRequired": true,
+        "websiteUrl": "https://www.dexis.com/"
+      },
+      {
+        "name": "Weave",
+        "category": "patientCommunicationAndReminders",
+        "isRequired": false,
+        "websiteUrl": "https://getweave.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 36,
+      "notes": {
+        "en": "Growth is gated by chair count, licensed staff, and patient panel size within one practice, with a second location as the main lever beyond that.",
+        "ro": "Creșterea este limitată de numărul de fotolii, personalul licențiat și dimensiunea panoului de pacienți, într-un singur cabinet, o a doua locație fiind principala pârghie dincolo de aceasta."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Fill the founding dentist's own schedule and build a full patient panel first, then add a second dentist or hygienist to extend capacity before considering a second location.",
+        "ro": "Umple mai întâi propriul program al medicului stomatolog fondator și construiește un panou complet de pacienți, apoi adaugă un al doilea medic stomatolog sau igienist, pentru a extinde capacitatea, înainte de a lua în considerare o a doua locație."
+      },
+      "bottlenecks": [
+        {
+          "en": "Chair and operatory count within the leased or owned space hard-caps daily patient capacity.",
+          "ro": "Numărul de fotolii și cabinete, din spațiul închiriat sau deținut, plafonează dur capacitatea zilnică de pacienți."
+        },
+        {
+          "en": "Recruiting a second licensed dentist willing to join or eventually take over requires significant lead time.",
+          "ro": "Recrutarea unui al doilea medic stomatolog licențiat, dispus să se alăture sau să preia eventual practica, necesită un timp de pregătire semnificativ."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "The practice reaches break-even and a stable recurring recall-patient base.",
+            "ro": "Cabinetul atinge pragul de rentabilitate și o bază stabilă de pacienți recurenți de reamintire."
+          }
+        },
+        {
+          "monthsFromLaunch": 30,
+          "description": {
+            "en": "A second hygienist or associate dentist is added to extend daily patient capacity.",
+            "ro": "Un al doilea igienist sau medic stomatolog asociat este adăugat, pentru a extinde capacitatea zilnică de pacienți."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Elective cosmetic services (whitening, veneers) add a genuine margin differentiator beyond pure insurance-driven volume, unlike a practice that only bills insurance.",
+          "ro": "Serviciile cosmetice opționale (albire, fațete) adaugă un diferențiator real de marjă, dincolo de volumul pur bazat pe asigurări, spre deosebire de un cabinet care facturează doar asigurări."
+        }
+      },
+      {
+        "description": {
+          "en": "Recession-resistant demand — routine dental care is rarely deferred indefinitely, unlike discretionary beauty or home services elsewhere in this library.",
+          "ro": "Cerere rezistentă la recesiune — îngrijirea dentară de rutină este rareori amânată la nesfârșit, spre deosebire de serviciile opționale de frumusețe sau pentru locuință, prezente în altă parte a acestei biblioteci."
+        }
+      },
+      {
+        "description": {
+          "en": "A modern, unhurried patient experience differentiates against high-volume insurance-mill-style practices.",
+          "ro": "O experiență modernă, fără grabă, a pacientului, diferențiază cabinetul de practicile de tip „moară de asigurări”, cu volum mare."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A general/family dentistry practice built around preventive care plus elective cosmetic add-ons (whitening, veneers) as a margin differentiator, offering a modern, unhurried patient experience, led by a licensed dentist supported by hygienists and assistants. Business-planning content only — no clinical treatment protocols or diagnostic guidance.",
+        "ro": "Un cabinet de stomatologie generală/de familie, construit în jurul îngrijirii preventive, plus servicii cosmetice opționale (albire, fațete), ca diferențiator de marjă, oferind o experiență modernă, fără grabă, a pacientului, condus de un medic stomatolog licențiat, susținut de igieniști și asistenți. Doar conținut de planificare a afacerii — fără protocoale de tratament clinic sau îndrumări de diagnostic."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.dentalClinic.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.dentalClinic.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.dentalClinic.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.dentalClinic.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep patients returning consistently for routine 6-month recall visits.",
+          "ro": "Menține pacienții revenind constant, pentru vizitele de rutină de reamintire la 6 luni."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against equipment financing, lease, and staffing costs.",
+          "ro": "Protejează marja brută împotriva costurilor de finanțare a echipamentului, chiriei și personalului."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert insurance-panel referrals and local search inquiries into booked new-patient exams.",
+          "ro": "Transformă recomandările din panoul de asigurări și solicitările din căutarea locală în examinări programate pentru pacienți noi."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep patient attrition low through consistent recall scheduling and a comfortable patient experience.",
+          "ro": "Menține atriția pacienților scăzută, prin programarea constantă de reamintire și o experiență confortabilă a pacientului."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "management",
+          "importance": 4
+        },
+        {
+          "key": "communication",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "marketing",
+          "importance": 2
+        },
+        {
+          "key": "finance",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "detailOriented",
+          "importance": 5
+        },
+        {
+          "trait": "patient",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "analytical",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 75000,
+        "max": 180000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 90000,
+        "max": 150000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 45,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "calm",
+        "reassuring"
+      ],
+      "technicalLevel": 4,
+      "leadershipLevel": 5,
+      "creativityLevel": 2,
+      "salesAffinity": 2,
+      "automationAffinity": 2,
+      "remotePreference": "inPerson",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theSpecialist",
+        "theOperator"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the very high capital requirement and licensing/regulatory compliance in the Financial Overview and Launch Strategy sections, and the elective-cosmetic margin differentiator in Offer Architecture — keep all content strictly business-planning, never clinical or diagnostic.",
+      "ro": "Subliniază cerința de capital foarte ridicată și conformitatea de licențiere/reglementare în secțiunile Prezentare financiară și Strategia de lansare, precum și diferențiatorul de marjă al serviciilor cosmetice opționale în Arhitectura ofertei — menține tot conținutul strict de planificare a afacerii, niciodată clinic sau de diagnostic."
+    },
+    "marketingHints": {
+      "en": "Lead with the modern, unhurried patient experience and named elective services, not generic 'gentle dentistry' stock phrases — never reference specific clinical outcomes or diagnostic claims.",
+      "ro": "Începe cu experiența modernă, fără grabă, a pacientului, și serviciile opționale numite, nu cu fraze generice de tipul „stomatologie blândă” — nu face niciodată referire la rezultate clinice specifice sau afirmații de diagnostic."
+    },
+    "financialHints": {
+      "en": "Model revenue as a mix of insurance-reimbursed routine care and higher-margin elective cosmetic services, with equipment financing and staffing as the dominant cost lines — the highest capital-intensity business in this library.",
+      "ro": "Modelează veniturile ca un mix de îngrijire de rutină rambursată de asigurări și servicii cosmetice opționale cu marjă mai mare, cu finanțarea echipamentului și personalul drept costurile dominante — cea mai mare intensitate de capital dintre afacerile din această bibliotecă."
+    },
+    "generationHints": {
+      "en": "Keep generated tone calm, reassuring, and strictly business-planning focused — never generate clinical treatment protocols, diagnostic criteria, or medical advice of any kind.",
+      "ro": "Menține un ton generat calm, liniștitor și strict axat pe planificarea afacerii — nu genera niciodată protocoale de tratament clinic, criterii de diagnostic sau sfaturi medicale de orice fel."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Secure practice financing, complete facility buildout, and obtain dental board licensure, malpractice insurance, and equipment compliance certifications.",
+            "ro": "Asigură finanțarea cabinetului, finalizează amenajarea unității și obține licențierea de la ordinul stomatologilor, asigurarea de malpraxis și certificările de conformitate a echipamentului."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Underestimating total equipment and buildout costs, leading to a financing shortfall mid-buildout.",
+            "ro": "Subestimarea costurilor totale de echipament și amenajare, ceea ce duce la un deficit de finanțare, la mijlocul amenajării."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Get detailed, itemized quotes for every piece of major equipment before finalizing the practice financing amount.",
+            "ro": "Obține oferte detaliate, pe elemente, pentru fiecare echipament major, înainte de a finaliza suma de finanțare a cabinetului."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.dentalClinic.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Confirm insurance panel acceptance with at least 3-4 major dental insurance networks before opening.",
+            "ro": "Confirmă acceptarea în panoul de asigurări, la cel puțin 3-4 rețele majore de asigurări dentare, înainte de deschidere."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Opening before insurance panel applications are approved, leaving early patients unable to use their coverage.",
+            "ro": "Deschiderea înainte ca cererile de panou de asigurări să fie aprobate, lăsând primii pacienți incapabili să-și folosească acoperirea."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Start insurance panel credentialing applications at least 4-6 months before the planned opening date.",
+            "ro": "Începe cererile de acreditare în panoul de asigurări, cu cel puțin 4-6 luni înainte de data planificată de deschidere."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.dentalClinic.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first month of new-patient exams, cleanings, and basic restorative care.",
+            "ro": "Finalizează prima lună de examinări pentru pacienți noi, curățări și îngrijire restaurativă de bază."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not setting up recall scheduling from the very first patients, losing the chance to book their 6-month follow-up automatically.",
+            "ro": "Neconfigurarea programării de reamintire încă de la primii pacienți, pierzând șansa de a le programa automat controlul la 6 luni."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Book every new patient's 6-month recall appointment automatically at the end of their first visit.",
+            "ro": "Programează automat controlul de reamintire la 6 luni, pentru fiecare pacient nou, la finalul primei vizite."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.dentalClinic.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Launch local SEO, Google review generation, and referral relationships with local physicians and orthodontists.",
+            "ro": "Lansează SEO local, generarea de recenzii Google și relații de recomandare cu medicii locali și ortodonții."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Relying solely on insurance panel placement for patient flow instead of also building local search visibility.",
+            "ro": "Bazarea exclusiv pe poziționarea în panoul de asigurări, pentru fluxul de pacienți, în loc să construiască și vizibilitate în căutarea locală."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Actively request Google reviews from satisfied new patients starting from the very first month.",
+            "ro": "Solicită activ recenzii Google, de la pacienții noi mulțumiți, începând chiar din prima lună."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.dentalClinic.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first satisfied new patient into a recall-scheduled recurring patient and a referral source.",
+            "ro": "Transformă primul pacient nou mulțumit într-un pacient recurent, programat pentru reamintire, și o sursă de recomandare."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not asking established patients directly for referrals to friends and family.",
+            "ro": "Neexistarea unei solicitări directe, către pacienții stabiliți, de recomandări către prieteni și familie."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Ask satisfied patients directly for referrals after their second successful visit.",
+            "ro": "Solicită direct pacienților mulțumiți recomandări, după a doua lor vizită reușită."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.dentalClinic.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable, growing patient panel with a consistent recall-visit return rate.",
+            "ro": "Atinge un panou de pacienți stabil, în creștere, cu o rată constantă de revenire la vizitele de reamintire."
+          }
+        ],
+        "kpis": [
+          "customerRetention",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Adding a second dentist or hygienist before the existing schedule is consistently full.",
+            "ro": "Adăugarea unui al doilea medic stomatolog sau igienist, înainte ca programul existent să fie constant plin."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the founding dentist's own schedule is consistently full before adding clinical staff.",
+            "ro": "Confirmă că programul propriu al medicului stomatolog fondator este constant plin, înainte de a adăuga personal clinic."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.dentalClinic.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Grow elective cosmetic service revenue (whitening, veneers) as a share of total practice revenue.",
+            "ro": "Crește veniturile din serviciile cosmetice opționale (albire, fațete), ca pondere din veniturile totale ale cabinetului."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Presenting elective cosmetic options too early, before trust is established with a new patient.",
+            "ro": "Prezentarea opțiunilor cosmetice opționale prea devreme, înainte ca încrederea să fie stabilită cu un pacient nou."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Introduce elective cosmetic recommendations only after at least one successful routine visit has built trust.",
+            "ro": "Introdu recomandările cosmetice opționale doar după cel puțin o vizită de rutină reușită, care a construit încrederea."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.dentalClinic.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Add a second hygienist or associate dentist to extend daily patient capacity.",
+            "ro": "Adaugă un al doilea igienist sau medic stomatolog asociat, pentru a extinde capacitatea zilnică de pacienți."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring an associate dentist without a clear compensation and patient-assignment structure, causing friction.",
+            "ro": "Angajarea unui medic stomatolog asociat, fără o structură clară de compensare și alocare a pacienților, cauzând tensiuni."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Define a clear compensation and patient-assignment structure in writing before bringing on an associate dentist.",
+            "ro": "Definește o structură clară de compensare și alocare a pacienților, în scris, înainte de a aduce un medic stomatolog asociat."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.dentalClinic.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Evaluate opening a second practice location once the first is consistently profitable and fully staffed.",
+            "ro": "Evaluează deschiderea unei a doua locații de cabinet, odată ce prima este constant profitabilă și complet dotată cu personal."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding to a second location before the first practice can run without the founding dentist's daily presence.",
+            "ro": "Extinderea la o a doua locație, înainte ca primul cabinet să poată funcționa fără prezența zilnică a medicului stomatolog fondator."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the first practice operates profitably with an associate dentist covering the founder's absence before opening a second location.",
+            "ro": "Confirmă că primul cabinet funcționează profitabil, cu un medic stomatolog asociat acoperind absența fondatorului, înainte de a deschide o a doua locație."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.dentalClinic.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the patient panel, staff structure, and equipment records to package the practice for sale to another dentist or a dental group.",
+            "ro": "Documentează panoul de pacienți, structura personalului și evidențele echipamentului, pentru a pregăti cabinetul pentru vânzare, către un alt medic stomatolog sau un grup dentar."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Waiting until a sale opportunity appears to start documenting patient records and equipment maintenance history properly.",
+            "ro": "Așteptarea apariției unei oportunități de vânzare, pentru a începe documentarea corespunzătoare a evidențelor pacienților și istoricului de întreținere a echipamentului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, complete patient and equipment records on an ongoing basis, not just before a sale.",
+            "ro": "Menține evidențe curate și complete ale pacienților și echipamentului, în mod continuu, nu doar înainte de o vânzare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.dentalClinic.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

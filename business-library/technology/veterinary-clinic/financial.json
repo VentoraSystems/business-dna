@@ -1,0 +1,143 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "examRoomsAndSurgicalSuiteEquipment",
+      "inHouseDiagnosticLabEquipment",
+      "boardingAndKennelSetup",
+      "practiceBuildoutAndFrontOfficeSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "practiceLeaseOrMortgage",
+      "clinicalAndFrontOfficeStaffWages",
+      "malpracticeAndProfessionalLiabilityInsurance"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "veterinarySuppliesAndMedications",
+      "labFeesForExternalDiagnostics",
+      "continuingEducationCosts"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "wellnessExamsAndVaccinations",
+        "label": {
+          "en": "Wellness exams and vaccinations",
+          "ro": "Consultații de wellness și vaccinări"
+        }
+      },
+      {
+        "key": "surgicalAndDentalProcedures",
+        "label": {
+          "en": "Surgical and dental procedures (spay/neuter, dental cleanings)",
+          "ro": "Proceduri chirurgicale și dentare (sterilizare, curățări dentare)"
+        }
+      },
+      {
+        "key": "monthlyWellnessPlanSubscription",
+        "label": {
+          "en": "Monthly wellness-plan subscription",
+          "ro": "Abonament lunar de tip plan de wellness"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageProcedureValue": "currency",
+      "patientsPerDay": "number",
+      "wellnessPlanAttachRatePercent": "percent",
+      "surgicalProcedureAttachRatePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "newPatientsPerMonth": "number",
+      "wellnessPlanRenewalRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.veterinaryClinic.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "perVisitClientInflow",
+      "wellnessPlanSubscriptionInflow",
+      "equipmentFinancingAndPayrollOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 16,
+    "notesTranslationKey": "businessLibrary.veterinaryClinic.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 48,
+    "notesTranslationKey": "businessLibrary.veterinaryClinic.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 19,
+    "notesTranslationKey": "businessLibrary.veterinaryClinic.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "veterinaryTechnicianRecruiting",
+      "associateVeterinarianOnboarding"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "localPetCommunityPartnershipFees",
+      "localSeoAndReviewGeneration"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxOnClinicalStaff"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingAndEquipmentReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "customerRetention",
+      "grossMargin",
+      "leadConversion",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 8500,
+      "notesTranslationKey": "businessLibrary.veterinaryClinic.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 21000,
+      "notesTranslationKey": "businessLibrary.veterinaryClinic.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 38000,
+      "notesTranslationKey": "businessLibrary.veterinaryClinic.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.veterinaryClinic.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.veterinaryClinic.financial.risks.risk2",
+        "severity": "high"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.veterinaryClinic.financial.aiMetadata.generationHints"
+  }
+}

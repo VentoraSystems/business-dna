@@ -1,0 +1,962 @@
+{
+  "identity": {
+    "id": "0f4860e1-b0de-430f-ba6e-d3fb56658326",
+    "slug": "beauty-salon",
+    "version": "1.0.0",
+    "name": {
+      "en": "Lumière Hair & Beauty Studio",
+      "ro": "Lumière Hair & Beauty Studio"
+    },
+    "tagline": {
+      "en": "Your stylist, not just any stylist.",
+      "ro": "Stilistul tău, nu oricare stilist."
+    },
+    "createdAt": "2026-07-14T00:00:00.000Z",
+    "updatedAt": "2026-07-14T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theSpecialist",
+      "theOperator"
+    ],
+    "summary": {
+      "en": "Best suited to a licensed, experienced stylist who wants to build a small team studio rather than rent a single chair — this business needs real staff-scheduling and booth-rent or commission management skill, not just craft talent.",
+      "ro": "Potrivit unui stilist licențiat, cu experiență, care dorește să construiască un mic studio cu echipă, nu să închirieze un singur scaun — această afacere necesită abilități reale de programare a personalului și gestionare a chiriei de scaun sau a comisionului, nu doar talent artistic."
+    },
+    "minimumExperienceYears": 3
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 10000,
+      "maxInvestment": 30000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 2500,
+      "ongoingMonthlyCostMax": 6000,
+      "notes": {
+        "en": "Covers storefront lease deposit and buildout, salon chairs and styling stations, retail product inventory, and initial staff hiring — a genuinely medium budget tier driven mainly by the physical location, not equipment.",
+        "ro": "Acoperă depozitul de leasing și amenajarea vitrinei, scaunele de salon și stațiile de styling, stocul de produse de vânzare cu amănuntul și angajarea inițială de personal — un nivel de buget cu adevărat mediu, determinat în principal de locația fizică, nu de echipament."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "storefrontLeaseDepositAndBuildout",
+          "label": {
+            "en": "Storefront lease deposit and buildout",
+            "ro": "Depozitul de leasing pentru vitrină și amenajarea acesteia"
+          },
+          "typicalMin": 4000,
+          "typicalMax": 12000
+        },
+        {
+          "key": "salonChairsAndStylingStations",
+          "label": {
+            "en": "Salon chairs, mirrors, and styling stations",
+            "ro": "Scaune de salon, oglinzi și stații de styling"
+          },
+          "typicalMin": 3000,
+          "typicalMax": 8000
+        },
+        {
+          "key": "initialRetailProductInventory",
+          "label": {
+            "en": "Initial retail and back-bar product inventory",
+            "ro": "Stocul inițial de produse pentru vânzare și pentru uz în salon"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        },
+        {
+          "key": "bookingAndPosSystemSetup",
+          "label": {
+            "en": "Booking and point-of-sale system setup",
+            "ro": "Configurarea sistemului de programări și de vânzare"
+          },
+          "typicalMin": 500,
+          "typicalMax": 1500
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "storefrontLease",
+          "label": {
+            "en": "Storefront lease",
+            "ro": "Chiria vitrinei"
+          },
+          "typicalMonthlyMin": 1200,
+          "typicalMonthlyMax": 3000
+        },
+        {
+          "key": "stylistWagesOrCommissionPayouts",
+          "label": {
+            "en": "Stylist wages or commission payouts",
+            "ro": "Salariile stiliștilor sau plățile de comision"
+          },
+          "typicalMonthlyMin": 1000,
+          "typicalMonthlyMax": 2500
+        },
+        {
+          "key": "productRestockingAndSupplies",
+          "label": {
+            "en": "Product restocking and salon supplies",
+            "ro": "Reaprovizionarea cu produse și consumabile de salon"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 700
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "hairCuttingColoringAndStyling",
+          "label": {
+            "en": "Haircutting, coloring, and styling services",
+            "ro": "Servicii de tuns, vopsit și styling"
+          }
+        },
+        {
+          "key": "blowoutAndBrowServices",
+          "label": {
+            "en": "Blowout and brow-shaping services",
+            "ro": "Servicii de coafat și conturare a sprâncenelor"
+          }
+        },
+        {
+          "key": "monthlyBlowoutMembership",
+          "label": {
+            "en": "Monthly blowout membership plans",
+            "ro": "Abonamente lunare de coafat"
+          }
+        },
+        {
+          "key": "retailHairProductSales",
+          "label": {
+            "en": "Retail hair-product sales",
+            "ro": "Vânzări de produse de îngrijire a părului"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 4000,
+      "targetMonthlyIncomeMax": 12000,
+      "breakEvenTimelineMonths": 9,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "fast",
+      "notes": {
+        "en": "Service revenue is collected same-day at every appointment, giving fast, predictable cash flow once the chair schedule fills.",
+        "ro": "Veniturile din servicii sunt încasate în aceeași zi, la fiecare programare, oferind un flux de numerar rapid și previzibil, odată ce programul scaunelor se completează."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate",
+      "notes": {
+        "en": "Lease, stylist wages or commission splits, and product costs together keep margin moderate rather than high, despite fast same-day revenue collection.",
+        "ro": "Chiria, salariile stiliștilor sau cotele de comision și costurile produselor mențin împreună marja moderată, nu ridicată, în ciuda încasării rapide a veniturilor în aceeași zi."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "inPerson",
+    "travelRequirement": "none",
+    "onlineOffline": "offline",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 40,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 5
+      },
+      {
+        "key": "marketing",
+        "rating": 6
+      },
+      {
+        "key": "leadership",
+        "rating": 6
+      },
+      {
+        "key": "communication",
+        "rating": 7
+      },
+      {
+        "key": "negotiation",
+        "rating": 4
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 7
+      },
+      {
+        "key": "technology",
+        "rating": 3
+      },
+      {
+        "key": "automation",
+        "rating": 2
+      },
+      {
+        "key": "ai",
+        "rating": 2
+      },
+      {
+        "key": "programming",
+        "rating": 1
+      },
+      {
+        "key": "management",
+        "rating": 6
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 40
+      },
+      {
+        "key": "visionary",
+        "score": 25
+      },
+      {
+        "key": "operator",
+        "score": 65
+      },
+      {
+        "key": "creator",
+        "score": 75
+      },
+      {
+        "key": "seller",
+        "score": 35
+      },
+      {
+        "key": "leader",
+        "score": 45
+      },
+      {
+        "key": "analyst",
+        "score": 25
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": false,
+    "isFullyRemote": false,
+    "requiresTravel": false,
+    "isOnlineBusiness": false,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": true,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": false,
+    "requiresInventory": true,
+    "isSeasonalBusiness": false,
+    "isFranchisable": true,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "low",
+      "notes": {
+        "en": "Growth is capped by chair count within one physical location and by how many skilled stylists can be recruited and retained.",
+        "ro": "Creșterea este limitată de numărul de scaune dintr-o singură locație fizică și de câți stiliști calificați pot fi recrutați și păstrați."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "No special business license beyond standard cosmetology licensing for stylists, but filling a full chair schedule with a loyal client base takes real time to build.",
+        "ro": "Nicio licență specială de afaceri, dincolo de licențierea standard de cosmetică pentru stiliști, dar completarea unui program de scaune cu o bază fidelă de clienți necesită timp real pentru a fi construită."
+      }
+    },
+    "aiResistance": {
+      "level": "high",
+      "notes": {
+        "en": "Hands-on hair and beauty services cannot be automated or performed remotely — genuinely AI-resistant, personal-touch work.",
+        "ro": "Serviciile practice de păr și frumusețe nu pot fi automatizate sau efectuate de la distanță — muncă cu adevărat rezistentă la AI, cu contact personal."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "A stylist leaving often takes their loyal client base with them, directly hitting revenue.",
+          "ro": "Plecarea unui stilist duce adesea cu sine baza fidelă de clienți, afectând direct veniturile."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Fixed lease and staffing costs continue regardless of how full the chair schedule actually is.",
+          "ro": "Costurile fixe de chirie și personal continuă indiferent de cât de plin este de fapt programul scaunelor."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "Beauty trends shift and a salon that doesn't keep technique and service offerings current can lose relevance.",
+          "ro": "Tendințele de frumusețe se schimbă, iar un salon care nu își menține tehnica și oferta de servicii actualizate poate pierde relevanța."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Your stylist, not just any stylist — a consistent relationship, not a rotating chain-salon queue.",
+        "ro": "Stilistul tău, nu oricare stilist — o relație constantă, nu o coadă rotativă de salon de lanț."
+      },
+      "channels": [
+        {
+          "channelType": "instagramAndBeforeAfterPortfolio",
+          "description": {
+            "en": "A strong Instagram presence built on real before/after client transformations from the salon's own stylists.",
+            "ro": "O prezență puternică pe Instagram, construită pe transformări reale înainte/după ale clienților, realizate de stiliștii proprii ai salonului."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "clientReferralProgram",
+          "description": {
+            "en": "A referral discount for existing clients who bring a friend to book their first appointment.",
+            "ro": "O reducere de recomandare, pentru clienții existenți care aduc un prieten să programeze prima sa programare."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "localInfluencerPartnerships",
+          "description": {
+            "en": "Complimentary services for micro-influencers in exchange for tagged posts, as a supplemental, experimental channel.",
+            "ro": "Servicii gratuite pentru micro-influenceri, în schimbul postărilor cu etichetă, ca un canal suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Requires consistent visual content production from real client work, not just paid advertising spend.",
+        "ro": "Necesită producția constantă de conținut vizual din munca reală a clienților, nu doar cheltuieli de publicitate plătită."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A free consultation at the first booking clarifies the client's hair goals and sets realistic expectations before any service begins.",
+        "ro": "O consultație gratuită, la prima programare, clarifică obiectivele de păr ale clientului și stabilește așteptări realiste, înainte de a începe orice serviciu."
+      },
+      "salesCycleLengthDays": 3,
+      "pricingModel": {
+        "en": "Per-service menu pricing (e.g. €45-65 for a cut and style, €140-180 for balayage) plus an optional €120/month blowout membership.",
+        "ro": "Prețuri pe meniu de servicii (de ex. 45-65 € pentru tuns și styling, 140-180 € pentru balayage), plus un abonament opțional de coafat de 120 €/lună."
+      }
+    },
+    "salesComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "A short booking-to-visit cycle — most clients decide and book within days of discovering the salon through content or referral.",
+        "ro": "Un ciclu scurt, de la programare la vizită — majoritatea clienților decid și programează în câteva zile de la descoperirea salonului prin conținut sau recomandare."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "A first-visit consultation to clarify hair goals and set expectations",
+          "ro": "O consultație la prima vizită, pentru a clarifica obiectivele de păr și a stabili așteptările"
+        },
+        {
+          "en": "Chair scheduling and stylist appointment management",
+          "ro": "Programarea scaunelor și gestionarea programărilor stiliștilor"
+        },
+        {
+          "en": "Retail and back-bar product inventory management",
+          "ro": "Gestionarea stocului de produse de vânzare și de uz în salon"
+        },
+        {
+          "en": "Rebooking the next appointment before the client leaves the chair",
+          "ro": "Reprogramarea următoarei vizite, înainte ca clientul să părăsească scaunul"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "A full day of back-to-back stylist appointments across the salon's chairs, with the owner splitting time between their own client chair and overseeing scheduling, inventory, and staff.",
+        "ro": "O zi plină de programări consecutive ale stiliștilor, pe scaunele salonului, proprietarul împărțindu-și timpul între propriul scaun de clienți și supravegherea programărilor, stocului și personalului."
+      },
+      "fulfillmentModel": {
+        "en": "A small team of licensed stylists, either on salary/hourly wages or commission/booth-rent, each building their own recurring client base within the shared studio.",
+        "ro": "O mică echipă de stiliști licențiați, fie pe salariu/plată orară, fie pe comision/chirie de scaun, fiecare construindu-și propria bază recurentă de clienți în cadrul studioului comun."
+      }
+    },
+    "automation": {
+      "level": "moderate",
+      "notes": {
+        "en": "Online booking, appointment reminders, and rebooking prompts are automated, but the styling work and client relationship remain fully manual.",
+        "ro": "Programările online, memento-urile pentru programări și solicitările de reprogramare sunt automatizate, dar munca de styling și relația cu clientul rămân complet manuale."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "socialMediaContentPlanning",
+          "description": {
+            "en": "AI helps plan and caption a content calendar of before/after client transformation posts.",
+            "ro": "AI ajută la planificarea și redactarea descrierilor unui calendar de conținut, cu postări de transformare a clienților înainte/după."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "Booksy",
+        "category": "bookingAndScheduling",
+        "isRequired": true,
+        "websiteUrl": "https://booksy.com/"
+      },
+      {
+        "name": "Square",
+        "category": "pointOfSaleAndPayments",
+        "isRequired": true,
+        "websiteUrl": "https://squareup.com/"
+      },
+      {
+        "name": "Canva",
+        "category": "socialMediaContentDesign",
+        "isRequired": false,
+        "websiteUrl": "https://www.canva.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 24,
+      "notes": {
+        "en": "Growth is gated by chair count and stylist recruitment within one location, capped ultimately by the physical size of the storefront.",
+        "ro": "Creșterea este limitată de numărul de scaune și recrutarea stiliștilor într-o singură locație, plafonată în cele din urmă de dimensiunea fizică a vitrinei."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Fill every chair with a stylist building a loyal recurring client base, then add retail product revenue and membership plans before considering a second location.",
+        "ro": "Ocupă fiecare scaun cu un stilist care își construiește o bază fidelă de clienți recurenți, apoi adaugă venituri din produse de vânzare și planuri de abonament, înainte de a lua în considerare o a doua locație."
+      },
+      "bottlenecks": [
+        {
+          "en": "Recruiting and retaining skilled, licensed stylists is the single biggest constraint on adding chairs.",
+          "ro": "Recrutarea și păstrarea stiliștilor calificați și licențiați este cea mai mare constrângere asupra adăugării de scaune."
+        },
+        {
+          "en": "Physical chair count within the leased space hard-caps capacity until a second location is opened.",
+          "ro": "Numărul fizic de scaune din spațiul închiriat plafonează dur capacitatea, până la deschiderea unei a doua locații."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 9,
+          "description": {
+            "en": "All chairs are staffed and the salon reaches break-even on lease and staffing costs.",
+            "ro": "Toate scaunele sunt ocupate cu personal, iar salonul atinge pragul de rentabilitate pentru costurile de chirie și personal."
+          }
+        },
+        {
+          "monthsFromLaunch": 20,
+          "description": {
+            "en": "The monthly blowout membership program reaches a stable base of recurring members.",
+            "ro": "Programul de abonament lunar de coafat atinge o bază stabilă de membri recurenți."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "A consistent stylist relationship is something a rotating walk-in chain fundamentally cannot offer.",
+          "ro": "O relație constantă cu stilistul este ceva ce un lanț rotativ, cu programare la fața locului, nu poate oferi fundamental."
+        }
+      },
+      {
+        "description": {
+          "en": "Fast, same-day revenue collection compared to project- or retainer-based professional services elsewhere in this library.",
+          "ro": "Încasare rapidă a veniturilor, în aceeași zi, comparativ cu serviciile profesionale bazate pe proiect sau retenție, prezente în altă parte a acestei biblioteci."
+        }
+      },
+      {
+        "description": {
+          "en": "Genuinely AI-resistant, hands-on craft work that cannot be commoditized by software.",
+          "ro": "Muncă artizanală, practică, cu adevărat rezistentă la AI, care nu poate fi transformată în marfă de un software."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A small multi-chair hair and beauty salon leasing a storefront, built around each stylist developing a loyal, recurring client relationship rather than a rotating walk-in chain experience, growing through visual social content and client referrals.",
+        "ro": "Un mic salon de păr și frumusețe cu mai multe scaune, care închiriază o vitrină, construit în jurul dezvoltării, de către fiecare stilist, a unei relații fidele și recurente cu clienții, nu o experiență rotativă de lanț, la fața locului, crescând prin conținut vizual social și recomandări ale clienților."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.beautySalon.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.beautySalon.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.beautySalon.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.beautySalon.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep clients rebooking their next appointment with the same stylist before leaving the chair.",
+          "ro": "Menține clienții reprogramându-și următoarea vizită la același stilist, înainte de a părăsi scaunul."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against rising product costs and stylist commission splits.",
+          "ro": "Protejează marja brută împotriva creșterii costurilor produselor și a cotelor de comision ale stiliștilor."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert social-content and referral inquiries into booked first appointments.",
+          "ro": "Transformă solicitările din conținutul social și recomandări în prime programări confirmate."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep client churn low through consistent stylist assignment and proactive rebooking.",
+          "ro": "Menține rata de pierdere a clienților scăzută, prin alocarea constantă a stilistului și reprogramarea proactivă."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "design",
+          "importance": 5
+        },
+        {
+          "key": "management",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "marketing",
+          "importance": 3
+        },
+        {
+          "key": "communication",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "creative",
+          "importance": 5
+        },
+        {
+          "trait": "detailOriented",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "patient",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 10000,
+        "max": 30000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 15000,
+        "max": 25000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 40,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "warm",
+        "expressive"
+      ],
+      "technicalLevel": 2,
+      "leadershipLevel": 4,
+      "creativityLevel": 5,
+      "salesAffinity": 3,
+      "automationAffinity": 2,
+      "remotePreference": "inPerson",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theSpecialist",
+        "theOperator"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the consistent-stylist-relationship promise and the chair-based team structure in the Offer Architecture and Team Structure sections — this is a craft and relationship business, not a walk-in commodity service.",
+      "ro": "Subliniază promisiunea relației constante cu stilistul și structura echipei bazate pe scaune, în secțiunile Arhitectura ofertei și Structura echipei — aceasta este o afacere artizanală și de relație, nu un serviciu de tip marfă, la fața locului."
+    },
+    "marketingHints": {
+      "en": "Lead with real before/after client transformations and named stylists, not generic 'luxury salon experience' stock imagery.",
+      "ro": "Începe cu transformări reale ale clienților, înainte/după, și stiliști numiți, nu cu imagini generice de stoc de tipul „experiență de salon de lux”."
+    },
+    "financialHints": {
+      "en": "Model revenue as fast, same-day service collection with lease and stylist compensation as the dominant cost lines, distinct from the project-based revenue of professional-service businesses elsewhere in this library.",
+      "ro": "Modelează veniturile ca fiind încasare rapidă de servicii, în aceeași zi, cu chiria și compensarea stiliștilor drept costurile dominante, distinct de veniturile bazate pe proiect ale afacerilor de servicii profesionale, prezente în altă parte a acestei biblioteci."
+    },
+    "generationHints": {
+      "en": "Keep generated tone warm, craft-focused, and specific about real services and stylists — avoid generic 'pamper yourself' spa marketing language.",
+      "ro": "Menține un ton generat cald, axat pe meșteșug și specific despre servicii și stiliști reali — evită limbajul generic de marketing de spa, de tipul „răsfață-te”."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Secure a storefront lease, complete buildout, and hire the first one to two stylists.",
+            "ro": "Asigură o vitrină în chirie, finalizează amenajarea și angajează primii unul sau doi stiliști."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Signing a storefront lease before confirming at least one experienced stylist is ready to join, leaving fixed costs running with no chair revenue.",
+            "ro": "Semnarea unei chirii pentru vitrină, înainte de a confirma că cel puțin un stilist experimentat este pregătit să se alăture, lăsând costurile fixe să curgă fără venituri din scaune."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm at least one additional experienced stylist is committed before signing the storefront lease.",
+            "ro": "Confirmă că cel puțin un stilist experimentat suplimentar este angajat, înainte de a semna chiria pentru vitrină."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.beautySalon.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Book the first 15-20 appointments across the founding stylists to validate pricing and demand.",
+            "ro": "Programează primele 15-20 de programări, la stiliștii fondatori, pentru a valida prețul și cererea."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Underpricing services during a soft opening and struggling to raise prices once regular clients are used to the lower rate.",
+            "ro": "Subevaluarea serviciilor în timpul unei deschideri discrete, cu dificultăți ulterioare de a crește prețurile, odată ce clienții obișnuiți s-au obișnuit cu tariful mai mic."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Set final service menu pricing before the soft opening rather than offering a temporary introductory discount.",
+            "ro": "Stabilește prețurile finale ale meniului de servicii, înainte de deschiderea discretă, în loc să oferi o reducere introductivă temporară."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.beautySalon.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first month of appointments with every founding stylist's chair actively booked.",
+            "ro": "Finalizează prima lună de programări, cu scaunul fiecărui stilist fondator activ ocupat."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not building a rebooking habit from the very first appointments, leaving client return rates to chance.",
+            "ro": "Nedezvoltarea unui obicei de reprogramare încă de la primele programări, lăsând ratele de revenire a clienților la voia întâmplării."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Train every stylist to rebook the client's next appointment before they leave the chair, starting with the very first clients.",
+            "ro": "Instruiește fiecare stilist să reprogrameze următoarea programare a clientului, înainte ca acesta să părăsească scaunul, începând cu primii clienți."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.beautySalon.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Launch the Instagram before/after content strategy and the client referral discount program.",
+            "ro": "Lansează strategia de conținut Instagram înainte/după și programul de reducere pentru recomandările clienților."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Posting generic salon marketing content instead of real, permission-approved before/after transformations from the salon's own clients.",
+            "ro": "Postarea unui conținut generic de marketing de salon, în loc de transformări reale, aprobate, înainte/după, ale propriilor clienți ai salonului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Get explicit client permission and post real before/after transformation photos consistently, at least twice a week.",
+            "ro": "Obține permisiunea explicită a clientului și postează constant fotografii reale de transformare înainte/după, cel puțin de două ori pe săptămână."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.beautySalon.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first satisfied client into a rebooked recurring client and a referral source.",
+            "ro": "Transformă primul client mulțumit într-un client recurent reprogramat și o sursă de recomandare."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Focusing only on booking new clients while neglecting to nurture the first clients into recurring relationships.",
+            "ro": "Concentrarea doar pe programarea de clienți noi, neglijând cultivarea primilor clienți în relații recurente."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Personally follow up with the first cohort of clients after their visit to confirm satisfaction and encourage rebooking.",
+            "ro": "Urmărește personal primul grup de clienți, după vizita lor, pentru a confirma satisfacția și a încuraja reprogramarea."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.beautySalon.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a consistently full chair schedule across all founding stylists with a stable rebooking rate.",
+            "ro": "Atinge un program de scaune constant complet, la toți stiliștii fondatori, cu o rată stabilă de reprogramare."
+          }
+        ],
+        "kpis": [
+          "customerRetention",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Adding a new chair or stylist before existing chairs are consistently full, straining cash flow.",
+            "ro": "Adăugarea unui scaun sau stilist nou, înainte ca scaunele existente să fie constant pline, tensionând fluxul de numerar."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm every existing chair is consistently booked before recruiting an additional stylist.",
+            "ro": "Confirmă că fiecare scaun existent este constant ocupat, înainte de a recruta un stilist suplimentar."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.beautySalon.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Launch the monthly blowout membership program to build predictable recurring revenue.",
+            "ro": "Lansează programul de abonament lunar de coafat, pentru a construi venituri recurente previzibile."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Pricing the membership too low relative to the à la carte blowout price, cannibalizing higher-margin single visits.",
+            "ro": "Prețuirea abonamentului prea mică, față de prețul individual al coafatului, canibalizând vizitele unice cu marjă mai mare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Price the membership so it's a genuine discount only at full usage, not cheaper than two à la carte visits.",
+            "ro": "Prețuiește abonamentul astfel încât să fie o reducere reală doar la utilizare completă, nu mai ieftin decât două vizite individuale."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.beautySalon.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Add a second and third chair, recruiting stylists who bring their own established client base.",
+            "ro": "Adaugă un al doilea și al treilea scaun, recrutând stiliști care își aduc propria bază de clienți stabilă."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring a stylist purely on technical skill without confirming they can build and retain their own client base.",
+            "ro": "Angajarea unui stilist doar pe baza abilității tehnice, fără a confirma că poate construi și păstra propria bază de clienți."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Evaluate new stylist hires on both technical skill and demonstrated ability to build a recurring client base.",
+            "ro": "Evaluează noii stiliști angajați, atât pe abilitatea tehnică, cât și pe capacitatea demonstrată de a construi o bază de clienți recurenți."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.beautySalon.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand retail product revenue or evaluate opening a second location once the first is consistently at full chair capacity.",
+            "ro": "Extinde veniturile din produse de vânzare sau evaluează deschiderea unei a doua locații, odată ce prima este constant la capacitate maximă de scaune."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Opening a second location before the first has a stable, self-sustaining team and client base.",
+            "ro": "Deschiderea unei a doua locații, înainte ca prima să aibă o echipă și o bază de clienți stabile și auto-susținute."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the first location runs profitably without daily owner involvement before committing to a second location.",
+            "ro": "Confirmă că prima locație funcționează profitabil, fără implicarea zilnică a proprietarului, înainte de a te angaja pentru o a doua locație."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.beautySalon.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the client base, stylist agreements, and lease terms to package the salon for sale or stylist buyout.",
+            "ro": "Documentează baza de clienți, acordurile stiliștilor și termenii de chirie, pentru a pregăti salonul pentru vânzare sau preluare de către un stilist."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Letting the business's value stay too dependent on the founder's own personal client relationships.",
+            "ro": "Permițând ca valoarea afacerii să rămână prea dependentă de relațiile personale ale fondatorului cu clienții."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build systems and stylist-level client ownership so the salon's value doesn't rest entirely on the founder's own chair.",
+            "ro": "Construiește sisteme și proprietate a clienților la nivel de stilist, astfel încât valoarea salonului să nu se bazeze în întregime pe propriul scaun al fondatorului."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.beautySalon.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

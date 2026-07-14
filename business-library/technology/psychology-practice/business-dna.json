@@ -1,0 +1,953 @@
+{
+  "identity": {
+    "id": "c2e7f9a1-4b3d-4e8c-9f2a-6d1b8e5c7a3f",
+    "slug": "psychology-practice",
+    "version": "1.0.0",
+    "name": {
+      "en": "Clearwater Counseling Practice",
+      "ro": "Clearwater Counseling Practice"
+    },
+    "tagline": {
+      "en": "A steady, private space to work through what's weighing on you.",
+      "ro": "Un spațiu privat și stabil, pentru a trece prin ceea ce te apasă."
+    },
+    "createdAt": "2026-07-14T00:00:00.000Z",
+    "updatedAt": "2026-07-14T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theSpecialist"
+    ],
+    "summary": {
+      "en": "Best suited to a licensed psychologist or therapist ready to run their own private-pay practice — this is business-planning guidance only, not clinical training, and assumes real licensure and clinical competence are already in place. The only one of the three licensed healthcare-adjacent businesses in this library that's genuinely solo-founder-friendly.",
+      "ro": "Potrivit unui psiholog sau terapeut licențiat, pregătit să conducă propriul cabinet privat, cu plată directă — acestea sunt îndrumări de planificare a afacerii, nu instruire clinică, și presupun că licențierea și competența clinică reale sunt deja în vigoare. Singura dintre cele trei afaceri de sănătate licențiate din această bibliotecă, care este cu adevărat potrivită pentru un fondator solo."
+    },
+    "minimumExperienceYears": 2
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 3000,
+      "maxInvestment": 10000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 1500,
+      "ongoingMonthlyCostMax": 4000,
+      "notes": {
+        "en": "Covers office setup, HIPAA-compliant practice-management and telehealth software, professional liability insurance, and initial marketing — the lowest budget tier of the three licensed healthcare-adjacent businesses in this library, since talk therapy carries no equivalent capital-equipment burden.",
+        "ro": "Acoperă amenajarea cabinetului, software-ul de gestionare a cabinetului și telemedicină, conform cu reglementările de confidențialitate, asigurarea de răspundere profesională și marketingul inițial — cel mai scăzut nivel de buget dintre cele trei afaceri de sănătate licențiate din această bibliotecă, deoarece terapia prin discuție nu are o povară echivalentă de echipament de capital."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "officeAndTelehealthSetup",
+          "label": {
+            "en": "Office setup and telehealth equipment (webcam, lighting, soundproofing)",
+            "ro": "Amenajarea cabinetului și echipament de telemedicină (cameră web, iluminat, izolare fonică)"
+          },
+          "typicalMin": 1000,
+          "typicalMax": 4000
+        },
+        {
+          "key": "practiceManagementAndTelehealthSoftware",
+          "label": {
+            "en": "HIPAA-compliant practice-management and telehealth software setup",
+            "ro": "Configurarea software-ului de gestionare a cabinetului și telemedicină, conform cu reglementările de confidențialitate"
+          },
+          "typicalMin": 500,
+          "typicalMax": 1500
+        },
+        {
+          "key": "licensingAndProfessionalLiabilityInsurance",
+          "label": {
+            "en": "Business registration, licensing fees, and professional liability insurance",
+            "ro": "Înregistrarea afacerii, taxele de licențiere și asigurarea de răspundere profesională"
+          },
+          "typicalMin": 1000,
+          "typicalMax": 3000
+        },
+        {
+          "key": "initialMarketingAndWebsite",
+          "label": {
+            "en": "Initial website and directory-listing setup",
+            "ro": "Configurarea inițială a site-ului web și a listărilor în directoare"
+          },
+          "typicalMin": 500,
+          "typicalMax": 1500
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "officeLeaseOrCoworkingFee",
+          "label": {
+            "en": "Part-time office lease or coworking clinical-space fee",
+            "ro": "Chiria unui cabinet cu program parțial sau taxa unui spațiu clinic partajat"
+          },
+          "typicalMonthlyMin": 400,
+          "typicalMonthlyMax": 1200
+        },
+        {
+          "key": "practiceManagementSoftwareSubscription",
+          "label": {
+            "en": "Practice-management and telehealth software subscription",
+            "ro": "Abonamentul software-ului de gestionare a cabinetului și telemedicină"
+          },
+          "typicalMonthlyMin": 60,
+          "typicalMonthlyMax": 150
+        },
+        {
+          "key": "professionalLiabilityInsurance",
+          "label": {
+            "en": "Professional liability insurance",
+            "ro": "Asigurarea de răspundere profesională"
+          },
+          "typicalMonthlyMin": 60,
+          "typicalMonthlyMax": 150
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "individualTherapySessionFees",
+          "label": {
+            "en": "Individual therapy session fees",
+            "ro": "Onorarii pentru ședințele de terapie individuală"
+          }
+        },
+        {
+          "key": "monthlySessionPackagePricing",
+          "label": {
+            "en": "Discounted monthly 4-session package pricing",
+            "ro": "Preț redus pentru pachetul lunar de 4 ședințe"
+          }
+        },
+        {
+          "key": "outOfNetworkSuperbillReimbursement",
+          "label": {
+            "en": "Out-of-network superbills for client insurance reimbursement",
+            "ro": "Facturi detaliate în afara rețelei, pentru rambursarea de către asigurarea clientului"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 6000,
+      "targetMonthlyIncomeMax": 15000,
+      "breakEvenTimelineMonths": 6,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "fast",
+      "notes": {
+        "en": "Private-pay sessions are billed and collected at time of service, giving this the fastest cash-collection cycle of the three licensed healthcare-adjacent businesses in this library.",
+        "ro": "Ședințele cu plată directă sunt facturate și încasate la momentul serviciului, oferind cel mai rapid ciclu de încasare a numerarului, dintre cele trei afaceri de sănătate licențiate din această bibliotecă."
+      }
+    },
+    "profitMargin": {
+      "level": "high",
+      "notes": {
+        "en": "Low overhead (no equipment, no required staff) keeps margin high once a stable caseload is built, unlike the equipment- and staffing-heavy dental and veterinary practices elsewhere in this library.",
+        "ro": "Costurile generale reduse (fără echipament, fără personal necesar) mențin marja ridicată, odată ce este construit un volum stabil de clienți, spre deosebire de cabinetele stomatologice și veterinare, intensive în echipament și personal, prezente în altă parte a acestei biblioteci."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "none",
+    "onlineOffline": "hybrid",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 25,
+    "maxWeeklyHours": 35,
+    "freedomLevel": 5
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 2
+      },
+      {
+        "key": "marketing",
+        "rating": 5
+      },
+      {
+        "key": "leadership",
+        "rating": 2
+      },
+      {
+        "key": "communication",
+        "rating": 9
+      },
+      {
+        "key": "negotiation",
+        "rating": 2
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 4
+      },
+      {
+        "key": "technology",
+        "rating": 4
+      },
+      {
+        "key": "automation",
+        "rating": 2
+      },
+      {
+        "key": "ai",
+        "rating": 1
+      },
+      {
+        "key": "programming",
+        "rating": 1
+      },
+      {
+        "key": "management",
+        "rating": 2
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 35
+      },
+      {
+        "key": "visionary",
+        "score": 15
+      },
+      {
+        "key": "operator",
+        "score": 30
+      },
+      {
+        "key": "creator",
+        "score": 25
+      },
+      {
+        "key": "seller",
+        "score": 15
+      },
+      {
+        "key": "leader",
+        "score": 20
+      },
+      {
+        "key": "analyst",
+        "score": 60
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": false,
+    "requiresTravel": false,
+    "isOnlineBusiness": false,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": true,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": true
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "low",
+      "notes": {
+        "en": "Growth is capped by one clinician's ethical caseload limit; scaling beyond that means bringing on additional licensed clinicians and evolving into a small group practice, not adding capacity to a single founder's schedule.",
+        "ro": "Creșterea este limitată de volumul etic maxim de clienți al unui singur clinician; extinderea dincolo de acest nivel înseamnă aducerea unor clinicieni licențiați suplimentari și evoluția către un mic cabinet de grup, nu adăugarea de capacitate la programul unui singur fondator."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "Lower capital and staffing complexity than dental or veterinary practice ownership, but licensure, liability insurance, and confidentiality/compliance obligations still gate the ability to open at all.",
+        "ro": "Complexitate de capital și personal mai scăzută decât deținerea unui cabinet stomatologic sau veterinar, dar licențierea, asigurarea de răspundere și obligațiile de confidențialitate/conformitate limitează totuși capacitatea de a deschide."
+      }
+    },
+    "aiResistance": {
+      "level": "high",
+      "notes": {
+        "en": "The therapeutic relationship requires a licensed human clinician and cannot be automated or meaningfully replaced by software.",
+        "ro": "Relația terapeutică necesită un clinician uman licențiat și nu poate fi automatizată sau înlocuită semnificativ de software."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Professional liability and confidentiality/compliance obligations require robust insurance and rigorous documentation practices, same as any licensed clinical practice.",
+          "ro": "Obligațiile de răspundere profesională și confidențialitate/conformitate necesită o asigurare robustă și practici riguroase de documentare, la fel ca orice practică clinică licențiată."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "A solo practitioner's income is directly capped by their own caseload and hours, with no staff leverage to absorb a slow client-acquisition period.",
+          "ro": "Venitul unui practician solo este direct limitat de propriul volum de clienți și ore, fără pârghia unui personal, care să absoarbă o perioadă lentă de achiziție a clienților."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "Sustaining a full caseload without burnout requires deliberate limits on weekly client hours, which caps maximum practice income more than in staffed businesses.",
+          "ro": "Susținerea unui volum complet de clienți, fără epuizare, necesită limite deliberate ale orelor săptămânale cu clienții, ceea ce plafonează venitul maxim al cabinetului, mai mult decât în afacerile cu personal."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "A private, judgment-free space for working professionals to work through anxiety, stress, and life transitions — evening and early-morning sessions that fit around a full workday.",
+        "ro": "Un spațiu privat, fără judecăți, pentru profesioniștii activi, pentru a trece prin anxietate, stres și tranziții de viață — ședințe seara și dimineața devreme, care se potrivesc programului de lucru complet."
+      },
+      "channels": [
+        {
+          "channelType": "professionalReferralNetwork",
+          "description": {
+            "en": "Referral relationships with local psychiatrists, primary-care physicians, and other therapists with a full caseload.",
+            "ro": "Relații de recomandare cu psihiatri locali, medici de familie și alți terapeuți cu volum complet de clienți."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "onlineTherapistDirectoryListings",
+          "description": {
+            "en": "Listings on established therapist-directory platforms where prospective clients actively search for a match.",
+            "ro": "Listări pe platforme consacrate de directoare de terapeuți, unde clienții potențiali caută activ o potrivire."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "employeeAssistanceProgramPartnerships",
+          "description": {
+            "en": "Partnerships with local employers' Employee Assistance Programs as a supplemental, experimental referral channel.",
+            "ro": "Parteneriate cu programele de asistență pentru angajați ale angajatorilor locali, ca un canal de recomandare suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "A single practitioner marketing directly to individual clients, with none of the insurance-panel or B2B-relationship layering found in dental or veterinary practice marketing.",
+        "ro": "Un singur practician care face marketing direct către clienți individuali, fără stratificarea panourilor de asigurări sau a relațiilor B2B, prezentă în marketingul cabinetelor stomatologice sau veterinare."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A free 15-minute phone consultation lets a prospective client and the therapist confirm fit before booking a first paid session — a short, low-friction cycle given the direct, urgent nature of the need.",
+        "ro": "O consultație telefonică gratuită de 15 minute permite clientului potențial și terapeutului să confirme potrivirea, înainte de a programa prima ședință plătită — un ciclu scurt, cu frecare redusă, dată fiind natura directă și urgentă a nevoii."
+      },
+      "salesCycleLengthDays": 7,
+      "pricingModel": {
+        "en": "Per-session fee (e.g. €90-120 for a 50-minute individual session), with a discounted monthly 4-session package and a limited sliding-scale allotment for reduced-fee clients.",
+        "ro": "Onorariu pe ședință (de ex. 90-120 € pentru o ședință individuală de 50 de minute), cu un pachet lunar redus de 4 ședințe și un număr limitat de locuri cu tarif redus, pe bază de scală variabilă."
+      }
+    },
+    "salesComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "A single, direct fee conversation with each prospective client, without the multi-stakeholder or larger-treatment-plan financing conversations found in dental or veterinary sales.",
+        "ro": "O conversație unică, directă despre onorariu, cu fiecare client potențial, fără conversațiile cu mai mulți factori de decizie sau de finanțare a unui plan de tratament mai amplu, prezente în vânzările stomatologice sau veterinare."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Free intake consultation calls to confirm client-therapist fit",
+          "ro": "Apeluri gratuite de consultație de admitere, pentru a confirma potrivirea client-terapeut"
+        },
+        {
+          "en": "Session scheduling, secure telehealth delivery, and clinical documentation",
+          "ro": "Programarea ședințelor, livrarea securizată prin telemedicină și documentarea clinică"
+        },
+        {
+          "en": "Out-of-network superbill generation for clients seeking insurance reimbursement",
+          "ro": "Generarea facturilor detaliate în afara rețelei, pentru clienții care solicită rambursare de la asigurare"
+        },
+        {
+          "en": "Continuing-education and licensure-renewal tracking",
+          "ro": "Urmărirea educației continue și a reînnoirii licenței"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "A schedule of individual sessions delivered in person and via telehealth, with dedicated time between sessions for clinical documentation and administrative tasks, all handled directly by the founding therapist.",
+        "ro": "Un program de ședințe individuale, livrate în persoană și prin telemedicină, cu timp dedicat, între ședințe, pentru documentare clinică și sarcini administrative, toate gestionate direct de terapeutul fondator."
+      },
+      "fulfillmentModel": {
+        "en": "A single licensed therapist delivering individual sessions directly, with no clinical or front-office staff required at this scale.",
+        "ro": "Un singur terapeut licențiat, care oferă direct ședințe individuale, fără personal clinic sau de recepție necesar la această scară."
+      }
+    },
+    "automation": {
+      "level": "moderate",
+      "notes": {
+        "en": "Scheduling reminders, intake paperwork, and billing are automated through practice-management software, but every session itself remains fully manual and licensed-clinician-led.",
+        "ro": "Mementourile de programare, documentele de admitere și facturarea sunt automatizate, prin software de gestionare a cabinetului, dar fiecare ședință rămâne complet manuală și condusă de clinicianul licențiat."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "administrativeDocumentation",
+          "description": {
+            "en": "AI-assisted session-note templates speed up administrative documentation between sessions, with the clinician reviewing and finalizing every note.",
+            "ro": "Șabloanele de note de ședință, asistate de AI, accelerează documentarea administrativă, între ședințe, clinicianul revizuind și finalizând fiecare notă."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "SimplePractice",
+        "category": "practiceManagementAndTelehealth",
+        "isRequired": true,
+        "websiteUrl": "https://www.simplepractice.com/"
+      },
+      {
+        "name": "Alma",
+        "category": "insuranceCredentialingAndClientMatching",
+        "isRequired": false,
+        "websiteUrl": "https://www.helloalma.com/"
+      },
+      {
+        "name": "Google Workspace",
+        "category": "adminAndCommunication",
+        "isRequired": false,
+        "websiteUrl": "https://workspace.google.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 24,
+      "notes": {
+        "en": "Growth is gated by one clinician's ethical caseload within a solo practice, with adding a second clinician as the main lever beyond that — a shorter time horizon than the dental and veterinary practices in this library, reflecting the lower capital and staffing ramp.",
+        "ro": "Creșterea este limitată de volumul etic al unui singur clinician, într-un cabinet solo, aducerea unui al doilea clinician fiind principala pârghie dincolo de aceasta — un orizont de timp mai scurt decât cabinetele stomatologice și veterinare din această bibliotecă, reflectând rampa de capital și personal mai redusă."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Build a full, stable caseload as a solo practitioner first, then evaluate raising rates or bringing on a second associate clinician to extend capacity once a consistent waitlist forms.",
+        "ro": "Construiește mai întâi un volum complet, stabil, de clienți, ca practician solo, apoi evaluează creșterea tarifelor sau aducerea unui al doilea clinician asociat, pentru a extinde capacitatea, odată ce se formează o listă de așteptare constantă."
+      },
+      "bottlenecks": [
+        {
+          "en": "A single clinician's weekly session capacity hard-caps monthly revenue without adding another licensed clinician.",
+          "ro": "Capacitatea săptămânală de ședințe a unui singur clinician plafonează dur venitul lunar, fără a adăuga un alt clinician licențiat."
+        },
+        {
+          "en": "Recruiting a second licensed clinician who shares the same practice philosophy and specialty focus requires significant care and lead time.",
+          "ro": "Recrutarea unui al doilea clinician licențiat, care împărtășește aceeași filozofie de practică și accent de specialitate, necesită atenție și timp de pregătire semnificative."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 6,
+          "description": {
+            "en": "The practice reaches break-even with a stable, full weekly caseload.",
+            "ro": "Cabinetul atinge pragul de rentabilitate, cu un volum săptămânal complet și stabil de clienți."
+          }
+        },
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "A consistent client waitlist forms, prompting evaluation of a rate increase or a second associate clinician.",
+            "ro": "Se formează o listă de așteptare constantă a clienților, determinând evaluarea unei creșteri de tarif sau a unui al doilea clinician asociat."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Low overhead and no required staff keep margin high once a stable caseload is built, unlike the equipment- and staffing-heavy dental and veterinary practices elsewhere in this library.",
+          "ro": "Costurile generale reduse și lipsa personalului necesar mențin marja ridicată, odată ce este construit un volum stabil de clienți, spre deosebire de cabinetele stomatologice și veterinare, intensive în echipament și personal, din altă parte a acestei biblioteci."
+        }
+      },
+      {
+        "description": {
+          "en": "Recession-resistant, growing demand for accessible mental-health support among working professionals.",
+          "ro": "Cerere rezistentă la recesiune, în creștere, pentru sprijin accesibil de sănătate mintală, în rândul profesioniștilor activi."
+        }
+      },
+      {
+        "description": {
+          "en": "A hybrid telehealth/in-person model and evening/early-morning scheduling differentiate against practices offering only rigid daytime in-person hours.",
+          "ro": "Un model hibrid de telemedicină/în persoană și programarea seara/dimineața devreme diferențiază cabinetul de practicile care oferă doar ore rigide, în persoană, în timpul zilei."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A solo private-pay psychotherapy practice serving working professionals through a hybrid of telehealth and in-person sessions, differentiated by evening/early-morning scheduling. Business-planning content only — no clinical treatment modalities, diagnostic criteria, or intervention techniques, and no clinical claims beyond what a real practice would state in its own marketing.",
+        "ro": "Un cabinet de psihoterapie solo, cu plată directă, care servește profesioniști activi, printr-un model hibrid de ședințe de telemedicină și în persoană, diferențiat prin programarea seara/dimineața devreme. Doar conținut de planificare a afacerii — fără modalități de tratament clinic, criterii de diagnostic sau tehnici de intervenție, și fără afirmații clinice, dincolo de ceea ce ar declara un cabinet real în propriul marketing."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.psychologyPractice.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.psychologyPractice.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.psychologyPractice.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.psychologyPractice.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep clients engaged in consistent weekly or biweekly ongoing sessions.",
+          "ro": "Menține clienții implicați în ședințe constante, săptămânale sau bisăptămânale, în curs."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against software, insurance, and office-space costs.",
+          "ro": "Protejează marja brută împotriva costurilor de software, asigurare și spațiu de cabinet."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert professional referrals and directory-listing inquiries into booked intake consultation calls.",
+          "ro": "Transformă recomandările profesionale și solicitările din listările de directoare, în apeluri de consultație de admitere programate."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep client attrition low through consistent scheduling and a strong initial client-therapist fit.",
+          "ro": "Menține atriția clienților scăzută, prin programare constantă și o potrivire inițială solidă client-terapeut."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "communication",
+          "importance": 5
+        },
+        {
+          "key": "marketing",
+          "importance": 3
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "finance",
+          "importance": 2
+        },
+        {
+          "key": "management",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "patient",
+          "importance": 5
+        },
+        {
+          "trait": "collaborative",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "resilient",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 3000,
+        "max": 10000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 5000,
+        "max": 9000,
+        "currency": "EUR"
+      },
+      "riskProfile": "low",
+      "timeAvailability": {
+        "minWeeklyHours": 25,
+        "maxWeeklyHours": 35
+      },
+      "communicationStyle": [
+        "warm",
+        "empathetic"
+      ],
+      "technicalLevel": 3,
+      "leadershipLevel": 2,
+      "creativityLevel": 3,
+      "salesAffinity": 2,
+      "automationAffinity": 2,
+      "remotePreference": "hybrid",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theSpecialist"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the low capital requirement and solo-founder-friendly structure in the Financial Overview and Team Structure sections, and the hybrid telehealth/in-person scheduling differentiator in Offer Architecture — keep all content strictly business-planning, professional, and accurate, never clinical, diagnostic, or making claims beyond what a real practice would state in its own marketing.",
+      "ro": "Subliniază cerința de capital scăzută și structura potrivită pentru fondator solo, în secțiunile Prezentare financiară și Structura echipei, precum și diferențiatorul de programare hibridă telemedicină/în persoană, în Arhitectura ofertei — menține tot conținutul strict de planificare a afacerii, profesionist și corect, niciodată clinic, de diagnostic sau cu afirmații dincolo de ceea ce ar declara un cabinet real în propriul marketing."
+    },
+    "marketingHints": {
+      "en": "Lead with the hybrid scheduling flexibility and the specific working-professional niche, not generic 'we care about your wellbeing' stock phrases — never reference specific clinical outcomes, diagnostic claims, or treatment efficacy.",
+      "ro": "Începe cu flexibilitatea programării hibride și nișa specifică a profesioniștilor activi, nu cu fraze generice de tipul „ne pasă de bunăstarea ta” — nu face niciodată referire la rezultate clinice specifice, afirmații de diagnostic sau eficacitatea tratamentului."
+    },
+    "financialHints": {
+      "en": "Model revenue as private-pay session fees with a fast, direct cash-collection cycle and low overhead — the lowest capital-intensity business among the licensed healthcare-adjacent practices in this library.",
+      "ro": "Modelează veniturile ca onorarii de ședințe cu plată directă, cu un ciclu de încasare a numerarului rapid și direct, și costuri generale reduse — cea mai scăzută intensitate de capital dintre practicile de sănătate licențiate din această bibliotecă."
+    },
+    "generationHints": {
+      "en": "Keep generated tone warm, professional, and strictly business-planning focused — never generate clinical treatment modalities, diagnostic criteria, intervention techniques, or any claim about clinical outcomes or efficacy.",
+      "ro": "Menține un ton generat cald, profesionist și strict axat pe planificarea afacerii — nu genera niciodată modalități de tratament clinic, criterii de diagnostic, tehnici de intervenție sau orice afirmație despre rezultate clinice sau eficacitate."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Confirm state licensure, secure professional liability insurance, and set up HIPAA-compliant practice-management and telehealth software.",
+            "ro": "Confirmă licențierea de stat, asigură asigurarea de răspundere profesională și configurează software-ul de gestionare a cabinetului și telemedicină, conform cu reglementările de confidențialitate."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Choosing practice-management software before confirming it meets confidentiality and compliance requirements in the practice's jurisdiction.",
+            "ro": "Alegerea software-ului de gestionare a cabinetului, înainte de a confirma că îndeplinește cerințele de confidențialitate și conformitate, din jurisdicția cabinetului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm professional liability insurance coverage and licensure status are both fully active before accepting the first client.",
+            "ro": "Confirmă că acoperirea asigurării de răspundere profesională și statutul licenței sunt ambele complet active, înainte de a accepta primul client."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.psychologyPractice.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Confirm the private-pay/out-of-network pricing structure covers target monthly income through free intake consultation calls with prospective clients.",
+            "ro": "Confirmă că structura de preț cu plată directă/în afara rețelei acoperă venitul lunar țintă, prin apeluri de consultație de admitere gratuite, cu clienți potențiali."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Pricing sessions without first confirming what comparable local private-pay therapists charge for the same specialty niche.",
+            "ro": "Stabilirea prețului ședințelor, fără a confirma mai întâi ce percep terapeuții locali comparabili, cu plată directă, pentru aceeași nișă de specialitate."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Run at least 10 free intake consultation calls before finalizing session pricing to confirm demand and fit for the target niche.",
+            "ro": "Realizează cel puțin 10 apeluri gratuite de consultație de admitere, înainte de a finaliza prețul ședințelor, pentru a confirma cererea și potrivirea pentru nișa țintă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.psychologyPractice.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first month of intake consultation calls and initial paid sessions.",
+            "ro": "Finalizează prima lună de apeluri de consultație de admitere și primele ședințe plătite."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not setting a recurring weekly time slot with the first clients, making consistent ongoing scheduling harder to establish.",
+            "ro": "Neconfigurarea unui interval de timp săptămânal recurent, cu primii clienți, îngreunând stabilirea unei programări constante, în curs."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Offer every new client a standing recurring weekly time slot from their very first session.",
+            "ro": "Oferă fiecărui client nou un interval de timp săptămânal recurent fix, încă din prima lor ședință."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.psychologyPractice.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Launch professional referral relationships with local psychiatrists and physicians, and an online therapist-directory listing.",
+            "ro": "Lansează relații de recomandare profesională, cu psihiatri și medici locali, și o listare pe un director online de terapeuți."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Relying solely on directory listings for client flow instead of also building direct professional referral relationships.",
+            "ro": "Bazarea exclusiv pe listările din directoare, pentru fluxul de clienți, în loc să construiască și relații directe de recomandare profesională."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Reach out directly to 5-10 local psychiatrists or physicians to introduce the practice and its specialty niche.",
+            "ro": "Contactează direct 5-10 psihiatri sau medici locali, pentru a prezenta cabinetul și nișa sa de specialitate."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.psychologyPractice.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first satisfied client into an ongoing weekly client and a referral source.",
+            "ro": "Transformă primul client mulțumit într-un client săptămânal, în curs, și o sursă de recomandare."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not asking established clients directly whether they know anyone else who might benefit from the practice.",
+            "ro": "Neexistarea unei întrebări directe, către clienții stabiliți, dacă cunosc pe altcineva care ar putea beneficia de cabinet."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Mention the practice is accepting new clients to satisfied ongoing clients once trust is well established.",
+            "ro": "Menționează clienților mulțumiți, în curs, că cabinetul acceptă clienți noi, odată ce încrederea este bine stabilită."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.psychologyPractice.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable, full weekly caseload with a consistent client-retention rate.",
+            "ro": "Atinge un volum săptămânal complet și stabil de clienți, cu o rată constantă de retenție a clienților."
+          }
+        ],
+        "kpis": [
+          "customerRetention",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Accepting new clients past a sustainable caseload limit, risking burnout and lower-quality care.",
+            "ro": "Acceptarea de clienți noi, dincolo de o limită sustenabilă de volum, riscând epuizarea și îngrijirea de calitate mai scăzută."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Set a firm weekly caseload cap before reaching it, and start a waitlist once that cap is hit.",
+            "ro": "Stabilește un plafon săptămânal ferm de volum de clienți, înainte de a-l atinge, și pornește o listă de așteptare, odată ce plafonul este atins."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.psychologyPractice.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Build a consistent client waitlist and evaluate a session-rate increase.",
+            "ro": "Construiește o listă de așteptare constantă a clienților și evaluează o creștere a tarifului pe ședință."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Raising session rates without communicating the change clearly and with reasonable notice to existing clients.",
+            "ro": "Creșterea tarifelor pe ședință, fără a comunica clar schimbarea și cu un preaviz rezonabil, clienților existenți."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Give existing clients at least 60 days' written notice before any session-rate increase takes effect.",
+            "ro": "Oferă clienților existenți un preaviz scris de cel puțin 60 de zile, înainte ca orice creștere a tarifului pe ședință să intre în vigoare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.psychologyPractice.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Bring on a second associate clinician to extend capacity once a consistent waitlist has formed.",
+            "ro": "Adu un al doilea clinician asociat, pentru a extinde capacitatea, odată ce s-a format o listă de așteptare constantă."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Bringing on an associate clinician without a clear compensation and referral-routing structure, causing friction.",
+            "ro": "Aducerea unui clinician asociat, fără o structură clară de compensare și direcționare a recomandărilor, cauzând tensiuni."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Define a clear compensation and client-referral-routing structure in writing before bringing on an associate clinician.",
+            "ro": "Definește o structură clară de compensare și direcționare a recomandărilor de clienți, în scris, înainte de a aduce un clinician asociat."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.psychologyPractice.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Evaluate evolving into a small group practice with multiple clinicians under one shared practice-management and billing system.",
+            "ro": "Evaluează evoluția către un mic cabinet de grup, cu mai mulți clinicieni, sub un sistem partajat de gestionare a cabinetului și facturare."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding to a group practice structure before the first associate clinician relationship has proven stable and sustainable.",
+            "ro": "Extinderea către o structură de cabinet de grup, înainte ca prima relație cu clinicianul asociat să se fi dovedit stabilă și sustenabilă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the first associate clinician relationship has run profitably and smoothly for at least 6 months before adding a third clinician.",
+            "ro": "Confirmă că prima relație cu clinicianul asociat a funcționat profitabil și fără probleme, timp de cel puțin 6 luni, înainte de a adăuga un al treilea clinician."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.psychologyPractice.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document referral relationships, practice systems, and (in a fully compliant, confidential manner) the client base to prepare the practice for transition to another licensed clinician or group practice.",
+            "ro": "Documentează relațiile de recomandare, sistemele cabinetului și (într-o manieră complet conformă și confidențială) baza de clienți, pentru a pregăti cabinetul pentru tranziția către un alt clinician licențiat sau cabinet de grup."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Waiting until a transition is imminent to start documenting referral relationships and practice systems properly.",
+            "ro": "Așteptarea până când o tranziție este iminentă, pentru a începe documentarea corespunzătoare a relațiilor de recomandare și sistemelor cabinetului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, complete, and fully compliant documentation of referral relationships and practice systems on an ongoing basis, not just before a transition.",
+            "ro": "Menține o documentare curată, completă și complet conformă, a relațiilor de recomandare și sistemelor cabinetului, în mod continuu, nu doar înainte de o tranziție."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.psychologyPractice.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

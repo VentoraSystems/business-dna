@@ -1,0 +1,143 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "dentalChairsAndOperatoryEquipment",
+      "xrayAndImagingEquipment",
+      "sterilizationAndComplianceSetup",
+      "practiceBuildoutAndFrontOfficeSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "practiceLeaseOrMortgage",
+      "clinicalAndFrontOfficeStaffWages",
+      "malpracticeAndProfessionalLiabilityInsurance"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "dentalSuppliesAndMaterials",
+      "labFeesForCrownsAndVeneers",
+      "continuingEducationCosts"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "preventiveAndRestorativeCareFees",
+        "label": {
+          "en": "Preventive and restorative care fees (cleanings, fillings, crowns)",
+          "ro": "Onorarii pentru îngrijire preventivă și restaurativă (curățări, plombe, coroane)"
+        }
+      },
+      {
+        "key": "electiveCosmeticServices",
+        "label": {
+          "en": "Elective cosmetic services (whitening, veneers)",
+          "ro": "Servicii cosmetice opționale (albire, fațete)"
+        }
+      },
+      {
+        "key": "inHouseMembershipPlan",
+        "label": {
+          "en": "In-house dental membership plan for uninsured patients",
+          "ro": "Plan de abonament dentar intern, pentru pacienții neasigurați"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageProcedureValue": "currency",
+      "patientsPerDay": "number",
+      "insuranceReimbursementRatePercent": "percent",
+      "electiveCosmeticAttachRatePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "newPatientsPerMonth": "number",
+      "recallReturnRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.dentalClinic.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "insuranceReimbursementInflow",
+      "patientOutOfPocketInflow",
+      "equipmentFinancingAndPayrollOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 18,
+    "notesTranslationKey": "businessLibrary.dentalClinic.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 45,
+    "notesTranslationKey": "businessLibrary.dentalClinic.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 18,
+    "notesTranslationKey": "businessLibrary.dentalClinic.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "hygienistAndAssistantRecruiting",
+      "associateDentistOnboarding"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "insurancePanelCredentialingFees",
+      "localSeoAndReviewGeneration"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxOnClinicalStaff"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingAndEquipmentReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "customerRetention",
+      "grossMargin",
+      "leadConversion",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 9000,
+      "notesTranslationKey": "businessLibrary.dentalClinic.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 22000,
+      "notesTranslationKey": "businessLibrary.dentalClinic.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 40000,
+      "notesTranslationKey": "businessLibrary.dentalClinic.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.dentalClinic.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.dentalClinic.financial.risks.risk2",
+        "severity": "high"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.dentalClinic.financial.aiMetadata.generationHints"
+  }
+}

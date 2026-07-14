@@ -10745,6 +10745,2306 @@
           "generationHints": "Emphasize that most risk in this business is income volatility and market-cycle exposure, not sales skill itself."
         }
       }
+    },
+    "cleaningCompany": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"The E-Myth Contractor\" by Michael E. Gerber",
+          "course1": "Course: ISSA Cleaning Management Institute (CMI) Certification",
+          "community1": "Community: r/CleaningBusinessOwners and local Chamber of Commerce",
+          "checklist1": "Checklist: Standardized Room-by-Room Cleaning Checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast revenue by tracking recurring clients added per month against monthly churn — the recurring base compounds steadily once churn stays low."
+        },
+        "breakEven": {
+          "notes": "Break-even typically arrives around month 4 once the owner's own cleaning schedule is fully booked with recurring clients."
+        },
+        "grossMargin": {
+          "notes": "Gross margin holds around 55% before hired-technician wages scale up — supplies and fuel are a small share of per-visit cost."
+        },
+        "netMargin": {
+          "notes": "Net margin settles around 28% once payroll, insurance, and marketing costs are fully accounted for."
+        },
+        "scenarios": {
+          "conservative": "A slow-growth scenario with the owner alone, filling roughly half a full recurring schedule.",
+          "expected": "A realistic scenario with the owner's schedule full and one hired team handling overflow.",
+          "optimistic": "A strong scenario with two hired teams running full recurring routes across two neighborhoods."
+        },
+        "risks": {
+          "risk1": "Cleaner no-shows or turnover directly damage trust with recurring clients who expect the same reliable team every visit.",
+          "risk2": "Rising minimum wage or hourly rates for cleaning technicians can compress margin faster than prices can be raised."
+        },
+        "aiMetadata": {
+          "generationHints": "Model costs and margin as labor-dominated, not supply-dominated — wages are the real lever on profitability."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "The same trusted team, every single visit — not a rotating stranger from an app.",
+          "category": "Residential recurring house cleaning"
+        },
+        "brandPromise": "You'll always know exactly who is cleaning your home, and they'll always know your home.",
+        "uvp": {
+          "statement": "Consistent, background-checked cleaning teams assigned to your home for the long term — not a different stranger every visit.",
+          "diff1": "Team continuity that cleaning marketplace apps structurally cannot offer.",
+          "diff2": "A standardized room-by-room checklist that keeps quality consistent across every visit."
+        },
+        "icp": {
+          "description": "Dual-income households aged 30-55 in higher-income suburban neighborhoods who want reliable recurring cleaning without managing a rotating cast of unknown cleaners.",
+          "firmographics": "Homeowners with 2-4+ bedroom homes, household income supporting a recurring service budget, limited free time for housework."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Busy Dual-Income Household",
+            "description": "Two working professionals with young children who need reliable bi-weekly cleaning and no time to vet or manage cleaners themselves."
+          },
+          "persona2": {
+            "name": "Empty-Nester Downsizer",
+            "description": "An older homeowner who wants consistent light housekeeping help but values a familiar, trusted face over the cheapest available option."
+          }
+        },
+        "painPoints": {
+          "point1": "A different, unvetted cleaner shows up every time through app-based marketplaces, with no consistency in quality.",
+          "point2": "Uncertainty about trustworthiness when giving a stranger access to the home while no one is present."
+        },
+        "outcomes": {
+          "outcome1": "A consistently clean home on a predictable schedule without having to manage or vet cleaners personally.",
+          "outcome2": "Peace of mind from a bonded, background-checked, familiar team handling in-home access."
+        },
+        "messaging": {
+          "core": "The same trusted team, every single visit.",
+          "support1": "Bonded, background-checked, and trained on a standardized checklist — so quality never depends on who shows up."
+        },
+        "brandVoice": {
+          "tone": "Practical, warm, and reliability-focused",
+          "attr1": "Trustworthy",
+          "attr2": "Consistent"
+        },
+        "contentPillars": {
+          "pillar1": "Home-cleaning tips and standards",
+          "pillar2": "Behind-the-scenes team reliability and training"
+        },
+        "channelStrategy": "Saturate one target neighborhood at a time with door hangers and referral discounts, supported by a strong Google Business Profile, with local Facebook groups as an experimental extra.",
+        "community": {
+          "description": "A loose network of long-term recurring clients who refer neighbors directly.",
+          "platform1": "Neighborhood Facebook groups"
+        },
+        "leadMagnets": {
+          "magnet1": "Free in-home walkthrough quote with no obligation"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Door hanger or referral",
+            "description": "A prospect receives a door hanger or a neighbor's referral."
+          },
+          "stage2": {
+            "name": "Free walkthrough quote",
+            "description": "A free in-home walkthrough sets the recurring price based on home size and condition."
+          },
+          "stage3": {
+            "name": "Signed recurring contract",
+            "description": "The prospect signs on for a bi-weekly or weekly recurring schedule."
+          }
+        },
+        "retention": {
+          "tactic1": "Assigning the same 2-person team consistently to the same client for every visit."
+        },
+        "analytics": {
+          "metric1": "Recurring-client retention rate month over month"
+        },
+        "aiMetadata": {
+          "generationHints": "Keep marketing copy concrete about scheduling and team continuity, not generic 'sparkling clean' filler."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Set up bonding and liability insurance, source commercial-grade supplies, and configure scheduling/invoicing software."
+          },
+          "deliverables": {
+            "0": "An active bonding and liability insurance policy and a configured scheduling/invoicing system."
+          },
+          "checklist": {
+            "0": "Confirm bonding and liability insurance is active before the first paid visit."
+          },
+          "commonMistakes": {
+            "0": "Skipping bonding and liability insurance to save money, leaving no protection if something is damaged or goes missing in a client's home."
+          },
+          "successCriteria": {
+            "0": "Insurance, supplies, and scheduling software are all active and ready for the first client."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a standardized room-by-room cleaning checklist template to refine during the first visits."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Book 5-8 free in-home walkthrough quotes in a single target neighborhood to validate pricing and demand."
+          },
+          "deliverables": {
+            "0": "5-8 completed walkthrough quotes with recorded pricing and conversion outcomes."
+          },
+          "checklist": {
+            "0": "Set the real recurring price from the very first quote, not an introductory discount."
+          },
+          "commonMistakes": {
+            "0": "Pricing too low on the first few clients out of nervousness, making it hard to raise prices later without losing them."
+          },
+          "successCriteria": {
+            "0": "At least 3 of the 5-8 walkthroughs convert into signed recurring contracts."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a clear, simple recurring-service agreement template covering scope, pricing, and cancellation terms."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Complete the first month of recurring visits for the first 3-5 signed clients personally."
+          },
+          "deliverables": {
+            "0": "A documented, standardized room-by-room cleaning checklist refined from the first month's visits."
+          },
+          "checklist": {
+            "0": "Write a standardized room-by-room cleaning checklist during the first month, even while working solo."
+          },
+          "commonMistakes": {
+            "0": "Not documenting a standardized checklist early, making quality inconsistent once a second cleaner is added later."
+          },
+          "successCriteria": {
+            "0": "All 3-5 first clients confirm satisfaction and remain on their recurring schedule after month one."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to turn field notes from the first visits into a polished, printable checklist document."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Start the door-hanger and referral-discount campaign in the target neighborhood to fill the recurring client schedule."
+          },
+          "deliverables": {
+            "0": "A completed door-hanger distribution run across the full target neighborhood."
+          },
+          "checklist": {
+            "0": "Saturate a single target neighborhood with door hangers before expanding to a second one."
+          },
+          "commonMistakes": {
+            "0": "Spreading door-hanger distribution across too many neighborhoods at once instead of saturating one first."
+          },
+          "successCriteria": {
+            "0": "New walkthrough-quote requests are coming in weekly from the target neighborhood."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft several door-hanger and referral-flyer copy variants to test which converts best."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Ask the first satisfied recurring client directly for a referral and a Google review."
+          },
+          "deliverables": {
+            "0": "At least one published Google review and one referral lead from an existing client."
+          },
+          "checklist": {
+            "0": "Ask every client directly for a referral after their third successful visit, with a concrete discount incentive."
+          },
+          "commonMistakes": {
+            "0": "Waiting passively for referrals instead of directly asking satisfied clients after a few successful visits."
+          },
+          "successCriteria": {
+            "0": "At least one new client is signed directly from an existing client's referral."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a friendly, non-pushy referral-request message template to send after each client's third visit."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach a fully booked personal cleaning schedule with a waitlist forming for new recurring clients."
+          },
+          "deliverables": {
+            "0": "A documented waitlist of at least 3 prospective clients ready for the next hire's capacity."
+          },
+          "checklist": {
+            "0": "Start recruiting the first hire as soon as a genuine waitlist of 3+ prospective clients forms."
+          },
+          "commonMistakes": {
+            "0": "Continuing to take on clients personally past capacity instead of starting to hire once a waitlist forms."
+          },
+          "successCriteria": {
+            "0": "The owner's schedule is fully booked and a documented waitlist exists."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a structured job posting and interview scorecard for the first cleaning-technician hire."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Hire, background-check, and train the first cleaning team on the standardized checklist."
+          },
+          "deliverables": {
+            "0": "A fully trained first hire independently handling their own recurring client route."
+          },
+          "checklist": {
+            "0": "Run a full background check on every hire before assigning them to any client's home, with no exceptions."
+          },
+          "commonMistakes": {
+            "0": "Skipping a real background check on a new hire to fill a schedule gap faster, risking client trust and safety."
+          },
+          "successCriteria": {
+            "0": "The first hired team completes a full month of visits with no client complaints."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to build a structured onboarding checklist and training script for new cleaning-technician hires."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Add a second and third cleaning team, shifting the owner fully into scheduling, quality control, and hiring."
+          },
+          "deliverables": {
+            "0": "Two to three fully trained cleaning teams each running their own recurring client routes."
+          },
+          "checklist": {
+            "0": "Prioritize filling out an existing neighborhood's route density before expanding into a new geographic area."
+          },
+          "commonMistakes": {
+            "0": "Expanding route density too thinly across a wide geographic area, wasting team travel time between visits."
+          },
+          "successCriteria": {
+            "0": "Each active team's route stays within a tight, efficient geographic radius."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted route-planning to keep each team's daily schedule geographically efficient."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Expand into an adjacent neighborhood or add a specialty service line (e.g. move-in/move-out deep cleans)."
+          },
+          "deliverables": {
+            "0": "A validated expansion neighborhood or service line with its first signed clients."
+          },
+          "checklist": {
+            "0": "Validate a new neighborhood or service line with existing clients' referrals before investing in dedicated marketing there."
+          },
+          "commonMistakes": {
+            "0": "Diluting the core reliable-recurring-team positioning by chasing one-off jobs across too wide an area."
+          },
+          "successCriteria": {
+            "0": "The new neighborhood or service line reaches at least 5 signed recurring clients."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze which existing clients' referrals cluster geographically to identify the strongest expansion neighborhood."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Document recurring-client contracts, team structure, and standard operating procedures to package the business for sale."
+          },
+          "deliverables": {
+            "0": "A complete, up-to-date operations manual and recurring-client contract register."
+          },
+          "checklist": {
+            "0": "Write down every standard operating procedure and keep the recurring-client contract list current on an ongoing basis, not just before a sale."
+          },
+          "commonMistakes": {
+            "0": "Keeping standard operating procedures only in the owner's head, making the business much harder to value or hand off."
+          },
+          "successCriteria": {
+            "0": "A prospective buyer or operator could run the business from the documentation alone."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help organize scattered notes and procedures into a clean, structured operations manual."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep roadmap guidance concrete about hiring, checklists, and route density — the real levers in this business."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Book: \"The E-Myth Contractor\" by Michael E. Gerber",
+          "description": "A systems-thinking guide to building a service business that runs on documented processes, not just the owner's own effort."
+        },
+        "item2": {
+          "title": "Course: ISSA Cleaning Management Institute (CMI) Certification",
+          "description": "An industry-recognized certification covering cleaning standards, safety, and business operations."
+        },
+        "item3": {
+          "title": "Community: r/CleaningBusinessOwners",
+          "description": "An active online community of cleaning-business owners sharing pricing, hiring, and operations advice."
+        },
+        "item4": {
+          "title": "Podcast: \"The Cleaning Business Podcast\"",
+          "description": "Interviews with cleaning-company owners on growth, hiring, and operations."
+        },
+        "item5": {
+          "title": "Newsletter: ISSA Today",
+          "description": "Industry news and best practices from the cleaning-industry trade association."
+        },
+        "item6": {
+          "title": "Software: Housecall Pro",
+          "description": "Scheduling, dispatch, and client communication built for home-service businesses."
+        },
+        "item7": {
+          "title": "Software: QuickBooks",
+          "description": "Invoicing and accounting software for tracking recurring-contract billing."
+        },
+        "item8": {
+          "title": "AI Tool: booking-page chat assistant",
+          "description": "AI-assisted chat that answers common pricing and scheduling questions on the booking page."
+        },
+        "item9": {
+          "title": "Certification: Bonding and general liability insurance",
+          "description": "Required coverage before taking on any paid in-home cleaning work."
+        },
+        "item10": {
+          "title": "Event: ISSA Cleaning & Restoration Expo",
+          "description": "The industry's main annual trade show for cleaning-business owners and suppliers."
+        },
+        "item11": {
+          "title": "Expert: A local insurance broker specializing in bonding for service businesses",
+          "description": "Helps structure the right bonding and liability coverage for a new cleaning company."
+        },
+        "item12": {
+          "title": "Checklist: Standardized Room-by-Room Cleaning Checklist",
+          "description": "A documented, repeatable checklist that keeps quality consistent across every team and every visit."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritize resources on hiring, training, and operational consistency — the real differentiators in this business."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Move-in/move-out deep cleans command a premium price and often lead to a recurring contract with the new occupant."
+          },
+          "item2": {
+            "title": "Partnering with local real estate agents for move-in/move-out referrals creates a steady, low-cost lead source."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A single high-profile theft or damage incident can spread through neighborhood word of mouth faster than any marketing can counteract."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Underpricing recurring contracts to win the first few clients, then struggling to raise prices without losing them."
+          },
+          "item2": {
+            "title": "Hiring too fast before a genuine waitlist confirms sustainable demand."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "A referral-discount program with existing satisfied clients converts faster and cheaper than any paid advertising."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Prioritize route density within existing neighborhoods before expanding geographically — travel time between visits erodes margin fast."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Document a standardized checklist from day one, even while working solo — it's what makes hiring later possible without a quality drop."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Businesses that assign the same team to the same clients consistently see far lower churn than those that rotate staff for scheduling convenience."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Most client cancellations happen after a missed or rescheduled visit, not after a quality complaint — reliability matters more than perfection."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Vehicle wear and fuel costs from inefficient routing are often underestimated until route density is actually tracked."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Rising interest in home-service subscription models signals growing comfort with recurring, automatically billed household services."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A single-neighborhood cleaning company reached a full recurring schedule within 4 months by saturating door-hanger distribution before spending on any paid ads."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A cleaning company that rotated staff across clients for scheduling convenience saw a wave of cancellations once clients noticed the inconsistency."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "A cleaning company is easy to start and doesn't need real systems.",
+            "fact": "Without a standardized checklist and reliable hiring process, quality quickly becomes inconsistent once the owner isn't doing every visit personally."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Confirm the recurring price and scope in writing at the free walkthrough, before the first visit, to avoid later disputes."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep insights grounded in operational reality — hiring, route density, and consistency — not generic small-business advice."
+        },
+        "faq": {
+          "q1": {
+            "question": "Do I need a special license to start a cleaning company?",
+            "answer": "No license is required in most places, but bonding and general liability insurance are essential before taking on any paid in-home work."
+          }
+        }
+      }
+    },
+    "beautySalon": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"Millionaire Stylist\" by Kristi Waters",
+          "course1": "Course: State Cosmetology Licensing Program",
+          "community1": "Community: Behind the Chair online stylist community",
+          "checklist1": "Checklist: New Client Consultation and Rebooking Checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast revenue from chair utilization rate and membership sign-ups — a fuller chair schedule compounds faster than new-client acquisition alone."
+        },
+        "breakEven": {
+          "notes": "Break-even typically arrives around month 9 once every founding chair is consistently booked."
+        },
+        "grossMargin": {
+          "notes": "Gross margin holds around 50% after product cost of goods and stylist commission splits."
+        },
+        "netMargin": {
+          "notes": "Net margin settles around 22% once lease, payroll, and marketing costs are fully accounted for."
+        },
+        "scenarios": {
+          "conservative": "A slow-growth scenario with two chairs at partial utilization.",
+          "expected": "A realistic scenario with three chairs consistently booked and a growing membership base.",
+          "optimistic": "A strong scenario with all chairs full and a stable, high-enrollment membership program."
+        },
+        "risks": {
+          "risk1": "A stylist leaving often takes their loyal client base with them, directly hitting revenue.",
+          "risk2": "Fixed lease and staffing costs continue regardless of how full the chair schedule actually is."
+        },
+        "aiMetadata": {
+          "generationHints": "Model costs and margin as lease- and labor-dominated, not product-dominated — chairs and stylists are the real capacity constraint."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Your stylist, not just any stylist — a consistent relationship, not a rotating chain-salon queue.",
+          "category": "Multi-chair hair and beauty salon"
+        },
+        "brandPromise": "You'll always book with the same stylist who knows your hair history.",
+        "uvp": {
+          "statement": "A consistent, dedicated stylist relationship built on real craft skill, not a rotating chain-salon queue.",
+          "diff1": "Stylist continuity that chain salons structurally cannot offer.",
+          "diff2": "Real before/after client transformations, not stock salon photography."
+        },
+        "icp": {
+          "description": "Style-conscious professional clients aged 25-45 who want a consistent stylist relationship and are willing to pay for craft quality over convenience.",
+          "firmographics": "Working professionals with discretionary income for regular hair and beauty maintenance, typically visiting every 4-8 weeks."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Style-Conscious Professional",
+            "description": "A working professional aged 28-40 who wants a dependable stylist relationship and values consistency over trying a new salon each visit."
+          },
+          "persona2": {
+            "name": "Special-Occasion Client",
+            "description": "A client booking for a wedding, event, or seasonal refresh who discovers the salon through social content and becomes a recurring client afterward."
+          }
+        },
+        "painPoints": {
+          "point1": "A rotating cast of unfamiliar stylists at chain salons who don't know the client's hair history.",
+          "point2": "Inconsistent quality from booking whichever stylist happens to be available."
+        },
+        "outcomes": {
+          "outcome1": "A trusted, ongoing relationship with one stylist who knows exactly what the client wants.",
+          "outcome2": "Consistently reliable results every visit, without re-explaining hair history each time."
+        },
+        "messaging": {
+          "core": "Your stylist, not just any stylist.",
+          "support1": "Real craft, real relationships — see the transformations for yourself."
+        },
+        "brandVoice": {
+          "tone": "Warm, expressive, and craft-focused",
+          "attr1": "Personal",
+          "attr2": "Skilled"
+        },
+        "contentPillars": {
+          "pillar1": "Before/after client transformations",
+          "pillar2": "Stylist expertise and technique"
+        },
+        "channelStrategy": "Build a strong Instagram presence on real before/after transformations as the primary channel, supported by a client referral discount program, with local micro-influencer partnerships as an experimental extra.",
+        "community": {
+          "description": "A loyal following of recurring clients who share and tag the salon's transformation content.",
+          "platform1": "Instagram"
+        },
+        "leadMagnets": {
+          "magnet1": "Free first-visit consultation"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Social content discovery",
+            "description": "A prospect discovers the salon through an Instagram transformation post or a friend's referral."
+          },
+          "stage2": {
+            "name": "Free consultation booking",
+            "description": "The prospect books a free consultation to discuss hair goals with a specific stylist."
+          },
+          "stage3": {
+            "name": "First service and rebooking",
+            "description": "The client completes their first service and rebooks their next appointment before leaving the chair."
+          }
+        },
+        "retention": {
+          "tactic1": "Rebooking the next appointment before every client leaves the chair."
+        },
+        "analytics": {
+          "metric1": "Client rebooking rate at checkout"
+        },
+        "aiMetadata": {
+          "generationHints": "Keep marketing copy grounded in real stylist work and named services, not generic spa marketing language."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Secure a storefront lease, complete buildout, and hire the first one to two stylists."
+          },
+          "deliverables": {
+            "0": "A signed storefront lease, completed buildout, and at least one additional stylist hired."
+          },
+          "checklist": {
+            "0": "Confirm at least one additional experienced stylist is committed before signing the storefront lease."
+          },
+          "commonMistakes": {
+            "0": "Signing a storefront lease before confirming at least one experienced stylist is ready to join, leaving fixed costs running with no chair revenue."
+          },
+          "successCriteria": {
+            "0": "The lease is signed, buildout is complete, and at least one additional stylist is confirmed and ready."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a stylist commission or booth-rent agreement template to review with a lawyer."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Book the first 15-20 appointments across the founding stylists to validate pricing and demand."
+          },
+          "deliverables": {
+            "0": "15-20 completed appointments with recorded pricing and client feedback."
+          },
+          "checklist": {
+            "0": "Set final service menu pricing before the soft opening rather than offering a temporary introductory discount."
+          },
+          "commonMistakes": {
+            "0": "Underpricing services during a soft opening and struggling to raise prices once regular clients are used to the lower rate."
+          },
+          "successCriteria": {
+            "0": "At least 60% of the first 15-20 clients book a follow-up appointment."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a simple client-intake form capturing hair history and preferences for every new client."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Complete the first month of appointments with every founding stylist's chair actively booked."
+          },
+          "deliverables": {
+            "0": "A full first month of appointments logged across every founding stylist."
+          },
+          "checklist": {
+            "0": "Train every stylist to rebook the client's next appointment before they leave the chair, starting with the very first clients."
+          },
+          "commonMistakes": {
+            "0": "Not building a rebooking habit from the very first appointments, leaving client return rates to chance."
+          },
+          "successCriteria": {
+            "0": "At least 70% of first-month clients have a rebooked follow-up appointment on the calendar."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze early booking data and flag which time slots and services are underbooked."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Launch the Instagram before/after content strategy and the client referral discount program."
+          },
+          "deliverables": {
+            "0": "An active Instagram content calendar and a live client referral discount program."
+          },
+          "checklist": {
+            "0": "Get explicit client permission and post real before/after transformation photos consistently, at least twice a week."
+          },
+          "commonMistakes": {
+            "0": "Posting generic salon marketing content instead of real, permission-approved before/after transformations from the salon's own clients."
+          },
+          "successCriteria": {
+            "0": "New client inquiries are coming in weekly directly from social content or referrals."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a content calendar and captions for the before/after transformation posts."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Convert the first satisfied client into a rebooked recurring client and a referral source."
+          },
+          "deliverables": {
+            "0": "At least one client who has rebooked twice and referred a new client."
+          },
+          "checklist": {
+            "0": "Personally follow up with the first cohort of clients after their visit to confirm satisfaction and encourage rebooking."
+          },
+          "commonMistakes": {
+            "0": "Focusing only on booking new clients while neglecting to nurture the first clients into recurring relationships."
+          },
+          "successCriteria": {
+            "0": "At least one new client is signed directly from an existing client's referral."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a friendly post-visit follow-up message template for stylists to personalize and send."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach a consistently full chair schedule across all founding stylists with a stable rebooking rate."
+          },
+          "deliverables": {
+            "0": "A documented, consistently full chair schedule across all founding stylists."
+          },
+          "checklist": {
+            "0": "Confirm every existing chair is consistently booked before recruiting an additional stylist."
+          },
+          "commonMistakes": {
+            "0": "Adding a new chair or stylist before existing chairs are consistently full, straining cash flow."
+          },
+          "successCriteria": {
+            "0": "Every founding stylist's chair is booked at least 80% of available appointment slots."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to model the revenue impact of adding a new chair before committing to the hire."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Launch the monthly blowout membership program to build predictable recurring revenue."
+          },
+          "deliverables": {
+            "0": "A live membership program with its first enrolled members."
+          },
+          "checklist": {
+            "0": "Price the membership so it's a genuine discount only at full usage, not cheaper than two à la carte visits."
+          },
+          "commonMistakes": {
+            "0": "Pricing the membership too low relative to the à la carte blowout price, cannibalizing higher-margin single visits."
+          },
+          "successCriteria": {
+            "0": "At least 15 clients enroll in the membership program within the first quarter of launch."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to model different membership price points against à la carte cannibalization risk."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Add a second and third chair, recruiting stylists who bring their own established client base."
+          },
+          "deliverables": {
+            "0": "Two additional chairs staffed with stylists building their own recurring client bases."
+          },
+          "checklist": {
+            "0": "Evaluate new stylist hires on both technical skill and demonstrated ability to build a recurring client base."
+          },
+          "commonMistakes": {
+            "0": "Hiring a stylist purely on technical skill without confirming they can build and retain their own client base."
+          },
+          "successCriteria": {
+            "0": "Each newly hired stylist reaches a consistently booked schedule within 6 months."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a structured interview scorecard evaluating both technical skill and client-building track record."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Expand retail product revenue or evaluate opening a second location once the first is consistently at full chair capacity."
+          },
+          "deliverables": {
+            "0": "An expanded retail product line or a validated second-location business case."
+          },
+          "checklist": {
+            "0": "Confirm the first location runs profitably without daily owner involvement before committing to a second location."
+          },
+          "commonMistakes": {
+            "0": "Opening a second location before the first has a stable, self-sustaining team and client base."
+          },
+          "successCriteria": {
+            "0": "The first location operates profitably for at least 3 consecutive months without the owner's daily presence."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze retail product sales data to identify the highest-margin expansion opportunities."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Document the client base, stylist agreements, and lease terms to package the salon for sale or stylist buyout."
+          },
+          "deliverables": {
+            "0": "A complete package of client records, stylist agreements, and lease documentation."
+          },
+          "checklist": {
+            "0": "Build systems and stylist-level client ownership so the salon's value doesn't rest entirely on the founder's own chair."
+          },
+          "commonMistakes": {
+            "0": "Letting the business's value stay too dependent on the founder's own personal client relationships."
+          },
+          "successCriteria": {
+            "0": "The salon continues operating profitably even during an extended owner absence."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help organize client, stylist, and lease records into a clean due-diligence package for a potential buyer."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep roadmap guidance concrete about chair scheduling, rebooking habits, and stylist recruitment — the real levers in this business."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Book: \"Millionaire Stylist\" by Kristi Waters",
+          "description": "A practical guide to building a stylist career and salon business around client retention and rebooking."
+        },
+        "item2": {
+          "title": "Course: State Cosmetology Licensing Program",
+          "description": "The required licensing pathway for practicing stylists in most jurisdictions."
+        },
+        "item3": {
+          "title": "Community: Behind the Chair",
+          "description": "An active online community of professional stylists sharing technique, business, and marketing advice."
+        },
+        "item4": {
+          "title": "Podcast: \"Salon Business Podcast\"",
+          "description": "Interviews with salon owners on growth, staffing, and client retention."
+        },
+        "item5": {
+          "title": "Newsletter: Modern Salon",
+          "description": "Industry news, technique trends, and business tips from a leading trade publication."
+        },
+        "item6": {
+          "title": "Software: Booksy",
+          "description": "Booking and scheduling software built for salons and individual stylists."
+        },
+        "item7": {
+          "title": "Software: Square",
+          "description": "Point-of-sale and payments software for service and retail transactions."
+        },
+        "item8": {
+          "title": "AI Tool: Canva content planner",
+          "description": "AI-assisted social content planning and captioning for before/after transformation posts."
+        },
+        "item9": {
+          "title": "Certification: State cosmetology license",
+          "description": "The required professional license for every practicing stylist in the salon."
+        },
+        "item10": {
+          "title": "Event: America's Beauty Show",
+          "description": "A major annual trade show for salon professionals, technique education, and product sourcing."
+        },
+        "item11": {
+          "title": "Expert: A local salon-business consultant",
+          "description": "Helps structure stylist compensation models and chair-scheduling systems for a new salon."
+        },
+        "item12": {
+          "title": "Checklist: New Client Consultation and Rebooking Checklist",
+          "description": "A documented process for the first-visit consultation and the rebooking conversation before the client leaves the chair."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritize resources on stylist retention, client rebooking, and craft technique — the real differentiators in this business."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Retail product sales from the same clients already in the chair are a high-margin revenue stream most new salons under-invest in."
+          },
+          "item2": {
+            "title": "Partnering with local wedding planners or event venues creates a steady stream of special-occasion bookings."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A star stylist leaving to open their own salon can take a large share of the client base with them almost overnight."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Hiring stylists purely on technical skill without evaluating their ability to build and retain a client base."
+          },
+          "item2": {
+            "title": "Underpricing services to compete with chain salons instead of competing on relationship and craft quality."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "A simple rebooking script at checkout converts far more follow-up appointments than hoping clients call back on their own."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Fill every existing chair to consistent capacity before adding a new one — an empty chair is pure fixed-cost drag."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Build the salon's brand around the team, not just the founder, so client relationships don't collapse if one stylist leaves."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Salons with a consistent rebooking habit at checkout show meaningfully lower client churn than those relying on clients to self-schedule."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Most client loss happens silently — a client who doesn't rebook rarely says why, they simply try a different salon next time."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Product waste and back-bar supply overuse are often underestimated until inventory is actually tracked per stylist."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Growing demand for membership-style beauty services signals client comfort with recurring, subscription-style personal care spending."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A newly opened salon reached full chair capacity within 9 months by prioritizing rebooking discipline over new-client acquisition spend."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A salon that hired quickly on technical skill alone saw high stylist turnover once several couldn't build a sustainable client base."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "A salon's success depends mainly on its location and decor.",
+            "fact": "Client retention and stylist relationship quality drive far more long-term revenue than location or interior design alone."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Confirm the service scope and price verbally at the consultation before beginning any color or chemical service."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep insights grounded in stylist retention, rebooking discipline, and craft quality — not generic small-business advice."
+        },
+        "faq": {
+          "q1": {
+            "question": "Do all stylists need their own license?",
+            "answer": "Yes — every stylist performing services must hold a valid cosmetology license in most jurisdictions, in addition to any business-level registration."
+          }
+        }
+      }
+    },
+    "dentalClinic": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"The Complete Practice Startup Guide\" by Adam Powers, CPA",
+          "course1": "Course: Practice Management Certificate (ADA CE)",
+          "community1": "Community: Dental Town online practice-owner forum",
+          "checklist1": "Checklist: New Patient Intake and Recall Scheduling Checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast revenue from new-patient volume and recall return rate — a stable recall base compounds predictably once the panel is established."
+        },
+        "breakEven": {
+          "notes": "Break-even typically arrives around month 18 given the very high upfront equipment and buildout investment."
+        },
+        "grossMargin": {
+          "notes": "Gross margin holds around 45% after dental supplies, lab fees, and clinical staff wages."
+        },
+        "netMargin": {
+          "notes": "Net margin settles around 18% once equipment financing, lease, and full staffing costs are accounted for."
+        },
+        "scenarios": {
+          "conservative": "A slow-growth scenario with a small patient panel and limited elective cosmetic uptake.",
+          "expected": "A realistic scenario with a stable recall-patient base and moderate elective cosmetic attach rate.",
+          "optimistic": "A strong scenario with a full patient panel and a second hygienist added to extend capacity."
+        },
+        "risks": {
+          "risk1": "Very high upfront capital investment in equipment and buildout creates significant financial exposure before the practice generates any revenue.",
+          "risk2": "Malpractice liability exposure requires robust professional insurance and rigorous clinical documentation practices."
+        },
+        "aiMetadata": {
+          "generationHints": "Model costs and margin as equipment- and staffing-dominated — the highest capital-intensity business in this library."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Modern dentistry that doesn't feel clinical — comprehensive preventive care with elective cosmetic options, in a comfortable, unhurried setting.",
+          "category": "General and family dentistry practice"
+        },
+        "brandPromise": "You'll leave feeling cared for, not processed.",
+        "uvp": {
+          "statement": "Comprehensive preventive dental care plus elective cosmetic services, delivered in a modern, unhurried setting.",
+          "diff1": "A genuinely unhurried patient experience, distinct from high-volume insurance-mill-style practices.",
+          "diff2": "Elective cosmetic services (whitening, veneers) available alongside routine care under one roof."
+        },
+        "icp": {
+          "description": "Adults aged 25-55 in the surrounding community who want reliable preventive dental care and are open to elective cosmetic add-ons once trust is established.",
+          "firmographics": "Working adults and families with dental insurance or ability to pay out-of-pocket for elective services, typically visiting twice yearly for routine care."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Routine-Care Family Patient",
+            "description": "A working adult or parent who wants a reliable practice for regular checkups and cleanings for the whole family."
+          },
+          "persona2": {
+            "name": "Elective Cosmetic Patient",
+            "description": "An established patient considering whitening or veneers for an upcoming event or simply to improve their smile, once trust in the practice is established."
+          }
+        },
+        "painPoints": {
+          "point1": "Anxiety around clinical, impersonal dental environments that feel rushed or transactional.",
+          "point2": "Uncertainty about true out-of-pocket costs for procedures beyond routine insurance-covered care."
+        },
+        "outcomes": {
+          "outcome1": "A comfortable, unhurried dental visit with a practice that remembers the patient's history.",
+          "outcome2": "Clear, upfront cost communication for both routine and elective cosmetic services."
+        },
+        "messaging": {
+          "core": "Modern dentistry that doesn't feel clinical.",
+          "support1": "Comprehensive care, clearly explained costs, and a team that knows your name."
+        },
+        "brandVoice": {
+          "tone": "Calm, reassuring, and professional",
+          "attr1": "Trustworthy",
+          "attr2": "Modern"
+        },
+        "contentPillars": {
+          "pillar1": "Preventive dental care education",
+          "pillar2": "Elective cosmetic service transformations"
+        },
+        "channelStrategy": "Prioritize insurance panel placement and physician/orthodontist referral relationships as the primary channel, supported by a strong local Google review presence, with cosmetic before/after social content as an experimental channel.",
+        "community": {
+          "description": "A loyal base of recall patients who return consistently and refer family members.",
+          "platform1": "Local Facebook community groups"
+        },
+        "leadMagnets": {
+          "magnet1": "New-patient exam, cleaning, and X-rays special offer"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Insurance panel or search discovery",
+            "description": "A prospective patient finds the practice through insurance panel listings or local search."
+          },
+          "stage2": {
+            "name": "New-patient exam booking",
+            "description": "The prospective patient books a new-patient exam, cleaning, and X-rays visit."
+          },
+          "stage3": {
+            "name": "Recall scheduling and elective follow-up",
+            "description": "The patient is scheduled for their 6-month recall and, once trust is established, offered elective cosmetic options."
+          }
+        },
+        "retention": {
+          "tactic1": "Automatically scheduling every patient's 6-month recall appointment at the end of their visit."
+        },
+        "analytics": {
+          "metric1": "Recall-visit return rate"
+        },
+        "aiMetadata": {
+          "generationHints": "Keep marketing copy calm and professional, grounded in real services and costs — never reference specific clinical outcomes or diagnostic claims."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Secure practice financing, complete facility buildout, and obtain dental board licensure, malpractice insurance, and equipment compliance certifications."
+          },
+          "deliverables": {
+            "0": "A fully built-out, licensed, and insured practice ready for patients."
+          },
+          "checklist": {
+            "0": "Get detailed, itemized quotes for every piece of major equipment before finalizing the practice financing amount."
+          },
+          "commonMistakes": {
+            "0": "Underestimating total equipment and buildout costs, leading to a financing shortfall mid-buildout."
+          },
+          "successCriteria": {
+            "0": "Financing, buildout, licensure, and insurance are all confirmed and in place."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help organize and compare itemized equipment quotes from multiple vendors."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Confirm insurance panel acceptance with at least 3-4 major dental insurance networks before opening."
+          },
+          "deliverables": {
+            "0": "Confirmed in-network status with at least 3-4 major dental insurance networks."
+          },
+          "checklist": {
+            "0": "Start insurance panel credentialing applications at least 4-6 months before the planned opening date."
+          },
+          "commonMistakes": {
+            "0": "Opening before insurance panel applications are approved, leaving early patients unable to use their coverage."
+          },
+          "successCriteria": {
+            "0": "At least 3-4 major insurance networks confirm in-network status before opening day."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to track credentialing application status and deadlines across multiple insurance networks."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Complete the first month of new-patient exams, cleanings, and basic restorative care."
+          },
+          "deliverables": {
+            "0": "A full first month of new-patient visits with recall appointments booked for each."
+          },
+          "checklist": {
+            "0": "Book every new patient's 6-month recall appointment automatically at the end of their first visit."
+          },
+          "commonMistakes": {
+            "0": "Not setting up recall scheduling from the very first patients, losing the chance to book their 6-month follow-up automatically."
+          },
+          "successCriteria": {
+            "0": "Every first-month patient has a recall appointment booked before leaving the practice."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted practice management reporting to confirm recall booking rates are on track."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Launch local SEO, Google review generation, and referral relationships with local physicians and orthodontists."
+          },
+          "deliverables": {
+            "0": "An active local SEO presence and at least 3 referral relationships with local providers."
+          },
+          "checklist": {
+            "0": "Actively request Google reviews from satisfied new patients starting from the very first month."
+          },
+          "commonMistakes": {
+            "0": "Relying solely on insurance panel placement for patient flow instead of also building local search visibility."
+          },
+          "successCriteria": {
+            "0": "New-patient inquiries are coming in weekly from local search or referrals."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft outreach messages to local physicians and orthodontists for referral relationships."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Convert the first satisfied new patient into a recall-scheduled recurring patient and a referral source."
+          },
+          "deliverables": {
+            "0": "At least one patient who has completed a recall visit and referred a new patient."
+          },
+          "checklist": {
+            "0": "Ask satisfied patients directly for referrals after their second successful visit."
+          },
+          "commonMistakes": {
+            "0": "Not asking established patients directly for referrals to friends and family."
+          },
+          "successCriteria": {
+            "0": "At least one new patient is booked directly from an existing patient's referral."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a friendly, professional referral-request message template for front-office staff to send."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach a stable, growing patient panel with a consistent recall-visit return rate."
+          },
+          "deliverables": {
+            "0": "A documented, stable patient panel with a tracked recall return rate."
+          },
+          "checklist": {
+            "0": "Confirm the founding dentist's own schedule is consistently full before adding clinical staff."
+          },
+          "commonMistakes": {
+            "0": "Adding a second dentist or hygienist before the existing schedule is consistently full."
+          },
+          "successCriteria": {
+            "0": "The founding dentist's schedule is consistently full with a stable recall return rate."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze which patient segments have the lowest recall return rate and why."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Grow elective cosmetic service revenue (whitening, veneers) as a share of total practice revenue."
+          },
+          "deliverables": {
+            "0": "A documented increase in elective cosmetic service revenue share."
+          },
+          "checklist": {
+            "0": "Introduce elective cosmetic recommendations only after at least one successful routine visit has built trust."
+          },
+          "commonMistakes": {
+            "0": "Presenting elective cosmetic options too early, before trust is established with a new patient."
+          },
+          "successCriteria": {
+            "0": "Elective cosmetic services reach a meaningful, growing share of total monthly revenue."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to identify which established patients haven't yet been offered elective cosmetic options."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Add a second hygienist or associate dentist to extend daily patient capacity."
+          },
+          "deliverables": {
+            "0": "A fully onboarded second hygienist or associate dentist with a defined compensation structure."
+          },
+          "checklist": {
+            "0": "Define a clear compensation and patient-assignment structure in writing before bringing on an associate dentist."
+          },
+          "commonMistakes": {
+            "0": "Hiring an associate dentist without a clear compensation and patient-assignment structure, causing friction."
+          },
+          "successCriteria": {
+            "0": "The new hire reaches a consistently booked schedule within 6 months."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to model different associate-dentist compensation structures against projected revenue."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Evaluate opening a second practice location once the first is consistently profitable and fully staffed."
+          },
+          "deliverables": {
+            "0": "A validated business case for a second practice location."
+          },
+          "checklist": {
+            "0": "Confirm the first practice operates profitably with an associate dentist covering the founder's absence before opening a second location."
+          },
+          "commonMistakes": {
+            "0": "Expanding to a second location before the first practice can run without the founding dentist's daily presence."
+          },
+          "successCriteria": {
+            "0": "The first practice runs profitably for at least 6 months without the founder's daily presence."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze local demographic and competitive data for potential second-location sites."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Document the patient panel, staff structure, and equipment records to package the practice for sale to another dentist or a dental group."
+          },
+          "deliverables": {
+            "0": "A complete due-diligence package of patient, staff, and equipment records."
+          },
+          "checklist": {
+            "0": "Maintain clean, complete patient and equipment records on an ongoing basis, not just before a sale."
+          },
+          "commonMistakes": {
+            "0": "Waiting until a sale opportunity appears to start documenting patient records and equipment maintenance history properly."
+          },
+          "successCriteria": {
+            "0": "A prospective buyer could complete due diligence entirely from existing documentation."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help organize scattered patient and equipment records into a structured due-diligence package."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep roadmap guidance concrete about licensing, insurance credentialing, and recall scheduling — the real levers in this business, and strictly business-planning, never clinical."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Book: \"The Complete Practice Startup Guide\" by Adam Powers, CPA",
+          "description": "A financial and operational guide to opening and running a dental practice as a business."
+        },
+        "item2": {
+          "title": "Course: Practice Management Certificate (ADA CE)",
+          "description": "A continuing-education certificate covering practice management, staffing, and compliance."
+        },
+        "item3": {
+          "title": "Community: Dental Town",
+          "description": "An active online forum of practice owners sharing business, staffing, and management advice."
+        },
+        "item4": {
+          "title": "Podcast: \"The Dental Marketer\"",
+          "description": "Interviews with practice owners on growth, marketing, and operations."
+        },
+        "item5": {
+          "title": "Newsletter: ADA News",
+          "description": "Industry news and practice management guidance from the American Dental Association."
+        },
+        "item6": {
+          "title": "Software: Dentrix",
+          "description": "Practice management software for scheduling, billing, and patient records."
+        },
+        "item7": {
+          "title": "Software: DEXIS",
+          "description": "Digital imaging and X-ray software for clinical documentation."
+        },
+        "item8": {
+          "title": "AI Tool: insurance claims assistant",
+          "description": "AI-assisted claims processing that flags likely denials before submission."
+        },
+        "item9": {
+          "title": "Certification: Dental board licensure",
+          "description": "The required professional license to practice dentistry and own a dental practice."
+        },
+        "item10": {
+          "title": "Event: American Dental Association (ADA) Annual Meeting",
+          "description": "The industry's major annual conference for continuing education and practice management."
+        },
+        "item11": {
+          "title": "Expert: A dental-practice financial consultant",
+          "description": "Helps structure equipment financing and practice valuation for a new or growing practice."
+        },
+        "item12": {
+          "title": "Checklist: New Patient Intake and Recall Scheduling Checklist",
+          "description": "A documented process for new-patient intake and automatic 6-month recall scheduling."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritize resources on practice management, insurance credentialing, and financial planning — the real differentiators in this business."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Elective cosmetic services offered to already-trusting recall patients convert far better than cold marketing to new patients."
+          },
+          "item2": {
+            "title": "An in-house membership plan captures uninsured patients who would otherwise go without regular care."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Equipment financing terms can significantly affect early cash flow — a slightly worse rate compounds over a very high loan principal."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Underestimating how long insurance panel credentialing actually takes, delaying the ability to see in-network patients."
+          },
+          "item2": {
+            "title": "Overinvesting in premium equipment before confirming a sustainable patient volume to support the payments."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Automatic recall scheduling at checkout captures far more repeat visits than relying on patients to call back on their own."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Confirm the founding dentist's own schedule is consistently full before adding any clinical staff — an underbooked associate is pure cost drag."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Start insurance credentialing applications months before opening — it is almost always the longest lead-time item in launch preparation."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Practices with a strong recall-scheduling discipline show meaningfully higher long-term patient retention than those relying on patient-initiated booking."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Many patients choose a dental practice primarily on insurance-network status, not marketing — panel placement matters more than most new owners expect."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Equipment maintenance and calibration costs are often underestimated relative to the upfront purchase price."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Growing patient interest in cosmetic dentistry alongside routine care signals room for elective-service revenue growth beyond pure insurance billing."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A newly opened practice reached break-even in under 18 months by prioritizing insurance panel credentialing before the opening date, not after."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A practice that opened before insurance credentialing was complete struggled with cash flow for months as early patients couldn't use their coverage."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Does this package include clinical or treatment guidance?",
+            "answer": "No — this package is business-planning content only, covering how to finance, staff, and grow a dental practice as a business. It does not include treatment protocols, diagnostic criteria, or any clinical guidance."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "A dental practice is guaranteed to succeed once it's licensed and open.",
+            "fact": "Licensing is only the entry requirement — insurance panel credentialing, recall discipline, and patient trust-building determine whether the practice actually reaches a sustainable patient volume."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Confirm patients' insurance coverage and estimated out-of-pocket cost before beginning any elective or restorative procedure."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep insights grounded in practice management, credentialing, and recall discipline — never clinical or diagnostic content."
+        }
+      }
+    },
+    "veterinaryClinic": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"Veterinary Practice Management\" by Charlotte Donnelly, DVM, MBA",
+          "course1": "Course: Veterinary Hospital Manager Certificate (VHMA)",
+          "community1": "Community: VIN (Veterinary Information Network) practice-owner forum",
+          "checklist1": "Checklist: New Patient Intake and Wellness Plan Enrollment Checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast revenue from new-patient volume and wellness-plan renewal rate — a stable subscriber base compounds predictably once enrollment is established."
+        },
+        "breakEven": {
+          "notes": "Break-even typically arrives around month 16 given the high upfront equipment and buildout investment, offset by early wellness-plan subscription revenue."
+        },
+        "grossMargin": {
+          "notes": "Gross margin holds around 48% after veterinary supplies, medications, and clinical staff wages."
+        },
+        "netMargin": {
+          "notes": "Net margin settles around 19% once equipment financing, lease, and full staffing costs are accounted for."
+        },
+        "scenarios": {
+          "conservative": "A slow-growth scenario with a small client panel and limited wellness-plan enrollment.",
+          "expected": "A realistic scenario with a stable wellness-plan subscriber base and moderate surgical/dental procedure volume.",
+          "optimistic": "A strong scenario with a full client panel and a second veterinary technician added to extend capacity."
+        },
+        "risks": {
+          "risk1": "Very high upfront capital investment in exam room, surgical suite, and diagnostic lab equipment creates significant financial exposure before the practice generates any revenue.",
+          "risk2": "Malpractice and controlled-substance compliance liability requires robust professional insurance and rigorous clinical documentation practices."
+        },
+        "aiMetadata": {
+          "generationHints": "Model costs and margin as equipment- and staffing-dominated, with the wellness-plan subscription smoothing monthly revenue variance."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "One vet who actually knows your pet — a dedicated relationship, not a rotating corporate chain, anchored by a recurring wellness-plan subscription.",
+          "category": "Small-animal general veterinary practice"
+        },
+        "brandPromise": "Your pet sees the same trusted vet, every single visit.",
+        "uvp": {
+          "statement": "A dedicated, unhurried relationship with one veterinarian, anchored by a wellness-plan subscription that keeps preventive care consistent.",
+          "diff1": "The same veterinarian at every visit, distinct from rotating-associate corporate chains.",
+          "diff2": "A monthly wellness-plan subscription that bundles preventive care into a predictable, affordable fee."
+        },
+        "icp": {
+          "description": "Pet owners in the surrounding community who treat their animals as family members and want a dedicated relationship with one veterinarian rather than whichever associate is on shift.",
+          "firmographics": "Dog and cat owners, typically homeowners or established renters, visiting for wellness exams, vaccinations, and occasional surgical or dental procedures."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Dedicated Pet-Family Owner",
+            "description": "A pet owner who wants consistent, unhurried care from the same veterinarian and values a long-term relationship over convenience alone."
+          },
+          "persona2": {
+            "name": "Wellness-Plan Subscriber",
+            "description": "An established client enrolled in the monthly wellness-plan subscription who books routine exams and vaccinations proactively rather than reactively."
+          }
+        },
+        "painPoints": {
+          "point1": "Inconsistent care and rushed visits at high-volume corporate veterinary chains with rotating associates.",
+          "point2": "Unpredictable, lumpy veterinary costs that make budgeting for a pet's care difficult."
+        },
+        "outcomes": {
+          "outcome1": "A consistent relationship with one veterinarian who knows the pet's full history.",
+          "outcome2": "Predictable monthly costs for routine preventive care through the wellness-plan subscription."
+        },
+        "messaging": {
+          "core": "One vet who actually knows your pet.",
+          "support1": "Dedicated care, predictable costs, and a team that remembers your pet's name."
+        },
+        "brandVoice": {
+          "tone": "Warm, compassionate, and professional",
+          "attr1": "Trustworthy",
+          "attr2": "Dedicated"
+        },
+        "contentPillars": {
+          "pillar1": "Preventive pet-wellness education",
+          "pillar2": "Wellness-plan subscriber stories"
+        },
+        "channelStrategy": "Prioritize local pet-community and shelter partnerships as the primary channel, supported by a strong local Google review presence, with pet-owner social media content as an experimental channel.",
+        "community": {
+          "description": "A loyal base of wellness-plan subscribers who return consistently and refer other pet owners.",
+          "platform1": "Local pet-owner Facebook and Nextdoor groups"
+        },
+        "leadMagnets": {
+          "magnet1": "New-patient wellness exam special offer with first-month wellness-plan discount"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Local partnership or search discovery",
+            "description": "A prospective client finds the practice through local pet-community partnerships or local search."
+          },
+          "stage2": {
+            "name": "New-patient wellness exam booking",
+            "description": "The prospective client books a new-patient wellness exam for their pet."
+          },
+          "stage3": {
+            "name": "Wellness-plan enrollment",
+            "description": "The client is enrolled in the monthly wellness-plan subscription at or shortly after the first visit."
+          }
+        },
+        "retention": {
+          "tactic1": "Proactively reaching out before each wellness-plan renewal and vaccination due date rather than waiting for the client to call."
+        },
+        "analytics": {
+          "metric1": "Wellness-plan subscriber renewal rate"
+        },
+        "aiMetadata": {
+          "generationHints": "Keep marketing copy warm and compassionate, grounded in real services and costs — never reference specific clinical outcomes or diagnostic claims."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Secure practice financing, complete facility buildout, and obtain veterinary licensure, controlled-substance registration, and malpractice insurance."
+          },
+          "deliverables": {
+            "0": "A fully built-out, licensed, and insured practice ready for patients."
+          },
+          "checklist": {
+            "0": "Get detailed, itemized quotes for exam room, surgical suite, and in-house diagnostic lab equipment before finalizing the practice financing amount."
+          },
+          "commonMistakes": {
+            "0": "Underestimating total equipment and buildout costs, leading to a financing shortfall mid-buildout."
+          },
+          "successCriteria": {
+            "0": "Financing, buildout, licensure, and insurance are all confirmed and in place."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help organize and compare itemized equipment quotes from multiple vendors."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Design and price the wellness-plan subscription tiers before opening to confirm they cover the underlying visit and vaccination costs."
+          },
+          "deliverables": {
+            "0": "A priced, validated wellness-plan subscription structure ready to offer at the first visit."
+          },
+          "checklist": {
+            "0": "Model the wellness-plan subscription price against the actual cost of the bundled exams and vaccinations before finalizing it."
+          },
+          "commonMistakes": {
+            "0": "Pricing the wellness-plan subscription too low to actually cover the bundled visit and vaccination costs."
+          },
+          "successCriteria": {
+            "0": "The wellness-plan subscription price is confirmed to cover its underlying costs with a sustainable margin."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to model different wellness-plan pricing and bundling scenarios against underlying visit costs."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Complete the first month of new-patient wellness exams and vaccinations."
+          },
+          "deliverables": {
+            "0": "A full first month of new-patient visits with wellness-plan enrollment offered at each."
+          },
+          "checklist": {
+            "0": "Offer wellness-plan enrollment to every new patient at the end of their first visit."
+          },
+          "commonMistakes": {
+            "0": "Not offering wellness-plan enrollment from the very first patients, losing the chance to build recurring subscription revenue early."
+          },
+          "successCriteria": {
+            "0": "Every first-month patient is offered wellness-plan enrollment before leaving the practice."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted practice management reporting to confirm wellness-plan enrollment rates are on track."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Launch local pet-community partnerships, Google review generation, and shelter outreach."
+          },
+          "deliverables": {
+            "0": "An active local pet-community partnership presence and at least 3 shelter or rescue relationships."
+          },
+          "checklist": {
+            "0": "Actively request Google reviews from satisfied new clients starting from the very first month."
+          },
+          "commonMistakes": {
+            "0": "Relying solely on walk-in traffic for patient flow instead of also building local pet-community partnerships."
+          },
+          "successCriteria": {
+            "0": "New-patient inquiries are coming in weekly from local partnerships or search."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft outreach messages to local shelters and pet-community organizations for partnership relationships."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Convert the first satisfied new client into a wellness-plan subscriber and a referral source."
+          },
+          "deliverables": {
+            "0": "At least one client enrolled in the wellness-plan subscription who has referred a new client."
+          },
+          "checklist": {
+            "0": "Ask satisfied clients directly for referrals after their second successful visit."
+          },
+          "commonMistakes": {
+            "0": "Not asking established clients directly for referrals to friends and family."
+          },
+          "successCriteria": {
+            "0": "At least one new patient is booked directly from an existing client's referral."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a warm, compassionate referral-request message template for front-desk staff to send."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach a stable, growing client panel with a consistent wellness-plan subscriber renewal rate."
+          },
+          "deliverables": {
+            "0": "A documented, stable client panel with a tracked wellness-plan renewal rate."
+          },
+          "checklist": {
+            "0": "Confirm the founding veterinarian's own schedule is consistently full before adding clinical staff."
+          },
+          "commonMistakes": {
+            "0": "Adding a second veterinarian or technician before the existing schedule is consistently full."
+          },
+          "successCriteria": {
+            "0": "The founding veterinarian's schedule is consistently full with a stable wellness-plan renewal rate."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze which client segments have the lowest wellness-plan renewal rate and why."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Grow surgical and dental procedure revenue as a share of total practice revenue."
+          },
+          "deliverables": {
+            "0": "A documented increase in surgical and dental procedure revenue share."
+          },
+          "checklist": {
+            "0": "Introduce surgical and dental procedure recommendations only after at least one successful wellness visit has built trust."
+          },
+          "commonMistakes": {
+            "0": "Presenting elective surgical or dental options too early, before trust is established with a new client."
+          },
+          "successCriteria": {
+            "0": "Surgical and dental procedures reach a meaningful, growing share of total monthly revenue."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to identify which established patients are due for surgical or dental procedures based on wellness-exam history."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Add a second veterinary technician or associate veterinarian to extend daily patient capacity."
+          },
+          "deliverables": {
+            "0": "A fully onboarded second veterinary technician or associate veterinarian with a defined compensation structure."
+          },
+          "checklist": {
+            "0": "Define a clear compensation and patient-assignment structure in writing before bringing on an associate veterinarian."
+          },
+          "commonMistakes": {
+            "0": "Hiring an associate veterinarian without a clear compensation and patient-assignment structure, causing friction."
+          },
+          "successCriteria": {
+            "0": "The new hire reaches a consistently booked schedule within 6 months."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to model different associate-veterinarian compensation structures against projected revenue."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Evaluate opening a second practice location once the first is consistently profitable and fully staffed."
+          },
+          "deliverables": {
+            "0": "A validated business case for a second practice location."
+          },
+          "checklist": {
+            "0": "Confirm the first practice operates profitably with an associate veterinarian covering the founder's absence before opening a second location."
+          },
+          "commonMistakes": {
+            "0": "Expanding to a second location before the first practice can run without the founding veterinarian's daily presence."
+          },
+          "successCriteria": {
+            "0": "The first practice runs profitably for at least 6 months without the founder's daily presence."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze local pet-ownership demographic and competitive data for potential second-location sites."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Document the client panel, wellness-plan subscriber base, staff structure, and equipment records to package the practice for sale to another veterinarian or a veterinary group."
+          },
+          "deliverables": {
+            "0": "A complete due-diligence package of client, staff, and equipment records."
+          },
+          "checklist": {
+            "0": "Maintain clean, complete client and equipment records on an ongoing basis, not just before a sale."
+          },
+          "commonMistakes": {
+            "0": "Waiting until a sale opportunity appears to start documenting client records and equipment maintenance history properly."
+          },
+          "successCriteria": {
+            "0": "A prospective buyer could complete due diligence entirely from existing documentation."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help organize scattered client and equipment records into a structured due-diligence package."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep roadmap guidance concrete about licensing, wellness-plan pricing, and enrollment discipline — the real levers in this business, and strictly business-planning, never clinical."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Book: \"Veterinary Practice Management\" by Charlotte Donnelly, DVM, MBA",
+          "description": "A financial and operational guide to opening and running a veterinary practice as a business."
+        },
+        "item2": {
+          "title": "Course: Veterinary Hospital Manager Certificate (VHMA)",
+          "description": "A continuing-education certificate covering practice management, staffing, and compliance."
+        },
+        "item3": {
+          "title": "Community: VIN (Veterinary Information Network)",
+          "description": "An active online forum of practice owners sharing business, staffing, and management advice."
+        },
+        "item4": {
+          "title": "Podcast: \"The Veterinary Growth Podcast\"",
+          "description": "Interviews with practice owners on growth, marketing, and operations."
+        },
+        "item5": {
+          "title": "Newsletter: AVMA News",
+          "description": "Industry news and practice management guidance from the American Veterinary Medical Association."
+        },
+        "item6": {
+          "title": "Software: ezyVet",
+          "description": "Practice management software for scheduling, billing, and patient records."
+        },
+        "item7": {
+          "title": "Software: IDEXX",
+          "description": "In-house diagnostic lab software and equipment for clinical documentation."
+        },
+        "item8": {
+          "title": "AI Tool: lab-result triage assistant",
+          "description": "AI-assisted lab result triage that flags priority cases for faster veterinarian review."
+        },
+        "item9": {
+          "title": "Certification: Veterinary licensure",
+          "description": "The required professional license to practice veterinary medicine and own a veterinary practice."
+        },
+        "item10": {
+          "title": "Event: American Veterinary Medical Association (AVMA) Annual Convention",
+          "description": "The industry's major annual conference for continuing education and practice management."
+        },
+        "item11": {
+          "title": "Expert: A veterinary-practice financial consultant",
+          "description": "Helps structure equipment financing and practice valuation for a new or growing practice."
+        },
+        "item12": {
+          "title": "Checklist: New Patient Intake and Wellness Plan Enrollment Checklist",
+          "description": "A documented process for new-patient intake and wellness-plan subscription enrollment."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritize resources on practice management, wellness-plan design, and financial planning — the real differentiators in this business."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Wellness-plan subscriptions offered to already-trusting clients at their first visit convert far better than a follow-up pitch at a later date."
+          },
+          "item2": {
+            "title": "In-house diagnostic lab capability captures same-day revenue that would otherwise be lost to an outside reference lab and a delayed follow-up visit."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Equipment financing terms can significantly affect early cash flow — a slightly worse rate compounds over a very high loan principal."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Pricing the wellness-plan subscription without modeling it against the actual cost of the bundled exams and vaccinations, eroding margin."
+          },
+          "item2": {
+            "title": "Overinvesting in premium equipment before confirming a sustainable patient volume to support the payments."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Offering wellness-plan enrollment at the very first visit captures far more subscribers than waiting for a follow-up conversation."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Confirm the founding veterinarian's own schedule is consistently full before adding any clinical staff — an underbooked associate is pure cost drag."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Model wellness-plan pricing against real visit costs before opening — an underpriced plan quietly erodes margin for years."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Practices with a strong wellness-plan enrollment discipline show meaningfully higher long-term client retention than those relying on per-visit billing alone."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Many pet owners choose a veterinary practice primarily on relationship continuity with one vet, not price — the rotating-associate model of corporate chains is a real, exploitable weakness."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "In-house diagnostic lab equipment maintenance and reagent costs are often underestimated relative to the upfront purchase price."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Growing pet-owner willingness to pay for predictable, subscription-based preventive care signals room for wellness-plan revenue growth beyond pure per-visit billing."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A newly opened practice reached break-even in under 16 months by enrolling most new clients in the wellness-plan subscription from their very first visit."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A practice that underpriced its wellness-plan subscription without modeling underlying costs found the plan was quietly losing money on every enrolled client."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Does this package include clinical or treatment guidance?",
+            "answer": "No — this package is business-planning content only, covering how to finance, staff, and grow a veterinary practice as a business. It does not include treatment protocols, diagnostic criteria, or any clinical guidance."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "A veterinary practice is guaranteed to succeed once it's licensed and open.",
+            "fact": "Licensing is only the entry requirement — wellness-plan enrollment discipline, client trust-building, and consistent care determine whether the practice actually reaches a sustainable patient volume."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Confirm the client's wellness-plan status and estimated out-of-pocket cost before beginning any elective surgical or dental procedure."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep insights grounded in practice management, wellness-plan design, and enrollment discipline — never clinical or diagnostic content."
+        }
+      }
+    },
+    "psychologyPractice": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"How to Build a Thriving Private Practice\" by various authors, Psychotherapy Networker Press",
+          "course1": "Course: Private Practice Essentials Certificate (continuing education)",
+          "community1": "Community: Private Practice Owners online forum",
+          "checklist1": "Checklist: New Client Intake and Consultation Call Checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast revenue from new-client intake calls and weekly session retention — a full recurring caseload compounds predictably once a steady referral flow is established."
+        },
+        "breakEven": {
+          "notes": "Break-even typically arrives around month 6 given the low upfront investment — the fastest path to break-even of the three licensed healthcare-adjacent businesses in this library."
+        },
+        "grossMargin": {
+          "notes": "Gross margin holds around 78% given minimal overhead and no required staff."
+        },
+        "netMargin": {
+          "notes": "Net margin settles around 55% once software, insurance, and office-space costs are accounted for — the highest margin among the licensed healthcare-adjacent businesses in this library."
+        },
+        "scenarios": {
+          "conservative": "A slow-growth scenario with a partial caseload and limited package-pricing uptake.",
+          "expected": "A realistic scenario with a stable weekly caseload and a moderate share of clients on the monthly package.",
+          "optimistic": "A strong scenario with a full caseload and a waitlist forming, prompting consideration of a rate increase."
+        },
+        "risks": {
+          "risk1": "Professional liability and confidentiality/compliance obligations require robust insurance and rigorous documentation practices.",
+          "risk2": "Income is directly capped by one practitioner's own caseload and hours, with no staff leverage to absorb a slow client-acquisition period."
+        },
+        "aiMetadata": {
+          "generationHints": "Model costs and margin as minimal-overhead and session-fee-driven — the lowest capital-intensity business among the licensed healthcare-adjacent practices in this library."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "A steady, private space to work through what's weighing on you — evening and early-morning sessions that fit around a full workday.",
+          "category": "Solo private-pay psychotherapy practice"
+        },
+        "brandPromise": "You'll always have the same steady, private space waiting for you.",
+        "uvp": {
+          "statement": "A consistent, private relationship with one therapist, with evening and early-morning sessions available via telehealth or in person.",
+          "diff1": "Scheduling flexibility outside standard daytime hours, distinct from practices offering only rigid daytime in-person slots.",
+          "diff2": "The same therapist at every session, distinct from large online therapy platforms with rotating therapist assignment."
+        },
+        "icp": {
+          "description": "Working professionals aged 25-45 in the surrounding community navigating anxiety, stress, and life transitions who want a consistent, private relationship with one therapist.",
+          "firmographics": "Employed professionals with a full-time schedule, typically seeking weekly or biweekly sessions outside standard daytime working hours."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Working Professional Managing Stress",
+            "description": "A full-time employed professional navigating work-related stress or anxiety who needs appointment times outside the standard workday."
+          },
+          "persona2": {
+            "name": "Client in Life Transition",
+            "description": "An established client working through a significant life transition who values a consistent, ongoing relationship with the same therapist."
+          }
+        },
+        "painPoints": {
+          "point1": "Difficulty finding a therapist with real availability outside standard daytime working hours.",
+          "point2": "Frustration with rotating-therapist assignment at large online therapy platforms that disrupts continuity of care."
+        },
+        "outcomes": {
+          "outcome1": "A consistent, private weekly session with the same therapist, scheduled around a full workday.",
+          "outcome2": "A steady, judgment-free space to work through ongoing challenges over time."
+        },
+        "messaging": {
+          "core": "A steady, private space to work through what's weighing on you.",
+          "support1": "The same therapist, every session, on a schedule that fits your workday."
+        },
+        "brandVoice": {
+          "tone": "Warm, professional, and grounded",
+          "attr1": "Trustworthy",
+          "attr2": "Consistent"
+        },
+        "contentPillars": {
+          "pillar1": "Managing stress and anxiety as a working professional",
+          "pillar2": "Navigating life transitions"
+        },
+        "channelStrategy": "Prioritize professional referral relationships with local psychiatrists and physicians as the primary channel, supported by an online therapist-directory listing, with Employee Assistance Program partnerships as an experimental channel.",
+        "community": {
+          "description": "A private base of ongoing weekly clients who value continuity and occasionally refer colleagues or friends.",
+          "platform1": "Online therapist-directory listing"
+        },
+        "leadMagnets": {
+          "magnet1": "Free 15-minute phone consultation to confirm client-therapist fit"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Referral or directory discovery",
+            "description": "A prospective client finds the practice through a professional referral or an online therapist-directory listing."
+          },
+          "stage2": {
+            "name": "Free consultation call",
+            "description": "The prospective client books a free 15-minute phone consultation to confirm fit."
+          },
+          "stage3": {
+            "name": "Recurring weekly session booking",
+            "description": "The client books a standing recurring weekly or biweekly session slot after the first paid session."
+          }
+        },
+        "retention": {
+          "tactic1": "Offering every client a standing recurring weekly time slot from their very first session."
+        },
+        "analytics": {
+          "metric1": "Weekly client-retention rate"
+        },
+        "aiMetadata": {
+          "generationHints": "Keep marketing copy warm and professional, grounded in real scheduling flexibility and fees — never reference specific clinical outcomes, diagnostic claims, or treatment efficacy."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Confirm state licensure, secure professional liability insurance, and set up HIPAA-compliant practice-management and telehealth software."
+          },
+          "deliverables": {
+            "0": "A fully licensed, insured practice with compliant software ready for clients."
+          },
+          "checklist": {
+            "0": "Confirm practice-management software meets confidentiality and compliance requirements before finalizing the subscription."
+          },
+          "commonMistakes": {
+            "0": "Choosing practice-management software before confirming it meets confidentiality and compliance requirements in the practice's jurisdiction."
+          },
+          "successCriteria": {
+            "0": "Licensure, insurance, and compliant software are all confirmed and in place."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help compare practice-management software options against compliance requirements."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Confirm the private-pay/out-of-network pricing structure covers target monthly income through free intake consultation calls with prospective clients."
+          },
+          "deliverables": {
+            "0": "A validated session-pricing structure confirmed through at least 10 intake consultation calls."
+          },
+          "checklist": {
+            "0": "Confirm what comparable local private-pay therapists charge for the same specialty niche before finalizing session pricing."
+          },
+          "commonMistakes": {
+            "0": "Pricing sessions without first confirming what comparable local private-pay therapists charge for the same specialty niche."
+          },
+          "successCriteria": {
+            "0": "Session pricing is confirmed to match demand and fit for the target niche."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to research typical private-pay session pricing for the target specialty niche and geography."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Complete the first month of intake consultation calls and initial paid sessions."
+          },
+          "deliverables": {
+            "0": "A full first month of client sessions with a standing recurring slot offered to each."
+          },
+          "checklist": {
+            "0": "Offer every new client a standing recurring weekly time slot from their very first session."
+          },
+          "commonMistakes": {
+            "0": "Not setting a recurring weekly time slot with the first clients, making consistent ongoing scheduling harder to establish."
+          },
+          "successCriteria": {
+            "0": "Every first-month client has a standing recurring session slot."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted scheduling reports to confirm recurring-slot adoption is on track."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Launch professional referral relationships with local psychiatrists and physicians, and an online therapist-directory listing."
+          },
+          "deliverables": {
+            "0": "An active therapist-directory listing and at least 5-10 professional referral relationships."
+          },
+          "checklist": {
+            "0": "Reach out directly to 5-10 local psychiatrists or physicians to introduce the practice and its specialty niche."
+          },
+          "commonMistakes": {
+            "0": "Relying solely on directory listings for client flow instead of also building direct professional referral relationships."
+          },
+          "successCriteria": {
+            "0": "New-client inquiries are coming in weekly from referrals or the directory listing."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft outreach messages to local psychiatrists and physicians for referral relationships."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Convert the first satisfied client into an ongoing weekly client and a referral source."
+          },
+          "deliverables": {
+            "0": "At least one ongoing weekly client who has referred a new client."
+          },
+          "checklist": {
+            "0": "Mention the practice is accepting new clients to satisfied ongoing clients once trust is well established."
+          },
+          "commonMistakes": {
+            "0": "Not asking established clients directly whether they know anyone else who might benefit from the practice."
+          },
+          "successCriteria": {
+            "0": "At least one new client is booked directly from an existing client's referral."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a warm, professional way to mention new-client availability to existing clients."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach a stable, full weekly caseload with a consistent client-retention rate."
+          },
+          "deliverables": {
+            "0": "A documented, stable weekly caseload with a tracked client-retention rate."
+          },
+          "checklist": {
+            "0": "Set a firm weekly caseload cap before reaching it, and start a waitlist once that cap is hit."
+          },
+          "commonMistakes": {
+            "0": "Accepting new clients past a sustainable caseload limit, risking burnout and lower-quality care."
+          },
+          "successCriteria": {
+            "0": "A firm weekly caseload cap is set and consistently maintained."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze which referral sources produce the most consistent long-term client retention."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Build a consistent client waitlist and evaluate a session-rate increase."
+          },
+          "deliverables": {
+            "0": "A documented, consistent client waitlist and an evaluated rate-increase plan."
+          },
+          "checklist": {
+            "0": "Give existing clients at least 60 days' written notice before any session-rate increase takes effect."
+          },
+          "commonMistakes": {
+            "0": "Raising session rates without communicating the change clearly and with reasonable notice to existing clients."
+          },
+          "successCriteria": {
+            "0": "A rate increase is implemented with at least 60 days' client notice and minimal client attrition."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to model the revenue impact of different session-rate increase scenarios."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Bring on a second associate clinician to extend capacity once a consistent waitlist has formed."
+          },
+          "deliverables": {
+            "0": "A fully onboarded second associate clinician with a defined compensation and referral-routing structure."
+          },
+          "checklist": {
+            "0": "Define a clear compensation and client-referral-routing structure in writing before bringing on an associate clinician."
+          },
+          "commonMistakes": {
+            "0": "Bringing on an associate clinician without a clear compensation and referral-routing structure, causing friction."
+          },
+          "successCriteria": {
+            "0": "The new associate clinician reaches a consistently booked schedule within 6 months."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to model different associate-clinician compensation structures against projected revenue."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Evaluate evolving into a small group practice with multiple clinicians under one shared practice-management and billing system."
+          },
+          "deliverables": {
+            "0": "A validated business case for a small group practice structure."
+          },
+          "checklist": {
+            "0": "Confirm the first associate clinician relationship has run profitably and smoothly for at least 6 months before adding a third clinician."
+          },
+          "commonMistakes": {
+            "0": "Expanding to a group practice structure before the first associate clinician relationship has proven stable and sustainable."
+          },
+          "successCriteria": {
+            "0": "The first associate clinician relationship runs profitably for at least 6 months."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze local demographic and referral-network data for group-practice expansion potential."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Document referral relationships, practice systems, and (in a fully compliant, confidential manner) the client base to prepare the practice for transition to another licensed clinician or group practice."
+          },
+          "deliverables": {
+            "0": "A complete, fully compliant documentation package of referral relationships and practice systems."
+          },
+          "checklist": {
+            "0": "Maintain clean, complete, and fully compliant documentation of referral relationships and practice systems on an ongoing basis, not just before a transition."
+          },
+          "commonMistakes": {
+            "0": "Waiting until a transition is imminent to start documenting referral relationships and practice systems properly."
+          },
+          "successCriteria": {
+            "0": "A prospective successor could complete a transition entirely from existing, compliant documentation."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help organize scattered referral-relationship and practice-system documentation into a structured transition package."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep roadmap guidance concrete about licensing, caseload discipline, and referral relationships — the real levers in this business, and strictly business-planning, never clinical."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Book: \"How to Build a Thriving Private Practice\"",
+          "description": "A financial and operational guide to opening and running a solo psychotherapy practice as a business."
+        },
+        "item2": {
+          "title": "Course: Private Practice Essentials Certificate",
+          "description": "A continuing-education certificate covering practice management, licensing, and compliance for private practice."
+        },
+        "item3": {
+          "title": "Community: Private Practice Owners",
+          "description": "An active online forum of practice owners sharing business, referral, and management advice."
+        },
+        "item4": {
+          "title": "Podcast: \"The Testing Psychologist Podcast\"",
+          "description": "Interviews with practice owners on growth, referrals, and operations."
+        },
+        "item5": {
+          "title": "Newsletter: Private Practice Toolbox",
+          "description": "Industry news and practice management guidance for solo and group therapy practices."
+        },
+        "item6": {
+          "title": "Software: SimplePractice",
+          "description": "Practice management software for scheduling, billing, secure telehealth, and clinical documentation."
+        },
+        "item7": {
+          "title": "Software: Alma",
+          "description": "An insurance-credentialing and client-matching network for private-pay therapists."
+        },
+        "item8": {
+          "title": "AI Tool: session-note template assistant",
+          "description": "AI-assisted session-note templates that speed up administrative documentation between sessions."
+        },
+        "item9": {
+          "title": "Certification: State licensure",
+          "description": "The required professional license to practice psychotherapy and own a private practice."
+        },
+        "item10": {
+          "title": "Event: Regional private-practice business conference",
+          "description": "An annual conference focused specifically on the business side of running a private therapy practice."
+        },
+        "item11": {
+          "title": "Expert: A private-practice financial or business consultant",
+          "description": "Helps structure pricing, taxes, and growth planning for a new or growing solo practice."
+        },
+        "item12": {
+          "title": "Checklist: New Client Intake and Consultation Call Checklist",
+          "description": "A documented process for free intake consultation calls and new-client onboarding."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritize resources on practice management, referral-building, and financial planning for solo practitioners — the real differentiators in this business."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Offering a standing recurring weekly slot at the very first session converts far more clients into stable, long-term clients than leaving scheduling open-ended."
+          },
+          "item2": {
+            "title": "A small number of deep professional referral relationships with local psychiatrists or physicians often outperforms broad directory-listing marketing."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A single practitioner's income has no staff leverage to absorb a slow client-acquisition period, unlike a staffed practice."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Underpricing sessions relative to comparable local private-pay therapists, making it harder to sustain the practice long-term."
+          },
+          "item2": {
+            "title": "Accepting new clients past a sustainable weekly caseload limit, risking burnout and lower-quality care."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "A free 15-minute consultation call before the first paid session improves client-therapist fit and reduces early client attrition."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Confirm a consistent waitlist has formed before bringing on a second associate clinician — an underbooked associate is pure cost drag in a small practice."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Set a firm weekly caseload cap before opening, not after — it is the single clearest lever for preventing burnout in a solo practice."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Practices with a standing recurring-slot policy from the first session show meaningfully higher long-term client retention than those relying on session-by-session rebooking."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Many clients choose a therapist primarily on schedule fit and specialty match, not price — evening and early-morning availability is a genuinely underserved niche."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Continuing-education and clinical-consultation costs required to maintain licensure are often underestimated relative to session-fee revenue."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Growing demand for flexible, working-professional-friendly therapy scheduling signals room for growth beyond standard daytime-hours practices."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A newly opened practice reached break-even in under 6 months by offering standing recurring weekly slots from each client's very first session."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A practice that left scheduling open-ended instead of offering standing recurring slots struggled with inconsistent income from unpredictable rebooking."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Does this package include clinical or treatment guidance?",
+            "answer": "No — this package is business-planning content only, covering how to license, price, schedule, and grow a psychotherapy practice as a business. It does not include treatment modalities, diagnostic criteria, intervention techniques, or any clinical guidance."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "A solo therapy practice is guaranteed to succeed once the therapist is licensed and open.",
+            "fact": "Licensing is only the entry requirement — referral-relationship building, caseload discipline, and consistent scheduling determine whether the practice actually reaches a sustainable client volume."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Offer a free 15-minute consultation call before every first paid session to confirm client-therapist fit and set expectations."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep insights grounded in practice management, referral-building, and caseload discipline — never clinical or diagnostic content."
+        }
+      }
     }
   }
 }

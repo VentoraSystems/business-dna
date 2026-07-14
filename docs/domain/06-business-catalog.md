@@ -168,14 +168,14 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 | `coaching` | 1 | 1 |
 | `architecture` | 1 | 1 |
 | `real-estate` | 1 | 1 |
-| `cleaning-services` | 1 | 0 |
-| `beauty-wellness` | 1 | 0 |
-| `dental-clinics` | 1 | 0 |
-| `veterinary-clinics` | 1 | 0 |
-| `psychology-practices` | 1 | 0 |
+| `cleaning-services` | 1 | 1 |
+| `beauty-wellness` | 1 | 1 |
+| `dental-clinics` | 1 | 1 |
+| `veterinary-clinics` | 1 | 1 |
+| `psychology-practices` | 1 | 1 |
 | `coffee-shops` | 1 | 0 |
 | `restaurants` | 1 | 0 |
-| **Total** | **147** | **22** |
+| **Total** | **147** | **27** |
 
 ---
 
@@ -469,41 +469,78 @@ data-analytics-consultancy}/` for the full packages.*
 
 *New category added 2026-07-10. Distinct from `local-service-marketplaces`' "House Cleaning Services Marketplace" — this is a single operating company (`service`), not a marketplace aggregating independent providers.*
 
+*Knowledge Authoring Batch 4 (2026-07-14) authored this category's
+flagship P1 candidate — Cleaning Company — the first business authored
+under this category. See `business-library/technology/cleaning-company/`
+for the full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| cleaning-services | Cleaning Company | cleaning-company | homeServices | service | P1 | moderate | Low | Yes | low | No | |
+| cleaning-services | Cleaning Company | cleaning-company | homeServices | service | P1 | moderate | Low | Yes | low | No | ✅ |
 
 ## `beauty-wellness`
 
 *New category added 2026-07-10.*
 
+*Knowledge Authoring Batch 4 (2026-07-14) authored this category's
+flagship P1 candidate — Beauty Salon — the first business authored under
+this category. `health` is a deliberately acknowledged loose IndustryType
+fit for this business, per the earlier Industry Mapping Report
+reconciliation. See `business-library/technology/beauty-salon/` for the
+full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| beauty-wellness | Beauty Salon | beauty-salon | health | service | P1 | moderate | Medium | No | low | No | |
+| beauty-wellness | Beauty Salon | beauty-salon | health | service | P1 | moderate | Medium | No | low | No | ✅ |
 
 ## `dental-clinics`
 
 *New category added 2026-07-10. Regulated/licensed clinical practice — apply the same educational-framing discipline established for the Professional Services batch (law-firm, accounting-firm, etc.) at authoring time; nothing here implies unlicensed practice.*
 
+*Knowledge Authoring Batch 4 (2026-07-14) authored this category's
+flagship P1 candidate — Dental Clinic — the first business authored
+under this category. Business-planning content only, with no clinical
+treatment protocols or diagnostic guidance anywhere in the package. See
+`business-library/technology/dental-clinic/` for the full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| dental-clinics | Dental Clinic | dental-clinic | health | service | P1 | high | Very High | No | low | Yes | |
+| dental-clinics | Dental Clinic | dental-clinic | health | service | P1 | high | Very High | No | low | Yes | ✅ |
 
 ## `veterinary-clinics`
 
 *New category added 2026-07-10. Regulated/licensed clinical practice — same educational-framing discipline as `dental-clinics` applies at authoring time.*
 
+*Knowledge Authoring Batch 4 (2026-07-14) authored this category's
+flagship P1 candidate — Veterinary Clinic — the first business authored
+under this category. Business-planning content only, with no clinical
+treatment protocols or diagnostic guidance anywhere in the package;
+differentiated from `dental-clinics` by a recurring wellness-plan
+subscription and animal (not human) patients. See
+`business-library/technology/veterinary-clinic/` for the full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| veterinary-clinics | Veterinary Clinic | veterinary-clinic | health | service | P1 | high | Very High | No | low | Yes | |
+| veterinary-clinics | Veterinary Clinic | veterinary-clinic | health | service | P1 | high | Very High | No | low | Yes | ✅ |
 
 ## `psychology-practices`
 
 *New category added 2026-07-10. Regulated/licensed clinical practice — same educational-framing discipline as `dental-clinics` applies at authoring time.*
 
+*Knowledge Authoring Batch 4 (2026-07-14) authored this category's
+flagship P1 candidate — Psychology Practice — the first business authored
+under this category. Business-planning content only, with no clinical
+treatment modalities, diagnostic criteria, or intervention techniques
+anywhere in the package, and no clinical claims beyond what a real
+practice would state in its own marketing; the only one of the three
+Batch 4 licensed healthcare-adjacent businesses that is genuinely
+solo-founder-friendly and low-budget. See
+`business-library/technology/psychology-practice/` for the full
+package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| psychology-practices | Psychology Practice | psychology-practice | health | service | P1 | moderate | Low | Yes | low | No | |
+| psychology-practices | Psychology Practice | psychology-practice | health | service | P1 | moderate | Low | Yes | low | No | ✅ |
 
 ## `coffee-shops`
 

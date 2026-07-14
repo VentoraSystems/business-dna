@@ -13,6 +13,7 @@
     "test:watch": "vitest",
     "validate:business-library": "tsx business-library/validate.ts",
     "validate:business-library-packages": "tsx business-library/validate-packages.ts",
+    "validate:business-library-translations": "tsx scripts/validate-business-library-translations.ts",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
     "db:seed": "tsx prisma/seed.ts",

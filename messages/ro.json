@@ -10745,6 +10745,2306 @@
           "generationHints": "Subliniază că cel mai mare risc în această afacere este volatilitatea venitului și expunerea la ciclurile pieței, nu abilitatea de vânzare în sine."
         }
       }
+    },
+    "cleaningCompany": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: „The E-Myth Contractor” de Michael E. Gerber",
+          "course1": "Curs: Certificarea ISSA Cleaning Management Institute (CMI)",
+          "community1": "Comunitate: r/CleaningBusinessOwners și Camera de Comerț locală",
+          "checklist1": "Listă de verificare: Lista standardizată de curățenie, cameră cu cameră"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognozează veniturile urmărind clienții recurenți adăugați lunar față de rata lunară de pierdere a clienților — baza recurentă crește constant odată ce pierderea rămâne scăzută."
+        },
+        "breakEven": {
+          "notes": "Pragul de rentabilitate apare de obicei în jurul lunii 4, odată ce programul propriu de curățenie al proprietarului este complet ocupat cu clienți recurenți."
+        },
+        "grossMargin": {
+          "notes": "Marja brută se menține în jur de 55% înainte ca salariile tehnicienilor angajați să crească — consumabilele și combustibilul reprezintă o pondere mică din costul pe vizită."
+        },
+        "netMargin": {
+          "notes": "Marja netă se stabilizează în jur de 28%, odată ce costurile de salarizare, asigurare și marketing sunt luate complet în calcul."
+        },
+        "scenarios": {
+          "conservative": "Un scenariu de creștere lentă, doar cu proprietarul, umplând aproximativ jumătate dintr-un program recurent complet.",
+          "expected": "Un scenariu realist, cu programul proprietarului complet și o echipă angajată gestionând volumul suplimentar.",
+          "optimistic": "Un scenariu puternic, cu două echipe angajate care rulează trasee recurente complete în două cartiere."
+        },
+        "risks": {
+          "risk1": "Absențele sau fluctuația personalului de curățenie afectează direct încrederea clienților recurenți, care așteaptă aceeași echipă fiabilă la fiecare vizită.",
+          "risk2": "Creșterea salariului minim sau a tarifelor orare pentru tehnicienii de curățenie poate comprima marja mai rapid decât pot fi majorate prețurile."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează costurile și marja ca fiind dominate de forța de muncă, nu de consumabile — salariile sunt adevărata pârghie a profitabilității."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Aceeași echipă de încredere, la fiecare vizită — nu un străin diferit dintr-o aplicație.",
+          "category": "Curățenie recurentă rezidențială la domiciliu"
+        },
+        "brandPromise": "Vei ști întotdeauna exact cine îți curăță locuința, iar echipa va cunoaște întotdeauna locuința ta.",
+        "uvp": {
+          "statement": "Echipe de curățenie constante, verificate, alocate locuinței tale pe termen lung — nu un străin diferit la fiecare vizită.",
+          "diff1": "Continuitatea echipei, pe care aplicațiile de tip piață pentru curățenie nu o pot oferi structural.",
+          "diff2": "O listă de verificare standardizată, cameră cu cameră, care menține o calitate constantă la fiecare vizită."
+        },
+        "icp": {
+          "description": "Gospodării cu venit dublu, cu vârste între 30-55 ani, din cartiere suburbane cu venituri mai ridicate, care doresc curățenie recurentă fiabilă, fără să gestioneze o distribuție rotativă de curățători necunoscuți.",
+          "firmographics": "Proprietari de locuințe cu 2-4+ dormitoare, venit al gospodăriei care susține un buget de servicii recurente, timp liber limitat pentru treburile casnice."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Gospodărie ocupată cu venit dublu",
+            "description": "Doi profesioniști activi cu copii mici, care au nevoie de curățenie bilunară fiabilă și nu au timp să verifice sau să gestioneze singuri curățătorii."
+          },
+          "persona2": {
+            "name": "Proprietar la pensionare, cu locuință redusă",
+            "description": "Un proprietar mai în vârstă, care dorește ajutor constant pentru curățenie ușoară, dar prețuiește o față familiară și de încredere, mai mult decât cea mai ieftină opțiune disponibilă."
+          }
+        },
+        "painPoints": {
+          "point1": "Un curățător diferit și neverificat vine de fiecare dată prin piețele bazate pe aplicații, fără nicio consistență a calității.",
+          "point2": "Nesiguranță legată de încredere, atunci când oferă unui străin acces în locuință, în absența lor."
+        },
+        "outcomes": {
+          "outcome1": "O locuință curată în mod constant, după un program previzibil, fără a fi nevoie să gestioneze sau să verifice personal curățătorii.",
+          "outcome2": "Liniște sufletească datorită unei echipe garantate, verificate și familiare, care gestionează accesul la domiciliu."
+        },
+        "messaging": {
+          "core": "Aceeași echipă de încredere, la fiecare vizită.",
+          "support1": "Garantată, cu antecedente verificate și instruită pe o listă de verificare standardizată — astfel încât calitatea să nu depindă niciodată de cine se prezintă."
+        },
+        "brandVoice": {
+          "tone": "Practic, cald și axat pe fiabilitate",
+          "attr1": "De încredere",
+          "attr2": "Constant"
+        },
+        "contentPillars": {
+          "pillar1": "Sfaturi și standarde de curățenie a locuinței",
+          "pillar2": "Culise ale fiabilității și instruirii echipei"
+        },
+        "channelStrategy": "Saturează un cartier țintă pe rând cu fluturași de ușă și reduceri pentru recomandări, susținute de un profil Google Business puternic, cu grupurile locale de Facebook ca un plus experimental.",
+        "community": {
+          "description": "O rețea informală de clienți recurenți pe termen lung, care recomandă direct vecinii.",
+          "platform1": "Grupuri de cartier pe Facebook"
+        },
+        "leadMagnets": {
+          "magnet1": "Evaluare gratuită la domiciliu, fără obligații"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Fluturaș de ușă sau recomandare",
+            "description": "Un potențial client primește un fluturaș de ușă sau o recomandare de la un vecin."
+          },
+          "stage2": {
+            "name": "Evaluare gratuită la domiciliu",
+            "description": "O evaluare gratuită la domiciliu stabilește prețul recurent, pe baza dimensiunii și stării locuinței."
+          },
+          "stage3": {
+            "name": "Contract recurent semnat",
+            "description": "Potențialul client semnează pentru un program recurent bilunar sau săptămânal."
+          }
+        },
+        "retention": {
+          "tactic1": "Alocarea constantă a aceleiași echipe de 2 persoane aceluiași client, la fiecare vizită."
+        },
+        "analytics": {
+          "metric1": "Rata de retenție a clienților recurenți, lună de lună"
+        },
+        "aiMetadata": {
+          "generationHints": "Menține textul de marketing concret despre programare și continuitatea echipei, nu o umplutură generică de tipul „strălucitor de curat”."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Configurează asigurarea de garanție și răspundere civilă, procură consumabile de nivel comercial și configurează software-ul de programare/facturare."
+          },
+          "deliverables": {
+            "0": "O poliță activă de asigurare de garanție și răspundere civilă și un sistem configurat de programare/facturare."
+          },
+          "checklist": {
+            "0": "Confirmă că asigurarea de garanție și răspundere civilă este activă, înainte de prima vizită plătită."
+          },
+          "commonMistakes": {
+            "0": "Renunțarea la asigurarea de garanție și răspundere civilă pentru a economisi bani, fără protecție dacă ceva este deteriorat sau dispare din locuința unui client."
+          },
+          "successCriteria": {
+            "0": "Asigurarea, consumabilele și software-ul de programare sunt toate active și pregătite pentru primul client."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta un șablon standardizat de listă de verificare de curățenie, cameră cu cameră, de rafinat în timpul primelor vizite."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Programează 5-8 evaluări gratuite la domiciliu, într-un singur cartier țintă, pentru a valida prețul și cererea."
+          },
+          "deliverables": {
+            "0": "5-8 evaluări la domiciliu finalizate, cu prețuri și rezultate de conversie înregistrate."
+          },
+          "checklist": {
+            "0": "Stabilește prețul recurent real încă de la prima evaluare, nu o reducere introductivă."
+          },
+          "commonMistakes": {
+            "0": "Prețuri prea mici pentru primii clienți, din nesiguranță, ceea ce face dificilă creșterea ulterioară a prețurilor fără a-i pierde."
+          },
+          "successCriteria": {
+            "0": "Cel puțin 3 din cele 5-8 evaluări se transformă în contracte recurente semnate."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta un șablon clar și simplu de contract de servicii recurente, care să acopere domeniul, prețul și termenii de anulare."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Finalizează prima lună de vizite recurente pentru primii 3-5 clienți semnați, personal."
+          },
+          "deliverables": {
+            "0": "O listă de verificare standardizată de curățenie, cameră cu cameră, documentată și rafinată din vizitele primei luni."
+          },
+          "checklist": {
+            "0": "Scrie o listă de verificare standardizată de curățenie, cameră cu cameră, în prima lună, chiar și în timp ce lucrezi singur."
+          },
+          "commonMistakes": {
+            "0": "Nedocumentarea unei liste de verificare standardizate de la început, ceea ce duce la o calitate inconsistentă odată ce se adaugă un al doilea curățător mai târziu."
+          },
+          "successCriteria": {
+            "0": "Toți primii 3-5 clienți confirmă satisfacția și rămân pe programul lor recurent după prima lună."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a transforma notițele de teren din primele vizite într-un document de listă de verificare finisat, printabil."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Începe campania de fluturași de ușă și reduceri pentru recomandări, în cartierul țintă, pentru a completa programul de clienți recurenți."
+          },
+          "deliverables": {
+            "0": "O distribuție finalizată de fluturași de ușă în întregul cartier țintă."
+          },
+          "checklist": {
+            "0": "Saturează un singur cartier țintă cu fluturași de ușă, înainte de a te extinde la un al doilea."
+          },
+          "commonMistakes": {
+            "0": "Distribuirea fluturașilor de ușă în prea multe cartiere simultan, în loc să saturezi mai întâi unul singur."
+          },
+          "successCriteria": {
+            "0": "Solicitări noi de evaluare vin săptămânal din cartierul țintă."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta mai multe variante de text pentru fluturași de ușă și recomandări, pentru a testa care convertesc cel mai bine."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Solicită direct primului client recurent mulțumit o recomandare și o recenzie Google."
+          },
+          "deliverables": {
+            "0": "Cel puțin o recenzie Google publicată și un lead de recomandare de la un client existent."
+          },
+          "checklist": {
+            "0": "Solicită direct fiecărui client o recomandare, după a treia vizită reușită, cu un stimulent concret sub formă de reducere."
+          },
+          "commonMistakes": {
+            "0": "Așteptarea pasivă a recomandărilor, în loc să soliciți direct clienților mulțumiți, după câteva vizite reușite."
+          },
+          "successCriteria": {
+            "0": "Cel puțin un client nou este semnat direct din recomandarea unui client existent."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta un mesaj prietenos, nu insistent, de solicitare a unei recomandări, de trimis după a treia vizită a fiecărui client."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge un program personal de curățenie complet ocupat, cu o listă de așteptare pentru noi clienți recurenți."
+          },
+          "deliverables": {
+            "0": "O listă de așteptare documentată de cel puțin 3 clienți potențiali, pregătiți pentru capacitatea următoarei angajări."
+          },
+          "checklist": {
+            "0": "Începe recrutarea primului angajat de îndată ce se formează o listă de așteptare reală de 3+ clienți potențiali."
+          },
+          "commonMistakes": {
+            "0": "Continuarea preluării personale a clienților peste capacitate, în loc să începi angajarea odată ce se formează o listă de așteptare."
+          },
+          "successCriteria": {
+            "0": "Programul proprietarului este complet ocupat și există o listă de așteptare documentată."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta un anunț de angajare structurat și o grilă de evaluare a interviului, pentru primul angajat tehnician de curățenie."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Angajează, verifică antecedentele și instruiește prima echipă de curățenie pe lista de verificare standardizată."
+          },
+          "deliverables": {
+            "0": "Primul angajat complet instruit, gestionând independent propriul traseu de clienți recurenți."
+          },
+          "checklist": {
+            "0": "Efectuează o verificare completă a antecedentelor pentru fiecare angajat, înainte de a-l aloca la locuința oricărui client, fără excepții."
+          },
+          "commonMistakes": {
+            "0": "Renunțarea la o verificare reală a antecedentelor unui nou angajat, pentru a completa mai rapid un gol în program, riscând încrederea și siguranța clientului."
+          },
+          "successCriteria": {
+            "0": "Prima echipă angajată finalizează o lună completă de vizite, fără plângeri din partea clienților."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a construi o listă de verificare structurată de integrare și un scenariu de instruire, pentru noii angajați tehnicieni de curățenie."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Adaugă o a doua și a treia echipă de curățenie, trecând proprietarul complet la programare, control al calității și angajare."
+          },
+          "deliverables": {
+            "0": "Două până la trei echipe de curățenie complet instruite, fiecare gestionând propriile trasee de clienți recurenți."
+          },
+          "checklist": {
+            "0": "Prioritizează completarea densității traseului dintr-un cartier existent, înainte de a te extinde într-o nouă zonă geografică."
+          },
+          "commonMistakes": {
+            "0": "Extinderea densității traseelor prea subțire, pe o zonă geografică largă, irosind timpul de deplasare al echipei între vizite."
+          },
+          "successCriteria": {
+            "0": "Traseul fiecărei echipe active rămâne într-o rază geografică strânsă și eficientă."
+          },
+          "aiRecommendations": {
+            "0": "Folosește planificarea traseelor asistată de AI, pentru a menține programul zilnic al fiecărei echipe eficient din punct de vedere geografic."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Extinde-te într-un cartier adiacent sau adaugă o linie de servicii specializate (de ex. curățenii generale la mutare)."
+          },
+          "deliverables": {
+            "0": "Un cartier de extindere sau o linie de servicii validată, cu primii clienți semnați."
+          },
+          "checklist": {
+            "0": "Validează un cartier nou sau o linie de servicii cu recomandările clienților existenți, înainte de a investi în marketing dedicat acolo."
+          },
+          "commonMistakes": {
+            "0": "Diluarea poziționării de bază, a echipei recurente și fiabile, urmărind lucrări unice pe o zonă prea largă."
+          },
+          "successCriteria": {
+            "0": "Noul cartier sau linie de servicii atinge cel puțin 5 clienți recurenți semnați."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza unde se grupează geografic recomandările clienților existenți, pentru a identifica cel mai puternic cartier de extindere."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Documentează contractele clienților recurenți, structura echipei și procedurile standard de operare, pentru a pregăti afacerea pentru vânzare."
+          },
+          "deliverables": {
+            "0": "Un manual de operare complet, actualizat, și un registru al contractelor clienților recurenți."
+          },
+          "checklist": {
+            "0": "Scrie fiecare procedură standard de operare și menține lista de contracte ale clienților recurenți actualizată permanent, nu doar înainte de o vânzare."
+          },
+          "commonMistakes": {
+            "0": "Păstrarea procedurilor standard de operare doar în mintea proprietarului, ceea ce face afacerea mult mai greu de evaluat sau de predat."
+          },
+          "successCriteria": {
+            "0": "Un potențial cumpărător sau operator ar putea conduce afacerea doar din documentație."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a ajuta la organizarea notițelor și procedurilor răzlețe într-un manual de operare curat și structurat."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține îndrumările din foaia de parcurs concrete despre angajare, liste de verificare și densitatea traseelor — adevăratele pârghii din această afacere."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Carte: „The E-Myth Contractor” de Michael E. Gerber",
+          "description": "Un ghid axat pe gândire sistemică, pentru construirea unei afaceri de servicii care funcționează pe procese documentate, nu doar pe efortul propriu al proprietarului."
+        },
+        "item2": {
+          "title": "Curs: Certificarea ISSA Cleaning Management Institute (CMI)",
+          "description": "O certificare recunoscută în industrie, care acoperă standardele de curățenie, siguranța și operațiunile afacerii."
+        },
+        "item3": {
+          "title": "Comunitate: r/CleaningBusinessOwners",
+          "description": "O comunitate online activă de proprietari de afaceri de curățenie, care împărtășesc sfaturi despre prețuri, angajare și operațiuni."
+        },
+        "item4": {
+          "title": "Podcast: „The Cleaning Business Podcast”",
+          "description": "Interviuri cu proprietari de companii de curățenie, despre creștere, angajare și operațiuni."
+        },
+        "item5": {
+          "title": "Newsletter: ISSA Today",
+          "description": "Știri din industrie și cele mai bune practici, de la asociația comercială a industriei de curățenie."
+        },
+        "item6": {
+          "title": "Software: Housecall Pro",
+          "description": "Programare, expediere și comunicare cu clienții, construite pentru afaceri de servicii la domiciliu."
+        },
+        "item7": {
+          "title": "Software: QuickBooks",
+          "description": "Software de facturare și contabilitate, pentru urmărirea facturării contractelor recurente."
+        },
+        "item8": {
+          "title": "Instrument AI: asistent de chat pentru pagina de rezervare",
+          "description": "Chat asistat de AI, care răspunde la întrebările comune despre preț și programare, pe pagina de rezervare."
+        },
+        "item9": {
+          "title": "Certificare: Asigurare de garanție și răspundere civilă generală",
+          "description": "Acoperire necesară, înainte de a prelua orice lucrare plătită de curățenie la domiciliu."
+        },
+        "item10": {
+          "title": "Eveniment: ISSA Cleaning & Restoration Expo",
+          "description": "Principalul târg comercial anual al industriei, pentru proprietarii de afaceri de curățenie și furnizori."
+        },
+        "item11": {
+          "title": "Expert: un broker local de asigurări specializat în garanții pentru afaceri de servicii",
+          "description": "Ajută la structurarea acoperirii potrivite de garanție și răspundere civilă, pentru o nouă companie de curățenie."
+        },
+        "item12": {
+          "title": "Listă de verificare: Lista standardizată de curățenie, cameră cu cameră",
+          "description": "O listă de verificare documentată, repetabilă, care menține o calitate constantă la fiecare echipă și la fiecare vizită."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritizează resursele despre angajare, instruire și consistență operațională — adevăratele diferențiatoare din această afacere."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Curățeniile generale la mutare percep un preț premium și duc adesea la un contract recurent cu noul ocupant."
+          },
+          "item2": {
+            "title": "Parteneriatul cu agenți imobiliari locali, pentru recomandări la mutare, creează o sursă constantă și cu costuri reduse de clienți potențiali."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Un singur incident notoriu de furt sau daună se poate răspândi prin recomandările din cartier mai rapid decât poate contracara orice marketing."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Subevaluarea prețurilor contractelor recurente pentru a câștiga primii clienți, apoi dificultatea de a le crește fără a-i pierde."
+          },
+          "item2": {
+            "title": "Angajarea prea rapidă, înainte ca o listă de așteptare reală să confirme o cerere sustenabilă."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Un program de reduceri pentru recomandări, cu clienți existenți mulțumiți, convertește mai rapid și mai ieftin decât orice publicitate plătită."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Prioritizează densitatea traseului în cartierele existente, înainte de a te extinde geografic — timpul de deplasare între vizite erodează rapid marja."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Documentează o listă de verificare standardizată din prima zi, chiar și în timp ce lucrezi singur — asta face posibilă angajarea ulterioară, fără o scădere a calității."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Afacerile care alocă constant aceeași echipă acelorași clienți văd o rată de pierdere a clienților mult mai mică, decât cele care rotesc personalul din comoditate de programare."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea anulărilor clienților apar după o vizită ratată sau reprogramată, nu după o plângere de calitate — fiabilitatea contează mai mult decât perfecțiunea."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Uzura vehiculului și costurile de combustibil, din trasee ineficiente, sunt adesea subestimate, până când densitatea traseului este efectiv urmărită."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Interesul crescând pentru modelele de abonament la servicii pentru locuință semnalează o confortabilitate tot mai mare cu serviciile casnice recurente, facturate automat."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "O companie de curățenie dintr-un singur cartier a atins un program recurent complet în 4 luni, saturând distribuția de fluturași de ușă, înainte de a cheltui pe orice reclamă plătită."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "O companie de curățenie care a rotit personalul între clienți din comoditate de programare a văzut un val de anulări, odată ce clienții au observat inconsistența."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "O companie de curățenie este ușor de început și nu are nevoie de sisteme reale.",
+            "fact": "Fără o listă de verificare standardizată și un proces de angajare fiabil, calitatea devine rapid inconsistentă, odată ce proprietarul nu mai face personal fiecare vizită."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Confirmă în scris prețul recurent și domeniul de lucru, la evaluarea gratuită, înainte de prima vizită, pentru a evita disputele ulterioare."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține informațiile fundamentate în realitatea operațională — angajare, densitatea traseelor și consistență — nu sfaturi generice pentru afaceri mici."
+        },
+        "faq": {
+          "q1": {
+            "question": "Am nevoie de o licență specială pentru a începe o companie de curățenie?",
+            "answer": "Nu este necesară nicio licență, în majoritatea locurilor, dar asigurarea de garanție și răspundere civilă generală sunt esențiale, înainte de a prelua orice lucrare plătită la domiciliu."
+          }
+        }
+      }
+    },
+    "beautySalon": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: „Millionaire Stylist” de Kristi Waters",
+          "course1": "Curs: Programul de licențiere în cosmetică",
+          "community1": "Comunitate: comunitatea online de stiliști Behind the Chair",
+          "checklist1": "Listă de verificare: Consultația clientului nou și lista de reprogramare"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognozează veniturile pe baza ratei de utilizare a scaunelor și a înscrierilor la abonament — un program de scaune mai plin crește mai rapid decât doar achiziția de clienți noi."
+        },
+        "breakEven": {
+          "notes": "Pragul de rentabilitate apare de obicei în jurul lunii 9, odată ce fiecare scaun fondator este constant ocupat."
+        },
+        "grossMargin": {
+          "notes": "Marja brută se menține în jur de 50%, după costul produselor vândute și cotele de comision ale stiliștilor."
+        },
+        "netMargin": {
+          "notes": "Marja netă se stabilizează în jur de 22%, odată ce costurile de chirie, salarizare și marketing sunt luate complet în calcul."
+        },
+        "scenarios": {
+          "conservative": "Un scenariu de creștere lentă, cu două scaune la utilizare parțială.",
+          "expected": "Un scenariu realist, cu trei scaune constant ocupate și o bază de abonament în creștere.",
+          "optimistic": "Un scenariu puternic, cu toate scaunele pline și un program de abonament stabil, cu înscrieri numeroase."
+        },
+        "risks": {
+          "risk1": "Plecarea unui stilist duce adesea cu sine baza fidelă de clienți, afectând direct veniturile.",
+          "risk2": "Costurile fixe de chirie și personal continuă indiferent de cât de plin este de fapt programul scaunelor."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează costurile și marja ca fiind dominate de chirie și forța de muncă, nu de produse — scaunele și stiliștii sunt adevărata constrângere de capacitate."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Stilistul tău, nu oricare stilist — o relație constantă, nu o coadă rotativă de salon de lanț.",
+          "category": "Salon de păr și frumusețe cu mai multe scaune"
+        },
+        "brandPromise": "Vei programa mereu cu același stilist, care îți cunoaște istoricul părului.",
+        "uvp": {
+          "statement": "O relație constantă, dedicată, cu un stilist, bazată pe abilitate artistică reală, nu o coadă rotativă de salon de lanț.",
+          "diff1": "Continuitatea stilistului, pe care saloanele de lanț nu o pot oferi structural.",
+          "diff2": "Transformări reale ale clienților, înainte/după, nu fotografii de stoc de salon."
+        },
+        "icp": {
+          "description": "Clienți profesioniști, atenți la stil, cu vârste între 25-45 ani, care doresc o relație constantă cu stilistul și sunt dispuși să plătească pentru calitatea artizanală, nu pentru comoditate.",
+          "firmographics": "Profesioniști activi, cu venit discreționar pentru întreținerea regulată a părului și frumuseții, care vizitează de obicei la fiecare 4-8 săptămâni."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Profesionist atent la stil",
+            "description": "Un profesionist activ, cu vârsta între 28-40 ani, care dorește o relație de încredere cu stilistul și prețuiește constanța, în locul încercării unui salon nou la fiecare vizită."
+          },
+          "persona2": {
+            "name": "Client pentru ocazii speciale",
+            "description": "Un client care programează pentru o nuntă, un eveniment sau o reîmprospătare sezonieră, care descoperă salonul prin conținut social și devine ulterior client recurent."
+          }
+        },
+        "painPoints": {
+          "point1": "O distribuție rotativă de stiliști necunoscuți, la saloanele de lanț, care nu cunosc istoricul părului clientului.",
+          "point2": "Calitate inconsistentă, din programarea oricărui stilist disponibil."
+        },
+        "outcomes": {
+          "outcome1": "O relație de încredere, continuă, cu un stilist care știe exact ce își dorește clientul.",
+          "outcome2": "Rezultate constant fiabile la fiecare vizită, fără a reexplica istoricul părului de fiecare dată."
+        },
+        "messaging": {
+          "core": "Stilistul tău, nu oricare stilist.",
+          "support1": "Meșteșug real, relații reale — vezi singur transformările."
+        },
+        "brandVoice": {
+          "tone": "Cald, expresiv și axat pe meșteșug",
+          "attr1": "Personal",
+          "attr2": "Priceput"
+        },
+        "contentPillars": {
+          "pillar1": "Transformări ale clienților, înainte/după",
+          "pillar2": "Expertiza și tehnica stiliștilor"
+        },
+        "channelStrategy": "Construiește o prezență puternică pe Instagram, pe baza transformărilor reale înainte/după, ca și canal principal, susținută de un program de reduceri pentru recomandările clienților, cu parteneriate locale cu micro-influenceri ca un plus experimental.",
+        "community": {
+          "description": "O comunitate fidelă de clienți recurenți, care distribuie și etichetează conținutul de transformare al salonului.",
+          "platform1": "Instagram"
+        },
+        "leadMagnets": {
+          "magnet1": "Consultație gratuită la prima vizită"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Descoperire prin conținut social",
+            "description": "Un potențial client descoperă salonul printr-o postare de transformare pe Instagram sau prin recomandarea unui prieten."
+          },
+          "stage2": {
+            "name": "Programarea consultației gratuite",
+            "description": "Potențialul client programează o consultație gratuită, pentru a discuta obiectivele de păr cu un stilist anume."
+          },
+          "stage3": {
+            "name": "Primul serviciu și reprogramare",
+            "description": "Clientul finalizează primul serviciu și se reprogramează pentru următoarea vizită, înainte de a părăsi scaunul."
+          }
+        },
+        "retention": {
+          "tactic1": "Reprogramarea următoarei vizite, înainte ca fiecare client să părăsească scaunul."
+        },
+        "analytics": {
+          "metric1": "Rata de reprogramare a clienților, la finalul vizitei"
+        },
+        "aiMetadata": {
+          "generationHints": "Menține textul de marketing fundamentat pe munca reală a stiliștilor și pe servicii numite, nu pe un limbaj generic de marketing de spa."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Asigură o vitrină în chirie, finalizează amenajarea și angajează primii unul sau doi stiliști."
+          },
+          "deliverables": {
+            "0": "O chirie de vitrină semnată, amenajare finalizată și cel puțin un stilist suplimentar angajat."
+          },
+          "checklist": {
+            "0": "Confirmă că cel puțin un stilist experimentat suplimentar este angajat, înainte de a semna chiria pentru vitrină."
+          },
+          "commonMistakes": {
+            "0": "Semnarea unei chirii pentru vitrină, înainte de a confirma că cel puțin un stilist experimentat este pregătit să se alăture, lăsând costurile fixe să curgă fără venituri din scaune."
+          },
+          "successCriteria": {
+            "0": "Chiria este semnată, amenajarea este finalizată, iar cel puțin un stilist suplimentar este confirmat și pregătit."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta un șablon de acord de comision sau chirie de scaun pentru stiliști, de revizuit cu un avocat."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Programează primele 15-20 de programări, la stiliștii fondatori, pentru a valida prețul și cererea."
+          },
+          "deliverables": {
+            "0": "15-20 de programări finalizate, cu prețuri și feedback al clienților înregistrate."
+          },
+          "checklist": {
+            "0": "Stabilește prețurile finale ale meniului de servicii, înainte de deschiderea discretă, în loc să oferi o reducere introductivă temporară."
+          },
+          "commonMistakes": {
+            "0": "Subevaluarea serviciilor în timpul unei deschideri discrete, cu dificultăți ulterioare de a crește prețurile, odată ce clienții obișnuiți s-au obișnuit cu tariful mai mic."
+          },
+          "successCriteria": {
+            "0": "Cel puțin 60% din primii 15-20 de clienți programează o vizită ulterioară."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta un formular simplu de admisie a clienților, care să surprindă istoricul și preferințele de păr, pentru fiecare client nou."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Finalizează prima lună de programări, cu scaunul fiecărui stilist fondator activ ocupat."
+          },
+          "deliverables": {
+            "0": "O primă lună completă de programări, înregistrate la fiecare stilist fondator."
+          },
+          "checklist": {
+            "0": "Instruiește fiecare stilist să reprogrameze următoarea programare a clientului, înainte ca acesta să părăsească scaunul, începând cu primii clienți."
+          },
+          "commonMistakes": {
+            "0": "Nedezvoltarea unui obicei de reprogramare încă de la primele programări, lăsând ratele de revenire a clienților la voia întâmplării."
+          },
+          "successCriteria": {
+            "0": "Cel puțin 70% din clienții din prima lună au o vizită ulterioară reprogramată în calendar."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza datele timpurii de programare și a semnala ce intervale orare și servicii sunt subprogramate."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Lansează strategia de conținut Instagram înainte/după și programul de reducere pentru recomandările clienților."
+          },
+          "deliverables": {
+            "0": "Un calendar activ de conținut Instagram și un program de reducere pentru recomandările clienților, activ."
+          },
+          "checklist": {
+            "0": "Obține permisiunea explicită a clientului și postează constant fotografii reale de transformare înainte/după, cel puțin de două ori pe săptămână."
+          },
+          "commonMistakes": {
+            "0": "Postarea unui conținut generic de marketing de salon, în loc de transformări reale, aprobate, înainte/după, ale propriilor clienți ai salonului."
+          },
+          "successCriteria": {
+            "0": "Solicitări noi de clienți vin săptămânal, direct din conținutul social sau din recomandări."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta un calendar de conținut și descrieri, pentru postările de transformare înainte/după."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Transformă primul client mulțumit într-un client recurent reprogramat și o sursă de recomandare."
+          },
+          "deliverables": {
+            "0": "Cel puțin un client care s-a reprogramat de două ori și a recomandat un client nou."
+          },
+          "checklist": {
+            "0": "Urmărește personal primul grup de clienți, după vizita lor, pentru a confirma satisfacția și a încuraja reprogramarea."
+          },
+          "commonMistakes": {
+            "0": "Concentrarea doar pe programarea de clienți noi, neglijând cultivarea primilor clienți în relații recurente."
+          },
+          "successCriteria": {
+            "0": "Cel puțin un client nou este semnat direct din recomandarea unui client existent."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta un mesaj de urmărire prietenos, post-vizită, pe care stiliștii să-l personalizeze și să-l trimită."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge un program de scaune constant complet, la toți stiliștii fondatori, cu o rată stabilă de reprogramare."
+          },
+          "deliverables": {
+            "0": "Un program de scaune documentat, constant complet, la toți stiliștii fondatori."
+          },
+          "checklist": {
+            "0": "Confirmă că fiecare scaun existent este constant ocupat, înainte de a recruta un stilist suplimentar."
+          },
+          "commonMistakes": {
+            "0": "Adăugarea unui scaun sau stilist nou, înainte ca scaunele existente să fie constant pline, tensionând fluxul de numerar."
+          },
+          "successCriteria": {
+            "0": "Scaunul fiecărui stilist fondator este ocupat în cel puțin 80% din intervalele disponibile."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a modela impactul asupra veniturilor al adăugării unui scaun nou, înainte de a te angaja pentru angajare."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Lansează programul de abonament lunar de coafat, pentru a construi venituri recurente previzibile."
+          },
+          "deliverables": {
+            "0": "Un program de abonament activ, cu primii membri înscriși."
+          },
+          "checklist": {
+            "0": "Prețuiește abonamentul astfel încât să fie o reducere reală doar la utilizare completă, nu mai ieftin decât două vizite individuale."
+          },
+          "commonMistakes": {
+            "0": "Prețuirea abonamentului prea mică, față de prețul individual al coafatului, canibalizând vizitele unice cu marjă mai mare."
+          },
+          "successCriteria": {
+            "0": "Cel puțin 15 clienți se înscriu în programul de abonament, în primul trimestru de la lansare."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a modela diferite prețuri de abonament, față de riscul de canibalizare a vizitelor individuale."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Adaugă un al doilea și al treilea scaun, recrutând stiliști care își aduc propria bază de clienți stabilă."
+          },
+          "deliverables": {
+            "0": "Două scaune suplimentare, cu personal format din stiliști care își construiesc propriile baze de clienți recurenți."
+          },
+          "checklist": {
+            "0": "Evaluează noii stiliști angajați, atât pe abilitatea tehnică, cât și pe capacitatea demonstrată de a construi o bază de clienți recurenți."
+          },
+          "commonMistakes": {
+            "0": "Angajarea unui stilist doar pe baza abilității tehnice, fără a confirma că poate construi și păstra propria bază de clienți."
+          },
+          "successCriteria": {
+            "0": "Fiecare stilist nou angajat atinge un program constant ocupat, în decurs de 6 luni."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta o grilă structurată de interviu, care evaluează atât abilitatea tehnică, cât și istoricul de construire a clienților."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Extinde veniturile din produse de vânzare sau evaluează deschiderea unei a doua locații, odată ce prima este constant la capacitate maximă de scaune."
+          },
+          "deliverables": {
+            "0": "O linie extinsă de produse de vânzare sau un caz de afaceri validat pentru o a doua locație."
+          },
+          "checklist": {
+            "0": "Confirmă că prima locație funcționează profitabil, fără implicarea zilnică a proprietarului, înainte de a te angaja pentru o a doua locație."
+          },
+          "commonMistakes": {
+            "0": "Deschiderea unei a doua locații, înainte ca prima să aibă o echipă și o bază de clienți stabile și auto-susținute."
+          },
+          "successCriteria": {
+            "0": "Prima locație funcționează profitabil timp de cel puțin 3 luni consecutive, fără prezența zilnică a proprietarului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza datele de vânzări ale produselor de retail, pentru a identifica cele mai profitabile oportunități de extindere."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Documentează baza de clienți, acordurile stiliștilor și termenii de chirie, pentru a pregăti salonul pentru vânzare sau preluare de către un stilist."
+          },
+          "deliverables": {
+            "0": "Un pachet complet de evidențe ale clienților, acorduri ale stiliștilor și documentație de chirie."
+          },
+          "checklist": {
+            "0": "Construiește sisteme și proprietate a clienților la nivel de stilist, astfel încât valoarea salonului să nu se bazeze în întregime pe propriul scaun al fondatorului."
+          },
+          "commonMistakes": {
+            "0": "Permițând ca valoarea afacerii să rămână prea dependentă de relațiile personale ale fondatorului cu clienții."
+          },
+          "successCriteria": {
+            "0": "Salonul continuă să funcționeze profitabil, chiar și în timpul unei absențe extinse a proprietarului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a ajuta la organizarea evidențelor clienților, stiliștilor și chiriei, într-un pachet curat de diligență, pentru un potențial cumpărător."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține îndrumările din foaia de parcurs concrete despre programarea scaunelor, obiceiurile de reprogramare și recrutarea stiliștilor — adevăratele pârghii din această afacere."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Carte: „Millionaire Stylist” de Kristi Waters",
+          "description": "Un ghid practic pentru construirea unei cariere de stilist și a unei afaceri de salon, în jurul retenției și reprogramării clienților."
+        },
+        "item2": {
+          "title": "Curs: Programul de licențiere în cosmetică",
+          "description": "Calea de licențiere necesară pentru stiliștii practicanți, în majoritatea jurisdicțiilor."
+        },
+        "item3": {
+          "title": "Comunitate: Behind the Chair",
+          "description": "O comunitate online activă de stiliști profesioniști, care împărtășesc sfaturi despre tehnică, afaceri și marketing."
+        },
+        "item4": {
+          "title": "Podcast: „Salon Business Podcast”",
+          "description": "Interviuri cu proprietari de saloane, despre creștere, personal și retenția clienților."
+        },
+        "item5": {
+          "title": "Newsletter: Modern Salon",
+          "description": "Știri din industrie, tendințe de tehnică și sfaturi de afaceri, de la o publicație de top din domeniu."
+        },
+        "item6": {
+          "title": "Software: Booksy",
+          "description": "Software de programare și rezervări, construit pentru saloane și stiliști individuali."
+        },
+        "item7": {
+          "title": "Software: Square",
+          "description": "Software de vânzare și plăți, pentru tranzacții de servicii și retail."
+        },
+        "item8": {
+          "title": "Instrument AI: planificator de conținut Canva",
+          "description": "Planificare și redactare de conținut social, asistate de AI, pentru postările de transformare înainte/după."
+        },
+        "item9": {
+          "title": "Certificare: Licența de stat în cosmetică",
+          "description": "Licența profesională necesară, pentru fiecare stilist practicant din salon."
+        },
+        "item10": {
+          "title": "Eveniment: America's Beauty Show",
+          "description": "Un târg comercial anual major, pentru profesioniștii de salon, educație tehnică și aprovizionarea cu produse."
+        },
+        "item11": {
+          "title": "Expert: un consultant local de afaceri de salon",
+          "description": "Ajută la structurarea modelelor de compensare a stiliștilor și a sistemelor de programare a scaunelor, pentru un nou salon."
+        },
+        "item12": {
+          "title": "Listă de verificare: Consultația clientului nou și lista de reprogramare",
+          "description": "Un proces documentat, pentru consultația de la prima vizită și conversația de reprogramare, înainte ca clientul să părăsească scaunul."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritizează resursele despre retenția stiliștilor, reprogramarea clienților și tehnica artizanală — adevăratele diferențiatoare din această afacere."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Vânzările de produse de retail, către aceiași clienți deja aflați în scaun, sunt un flux de venituri cu marjă mare, pe care majoritatea saloanelor noi îl subinvestesc."
+          },
+          "item2": {
+            "title": "Parteneriatul cu organizatori locali de nunți sau locații de evenimente creează un flux constant de programări pentru ocazii speciale."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Plecarea unui stilist-vedetă, pentru a-și deschide propriul salon, poate lua cu sine o mare parte din baza de clienți, aproape peste noapte."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Angajarea stiliștilor doar pe baza abilității tehnice, fără a evalua capacitatea lor de a construi și păstra o bază de clienți."
+          },
+          "item2": {
+            "title": "Subevaluarea serviciilor pentru a concura cu saloanele de lanț, în loc să concureze pe relație și calitate artizanală."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Un scenariu simplu de reprogramare, la finalul vizitei, convertește mult mai multe programări ulterioare, decât speranța că clienții vor suna singuri înapoi."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Ocupă fiecare scaun existent la capacitate constantă, înainte de a adăuga unul nou — un scaun gol este o povară pură de cost fix."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Construiește brandul salonului în jurul echipei, nu doar al fondatorului, astfel încât relațiile cu clienții să nu se prăbușească, dacă un stilist pleacă."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Saloanele cu un obicei constant de reprogramare, la finalul vizitei, arată o rată de pierdere a clienților semnificativ mai mică, decât cele care se bazează pe autoprogramarea clienților."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Cea mai mare parte a pierderii clienților are loc tăcut — un client care nu se reprogramează rareori spune de ce, pur și simplu încearcă alt salon data viitoare."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Risipa de produse și consumul excesiv de consumabile de salon sunt adesea subestimate, până când stocul este efectiv urmărit pe stilist."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cererea în creștere pentru serviciile de frumusețe de tip abonament semnalează confortul clienților cu cheltuielile recurente, de tip abonament, pentru îngrijire personală."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Un salon nou deschis a atins capacitatea maximă de scaune, în 9 luni, prioritizând disciplina de reprogramare, în locul cheltuielilor pentru achiziția de clienți noi."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un salon care a angajat rapid, doar pe baza abilității tehnice, a văzut o fluctuație mare de personal, odată ce mai mulți stiliști nu au reușit să construiască o bază de clienți sustenabilă."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Succesul unui salon depinde în principal de locație și decor.",
+            "fact": "Retenția clienților și calitatea relației cu stilistul generează mult mai multe venituri pe termen lung, decât locația sau designul interior, singure."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Confirmă verbal domeniul serviciului și prețul la consultație, înainte de a începe orice serviciu de vopsire sau chimic."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține informațiile fundamentate în retenția stiliștilor, disciplina de reprogramare și calitatea artizanală — nu sfaturi generice pentru afaceri mici."
+        },
+        "faq": {
+          "q1": {
+            "question": "Toți stiliștii au nevoie de propria licență?",
+            "answer": "Da — fiecare stilist care efectuează servicii trebuie să dețină o licență valabilă de cosmetică, în majoritatea jurisdicțiilor, pe lângă orice înregistrare la nivel de afacere."
+          }
+        }
+      }
+    },
+    "dentalClinic": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: „The Complete Practice Startup Guide” de Adam Powers, CPA",
+          "course1": "Curs: Certificat de management al cabinetului (ADA CE)",
+          "community1": "Comunitate: forumul online pentru proprietari de cabinete Dental Town",
+          "checklist1": "Listă de verificare: Admiterea pacientului nou și lista de programare de reamintire"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognozează veniturile pe baza volumului de pacienți noi și a ratei de revenire la reamintire — o bază stabilă de reamintire crește previzibil, odată ce panoul este stabilit."
+        },
+        "breakEven": {
+          "notes": "Pragul de rentabilitate apare de obicei în jurul lunii 18, dată fiind investiția inițială foarte ridicată în echipament și amenajare."
+        },
+        "grossMargin": {
+          "notes": "Marja brută se menține în jur de 45%, după consumabile dentare, taxe de laborator și salariile personalului clinic."
+        },
+        "netMargin": {
+          "notes": "Marja netă se stabilizează în jur de 18%, odată ce finanțarea echipamentului, chiria și costurile complete de personal sunt luate în calcul."
+        },
+        "scenarios": {
+          "conservative": "Un scenariu de creștere lentă, cu un panou mic de pacienți și o adoptare limitată a serviciilor cosmetice opționale.",
+          "expected": "Un scenariu realist, cu o bază stabilă de pacienți de reamintire și o rată moderată de adoptare a serviciilor cosmetice opționale.",
+          "optimistic": "Un scenariu puternic, cu un panou complet de pacienți și un al doilea igienist adăugat, pentru a extinde capacitatea."
+        },
+        "risks": {
+          "risk1": "Investiția inițială de capital foarte ridicată, în echipament și amenajare, creează o expunere financiară semnificativă, înainte ca practica să genereze venituri.",
+          "risk2": "Expunerea la răspundere de malpraxis necesită o asigurare profesională robustă și practici riguroase de documentare clinică."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează costurile și marja ca fiind dominate de echipament și personal — cea mai mare intensitate de capital dintre afacerile din această bibliotecă."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Stomatologie modernă care nu se simte clinică — îngrijire preventivă completă, cu opțiuni cosmetice opționale, într-un cadru confortabil, fără grabă.",
+          "category": "Cabinet de stomatologie generală și de familie"
+        },
+        "brandPromise": "Vei pleca simțindu-te îngrijit, nu procesat.",
+        "uvp": {
+          "statement": "Îngrijire dentară preventivă completă, plus servicii cosmetice opționale, oferite într-un cadru modern, fără grabă.",
+          "diff1": "O experiență cu adevărat fără grabă a pacientului, distinctă de practicile de tip „moară de asigurări”, cu volum mare.",
+          "diff2": "Servicii cosmetice opționale (albire, fațete), disponibile alături de îngrijirea de rutină, sub același acoperiș."
+        },
+        "icp": {
+          "description": "Adulți cu vârste între 25-55 ani, din comunitatea din jur, care doresc îngrijire dentară preventivă fiabilă și sunt deschiși la servicii cosmetice opționale, odată ce încrederea este stabilită.",
+          "firmographics": "Adulți activi și familii cu asigurare dentară sau capacitate de a plăti din surse proprii, pentru serviciile opționale, vizitând de obicei de două ori pe an, pentru îngrijire de rutină."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Pacient de familie pentru îngrijire de rutină",
+            "description": "Un adult activ sau părinte, care dorește un cabinet fiabil, pentru controale și curățări regulate, pentru întreaga familie."
+          },
+          "persona2": {
+            "name": "Pacient pentru servicii cosmetice opționale",
+            "description": "Un pacient stabilit, care ia în considerare albirea sau fațetele, pentru un eveniment viitor sau pur și simplu pentru a-și îmbunătăți zâmbetul, odată ce încrederea în cabinet este stabilită."
+          }
+        },
+        "painPoints": {
+          "point1": "Anxietate legată de mediile stomatologice clinice, impersonale, care par grăbite sau tranzacționale.",
+          "point2": "Nesiguranță legată de costurile reale din surse proprii, pentru procedurile care depășesc îngrijirea de rutină acoperită de asigurare."
+        },
+        "outcomes": {
+          "outcome1": "O vizită stomatologică confortabilă, fără grabă, la un cabinet care își amintește istoricul pacientului.",
+          "outcome2": "Comunicare clară, din start, a costurilor, atât pentru serviciile de rutină, cât și pentru cele cosmetice opționale."
+        },
+        "messaging": {
+          "core": "Stomatologie modernă care nu se simte clinică.",
+          "support1": "Îngrijire completă, costuri explicate clar și o echipă care îți știe numele."
+        },
+        "brandVoice": {
+          "tone": "Calm, liniștitor și profesionist",
+          "attr1": "De încredere",
+          "attr2": "Modern"
+        },
+        "contentPillars": {
+          "pillar1": "Educație despre îngrijirea dentară preventivă",
+          "pillar2": "Transformări din serviciile cosmetice opționale"
+        },
+        "channelStrategy": "Prioritizează poziționarea în panoul de asigurări și relațiile de recomandare cu medicii/ortodonții locali, ca și canal principal, susținută de o prezență solidă de recenzii Google locale, cu conținut social de tip cosmetic înainte/după, ca un canal experimental.",
+        "community": {
+          "description": "O bază fidelă de pacienți de reamintire, care revin constant și recomandă membri ai familiei.",
+          "platform1": "Grupuri locale de comunitate pe Facebook"
+        },
+        "leadMagnets": {
+          "magnet1": "Ofertă specială de examinare, curățare și radiografii, pentru pacientul nou"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Descoperire prin panoul de asigurări sau căutare",
+            "description": "Un pacient potențial găsește cabinetul prin listările din panoul de asigurări sau căutarea locală."
+          },
+          "stage2": {
+            "name": "Programarea examinării pentru pacientul nou",
+            "description": "Pacientul potențial programează o vizită de examinare, curățare și radiografii, pentru pacientul nou."
+          },
+          "stage3": {
+            "name": "Programare de reamintire și urmărire opțională",
+            "description": "Pacientul este programat pentru reamintirea la 6 luni și, odată ce încrederea este stabilită, i se oferă opțiuni cosmetice opționale."
+          }
+        },
+        "retention": {
+          "tactic1": "Programarea automată a vizitei de reamintire la 6 luni, pentru fiecare pacient, la finalul vizitei."
+        },
+        "analytics": {
+          "metric1": "Rata de revenire la vizita de reamintire"
+        },
+        "aiMetadata": {
+          "generationHints": "Menține textul de marketing calm și profesionist, fundamentat pe servicii și costuri reale — nu face niciodată referire la rezultate clinice specifice sau afirmații de diagnostic."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Asigură finanțarea cabinetului, finalizează amenajarea unității și obține licențierea de la ordinul stomatologilor, asigurarea de malpraxis și certificările de conformitate a echipamentului."
+          },
+          "deliverables": {
+            "0": "Un cabinet complet amenajat, licențiat și asigurat, pregătit pentru pacienți."
+          },
+          "checklist": {
+            "0": "Obține oferte detaliate, pe elemente, pentru fiecare echipament major, înainte de a finaliza suma de finanțare a cabinetului."
+          },
+          "commonMistakes": {
+            "0": "Subestimarea costurilor totale de echipament și amenajare, ceea ce duce la un deficit de finanțare, la mijlocul amenajării."
+          },
+          "successCriteria": {
+            "0": "Finanțarea, amenajarea, licențierea și asigurarea sunt toate confirmate și în vigoare."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a ajuta la organizarea și compararea ofertelor de echipament, pe elemente, de la mai mulți furnizori."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Confirmă acceptarea în panoul de asigurări, la cel puțin 3-4 rețele majore de asigurări dentare, înainte de deschidere."
+          },
+          "deliverables": {
+            "0": "Statut confirmat în rețea, la cel puțin 3-4 rețele majore de asigurări dentare."
+          },
+          "checklist": {
+            "0": "Începe cererile de acreditare în panoul de asigurări, cu cel puțin 4-6 luni înainte de data planificată de deschidere."
+          },
+          "commonMistakes": {
+            "0": "Deschiderea înainte ca cererile de panou de asigurări să fie aprobate, lăsând primii pacienți incapabili să-și folosească acoperirea."
+          },
+          "successCriteria": {
+            "0": "Cel puțin 3-4 rețele majore de asigurări confirmă statutul în rețea, înainte de ziua deschiderii."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a urmări statutul și termenele cererilor de acreditare, la mai multe rețele de asigurări."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Finalizează prima lună de examinări pentru pacienți noi, curățări și îngrijire restaurativă de bază."
+          },
+          "deliverables": {
+            "0": "O primă lună completă de vizite ale pacienților noi, cu programări de reamintire realizate pentru fiecare."
+          },
+          "checklist": {
+            "0": "Programează automat controlul de reamintire la 6 luni, pentru fiecare pacient nou, la finalul primei vizite."
+          },
+          "commonMistakes": {
+            "0": "Neconfigurarea programării de reamintire încă de la primii pacienți, pierzând șansa de a le programa automat controlul la 6 luni."
+          },
+          "successCriteria": {
+            "0": "Fiecare pacient din prima lună are o programare de reamintire realizată, înainte de a părăsi cabinetul."
+          },
+          "aiRecommendations": {
+            "0": "Folosește rapoarte de gestionare a cabinetului, asistate de AI, pentru a confirma că ratele de programare de reamintire sunt pe drumul cel bun."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Lansează SEO local, generarea de recenzii Google și relații de recomandare cu medicii locali și ortodonții."
+          },
+          "deliverables": {
+            "0": "O prezență SEO locală activă și cel puțin 3 relații de recomandare, cu furnizori locali."
+          },
+          "checklist": {
+            "0": "Solicită activ recenzii Google, de la pacienții noi mulțumiți, începând chiar din prima lună."
+          },
+          "commonMistakes": {
+            "0": "Bazarea exclusiv pe poziționarea în panoul de asigurări, pentru fluxul de pacienți, în loc să construiască și vizibilitate în căutarea locală."
+          },
+          "successCriteria": {
+            "0": "Solicitări noi de pacienți vin săptămânal, din căutarea locală sau recomandări."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta mesaje de contactare, către medicii locali și ortodonți, pentru relații de recomandare."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Transformă primul pacient nou mulțumit într-un pacient recurent, programat pentru reamintire, și o sursă de recomandare."
+          },
+          "deliverables": {
+            "0": "Cel puțin un pacient care a finalizat o vizită de reamintire și a recomandat un pacient nou."
+          },
+          "checklist": {
+            "0": "Solicită direct pacienților mulțumiți recomandări, după a doua lor vizită reușită."
+          },
+          "commonMistakes": {
+            "0": "Neexistarea unei solicitări directe, către pacienții stabiliți, de recomandări către prieteni și familie."
+          },
+          "successCriteria": {
+            "0": "Cel puțin un pacient nou este programat direct din recomandarea unui pacient existent."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta un șablon prietenos și profesionist de solicitare a unei recomandări, pentru personalul de recepție."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge un panou de pacienți stabil, în creștere, cu o rată constantă de revenire la vizitele de reamintire."
+          },
+          "deliverables": {
+            "0": "Un panou de pacienți documentat, stabil, cu o rată de revenire la reamintire urmărită."
+          },
+          "checklist": {
+            "0": "Confirmă că programul propriu al medicului stomatolog fondator este constant plin, înainte de a adăuga personal clinic."
+          },
+          "commonMistakes": {
+            "0": "Adăugarea unui al doilea medic stomatolog sau igienist, înainte ca programul existent să fie constant plin."
+          },
+          "successCriteria": {
+            "0": "Programul medicului stomatolog fondator este constant plin, cu o rată stabilă de revenire la reamintire."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza ce segmente de pacienți au cea mai scăzută rată de revenire la reamintire și de ce."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Crește veniturile din serviciile cosmetice opționale (albire, fațete), ca pondere din veniturile totale ale cabinetului."
+          },
+          "deliverables": {
+            "0": "O creștere documentată a ponderii veniturilor din serviciile cosmetice opționale."
+          },
+          "checklist": {
+            "0": "Introdu recomandările cosmetice opționale doar după cel puțin o vizită de rutină reușită, care a construit încrederea."
+          },
+          "commonMistakes": {
+            "0": "Prezentarea opțiunilor cosmetice opționale prea devreme, înainte ca încrederea să fie stabilită cu un pacient nou."
+          },
+          "successCriteria": {
+            "0": "Serviciile cosmetice opționale ating o pondere semnificativă, în creștere, din veniturile lunare totale."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a identifica pacienții stabiliți care nu au primit încă opțiuni cosmetice opționale."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Adaugă un al doilea igienist sau medic stomatolog asociat, pentru a extinde capacitatea zilnică de pacienți."
+          },
+          "deliverables": {
+            "0": "Un al doilea igienist sau medic stomatolog asociat, complet integrat, cu o structură de compensare definită."
+          },
+          "checklist": {
+            "0": "Definește o structură clară de compensare și alocare a pacienților, în scris, înainte de a aduce un medic stomatolog asociat."
+          },
+          "commonMistakes": {
+            "0": "Angajarea unui medic stomatolog asociat, fără o structură clară de compensare și alocare a pacienților, cauzând tensiuni."
+          },
+          "successCriteria": {
+            "0": "Noul angajat atinge un program constant ocupat, în decurs de 6 luni."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a modela diferite structuri de compensare pentru medicul stomatolog asociat, față de veniturile proiectate."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Evaluează deschiderea unei a doua locații de cabinet, odată ce prima este constant profitabilă și complet dotată cu personal."
+          },
+          "deliverables": {
+            "0": "Un caz de afaceri validat, pentru o a doua locație de cabinet."
+          },
+          "checklist": {
+            "0": "Confirmă că primul cabinet funcționează profitabil, cu un medic stomatolog asociat acoperind absența fondatorului, înainte de a deschide o a doua locație."
+          },
+          "commonMistakes": {
+            "0": "Extinderea la o a doua locație, înainte ca primul cabinet să poată funcționa fără prezența zilnică a medicului stomatolog fondator."
+          },
+          "successCriteria": {
+            "0": "Primul cabinet funcționează profitabil, timp de cel puțin 6 luni, fără prezența zilnică a fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza datele demografice și competitive locale, pentru posibile locații ale celei de-a doua locații."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Documentează panoul de pacienți, structura personalului și evidențele echipamentului, pentru a pregăti cabinetul pentru vânzare, către un alt medic stomatolog sau un grup dentar."
+          },
+          "deliverables": {
+            "0": "Un pachet complet de diligență, cu evidențe ale pacienților, personalului și echipamentului."
+          },
+          "checklist": {
+            "0": "Menține evidențe curate și complete ale pacienților și echipamentului, în mod continuu, nu doar înainte de o vânzare."
+          },
+          "commonMistakes": {
+            "0": "Așteptarea apariției unei oportunități de vânzare, pentru a începe documentarea corespunzătoare a evidențelor pacienților și istoricului de întreținere a echipamentului."
+          },
+          "successCriteria": {
+            "0": "Un potențial cumpărător ar putea finaliza diligența în întregime, din documentația existentă."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a ajuta la organizarea evidențelor răzlețe ale pacienților și echipamentului, într-un pachet structurat de diligență."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține îndrumările din foaia de parcurs concrete despre licențiere, acreditarea asigurărilor și programarea de reamintire — adevăratele pârghii din această afacere, strict de planificare a afacerii, niciodată clinice."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Carte: „The Complete Practice Startup Guide” de Adam Powers, CPA",
+          "description": "Un ghid financiar și operațional, pentru deschiderea și conducerea unui cabinet stomatologic ca afacere."
+        },
+        "item2": {
+          "title": "Curs: Certificat de management al cabinetului (ADA CE)",
+          "description": "Un certificat de educație continuă, care acoperă managementul cabinetului, personalul și conformitatea."
+        },
+        "item3": {
+          "title": "Comunitate: Dental Town",
+          "description": "Un forum online activ de proprietari de cabinete, care împărtășesc sfaturi de afaceri, personal și management."
+        },
+        "item4": {
+          "title": "Podcast: „The Dental Marketer”",
+          "description": "Interviuri cu proprietari de cabinete, despre creștere, marketing și operațiuni."
+        },
+        "item5": {
+          "title": "Newsletter: ADA News",
+          "description": "Știri din industrie și îndrumări de management al cabinetului, de la Asociația Americană de Stomatologie."
+        },
+        "item6": {
+          "title": "Software: Dentrix",
+          "description": "Software de gestionare a cabinetului, pentru programare, facturare și evidențe ale pacienților."
+        },
+        "item7": {
+          "title": "Software: DEXIS",
+          "description": "Software de imagistică digitală și radiografie, pentru documentare clinică."
+        },
+        "item8": {
+          "title": "Instrument AI: asistent pentru cereri de asigurare",
+          "description": "Procesare a cererilor de despăgubire, asistată de AI, care semnalează probabilele respingeri, înainte de depunere."
+        },
+        "item9": {
+          "title": "Certificare: Licențierea de la ordinul stomatologilor",
+          "description": "Licența profesională necesară, pentru a practica stomatologia și a deține un cabinet stomatologic."
+        },
+        "item10": {
+          "title": "Eveniment: Întâlnirea anuală a Asociației Americane de Stomatologie (ADA)",
+          "description": "Principala conferință anuală din industrie, pentru educație continuă și managementul cabinetului."
+        },
+        "item11": {
+          "title": "Expert: un consultant financiar pentru cabinete stomatologice",
+          "description": "Ajută la structurarea finanțării echipamentului și evaluarea cabinetului, pentru un cabinet nou sau în creștere."
+        },
+        "item12": {
+          "title": "Listă de verificare: Admiterea pacientului nou și lista de programare de reamintire",
+          "description": "Un proces documentat, pentru admiterea pacientului nou și programarea automată de reamintire la 6 luni."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritizează resursele despre managementul cabinetului, acreditarea asigurărilor și planificarea financiară — adevăratele diferențiatoare din această afacere."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Serviciile cosmetice opționale, oferite pacienților de reamintire deja încrezători, convertesc mult mai bine decât marketingul rece către pacienți noi."
+          },
+          "item2": {
+            "title": "Un plan de abonament intern captează pacienții neasigurați, care altfel ar rămâne fără îngrijire regulată."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Termenii de finanțare a echipamentului pot afecta semnificativ fluxul de numerar timpuriu — o rată puțin mai proastă se acumulează, pe un principal de împrumut foarte ridicat."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Subestimarea duratei reale a acreditării în panoul de asigurări, întârziind capacitatea de a vedea pacienți din rețea."
+          },
+          "item2": {
+            "title": "Supra-investirea în echipament premium, înainte de a confirma un volum sustenabil de pacienți, care să susțină plățile."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Programarea automată de reamintire, la finalul vizitei, captează mult mai multe vizite repetate, decât să te bazezi pe pacienți să sune înapoi singuri."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Confirmă că programul propriu al medicului stomatolog fondator este constant plin, înainte de a adăuga orice personal clinic — un asociat subprogramat este o povară pură de cost."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Începe cererile de acreditare a asigurărilor cu luni înainte de deschidere — este aproape întotdeauna elementul cu cel mai lung termen de pregătire, în lansare."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Cabinetele cu o disciplină puternică de programare de reamintire arată o retenție pe termen lung a pacienților, semnificativ mai mare, decât cele care se bazează pe programarea inițiată de pacient."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Mulți pacienți aleg un cabinet stomatologic în principal pe baza statutului de rețea de asigurări, nu a marketingului — poziționarea în panou contează mai mult decât se așteaptă majoritatea proprietarilor noi."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Costurile de întreținere și calibrare a echipamentului sunt adesea subestimate, față de prețul inițial de achiziție."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Interesul crescând al pacienților pentru stomatologia cosmetică, alături de îngrijirea de rutină, semnalează spațiu pentru creșterea veniturilor din servicii opționale, dincolo de facturarea pură a asigurărilor."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Un cabinet nou deschis a atins pragul de rentabilitate în mai puțin de 18 luni, prioritizând acreditarea în panoul de asigurări, înainte de data deschiderii, nu după."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un cabinet care s-a deschis înainte ca acreditarea asigurărilor să fie finalizată s-a confruntat cu dificultăți de flux de numerar, timp de luni, deoarece primii pacienți nu și-au putut folosi acoperirea."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Acest pachet include îndrumări clinice sau de tratament?",
+            "answer": "Nu — acest pachet conține doar conținut de planificare a afacerii, acoperind cum să finanțezi, dotezi cu personal și crești un cabinet stomatologic ca afacere. Nu include protocoale de tratament, criterii de diagnostic sau orice îndrumare clinică."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Un cabinet stomatologic are succes garantat, odată ce este licențiat și deschis.",
+            "fact": "Licențierea este doar cerința de intrare — acreditarea asigurărilor, disciplina de reamintire și construirea încrederii pacienților determină dacă cabinetul atinge de fapt un volum sustenabil de pacienți."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Confirmă acoperirea de asigurare a pacienților și costul estimat din surse proprii, înainte de a începe orice procedură opțională sau restaurativă."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține informațiile fundamentate în managementul cabinetului, acreditare și disciplina de reamintire — niciodată conținut clinic sau de diagnostic."
+        }
+      }
+    },
+    "veterinaryClinic": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: „Veterinary Practice Management” de Charlotte Donnelly, DVM, MBA",
+          "course1": "Curs: Certificat de manager de spital veterinar (VHMA)",
+          "community1": "Comunitate: forumul online pentru proprietari de cabinete VIN (Veterinary Information Network)",
+          "checklist1": "Listă de verificare: Admiterea pacientului nou și înscrierea în planul de wellness"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognozează veniturile pe baza volumului de pacienți noi și a ratei de reînnoire a planului de wellness — o bază stabilă de abonați crește previzibil, odată ce înscrierea este stabilită."
+        },
+        "breakEven": {
+          "notes": "Pragul de rentabilitate apare de obicei în jurul lunii 16, dată fiind investiția inițială ridicată în echipament și amenajare, compensată de veniturile timpurii din abonamentul de wellness."
+        },
+        "grossMargin": {
+          "notes": "Marja brută se menține în jur de 48%, după consumabile veterinare, medicamente și salariile personalului clinic."
+        },
+        "netMargin": {
+          "notes": "Marja netă se stabilizează în jur de 19%, odată ce finanțarea echipamentului, chiria și costurile complete de personal sunt luate în calcul."
+        },
+        "scenarios": {
+          "conservative": "Un scenariu de creștere lentă, cu un panou mic de clienți și o înscriere limitată în planul de wellness.",
+          "expected": "Un scenariu realist, cu o bază stabilă de abonați la planul de wellness și un volum moderat de proceduri chirurgicale/dentare.",
+          "optimistic": "Un scenariu puternic, cu un panou complet de clienți și un al doilea tehnician veterinar adăugat, pentru a extinde capacitatea."
+        },
+        "risks": {
+          "risk1": "Investiția inițială de capital foarte ridicată, în echipamentul sălii de examinare, suitei chirurgicale și laboratorului de diagnostic, creează o expunere financiară semnificativă, înainte ca practica să genereze venituri.",
+          "risk2": "Expunerea la răspundere de malpraxis și conformitate privind substanțele controlate necesită o asigurare profesională robustă și practici riguroase de documentare clinică."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează costurile și marja ca fiind dominate de echipament și personal, cu abonamentul de wellness netezind variația lunară a veniturilor."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Un singur medic veterinar care chiar îți cunoaște animalul — o relație dedicată, nu un lanț corporativ rotativ, ancorată de un abonament recurent de wellness.",
+          "category": "Cabinet veterinar general pentru animale mici"
+        },
+        "brandPromise": "Animalul tău vede același medic veterinar de încredere, la fiecare vizită.",
+        "uvp": {
+          "statement": "O relație dedicată, fără grabă, cu un singur medic veterinar, ancorată de un abonament de wellness, care menține îngrijirea preventivă constantă.",
+          "diff1": "Același medic veterinar la fiecare vizită, distinct de lanțurile corporative cu asociați rotativi.",
+          "diff2": "Un abonament lunar de wellness, care grupează îngrijirea preventivă într-o taxă previzibilă și accesibilă."
+        },
+        "icp": {
+          "description": "Proprietari de animale din comunitatea din jur, care își tratează animalele ca membri ai familiei și doresc o relație dedicată cu un singur medic veterinar, nu cu oricare asociat aflat în tură.",
+          "firmographics": "Proprietari de câini și pisici, de obicei proprietari de locuințe sau chiriași stabiliți, care vin pentru consultații de wellness, vaccinări și ocazional proceduri chirurgicale sau dentare."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Proprietar dedicat familiei de animale de companie",
+            "description": "Un proprietar de animale care dorește îngrijire constantă, fără grabă, de la același medic veterinar și prețuiește o relație pe termen lung, nu doar conveniența."
+          },
+          "persona2": {
+            "name": "Abonat la planul de wellness",
+            "description": "Un client stabilit, înscris în abonamentul lunar de wellness, care programează consultații de rutină și vaccinări proactiv, nu reactiv."
+          }
+        },
+        "painPoints": {
+          "point1": "Îngrijire inconsistentă și vizite grăbite, la lanțuri veterinare corporative cu volum mare și asociați rotativi.",
+          "point2": "Costuri veterinare imprevizibile și neuniforme, care fac dificilă bugetarea îngrijirii unui animal."
+        },
+        "outcomes": {
+          "outcome1": "O relație constantă cu un singur medic veterinar, care cunoaște istoricul complet al animalului.",
+          "outcome2": "Costuri lunare previzibile, pentru îngrijirea preventivă de rutină, prin abonamentul de wellness."
+        },
+        "messaging": {
+          "core": "Un singur medic veterinar care chiar îți cunoaște animalul.",
+          "support1": "Îngrijire dedicată, costuri previzibile și o echipă care își amintește numele animalului tău."
+        },
+        "brandVoice": {
+          "tone": "Cald, plin de compasiune și profesionist",
+          "attr1": "De încredere",
+          "attr2": "Dedicat"
+        },
+        "contentPillars": {
+          "pillar1": "Educație despre wellness-ul preventiv al animalelor",
+          "pillar2": "Povești ale abonaților la planul de wellness"
+        },
+        "channelStrategy": "Prioritizează parteneriatele locale cu comunitatea pentru animale de companie și adăposturi, ca și canal principal, susținută de o prezență solidă de recenzii Google locale, cu conținut social pentru proprietarii de animale, ca un canal experimental.",
+        "community": {
+          "description": "O bază fidelă de abonați la planul de wellness, care revin constant și recomandă alți proprietari de animale.",
+          "platform1": "Grupuri locale de Facebook și Nextdoor pentru proprietarii de animale"
+        },
+        "leadMagnets": {
+          "magnet1": "Ofertă specială de consultație de wellness pentru pacientul nou, cu reducere la prima lună de abonament"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Descoperire prin parteneriat local sau căutare",
+            "description": "Un client potențial găsește cabinetul prin parteneriate locale cu comunitatea pentru animale de companie sau căutarea locală."
+          },
+          "stage2": {
+            "name": "Programarea consultației de wellness pentru pacientul nou",
+            "description": "Clientul potențial programează o consultație de wellness pentru pacientul nou al animalului său."
+          },
+          "stage3": {
+            "name": "Înscriere în planul de wellness",
+            "description": "Clientul este înscris în abonamentul lunar de wellness, la prima vizită sau la scurt timp după aceasta."
+          }
+        },
+        "retention": {
+          "tactic1": "Contactarea proactivă înainte de fiecare reînnoire a planului de wellness și dată de vaccinare, în loc să aștepți ca clientul să sune."
+        },
+        "analytics": {
+          "metric1": "Rata de reînnoire a abonaților la planul de wellness"
+        },
+        "aiMetadata": {
+          "generationHints": "Menține textul de marketing cald și plin de compasiune, fundamentat pe servicii și costuri reale — nu face niciodată referire la rezultate clinice specifice sau afirmații de diagnostic."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Asigură finanțarea cabinetului, finalizează amenajarea unității și obține licențierea veterinară, înregistrarea pentru substanțe controlate și asigurarea de malpraxis."
+          },
+          "deliverables": {
+            "0": "Un cabinet complet amenajat, licențiat și asigurat, pregătit pentru pacienți."
+          },
+          "checklist": {
+            "0": "Obține oferte detaliate, pe elemente, pentru echipamentul sălii de examinare, suitei chirurgicale și laboratorului de diagnostic intern, înainte de a finaliza suma de finanțare a cabinetului."
+          },
+          "commonMistakes": {
+            "0": "Subestimarea costurilor totale de echipament și amenajare, ceea ce duce la un deficit de finanțare, la mijlocul amenajării."
+          },
+          "successCriteria": {
+            "0": "Finanțarea, amenajarea, licențierea și asigurarea sunt toate confirmate și în vigoare."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a ajuta la organizarea și compararea ofertelor de echipament, pe elemente, de la mai mulți furnizori."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Proiectează și stabilește prețul nivelurilor abonamentului de wellness, înainte de deschidere, pentru a confirma că acoperă costurile de bază ale consultațiilor și vaccinărilor."
+          },
+          "deliverables": {
+            "0": "O structură de abonament de wellness stabilită ca preț, validată, gata de oferit la prima vizită."
+          },
+          "checklist": {
+            "0": "Modelează prețul abonamentului de wellness față de costul real al consultațiilor și vaccinărilor incluse, înainte de a-l finaliza."
+          },
+          "commonMistakes": {
+            "0": "Stabilirea unui preț prea mic pentru abonamentul de wellness, care nu acoperă de fapt costurile consultațiilor și vaccinărilor incluse."
+          },
+          "successCriteria": {
+            "0": "Prețul abonamentului de wellness este confirmat că acoperă costurile de bază, cu o marjă sustenabilă."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a modela diferite scenarii de preț și grupare a abonamentului de wellness, față de costurile de bază ale vizitelor."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Finalizează prima lună de consultații de wellness și vaccinări, pentru pacienții noi."
+          },
+          "deliverables": {
+            "0": "O primă lună completă de vizite ale pacienților noi, cu înscrierea în planul de wellness oferită la fiecare."
+          },
+          "checklist": {
+            "0": "Oferă înscrierea în planul de wellness fiecărui pacient nou, la finalul primei vizite."
+          },
+          "commonMistakes": {
+            "0": "Neoferirea înscrierii în planul de wellness încă de la primii pacienți, pierzând șansa de a construi devreme venituri recurente din abonament."
+          },
+          "successCriteria": {
+            "0": "Fiecare pacient din prima lună primește o ofertă de înscriere în planul de wellness, înainte de a părăsi cabinetul."
+          },
+          "aiRecommendations": {
+            "0": "Folosește rapoarte de gestionare a cabinetului, asistate de AI, pentru a confirma că ratele de înscriere în planul de wellness sunt pe drumul cel bun."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Lansează parteneriate locale cu comunitatea pentru animale de companie, generarea de recenzii Google și acțiuni de contactare a adăposturilor."
+          },
+          "deliverables": {
+            "0": "O prezență activă de parteneriate locale cu comunitatea pentru animale de companie și cel puțin 3 relații cu adăposturi sau organizații de salvare."
+          },
+          "checklist": {
+            "0": "Solicită activ recenzii Google, de la clienții noi mulțumiți, începând chiar din prima lună."
+          },
+          "commonMistakes": {
+            "0": "Bazarea exclusiv pe traficul spontan, pentru fluxul de pacienți, în loc să construiască și parteneriate locale cu comunitatea pentru animale de companie."
+          },
+          "successCriteria": {
+            "0": "Solicitări noi de pacienți vin săptămânal, din parteneriate locale sau căutare."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta mesaje de contactare, către adăposturi locale și organizații pentru comunitatea de animale de companie, pentru relații de parteneriat."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Transformă primul client nou mulțumit într-un abonat la planul de wellness și o sursă de recomandare."
+          },
+          "deliverables": {
+            "0": "Cel puțin un client înscris în abonamentul de wellness, care a recomandat un client nou."
+          },
+          "checklist": {
+            "0": "Solicită direct clienților mulțumiți recomandări, după a doua lor vizită reușită."
+          },
+          "commonMistakes": {
+            "0": "Neexistarea unei solicitări directe, către clienții stabiliți, de recomandări către prieteni și familie."
+          },
+          "successCriteria": {
+            "0": "Cel puțin un pacient nou este programat direct din recomandarea unui client existent."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta un șablon cald, plin de compasiune, de solicitare a unei recomandări, pentru personalul de recepție."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge un panou de clienți stabil, în creștere, cu o rată constantă de reînnoire a abonaților la planul de wellness."
+          },
+          "deliverables": {
+            "0": "Un panou de clienți documentat, stabil, cu o rată de reînnoire a planului de wellness urmărită."
+          },
+          "checklist": {
+            "0": "Confirmă că programul propriu al medicului veterinar fondator este constant plin, înainte de a adăuga personal clinic."
+          },
+          "commonMistakes": {
+            "0": "Adăugarea unui al doilea medic veterinar sau tehnician, înainte ca programul existent să fie constant plin."
+          },
+          "successCriteria": {
+            "0": "Programul medicului veterinar fondator este constant plin, cu o rată stabilă de reînnoire a planului de wellness."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza ce segmente de clienți au cea mai scăzută rată de reînnoire a planului de wellness și de ce."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Crește veniturile din procedurile chirurgicale și dentare, ca pondere din veniturile totale ale cabinetului."
+          },
+          "deliverables": {
+            "0": "O creștere documentată a ponderii veniturilor din procedurile chirurgicale și dentare."
+          },
+          "checklist": {
+            "0": "Introdu recomandările pentru proceduri chirurgicale sau dentare doar după cel puțin o vizită de wellness reușită, care a construit încrederea."
+          },
+          "commonMistakes": {
+            "0": "Prezentarea opțiunilor chirurgicale sau dentare opționale prea devreme, înainte ca încrederea să fie stabilită cu un client nou."
+          },
+          "successCriteria": {
+            "0": "Procedurile chirurgicale și dentare ating o pondere semnificativă, în creștere, din veniturile lunare totale."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a identifica pacienții stabiliți care necesită proceduri chirurgicale sau dentare, pe baza istoricului consultațiilor de wellness."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Adaugă un al doilea tehnician veterinar sau medic veterinar asociat, pentru a extinde capacitatea zilnică de pacienți."
+          },
+          "deliverables": {
+            "0": "Un al doilea tehnician veterinar sau medic veterinar asociat, complet integrat, cu o structură de compensare definită."
+          },
+          "checklist": {
+            "0": "Definește o structură clară de compensare și alocare a pacienților, în scris, înainte de a aduce un medic veterinar asociat."
+          },
+          "commonMistakes": {
+            "0": "Angajarea unui medic veterinar asociat, fără o structură clară de compensare și alocare a pacienților, cauzând tensiuni."
+          },
+          "successCriteria": {
+            "0": "Noul angajat atinge un program constant ocupat, în decurs de 6 luni."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a modela diferite structuri de compensare pentru medicul veterinar asociat, față de veniturile proiectate."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Evaluează deschiderea unei a doua locații de cabinet, odată ce prima este constant profitabilă și complet dotată cu personal."
+          },
+          "deliverables": {
+            "0": "Un caz de afaceri validat, pentru o a doua locație de cabinet."
+          },
+          "checklist": {
+            "0": "Confirmă că primul cabinet funcționează profitabil, cu un medic veterinar asociat acoperind absența fondatorului, înainte de a deschide o a doua locație."
+          },
+          "commonMistakes": {
+            "0": "Extinderea la o a doua locație, înainte ca primul cabinet să poată funcționa fără prezența zilnică a medicului veterinar fondator."
+          },
+          "successCriteria": {
+            "0": "Primul cabinet funcționează profitabil, timp de cel puțin 6 luni, fără prezența zilnică a fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza datele demografice locale privind deținerea de animale de companie și datele competitive, pentru posibile locații ale celei de-a doua locații."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Documentează panoul de clienți, baza de abonați la planul de wellness, structura personalului și evidențele echipamentului, pentru a pregăti cabinetul pentru vânzare, către un alt medic veterinar sau un grup veterinar."
+          },
+          "deliverables": {
+            "0": "Un pachet complet de diligență, cu evidențe ale clienților, personalului și echipamentului."
+          },
+          "checklist": {
+            "0": "Menține evidențe curate și complete ale clienților și echipamentului, în mod continuu, nu doar înainte de o vânzare."
+          },
+          "commonMistakes": {
+            "0": "Așteptarea apariției unei oportunități de vânzare, pentru a începe documentarea corespunzătoare a evidențelor clienților și istoricului de întreținere a echipamentului."
+          },
+          "successCriteria": {
+            "0": "Un potențial cumpărător ar putea finaliza diligența în întregime, din documentația existentă."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a ajuta la organizarea evidențelor răzlețe ale clienților și echipamentului, într-un pachet structurat de diligență."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține îndrumările din foaia de parcurs concrete despre licențiere, stabilirea prețului planului de wellness și disciplina de înscriere — adevăratele pârghii din această afacere, strict de planificare a afacerii, niciodată clinice."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Carte: „Veterinary Practice Management” de Charlotte Donnelly, DVM, MBA",
+          "description": "Un ghid financiar și operațional, pentru deschiderea și conducerea unui cabinet veterinar ca afacere."
+        },
+        "item2": {
+          "title": "Curs: Certificat de manager de spital veterinar (VHMA)",
+          "description": "Un certificat de educație continuă, care acoperă managementul cabinetului, personalul și conformitatea."
+        },
+        "item3": {
+          "title": "Comunitate: VIN (Veterinary Information Network)",
+          "description": "Un forum online activ de proprietari de cabinete, care împărtășesc sfaturi de afaceri, personal și management."
+        },
+        "item4": {
+          "title": "Podcast: „The Veterinary Growth Podcast”",
+          "description": "Interviuri cu proprietari de cabinete, despre creștere, marketing și operațiuni."
+        },
+        "item5": {
+          "title": "Newsletter: AVMA News",
+          "description": "Știri din industrie și îndrumări de management al cabinetului, de la Asociația Americană de Medicină Veterinară."
+        },
+        "item6": {
+          "title": "Software: ezyVet",
+          "description": "Software de gestionare a cabinetului, pentru programare, facturare și evidențe ale pacienților."
+        },
+        "item7": {
+          "title": "Software: IDEXX",
+          "description": "Software și echipament de laborator de diagnostic intern, pentru documentare clinică."
+        },
+        "item8": {
+          "title": "Instrument AI: asistent de triaj al rezultatelor de laborator",
+          "description": "Triaj al rezultatelor de laborator, asistat de AI, care semnalează cazurile prioritare, pentru o revizuire mai rapidă a medicului veterinar."
+        },
+        "item9": {
+          "title": "Certificare: Licențierea veterinară",
+          "description": "Licența profesională necesară, pentru a practica medicina veterinară și a deține un cabinet veterinar."
+        },
+        "item10": {
+          "title": "Eveniment: Convenția anuală a Asociației Americane de Medicină Veterinară (AVMA)",
+          "description": "Principala conferință anuală din industrie, pentru educație continuă și managementul cabinetului."
+        },
+        "item11": {
+          "title": "Expert: un consultant financiar pentru cabinete veterinare",
+          "description": "Ajută la structurarea finanțării echipamentului și evaluarea cabinetului, pentru un cabinet nou sau în creștere."
+        },
+        "item12": {
+          "title": "Listă de verificare: Admiterea pacientului nou și înscrierea în planul de wellness",
+          "description": "Un proces documentat, pentru admiterea pacientului nou și înscrierea în abonamentul de wellness."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritizează resursele despre managementul cabinetului, proiectarea planului de wellness și planificarea financiară — adevăratele diferențiatoare din această afacere."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Abonamentele de wellness, oferite clienților deja încrezători, la prima lor vizită, convertesc mult mai bine decât o propunere ulterioară, la o dată mai târzie."
+          },
+          "item2": {
+            "title": "Capacitatea de laborator de diagnostic intern captează venituri din aceeași zi, care altfel s-ar pierde către un laborator extern de referință și o vizită de urmărire întârziată."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Termenii de finanțare a echipamentului pot afecta semnificativ fluxul de numerar timpuriu — o rată puțin mai proastă se acumulează, pe un principal de împrumut foarte ridicat."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Stabilirea prețului abonamentului de wellness, fără a-l modela față de costul real al consultațiilor și vaccinărilor incluse, erodând marja."
+          },
+          "item2": {
+            "title": "Supra-investirea în echipament premium, înainte de a confirma un volum sustenabil de pacienți, care să susțină plățile."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Oferirea înscrierii în planul de wellness chiar la prima vizită captează mult mai mulți abonați decât să aștepți o conversație de urmărire."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Confirmă că programul propriu al medicului veterinar fondator este constant plin, înainte de a adăuga orice personal clinic — un asociat subprogramat este o povară pură de cost."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Modelează prețul planului de wellness față de costurile reale ale vizitelor, înainte de deschidere — un plan subevaluat erodează discret marja, ani de zile."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Cabinetele cu o disciplină puternică de înscriere în planul de wellness arată o retenție pe termen lung a clienților, semnificativ mai mare, decât cele care se bazează doar pe facturarea per vizită."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Mulți proprietari de animale de companie aleg un cabinet veterinar în principal pe baza continuității relației cu un singur medic veterinar, nu a prețului — modelul cu asociați rotativi al lanțurilor corporative este o slăbiciune reală, exploatabilă."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Costurile de întreținere și reactivi ale echipamentului de laborator de diagnostic intern sunt adesea subestimate, față de prețul inițial de achiziție."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Disponibilitatea crescândă a proprietarilor de animale de companie de a plăti pentru îngrijire preventivă previzibilă, bazată pe abonament, semnalează spațiu pentru creșterea veniturilor din planul de wellness, dincolo de facturarea pură per vizită."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Un cabinet nou deschis a atins pragul de rentabilitate în mai puțin de 16 luni, înscriind majoritatea clienților noi în abonamentul de wellness, chiar de la prima lor vizită."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un cabinet care a subevaluat abonamentul de wellness, fără a modela costurile de bază, a descoperit că planul pierdea discret bani, la fiecare client înscris."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Acest pachet include îndrumări clinice sau de tratament?",
+            "answer": "Nu — acest pachet conține doar conținut de planificare a afacerii, acoperind cum să finanțezi, dotezi cu personal și crești un cabinet veterinar ca afacere. Nu include protocoale de tratament, criterii de diagnostic sau orice îndrumare clinică."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Un cabinet veterinar are succes garantat, odată ce este licențiat și deschis.",
+            "fact": "Licențierea este doar cerința de intrare — disciplina de înscriere în planul de wellness, construirea încrederii clienților și îngrijirea constantă determină dacă cabinetul atinge de fapt un volum sustenabil de pacienți."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Confirmă statutul planului de wellness al clientului și costul estimat din surse proprii, înainte de a începe orice procedură chirurgicală sau dentară opțională."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține informațiile fundamentate în managementul cabinetului, proiectarea planului de wellness și disciplina de înscriere — niciodată conținut clinic sau de diagnostic."
+        }
+      }
+    },
+    "psychologyPractice": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: „How to Build a Thriving Private Practice”",
+          "course1": "Curs: Certificat de bază pentru practica privată (educație continuă)",
+          "community1": "Comunitate: forumul online pentru proprietarii de practici private",
+          "checklist1": "Listă de verificare: Admiterea clientului nou și apelul de consultație"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognozează veniturile pe baza apelurilor de admitere a clienților noi și a retenției ședințelor săptămânale — un volum recurent complet crește previzibil, odată ce este stabilit un flux constant de recomandări."
+        },
+        "breakEven": {
+          "notes": "Pragul de rentabilitate apare de obicei în jurul lunii 6, dată fiind investiția inițială scăzută — cel mai rapid drum către pragul de rentabilitate, dintre cele trei afaceri de sănătate licențiate din această bibliotecă."
+        },
+        "grossMargin": {
+          "notes": "Marja brută se menține în jur de 78%, date fiind costurile generale minime și lipsa personalului necesar."
+        },
+        "netMargin": {
+          "notes": "Marja netă se stabilizează în jur de 55%, odată ce costurile de software, asigurare și spațiu de cabinet sunt luate în calcul — cea mai mare marjă dintre afacerile de sănătate licențiate din această bibliotecă."
+        },
+        "scenarios": {
+          "conservative": "Un scenariu de creștere lentă, cu un volum parțial de clienți și o adoptare limitată a prețului pachetului.",
+          "expected": "Un scenariu realist, cu un volum săptămânal stabil de clienți și o pondere moderată de clienți pe pachetul lunar.",
+          "optimistic": "Un scenariu puternic, cu un volum complet de clienți și formarea unei liste de așteptare, determinând luarea în considerare a unei creșteri de tarif."
+        },
+        "risks": {
+          "risk1": "Obligațiile de răspundere profesională și confidențialitate/conformitate necesită o asigurare robustă și practici riguroase de documentare.",
+          "risk2": "Venitul este direct limitat de propriul volum de clienți și ore al unui singur practician, fără pârghia unui personal, care să absoarbă o perioadă lentă de achiziție a clienților."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează costurile și marja ca fiind minim generale și determinate de onorariile de ședință — cea mai scăzută intensitate de capital dintre practicile de sănătate licențiate din această bibliotecă."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Un spațiu privat și stabil, pentru a trece prin ceea ce te apasă — ședințe seara și dimineața devreme, care se potrivesc programului de lucru complet.",
+          "category": "Cabinet de psihoterapie solo, cu plată directă"
+        },
+        "brandPromise": "Vei avea mereu același spațiu privat și stabil, care te așteaptă.",
+        "uvp": {
+          "statement": "O relație constantă, privată, cu un singur terapeut, cu ședințe seara și dimineața devreme, disponibile prin telemedicină sau în persoană.",
+          "diff1": "Flexibilitate de programare, în afara orelor standard de zi, distinctă de practicile care oferă doar intervale rigide, în persoană, în timpul zilei.",
+          "diff2": "Același terapeut, la fiecare ședință, distinct de platformele mari de terapie online, cu alocare rotativă a terapeutului."
+        },
+        "icp": {
+          "description": "Profesioniști activi, cu vârste între 25-45 ani, din comunitatea din jur, care trec prin anxietate, stres și tranziții de viață și doresc o relație constantă, privată, cu un singur terapeut.",
+          "firmographics": "Profesioniști angajați, cu program complet, care caută de obicei ședințe săptămânale sau bisăptămânale, în afara orelor standard de lucru."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Profesionist activ, care gestionează stresul",
+            "description": "Un profesionist angajat cu normă întreagă, care navighează stresul sau anxietatea legate de muncă și are nevoie de ore de programare, în afara programului standard de lucru."
+          },
+          "persona2": {
+            "name": "Client aflat într-o tranziție de viață",
+            "description": "Un client stabilit, care trece printr-o tranziție semnificativă de viață și prețuiește o relație constantă, în curs, cu același terapeut."
+          }
+        },
+        "painPoints": {
+          "point1": "Dificultatea de a găsi un terapeut cu disponibilitate reală, în afara orelor standard de lucru din timpul zilei.",
+          "point2": "Frustrarea legată de alocarea rotativă a terapeutului, la platformele mari de terapie online, care perturbă continuitatea îngrijirii."
+        },
+        "outcomes": {
+          "outcome1": "O ședință săptămânală constantă, privată, cu același terapeut, programată în jurul unui program de lucru complet.",
+          "outcome2": "Un spațiu stabil, fără judecăți, pentru a trece prin provocări în curs, de-a lungul timpului."
+        },
+        "messaging": {
+          "core": "Un spațiu privat și stabil, pentru a trece prin ceea ce te apasă.",
+          "support1": "Același terapeut, la fiecare ședință, într-un program care se potrivește zilei tale de lucru."
+        },
+        "brandVoice": {
+          "tone": "Cald, profesionist și echilibrat",
+          "attr1": "De încredere",
+          "attr2": "Constant"
+        },
+        "contentPillars": {
+          "pillar1": "Gestionarea stresului și anxietății, ca profesionist activ",
+          "pillar2": "Navigarea tranzițiilor de viață"
+        },
+        "channelStrategy": "Prioritizează relațiile de recomandare profesională, cu psihiatri și medici locali, ca și canal principal, susținută de o listare pe un director online de terapeuți, cu parteneriate ale programelor de asistență pentru angajați, ca un canal experimental.",
+        "community": {
+          "description": "O bază privată de clienți săptămânali, în curs, care prețuiesc continuitatea și recomandă ocazional colegi sau prieteni.",
+          "platform1": "Listare pe un director online de terapeuți"
+        },
+        "leadMagnets": {
+          "magnet1": "Consultație telefonică gratuită de 15 minute, pentru a confirma potrivirea client-terapeut"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Descoperire prin recomandare sau director",
+            "description": "Un client potențial găsește cabinetul printr-o recomandare profesională sau o listare pe un director online de terapeuți."
+          },
+          "stage2": {
+            "name": "Apel de consultație gratuit",
+            "description": "Clientul potențial programează o consultație telefonică gratuită de 15 minute, pentru a confirma potrivirea."
+          },
+          "stage3": {
+            "name": "Programare de ședință săptămânală recurentă",
+            "description": "Clientul programează un interval fix de ședință săptămânală sau bisăptămânală recurentă, după prima ședință plătită."
+          }
+        },
+        "retention": {
+          "tactic1": "Oferirea fiecărui client, a unui interval de timp săptămânal recurent fix, încă din prima lor ședință."
+        },
+        "analytics": {
+          "metric1": "Rata de retenție săptămânală a clienților"
+        },
+        "aiMetadata": {
+          "generationHints": "Menține textul de marketing cald și profesionist, fundamentat pe flexibilitatea reală a programării și onorarii — nu face niciodată referire la rezultate clinice specifice, afirmații de diagnostic sau eficacitatea tratamentului."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Confirmă licențierea de stat, asigură asigurarea de răspundere profesională și configurează software-ul de gestionare a cabinetului și telemedicină, conform cu reglementările de confidențialitate."
+          },
+          "deliverables": {
+            "0": "Un cabinet complet licențiat și asigurat, cu software conform, pregătit pentru clienți."
+          },
+          "checklist": {
+            "0": "Confirmă că software-ul de gestionare a cabinetului îndeplinește cerințele de confidențialitate și conformitate, înainte de a finaliza abonamentul."
+          },
+          "commonMistakes": {
+            "0": "Alegerea software-ului de gestionare a cabinetului, înainte de a confirma că îndeplinește cerințele de confidențialitate și conformitate, din jurisdicția cabinetului."
+          },
+          "successCriteria": {
+            "0": "Licențierea, asigurarea și software-ul conform sunt toate confirmate și în vigoare."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a ajuta la compararea opțiunilor de software de gestionare a cabinetului, față de cerințele de conformitate."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Confirmă că structura de preț cu plată directă/în afara rețelei acoperă venitul lunar țintă, prin apeluri de consultație de admitere gratuite, cu clienți potențiali."
+          },
+          "deliverables": {
+            "0": "O structură de preț a ședințelor, validată prin cel puțin 10 apeluri de consultație de admitere."
+          },
+          "checklist": {
+            "0": "Confirmă ce percep terapeuții locali comparabili, cu plată directă, pentru aceeași nișă de specialitate, înainte de a finaliza prețul ședințelor."
+          },
+          "commonMistakes": {
+            "0": "Stabilirea prețului ședințelor, fără a confirma mai întâi ce percep terapeuții locali comparabili, cu plată directă, pentru aceeași nișă de specialitate."
+          },
+          "successCriteria": {
+            "0": "Prețul ședințelor este confirmat că se potrivește cererii și potrivirii pentru nișa țintă."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a cerceta prețurile tipice ale ședințelor cu plată directă, pentru nișa de specialitate și geografia țintă."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Finalizează prima lună de apeluri de consultație de admitere și primele ședințe plătite."
+          },
+          "deliverables": {
+            "0": "O primă lună completă de ședințe ale clienților, cu un interval recurent fix oferit fiecăruia."
+          },
+          "checklist": {
+            "0": "Oferă fiecărui client nou un interval de timp săptămânal recurent fix, încă din prima lor ședință."
+          },
+          "commonMistakes": {
+            "0": "Neconfigurarea unui interval de timp săptămânal recurent, cu primii clienți, îngreunând stabilirea unei programări constante, în curs."
+          },
+          "successCriteria": {
+            "0": "Fiecare client din prima lună are un interval de ședință recurent fix."
+          },
+          "aiRecommendations": {
+            "0": "Folosește rapoarte de programare, asistate de AI, pentru a confirma că adoptarea intervalelor recurente este pe drumul cel bun."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Lansează relații de recomandare profesională, cu psihiatri și medici locali, și o listare pe un director online de terapeuți."
+          },
+          "deliverables": {
+            "0": "O listare activă pe un director de terapeuți și cel puțin 5-10 relații de recomandare profesională."
+          },
+          "checklist": {
+            "0": "Contactează direct 5-10 psihiatri sau medici locali, pentru a prezenta cabinetul și nișa sa de specialitate."
+          },
+          "commonMistakes": {
+            "0": "Bazarea exclusiv pe listările din directoare, pentru fluxul de clienți, în loc să construiască și relații directe de recomandare profesională."
+          },
+          "successCriteria": {
+            "0": "Solicitări noi de clienți vin săptămânal, din recomandări sau listarea din director."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta mesaje de contactare, către psihiatri și medici locali, pentru relații de recomandare."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Transformă primul client mulțumit într-un client săptămânal, în curs, și o sursă de recomandare."
+          },
+          "deliverables": {
+            "0": "Cel puțin un client săptămânal, în curs, care a recomandat un client nou."
+          },
+          "checklist": {
+            "0": "Menționează clienților mulțumiți, în curs, că cabinetul acceptă clienți noi, odată ce încrederea este bine stabilită."
+          },
+          "commonMistakes": {
+            "0": "Neexistarea unei întrebări directe, către clienții stabiliți, dacă cunosc pe altcineva care ar putea beneficia de cabinet."
+          },
+          "successCriteria": {
+            "0": "Cel puțin un client nou este programat direct din recomandarea unui client existent."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta un mod cald și profesionist de a menționa disponibilitatea pentru clienți noi, către clienții existenți."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge un volum săptămânal complet și stabil de clienți, cu o rată constantă de retenție a clienților."
+          },
+          "deliverables": {
+            "0": "Un volum săptămânal documentat, stabil, de clienți, cu o rată de retenție urmărită."
+          },
+          "checklist": {
+            "0": "Stabilește un plafon săptămânal ferm de volum de clienți, înainte de a-l atinge, și pornește o listă de așteptare, odată ce plafonul este atins."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea de clienți noi, dincolo de o limită sustenabilă de volum, riscând epuizarea și îngrijirea de calitate mai scăzută."
+          },
+          "successCriteria": {
+            "0": "Un plafon săptămânal ferm de volum de clienți este stabilit și menținut constant."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza ce surse de recomandare produc cea mai constantă retenție a clienților pe termen lung."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Construiește o listă de așteptare constantă a clienților și evaluează o creștere a tarifului pe ședință."
+          },
+          "deliverables": {
+            "0": "O listă de așteptare documentată, constantă, a clienților și un plan evaluat de creștere a tarifului."
+          },
+          "checklist": {
+            "0": "Oferă clienților existenți un preaviz scris de cel puțin 60 de zile, înainte ca orice creștere a tarifului pe ședință să intre în vigoare."
+          },
+          "commonMistakes": {
+            "0": "Creșterea tarifelor pe ședință, fără a comunica clar schimbarea și cu un preaviz rezonabil, clienților existenți."
+          },
+          "successCriteria": {
+            "0": "O creștere de tarif este implementată, cu un preaviz de cel puțin 60 de zile către clienți și atriție minimă a clienților."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a modela impactul asupra veniturilor, al diferitelor scenarii de creștere a tarifului pe ședință."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Adu un al doilea clinician asociat, pentru a extinde capacitatea, odată ce s-a format o listă de așteptare constantă."
+          },
+          "deliverables": {
+            "0": "Un al doilea clinician asociat, complet integrat, cu o structură de compensare și direcționare a recomandărilor, definită."
+          },
+          "checklist": {
+            "0": "Definește o structură clară de compensare și direcționare a recomandărilor de clienți, în scris, înainte de a aduce un clinician asociat."
+          },
+          "commonMistakes": {
+            "0": "Aducerea unui clinician asociat, fără o structură clară de compensare și direcționare a recomandărilor, cauzând tensiuni."
+          },
+          "successCriteria": {
+            "0": "Noul clinician asociat atinge un program constant ocupat, în decurs de 6 luni."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a modela diferite structuri de compensare pentru clinicianul asociat, față de veniturile proiectate."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Evaluează evoluția către un mic cabinet de grup, cu mai mulți clinicieni, sub un sistem partajat de gestionare a cabinetului și facturare."
+          },
+          "deliverables": {
+            "0": "Un caz de afaceri validat, pentru o structură de cabinet de grup mic."
+          },
+          "checklist": {
+            "0": "Confirmă că prima relație cu clinicianul asociat a funcționat profitabil și fără probleme, timp de cel puțin 6 luni, înainte de a adăuga un al treilea clinician."
+          },
+          "commonMistakes": {
+            "0": "Extinderea către o structură de cabinet de grup, înainte ca prima relație cu clinicianul asociat să se fi dovedit stabilă și sustenabilă."
+          },
+          "successCriteria": {
+            "0": "Prima relație cu clinicianul asociat funcționează profitabil, timp de cel puțin 6 luni."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza datele demografice locale și de rețea de recomandări, pentru potențialul de extindere a cabinetului de grup."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Documentează relațiile de recomandare, sistemele cabinetului și (într-o manieră complet conformă și confidențială) baza de clienți, pentru a pregăti cabinetul pentru tranziția către un alt clinician licențiat sau cabinet de grup."
+          },
+          "deliverables": {
+            "0": "Un pachet complet, complet conform, de documentare a relațiilor de recomandare și sistemelor cabinetului."
+          },
+          "checklist": {
+            "0": "Menține o documentare curată, completă și complet conformă, a relațiilor de recomandare și sistemelor cabinetului, în mod continuu, nu doar înainte de o tranziție."
+          },
+          "commonMistakes": {
+            "0": "Așteptarea până când o tranziție este iminentă, pentru a începe documentarea corespunzătoare a relațiilor de recomandare și sistemelor cabinetului."
+          },
+          "successCriteria": {
+            "0": "Un potențial succesor ar putea finaliza o tranziție în întregime, din documentația existentă, conformă."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a ajuta la organizarea documentației răzlețe a relațiilor de recomandare și sistemelor cabinetului, într-un pachet structurat de tranziție."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține îndrumările din foaia de parcurs concrete despre licențiere, disciplina volumului de clienți și relațiile de recomandare — adevăratele pârghii din această afacere, strict de planificare a afacerii, niciodată clinice."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Carte: „How to Build a Thriving Private Practice”",
+          "description": "Un ghid financiar și operațional, pentru deschiderea și conducerea unui cabinet de psihoterapie solo, ca afacere."
+        },
+        "item2": {
+          "title": "Curs: Certificat de bază pentru practica privată",
+          "description": "Un certificat de educație continuă, care acoperă managementul cabinetului, licențierea și conformitatea, pentru practica privată."
+        },
+        "item3": {
+          "title": "Comunitate: Proprietarii de practici private",
+          "description": "Un forum online activ de proprietari de cabinete, care împărtășesc sfaturi de afaceri, recomandări și management."
+        },
+        "item4": {
+          "title": "Podcast: „The Testing Psychologist Podcast”",
+          "description": "Interviuri cu proprietari de cabinete, despre creștere, recomandări și operațiuni."
+        },
+        "item5": {
+          "title": "Newsletter: Private Practice Toolbox",
+          "description": "Știri din industrie și îndrumări de management al cabinetului, pentru practici de terapie solo și de grup."
+        },
+        "item6": {
+          "title": "Software: SimplePractice",
+          "description": "Software de gestionare a cabinetului, pentru programare, facturare, telemedicină securizată și documentare clinică."
+        },
+        "item7": {
+          "title": "Software: Alma",
+          "description": "O rețea de acreditare a asigurărilor și potrivire cu clienți, pentru terapeuții cu plată directă."
+        },
+        "item8": {
+          "title": "Instrument AI: asistent pentru șabloane de note de ședință",
+          "description": "Șabloane de note de ședință, asistate de AI, care accelerează documentarea administrativă, între ședințe."
+        },
+        "item9": {
+          "title": "Certificare: Licențierea de stat",
+          "description": "Licența profesională necesară, pentru a practica psihoterapia și a deține un cabinet privat."
+        },
+        "item10": {
+          "title": "Eveniment: Conferință regională de afaceri pentru practica privată",
+          "description": "O conferință anuală, axată în mod specific pe latura de afaceri a conducerii unui cabinet de terapie privat."
+        },
+        "item11": {
+          "title": "Expert: un consultant financiar sau de afaceri pentru practica privată",
+          "description": "Ajută la structurarea prețurilor, taxelor și planificării creșterii, pentru un cabinet solo nou sau în creștere."
+        },
+        "item12": {
+          "title": "Listă de verificare: Admiterea clientului nou și apelul de consultație",
+          "description": "Un proces documentat, pentru apelurile de consultație de admitere gratuite și integrarea clienților noi."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritizează resursele despre managementul cabinetului, construirea recomandărilor și planificarea financiară, pentru practicieni solo — adevăratele diferențiatoare din această afacere."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Oferirea unui interval săptămânal recurent fix, chiar la prima ședință, transformă mult mai mulți clienți în clienți stabili, pe termen lung, decât lăsarea programării deschisă."
+          },
+          "item2": {
+            "title": "Un număr mic de relații profunde de recomandare profesională, cu psihiatri sau medici locali, depășește adesea marketingul larg prin listări în directoare."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Venitul unui singur practician nu are pârghia unui personal, care să absoarbă o perioadă lentă de achiziție a clienților, spre deosebire de un cabinet cu personal."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Subevaluarea ședințelor, față de terapeuții locali comparabili, cu plată directă, îngreunând susținerea cabinetului pe termen lung."
+          },
+          "item2": {
+            "title": "Acceptarea de clienți noi, dincolo de o limită sustenabilă de volum săptămânal, riscând epuizarea și îngrijirea de calitate mai scăzută."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "O consultație gratuită de 15 minute, înainte de prima ședință plătită, îmbunătățește potrivirea client-terapeut și reduce atriția timpurie a clienților."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Confirmă că s-a format o listă de așteptare constantă, înainte de a aduce un al doilea clinician asociat — un asociat subprogramat este o povară pură de cost, într-un cabinet mic."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Stabilește un plafon săptămânal ferm de volum de clienți, înainte de deschidere, nu după — este cea mai clară pârghie pentru prevenirea epuizării, într-un cabinet solo."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Cabinetele cu o politică de interval recurent fix, de la prima ședință, arată o retenție pe termen lung a clienților, semnificativ mai mare, decât cele care se bazează pe reprogramare, ședință cu ședință."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Mulți clienți aleg un terapeut în principal pe baza potrivirii programului și specialității, nu a prețului — disponibilitatea seara și dimineața devreme este o nișă cu adevărat subdeservită."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Costurile de educație continuă și consultație clinică, necesare pentru menținerea licenței, sunt adesea subestimate, față de veniturile din onorariile de ședință."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cererea în creștere pentru programarea flexibilă a terapiei, prietenoasă cu profesioniștii activi, semnalează spațiu de creștere, dincolo de practicile cu ore standard de zi."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Un cabinet nou deschis a atins pragul de rentabilitate în mai puțin de 6 luni, oferind intervale săptămânale recurente fixe, încă de la prima ședință a fiecărui client."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un cabinet care a lăsat programarea deschisă, în loc să ofere intervale recurente fixe, s-a confruntat cu venituri inconstante, din cauza reprogramării imprevizibile."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Acest pachet include îndrumări clinice sau de tratament?",
+            "answer": "Nu — acest pachet conține doar conținut de planificare a afacerii, acoperind cum să licențiezi, stabilești prețul, programezi și crești un cabinet de psihoterapie, ca afacere. Nu include modalități de tratament, criterii de diagnostic, tehnici de intervenție sau orice îndrumare clinică."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Un cabinet de terapie solo are succes garantat, odată ce terapeutul este licențiat și deschis.",
+            "fact": "Licențierea este doar cerința de intrare — construirea relațiilor de recomandare, disciplina volumului de clienți și programarea constantă determină dacă cabinetul atinge de fapt un volum sustenabil de clienți."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Oferă o consultație telefonică gratuită de 15 minute, înainte de fiecare primă ședință plătită, pentru a confirma potrivirea client-terapeut și a stabili așteptările."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține informațiile fundamentate în managementul cabinetului, construirea recomandărilor și disciplina volumului de clienți — niciodată conținut clinic sau de diagnostic."
+        }
+      }
     }
   }
 }

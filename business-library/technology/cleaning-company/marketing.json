@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.cleaningCompany.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.cleaningCompany.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.cleaningCompany.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.cleaningCompany.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.cleaningCompany.marketing.uvp.diff1",
+      "businessLibrary.cleaningCompany.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2c",
+    "descriptionTranslationKey": "businessLibrary.cleaningCompany.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.cleaningCompany.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.cleaningCompany.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.cleaningCompany.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.cleaningCompany.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.cleaningCompany.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.cleaningCompany.marketing.painPoints.point1",
+      "businessLibrary.cleaningCompany.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.cleaningCompany.marketing.outcomes.outcome1",
+      "businessLibrary.cleaningCompany.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.cleaningCompany.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.cleaningCompany.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.cleaningCompany.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.cleaningCompany.marketing.brandVoice.attr1",
+      "businessLibrary.cleaningCompany.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.cleaningCompany.marketing.contentPillars.pillar1",
+      "businessLibrary.cleaningCompany.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "neighborhoodDoorHangersAndReferrals",
+      "googleBusinessProfileAndLocalSeo",
+      "facebookLocalCommunityGroups"
+    ],
+    "strategyTranslationKey": "businessLibrary.cleaningCompany.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.cleaningCompany.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.cleaningCompany.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.cleaningCompany.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.cleaningCompany.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.cleaningCompany.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.cleaningCompany.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.cleaningCompany.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.cleaningCompany.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.cleaningCompany.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.cleaningCompany.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.cleaningCompany.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "customerRetention",
+      "leadConversion"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.cleaningCompany.marketing.aiMetadata.generationHints"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.beautySalon.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.beautySalon.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.beautySalon.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.beautySalon.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.beautySalon.marketing.uvp.diff1",
+      "businessLibrary.beautySalon.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2c",
+    "descriptionTranslationKey": "businessLibrary.beautySalon.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.beautySalon.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.beautySalon.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.beautySalon.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.beautySalon.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.beautySalon.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.beautySalon.marketing.painPoints.point1",
+      "businessLibrary.beautySalon.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.beautySalon.marketing.outcomes.outcome1",
+      "businessLibrary.beautySalon.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.beautySalon.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.beautySalon.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.beautySalon.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.beautySalon.marketing.brandVoice.attr1",
+      "businessLibrary.beautySalon.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.beautySalon.marketing.contentPillars.pillar1",
+      "businessLibrary.beautySalon.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "instagramAndBeforeAfterPortfolio",
+      "clientReferralProgram",
+      "localInfluencerPartnerships"
+    ],
+    "strategyTranslationKey": "businessLibrary.beautySalon.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.beautySalon.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.beautySalon.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.beautySalon.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.beautySalon.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.beautySalon.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.beautySalon.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.beautySalon.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.beautySalon.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.beautySalon.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.beautySalon.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.beautySalon.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "customerRetention",
+      "leadConversion"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.beautySalon.marketing.aiMetadata.generationHints"
+  }
+}

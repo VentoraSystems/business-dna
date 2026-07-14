@@ -1,0 +1,955 @@
+{
+  "identity": {
+    "id": "8bd1f357-880e-4edc-82a7-031312a41571",
+    "slug": "veterinary-clinic",
+    "version": "1.0.0",
+    "name": {
+      "en": "Willowbrook Veterinary Clinic",
+      "ro": "Willowbrook Veterinary Clinic"
+    },
+    "tagline": {
+      "en": "One vet who actually knows your pet.",
+      "ro": "Un veterinar care chiar îți cunoaște animalul."
+    },
+    "createdAt": "2026-07-14T00:00:00.000Z",
+    "updatedAt": "2026-07-14T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theSpecialist",
+      "theOperator"
+    ],
+    "summary": {
+      "en": "Best suited to a licensed veterinarian with several years of clinical experience who is ready to carry the regulatory, financial, and staffing responsibility of owning a practice — this is business-planning guidance only, not veterinary medical training, and assumes real licensure and clinical competence are already in place.",
+      "ro": "Potrivit unui medic veterinar licențiat, cu câțiva ani de experiență clinică, pregătit să preia responsabilitatea de reglementare, financiară și de personal a deținerii unei clinici — acestea sunt îndrumări de planificare a afacerii, nu instruire medicală veterinară, și presupun că licențierea și competența clinică reale sunt deja în vigoare."
+    },
+    "minimumExperienceYears": 4
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 75000,
+      "maxInvestment": 170000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 11000,
+      "ongoingMonthlyCostMax": 26000,
+      "notes": {
+        "en": "Covers exam rooms, surgical suite equipment, in-house diagnostic lab equipment, buildout, and initial staffing — a Very High budget tier driven by specialized clinical and surgical equipment.",
+        "ro": "Acoperă cabinetele de consultație, echipamentul sălii de operație, echipamentul de laborator diagnostic intern, amenajarea și personalul inițial — un nivel de buget Foarte Ridicat, determinat de echipamentul clinic și chirurgical specializat."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "examRoomsAndSurgicalSuiteEquipment",
+          "label": {
+            "en": "Exam rooms and surgical suite equipment",
+            "ro": "Cabinete de consultație și echipament de sală de operație"
+          },
+          "typicalMin": 35000,
+          "typicalMax": 75000
+        },
+        {
+          "key": "inHouseDiagnosticLabEquipment",
+          "label": {
+            "en": "In-house diagnostic lab and imaging equipment",
+            "ro": "Echipament de laborator diagnostic intern și imagistică"
+          },
+          "typicalMin": 15000,
+          "typicalMax": 35000
+        },
+        {
+          "key": "boardingAndKennelSetup",
+          "label": {
+            "en": "Boarding and recovery kennel setup",
+            "ro": "Configurarea cuștilor de recuperare și cazare"
+          },
+          "typicalMin": 5000,
+          "typicalMax": 15000
+        },
+        {
+          "key": "practiceBuildoutAndFrontOfficeSetup",
+          "label": {
+            "en": "Practice buildout and front-office setup",
+            "ro": "Amenajarea clinicii și configurarea recepției"
+          },
+          "typicalMin": 15000,
+          "typicalMax": 35000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "practiceLeaseOrMortgage",
+          "label": {
+            "en": "Practice space lease or mortgage",
+            "ro": "Chiria sau ipoteca spațiului clinicii"
+          },
+          "typicalMonthlyMin": 2200,
+          "typicalMonthlyMax": 5500
+        },
+        {
+          "key": "clinicalAndFrontOfficeStaffWages",
+          "label": {
+            "en": "Vet tech, assistant, and front-office staff wages",
+            "ro": "Salariile tehnicianului veterinar, asistentului și personalului de recepție"
+          },
+          "typicalMonthlyMin": 6500,
+          "typicalMonthlyMax": 15000
+        },
+        {
+          "key": "malpracticeAndProfessionalLiabilityInsurance",
+          "label": {
+            "en": "Malpractice and professional liability insurance",
+            "ro": "Asigurarea de malpraxis și răspundere profesională"
+          },
+          "typicalMonthlyMin": 400,
+          "typicalMonthlyMax": 1000
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "wellnessExamsAndVaccinations",
+          "label": {
+            "en": "Wellness exams and vaccination visits",
+            "ro": "Examinări de bunăstare și vizite de vaccinare"
+          }
+        },
+        {
+          "key": "surgicalAndDentalProcedures",
+          "label": {
+            "en": "Surgical and dental procedures (spay/neuter, dental cleanings)",
+            "ro": "Proceduri chirurgicale și dentare (sterilizare, curățări dentare)"
+          }
+        },
+        {
+          "key": "monthlyWellnessPlanSubscription",
+          "label": {
+            "en": "Monthly wellness plan subscriptions",
+            "ro": "Abonamente lunare de plan de bunăstare"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 14000,
+      "targetMonthlyIncomeMax": 42000,
+      "breakEvenTimelineMonths": 16,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Routine wellness visits collect quickly at time of service, but the wellness-plan subscription and larger surgical cases smooth and moderate overall cash flow speed.",
+        "ro": "Vizitele de bunăstare de rutină se încasează rapid, la momentul serviciului, dar abonamentul planului de bunăstare și cazurile chirurgicale mai mari netezesc și moderează viteza globală a fluxului de numerar."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate",
+      "notes": {
+        "en": "Equipment, lease, and clinical staffing costs keep margin moderate despite premium surgical and diagnostic service pricing.",
+        "ro": "Costurile de echipament, chirie și personal clinic mențin marja moderată, în ciuda prețurilor premium pentru serviciile chirurgicale și diagnostice."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "inPerson",
+    "travelRequirement": "none",
+    "onlineOffline": "offline",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 45,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 3
+      },
+      {
+        "key": "marketing",
+        "rating": 4
+      },
+      {
+        "key": "leadership",
+        "rating": 6
+      },
+      {
+        "key": "communication",
+        "rating": 7
+      },
+      {
+        "key": "negotiation",
+        "rating": 3
+      },
+      {
+        "key": "finance",
+        "rating": 5
+      },
+      {
+        "key": "operations",
+        "rating": 7
+      },
+      {
+        "key": "technology",
+        "rating": 4
+      },
+      {
+        "key": "automation",
+        "rating": 2
+      },
+      {
+        "key": "ai",
+        "rating": 2
+      },
+      {
+        "key": "programming",
+        "rating": 1
+      },
+      {
+        "key": "management",
+        "rating": 6
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 45
+      },
+      {
+        "key": "visionary",
+        "score": 20
+      },
+      {
+        "key": "operator",
+        "score": 65
+      },
+      {
+        "key": "creator",
+        "score": 25
+      },
+      {
+        "key": "seller",
+        "score": 20
+      },
+      {
+        "key": "leader",
+        "score": 55
+      },
+      {
+        "key": "analyst",
+        "score": 45
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": false,
+    "isFullyRemote": false,
+    "requiresTravel": false,
+    "isOnlineBusiness": false,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": true,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": true,
+    "requiresInventory": true,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": true
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "low",
+      "notes": {
+        "en": "Growth is capped by exam-room and surgical-suite count and licensed clinical staff within one practice location, with a second location as the main lever beyond that.",
+        "ro": "Creșterea este limitată de numărul de cabinete de consultație și săli de operație, precum și de personalul clinic licențiat, într-o singură locație, o a doua locație fiind principala pârghie dincolo de aceasta."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high",
+      "notes": {
+        "en": "A high combination of capital requirement and regulatory complexity — veterinary licensure, controlled-substance registration, and equipment financing all gate the ability to open at all.",
+        "ro": "O combinație ridicată de cerință de capital și complexitate de reglementare — licențierea veterinară, înregistrarea substanțelor controlate și finanțarea echipamentului limitează toate capacitatea de a deschide."
+      }
+    },
+    "aiResistance": {
+      "level": "high",
+      "notes": {
+        "en": "Hands-on veterinary care requires licensed, in-person practitioners examining live animals and cannot be automated or delivered remotely.",
+        "ro": "Îngrijirea veterinară practică necesită practicieni licențiați, prezenți fizic, care examinează animale vii, și nu poate fi automatizată sau furnizată de la distanță."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Very high upfront capital investment in surgical and diagnostic equipment creates significant financial exposure before the practice generates any revenue.",
+          "ro": "Investiția inițială de capital foarte ridicată, în echipament chirurgical și diagnostic, creează o expunere financiară semnificativă, înainte ca clinica să genereze venituri."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Malpractice liability and controlled-substance compliance require robust professional insurance and rigorous documentation practices.",
+          "ro": "Răspunderea de malpraxis și conformitatea privind substanțele controlate necesită o asigurare profesională robustă și practici riguroase de documentare."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Emotionally difficult client conversations around cost and end-of-life care require careful staff training beyond clinical skill alone.",
+          "ro": "Conversațiile emoțional dificile cu clienții, legate de cost și îngrijirea de final de viață, necesită o instruire atentă a personalului, dincolo de abilitatea clinică singură."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "One vet who actually knows your pet — a dedicated relationship, not a rotating corporate chain.",
+        "ro": "Un veterinar care chiar îți cunoaște animalul — o relație dedicată, nu un lanț corporativ rotativ."
+      },
+      "channels": [
+        {
+          "channelType": "localPetCommunityAndShelterPartnerships",
+          "description": {
+            "en": "Partnerships with local pet shelters, groomers, and pet stores for cross-referrals within the local pet-owner community.",
+            "ro": "Parteneriate cu adăposturi locale de animale, groomeri și magazine de animale, pentru recomandări încrucișate, în cadrul comunității locale de proprietari de animale."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "googleReviewsAndLocalSeo",
+          "description": {
+            "en": "A strong Google review base and local SEO presence capturing high-intent 'vet near me' search.",
+            "ro": "O bază solidă de recenzii Google și prezență SEO locală, care captează căutările locale cu intenție ridicată de tipul „veterinar aproape de mine”."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "petOwnerSocialMediaContent",
+          "description": {
+            "en": "Approachable pet-care tips and clinic-life social content as a supplemental, experimental channel.",
+            "ro": "Sfaturi accesibile de îngrijire a animalelor și conținut social din viața clinicii, ca un canal suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Requires nurturing local pet-community relationships alongside patient-facing marketing, more layered than a purely consumer-direct service business.",
+        "ro": "Necesită cultivarea relațiilor din comunitatea locală de animale, alături de marketingul orientat către clienți, mai stratificat decât o afacere de servicii pur directe către consumator."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A new-patient wellness exam builds the initial relationship, with the wellness-plan subscription introduced as a way to make ongoing preventive care predictable and affordable.",
+        "ro": "O examinare de bunăstare pentru pacientul nou construiește relația inițială, abonamentul planului de bunăstare fiind introdus ca o modalitate de a face îngrijirea preventivă continuă previzibilă și accesibilă."
+      },
+      "salesCycleLengthDays": 14,
+      "pricingModel": {
+        "en": "Per-visit and per-procedure fee schedule (e.g. €55 wellness exam, €180-320 spay/neuter, €250-400 dental cleaning), plus an optional €35/month wellness plan subscription.",
+        "ro": "Grilă de tarife pe vizită și procedură (de ex. 55 € examinare de bunăstare, 180-320 € sterilizare, 250-400 € curățare dentară), plus un abonament opțional de plan de bunăstare, de 35 €/lună."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Larger surgical or diagnostic cases require clear cost communication and sometimes emotionally difficult conversations, more involved than a single-visit service decision.",
+        "ro": "Cazurile chirurgicale sau diagnostice mai mari necesită o comunicare clară a costurilor și, uneori, conversații emoțional dificile, mai complexe decât o decizie de serviciu într-o singură vizită."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "New-patient wellness exam and vaccination history intake",
+          "ro": "Examinarea de bunăstare pentru pacientul nou și admiterea istoricului de vaccinare"
+        },
+        {
+          "en": "Surgical and dental procedure scheduling and pre-operative protocols",
+          "ro": "Programarea procedurilor chirurgicale și dentare și protocoalele preoperatorii"
+        },
+        {
+          "en": "Annual wellness recall scheduling and vaccination reminders",
+          "ro": "Programarea de reamintire a bunăstării anuale și memento-uri de vaccinare"
+        },
+        {
+          "en": "In-house diagnostic lab processing and controlled-substance logging",
+          "ro": "Procesarea laboratorului diagnostic intern și înregistrarea substanțelor controlate"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "A mix of scheduled wellness exams, vaccination visits, and surgical procedures, with the veterinarian moving between exam rooms and the surgical suite, supported by vet techs and front-office staff.",
+        "ro": "O combinație de examinări de bunăstare programate, vizite de vaccinare și proceduri chirurgicale, medicul veterinar deplasându-se între cabinetele de consultație și sala de operație, susținut de tehnicieni veterinari și personal de recepție."
+      },
+      "fulfillmentModel": {
+        "en": "A licensed veterinarian supported by vet techs, assistants, and front-office staff, delivering both routine wellness care and surgical/dental procedures within the same practice.",
+        "ro": "Un medic veterinar licențiat, susținut de tehnicieni veterinari, asistenți și personal de recepție, oferind atât îngrijire de bunăstare de rutină, cât și proceduri chirurgicale/dentare, în cadrul aceleiași clinici."
+      }
+    },
+    "automation": {
+      "level": "moderate",
+      "notes": {
+        "en": "Appointment reminders, vaccination recall scheduling, and wellness-plan billing are automated, but all clinical care remains fully manual and licensed-practitioner-led.",
+        "ro": "Memento-urile pentru programări, programarea de reamintire a vaccinării și facturarea planului de bunăstare sunt automatizate, dar toată îngrijirea clinică rămâne complet manuală și condusă de practicieni licențiați."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "clientCommunicationAndReminders",
+          "description": {
+            "en": "AI-assisted messaging drafts wellness-plan renewal and vaccination-due reminders for front-office staff to review and send.",
+            "ro": "Mesageria asistată de AI redactează memento-uri de reînnoire a planului de bunăstare și de vaccinare scadentă, pentru ca personalul de recepție să le revizuiască și să le trimită."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "ezyVet",
+        "category": "practiceManagementAndScheduling",
+        "isRequired": true,
+        "websiteUrl": "https://www.ezyvet.com/"
+      },
+      {
+        "name": "IDEXX",
+        "category": "inHouseDiagnosticLab",
+        "isRequired": true,
+        "websiteUrl": "https://www.idexx.com/"
+      },
+      {
+        "name": "Weave",
+        "category": "clientCommunicationAndReminders",
+        "isRequired": false,
+        "websiteUrl": "https://getweave.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 36,
+      "notes": {
+        "en": "Growth is gated by exam-room and surgical-suite count, licensed staff, and patient panel size within one practice, with a second location as the main lever beyond that.",
+        "ro": "Creșterea este limitată de numărul de cabinete de consultație și săli de operație, personalul licențiat și dimensiunea panoului de pacienți, într-o singură clinică, o a doua locație fiind principala pârghie dincolo de aceasta."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Fill the founding veterinarian's own schedule and build a stable wellness-plan subscriber base first, then add a second veterinarian or vet tech to extend capacity before considering a second location.",
+        "ro": "Umple mai întâi propriul program al medicului veterinar fondator și construiește o bază stabilă de abonați la planul de bunăstare, apoi adaugă un al doilea medic veterinar sau tehnician veterinar, pentru a extinde capacitatea, înainte de a lua în considerare o a doua locație."
+      },
+      "bottlenecks": [
+        {
+          "en": "Exam-room and surgical-suite count within the leased or owned space hard-caps daily patient capacity.",
+          "ro": "Numărul de cabinete de consultație și săli de operație, din spațiul închiriat sau deținut, plafonează dur capacitatea zilnică de pacienți."
+        },
+        {
+          "en": "Recruiting a second licensed veterinarian willing to join or eventually take over requires significant lead time.",
+          "ro": "Recrutarea unui al doilea medic veterinar licențiat, dispus să se alăture sau să preia eventual clinica, necesită un timp de pregătire semnificativ."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 16,
+          "description": {
+            "en": "The practice reaches break-even and a stable base of wellness-plan subscribers.",
+            "ro": "Clinica atinge pragul de rentabilitate și o bază stabilă de abonați la planul de bunăstare."
+          }
+        },
+        {
+          "monthsFromLaunch": 30,
+          "description": {
+            "en": "A second vet tech or associate veterinarian is added to extend daily patient capacity.",
+            "ro": "Un al doilea tehnician veterinar sau medic veterinar asociat este adăugat, pentru a extinde capacitatea zilnică de pacienți."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "A recurring wellness-plan subscription smooths revenue and keeps preventive care consistent, unlike a purely pay-per-visit model.",
+          "ro": "Un abonament recurent de plan de bunăstare netezește veniturile și menține îngrijirea preventivă constantă, spre deosebire de un model pur plată-pe-vizită."
+        }
+      },
+      {
+        "description": {
+          "en": "Recession-resistant demand — pet owners consistently prioritize their pets' health care even in tighter economic periods.",
+          "ro": "Cerere rezistentă la recesiune — proprietarii de animale prioritizează constant îngrijirea sănătății animalelor lor, chiar și în perioade economice mai strânse."
+        }
+      },
+      {
+        "description": {
+          "en": "A dedicated, consistent veterinarian relationship differentiates against rotating corporate veterinary chains.",
+          "ro": "O relație dedicată, constantă, cu medicul veterinar, diferențiază clinica de lanțurile veterinare corporative rotative."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A small-animal general veterinary practice built around a dedicated, unhurried relationship with one veterinarian, differentiated by a wellness-plan subscription that smooths revenue and keeps preventive care consistent, led by a licensed veterinarian supported by vet techs and front-office staff. Business-planning content only — no clinical treatment protocols or diagnostic guidance.",
+        "ro": "O clinică veterinară generală pentru animale mici, construită în jurul unei relații dedicate, fără grabă, cu un singur medic veterinar, diferențiată printr-un abonament de plan de bunăstare care netezește veniturile și menține îngrijirea preventivă constantă, condusă de un medic veterinar licențiat, susținut de tehnicieni veterinari și personal de recepție. Doar conținut de planificare a afacerii — fără protocoale de tratament clinic sau îndrumări de diagnostic."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.veterinaryClinic.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.veterinaryClinic.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.veterinaryClinic.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.veterinaryClinic.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep pet owners renewing their wellness-plan subscription and returning for annual wellness visits.",
+          "ro": "Menține proprietarii de animale reînnoind abonamentul planului de bunăstare și revenind pentru vizitele anuale de bunăstare."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against equipment financing, lease, and clinical staffing costs.",
+          "ro": "Protejează marja brută împotriva costurilor de finanțare a echipamentului, chiriei și personalului clinic."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert local pet-community referrals and search inquiries into booked new-patient wellness exams.",
+          "ro": "Transformă recomandările din comunitatea locală de animale și solicitările din căutare, în examinări de bunăstare programate, pentru pacienți noi."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep wellness-plan subscription cancellations low through consistent, dedicated veterinarian relationships.",
+          "ro": "Menține anulările abonamentului planului de bunăstare scăzute, prin relații constante, dedicate, cu medicul veterinar."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "management",
+          "importance": 4
+        },
+        {
+          "key": "communication",
+          "importance": 5
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "marketing",
+          "importance": 2
+        },
+        {
+          "key": "finance",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "patient",
+          "importance": 5
+        },
+        {
+          "trait": "detailOriented",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "collaborative",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 75000,
+        "max": 170000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 90000,
+        "max": 145000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 45,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "calm",
+        "compassionate"
+      ],
+      "technicalLevel": 4,
+      "leadershipLevel": 5,
+      "creativityLevel": 2,
+      "salesAffinity": 2,
+      "automationAffinity": 2,
+      "remotePreference": "inPerson",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theSpecialist",
+        "theOperator"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the wellness-plan subscription as the core revenue-smoothing differentiator in Offer Architecture and Revenue Architecture, and the very high capital/licensing requirement in Financial Overview and Launch Strategy — keep all content strictly business-planning, never clinical or diagnostic.",
+      "ro": "Subliniază abonamentul planului de bunăstare ca diferențiator de bază pentru netezirea veniturilor, în Arhitectura ofertei și Arhitectura veniturilor, și cerința de capital/licențiere foarte ridicată, în Prezentarea financiară și Strategia de lansare — menține tot conținutul strict de planificare a afacerii, niciodată clinic sau de diagnostic."
+    },
+    "marketingHints": {
+      "en": "Lead with the dedicated, one-vet relationship and compassionate pet-family framing, not generic 'we love pets' stock phrases — never reference specific clinical outcomes or diagnostic claims.",
+      "ro": "Începe cu relația dedicată, cu un singur veterinar, și încadrarea compasională de familie de animale, nu cu fraze generice de tipul „iubim animalele” — nu face niciodată referire la rezultate clinice specifice sau afirmații de diagnostic."
+    },
+    "financialHints": {
+      "en": "Model revenue as a mix of pay-per-visit wellness/surgical fees and a smoothing wellness-plan subscription base, with equipment financing and clinical staffing as the dominant cost lines — among the highest capital-intensity businesses in this library.",
+      "ro": "Modelează veniturile ca un mix de onorarii de bunăstare/chirurgicale plătite pe vizită și o bază de abonament de plan de bunăstare care netezește veniturile, cu finanțarea echipamentului și personalul clinic drept costurile dominante — printre cele mai mari intensități de capital dintre afacerile din această bibliotecă."
+    },
+    "generationHints": {
+      "en": "Keep generated tone calm, compassionate, and strictly business-planning focused — never generate clinical treatment protocols, diagnostic criteria, or veterinary medical advice of any kind.",
+      "ro": "Menține un ton generat calm, compasional și strict axat pe planificarea afacerii — nu genera niciodată protocoale de tratament clinic, criterii de diagnostic sau sfaturi medicale veterinare de orice fel."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Secure practice financing, complete facility buildout, and obtain veterinary board licensure, malpractice insurance, and controlled-substance registration.",
+            "ro": "Asigură finanțarea clinicii, finalizează amenajarea unității și obține licențierea de la ordinul medicilor veterinari, asigurarea de malpraxis și înregistrarea substanțelor controlate."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Underestimating total surgical and diagnostic equipment costs, leading to a financing shortfall mid-buildout.",
+            "ro": "Subestimarea costurilor totale de echipament chirurgical și diagnostic, ceea ce duce la un deficit de finanțare, la mijlocul amenajării."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Get detailed, itemized quotes for every piece of major surgical and diagnostic equipment before finalizing the practice financing amount.",
+            "ro": "Obține oferte detaliate, pe elemente, pentru fiecare echipament chirurgical și diagnostic major, înainte de a finaliza suma de finanțare a clinicii."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.veterinaryClinic.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Design and price the wellness-plan subscription tiers before opening to confirm they cover the underlying visit and vaccination costs.",
+            "ro": "Proiectează și stabilește prețul nivelurilor abonamentului de plan de bunăstare, înainte de deschidere, pentru a confirma că acoperă costurile de bază ale vizitelor și vaccinării."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Pricing the wellness plan without confirming it actually covers the underlying cost of the visits and vaccines it includes.",
+            "ro": "Stabilirea prețului planului de bunăstare, fără a confirma că acesta acoperă efectiv costul de bază al vizitelor și vaccinurilor incluse."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Calculate the true cost of every service included in the wellness plan before setting its monthly price.",
+            "ro": "Calculează costul real al fiecărui serviciu inclus în planul de bunăstare, înainte de a stabili prețul lunar al acestuia."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.veterinaryClinic.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first month of new-patient wellness exams and enroll the first wellness-plan subscribers.",
+            "ro": "Finalizează prima lună de examinări de bunăstare pentru pacienți noi și înscrie primii abonați la planul de bunăstare."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not actively offering the wellness plan at every new-patient visit, leaving enrollment to chance.",
+            "ro": "Neoferirea activă a planului de bunăstare, la fiecare vizită a pacientului nou, lăsând înscrierea la voia întâmplării."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Present the wellness plan as a clear option at the end of every new-patient exam, not just when asked.",
+            "ro": "Prezintă planul de bunăstare ca o opțiune clară, la finalul fiecărei examinări a pacientului nou, nu doar când este întrebat."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.veterinaryClinic.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Launch local pet-community partnerships with shelters, groomers, and pet stores for cross-referrals.",
+            "ro": "Lansează parteneriate locale în comunitatea de animale, cu adăposturi, groomeri și magazine de animale, pentru recomandări încrucișate."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Relying solely on walk-in and cold-search traffic instead of building local pet-community relationships from the start.",
+            "ro": "Bazarea exclusiv pe traficul spontan și din căutarea rece, în loc să construiască de la început relații în comunitatea locală de animale."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Approach at least 3-5 local pet shelters, groomers, or pet stores for a cross-referral relationship before the public launch.",
+            "ro": "Contactează cel puțin 3-5 adăposturi, groomeri sau magazine de animale locale, pentru o relație de recomandare încrucișată, înainte de lansarea publică."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.veterinaryClinic.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first satisfied pet owner into a wellness-plan subscriber and a referral source in the local pet community.",
+            "ro": "Transformă primul proprietar de animal mulțumit într-un abonat la planul de bunăstare și o sursă de recomandare, în comunitatea locală de animale."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not asking satisfied pet owners directly for referrals within their local pet-owner social circles.",
+            "ro": "Neexistarea unei solicitări directe, către proprietarii de animale mulțumiți, de recomandări în cercurile lor sociale locale de proprietari de animale."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Ask satisfied pet owners directly for referrals after their second successful visit.",
+            "ro": "Solicită direct proprietarilor de animale mulțumiți recomandări, după a doua lor vizită reușită."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.veterinaryClinic.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable, growing wellness-plan subscriber base with a consistent renewal rate.",
+            "ro": "Atinge o bază stabilă, în creștere, de abonați la planul de bunăstare, cu o rată constantă de reînnoire."
+          }
+        ],
+        "kpis": [
+          "customerRetention",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Adding a second veterinarian or vet tech before the existing schedule is consistently full.",
+            "ro": "Adăugarea unui al doilea medic veterinar sau tehnician veterinar, înainte ca programul existent să fie constant plin."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the founding veterinarian's own schedule is consistently full before adding clinical staff.",
+            "ro": "Confirmă că programul propriu al medicului veterinar fondator este constant plin, înainte de a adăuga personal clinic."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.veterinaryClinic.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Grow the wellness-plan subscriber base as a share of the total active patient panel.",
+            "ro": "Crește baza de abonați la planul de bunăstare, ca pondere din panoul total de pacienți activi."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Treating the wellness plan as a one-time offer instead of consistently re-presenting it at every wellness visit.",
+            "ro": "Tratarea planului de bunăstare ca o ofertă unică, în loc să fie reprezentată constant, la fiecare vizită de bunăstare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Re-offer the wellness plan to every non-enrolled patient at their annual wellness visit.",
+            "ro": "Reoferă planul de bunăstare fiecărui pacient neînscris, la vizita anuală de bunăstare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.veterinaryClinic.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Add a second vet tech or associate veterinarian to extend daily patient capacity.",
+            "ro": "Adaugă un al doilea tehnician veterinar sau medic veterinar asociat, pentru a extinde capacitatea zilnică de pacienți."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring an associate veterinarian without a clear compensation and patient-assignment structure, causing friction.",
+            "ro": "Angajarea unui medic veterinar asociat, fără o structură clară de compensare și alocare a pacienților, cauzând tensiuni."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Define a clear compensation and patient-assignment structure in writing before bringing on an associate veterinarian.",
+            "ro": "Definește o structură clară de compensare și alocare a pacienților, în scris, înainte de a aduce un medic veterinar asociat."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.veterinaryClinic.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Evaluate opening a second practice location once the first is consistently profitable and fully staffed.",
+            "ro": "Evaluează deschiderea unei a doua locații de clinică, odată ce prima este constant profitabilă și complet dotată cu personal."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding to a second location before the first practice can run without the founding veterinarian's daily presence.",
+            "ro": "Extinderea la o a doua locație, înainte ca prima clinică să poată funcționa fără prezența zilnică a medicului veterinar fondator."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the first practice operates profitably with an associate veterinarian covering the founder's absence before opening a second location.",
+            "ro": "Confirmă că prima clinică funcționează profitabil, cu un medic veterinar asociat acoperind absența fondatorului, înainte de a deschide o a doua locație."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.veterinaryClinic.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the patient panel, wellness-plan subscriber base, and equipment records to package the practice for sale to another veterinarian or a veterinary group.",
+            "ro": "Documentează panoul de pacienți, baza de abonați la planul de bunăstare și evidențele echipamentului, pentru a pregăti clinica pentru vânzare, către un alt medic veterinar sau un grup veterinar."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Waiting until a sale opportunity appears to start documenting patient records and equipment maintenance history properly.",
+            "ro": "Așteptarea apariției unei oportunități de vânzare, pentru a începe documentarea corespunzătoare a evidențelor pacienților și istoricului de întreținere a echipamentului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, complete patient, subscriber, and equipment records on an ongoing basis, not just before a sale.",
+            "ro": "Menține evidențe curate și complete ale pacienților, abonaților și echipamentului, în mod continuu, nu doar înainte de o vânzare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.veterinaryClinic.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}
