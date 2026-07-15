@@ -1,0 +1,141 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "marketplacePlatformDevelopment",
+      "trainerCertificationAndLiabilityVerificationSetup",
+      "paymentProcessingSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "platformHostingAndMatchingOperations",
+      "trainerAndClientSupportStaffing"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "twoSidedAcquisitionMarketing",
+      "platformLiabilityInsuranceReserve"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "commissionOnSessionBookings",
+        "label": {
+          "en": "Commission on each session booking's value",
+          "ro": "Comision, pe valoarea fiecărei rezervări de ședință"
+        }
+      },
+      {
+        "key": "gymPartnerRevenueShare",
+        "label": {
+          "en": "Revenue share from partner gyms listing their in-house trainers",
+          "ro": "Cotă de venit, de la sălile de sport partenere, care își listează antrenorii interni"
+        }
+      },
+      {
+        "key": "trainerFeaturedListingSubscription",
+        "label": {
+          "en": "Optional trainer subscription for featured profile placement",
+          "ro": "Abonament opțional, pentru antrenori, pentru plasarea profilului promovat"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "grossMerchandiseValuePerMonth": "currency",
+      "commissionTakeRatePercent": "percent",
+      "activeTrainers": "number",
+      "activeClients": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "browserToFirstBookingConversionRatePercent": "percent",
+      "rebookingRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.personalTrainerMarketplace.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "sessionCommissionInflow",
+      "gymPartnerRevenueShareInflow",
+      "verificationAndSupportOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 16,
+    "notesTranslationKey": "businessLibrary.personalTrainerMarketplace.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 45,
+    "notesTranslationKey": "businessLibrary.personalTrainerMarketplace.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 16,
+    "notesTranslationKey": "businessLibrary.personalTrainerMarketplace.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "trainerVerificationStaffRecruiting",
+      "clientSupportStaffRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "localClientDigitalAdvertising",
+      "gymPartnershipDevelopment"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxOnSupportStaff"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve",
+      "injuryLiabilityClaimsReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "leadConversion",
+      "customerRetention",
+      "grossMargin",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 9000,
+      "notesTranslationKey": "businessLibrary.personalTrainerMarketplace.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 22000,
+      "notesTranslationKey": "businessLibrary.personalTrainerMarketplace.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 40000,
+      "notesTranslationKey": "businessLibrary.personalTrainerMarketplace.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.personalTrainerMarketplace.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.personalTrainerMarketplace.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.personalTrainerMarketplace.financial.aiMetadata.generationHints"
+  }
+}

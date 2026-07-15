@@ -1,0 +1,944 @@
+{
+  "identity": {
+    "id": "f5a93e0a-82a9-4b24-b75c-16ac88433caf",
+    "slug": "ai-document-processing-saas",
+    "version": "1.0.0",
+    "name": {
+      "en": "Inkstract",
+      "ro": "Inkstract"
+    },
+    "tagline": {
+      "en": "Turn any document into clean data, automatically.",
+      "ro": "Transformă orice document în date curate, automat."
+    },
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theBuilder",
+      "theVisionary"
+    ],
+    "summary": {
+      "en": "Best suited to a technical builder comfortable owning an OCR/LLM extraction pipeline end-to-end, who can also sell a self-serve API product to engineering and operations buyers.",
+      "ro": "Potrivit unui constructor tehnic, confortabil să dețină integral un flux de extracție OCR/LLM, care poate, de asemenea, să vândă un produs API cu autoservire, către cumpărători din inginerie și operațiuni."
+    },
+    "minimumExperienceYears": 4
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 35000,
+      "maxInvestment": 70000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 8000,
+      "ongoingMonthlyCostMax": 20000,
+      "notes": {
+        "en": "Covers founding-engineer salaries, cloud infrastructure, OCR/LLM API usage costs, and SOC 2-track security tooling — a High budget tier driven by product engineering, not physical infrastructure.",
+        "ro": "Acoperă salariile inginerilor fondatori, infrastructura cloud, costurile de utilizare API OCR/LLM și instrumentele de securitate pe traseul SOC 2 — un nivel de buget ridicat, determinat de ingineria produsului, nu de infrastructura fizică."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "foundingEngineeringBuild",
+          "label": {
+            "en": "Founding engineering time to build the extraction pipeline and dashboard",
+            "ro": "Timp de inginerie fondatoare, pentru construirea fluxului de extracție și a tabloului de bord"
+          },
+          "typicalMin": 15000,
+          "typicalMax": 35000
+        },
+        {
+          "key": "cloudAndModelApiCredits",
+          "label": {
+            "en": "Cloud hosting and initial OCR/LLM API credits",
+            "ro": "Găzduire cloud și credite API OCR/LLM inițiale"
+          },
+          "typicalMin": 5000,
+          "typicalMax": 15000
+        },
+        {
+          "key": "securityAndComplianceTooling",
+          "label": {
+            "en": "Security tooling and SOC 2-track compliance setup",
+            "ro": "Instrumente de securitate și configurarea traseului de conformitate SOC 2"
+          },
+          "typicalMin": 5000,
+          "typicalMax": 12000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "cloudInfrastructureAndModelUsage",
+          "label": {
+            "en": "Cloud infrastructure and OCR/LLM per-page usage costs",
+            "ro": "Infrastructură cloud și costuri de utilizare OCR/LLM per pagină"
+          },
+          "typicalMonthlyMin": 3000,
+          "typicalMonthlyMax": 9000
+        },
+        {
+          "key": "engineeringAndSupportSalaries",
+          "label": {
+            "en": "Founding-team engineering and customer-support salaries",
+            "ro": "Salarii pentru echipa de inginerie fondatoare și suport pentru clienți"
+          },
+          "typicalMonthlyMin": 4000,
+          "typicalMonthlyMax": 10000
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "monthlySubscriptionByDocumentVolume",
+          "label": {
+            "en": "Monthly subscription tier priced by document-processing volume",
+            "ro": "Nivel de abonament lunar, tarifat după volumul de documente procesate"
+          }
+        },
+        {
+          "key": "usageOverageFees",
+          "label": {
+            "en": "Per-document overage fees beyond the plan's included volume",
+            "ro": "Taxe de depășire per document, peste volumul inclus în plan"
+          }
+        },
+        {
+          "key": "enterpriseCustomContracts",
+          "label": {
+            "en": "Custom-priced enterprise contracts with dedicated SLA and onboarding",
+            "ro": "Contracte enterprise cu preț personalizat, cu SLA dedicat și integrare asistată"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 8000,
+      "targetMonthlyIncomeMax": 60000,
+      "breakEvenTimelineMonths": 20,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "slow",
+      "notes": {
+        "en": "Self-serve trial-to-paid conversion is gradual, and enterprise contracts require a security review and pilot period before signing.",
+        "ro": "Conversia de la testare gratuită la plată, prin autoservire, este graduală, iar contractele enterprise necesită o revizuire de securitate și o perioadă pilot, înainte de semnare."
+      }
+    },
+    "profitMargin": {
+      "level": "high",
+      "notes": {
+        "en": "Once the pipeline is built, incremental document-processing cost is low relative to subscription price, giving strong software-style margins at scale.",
+        "ro": "Odată construit fluxul, costul incremental de procesare a documentelor este scăzut, față de prețul abonamentului, oferind marje puternice, de tip software, la scară."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "none",
+    "onlineOffline": "online",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 45,
+    "maxWeeklyHours": 60,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 5
+      },
+      {
+        "key": "marketing",
+        "rating": 5
+      },
+      {
+        "key": "leadership",
+        "rating": 6
+      },
+      {
+        "key": "communication",
+        "rating": 5
+      },
+      {
+        "key": "negotiation",
+        "rating": 4
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 5
+      },
+      {
+        "key": "technology",
+        "rating": 9
+      },
+      {
+        "key": "automation",
+        "rating": 8
+      },
+      {
+        "key": "ai",
+        "rating": 9
+      },
+      {
+        "key": "programming",
+        "rating": 9
+      },
+      {
+        "key": "management",
+        "rating": 5
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 85
+      },
+      {
+        "key": "visionary",
+        "score": 65
+      },
+      {
+        "key": "operator",
+        "score": 45
+      },
+      {
+        "key": "creator",
+        "score": 40
+      },
+      {
+        "key": "seller",
+        "score": 35
+      },
+      {
+        "key": "leader",
+        "score": 50
+      },
+      {
+        "key": "analyst",
+        "score": 70
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": true,
+    "isHighlyAutomatable": true,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": true,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "high",
+      "notes": {
+        "en": "Once the extraction pipeline is stable, each additional customer adds near-zero marginal engineering effort — classic software-margin scaling.",
+        "ro": "Odată ce fluxul de extracție este stabil, fiecare client suplimentar adaugă un efort marginal de inginerie aproape nul — scalare clasică, cu marje de software."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high",
+      "notes": {
+        "en": "Requires real engineering depth to reach production-grade extraction accuracy, plus enterprise-grade security posture to win larger accounts.",
+        "ro": "Necesită profunzime reală de inginerie, pentru a atinge o acuratețe de extracție de nivel producție, plus o postură de securitate de nivel enterprise, pentru a câștiga conturi mai mari."
+      }
+    },
+    "aiResistance": {
+      "level": "low",
+      "notes": {
+        "en": "Foundation-model providers are steadily improving native document-understanding capabilities, threatening to commoditize the extraction layer this product is built on.",
+        "ro": "Furnizorii de modele fundamentale îmbunătățesc constant capacitățile native de înțelegere a documentelor, amenințând să transforme în marfă stratul de extracție pe care este construit acest produs."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "General-purpose foundation models are adding native document-extraction capabilities that could commoditize this product's core value.",
+          "ro": "Modelele fundamentale generale adaugă capacități native de extracție a documentelor, care ar putea transforma în marfă valoarea centrală a acestui produs."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Differentiate on workflow integration, accuracy guarantees, and vertical-specific document templates rather than raw extraction alone.",
+          "ro": "Diferențiază-te prin integrarea în flux de lucru, garanții de acuratețe și șabloane de documente specifice sectorului, nu doar prin extracția brută."
+        }
+      },
+      {
+        "description": {
+          "en": "Extraction errors on financial or legal documents carry real downstream liability for customers.",
+          "ro": "Erorile de extracție, pe documente financiare sau legale, poartă o răspundere reală în aval, pentru clienți."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Build confidence scoring and human-review workflows for low-confidence extractions into the product itself.",
+          "ro": "Construiește, chiar în produs, scorare a încrederii și fluxuri de revizuire umană, pentru extracțiile cu încredere scăzută."
+        }
+      },
+      {
+        "description": {
+          "en": "Long enterprise security-review cycles slow down the sales pipeline and cash flow.",
+          "ro": "Ciclurile lungi de revizuire a securității enterprise încetinesc pipeline-ul de vânzări și fluxul de numerar."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Pursue SOC 2 Type II certification early to shorten enterprise procurement cycles.",
+          "ro": "Urmărește certificarea SOC 2 Type II devreme, pentru a scurta ciclurile de achiziție enterprise."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Turn any document into clean data, automatically — a self-serve extraction API that ships in an afternoon, not a six-month integration project.",
+        "ro": "Transformă orice document în date curate, automat — un API de extracție cu autoservire, care se lansează într-o după-amiază, nu într-un proiect de integrare de șase luni."
+      },
+      "channels": [
+        {
+          "channelType": "developerContentAndDocumentation",
+          "description": {
+            "en": "Technical content, API documentation, and integration guides published to attract developers directly to a self-serve signup.",
+            "ro": "Conținut tehnic, documentație API și ghiduri de integrare, publicate pentru a atrage dezvoltatori direct către o înscriere cu autoservire."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "productHuntAndDeveloperCommunityLaunches",
+          "description": {
+            "en": "Launch campaigns on developer-facing communities to drive initial trial signups.",
+            "ro": "Campanii de lansare, pe comunități orientate spre dezvoltatori, pentru a genera înscrierile inițiale de testare."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "outboundToOperationsAndFinanceTeams",
+          "description": {
+            "en": "Targeted outbound to operations and finance leaders at mid-market companies with high manual-document volume.",
+            "ro": "Prospectare direcționată către lideri de operațiuni și financiari, din companii mid-market, cu volum ridicat de documente manuale."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "A dual-motion go-to-market — self-serve developer signup plus outbound enterprise sales — is more complex than a single-channel service business.",
+        "ro": "O mișcare duală de intrare pe piață — înscriere cu autoservire pentru dezvoltatori, plus vânzări enterprise prin prospectare — este mai complexă decât o afacere de servicii cu un singur canal."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "Self-serve free trial converts smaller teams directly; larger accounts move through a sales-assisted pilot and security-review process before signing an annual contract.",
+        "ro": "Testarea gratuită cu autoservire convertește direct echipele mai mici; conturile mai mari trec printr-un proces asistat de vânzări, cu pilot și revizuire de securitate, înainte de a semna un contract anual."
+      },
+      "salesCycleLengthDays": 30,
+      "pricingModel": {
+        "en": "Starter €149/month (1,000 documents), Growth €699/month (10,000 documents), and custom-priced Enterprise plans with dedicated SLA and onboarding; overage billed per additional document above the plan limit.",
+        "ro": "Starter 149 €/lună (1.000 de documente), Growth 699 €/lună (10.000 de documente) și planuri Enterprise cu preț personalizat, cu SLA dedicat și integrare asistată; depășirile sunt facturate per document suplimentar, peste limita planului."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Self-serve tiers require minimal sales effort, but enterprise deals involve technical evaluation, security review, and procurement.",
+        "ro": "Nivelurile cu autoservire necesită un efort minim de vânzări, dar contractele enterprise implică evaluare tehnică, revizuire de securitate și achiziții."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Extraction pipeline monitoring and accuracy tuning across document templates.",
+          "ro": "Monitorizarea fluxului de extracție și reglarea acurateței, pe șabloane de documente."
+        },
+        {
+          "en": "Self-serve trial-to-paid conversion tracking and in-app upgrade prompts.",
+          "ro": "Urmărirea conversiei de la testare gratuită la plată, prin autoservire, și solicitări de upgrade în aplicație."
+        },
+        {
+          "en": "Enterprise security-review response and SOC 2 evidence maintenance.",
+          "ro": "Răspuns la revizuirile de securitate enterprise și menținerea dovezilor SOC 2."
+        },
+        {
+          "en": "Customer support for API integration issues and extraction-accuracy escalations.",
+          "ro": "Suport pentru clienți, pentru probleme de integrare API și escaladări de acuratețe a extracției."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Engineering monitors pipeline accuracy and ships extraction improvements, while a small go-to-market function runs developer content, handles inbound trial questions, and manages the enterprise sales pipeline.",
+        "ro": "Ingineria monitorizează acuratețea fluxului și livrează îmbunătățiri de extracție, în timp ce o mică funcție de intrare pe piață rulează conținut pentru dezvoltatori, gestionează întrebările de testare gratuită și pipeline-ul de vânzări enterprise."
+      },
+      "fulfillmentModel": {
+        "en": "A self-serve software product delivered via API and dashboard, with a founding engineering team owning pipeline accuracy and a small customer-success function supporting enterprise accounts.",
+        "ro": "Un produs software cu autoservire, livrat prin API și tablou de bord, cu o echipă de inginerie fondatoare care deține acuratețea fluxului și o mică funcție de succes al clienților, care susține conturile enterprise."
+      }
+    },
+    "automation": {
+      "level": "high",
+      "notes": {
+        "en": "Document ingestion, extraction, and billing are fully automated; only low-confidence extractions and enterprise security reviews require human involvement.",
+        "ro": "Preluarea documentelor, extracția și facturarea sunt complet automatizate; doar extracțiile cu încredere scăzută și revizuirile de securitate enterprise necesită implicare umană."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "documentDataExtraction",
+          "description": {
+            "en": "LLM-based structured-data extraction from unstructured documents is the product's core value, not a supporting feature.",
+            "ro": "Extracția de date structurate, bazată pe LLM, din documente nestructurate, este valoarea centrală a produsului, nu o funcție de sprijin."
+          },
+          "maturity": "coreToModel"
+        },
+        {
+          "area": "confidenceScoringForHumanReview",
+          "description": {
+            "en": "AI-generated confidence scores flag low-certainty extractions for human review before they reach a customer's system.",
+            "ro": "Scorurile de încredere generate de AI semnalează extracțiile cu certitudine scăzută, pentru revizuire umană, înainte de a ajunge în sistemul unui client."
+          },
+          "maturity": "established"
+        }
+      ],
+      "aiDependencyLevel": "high"
+    },
+    "recommendedTools": [
+      {
+        "name": "Amazon Textract",
+        "category": "ocrAndDocumentParsing",
+        "isRequired": true,
+        "websiteUrl": "https://aws.amazon.com/textract/"
+      },
+      {
+        "name": "Anthropic Claude API",
+        "category": "llmBasedStructuredExtraction",
+        "isRequired": true,
+        "websiteUrl": "https://www.anthropic.com/api"
+      },
+      {
+        "name": "Stripe Billing",
+        "category": "usageBasedSubscriptionBilling",
+        "isRequired": true,
+        "websiteUrl": "https://stripe.com/billing"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "high",
+      "timeHorizonMonths": 36,
+      "notes": {
+        "en": "A self-serve product with near-zero marginal cost per additional customer has genuine software-style compounding growth potential once product-market fit is reached.",
+        "ro": "Un produs cu autoservire, cu cost marginal aproape nul per client suplimentar, are un potențial real de creștere compusă, de tip software, odată atinsă potrivirea produs-piață."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Prove extraction accuracy and retention on a narrow set of document templates first, then expand template coverage and pursue larger enterprise contracts.",
+        "ro": "Dovedește mai întâi acuratețea extracției și retenția, pe un set restrâns de șabloane de documente, apoi extinde acoperirea șabloanelor și urmărește contracte enterprise mai mari."
+      },
+      "bottlenecks": [
+        {
+          "en": "Extraction accuracy must stay high across a growing diversity of document formats without a proportional rise in engineering effort.",
+          "ro": "Acuratețea extracției trebuie să rămână ridicată, pe o diversitate crescândă de formate de documente, fără o creștere proporțională a efortului de inginerie."
+        },
+        {
+          "en": "Enterprise security-review and procurement cycles gate how fast larger accounts can be closed.",
+          "ro": "Ciclurile de revizuire a securității enterprise și de achiziții limitează viteza de închidere a conturilor mai mari."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 20,
+          "description": {
+            "en": "The business reaches break-even on a mix of self-serve and early enterprise subscription revenue.",
+            "ro": "Afacerea atinge pragul de rentabilitate, pe un mix de venituri din abonamente cu autoservire și enterprise timpurii."
+          }
+        },
+        {
+          "monthsFromLaunch": 36,
+          "description": {
+            "en": "SOC 2 Type II certification is complete and enterprise contracts make up a majority of monthly recurring revenue.",
+            "ro": "Certificarea SOC 2 Type II este finalizată, iar contractele enterprise reprezintă majoritatea venitului lunar recurent."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "A self-serve API that ships in an afternoon removes the integration-project friction that slows down larger, legacy document-processing vendors.",
+          "ro": "Un API cu autoservire, care se lansează într-o după-amiază, elimină frecarea proiectului de integrare, care încetinește furnizorii mai mari, tradiționali, de procesare a documentelor."
+        }
+      },
+      {
+        "description": {
+          "en": "Usage-based pricing aligns cost directly with customer value, lowering the barrier to a first trial compared to flat enterprise licensing.",
+          "ro": "Prețurile bazate pe utilizare aliniază costul direct cu valoarea pentru client, reducând bariera pentru o primă testare, față de licențierea enterprise fixă."
+        }
+      },
+      {
+        "description": {
+          "en": "Confidence-scored extraction with a human-review fallback builds the trust needed for financial and legal document use cases where raw AI-only output isn't acceptable.",
+          "ro": "Extracția cu scor de încredere, cu o soluție de rezervă de revizuire umană, construiește încrederea necesară pentru cazurile de utilizare a documentelor financiare și legale, unde ieșirea brută, doar AI, nu este acceptabilă."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A self-serve document-extraction SaaS product priced on usage volume, built around a production-grade OCR/LLM pipeline with confidence scoring and human-review fallback for high-stakes documents.",
+        "ro": "Un produs SaaS de extracție a documentelor, cu autoservire, tarifat după volumul de utilizare, construit în jurul unui flux OCR/LLM de nivel producție, cu scorare a încrederii și soluție de rezervă de revizuire umană, pentru documente cu miză ridicată."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.aiDocumentProcessingSaas.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.aiDocumentProcessingSaas.businessDna.resources.community1"
+      },
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.aiDocumentProcessingSaas.businessDna.resources.book1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.aiDocumentProcessingSaas.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "mrr",
+        "targetDescription": {
+          "en": "Grow monthly recurring revenue across self-serve and enterprise tiers.",
+          "ro": "Crește venitul lunar recurent, pe nivelurile de autoservire și enterprise."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep monthly subscription churn low as extraction accuracy and trust compound over time.",
+          "ro": "Menține pierderea lunară de abonați scăzută, pe măsură ce acuratețea extracției și încrederea se compun în timp."
+        }
+      },
+      {
+        "key": "netMargin",
+        "targetDescription": {
+          "en": "Improve net margin as the pipeline scales and per-document processing cost falls.",
+          "ro": "Îmbunătățește marja netă, pe măsură ce fluxul se scalează și costul de procesare per document scade."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert a healthy share of free-trial signups into paying self-serve subscribers.",
+          "ro": "Transformă o pondere sănătoasă din înscrierile de testare gratuită, în abonați plătitori cu autoservire."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "programming",
+          "importance": 5
+        },
+        {
+          "key": "ai",
+          "importance": 5
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "finance",
+          "importance": 2
+        },
+        {
+          "key": "management",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "analytical",
+          "importance": 5
+        },
+        {
+          "trait": "systemOriented",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "persistent",
+          "importance": 4
+        }
+      ],
+      "requiredBudget": {
+        "min": 35000,
+        "max": 70000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 40000,
+        "max": 60000,
+        "currency": "EUR"
+      },
+      "riskProfile": "high",
+      "timeAvailability": {
+        "minWeeklyHours": 45,
+        "maxWeeklyHours": 60
+      },
+      "communicationStyle": [
+        "precise",
+        "technical"
+      ],
+      "technicalLevel": 5,
+      "leadershipLevel": 3,
+      "creativityLevel": 3,
+      "salesAffinity": 3,
+      "automationAffinity": 5,
+      "remotePreference": "remote",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theBuilder",
+        "theVisionary"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the self-serve-to-enterprise dual go-to-market motion and usage-based pricing in Revenue Architecture and Pricing Strategy — the clearest differentiator from the library's agency and consultancy technology-services businesses.",
+      "ro": "Evidențiază mișcarea duală de intrare pe piață, de la autoservire la enterprise, și prețurile bazate pe utilizare, în Arhitectura veniturilor și Strategia de prețuri — cel mai clar diferențiator față de afacerile de agenție și consultanță din categoria servicii tehnologice a bibliotecii."
+    },
+    "marketingHints": {
+      "en": "Lead with concrete integration speed and accuracy claims for developers, never generic 'AI-powered automation' stock phrases.",
+      "ro": "Începe cu afirmații concrete despre viteza de integrare și acuratețe, pentru dezvoltatori, niciodată cu fraze generice de tipul „automatizare bazată pe AI”."
+    },
+    "financialHints": {
+      "en": "Model revenue as usage-based subscription tiers with overage billing, and treat foundation-model commoditization as a real, ongoing margin risk to plan around.",
+      "ro": "Modelează veniturile ca niveluri de abonament bazate pe utilizare, cu facturare de depășire, și tratează transformarea în marfă a modelelor fundamentale, ca un risc real, continuu, de marjă, pentru care trebuie planificat."
+    },
+    "generationHints": {
+      "en": "Keep generated tone precise and technical, grounded in real extraction-accuracy and integration specifics — never generic SaaS marketing language that could apply to any API product.",
+      "ro": "Menține un ton generat precis și tehnic, fundamentat pe detalii reale de acuratețe a extracției și integrare — niciodată un limbaj generic de marketing SaaS, care s-ar putea aplica oricărui produs API."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Build the initial extraction pipeline against 2-3 common document templates and set up cloud infrastructure.",
+            "ro": "Construiește fluxul inițial de extracție, pentru 2-3 șabloane comune de documente, și configurează infrastructura cloud."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Trying to support every document type from day one instead of proving accuracy on a narrow set first.",
+            "ro": "Încercarea de a susține fiecare tip de document, din prima zi, în loc să dovedești mai întâi acuratețea, pe un set restrâns."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pick 2-3 high-value document templates and get extraction accuracy above 95% on those before expanding coverage.",
+            "ro": "Alege 2-3 șabloane de documente cu valoare ridicată și obține o acuratețe a extracției peste 95%, pe acestea, înainte de a extinde acoperirea."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.aiDocumentProcessingSaas.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Get 10-15 design-partner teams processing real documents through the pipeline via free access.",
+            "ro": "Obține 10-15 echipe partenere de design, care procesează documente reale prin flux, prin acces gratuit."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Only testing on clean sample documents instead of the messy real-world documents customers will actually upload.",
+            "ro": "Testarea doar pe documente eșantion curate, în loc de documentele reale, dezordonate, pe care clienții le vor încărca de fapt."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Require design partners to upload their actual production documents, not sanitized samples.",
+            "ro": "Solicită partenerilor de design să încarce documentele lor reale, de producție, nu eșantioane curățate."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Ship the self-serve signup flow, API documentation, and usage-based billing.",
+            "ro": "Lansează fluxul de înscriere cu autoservire, documentația API și facturarea bazată pe utilizare."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Launching self-serve signup before API documentation is clear enough for a developer to integrate without support help.",
+            "ro": "Lansarea înscrierii cu autoservire, înainte ca documentația API să fie suficient de clară, pentru ca un dezvoltator să se integreze fără ajutor de suport."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Have a developer outside the founding team integrate the API using only the documentation before public launch.",
+            "ro": "Pune un dezvoltator din afara echipei fondatoare să integreze API-ul, folosind doar documentația, înainte de lansarea publică."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.aiDocumentProcessingSaas.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Launch publicly on developer-facing communities to drive initial trial signups.",
+            "ro": "Lansează public, pe comunități orientate spre dezvoltatori, pentru a genera înscrierile inițiale de testare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching without clear pricing visible, causing developers to bounce before trying the product.",
+            "ro": "Lansarea fără prețuri clare, vizibile, determinând dezvoltatorii să părăsească pagina, înainte de a încerca produsul."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Publish transparent self-serve pricing on the homepage before the public launch.",
+            "ro": "Publică prețuri transparente, cu autoservire, pe pagina principală, înainte de lansarea publică."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first design-partner team into a paying self-serve subscriber.",
+            "ro": "Transformă prima echipă parteneră de design, într-un abonat plătitor, cu autoservire."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Letting design partners stay on free access indefinitely instead of converting them to a paid plan.",
+            "ro": "Lăsarea partenerilor de design pe acces gratuit, la nesfârșit, în loc să-i convertești la un plan plătit."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Set a clear free-access end date for design partners and transition them to a paid plan with advance notice.",
+            "ro": "Stabilește o dată clară de încheiere a accesului gratuit, pentru partenerii de design, și treci-i la un plan plătit, cu preaviz."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable base of paying self-serve subscribers with extraction accuracy consistently above target.",
+            "ro": "Atinge o bază stabilă de abonați plătitori, cu autoservire, cu acuratețea extracției constant peste țintă."
+          }
+        ],
+        "kpis": [
+          "mrr",
+          "churn"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding document-template coverage before core templates reach reliable accuracy and retention.",
+            "ro": "Extinderea acoperirii șabloanelor de documente, înainte ca șabloanele de bază să atingă acuratețe și retenție fiabile."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track monthly churn by document template and fix accuracy gaps before adding new template coverage.",
+            "ro": "Urmărește lunar pierderea de abonați, pe șablon de document, și rezolvă lacunele de acuratețe, înainte de a adăuga acoperire pentru șabloane noi."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Begin outbound to operations and finance teams at mid-market companies to build an enterprise pipeline.",
+            "ro": "Începe prospectarea directă, către echipe de operațiuni și financiare, din companii mid-market, pentru a construi un pipeline enterprise."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Pursuing enterprise deals before SOC 2 evidence and a security-review process are ready.",
+            "ro": "Urmărirea contractelor enterprise, înainte ca dovezile SOC 2 și un proces de revizuire a securității să fie pregătite."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Prepare a security-review packet and SOC 2 roadmap before starting enterprise outbound.",
+            "ro": "Pregătește un pachet de revizuire a securității și o foaie de parcurs SOC 2, înainte de a începe prospectarea enterprise."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.aiDocumentProcessingSaas.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Complete SOC 2 Type II certification and close the first enterprise contracts.",
+            "ro": "Finalizează certificarea SOC 2 Type II și închide primele contracte enterprise."
+          }
+        ],
+        "kpis": [
+          "mrr",
+          "netMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Underestimating how long SOC 2 certification takes and promising it to enterprise prospects prematurely.",
+            "ro": "Subestimarea duratei certificării SOC 2 și promiterea acesteia, prematur, prospecților enterprise."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Start the SOC 2 Type II audit process at least 6 months before the target enterprise close date.",
+            "ro": "Începe procesul de audit SOC 2 Type II cu cel puțin 6 luni înainte de data țintă de închidere enterprise."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand document-template coverage into adjacent verticals with high manual-document volume.",
+            "ro": "Extinde acoperirea șabloanelor de documente, în verticale adiacente, cu volum ridicat de documente manuale."
+          }
+        ],
+        "kpis": [
+          "arr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding into a new vertical without validating document-format variety with real customers first.",
+            "ro": "Extinderea într-o verticală nouă, fără a valida mai întâi varietatea formatului documentelor, cu clienți reali."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Run a design-partner pilot in each new vertical before general availability.",
+            "ro": "Rulează un pilot cu parteneri de design, în fiecare verticală nouă, înainte de disponibilitatea generală."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the extraction pipeline architecture, customer contracts, and compliance certifications for acquisition readiness.",
+            "ro": "Documentează arhitectura fluxului de extracție, contractele cu clienții și certificările de conformitate, pentru pregătirea achiziției."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Leaving pipeline architecture and accuracy-tuning knowledge undocumented and founder-dependent.",
+            "ro": "Lăsarea nedocumentată a arhitecturii fluxului și a cunoștințelor de reglare a acurateței, dependente de fondator."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean architecture documentation and compliance evidence on an ongoing basis, not just before a sale process.",
+            "ro": "Menține documentație de arhitectură curată și dovezi de conformitate, în mod continuu, nu doar înainte de un proces de vânzare."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

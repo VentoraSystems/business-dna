@@ -1,0 +1,958 @@
+{
+  "identity": {
+    "id": "60318295-e54e-456d-907a-bde9fb0de797",
+    "slug": "indoor-cycling-studio",
+    "version": "1.0.0",
+    "name": {
+      "en": "Pulseline Cycling Studio",
+      "ro": "Pulseline Cycling Studio"
+    },
+    "tagline": {
+      "en": "Ride to the beat. Leave stronger.",
+      "ro": "Pedalează pe ritm. Pleacă mai puternic."
+    },
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theConnector",
+      "theHustler"
+    ],
+    "summary": {
+      "en": "Best suited to a certified cycling instructor with real stage presence, ready to build a loyal riding community and manage a small instructor team — no government license is required, but real instructor certification and the energy to run a high-intensity class matter to riders.",
+      "ro": "Potrivit unui instructor de ciclism certificat, cu prezență scenică reală, pregătit să construiască o comunitate loială de participanți, și să gestioneze o mică echipă de instructori — nu este necesară o licență guvernamentală, dar certificarea reală de instructor și energia de a conduce o clasă de mare intensitate, contează pentru participanți."
+    },
+    "minimumExperienceYears": 2
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 15000,
+      "maxInvestment": 35000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 6000,
+      "ongoingMonthlyCostMax": 14000,
+      "notes": {
+        "en": "Covers power-meter-equipped bikes, sound and lighting system, and initial booking-software setup — a Medium budget tier, driven by specialized equipment cost rather than a full commercial kitchen or clinical equipment burden.",
+        "ro": "Acoperă bicicletele echipate cu contor de putere, sistemul de sunet și lumini, și configurarea inițială a software-ului de programare — un nivel de buget mediu, determinat de costul echipamentului specializat, nu de o bucătărie comercială completă sau o povară de echipament clinic."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "bikeFleetAndPerformanceTelemetry",
+          "label": {
+            "en": "Power-meter-equipped bike fleet and performance-telemetry system",
+            "ro": "Flotă de biciclete echipate cu contor de putere și sistem de telemetrie de performanță"
+          },
+          "typicalMin": 8000,
+          "typicalMax": 20000
+        },
+        {
+          "key": "soundAndLightingSystem",
+          "label": {
+            "en": "Studio sound system, lighting rig, and ambiance buildout",
+            "ro": "Sistem de sunet al studioului, instalație de lumini și amenajarea ambientului"
+          },
+          "typicalMin": 4000,
+          "typicalMax": 9000
+        },
+        {
+          "key": "bookingAndMembershipSoftwareSetup",
+          "label": {
+            "en": "Class-booking and membership-management software setup",
+            "ro": "Configurarea software-ului de programare a claselor și gestionare a abonamentelor"
+          },
+          "typicalMin": 1000,
+          "typicalMax": 3000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "studioLease",
+          "label": {
+            "en": "Studio space lease",
+            "ro": "Chiria spațiului studioului"
+          },
+          "typicalMonthlyMin": 2500,
+          "typicalMonthlyMax": 6000
+        },
+        {
+          "key": "instructorWages",
+          "label": {
+            "en": "Instructor wages for taught classes",
+            "ro": "Salariile instructorilor, pentru clasele predate"
+          },
+          "typicalMonthlyMin": 3000,
+          "typicalMonthlyMax": 7000
+        },
+        {
+          "key": "musicLicensingAndEquipmentMaintenance",
+          "label": {
+            "en": "Music licensing fees and bike maintenance",
+            "ro": "Taxe de licențiere muzicală și întreținerea bicicletelor"
+          },
+          "typicalMonthlyMin": 500,
+          "typicalMonthlyMax": 1500
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "classPackAndDropInFees",
+          "label": {
+            "en": "Class pack and drop-in class fees",
+            "ro": "Onorarii pentru pachete de clase și clase individuale"
+          }
+        },
+        {
+          "key": "monthlyUnlimitedMembership",
+          "label": {
+            "en": "Monthly unlimited membership",
+            "ro": "Abonament lunar nelimitat"
+          }
+        },
+        {
+          "key": "merchandiseAndMilestoneRewards",
+          "label": {
+            "en": "Branded merchandise and milestone-ride reward sales",
+            "ro": "Vânzări de produse de marcă și recompense pentru curse de etapă"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 11000,
+      "targetMonthlyIncomeMax": 28000,
+      "breakEvenTimelineMonths": 13,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "fast",
+      "notes": {
+        "en": "Class packs and monthly memberships are paid upfront before classes are attended, giving the studio a faster cash-collection cycle than a per-visit appointment business.",
+        "ro": "Pachetele de clase și abonamentele lunare sunt plătite din start, înainte ca clasele să fie frecventate, oferind studioului un ciclu de încasare a numerarului mai rapid decât o afacere cu programări per vizită."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate",
+      "notes": {
+        "en": "Instructor wages and studio lease keep margin moderate, offset by high bike utilization once a class schedule is consistently full.",
+        "ro": "Salariile instructorilor și chiria studioului mențin marja moderată, compensate de o utilizare ridicată a bicicletelor, odată ce un program de clase este constant complet."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "inPerson",
+    "travelRequirement": "none",
+    "onlineOffline": "offline",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 40,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 3
+      },
+      {
+        "key": "marketing",
+        "rating": 5
+      },
+      {
+        "key": "leadership",
+        "rating": 4
+      },
+      {
+        "key": "communication",
+        "rating": 7
+      },
+      {
+        "key": "negotiation",
+        "rating": 2
+      },
+      {
+        "key": "finance",
+        "rating": 3
+      },
+      {
+        "key": "operations",
+        "rating": 6
+      },
+      {
+        "key": "technology",
+        "rating": 3
+      },
+      {
+        "key": "automation",
+        "rating": 2
+      },
+      {
+        "key": "ai",
+        "rating": 1
+      },
+      {
+        "key": "programming",
+        "rating": 1
+      },
+      {
+        "key": "management",
+        "rating": 5
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 35
+      },
+      {
+        "key": "visionary",
+        "score": 20
+      },
+      {
+        "key": "operator",
+        "score": 55
+      },
+      {
+        "key": "creator",
+        "score": 40
+      },
+      {
+        "key": "seller",
+        "score": 30
+      },
+      {
+        "key": "leader",
+        "score": 45
+      },
+      {
+        "key": "analyst",
+        "score": 20
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": false,
+    "isFullyRemote": false,
+    "requiresTravel": false,
+    "isOnlineBusiness": false,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": true,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": true,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "low",
+      "notes": {
+        "en": "Growth is capped by bike count and class-schedule capacity within one studio, with a second location as the main lever beyond that.",
+        "ro": "Creșterea este limitată de numărul de biciclete și capacitatea programului de clase, într-un singur studio, o a doua locație fiind principala pârghie dincolo de aceasta."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "Meaningful upfront equipment investment before any class is taught, plus real dependency on instructor charisma and retention.",
+        "ro": "Investiție inițială semnificativă de echipament, înainte ca vreo clasă să fie predată, plus dependență reală de carisma și reținerea instructorilor."
+      }
+    },
+    "aiResistance": {
+      "level": "high",
+      "notes": {
+        "en": "The live, music-synced, high-energy group experience requires a human instructor on the bike and cannot be automated or replicated remotely with the same intensity.",
+        "ro": "Experiența de grup, live, sincronizată pe muzică, de mare energie, necesită un instructor uman pe bicicletă, și nu poate fi automatizată sau replicată de la distanță, cu aceeași intensitate."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Significant equipment capital is sunk into the bike fleet and sound system before the studio generates any class revenue.",
+          "ro": "Un capital semnificativ de echipament este investit în flota de biciclete și sistemul de sunet, înainte ca studioul să genereze venituri din clase."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Lease or finance the initial bike fleet rather than buying outright, to preserve early cash flow.",
+          "ro": "Închiriază sau finanțează flota inițială de biciclete, în loc să o cumperi integral, pentru a păstra fluxul de numerar timpuriu."
+        }
+      },
+      {
+        "description": {
+          "en": "A departing star instructor with a loyal following can take a meaningful share of the client base with them.",
+          "ro": "Un instructor vedetă, care pleacă și are o urmărire loială, poate lua cu el o pondere semnificativă din baza de clienți."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Build the brand and leaderboard community around the studio itself, not any single instructor's personal following.",
+          "ro": "Construiește brandul și comunitatea de clasament, în jurul studioului însuși, nu în jurul urmăririi personale a unui singur instructor."
+        }
+      },
+      {
+        "description": {
+          "en": "Connected at-home cycling bikes give part of the target market a lower-effort substitute for a studio membership.",
+          "ro": "Bicicletele conectate, de acasă, oferă unei părți din piața țintă, un substitut cu efort mai mic, pentru un abonament la studio."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Compete on the live-room energy, community leaderboard, and instructor charisma that at-home hardware cannot replicate.",
+          "ro": "Concurează pe energia sălii live, clasamentul comunității, și carisma instructorului, pe care echipamentul de acasă nu le poate replica."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Ride to the beat. Leave stronger. — a high-energy, music-driven cardio format with a live leaderboard, for riders who want their workout to feel like a night out.",
+        "ro": "Pedalează pe ritm. Pleacă mai puternic. — un format cardio, de mare energie, condus de muzică, cu clasament live, pentru participanți care își doresc ca antrenamentul să simtă ca o ieșire în oraș."
+      },
+      "channels": [
+        {
+          "channelType": "localSocialMediaAndInstructorContent",
+          "description": {
+            "en": "Local social media content built around live-class energy clips and instructor personalities.",
+            "ro": "Conținut de rețele sociale locale, construit în jurul clipurilor cu energia claselor live, și personalitățile instructorilor."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "introRideOfferForNewRiders",
+          "description": {
+            "en": "A discounted first-ride or two-ride intro offer designed to convert trial riders into class packs or memberships.",
+            "ro": "O ofertă introductivă redusă, de o cursă sau două, concepută pentru a transforma participanții de probă, în pachete de clase sau abonamente."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "fitnessAppAndCorporateWellnessPartnerships",
+          "description": {
+            "en": "Listing on fitness-class marketplace apps and partnerships with local employers' wellness programs as a supplemental, experimental acquisition channel.",
+            "ro": "Listare pe aplicații de piață pentru clase de fitness, și parteneriate cu programele de wellness ale angajatorilor locali, ca un canal de achiziție suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "A single studio marketing directly to local individual riders, with a straightforward intro-offer-to-membership funnel rather than complex multi-stakeholder sales.",
+        "ro": "Un singur studio, care face marketing direct către participanți locali individuali, cu un funnel simplu, de la oferta introductivă la abonament, nu vânzări complexe, cu mai mulți factori de decizie."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A discounted two-ride intro offer lets a prospective rider experience the live-class energy before committing to a class pack or monthly unlimited membership.",
+        "ro": "O ofertă introductivă redusă, de două curse, permite unui participant potențial să experimenteze energia clasei live, înainte de a se angaja la un pachet de clase sau un abonament lunar nelimitat."
+      },
+      "salesCycleLengthDays": 10,
+      "pricingModel": {
+        "en": "€30 per drop-in class, a 10-class pack for €255, and a €175/month unlimited membership — group-format only, with no private one-on-one sessions offered.",
+        "ro": "30 € per clasă individuală, un pachet de 10 clase pentru 255 €, și un abonament lunar nelimitat de 175 € — doar format de grup, fără ședințe private unu-la-unu oferite."
+      }
+    },
+    "salesComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "A straightforward intro-offer-to-membership conversion, without the multi-visit trust-building or larger financing conversations found in higher-ticket service businesses.",
+        "ro": "O conversie simplă, de la oferta introductivă la abonament, fără construirea încrederii pe mai multe vizite sau conversații de finanțare mai ample, prezente în afacerile de servicii cu bon mai mare."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Class scheduling and online booking management",
+          "ro": "Programarea claselor și gestionarea rezervărilor online"
+        },
+        {
+          "en": "Instructor scheduling, playlist curation, and payroll",
+          "ro": "Programarea instructorilor, curatorierea playlist-urilor, și salarizarea"
+        },
+        {
+          "en": "Bike fleet maintenance and telemetry calibration checks",
+          "ro": "Întreținerea flotei de biciclete și verificările de calibrare a telemetriei"
+        },
+        {
+          "en": "Membership billing, renewal, and freeze/cancellation handling",
+          "ro": "Facturarea abonamentelor, reînnoirea și gestionarea suspendării/anulării"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "A schedule of high-intensity group rides taught throughout the day by rotating instructors, with the studio owner handling membership administration, class-schedule optimization, and instructor coordination between rides.",
+        "ro": "Un program de curse de grup, de mare intensitate, predate pe parcursul zilei, de instructori care se rotesc, cu proprietarul studioului gestionând administrarea abonamentelor, optimizarea programului de clase și coordonarea instructorilor, între curse."
+      },
+      "fulfillmentModel": {
+        "en": "A lead instructor/owner supported by a small team of certified indoor-cycling instructors, delivering high-energy group rides capped at the studio's bike count per class.",
+        "ro": "Un instructor/proprietar principal, susținut de o mică echipă de instructori certificați de ciclism indoor, care oferă curse de grup, de mare energie, limitate la numărul de biciclete al studioului, per clasă."
+      }
+    },
+    "automation": {
+      "level": "moderate",
+      "notes": {
+        "en": "Class booking, membership billing, and renewal reminders are automated through studio-management software, but every ride itself remains fully instructor-led.",
+        "ro": "Programarea claselor, facturarea abonamentelor și mementourile de reînnoire sunt automatizate, prin software de gestionare a studioului, dar fiecare cursă rămâne complet condusă de instructor."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "membershipRetentionAlerts",
+          "description": {
+            "en": "AI-assisted attendance-pattern analysis flags riders whose class frequency is dropping, before they cancel their membership.",
+            "ro": "Analiza tiparului de prezență, asistată de AI, semnalează participanții a căror frecvență de clase scade, înainte ca aceștia să-și anuleze abonamentul."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "MINDBODY",
+        "category": "classBookingAndMembershipManagement",
+        "isRequired": true,
+        "websiteUrl": "https://www.mindbodyonline.com/"
+      },
+      {
+        "name": "Stages Flight",
+        "category": "bikePerformanceTelemetryAndLeaderboard",
+        "isRequired": true,
+        "websiteUrl": "https://www.stagescycling.com/"
+      },
+      {
+        "name": "ClassPass",
+        "category": "distributionAndTrialAcquisition",
+        "isRequired": false,
+        "websiteUrl": "https://classpass.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30,
+      "notes": {
+        "en": "Growth is gated by bike count and class-schedule capacity within one studio, with a second location as the main lever beyond that.",
+        "ro": "Creșterea este limitată de numărul de biciclete și capacitatea programului de clase, într-un singur studio, o a doua locație fiind principala pârghie dincolo de aceasta."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Fill the existing class schedule to consistent capacity first, then add instructors and additional class times before considering a second studio location.",
+        "ro": "Umple mai întâi programul existent de clase, la o capacitate constantă, apoi adaugă instructori și intervale suplimentare de clase, înainte de a lua în considerare o a doua locație de studio."
+      },
+      "bottlenecks": [
+        {
+          "en": "Bike count within the studio space hard-caps how many riders can be served per class.",
+          "ro": "Numărul de biciclete, din spațiul studioului, plafonează dur câți participanți pot fi serviți per clasă."
+        },
+        {
+          "en": "Recruiting and developing instructors with real stage presence requires real lead time and vetting.",
+          "ro": "Recrutarea și dezvoltarea instructorilor cu prezență scenică reală, necesită un timp real de pregătire și verificare."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 13,
+          "description": {
+            "en": "The studio reaches break-even with a stable membership base and consistently full core class times.",
+            "ro": "Studioul atinge pragul de rentabilitate, cu o bază stabilă de abonați și intervale de clase principale, constant complete."
+          }
+        },
+        {
+          "monthsFromLaunch": 24,
+          "description": {
+            "en": "A new instructor and expanded class schedule are added to extend weekly capacity.",
+            "ro": "Un instructor nou și un program extins de clase sunt adăugați, pentru a extinde capacitatea săptămânală."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Recurring membership revenue smooths cash flow far more than a purely per-visit fitness business.",
+          "ro": "Veniturile recurente din abonamente netezesc fluxul de numerar, mult mai mult decât o afacere de fitness pur per vizită."
+        }
+      },
+      {
+        "description": {
+          "en": "A live performance leaderboard and milestone-ride rewards build a competitive, social retention loop that a purely appointment-based fitness business lacks.",
+          "ro": "Un clasament de performanță live și recompensele pentru curse de etapă, construiesc o buclă de retenție, competitivă și socială, pe care o afacere de fitness pur bazată pe programări, nu o are."
+        }
+      },
+      {
+        "description": {
+          "en": "The high-intensity, music-driven format attracts a cardio-focused fitness segment distinct from the low-impact strength and mobility niche served elsewhere in this category.",
+          "ro": "Formatul de mare intensitate, condus de muzică, atrage un segment de fitness axat pe cardio, distinct de nișa de forță și mobilitate, cu impact redus, deservită în altă parte, a acestei categorii."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A high-intensity, music-driven indoor cycling studio built around a live performance leaderboard and membership-based recurring revenue, targeting a cardio-focused fitness segment distinct from the low-impact strength and mobility niche served elsewhere in this category. Not a licensed clinical practice — a certified craft-skill service business.",
+        "ro": "Un studio de ciclism indoor, de mare intensitate, condus de muzică, construit în jurul unui clasament de performanță live, și al veniturilor recurente, bazate pe abonament, care vizează un segment de fitness axat pe cardio, distinct de nișa de forță și mobilitate, cu impact redus, deservită în altă parte, a acestei categorii. Nu este o practică clinică licențiată — o afacere de servicii, cu abilitate certificată."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.indoorCyclingStudio.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.indoorCyclingStudio.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.indoorCyclingStudio.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.indoorCyclingStudio.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep riders renewing their monthly unlimited membership consistently.",
+          "ro": "Menține participanții reînnoind constant abonamentul lunar nelimitat."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against instructor wages and studio lease costs.",
+          "ro": "Protejează marja brută împotriva costurilor de salarii ale instructorilor și chiria studioului."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert intro-offer trial riders into class packs or memberships.",
+          "ro": "Transformă participanții la oferta introductivă de probă, în pachete de clase sau abonamente."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep membership cancellations low through consistent class energy and leaderboard engagement.",
+          "ro": "Menține anulările de abonament scăzute, prin energie constantă a claselor și implicare în clasament."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "communication",
+          "importance": 4
+        },
+        {
+          "key": "management",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "marketing",
+          "importance": 3
+        },
+        {
+          "key": "sales",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "collaborative",
+          "importance": 4
+        },
+        {
+          "trait": "decisive",
+          "importance": 3
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "resilient",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 15000,
+        "max": 35000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 20000,
+        "max": 30000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 40,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "energetic",
+        "motivating"
+      ],
+      "technicalLevel": 2,
+      "leadershipLevel": 3,
+      "creativityLevel": 3,
+      "salesAffinity": 2,
+      "automationAffinity": 2,
+      "remotePreference": "inPerson",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theConnector",
+        "theHustler"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the Medium capital tier and recurring-membership revenue model in Financial Overview and Revenue Architecture, and the leaderboard/milestone-ride retention mechanic in Offer Architecture — keep content grounded in real class economics.",
+      "ro": "Subliniază nivelul mediu de capital și modelul de venituri recurente, din abonamente, în Prezentare financiară și Arhitectura veniturilor, precum și mecanismul de retenție, prin clasament și curse de etapă, în Arhitectura ofertei — menține conținutul fundamentat în economia reală a claselor."
+    },
+    "marketingHints": {
+      "en": "Lead with the live-class energy and leaderboard/community positioning, not generic 'boutique fitness' stock phrases.",
+      "ro": "Începe cu poziționarea de energie a clasei live și clasament/comunitate, nu cu fraze generice de tipul „fitness boutique”."
+    },
+    "financialHints": {
+      "en": "Model revenue as recurring membership plus class-pack fees, with instructor wages and studio lease as the dominant cost lines — meaningful upfront equipment capital relative to a pure service business.",
+      "ro": "Modelează veniturile ca abonament recurent, plus onorarii pentru pachete de clase, cu salariile instructorilor și chiria studioului drept costurile dominante — capital de echipament inițial semnificativ, față de o afacere pur de servicii."
+    },
+    "generationHints": {
+      "en": "Keep generated tone energetic and motivating, grounded in real class-pack/membership pricing and the leaderboard positioning — never generic boutique-fitness marketing language.",
+      "ro": "Menține un ton generat energic și motivant, fundamentat pe prețurile reale ale pachetelor de clase/abonamentelor și poziționarea de clasament — niciodată un limbaj generic de marketing pentru fitness boutique."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Secure studio financing, complete the bike fleet and sound-system buildout, and confirm studio liability insurance.",
+            "ro": "Asigură finanțarea studioului, finalizează amenajarea flotei de biciclete și sistemului de sunet, și confirmă asigurarea de răspundere a studioului."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Underestimating how many bikes are needed to run a full class schedule at target class sizes.",
+            "ro": "Subestimarea numărului de biciclete necesare, pentru a rula un program complet de clase, la dimensiunile țintă ale claselor."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm bike count against the target class size and planned weekly schedule before finalizing the equipment order.",
+            "ro": "Confirmă numărul de biciclete, față de dimensiunea țintă a claselor și programul săptămânal planificat, înainte de a finaliza comanda de echipament."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.indoorCyclingStudio.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Run a soft-launch intro-offer period to confirm class-time demand before finalizing the full weekly schedule.",
+            "ro": "Rulează o perioadă de lansare discretă, cu ofertă introductivă, pentru a confirma cererea pentru intervalele de clase, înainte de a finaliza programul săptămânal complet."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Locking in a full weekly class schedule before confirming which time slots actually attract enough demand to fill a class.",
+            "ro": "Fixarea unui program săptămânal complet de clase, înainte de a confirma ce intervale orare atrag de fapt suficientă cerere, pentru a umple o clasă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track intro-offer sign-ups by time slot for at least 4 weeks before locking in the permanent class schedule.",
+            "ro": "Urmărește înscrierile la oferta introductivă, pe interval orar, timp de cel puțin 4 săptămâni, înainte de a fixa programul permanent de clase."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.indoorCyclingStudio.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first month of classes with a soft-opening schedule at reduced capacity.",
+            "ro": "Finalizează prima lună de clase, cu un program de deschidere discretă, la capacitate redusă."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Opening at full class capacity before instructors have practiced running a full-energy room safely and effectively.",
+            "ro": "Deschiderea la capacitate completă de clase, înainte ca instructorii să fi exersat conducerea unei săli, la energie maximă, în siguranță și eficient."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Cap early classes below full bike capacity until instructors are comfortable running a full room.",
+            "ro": "Limitează clasele timpurii sub capacitatea completă de biciclete, până când instructorii se simt confortabil conducând o sală completă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.indoorCyclingStudio.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Launch the full public class schedule with local social content and an intro-ride offer.",
+            "ro": "Lansează programul public complet de clase, cu conținut social local și o ofertă introductivă de cursă."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching without a strong social-content pipeline in place, missing the fastest early awareness channel for a local fitness studio.",
+            "ro": "Lansarea fără un flux puternic, de conținut social, instituit, ratând cel mai rapid canal de conștientizare timpurie, pentru un studio local de fitness."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Have instructors post live-class energy clips consistently in the weeks leading up to and following the public opening.",
+            "ro": "Pune instructorii să posteze constant clipuri cu energia claselor live, în săptămânile dinainte și după deschiderea publică."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.indoorCyclingStudio.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first intro-offer riders into class-pack or membership purchasers.",
+            "ro": "Transformă primii participanți ai ofertei introductive, în cumpărători de pachete de clase sau abonamente."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not following up directly with intro-offer riders before their offer expires to prompt a membership decision.",
+            "ro": "Neurmărirea directă a participanților ofertei introductive, înainte ca oferta lor să expire, pentru a stimula o decizie de abonament."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Follow up personally with each intro-offer rider before their offer expires to offer a class pack or membership.",
+            "ro": "Urmărește personal fiecare participant al ofertei introductive, înainte ca oferta să expire, pentru a oferi un pachet de clase sau un abonament."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.indoorCyclingStudio.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach consistently full core class times with a stable, renewing membership base.",
+            "ro": "Atinge intervale principale de clase constant complete, cu o bază stabilă de abonați, care se reînnoiesc."
+          }
+        ],
+        "kpis": [
+          "customerRetention",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Adding new class times or instructors before existing core class times are consistently full.",
+            "ro": "Adăugarea de noi intervale de clase sau instructori, înainte ca intervalele principale existente de clase să fie constant complete."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track fill rate by class time monthly to confirm core times are consistently full before expanding the schedule.",
+            "ro": "Urmărește lunar rata de completare, pe interval de clasă, pentru a confirma că intervalele principale sunt constant complete, înainte de a extinde programul."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.indoorCyclingStudio.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Grow milestone-ride reward participation and fitness-app partnerships as incremental acquisition and retention levers.",
+            "ro": "Crește participarea la recompensele curselor de etapă, și parteneriatele cu aplicații de fitness, ca pârghii incrementale de achiziție și retenție."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not celebrating rider milestones publicly, missing a low-cost, high-impact retention and referral trigger.",
+            "ro": "Necelebrarea publică a etapelor participanților, ratând un declanșator de retenție și recomandare, cu cost redus și impact ridicat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Publicly celebrate milestone rides (e.g. the 50th or 100th ride) in-studio and on social content.",
+            "ro": "Celebrează public cursele de etapă (de ex. a 50-a sau a 100-a cursă), în studio și pe conținutul social."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.indoorCyclingStudio.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Add a new instructor and expand the class schedule to extend weekly capacity.",
+            "ro": "Adaugă un instructor nou și extinde programul de clase, pentru a extinde capacitatea săptămânală."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring an additional instructor before confirming enough unmet demand exists at new proposed class times.",
+            "ro": "Angajarea unui instructor suplimentar, înainte de a confirma că există suficientă cerere neacoperită, la noile intervale propuse de clase."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm a waitlist or unmet demand signal at proposed new class times before hiring an additional instructor.",
+            "ro": "Confirmă o listă de așteptare sau un semnal de cerere neacoperită, la noile intervale propuse de clase, înainte de a angaja un instructor suplimentar."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.indoorCyclingStudio.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Evaluate opening a second studio location once the first is consistently profitable and fully staffed.",
+            "ro": "Evaluează deschiderea unei a doua locații de studio, odată ce prima este constant profitabilă și complet dotată cu personal."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding to a second location before the first studio can run without the founder's daily hands-on involvement.",
+            "ro": "Extinderea la o a doua locație, înainte ca primul studio să poată funcționa fără implicarea zilnică, practică, a fondatorului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the first studio runs profitably with a trained studio manager before opening a second location.",
+            "ro": "Confirmă că primul studio funcționează profitabil, cu un manager de studio instruit, înainte de a deschide o a doua locație."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.indoorCyclingStudio.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the membership base, equipment records, and instructor structure to package the studio for sale.",
+            "ro": "Documentează baza de abonați, evidențele echipamentului și structura instructorilor, pentru a pregăti studioul pentru vânzare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Waiting until a sale opportunity appears to start documenting membership and equipment records properly.",
+            "ro": "Așteptarea apariției unei oportunități de vânzare, pentru a începe documentarea corespunzătoare a evidențelor de abonați și echipament."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, complete membership and equipment maintenance records on an ongoing basis, not just before a sale.",
+            "ro": "Menține evidențe curate și complete ale abonaților și întreținerii echipamentului, în mod continuu, nu doar înainte de o vânzare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.indoorCyclingStudio.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,950 @@
+{
+  "identity": {
+    "id": "7bd23ddc-a7f6-408d-b2e4-06294d10458d",
+    "slug": "personal-trainer-marketplace",
+    "version": "1.0.0",
+    "name": {
+      "en": "Coachline",
+      "ro": "Coachline"
+    },
+    "tagline": {
+      "en": "Certified trainers, matched to the person you're becoming.",
+      "ro": "Antrenori certificați, potriviți persoanei care devii."
+    },
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theBuilder",
+      "theConnector"
+    ],
+    "summary": {
+      "en": "Best suited to a founder who can build and operate a two-sided platform while also building genuine relationships with gyms, fitness studios, and certification bodies to establish trust in the marketplace's vetting process.",
+      "ro": "Potrivit unui fondator, care poate construi și opera o platformă cu două fețe, și, în același timp, poate construi relații reale, cu săli de sport, studiouri de fitness, și organisme de certificare, pentru a stabili încredere, în procesul de verificare, al platformei."
+    },
+    "minimumExperienceYears": 3
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 35000,
+      "maxInvestment": 80000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 14000,
+      "ongoingMonthlyCostMax": 30000,
+      "notes": {
+        "en": "Covers marketplace platform development, trainer certification and liability-insurance verification infrastructure, and payment-processing setup — a High budget tier, driven by platform build cost and the underwriting complexity of physical-injury liability, above tutoring's background-check-only vetting cost but distinct from home-repair's property-damage insurance underwriting.",
+        "ro": "Acoperă dezvoltarea platformei de piață, infrastructura de verificare a certificării și asigurării de răspundere, a antrenorilor, și configurarea procesării plăților — un nivel de buget ridicat, determinat de costul de construcție a platformei, și complexitatea de subscriere, a răspunderii pentru vătămare fizică, peste costul de verificare, doar prin antecedente, al meditațiilor, dar distinct, de subscrierea de asigurare, pentru daune materiale, a reparațiilor casnice."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "marketplacePlatformDevelopment",
+          "label": {
+            "en": "Marketplace platform development (booking, matching, payments)",
+            "ro": "Dezvoltarea platformei de piață (programare, potrivire, plăți)"
+          },
+          "typicalMin": 15000,
+          "typicalMax": 35000
+        },
+        {
+          "key": "trainerCertificationAndLiabilityVerificationSetup",
+          "label": {
+            "en": "Trainer certification and liability-insurance verification infrastructure",
+            "ro": "Infrastructura de verificare a certificării și asigurării de răspundere, a antrenorilor"
+          },
+          "typicalMin": 10000,
+          "typicalMax": 25000
+        },
+        {
+          "key": "paymentProcessingSetup",
+          "label": {
+            "en": "Split-payment processing and payout infrastructure setup",
+            "ro": "Configurarea procesării plăților divizate, și infrastructurii de plată"
+          },
+          "typicalMin": 5000,
+          "typicalMax": 15000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "platformHostingAndMatchingOperations",
+          "label": {
+            "en": "Platform hosting and geo-radius matching operations",
+            "ro": "Găzduirea platformei și operațiunile de potrivire, pe raza geografică"
+          },
+          "typicalMonthlyMin": 4000,
+          "typicalMonthlyMax": 9000
+        },
+        {
+          "key": "trainerAndClientSupportStaffing",
+          "label": {
+            "en": "Trainer verification and client-support staffing",
+            "ro": "Personal de verificare a antrenorilor, și suport pentru clienți"
+          },
+          "typicalMonthlyMin": 6000,
+          "typicalMonthlyMax": 14000
+        },
+        {
+          "key": "platformLiabilityInsuranceReserve",
+          "label": {
+            "en": "Platform-level liability-insurance reserve for injury-related claims",
+            "ro": "Rezervă de asigurare de răspundere, la nivel de platformă, pentru cererile legate de vătămări"
+          },
+          "typicalMonthlyMin": 4000,
+          "typicalMonthlyMax": 7000
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "commissionOnSessionBookings",
+          "label": {
+            "en": "Commission on each session booking's value",
+            "ro": "Comision, pe valoarea fiecărei rezervări de ședință"
+          }
+        },
+        {
+          "key": "gymPartnerRevenueShare",
+          "label": {
+            "en": "Revenue share from partner gyms listing their in-house trainers",
+            "ro": "Cotă de venit, de la sălile de sport partenere, care își listează antrenorii interni"
+          }
+        },
+        {
+          "key": "trainerFeaturedListingSubscription",
+          "label": {
+            "en": "Optional trainer subscription for featured profile placement",
+            "ro": "Abonament opțional, pentru antrenori, pentru plasarea profilului promovat"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 9000,
+      "targetMonthlyIncomeMax": 40000,
+      "breakEvenTimelineMonths": 16,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Individual session commissions are collected quickly, but building enough two-sided volume (liquidity) of verified trainers and active clients in each new geographic zone takes real time.",
+        "ro": "Comisioanele individuale, pe ședință, sunt colectate rapid, dar construirea unui volum suficient, cu două fețe (lichiditate), de antrenori verificați, și clienți activi, în fiecare zonă geografică nouă, necesită timp real."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "occasional",
+    "onlineOffline": "online",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 40,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 4
+      },
+      {
+        "key": "marketing",
+        "rating": 6
+      },
+      {
+        "key": "leadership",
+        "rating": 5
+      },
+      {
+        "key": "communication",
+        "rating": 6
+      },
+      {
+        "key": "negotiation",
+        "rating": 5
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 7
+      },
+      {
+        "key": "technology",
+        "rating": 6
+      },
+      {
+        "key": "automation",
+        "rating": 5
+      },
+      {
+        "key": "ai",
+        "rating": 3
+      },
+      {
+        "key": "programming",
+        "rating": 4
+      },
+      {
+        "key": "management",
+        "rating": 6
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 65
+      },
+      {
+        "key": "visionary",
+        "score": 35
+      },
+      {
+        "key": "operator",
+        "score": 55
+      },
+      {
+        "key": "creator",
+        "score": 25
+      },
+      {
+        "key": "seller",
+        "score": 40
+      },
+      {
+        "key": "leader",
+        "score": 45
+      },
+      {
+        "key": "analyst",
+        "score": 40
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": false,
+    "requiresTravel": true,
+    "isOnlineBusiness": true,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": true,
+    "isHighlyAutomatable": true,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": true,
+    "requiresInventory": false,
+    "isSeasonalBusiness": true,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "high",
+      "notes": {
+        "en": "Once trainer verification and matching infrastructure are built, adding new geographic zones follows a repeatable playbook, giving genuine marketplace-style scaling once liquidity is solved in each zone.",
+        "ro": "Odată ce infrastructura de verificare și potrivire, a antrenorilor, este construită, adăugarea de zone geografice noi, urmează un playbook repetabil, oferind o scalare reală, de tip piață, odată ce lichiditatea este rezolvată, în fiecare zonă."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high",
+      "notes": {
+        "en": "Requires solving two-sided cold-start liquidity while simultaneously running rigorous certification and liability-insurance verification given real physical-injury stakes.",
+        "ro": "Necesită rezolvarea lichidității inițiale, cu două fețe, în timp ce rulează, simultan, o verificare riguroasă, de certificare și asigurare de răspundere, dat fiind mizele reale, de vătămare fizică."
+      }
+    },
+    "aiResistance": {
+      "level": "moderate",
+      "notes": {
+        "en": "AI-assisted matching and scheduling automate real platform operations, but certification and liability-insurance verification, plus dispute resolution involving physical-injury claims, require human judgment.",
+        "ro": "Potrivirea și programarea, asistate de AI, automatizează operațiuni reale ale platformei, dar verificarea certificării și asigurării de răspundere, plus soluționarea litigiilor, care implică cereri de vătămare fizică, necesită judecată umană."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "A client injury during a training session creates real physical-injury liability exposure for the platform if trainer certification and insurance verification isn't rigorous and continuously maintained.",
+          "ro": "O vătămare a clientului, în timpul unei ședințe de antrenament, creează o expunere reală, la răspundere pentru vătămare fizică, pentru platformă, dacă verificarea certificării și asigurării antrenorului, nu este riguroasă, și menținută continuu."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Require verified NASM/ACE/ISSA-tier certification and current liability insurance before any trainer is listed, with periodic re-verification.",
+          "ro": "Solicită certificare verificată, de nivel NASM/ACE/ISSA, și asigurare de răspundere curentă, înainte ca orice antrenor să fie listat, cu reverificare periodică."
+        }
+      },
+      {
+        "description": {
+          "en": "The classic two-sided marketplace cold-start problem — insufficient verified trainer supply deters clients, and insufficient client demand deters trainers, and both must be solved simultaneously in each new geographic zone.",
+          "ro": "Problema clasică de pornire, a piețelor cu două fețe — oferta insuficientă, de antrenori verificați, descurajează clienții, iar cererea insuficientă, de clienți, descurajează antrenorii, ambele trebuind rezolvate simultan, în fiecare zonă geografică nouă."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Solve liquidity in one pilot zone by manually recruiting an initial verified trainer pool before opening client sign-ups broadly.",
+          "ro": "Rezolvă lichiditatea, într-o zonă pilot, prin recrutarea manuală, a unui grup inițial, de antrenori verificați, înainte de a deschide larg, înscrierile clienților."
+        }
+      },
+      {
+        "description": {
+          "en": "Fraudulent or lapsed certification claims by trainers are an ongoing verification challenge distinct from a simple background check.",
+          "ro": "Afirmațiile fraudante, sau expirate, de certificare, ale antrenorilor, reprezintă o provocare continuă, de verificare, distinctă de o simplă verificare de antecedente."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Verify certification directly with the issuing body (NASM, ACE, ISSA) rather than relying on trainer-submitted documentation alone, with annual re-verification.",
+          "ro": "Verifică certificarea, direct cu organismul emitent (NASM, ACE, ISSA), în loc să te bazezi doar pe documentația trimisă de antrenor, cu reverificare anuală."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Certified trainers, matched to the person you're becoming — every trainer on Coachline carries verified certification and liability insurance, so you never have to wonder.",
+        "ro": "Antrenori certificați, potriviți persoanei care devii — fiecare antrenor, de pe Coachline, are certificare și asigurare de răspundere verificate, ca să nu trebuiască niciodată să te întrebi."
+      },
+      "channels": [
+        {
+          "channelType": "localSocialMediaAndFitnessInfluencerPartnerships",
+          "description": {
+            "en": "Local social media content and partnerships with fitness influencers who can authentically demonstrate the matching and booking experience.",
+            "ro": "Conținut de rețele sociale locale, și parteneriate, cu influenceri de fitness, care pot demonstra autentic, experiența de potrivire și rezervare."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "gymAndStudioPartnershipListings",
+          "description": {
+            "en": "Partnerships with local gyms and fitness studios to list their in-house trainers on the platform, a supply-side channel this marketplace needs that a purely independent-trainer network doesn't.",
+            "ro": "Parteneriate, cu săli de sport, și studiouri de fitness locale, pentru a-și lista antrenorii interni, pe platformă, un canal, de partea ofertei, de care această piață are nevoie, pe care o rețea, pur de antrenori independenți, nu îl are."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "corporateWellnessProgramPartnerships",
+          "description": {
+            "en": "Partnerships with corporate wellness programs as a supplemental, experimental acquisition channel.",
+            "ro": "Parteneriate, cu programe de wellness corporative, ca un canal de achiziție suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "A two-sided platform requires distinct demand-side (client) and supply-side (trainer and gym-partner) marketing motions running in parallel, more complex than a single-sided service business.",
+        "ro": "O platformă cu două fețe, necesită mișcări de marketing distincte, pe partea de cerere (client), și partea de ofertă (antrenor și partener sală de sport), care rulează în paralel, mai complexe, decât o afacere de servicii, cu o singură față."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A client browses verified trainer profiles filtered by specialization and location, books a first session directly, and payment is held until the session is confirmed complete.",
+        "ro": "Un client, răsfoiește profiluri verificate, de antrenori, filtrate după specializare și locație, rezervă o primă ședință, direct, iar plata este reținută, până la confirmarea finalizării ședinței."
+      },
+      "salesCycleLengthDays": 5,
+      "pricingModel": {
+        "en": "The platform takes a 22-28% commission on each session booking; trainers set their own rates (typically €40-€90/session depending on specialization and location), with clients able to purchase a discounted 10-session package.",
+        "ro": "Platforma percepe un comision de 22-28%, pe fiecare rezervare de ședință; antrenorii își stabilesc propriile tarife (de obicei 40-90 €/ședință, în funcție de specializare și locație), clienții putând achiziționa un pachet redus, de 10 ședințe."
+      }
+    },
+    "salesComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "Booking a first session is a fast, low-friction decision once a client trusts the verification process, distinct from the longer trust-building cycle of a larger home-repair job.",
+        "ro": "Rezervarea unei prime ședințe, este o decizie rapidă, cu frecare redusă, odată ce un client are încredere, în procesul de verificare, distinctă de ciclul mai lung, de construire a încrederii, al unei lucrări mai mari, de reparații casnice."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Trainer certification and liability-insurance verification and periodic re-verification.",
+          "ro": "Verificarea, și reverificarea periodică, a certificării și asigurării de răspundere, a antrenorilor."
+        },
+        {
+          "en": "Client-trainer matching by specialization, location, and availability.",
+          "ro": "Potrivirea client-antrenor, după specializare, locație și disponibilitate."
+        },
+        {
+          "en": "Session booking, payment escrow, and payout processing.",
+          "ro": "Rezervarea ședinței, escrow-ul plății, și procesarea plăților."
+        },
+        {
+          "en": "Quality monitoring through ratings and injury-incident review handling.",
+          "ro": "Monitorizarea calității, prin evaluări, și gestionarea revizuirii incidentelor de vătămare."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "The platform team verifies new trainer applications, monitors active session bookings and payment flow, and handles client and trainer support inquiries across both sides of the marketplace.",
+        "ro": "Echipa platformei, verifică noile aplicații de antrenori, monitorizează rezervările active de ședințe, și fluxul de plăți, și gestionează solicitările de suport, ale clienților și antrenorilor, pe ambele fețe ale pieței."
+      },
+      "fulfillmentModel": {
+        "en": "A technology platform connecting independent, certified, insured personal trainers directly with clients, handling matching, booking, and payment escrow without directly employing or training any trainer itself.",
+        "ro": "O platformă tehnologică, care conectează direct, antrenori personali, independenți, certificați și asigurați, cu clienții, gestionând potrivirea, rezervarea, și escrow-ul plății, fără a angaja sau instrui direct, vreun antrenor."
+      }
+    },
+    "automation": {
+      "level": "high",
+      "notes": {
+        "en": "Matching, booking, and payment processing are substantially automated; certification/insurance verification and injury-incident review remain human-reviewed given real liability stakes.",
+        "ro": "Potrivirea, rezervarea, și procesarea plăților, sunt substanțial automatizate; verificarea certificării/asigurării, și revizuirea incidentelor de vătămare, rămân revizuite uman, dat fiind mizele reale de răspundere."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "trainerClientMatching",
+          "description": {
+            "en": "AI-assisted matching of client goals and preferences to trainer specialization, location, and availability.",
+            "ro": "Potrivire, asistată de AI, a obiectivelor și preferințelor clientului, cu specializarea, locația, și disponibilitatea antrenorului."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "churnRiskDetection",
+          "description": {
+            "en": "AI-assisted analysis of booking-frequency patterns to flag clients at risk of churning before they stop booking sessions.",
+            "ro": "Analiza tiparelor de frecvență, a rezervărilor, asistată de AI, pentru a semnala clienții cu risc de abandon, înainte ca aceștia să nu mai rezerve ședințe."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "moderate"
+    },
+    "recommendedTools": [
+      {
+        "name": "TrueCoach",
+        "category": "personalTrainingClientManagementAndBooking",
+        "isRequired": true,
+        "websiteUrl": "https://truecoach.co/"
+      },
+      {
+        "name": "Stripe Connect",
+        "category": "splitPaymentAndEscrowProcessing",
+        "isRequired": true,
+        "websiteUrl": "https://stripe.com/connect"
+      },
+      {
+        "name": "Certemy",
+        "category": "certificationVerificationAndCompliance",
+        "isRequired": false,
+        "websiteUrl": "https://certemy.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "high",
+      "timeHorizonMonths": 36,
+      "notes": {
+        "en": "Once trainer verification and matching infrastructure are proven in one zone, expansion into new zones follows a repeatable playbook, giving genuine marketplace-style compounding growth.",
+        "ro": "Odată ce infrastructura de verificare și potrivire, a antrenorilor, este dovedită, într-o zonă, extinderea, în zone noi, urmează un playbook repetabil, oferind o creștere compusă, reală, de tip piață."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Solve the cold-start problem in one pilot zone, reach reliable two-sided liquidity there, then expand into a second zone by reapplying the same certification-verification and recruitment playbook.",
+        "ro": "Rezolvă problema de pornire, într-o zonă pilot, atinge lichiditate fiabilă, cu două fețe, acolo, apoi extinde-te, într-o a doua zonă, reaplicând același playbook, de verificare a certificării și recrutare."
+      },
+      "bottlenecks": [
+        {
+          "en": "Recruiting and verifying enough genuinely certified, insured trainers in a new zone before opening client sign-ups broadly.",
+          "ro": "Recrutarea și verificarea, unui număr suficient, de antrenori, cu adevărat certificați și asigurați, într-o zonă nouă, înainte de a deschide larg, înscrierile clienților."
+        },
+        {
+          "en": "Gym-partner negotiations take real relationship-building time that doesn't scale as fast as independent-trainer recruitment.",
+          "ro": "Negocierile cu sălile de sport partenere, necesită timp real, de construire a relațiilor, care nu se scalează la fel de rapid, ca recrutarea antrenorilor independenți."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 16,
+          "description": {
+            "en": "The marketplace reaches break-even with reliable two-sided liquidity in the pilot zone.",
+            "ro": "Piața atinge pragul de rentabilitate, cu lichiditate fiabilă, cu două fețe, în zona pilot."
+          }
+        },
+        {
+          "monthsFromLaunch": 30,
+          "description": {
+            "en": "A second geographic zone reaches reliable liquidity, validating the expansion playbook.",
+            "ro": "O a doua zonă geografică, atinge lichiditate fiabilă, validând playbook-ul de extindere."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Rigorous certification and liability-insurance verification becomes a genuine trust moat against informal trainer-finding methods like social media DMs or gym bulletin boards.",
+          "ro": "Verificarea riguroasă, a certificării și asigurării de răspundere, devine un adevărat șanț de încredere, împotriva metodelor informale, de găsire a antrenorilor, precum mesajele de pe rețele sociale, sau avizierele sălilor de sport."
+        }
+      },
+      {
+        "description": {
+          "en": "Real network effects let the marketplace scale non-linearly once two-sided liquidity is achieved in a zone.",
+          "ro": "Efectele reale de rețea, permit pieței, să se scaleze neliniar, odată ce lichiditatea cu două fețe, este atinsă, într-o zonă."
+        }
+      },
+      {
+        "description": {
+          "en": "The gym-and-studio-partnership supply channel gives access to an established base of already-certified trainers that a purely independent-trainer recruitment strategy can't reach as quickly.",
+          "ro": "Canalul de ofertă, prin parteneriate cu săli de sport și studiouri, oferă acces, la o bază stabilită, de antrenori deja certificați, pe care o strategie, pur de recrutare independentă, a antrenorilor, nu o poate atinge la fel de rapid."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A two-sided marketplace connecting clients with certified, insured personal trainers for session-based bookings, monetized through a commission on session value plus a gym-partner revenue share. The library's third genuine two-sided marketplace, distinguished by physical-injury liability stakes and certification-authenticity verification.",
+        "ro": "O piață, cu două fețe, care conectează clienți, cu antrenori personali, certificați și asigurați, pentru rezervări bazate pe ședințe, monetizată printr-un comision, pe valoarea ședinței, plus o cotă de venit, de la sălile de sport partenere. A treia piață reală, cu două fețe, a bibliotecii, distinsă prin mizele de răspundere, pentru vătămare fizică, și verificarea autenticității certificării."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.personalTrainerMarketplace.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.personalTrainerMarketplace.businessDna.resources.community1"
+      },
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.personalTrainerMarketplace.businessDna.resources.book1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.personalTrainerMarketplace.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert a healthy share of trainer-profile browsers into a first booked session.",
+          "ro": "Transformă o pondere sănătoasă, din vizitatorii profilurilor de antrenori, în o primă ședință rezervată."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep clients rebooking with the same or a new trainer on the platform.",
+          "ro": "Menține clienții, rerezervând, cu același, sau un nou antrenor, pe platformă."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against verification staffing and liability-insurance reserve costs.",
+          "ro": "Protejează marja brută, împotriva costurilor de personal de verificare, și rezervei de asigurare de răspundere."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep trainer and client churn low through rigorous verification and reliable matching.",
+          "ro": "Menține abandonul, de antrenori și clienți, scăzut, prin verificare riguroasă, și potrivire fiabilă."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "marketing",
+          "importance": 4
+        },
+        {
+          "key": "negotiation",
+          "importance": 3
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "programming",
+          "importance": 2
+        },
+        {
+          "key": "sales",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "systemOriented",
+          "importance": 4
+        },
+        {
+          "trait": "collaborative",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "decisive",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 35000,
+        "max": 80000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 45000,
+        "max": 70000,
+        "currency": "EUR"
+      },
+      "riskProfile": "high",
+      "timeAvailability": {
+        "minWeeklyHours": 40,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "trustworthy",
+        "responsive"
+      ],
+      "technicalLevel": 3,
+      "leadershipLevel": 4,
+      "creativityLevel": 2,
+      "salesAffinity": 3,
+      "automationAffinity": 4,
+      "remotePreference": "hybrid",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theBuilder",
+        "theConnector"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the certification-plus-liability-insurance verification standard and the gym-partnership supply channel in Offer Architecture and Marketing System — the clearest differentiators from the tutoring and home-repair marketplaces elsewhere in this category.",
+      "ro": "Evidențiază standardul de verificare, certificare plus asigurare de răspundere, și canalul de ofertă, prin parteneriate cu săli de sport, în Arhitectura ofertei și Sistemul de marketing — cei mai clari diferențiatori, față de piețele de meditații și reparații casnice, din altă parte, a acestei categorii."
+    },
+    "marketingHints": {
+      "en": "Always present demand-side client acquisition and supply-side trainer/gym-partner recruitment as two distinct marketing motions, never collapse them into a single generic plan.",
+      "ro": "Prezintă întotdeauna achiziția de clienți, pe partea de cerere, și recrutarea de antrenori/parteneri săli de sport, pe partea de ofertă, ca două motoare de marketing distincte, niciodată combinate, într-un singur plan generic."
+    },
+    "financialHints": {
+      "en": "Model revenue as commission on session-booking value plus a gym-partner revenue share, not a flat fee or subscription, and keep the liability-insurance reserve visible as a real, distinct cost line given physical-injury stakes.",
+      "ro": "Modelează veniturile ca fiind comision, pe valoarea rezervării de ședință, plus o cotă de venit, de la sălile de sport partenere, nu o taxă fixă, sau abonament, și menține rezerva de asigurare de răspundere, vizibilă, ca o linie de cost reală, distinctă, dat fiind mizele de vătămare fizică."
+    },
+    "generationHints": {
+      "en": "Keep generated tone trustworthy and responsive, grounded in real certification-verification specifics — never generic 'find a trainer near you' stock phrases that could apply to any listing site.",
+      "ro": "Menține un ton generat, de încredere și receptiv, fundamentat pe detalii reale, de verificare a certificării — niciodată fraze generice, de tipul „găsește un antrenor lângă tine”, care s-ar putea aplica oricărui site de listare."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Build or select the marketplace platform (matching, booking, escrow) and establish a trainer certification and liability-insurance verification process.",
+            "ro": "Construiește sau alege platforma de piață (potrivire, rezervare, escrow), și stabilește un proces de verificare, a certificării și asigurării de răspundere, a antrenorilor."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Building custom marketplace software from scratch before validating demand.",
+            "ro": "Construirea de software personalizat de piață, de la zero, înainte de a valida cererea."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Use AI to help draft the trainer application and certification-verification questionnaire.",
+            "ro": "Folosește AI, pentru a ajuta la redactarea chestionarului, de aplicare și verificare a certificării, pentru antrenori."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.personalTrainerMarketplace.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Solve the cold-start problem in one pilot zone by manually recruiting an initial verified trainer pool and a handful of pilot clients.",
+            "ro": "Rezolvă problema de pornire, într-o zonă pilot, prin recrutarea manuală, a unui grup inițial, de antrenori verificați, și câțiva clienți pilot."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Opening client sign-ups broadly before any real verified trainer supply exists, producing unmatched demand and early churn.",
+            "ro": "Deschiderea larg, a înscrierilor clienților, înainte de a exista o ofertă reală, de antrenori verificați, generând cerere nepotrivită, și abandon timpuriu."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Manually recruit and personally verify the first 10-15 trainers across core specializations before opening client sign-ups broadly.",
+            "ro": "Recrutează manual, și verifică personal, primii 10-15 antrenori, pe specializările de bază, înainte de a deschide larg, înscrierile clienților."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first month of matched, completed sessions in the pilot zone with both sides genuinely represented.",
+            "ro": "Finalizează prima lună, de ședințe potrivite, finalizate, în zona pilot, cu ambele părți reprezentate cu adevărat."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Not tracking client-to-trainer matching success rate early, missing the first signs of a supply-demand imbalance.",
+            "ro": "Neurmărirea, timpurie, a ratei de succes, a potrivirii client-antrenor, ratând primele semne, ale unui dezechilibru cerere-ofertă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track matching-to-booking conversion rate from the very first sessions.",
+            "ro": "Urmărește rata de conversie, de la potrivire la rezervare, chiar din primele ședințe."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.personalTrainerMarketplace.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Launch broader local client marketing alongside continued supply-side trainer and gym-partner recruitment across the pilot zone.",
+            "ro": "Lansează marketing local, mai larg, pentru clienți, alături de recrutarea continuă, de antrenori și parteneri săli de sport, de partea ofertei, în întreaga zonă pilot."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Focusing marketing spend entirely on client acquisition at launch while under-investing in continued trainer recruitment.",
+            "ro": "Concentrarea cheltuielilor de marketing, în întregime, pe achiziția de clienți, la lansare, subinvestind în recrutarea continuă, de antrenori."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Keep both demand-side and supply-side acquisition running in parallel at launch, not sequentially.",
+            "ro": "Menține achiziția, atât pe partea de cerere, cât și de ofertă, în paralel, la lansare, nu secvențial."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first client's completed session into a rebooking with the same or another verified trainer.",
+            "ro": "Transformă prima ședință finalizată, a unui client, într-o rerezervare, cu același, sau un alt antrenor verificat."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not following up after session completion, losing clients who were satisfied but simply forgot to rebook.",
+            "ro": "Neurmărirea, după finalizarea ședinței, pierzând clienți, care erau mulțumiți, dar pur și simplu au uitat să rerezerve."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Follow up with every client within 24 hours of session completion to confirm satisfaction and capture a review.",
+            "ro": "Urmărește fiecare client, în 24 de ore, de la finalizarea ședinței, pentru a confirma satisfacția, și a capta o recenzie."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach reliable two-sided liquidity in the pilot zone — enough verified trainers across core specializations to match most client requests quickly.",
+            "ro": "Atinge lichiditate fiabilă, cu două fețe, în zona pilot — suficienți antrenori verificați, pe specializările de bază, pentru a potrivi rapid, majoritatea solicitărilor clienților."
+          }
+        ],
+        "kpis": [
+          "customerRetention",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Declaring product-market fit based on overall booking volume while specific specializations remain chronically undersupplied.",
+            "ro": "Declararea potrivirii produs-piață, pe baza volumului total de rezervări, în timp ce specializări specifice, rămân cronic subaprovizionate."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Identify any specialization with a persistent trainer shortage and prioritize recruitment there.",
+            "ro": "Identifică orice specializare, cu deficit persistent, de antrenori, și prioritizează recrutarea acolo."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Grow gym-and-studio-partnership listings and session volume within the pilot zone before expanding to a new geographic zone.",
+            "ro": "Crește listările, prin parteneriate cu săli de sport și studiouri, și volumul de ședințe, în zona pilot, înainte de a te extinde, într-o zonă geografică nouă."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding to a new zone before the pilot zone has reached stable, repeatable liquidity and session volume.",
+            "ro": "Extinderea, într-o zonă nouă, înainte ca zona pilot, să fi atins o lichiditate, și un volum de ședințe, stabile și repetabile."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Monitor the demand-to-supply growth ratio monthly and rebalance acquisition spend if either side falls behind.",
+            "ro": "Monitorizează lunar, raportul de creștere cerere-ofertă, și rebalansează cheltuielile de achiziție, dacă oricare parte rămâne în urmă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.personalTrainerMarketplace.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Expand trainer supply into additional specializations and add verification and support staff to handle increased volume.",
+            "ro": "Extinde oferta de antrenori, pe specializări suplimentare, și adaugă personal de verificare și suport, pentru a gestiona volumul crescut."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding into new specializations without confirming real client demand exists for them first.",
+            "ro": "Extinderea, în specializări noi, fără a confirma, mai întâi, că există o cerere reală, a clienților, pentru acestea."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Survey existing clients about unmet specialization needs before recruiting trainers into new categories.",
+            "ro": "Sondează clienții existenți, despre nevoile neacoperite, de specializare, înainte de a recruta antrenori, în categorii noi."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.personalTrainerMarketplace.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into a second geographic zone, reapplying the proven cold-start and certification-verification playbook.",
+            "ro": "Extinde-te, într-o a doua zonă geografică, reaplicând playbook-ul dovedit, de pornire și verificare a certificării."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Assuming liquidity from the first zone will transfer automatically to a new geography without re-running the cold-start process.",
+            "ro": "Presupunerea, că lichiditatea, din prima zonă, se va transfera automat, către o geografie nouă, fără a rerula procesul de pornire."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Apply the same manual trainer-recruitment and certification-verification playbook used in the pilot zone to every new zone.",
+            "ro": "Aplică același playbook manual, de recrutare și verificare a certificării, utilizat, în zona pilot, în fiecare zonă nouă."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the certification-verification process, platform IP, and marketplace metrics (GMV, take rate, liquidity) to package the business for sale.",
+            "ro": "Documentează procesul de verificare a certificării, proprietatea intelectuală a platformei, și metricile de piață (GMV, rata de comision, lichiditate), pentru a pregăti afacerea, pentru vânzare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping marketplace performance metrics scattered across systems instead of a single, buyer-ready reporting view.",
+            "ro": "Menținerea metricilor de performanță de piață, împrăștiate, în diverse sisteme, în loc de o singură vizualizare, de raportare, pregătită pentru cumpărător."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, ongoing records of GMV, take rate, and liquidity by zone rather than reconstructing them before a sale.",
+            "ro": "Menține evidențe curate, continue, ale GMV, ratei de comision, și lichidității, pe zonă, în loc să le reconstruiești, înainte de o vânzare."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

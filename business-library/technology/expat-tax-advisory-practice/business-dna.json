@@ -1,0 +1,935 @@
+{
+  "identity": {
+    "id": "2687f04b-efd7-40f7-bfe3-9d6742bb76e8",
+    "slug": "expat-tax-advisory-practice",
+    "version": "1.0.0",
+    "name": {
+      "en": "Meridian Expat Tax",
+      "ro": "Meridian Expat Tax"
+    },
+    "tagline": {
+      "en": "Compliant in two countries, at home in neither's paperwork.",
+      "ro": "Conform, în două țări, dar niciodată copleșit de hârtiile lor."
+    },
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theSpecialist",
+      "theConnector"
+    ],
+    "summary": {
+      "en": "Best suited to a detail-driven Enrolled Agent with cross-border compliance training, who enjoys the technical puzzle of tax treaties and totalization agreements and can build a referral network within expat and relocation communities. This is educational business-planning content only — not tax, legal, or compliance advice for any end client.",
+      "ro": "Potrivit unui Enrolled Agent orientat spre detalii, cu instruire în conformitate transfrontalieră, care se bucură de provocarea tehnică a tratatelor fiscale și acordurilor de totalizare, și poate construi o rețea de recomandări, în comunitățile de expați și relocare. Acesta este doar conținut educațional, de planificare a afacerii — nu este consultanță fiscală, juridică sau de conformitate, pentru niciun client final."
+    },
+    "minimumExperienceYears": 4
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 10000,
+      "maxInvestment": 25000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 1500,
+      "ongoingMonthlyCostMax": 4000,
+      "notes": {
+        "en": "Covers Enrolled Agent credentialing plus additional cross-border/FATCA-compliance training, professional tax software with multi-jurisdiction support, and a secure client-document portal — a Medium budget tier, higher than a domestic tax-prep practice given specialized cross-border research tools.",
+        "ro": "Acoperă atestarea de Enrolled Agent, plus instruire suplimentară în conformitate transfrontalieră/FATCA, software fiscal profesional, cu suport multi-jurisdicțional, și un portal securizat de documente pentru clienți — un nivel de buget mediu, mai ridicat decât o practică fiscală domestică, dat fiind instrumentele specializate de cercetare transfrontalieră."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "eaCredentialingAndCrossBorderTraining",
+          "label": {
+            "en": "Enrolled Agent credentialing plus cross-border/FATCA-compliance training",
+            "ro": "Atestarea de Enrolled Agent, plus instruire în conformitate transfrontalieră/FATCA"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        },
+        {
+          "key": "multiJurisdictionTaxSoftware",
+          "label": {
+            "en": "Professional tax software with multi-jurisdiction and FBAR/FATCA filing support",
+            "ro": "Software fiscal profesional, cu suport pentru depunere multi-jurisdicțională și FBAR/FATCA"
+          },
+          "typicalMin": 2000,
+          "typicalMax": 5000
+        },
+        {
+          "key": "secureClientPortalSetup",
+          "label": {
+            "en": "Secure client-document portal and workflow setup for a globally distributed client base",
+            "ro": "Configurarea unui portal securizat de documente pentru clienți, și flux de lucru, pentru o bază de clienți, distribuită global"
+          },
+          "typicalMin": 800,
+          "typicalMax": 2500
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "taxResearchAndSoftwareSubscriptions",
+          "label": {
+            "en": "Tax-treaty research database and professional software annual subscriptions (amortized monthly)",
+            "ro": "Abonamente anuale, la baza de date de cercetare a tratatelor fiscale, și software profesional (amortizate lunar)"
+          },
+          "typicalMonthlyMin": 400,
+          "typicalMonthlyMax": 1200
+        },
+        {
+          "key": "professionalLiabilityInsurance",
+          "label": {
+            "en": "Professional liability insurance given FBAR/FATCA penalty-exposure stakes",
+            "ro": "Asigurare de răspundere profesională, dat fiind miza de expunere la penalizări FBAR/FATCA"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 900
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "annualDualCountryFilingFee",
+          "label": {
+            "en": "Annual dual-country tax return preparation fee",
+            "ro": "Taxă anuală de întocmire a declarației fiscale, pentru două țări"
+          }
+        },
+        {
+          "key": "streamlinedDelinquentFilingPackage",
+          "label": {
+            "en": "One-time streamlined delinquent-filing compliance package",
+            "ro": "Pachet unic, de conformitate, pentru depunere restantă, simplificată"
+          }
+        },
+        {
+          "key": "annualComplianceRetainer",
+          "label": {
+            "en": "Annual dual-country compliance retainer covering ongoing FBAR/FATCA filings",
+            "ro": "Abonament anual, de conformitate, pentru două țări, care acoperă depunerile FBAR/FATCA continue"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 5000,
+      "targetMonthlyIncomeMax": 18000,
+      "breakEvenTimelineMonths": 8,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Unlike a purely domestic tax practice, client deadlines are spread across the calendar year by country rather than concentrated in a single season, producing a steadier, less peaked revenue pattern.",
+        "ro": "Spre deosebire de o practică fiscală pur domestică, termenele clienților sunt distribuite, pe parcursul anului calendaristic, pe țară, nu concentrate, într-un singur sezon, producând un tipar de venit mai constant, mai puțin de vârf."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "none",
+    "onlineOffline": "online",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 25,
+    "maxWeeklyHours": 50,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 3
+      },
+      {
+        "key": "marketing",
+        "rating": 4
+      },
+      {
+        "key": "leadership",
+        "rating": 4
+      },
+      {
+        "key": "communication",
+        "rating": 7
+      },
+      {
+        "key": "negotiation",
+        "rating": 5
+      },
+      {
+        "key": "finance",
+        "rating": 10
+      },
+      {
+        "key": "operations",
+        "rating": 7
+      },
+      {
+        "key": "technology",
+        "rating": 6
+      },
+      {
+        "key": "automation",
+        "rating": 4
+      },
+      {
+        "key": "ai",
+        "rating": 4
+      },
+      {
+        "key": "programming",
+        "rating": 2
+      },
+      {
+        "key": "management",
+        "rating": 5
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 40
+      },
+      {
+        "key": "visionary",
+        "score": 25
+      },
+      {
+        "key": "operator",
+        "score": 55
+      },
+      {
+        "key": "creator",
+        "score": 20
+      },
+      {
+        "key": "seller",
+        "score": 30
+      },
+      {
+        "key": "leader",
+        "score": 35
+      },
+      {
+        "key": "analyst",
+        "score": 90
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": true
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate",
+      "notes": {
+        "en": "One specialist can serve a meaningful global client base remotely, but the depth of research needed per jurisdiction caps how many distinct country-pairs a single practice can serve well.",
+        "ro": "Un specialist poate deservi, de la distanță, o bază globală semnificativă de clienți, dar profunzimea cercetării necesare, per jurisdicție, limitează câte perechi distincte de țări, poate deservi bine o singură practică."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high",
+      "notes": {
+        "en": "Requires deep, continuously updated expertise across multiple countries' tax codes, treaties, and totalization agreements simultaneously, not just one jurisdiction.",
+        "ro": "Necesită expertiză profundă, actualizată continuu, în codurile fiscale, tratatele, și acordurile de totalizare, ale mai multor țări, simultan, nu doar o singură jurisdicție."
+      }
+    },
+    "aiResistance": {
+      "level": "moderate",
+      "notes": {
+        "en": "AI research tools accelerate treaty and rule lookup, but the professional judgment required to apply multi-jurisdiction rules correctly to a specific client's facts still requires a credentialed human.",
+        "ro": "Instrumentele de cercetare AI accelerează căutarea tratatelor și regulilor, dar judecata profesională necesară, pentru a aplica corect regulile multi-jurisdicționale, la faptele specifice ale unui client, necesită încă un om atestat."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Tax treaties and totalization agreements between country pairs change and require continuous research investment across every jurisdiction served.",
+          "ro": "Tratatele fiscale și acordurile de totalizare, dintre perechile de țări, se schimbă, și necesită investiție continuă de cercetare, în fiecare jurisdicție deservită."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Deliberately limit the practice to a focused set of country pairs rather than attempting to serve every possible jurisdiction combination.",
+          "ro": "Limitează deliberat practica, la un set concentrat, de perechi de țări, în loc să încerci să deservești fiecare combinație posibilă, de jurisdicții."
+        }
+      },
+      {
+        "description": {
+          "en": "FBAR/FATCA non-compliance carries severe civil and potential criminal penalty exposure for clients if filings are missed or handled incorrectly.",
+          "ro": "Neconformitatea FBAR/FATCA, poartă o expunere severă, la penalizări civile, și potențial penale, pentru clienți, dacă depunerile sunt ratate, sau gestionate incorect."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Maintain rigorous professional liability insurance and a documented, double-checked filing-review process for every cross-border return.",
+          "ro": "Menține o asigurare riguroasă, de răspundere profesională, și un proces documentat, verificat dublu, de revizuire a depunerii, pentru fiecare declarație transfrontalieră."
+        }
+      },
+      {
+        "description": {
+          "en": "Serving clients across many countries introduces currency, payment-processing, and time-zone coordination friction that a domestic practice doesn't face.",
+          "ro": "Deservirea clienților, din multe țări, introduce frecare de valută, procesare a plăților, și coordonare a fusului orar, pe care o practică domestică nu o întâmpină."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Standardize on a single multi-currency payment processor and asynchronous, portal-based client communication.",
+          "ro": "Standardizează, pe un singur procesator de plăți, multi-valută, și comunicare cu clienții, asincronă, bazată pe portal."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Compliant in two countries, at home in neither's paperwork — specialized cross-border tax expertise for people living outside their country of tax residency.",
+        "ro": "Conform, în două țări, dar niciodată copleșit de hârtiile lor — expertiză fiscală transfrontalieră specializată, pentru persoanele care trăiesc în afara țării lor de reședință fiscală."
+      },
+      "channels": [
+        {
+          "channelType": "expatCommunityAndRelocationFirmPartnerships",
+          "description": {
+            "en": "Partnerships with relocation firms and active participation in expat community forums where cross-border tax questions naturally surface.",
+            "ro": "Parteneriate cu firme de relocare, și participare activă, în forumurile comunității de expați, unde întrebările fiscale transfrontaliere apar în mod natural."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "deadlineFocusedContentMarketing",
+          "description": {
+            "en": "Educational content around FBAR/FATCA deadlines and streamlined-filing-procedure eligibility, published where expats search for guidance.",
+            "ro": "Conținut educațional, despre termenele FBAR/FATCA, și eligibilitatea pentru procedura de depunere simplificată, publicat acolo unde expații caută îndrumare."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "digitalNomadVisaProgramPartnerships",
+          "description": {
+            "en": "Partnerships with digital-nomad-visa program administrators as a supplemental, experimental acquisition channel.",
+            "ro": "Parteneriate cu administratorii programelor de vize pentru nomazi digitali, ca un canal de achiziție suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Reaching a geographically dispersed, niche client base through community and partnership channels is more complex than the local-referral and local-SEO channels a domestic tax practice relies on.",
+        "ro": "Ajungerea la o bază de clienți, dispersată geografic, de nișă, prin canale comunitare și de parteneriat, este mai complexă, decât canalele de recomandare locală, și SEO local, pe care se bazează o practică fiscală domestică."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A free initial consultation assesses which countries and filing obligations apply to the prospective client before quoting a flat fee, building the trust needed for a high-stakes compliance engagement.",
+        "ro": "O consultație inițială gratuită, evaluează ce țări și obligații de depunere se aplică, clientului potențial, înainte de a oferi o taxă fixă, construind încrederea necesară, pentru un angajament de conformitate, cu miză ridicată."
+      },
+      "salesCycleLengthDays": 21,
+      "pricingModel": {
+        "en": "Annual dual-country return preparation from €450-€900 depending on complexity, a one-time streamlined delinquent-filing package for €1,200-€2,500, and an annual dual-country compliance retainer at €900-€1,800/year for ongoing clients.",
+        "ro": "Întocmirea declarației anuale, pentru două țări, de la 450-900 €, în funcție de complexitate, un pachet unic, de conformitate, pentru depunere restantă simplificată, de 1.200-2.500 €, și un abonament anual, de conformitate, pentru două țări, de 900-1.800 €/an, pentru clienții continui."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Prospective clients need real education on their filing obligations before they understand what they're buying, unlike a domestic tax-prep sale where the service is already well understood.",
+        "ro": "Clienții potențiali, au nevoie de educație reală, despre obligațiile lor de depunere, înainte de a înțelege ce cumpără, spre deosebire de o vânzare domestică de întocmire fiscală, unde serviciul este deja bine înțeles."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Cross-border filing-obligation assessment for each new client.",
+          "ro": "Evaluarea obligației de depunere transfrontalieră, pentru fiecare client nou."
+        },
+        {
+          "en": "Dual-country return preparation and double-checked internal review given high liability stakes.",
+          "ro": "Întocmirea declarației, pentru două țări, și revizuirea internă, verificată dublu, dat fiind mizele ridicate de răspundere."
+        },
+        {
+          "en": "FBAR/FATCA and host-country e-filing and confirmation tracking.",
+          "ro": "Depunerea electronică FBAR/FATCA, și pentru țara gazdă, și urmărirea confirmării."
+        },
+        {
+          "en": "Ongoing tax-treaty and totalization-agreement research maintenance across served country pairs.",
+          "ro": "Menținerea continuă, a cercetării tratatelor fiscale, și acordurilor de totalizare, în perechile de țări deservite."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Client-facing work is asynchronous and portal-based given time-zone spread, with document collection, return preparation, and compliance review running continuously across the year rather than concentrated in a single season.",
+        "ro": "Munca orientată către clienți, este asincronă, și bazată pe portal, dat fiind distribuția fusului orar, cu colectarea documentelor, întocmirea declarației, și revizuirea de conformitate, desfășurându-se continuu, pe tot parcursul anului, nu concentrate, într-un singur sezon."
+      },
+      "fulfillmentModel": {
+        "en": "A single credentialed specialist handling the full client relationship end-to-end at launch, with contract preparers added by country-pair specialization as the client base grows.",
+        "ro": "Un singur specialist atestat, care gestionează integral, relația cu clientul, de la un capăt la altul, la lansare, cu practicieni contractuali, adăugați pe specializare, de pereche de țări, pe măsură ce baza de clienți crește."
+      }
+    },
+    "automation": {
+      "level": "moderate",
+      "notes": {
+        "en": "Document intake and e-filing status tracking are automated through the client portal, but treaty research and final return review remain fully specialist-led given the liability stakes.",
+        "ro": "Preluarea documentelor, și urmărirea stării de depunere electronică, sunt automatizate, prin portalul de clienți, dar cercetarea tratatelor, și revizuirea finală a declarației, rămân complet conduse de specialist, dat fiind mizele de răspundere."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "taxTreatyAndRuleResearch",
+          "description": {
+            "en": "AI-assisted research to quickly surface relevant tax-treaty provisions and totalization-agreement rules for a given country pair, with every result manually verified before use.",
+            "ro": "Cercetare, asistată de AI, pentru a scoate rapid la iveală, prevederile relevante, ale tratatului fiscal, și regulile acordului de totalizare, pentru o pereche dată de țări, cu fiecare rezultat, verificat manual, înainte de utilizare."
+          },
+          "maturity": "emerging"
+        },
+        {
+          "area": "documentDataExtraction",
+          "description": {
+            "en": "AI-assisted extraction of data from scanned foreign and domestic tax documents.",
+            "ro": "Extragere, asistată de AI, a datelor din documente fiscale scanate, străine și domestice."
+          },
+          "maturity": "established"
+        }
+      ],
+      "aiDependencyLevel": "moderate"
+    },
+    "recommendedTools": [
+      {
+        "name": "Drake Tax",
+        "category": "professionalTaxSoftware",
+        "isRequired": true,
+        "websiteUrl": "https://www.drakesoftware.com/"
+      },
+      {
+        "name": "TaxDome",
+        "category": "secureClientPortalAndWorkflow",
+        "isRequired": true,
+        "websiteUrl": "https://taxdome.com/"
+      },
+      {
+        "name": "CCH AnswerConnect",
+        "category": "taxTreatyAndCrossBorderResearch",
+        "isRequired": false,
+        "websiteUrl": "https://answerconnect.cch.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30,
+      "notes": {
+        "en": "Growth comes from adding new country-pair specializations one at a time, each requiring real research investment before clients in that pair can be served confidently.",
+        "ro": "Creșterea vine, din adăugarea de noi specializări, pe pereche de țări, câte una odată, fiecare necesitând investiție reală de cercetare, înainte ca clienții, din acea pereche, să poată fi deserviți cu încredere."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Master one high-demand country pair (e.g. U.S. citizens abroad) first, then add contract preparers by country-pair specialization as demand for additional jurisdictions grows.",
+        "ro": "Stăpânește mai întâi, o pereche de țări, cu cerere ridicată (de ex. cetățeni americani, în străinătate), apoi adaugă practicieni contractuali, pe specializare, de pereche de țări, pe măsură ce cererea, pentru jurisdicții suplimentare, crește."
+      },
+      "bottlenecks": [
+        {
+          "en": "Research depth required per country pair caps how many jurisdictions a small practice can serve confidently at once.",
+          "ro": "Profunzimea de cercetare necesară, per pereche de țări, limitează câte jurisdicții, poate deservi cu încredere, simultan, o practică mică."
+        },
+        {
+          "en": "Finding contract preparers with genuine cross-border credentialing is harder than finding domestic seasonal preparers.",
+          "ro": "Găsirea practicienilor contractuali, cu atestare transfrontalieră reală, este mai greu, decât găsirea practicienilor sezonieri domestici."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 8,
+          "description": {
+            "en": "The practice reaches break-even serving its first focused country-pair specialization.",
+            "ro": "Practica atinge pragul de rentabilitate, deservind prima sa specializare concentrată, de pereche de țări."
+          }
+        },
+        {
+          "monthsFromLaunch": 24,
+          "description": {
+            "en": "A second country-pair specialization is added with a contract preparer handling that jurisdiction.",
+            "ro": "O a doua specializare, de pereche de țări, este adăugată, cu un practician contractual, care gestionează acea jurisdicție."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Deadlines spread across the calendar year by country produce steadier revenue than the concentrated peak season of a domestic tax practice.",
+          "ro": "Termenele, distribuite pe parcursul anului calendaristic, pe țară, produc venituri mai constante, decât sezonul de vârf, concentrat, al unei practici fiscale domestice."
+        }
+      },
+      {
+        "description": {
+          "en": "The Enrolled Agent credential plus documented cross-border training gives real standing to help clients navigate FBAR/FATCA penalty exposure that generalist preparers avoid handling.",
+          "ro": "Titlul de Enrolled Agent, plus instruirea transfrontalieră documentată, oferă o poziție reală, pentru a ajuta clienții, să navigheze expunerea la penalizări FBAR/FATCA, pe care practicienii generaliști evită să o gestioneze."
+        }
+      },
+      {
+        "description": {
+          "en": "A fully remote, globally distributed client base removes the geographic ceiling a local domestic tax practice faces.",
+          "ro": "O bază de clienți, complet la distanță, distribuită global, elimină plafonul geografic, pe care îl întâmpină o practică fiscală domestică, locală."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A fully remote, year-round cross-border tax advisory practice serving expatriates and digital nomads with dual-country filing obligations, built on Enrolled Agent credentialing with additional FATCA-compliance specialization. Educational business-planning content only — not tax, legal, or compliance advice.",
+        "ro": "O practică de consultanță fiscală transfrontalieră, complet la distanță, pe tot parcursul anului, care deservește expați și nomazi digitali, cu obligații de depunere, pentru două țări, construită pe atestarea de Enrolled Agent, cu specializare suplimentară, în conformitate FATCA. Doar conținut educațional, de planificare a afacerii — nu este consultanță fiscală, juridică sau de conformitate."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.expatTaxAdvisoryPractice.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.expatTaxAdvisoryPractice.businessDna.resources.community1"
+      },
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.expatTaxAdvisoryPractice.businessDna.resources.book1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.expatTaxAdvisoryPractice.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "arr",
+        "targetDescription": {
+          "en": "Grow total annual revenue across dual-country filing fees and the annual compliance retainer.",
+          "ro": "Crește venitul anual total, pe onorariile de depunere, pentru două țări, și abonamentul anual de conformitate."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Maintain gross margin above 55% despite research-tool and liability-insurance costs.",
+          "ro": "Menține marja brută peste 55%, în ciuda costurilor instrumentelor de cercetare, și asigurării de răspundere."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert at least half of free-consultation inquiries into a signed engagement.",
+          "ro": "Transformă cel puțin jumătate din solicitările de consultație gratuită, într-un angajament semnat."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep year-over-year annual-retainer client renewal rate above 80%.",
+          "ro": "Menține rata de reînnoire, a clienților cu abonament anual, de la an la an, peste 80%."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "finance",
+          "importance": 5
+        },
+        {
+          "key": "communication",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "negotiation",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "detailOriented",
+          "importance": 5
+        },
+        {
+          "trait": "analytical",
+          "importance": 5
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "patient",
+          "importance": 4
+        }
+      ],
+      "requiredBudget": {
+        "min": 10000,
+        "max": 25000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 12000,
+        "max": 20000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 25,
+        "maxWeeklyHours": 50
+      },
+      "communicationStyle": [
+        "precise",
+        "reassuring"
+      ],
+      "technicalLevel": 4,
+      "leadershipLevel": 2,
+      "creativityLevel": 1,
+      "salesAffinity": 2,
+      "automationAffinity": 3,
+      "remotePreference": "remote",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theSpecialist",
+        "theConnector"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the Enrolled Agent credential plus cross-border/FATCA-compliance specialization in the Executive Summary, and the year-round (not seasonal) revenue pattern in Financial Overview — the clearest differentiators from the domestic tax-consultancy elsewhere in this category.",
+      "ro": "Evidențiază titlul de Enrolled Agent, plus specializarea în conformitate transfrontalieră/FATCA, în Rezumatul executiv, și tiparul de venit pe tot parcursul anului (nu sezonier), în Prezentare financiară — cei mai clari diferențiatori, față de consultanța fiscală domestică, din altă parte, a acestei categorii."
+    },
+    "marketingHints": {
+      "en": "This is regulated financial-advisory-adjacent content — keep all marketing framed as business-planning guidance for running the practice, never as actual tax or compliance advice.",
+      "ro": "Acesta este conținut adiacent, consultanței financiare reglementate — menține tot marketingul, încadrat ca îndrumare de planificare a afacerii, pentru gestionarea practicii, niciodată ca sfat fiscal sau de conformitate real."
+    },
+    "financialHints": {
+      "en": "Model revenue as spread across the calendar year by country-specific deadlines, not concentrated in a single tax season like a domestic practice.",
+      "ro": "Modelează veniturile ca fiind distribuite, pe parcursul anului calendaristic, pe termene specifice fiecărei țări, nu concentrate, într-un singur sezon fiscal, ca o practică domestică."
+    },
+    "generationHints": {
+      "en": "Tone should be precise and reassuring — clients are often anxious about high-stakes cross-border compliance penalties and want technical competence paired with clear, patient explanation.",
+      "ro": "Tonul ar trebui să fie precis și liniștitor — clienții sunt adesea anxioși, legat de penalizările de conformitate transfrontalieră, cu miză ridicată, și doresc competență tehnică, combinată cu o explicație clară și răbdătoare."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Obtain Enrolled Agent credentialing plus cross-border/FATCA-compliance training and set up multi-jurisdiction tax software.",
+            "ro": "Obține atestarea de Enrolled Agent, plus instruire în conformitate transfrontalieră/FATCA, și configurează software-ul fiscal multi-jurisdicțional."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Attempting to cover every possible country pair from day one instead of mastering one focused specialization first.",
+            "ro": "Încercarea de a acoperi fiecare pereche posibilă de țări, din prima zi, în loc să stăpânești, mai întâi, o singură specializare concentrată."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pick one high-demand country pair (e.g. U.S. citizens abroad) and build deep expertise there before expanding.",
+            "ro": "Alege o pereche de țări, cu cerere ridicată (de ex. cetățeni americani, în străinătate), și construiește expertiză profundă, acolo, înainte de a te extinde."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.expatTaxAdvisoryPractice.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Prepare dual-country returns for the first 5-10 clients within the chosen country-pair specialization, even at a discounted rate.",
+            "ro": "Întocmește declarații, pentru două țări, pentru primii 5-10 clienți, în cadrul specializării alese, de pereche de țări, chiar și la un preț redus."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Underpricing the streamlined delinquent-filing package so heavily that the real research time involved isn't covered.",
+            "ro": "Subevaluarea prețului pachetului de conformitate, pentru depunere restantă simplificată, atât de mult, încât timpul real de cercetare implicat, nu este acoperit."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Time each dual-country return to build an accurate flat-fee pricing model by complexity tier.",
+            "ro": "Cronometrează fiecare declarație, pentru două țări, pentru a construi un model de preț fix, precis, pe nivel de complexitate."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Standardize the client-facing filing-obligation assessment and document-intake workflow through the secure portal.",
+            "ro": "Standardizează fluxul, orientat către client, de evaluare a obligației de depunere, și preluare a documentelor, prin portalul securizat."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Handling document intake by email instead of a secure client portal, creating real data-security risk for sensitive cross-border financial documents.",
+            "ro": "Gestionarea preluării documentelor, prin e-mail, în loc de un portal securizat de clienți, creând un risc real, de securitate a datelor, pentru documentele financiare transfrontaliere sensibile."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Route all client document exchange through the secure portal from the very first engagement.",
+            "ro": "Direcționează tot schimbul de documente cu clienții, prin portalul securizat, încă din primul angajament."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.expatTaxAdvisoryPractice.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Announce availability within expat community forums and relocation-firm partnership channels.",
+            "ro": "Anunță disponibilitatea, în forumurile comunității de expați, și canalele de parteneriat, cu firme de relocare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching generic marketing content instead of deadline-specific, country-pair-focused content that expats are actively searching for.",
+            "ro": "Lansarea de conținut de marketing generic, în loc de conținut specific, pe termene, axat pe perechea de țări, pe care expații îl caută activ."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Publish content tied to specific, real filing deadlines (e.g. the FBAR deadline) rather than generic tax-season messaging.",
+            "ro": "Publică conținut, legat de termene reale, specifice de depunere (de ex. termenul FBAR), în loc de mesaje generice, de sezon fiscal."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Deliver the first accurate, fully compliant dual-country filing.",
+            "ro": "Livrează prima depunere, pentru două țări, corectă, complet conformă."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Rushing a complex cross-border filing to hit a self-imposed deadline instead of confirming both countries' actual deadlines.",
+            "ro": "Grăbirea unei depuneri transfrontaliere complexe, pentru a respecta un termen auto-impus, în loc de a confirma termenele reale, ale ambelor țări."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm both the home- and host-country actual filing deadlines with the client before promising a turnaround time.",
+            "ro": "Confirmă, atât termenele reale de depunere, ale țării de origine, cât și ale țării gazdă, cu clientul, înainte de a promite un timp de livrare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable base of dual-country filing clients within the chosen country-pair specialization.",
+            "ro": "Atinge o bază stabilă, de clienți, cu depunere pentru două țări, în cadrul specializării alese, de pereche de țări."
+          }
+        ],
+        "kpis": [
+          "arr",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding to a second country pair before the first specialization reaches a stable, profitable client base.",
+            "ro": "Extinderea, la o a doua pereche de țări, înainte ca prima specializare, să atingă o bază de clienți, stabilă și profitabilă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Set a clear client-count and revenue milestone for the first country pair before evaluating a second specialization.",
+            "ro": "Stabilește un obiectiv clar, de număr de clienți și venit, pentru prima pereche de țări, înainte de a evalua o a doua specializare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Convert a portion of one-time filing clients into the annual dual-country compliance retainer.",
+            "ro": "Transformă o parte, din clienții cu depunere unică, în abonamentul anual de conformitate, pentru două țări."
+          }
+        ],
+        "kpis": [
+          "arr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Only re-engaging clients at their next filing deadline instead of proactively offering the ongoing compliance retainer.",
+            "ro": "Reangajarea clienților, doar la următorul lor termen de depunere, în loc să oferi proactiv, abonamentul continuu, de conformitate."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Offer the annual compliance retainer to every client immediately after their first successful filing.",
+            "ro": "Oferă abonamentul anual de conformitate, fiecărui client, imediat, după prima sa depunere reușită."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.expatTaxAdvisoryPractice.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Add a contract preparer specializing in a second country pair to expand jurisdiction coverage.",
+            "ro": "Adaugă un practician contractual, specializat, într-o a doua pereche de țări, pentru a extinde acoperirea jurisdicțională."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Adding a new country-pair specialization before confirming genuine, sustained client demand exists for it.",
+            "ro": "Adăugarea unei noi specializări, de pereche de țări, înainte de a confirma că există cerere reală, susținută, a clienților, pentru aceasta."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track inbound inquiries by country pair for at least 6 months before committing to a new specialization.",
+            "ro": "Urmărește solicitările primite, pe pereche de țări, timp de cel puțin 6 luni, înainte de a te angaja, la o nouă specializare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Formalize the annual dual-country compliance retainer as a distinct, actively marketed service line.",
+            "ro": "Formalizează abonamentul anual, de conformitate, pentru două țări, ca linie de servicii distinctă, promovată activ."
+          }
+        ],
+        "kpis": [
+          "arr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Marketing the compliance retainer with the same one-time messaging used for the initial filing engagement.",
+            "ro": "Promovarea abonamentului de conformitate, cu același mesaj, de angajament unic, folosit pentru angajamentul inițial de depunere."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a distinct offer and pricing sheet for the annual compliance retainer, separate from the one-time filing service.",
+            "ro": "Construiește o ofertă și o grilă de prețuri distincte, pentru abonamentul anual de conformitate, separat de serviciul de depunere unică."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Package the client list, country-pair research documentation, and compliance-review workflow for acquisition by a larger cross-border tax practice.",
+            "ro": "Pregătește lista de clienți, documentația de cercetare, pe pereche de țări, și fluxul de revizuire a conformității, pentru achiziție, de către o practică fiscală transfrontalieră mai mare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping country-pair treaty research and compliance-review knowledge undocumented and founder-dependent.",
+            "ro": "Menținerea cunoștințelor, de cercetare a tratatelor, pe pereche de țări, și revizuire de conformitate, nedocumentate, și dependente de fondator."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document the full filing-obligation-assessment-to-e-file process and country-pair research so it's transferable to a new owner.",
+            "ro": "Documentează întregul proces, de la evaluarea obligației de depunere, la depunerea electronică, și cercetarea pe pereche de țări, astfel încât să fie transferabil, unui nou proprietar."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

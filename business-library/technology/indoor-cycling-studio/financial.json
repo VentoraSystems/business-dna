@@ -1,0 +1,138 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "bikeFleetAndPerformanceTelemetry",
+      "soundAndLightingSystem",
+      "bookingAndMembershipSoftwareSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "studioLease",
+      "instructorWages"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "musicLicensingAndEquipmentMaintenance",
+      "localMarketingAndIntroOfferAcquisition"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "classPackAndDropInFees",
+        "label": {
+          "en": "Class pack and drop-in class fees",
+          "ro": "Onorarii pentru pachete de clase și clase individuale"
+        }
+      },
+      {
+        "key": "monthlyUnlimitedMembership",
+        "label": {
+          "en": "Monthly unlimited membership",
+          "ro": "Abonament lunar nelimitat"
+        }
+      },
+      {
+        "key": "merchandiseAndMilestoneRewards",
+        "label": {
+          "en": "Branded merchandise and milestone-ride reward sales",
+          "ro": "Vânzări de produse de marcă și recompense pentru curse de etapă"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "activeMembers": "number",
+      "averageClassFillRatePercent": "percent",
+      "bikeCount": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "introOfferToMembershipConversionRatePercent": "percent",
+      "monthlyChurnRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.indoorCyclingStudio.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "membershipAndClassPackInflow",
+      "instructorAndLeaseOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 13,
+    "notesTranslationKey": "businessLibrary.indoorCyclingStudio.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 61,
+    "notesTranslationKey": "businessLibrary.indoorCyclingStudio.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 21,
+    "notesTranslationKey": "businessLibrary.indoorCyclingStudio.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "instructorRecruitingAndCertificationVerification"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "localSocialContentProduction",
+      "introOfferPromotion"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxOnInstructorWages"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve",
+      "bikeEquipmentReplacementReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "customerRetention",
+      "grossMargin",
+      "leadConversion",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 7000,
+      "notesTranslationKey": "businessLibrary.indoorCyclingStudio.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 17000,
+      "notesTranslationKey": "businessLibrary.indoorCyclingStudio.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 28000,
+      "notesTranslationKey": "businessLibrary.indoorCyclingStudio.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.indoorCyclingStudio.financial.risks.risk1",
+        "severity": "moderate"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.indoorCyclingStudio.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.indoorCyclingStudio.financial.aiMetadata.generationHints"
+  }
+}

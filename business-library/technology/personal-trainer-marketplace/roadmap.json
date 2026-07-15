@@ -1,0 +1,242 @@
+{
+  "stages": [
+    {
+      "stage": "preparation",
+      "objectiveTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.preparation.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.preparation.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.preparation.checklist.0"
+      ],
+      "kpis": [],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.preparation.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.preparation.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.preparation.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "validation",
+      "objectiveTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.validation.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.validation.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.validation.checklist.0"
+      ],
+      "kpis": [
+        "leadConversion"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.validation.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.validation.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.validation.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "mvp",
+      "objectiveTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.mvp.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.mvp.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.mvp.checklist.0"
+      ],
+      "kpis": [],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.mvp.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.mvp.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.mvp.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "launch",
+      "objectiveTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.launch.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.launch.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.launch.checklist.0"
+      ],
+      "kpis": [
+        "customerRetention"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.launch.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.launch.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.launch.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "firstCustomer",
+      "objectiveTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.firstCustomer.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.firstCustomer.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.firstCustomer.checklist.0"
+      ],
+      "kpis": [
+        "customerRetention"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.firstCustomer.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.firstCustomer.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.firstCustomer.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "productMarketFit",
+      "objectiveTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.productMarketFit.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.productMarketFit.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.productMarketFit.checklist.0"
+      ],
+      "kpis": [
+        "customerRetention",
+        "leadConversion"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.productMarketFit.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.productMarketFit.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.productMarketFit.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "growth",
+      "objectiveTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.growth.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.growth.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.growth.checklist.0"
+      ],
+      "kpis": [
+        "grossMargin"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.growth.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.growth.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.growth.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "scaling",
+      "objectiveTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.scaling.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.scaling.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.scaling.checklist.0"
+      ],
+      "kpis": [
+        "grossMargin"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.scaling.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.scaling.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.scaling.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "expansion",
+      "objectiveTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.expansion.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.expansion.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.expansion.checklist.0"
+      ],
+      "kpis": [
+        "mrr"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.expansion.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.expansion.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.expansion.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "exit",
+      "objectiveTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.exit.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.exit.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.exit.checklist.0"
+      ],
+      "kpis": [],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.exit.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.exit.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.personalTrainerMarketplace.roadmap.exit.aiRecommendations.0"
+      ]
+    }
+  ],
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.personalTrainerMarketplace.roadmap.aiMetadata.generationHints"
+  }
+}

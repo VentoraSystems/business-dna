@@ -1,0 +1,242 @@
+{
+  "stages": [
+    {
+      "stage": "preparation",
+      "objectiveTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.preparation.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.preparation.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.preparation.checklist.0"
+      ],
+      "kpis": [],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.preparation.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.preparation.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.preparation.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "validation",
+      "objectiveTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.validation.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.validation.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.validation.checklist.0"
+      ],
+      "kpis": [
+        "leadConversion"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.validation.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.validation.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.validation.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "mvp",
+      "objectiveTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.mvp.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.mvp.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.mvp.checklist.0"
+      ],
+      "kpis": [
+        "customerRetention"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.mvp.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.mvp.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.mvp.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "launch",
+      "objectiveTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.launch.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.launch.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.launch.checklist.0"
+      ],
+      "kpis": [],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.launch.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.launch.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.launch.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "firstCustomer",
+      "objectiveTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.firstCustomer.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.firstCustomer.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.firstCustomer.checklist.0"
+      ],
+      "kpis": [
+        "customerRetention"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.firstCustomer.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.firstCustomer.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.firstCustomer.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "productMarketFit",
+      "objectiveTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.productMarketFit.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.productMarketFit.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.productMarketFit.checklist.0"
+      ],
+      "kpis": [
+        "customerRetention",
+        "leadConversion"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.productMarketFit.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.productMarketFit.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.productMarketFit.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "growth",
+      "objectiveTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.growth.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.growth.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.growth.checklist.0"
+      ],
+      "kpis": [
+        "grossMargin"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.growth.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.growth.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.growth.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "scaling",
+      "objectiveTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.scaling.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.scaling.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.scaling.checklist.0"
+      ],
+      "kpis": [
+        "grossMargin"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.scaling.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.scaling.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.scaling.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "expansion",
+      "objectiveTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.expansion.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.expansion.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.expansion.checklist.0"
+      ],
+      "kpis": [
+        "mrr"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.expansion.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.expansion.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.expansion.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "exit",
+      "objectiveTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.exit.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.exit.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.exit.checklist.0"
+      ],
+      "kpis": [],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.exit.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.exit.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.indoorCyclingStudio.roadmap.exit.aiRecommendations.0"
+      ]
+    }
+  ],
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.indoorCyclingStudio.roadmap.aiMetadata.generationHints"
+  }
+}

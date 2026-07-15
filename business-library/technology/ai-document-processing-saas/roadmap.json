@@ -1,0 +1,243 @@
+{
+  "stages": [
+    {
+      "stage": "preparation",
+      "objectiveTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.preparation.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.preparation.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.preparation.checklist.0"
+      ],
+      "kpis": [],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.preparation.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.preparation.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.preparation.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "validation",
+      "objectiveTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.validation.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.validation.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.validation.checklist.0"
+      ],
+      "kpis": [
+        "leadConversion"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.validation.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.validation.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.validation.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "mvp",
+      "objectiveTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.mvp.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.mvp.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.mvp.checklist.0"
+      ],
+      "kpis": [
+        "leadConversion"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.mvp.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.mvp.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.mvp.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "launch",
+      "objectiveTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.launch.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.launch.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.launch.checklist.0"
+      ],
+      "kpis": [],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.launch.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.launch.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.launch.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "firstCustomer",
+      "objectiveTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.firstCustomer.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.firstCustomer.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.firstCustomer.checklist.0"
+      ],
+      "kpis": [
+        "leadConversion"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.firstCustomer.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.firstCustomer.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.firstCustomer.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "productMarketFit",
+      "objectiveTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.productMarketFit.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.productMarketFit.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.productMarketFit.checklist.0"
+      ],
+      "kpis": [
+        "mrr",
+        "churn"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.productMarketFit.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.productMarketFit.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.productMarketFit.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "growth",
+      "objectiveTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.growth.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.growth.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.growth.checklist.0"
+      ],
+      "kpis": [
+        "mrr"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.growth.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.growth.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.growth.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "scaling",
+      "objectiveTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.scaling.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.scaling.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.scaling.checklist.0"
+      ],
+      "kpis": [
+        "mrr",
+        "netMargin"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.scaling.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.scaling.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.scaling.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "expansion",
+      "objectiveTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.expansion.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.expansion.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.expansion.checklist.0"
+      ],
+      "kpis": [
+        "arr"
+      ],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.expansion.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.expansion.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.expansion.aiRecommendations.0"
+      ]
+    },
+    {
+      "stage": "exit",
+      "objectiveTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.exit.objectives.0"
+      ],
+      "deliverableTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.exit.deliverables.0"
+      ],
+      "checklistTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.exit.checklist.0"
+      ],
+      "kpis": [],
+      "commonMistakeTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.exit.commonMistakes.0"
+      ],
+      "successCriteriaTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.exit.successCriteria.0"
+      ],
+      "aiRecommendationTranslationKeys": [
+        "businessLibrary.aiDocumentProcessingSaas.roadmap.exit.aiRecommendations.0"
+      ]
+    }
+  ],
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.aiDocumentProcessingSaas.roadmap.aiMetadata.generationHints"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "eaCredentialingAndCrossBorderTraining",
+      "multiJurisdictionTaxSoftware",
+      "secureClientPortalSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "taxResearchAndSoftwareSubscriptions",
+      "professionalLiabilityInsurance"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "contractPreparerFeesByCountryPair",
+      "clientAcquisitionMarketing"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "annualDualCountryFilingFee",
+        "label": {
+          "en": "Annual dual-country tax return preparation fee",
+          "ro": "Taxă anuală de întocmire a declarației fiscale, pentru două țări"
+        }
+      },
+      {
+        "key": "streamlinedDelinquentFilingPackage",
+        "label": {
+          "en": "One-time streamlined delinquent-filing compliance package",
+          "ro": "Pachet unic, de conformitate, pentru depunere restantă, simplificată"
+        }
+      },
+      {
+        "key": "annualComplianceRetainer",
+        "label": {
+          "en": "Annual dual-country compliance retainer covering ongoing FBAR/FATCA filings",
+          "ro": "Abonament anual, de conformitate, pentru două țări, care acoperă depunerile FBAR/FATCA continue"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "activeClientsByCountryPair": "number",
+      "averageAnnualFeePerClient": "currency",
+      "retainerAttachRatePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "freeConsultationToEngagementConversionRatePercent": "percent",
+      "annualRetainerRenewalRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.expatTaxAdvisoryPractice.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "dualCountryFilingAndRetainerInflow",
+      "researchToolAndInsuranceOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 8,
+    "notesTranslationKey": "businessLibrary.expatTaxAdvisoryPractice.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 58,
+    "notesTranslationKey": "businessLibrary.expatTaxAdvisoryPractice.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 33,
+    "notesTranslationKey": "businessLibrary.expatTaxAdvisoryPractice.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "contractPreparerRecruitingByCountryPair"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "relocationFirmPartnershipDevelopment",
+      "deadlineFocusedContentProduction"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentIncomeTax",
+      "crossBorderComplianceReserve"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve",
+      "professionalLiabilityClaimsReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "arr",
+      "grossMargin",
+      "leadConversion",
+      "customerRetention"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 4000,
+      "notesTranslationKey": "businessLibrary.expatTaxAdvisoryPractice.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 11000,
+      "notesTranslationKey": "businessLibrary.expatTaxAdvisoryPractice.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 18000,
+      "notesTranslationKey": "businessLibrary.expatTaxAdvisoryPractice.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.expatTaxAdvisoryPractice.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.expatTaxAdvisoryPractice.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.expatTaxAdvisoryPractice.financial.aiMetadata.generationHints"
+  }
+}

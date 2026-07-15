@@ -1,0 +1,139 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "foundingEngineeringBuild",
+      "cloudAndModelApiCredits",
+      "securityAndComplianceTooling"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "cloudInfrastructureAndModelUsage",
+      "engineeringAndSupportSalaries"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "perDocumentProcessingCost",
+      "developerContentAndCommunityMarketing"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "monthlySubscriptionByDocumentVolume",
+        "label": {
+          "en": "Monthly subscription tier priced by document-processing volume",
+          "ro": "Nivel de abonament lunar, tarifat după volumul de documente procesate"
+        }
+      },
+      {
+        "key": "usageOverageFees",
+        "label": {
+          "en": "Per-document overage fees beyond the plan's included volume",
+          "ro": "Taxe de depășire per document, peste volumul inclus în plan"
+        }
+      },
+      {
+        "key": "enterpriseCustomContracts",
+        "label": {
+          "en": "Custom-priced enterprise contracts with dedicated SLA and onboarding",
+          "ro": "Contracte enterprise cu preț personalizat, cu SLA dedicat și integrare asistată"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "activePayingSubscribers": "number",
+      "averageRevenuePerAccount": "currency",
+      "freeTrialToPaidConversionRatePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "monthlyChurnRatePercent": "percent",
+      "enterpriseDealCycleDays": "number"
+    },
+    "notesTranslationKey": "businessLibrary.aiDocumentProcessingSaas.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "subscriptionAndOverageInflow",
+      "cloudAndModelUsageOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 20,
+    "notesTranslationKey": "businessLibrary.aiDocumentProcessingSaas.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 72,
+    "notesTranslationKey": "businessLibrary.aiDocumentProcessingSaas.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 18,
+    "notesTranslationKey": "businessLibrary.aiDocumentProcessingSaas.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "foundingEngineerRecruiting",
+      "customerSuccessHireForEnterpriseAccounts"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "developerContentProduction",
+      "communityLaunchAndSponsorship"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxOnEngineeringStaff"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve",
+      "modelApiPriceIncreaseBuffer"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "mrr",
+      "churn",
+      "netMargin",
+      "leadConversion"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 8000,
+      "notesTranslationKey": "businessLibrary.aiDocumentProcessingSaas.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 30000,
+      "notesTranslationKey": "businessLibrary.aiDocumentProcessingSaas.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 60000,
+      "notesTranslationKey": "businessLibrary.aiDocumentProcessingSaas.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.aiDocumentProcessingSaas.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.aiDocumentProcessingSaas.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.aiDocumentProcessingSaas.financial.aiMetadata.generationHints"
+  }
+}

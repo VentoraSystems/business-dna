@@ -113,6 +113,17 @@ differentiated from Financial Consultancy), and Independent Podcast
 Production Studio (`niche-content-studios`, first entry authored under
 this category) — bringing the total authored count to 41.*
 
+*Status as of Knowledge Authoring Batch 9 (2026-07-15, fourth of 14
+planned P2 batches): 4 more P2 candidates authored — AI Document
+Processing SaaS (`technology-services`, the library's first genuine
+`saas`-business-model package), Indoor Cycling Studio
+(`boutique-fitness-studios`, deliberately differentiated from Boutique
+Pilates Reformer Studio), Expat Tax Advisory Practice
+(`tax-consultancies`, regulated content, deliberately differentiated
+from Tax Consultancy), and Personal Trainer Booking Marketplace
+(`local-service-marketplaces`, the library's third genuine two-sided
+marketplace) — bringing the total authored count to 45.*
+
 No enum value or category key was invented — every value used in the
 tables below is one of the values listed above, or one of the 12
 `IndustryType`/8 `BusinessModelType` values confirmed earlier in this
@@ -165,8 +176,8 @@ prioritization, not a commitment.
   infrastructure (e.g. a real marketplace/platform) that doesn't exist
   yet.
 
-**Already Authored** column: ✅ marks the 42 packages that exist today
-under `business-library/technology/` (41 `published` + 1 `template`,
+**Already Authored** column: ✅ marks the 46 packages that exist today
+under `business-library/technology/` (45 `published` + 1 `template`,
 per `business-library/manifest.json`). Their metadata below (Industry,
 BusinessModel, Difficulty, Scalability, Solo Friendly, Budget Tier) is
 copied from their real `metadata.json` / `business-dna.json`, not
@@ -182,18 +193,18 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 
 | Category | Entries | Already Authored |
 |---|---:|---:|
-| `technology-services` | 20 | 12 |
+| `technology-services` | 20 | 13 |
 | `subscription-boxes` | 10 | 1 |
-| `boutique-fitness-studios` | 9 | 1 |
+| `boutique-fitness-studios` | 9 | 2 |
 | `online-course-platforms` | 10 | 0 |
 | `sustainable-fashion-brands` | 9 | 1 |
-| `local-service-marketplaces` | 9 | 2 |
+| `local-service-marketplaces` | 9 | 3 |
 | `boutique-travel-agencies` | 8 | 1 |
 | `niche-content-studios` | 9 | 1 |
 | `accounting-firms` | 6 | 2 |
 | `financial-consultancies` | 6 | 2 |
 | `insurance-brokerages` | 6 | 1 |
-| `tax-consultancies` | 6 | 1 |
+| `tax-consultancies` | 6 | 2 |
 | `law-firms` | 7 | 2 |
 | `hr-consultancies` | 6 | 1 |
 | `recruitment-agencies` | 7 | 1 |
@@ -210,7 +221,7 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 | `psychology-practices` | 1 | 1 |
 | `coffee-shops` | 1 | 1 |
 | `restaurants` | 1 | 1 |
-| **Total** | **147** | **41** |
+| **Total** | **147** | **45** |
 
 ---
 
@@ -267,6 +278,16 @@ already in this category. See
 `business-library/technology/ai-sales-outreach-agency/` for the full
 package.*
 
+*Knowledge Authoring Batch 9 (2026-07-15) authored this category's
+fourth P2 candidate — AI Document Processing SaaS — bringing the
+authored count to 13 of 20. The library's first genuine `saas`
+business model: a self-serve API and dashboard product billed on
+usage-based subscription tiers, distinct from every other
+`technology-services` package, which are agencies or consultancies
+billing for people's time. See
+`business-library/technology/ai-document-processing-saas/` for the
+full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | technology-services | AI Automation Agency | ai-automation-agency | tech | agency | P1 | moderate | Low | No | low | No | ✅ |
@@ -274,7 +295,7 @@ package.*
 | technology-services | RPA Workflow Automation Consultancy | rpa-workflow-consultancy | tech | service | P2 | moderate | Low | Yes | low | No | ✅ |
 | technology-services | AI Sales Outreach Automation Agency | ai-sales-outreach-agency | tech | agency | P2 | moderate | Low | Yes | moderate | No | ✅ |
 | technology-services | Vertical AI Agent Studio for Real Estate | ai-agent-studio-real-estate | tech | agency | P3 | moderate | Medium | Yes | moderate | No | |
-| technology-services | AI Document Processing SaaS | ai-document-processing-saas | tech | saas | P2 | high | High | No | high | Yes | |
+| technology-services | AI Document Processing SaaS | ai-document-processing-saas | tech | saas | P2 | high | High | No | high | Yes | ✅ |
 | technology-services | Voice AI IVR Automation Agency | voice-ai-ivr-agency | tech | agency | P3 | moderate | Medium | Yes | moderate | No | |
 | technology-services | AI Data Enrichment Service | ai-data-enrichment-service | tech | service | P3 | moderate | Low | Yes | low | No | |
 | technology-services | No-Code AI Workflow Builder SaaS | nocode-ai-workflow-saas | tech | saas | P2 | high | Very High | No | high | Yes | |
@@ -325,10 +346,21 @@ licensed clinical practice," matching the `beauty-wellness` precedent.
 See `business-library/technology/boutique-pilates-studio/` for the
 full package.*
 
+*Knowledge Authoring Batch 9 (2026-07-15) authored this category's
+second P2 candidate — Indoor Cycling Studio — bringing the authored
+count to 2 of 9. Deliberately differentiated from Boutique Pilates
+Reformer Studio: high-intensity, music-driven cardio rather than
+low-impact strength and mobility, a younger cardio-focused target
+rider rather than an injury-recovery and midlife-fitness niche, and a
+competitive leaderboard/milestone-ride retention mechanic rather than
+straightforward membership renewal. See
+`business-library/technology/indoor-cycling-studio/` for the full
+package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | boutique-fitness-studios | Boutique Pilates Reformer Studio | boutique-pilates-studio | health | service | P2 | moderate | Medium | No | low | No | ✅ |
-| boutique-fitness-studios | Indoor Cycling Studio | indoor-cycling-studio | health | subscription | P2 | moderate | Medium | No | low | No | |
+| boutique-fitness-studios | Indoor Cycling Studio | indoor-cycling-studio | health | subscription | P2 | moderate | Medium | No | low | No | ✅ |
 | boutique-fitness-studios | Women's Strength Training Studio | womens-strength-training-studio | health | subscription | P2 | moderate | Medium | No | low | No | |
 | boutique-fitness-studios | Boutique Yoga Studio | boutique-yoga-studio | health | service | P2 | moderate | Low | Yes | low | No | |
 | boutique-fitness-studios | Recovery & Cryotherapy Studio | recovery-cryotherapy-studio | health | service | P3 | moderate | High | No | low | Yes | |
@@ -389,10 +421,24 @@ insurance angle instead of a minor-safety angle. See
 `business-library/technology/home-repair-marketplace/` for the full
 package.*
 
+*Knowledge Authoring Batch 9 (2026-07-15) authored this category's
+third P2 candidate — Personal Trainer Booking Marketplace — the
+library's third genuine two-sided marketplace. Deliberately
+differentiated from both `tutoring-help-marketplace` and
+`home-repair-marketplace`: session-based booking like tutoring, but
+with home-repair's seriousness of liability verification — trainers
+must carry NASM/ACE/ISSA-tier certification plus professional
+liability insurance covering physical-injury risk, a distinct risk
+category from both tutoring's minor-safety angle and home-repair's
+property-damage angle — plus a unique gym-and-studio-partnership
+supply channel. See
+`business-library/technology/personal-trainer-marketplace/` for the
+full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | local-service-marketplaces | Home Repair & Handyman Marketplace | home-repair-marketplace | homeServices | marketplace | P2 | high | High | No | high | Yes | ✅ |
-| local-service-marketplaces | Personal Trainer Booking Marketplace | personal-trainer-marketplace | health | marketplace | P2 | high | High | No | high | Yes | |
+| local-service-marketplaces | Personal Trainer Booking Marketplace | personal-trainer-marketplace | health | marketplace | P2 | high | High | No | high | Yes | ✅ |
 | local-service-marketplaces | Tutoring & Homework Help Marketplace | tutoring-help-marketplace | education | marketplace | P2 | high | High | No | high | Yes | ✅ |
 | local-service-marketplaces | Pet Care Services Marketplace | pet-care-services-marketplace | homeServices | marketplace | P3 | high | High | No | high | Yes | |
 | local-service-marketplaces | Freelance Bookkeeping Marketplace | freelance-bookkeeping-marketplace | professionalServices | marketplace | P3 | high | High | No | high | Yes | |
@@ -509,10 +555,25 @@ for the full package.*
 
 ## `tax-consultancies`
 
+*Knowledge Authoring Batch 9 (2026-07-15) authored this category's
+first P2 candidate — Expat Tax Advisory Practice — bringing the
+authored count to 2 of 6. Regulated tax-advisory content, framed with
+the same educational-guidance discipline as Tax Consultancy, and
+deliberately differentiated from it: a cross-border, year-round
+compliance niche rather than a domestic, calendar-year-concentrated
+practice — fully remote rather than hybrid, an annual dual-country
+compliance retainer rather than a purely seasonal engagement
+(`isSeasonalBusiness: false` vs. `true`), an expat-community/
+relocation-firm referral channel rather than local-accountant
+referrals plus local SEO, and materially higher liability stakes given
+FBAR/FATCA non-compliance penalty exposure. See
+`business-library/technology/expat-tax-advisory-practice/` for the
+full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | tax-consultancies | Tax Consultancy | tax-consultancy | finance | service | P1 | moderate | Medium | Yes | moderate | No | ✅ |
-| tax-consultancies | Expat Tax Advisory Practice | expat-tax-advisory-practice | finance | service | P2 | high | Medium | Yes | moderate | Yes | |
+| tax-consultancies | Expat Tax Advisory Practice | expat-tax-advisory-practice | finance | service | P2 | high | Medium | Yes | moderate | Yes | ✅ |
 | tax-consultancies | Small Business Tax Prep Practice | small-business-tax-prep-practice | finance | service | P2 | moderate | Low | Yes | moderate | No | |
 | tax-consultancies | Crypto Tax Compliance Consultancy | crypto-tax-compliance-consultancy | finance | service | P2 | high | Medium | Yes | moderate | Yes | |
 | tax-consultancies | Real Estate Investor Tax Practice | real-estate-investor-tax-practice | finance | service | P3 | moderate | Medium | Yes | moderate | No | |
