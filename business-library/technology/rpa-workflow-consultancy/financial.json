@@ -1,0 +1,138 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "rpaPlatformLicensingSetup",
+      "laptopAndDevEnvironmentSetup",
+      "businessRegistrationAndProfessionalInsurance"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "rpaPlatformSubscription",
+      "cloudHostingForBotOrchestration"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "salesAndOutreachTools",
+      "contractorOverflowBuildHours"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "fixedFeeWorkflowAutomationBuilds",
+        "label": {
+          "en": "Fixed-fee automation builds, per workflow",
+          "ro": "Construcții de automatizare, cu tarif fix, per flux de lucru"
+        }
+      },
+      {
+        "key": "monthlyBotMaintenanceRetainer",
+        "label": {
+          "en": "Monthly bot-maintenance retainer",
+          "ro": "Abonament lunar de întreținere a boților"
+        }
+      },
+      {
+        "key": "paidAutomationOpportunityAudit",
+        "label": {
+          "en": "Paid automation-opportunity audit",
+          "ro": "Audit plătit al oportunităților de automatizare"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageBuildFee": "currency",
+      "activeMaintenanceRetainers": "number",
+      "auditToBuildCloseRatePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "buildsCompletedPerMonth": "number",
+      "retainerRenewalRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.rpaWorkflowConsultancy.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "buildMilestonePaymentInflow",
+      "maintenanceRetainerInflow",
+      "platformAndHostingOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 6,
+    "notesTranslationKey": "businessLibrary.rpaWorkflowConsultancy.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 70,
+    "notesTranslationKey": "businessLibrary.rpaWorkflowConsultancy.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 45,
+    "notesTranslationKey": "businessLibrary.rpaWorkflowConsultancy.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "secondBotDeveloperRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "coldOutreachTooling",
+      "caseStudyContentProduction"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "selfEmploymentTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "closeRate",
+      "customerRetention",
+      "grossMargin",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 4000,
+      "notesTranslationKey": "businessLibrary.rpaWorkflowConsultancy.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 10000,
+      "notesTranslationKey": "businessLibrary.rpaWorkflowConsultancy.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 16000,
+      "notesTranslationKey": "businessLibrary.rpaWorkflowConsultancy.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.rpaWorkflowConsultancy.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.rpaWorkflowConsultancy.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.rpaWorkflowConsultancy.financial.aiMetadata.generationHints"
+  }
+}

@@ -1,0 +1,944 @@
+{
+  "identity": {
+    "id": "06dfbfa0-673e-4bba-a905-11ab52bd024b",
+    "slug": "boutique-ip-law-practice",
+    "version": "1.0.0",
+    "name": {
+      "en": "Northgate IP Partners",
+      "ro": "Northgate IP Partners"
+    },
+    "tagline": {
+      "en": "Protect the idea, not just the paperwork.",
+      "ro": "Protejează ideea, nu doar actele."
+    },
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theSpecialist",
+      "theVisionary"
+    ],
+    "summary": {
+      "en": "Best suited to a patent-bar-qualified specialist with genuine technical fluency in at least one technology vertical, comfortable carrying professional liability and building deep, narrow expertise rather than broad general-practice knowledge. Educational business-planning guidance only — not legal advice for any end client, and never a substitute for advice from a licensed patent attorney.",
+      "ro": "Potrivit unui specialist calificat, în baroul de brevete, cu fluență tehnică reală, în cel puțin o verticală tehnologică, confortabil să poarte răspundere profesională și să construiască expertiză profundă, restrânsă, nu cunoștințe generale, de practică largă. Îndrumare educațională, de planificare a afacerii, doar — nu consiliere juridică, pentru niciun client final, și niciodată un substitut, pentru sfatul unui avocat de brevete, licențiat."
+    },
+    "minimumExperienceYears": 5
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 35000,
+      "maxInvestment": 60000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 3500,
+      "ongoingMonthlyCostMax": 8000,
+      "notes": {
+        "en": "Covers professional liability (malpractice) insurance, IP-docketing and patent-search database subscriptions, and patent-bar qualification maintenance — a High budget tier, above the general-practice Law Firm elsewhere in this library, driven by specialized patent-search and docketing infrastructure.",
+        "ro": "Acoperă asigurarea de răspundere profesională (malpraxis), abonamentele la baza de date de urmărire IP și căutare de brevete, și menținerea calificării în baroul de brevete — un nivel de buget ridicat, peste firma de avocatură de practică generală, din altă parte a acestei biblioteci, determinat de infrastructura specializată, de căutare de brevete și urmărire."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "malpracticeInsuranceSetup",
+          "label": {
+            "en": "Professional liability (malpractice) insurance setup",
+            "ro": "Configurarea asigurării de răspundere profesională (malpraxis)"
+          },
+          "typicalMin": 2000,
+          "typicalMax": 5000
+        },
+        {
+          "key": "ipDocketingAndPatentSearchSoftwareSetup",
+          "label": {
+            "en": "IP-docketing and patent-search database software setup",
+            "ro": "Configurarea software-ului de urmărire IP și bază de date de căutare a brevetelor"
+          },
+          "typicalMin": 3000,
+          "typicalMax": 8000
+        },
+        {
+          "key": "patentBarQualificationAndCle",
+          "label": {
+            "en": "Patent-bar qualification exam and continuing legal education",
+            "ro": "Examenul de calificare, în baroul de brevete, și educația juridică continuă"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "ipDocketingSoftwareSubscription",
+          "label": {
+            "en": "IP-docketing and deadline-management software subscription",
+            "ro": "Abonamentul software de urmărire IP și gestionare a termenelor"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 800
+        },
+        {
+          "key": "malpracticePremium",
+          "label": {
+            "en": "Ongoing malpractice insurance premium",
+            "ro": "Prima continuă de asigurare de malpraxis"
+          },
+          "typicalMonthlyMin": 500,
+          "typicalMonthlyMax": 1200
+        },
+        {
+          "key": "patentSearchDatabaseSubscription",
+          "label": {
+            "en": "Patent prior-art search database subscription",
+            "ro": "Abonamentul bazei de date de căutare, a stadiului tehnicii de brevete"
+          },
+          "typicalMonthlyMin": 400,
+          "typicalMonthlyMax": 1000
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "flatFeeTrademarkRegistration",
+          "label": {
+            "en": "Flat-fee trademark registration filings",
+            "ro": "Depuneri, cu tarif fix, de înregistrare a mărcii"
+          }
+        },
+        {
+          "key": "hourlyPatentProsecution",
+          "label": {
+            "en": "Hourly-billed patent prosecution and examiner correspondence",
+            "ro": "Urmărirea brevetului, facturată orar, și corespondența cu examinatorul"
+          }
+        },
+        {
+          "key": "annualIpPortfolioRetainer",
+          "label": {
+            "en": "Annual IP-portfolio monitoring and renewal retainer",
+            "ro": "Abonament anual, de monitorizare și reînnoire, a portofoliului de proprietate intelectuală"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 9000,
+      "targetMonthlyIncomeMax": 28000,
+      "breakEvenTimelineMonths": 12,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "slow",
+      "notes": {
+        "en": "Trademark flat fees are collected relatively quickly at filing, but patent prosecution billing depends on unpredictable examiner response timelines, so full-matter revenue can take a year or more to fully realize.",
+        "ro": "Taxele fixe, pentru marcă, sunt încasate relativ rapid, la depunere, dar facturarea de urmărire a brevetului, depinde de termene imprevizibile, de răspuns ale examinatorului, astfel încât veniturile complete, pentru o cauză, pot dura un an sau mai mult, pentru a se realiza integral."
+      }
+    },
+    "profitMargin": {
+      "level": "high",
+      "notes": {
+        "en": "Specialized expertise commands premium billing rates relative to general-practice legal work, and low overhead beyond software subscriptions and insurance keeps most of that premium as margin.",
+        "ro": "Expertiza specializată, comandă tarife de facturare, premium, față de munca juridică, de practică generală, iar costurile generale reduse, dincolo de abonamentele software și asigurare, mențin cea mai mare parte a acelei prime, ca marjă."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "occasional",
+    "onlineOffline": "online",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 40,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 3
+      },
+      {
+        "key": "marketing",
+        "rating": 3
+      },
+      {
+        "key": "leadership",
+        "rating": 4
+      },
+      {
+        "key": "communication",
+        "rating": 6
+      },
+      {
+        "key": "negotiation",
+        "rating": 5
+      },
+      {
+        "key": "finance",
+        "rating": 3
+      },
+      {
+        "key": "operations",
+        "rating": 5
+      },
+      {
+        "key": "technology",
+        "rating": 6
+      },
+      {
+        "key": "automation",
+        "rating": 3
+      },
+      {
+        "key": "ai",
+        "rating": 3
+      },
+      {
+        "key": "programming",
+        "rating": 2
+      },
+      {
+        "key": "management",
+        "rating": 4
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 45
+      },
+      {
+        "key": "visionary",
+        "score": 55
+      },
+      {
+        "key": "operator",
+        "score": 45
+      },
+      {
+        "key": "creator",
+        "score": 30
+      },
+      {
+        "key": "seller",
+        "score": 25
+      },
+      {
+        "key": "leader",
+        "score": 35
+      },
+      {
+        "key": "analyst",
+        "score": 60
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": true,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "low",
+      "notes": {
+        "en": "Patent prosecution work is inherently one-to-one and expertise-bound — capacity is gated by how many active matters one patent-bar-qualified attorney can carry at a time, not something software alone can scale.",
+        "ro": "Munca de urmărire a brevetului, este inerent, unu-la-unu, și legată de expertiză — capacitatea este limitată de câte cauze active, poate purta, deodată, un avocat calificat, în baroul de brevete, nu ceva ce doar software-ul poate scala."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high",
+      "notes": {
+        "en": "Patent-bar qualification requires a technical background plus a separate bar examination, a genuinely high barrier to entry beyond general legal practice, and prosecution strategy has real, expensive-to-reverse consequences if handled poorly.",
+        "ro": "Calificarea, în baroul de brevete, necesită un fond tehnic, plus un examen de barou separat, o barieră de intrare, cu adevărat ridicată, dincolo de practica juridică generală, iar strategia de urmărire, are consecințe reale, costisitoare de inversat, dacă este gestionată necorespunzător."
+      }
+    },
+    "aiResistance": {
+      "level": "high",
+      "notes": {
+        "en": "Patent claim drafting and prosecution strategy require licensed professional judgment that clients and regulators require a human attorney to exercise, protecting this business from AI-driven displacement more than most professional services.",
+        "ro": "Redactarea revendicărilor de brevet și strategia de urmărire, necesită judecată profesională, licențiată, pe care clienții și autoritățile de reglementare, cer să fie exercitată de un avocat uman, protejând această afacere, de înlocuirea condusă de AI, mai mult decât majoritatea serviciilor profesionale."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Professional malpractice liability is especially acute in patent work, where a missed deadline or poorly drafted claim can permanently and irreversibly forfeit a client's IP rights.",
+          "ro": "Răspunderea de malpraxis profesional, este deosebit de acută, în munca de brevete, unde un termen ratat sau o revendicare redactată necorespunzător, poate confisca, permanent și ireversibil, drepturile de proprietate intelectuală, ale unui client."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Revenue concentration risk from patent prosecution's slow, unpredictable examiner-response timelines can create significant month-to-month income volatility.",
+          "ro": "Riscul de concentrare a veniturilor, din termenele lente, imprevizibile, de răspuns ale examinatorului, la urmărirea brevetului, poate crea o volatilitate semnificativă, a venitului, de la lună la lună."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "Patent-bar and multi-jurisdiction (USPTO, EPO, national offices) regulatory requirements change over time and vary by filing jurisdiction, requiring ongoing continuing-education investment.",
+          "ro": "Cerințele de reglementare, ale baroului de brevete și ale mai multor jurisdicții (USPTO, EPO, oficii naționale), se schimbă în timp, și variază, în funcție de jurisdicția de depunere, necesitând investiții continue, de educație."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Protect the idea, not just the paperwork — patent and trademark counsel for people who actually build things, not a general practice that happens to file IP paperwork.",
+        "ro": "Protejează ideea, nu doar actele — consiliere de brevete și mărci, pentru oameni, care chiar construiesc lucruri, nu o practică generală, care întâmplător depune acte de proprietate intelectuală."
+      },
+      "channels": [
+        {
+          "channelType": "techAcceleratorAndVcPortfolioReferrals",
+          "description": {
+            "en": "Referral relationships with startup accelerators and venture capital firms, who route portfolio companies needing IP counsel.",
+            "ro": "Relații de recomandare, cu acceleratoare de startup-uri și firme de capital de risc, care direcționează companiile din portofoliu, care au nevoie de consiliere IP."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "inventorAndMakerCommunityContentMarketing",
+          "description": {
+            "en": "Content marketing aimed at independent inventors and makers explaining patent and trademark basics in plain language.",
+            "ro": "Marketing de conținut, direcționat, către inventatori independenți și makeri, care explică elementele de bază, ale brevetelor și mărcilor, într-un limbaj simplu."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "technicalConferenceSpeakingOnIpStrategy",
+          "description": {
+            "en": "Speaking engagements at technology and startup conferences on IP strategy, as a supplemental, experimental channel.",
+            "ro": "Prezentări, la conferințe de tehnologie și startup-uri, despre strategia de proprietate intelectuală, ca un canal suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "The audience (technical founders and inventors) is relatively easy to identify, but earning trust for high-stakes IP work requires demonstrated technical credibility, not generic legal-services marketing.",
+        "ro": "Publicul (fondatori tehnici și inventatori), este relativ ușor de identificat, dar câștigarea încrederii, pentru munca de proprietate intelectuală, cu miză ridicată, necesită credibilitate tehnică demonstrată, nu marketing generic, de servicii juridice."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "An intake call assesses patentability or trademark distinctiveness; trademark matters proceed on a flat-fee engagement letter, while patent matters proceed on an hourly engagement given unpredictable examiner back-and-forth, with an annual IP-portfolio retainer offered to ongoing clients.",
+        "ro": "Un apel de admitere, evaluează brevetabilitatea sau distinctivitatea mărcii; cauzele de marcă, continuă, pe o scrisoare de angajament, cu tarif fix, în timp ce cauzele de brevet, continuă, pe un angajament orar, dat fiind schimbul imprevizibil, cu examinatorul, cu un abonament anual, de portofoliu de proprietate intelectuală, oferit clienților continui."
+      },
+      "salesCycleLengthDays": 21,
+      "pricingModel": {
+        "en": "Flat-fee trademark registration (€1,200-€3,000 per mark, including filing fees), hourly-billed patent prosecution (€250-€400/hour, typically €8,000-€25,000 total to grant), and an annual IP-portfolio monitoring and renewal retainer (€2,000-€6,000/year) for ongoing clients.",
+        "ro": "Înregistrare de marcă, cu tarif fix (1.200-3.000 €, per marcă, inclusiv taxele de depunere), urmărire de brevet, facturată orar (250-400 €/oră, de obicei 8.000-25.000 €, total, până la acordare), și un abonament anual, de monitorizare și reînnoire, a portofoliului de proprietate intelectuală (2.000-6.000 €/an), pentru clienți continui."
+      }
+    },
+    "salesComplexity": {
+      "level": "high",
+      "notes": {
+        "en": "High-stakes, technically complex engagements require real credibility-building before a client commits — a 21-day cycle from intake to signed engagement letter is typical even for straightforward trademark matters.",
+        "ro": "Angajamentele, cu miză ridicată, complexe tehnic, necesită construirea reală a credibilității, înainte ca un client să se angajeze — un ciclu de 21 de zile, de la admitere, la scrisoarea de angajament, semnată, este tipic, chiar și pentru cauze simple, de marcă."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Patentability and trademark-distinctiveness intake assessment",
+          "ro": "Evaluarea de admitere, a brevetabilității și distinctivității mărcii"
+        },
+        {
+          "en": "Application drafting and filing (USPTO, EUIPO, national offices)",
+          "ro": "Redactarea și depunerea cererii (USPTO, EUIPO, oficii naționale)"
+        },
+        {
+          "en": "Prosecution and examiner-correspondence management",
+          "ro": "Urmărirea și gestionarea corespondenței cu examinatorul"
+        },
+        {
+          "en": "IP-portfolio docketing and renewal-deadline tracking",
+          "ro": "Urmărirea portofoliului de proprietate intelectuală și a termenelor de reînnoire"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Most days split between drafting and reviewing application or response documents, monitoring the docketing system for upcoming deadlines, and intake calls with prospective clients assessing patentability or trademark distinctiveness.",
+        "ro": "Majoritatea zilelor, se împart, între redactarea și revizuirea documentelor de cerere sau răspuns, monitorizarea sistemului de urmărire, pentru termenele viitoare, și apeluri de admitere, cu clienți potențiali, care evaluează brevetabilitatea sau distinctivitatea mărcii."
+      },
+      "fulfillmentModel": {
+        "en": "A boutique IP law practice that drafts, files, and prosecutes trademark and patent applications on behalf of startup and independent-creator clients, then maintains their IP portfolio under an optional annual retainer.",
+        "ro": "O practică juridică boutique, de proprietate intelectuală, care redactează, depune și urmărește cereri de marcă și brevet, în numele clienților, startup-uri și creatori independenți, apoi menține portofoliul lor de proprietate intelectuală, sub un abonament anual, opțional."
+      }
+    },
+    "automation": {
+      "level": "moderate",
+      "notes": {
+        "en": "Docketing and renewal-deadline tracking are automated through dedicated IP-management software, but application drafting and prosecution strategy remain fully attorney-led, given the licensed professional judgment required.",
+        "ro": "Urmărirea și termenele de reînnoire, sunt automatizate, prin software dedicat, de gestionare a proprietății intelectuale, dar redactarea cererii și strategia de urmărire, rămân conduse integral de avocat, dată fiind judecata profesională, licențiată, necesară."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "priorArtSearchAssistance",
+          "description": {
+            "en": "AI-assisted prior-art search to speed up initial patentability assessment, reviewed and confirmed by the attorney before any filing decision.",
+            "ro": "Căutare, a stadiului tehnicii, asistată de AI, pentru a accelera evaluarea inițială, a brevetabilității, revizuită și confirmată, de avocat, înainte de orice decizie de depunere."
+          },
+          "maturity": "established"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "Anaqua",
+        "category": "ipDocketingAndDeadlineManagement",
+        "isRequired": true,
+        "websiteUrl": "https://www.anaqua.com/"
+      },
+      {
+        "name": "USPTO Patent Public Search",
+        "category": "patentPriorArtSearch",
+        "isRequired": true,
+        "websiteUrl": "https://ppubs.uspto.gov/"
+      },
+      {
+        "name": "Clio",
+        "category": "legalPracticeManagement",
+        "isRequired": false,
+        "websiteUrl": "https://www.clio.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30,
+      "notes": {
+        "en": "Growth is gated by the founder's own patent-bar-qualified capacity, but deep specialization in one or two technology verticals builds a referral-worthy reputation that compounds faster than broad general practice would.",
+        "ro": "Creșterea este limitată de propria capacitate a fondatorului, calificat, în baroul de brevete, dar specializarea profundă, în una sau două verticale tehnologice, construiește o reputație, demnă de recomandare, care crește compus, mai rapid, decât ar face practica generală, largă."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Build deep expertise and reputation in one or two technology verticals (such as software or hardware patents) first, then bring on a second patent-bar-qualified associate once docket volume consistently exceeds solo capacity, and add trademark-portfolio management as a scalable adjacent service line.",
+        "ro": "Construiește, mai întâi, expertiză profundă și reputație, în una sau două verticale tehnologice (cum ar fi brevete de software sau hardware), apoi adu un al doilea asociat, calificat, în baroul de brevete, odată ce volumul de cauze depășește constant capacitatea solo, și adaugă gestionarea portofoliului de mărci, ca linie de servicii adiacentă, scalabilă."
+      },
+      "bottlenecks": [
+        {
+          "en": "Patent-bar qualification is a genuine credentialing bottleneck limiting who can be hired to help scale the practice.",
+          "ro": "Calificarea, în baroul de brevete, este un blocaj real, de acreditare, care limitează cine poate fi angajat, pentru a ajuta la scalarea practicii."
+        },
+        {
+          "en": "USPTO and EPO examiner response timelines are outside the firm's control and create unpredictable workload spikes that are hard to plan capacity around.",
+          "ro": "Termenele de răspuns, ale examinatorilor USPTO și EPO, sunt în afara controlului firmei, și creează vârfuri imprevizibile, de volum de muncă, dificil de planificat, în privința capacității."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 12,
+          "description": {
+            "en": "The practice reaches break-even with a stable base of trademark and patent-prosecution clients.",
+            "ro": "Practica atinge pragul de rentabilitate, cu o bază stabilă, de clienți, de marcă și urmărire de brevet."
+          }
+        },
+        {
+          "monthsFromLaunch": 26,
+          "description": {
+            "en": "A second patent-bar-qualified associate is onboarded to handle overflow docket volume.",
+            "ro": "Un al doilea asociat, calificat, în baroul de brevete, este integrat, pentru a gestiona volumul suplimentar de cauze."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Patent-bar credentialing creates a genuine expertise moat that's difficult for general-practice firms to replicate.",
+          "ro": "Acreditarea, în baroul de brevete, creează un avantaj real, de expertiză, dificil de replicat, de firmele de practică generală."
+        }
+      },
+      {
+        "description": {
+          "en": "Deep vertical specialization in one or two technology areas builds a referral-worthy reputation faster than broad general practice would.",
+          "ro": "Specializarea verticală profundă, în una sau două domenii tehnologice, construiește o reputație, demnă de recomandare, mai rapid, decât ar face practica generală, largă."
+        }
+      },
+      {
+        "description": {
+          "en": "Annual IP-portfolio retainers provide predictable recurring revenue on top of one-off filing fees.",
+          "ro": "Abonamentele anuale, de portofoliu de proprietate intelectuală, oferă venituri recurente, previzibile, pe lângă taxele de depunere, unice."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A boutique intellectual-property law practice serving startups and independent creators with trademark registration, patent prosecution, and ongoing IP-portfolio management, priced with a flat-fee/hourly split by matter type. Deliberately distinct from the general-practice Law Firm elsewhere in this library — narrowly specialized on patent-bar-qualified IP work, fully remote, sourced through accelerator and VC referrals. Educational business-planning guidance only, never legal advice.",
+        "ro": "O practică juridică boutique, de proprietate intelectuală, care servește startup-uri și creatori independenți, cu înregistrare de marcă, urmărire de brevet, și gestionarea continuă, a portofoliului de proprietate intelectuală, tarifată, cu o divizare tarif fix/orar, pe tip de cauză. Deliberat distinctă, de firma de avocatură, de practică generală, din altă parte, a acestei biblioteci — specializată îngust, pe munca de proprietate intelectuală, calificată în baroul de brevete, complet la distanță, procurată, prin recomandări, de la acceleratoare și VC-uri. Îndrumare educațională, de planificare a afacerii, doar, niciodată consiliere juridică."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.boutiqueIpLawPractice.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.boutiqueIpLawPractice.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.boutiqueIpLawPractice.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.boutiqueIpLawPractice.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert intake calls into signed trademark or patent-prosecution engagement letters.",
+          "ro": "Transformă apelurile de admitere, în scrisori de angajament, de marcă sau urmărire de brevet, semnate."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Convert one-off filing clients into annual IP-portfolio retainer clients.",
+          "ro": "Transformă clienții, cu depunere unică, în clienți, cu abonament anual, de portofoliu de proprietate intelectuală."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against docketing software, patent-search database, and malpractice-insurance costs.",
+          "ro": "Protejează marja brută, împotriva costurilor de software de urmărire, bază de date de căutare de brevete, și asigurare de malpraxis."
+        }
+      },
+      {
+        "key": "netMargin",
+        "targetDescription": {
+          "en": "Maintain high net margin given the specialized, premium billing rates relative to general legal practice.",
+          "ro": "Menține marja netă, ridicată, dat fiind tarifele de facturare, specializate, premium, față de practica juridică generală."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "negotiation",
+          "importance": 4
+        },
+        {
+          "key": "communication",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "finance",
+          "importance": 2
+        },
+        {
+          "key": "management",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "detailOriented",
+          "importance": 5
+        },
+        {
+          "trait": "analytical",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "patient",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 35000,
+        "max": 60000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 40000,
+        "max": 50000,
+        "currency": "EUR"
+      },
+      "riskProfile": "high",
+      "timeAvailability": {
+        "minWeeklyHours": 40,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "structured",
+        "direct"
+      ],
+      "technicalLevel": 4,
+      "leadershipLevel": 3,
+      "creativityLevel": 2,
+      "salesAffinity": 2,
+      "automationAffinity": 2,
+      "remotePreference": "remote",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theSpecialist",
+        "theVisionary"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the patent-bar credentialing barrier and the High budget tier in Entrepreneur Fit and Financial Overview, and the flat-fee/hourly pricing split by matter type in Pricing Strategy — keep this clearly distinct from the general-practice Law Firm elsewhere in this library throughout.",
+      "ro": "Subliniază bariera de acreditare, a baroului de brevete, și nivelul ridicat de buget, în Potrivirea fondatorului și Prezentarea financiară, și divizarea de preț, tarif fix/orar, pe tip de cauză, în Strategia de preț — menține aceasta clar distinctă, de firma de avocatură, de practică generală, din altă parte, a acestei biblioteci, pe tot parcursul."
+    },
+    "marketingHints": {
+      "en": "Lead with demonstrated technical credibility for the specific technology vertical served, never generic 'protect your idea' legal-services stock phrases — this audience of technical founders can tell genuine subject-matter expertise from generic legal marketing.",
+      "ro": "Începe cu credibilitate tehnică demonstrată, pentru verticala tehnologică specifică, deservită, niciodată cu fraze generice, de servicii juridice, de tipul „protejează-ți ideea” — acest public, de fondatori tehnici, poate distinge expertiza reală, de domeniu, de marketingul juridic generic."
+    },
+    "financialHints": {
+      "en": "Model revenue as a flat-fee/hourly split by matter type (trademark vs. patent), not a single blended rate, and emphasize that patent-prosecution revenue realizes slowly given unpredictable examiner timelines.",
+      "ro": "Modelează veniturile, ca o divizare, tarif fix/orar, pe tip de cauză (marcă vs. brevet), nu o rată unică, combinată, și subliniază că veniturile, din urmărirea brevetului, se realizează lent, dat fiind termenele imprevizibile, ale examinatorului."
+    },
+    "generationHints": {
+      "en": "Keep generated tone precise and technically credible, grounded in real IP-practice specifics (patent-bar qualification, docketing, examiner correspondence) — always include the educational-guidance-only disclaimer and never generate content resembling actual legal advice for a specific matter.",
+      "ro": "Menține un ton generat, precis, credibil tehnic, fundamentat pe specificul real, al practicii de proprietate intelectuală (calificare, în baroul de brevete, urmărire, corespondență cu examinatorul) — include întotdeauna disclaimer-ul, doar de îndrumare educațională, și nu genera niciodată conținut, care seamănă cu consiliere juridică reală, pentru o cauză specifică."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Complete patent-bar qualification (if not already held) and set up IP-docketing and patent-search database infrastructure.",
+            "ro": "Finalizează calificarea, în baroul de brevete (dacă nu este deja deținută), și configurează infrastructura de urmărire IP și bază de date de căutare de brevete."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching without dedicated IP-docketing software, relying on manual deadline tracking for irreversible filing deadlines.",
+            "ro": "Lansarea, fără software dedicat, de urmărire IP, bazându-se pe urmărirea manuală, a termenelor ireversibile, de depunere."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Set up dedicated IP-docketing software before accepting any client matter, given how unforgiving missed IP deadlines are.",
+            "ro": "Configurează software dedicat, de urmărire IP, înainte de a accepta orice cauză de client, dat fiind cât de neiertătoare sunt termenele ratate, de proprietate intelectuală."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiqueIpLawPractice.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Sign the first trademark or patent-prosecution engagement to validate the practice's positioning and pricing model.",
+            "ro": "Semnează primul angajament, de marcă sau urmărire de brevet, pentru a valida poziționarea și modelul de preț, al practicii."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Underpricing the first engagement to win the client, undermining the specialized-expertise premium positioning before it's even established.",
+            "ro": "Subevaluarea primului angajament, pentru a câștiga clientul, subminând poziționarea premium, de expertiză specializată, înainte chiar de a fi stabilită."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Price the first engagement at the intended standard rate, even if it means a slower first sale.",
+            "ro": "Stabilește prețul primului angajament, la tariful standard, intenționat, chiar dacă înseamnă o primă vânzare, mai lentă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiqueIpLawPractice.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first full matter from intake through filing (trademark) or first office action response (patent).",
+            "ro": "Finalizează prima cauză completă, de la admitere, la depunere (marcă), sau primul răspuns, la acțiunea de birou (brevet)."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Underestimating the time required for thorough prior-art search and claim drafting on the first patent matter.",
+            "ro": "Subestimarea timpului necesar, pentru o căutare temeinică, a stadiului tehnicii, și redactarea revendicărilor, pentru prima cauză de brevet."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build in generous time buffers for the first few matters until a realistic per-matter time estimate is established.",
+            "ro": "Include marje generoase de timp, pentru primele câteva cauze, până la stabilirea unei estimări realiste, de timp, per cauză."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiqueIpLawPractice.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Establish accelerator and VC portfolio-referral relationships and publish the first plain-language IP-strategy content.",
+            "ro": "Stabilește relații de recomandare, cu portofolii de acceleratoare și VC-uri, și publică primul conținut, de strategie IP, în limbaj simplu."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Publishing content full of legal jargon instead of plain-language explanations that build trust with technical, non-legal founders.",
+            "ro": "Publicarea de conținut, plin de jargon juridic, în loc de explicații, în limbaj simplu, care construiesc încredere, cu fondatori tehnici, non-juridici."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Write content explicitly for a technical founder audience, translating legal concepts into plain, practical language.",
+            "ro": "Scrie conținut, explicit, pentru un public de fondatori tehnici, traducând concepte juridice, în limbaj simplu, practic."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiqueIpLawPractice.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first filing client into an annual IP-portfolio monitoring retainer.",
+            "ro": "Transformă primul client, cu depunere, într-un abonament anual, de monitorizare, a portofoliului de proprietate intelectuală."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not proactively offering the annual retainer at matter completion, leaving renewal deadlines to the client's own tracking.",
+            "ro": "Neoferirea proactivă, a abonamentului anual, la finalizarea cauzei, lăsând termenele de reînnoire, la urmărirea proprie, a clientului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Present the annual IP-portfolio retainer as a standard part of every matter completion, framed around the risk of missed renewal deadlines.",
+            "ro": "Prezintă abonamentul anual, de portofoliu de proprietate intelectuală, ca o parte standard, a fiecărei finalizări de cauză, încadrat în jurul riscului, de termene de reînnoire, ratate."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiqueIpLawPractice.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a steady pipeline of accelerator and VC portfolio-referral matters within one or two core technology verticals.",
+            "ro": "Atinge un pipeline constant, de cauze, de recomandare, din portofolii de acceleratoare și VC-uri, în una sau două verticale tehnologice de bază."
+          }
+        ],
+        "kpis": [
+          "closeRate",
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Accepting matters across too many unrelated technology verticals instead of building deep expertise in one or two.",
+            "ro": "Acceptarea de cauze, în prea multe verticale tehnologice, fără legătură, în loc de a construi expertiză profundă, în una sau două."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Focus intake on the 1-2 technology verticals showing the strongest referral and close-rate signal.",
+            "ro": "Concentrează admiterea, pe cele 1-2 verticale tehnologice, care arată cel mai puternic semnal, de recomandare și rată de închidere."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiqueIpLawPractice.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Deepen reputation and referral volume within the core technology vertical through published thought leadership.",
+            "ro": "Aprofundează reputația și volumul de recomandări, în verticala tehnologică de bază, prin leadership de gândire, publicat."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Spreading thought-leadership content across too many topics instead of deepening authority in the core vertical.",
+            "ro": "Răspândirea conținutului de leadership de gândire, în prea multe subiecte, în loc de a aprofunda autoritatea, în verticala de bază."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Concentrate published content and speaking engagements within the core technology vertical to build compounding authority.",
+            "ro": "Concentrează conținutul publicat și prezentările, în verticala tehnologică de bază, pentru a construi autoritate, care crește compus."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiqueIpLawPractice.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Bring on a second patent-bar-qualified associate once docket volume consistently exceeds solo capacity.",
+            "ro": "Adu un al doilea asociat, calificat, în baroul de brevete, odată ce volumul de cauze, depășește constant, capacitatea solo."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring a general-practice attorney instead of a patent-bar-qualified associate to help with patent prosecution work.",
+            "ro": "Angajarea unui avocat, de practică generală, în loc de un asociat, calificat, în baroul de brevete, pentru a ajuta cu munca de urmărire a brevetului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm any new hire holds the specific patent-bar qualification required before extending an offer.",
+            "ro": "Confirmă că orice nou angajat, deține calificarea specifică, în baroul de brevete, necesară, înainte de a extinde o ofertă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiqueIpLawPractice.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Add trademark-portfolio management as a scalable adjacent service line beyond one-off filings.",
+            "ro": "Adaugă gestionarea portofoliului de mărci, ca linie de servicii adiacentă, scalabilă, dincolo de depunerile unice."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding into an unrelated legal-service area instead of a genuinely adjacent IP-portfolio service.",
+            "ro": "Extinderea, într-o zonă de servicii juridice, fără legătură, în loc de un serviciu, de portofoliu de proprietate intelectuală, cu adevărat adiacent."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Choose expansion service lines that build directly on existing IP-docketing infrastructure and client relationships.",
+            "ro": "Alege linii de servicii, de extindere, care se bazează direct, pe infrastructura existentă, de urmărire IP, și relațiile cu clienții."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiqueIpLawPractice.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the client portfolio, docketing records, and recurring-retainer history to package the practice for sale or merger.",
+            "ro": "Documentează portofoliul de clienți, evidențele de urmărire, și istoricul de abonamente recurente, pentru a pregăti practica, pentru vânzare sau fuziune."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping client and docketing records fragmented across systems instead of a single, buyer-ready due-diligence view.",
+            "ro": "Menținerea evidențelor de clienți și urmărire, fragmentate, în diverse sisteme, în loc de o singură vizualizare, de diligență, pregătită pentru cumpărător."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, ongoing documentation of the client portfolio and docketing records for due-diligence readiness.",
+            "ro": "Menține o documentație curată, continuă, a portofoliului de clienți și evidențelor de urmărire, pentru pregătirea de diligență."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiqueIpLawPractice.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

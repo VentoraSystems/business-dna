@@ -218,6 +218,15 @@ language applied there.
   content — don't let it silently include templates or drafts.
 - One package, one folder, one slug — `metadata.json.slug` should be
   unique across every `technology/` folder and match the folder name.
+- **Known pitfall:** `business-dna.json`'s §21 `businessLifecycle.stages[]`
+  (`BusinessLifecycleStageProfile`) has no `successCriteria` field, even
+  though `roadmap.json`'s stage objects — same 10-stage vocabulary,
+  authored right alongside it — do carry a
+  `successCriteriaTranslationKeys` field. Don't add a stray
+  `successCriteria` array to `business-dna.json` by pattern-matching
+  from `roadmap.json`; see the warning comment on
+  `BusinessLifecycleStageProfile` in
+  `features/business-dna/types/sections/business-lifecycle.ts`.
 
 ## Migration
 

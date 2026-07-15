@@ -1,0 +1,138 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "subscriptionCommercePlatformSetup",
+      "brandedPackagingAndBoxDesign",
+      "initialInventoryPrepayWithFoundingRoasters"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "packingAndFulfillmentLabor",
+      "subscriptionPlatformSubscriptionFee"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "monthlyRoastedBeanInventory",
+      "shippingAndPackagingMaterials"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "monthlySingleBagSubscription",
+        "label": {
+          "en": "Monthly single-bag subscription",
+          "ro": "Abonament lunar, cu un pachet"
+        }
+      },
+      {
+        "key": "monthlyTwoBagSubscription",
+        "label": {
+          "en": "Monthly two-bag subscription",
+          "ro": "Abonament lunar, cu două pachete"
+        }
+      },
+      {
+        "key": "prepaidGiftSubscriptions",
+        "label": {
+          "en": "Prepaid 3/6/12-month gift subscriptions",
+          "ro": "Abonamente cadou, preplătite, de 3/6/12 luni"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "activeSubscribers": "number",
+      "averageRevenuePerSubscriber": "currency",
+      "monthlyChurnRatePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "newSubscribersPerMonth": "number",
+      "giftSubscriptionSeasonalUpliftPercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.specialtyCoffeeSubscriptionBox.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "subscriptionBillingInflow",
+      "giftSubscriptionPrepayInflow",
+      "inventoryAndShippingOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 10,
+    "notesTranslationKey": "businessLibrary.specialtyCoffeeSubscriptionBox.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 48,
+    "notesTranslationKey": "businessLibrary.specialtyCoffeeSubscriptionBox.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 20,
+    "notesTranslationKey": "businessLibrary.specialtyCoffeeSubscriptionBox.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "partTimePackingStaffRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "contentProductionAndPhotography",
+      "giftSubscriptionSeasonalCampaigns"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "salesTaxOnPhysicalGoods"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "fourMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "churn",
+      "customerRetention",
+      "grossMargin",
+      "mrr"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 4000,
+      "notesTranslationKey": "businessLibrary.specialtyCoffeeSubscriptionBox.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 11000,
+      "notesTranslationKey": "businessLibrary.specialtyCoffeeSubscriptionBox.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 18000,
+      "notesTranslationKey": "businessLibrary.specialtyCoffeeSubscriptionBox.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.specialtyCoffeeSubscriptionBox.financial.risks.risk1",
+        "severity": "moderate"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.specialtyCoffeeSubscriptionBox.financial.risks.risk2",
+        "severity": "high"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.specialtyCoffeeSubscriptionBox.financial.aiMetadata.generationHints"
+  }
+}

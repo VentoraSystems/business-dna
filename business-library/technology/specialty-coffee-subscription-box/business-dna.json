@@ -1,0 +1,942 @@
+{
+  "identity": {
+    "id": "634867f4-d242-48b9-b6a9-5e73d953721c",
+    "slug": "specialty-coffee-subscription-box",
+    "version": "1.0.0",
+    "name": {
+      "en": "Origin Route Coffee Co.",
+      "ro": "Origin Route Coffee Co."
+    },
+    "tagline": {
+      "en": "A new origin in your mailbox, every month.",
+      "ro": "O nouă origine, în cutia ta poștală, în fiecare lună."
+    },
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theSpecialist",
+      "theConnector"
+    ],
+    "summary": {
+      "en": "Best suited to a genuine coffee enthusiast with real palate expertise and the relationship-building instinct to source and maintain rotating independent-roaster partnerships, not just a general e-commerce operator.",
+      "ro": "Potrivit unui pasionat autentic de cafea, cu expertiză reală de degustare, și instinctul de a construi relații, pentru a găsi și menține parteneriate rotative, cu prăjitori independenți, nu doar un operator general de comerț electronic."
+    },
+    "minimumExperienceYears": 2
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 15000,
+      "maxInvestment": 28000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 4000,
+      "ongoingMonthlyCostMax": 9000,
+      "notes": {
+        "en": "Covers subscription-commerce platform setup, packaging design, and an initial inventory prepay with founding roaster partners — a Medium budget tier, driven primarily by inventory and packaging rather than physical retail infrastructure.",
+        "ro": "Acoperă configurarea platformei de comerț cu abonament, designul ambalajului și o plată inițială, în avans, pentru stoc, către prăjitorii parteneri fondatori — un nivel de buget mediu, determinat, în principal, de stoc și ambalaj, nu de infrastructura de retail fizică."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "subscriptionCommercePlatformSetup",
+          "label": {
+            "en": "Subscription-commerce platform and website setup",
+            "ro": "Configurarea platformei de comerț cu abonament și a site-ului web"
+          },
+          "typicalMin": 2000,
+          "typicalMax": 5000
+        },
+        {
+          "key": "brandedPackagingAndBoxDesign",
+          "label": {
+            "en": "Branded packaging, box design, and printing",
+            "ro": "Ambalaj cu marcă proprie, design de cutie și tipărire"
+          },
+          "typicalMin": 3000,
+          "typicalMax": 7000
+        },
+        {
+          "key": "initialInventoryPrepayWithFoundingRoasters",
+          "label": {
+            "en": "Initial inventory prepay with founding roaster partners",
+            "ro": "Plată inițială, în avans, pentru stoc, către prăjitorii parteneri fondatori"
+          },
+          "typicalMin": 5000,
+          "typicalMax": 12000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "monthlyRoastedBeanInventory",
+          "label": {
+            "en": "Monthly roasted-bean inventory purchase from rotating roaster partners",
+            "ro": "Achiziția lunară de stoc de cafea prăjită, de la prăjitorii parteneri rotativi"
+          },
+          "typicalMonthlyMin": 2500,
+          "typicalMonthlyMax": 6000
+        },
+        {
+          "key": "packingAndFulfillmentLabor",
+          "label": {
+            "en": "Packing and fulfillment labor",
+            "ro": "Forța de muncă, pentru ambalare și onorarea comenzilor"
+          },
+          "typicalMonthlyMin": 800,
+          "typicalMonthlyMax": 2000
+        },
+        {
+          "key": "shippingAndSubscriptionPlatformFees",
+          "label": {
+            "en": "Shipping costs and subscription-platform transaction fees",
+            "ro": "Costurile de expediere și taxele de tranzacție ale platformei de abonament"
+          },
+          "typicalMonthlyMin": 700,
+          "typicalMonthlyMax": 1000
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "monthlySingleBagSubscription",
+          "label": {
+            "en": "Monthly single-bag subscription",
+            "ro": "Abonament lunar, cu un pachet"
+          }
+        },
+        {
+          "key": "monthlyTwoBagSubscription",
+          "label": {
+            "en": "Monthly two-bag subscription",
+            "ro": "Abonament lunar, cu două pachete"
+          }
+        },
+        {
+          "key": "prepaidGiftSubscriptions",
+          "label": {
+            "en": "Prepaid 3/6/12-month gift subscriptions",
+            "ro": "Abonamente cadou, preplătite, de 3/6/12 luni"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 6000,
+      "targetMonthlyIncomeMax": 18000,
+      "breakEvenTimelineMonths": 10,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Monthly subscription billing generates predictable recurring cash flow, but the inventory prepay and freshness-window constraints mean cash is tied up ahead of each month's shipment.",
+        "ro": "Facturarea lunară, prin abonament, generează flux de numerar recurent, previzibil, dar constrângerile de plată în avans, pentru stoc, și fereastra de prospețime, înseamnă că numerarul este blocat, înaintea expedierii, din fiecare lună."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate",
+      "notes": {
+        "en": "Wholesale bean costs, packaging, and shipping keep per-box margin moderate rather than high, though margin improves as subscriber volume lets the business negotiate better wholesale terms with roaster partners.",
+        "ro": "Costurile cu boabele, la ridicata, ambalajul și expedierea, mențin marja per cutie moderată, nu ridicată, deși marja se îmbunătățește, pe măsură ce volumul de abonați permite afacerii, să negocieze termeni mai buni, la ridicata, cu prăjitorii parteneri."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "occasional",
+    "onlineOffline": "online",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 30,
+    "maxWeeklyHours": 45,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 4
+      },
+      {
+        "key": "marketing",
+        "rating": 7
+      },
+      {
+        "key": "leadership",
+        "rating": 4
+      },
+      {
+        "key": "communication",
+        "rating": 6
+      },
+      {
+        "key": "negotiation",
+        "rating": 5
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 7
+      },
+      {
+        "key": "technology",
+        "rating": 5
+      },
+      {
+        "key": "automation",
+        "rating": 4
+      },
+      {
+        "key": "ai",
+        "rating": 2
+      },
+      {
+        "key": "programming",
+        "rating": 1
+      },
+      {
+        "key": "management",
+        "rating": 5
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 55
+      },
+      {
+        "key": "visionary",
+        "score": 40
+      },
+      {
+        "key": "operator",
+        "score": 60
+      },
+      {
+        "key": "creator",
+        "score": 50
+      },
+      {
+        "key": "seller",
+        "score": 35
+      },
+      {
+        "key": "leader",
+        "score": 30
+      },
+      {
+        "key": "analyst",
+        "score": 35
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": false,
+    "requiresTravel": true,
+    "isOnlineBusiness": true,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": true,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": true,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": true,
+    "requiresInventory": true,
+    "isSeasonalBusiness": true,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate",
+      "notes": {
+        "en": "Subscriber growth scales revenue predictably through the platform, but each additional subscriber still requires physical packing and shipping capacity, so scaling isn't as frictionless as a pure digital subscription.",
+        "ro": "Creșterea numărului de abonați scalează veniturile, previzibil, prin platformă, dar fiecare abonat suplimentar necesită totuși capacitate fizică de ambalare și expediere, astfel încât scalarea nu este la fel de lipsită de fricțiune, ca un abonament digital pur."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "The core skills — palate expertise, roaster-relationship building, and subscription-fulfillment logistics — are learnable, but require genuine coffee knowledge to curate credibly, not just general e-commerce operations experience.",
+        "ro": "Abilitățile de bază — expertiza de degustare, construirea relațiilor cu prăjitorii și logistica de onorare a abonamentelor — pot fi învățate, dar necesită cunoștințe reale despre cafea, pentru a curatoria credibil, nu doar experiență generală de operare a comerțului electronic."
+      }
+    },
+    "aiResistance": {
+      "level": "high",
+      "notes": {
+        "en": "Genuine human taste-testing and curated roaster relationships are difficult for an algorithm-driven competitor to replicate authentically, which protects this business from AI-driven commoditization more than most e-commerce categories.",
+        "ro": "Degustarea umană autentică și relațiile curatoriate cu prăjitorii, sunt dificil de replicat autentic, de către un concurent condus de algoritm, ceea ce protejează această afacere, de transformarea în marfă, condusă de AI, mai mult decât majoritatea categoriilor de comerț electronic."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Specialty coffee has a limited freshness window (typically 4-8 weeks post-roast), so over-ordering beans ahead of actual subscriber growth risks spoilage and wasted inventory spend.",
+          "ro": "Cafeaua specialty are o fereastră limitată de prospețime (de obicei 4-8 săptămâni, după prăjire), astfel încât comandarea excesivă a boabelor, înaintea creșterii reale a numărului de abonați, riscă alterarea și cheltuieli irosite de stoc."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "Dependence on a single roaster partner for a given month means one bad batch or supply disruption can directly damage that month's box quality and subscriber trust.",
+          "ro": "Dependența de un singur prăjitor partener, într-o anumită lună, înseamnă că un lot defectuos sau o întrerupere a aprovizionării, poate afecta direct calitatea cutiei, din acea lună, și încrederea abonaților."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "Coffee subscription boxes face a well-documented industry churn pattern as initial novelty fades and subscribers drift back to a single favorite roast, requiring continuous curation freshness to retain them.",
+          "ro": "Cutiile de abonament pentru cafea, se confruntă cu un tipar de pierdere de abonați, bine documentat, în industrie, pe măsură ce noutatea inițială se estompează, iar abonații revin la un singur prăjit favorit, necesitând prospețime continuă a curatorierii, pentru a-i reține."
+        },
+        "severity": "high"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "A new origin in your mailbox, every month — coffee curated by people who've actually cupped it, not an algorithm.",
+        "ro": "O nouă origine, în cutia ta poștală, în fiecare lună — cafea curatoriată de oameni, care chiar au degustat-o, nu de un algoritm."
+      },
+      "channels": [
+        {
+          "channelType": "instagramAndCoffeeCommunityContentMarketing",
+          "description": {
+            "en": "Content marketing built around tasting notes, brewing guides, and behind-the-scenes roaster features, distributed on Instagram and coffee-enthusiast communities.",
+            "ro": "Marketing de conținut, construit în jurul notelor de degustare, ghidurilor de preparare și materialelor din culise, despre prăjitori, distribuit pe Instagram și comunități de pasionați de cafea."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "roasterCoMarketingPartnerships",
+          "description": {
+            "en": "Co-marketing with each month's featured roaster partner, cross-promoting to that roaster's own existing customer base.",
+            "ro": "Co-marketing, cu prăjitorul partener prezentat, în fiecare lună, promovând încrucișat, către baza de clienți existentă, a acelui prăjitor."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "giftSubscriptionSeasonalCampaigns",
+          "description": {
+            "en": "Seasonal gift-subscription campaigns timed around the winter holidays, targeting gift-givers rather than the core enthusiast subscriber.",
+            "ro": "Campanii sezoniere, de abonamente cadou, programate în jurul sărbătorilor de iarnă, vizând cei care oferă cadouri, nu abonatul pasionat de bază."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "The offer is easy to explain, but sustaining genuine subscriber interest month over month requires real content and curation discipline, not a one-time marketing push.",
+        "ro": "Oferta este ușor de explicat, dar susținerea interesului real al abonaților, lună de lună, necesită disciplină reală de conținut și curatoriere, nu un impuls de marketing, o singură dată."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A discounted first box or free trial converts new visitors into subscribers; monthly, quarterly, and annual plan tiers reward longer commitments with better pricing, and a gift-subscription option targets a distinct, seasonal buyer.",
+        "ro": "O primă cutie, cu reducere, sau o probă gratuită, transformă vizitatorii noi, în abonați; nivelurile de plan lunar, trimestrial și anual, recompensează angajamentele mai lungi, cu prețuri mai bune, iar o opțiune de abonament cadou, vizează un cumpărător distinct, sezonier."
+      },
+      "salesCycleLengthDays": 1,
+      "pricingModel": {
+        "en": "Monthly subscription tiers: single-bag (€19/month) and two-bag (€34/month), plus prepaid 3/6/12-month gift subscriptions at a discount; coffee is sourced at wholesale from a rotating roster of independent roaster partners.",
+        "ro": "Niveluri de abonament lunar: un pachet (19 €/lună) și două pachete (34 €/lună), plus abonamente cadou, preplătite, de 3/6/12 luni, cu reducere; cafeaua este achiziționată la ridicata, de la o listă rotativă de prăjitori parteneri, independenți."
+      }
+    },
+    "salesComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "Conversion is a fast, low-consideration D2C purchase decision once a visitor lands on the site — the harder ongoing work is retention, not initial conversion.",
+        "ro": "Conversia este o decizie de cumpărare D2C, rapidă, cu implicare redusă, odată ce un vizitator ajunge pe site — munca mai dificilă, continuă, este reținerea, nu conversia inițială."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Monthly roaster-partner selection and bean sourcing",
+          "ro": "Selecția lunară a prăjitorului partener și achiziția boabelor"
+        },
+        {
+          "en": "Box assembly, labeling, and fulfillment",
+          "ro": "Asamblarea cutiei, etichetarea și onorarea comenzilor"
+        },
+        {
+          "en": "Subscriber billing and plan management",
+          "ro": "Facturarea abonaților și gestionarea planurilor"
+        },
+        {
+          "en": "Tasting-note and brewing-guide content production for each monthly box",
+          "ro": "Producția de conținut, cu note de degustare și ghid de preparare, pentru fiecare cutie lunară"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Most days are spent on roaster-partner sourcing calls, content production for the current or upcoming box, and subscriber support, with a concentrated multi-day packing and shipping push around the monthly fulfillment date.",
+        "ro": "Majoritatea zilelor sunt petrecute în apeluri de aprovizionare, cu prăjitorii parteneri, producție de conținut, pentru cutia curentă sau viitoare, și suport pentru abonați, cu un impuls concentrat, de mai multe zile, de ambalare și expediere, în jurul datei lunare de onorare."
+      },
+      "fulfillmentModel": {
+        "en": "A D2C subscription business that sources roasted beans wholesale from a rotating roster of independent roaster partners each month, then packs and ships curated boxes directly to subscribers — no physical storefront or in-house roasting.",
+        "ro": "O afacere de abonament D2C, care achiziționează boabe prăjite, la ridicata, de la o listă rotativă de prăjitori parteneri, independenți, în fiecare lună, apoi ambalează și expediază cutii curatoriate, direct către abonați — fără magazin fizic sau prăjire internă."
+      }
+    },
+    "automation": {
+      "level": "moderate",
+      "notes": {
+        "en": "Billing, renewal, and shipping-label generation are automated through the subscription-commerce platform, but roaster vetting and monthly curation decisions remain deliberately human.",
+        "ro": "Facturarea, reînnoirea și generarea etichetelor de expediere, sunt automatizate, prin platforma de comerț cu abonament, dar verificarea prăjitorilor și deciziile lunare de curatoriere, rămân deliberat umane."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "churnPredictionForRenewalOutreach",
+          "description": {
+            "en": "AI-assisted flagging of subscribers showing early churn signals (skipped renewal, reduced email engagement) for targeted retention outreach.",
+            "ro": "Semnalarea, asistată de AI, a abonaților, care arată semnale timpurii de pierdere (reînnoire omisă, implicare redusă, prin e-mail), pentru contactare de reținere, direcționată."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "Cratejoy",
+        "category": "subscriptionCommercePlatform",
+        "isRequired": true,
+        "websiteUrl": "https://www.cratejoy.com/"
+      },
+      {
+        "name": "ShipStation",
+        "category": "fulfillmentAndShippingManagement",
+        "isRequired": true,
+        "websiteUrl": "https://www.shipstation.com/"
+      },
+      {
+        "name": "Klaviyo",
+        "category": "emailMarketingAutomation",
+        "isRequired": false,
+        "websiteUrl": "https://www.klaviyo.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 24,
+      "notes": {
+        "en": "Growth is initially gated by subscriber acquisition within the core specialty-coffee niche, with tea or brewing-accessory add-on lines and a corporate-gifting channel as the main levers once the core box is established.",
+        "ro": "Creșterea este inițial limitată de achiziția de abonați, în nișa de bază, de cafea specialty, cu linii suplimentare, de ceai sau accesorii de preparare, și un canal de cadouri corporative, drept principalele pârghii, odată ce cutia de bază este stabilită."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Grow the subscriber base within the core specialty-coffee niche first, then add a complementary product line (tea, brewing accessories) to increase average order value, then pursue a corporate-gifting wholesale channel once fulfillment operations are proven at scale.",
+        "ro": "Crește mai întâi baza de abonați, în nișa de bază, de cafea specialty, apoi adaugă o linie de produse complementară (ceai, accesorii de preparare), pentru a crește valoarea medie a comenzii, apoi urmărește un canal de cadouri corporative, cu ridicata, odată ce operațiunile de onorare sunt dovedite, la scară."
+      },
+      "bottlenecks": [
+        {
+          "en": "The limited freshness window on specialty coffee constrains how far ahead inventory can be ordered and stocked, limiting bulk-purchasing efficiency.",
+          "ro": "Fereastra limitată de prospețime, a cafelei specialty, constrânge cât de departe, în avans, poate fi comandat și stocat inventarul, limitând eficiența achiziției în masă."
+        },
+        {
+          "en": "Sourcing enough distinctive, high-quality rotating roaster partners to sustain monthly novelty is an ongoing sourcing challenge, not a one-time setup task.",
+          "ro": "Găsirea a suficient de mulți prăjitori parteneri, rotativi, distinctivi, de calitate ridicată, pentru a susține noutatea lunară, este o provocare continuă de aprovizionare, nu o sarcină de configurare, o singură dată."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 10,
+          "description": {
+            "en": "The business reaches break-even with a stable core subscriber base.",
+            "ro": "Afacerea atinge pragul de rentabilitate, cu o bază stabilă de abonați de bază."
+          }
+        },
+        {
+          "monthsFromLaunch": 20,
+          "description": {
+            "en": "A complementary product add-on line (tea or brewing accessories) launches successfully alongside the core coffee subscription.",
+            "ro": "O linie suplimentară de produse complementare (ceai sau accesorii de preparare), este lansată cu succes, alături de abonamentul de bază, de cafea."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Genuine human taste-testing and curated roaster relationships are difficult for a larger, algorithm-driven competitor to replicate authentically.",
+          "ro": "Degustarea umană autentică și relațiile curatoriate cu prăjitorii, sunt dificil de replicat autentic, de un concurent mai mare, condus de algoritm."
+        }
+      },
+      {
+        "description": {
+          "en": "Subscription revenue provides predictable, recurring cash flow, unlike one-off specialty-coffee retail sales.",
+          "ro": "Veniturile din abonament, oferă un flux de numerar recurent, previzibil, spre deosebire de vânzările unice, cu amănuntul, de cafea specialty."
+        }
+      },
+      {
+        "description": {
+          "en": "Rotating roaster partnerships let the box stay novel and fresh without the company needing to operate its own roasting facility.",
+          "ro": "Parteneriatele rotative, cu prăjitori, permit cutiei să rămână nouă și proaspătă, fără ca firma să aibă nevoie, să opereze propria facilitate de prăjire."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A curated specialty-coffee subscription box that ships a rotating single-origin roast from a different independent roaster each month, monetized through monthly and prepaid gift subscriptions. Deliberately distinct from the physical dine-in coffee-shop business elsewhere in this library — a D2C recurring shipped product built on roaster-partnership sourcing and inventory prepay.",
+        "ro": "O cutie de abonament, cu cafea specialty, curatoriată, care expediază un prăjit, cu o singură origine, rotativ, de la un prăjitor independent diferit, în fiecare lună, monetizată, prin abonamente lunare și cadou, preplătite. Deliberat distinctă, de afacerea fizică, de cafenea cu servire la masă, din altă parte, a acestei biblioteci — un produs D2C recurent, expediat, construit pe aprovizionare prin parteneriat cu prăjitori și plată în avans, pentru stoc."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.specialtyCoffeeSubscriptionBox.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.specialtyCoffeeSubscriptionBox.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.specialtyCoffeeSubscriptionBox.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.specialtyCoffeeSubscriptionBox.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep monthly subscriber churn low despite the industry's well-documented novelty-fade pattern.",
+          "ro": "Menține pierderea lunară de abonați scăzută, în ciuda tiparului bine documentat, de estompare a noutății, din industrie."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep subscribers renewing month over month through continuous curation freshness.",
+          "ro": "Menține abonații, reînnoind, lună de lună, prin prospețime continuă, a curatorierii."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against wholesale bean, packaging, and shipping costs.",
+          "ro": "Protejează marja brută, împotriva costurilor cu boabele la ridicata, ambalajul și expedierea."
+        }
+      },
+      {
+        "key": "mrr",
+        "targetDescription": {
+          "en": "Grow monthly recurring revenue through both new subscriber acquisition and gift-subscription seasonal spikes.",
+          "ro": "Crește veniturile recurente lunare, atât prin achiziția de abonați noi, cât și prin vârfurile sezoniere, de abonamente cadou."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "marketing",
+          "importance": 5
+        },
+        {
+          "key": "negotiation",
+          "importance": 3
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "finance",
+          "importance": 2
+        },
+        {
+          "key": "communication",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "creative",
+          "importance": 4
+        },
+        {
+          "trait": "detailOriented",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "collaborative",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 15000,
+        "max": 28000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 18000,
+        "max": 24000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 30,
+        "maxWeeklyHours": 45
+      },
+      "communicationStyle": [
+        "warm",
+        "direct"
+      ],
+      "technicalLevel": 3,
+      "leadershipLevel": 3,
+      "creativityLevel": 5,
+      "salesAffinity": 3,
+      "automationAffinity": 3,
+      "remotePreference": "hybrid",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theSpecialist",
+        "theConnector"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize genuine palate expertise and roaster-relationship sourcing in Entrepreneur Fit and Offer Architecture, and the inventory-freshness constraint in Risk Analysis and Financial Overview — never treat this as a generic e-commerce subscription box.",
+      "ro": "Subliniază expertiza reală de degustare și aprovizionarea prin relații cu prăjitorii, în Potrivirea fondatorului și Arhitectura ofertei, și constrângerea de prospețime a stocului, în Analiza riscurilor și Prezentarea financiară — nu trata niciodată aceasta, ca o cutie generică de abonament, de comerț electronic."
+    },
+    "marketingHints": {
+      "en": "Lead with authentic tasting notes and real roaster stories, never generic 'coffee lover's dream box' stock phrases — this audience can tell curated expertise from generic marketing copy.",
+      "ro": "Începe cu note de degustare autentice și povești reale despre prăjitori, niciodată cu fraze generice de tipul „cutia de vis, a iubitorului de cafea” — acest public poate distinge expertiza curatoriată, de textul generic de marketing."
+    },
+    "financialHints": {
+      "en": "Model revenue as recurring monthly subscription income with a seasonal gift-subscription spike, and treat the inventory-freshness window as a real constraint on how far ahead bean purchasing can be planned.",
+      "ro": "Modelează veniturile, ca venit recurent, lunar, din abonament, cu un vârf sezonier, de abonamente cadou, și tratează fereastra de prospețime a stocului, ca o constrângere reală, asupra cât de departe, în avans, poate fi planificată achiziția de boabe."
+    },
+    "generationHints": {
+      "en": "Keep generated tone warm and genuinely enthusiast-driven, grounded in real coffee expertise (origin, process, roast profile) — never generic lifestyle-subscription-box language.",
+      "ro": "Menține un ton generat, cald, autentic, condus de pasiune, fundamentat pe expertiză reală despre cafea (origine, proces, profil de prăjire) — niciodată limbaj generic, de cutie de abonament, de lifestyle."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Set up the subscription-commerce platform, finalize branded packaging, and sign the first 2-3 founding roaster partners.",
+            "ro": "Configurează platforma de comerț cu abonament, finalizează ambalajul cu marcă proprie și semnează primii 2-3 prăjitori parteneri fondatori."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Prepaying for large volumes of coffee before confirming subscriber demand, risking spoilage inside the freshness window.",
+            "ro": "Plata în avans, pentru volume mari de cafea, înainte de a confirma cererea abonaților, riscând alterarea, în cadrul ferestrei de prospețime."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Start with a small initial inventory prepay and scale ordering volume alongside confirmed subscriber growth.",
+            "ro": "Începe cu o plată mică, inițială, în avans, pentru stoc, și scalează volumul de comandă, odată cu creșterea confirmată, a abonaților."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.specialtyCoffeeSubscriptionBox.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Ship a small pilot batch of boxes to an initial group of enthusiast testers to validate curation quality and packaging.",
+            "ro": "Expediază un lot pilot, mic, de cutii, unui grup inițial, de testeri pasionați, pentru a valida calitatea curatorierii și ambalajul."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Skipping a pilot batch and shipping directly to paying subscribers before catching packaging or shipping issues.",
+            "ro": "Sărirea peste un lot pilot, și expedierea directă, către abonați plătitori, înainte de a detecta probleme de ambalaj sau expediere."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Ship a small pilot batch to friends, family, and enthusiast testers before opening public subscriptions.",
+            "ro": "Expediază un lot pilot, mic, către prieteni, familie și testeri pasionați, înainte de a deschide abonamentele publice."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.specialtyCoffeeSubscriptionBox.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first public month of paid subscriber boxes, shipped on schedule with tasting notes and brewing guidance.",
+            "ro": "Finalizează prima lună publică, de cutii de abonați plătitori, expediate conform programului, cu note de degustare și ghid de preparare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Underestimating the time required for tasting-note and brewing-guide content production alongside packing and shipping logistics.",
+            "ro": "Subestimarea timpului necesar, pentru producția de conținut, cu note de degustare și ghid de preparare, alături de logistica de ambalare și expediere."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Prepare tasting-note and brewing-guide content well ahead of the packing date, not the same week as fulfillment.",
+            "ro": "Pregătește conținutul, cu note de degustare și ghid de preparare, cu mult înainte, de data ambalării, nu în aceeași săptămână, cu onorarea comenzilor."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.specialtyCoffeeSubscriptionBox.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Launch content marketing on Instagram and coffee-enthusiast communities alongside the first roaster co-marketing partnership.",
+            "ro": "Lansează marketingul de conținut, pe Instagram și comunități de pasionați de cafea, alături de primul parteneriat de co-marketing, cu un prăjitor."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Publishing generic coffee-lifestyle content instead of real tasting notes and origin stories that demonstrate genuine curation expertise.",
+            "ro": "Publicarea de conținut generic, de lifestyle, despre cafea, în loc de note reale de degustare și povești de origine, care demonstrează expertiza reală, de curatoriere."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Lead every piece of content with specific, real tasting notes and origin details, not generic coffee-lifestyle language.",
+            "ro": "Începe fiecare conținut, cu note de degustare specifice, reale, și detalii de origine, nu limbaj generic, de lifestyle, despre cafea."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.specialtyCoffeeSubscriptionBox.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first paying subscriber into a renewing second-month subscription.",
+            "ro": "Transformă primul abonat plătitor, într-un abonament, care se reînnoiește, în luna a doua."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not following up with first-month subscribers before the renewal date to gather feedback and address concerns.",
+            "ro": "Neurmărirea abonaților, din prima lună, înainte de data reînnoirii, pentru a aduna feedback și a aborda îngrijorările."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Send a personal follow-up to every first-month subscriber before their renewal date to gather feedback.",
+            "ro": "Trimite o urmărire personală, fiecărui abonat, din prima lună, înainte de data reînnoirii, pentru a aduna feedback."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.specialtyCoffeeSubscriptionBox.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable base of renewing subscribers with a documented rotation of reliable roaster partners.",
+            "ro": "Atinge o bază stabilă de abonați, care se reînnoiesc, cu o rotație documentată, de prăjitori parteneri fiabili."
+          }
+        ],
+        "kpis": [
+          "customerRetention",
+          "churn"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Declaring product-market fit based on new-subscriber sign-ups alone, ignoring the renewal rate that actually determines sustainability.",
+            "ro": "Declararea potrivirii produs-piață, doar pe baza înscrierilor de abonați noi, ignorând rata de reînnoire, care determină, de fapt, sustenabilitatea."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track month-over-month renewal rate as the primary product-market fit signal, not just new sign-ups.",
+            "ro": "Urmărește rata de reînnoire, lună de lună, ca principalul semnal de potrivire produs-piață, nu doar înscrierile noi."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.specialtyCoffeeSubscriptionBox.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Launch the first seasonal gift-subscription campaign around the winter holidays.",
+            "ro": "Lansează prima campanie sezonieră, de abonamente cadou, în jurul sărbătorilor de iarnă."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Launching the gift-subscription campaign too close to the holidays, without enough lead time to reach gift-giver audiences.",
+            "ro": "Lansarea campaniei de abonamente cadou, prea aproape, de sărbători, fără suficient timp de pregătire, pentru a ajunge la publicul, care oferă cadouri."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Start gift-subscription marketing at least 6-8 weeks before the holiday season to reach gift-giver audiences in time.",
+            "ro": "Începe marketingul de abonamente cadou, cu cel puțin 6-8 săptămâni, înainte de sezonul sărbătorilor, pentru a ajunge la publicul, care oferă cadouri, la timp."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.specialtyCoffeeSubscriptionBox.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Negotiate improved wholesale terms with roaster partners as subscriber volume grows.",
+            "ro": "Negociază termeni îmbunătățiți, la ridicata, cu prăjitorii parteneri, pe măsură ce volumul de abonați crește."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Keeping the same per-bag wholesale pricing with roaster partners even as subscriber volume grows significantly.",
+            "ro": "Menținerea acelorași prețuri, la ridicata, per pachet, cu prăjitorii parteneri, chiar și pe măsură ce volumul de abonați crește semnificativ."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Revisit wholesale pricing terms with roaster partners once subscriber volume crosses meaningful thresholds.",
+            "ro": "Revizuiește termenii de preț, la ridicata, cu prăjitorii parteneri, odată ce volumul de abonați depășește praguri semnificative."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.specialtyCoffeeSubscriptionBox.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Launch a complementary product add-on line (tea or brewing accessories) to increase average order value.",
+            "ro": "Lansează o linie suplimentară, de produse complementare (ceai sau accesorii de preparare), pentru a crește valoarea medie, a comenzii."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Adding an unrelated product line that dilutes the core specialty-coffee curation brand instead of complementing it.",
+            "ro": "Adăugarea unei linii de produse fără legătură, care diluează marca de bază, de curatoriere de cafea specialty, în loc să o completeze."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Choose an add-on product line that genuinely complements coffee (tea, brewing gear) rather than an unrelated category.",
+            "ro": "Alege o linie de produse suplimentară, care completează cu adevărat cafeaua (ceai, echipament de preparare), nu o categorie fără legătură."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.specialtyCoffeeSubscriptionBox.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the roaster-partner network, subscriber base, and recurring-revenue history to package the business for sale.",
+            "ro": "Documentează rețeaua de prăjitori parteneri, baza de abonați și istoricul de venituri recurente, pentru a pregăti afacerea pentru vânzare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping roaster-partner relationships informal and undocumented, making the business hard for a buyer to evaluate or transfer.",
+            "ro": "Menținerea relațiilor cu prăjitorii parteneri, informale și nedocumentate, făcând afacerea dificil de evaluat sau transferat, de către un cumpărător."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, ongoing documentation of every roaster-partner agreement and subscriber-retention metrics for due-diligence readiness.",
+            "ro": "Menține o documentație curată, continuă, a fiecărui acord cu prăjitorii parteneri, și a metricilor de retenție a abonaților, pentru pregătirea de diligență."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.specialtyCoffeeSubscriptionBox.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

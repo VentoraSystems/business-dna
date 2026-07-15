@@ -1,0 +1,138 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "malpracticeInsuranceSetup",
+      "ipDocketingAndPatentSearchSoftwareSetup",
+      "patentBarQualificationAndCle"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "ipDocketingSoftwareSubscription",
+      "malpracticePremium"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "patentSearchDatabaseSubscription",
+      "filingFeesPassThrough"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "flatFeeTrademarkRegistration",
+        "label": {
+          "en": "Flat-fee trademark registration filings",
+          "ro": "Depuneri, cu tarif fix, de înregistrare a mărcii"
+        }
+      },
+      {
+        "key": "hourlyPatentProsecution",
+        "label": {
+          "en": "Hourly-billed patent prosecution and examiner correspondence",
+          "ro": "Urmărirea brevetului, facturată orar, și corespondența cu examinatorul"
+        }
+      },
+      {
+        "key": "annualIpPortfolioRetainer",
+        "label": {
+          "en": "Annual IP-portfolio monitoring and renewal retainer",
+          "ro": "Abonament anual, de monitorizare și reînnoire, a portofoliului de proprietate intelectuală"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "activeTrademarkMatters": "number",
+      "activePatentMatters": "number",
+      "averagePatentMatterHours": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "intakeToEngagementCloseRatePercent": "percent",
+      "annualRetainerConversionRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.boutiqueIpLawPractice.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "trademarkFlatFeeInflow",
+      "patentHourlyBillingInflow",
+      "retainerAndInsuranceOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 12,
+    "notesTranslationKey": "businessLibrary.boutiqueIpLawPractice.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 75,
+    "notesTranslationKey": "businessLibrary.boutiqueIpLawPractice.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 48,
+    "notesTranslationKey": "businessLibrary.boutiqueIpLawPractice.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "secondPatentBarAssociateRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "acceleratorAndVcRelationshipBuilding",
+      "technicalContentProduction"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "selfEmploymentTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "closeRate",
+      "customerRetention",
+      "grossMargin",
+      "netMargin"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 6000,
+      "notesTranslationKey": "businessLibrary.boutiqueIpLawPractice.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 17000,
+      "notesTranslationKey": "businessLibrary.boutiqueIpLawPractice.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 28000,
+      "notesTranslationKey": "businessLibrary.boutiqueIpLawPractice.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.boutiqueIpLawPractice.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.boutiqueIpLawPractice.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.boutiqueIpLawPractice.financial.aiMetadata.generationHints"
+  }
+}

@@ -1,0 +1,944 @@
+{
+  "identity": {
+    "id": "4f7b93c6-b799-4458-98fa-afa97539867b",
+    "slug": "rpa-workflow-consultancy",
+    "version": "1.0.0",
+    "name": {
+      "en": "Steadywork Automation",
+      "ro": "Steadywork Automation"
+    },
+    "tagline": {
+      "en": "The copy-paste job your team hates, gone in six weeks.",
+      "ro": "Munca de copiere-lipire, pe care echipa ta o urăște, dispărută în șase săptămâni."
+    },
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theOperator",
+      "theSpecialist"
+    ],
+    "summary": {
+      "en": "Best suited to a detail-rigorous operator who enjoys mapping messy manual processes into precise, deterministic logic, and is comfortable selling narrow technical value to operations leaders rather than broad digital-transformation vision.",
+      "ro": "Potrivit unui operator riguros pe detalii, care se bucură să transforme procese manuale, dezordonate, în logică precisă, deterministă, și este confortabil să vândă valoare tehnică restrânsă, liderilor operaționali, nu o viziune largă de transformare digitală."
+    },
+    "minimumExperienceYears": 3
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 4000,
+      "maxInvestment": 10000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 800,
+      "ongoingMonthlyCostMax": 2200,
+      "notes": {
+        "en": "Covers RPA platform licensing, a development environment, and business registration — a Low budget tier, since the core asset is the founder's process-mapping and bot-building expertise, not physical infrastructure.",
+        "ro": "Acoperă licențierea platformei RPA, un mediu de dezvoltare și înregistrarea afacerii — un nivel de buget redus, dat fiind că activul principal este expertiza fondatorului, în cartografierea proceselor și construirea de boți, nu infrastructura fizică."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "rpaPlatformLicensingSetup",
+          "label": {
+            "en": "RPA platform (UiPath/Power Automate) licensing and development environment setup",
+            "ro": "Configurarea licenței platformei RPA (UiPath/Power Automate) și a mediului de dezvoltare"
+          },
+          "typicalMin": 1200,
+          "typicalMax": 3500
+        },
+        {
+          "key": "laptopAndDevEnvironmentSetup",
+          "label": {
+            "en": "Development laptop and testing environment setup",
+            "ro": "Configurarea laptopului de dezvoltare și a mediului de testare"
+          },
+          "typicalMin": 800,
+          "typicalMax": 2000
+        },
+        {
+          "key": "businessRegistrationAndProfessionalInsurance",
+          "label": {
+            "en": "Business registration and professional liability insurance",
+            "ro": "Înregistrarea afacerii și asigurarea de răspundere profesională"
+          },
+          "typicalMin": 500,
+          "typicalMax": 1500
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "rpaPlatformSubscription",
+          "label": {
+            "en": "RPA platform subscription (development and orchestration licenses)",
+            "ro": "Abonamentul platformei RPA (licențe de dezvoltare și orchestrare)"
+          },
+          "typicalMonthlyMin": 200,
+          "typicalMonthlyMax": 600
+        },
+        {
+          "key": "cloudHostingForBotOrchestration",
+          "label": {
+            "en": "Cloud hosting for bot orchestration and monitoring",
+            "ro": "Găzduire cloud, pentru orchestrarea și monitorizarea boților"
+          },
+          "typicalMonthlyMin": 150,
+          "typicalMonthlyMax": 500
+        },
+        {
+          "key": "salesAndOutreachTools",
+          "label": {
+            "en": "Sales outreach and CRM tools",
+            "ro": "Instrumente de vânzări, de contactare, și CRM"
+          },
+          "typicalMonthlyMin": 100,
+          "typicalMonthlyMax": 300
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "fixedFeeWorkflowAutomationBuilds",
+          "label": {
+            "en": "Fixed-fee automation builds, per workflow",
+            "ro": "Construcții de automatizare, cu tarif fix, per flux de lucru"
+          }
+        },
+        {
+          "key": "monthlyBotMaintenanceRetainer",
+          "label": {
+            "en": "Monthly bot-maintenance retainer",
+            "ro": "Abonament lunar de întreținere a boților"
+          }
+        },
+        {
+          "key": "paidAutomationOpportunityAudit",
+          "label": {
+            "en": "Paid automation-opportunity audit (credited toward the first build)",
+            "ro": "Audit plătit al oportunităților de automatizare (creditat pentru prima construcție)"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 5000,
+      "targetMonthlyIncomeMax": 16000,
+      "breakEvenTimelineMonths": 6,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "fast",
+      "notes": {
+        "en": "Fixed-fee bot builds are typically paid on milestones (deposit, mid-build, delivery) over a 4-6 week engagement, so cash arrives faster than in longer discovery-heavy consulting engagements.",
+        "ro": "Construcțiile de boți, cu tarif fix, sunt de obicei plătite pe etape (avans, la mijlocul construcției, livrare), pe parcursul unui angajament de 4-6 săptămâni, astfel încât numerarul sosește mai rapid, decât în angajamentele de consultanță mai lungi, orientate spre descoperire."
+      }
+    },
+    "profitMargin": {
+      "level": "high",
+      "notes": {
+        "en": "Low overhead and no inventory mean most of each fixed fee is margin once platform and cloud-hosting costs are covered — margin is primarily a function of how efficiently the founder can reuse prior automation patterns.",
+        "ro": "Costurile generale reduse și lipsa stocurilor înseamnă că cea mai mare parte a fiecărui tarif fix este marjă, odată acoperite costurile de platformă și găzduire cloud — marja este, în primul rând, o funcție a eficienței cu care fondatorul poate reutiliza tipare de automatizare anterioare."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "occasional",
+    "onlineOffline": "online",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 35,
+    "maxWeeklyHours": 45,
+    "freedomLevel": 4
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 4
+      },
+      {
+        "key": "marketing",
+        "rating": 3
+      },
+      {
+        "key": "leadership",
+        "rating": 4
+      },
+      {
+        "key": "communication",
+        "rating": 5
+      },
+      {
+        "key": "negotiation",
+        "rating": 3
+      },
+      {
+        "key": "finance",
+        "rating": 3
+      },
+      {
+        "key": "operations",
+        "rating": 7
+      },
+      {
+        "key": "technology",
+        "rating": 8
+      },
+      {
+        "key": "automation",
+        "rating": 9
+      },
+      {
+        "key": "ai",
+        "rating": 4
+      },
+      {
+        "key": "programming",
+        "rating": 6
+      },
+      {
+        "key": "management",
+        "rating": 5
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 60
+      },
+      {
+        "key": "visionary",
+        "score": 20
+      },
+      {
+        "key": "operator",
+        "score": 75
+      },
+      {
+        "key": "creator",
+        "score": 25
+      },
+      {
+        "key": "seller",
+        "score": 35
+      },
+      {
+        "key": "leader",
+        "score": 30
+      },
+      {
+        "key": "analyst",
+        "score": 55
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": false,
+    "requiresTravel": true,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": true,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": true
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "low",
+      "notes": {
+        "en": "Each engagement requires bespoke process mapping and custom bot logic against a specific client's systems — build capacity is gated by the founder's (or a small team's) direct build hours, not something that scales through software alone.",
+        "ro": "Fiecare angajament necesită cartografierea personalizată a procesului și logică personalizată a botului, pentru sistemele specifice ale unui client — capacitatea de construcție este limitată de orele de construcție directe ale fondatorului (sau ale unei echipe mici), nu de ceva ce se scalează doar prin software."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "The technical bar to build reliable bots is real but learnable through platform certification; the harder skill is the process-discovery work of finding which manual workflows are actually worth automating.",
+        "ro": "Bariera tehnică, pentru a construi boți fiabili, este reală, dar poate fi învățată, prin certificarea platformei; abilitatea mai dificilă este munca de descoperire a proceselor, de a găsi care fluxuri de lucru manuale merită de fapt automatizate."
+      }
+    },
+    "aiResistance": {
+      "level": "low",
+      "notes": {
+        "en": "Advances in agentic AI increasingly threaten to commoditize narrow, rules-based RPA by handling the same repetitive tasks with more flexible, less brittle automation — a real structural risk to this business model over time.",
+        "ro": "Progresele în AI agentic amenință tot mai mult să transforme în marfă RPA-ul îngust, bazat pe reguli, prin gestionarea acelorași sarcini repetitive, cu o automatizare mai flexibilă, mai puțin fragilă — un risc structural real, pentru acest model de afacere, în timp."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Agentic AI tools are increasingly able to handle the same repetitive, rules-based tasks with more flexibility, threatening to commoditize narrow RPA bot-building over the medium term.",
+          "ro": "Instrumentele AI agentic pot gestiona tot mai mult aceleași sarcini repetitive, bazate pe reguli, cu mai multă flexibilitate, amenințând să transforme în marfă construirea îngustă de boți RPA, pe termen mediu."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "\"Bot fragility\" — a client's underlying system changing its interface or API without notice can silently break a deployed bot, creating urgent, unbilled maintenance work and reputational risk if not caught quickly.",
+          "ro": "„Fragilitatea botului” — schimbarea, fără notificare, a interfeței sau API-ului unui sistem al clientului, poate întrerupe silențios un bot implementat, creând muncă urgentă, nefacturată, de întreținere, și risc de reputație, dacă nu este detectată rapid."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "Early-stage revenue concentration in a small number of clients means losing one significant maintenance retainer can meaningfully impact monthly income.",
+          "ro": "Concentrarea veniturilor, în stadiul incipient, într-un număr mic de clienți, înseamnă că pierderea unui abonament semnificativ de întreținere, poate afecta semnificativ venitul lunar."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "The manual data-entry job your team dreads, automated and monitored, in six weeks — not a broad AI strategy, one specific workflow, fixed fee, fixed timeline.",
+        "ro": "Munca manuală de introducere a datelor, pe care echipa ta o urăște, automatizată și monitorizată, în șase săptămâni — nu o strategie AI largă, un flux de lucru specific, tarif fix, termen fix."
+      },
+      "channels": [
+        {
+          "channelType": "coldOutreachToOperationsLeaders",
+          "description": {
+            "en": "Direct outreach to operations and finance leaders at mid-market companies, targeting a specific, visibly painful manual workflow.",
+            "ro": "Contactare directă a liderilor operaționali și financiari, din companii de piață medie, vizând un flux de lucru manual specific, vizibil dureros."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "uipathAndPowerAutomatePartnerReferrals",
+          "description": {
+            "en": "Referral relationships through UiPath and Microsoft Power Automate partner programs, which route implementation work to certified consultancies.",
+            "ro": "Relații de recomandare, prin programele de parteneriat UiPath și Microsoft Power Automate, care direcționează munca de implementare, către consultanțe certificate."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "beforeAfterCaseStudyContentMarketing",
+          "description": {
+            "en": "Concrete before/after case-study content (hours saved, error rate reduced) published to build credibility with skeptical operations buyers.",
+            "ro": "Conținut concret de studii de caz înainte/după (ore economisite, rata de erori redusă), publicat pentru a construi credibilitate, la cumpărătorii operaționali sceptici."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "The offer is narrow and easy to describe once in front of the right buyer, but finding operations leaders who are both aware of a specific automatable pain point and ready to pay for it takes real targeting discipline.",
+        "ro": "Oferta este restrânsă și ușor de descris, odată ajunsă în fața cumpărătorului potrivit, dar găsirea liderilor operaționali, care sunt atât conștienți de un punct de durere specific, automatizabil, cât și pregătiți să plătească pentru el, necesită o disciplină reală de direcționare."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A discovery call identifies the single highest-value manual workflow to automate first; a paid automation-opportunity audit maps the process in detail and produces a fixed-fee proposal, fully credited toward the first build if the client proceeds.",
+        "ro": "Un apel de descoperire identifică cel mai valoros flux de lucru manual, de automatizat, primul; un audit plătit al oportunităților de automatizare cartografiază procesul, în detaliu, și produce o propunere cu tarif fix, creditată integral, pentru prima construcție, dacă clientul continuă."
+      },
+      "salesCycleLengthDays": 30,
+      "pricingModel": {
+        "en": "Fixed fee per automated workflow, typically €3,000-€12,000 depending on complexity, plus a €400-€1,200/month maintenance retainer once the bot is live; a paid €1,500-€3,000 automation-opportunity audit funds the discovery phase and is credited toward the first build.",
+        "ro": "Tarif fix, per flux de lucru automatizat, de obicei 3.000-12.000 €, în funcție de complexitate, plus un abonament lunar de întreținere de 400-1.200 €, odată ce botul este activ; un audit plătit al oportunităților de automatizare, de 1.500-3.000 €, finanțează faza de descoperire și este creditat, pentru prima construcție."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "The paid audit acts as a low-risk qualification step for both sides, but a full 30-day cycle from first call to signed build proposal is still required to properly scope a workflow before committing to a fixed fee.",
+        "ro": "Auditul plătit acționează ca un pas de calificare, cu risc redus, pentru ambele părți, dar este totuși necesar un ciclu complet de 30 de zile, de la primul apel, până la propunerea de construcție semnată, pentru a delimita corect un flux de lucru, înainte de a se angaja la un tarif fix."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Process discovery and automation-opportunity audit",
+          "ro": "Descoperirea procesului și auditul oportunităților de automatizare"
+        },
+        {
+          "en": "Bot development and testing against real workflow data",
+          "ro": "Dezvoltarea și testarea botului, pe date reale de flux de lucru"
+        },
+        {
+          "en": "Deployment and staff handover/training",
+          "ro": "Implementarea și predarea/instruirea personalului"
+        },
+        {
+          "en": "Ongoing bot monitoring and maintenance-retainer delivery",
+          "ro": "Monitorizarea continuă a botului și livrarea abonamentului de întreținere"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Active build days are spent developing and testing bot logic against real sample data from the client's systems, alternating with discovery calls and audits for the next pipeline engagement and monitoring alerts from bots already in maintenance.",
+        "ro": "Zilele active de construcție sunt petrecute dezvoltând și testând logica botului, pe date reale, eșantion, din sistemele clientului, alternând cu apeluri de descoperire și audituri, pentru următorul angajament din pipeline, și monitorizând alertele boților deja aflați în întreținere."
+      },
+      "fulfillmentModel": {
+        "en": "A consultancy that builds and deploys rules-based RPA bots (UiPath/Power Automate) into a client's existing systems without replacing those systems, then maintains the bots under a monthly retainer once live.",
+        "ro": "O consultanță, care construiește și implementează boți RPA, bazați pe reguli (UiPath/Power Automate), în sistemele existente ale clientului, fără a înlocui acele sisteme, apoi întreține boții, printr-un abonament lunar, odată activi."
+      }
+    },
+    "automation": {
+      "level": "high",
+      "notes": {
+        "en": "Bot monitoring and basic health alerts are automated, but the underlying build work — process mapping and bot logic design — remains deliberately hands-on, since that judgment is the actual product being sold.",
+        "ro": "Monitorizarea botului și alertele de bază de sănătate sunt automatizate, dar munca de bază de construcție — cartografierea proceselor și proiectarea logicii botului — rămâne deliberat manuală, dat fiind că acea judecată este produsul real, vândut."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "processDiscoveryAssistance",
+          "description": {
+            "en": "AI-assisted analysis of screen-recording and workflow-log data to speed up identifying which manual steps are the strongest automation candidates.",
+            "ro": "Analiză, asistată de AI, a datelor de înregistrare a ecranului și jurnalelor de flux de lucru, pentru a accelera identificarea pașilor manuali, care sunt cei mai puternici candidați de automatizare."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "UiPath",
+        "category": "rpaPlatform",
+        "isRequired": true,
+        "websiteUrl": "https://www.uipath.com/"
+      },
+      {
+        "name": "Microsoft Power Automate",
+        "category": "rpaPlatform",
+        "isRequired": true,
+        "websiteUrl": "https://powerautomate.microsoft.com/"
+      },
+      {
+        "name": "Process Street",
+        "category": "processDocumentation",
+        "isRequired": false,
+        "websiteUrl": "https://www.process.st/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 24,
+      "notes": {
+        "en": "Growth is initially gated by the founder's own build hours, but a documented library of reusable automation patterns for common workflow types (invoice processing, data reconciliation) shortens delivery time on similar future engagements.",
+        "ro": "Creșterea este inițial limitată de orele de construcție ale fondatorului, dar o bibliotecă documentată de tipare de automatizare reutilizabile, pentru tipuri comune de fluxuri de lucru (procesarea facturilor, reconcilierea datelor), scurtează timpul de livrare, pentru angajamente viitoare similare."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Build a documented library of reusable bot patterns for the most common automation types encountered, then hire a second bot developer to take on overflow build capacity once pipeline demand consistently exceeds one person's build hours.",
+        "ro": "Construiește o bibliotecă documentată de tipare de boți reutilizabile, pentru cele mai comune tipuri de automatizare întâlnite, apoi angajează un al doilea dezvoltator de boți, pentru a prelua capacitatea de construcție suplimentară, odată ce cererea din pipeline depășește constant orele de construcție ale unei persoane."
+      },
+      "bottlenecks": [
+        {
+          "en": "The founder's own build hours are the primary constraint on how many client engagements can run at once.",
+          "ro": "Orele de construcție ale fondatorului sunt principala constrângere, asupra numărului de angajamente de clienți, care pot rula simultan."
+        },
+        {
+          "en": "Each client's underlying systems are different enough that bots aren't easily reused wholesale across clients without real customization.",
+          "ro": "Sistemele de bază, ale fiecărui client, sunt suficient de diferite, încât boții nu sunt ușor reutilizabili, în întregime, între clienți, fără o personalizare reală."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 6,
+          "description": {
+            "en": "The consultancy reaches break-even with its first 2-3 client maintenance retainers active.",
+            "ro": "Consultanța atinge pragul de rentabilitate, cu primele 2-3 abonamente de întreținere ale clienților, active."
+          }
+        },
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "A documented reusable-pattern library is mature enough to onboard and train a second bot developer.",
+            "ro": "O bibliotecă documentată de tipare reutilizabile este suficient de matură, pentru a integra și instrui un al doilea dezvoltator de boți."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Fixed, deterministic rules-based automation is easier to trust and audit than opaque AI-driven automation, which matters for finance and compliance-sensitive workflows.",
+          "ro": "Automatizarea fixă, deterministă, bazată pe reguli, este mai ușor de încredere și de auditat, decât automatizarea opacă, condusă de AI, ceea ce contează, pentru fluxurile de lucru sensibile la finanțe și conformitate."
+        }
+      },
+      {
+        "description": {
+          "en": "A documented library of reusable automation patterns (invoice processing, data reconciliation) shortens build time on similar future engagements.",
+          "ro": "O bibliotecă documentată de tipare de automatizare reutilizabile (procesarea facturilor, reconcilierea datelor) scurtează timpul de construcție, pentru angajamente viitoare similare."
+        }
+      },
+      {
+        "description": {
+          "en": "Low overhead and no inventory keep the business viable even at a modest client count, unlike higher-fixed-cost service businesses.",
+          "ro": "Costurile generale reduse și lipsa stocurilor mențin afacerea viabilă, chiar și la un număr modest de clienți, spre deosebire de afacerile de servicii, cu costuri fixe mai mari."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A robotic process automation consultancy that builds and maintains narrow, rules-based software bots to eliminate specific manual data-entry and data-transfer workflows, priced per workflow with a monthly maintenance retainer. Deliberately distinct from broader AI-automation and AI-native businesses elsewhere in this library — the value proposition is deterministic, auditable automation, not AI strategy.",
+        "ro": "O consultanță de automatizare robotică a proceselor (RPA), care construiește și întreține boți software, înguști, bazați pe reguli, pentru a elimina fluxuri de lucru specifice, manuale, de introducere și transfer de date, tarifate per flux de lucru, cu un abonament lunar de întreținere. Deliberat distinctă de afacerile mai largi, de automatizare AI și AI-native, din altă parte a acestei biblioteci — propunerea de valoare este automatizarea deterministă, auditabilă, nu strategia AI."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.rpaWorkflowConsultancy.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.rpaWorkflowConsultancy.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.rpaWorkflowConsultancy.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.rpaWorkflowConsultancy.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert paid automation-opportunity audits into signed fixed-fee build proposals.",
+          "ro": "Transformă auditurile plătite ale oportunităților de automatizare, în propuneri de construcție, cu tarif fix, semnate."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep clients on their monthly bot-maintenance retainer month over month.",
+          "ro": "Menține clienții pe abonamentul lor lunar de întreținere a botului, lună de lună."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against RPA platform licensing and cloud-hosting costs.",
+          "ro": "Protejează marja brută, împotriva costurilor de licențiere a platformei RPA și de găzduire cloud."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep maintenance-retainer churn low and catch bot-fragility issues before a client notices them.",
+          "ro": "Menține pierderea abonamentului de întreținere scăzută și detectează problemele de fragilitate a botului, înainte ca un client să le observe."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "programming",
+          "importance": 5
+        },
+        {
+          "key": "ai",
+          "importance": 3
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "sales",
+          "importance": 2
+        },
+        {
+          "key": "communication",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "systemOriented",
+          "importance": 5
+        },
+        {
+          "trait": "detailOriented",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "persistent",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 4000,
+        "max": 10000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 5000,
+        "max": 8000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 35,
+        "maxWeeklyHours": 45
+      },
+      "communicationStyle": [
+        "structured",
+        "direct"
+      ],
+      "technicalLevel": 5,
+      "leadershipLevel": 2,
+      "creativityLevel": 2,
+      "salesAffinity": 3,
+      "automationAffinity": 5,
+      "remotePreference": "remote",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theOperator",
+        "theSpecialist"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the Low budget tier and fast revenue speed in Financial Overview, and the deterministic-vs-AI-driven automation trust advantage in Competitive Advantages — keep the scope deliberately narrow (one workflow, fixed fee) throughout, never broaden it into generic 'AI transformation' language.",
+      "ro": "Subliniază nivelul redus de buget și viteza rapidă a veniturilor, în Prezentare financiară, și avantajul de încredere al automatizării deterministă, față de cea condusă de AI, în Avantaje competitive — menține domeniul deliberat restrâns (un flux de lucru, tarif fix), pe tot parcursul, nu-l lărgi niciodată în limbaj generic de „transformare AI”."
+    },
+    "marketingHints": {
+      "en": "Lead with a specific, visibly painful manual workflow and a concrete before/after outcome, never generic 'automate your business' stock phrases — this audience responds to deterministic, auditable results, not AI hype.",
+      "ro": "Începe cu un flux de lucru manual specific, vizibil dureros, și un rezultat concret înainte/după, niciodată cu fraze generice de tipul „automatizează-ți afacerea” — acest public răspunde la rezultate deterministe, auditabile, nu la hype-ul AI."
+    },
+    "financialHints": {
+      "en": "Model revenue as fixed-fee builds (fast, milestone-paid) plus a smaller recurring maintenance retainer, not a subscription-first model — emphasize the low overhead that keeps margin high even at modest client counts.",
+      "ro": "Modelează veniturile ca și construcții cu tarif fix (rapide, plătite pe etape), plus un abonament de întreținere recurent, mai mic, nu un model orientat, în primul rând, spre abonament — subliniază costurile generale reduse, care mențin marja ridicată, chiar și la un număr modest de clienți."
+    },
+    "generationHints": {
+      "en": "Keep generated tone precise and credibility-driven, grounded in concrete workflow examples (invoice processing, data reconciliation) — never conflate this narrow RPA offer with broader AI-automation or AI-agent language used elsewhere in this library.",
+      "ro": "Menține un ton generat precis, orientat spre credibilitate, fundamentat pe exemple concrete de flux de lucru (procesarea facturilor, reconcilierea datelor) — nu confunda niciodată această ofertă RPA restrânsă, cu limbajul mai larg de automatizare AI sau agent AI, utilizat în altă parte, în această bibliotecă."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Complete RPA platform certification (UiPath or Power Automate) and set up a development and testing environment.",
+            "ro": "Finalizează certificarea platformei RPA (UiPath sau Power Automate) și configurează un mediu de dezvoltare și testare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Trying to become platform-agnostic across every RPA tool at once instead of deeply certifying on one primary platform first.",
+            "ro": "Încercarea de a deveni agnostic de platformă, pe fiecare instrument RPA, deodată, în loc să se certifice mai întâi, în profunzime, pe o platformă principală."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pick one primary RPA platform, complete its certification track, and build 2-3 practice bots against realistic sample workflows before pitching any client.",
+            "ro": "Alege o platformă RPA principală, finalizează traseul ei de certificare și construiește 2-3 boți de practică, pe fluxuri de lucru realiste, eșantion, înainte de a prezenta oferte oricărui client."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.rpaWorkflowConsultancy.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Deliver a paid automation-opportunity audit to a first prospective client to validate willingness to pay for the audit-then-build model.",
+            "ro": "Livrează un audit plătit al oportunităților de automatizare, unui prim client potențial, pentru a valida disponibilitatea de a plăti, pentru modelul audit-apoi-construcție."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Offering the first audit for free to win the client, undermining the paid-audit model before it's even tested.",
+            "ro": "Oferirea primului audit gratuit, pentru a câștiga clientul, subminând modelul de audit plătit, înainte chiar de a fi testat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Charge for the first audit even at a discounted rate, to properly test whether prospects value the discovery work itself.",
+            "ro": "Percepe o taxă, pentru primul audit, chiar și la un tarif redus, pentru a testa corect dacă potențialii clienți valorizează munca de descoperire, în sine."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.rpaWorkflowConsultancy.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first full paid bot build, from audit through deployment and staff handover.",
+            "ro": "Finalizează prima construcție completă de bot, plătită, de la audit, până la implementare și predarea personalului."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Underestimating the staff-training and handover time needed for the client's own team to trust and use the new bot.",
+            "ro": "Subestimarea timpului de instruire a personalului și predare, necesar pentru ca echipa proprie a clientului, să aibă încredere și să folosească noul bot."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a structured handover checklist and training session into every engagement's timeline from the start, not as an afterthought.",
+            "ro": "Construiește o listă de verificare structurată, pentru predare, și o sesiune de instruire, în cronologia fiecărui angajament, de la început, nu ca o idee ulterioară."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.rpaWorkflowConsultancy.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish the first before/after case study and begin structured cold outreach to operations leaders.",
+            "ro": "Publică primul studiu de caz înainte/după și începe contactarea structurată, rece, a liderilor operaționali."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Publishing a case study full of technical RPA jargon instead of concrete hours-saved and error-rate numbers a non-technical buyer understands.",
+            "ro": "Publicarea unui studiu de caz plin de jargon tehnic RPA, în loc de numere concrete, de ore economisite și rate de erori reduse, pe care un cumpărător non-tehnic le înțelege."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Lead every case study with the concrete before/after numbers (hours saved, error rate) before any technical detail.",
+            "ro": "Începe fiecare studiu de caz, cu numerele concrete înainte/după (ore economisite, rata de erori), înaintea oricărui detaliu tehnic."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.rpaWorkflowConsultancy.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first deployed bot's client into an active monthly maintenance retainer.",
+            "ro": "Transformă clientul, cu primul bot implementat, într-un abonament lunar activ de întreținere."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not proactively pitching the maintenance retainer at handover, leaving the client to discover bot-fragility issues on their own later.",
+            "ro": "Nepropunerea proactivă a abonamentului de întreținere, la predare, lăsând clientul să descopere singur, mai târziu, probleme de fragilitate a botului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Present the maintenance retainer as a standard part of every handover, framed around the real risk of silent bot breakage.",
+            "ro": "Prezintă abonamentul de întreținere, ca o parte standard, a fiecărei predări, încadrat în jurul riscului real, de defectare silențioasă a botului."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.rpaWorkflowConsultancy.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a steady pipeline of qualified audit requests and a growing base of active maintenance retainers.",
+            "ro": "Atinge un pipeline constant de solicitări de audit calificate și o bază, în creștere, de abonamente active de întreținere."
+          }
+        ],
+        "kpis": [
+          "closeRate",
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Chasing every industry vertical at once instead of identifying which 1-2 workflow types (invoice processing, data reconciliation) convert most reliably.",
+            "ro": "Urmărirea fiecărei verticale de industrie, deodată, în loc de a identifica ce 1-2 tipuri de flux de lucru (procesarea facturilor, reconcilierea datelor), convertesc cel mai fiabil."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track which workflow types close fastest and convert most reliably, and concentrate outreach there.",
+            "ro": "Urmărește ce tipuri de flux de lucru se închid cel mai rapid și convertesc cel mai fiabil, și concentrează contactarea acolo."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.rpaWorkflowConsultancy.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Build a documented library of reusable bot patterns for the highest-converting workflow types.",
+            "ro": "Construiește o bibliotecă documentată de tipare de boți reutilizabile, pentru cele mai bine convertite tipuri de flux de lucru."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Rebuilding similar bot logic from scratch for each new client instead of documenting and reusing proven patterns.",
+            "ro": "Reconstruirea logicii similare de bot, de la zero, pentru fiecare client nou, în loc de a documenta și reutiliza tipare dovedite."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "After each engagement, document the reusable parts of the bot logic in a structured internal pattern library.",
+            "ro": "După fiecare angajament, documentează părțile reutilizabile, ale logicii botului, într-o bibliotecă internă structurată, de tipare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.rpaWorkflowConsultancy.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Hire and train a second bot developer to take on overflow build capacity.",
+            "ro": "Angajează și instruiește un al doilea dezvoltator de boți, pentru a prelua capacitatea de construcție suplimentară."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring a second bot developer before the reusable-pattern library is mature enough to onboard them efficiently.",
+            "ro": "Angajarea unui al doilea dezvoltator de boți, înainte ca biblioteca de tipare reutilizabile, să fie suficient de matură, pentru a-l integra eficient."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the pattern library and handover checklist are solid enough to train a new hire before extending an offer.",
+            "ro": "Confirmă că biblioteca de tipare și lista de verificare pentru predare, sunt suficient de solide, pentru a instrui un nou angajat, înainte de a extinde o ofertă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.rpaWorkflowConsultancy.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into an adjacent workflow category or industry vertical once the core pattern library is proven and repeatable.",
+            "ro": "Extinde-te într-o categorie de flux de lucru sau verticală de industrie adiacentă, odată ce biblioteca de tipare de bază, este dovedită și repetabilă."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding into an unfamiliar industry vertical before confirming the same core workflow patterns actually transfer there.",
+            "ro": "Extinderea, într-o verticală de industrie nefamiliară, înainte de a confirma că aceleași tipare de bază, de flux de lucru, se transferă, de fapt, acolo."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pilot expansion into one adjacent vertical with an existing client relationship before broader outreach there.",
+            "ro": "Pilotează extinderea, într-o verticală adiacentă, cu o relație existentă de client, înainte de o contactare mai largă, acolo."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.rpaWorkflowConsultancy.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the reusable-pattern library, client retainer contracts, and recurring-revenue history to package the consultancy for sale.",
+            "ro": "Documentează biblioteca de tipare reutilizabile, contractele de abonament ale clienților și istoricul de venituri recurente, pentru a pregăti consultanța pentru vânzare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping the pattern library and client-specific bot logic undocumented and only in the founder's head, making the business hard to transfer.",
+            "ro": "Menținerea bibliotecii de tipare și a logicii botului, specifică clientului, nedocumentată, doar în mintea fondatorului, făcând afacerea greu de transferat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, ongoing documentation of the pattern library and every client's bot logic and retainer terms.",
+            "ro": "Menține o documentație curată, continuă, a bibliotecii de tipare și a logicii botului și termenilor de abonament, ai fiecărui client."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.rpaWorkflowConsultancy.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

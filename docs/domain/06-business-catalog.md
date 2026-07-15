@@ -94,6 +94,15 @@ Startups (`accounting-firms`), Adventure Travel Boutique Agency
 34. See the per-category notes and the "Category breakdown" table
 below.*
 
+*Status as of Knowledge Authoring Batch 7 (2026-07-15, second of 14
+planned P2 batches): 4 more P2 candidates authored — RPA Workflow
+Automation Consultancy (`technology-services`), Specialty Coffee
+Subscription Box (`subscription-boxes`, first entry authored under
+this category), Boutique IP Law Practice (`law-firms`, regulated
+content), and Home Repair & Handyman Marketplace
+(`local-service-marketplaces`, the library's second genuine two-sided
+marketplace) — bringing the total authored count to 38.*
+
 No enum value or category key was invented — every value used in the
 tables below is one of the values listed above, or one of the 12
 `IndustryType`/8 `BusinessModelType` values confirmed earlier in this
@@ -146,8 +155,8 @@ prioritization, not a commitment.
   infrastructure (e.g. a real marketplace/platform) that doesn't exist
   yet.
 
-**Already Authored** column: ✅ marks the 34 packages that exist today
-under `business-library/technology/` (33 `published` + 1 `template`,
+**Already Authored** column: ✅ marks the 38 packages that exist today
+under `business-library/technology/` (37 `published` + 1 `template`,
 per `business-library/manifest.json`). Their metadata below (Industry,
 BusinessModel, Difficulty, Scalability, Solo Friendly, Budget Tier) is
 copied from their real `metadata.json` / `business-dna.json`, not
@@ -163,19 +172,19 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 
 | Category | Entries | Already Authored |
 |---|---:|---:|
-| `technology-services` | 20 | 10 |
-| `subscription-boxes` | 10 | 0 |
+| `technology-services` | 20 | 11 |
+| `subscription-boxes` | 10 | 1 |
 | `boutique-fitness-studios` | 9 | 1 |
 | `online-course-platforms` | 10 | 0 |
 | `sustainable-fashion-brands` | 9 | 0 |
-| `local-service-marketplaces` | 9 | 1 |
+| `local-service-marketplaces` | 9 | 2 |
 | `boutique-travel-agencies` | 8 | 1 |
 | `niche-content-studios` | 9 | 0 |
 | `accounting-firms` | 6 | 2 |
 | `financial-consultancies` | 6 | 1 |
 | `insurance-brokerages` | 6 | 1 |
 | `tax-consultancies` | 6 | 1 |
-| `law-firms` | 7 | 1 |
+| `law-firms` | 7 | 2 |
 | `hr-consultancies` | 6 | 1 |
 | `recruitment-agencies` | 7 | 1 |
 | `business-consultancies` | 7 | 1 |
@@ -191,7 +200,7 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 | `psychology-practices` | 1 | 1 |
 | `coffee-shops` | 1 | 1 |
 | `restaurants` | 1 | 1 |
-| **Total** | **147** | **34** |
+| **Total** | **147** | **38** |
 
 ---
 
@@ -229,11 +238,20 @@ displaceable by further AI advances. See
 `business-library/technology/ai-chatbot-support-studio/` for the full
 package.*
 
+*Knowledge Authoring Batch 7 (2026-07-15) authored this category's
+second P2 candidate — RPA Workflow Automation Consultancy — bringing
+the authored count to 11 of 20. Deliberately narrow, rules-based
+scope (fixed-fee single-workflow bot builds via UiPath/Power Automate)
+distinct from the broader AI-automation and AI-native businesses
+elsewhere in this category. See
+`business-library/technology/rpa-workflow-consultancy/` for the full
+package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | technology-services | AI Automation Agency | ai-automation-agency | tech | agency | P1 | moderate | Low | No | low | No | ✅ |
 | technology-services | AI Customer Support Chatbot Studio | ai-chatbot-support-studio | tech | agency | P2 | moderate | Low | Yes | moderate | No | ✅ |
-| technology-services | RPA Workflow Automation Consultancy | rpa-workflow-consultancy | tech | service | P2 | moderate | Low | Yes | low | No | |
+| technology-services | RPA Workflow Automation Consultancy | rpa-workflow-consultancy | tech | service | P2 | moderate | Low | Yes | low | No | ✅ |
 | technology-services | AI Sales Outreach Automation Agency | ai-sales-outreach-agency | tech | agency | P2 | moderate | Low | Yes | moderate | No | |
 | technology-services | Vertical AI Agent Studio for Real Estate | ai-agent-studio-real-estate | tech | agency | P3 | moderate | Medium | Yes | moderate | No | |
 | technology-services | AI Document Processing SaaS | ai-document-processing-saas | tech | saas | P2 | high | High | No | high | Yes | |
@@ -256,9 +274,18 @@ package.*
 
 *Industry varies per business (per §5.1 of the mapping report), `businessModel` fixed to `subscription`.*
 
+*Knowledge Authoring Batch 7 (2026-07-15) authored this category's
+first P2 candidate — Specialty Coffee Subscription Box — the first
+business authored under this category. Deliberately distinct from
+`coffee-shops`' physical dine-in venue elsewhere in this catalog — a
+D2C recurring shipped product built on rotating roaster-partnership
+sourcing and inventory prepay. See
+`business-library/technology/specialty-coffee-subscription-box/` for
+the full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| subscription-boxes | Specialty Coffee Subscription Box | specialty-coffee-subscription-box | food | subscription | P2 | moderate | Medium | Yes | moderate | No | |
+| subscription-boxes | Specialty Coffee Subscription Box | specialty-coffee-subscription-box | food | subscription | P2 | moderate | Medium | Yes | moderate | No | ✅ |
 | subscription-boxes | Clean Beauty Subscription Box | clean-beauty-subscription-box | health | subscription | P2 | moderate | Medium | Yes | moderate | No | |
 | subscription-boxes | Kids' STEM Craft Subscription Box | kids-stem-craft-subscription-box | education | subscription | P3 | moderate | Medium | Yes | moderate | No | |
 | subscription-boxes | Sustainable Household Goods Subscription Box | sustainable-household-subscription-box | sustainability | subscription | P3 | moderate | Medium | Yes | moderate | No | |
@@ -323,9 +350,20 @@ full package.*
 
 *Industry varies per business (per §5.2 of the mapping report), `businessModel` fixed to `marketplace`.*
 
+*Knowledge Authoring Batch 7 (2026-07-15) authored this category's
+second P2 candidate — Home Repair & Handyman Marketplace — the
+library's second genuine two-sided marketplace, after
+`tutoring-help-marketplace`. Deliberately differentiated from it:
+quote-based job pricing instead of session booking, contractor
+licensing/insurance verification instead of background-check-only
+vetting, a larger average transaction size, and a job-guarantee
+insurance angle instead of a minor-safety angle. See
+`business-library/technology/home-repair-marketplace/` for the full
+package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| local-service-marketplaces | Home Repair & Handyman Marketplace | home-repair-marketplace | homeServices | marketplace | P2 | high | High | No | high | Yes | |
+| local-service-marketplaces | Home Repair & Handyman Marketplace | home-repair-marketplace | homeServices | marketplace | P2 | high | High | No | high | Yes | ✅ |
 | local-service-marketplaces | Personal Trainer Booking Marketplace | personal-trainer-marketplace | health | marketplace | P2 | high | High | No | high | Yes | |
 | local-service-marketplaces | Tutoring & Homework Help Marketplace | tutoring-help-marketplace | education | marketplace | P2 | high | High | No | high | Yes | ✅ |
 | local-service-marketplaces | Pet Care Services Marketplace | pet-care-services-marketplace | homeServices | marketplace | P3 | high | High | No | high | Yes | |
@@ -430,10 +468,22 @@ package.*
 
 ## `law-firms`
 
+*Knowledge Authoring Batch 7 (2026-07-15) authored this category's
+first P2 candidate — Boutique IP Law Practice — deliberately
+differentiated from the existing `law-firm` P1 package: patent-bar-
+qualified IP specialization vs. general business-law practice, fully
+remote vs. hybrid, flat-fee/hourly split by matter type vs. blended
+hourly/GC-retainer pricing, and accelerator/VC portfolio referrals vs.
+accountant/consultant referrals. Regulated legal content — the same
+educational-framing discipline established for the Professional
+Services batch applies. See
+`business-library/technology/boutique-ip-law-practice/` for the full
+package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | law-firms | Law Firm | law-firm | professionalServices | service | P1 | high | High | Yes | low | Yes | ✅ |
-| law-firms | Boutique IP Law Practice | boutique-ip-law-practice | professionalServices | service | P2 | high | High | Yes | low | Yes | |
+| law-firms | Boutique IP Law Practice | boutique-ip-law-practice | professionalServices | service | P2 | high | High | Yes | low | Yes | ✅ |
 | law-firms | Immigration Law Practice | immigration-law-practice | professionalServices | service | P2 | moderate | Medium | Yes | moderate | No | |
 | law-firms | Startup & Contracts Law Practice | startup-contracts-law-practice | professionalServices | service | P2 | high | Medium | Yes | moderate | Yes | |
 | law-firms | Family Law Mediation Practice | family-law-mediation-practice | professionalServices | service | P3 | moderate | Medium | Yes | moderate | No | |

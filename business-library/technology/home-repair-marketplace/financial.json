@@ -1,0 +1,141 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "marketplacePlatformDevelopment",
+      "contractorLicensingAndInsuranceVerificationSetup",
+      "paymentEscrowAndJobGuaranteeReserveSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "platformHostingAndDispatchOperations",
+      "customerAndContractorSupportStaffing"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "twoSidedAcquisitionMarketing",
+      "jobGuaranteeClaimsPayouts"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "commissionOnCompletedJobValue",
+        "label": {
+          "en": "Commission on each completed job's value",
+          "ro": "Comision, pe valoarea fiecărei lucrări finalizate"
+        }
+      },
+      {
+        "key": "optionalJobGuaranteeFee",
+        "label": {
+          "en": "Optional job-guarantee fee for redo-or-refund protection",
+          "ro": "Taxă opțională, de garanție a lucrării, pentru protecție de refacere sau rambursare"
+        }
+      },
+      {
+        "key": "contractorFeaturedListingSubscription",
+        "label": {
+          "en": "Optional contractor subscription for featured profile placement",
+          "ro": "Abonament opțional, pentru meșteri, pentru plasarea profilului promovat"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "grossMerchandiseValuePerMonth": "currency",
+      "commissionTakeRatePercent": "percent",
+      "activeContractors": "number",
+      "activeHomeowners": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "jobPostingToQuoteFulfillmentRatePercent": "percent",
+      "repeatBookingRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.homeRepairMarketplace.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "jobCommissionInflow",
+      "jobGuaranteeFeeInflow",
+      "dispatchAndSupportOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 18,
+    "notesTranslationKey": "businessLibrary.homeRepairMarketplace.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 42,
+    "notesTranslationKey": "businessLibrary.homeRepairMarketplace.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 14,
+    "notesTranslationKey": "businessLibrary.homeRepairMarketplace.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "dispatchOperationsStaffRecruiting",
+      "contractorVerificationStaffRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "localHomeownerDigitalAdvertising",
+      "contractorRecruitmentCampaigns"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxOnSupportStaff"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve",
+      "jobGuaranteeClaimsReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "leadConversion",
+      "customerRetention",
+      "grossMargin",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 10000,
+      "notesTranslationKey": "businessLibrary.homeRepairMarketplace.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 35000,
+      "notesTranslationKey": "businessLibrary.homeRepairMarketplace.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 55000,
+      "notesTranslationKey": "businessLibrary.homeRepairMarketplace.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.homeRepairMarketplace.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.homeRepairMarketplace.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.homeRepairMarketplace.financial.aiMetadata.generationHints"
+  }
+}

@@ -55,6 +55,15 @@ import { ROADMAP_STAGE_ORDER, RoadmapStageKey } from "@/features/roadmap/types/s
  */
 export { RoadmapStageKey as BusinessLifecycleStage, ROADMAP_STAGE_ORDER as BUSINESS_LIFECYCLE_STAGE_ORDER };
 
+/**
+ * Known authoring pitfall: `features/roadmap`'s stage objects (see
+ * `features/roadmap/types/sections.ts`) share the same 10-stage
+ * vocabulary and *look* like this shape, but additionally carry a
+ * `successCriteriaTranslationKeys` field that has no equivalent here.
+ * This interface deliberately has NO `successCriteria` field — do not
+ * add one by pattern-matching from a `roadmap.json` you're authoring
+ * alongside this section.
+ */
 export interface BusinessLifecycleStageProfile {
   stage: RoadmapStageKey;
   objectives: LocalizedText[];

@@ -1,0 +1,944 @@
+{
+  "identity": {
+    "id": "0202bfa6-31c8-4f6e-b31f-165ecef035d5",
+    "slug": "home-repair-marketplace",
+    "version": "1.0.0",
+    "name": {
+      "en": "Tradeline Home Services Marketplace",
+      "ro": "Tradeline Home Services Marketplace"
+    },
+    "tagline": {
+      "en": "The handyman who actually shows up, booked in under an hour.",
+      "ro": "Meseriașul care chiar vine, rezervat în mai puțin de o oră."
+    },
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theOperator",
+      "theConnector"
+    ],
+    "summary": {
+      "en": "Best suited to someone with real marketplace or field-services operations experience, comfortable managing two distinct customer types (homeowners and independent tradespeople) simultaneously and solving geographic cold-start liquidity market by market — not solo-friendly, requiring a small team from day one.",
+      "ro": "Potrivit unei persoane cu experiență reală, în operarea unei platforme de piață sau servicii de teren, confortabilă gestionând simultan două tipuri distincte de clienți (proprietari de case și meșteri independenți), și rezolvând lichiditatea geografică de pornire, piață cu piață — nu este potrivit unui fondator solo, necesitând o mică echipă, încă din prima zi."
+    },
+    "minimumExperienceYears": 4
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 40000,
+      "maxInvestment": 90000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 15000,
+      "ongoingMonthlyCostMax": 35000,
+      "notes": {
+        "en": "Covers marketplace platform development, contractor licensing and insurance verification infrastructure, and payment-escrow setup — a High budget tier, the largest budget of the two marketplace businesses in this library, driven by insurance-underwriting and dispatch-operations complexity.",
+        "ro": "Acoperă dezvoltarea platformei de piață, infrastructura de verificare a licențierii și asigurării meșterilor, și configurarea escrow-ului de plăți — un nivel de buget ridicat, cel mai mare, dintre cele două afaceri de tip piață, din această bibliotecă, determinat de complexitatea de subscriere a asigurării și operațiuni de expediere."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "marketplacePlatformDevelopment",
+          "label": {
+            "en": "Marketplace platform development (job posting, dispatch, payments)",
+            "ro": "Dezvoltarea platformei de piață (postare lucrări, expediere, plăți)"
+          },
+          "typicalMin": 20000,
+          "typicalMax": 45000
+        },
+        {
+          "key": "contractorLicensingAndInsuranceVerificationSetup",
+          "label": {
+            "en": "Contractor licensing and insurance verification infrastructure setup",
+            "ro": "Configurarea infrastructurii de verificare a licenței și asigurării meșterilor"
+          },
+          "typicalMin": 8000,
+          "typicalMax": 20000
+        },
+        {
+          "key": "paymentEscrowAndJobGuaranteeReserveSetup",
+          "label": {
+            "en": "Payment escrow setup and initial job-guarantee reserve fund",
+            "ro": "Configurarea escrow-ului de plăți și fondul inițial, de rezervă, pentru garanția lucrării"
+          },
+          "typicalMin": 12000,
+          "typicalMax": 25000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "platformHostingAndDispatchOperations",
+          "label": {
+            "en": "Platform hosting, maintenance, and dispatch operations staffing",
+            "ro": "Găzduirea platformei, întreținerea, și personalul de operațiuni de expediere"
+          },
+          "typicalMonthlyMin": 6000,
+          "typicalMonthlyMax": 14000
+        },
+        {
+          "key": "customerAndContractorSupportStaffing",
+          "label": {
+            "en": "Customer support staff wages (both homeowner and contractor support)",
+            "ro": "Salariile personalului de suport pentru clienți (suport pentru proprietari și meșteri)"
+          },
+          "typicalMonthlyMin": 5000,
+          "typicalMonthlyMax": 12000
+        },
+        {
+          "key": "twoSidedAcquisitionMarketing",
+          "label": {
+            "en": "Two-sided acquisition marketing (homeowner demand and contractor supply)",
+            "ro": "Marketing de achiziție, cu două fețe (cerere de proprietari și ofertă de meșteri)"
+          },
+          "typicalMonthlyMin": 4000,
+          "typicalMonthlyMax": 9000
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "commissionOnCompletedJobValue",
+          "label": {
+            "en": "Commission on each completed job's value",
+            "ro": "Comision, pe valoarea fiecărei lucrări finalizate"
+          }
+        },
+        {
+          "key": "optionalJobGuaranteeFee",
+          "label": {
+            "en": "Optional job-guarantee fee for redo-or-refund protection",
+            "ro": "Taxă opțională, de garanție a lucrării, pentru protecție de refacere sau rambursare"
+          }
+        },
+        {
+          "key": "contractorFeaturedListingSubscription",
+          "label": {
+            "en": "Optional contractor subscription for featured profile placement",
+            "ro": "Abonament opțional, pentru meșteri, pentru plasarea profilului promovat"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 20000,
+      "targetMonthlyIncomeMax": 55000,
+      "breakEvenTimelineMonths": 18,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Individual job commissions are collected quickly once a job is confirmed complete and escrow releases, but building enough two-sided liquidity to generate meaningful volume takes real time in each new geographic zone.",
+        "ro": "Comisioanele individuale, pe lucrare, sunt încasate rapid, odată ce o lucrare este confirmată, finalizată, și escrow-ul este eliberat, dar construirea unei lichidități suficiente, cu două fețe, pentru a genera volum semnificativ, necesită timp real, în fiecare zonă geografică nouă."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate",
+      "notes": {
+        "en": "Commission revenue is high-margin per transaction, but dispatch operations, contractor verification, and two-sided acquisition marketing keep overall margin moderate until metro-level scale is reached.",
+        "ro": "Veniturile din comisioane, au o marjă ridicată, per tranzacție, dar operațiunile de expediere, verificarea meșterilor, și marketingul de achiziție, cu două fețe, mențin marja generală moderată, până la atingerea scalei, la nivel de metropolă."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "occasional",
+    "onlineOffline": "online",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 45,
+    "maxWeeklyHours": 60,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 4
+      },
+      {
+        "key": "marketing",
+        "rating": 5
+      },
+      {
+        "key": "leadership",
+        "rating": 6
+      },
+      {
+        "key": "communication",
+        "rating": 6
+      },
+      {
+        "key": "negotiation",
+        "rating": 5
+      },
+      {
+        "key": "finance",
+        "rating": 5
+      },
+      {
+        "key": "operations",
+        "rating": 9
+      },
+      {
+        "key": "technology",
+        "rating": 7
+      },
+      {
+        "key": "automation",
+        "rating": 5
+      },
+      {
+        "key": "ai",
+        "rating": 3
+      },
+      {
+        "key": "programming",
+        "rating": 2
+      },
+      {
+        "key": "management",
+        "rating": 7
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 65
+      },
+      {
+        "key": "visionary",
+        "score": 30
+      },
+      {
+        "key": "operator",
+        "score": 75
+      },
+      {
+        "key": "creator",
+        "score": 15
+      },
+      {
+        "key": "seller",
+        "score": 30
+      },
+      {
+        "key": "leader",
+        "score": 45
+      },
+      {
+        "key": "analyst",
+        "score": 45
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": false,
+    "requiresTravel": true,
+    "isOnlineBusiness": true,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": true,
+    "isHighlyAutomatable": true,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": true,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": true,
+    "requiresInventory": false,
+    "isSeasonalBusiness": true,
+    "isFranchisable": false,
+    "isRecessionResistant": true
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "high",
+      "notes": {
+        "en": "Once two-sided liquidity is achieved in a metro area, the marketplace benefits from real network effects — more vetted contractors attract more homeowners and vice versa — scaling non-linearly, the same structural advantage as this library's other genuine two-sided marketplace.",
+        "ro": "Odată ce lichiditatea, cu două fețe, este atinsă, într-o zonă metropolitană, platforma beneficiază de efecte reale de rețea — mai mulți meșteri verificați, atrag mai mulți proprietari, și invers — scalând neliniar, același avantaj structural, ca alta afacere de piață, autentică, cu două fețe, din această bibliotecă."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high",
+      "notes": {
+        "en": "Solving the two-sided cold-start problem across trade categories (plumbing, electrical, general handyman) in each new zip code, while managing real contractor liability exposure, requires genuine operational sophistication and capital.",
+        "ro": "Rezolvarea problemei de pornire, cu două fețe, pe categorii de meserii (instalații, electrice, meșter general), în fiecare cod poștal nou, gestionând, în același timp, expunerea reală, la răspundere, a meșterilor, necesită sofisticare operațională reală, și capital."
+      }
+    },
+    "aiResistance": {
+      "level": "moderate",
+      "notes": {
+        "en": "Dispatch and matching logic are increasingly automatable, but contractor licensing/insurance verification judgment calls and job-guarantee dispute resolution still benefit from human oversight given real property and liability stakes.",
+        "ro": "Logica de expediere și potrivire, este din ce în ce mai automatizabilă, dar deciziile de judecată, pentru verificarea licenței și asigurării meșterilor, și rezolvarea disputelor, de garanție a lucrării, beneficiază încă de supraveghere umană, dat fiind mizele reale, de proprietate și răspundere."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "The classic two-sided marketplace cold-start problem — insufficient vetted contractor supply deters homeowners, and insufficient job demand deters contractors, and both must be solved simultaneously in each new geographic zone.",
+          "ro": "Problema clasică de pornire, cu două fețe, a piețelor — oferta insuficientă de meșteri verificați, descurajează proprietarii, iar cererea insuficientă de lucrări, descurajează meșterii, ambele trebuind rezolvate simultan, în fiecare zonă geografică nouă."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "A contractor causing property damage or injury during a job creates real liability exposure for the platform if licensing and insurance verification isn't rigorous and continuously maintained.",
+          "ro": "Un meșter, care provoacă daune materiale sau vătămări, în timpul unei lucrări, creează o expunere reală, la răspundere, pentru platformă, dacă verificarea licenței și asigurării, nu este riguroasă și menținută continuu."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Disintermediation risk — once a homeowner and contractor connect through the platform, they may take future jobs off-platform to avoid commission fees, a structural risk specific to service marketplaces.",
+          "ro": "Risc de dezintermediere — odată ce un proprietar și un meșter, se conectează, prin platformă, aceștia pot muta viitoarele lucrări, în afara platformei, pentru a evita comisioanele, un risc structural, specific piețelor de servicii."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "The handyman who actually shows up, booked in under an hour — vetted, licensed, and insured contractors, not a random classifieds listing.",
+        "ro": "Meseriașul care chiar vine, rezervat în mai puțin de o oră — meșteri verificați, licențiați și asigurați, nu o listare aleatorie de anunțuri."
+      },
+      "channels": [
+        {
+          "channelType": "localHomeownerDigitalAdsAndNeighborhoodApps",
+          "description": {
+            "en": "Targeted digital advertising and presence on local neighborhood apps to reach homeowners on the demand side.",
+            "ro": "Publicitate digitală, direcționată, și prezență, pe aplicații locale de cartier, pentru a ajunge la proprietari, pe partea de cerere."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "contractorRecruitmentFromTradeLicensingBoards",
+          "description": {
+            "en": "Recruitment from trade licensing boards and contractor associations to build vetted supply — a distinct, supply-side channel this two-sided business requires that one-sided service businesses don't.",
+            "ro": "Recrutare, de la comisiile de licențiere a meseriilor, și asociațiile de meșteri, pentru a construi oferta verificată — un canal distinct, de partea ofertei, pe care această afacere, cu două fețe, îl necesită, spre deosebire de afacerile de servicii, cu o singură față."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "homeWarrantyAndPropertyManagerPartnerships",
+          "description": {
+            "en": "Partnerships with home-warranty companies and property managers who route recurring repair-job volume, as a supplemental, experimental channel.",
+            "ro": "Parteneriate, cu companii de garanție a locuinței, și administratori de proprietăți, care direcționează un volum recurent de lucrări de reparație, ca un canal suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "high",
+      "notes": {
+        "en": "Requires running two distinct, simultaneous marketing motions (demand-side homeowner acquisition and supply-side contractor recruitment) in every new zip code, more layered than any single-sided marketing strategy in this library.",
+        "ro": "Necesită derularea a două mișcări de marketing distincte, simultane (achiziția de proprietari, pe partea de cerere, și recrutarea de meșteri, pe partea de ofertă), în fiecare cod poștal nou, mai stratificată, decât orice strategie de marketing, cu o singură față, din această bibliotecă."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A homeowner posts a job with photos and description; the platform dispatches it to 3 vetted, licensed contractors within the service radius, who each send a fixed quote within 2 hours; the homeowner accepts a quote and books, with payment held in escrow until job completion is confirmed.",
+        "ro": "Un proprietar postează o lucrare, cu fotografii și descriere; platforma o expediază, către 3 meșteri verificați, licențiați, în raza de serviciu, care trimit fiecare o ofertă fixă, în 2 ore; proprietarul acceptă o ofertă și rezervă, cu plata reținută, în escrow, până la confirmarea finalizării lucrării."
+      },
+      "salesCycleLengthDays": 2,
+      "pricingModel": {
+        "en": "The platform takes an 18-22% commission on completed job value; contractors set their own quotes (typical jobs €80-€600); homeowners can pay an optional 5% job-guarantee fee covering platform-backed redo-or-refund protection.",
+        "ro": "Platforma percepe un comision de 18-22%, pe valoarea lucrării finalizate; meșterii își stabilesc propriile oferte (lucrări tipice, 80-600 €); proprietarii pot plăti o taxă opțională, de 5%, de garanție a lucrării, care acoperă protecție, susținută de platformă, de refacere sau rambursare."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "A relatively fast conversion once a homeowner posts a job, but the underlying supply of licensed, insured, available contractors must already exist across the relevant trade category for that fast conversion to actually happen.",
+        "ro": "O conversie relativ rapidă, odată ce un proprietar postează o lucrare, dar oferta de bază, de meșteri licențiați, asigurați, disponibili, trebuie să existe deja, în categoria de meserie relevantă, pentru ca acea conversie rapidă, să se producă de fapt."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Contractor license and insurance verification and re-verification",
+          "ro": "Verificarea și reverificarea licenței și asigurării meșterilor"
+        },
+        {
+          "en": "Homeowner job posting and geo-radius contractor dispatch",
+          "ro": "Postarea lucrării proprietarului și expedierea meșterilor, pe raza geografică"
+        },
+        {
+          "en": "Quote collection, booking confirmation, and payment-escrow management",
+          "ro": "Colectarea ofertelor, confirmarea rezervării, și gestionarea escrow-ului de plăți"
+        },
+        {
+          "en": "Quality monitoring through job ratings, reviews, and job-guarantee claims handling",
+          "ro": "Monitorizarea calității, prin evaluări ale lucrărilor, recenzii, și gestionarea cererilor de garanție a lucrării"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Ongoing contractor license and insurance re-verification on the supply side, homeowner job intake and contractor dispatch on the demand side, with dispatch operations and customer support handling scheduling issues, payment questions, and job-guarantee claims throughout the day.",
+        "ro": "Reverificarea continuă, a licenței și asigurării meșterilor, pe partea de ofertă, admiterea lucrărilor proprietarilor, și expedierea meșterilor, pe partea de cerere, cu operațiunile de expediere și suportul pentru clienți, gestionând probleme de programare, întrebări de plată, și cereri de garanție a lucrării, pe parcursul zilei."
+      },
+      "fulfillmentModel": {
+        "en": "A technology platform connecting independent, licensed, and insured contractors directly with homeowners, with the platform handling job dispatch, quoting, escrow, and dispute resolution but not directly performing any repair work itself.",
+        "ro": "O platformă tehnologică, care conectează direct meșteri independenți, licențiați și asigurați, cu proprietarii, platforma gestionând expedierea lucrării, oferta, escrow-ul, și rezolvarea disputelor, dar nerealizând direct nicio lucrare de reparație, ea însăși."
+      }
+    },
+    "automation": {
+      "level": "moderate",
+      "notes": {
+        "en": "Job dispatch, quote collection, and escrow release are substantially automated through the platform, though initial contractor license/insurance verification and job-guarantee dispute resolution remain human-reviewed.",
+        "ro": "Expedierea lucrării, colectarea ofertelor, și eliberarea escrow-ului, sunt substanțial automatizate, prin platformă, deși verificarea inițială, a licenței/asigurării meșterilor, și rezolvarea disputelor, de garanție a lucrării, rămân revizuite uman."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "contractorJobMatching",
+          "description": {
+            "en": "AI-assisted matching algorithm suggesting the best-fit contractors for a posted job based on trade category, service radius, and availability.",
+            "ro": "Algoritm de potrivire, asistat de AI, care sugerează meșterii cei mai potriviți, pentru o lucrare postată, pe baza categoriei de meserie, razei de serviciu, și disponibilității."
+          },
+          "maturity": "established"
+        }
+      ],
+      "aiDependencyLevel": "moderate"
+    },
+    "recommendedTools": [
+      {
+        "name": "Jobber",
+        "category": "jobDispatchAndSchedulingPlatform",
+        "isRequired": true,
+        "websiteUrl": "https://getjobber.com/"
+      },
+      {
+        "name": "Stripe Connect",
+        "category": "splitPaymentAndEscrowProcessing",
+        "isRequired": true,
+        "websiteUrl": "https://stripe.com/connect"
+      },
+      {
+        "name": "Checkr",
+        "category": "contractorBackgroundVerification",
+        "isRequired": false,
+        "websiteUrl": "https://checkr.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "high",
+      "timeHorizonMonths": 36,
+      "notes": {
+        "en": "Growth is initially gated by solving two-sided liquidity zip code by zip code, but scales with real network effects once metro-level liquidity is achieved, with geographic expansion and trade-category breadth as the main levers beyond the first metro.",
+        "ro": "Creșterea este inițial limitată, de rezolvarea lichidității, cu două fețe, cod poștal cu cod poștal, dar se scalează, cu efecte reale de rețea, odată atinsă lichiditatea, la nivel de metropolă, cu extinderea geografică și amploarea categoriei de meserii, drept principalele pârghii, dincolo de prima metropolă."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Solve the cold-start problem in one pilot metro area first, reach reliable two-sided liquidity zip code by zip code within it, then expand into a second metro area by reapplying the same cold-start and contractor-verification playbook.",
+        "ro": "Rezolvă mai întâi problema de pornire, într-o zonă metropolitană pilot, atinge acolo o lichiditate fiabilă, cu două fețe, cod poștal cu cod poștal, apoi extinde-te, într-o a doua zonă metropolitană, reaplicând același playbook, de pornire și verificare a meșterilor."
+      },
+      "bottlenecks": [
+        {
+          "en": "Contractor licensing and insurance verification capacity can bottleneck how quickly supply-side onboarding can scale.",
+          "ro": "Capacitatea de verificare, a licenței și asigurării meșterilor, poate deveni un blocaj, asupra vitezei, cu care poate scala integrarea, pe partea de ofertă."
+        },
+        {
+          "en": "Achieving real liquidity requires enough vetted contractors across multiple trade categories (plumbing, electrical, general handyman) in each new zip code, not just overall contractor count.",
+          "ro": "Atingerea unei lichidități reale, necesită suficienți meșteri verificați, pe mai multe categorii de meserii (instalații, electrice, meșter general), în fiecare cod poștal nou, nu doar numărul total de meșteri."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "The marketplace reaches break-even with reliable two-sided liquidity across the pilot metro area.",
+            "ro": "Piața atinge pragul de rentabilitate, cu o lichiditate fiabilă, cu două fețe, în întreaga zonă metropolitană pilot."
+          }
+        },
+        {
+          "monthsFromLaunch": 32,
+          "description": {
+            "en": "A second metro area is launched, reapplying the proven cold-start and contractor-verification playbook.",
+            "ro": "O a doua zonă metropolitană este lansată, reaplicând playbook-ul dovedit, de pornire și verificare a meșterilor."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Rigorous licensing and insurance vetting becomes a genuine trust moat against informal classifieds and unverified contractor arrangements.",
+          "ro": "Verificarea riguroasă, a licenței și asigurării, devine un avantaj real, de încredere, față de anunțurile informale, și aranjamentele neverificate, cu meșteri."
+        }
+      },
+      {
+        "description": {
+          "en": "Once metro-level liquidity is achieved, real network effects let the marketplace scale non-linearly, unlike the one-to-one service delivery businesses elsewhere in this library.",
+          "ro": "Odată atinsă lichiditatea, la nivel de metropolă, efectele reale de rețea, permit platformei, să se scaleze neliniar, spre deosebire de afacerile de livrare a serviciilor, unu-la-unu, din altă parte a acestei biblioteci."
+        }
+      },
+      {
+        "description": {
+          "en": "The optional job-guarantee fee creates a differentiated premium revenue stream beyond commission alone, unique among this library's marketplace businesses.",
+          "ro": "Taxa opțională, de garanție a lucrării, creează un flux de venit, premium, diferențiat, dincolo de comision, singur, unic, printre afacerile de piață, din această bibliotecă."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A two-sided marketplace connecting homeowners with vetted, licensed, and insured independent contractors for home repair jobs, monetized through a commission on completed job value plus an optional job-guarantee fee. The second genuine two-sided marketplace in this library, differentiated from the tutoring marketplace by quote-based job pricing, licensing/insurance vetting, and a job-guarantee insurance angle rather than session-booking and background-check-only vetting.",
+        "ro": "O piață, cu două fețe, care conectează proprietari de case, cu meșteri independenți, verificați, licențiați și asigurați, pentru lucrări de reparații casnice, monetizată, printr-un comision, pe valoarea lucrării finalizate, plus o taxă opțională, de garanție a lucrării. A doua piață autentică, cu două fețe, din această bibliotecă, diferențiată, de piața de meditații, prin tarifare, pe bază de ofertă, pentru lucrare, verificare de licențiere/asigurare, și un unghi de asigurare, de garanție a lucrării, nu rezervare de ședință și verificare, doar de antecedente."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.homeRepairMarketplace.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.homeRepairMarketplace.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.homeRepairMarketplace.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.homeRepairMarketplace.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert homeowner job postings into booked, confirmed appointments.",
+          "ro": "Transformă postările de lucrări, ale proprietarilor, în programări, rezervate, confirmate."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep homeowners returning to the platform for future repair jobs.",
+          "ro": "Menține proprietarii, revenind pe platformă, pentru viitoare lucrări de reparație."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against dispatch operations, verification, and support costs.",
+          "ro": "Protejează marja brută, împotriva costurilor de operațiuni de expediere, verificare, și suport."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep both homeowner and contractor churn low, and monitor for signs of off-platform disintermediation.",
+          "ro": "Menține scăzută, pierderea, atât a proprietarilor, cât și a meșterilor, și monitorizează semnele, de dezintermediere, în afara platformei."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "management",
+          "importance": 5
+        },
+        {
+          "key": "negotiation",
+          "importance": 3
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "sales",
+          "importance": 2
+        },
+        {
+          "key": "finance",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "systemOriented",
+          "importance": 5
+        },
+        {
+          "trait": "resilient",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "decisive",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 40000,
+        "max": 90000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 50000,
+        "max": 75000,
+        "currency": "EUR"
+      },
+      "riskProfile": "high",
+      "timeAvailability": {
+        "minWeeklyHours": 45,
+        "maxWeeklyHours": 60
+      },
+      "communicationStyle": [
+        "direct",
+        "structured"
+      ],
+      "technicalLevel": 4,
+      "leadershipLevel": 5,
+      "creativityLevel": 2,
+      "salesAffinity": 3,
+      "automationAffinity": 4,
+      "remotePreference": "hybrid",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theOperator",
+        "theConnector"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the two-sided cold-start challenge and the High capital tier (the largest of this library's two marketplace businesses) in Financial Overview and Launch Strategy, and the licensing/insurance trust moat in Competitive Advantages — keep marketplace mechanics (commission, escrow, liquidity) concrete throughout.",
+      "ro": "Subliniază provocarea de pornire, cu două fețe, și nivelul ridicat de capital (cel mai mare, dintre cele două afaceri de piață, ale acestei biblioteci), în Prezentare financiară și Strategia de lansare, precum și avantajul de încredere, de licențiere/asigurare, în Avantaje competitive — menține mecanica pieței (comision, escrow, lichiditate) concretă, pe tot parcursul."
+    },
+    "marketingHints": {
+      "en": "Lead with the vetted, licensed, insured trust proposition, not generic 'find a handyman' stock phrases — and always address both sides of the marketplace (homeowner acquisition and contractor recruitment) as distinct marketing motions.",
+      "ro": "Începe cu propunerea de încredere, licențiat, asigurat, verificat, nu cu fraze generice, de tipul „găsește un meseriaș” — și abordează întotdeauna ambele părți, ale pieței (achiziția de proprietari și recrutarea de meșteri), ca mișcări de marketing distincte."
+    },
+    "financialHints": {
+      "en": "Model revenue as commission on completed job value (GMV × take rate) plus an optional job-guarantee fee, not a flat service fee — emphasize that reaching two-sided liquidity in each metro area takes real upfront capital before revenue scales.",
+      "ro": "Modelează veniturile, ca un comision, pe valoarea lucrării finalizate (GMV × rata de comision), plus o taxă opțională, de garanție a lucrării, nu o taxă fixă, de serviciu — subliniază că atingerea lichidității, cu două fețe, în fiecare zonă metropolitană, necesită capital real, inițial, înainte ca veniturile să se scaleze."
+    },
+    "generationHints": {
+      "en": "Keep generated tone trust-building and safety-conscious, grounded in real marketplace mechanics — never treat this as a simple one-sided service business, and always acknowledge the two-sided liquidity challenge and contractor-liability stakes explicitly.",
+      "ro": "Menține un ton generat, care construiește încredere, și conștient de siguranță, fundamentat pe mecanica reală a pieței — nu trata niciodată aceasta, ca o afacere simplă, de servicii, cu o singură față, și recunoaște întotdeauna explicit, provocarea de lichiditate, cu două fețe, și mizele de răspundere, ale meșterilor."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Build or select the marketplace platform (job posting, dispatch, escrow) and establish a contractor licensing and insurance verification process.",
+            "ro": "Construiește sau selectează platforma de piață (postare lucrare, expediere, escrow), și stabilește un proces de verificare, a licenței și asigurării meșterilor."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Building custom marketplace software from scratch before validating demand, instead of starting with an existing dispatch and scheduling platform framework.",
+            "ro": "Construirea de software personalizat, de piață, de la zero, înainte de a valida cererea, în loc de a începe, cu un cadru existent, de platformă de expediere și programare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Start with an existing job-dispatch and scheduling platform framework rather than custom-building it from scratch.",
+            "ro": "Începe cu un cadru existent, de platformă de expediere și programare a lucrărilor, în loc să-l construiești personalizat, de la zero."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.homeRepairMarketplace.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Solve the cold-start problem in one pilot zip code by manually recruiting an initial vetted contractor pool and a handful of pilot homeowners.",
+            "ro": "Rezolvă problema de pornire, într-un cod poștal pilot, prin recrutarea manuală, a unui grup inițial, de meșteri verificați, și câțiva proprietari pilot."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Trying to launch across an entire metro area at once instead of concentrating initial liquidity efforts in one small pilot zip code.",
+            "ro": "Încercarea de a lansa, în întreaga zonă metropolitană, deodată, în loc să concentreze eforturile inițiale, de lichiditate, într-un singur cod poștal pilot, mic."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Manually recruit and personally verify the first 10-15 contractors across core trade categories in the pilot zip code before opening homeowner sign-ups broadly.",
+            "ro": "Recrutează manual și verifică personal, primii 10-15 meșteri, pe categoriile de meserii de bază, în codul poștal pilot, înainte de a deschide larg, înscrierile proprietarilor."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.homeRepairMarketplace.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first month of matched, completed jobs in the pilot zip code with both sides genuinely represented.",
+            "ro": "Finalizează prima lună, de lucrări potrivite, finalizate, în codul poștal pilot, cu ambele părți reprezentate cu adevărat."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Dispatching a job to the first available contractor instead of the best-fit, most reliable contractor, damaging early trust in job quality.",
+            "ro": "Expedierea unei lucrări, către primul meșter disponibil, în loc de cel mai potrivit, mai fiabil, meșter, afectând încrederea timpurie, în calitatea lucrării."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Personally review each early job match to confirm trade-category fit and contractor reliability before confirming the booking.",
+            "ro": "Revizuiește personal, fiecare potrivire timpurie, de lucrare, pentru a confirma potrivirea categoriei de meserie, și fiabilitatea meșterului, înainte de a confirma rezervarea."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.homeRepairMarketplace.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Launch broader local homeowner marketing alongside continued supply-side contractor recruitment across the pilot metro area.",
+            "ro": "Lansează marketing local, mai larg, pentru proprietari, alături de recrutarea continuă, de meșteri, de partea ofertei, în întreaga zonă metropolitană pilot."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Ramping up demand-side homeowner marketing faster than the contractor supply can support, creating a bad first experience for new homeowners.",
+            "ro": "Accelerarea marketingului de proprietari, de partea cererii, mai rapid, decât poate susține oferta de meșteri, creând o primă experiență proastă, pentru proprietarii noi."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pace demand-side marketing growth to stay within what the current contractor supply can reliably serve within the target response window.",
+            "ro": "Ritmează creșterea marketingului, de partea cererii, pentru a rămâne, în limita a ceea ce oferta actuală de meșteri, poate deservi fiabil, în fereastra de răspuns țintă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.homeRepairMarketplace.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first homeowner's completed job into a repeat booking for a future repair need.",
+            "ro": "Transformă prima lucrare finalizată, a unui proprietar, într-o rezervare recurentă, pentru o nevoie viitoare, de reparație."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not following up with a homeowner after job completion to confirm satisfaction and prompt a future booking.",
+            "ro": "Neurmărirea unui proprietar, după finalizarea lucrării, pentru a confirma satisfacția, și a stimula o rezervare viitoare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Follow up with every homeowner within 24 hours of job completion to confirm satisfaction and capture a review.",
+            "ro": "Urmărește fiecare proprietar, în 24 de ore, de la finalizarea lucrării, pentru a confirma satisfacția, și a capta o recenzie."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.homeRepairMarketplace.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach reliable two-sided liquidity across the pilot zip code — enough vetted contractors across core trade categories to dispatch most jobs within the target response window.",
+            "ro": "Atinge o lichiditate fiabilă, cu două fețe, în întregul cod poștal pilot — suficienți meșteri verificați, pe categoriile de meserii de bază, pentru a expedia majoritatea lucrărilor, în fereastra de răspuns țintă."
+          }
+        ],
+        "kpis": [
+          "customerRetention",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Declaring product-market fit based on total job postings instead of the actual dispatch-to-quote fulfillment rate.",
+            "ro": "Declararea potrivirii produs-piață, pe baza postărilor totale, de lucrări, în loc de rata reală de îndeplinire, de la expediere, la ofertă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track the percentage of jobs receiving a quote within the target response window as the primary liquidity health metric.",
+            "ro": "Urmărește procentul de lucrări, care primesc o ofertă, în fereastra de răspuns țintă, ca principala metrică de sănătate a lichidității."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.homeRepairMarketplace.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Grow job volume and repeat-booking rate within the pilot zip code before expanding to additional zip codes in the same metro.",
+            "ro": "Crește volumul de lucrări, și rata de rezervare recurentă, în codul poștal pilot, înainte de a te extinde, la coduri poștale suplimentare, în aceeași metropolă."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding to a new zip code before the pilot zip code has reached stable, repeatable liquidity and job volume.",
+            "ro": "Extinderea, la un cod poștal nou, înainte ca codul poștal pilot, să fi atins o lichiditate și un volum de lucrări, stabile și repetabile."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the pilot zip code shows stable month-over-month growth in repeat bookings before investing in geographic expansion.",
+            "ro": "Confirmă că codul poștal pilot, arată o creștere stabilă, lună de lună, a rezervărilor recurente, înainte de a investi în extinderea geografică."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.homeRepairMarketplace.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Expand contractor supply into additional trade categories and add dispatch and support staff to handle increased volume.",
+            "ro": "Extinde oferta de meșteri, pe categorii de meserii suplimentare, și adaugă personal de expediere și suport, pentru a gestiona volumul crescut."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding into new trade categories without confirming real homeowner demand exists for them first.",
+            "ro": "Extinderea, în categorii noi de meserii, fără a confirma, mai întâi, că există o cerere reală, a proprietarilor, pentru acestea."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Survey existing homeowners about unmet trade-category needs before recruiting contractors into new categories.",
+            "ro": "Sondează proprietarii existenți, despre nevoile neacoperite, de categorii de meserii, înainte de a recruta meșteri, în categorii noi."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.homeRepairMarketplace.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into a second metro area, reapplying the proven cold-start and contractor-verification playbook.",
+            "ro": "Extinde-te, într-o a doua zonă metropolitană, reaplicând playbook-ul dovedit, de pornire și verificare a meșterilor."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Assuming the second metro area will achieve liquidity automatically without repeating the manual contractor-recruitment and verification effort.",
+            "ro": "Presupunerea, că a doua zonă metropolitană, va atinge automat lichiditatea, fără a repeta efortul manual, de recrutare și verificare a meșterilor."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Apply the same manual contractor-recruitment and verification playbook used in the pilot metro area to every new metro area.",
+            "ro": "Aplică același playbook manual, de recrutare și verificare a meșterilor, utilizat, în zona metropolitană pilot, în fiecare zonă metropolitană nouă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.homeRepairMarketplace.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the contractor-verification process, platform IP, and marketplace metrics (GMV, take rate, liquidity) to package the business for sale.",
+            "ro": "Documentează procesul de verificare a meșterilor, proprietatea intelectuală a platformei, și metricile de piață (GMV, rata de comision, lichiditate), pentru a pregăti afacerea, pentru vânzare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Not tracking clean historical marketplace metrics (GMV, take rate, liquidity by zip code) that a buyer would need to evaluate the business.",
+            "ro": "Neurmărirea unor metrici istorice curate, de piață (GMV, rata de comision, lichiditate, pe cod poștal), de care un cumpărător ar avea nevoie, pentru a evalua afacerea."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, ongoing tracking of GMV, take rate, and liquidity by zip code for due-diligence readiness.",
+            "ro": "Menține o urmărire curată, continuă, a GMV, ratei de comision, și lichidității, pe cod poștal, pentru pregătirea de diligență."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.homeRepairMarketplace.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}
