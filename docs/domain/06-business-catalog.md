@@ -124,6 +124,19 @@ from Tax Consultancy), and Personal Trainer Booking Marketplace
 (`local-service-marketplaces`, the library's third genuine two-sided
 marketplace) — bringing the total authored count to 45.*
 
+*Status as of Knowledge Authoring Batch 10 (2026-07-15, fifth of 14
+planned P2 batches): 4 more P2 candidates authored — No-Code AI
+Workflow Builder SaaS (`technology-services`, the library's second
+`saas`-business-model package, deliberately differentiated from AI
+Document Processing SaaS), Cohort-Based Coding Bootcamp
+(`online-course-platforms`, first entry authored under this
+category), Independent P&C Insurance Brokerage
+(`insurance-brokerages`, regulated content, deliberately
+differentiated from Insurance Brokerage), and Luxury Honeymoon
+Planning Agency (`boutique-travel-agencies`, deliberately
+differentiated from Adventure Travel Boutique Agency) — bringing the
+total authored count to 49.*
+
 No enum value or category key was invented — every value used in the
 tables below is one of the values listed above, or one of the 12
 `IndustryType`/8 `BusinessModelType` values confirmed earlier in this
@@ -176,8 +189,8 @@ prioritization, not a commitment.
   infrastructure (e.g. a real marketplace/platform) that doesn't exist
   yet.
 
-**Already Authored** column: ✅ marks the 46 packages that exist today
-under `business-library/technology/` (45 `published` + 1 `template`,
+**Already Authored** column: ✅ marks the 50 packages that exist today
+under `business-library/technology/` (49 `published` + 1 `template`,
 per `business-library/manifest.json`). Their metadata below (Industry,
 BusinessModel, Difficulty, Scalability, Solo Friendly, Budget Tier) is
 copied from their real `metadata.json` / `business-dna.json`, not
@@ -193,17 +206,17 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 
 | Category | Entries | Already Authored |
 |---|---:|---:|
-| `technology-services` | 20 | 13 |
+| `technology-services` | 20 | 14 |
 | `subscription-boxes` | 10 | 1 |
 | `boutique-fitness-studios` | 9 | 2 |
-| `online-course-platforms` | 10 | 0 |
+| `online-course-platforms` | 10 | 1 |
 | `sustainable-fashion-brands` | 9 | 1 |
 | `local-service-marketplaces` | 9 | 3 |
-| `boutique-travel-agencies` | 8 | 1 |
+| `boutique-travel-agencies` | 8 | 2 |
 | `niche-content-studios` | 9 | 1 |
 | `accounting-firms` | 6 | 2 |
 | `financial-consultancies` | 6 | 2 |
-| `insurance-brokerages` | 6 | 1 |
+| `insurance-brokerages` | 6 | 2 |
 | `tax-consultancies` | 6 | 2 |
 | `law-firms` | 7 | 2 |
 | `hr-consultancies` | 6 | 1 |
@@ -221,7 +234,7 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 | `psychology-practices` | 1 | 1 |
 | `coffee-shops` | 1 | 1 |
 | `restaurants` | 1 | 1 |
-| **Total** | **147** | **45** |
+| **Total** | **147** | **49** |
 
 ---
 
@@ -288,6 +301,16 @@ billing for people's time. See
 `business-library/technology/ai-document-processing-saas/` for the
 full package.*
 
+*Knowledge Authoring Batch 10 (2026-07-15) authored this category's
+second genuine `saas` candidate — No-Code AI Workflow Builder SaaS —
+bringing the authored count to 14 of 20. A visual, drag-and-drop
+builder for non-technical operations and marketing buyers priced on
+seat-plus-workflow-run subscription tiers, deliberately differentiated
+from AI Document Processing SaaS by target buyer (non-technical vs.
+developer), product shape (visual canvas vs. API), and pricing model.
+See `business-library/technology/nocode-ai-workflow-saas/` for the
+full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | technology-services | AI Automation Agency | ai-automation-agency | tech | agency | P1 | moderate | Low | No | low | No | ✅ |
@@ -298,7 +321,7 @@ full package.*
 | technology-services | AI Document Processing SaaS | ai-document-processing-saas | tech | saas | P2 | high | High | No | high | Yes | ✅ |
 | technology-services | Voice AI IVR Automation Agency | voice-ai-ivr-agency | tech | agency | P3 | moderate | Medium | Yes | moderate | No | |
 | technology-services | AI Data Enrichment Service | ai-data-enrichment-service | tech | service | P3 | moderate | Low | Yes | low | No | |
-| technology-services | No-Code AI Workflow Builder SaaS | nocode-ai-workflow-saas | tech | saas | P2 | high | Very High | No | high | Yes | |
+| technology-services | No-Code AI Workflow Builder SaaS | nocode-ai-workflow-saas | tech | saas | P2 | high | Very High | No | high | Yes | ✅ |
 | technology-services | AI Marketing Ops Automation Agency | ai-marketing-ops-agency | tech | agency | P3 | moderate | Low | Yes | moderate | No | |
 | technology-services | Custom LLM Integration Consultancy | llm-integration-consultancy | tech | service | P2 | high | Medium | Yes | moderate | Yes | |
 | technology-services | AI Recruiting Screening Automation Agency | ai-recruiting-screening-agency | tech | agency | P3 | moderate | Medium | Yes | moderate | No | |
@@ -371,9 +394,18 @@ package.*
 
 ## `online-course-platforms`
 
+*Knowledge Authoring Batch 10 (2026-07-15) authored this category's
+first candidate — Cohort-Based Coding Bootcamp — bringing the
+authored count to 1 of 10. A live, instructor-led, cohort-based
+service business, genuinely distinct in kind from the self-paced
+content platforms this category will eventually include (bounded by
+cohort/instructor capacity rather than infinitely scalable). See
+`business-library/technology/cohort-based-coding-bootcamp/` for the
+full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| online-course-platforms | Cohort-Based Coding Bootcamp | cohort-based-coding-bootcamp | education | service | P2 | high | Medium | No | moderate | Yes | |
+| online-course-platforms | Cohort-Based Coding Bootcamp | cohort-based-coding-bootcamp | education | service | P2 | high | Medium | No | moderate | Yes | ✅ |
 | online-course-platforms | Self-Paced Language Learning Platform | self-paced-language-platform | education | saas | P2 | high | High | No | high | Yes | |
 | online-course-platforms | Professional Certification Prep Platform | professional-certification-platform | education | saas | P2 | moderate | Medium | No | high | No | |
 | online-course-platforms | Kids' Online Coding Academy | kids-online-coding-academy | education | subscription | P2 | moderate | Medium | No | moderate | No | |
@@ -457,10 +489,22 @@ the founder's own firsthand destination and guide-network expertise.
 See `business-library/technology/adventure-travel-boutique-agency/`
 for the full package.*
 
+*Knowledge Authoring Batch 10 (2026-07-15) authored this category's
+second P2 candidate — Luxury Honeymoon Planning Agency — bringing the
+authored count to 2 of 8. Deliberately differentiated from Adventure
+Travel Boutique Agency: a romantic/luxury occasion at a materially
+higher price tier (€8,000-€25,000+ per couple vs. €2,500-€6,000 per
+person) rather than an adventure/expedition occasion, luxury-resort
+and DMC preferred-partner relationships rather than firsthand
+guide-network expertise, and a wedding-industry vendor referral
+channel rather than an outdoor-adventure-community channel. See
+`business-library/technology/luxury-honeymoon-planning-agency/` for
+the full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | boutique-travel-agencies | Adventure Travel Boutique Agency | adventure-travel-boutique-agency | travel | agency | P2 | moderate | Medium | Yes | moderate | No | ✅ |
-| boutique-travel-agencies | Luxury Honeymoon Planning Agency | luxury-honeymoon-planning-agency | travel | agency | P2 | moderate | Medium | Yes | moderate | No | |
+| boutique-travel-agencies | Luxury Honeymoon Planning Agency | luxury-honeymoon-planning-agency | travel | agency | P2 | moderate | Medium | Yes | moderate | No | ✅ |
 | boutique-travel-agencies | Solo Female Travel Agency | solo-female-travel-agency | travel | agency | P3 | moderate | Low | Yes | moderate | No | |
 | boutique-travel-agencies | Culinary Tour Operator | culinary-tour-operator | travel | service | P3 | moderate | Medium | Yes | moderate | No | |
 | boutique-travel-agencies | Sustainable Eco-Tourism Agency | sustainable-ecotourism-agency | sustainability | agency | P3 | moderate | Medium | Yes | moderate | No | |
@@ -544,10 +588,23 @@ for the full package.*
 
 ## `insurance-brokerages`
 
+*Knowledge Authoring Batch 10 (2026-07-15) authored this category's
+first P2 candidate — Independent P&C Insurance Brokerage — bringing
+the authored count to 2 of 6. Regulated insurance-sales content,
+framed with the same educational-guidance discipline as Insurance
+Brokerage, and deliberately differentiated from it: a specific niche
+(landlord/rental-property portfolios) rather than general personal
+lines, a portfolio-coverage-gap-review sales approach rather than a
+general "shop it for you across carriers" approach, and a dual
+commission-plus-surplus-lines-broker-fee revenue model rather than a
+purely commission-only model. See
+`business-library/technology/independent-pc-insurance-brokerage/` for
+the full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | insurance-brokerages | Insurance Brokerage | insurance-brokerage | finance | agency | P1 | moderate | Medium | Yes | high | No | ✅ |
-| insurance-brokerages | Independent P&C Insurance Brokerage | independent-pc-insurance-brokerage | finance | agency | P2 | moderate | Medium | Yes | high | No | |
+| insurance-brokerages | Independent P&C Insurance Brokerage | independent-pc-insurance-brokerage | finance | agency | P2 | moderate | Medium | Yes | high | No | ✅ |
 | insurance-brokerages | Life Insurance Brokerage for Young Families | life-insurance-brokerage-young-families | finance | agency | P3 | moderate | Low | Yes | moderate | No | |
 | insurance-brokerages | Commercial Insurance Brokerage for SMBs | commercial-insurance-brokerage-smb | finance | agency | P2 | high | Medium | Yes | high | Yes | |
 | insurance-brokerages | Health Insurance Brokerage | health-insurance-brokerage | health | agency | P3 | moderate | Medium | Yes | moderate | No | |

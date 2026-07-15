@@ -1,0 +1,927 @@
+{
+  "identity": {
+    "id": "d2d53c1c-e9f6-41dd-9799-50abf6f4715d",
+    "slug": "independent-pc-insurance-brokerage",
+    "version": "1.0.0",
+    "name": {
+      "en": "Keystone P&C Brokerage",
+      "ro": "Keystone P&C Brokerage"
+    },
+    "tagline": {
+      "en": "Coverage that keeps up with your growing property portfolio.",
+      "ro": "Acoperire, care ține pasul, cu portofoliul tău de proprietăți, în creștere."
+    },
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theSpecialist",
+      "theConnector"
+    ],
+    "summary": {
+      "en": "Best suited to a licensed P&C broker with real landlord/rental-property coverage expertise, comfortable placing complex, multi-carrier accounts and navigating the surplus/excess-lines market for hard-to-place risks. This is educational business-planning content only — not insurance, coverage, or claims advice for any end client.",
+      "ro": "Potrivit unui broker P&C, atestat, cu expertiză reală, în acoperirea proprietăților de închiriat, confortabil, plasând conturi complexe, multi-asigurător, și navigând, piața de excedent/surplus, pentru riscuri greu de plasat. Acesta este doar conținut educațional, de planificare a afacerii — nu este consultanță de asigurare, acoperire, sau daune, pentru niciun client final."
+    },
+    "minimumExperienceYears": 4
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 12000,
+      "maxInvestment": 28000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 1800,
+      "ongoingMonthlyCostMax": 4500,
+      "notes": {
+        "en": "Covers state licensing, errors & omissions insurance, an agency management system, and carrier and surplus-lines-carrier appointment application costs — a Medium budget tier, slightly above a general personal-lines brokerage given surplus-lines licensing requirements.",
+        "ro": "Acoperă autorizarea, asigurarea de erori și omisiuni, un sistem de management al agenției, și costurile aplicațiilor pentru contractele cu asigurătorii, și asigurătorii de excedent — un nivel de buget mediu, ușor peste o brokeraj generalist, de linii personale, dat fiind cerințele de autorizare, pentru piața de excedent."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "licensingAndErrorsOmissionsInsurance",
+          "label": {
+            "en": "State P&C licensing, surplus-lines licensing, and errors & omissions insurance",
+            "ro": "Autorizarea de stat P&C, autorizarea pe piața de excedent, și asigurarea de erori și omisiuni"
+          },
+          "typicalMin": 3000,
+          "typicalMax": 7000
+        },
+        {
+          "key": "agencyManagementSystemSetup",
+          "label": {
+            "en": "Agency management system and carrier-connectivity platform setup",
+            "ro": "Configurarea sistemului de management al agenției, și platformei de conectivitate cu asigurătorii"
+          },
+          "typicalMin": 2000,
+          "typicalMax": 6000
+        },
+        {
+          "key": "carrierAndSurplusLinesAppointments",
+          "label": {
+            "en": "Admitted-carrier and surplus-lines-carrier appointment application costs",
+            "ro": "Costurile aplicațiilor, pentru contractele cu asigurători admiși, și asigurători de excedent"
+          },
+          "typicalMin": 7000,
+          "typicalMax": 15000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "agencyManagementSoftwareSubscription",
+          "label": {
+            "en": "Agency management system and carrier-connectivity subscription",
+            "ro": "Abonament, la sistemul de management al agenției, și conectivitatea cu asigurătorii"
+          },
+          "typicalMonthlyMin": 500,
+          "typicalMonthlyMax": 1500
+        },
+        {
+          "key": "errorsOmissionsInsurancePremium",
+          "label": {
+            "en": "Ongoing errors & omissions insurance premium",
+            "ro": "Prima continuă, a asigurării de erori și omisiuni"
+          },
+          "typicalMonthlyMin": 400,
+          "typicalMonthlyMax": 1200
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "admittedCarrierCommission",
+          "label": {
+            "en": "Commission from admitted carriers, paid on bound landlord and umbrella policies",
+            "ro": "Comision, de la asigurători admiși, plătit, pe polițele de proprietar de chirii, și umbrelă, legate"
+          }
+        },
+        {
+          "key": "surplusLinesBrokerFee",
+          "label": {
+            "en": "Flat surplus-lines broker fee for hard-to-place risk placements",
+            "ro": "Taxă fixă, de broker, pe piața de excedent, pentru plasările de riscuri greu de plasat"
+          }
+        },
+        {
+          "key": "contingencyProfitSharingCommission",
+          "label": {
+            "en": "Contingency and profit-sharing commission from carriers based on annual placed volume",
+            "ro": "Comision de contingență, și partajare a profitului, de la asigurători, pe baza volumului anual plasat"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 5000,
+      "targetMonthlyIncomeMax": 22000,
+      "breakEvenTimelineMonths": 10,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "New-business commission is earned at binding, but meaningful renewal and contingency commission revenue builds gradually as the client book of multi-property landlords grows year over year.",
+        "ro": "Comisionul, pentru afaceri noi, este câștigat, la legarea poliței, dar venitul semnificativ, din comision de reînnoire, și contingență, se construiește gradual, pe măsură ce cartea de clienți, proprietari cu mai multe proprietăți, crește, de la an la an."
+      }
+    },
+    "profitMargin": {
+      "level": "high"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "occasional",
+    "onlineOffline": "hybrid",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 30,
+    "maxWeeklyHours": 45,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 6
+      },
+      {
+        "key": "marketing",
+        "rating": 4
+      },
+      {
+        "key": "leadership",
+        "rating": 4
+      },
+      {
+        "key": "communication",
+        "rating": 7
+      },
+      {
+        "key": "negotiation",
+        "rating": 6
+      },
+      {
+        "key": "finance",
+        "rating": 6
+      },
+      {
+        "key": "operations",
+        "rating": 6
+      },
+      {
+        "key": "technology",
+        "rating": 4
+      },
+      {
+        "key": "automation",
+        "rating": 3
+      },
+      {
+        "key": "ai",
+        "rating": 3
+      },
+      {
+        "key": "programming",
+        "rating": 1
+      },
+      {
+        "key": "management",
+        "rating": 4
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 35
+      },
+      {
+        "key": "visionary",
+        "score": 20
+      },
+      {
+        "key": "operator",
+        "score": 50
+      },
+      {
+        "key": "creator",
+        "score": 15
+      },
+      {
+        "key": "seller",
+        "score": 60
+      },
+      {
+        "key": "leader",
+        "score": 35
+      },
+      {
+        "key": "analyst",
+        "score": 65
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": false,
+    "requiresTravel": true,
+    "isOnlineBusiness": false,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": true,
+    "isHighlyAutomatable": false,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": true
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "high",
+      "notes": {
+        "en": "A landlord's growing property portfolio naturally grows the premium volume placed through the same broker relationship, and referrals within landlord and real-estate-investor networks compound client acquisition without proportional overhead growth.",
+        "ro": "Portofoliul de proprietăți, în creștere, al unui proprietar, crește natural, volumul de prime, plasat, prin aceeași relație de broker, iar recomandările, în rețelele de proprietari, și investitori imobiliari, compun achiziția de clienți, fără o creștere proporțională, a costurilor generale."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "Requires real technical depth in multi-property and surplus-lines placement, plus the licensing overhead of both admitted and surplus-lines authority.",
+        "ro": "Necesită profunzime tehnică reală, în plasarea multi-proprietate, și pe piața de excedent, plus povara de autorizare, atât a autorității asupra asigurătorilor admiși, cât și de excedent."
+      }
+    },
+    "aiResistance": {
+      "level": "low",
+      "notes": {
+        "en": "Insurtech landlord-insurance platforms offering instant online quotes are steadily improving, threatening to disintermediate traditional brokers specifically in this niche.",
+        "ro": "Platformele insurtech, de asigurare pentru proprietari, care oferă cotații instantanee, online, se îmbunătățesc constant, amenințând să dezintermedieze brokerii tradiționali, specific, în această nișă."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Insurtech landlord-insurance platforms offering instant online quotes threaten to disintermediate traditional brokers specifically in this niche.",
+          "ro": "Platformele insurtech, de asigurare pentru proprietari, care oferă cotații instantanee, online, amenință să dezintermedieze brokerii tradiționali, specific, în această nișă."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Differentiate on complex multi-property portfolio review, surplus-lines access for hard-to-place risks, and hands-on claims advocacy that instant-quote platforms don't offer.",
+          "ro": "Diferențiază-te, prin revizuirea portofoliului complex, multi-proprietate, accesul pe piața de excedent, pentru riscuri greu de plasat, și susținerea practică, în cazul daunelor, pe care platformele, cu cotație instantanee, nu le oferă."
+        }
+      },
+      {
+        "description": {
+          "en": "Complex multi-property, multi-carrier accounts require ongoing coverage-gap monitoring as portfolios grow, and errors expose the broker to real errors & omissions liability.",
+          "ro": "Conturile complexe, multi-proprietate, multi-asigurător, necesită monitorizare continuă, a lacunelor de acoperire, pe măsură ce portofoliile cresc, iar erorile, expun brokerul, la o răspundere reală, de erori și omisiuni."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Run a documented annual coverage-gap review for every multi-property client as portfolios grow.",
+          "ro": "Rulează o revizuire anuală, documentată, a lacunelor de acoperire, pentru fiecare client multi-proprietate, pe măsură ce portofoliile cresc."
+        }
+      },
+      {
+        "description": {
+          "en": "Hard-market cycles in property insurance, driven by climate-related catastrophe losses, can suddenly restrict carrier appetite for landlord risks, forcing rapid re-marketing of a client's entire portfolio.",
+          "ro": "Ciclurile de piață dificilă, în asigurarea de proprietăți, determinate de pierderi din catastrofe legate de climă, pot restricționa brusc, apetitul asigurătorilor, pentru riscurile de proprietari, forțând re-comercializarea rapidă, a întregului portofoliu, al unui client."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Maintain relationships with multiple admitted and surplus-lines carriers so a single carrier's appetite shift doesn't strand a client's entire book.",
+          "ro": "Menține relații, cu mai mulți asigurători admiși, și de excedent, astfel încât o schimbare, de apetit, a unui singur asigurător, să nu blocheze, întreaga carte, a unui client."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Coverage that keeps up with your growing property portfolio — a specialist broker who reviews every property for coverage gaps, not a generic quote-comparison site.",
+        "ro": "Acoperire, care ține pasul, cu portofoliul tău de proprietăți, în creștere — un broker specialist, care revizuiește fiecare proprietate, pentru lacune de acoperire, nu un site generic, de comparare a cotațiilor."
+      },
+      "channels": [
+        {
+          "channelType": "landlordAssociationAndRealEstateInvestorPartnerships",
+          "description": {
+            "en": "Partnerships with local landlord associations, real-estate-investor meetups, and property management companies to reach multi-property owners directly.",
+            "ro": "Parteneriate, cu asociații locale de proprietari, grupuri de investitori imobiliari, și companii de administrare a proprietăților, pentru a ajunge direct, la proprietarii cu mai multe proprietăți."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "coverageGapEducationalContent",
+          "description": {
+            "en": "Educational content on common multi-property coverage gaps and umbrella liability, published where landlords and investors already look for guidance.",
+            "ro": "Conținut educațional, despre lacunele comune, de acoperire multi-proprietate, și răspunderea umbrelă, publicat, acolo unde proprietarii, și investitorii, caută deja îndrumare."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "propertyManagementSoftwareIntegrationPartnerships",
+          "description": {
+            "en": "Listing as a preferred insurance partner inside property-management software platforms as a supplemental, experimental acquisition channel.",
+            "ro": "Listare, ca partener de asigurare preferat, în cadrul platformelor software, de administrare a proprietăților, ca un canal de achiziție suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "A relationship-driven brokerage targeting a specific, findable community (local landlords and real-estate investors) rather than a broad consumer market.",
+        "ro": "Un brokeraj, condus de relații, care vizează o comunitate specifică, ușor de găsit (proprietari locali, și investitori imobiliari), nu o piață largă, de consumatori."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A portfolio coverage-gap review assesses every property a landlord owns against their current policies before recommending a consolidated, multi-carrier placement.",
+        "ro": "O revizuire, a lacunelor de acoperire, ale portofoliului, evaluează fiecare proprietate, deținută de un proprietar, față de polițele sale curente, înainte de a recomanda o plasare consolidată, multi-asigurător."
+      },
+      "salesCycleLengthDays": 21,
+      "pricingModel": {
+        "en": "Commission-based (10-15% of premium) from admitted carriers on bound landlord and umbrella policies, paid by the carrier — no direct fee to the client for standard placements — plus a flat €200-€500 surplus-lines broker fee for hard-to-place risks placed with excess and surplus (E&S) carriers.",
+        "ro": "Bazat pe comision (10-15% din primă), de la asigurători admiși, pe polițele legate, de proprietar de chirii, și umbrelă, plătit de asigurător — fără taxă directă, pentru client, la plasările standard — plus o taxă fixă, de broker, pe piața de excedent, de 200-500 €, pentru riscurile greu de plasat, plasate, la asigurători de excedent și surplus (E&S)."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "A multi-property portfolio review requires real technical work to assess coverage gaps across several properties and carriers, more involved than a single-policy personal-lines quote.",
+        "ro": "O revizuire, a portofoliului multi-proprietate, necesită muncă tehnică reală, pentru a evalua lacunele de acoperire, în mai multe proprietăți, și asigurători, mai implicată, decât o cotație, pentru o singură poliță, de linii personale."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Portfolio coverage-gap review and multi-carrier quote comparison for each landlord client.",
+          "ro": "Revizuirea lacunelor de acoperire, ale portofoliului, și compararea cotațiilor multi-asigurător, pentru fiecare client proprietar."
+        },
+        {
+          "en": "Policy binding, renewal processing, and mid-term policy-change handling as portfolios grow.",
+          "ro": "Legarea poliței, procesarea reînnoirii, și gestionarea modificărilor de poliță, pe termen mediu, pe măsură ce portofoliile cresc."
+        },
+        {
+          "en": "Surplus-lines market access and placement for hard-to-place or non-standard risks.",
+          "ro": "Accesul pe piața de excedent, și plasarea, pentru riscuri greu de plasat, sau non-standard."
+        },
+        {
+          "en": "Claims advocacy support for clients navigating a property claim.",
+          "ro": "Suport de susținere a daunelor, pentru clienții care navighează, o daună de proprietate."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Portfolio reviews, carrier quoting, and renewal processing run continuously across the year rather than in a concentrated season, with periodic property site visits for larger or more complex accounts.",
+        "ro": "Revizuirile de portofoliu, cotarea la asigurători, și procesarea reînnoirilor, se desfășoară continuu, pe tot parcursul anului, nu într-un sezon concentrat, cu vizite periodice, la proprietăți, pentru conturile mai mari, sau mai complexe."
+      },
+      "fulfillmentModel": {
+        "en": "A solo licensed broker handling the full client relationship end-to-end at launch, with an account manager or additional producer added as the multi-property client book grows.",
+        "ro": "Un broker atestat, solo, care gestionează integral, relația cu clientul, de la un capăt la altul, la lansare, cu un manager de cont, sau producător suplimentar, adăugat, pe măsură ce cartea de clienți, multi-proprietate, crește."
+      }
+    },
+    "automation": {
+      "level": "moderate",
+      "notes": {
+        "en": "Quoting, policy documentation, and renewal reminders are automated through the agency management system, but coverage-gap review and complex placement decisions remain fully broker-led.",
+        "ro": "Cotarea, documentația poliței, și mementourile de reînnoire, sunt automatizate, prin sistemul de management al agenției, dar revizuirea lacunelor de acoperire, și deciziile complexe de plasare, rămân complet conduse de broker."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "coverageGapDetection",
+          "description": {
+            "en": "AI-assisted comparison of a landlord's current policies against their actual property portfolio to flag likely coverage gaps for broker review.",
+            "ro": "Comparare, asistată de AI, a polițelor curente, ale unui proprietar, față de portofoliul său real, de proprietăți, pentru a semnala, lacune probabile de acoperire, pentru revizuire de către broker."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "Applied Epic",
+        "category": "agencyManagementSystem",
+        "isRequired": true,
+        "websiteUrl": "https://www.appliedsystems.com/en-us/products/applied-epic"
+      },
+      {
+        "name": "Ivans Exchange",
+        "category": "carrierConnectivityAndQuoting",
+        "isRequired": true,
+        "websiteUrl": "https://www.ivansinsurance.com/"
+      },
+      {
+        "name": "Canopy Connect",
+        "category": "clientInsuranceDataAggregation",
+        "isRequired": false,
+        "websiteUrl": "https://www.canopyconnect.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30,
+      "notes": {
+        "en": "Growth compounds as existing landlord clients acquire more properties and refer other investors within the same local landlord network.",
+        "ro": "Creșterea se compune, pe măsură ce clienții proprietari existenți, achiziționează mai multe proprietăți, și recomandă alți investitori, în cadrul aceleiași rețele locale, de proprietari."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Build deep relationships within one local landlord and real-estate-investor community first, then expand into adjacent geographic markets or add a commercial-property specialization.",
+        "ro": "Construiește mai întâi, relații profunde, în cadrul unei comunități locale, de proprietari, și investitori imobiliari, apoi extinde-te, în piețe geografice adiacente, sau adaugă o specializare, în proprietăți comerciale."
+      },
+      "bottlenecks": [
+        {
+          "en": "Surplus-lines carrier relationships take real time to build and are essential for placing the hardest-to-insure properties.",
+          "ro": "Relațiile, cu asigurătorii de excedent, necesită timp real, pentru a fi construite, și sunt esențiale, pentru plasarea proprietăților, cele mai greu de asigurat."
+        },
+        {
+          "en": "Portfolio-review capacity per broker gates how many multi-property clients can be served with genuine attention to detail.",
+          "ro": "Capacitatea de revizuire a portofoliului, per broker, limitează câți clienți multi-proprietate, pot fi deserviți, cu atenție reală, la detalii."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 10,
+          "description": {
+            "en": "The brokerage reaches break-even with a stable base of multi-property landlord clients.",
+            "ro": "Brokerajul atinge pragul de rentabilitate, cu o bază stabilă, de clienți proprietari, multi-proprietate."
+          }
+        },
+        {
+          "monthsFromLaunch": 24,
+          "description": {
+            "en": "An account manager or additional producer is added to support a growing client book.",
+            "ro": "Un manager de cont, sau producător suplimentar, este adăugat, pentru a susține, o carte de clienți, în creștere."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Recurring renewal commission plus contingency and profit-sharing commission from carriers compounds as the client book of multi-property landlords grows.",
+          "ro": "Comisionul recurent, de reînnoire, plus comisionul de contingență, și partajare a profitului, de la asigurători, se compune, pe măsură ce cartea de clienți, proprietari multi-proprietate, crește."
+        }
+      },
+      {
+        "description": {
+          "en": "Surplus-lines market access lets the brokerage place hard-to-insure properties that instant-quote insurtech platforms simply decline, a genuine competitive moat.",
+          "ro": "Accesul pe piața de excedent, permite brokerajului, să plaseze proprietăți greu de asigurat, pe care platformele insurtech, cu cotație instantanee, pur și simplu, le refuză, un adevărat șanț competitiv."
+        }
+      },
+      {
+        "description": {
+          "en": "A growing property portfolio naturally grows the premium volume placed through the same broker relationship without requiring new client acquisition.",
+          "ro": "Un portofoliu de proprietăți, în creștere, crește natural, volumul de prime, plasat, prin aceeași relație de broker, fără a necesita achiziția de clienți noi."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "An independent property & casualty insurance brokerage specializing in landlord and rental-property portfolios, combining admitted-carrier commission with surplus-lines broker fees for hard-to-place risks. Educational business-planning content only — not insurance, coverage, or claims advice.",
+        "ro": "Un brokeraj independent de asigurări de proprietate și accidente, specializat, în portofolii de proprietari și proprietăți de închiriat, care combină comisionul, de la asigurători admiși, cu taxe de broker, pe piața de excedent, pentru riscuri greu de plasat. Doar conținut educațional, de planificare a afacerii — nu este consultanță de asigurare, acoperire, sau daune."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.independentPcInsuranceBrokerage.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.independentPcInsuranceBrokerage.businessDna.resources.community1"
+      },
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.independentPcInsuranceBrokerage.businessDna.resources.book1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.independentPcInsuranceBrokerage.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert a healthy share of landlord portfolio-review requests into bound policies.",
+          "ro": "Transformă o pondere sănătoasă, din solicitările de revizuire, a portofoliului de proprietari, în polițe legate."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep year-over-year policy-renewal rate high among multi-property landlord clients.",
+          "ro": "Menține rata de reînnoire, a polițelor, de la an la an, ridicată, în rândul clienților proprietari, multi-proprietate."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Maintain gross margin above 60% despite surplus-lines licensing and errors & omissions insurance costs.",
+          "ro": "Menține marja brută, peste 60%, în ciuda costurilor de autorizare, pe piața de excedent, și asigurării de erori și omisiuni."
+        }
+      },
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert at least half of qualified portfolio-review consultations into a bound multi-carrier placement.",
+          "ro": "Transformă cel puțin jumătate, din consultațiile calificate, de revizuire a portofoliului, într-o plasare legată, multi-asigurător."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "sales",
+          "importance": 4
+        },
+        {
+          "key": "negotiation",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "finance",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "detailOriented",
+          "importance": 5
+        },
+        {
+          "trait": "analytical",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "persistent",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 12000,
+        "max": 28000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 15000,
+        "max": 24000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 30,
+        "maxWeeklyHours": 45
+      },
+      "communicationStyle": [
+        "precise",
+        "consultative"
+      ],
+      "technicalLevel": 3,
+      "leadershipLevel": 2,
+      "creativityLevel": 1,
+      "salesAffinity": 4,
+      "automationAffinity": 3,
+      "remotePreference": "hybrid",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theSpecialist",
+        "theConnector"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the landlord/rental-property niche and surplus-lines market access in the Executive Summary and Offer Architecture — the clearest differentiators from the general personal-lines brokerage elsewhere in this category.",
+      "ro": "Evidențiază nișa de proprietari/proprietăți de închiriat, și accesul pe piața de excedent, în Rezumatul executiv, și Arhitectura ofertei — cei mai clari diferențiatori, față de brokerajul general, de linii personale, din altă parte, a acestei categorii."
+    },
+    "marketingHints": {
+      "en": "This is regulated insurance-sales content — keep all marketing framed as business-planning guidance for running the brokerage, never as actual coverage or claims advice.",
+      "ro": "Acesta este conținut reglementat, de vânzare de asigurări — menține tot marketingul, încadrat, ca îndrumare de planificare a afacerii, pentru gestionarea brokerajului, niciodată ca sfat real, de acoperire sau daune."
+    },
+    "financialHints": {
+      "en": "Model revenue as admitted-carrier commission plus a surplus-lines broker fee for hard-to-place risks, and treat insurtech disintermediation as a real, ongoing competitive risk to plan around.",
+      "ro": "Modelează veniturile ca fiind comision, de la asigurători admiși, plus o taxă de broker, pe piața de excedent, pentru riscuri greu de plasat, și tratează dezintermedierea insurtech, ca un risc competitiv real, continuu, pentru care trebuie planificat."
+    },
+    "generationHints": {
+      "en": "Keep generated tone precise and consultative, grounded in real multi-property coverage-gap specifics — never generic insurance-shopping stock phrases.",
+      "ro": "Menține un ton generat, precis și consultativ, fundamentat pe detalii reale, de lacune de acoperire, multi-proprietate — niciodată fraze generice, despre cumpărarea de asigurări."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Obtain P&C and surplus-lines licensing and set up the agency management system with initial carrier appointments.",
+            "ro": "Obține autorizarea P&C, și pe piața de excedent, și configurează sistemul de management al agenției, cu contractele inițiale, de asigurători."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Underestimating how long surplus-lines licensing and carrier appointment approval takes relative to standard admitted-carrier appointments.",
+            "ro": "Subestimarea duratei, de autorizare pe piața de excedent, și aprobare a contractelor de asigurători, față de contractele standard, cu asigurători admiși."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Start the surplus-lines licensing and carrier-appointment process well before the planned launch date.",
+            "ro": "Începe procesul de autorizare, pe piața de excedent, și contractare cu asigurători, cu mult timp înainte, de data de lansare planificată."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.independentPcInsuranceBrokerage.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Complete portfolio coverage-gap reviews for the first 10-15 landlord clients, even at a discounted introductory rate.",
+            "ro": "Finalizează revizuiri, ale lacunelor de acoperire, ale portofoliului, pentru primii 10-15 clienți proprietari, chiar și la un preț introductiv, redus."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Only reviewing a landlord's most recently acquired property instead of their full multi-property portfolio.",
+            "ro": "Revizuirea, doar a celei mai recente proprietăți, achiziționate, de un proprietar, în loc de întregul său portofoliu, multi-proprietate."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a standardized portfolio-intake checklist covering every property a landlord owns before the first review.",
+            "ro": "Construiește o listă de verificare, standardizată, de preluare a portofoliului, care acoperă fiecare proprietate, deținută de un proprietar, înainte de prima revizuire."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Standardize the portfolio-review-to-bound-placement workflow across admitted and surplus-lines carriers.",
+            "ro": "Standardizează fluxul, de la revizuirea portofoliului, la plasarea legată, în asigurători admiși, și de excedent."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Only quoting with admitted carriers and missing hard-to-place risks that require surplus-lines access.",
+            "ro": "Cotarea, doar cu asigurători admiși, și ratarea riscurilor, greu de plasat, care necesită acces, pe piața de excedent."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm surplus-lines quoting capability is working end-to-end before actively marketing to landlords with harder-to-insure properties.",
+            "ro": "Confirmă, că funcționalitatea de cotare, pe piața de excedent, funcționează, de la un capăt la altul, înainte de a promova activ, către proprietari, cu proprietăți mai greu de asigurat."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.independentPcInsuranceBrokerage.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Announce availability within local landlord association and real-estate-investor community channels.",
+            "ro": "Anunță disponibilitatea, în canalele locale, ale asociației de proprietari, și comunității de investitori imobiliari."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Marketing with generic personal-insurance messaging instead of landlord-specific coverage-gap content.",
+            "ro": "Promovarea, cu mesaje generice, de asigurare personală, în loc de conținut specific, despre lacune de acoperire, pentru proprietari."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Publish content on the specific coverage gaps multi-property landlords commonly miss before launching broader marketing.",
+            "ro": "Publică conținut, despre lacunele specifice de acoperire, pe care proprietarii multi-proprietate, le ratează frecvent, înainte de a lansa marketing mai amplu."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Bind the first multi-carrier landlord placement and confirm renewal-reminder workflows are working.",
+            "ro": "Leagă prima plasare, multi-asigurător, de proprietar, și confirmă, că fluxurile de memento, de reînnoire, funcționează."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not confirming renewal-reminder timelines with the client, risking a lapse in coverage.",
+            "ro": "Neconfirmarea, termenelor de memento, de reînnoire, cu clientul, riscând o întrerupere, a acoperirii."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm each policy's renewal date and reminder schedule directly with the client at binding.",
+            "ro": "Confirmă, data de reînnoire, și programul de memento, ale fiecărei polițe, direct cu clientul, la legarea poliței."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable base of multi-property landlord clients with a documented, healthy renewal rate.",
+            "ro": "Atinge o bază stabilă, de clienți proprietari, multi-proprietate, cu o rată de reînnoire, documentată, sănătoasă."
+          }
+        ],
+        "kpis": [
+          "customerRetention",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding marketing spend before confirming the core landlord niche produces a healthy renewal rate.",
+            "ro": "Extinderea cheltuielilor de marketing, înainte de a confirma, că nișa de bază, de proprietari, produce o rată de reînnoire, sănătoasă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track renewal rate by client segment monthly to confirm the landlord niche is performing before broader expansion.",
+            "ro": "Urmărește lunar, rata de reînnoire, pe segment de client, pentru a confirma, că nișa de proprietari, funcționează, înainte de o extindere mai amplă."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Grow referrals within existing landlord and real-estate-investor networks as the primary acquisition lever.",
+            "ro": "Crește recomandările, în rețelele existente, de proprietari, și investitori imobiliari, ca principală pârghie de achiziție."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not actively asking satisfied landlord clients for referrals within their own investor networks.",
+            "ro": "Nesolicitarea activă, a recomandărilor, de la clienți proprietari, mulțumiți, în cadrul propriilor lor rețele de investitori."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a simple, consistent referral-ask into every annual policy-review conversation.",
+            "ro": "Construiește o solicitare de recomandare, simplă, consistentă, în fiecare conversație anuală, de revizuire a poliței."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.independentPcInsuranceBrokerage.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Add an account manager or additional producer to support a growing multi-property client book.",
+            "ro": "Adaugă un manager de cont, sau producător suplimentar, pentru a susține, o carte de clienți, multi-proprietate, în creștere."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring additional producers before confirming the coverage-gap-review process is documented well enough to train someone else on it.",
+            "ro": "Angajarea de producători suplimentari, înainte de a confirma, că procesul de revizuire, a lacunelor de acoperire, este documentat, suficient de bine, pentru a instrui pe altcineva, în privința lui."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document the full portfolio-review process as a training playbook before hiring an additional producer.",
+            "ro": "Documentează întregul proces, de revizuire a portofoliului, ca un playbook de instruire, înainte de a angaja, un producător suplimentar."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into an adjacent geographic market or add a commercial-property specialization based on client demand.",
+            "ro": "Extinde-te, într-o piață geografică adiacentă, sau adaugă o specializare, în proprietăți comerciale, pe baza cererii clienților."
+          }
+        ],
+        "kpis": [
+          "arr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding into a new specialization without confirming real carrier appetite and licensing requirements for it first.",
+            "ro": "Extinderea, într-o nouă specializare, fără a confirma, mai întâi, apetitul real, al asigurătorilor, și cerințele de autorizare, pentru aceasta."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm carrier appetite and licensing requirements for a new specialization before marketing it to clients.",
+            "ro": "Confirmă apetitul asigurătorilor, și cerințele de autorizare, pentru o nouă specializare, înainte de a o promova, către clienți."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the client book, carrier relationships, and renewal history to package the brokerage for sale.",
+            "ro": "Documentează cartea de clienți, relațiile cu asigurătorii, și istoricul de reînnoire, pentru a pregăti brokerajul, pentru vânzare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping carrier relationships and client renewal history undocumented and founder-dependent.",
+            "ro": "Menținerea relațiilor, cu asigurătorii, și istoricului de reînnoire, al clienților, nedocumentate, și dependente de fondator."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, ongoing client and carrier-relationship records rather than reconstructing them before a sale.",
+            "ro": "Menține evidențe curate, continue, ale clienților, și relațiilor cu asigurătorii, în loc să le reconstruiești, înainte de o vânzare."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,931 @@
+{
+  "identity": {
+    "id": "df6636b4-26de-47f8-b8bc-6c85ac9c156b",
+    "slug": "luxury-honeymoon-planning-agency",
+    "version": "1.0.0",
+    "name": {
+      "en": "Aisle & Away",
+      "ro": "Aisle & Away"
+    },
+    "tagline": {
+      "en": "Your wedding ends. The honeymoon shouldn't feel like an afterthought.",
+      "ro": "Nunta se termină. Luna de miere, nu ar trebui, să se simtă ca o idee ulterioară."
+    },
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theConnector",
+      "theVisionary"
+    ],
+    "summary": {
+      "en": "Best suited to a founder who can build genuine preferred-partner relationships with luxury resorts and DMCs while curating a distinctly romantic, bespoke experience for each couple.",
+      "ro": "Potrivit unui fondator, care poate construi relații reale, de partener preferat, cu resorturi de lux, și DMC-uri, în timp ce curatoriază, o experiență distinct romantică, personalizată, pentru fiecare cuplu."
+    },
+    "minimumExperienceYears": 3
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 15000,
+      "maxInvestment": 35000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 3000,
+      "ongoingMonthlyCostMax": 8000,
+      "notes": {
+        "en": "Covers luxury-travel booking software, preferred-partner-network membership fees, familiarization-trip travel, and premium branding/photography — a Medium budget tier, driven by luxury-positioning investment rather than physical business infrastructure.",
+        "ro": "Acoperă software-ul de rezervare, pentru călătorii de lux, taxele de membru, ale rețelei de parteneri preferați, călătoriile de familiarizare, și brandingul/fotografia premium — un nivel de buget mediu, determinat de investiția în poziționarea de lux, nu de infrastructura fizică a afacerii."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "luxuryTravelBookingSoftware",
+          "label": {
+            "en": "Luxury-itinerary booking and proposal-design software setup",
+            "ro": "Configurarea software-ului, de rezervare a itinerariului de lux, și proiectare a propunerii"
+          },
+          "typicalMin": 3000,
+          "typicalMax": 7000
+        },
+        {
+          "key": "preferredPartnerNetworkMembership",
+          "label": {
+            "en": "Luxury travel-network membership and preferred-partner program qualification",
+            "ro": "Membrul, în rețeaua de călătorii de lux, și calificarea, în programul de partener preferat"
+          },
+          "typicalMin": 5000,
+          "typicalMax": 12000
+        },
+        {
+          "key": "familiarizationTripsAndBranding",
+          "label": {
+            "en": "Familiarization trips to luxury resorts and premium branding/photography",
+            "ro": "Călătorii de familiarizare, la resorturi de lux, și branding/fotografie premium"
+          },
+          "typicalMin": 7000,
+          "typicalMax": 16000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "luxuryNetworkMembershipDues",
+          "label": {
+            "en": "Ongoing luxury travel-network membership dues",
+            "ro": "Cotizații continue, de membru, în rețeaua de călătorii de lux"
+          },
+          "typicalMonthlyMin": 500,
+          "typicalMonthlyMax": 1500
+        },
+        {
+          "key": "familiarizationTripReserve",
+          "label": {
+            "en": "Ongoing familiarization-trip travel budget to maintain resort and DMC relationships",
+            "ro": "Buget continuu, de călătorii de familiarizare, pentru a menține relațiile cu resorturile, și DMC-urile"
+          },
+          "typicalMonthlyMin": 1500,
+          "typicalMonthlyMax": 4500
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "planningFee",
+          "label": {
+            "en": "Upfront planning fee for a fully bespoke honeymoon itinerary",
+            "ro": "Onorariu de planificare, plătit din start, pentru un itinerariu de lună de miere, complet personalizat"
+          }
+        },
+        {
+          "key": "supplierCommissionMarkup",
+          "label": {
+            "en": "Commission or markup earned from luxury resort, DMC, and airline bookings",
+            "ro": "Comision sau marjă, câștigate din rezervările, la resorturi de lux, DMC-uri, și companii aeriene"
+          }
+        },
+        {
+          "key": "preferredPartnerAmenityUpsells",
+          "label": {
+            "en": "Optional add-on experiences (private dinners, spa packages, sunset cruises) sourced through preferred partners",
+            "ro": "Experiențe suplimentare, opționale (cine private, pachete spa, croaziere la apus), procurate, prin parteneri preferați"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 6000,
+      "targetMonthlyIncomeMax": 22000,
+      "breakEvenTimelineMonths": 12,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "The planning fee is collected upfront, but the larger supplier commission is only earned once the full trip is booked and paid for, typically several months before travel.",
+        "ro": "Onorariul de planificare, este colectat din start, dar comisionul mai mare, de la furnizori, este câștigat, doar odată ce călătoria completă, este rezervată, și plătită, de obicei, cu câteva luni, înainte de călătorie."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "occasional",
+    "onlineOffline": "hybrid",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 30,
+    "maxWeeklyHours": 45,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 5
+      },
+      {
+        "key": "marketing",
+        "rating": 5
+      },
+      {
+        "key": "leadership",
+        "rating": 3
+      },
+      {
+        "key": "communication",
+        "rating": 8
+      },
+      {
+        "key": "negotiation",
+        "rating": 6
+      },
+      {
+        "key": "finance",
+        "rating": 3
+      },
+      {
+        "key": "operations",
+        "rating": 5
+      },
+      {
+        "key": "technology",
+        "rating": 3
+      },
+      {
+        "key": "automation",
+        "rating": 2
+      },
+      {
+        "key": "ai",
+        "rating": 2
+      },
+      {
+        "key": "programming",
+        "rating": 1
+      },
+      {
+        "key": "management",
+        "rating": 3
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 30
+      },
+      {
+        "key": "visionary",
+        "score": 55
+      },
+      {
+        "key": "operator",
+        "score": 35
+      },
+      {
+        "key": "creator",
+        "score": 55
+      },
+      {
+        "key": "seller",
+        "score": 50
+      },
+      {
+        "key": "leader",
+        "score": 25
+      },
+      {
+        "key": "analyst",
+        "score": 25
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": false,
+    "requiresTravel": true,
+    "isOnlineBusiness": false,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": true,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate",
+      "notes": {
+        "en": "Growth is bounded by how many bespoke, high-touch itineraries one planner can curate with genuine attention to detail, with a second planner as the main lever beyond that.",
+        "ro": "Creșterea este limitată, de câte itinerarii personalizate, cu contact ridicat, poate curatoria, un singur planificator, cu atenție reală, la detalii, un al doilea planificator, fiind principala pârghie, dincolo de aceasta."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "Requires genuine, hard-won relationships with luxury resorts and DMCs to access the preferred-partner upgrades and amenities that justify using a planner over booking direct.",
+        "ro": "Necesită relații reale, greu câștigate, cu resorturi de lux, și DMC-uri, pentru a accesa upgrade-urile, și facilitățile, de partener preferat, care justifică folosirea unui planificator, față de rezervarea directă."
+      }
+    },
+    "aiResistance": {
+      "level": "high",
+      "notes": {
+        "en": "Bespoke, relationship-driven luxury curation and access to preferred-partner amenities require genuine human relationships that generic AI trip-planning tools cannot replicate.",
+        "ro": "Curatorierea, de lux, bazată pe relații, personalizată, și accesul, la facilitățile de partener preferat, necesită relații umane reale, pe care instrumentele generice, de planificare a călătoriilor, AI, nu le pot replica."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Luxury DMC and resort preferred-partner relationships take years to build and are essential for securing the complimentary upgrades and amenities that justify using a planner over booking direct.",
+          "ro": "Relațiile, de partener preferat, cu DMC-uri de lux, și resorturi, necesită ani, pentru a fi construite, și sunt esențiale, pentru asigurarea upgrade-urilor, și facilităților gratuite, care justifică folosirea unui planificator, față de rezervarea directă."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Prioritize familiarization trips and consistent booking volume with a focused set of luxury partners rather than spreading thin across many.",
+          "ro": "Prioritizează călătoriile de familiarizare, și volumul constant de rezervare, cu un set concentrat, de parteneri de lux, în loc să te dispersezi, la mulți."
+        }
+      },
+      {
+        "description": {
+          "en": "Economic downturns can compress the luxury-travel discretionary budget faster than mid-market travel spending.",
+          "ro": "Recesiunile economice, pot comprima bugetul discreționar, de călătorii de lux, mai rapid, decât cheltuielile de călătorie, mid-market."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Diversify the client base across a range of luxury price points rather than depending entirely on the highest-tier bookings.",
+          "ro": "Diversifică baza de clienți, pe o gamă de niveluri de preț de lux, în loc să depinzi, în întregime, de rezervările de cel mai înalt nivel."
+        }
+      },
+      {
+        "description": {
+          "en": "Online luxury travel concierge apps and hotel loyalty programs increasingly offer some of the same perks directly, threatening the value proposition for price-sensitive luxury travelers.",
+          "ro": "Aplicațiile de conciergerie, pentru călătorii de lux, online, și programele de fidelitate ale hotelurilor, oferă, tot mai mult, unele dintre aceleași avantaje, direct, amenințând, propunerea de valoare, pentru călătorii de lux, sensibili la preț."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Lead with bespoke, full-trip curation and hands-on problem-solving during travel, not just perk-matching, as the core differentiated value.",
+          "ro": "Începe cu curatorierea completă, personalizată, a călătoriei, și rezolvarea practică, a problemelor, în timpul călătoriei, nu doar potrivirea avantajelor, ca valoare centrală diferențiată."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Your wedding ends. The honeymoon shouldn't feel like an afterthought. — bespoke luxury honeymoon planning built on real preferred-partner relationships, not a generic booking-site itinerary.",
+        "ro": "Nunta se termină. Luna de miere, nu ar trebui, să se simtă ca o idee ulterioară. — planificare de lună de miere de lux, personalizată, construită pe relații reale, de partener preferat, nu un itinerariu, de pe un site generic, de rezervare."
+      },
+      "channels": [
+        {
+          "channelType": "weddingIndustryVendorPartnerships",
+          "description": {
+            "en": "Referral partnerships with wedding planners, photographers, and bridal boutiques who work with the exact engaged-couple audience this agency serves.",
+            "ro": "Parteneriate de recomandare, cu planificatori de nunți, fotografi, și boutique-uri de mireasă, care lucrează, cu exact publicul de cupluri logodite, pe care această agenție îl deservește."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "luxuryTravelContentAndRegistryPartnerships",
+          "description": {
+            "en": "Curated luxury-destination content and partnerships with honeymoon-fund registry platforms as a secondary discovery channel.",
+            "ro": "Conținut curatoriat, despre destinații de lux, și parteneriate, cu platforme de fond, pentru lună de miere, ca și canal secundar, de descoperire."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "destinationWeddingPlannerCrossReferralNetwork",
+          "description": {
+            "en": "A cross-referral network with destination wedding planners as a supplemental, experimental acquisition channel.",
+            "ro": "O rețea de recomandare, încrucișată, cu planificatori de nunți, la destinație, ca un canal de achiziție suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "A relationship-driven agency reaching a well-defined audience (recently engaged couples) primarily through the existing wedding-vendor ecosystem, not broad consumer advertising.",
+        "ro": "O agenție, condusă de relații, care ajunge, la un public bine definit (cupluri recent logodite), în principal, prin ecosistemul existent, de furnizori de nuntă, nu prin publicitate largă, de consum."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A complimentary discovery call uncovers the couple's vision, budget, and travel style before a fully curated proposal is presented, building trust before any commitment.",
+        "ro": "Un apel de descoperire, gratuit, dezvăluie viziunea, bugetul, și stilul de călătorie, ale cuplului, înainte ca o propunere, complet personalizată, să fie prezentată, construind încredere, înainte de orice angajament."
+      },
+      "salesCycleLengthDays": 21,
+      "pricingModel": {
+        "en": "€800-€1,500 upfront planning fee for a fully bespoke itinerary, plus a 10-15% commission or markup built into luxury trips typically priced €8,000-€25,000+ per couple for a 7-10 day honeymoon.",
+        "ro": "Onorariu de planificare, plătit din start, de 800-1.500 €, pentru un itinerariu complet personalizat, plus un comision, sau marjă, de 10-15%, inclusă, în călătorii de lux, tarifate de obicei, la 8.000-25.000 €+, per cuplu, pentru o lună de miere, de 7-10 zile."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "A large, emotionally significant purchase requires real trust-building through the discovery process, though the sales cycle is shorter than a highly technical B2B sale.",
+        "ro": "O achiziție mare, semnificativă emoțional, necesită construirea reală, a încrederii, prin procesul de descoperire, deși ciclul de vânzări, este mai scurt, decât o vânzare B2B, foarte tehnică."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Discovery calls and bespoke itinerary proposal design for each couple.",
+          "ro": "Apeluri de descoperire, și proiectarea propunerii, de itinerariu personalizat, pentru fiecare cuplu."
+        },
+        {
+          "en": "Preferred-partner booking, upgrade negotiation, and travel-document coordination.",
+          "ro": "Rezervare, la parteneri preferați, negocierea upgrade-urilor, și coordonarea documentelor de călătorie."
+        },
+        {
+          "en": "Ongoing familiarization-trip relationship maintenance with luxury resorts and DMCs.",
+          "ro": "Menținerea continuă, a relațiilor, prin călătorii de familiarizare, cu resorturi de lux, și DMC-uri."
+        },
+        {
+          "en": "Real-time, hands-on travel support during the couple's actual honeymoon.",
+          "ro": "Suport de călătorie, practic, în timp real, în timpul lunii de miere reale, a cuplului."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Discovery calls, itinerary design, and preferred-partner booking run continuously, with a concentrated seasonal peak following engagement season (typically late Q4 through Q1) and periodic familiarization trips to maintain resort and DMC relationships.",
+        "ro": "Apelurile de descoperire, proiectarea itinerariului, și rezervarea, la parteneri preferați, se desfășoară continuu, cu un vârf sezonier concentrat, ce urmează sezonul de logodne (de obicei, sfârșitul T4, până în T1), și călătorii periodice de familiarizare, pentru a menține relațiile cu resorturile, și DMC-urile."
+      },
+      "fulfillmentModel": {
+        "en": "A solo planner handling the full client relationship end-to-end at launch, from discovery call through in-trip support, with a second planner added once volume exceeds one person's bespoke-attention capacity.",
+        "ro": "Un planificator solo, care gestionează integral, relația cu clientul, de la un capăt la altul, la lansare, de la apelul de descoperire, până la suportul în timpul călătoriei, cu un al doilea planificator, adăugat, odată ce volumul depășește, capacitatea de atenție personalizată, a unei singure persoane."
+      }
+    },
+    "automation": {
+      "level": "low",
+      "notes": {
+        "en": "Itinerary documentation and booking confirmations are automated through the travel-booking platform, but discovery, curation, negotiation, and in-trip support remain fully human-led by design.",
+        "ro": "Documentația itinerariului, și confirmările de rezervare, sunt automatizate, prin platforma de rezervare a călătoriilor, dar descoperirea, curatorierea, negocierea, și suportul, în timpul călătoriei, rămân complet conduse uman, prin design."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "itineraryDraftAssistance",
+          "description": {
+            "en": "AI-assisted first-draft itinerary generation based on a couple's stated preferences, refined and finalized by the planner.",
+            "ro": "Generarea, unui prim proiect, de itinerariu, asistată de AI, pe baza preferințelor declarate, ale cuplului, rafinat, și finalizat, de planificator."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "Axus Travel App",
+        "category": "luxuryItineraryBuildingAndProposalDesign",
+        "isRequired": true,
+        "websiteUrl": "https://www.axustravel.com/"
+      },
+      {
+        "name": "Virtuoso",
+        "category": "luxuryTravelPreferredPartnerNetwork",
+        "isRequired": true,
+        "websiteUrl": "https://www.virtuoso.com/"
+      },
+      {
+        "name": "WeddingWire",
+        "category": "weddingVendorReferralSourcing",
+        "isRequired": false,
+        "websiteUrl": "https://www.weddingwire.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30,
+      "notes": {
+        "en": "Growth is gated by bespoke-attention capacity per planner and the pace of building new luxury preferred-partner relationships, with a second planner as the main lever beyond that.",
+        "ro": "Creșterea este limitată, de capacitatea de atenție personalizată, per planificator, și ritmul de construire, a noilor relații, de partener preferat, de lux, un al doilea planificator, fiind principala pârghie, dincolo de aceasta."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Build deep preferred-partner relationships within a focused set of luxury destinations first, then expand destination breadth or add a second planner once referral volume from wedding-industry partners is consistent.",
+        "ro": "Construiește mai întâi, relații profunde, de partener preferat, într-un set concentrat, de destinații de lux, apoi extinde amplitudinea destinațiilor, sau adaugă un al doilea planificator, odată ce volumul de recomandări, de la parteneri, din industria nunților, este constant."
+      },
+      "bottlenecks": [
+        {
+          "en": "Bespoke-attention capacity per planner hard-caps how many couples can be served with genuine personalization at once.",
+          "ro": "Capacitatea de atenție personalizată, per planificator, plafonează dur, câte cupluri pot fi deservite, cu personalizare reală, simultan."
+        },
+        {
+          "en": "Building new luxury preferred-partner relationships requires real familiarization-trip time and consistent booking volume before upgrades and amenities are reliably granted.",
+          "ro": "Construirea de noi relații, de partener preferat, de lux, necesită timp real, de călătorie de familiarizare, și volum constant de rezervare, înainte ca upgrade-urile, și facilitățile, să fie acordate, în mod fiabil."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 12,
+          "description": {
+            "en": "The agency reaches break-even with a stable base of referring wedding-industry partners and repeat luxury-resort bookings.",
+            "ro": "Agenția atinge pragul de rentabilitate, cu o bază stabilă, de parteneri, din industria nunților, care recomandă, și rezervări repetate, la resorturi de lux."
+          }
+        },
+        {
+          "monthsFromLaunch": 30,
+          "description": {
+            "en": "A second planner is added to extend bespoke-attention capacity as referral volume grows.",
+            "ro": "Un al doilea planificator, este adăugat, pentru a extinde capacitatea de atenție personalizată, pe măsură ce volumul de recomandări, crește."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Preferred-partner relationships with luxury resorts and DMCs secure complimentary upgrades and amenities that a couple booking direct simply can't access.",
+          "ro": "Relațiile, de partener preferat, cu resorturi de lux, și DMC-uri, asigură upgrade-uri, și facilități gratuite, la care un cuplu, care rezervă direct, pur și simplu, nu poate avea acces."
+        }
+      },
+      {
+        "description": {
+          "en": "The wedding-industry vendor referral channel reaches the exact engaged-couple audience at the exact moment they're planning a honeymoon, a far more targeted channel than broad travel advertising.",
+          "ro": "Canalul de recomandare, prin furnizori din industria nunților, ajunge, la exact publicul de cupluri logodite, în exact momentul, în care planifică o lună de miere, un canal mult mai bine țintit, decât publicitatea largă, de călătorii."
+        }
+      },
+      {
+        "description": {
+          "en": "Bespoke, hands-on curation and in-trip support provide genuine peace of mind for a once-in-a-lifetime trip that generic booking platforms and AI trip planners can't replicate.",
+          "ro": "Curatorierea personalizată, practică, și suportul, în timpul călătoriei, oferă liniște sufletească reală, pentru o călătorie, o dată în viață, pe care platformele generice, de rezervare, și planificatorii de călătorii AI, nu o pot replica."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A bespoke luxury honeymoon planning agency for newly engaged couples, built on preferred-partner relationships with luxury resorts and DMCs and a wedding-industry vendor referral channel, distinct in occasion, price tier, and vendor relationships from the adventure-travel agency elsewhere in this category.",
+        "ro": "O agenție de planificare, a lunii de miere, de lux, personalizată, pentru cupluri recent logodite, construită pe relații, de partener preferat, cu resorturi de lux, și DMC-uri, și un canal de recomandare, prin furnizori din industria nunților, distinctă, ca ocazie, nivel de preț, și relații cu furnizorii, de agenția de turism de aventură, din altă parte, a acestei categorii."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.businessDna.resources.community1"
+      },
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.businessDna.resources.book1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert a healthy share of discovery calls into a signed, deposited itinerary.",
+          "ro": "Transformă o pondere sănătoasă, din apelurile de descoperire, într-un itinerariu semnat, cu avans plătit."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep wedding-industry partner referral volume consistent year over year.",
+          "ro": "Menține volumul de recomandări, de la parteneri, din industria nunților, constant, de la an la an."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against familiarization-trip and luxury-network membership costs.",
+          "ro": "Protejează marja brută, împotriva costurilor de călătorii de familiarizare, și membru, în rețeaua de lux."
+        }
+      },
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert at least half of qualified discovery calls into a signed itinerary proposal.",
+          "ro": "Transformă cel puțin jumătate, din apelurile de descoperire, calificate, într-o propunere de itinerariu, semnată."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "communication",
+          "importance": 5
+        },
+        {
+          "key": "negotiation",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "marketing",
+          "importance": 3
+        },
+        {
+          "key": "design",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "creative",
+          "importance": 4
+        },
+        {
+          "trait": "detailOriented",
+          "importance": 5
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "collaborative",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 15000,
+        "max": 35000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 18000,
+        "max": 28000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 30,
+        "maxWeeklyHours": 45
+      },
+      "communicationStyle": [
+        "warm",
+        "polished"
+      ],
+      "technicalLevel": 2,
+      "leadershipLevel": 2,
+      "creativityLevel": 5,
+      "salesAffinity": 4,
+      "automationAffinity": 2,
+      "remotePreference": "hybrid",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theConnector",
+        "theVisionary"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the preferred-partner amenity access and the wedding-industry vendor referral channel in Offer Architecture and Marketing System — the clearest differentiators from the adventure-travel agency elsewhere in this category.",
+      "ro": "Evidențiază accesul, la facilitățile de partener preferat, și canalul de recomandare, prin furnizori din industria nunților, în Arhitectura ofertei, și Sistemul de marketing — cei mai clari diferențiatori, față de agenția de turism de aventură, din altă parte, a acestei categorii."
+    },
+    "marketingHints": {
+      "en": "Lead with real preferred-partner amenities and bespoke curation specifics, never generic 'dream honeymoon' stock phrases.",
+      "ro": "Începe cu facilitățile reale, de partener preferat, și detaliile de curatoriere personalizată, niciodată cu fraze generice, de tipul „luna de miere de vis”."
+    },
+    "financialHints": {
+      "en": "Model revenue as a planning fee plus supplier commission/markup, with a materially higher per-trip price point than the adventure-travel agency elsewhere in this library.",
+      "ro": "Modelează veniturile ca fiind un onorariu de planificare, plus comision/marjă, de la furnizori, cu un preț, per călătorie, semnificativ mai ridicat, decât agenția de turism de aventură, din altă parte, a acestei biblioteci."
+    },
+    "generationHints": {
+      "en": "Keep generated tone warm and polished, grounded in real luxury-destination and preferred-partner specifics — never generic romantic-travel marketing language.",
+      "ro": "Menține un ton generat, cald și rafinat, fundamentat pe detalii reale, de destinație de lux, și partener preferat — niciodată un limbaj generic, de marketing, pentru călătorii romantice."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Join a luxury travel preferred-partner network and complete initial familiarization trips to 2-3 signature destinations.",
+            "ro": "Alătură-te, unei rețele de partener preferat, de călătorii de lux, și finalizează, călătoriile inițiale de familiarizare, la 2-3 destinații semnătură."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Trying to cover too many destinations from day one instead of building deep expertise and relationships in a focused set first.",
+            "ro": "Încercarea de a acoperi, prea multe destinații, din prima zi, în loc să construiești, mai întâi, expertiză și relații profunde, într-un set concentrat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pick 2-3 signature luxury destinations and build deep preferred-partner relationships there before expanding.",
+            "ro": "Alege 2-3 destinații de lux, semnătură, și construiește relații profunde, de partener preferat, acolo, înainte de a te extinde."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.luxuryHoneymoonPlanningAgency.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Plan the first 5-10 honeymoons for couples sourced through initial wedding-industry vendor relationships, even at a discounted planning fee.",
+            "ro": "Planifică primele 5-10 luni de miere, pentru cupluri, procurate, prin relații inițiale, cu furnizori, din industria nunților, chiar și la un onorariu de planificare, redus."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Underpricing the planning fee so heavily that the real curation time involved isn't covered.",
+            "ro": "Subevaluarea prețului, onorariului de planificare, atât de mult, încât timpul real de curatoriere implicat, nu este acoperit."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Time each itinerary curation to build an accurate planning-fee pricing model.",
+            "ro": "Cronometrează fiecare curatoriere de itinerariu, pentru a construi un model de preț, precis, pentru onorariul de planificare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Standardize the discovery-call-to-bespoke-proposal workflow and preferred-partner booking process.",
+            "ro": "Standardizează fluxul, de la apelul de descoperire, la propunerea personalizată, și procesul de rezervare, la parteneri preferați."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Presenting a generic proposal template instead of one genuinely reflecting the specific couple's discovery-call conversation.",
+            "ro": "Prezentarea unei propuneri, cu șablon generic, în loc de una, care reflectă cu adevărat, conversația specifică, din apelul de descoperire, al cuplului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Reference at least 2-3 specific details from the discovery call directly in every proposal.",
+            "ro": "Menționează, cel puțin 2-3 detalii specifice, din apelul de descoperire, direct, în fiecare propunere."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.luxuryHoneymoonPlanningAgency.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Formally launch wedding-industry vendor partnerships with 3-5 wedding planners, photographers, or bridal boutiques.",
+            "ro": "Lansează formal, parteneriate, cu furnizori, din industria nunților, cu 3-5 planificatori de nunți, fotografi, sau boutique-uri de mireasă."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching broad consumer marketing before establishing the wedding-industry referral channel that reaches the exact target audience most efficiently.",
+            "ro": "Lansarea marketingului larg, de consum, înainte de a stabili canalul de recomandare, din industria nunților, care ajunge, cel mai eficient, la exact publicul țintă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Formalize referral partnerships with a small, focused set of wedding-industry vendors before broader marketing.",
+            "ro": "Formalizează parteneriatele de recomandare, cu un set mic, concentrat, de furnizori din industria nunților, înainte de marketing mai amplu."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Deliver the first fully bespoke honeymoon with confirmed preferred-partner upgrades and in-trip support.",
+            "ro": "Livrează prima lună de miere, complet personalizată, cu upgrade-uri, de partener preferat, confirmate, și suport, în timpul călătoriei."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Considering the engagement complete at booking instead of providing active support during the couple's actual trip.",
+            "ro": "Considerarea angajamentului, complet, la rezervare, în loc să oferi suport activ, în timpul călătoriei reale, a cuplului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Check in with the couple at least once during the trip and be reachable for any issue that arises.",
+            "ro": "Verifică, cu cuplul, cel puțin o dată, în timpul călătoriei, și fii disponibil, pentru orice problemă, care apare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable flow of referrals from wedding-industry partners with a consistent close rate.",
+            "ro": "Atinge un flux stabil, de recomandări, de la parteneri, din industria nunților, cu o rată de închidere, consistentă."
+          }
+        ],
+        "kpis": [
+          "leadConversion",
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding to new destinations before the core referral channel and close rate are genuinely stable.",
+            "ro": "Extinderea, la destinații noi, înainte ca, canalul de recomandare de bază, și rata de închidere, să fie cu adevărat stabile."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track referral volume and close rate by wedding-industry partner monthly to identify the strongest relationships.",
+            "ro": "Urmărește lunar, volumul de recomandări, și rata de închidere, pe partener din industria nunților, pentru a identifica, cele mai puternice relații."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Expand the wedding-industry vendor referral network and deepen preferred-partner relationships with existing luxury destinations.",
+            "ro": "Extinde rețeaua de recomandare, prin furnizori din industria nunților, și aprofundează, relațiile de partener preferat, cu destinațiile de lux, existente."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Chasing new destinations before deepening existing preferred-partner relationships enough to secure reliable upgrades.",
+            "ro": "Urmărirea de destinații noi, înainte de a aprofunda, suficient, relațiile existente, de partener preferat, pentru a asigura, upgrade-uri fiabile."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Invest in deepening relationships with existing top-performing luxury partners before adding new destinations.",
+            "ro": "Investește, în aprofundarea relațiilor, cu partenerii de lux, cu cea mai bună performanță, existenți, înainte de a adăuga destinații noi."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.luxuryHoneymoonPlanningAgency.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Add a second planner to extend bespoke-attention capacity as referral volume grows.",
+            "ro": "Adaugă un al doilea planificator, pentru a extinde capacitatea de atenție personalizată, pe măsură ce volumul de recomandări, crește."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring a second planner before the bespoke-curation process is documented well enough to maintain quality consistency.",
+            "ro": "Angajarea unui al doilea planificator, înainte ca, procesul de curatoriere personalizată, să fie documentat, suficient de bine, pentru a menține consistența calității."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document the discovery-to-proposal-to-booking workflow as a training playbook before hiring a second planner.",
+            "ro": "Documentează fluxul, de la descoperire, la propunere, la rezervare, ca un playbook de instruire, înainte de a angaja, un al doilea planificator."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand destination breadth or add a complementary offering (e.g. vow-renewal or anniversary trips) based on client demand.",
+            "ro": "Extinde amplitudinea destinațiilor, sau adaugă o ofertă complementară (de ex. călătorii de reînnoire a jurămintelor, sau aniversare), pe baza cererii clienților."
+          }
+        ],
+        "kpis": [
+          "arr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding into a new offering without confirming real client demand and preferred-partner availability for it first.",
+            "ro": "Extinderea, într-o ofertă nouă, fără a confirma, mai întâi, cererea reală a clienților, și disponibilitatea partenerilor preferați, pentru aceasta."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Survey past clients about interest in a new offering before investing in new preferred-partner relationships to support it.",
+            "ro": "Sondează clienții anteriori, despre interesul, pentru o ofertă nouă, înainte de a investi, în noi relații de partener preferat, pentru a o susține."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the preferred-partner network, wedding-industry referral relationships, and client history to package the agency for sale.",
+            "ro": "Documentează rețeaua de parteneri preferați, relațiile de recomandare, din industria nunților, și istoricul clienților, pentru a pregăti agenția, pentru vânzare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping preferred-partner relationships and referral-source history undocumented and founder-dependent.",
+            "ro": "Menținerea relațiilor, de partener preferat, și istoricului de surse de recomandare, nedocumentate, și dependente de fondator."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, ongoing preferred-partner and referral-source records rather than reconstructing them before a sale.",
+            "ro": "Menține evidențe curate, continue, ale partenerilor preferați, și surselor de recomandare, în loc să le reconstruiești, înainte de o vânzare."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

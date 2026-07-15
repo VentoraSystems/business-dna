@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.uvp.diff1",
+      "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2c",
+    "descriptionTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.painPoints.point1",
+      "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.outcomes.outcome1",
+      "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.brandVoice.attr1",
+      "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.contentPillars.pillar1",
+      "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "weddingIndustryVendorPartnerships",
+      "luxuryTravelContentAndRegistryPartnerships",
+      "destinationWeddingPlannerCrossReferralNetwork"
+    ],
+    "strategyTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "leadConversion",
+      "closeRate"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.marketing.aiMetadata.generationHints"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "curriculumDevelopment",
+      "learningManagementSystemSetup",
+      "admissionsAndMarketingLaunch"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "instructorAndCareerCoachSalaries",
+      "admissionsAndMarketingOperations"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "teachingAssistantContractWages",
+      "cohortMarketingCampaigns"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "upfrontTuitionFee",
+        "label": {
+          "en": "Upfront tuition fee for the full-time immersive cohort",
+          "ro": "Taxă de școlarizare, plătită integral, pentru cohortul intensiv, cu normă întreagă"
+        }
+      },
+      {
+        "key": "incomeShareAgreementCollections",
+        "label": {
+          "en": "Income share agreement (ISA) collections from graduates who land a qualifying job",
+          "ro": "Încasări din acordul de partajare a venitului (ISA), de la absolvenții care obțin un loc de muncă eligibil"
+        }
+      },
+      {
+        "key": "partTimeTrackTuition",
+        "label": {
+          "en": "Upfront tuition for the part-time evenings-and-weekends track",
+          "ro": "Taxă de școlarizare, plătită integral, pentru traseul part-time, seara și în weekend"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "studentsPerCohort": "number",
+      "cohortsPerYear": "number",
+      "isaElectionRatePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "jobPlacementRatePercent": "percent",
+      "isaCollectionRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "upfrontTuitionInflow",
+      "isaCollectionInflow",
+      "instructorPayrollOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 14,
+    "notesTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 55,
+    "notesTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 22,
+    "notesTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "instructorAndTeachingAssistantRecruiting",
+      "careerCoachRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "outcomesReportProduction",
+      "codingCommunityPartnershipDevelopment"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxOnInstructorStaff"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve",
+      "isaDefaultReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "leadConversion",
+      "customerRetention",
+      "grossMargin",
+      "closeRate"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 12000,
+      "notesTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 26000,
+      "notesTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 45000,
+      "notesTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.financial.aiMetadata.generationHints"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "foundingProductAndEngineeringBuild",
+      "cloudAndModelApiCredits",
+      "integrationPartnerDevelopment"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "cloudInfrastructureAndModelUsage",
+      "engineeringAndCustomerSuccessSalaries"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "perWorkflowRunProcessingCost",
+      "communityAndContentMarketing"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "monthlySubscriptionBySeatAndWorkflowRuns",
+        "label": {
+          "en": "Monthly subscription tier priced by seat count and included workflow runs",
+          "ro": "Nivel de abonament lunar, tarifat după numărul de utilizatori, și rulările de flux incluse"
+        }
+      },
+      {
+        "key": "workflowRunOverageFees",
+        "label": {
+          "en": "Per-workflow-run overage fees beyond the plan's included volume",
+          "ro": "Taxe de depășire, per rulare de flux, peste volumul inclus în plan"
+        }
+      },
+      {
+        "key": "enterpriseCustomContracts",
+        "label": {
+          "en": "Custom-priced enterprise contracts with dedicated support and unlimited seats",
+          "ro": "Contracte enterprise cu preț personalizat, cu suport dedicat, și utilizatori nelimitați"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "activePayingSubscribers": "number",
+      "averageRevenuePerAccount": "currency",
+      "freeTrialToPaidConversionRatePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "monthlyChurnRatePercent": "percent",
+      "averageSeatsPerAccount": "number"
+    },
+    "notesTranslationKey": "businessLibrary.nocodeAiWorkflowSaas.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "subscriptionAndOverageInflow",
+      "cloudAndModelUsageOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 22,
+    "notesTranslationKey": "businessLibrary.nocodeAiWorkflowSaas.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 70,
+    "notesTranslationKey": "businessLibrary.nocodeAiWorkflowSaas.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 15,
+    "notesTranslationKey": "businessLibrary.nocodeAiWorkflowSaas.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "foundingEngineerAndDesignerRecruiting",
+      "communityManagerHire"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "templateMarketplaceCuration",
+      "automationEducationContentProduction"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxOnEngineeringStaff"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve",
+      "modelApiPriceIncreaseBuffer"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "mrr",
+      "churn",
+      "netMargin",
+      "leadConversion"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 15000,
+      "notesTranslationKey": "businessLibrary.nocodeAiWorkflowSaas.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 45000,
+      "notesTranslationKey": "businessLibrary.nocodeAiWorkflowSaas.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 90000,
+      "notesTranslationKey": "businessLibrary.nocodeAiWorkflowSaas.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.nocodeAiWorkflowSaas.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.nocodeAiWorkflowSaas.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.nocodeAiWorkflowSaas.financial.aiMetadata.generationHints"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.cohortBasedCodingBootcamp.marketing.uvp.diff1",
+      "businessLibrary.cohortBasedCodingBootcamp.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2c",
+    "descriptionTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.cohortBasedCodingBootcamp.marketing.painPoints.point1",
+      "businessLibrary.cohortBasedCodingBootcamp.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.cohortBasedCodingBootcamp.marketing.outcomes.outcome1",
+      "businessLibrary.cohortBasedCodingBootcamp.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.cohortBasedCodingBootcamp.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.cohortBasedCodingBootcamp.marketing.brandVoice.attr1",
+      "businessLibrary.cohortBasedCodingBootcamp.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.cohortBasedCodingBootcamp.marketing.contentPillars.pillar1",
+      "businessLibrary.cohortBasedCodingBootcamp.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "outcomesTransparencyContent",
+      "codingCommunityAndMeetupPartnerships",
+      "corporateReskillingPartnerReferrals"
+    ],
+    "strategyTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.cohortBasedCodingBootcamp.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.cohortBasedCodingBootcamp.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.cohortBasedCodingBootcamp.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.cohortBasedCodingBootcamp.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "leadConversion",
+      "closeRate"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.cohortBasedCodingBootcamp.marketing.aiMetadata.generationHints"
+  }
+}

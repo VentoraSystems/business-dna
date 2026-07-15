@@ -1,0 +1,944 @@
+{
+  "identity": {
+    "id": "fe94b3cf-3e39-44ed-91ac-a49421b42453",
+    "slug": "nocode-ai-workflow-saas",
+    "version": "1.0.0",
+    "name": {
+      "en": "Flowstack AI",
+      "ro": "Flowstack AI"
+    },
+    "tagline": {
+      "en": "Build AI-powered workflows without writing a line of code.",
+      "ro": "Construiește fluxuri de lucru bazate pe AI, fără să scrii nicio linie de cod."
+    },
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theVisionary",
+      "theOperator"
+    ],
+    "summary": {
+      "en": "Best suited to a founder who can design an intuitive visual product for non-technical users while also running the operational discipline of maintaining dozens of reliable third-party integrations.",
+      "ro": "Potrivit unui fondator, care poate proiecta un produs vizual, intuitiv, pentru utilizatori non-tehnici, și, în același timp, poate conduce disciplina operațională, de menținere, a zeci de integrări terțe, fiabile."
+    },
+    "minimumExperienceYears": 5
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 75000,
+      "maxInvestment": 150000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 20000,
+      "ongoingMonthlyCostMax": 45000,
+      "notes": {
+        "en": "Covers a founding product/engineering team, cloud infrastructure, LLM API usage, and a broader non-technical-buyer marketing motion than a developer-facing product needs — a Very High budget tier, the highest in this library's technology-services category.",
+        "ro": "Acoperă o echipă fondatoare de produs/inginerie, infrastructura cloud, utilizarea API LLM, și o mișcare de marketing mai amplă, pentru un cumpărător non-tehnic, decât are nevoie un produs orientat spre dezvoltatori — un nivel de buget foarte ridicat, cel mai ridicat, din categoria servicii tehnologice, a acestei biblioteci."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "foundingProductAndEngineeringBuild",
+          "label": {
+            "en": "Founding product and engineering time to build the visual builder and core integrations",
+            "ro": "Timp de produs și inginerie fondatoare, pentru construirea constructorului vizual, și integrărilor de bază"
+          },
+          "typicalMin": 35000,
+          "typicalMax": 75000
+        },
+        {
+          "key": "cloudAndModelApiCredits",
+          "label": {
+            "en": "Cloud hosting, workflow-orchestration infrastructure, and initial LLM API credits",
+            "ro": "Găzduire cloud, infrastructură de orchestrare a fluxurilor, și credite API LLM inițiale"
+          },
+          "typicalMin": 15000,
+          "typicalMax": 35000
+        },
+        {
+          "key": "integrationPartnerDevelopment",
+          "label": {
+            "en": "Third-party integration development and app-marketplace listing approval processes",
+            "ro": "Dezvoltarea integrărilor terțe, și procesele de aprobare, pentru listarea în magazinele de aplicații"
+          },
+          "typicalMin": 10000,
+          "typicalMax": 25000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "cloudInfrastructureAndModelUsage",
+          "label": {
+            "en": "Cloud infrastructure, workflow-execution compute, and LLM per-run usage costs",
+            "ro": "Infrastructură cloud, calcul pentru execuția fluxurilor, și costuri de utilizare LLM per rulare"
+          },
+          "typicalMonthlyMin": 8000,
+          "typicalMonthlyMax": 18000
+        },
+        {
+          "key": "engineeringAndCustomerSuccessSalaries",
+          "label": {
+            "en": "Founding-team engineering and customer-success salaries",
+            "ro": "Salarii pentru echipa de inginerie fondatoare, și succes al clienților"
+          },
+          "typicalMonthlyMin": 10000,
+          "typicalMonthlyMax": 22000
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "monthlySubscriptionBySeatAndWorkflowRuns",
+          "label": {
+            "en": "Monthly subscription tier priced by seat count and included workflow runs",
+            "ro": "Nivel de abonament lunar, tarifat după numărul de utilizatori, și rulările de flux incluse"
+          }
+        },
+        {
+          "key": "workflowRunOverageFees",
+          "label": {
+            "en": "Per-workflow-run overage fees beyond the plan's included volume",
+            "ro": "Taxe de depășire, per rulare de flux, peste volumul inclus în plan"
+          }
+        },
+        {
+          "key": "enterpriseCustomContracts",
+          "label": {
+            "en": "Custom-priced enterprise contracts with dedicated support and unlimited seats",
+            "ro": "Contracte enterprise cu preț personalizat, cu suport dedicat, și utilizatori nelimitați"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 15000,
+      "targetMonthlyIncomeMax": 90000,
+      "breakEvenTimelineMonths": 22,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "slow",
+      "notes": {
+        "en": "Self-serve trial-to-paid conversion among non-technical buyers takes longer than a developer-facing product, since the buyer must first learn the visual builder before seeing value.",
+        "ro": "Conversia, de la testare gratuită la plată, prin autoservire, în rândul cumpărătorilor non-tehnici, durează mai mult, decât la un produs orientat spre dezvoltatori, deoarece cumpărătorul trebuie mai întâi, să învețe constructorul vizual, înainte de a vedea valoare."
+      }
+    },
+    "profitMargin": {
+      "level": "high",
+      "notes": {
+        "en": "Once the platform and integration library are built, incremental workflow-run cost is low relative to subscription price, giving strong software-style margins at scale.",
+        "ro": "Odată construite, platforma și biblioteca de integrări, costul incremental, per rulare de flux, este scăzut, față de prețul abonamentului, oferind marje puternice, de tip software, la scară."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "none",
+    "onlineOffline": "online",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 45,
+    "maxWeeklyHours": 60,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 5
+      },
+      {
+        "key": "marketing",
+        "rating": 7
+      },
+      {
+        "key": "leadership",
+        "rating": 6
+      },
+      {
+        "key": "communication",
+        "rating": 6
+      },
+      {
+        "key": "negotiation",
+        "rating": 4
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 6
+      },
+      {
+        "key": "technology",
+        "rating": 8
+      },
+      {
+        "key": "automation",
+        "rating": 8
+      },
+      {
+        "key": "ai",
+        "rating": 7
+      },
+      {
+        "key": "programming",
+        "rating": 7
+      },
+      {
+        "key": "management",
+        "rating": 6
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 70
+      },
+      {
+        "key": "visionary",
+        "score": 80
+      },
+      {
+        "key": "operator",
+        "score": 55
+      },
+      {
+        "key": "creator",
+        "score": 45
+      },
+      {
+        "key": "seller",
+        "score": 40
+      },
+      {
+        "key": "leader",
+        "score": 55
+      },
+      {
+        "key": "analyst",
+        "score": 50
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": true,
+    "isHighlyAutomatable": true,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": true,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "high",
+      "notes": {
+        "en": "A self-serve, template-driven product with community-led growth loops has genuine software-style compounding potential once the core integration library is broad enough to cover most buyers' toolstacks.",
+        "ro": "Un produs cu autoservire, condus de șabloane, cu bucle de creștere conduse de comunitate, are un potențial real, compus, de tip software, odată ce biblioteca de integrări de bază, este suficient de amplă, pentru a acoperi majoritatea stivelor de instrumente, ale cumpărătorilor."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high",
+      "notes": {
+        "en": "Requires both a genuinely intuitive visual-product design for non-technical users and an ongoing engineering investment in a broad, reliable third-party integration library.",
+        "ro": "Necesită atât un design de produs vizual, cu adevărat intuitiv, pentru utilizatori non-tehnici, cât și o investiție continuă, de inginerie, într-o bibliotecă amplă, fiabilă, de integrări terțe."
+      }
+    },
+    "aiResistance": {
+      "level": "low",
+      "notes": {
+        "en": "General-purpose AI agent platforms and chat interfaces are rapidly adding native no-code automation capabilities that could commoditize this product's visual-builder value.",
+        "ro": "Platformele generale, de agenți AI, și interfețele de chat, adaugă rapid, capacități native, de automatizare fără cod, care ar putea transforma în marfă, valoarea de constructor vizual, a acestui produs."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "General-purpose AI agent platforms and chat interfaces are rapidly adding native no-code automation capabilities that could commoditize this product's core value.",
+          "ro": "Platformele generale, de agenți AI, și interfețele de chat, adaugă rapid, capacități native, de automatizare fără cod, care ar putea transforma în marfă, valoarea centrală, a acestui produs."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Differentiate on the depth and reliability of the third-party integration library and on templates purpose-built for specific business functions, not raw AI capability alone.",
+          "ro": "Diferențiază-te prin profunzimea și fiabilitatea bibliotecii de integrări terțe, și șabloanele construite special, pentru funcții specifice de afaceri, nu doar prin capacitatea AI brută."
+        }
+      },
+      {
+        "description": {
+          "en": "Reliance on many third-party API integrations creates ongoing maintenance burden and real breakage risk whenever a partner API changes.",
+          "ro": "Dependența, de multe integrări API terțe, creează o povară continuă, de întreținere, și un risc real, de defectare, ori de câte ori un API partener se schimbă."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Build automated integration-health monitoring and prioritize a smaller set of deeply reliable integrations over broad, shallow coverage.",
+          "ro": "Construiește monitorizare automatizată, a stării integrărilor, și prioritizează un set mai mic, de integrări profund fiabile, în locul unei acoperiri largi, superficiale."
+        }
+      },
+      {
+        "description": {
+          "en": "Non-technical users hitting the ceiling of visual-builder complexity for advanced workflows can churn to a developer-first automation tool.",
+          "ro": "Utilizatorii non-tehnici, care ating plafonul de complexitate, al constructorului vizual, pentru fluxuri avansate, pot abandona, către un instrument de automatizare, orientat spre dezvoltatori."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Add an optional advanced/code-step block for power users so complex workflows don't force a full platform switch.",
+          "ro": "Adaugă un bloc opțional, avansat/de cod, pentru utilizatorii avansați, astfel încât fluxurile complexe, să nu forțeze o schimbare completă, de platformă."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Build AI-powered workflows without writing a line of code — a visual canvas built for operations and marketing teams, not developers.",
+        "ro": "Construiește fluxuri de lucru bazate pe AI, fără să scrii nicio linie de cod — un canvas vizual, construit pentru echipele de operațiuni și marketing, nu pentru dezvoltatori."
+      },
+      "channels": [
+        {
+          "channelType": "templateMarketplaceAndCommunityLedGrowth",
+          "description": {
+            "en": "A public template gallery and an active community sharing and remixing workflow templates, driving organic discovery and signups.",
+            "ro": "O galerie publică, de șabloane, și o comunitate activă, care împărtășește și remixează șabloane de flux, generând descoperire organică, și înscrieri."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "howToAutomateContentAndSeo",
+          "description": {
+            "en": "\"How to automate X without code\" content targeting the specific pain points of operations and marketing roles.",
+            "ro": "Conținut de tipul „cum să automatizezi X, fără cod”, care vizează punctele specifice de durere, ale rolurilor de operațiuni și marketing."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "appMarketplaceListings",
+          "description": {
+            "en": "Listings in partner app marketplaces (e.g. Slack App Directory) as a supplemental, experimental acquisition channel.",
+            "ro": "Listări, în magazinele de aplicații partenere (de ex. Slack App Directory), ca un canal de achiziție suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Reaching non-technical buyers requires more educational content and hand-holding than a self-explanatory developer API, but self-serve template distribution still keeps this below a full enterprise-sales motion.",
+        "ro": "Ajungerea la cumpărători non-tehnici, necesită mai mult conținut educațional, și îndrumare, decât un API de dezvoltatori, auto-explicativ, dar distribuția prin șabloane, cu autoservire, menține totuși aceasta, sub o mișcare completă, de vânzări enterprise."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "Self-serve free trial with an in-app template gallery lets non-technical teams build a first working workflow within minutes, converting to a paid seat-and-run tier once trial limits are reached.",
+        "ro": "Testarea gratuită, cu autoservire, cu o galerie de șabloane, în aplicație, permite echipelor non-tehnice, să construiască un prim flux funcțional, în câteva minute, convertindu-se, la un nivel plătit, de utilizatori și rulări, odată ce limitele de testare sunt atinse."
+      },
+      "salesCycleLengthDays": 21,
+      "pricingModel": {
+        "en": "Starter €39/month (3 seats, 1,000 workflow runs), Team €149/month (10 seats, 10,000 runs), Business €449/month (unlimited seats, 50,000 runs), and custom-priced Enterprise plans with dedicated support.",
+        "ro": "Starter 39 €/lună (3 utilizatori, 1.000 de rulări de flux), Team 149 €/lună (10 utilizatori, 10.000 de rulări), Business 449 €/lună (utilizatori nelimitați, 50.000 de rulări), și planuri Enterprise, cu preț personalizat, cu suport dedicat."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Self-serve tiers require template-driven onboarding rather than a pure sales motion, but larger Business and Enterprise accounts still involve a champion-building sales process.",
+        "ro": "Nivelurile cu autoservire, necesită integrare, condusă de șabloane, nu o mișcare pură de vânzări, dar conturile Business și Enterprise mai mari, implică totuși un proces de vânzări, de construire a unui susținător intern."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Visual-builder product development and AI-action-block expansion.",
+          "ro": "Dezvoltarea produsului constructor vizual, și extinderea blocurilor de acțiune AI."
+        },
+        {
+          "en": "Third-party integration monitoring and maintenance across the connected app ecosystem.",
+          "ro": "Monitorizarea și întreținerea integrărilor terțe, în ecosistemul de aplicații conectate."
+        },
+        {
+          "en": "Template-marketplace curation and community engagement.",
+          "ro": "Curatorierea galeriei de șabloane, și implicarea comunității."
+        },
+        {
+          "en": "Self-serve onboarding support and enterprise account management.",
+          "ro": "Suport de integrare, cu autoservire, și gestionarea conturilor enterprise."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Engineering ships builder and integration improvements, a community/content function curates templates and educational content, and a small customer-success function supports larger accounts and enterprise onboarding.",
+        "ro": "Ingineria livrează îmbunătățiri, ale constructorului și integrărilor, o funcție de comunitate/conținut curatoriază șabloane, și conținut educațional, iar o mică funcție de succes al clienților, susține conturile mai mari, și integrarea enterprise."
+      },
+      "fulfillmentModel": {
+        "en": "A self-serve software product delivered through a visual builder and template gallery, with a founding product/engineering team owning platform reliability and a lean community/success function supporting adoption.",
+        "ro": "Un produs software, cu autoservire, livrat printr-un constructor vizual, și galerie de șabloane, cu o echipă de produs/inginerie fondatoare, care deține fiabilitatea platformei, și o funcție restrânsă, de comunitate/succes, care susține adopția."
+      }
+    },
+    "automation": {
+      "level": "high",
+      "notes": {
+        "en": "Workflow execution, billing, and onboarding are largely automated; only integration-breakage triage and enterprise account support require significant human involvement.",
+        "ro": "Execuția fluxurilor, facturarea, și integrarea, sunt în mare parte automatizate; doar triajul defectărilor de integrare, și suportul conturilor enterprise, necesită implicare umană semnificativă."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "workflowActionBlocks",
+          "description": {
+            "en": "LLM-powered action blocks (summarize, classify, generate, extract) are the product's core value, embedded directly into the visual builder.",
+            "ro": "Blocurile de acțiune, alimentate de LLM (rezumare, clasificare, generare, extracție), sunt valoarea centrală a produsului, integrate direct, în constructorul vizual."
+          },
+          "maturity": "coreToModel"
+        },
+        {
+          "area": "workflowSuggestionAndDebugging",
+          "description": {
+            "en": "AI-assisted suggestions for the next workflow step and plain-language debugging of failed workflow runs.",
+            "ro": "Sugestii, asistate de AI, pentru următorul pas al fluxului, și depanare, în limbaj simplu, a rulărilor de flux eșuate."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "high"
+    },
+    "recommendedTools": [
+      {
+        "name": "Temporal",
+        "category": "workflowOrchestrationEngine",
+        "isRequired": true,
+        "websiteUrl": "https://temporal.io/"
+      },
+      {
+        "name": "Anthropic Claude API",
+        "category": "llmPoweredActionBlocks",
+        "isRequired": true,
+        "websiteUrl": "https://www.anthropic.com/api"
+      },
+      {
+        "name": "Merge",
+        "category": "unifiedThirdPartyIntegrationApi",
+        "isRequired": false,
+        "websiteUrl": "https://www.merge.dev/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "high",
+      "timeHorizonMonths": 36,
+      "notes": {
+        "en": "Template-driven, community-led distribution combined with software-style margins gives genuine compounding growth potential once the core integration library reaches broad enough coverage.",
+        "ro": "Distribuția, condusă de comunitate, bazată pe șabloane, combinată cu marje de tip software, oferă un potențial real, de creștere compusă, odată ce biblioteca de integrări de bază, atinge o acoperire suficient de amplă."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Prove retention on a focused set of high-value workflow templates and integrations first, then expand template and integration breadth while investing in enterprise-tier features.",
+        "ro": "Dovedește mai întâi, retenția, pe un set concentrat, de șabloane de flux, și integrări, cu valoare ridicată, apoi extinde amplitudinea șabloanelor, și integrărilor, investind, în funcții de nivel enterprise."
+      },
+      "bottlenecks": [
+        {
+          "en": "Integration reliability must scale alongside integration breadth without a proportional rise in maintenance engineering effort.",
+          "ro": "Fiabilitatea integrărilor, trebuie să se scaleze, alături de amplitudinea integrărilor, fără o creștere proporțională, a efortului de inginerie, de întreținere."
+        },
+        {
+          "en": "Non-technical buyer education and onboarding gate how fast self-serve trial-to-paid conversion can improve.",
+          "ro": "Educația, și integrarea cumpărătorului non-tehnic, limitează viteza, cu care conversia, de la testare gratuită la plată, prin autoservire, se poate îmbunătăți."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 22,
+          "description": {
+            "en": "The business reaches break-even on a mix of self-serve and early enterprise subscription revenue.",
+            "ro": "Afacerea atinge pragul de rentabilitate, pe un mix de venituri, din abonamente cu autoservire, și enterprise timpurii."
+          }
+        },
+        {
+          "monthsFromLaunch": 36,
+          "description": {
+            "en": "The template marketplace and community reach self-sustaining organic growth, reducing paid-acquisition dependency.",
+            "ro": "Galeria de șabloane, și comunitatea, ating o creștere organică, auto-susținută, reducând dependența, de achiziția plătită."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "A visual builder that a non-technical team can use directly removes the developer-dependency bottleneck that gates adoption of API-first automation tools.",
+          "ro": "Un constructor vizual, pe care o echipă non-tehnică, îl poate folosi direct, elimină blocajul, de dependență de dezvoltatori, care limitează adoptarea, instrumentelor de automatizare, orientate spre API."
+        }
+      },
+      {
+        "description": {
+          "en": "A public template marketplace creates a genuine organic-growth loop as users share and remix workflows, lowering paid-acquisition dependency over time.",
+          "ro": "O galerie publică, de șabloane, creează o buclă reală, de creștere organică, pe măsură ce utilizatorii împărtășesc, și remixează, fluxuri, reducând, în timp, dependența, de achiziția plătită."
+        }
+      },
+      {
+        "description": {
+          "en": "Seat-plus-workflow-run pricing scales naturally with a customer's usage and team size, aligning cost with value more transparently than a flat enterprise license.",
+          "ro": "Prețurile, pe utilizatori, plus rulări de flux, se scalează natural, cu utilizarea, și dimensiunea echipei, unui client, aliniind costul, cu valoarea, mai transparent, decât o licență enterprise fixă."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A visual, drag-and-drop no-code AI workflow builder for non-technical operations and marketing teams, priced on seat-plus-workflow-run subscription tiers, distinct from developer-facing document-extraction APIs elsewhere in this library's technology-services category.",
+        "ro": "Un constructor vizual, de tip drag-and-drop, de fluxuri de lucru AI, fără cod, pentru echipele non-tehnice, de operațiuni și marketing, tarifat, pe niveluri de abonament, utilizatori plus rulări de flux, distinct de API-urile de extracție a documentelor, orientate spre dezvoltatori, din altă parte, a categoriei de servicii tehnologice, a acestei biblioteci."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.nocodeAiWorkflowSaas.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.nocodeAiWorkflowSaas.businessDna.resources.community1"
+      },
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.nocodeAiWorkflowSaas.businessDna.resources.book1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.nocodeAiWorkflowSaas.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "mrr",
+        "targetDescription": {
+          "en": "Grow monthly recurring revenue across self-serve and enterprise tiers.",
+          "ro": "Crește venitul lunar recurent, pe nivelurile de autoservire, și enterprise."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep monthly subscription churn low as the integration library and template gallery mature.",
+          "ro": "Menține pierderea lunară, de abonați, scăzută, pe măsură ce biblioteca de integrări, și galeria de șabloane, se maturizează."
+        }
+      },
+      {
+        "key": "netMargin",
+        "targetDescription": {
+          "en": "Improve net margin as workflow-run volume scales without proportional infrastructure cost growth.",
+          "ro": "Îmbunătățește marja netă, pe măsură ce volumul de rulări de flux, se scalează, fără o creștere proporțională, a costului de infrastructură."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert a healthy share of free-trial signups into paying self-serve subscribers.",
+          "ro": "Transformă o pondere sănătoasă, din înscrierile de testare gratuită, în abonați plătitori, cu autoservire."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "programming",
+          "importance": 4
+        },
+        {
+          "key": "design",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "marketing",
+          "importance": 3
+        },
+        {
+          "key": "content",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "creative",
+          "importance": 5
+        },
+        {
+          "trait": "systemOriented",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "strategic",
+          "importance": 4
+        }
+      ],
+      "requiredBudget": {
+        "min": 75000,
+        "max": 150000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 90000,
+        "max": 130000,
+        "currency": "EUR"
+      },
+      "riskProfile": "high",
+      "timeAvailability": {
+        "minWeeklyHours": 45,
+        "maxWeeklyHours": 60
+      },
+      "communicationStyle": [
+        "approachable",
+        "educational"
+      ],
+      "technicalLevel": 4,
+      "leadershipLevel": 4,
+      "creativityLevel": 5,
+      "salesAffinity": 3,
+      "automationAffinity": 5,
+      "remotePreference": "remote",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theVisionary",
+        "theOperator"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the non-technical-buyer visual-builder positioning and seat-plus-workflow-run pricing in Offer Architecture and Pricing Strategy — the clearest differentiator from the developer-facing document-extraction SaaS elsewhere in this category.",
+      "ro": "Evidențiază poziționarea, de constructor vizual, pentru cumpărători non-tehnici, și prețurile, pe utilizatori plus rulări de flux, în Arhitectura ofertei, și Strategia de prețuri — cel mai clar diferențiator, față de SaaS-ul de extracție a documentelor, orientat spre dezvoltatori, din altă parte, a acestei categorii."
+    },
+    "marketingHints": {
+      "en": "Lead with concrete template examples and non-technical-user success stories, never generic 'AI automation platform' stock phrases.",
+      "ro": "Începe cu exemple concrete de șabloane, și povești de succes, ale utilizatorilor non-tehnici, niciodată cu fraze generice, de tipul „platformă de automatizare AI”."
+    },
+    "financialHints": {
+      "en": "Model revenue as seat-plus-workflow-run subscription tiers with overage billing, and treat foundation-model-native automation as a real, ongoing differentiation risk to plan around.",
+      "ro": "Modelează veniturile, ca niveluri de abonament, pe utilizatori plus rulări de flux, cu facturare de depășire, și tratează automatizarea nativă, a modelelor fundamentale, ca un risc real, continuu, de diferențiere, pentru care trebuie planificat."
+    },
+    "generationHints": {
+      "en": "Keep generated tone approachable and educational, grounded in real template and integration specifics — never generic no-code marketing language that could apply to any workflow tool.",
+      "ro": "Menține un ton generat, accesibil și educațional, fundamentat pe detalii reale, de șablon și integrare — niciodată un limbaj generic, de marketing fără cod, care s-ar putea aplica oricărui instrument de flux."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Build the initial visual builder and 3-5 high-value integrations (e.g. Slack, Gmail, Airtable) covering common operations workflows.",
+            "ro": "Construiește constructorul vizual inițial, și 3-5 integrări, cu valoare ridicată (de ex. Slack, Gmail, Airtable), care acoperă fluxuri comune, de operațiuni."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Trying to support dozens of integrations from day one instead of proving reliability on a focused set first.",
+            "ro": "Încercarea de a susține zeci de integrări, din prima zi, în loc să dovedești mai întâi, fiabilitatea, pe un set concentrat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pick 3-5 high-value integrations covering the most common operations workflows and get them working reliably before expanding.",
+            "ro": "Alege 3-5 integrări, cu valoare ridicată, care acoperă cele mai comune fluxuri de operațiuni, și fă-le să funcționeze fiabil, înainte de a extinde."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.nocodeAiWorkflowSaas.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Get 10-15 design-partner teams building real workflows on the platform via free access.",
+            "ro": "Obține 10-15 echipe partenere de design, care construiesc fluxuri reale, pe platformă, prin acces gratuit."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Only testing with technically comfortable early adopters instead of the genuinely non-technical buyers the product targets.",
+            "ro": "Testarea doar cu adoptanți timpurii, confortabili tehnic, în loc de cumpărătorii cu adevărat non-tehnici, pe care produsul îi vizează."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Recruit design partners specifically from non-technical operations and marketing roles, not developers.",
+            "ro": "Recrutează parteneri de design, specific din roluri non-tehnice, de operațiuni și marketing, nu dezvoltatori."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Ship the self-serve signup flow, in-app template gallery, and seat-plus-run-based billing.",
+            "ro": "Lansează fluxul de înscriere, prin autoservire, galeria de șabloane, în aplicație, și facturarea, bazată pe utilizatori plus rulări."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Launching self-serve signup before the template gallery has enough starting points for a non-technical user to build a first workflow unaided.",
+            "ro": "Lansarea înscrierii, prin autoservire, înainte ca galeria de șabloane, să aibă suficiente puncte de plecare, pentru ca un utilizator non-tehnic, să construiască un prim flux, neasistat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Have a non-technical tester outside the founding team build a working workflow using only the template gallery before public launch.",
+            "ro": "Pune un tester non-tehnic, din afara echipei fondatoare, să construiască un flux funcțional, folosind doar galeria de șabloane, înainte de lansarea publică."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.nocodeAiWorkflowSaas.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Launch publicly with a public template marketplace to drive initial trial signups.",
+            "ro": "Lansează public, cu o galerie publică de șabloane, pentru a genera înscrierile inițiale, de testare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching without a public template gallery, missing the fastest early organic-discovery channel for a visual-builder product.",
+            "ro": "Lansarea, fără o galerie publică de șabloane, ratând cel mai rapid canal, de descoperire organică timpurie, pentru un produs de tip constructor vizual."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Publish the template gallery publicly, discoverable without a login, before the public launch.",
+            "ro": "Publică galeria de șabloane, public, descoperibilă fără autentificare, înainte de lansarea publică."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first design-partner team into a paying self-serve subscriber.",
+            "ro": "Transformă prima echipă parteneră de design, într-un abonat plătitor, cu autoservire."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Letting design partners stay on free access indefinitely instead of converting them to a paid plan.",
+            "ro": "Lăsarea partenerilor de design, pe acces gratuit, la nesfârșit, în loc să-i convertești, la un plan plătit."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Set a clear free-access end date for design partners and transition them to a paid plan with advance notice.",
+            "ro": "Stabilește o dată clară, de încheiere, a accesului gratuit, pentru partenerii de design, și treci-i, la un plan plătit, cu preaviz."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable base of paying self-serve subscribers with a template gallery covering the most common non-technical workflows.",
+            "ro": "Atinge o bază stabilă, de abonați plătitori, cu autoservire, cu o galerie de șabloane, care acoperă cele mai comune fluxuri, non-tehnice."
+          }
+        ],
+        "kpis": [
+          "mrr",
+          "churn"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding integration breadth before the core template gallery proves reliable retention.",
+            "ro": "Extinderea amplitudinii integrărilor, înainte ca galeria de șabloane de bază, să dovedească retenție fiabilă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track monthly churn by template category and fix reliability gaps before adding new integration coverage.",
+            "ro": "Urmărește lunar, pierderea de abonați, pe categorie de șablon, și rezolvă lacunele de fiabilitate, înainte de a adăuga acoperire de integrare nouă."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Grow the community and template marketplace into a self-sustaining organic-growth loop.",
+            "ro": "Extinde comunitatea, și galeria de șabloane, într-o buclă auto-susținută, de creștere organică."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Under-investing in community and template curation while over-indexing on paid acquisition.",
+            "ro": "Subinvestirea, în curatorierea comunității și șabloanelor, în timp ce se supra-indexează, pe achiziția plătită."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Actively feature and reward top community-contributed templates to sustain the organic-growth loop.",
+            "ro": "Evidențiază activ, și recompensează, cele mai bune șabloane, contribuite de comunitate, pentru a susține bucla de creștere organică."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.nocodeAiWorkflowSaas.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Expand the integration library and add enterprise-tier features (SSO, audit logs, dedicated support).",
+            "ro": "Extinde biblioteca de integrări, și adaugă funcții, de nivel enterprise (SSO, jurnale de audit, suport dedicat)."
+          }
+        ],
+        "kpis": [
+          "mrr",
+          "netMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Adding enterprise features before self-serve retention is genuinely stable, diluting focus from the core product.",
+            "ro": "Adăugarea de funcții enterprise, înainte ca retenția, prin autoservire, să fie cu adevărat stabilă, diluând concentrarea, de la produsul de bază."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm stable self-serve retention metrics before allocating meaningful engineering time to enterprise-only features.",
+            "ro": "Confirmă metrici stabile, de retenție, prin autoservire, înainte de a aloca timp semnificativ, de inginerie, funcțiilor exclusiv enterprise."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into adjacent non-technical buyer segments (e.g. HR, finance ops) with purpose-built template collections.",
+            "ro": "Extinde-te, în segmente adiacente, de cumpărători non-tehnici (de ex. HR, operațiuni financiare), cu colecții de șabloane, construite special."
+          }
+        ],
+        "kpis": [
+          "arr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding into a new buyer segment without validating template-market fit with real users in that segment first.",
+            "ro": "Extinderea, într-un segment nou de cumpărători, fără a valida, mai întâi, potrivirea șablon-piață, cu utilizatori reali, din acel segment."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Run a design-partner pilot in each new buyer segment before general availability.",
+            "ro": "Rulează un pilot, cu parteneri de design, în fiecare segment nou de cumpărători, înainte de disponibilitatea generală."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the platform architecture, integration library, and template marketplace metrics for acquisition readiness.",
+            "ro": "Documentează arhitectura platformei, biblioteca de integrări, și metricile galeriei de șabloane, pentru pregătirea achiziției."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Leaving integration-maintenance knowledge undocumented and founder-dependent.",
+            "ro": "Lăsarea nedocumentată, a cunoștințelor de întreținere, a integrărilor, dependente de fondator."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean architecture and integration-health documentation on an ongoing basis, not just before a sale process.",
+            "ro": "Menține documentație curată, de arhitectură, și stare a integrărilor, în mod continuu, nu doar înainte de un proces de vânzare."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

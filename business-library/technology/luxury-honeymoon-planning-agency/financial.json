@@ -1,0 +1,138 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "luxuryTravelBookingSoftware",
+      "preferredPartnerNetworkMembership",
+      "familiarizationTripsAndBranding"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "luxuryNetworkMembershipDues",
+      "familiarizationTripReserve"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "weddingIndustryPartnerCommission",
+      "clientGiftsAndAmenities"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "planningFee",
+        "label": {
+          "en": "Upfront planning fee for a fully bespoke honeymoon itinerary",
+          "ro": "Onorariu de planificare, plătit din start, pentru un itinerariu de lună de miere, complet personalizat"
+        }
+      },
+      {
+        "key": "supplierCommissionMarkup",
+        "label": {
+          "en": "Commission or markup earned from luxury resort, DMC, and airline bookings",
+          "ro": "Comision sau marjă, câștigate din rezervările, la resorturi de lux, DMC-uri, și companii aeriene"
+        }
+      },
+      {
+        "key": "preferredPartnerAmenityUpsells",
+        "label": {
+          "en": "Optional add-on experiences sourced through preferred partners",
+          "ro": "Experiențe suplimentare, opționale, procurate, prin parteneri preferați"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "bookedHoneymoonsPerMonth": "number",
+      "averageTripValuePerCouple": "currency",
+      "averageCommissionRatePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "discoveryCallToBookingConversionRatePercent": "percent",
+      "weddingIndustryReferralSharePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "planningFeeAndCommissionInflow",
+      "familiarizationTripOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 12,
+    "notesTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 62,
+    "notesTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 28,
+    "notesTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "secondPlannerRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "weddingIndustryPartnerDevelopment",
+      "luxuryContentAndPhotography"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentIncomeTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve",
+      "clientTripDisruptionReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "leadConversion",
+      "customerRetention",
+      "grossMargin",
+      "closeRate"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 5000,
+      "notesTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 13000,
+      "notesTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 22000,
+      "notesTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.luxuryHoneymoonPlanningAgency.financial.aiMetadata.generationHints"
+  }
+}

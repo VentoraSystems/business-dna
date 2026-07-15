@@ -1,0 +1,138 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "licensingAndErrorsOmissionsInsurance",
+      "agencyManagementSystemSetup",
+      "carrierAndSurplusLinesAppointments"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "agencyManagementSoftwareSubscription",
+      "errorsOmissionsInsurancePremium"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "landlordCommunityMarketingSponsorship",
+      "surplusLinesFilingFees"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "admittedCarrierCommission",
+        "label": {
+          "en": "Commission from admitted carriers, paid on bound landlord and umbrella policies",
+          "ro": "Comision, de la asigurători admiși, plătit, pe polițele de proprietar de chirii, și umbrelă, legate"
+        }
+      },
+      {
+        "key": "surplusLinesBrokerFee",
+        "label": {
+          "en": "Flat surplus-lines broker fee for hard-to-place risk placements",
+          "ro": "Taxă fixă, de broker, pe piața de excedent, pentru plasările de riscuri greu de plasat"
+        }
+      },
+      {
+        "key": "contingencyProfitSharingCommission",
+        "label": {
+          "en": "Contingency and profit-sharing commission from carriers based on annual placed volume",
+          "ro": "Comision de contingență, și partajare a profitului, de la asigurători, pe baza volumului anual plasat"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "activeLandlordClients": "number",
+      "averagePropertiesPerClient": "number",
+      "averageCommissionPerPolicy": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "portfolioReviewToPlacementConversionRatePercent": "percent",
+      "annualRenewalRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.independentPcInsuranceBrokerage.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "commissionAndBrokerFeeInflow",
+      "licensingAndSoftwareOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 10,
+    "notesTranslationKey": "businessLibrary.independentPcInsuranceBrokerage.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 68,
+    "notesTranslationKey": "businessLibrary.independentPcInsuranceBrokerage.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 38,
+    "notesTranslationKey": "businessLibrary.independentPcInsuranceBrokerage.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "accountManagerRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "landlordAssociationSponsorship",
+      "coverageGapContentProduction"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentIncomeTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve",
+      "errorsOmissionsClaimsReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "leadConversion",
+      "customerRetention",
+      "grossMargin",
+      "closeRate"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 4000,
+      "notesTranslationKey": "businessLibrary.independentPcInsuranceBrokerage.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 12000,
+      "notesTranslationKey": "businessLibrary.independentPcInsuranceBrokerage.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 22000,
+      "notesTranslationKey": "businessLibrary.independentPcInsuranceBrokerage.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.independentPcInsuranceBrokerage.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.independentPcInsuranceBrokerage.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.independentPcInsuranceBrokerage.financial.aiMetadata.generationHints"
+  }
+}

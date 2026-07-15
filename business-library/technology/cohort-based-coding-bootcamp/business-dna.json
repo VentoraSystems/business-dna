@@ -1,0 +1,939 @@
+{
+  "identity": {
+    "id": "a51f2878-ea39-49cd-8a85-7eac4497bc91",
+    "slug": "cohort-based-coding-bootcamp",
+    "version": "1.0.0",
+    "name": {
+      "en": "Foundry Code School",
+      "ro": "Foundry Code School"
+    },
+    "tagline": {
+      "en": "Learn to code with 30 classmates, not 3,000 strangers.",
+      "ro": "Învață să programezi, alături de 30 de colegi, nu 3.000 de străini."
+    },
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theBuilder",
+      "theSpecialist"
+    ],
+    "summary": {
+      "en": "Best suited to a founder with real software-engineering credibility who can both design a rigorous curriculum and build genuine hiring-partner relationships for job placement.",
+      "ro": "Potrivit unui fondator, cu credibilitate reală, în inginerie software, care poate, atât să proiecteze o curriculă riguroasă, cât și să construiască relații reale, cu parteneri de angajare, pentru plasarea în muncă."
+    },
+    "minimumExperienceYears": 5
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 20000,
+      "maxInvestment": 45000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 10000,
+      "ongoingMonthlyCostMax": 25000,
+      "notes": {
+        "en": "Covers curriculum development, a learning-management-system setup, instructor and career-coach salaries, and admissions/marketing costs — a Medium budget tier, driven by curriculum and instructor investment rather than physical infrastructure.",
+        "ro": "Acoperă dezvoltarea curriculei, configurarea unui sistem de management al învățării, salariile instructorilor și consilierilor de carieră, și costurile de admitere/marketing — un nivel de buget mediu, determinat de investiția în curriculă și instructori, nu de infrastructura fizică."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "curriculumDevelopment",
+          "label": {
+            "en": "Full-stack curriculum design and project-based assignment development",
+            "ro": "Proiectarea curriculei full-stack, și dezvoltarea temelor, bazate pe proiecte"
+          },
+          "typicalMin": 8000,
+          "typicalMax": 18000
+        },
+        {
+          "key": "learningManagementSystemSetup",
+          "label": {
+            "en": "Learning-management-system and live-instruction platform setup",
+            "ro": "Configurarea sistemului de management al învățării, și platformei de instruire live"
+          },
+          "typicalMin": 3000,
+          "typicalMax": 8000
+        },
+        {
+          "key": "admissionsAndMarketingLaunch",
+          "label": {
+            "en": "Admissions process setup and first-cohort marketing launch",
+            "ro": "Configurarea procesului de admitere, și lansarea de marketing, pentru primul cohort"
+          },
+          "typicalMin": 9000,
+          "typicalMax": 19000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "instructorAndCareerCoachSalaries",
+          "label": {
+            "en": "Lead instructor, teaching-assistant, and career-coach salaries per cohort",
+            "ro": "Salariile instructorului principal, asistenților de predare, și consilierilor de carieră, per cohort"
+          },
+          "typicalMonthlyMin": 7000,
+          "typicalMonthlyMax": 16000
+        },
+        {
+          "key": "admissionsAndMarketingOperations",
+          "label": {
+            "en": "Ongoing admissions processing and cohort-marketing operations",
+            "ro": "Procesarea continuă a admiterii, și operațiunile de marketing, pentru cohorte"
+          },
+          "typicalMonthlyMin": 3000,
+          "typicalMonthlyMax": 9000
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "upfrontTuitionFee",
+          "label": {
+            "en": "Upfront tuition fee for the full-time immersive cohort",
+            "ro": "Taxă de școlarizare, plătită integral, pentru cohortul intensiv, cu normă întreagă"
+          }
+        },
+        {
+          "key": "incomeShareAgreementCollections",
+          "label": {
+            "en": "Income share agreement (ISA) collections from graduates who land a qualifying job",
+            "ro": "Încasări din acordul de partajare a venitului (ISA), de la absolvenții care obțin un loc de muncă eligibil"
+          }
+        },
+        {
+          "key": "partTimeTrackTuition",
+          "label": {
+            "en": "Upfront tuition for the part-time evenings-and-weekends track",
+            "ro": "Taxă de școlarizare, plătită integral, pentru traseul part-time, seara și în weekend"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 15000,
+      "targetMonthlyIncomeMax": 45000,
+      "breakEvenTimelineMonths": 14,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Upfront-tuition cohorts collect revenue quickly at enrollment, but ISA-track revenue is delayed and spread over 24 months after graduates land a qualifying job, producing a mixed collection pattern.",
+        "ro": "Cohortele cu taxă de școlarizare plătită integral, colectează venituri rapid, la înscriere, dar veniturile din traseul ISA, sunt întârziate, și distribuite, pe 24 de luni, după ce absolvenții obțin un loc de muncă eligibil, producând un tipar mixt de colectare."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "occasional",
+    "onlineOffline": "online",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 40,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 4
+      },
+      {
+        "key": "marketing",
+        "rating": 5
+      },
+      {
+        "key": "leadership",
+        "rating": 6
+      },
+      {
+        "key": "communication",
+        "rating": 8
+      },
+      {
+        "key": "negotiation",
+        "rating": 4
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 6
+      },
+      {
+        "key": "technology",
+        "rating": 8
+      },
+      {
+        "key": "automation",
+        "rating": 3
+      },
+      {
+        "key": "ai",
+        "rating": 5
+      },
+      {
+        "key": "programming",
+        "rating": 8
+      },
+      {
+        "key": "management",
+        "rating": 6
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 65
+      },
+      {
+        "key": "visionary",
+        "score": 35
+      },
+      {
+        "key": "operator",
+        "score": 55
+      },
+      {
+        "key": "creator",
+        "score": 40
+      },
+      {
+        "key": "seller",
+        "score": 35
+      },
+      {
+        "key": "leader",
+        "score": 60
+      },
+      {
+        "key": "analyst",
+        "score": 45
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": true,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate",
+      "notes": {
+        "en": "Revenue is bounded by instructor and career-coach capacity per cohort — genuinely different from a self-paced platform's near-infinite scalability, since live instruction quality degrades past a certain cohort size.",
+        "ro": "Venitul este limitat, de capacitatea instructorilor, și consilierilor de carieră, per cohort — cu adevărat diferit, de scalabilitatea aproape infinită, a unei platforme cu ritm propriu, deoarece calitatea instruirii live, se degradează, dincolo de o anumită dimensiune, a cohortului."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high",
+      "notes": {
+        "en": "Requires both real curriculum-design expertise and the ongoing operational discipline of running live cohorts plus genuine hiring-partner relationships for job placement.",
+        "ro": "Necesită, atât expertiză reală, de proiectare a curriculei, cât și disciplina operațională continuă, de a conduce cohorte live, plus relații reale, cu parteneri de angajare, pentru plasarea în muncă."
+      }
+    },
+    "aiResistance": {
+      "level": "moderate",
+      "notes": {
+        "en": "AI coding assistants make self-teaching more viable than before, but the structured accountability, live mentorship, and job-placement support of a cohort format remain genuinely difficult to replicate solo.",
+        "ro": "Asistenții AI, de programare, fac auto-instruirea mai viabilă, decât înainte, dar responsabilizarea structurată, mentoratul live, și suportul de plasare în muncă, ale unui format de cohort, rămân cu adevărat greu de replicat, solo."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "AI coding assistants are lowering the perceived necessity of structured instruction, requiring the curriculum to genuinely evolve toward AI-augmented engineering skills rather than syntax memorization alone.",
+          "ro": "Asistenții AI, de programare, reduc necesitatea percepută, a instruirii structurate, necesitând ca curricula, să evolueze cu adevărat, către abilități de inginerie, augmentate de AI, nu doar memorarea sintaxei."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Rebuild the curriculum around AI-augmented development workflows and the judgment skills AI tools can't replace, rather than competing on raw syntax teaching.",
+          "ro": "Reconstruiește curricula, în jurul fluxurilor de dezvoltare, augmentate de AI, și abilităților de judecată, pe care instrumentele AI nu le pot înlocui, în loc să concurezi, pe predarea sintaxei brute."
+        }
+      },
+      {
+        "description": {
+          "en": "The cohort-based format hard-caps enrollment scale per cohort, unlike self-paced platforms where revenue isn't bounded by instructor capacity.",
+          "ro": "Formatul, bazat pe cohorte, plafonează dur, scara de înscriere, per cohort, spre deosebire de platformele cu ritm propriu, unde venitul, nu este limitat, de capacitatea instructorilor."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Run more frequent, smaller cohorts with a consistent quality bar rather than trying to oversize any single cohort.",
+          "ro": "Rulează cohorte mai frecvente, mai mici, cu un standard de calitate constant, în loc să încerci să supradimensionezi, orice cohort individual."
+        }
+      },
+      {
+        "description": {
+          "en": "Job-placement outcomes and ISA collection rates are directly exposed to tech-hiring-market cyclicality.",
+          "ro": "Rezultatele de plasare în muncă, și ratele de colectare ISA, sunt direct expuse, ciclicității pieței de angajare, în tehnologie."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Diversify hiring-partner relationships across multiple industries and company sizes rather than depending on a narrow tech-sector hiring pipeline.",
+          "ro": "Diversifică relațiile cu partenerii de angajare, în mai multe industrii, și dimensiuni de companii, în loc să depinzi, de un pipeline restrâns, de angajare, din sectorul tehnologic."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Learn to code with 30 classmates, not 3,000 strangers — structured accountability, live mentorship, and real job-placement support, not another self-paced video library.",
+        "ro": "Învață să programezi, alături de 30 de colegi, nu 3.000 de străini — responsabilizare structurată, mentorat live, și suport real, de plasare în muncă, nu încă o bibliotecă video, cu ritm propriu."
+      },
+      "channels": [
+        {
+          "channelType": "outcomesTransparencyContent",
+          "description": {
+            "en": "Published job-placement-rate reports and career-changer testimonials, building trust through outcome transparency rather than curriculum-feature claims.",
+            "ro": "Rapoarte publicate, despre rata de plasare în muncă, și mărturii de la persoane care și-au schimbat cariera, construind încredere, prin transparența rezultatelor, nu afirmații despre caracteristicile curriculei."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "codingCommunityAndMeetupPartnerships",
+          "description": {
+            "en": "Partnerships with local coding meetups and career-changer communities as a secondary applicant-sourcing channel.",
+            "ro": "Parteneriate, cu grupuri locale de programare, și comunități pentru persoane care își schimbă cariera, ca și canal secundar, de sursă a candidaților."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "corporateReskillingPartnerReferrals",
+          "description": {
+            "en": "Referral partnerships with companies undergoing layoffs or re-skilling initiatives as a supplemental, experimental applicant channel.",
+            "ro": "Parteneriate de recomandare, cu companii, care trec prin disponibilizări, sau inițiative de recalificare, ca un canal suplimentar, experimental, de candidați."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Converting a career-change decision requires building genuine trust around outcomes, more involved than a low-commitment self-paced course purchase.",
+        "ro": "Convertirea unei decizii, de schimbare a carierei, necesită construirea unei încrederi reale, în privința rezultatelor, mai implicată decât o achiziție de curs, cu ritm propriu, cu angajament redus."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "An admissions process including a coding-aptitude assessment and interview qualifies applicants before they commit to a cohort, building confidence on both sides given the size of the tuition commitment.",
+        "ro": "Un proces de admitere, care include o evaluare a aptitudinii de programare, și un interviu, califică solicitanții, înainte de a se angaja, la un cohort, construind încredere, pe ambele părți, dat fiind dimensiunea angajamentului de școlarizare."
+      },
+      "salesCycleLengthDays": 30,
+      "pricingModel": {
+        "en": "€11,000 upfront tuition for the 12-week full-time immersive cohort, a 10%-of-salary-for-24-months income share agreement (ISA) capped at €15,000 as an alternative, or €6,500 for the 24-week part-time evenings-and-weekends track.",
+        "ro": "11.000 € taxă de școlarizare, plătită integral, pentru cohortul intensiv, cu normă întreagă, de 12 săptămâni, un acord de partajare a venitului (ISA), de 10% din salariu, timp de 24 de luni, plafonat la 15.000 €, ca alternativă, sau 6.500 € pentru traseul part-time, seara și în weekend, de 24 de săptămâni."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "The admissions-interview process and the size of the tuition decision make this more involved than a self-serve course purchase, though less complex than a B2B enterprise sale.",
+        "ro": "Procesul de interviu, de admitere, și dimensiunea deciziei de școlarizare, fac aceasta mai implicată, decât o achiziție de curs, prin autoservire, deși mai puțin complexă, decât o vânzare enterprise, B2B."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Applicant screening, coding-aptitude assessment, and admissions interviews.",
+          "ro": "Selecția candidaților, evaluarea aptitudinii de programare, și interviurile de admitere."
+        },
+        {
+          "en": "Live cohort instruction, project review, and teaching-assistant support.",
+          "ro": "Instruirea live, în cohort, revizuirea proiectelor, și suportul asistenților de predare."
+        },
+        {
+          "en": "Career-services coaching, resume/portfolio review, and hiring-partner matching.",
+          "ro": "Consiliere de carieră, revizuirea CV-ului/portofoliului, și potrivirea cu partenerii de angajare."
+        },
+        {
+          "en": "Post-graduation outcomes tracking and ISA collection administration.",
+          "ro": "Urmărirea rezultatelor, post-absolvire, și administrarea colectării ISA."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "During an active cohort: live instruction, project office hours, and career coaching run on a fixed weekly schedule. Between cohorts: admissions processing, curriculum refinement, and hiring-partner relationship building.",
+        "ro": "În timpul unui cohort activ: instruirea live, orele de birou pentru proiecte, și consilierea de carieră, rulează pe un program săptămânal fix. Între cohorte: procesarea admiterii, rafinarea curriculei, și construirea relațiilor, cu partenerii de angajare."
+      },
+      "fulfillmentModel": {
+        "en": "A lead instructor supported by teaching assistants and a dedicated career coach, delivering live cohort instruction capped at 20-30 students per cohort to maintain mentorship quality.",
+        "ro": "Un instructor principal, susținut de asistenți de predare, și un consilier de carieră dedicat, care oferă instruire live, în cohort, limitată la 20-30 de studenți, per cohort, pentru a menține calitatea mentoratului."
+      }
+    },
+    "automation": {
+      "level": "low",
+      "notes": {
+        "en": "Admissions scheduling and course-material distribution are automated through the learning-management system, but live instruction, mentorship, and career coaching remain fully human-led by design.",
+        "ro": "Programarea admiterii, și distribuirea materialelor de curs, sunt automatizate, prin sistemul de management al învățării, dar instruirea live, mentoratul, și consilierea de carieră, rămân complet conduse uman, prin design."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "curriculumAiAugmentedWorkflows",
+          "description": {
+            "en": "The curriculum itself teaches AI-augmented development workflows (e.g. effective use of AI coding assistants) as a core skill, not just traditional syntax.",
+            "ro": "Curricula însăși, predă fluxuri de dezvoltare, augmentate de AI (de ex. utilizarea eficientă, a asistenților AI, de programare), ca abilitate de bază, nu doar sintaxa tradițională."
+          },
+          "maturity": "emerging"
+        },
+        {
+          "area": "applicantScreeningAssistance",
+          "description": {
+            "en": "AI-assisted initial review of coding-aptitude assessment submissions to help prioritize interview scheduling.",
+            "ro": "Revizuire inițială, asistată de AI, a trimiterilor evaluării aptitudinii de programare, pentru a ajuta la prioritizarea programării interviurilor."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "moderate"
+    },
+    "recommendedTools": [
+      {
+        "name": "Canvas LMS",
+        "category": "learningManagementSystem",
+        "isRequired": true,
+        "websiteUrl": "https://www.instructure.com/canvas"
+      },
+      {
+        "name": "Zoom",
+        "category": "liveCohortInstructionPlatform",
+        "isRequired": true,
+        "websiteUrl": "https://zoom.us/"
+      },
+      {
+        "name": "GitHub Classroom",
+        "category": "codeReviewAndAssignmentManagement",
+        "isRequired": false,
+        "websiteUrl": "https://classroom.github.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30,
+      "notes": {
+        "en": "Growth is bounded by cohort frequency and instructor/career-coach capacity, with additional cohort tracks or specializations as the main lever beyond a single track.",
+        "ro": "Creșterea este limitată, de frecvența cohortelor, și capacitatea instructorilor/consilierilor de carieră, cu trasee suplimentare de cohort, sau specializări, ca principala pârghie, dincolo de un singur traseu."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Fill each cohort to consistent capacity with strong outcomes first, then increase cohort frequency before adding a second track or specialization.",
+        "ro": "Umple mai întâi, fiecare cohort, la o capacitate constantă, cu rezultate solide, apoi crește frecvența cohortelor, înainte de a adăuga un al doilea traseu, sau specializare."
+      },
+      "bottlenecks": [
+        {
+          "en": "Instructor and career-coach hiring must keep pace with cohort frequency without diluting mentorship quality.",
+          "ro": "Angajarea instructorilor, și consilierilor de carieră, trebuie să țină pasul, cu frecvența cohortelor, fără a dilua calitatea mentoratului."
+        },
+        {
+          "en": "Hiring-partner relationship depth gates how strong published job-placement outcomes can become.",
+          "ro": "Profunzimea relației cu partenerii de angajare, limitează cât de puternice, pot deveni, rezultatele publicate, de plasare în muncă."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 14,
+          "description": {
+            "en": "The business reaches break-even with a consistently full cohort and a documented job-placement rate.",
+            "ro": "Afacerea atinge pragul de rentabilitate, cu un cohort constant complet, și o rată documentată, de plasare în muncă."
+          }
+        },
+        {
+          "monthsFromLaunch": 30,
+          "description": {
+            "en": "A second cohort track or specialization launches, supported by an expanded instructor and career-coach team.",
+            "ro": "Un al doilea traseu de cohort, sau specializare, se lansează, susținut de o echipă extinsă, de instructori și consilieri de carieră."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Live cohort accountability and structured pacing produce meaningfully higher completion rates than the low single-digit completion rates typical of purely self-paced online courses.",
+          "ro": "Responsabilizarea, prin cohort live, și ritmul structurat, produc rate de finalizare, semnificativ mai ridicate, decât ratele reduse, cu o singură cifră, tipice, cursurilor online, pur cu ritm propriu."
+        }
+      },
+      {
+        "description": {
+          "en": "Published, verifiable job-placement outcomes build a genuine trust moat against unaccountable, marketing-claims-only competitors.",
+          "ro": "Rezultatele publicate, verificabile, de plasare în muncă, construiesc un adevărat șanț de încredere, împotriva competitorilor, ne-responsabili, doar cu afirmații de marketing."
+        }
+      },
+      {
+        "description": {
+          "en": "An income share agreement option removes the upfront-cost barrier for career changers who can't afford full tuition, widening the addressable applicant pool.",
+          "ro": "O opțiune, de acord de partajare a venitului, elimină bariera costului inițial, pentru persoanele care își schimbă cariera, și nu-și pot permite școlarizarea completă, lărgind fondul adresabil, de candidați."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A live, cohort-based, instructor-led coding bootcamp for career changers with structured accountability and job-placement support, monetized through upfront tuition or an income share agreement — the first business authored under online-course-platforms, deliberately distinct from self-paced content platforms elsewhere in this category.",
+        "ro": "Un bootcamp de programare, live, bazat pe cohorte, condus de instructori, pentru persoane care își schimbă cariera, cu responsabilizare structurată, și suport de plasare în muncă, monetizat, prin taxă de școlarizare plătită integral, sau un acord de partajare a venitului — prima afacere autorizată, în cadrul platformelor de cursuri online, deliberat distinctă, de platformele de conținut, cu ritm propriu, din altă parte, a acestei categorii."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.cohortBasedCodingBootcamp.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.cohortBasedCodingBootcamp.businessDna.resources.community1"
+      },
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.cohortBasedCodingBootcamp.businessDna.resources.book1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.cohortBasedCodingBootcamp.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert a healthy share of qualified applicants into enrolled cohort students.",
+          "ro": "Transformă o pondere sănătoasă, de candidați calificați, în studenți înscriși, în cohort."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep cohort completion rate high through structured accountability and mentorship.",
+          "ro": "Menține rata de finalizare, a cohortului, ridicată, prin responsabilizare structurată, și mentorat."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against instructor and career-coach salary costs per cohort.",
+          "ro": "Protejează marja brută, împotriva costurilor de salarii, ale instructorilor, și consilierilor de carieră, per cohort."
+        }
+      },
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Track the admissions-interview-to-enrollment close rate to keep the applicant funnel healthy.",
+          "ro": "Urmărește rata de închidere, de la interviul de admitere, la înscriere, pentru a menține un funnel sănătos, de candidați."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "programming",
+          "importance": 5
+        },
+        {
+          "key": "communication",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "marketing",
+          "importance": 2
+        },
+        {
+          "key": "sales",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "patient",
+          "importance": 5
+        },
+        {
+          "trait": "detailOriented",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "collaborative",
+          "importance": 4
+        }
+      ],
+      "requiredBudget": {
+        "min": 20000,
+        "max": 45000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 25000,
+        "max": 38000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 40,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "encouraging",
+        "direct"
+      ],
+      "technicalLevel": 5,
+      "leadershipLevel": 4,
+      "creativityLevel": 3,
+      "salesAffinity": 2,
+      "automationAffinity": 2,
+      "remotePreference": "remote",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theBuilder",
+        "theSpecialist"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the cohort-based live-instruction format and published job-placement outcomes in Offer Architecture and Competitive Advantages — the clearest differentiators from self-paced content platforms this category will eventually include.",
+      "ro": "Evidențiază formatul, de instruire live, bazat pe cohorte, și rezultatele publicate, de plasare în muncă, în Arhitectura ofertei, și Avantaje competitive — cei mai clari diferențiatori, față de platformele de conținut, cu ritm propriu, pe care această categorie le va include, în cele din urmă."
+    },
+    "marketingHints": {
+      "en": "Lead with verifiable job-placement outcome data and real career-changer stories, never generic 'learn to code' stock phrases.",
+      "ro": "Începe cu date verificabile, despre rezultatele de plasare în muncă, și povești reale, ale persoanelor care și-au schimbat cariera, niciodată cu fraze generice, de tipul „învață să programezi”."
+    },
+    "financialHints": {
+      "en": "Model revenue as a mix of upfront tuition and delayed ISA collections, and keep revenue explicitly bounded by cohort capacity rather than assuming self-paced-platform-style infinite scale.",
+      "ro": "Modelează veniturile, ca un mix, de taxă de școlarizare plătită integral, și colectări ISA întârziate, și menține venitul, explicit limitat, de capacitatea cohortului, în loc să presupui, o scalare infinită, de tip platformă, cu ritm propriu."
+    },
+    "generationHints": {
+      "en": "Keep generated tone encouraging and direct, grounded in real curriculum and outcomes specifics — never generic bootcamp marketing language that could apply to any coding school.",
+      "ro": "Menține un ton generat, încurajator și direct, fundamentat pe detalii reale, de curriculă și rezultate — niciodată un limbaj generic, de marketing pentru bootcamp, care s-ar putea aplica oricărei școli de programare."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Design the full-stack curriculum and set up the learning-management system for the first cohort.",
+            "ro": "Proiectează curricula full-stack, și configurează sistemul de management al învățării, pentru primul cohort."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Building a curriculum around syntax memorization instead of the AI-augmented development workflows employers actually expect now.",
+            "ro": "Construirea unei curricule, în jurul memorării sintaxei, în loc de fluxurile de dezvoltare, augmentate de AI, pe care angajatorii le așteaptă de fapt, acum."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Interview 5-10 hiring managers about what junior-engineer skills they actually value before finalizing the curriculum.",
+            "ro": "Intervievează 5-10 manageri de angajare, despre ce abilități, de inginer junior, apreciază de fapt, înainte de a finaliza curricula."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cohortBasedCodingBootcamp.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Run a pilot cohort with 10-15 students at a discounted rate to validate curriculum pacing and completion.",
+            "ro": "Rulează un cohort pilot, cu 10-15 studenți, la un preț redus, pentru a valida ritmul curriculei, și finalizarea."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Skipping a pilot cohort and launching the first paid cohort at full price and full curriculum scope simultaneously.",
+            "ro": "Sărirea peste un cohort pilot, și lansarea primului cohort plătit, la preț integral, și domeniul complet al curriculei, simultan."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track pilot-cohort completion and satisfaction closely and adjust pacing before the first full-price cohort.",
+            "ro": "Urmărește îndeaproape, finalizarea, și satisfacția, cohortului pilot, și ajustează ritmul, înainte de primul cohort, la preț integral."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first full-price cohort end-to-end, including career-services support for graduates.",
+            "ro": "Finalizează primul cohort, la preț integral, de la un capăt la altul, inclusiv suportul serviciilor de carieră, pentru absolvenți."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Treating career-services support as an afterthought instead of building it into the cohort schedule from day one.",
+            "ro": "Tratarea suportului serviciilor de carieră, ca pe o idee ulterioară, în loc să-l construiești, în programul cohortului, din prima zi."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Schedule career-coaching sessions throughout the cohort, not just after graduation.",
+            "ro": "Programează sesiuni de consiliere de carieră, pe parcursul cohortului, nu doar după absolvire."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cohortBasedCodingBootcamp.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publicly launch admissions for the next cohort with published outcomes data from the first cohort.",
+            "ro": "Lansează public, admiterea, pentru următorul cohort, cu date publicate, despre rezultatele, primului cohort."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching admissions marketing without any published outcomes data, missing the strongest trust signal available.",
+            "ro": "Lansarea marketingului de admitere, fără nicio dată publicată, despre rezultate, ratând cel mai puternic semnal de încredere, disponibil."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Publish a transparent job-placement-rate report from the first cohort before opening admissions for the next.",
+            "ro": "Publică un raport transparent, despre rata de plasare în muncă, din primul cohort, înainte de a deschide admiterea, pentru următorul."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Support the first cohort's graduates through to a documented job placement.",
+            "ro": "Sprijină absolvenții primului cohort, până la o plasare în muncă, documentată."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Considering career services complete at graduation instead of continuing support through the actual job search.",
+            "ro": "Considerarea serviciilor de carieră, complete, la absolvire, în loc să continui suportul, pe parcursul căutării reale, a unui loc de muncă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Continue active career coaching for at least 90 days post-graduation until each graduate lands a role.",
+            "ro": "Continuă coaching-ul activ, de carieră, timp de cel puțin 90 de zile, post-absolvire, până când fiecare absolvent obține un rol."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a consistent job-placement rate across 3-4 consecutive cohorts.",
+            "ro": "Atinge o rată de plasare în muncă, constantă, pe parcursul a 3-4 cohorte consecutive."
+          }
+        ],
+        "kpis": [
+          "customerRetention",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Declaring product-market fit based on a single strong cohort instead of confirming consistency across several.",
+            "ro": "Declararea potrivirii produs-piață, pe baza unui singur cohort puternic, în loc să confirmi consistența, pe parcursul mai multora."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track job-placement rate by cohort and investigate any cohort that falls meaningfully below the trend.",
+            "ro": "Urmărește rata de plasare în muncă, pe cohort, și investighează orice cohort, care scade semnificativ, sub tendință."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Increase cohort frequency and expand hiring-partner relationships to support a growing graduate pipeline.",
+            "ro": "Crește frecvența cohortelor, și extinde relațiile cu partenerii de angajare, pentru a susține un pipeline crescând, de absolvenți."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Increasing cohort frequency before hiring-partner relationships can absorb the larger graduate pipeline.",
+            "ro": "Creșterea frecvenței cohortelor, înainte ca relațiile cu partenerii de angajare, să poată absorbi, pipeline-ul mai mare, de absolvenți."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Grow hiring-partner relationships in step with cohort frequency, not after the fact.",
+            "ro": "Crește relațiile cu partenerii de angajare, în pas cu frecvența cohortelor, nu ulterior."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cohortBasedCodingBootcamp.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Hire additional instructors and career coaches to support running multiple concurrent cohorts.",
+            "ro": "Angajează instructori suplimentari, și consilieri de carieră, pentru a susține rularea mai multor cohorte concurente."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Running multiple concurrent cohorts before instructor quality and mentorship consistency across cohorts is confirmed.",
+            "ro": "Rularea mai multor cohorte concurente, înainte ca, calitatea instructorilor, și consistența mentoratului, între cohorte, să fie confirmate."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Standardize instructor onboarding and quality checks before running concurrent cohorts.",
+            "ro": "Standardizează integrarea instructorilor, și verificările de calitate, înainte de a rula cohorte concurente."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Launch a second cohort track or specialization (e.g. data engineering) based on hiring-partner demand.",
+            "ro": "Lansează un al doilea traseu de cohort, sau specializare (de ex. inginerie de date), pe baza cererii partenerilor de angajare."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Launching a new specialization without confirming real hiring-partner demand for that specific skill set first.",
+            "ro": "Lansarea unei specializări noi, fără a confirma, mai întâi, cererea reală, a partenerilor de angajare, pentru acel set specific, de abilități."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Survey existing hiring partners about unmet skill-set needs before designing a new specialization track.",
+            "ro": "Sondează partenerii de angajare existenți, despre nevoile neacoperite, de set de abilități, înainte de a proiecta un traseu nou, de specializare."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the curriculum, hiring-partner network, and job-placement track record to package the business for sale.",
+            "ro": "Documentează curricula, rețeaua de parteneri de angajare, și istoricul de plasare în muncă, pentru a pregăti afacerea, pentru vânzare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping job-placement and hiring-partner records scattered across systems instead of a single, buyer-ready reporting view.",
+            "ro": "Menținerea evidențelor, de plasare în muncă, și parteneri de angajare, împrăștiate, în diverse sisteme, în loc de o singură vizualizare, de raportare, pregătită pentru cumpărător."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, ongoing job-placement and hiring-partner records rather than reconstructing them before a sale.",
+            "ro": "Menține evidențe curate, continue, de plasare în muncă, și parteneri de angajare, în loc să le reconstruiești, înainte de o vânzare."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}
