@@ -103,6 +103,16 @@ content), and Home Repair & Handyman Marketplace
 (`local-service-marketplaces`, the library's second genuine two-sided
 marketplace) — bringing the total authored count to 38.*
 
+*Status as of Knowledge Authoring Batch 8 (2026-07-15, third of 14
+planned P2 batches): 4 more P2 candidates authored — AI Sales Outreach
+Automation Agency (`technology-services`), Upcycled Denim Label
+(`sustainable-fashion-brands`, first entry authored under this
+category), Fee-Only Financial Planning Practice
+(`financial-consultancies`, regulated content, deliberately
+differentiated from Financial Consultancy), and Independent Podcast
+Production Studio (`niche-content-studios`, first entry authored under
+this category) — bringing the total authored count to 41.*
+
 No enum value or category key was invented — every value used in the
 tables below is one of the values listed above, or one of the 12
 `IndustryType`/8 `BusinessModelType` values confirmed earlier in this
@@ -155,8 +165,8 @@ prioritization, not a commitment.
   infrastructure (e.g. a real marketplace/platform) that doesn't exist
   yet.
 
-**Already Authored** column: ✅ marks the 38 packages that exist today
-under `business-library/technology/` (37 `published` + 1 `template`,
+**Already Authored** column: ✅ marks the 42 packages that exist today
+under `business-library/technology/` (41 `published` + 1 `template`,
 per `business-library/manifest.json`). Their metadata below (Industry,
 BusinessModel, Difficulty, Scalability, Solo Friendly, Budget Tier) is
 copied from their real `metadata.json` / `business-dna.json`, not
@@ -172,16 +182,16 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 
 | Category | Entries | Already Authored |
 |---|---:|---:|
-| `technology-services` | 20 | 11 |
+| `technology-services` | 20 | 12 |
 | `subscription-boxes` | 10 | 1 |
 | `boutique-fitness-studios` | 9 | 1 |
 | `online-course-platforms` | 10 | 0 |
-| `sustainable-fashion-brands` | 9 | 0 |
+| `sustainable-fashion-brands` | 9 | 1 |
 | `local-service-marketplaces` | 9 | 2 |
 | `boutique-travel-agencies` | 8 | 1 |
-| `niche-content-studios` | 9 | 0 |
+| `niche-content-studios` | 9 | 1 |
 | `accounting-firms` | 6 | 2 |
-| `financial-consultancies` | 6 | 1 |
+| `financial-consultancies` | 6 | 2 |
 | `insurance-brokerages` | 6 | 1 |
 | `tax-consultancies` | 6 | 1 |
 | `law-firms` | 7 | 2 |
@@ -200,7 +210,7 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 | `psychology-practices` | 1 | 1 |
 | `coffee-shops` | 1 | 1 |
 | `restaurants` | 1 | 1 |
-| **Total** | **147** | **38** |
+| **Total** | **147** | **41** |
 
 ---
 
@@ -247,12 +257,22 @@ elsewhere in this category. See
 `business-library/technology/rpa-workflow-consultancy/` for the full
 package.*
 
+*Knowledge Authoring Batch 8 (2026-07-15) authored this category's
+third P2 candidate — AI Sales Outreach Automation Agency — bringing the
+authored count to 12 of 20. Positioned around self-demonstrated
+outbound email/LinkedIn campaigns as its own marketing channel (pilot
+campaign converting to a monthly retainer plus a per-booked-meeting
+performance bonus), distinct from the AI-support and RPA businesses
+already in this category. See
+`business-library/technology/ai-sales-outreach-agency/` for the full
+package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | technology-services | AI Automation Agency | ai-automation-agency | tech | agency | P1 | moderate | Low | No | low | No | ✅ |
 | technology-services | AI Customer Support Chatbot Studio | ai-chatbot-support-studio | tech | agency | P2 | moderate | Low | Yes | moderate | No | ✅ |
 | technology-services | RPA Workflow Automation Consultancy | rpa-workflow-consultancy | tech | service | P2 | moderate | Low | Yes | low | No | ✅ |
-| technology-services | AI Sales Outreach Automation Agency | ai-sales-outreach-agency | tech | agency | P2 | moderate | Low | Yes | moderate | No | |
+| technology-services | AI Sales Outreach Automation Agency | ai-sales-outreach-agency | tech | agency | P2 | moderate | Low | Yes | moderate | No | ✅ |
 | technology-services | Vertical AI Agent Studio for Real Estate | ai-agent-studio-real-estate | tech | agency | P3 | moderate | Medium | Yes | moderate | No | |
 | technology-services | AI Document Processing SaaS | ai-document-processing-saas | tech | saas | P2 | high | High | No | high | Yes | |
 | technology-services | Voice AI IVR Automation Agency | voice-ai-ivr-agency | tech | agency | P3 | moderate | Medium | Yes | moderate | No | |
@@ -334,9 +354,17 @@ full package.*
 
 ## `sustainable-fashion-brands`
 
+*Knowledge Authoring Batch 8 (2026-07-15) authored this category's
+first candidate — Upcycled Denim Label — bringing the authored count
+to 1 of 9. Positioned around limited-run drops sewn from reclaimed
+denim (own take-back program plus textile-recycler sourcing), sold
+direct-to-consumer with a secondary wholesale channel. See
+`business-library/technology/upcycled-denim-label/` for the full
+package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| sustainable-fashion-brands | Upcycled Denim Label | upcycled-denim-label | fashion | physicalProduct | P2 | moderate | Medium | Yes | moderate | No | |
+| sustainable-fashion-brands | Upcycled Denim Label | upcycled-denim-label | fashion | physicalProduct | P2 | moderate | Medium | Yes | moderate | No | ✅ |
 | sustainable-fashion-brands | Organic Cotton Basics Brand | organic-cotton-basics-brand | fashion | ecommerce | P2 | moderate | Medium | Yes | moderate | No | |
 | sustainable-fashion-brands | Circular Fashion Rental Platform | circular-fashion-rental-platform | fashion | subscription | P2 | high | High | No | moderate | Yes | |
 | sustainable-fashion-brands | Sustainable Activewear Brand | sustainable-activewear-brand | fashion | ecommerce | P2 | moderate | Medium | Yes | moderate | No | |
@@ -398,9 +426,18 @@ for the full package.*
 
 *Uses `mediaProduction` as the primary industry — per §6 of the mapping report, this is the exact category `mediaProduction` was added to fit.*
 
+*Knowledge Authoring Batch 8 (2026-07-15) authored this category's
+first candidate — Independent Podcast Production Studio — bringing
+the authored count to 1 of 9. Positioned around a show-launch package
+converting into a recurring per-episode production retainer, with
+referrals from past podcast guests and co-producers as the primary
+acquisition channel. See
+`business-library/technology/independent-podcast-production-studio/`
+for the full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| niche-content-studios | Independent Podcast Production Studio | independent-podcast-production-studio | mediaProduction | content | P2 | moderate | Low | Yes | moderate | No | |
+| niche-content-studios | Independent Podcast Production Studio | independent-podcast-production-studio | mediaProduction | content | P2 | moderate | Low | Yes | moderate | No | ✅ |
 | niche-content-studios | YouTube Channel Production Agency | youtube-channel-production-agency | mediaProduction | agency | P2 | moderate | Low | Yes | moderate | No | |
 | niche-content-studios | Niche Documentary Production Studio | niche-documentary-production-studio | mediaProduction | service | P3 | high | High | No | low | Yes | |
 | niche-content-studios | Branded Video Content Studio | branded-video-content-studio | mediaProduction | agency | P2 | moderate | Medium | Yes | moderate | No | |
@@ -435,10 +472,25 @@ package.*
 
 ## `financial-consultancies`
 
+*Knowledge Authoring Batch 8 (2026-07-15) authored this category's
+first P2 candidate — Fee-Only Financial Planning Practice — bringing
+the authored count to 2 of 6. Regulated financial-advisory content,
+framed with the same educational-guidance discipline as Financial
+Consultancy (business-planning content only, never advice resembling
+actual investment or financial guidance), and deliberately
+differentiated from it: flat-fee/no-AUM pricing vs. Financial
+Consultancy's AUM-fee model, fully remote vs. hybrid, younger
+high-earner clients seeking a one-time plan or annual retainer vs.
+Financial Consultancy's pre-retirees and business-owner exit-planning
+focus, and content/SEO-driven acquisition vs. Financial Consultancy's
+referral network of accountants and estate attorneys. See
+`business-library/technology/fee-only-financial-planning-practice/`
+for the full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | financial-consultancies | Financial Consultancy | financial-consultancy | finance | service | P1 | high | High | Yes | high | Yes | ✅ |
-| financial-consultancies | Fee-Only Financial Planning Practice | fee-only-financial-planning-practice | finance | service | P2 | high | Medium | Yes | moderate | Yes | |
+| financial-consultancies | Fee-Only Financial Planning Practice | fee-only-financial-planning-practice | finance | service | P2 | high | Medium | Yes | moderate | Yes | ✅ |
 | financial-consultancies | Retirement Planning Advisory | retirement-planning-advisory | finance | service | P2 | high | Medium | Yes | moderate | Yes | |
 | financial-consultancies | Wealth Management Boutique for Tech Employees | wealth-management-boutique-tech | finance | service | P3 | high | High | No | moderate | Yes | |
 | financial-consultancies | Small Business Financial Advisory | small-business-financial-advisory | finance | service | P3 | moderate | Medium | Yes | moderate | No | |

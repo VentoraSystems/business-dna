@@ -1,0 +1,944 @@
+{
+  "identity": {
+    "id": "9d968ad0-6c77-4047-949d-2f8c40271a1f",
+    "slug": "ai-sales-outreach-agency",
+    "version": "1.0.0",
+    "name": {
+      "en": "Pipeline Forge",
+      "ro": "Pipeline Forge"
+    },
+    "tagline": {
+      "en": "Booked meetings, not just sent emails.",
+      "ro": "Întâlniri rezervate, nu doar e-mailuri trimise."
+    },
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theHustler",
+      "theOperator"
+    ],
+    "summary": {
+      "en": "Best suited to a persistent, sales-native operator who enjoys the grind of testing and refining outbound messaging, and is comfortable proving the agency's own value through its own live outbound campaigns rather than a pitch deck.",
+      "ro": "Potrivit unui operator persistent, orientat spre vânzări, care se bucură de efortul de testare și rafinare a mesajelor de prospectare, și este confortabil să demonstreze valoarea agenției, prin propriile campanii de prospectare, live, nu printr-o prezentare."
+    },
+    "minimumExperienceYears": 3
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 5000,
+      "maxInvestment": 12000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 1500,
+      "ongoingMonthlyCostMax": 3500,
+      "notes": {
+        "en": "Covers lead-enrichment, email-sending, and prospecting-database software subscriptions plus domain and inbox warmup infrastructure — a Low budget tier, since the core asset is campaign strategy and copywriting expertise, not physical infrastructure.",
+        "ro": "Acoperă abonamentele software, pentru îmbogățirea datelor, trimiterea de e-mailuri, și baza de date de prospectare, plus infrastructura de încălzire a domeniului și căsuței de e-mail — un nivel de buget redus, dat fiind că activul principal este expertiza de strategie de campanie și redactare, nu infrastructura fizică."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "leadEnrichmentAndProspectingSoftwareSetup",
+          "label": {
+            "en": "Lead-enrichment and prospecting-database software setup",
+            "ro": "Configurarea software-ului de îmbogățire a datelor și bază de date de prospectare"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        },
+        {
+          "key": "emailInfrastructureAndDomainWarmupSetup",
+          "label": {
+            "en": "Email-sending infrastructure and domain/inbox warmup setup",
+            "ro": "Configurarea infrastructurii de trimitere a e-mailurilor și încălzirea domeniului/căsuței de e-mail"
+          },
+          "typicalMin": 1000,
+          "typicalMax": 3000
+        },
+        {
+          "key": "businessRegistrationAndCrmSetup",
+          "label": {
+            "en": "Business registration and CRM/campaign-tracking setup",
+            "ro": "Înregistrarea afacerii și configurarea CRM/urmăririi campaniei"
+          },
+          "typicalMin": 800,
+          "typicalMax": 2000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "prospectingAndEnrichmentSoftwareSubscriptions",
+          "label": {
+            "en": "Prospecting-database and lead-enrichment software subscriptions",
+            "ro": "Abonamentele software, pentru baza de date de prospectare și îmbogățirea datelor"
+          },
+          "typicalMonthlyMin": 500,
+          "typicalMonthlyMax": 1200
+        },
+        {
+          "key": "emailSendingAndWarmupSubscriptions",
+          "label": {
+            "en": "Email-sending and inbox-warmup software subscriptions",
+            "ro": "Abonamentele software, pentru trimiterea de e-mailuri și încălzirea căsuței de e-mail"
+          },
+          "typicalMonthlyMin": 400,
+          "typicalMonthlyMax": 900
+        },
+        {
+          "key": "domainAndInfrastructureCosts",
+          "label": {
+            "en": "Sending-domain acquisition and infrastructure costs",
+            "ro": "Costurile de achiziție a domeniului de trimitere și infrastructură"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 700
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "pilotCampaignFee",
+          "label": {
+            "en": "One-time pilot campaign fee (ICP research, list building, launch)",
+            "ro": "Taxă unică, pentru campania pilot (cercetare ICP, construirea listei, lansare)"
+          }
+        },
+        {
+          "key": "monthlyPerCampaignRetainer",
+          "label": {
+            "en": "Ongoing monthly retainer per active outbound campaign",
+            "ro": "Abonament lunar, continuu, per campanie activă de prospectare"
+          }
+        },
+        {
+          "key": "perMeetingPerformanceBonus",
+          "label": {
+            "en": "Performance bonus per qualified booked meeting beyond baseline",
+            "ro": "Bonus de performanță, per întâlnire calificată, rezervată, peste bază"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 6000,
+      "targetMonthlyIncomeMax": 18000,
+      "breakEvenTimelineMonths": 7,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "fast",
+      "notes": {
+        "en": "Pilot campaigns are paid upfront and monthly retainers bill in advance, so cash arrives quickly relative to longer discovery-heavy consulting engagements.",
+        "ro": "Campaniile pilot sunt plătite în avans, iar abonamentele lunare se facturează anticipat, astfel încât numerarul sosește rapid, în raport cu angajamentele de consultanță mai lungi, orientate spre descoperire."
+      }
+    },
+    "profitMargin": {
+      "level": "high",
+      "notes": {
+        "en": "Software and infrastructure costs are relatively low and fixed per campaign, so most of the pilot fee and retainer converts to margin once a campaign-manager's time is accounted for.",
+        "ro": "Costurile de software și infrastructură, sunt relativ reduse și fixe, per campanie, astfel încât cea mai mare parte a taxei pilot și abonamentului, se transformă în marjă, odată contabilizat timpul unui manager de campanie."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "none",
+    "onlineOffline": "online",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 40,
+    "maxWeeklyHours": 50,
+    "freedomLevel": 4
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 8
+      },
+      {
+        "key": "marketing",
+        "rating": 6
+      },
+      {
+        "key": "leadership",
+        "rating": 4
+      },
+      {
+        "key": "communication",
+        "rating": 7
+      },
+      {
+        "key": "negotiation",
+        "rating": 5
+      },
+      {
+        "key": "finance",
+        "rating": 3
+      },
+      {
+        "key": "operations",
+        "rating": 6
+      },
+      {
+        "key": "technology",
+        "rating": 6
+      },
+      {
+        "key": "automation",
+        "rating": 7
+      },
+      {
+        "key": "ai",
+        "rating": 6
+      },
+      {
+        "key": "programming",
+        "rating": 3
+      },
+      {
+        "key": "management",
+        "rating": 4
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 50
+      },
+      {
+        "key": "visionary",
+        "score": 30
+      },
+      {
+        "key": "operator",
+        "score": 55
+      },
+      {
+        "key": "creator",
+        "score": 20
+      },
+      {
+        "key": "seller",
+        "score": 75
+      },
+      {
+        "key": "leader",
+        "score": 35
+      },
+      {
+        "key": "analyst",
+        "score": 40
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": true,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate",
+      "notes": {
+        "en": "Each client campaign requires bespoke ICP research and copywriting that doesn't fully automate, so growth requires adding campaign-manager capacity, though a documented library of high-converting templates shortens ramp time on similar future campaigns.",
+        "ro": "Fiecare campanie de client, necesită cercetare ICP personalizată și redactare, care nu se automatizează complet, astfel încât creșterea necesită adăugarea capacității de manager de campanie, deși o bibliotecă documentată, de șabloane, cu conversie ridicată, scurtează timpul de pornire, pentru campanii viitoare similare."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "The technical setup (enrichment, sending infrastructure, warmup) is learnable through the major platforms' own documentation; the harder skill is writing outbound copy that actually converts and reading deliverability signals correctly.",
+        "ro": "Configurarea tehnică (îmbogățire, infrastructură de trimitere, încălzire), poate fi învățată, prin documentația proprie a platformelor majore; abilitatea mai dificilă, este redactarea unui text de prospectare, care chiar convertește, și citirea corectă a semnalelor de livrabilitate."
+      }
+    },
+    "aiResistance": {
+      "level": "low",
+      "notes": {
+        "en": "As AI-native outbound tools become more powerful and self-serve, clients may increasingly run campaigns in-house without an agency, a real structural risk to this business model over time.",
+        "ro": "Pe măsură ce instrumentele de prospectare, AI-native, devin mai puternice și cu autoservire, clienții pot rula tot mai mult campanii intern, fără o agenție, un risc structural real, pentru acest model de afacere, în timp."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Deliverability risk — email or LinkedIn account restrictions and spam-folder placement can silently kill a campaign's effectiveness, and platforms increasingly crack down on automated outbound.",
+          "ro": "Risc de livrabilitate — restricțiile contului de e-mail sau LinkedIn, și plasarea în folderul de spam, pot ucide silențios eficacitatea unei campanii, iar platformele reprimă tot mai mult prospectarea automatizată."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "As AI-native outbound tools become more powerful and self-serve, clients may increasingly run campaigns in-house without needing an agency, threatening to commoditize the service over the medium term.",
+          "ro": "Pe măsură ce instrumentele de prospectare AI-native, devin mai puternice și cu autoservire, clienții pot rula tot mai mult campanii, intern, fără a avea nevoie de o agenție, amenințând să transforme serviciul în marfă, pe termen mediu."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "Results depend heavily on the client's own product-market fit and ICP definition, so a client with poor market fit can make meeting-booking targets unachievable regardless of execution quality, creating friction over performance expectations.",
+          "ro": "Rezultatele depind puternic, de propria potrivire produs-piață și definiție ICP, a clientului, astfel încât un client, cu o potrivire slabă de piață, poate face imposibile obiectivele de rezervare a întâlnirilor, indiferent de calitatea execuției, creând fricțiune, privind așteptările de performanță."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Booked meetings, not just sent emails — every prospect experiences the agency's own methodology firsthand, through the outbound campaign that reached them.",
+        "ro": "Întâlniri rezervate, nu doar e-mailuri trimise — fiecare prospect experimentează, direct, propria metodologie a agenției, prin campania de prospectare care l-a atins."
+      },
+      "channels": [
+        {
+          "channelType": "selfDemonstratedOutboundCampaigns",
+          "description": {
+            "en": "The agency's own outbound cold-email and LinkedIn campaigns targeting prospective clients — a live, continuous proof-of-concept rather than a case study.",
+            "ro": "Propriile campanii de prospectare, prin e-mail rece și LinkedIn, ale agenției, vizând clienți potențiali — o dovadă de concept, live, continuă, nu un studiu de caz."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "b2bSalesCommunityEngagement",
+          "description": {
+            "en": "Active participation in B2B sales and SaaS-founder communities where target buyers discuss outbound and pipeline challenges.",
+            "ro": "Participare activă, în comunități B2B, de vânzări și fondatori SaaS, unde cumpărătorii țintă discută provocările de prospectare și pipeline."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "pipelineResultsCaseStudyContent",
+          "description": {
+            "en": "Published case studies with concrete pipeline and meeting-booked numbers, as a supplemental, experimental channel.",
+            "ro": "Studii de caz publicate, cu numere concrete, de pipeline și întâlniri rezervate, ca un canal suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "The channel strategy is literally the product being sold, which makes the pitch unusually easy to demonstrate — the harder work is proving results hold up across different client ICPs.",
+        "ro": "Strategia de canal, este, la propriu, produsul vândut, ceea ce face prezentarea neobișnuit de ușor de demonstrat — munca mai dificilă, este dovedirea că rezultatele se mențin, în diferite ICP-uri de clienți."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A prospect books a discovery call through the agency's own outbound campaign — proof of concept before the pitch even starts; the call defines ICP and messaging, and a paid 4-6 week pilot campaign with a meetings-booked target converts into an ongoing monthly retainer if it succeeds.",
+        "ro": "Un prospect rezervă un apel de descoperire, prin propria campanie de prospectare a agenției — dovadă de concept, înainte ca prezentarea să înceapă măcar; apelul definește ICP-ul și mesajele, iar o campanie pilot plătită, de 4-6 săptămâni, cu un obiectiv de întâlniri rezervate, se transformă, într-un abonament lunar continuu, dacă are succes."
+      },
+      "salesCycleLengthDays": 14,
+      "pricingModel": {
+        "en": "A €2,000-€4,000 pilot campaign (4-6 weeks, ICP research plus list building plus launch) converts into an ongoing monthly retainer of €2,500-€6,000 per active campaign, with an optional €150-€300 performance bonus per qualified booked meeting beyond a baseline target.",
+        "ro": "O campanie pilot, de 2.000-4.000 €, (4-6 săptămâni, cercetare ICP, plus construirea listei, plus lansare), se transformă, într-un abonament lunar continuu, de 2.500-6.000 €, per campanie activă, cu un bonus opțional de performanță, de 150-300 €, per întâlnire calificată, rezervată, peste o bază."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "The pilot structure lowers the initial commitment barrier for prospects, but a full 14-day cycle from discovery call to signed pilot is still typical while ICP and messaging get properly scoped.",
+        "ro": "Structura pilot, reduce bariera inițială de angajament, pentru prospecți, dar un ciclu complet, de 14 zile, de la apelul de descoperire, la pilotul semnat, este totuși tipic, în timp ce ICP-ul și mesajele, sunt delimitate corect."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "ICP definition and lead-list building/enrichment",
+          "ro": "Definirea ICP-ului și construirea/îmbogățirea listei de clienți potențiali"
+        },
+        {
+          "en": "AI-personalized sequence copywriting and campaign setup",
+          "ro": "Redactarea secvenței, personalizată prin AI, și configurarea campaniei"
+        },
+        {
+          "en": "Deliverability monitoring and inbox/domain health management",
+          "ro": "Monitorizarea livrabilității și gestionarea sănătății căsuței de e-mail/domeniului"
+        },
+        {
+          "en": "Booked-meeting handoff and campaign performance reporting",
+          "ro": "Predarea întâlnirilor rezervate și raportarea performanței campaniei"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Most days are spent monitoring live campaign deliverability and reply rates, writing and testing new sequence variants, and running discovery calls or performance reviews with clients, alternating with list-building and enrichment work for upcoming campaigns.",
+        "ro": "Majoritatea zilelor sunt petrecute monitorizând livrabilitatea campaniei active și ratele de răspuns, scriind și testând noi variante de secvență, și derulând apeluri de descoperire sau revizuiri de performanță, cu clienții, alternând cu munca de construire a listei și îmbogățire, pentru campaniile viitoare."
+      },
+      "fulfillmentModel": {
+        "en": "An agency that builds, launches, and manages AI-personalized cold-email and LinkedIn outreach campaigns on behalf of B2B clients, handing off qualified booked meetings for the client's own sales team to close.",
+        "ro": "O agenție, care construiește, lansează și gestionează campanii de prospectare, prin e-mail rece și LinkedIn, personalizate prin AI, în numele clienților B2B, predând întâlniri calificate, rezervate, pentru ca echipa proprie de vânzări a clientului, să le închidă."
+      }
+    },
+    "automation": {
+      "level": "high",
+      "notes": {
+        "en": "Sending, follow-up sequencing, and reply-routing are substantially automated through the campaign platform, though copywriting strategy and deliverability troubleshooting remain deliberately hands-on.",
+        "ro": "Trimiterea, secvențierea de urmărire, și direcționarea răspunsurilor, sunt substanțial automatizate, prin platforma de campanie, deși strategia de redactare și depanarea livrabilității, rămân deliberat manuale."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "personalizedSequenceCopywriting",
+          "description": {
+            "en": "AI-assisted first-draft generation of personalized outreach messaging based on prospect firmographic and intent data, refined by the campaign manager.",
+            "ro": "Generarea, asistată de AI, a primului proiect, de mesaje personalizate de prospectare, pe baza datelor firmografice și de intenție, ale prospectului, rafinată de managerul de campanie."
+          },
+          "maturity": "established"
+        }
+      ],
+      "aiDependencyLevel": "high"
+    },
+    "recommendedTools": [
+      {
+        "name": "Clay",
+        "category": "leadEnrichmentAndDataOrchestration",
+        "isRequired": true,
+        "websiteUrl": "https://www.clay.com/"
+      },
+      {
+        "name": "Instantly",
+        "category": "coldEmailSendingAndWarmup",
+        "isRequired": true,
+        "websiteUrl": "https://instantly.ai/"
+      },
+      {
+        "name": "Apollo",
+        "category": "b2bContactDatabaseAndProspecting",
+        "isRequired": false,
+        "websiteUrl": "https://www.apollo.io/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 24,
+      "notes": {
+        "en": "Growth is initially gated by campaign-manager capacity, but a documented library of high-converting sequence templates across verticals shortens ramp time on similar future client campaigns.",
+        "ro": "Creșterea este inițial limitată de capacitatea managerului de campanie, dar o bibliotecă documentată, de șabloane de secvență, cu conversie ridicată, pe verticale, scurtează timpul de pornire, pentru campanii viitoare, similare, ale clienților."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Build a documented playbook of the highest-converting sequence templates and ICPs across verticals served, then hire a second campaign manager to run additional client campaigns, then productize the pilot methodology into a lower-touch, self-serve tier for smaller clients.",
+        "ro": "Construiește un playbook documentat, cu cele mai bine convertite șabloane de secvență și ICP-uri, pe verticalele deservite, apoi angajează un al doilea manager de campanie, pentru a rula campanii suplimentare, ale clienților, apoi transformă metodologia pilot, într-un nivel cu implicare redusă, cu autoservire, pentru clienți mai mici."
+      },
+      "bottlenecks": [
+        {
+          "en": "Each client's campaign requires bespoke ICP research and copywriting that doesn't fully automate, so capacity is gated by campaign-manager hours.",
+          "ro": "Campania fiecărui client, necesită cercetare ICP personalizată și redactare, care nu se automatizează complet, astfel încât capacitatea este limitată de orele managerului de campanie."
+        },
+        {
+          "en": "Deliverability infrastructure (domain reputation, inbox warmup) takes real lead time to scale for each new client, capping how fast new campaigns can launch.",
+          "ro": "Infrastructura de livrabilitate (reputația domeniului, încălzirea căsuței de e-mail), necesită timp real, de pregătire, pentru a se scala, pentru fiecare client nou, limitând cât de repede pot fi lansate campanii noi."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 7,
+          "description": {
+            "en": "The agency reaches break-even with its first 3-4 client retainers active.",
+            "ro": "Agenția atinge pragul de rentabilitate, cu primele 3-4 abonamente de clienți, active."
+          }
+        },
+        {
+          "monthsFromLaunch": 16,
+          "description": {
+            "en": "A documented playbook is mature enough to onboard and train a second campaign manager.",
+            "ro": "Un playbook documentat, este suficient de matur, pentru a integra și instrui, un al doilea manager de campanie."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "The agency's own outbound campaigns are a live, continuous proof-of-concept for prospects, a stronger trust signal than case studies alone.",
+          "ro": "Propriile campanii de prospectare, ale agenției, sunt o dovadă de concept, live, continuă, pentru prospecți, un semnal de încredere, mai puternic, decât studiile de caz, singure."
+        }
+      },
+      {
+        "description": {
+          "en": "A documented library of high-converting sequence templates across verticals shortens ramp time for new client campaigns.",
+          "ro": "O bibliotecă documentată, de șabloane de secvență, cu conversie ridicată, pe verticale, scurtează timpul de pornire, pentru campaniile noi, ale clienților."
+        }
+      },
+      {
+        "description": {
+          "en": "Performance-based bonus pricing aligns incentives with client outcomes and differentiates from flat-retainer competitors.",
+          "ro": "Prețul, cu bonus bazat pe performanță, aliniază stimulentele, cu rezultatele clientului, și diferențiază, de concurenții cu abonament fix."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "An AI-powered B2B outbound sales agency building and running personalized cold-email and LinkedIn campaigns for clients, priced as a pilot campaign converting to a monthly per-campaign retainer plus an optional per-meeting performance bonus. Deliberately distinct from the AI-native customer-support, RPA workflow-automation, and broad AI-automation businesses elsewhere in this library — its methodology is demonstrated live on every prospect through its own outbound campaigns.",
+        "ro": "O agenție de vânzări outbound B2B, condusă de AI, care construiește și rulează campanii personalizate, prin e-mail rece și LinkedIn, pentru clienți, tarifată ca o campanie pilot, care se transformă, într-un abonament lunar, per campanie, plus un bonus opțional de performanță, per întâlnire. Deliberat distinctă, de afacerile de suport clienți AI-native, automatizare de flux de lucru RPA, și automatizare AI largă, din altă parte, a acestei biblioteci — metodologia sa este demonstrată live, pentru fiecare prospect, prin propriile campanii de prospectare."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.aiSalesOutreachAgency.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.aiSalesOutreachAgency.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.aiSalesOutreachAgency.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.aiSalesOutreachAgency.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert outbound sequence sends into qualified booked meetings.",
+          "ro": "Transformă trimiterile de secvență, de prospectare, în întâlniri calificate, rezervate."
+        }
+      },
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert pilot campaigns into ongoing monthly retainers.",
+          "ro": "Transformă campaniile pilot, în abonamente lunare, continue."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep clients on their monthly retainer month over month.",
+          "ro": "Menține clienții, pe abonamentul lor lunar, lună de lună."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against prospecting, enrichment, and email-infrastructure software costs.",
+          "ro": "Protejează marja brută, împotriva costurilor software, de prospectare, îmbogățire, și infrastructură de e-mail."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "sales",
+          "importance": 5
+        },
+        {
+          "key": "marketing",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "negotiation",
+          "importance": 3
+        },
+        {
+          "key": "communication",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "persistent",
+          "importance": 5
+        },
+        {
+          "trait": "resilient",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "analytical",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 5000,
+        "max": 12000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 6000,
+        "max": 10000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 40,
+        "maxWeeklyHours": 50
+      },
+      "communicationStyle": [
+        "direct",
+        "persuasive"
+      ],
+      "technicalLevel": 4,
+      "leadershipLevel": 3,
+      "creativityLevel": 3,
+      "salesAffinity": 5,
+      "automationAffinity": 4,
+      "remotePreference": "remote",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theHustler",
+        "theOperator"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the Low budget tier and fast revenue speed in Financial Overview, and the self-demonstrated proof-of-concept advantage in Marketing System and Competitive Advantages — keep the pilot-to-retainer sales motion concrete throughout.",
+      "ro": "Subliniază nivelul redus de buget și viteza rapidă a veniturilor, în Prezentare financiară, și avantajul de dovadă de concept, auto-demonstrată, în Sistemul de marketing și Avantaje competitive — menține mișcarea de vânzare, de la pilot la abonament, concretă, pe tot parcursul."
+    },
+    "marketingHints": {
+      "en": "Lead with the agency's own outbound results as the proof, never generic 'AI sales automation' stock phrases — this audience of sales leaders is skeptical of anyone who can't demonstrate their own pipeline.",
+      "ro": "Începe cu propriile rezultate de prospectare, ale agenției, ca dovadă, niciodată cu fraze generice, de tipul „automatizare AI a vânzărilor” — acest public, de lideri de vânzări, este sceptic, față de oricine nu-și poate demonstra propriul pipeline."
+    },
+    "financialHints": {
+      "en": "Model revenue as a pilot fee converting to a monthly per-campaign retainer plus an optional performance bonus, not a single flat monthly fee — emphasize the low overhead that keeps margin high even at a modest client count.",
+      "ro": "Modelează veniturile, ca o taxă pilot, care se transformă, într-un abonament lunar, per campanie, plus un bonus opțional de performanță, nu o taxă lunară fixă, unică — subliniază costurile generale reduse, care mențin marja ridicată, chiar și la un număr modest de clienți."
+    },
+    "generationHints": {
+      "en": "Keep generated tone direct and results-oriented, grounded in concrete pipeline and meeting-booked metrics — never conflate this narrow outbound-sales offer with broader AI-automation language used elsewhere in this library.",
+      "ro": "Menține un ton generat, direct, orientat spre rezultate, fundamentat pe metrici concrete, de pipeline și întâlniri rezervate — nu confunda niciodată această ofertă restrânsă, de vânzări outbound, cu limbajul mai larg, de automatizare AI, utilizat, în altă parte, în această bibliotecă."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Set up lead-enrichment, email-sending, and warmup infrastructure, and launch the agency's own outbound campaign as its first proof-of-concept.",
+            "ro": "Configurează infrastructura de îmbogățire a datelor, trimitere de e-mailuri și încălzire, și lansează propria campanie de prospectare, a agenției, ca prima dovadă de concept."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Pitching prospective clients before the agency's own outbound campaign has proven results, undermining the core credibility proposition.",
+            "ro": "Prezentarea ofertei, către clienți potențiali, înainte ca propria campanie de prospectare, a agenției, să fi dovedit rezultate, subminând propunerea centrală, de credibilitate."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Run the agency's own outbound campaign to a meaningful sample size before pitching any prospective client.",
+            "ro": "Rulează propria campanie de prospectare, a agenției, până la o dimensiune semnificativă de eșantion, înainte de a prezenta oferta, oricărui client potențial."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.aiSalesOutreachAgency.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Sign the first paid pilot campaign to validate the pilot-to-retainer pricing model.",
+            "ro": "Semnează prima campanie pilot, plătită, pentru a valida modelul de preț, de la pilot, la abonament."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Offering the first pilot for free to win the client, undermining the paid-pilot qualification model before it's even tested.",
+            "ro": "Oferirea primului pilot gratuit, pentru a câștiga clientul, subminând modelul de calificare, de pilot plătit, înainte chiar de a fi testat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Charge for the first pilot even at a discounted rate, to properly test whether prospects value the ICP research and campaign build.",
+            "ro": "Percepe o taxă, pentru primul pilot, chiar și la un tarif redus, pentru a testa corect, dacă prospecții valorizează cercetarea ICP și construcția campaniei."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.aiSalesOutreachAgency.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first full pilot campaign and hand off qualified booked meetings to the client's sales team.",
+            "ro": "Finalizează prima campanie pilot, completă, și predă întâlnirile calificate, rezervate, echipei de vânzări, a clientului."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Underestimating the domain and inbox warmup time needed before a new campaign can send at volume without deliverability issues.",
+            "ro": "Subestimarea timpului de încălzire, a domeniului și căsuței de e-mail, necesar, înainte ca o campanie nouă, să poată trimite, la volum, fără probleme de livrabilitate."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build in a dedicated domain and inbox warmup period into every new client's timeline before full-volume sending begins.",
+            "ro": "Include o perioadă dedicată, de încălzire, a domeniului și căsuței de e-mail, în cronologia fiecărui client nou, înainte ca trimiterea la volum complet, să înceapă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.aiSalesOutreachAgency.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish the first pipeline results case study and begin engaging B2B sales and SaaS-founder communities.",
+            "ro": "Publică primul studiu de caz, cu rezultate de pipeline, și începe implicarea, în comunități B2B, de vânzări și fondatori SaaS."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Publishing vague 'more leads' claims instead of concrete pipeline and meeting-booked numbers that build credibility with skeptical sales leaders.",
+            "ro": "Publicarea de afirmații vagi, de tipul „mai mulți clienți potențiali”, în loc de numere concrete, de pipeline și întâlniri rezervate, care construiesc credibilitate, la liderii de vânzări sceptici."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Lead every case study with concrete meeting-booked and pipeline numbers, not vague outcome language.",
+            "ro": "Începe fiecare studiu de caz, cu numere concrete, de întâlniri rezervate și pipeline, nu limbaj vag, de rezultate."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.aiSalesOutreachAgency.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first pilot client into an ongoing monthly retainer.",
+            "ro": "Transformă primul client pilot, într-un abonament lunar, continuu."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not proactively pitching the retainer conversion at pilot completion, leaving the client to decide on their own timeline.",
+            "ro": "Nepropunerea proactivă, a conversiei la abonament, la finalizarea pilotului, lăsând clientul, să decidă, pe propria cronologie."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Present the retainer conversion as a standard part of the pilot wrap-up call, backed by concrete pilot results.",
+            "ro": "Prezintă conversia la abonament, ca o parte standard, a apelului de încheiere a pilotului, susținută de rezultate concrete, ale pilotului."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.aiSalesOutreachAgency.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a steady pipeline of qualified pilot requests and a growing base of active monthly retainers.",
+            "ro": "Atinge un pipeline constant, de solicitări pilot, calificate, și o bază, în creștere, de abonamente lunare, active."
+          }
+        ],
+        "kpis": [
+          "closeRate",
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Accepting pilots across too many unrelated verticals instead of identifying which 1-2 ICPs convert most reliably.",
+            "ro": "Acceptarea piloților, în prea multe verticale, fără legătură, în loc de a identifica ce 1-2 ICP-uri, convertesc cel mai fiabil."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track which client ICPs and sequence templates convert most reliably, and concentrate outreach there.",
+            "ro": "Urmărește ce ICP-uri de clienți și șabloane de secvență, convertesc cel mai fiabil, și concentrează contactarea acolo."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.aiSalesOutreachAgency.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Build a documented playbook of the highest-converting sequence templates and ICPs across verticals served.",
+            "ro": "Construiește un playbook documentat, cu cele mai bine convertite șabloane de secvență și ICP-uri, pe verticalele deservite."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Rewriting sequence copy from scratch for each new client instead of documenting and reusing proven templates.",
+            "ro": "Rescrierea textului de secvență, de la zero, pentru fiecare client nou, în loc de a documenta și reutiliza șabloane dovedite."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "After each campaign, document the highest-converting messaging elements in a structured internal playbook.",
+            "ro": "După fiecare campanie, documentează elementele de mesagerie, cu cea mai bună conversie, într-un playbook intern, structurat."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.aiSalesOutreachAgency.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Hire and train a second campaign manager to take on overflow client campaigns.",
+            "ro": "Angajează și instruiește un al doilea manager de campanie, pentru a prelua campaniile suplimentare, ale clienților."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring a second campaign manager before the documented playbook is mature enough to onboard them efficiently.",
+            "ro": "Angajarea unui al doilea manager de campanie, înainte ca playbook-ul documentat, să fie suficient de matur, pentru a-l integra eficient."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the playbook and deliverability-troubleshooting guide are solid enough to train a new hire before extending an offer.",
+            "ro": "Confirmă că playbook-ul și ghidul de depanare a livrabilității, sunt suficient de solide, pentru a instrui un nou angajat, înainte de a extinde o ofertă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.aiSalesOutreachAgency.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Productize the pilot methodology into a lower-touch, self-serve tier for smaller clients.",
+            "ro": "Transformă metodologia pilot, într-un nivel, cu implicare redusă, cu autoservire, pentru clienți mai mici."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Launching a self-serve tier before the core high-touch playbook is proven, diluting quality across both tiers.",
+            "ro": "Lansarea unui nivel de autoservire, înainte ca playbook-ul de bază, cu implicare ridicată, să fie dovedit, diluând calitatea, în ambele niveluri."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the core high-touch playbook is stable and repeatable before productizing any part of it into self-serve.",
+            "ro": "Confirmă că playbook-ul de bază, cu implicare ridicată, este stabil și repetabil, înainte de a transforma orice parte, a lui, în autoservire."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.aiSalesOutreachAgency.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the playbook library, client retainer contracts, and pipeline-performance history to package the agency for sale.",
+            "ro": "Documentează biblioteca de playbook, contractele de abonament ale clienților, și istoricul de performanță a pipeline-ului, pentru a pregăti agenția, pentru vânzare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping the playbook and client-specific sequence logic undocumented and only in the founder's head, making the business hard to transfer.",
+            "ro": "Menținerea playbook-ului și logicii de secvență, specifică clientului, nedocumentată, doar în mintea fondatorului, făcând afacerea greu de transferat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, ongoing documentation of the playbook and every client's campaign performance history.",
+            "ro": "Menține o documentație curată, continuă, a playbook-ului, și istoricul de performanță, al campaniei, fiecărui client."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.aiSalesOutreachAgency.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

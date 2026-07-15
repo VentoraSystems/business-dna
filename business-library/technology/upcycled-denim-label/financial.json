@@ -1,0 +1,138 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "productionEquipmentSetup",
+      "initialDeadstockAndMaterialSourcing",
+      "ecommerceAndPhotographySetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "ecommerceAndEmailPlatformFees",
+      "studioSpaceAndUtilities"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "ongoingMaterialSourcing",
+      "shippingAndPackagingMaterials"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "limitedRunDropSales",
+        "label": {
+          "en": "Direct-to-consumer limited-run drop sales",
+          "ro": "Vânzări directe către consumator, în serii limitate"
+        }
+      },
+      {
+        "key": "boutiqueWholesaleOrders",
+        "label": {
+          "en": "Wholesale orders to sustainable-fashion boutiques",
+          "ro": "Comenzi cu ridicata, către boutique-uri de modă sustenabilă"
+        }
+      },
+      {
+        "key": "madeToOrderCustomCommissions",
+        "label": {
+          "en": "Made-to-order custom commissions",
+          "ro": "Comisioane personalizate, la comandă"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "garmentsPerDrop": "number",
+      "averageGarmentPrice": "currency",
+      "dropSelloutRatePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "dropsPerQuarter": "number",
+      "repeatCustomerPurchaseRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.upcycledDenimLabel.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "dropSalesInflow",
+      "wholesaleOrderInflow",
+      "materialAndProductionOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 9,
+    "notesTranslationKey": "businessLibrary.upcycledDenimLabel.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 50,
+    "notesTranslationKey": "businessLibrary.upcycledDenimLabel.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 18,
+    "notesTranslationKey": "businessLibrary.upcycledDenimLabel.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "partTimeProductionAssistantRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "transformationContentProduction",
+      "popUpEventParticipation"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "salesTaxOnPhysicalGoods"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "fourMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "leadConversion",
+      "customerRetention",
+      "grossMargin",
+      "closeRate"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 3000,
+      "notesTranslationKey": "businessLibrary.upcycledDenimLabel.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 8500,
+      "notesTranslationKey": "businessLibrary.upcycledDenimLabel.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 14000,
+      "notesTranslationKey": "businessLibrary.upcycledDenimLabel.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.upcycledDenimLabel.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.upcycledDenimLabel.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.upcycledDenimLabel.financial.aiMetadata.generationHints"
+  }
+}

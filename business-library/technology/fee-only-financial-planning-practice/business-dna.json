@@ -1,0 +1,937 @@
+{
+  "identity": {
+    "id": "da34a790-dbe5-42d4-9684-10ca083563f3",
+    "slug": "fee-only-financial-planning-practice",
+    "version": "1.0.0",
+    "name": {
+      "en": "Clearsum Financial Planning",
+      "ro": "Clearsum Financial Planning"
+    },
+    "tagline": {
+      "en": "Objective advice. No assets required.",
+      "ro": "Sfaturi obiective. Fără active necesare."
+    },
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theSpecialist",
+      "theBuilder"
+    ],
+    "summary": {
+      "en": "Best suited to a rigorous, fiduciary-minded specialist who is comfortable building a fully remote practice around content and direct client relationships rather than a referral network of accountants and estate attorneys. Educational business-planning guidance only — not investment, tax, or financial advice for any end client.",
+      "ro": "Potrivit unui specialist riguros, orientat spre fiduciaritate, confortabil să construiască o practică complet la distanță, în jurul conținutului și relațiilor directe cu clienții, nu o rețea de recomandare, de la contabili și avocați de succesiuni. Îndrumare educațională, de planificare a afacerii, doar — nu consiliere de investiții, fiscală, sau financiară, pentru niciun client final."
+    },
+    "minimumExperienceYears": 4
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 10000,
+      "maxInvestment": 25000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 1800,
+      "ongoingMonthlyCostMax": 4000,
+      "notes": {
+        "en": "Covers CFP certification/licensing, compliance and E&O insurance, and flat-fee financial-planning software — a Medium budget tier, lower than an AUM-based wealth-management practice since no asset-custody infrastructure is needed.",
+        "ro": "Acoperă certificarea/autorizarea CFP, asigurarea de conformitate și E&O, și software-ul de planificare financiară, cu tarif fix — un nivel de buget mediu, mai mic, decât o practică de gestionare a averii, bazată pe AUM, dat fiind că nu este necesară infrastructură de custodie a activelor."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "cfpCertificationAndLicensing",
+          "label": {
+            "en": "CFP certification exam and fiduciary registration",
+            "ro": "Examenul de certificare CFP și înregistrarea fiduciară"
+          },
+          "typicalMin": 2500,
+          "typicalMax": 6000
+        },
+        {
+          "key": "complianceAndEoInsuranceSetup",
+          "label": {
+            "en": "Compliance and errors-and-omissions (E&O) insurance setup",
+            "ro": "Configurarea asigurării de conformitate și erori-omisiuni (E&O)"
+          },
+          "typicalMin": 2000,
+          "typicalMax": 5000
+        },
+        {
+          "key": "financialPlanningSoftwareSetup",
+          "label": {
+            "en": "Financial-planning software setup",
+            "ro": "Configurarea software-ului de planificare financiară"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "financialPlanningSoftwareSubscription",
+          "label": {
+            "en": "Financial-planning software subscription",
+            "ro": "Abonamentul software-ului de planificare financiară"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 700
+        },
+        {
+          "key": "complianceAndEoPremium",
+          "label": {
+            "en": "Ongoing compliance and E&O insurance premium",
+            "ro": "Prima continuă, de asigurare de conformitate și E&O"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 700
+        },
+        {
+          "key": "contentAndSeoTooling",
+          "label": {
+            "en": "Content production and SEO tooling",
+            "ro": "Producția de conținut și instrumente SEO"
+          },
+          "typicalMonthlyMin": 400,
+          "typicalMonthlyMax": 900
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "oneTimeComprehensivePlanFee",
+          "label": {
+            "en": "One-time comprehensive financial plan fee",
+            "ro": "Taxă unică, pentru planul financiar complet"
+          }
+        },
+        {
+          "key": "annualFlatFeeRetainer",
+          "label": {
+            "en": "Ongoing annual flat-fee retainer",
+            "ro": "Abonament anual, continuu, cu tarif fix"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 5000,
+      "targetMonthlyIncomeMax": 16000,
+      "breakEvenTimelineMonths": 11,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "The one-time comprehensive plan fee is collected relatively quickly after engagement, but building a large enough client base for the flat-fee model to reach comparable income to AUM-based advisors takes real time.",
+        "ro": "Taxa unică, pentru planul complet, este încasată relativ rapid, după angajament, dar construirea unei baze de clienți, suficient de mari, pentru ca modelul cu tarif fix, să atingă un venit comparabil, cu consilierii bazați pe AUM, necesită timp real."
+      }
+    },
+    "profitMargin": {
+      "level": "high",
+      "notes": {
+        "en": "Low overhead and no asset-custody infrastructure mean most of each flat fee converts to margin once software and compliance costs are covered.",
+        "ro": "Costurile generale reduse, și lipsa infrastructurii de custodie a activelor, înseamnă că cea mai mare parte, a fiecărei taxe fixe, se transformă în marjă, odată acoperite costurile de software și conformitate."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "none",
+    "onlineOffline": "online",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 35,
+    "maxWeeklyHours": 50,
+    "freedomLevel": 4
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 4
+      },
+      {
+        "key": "marketing",
+        "rating": 6
+      },
+      {
+        "key": "leadership",
+        "rating": 4
+      },
+      {
+        "key": "communication",
+        "rating": 7
+      },
+      {
+        "key": "negotiation",
+        "rating": 3
+      },
+      {
+        "key": "finance",
+        "rating": 8
+      },
+      {
+        "key": "operations",
+        "rating": 5
+      },
+      {
+        "key": "technology",
+        "rating": 5
+      },
+      {
+        "key": "automation",
+        "rating": 3
+      },
+      {
+        "key": "ai",
+        "rating": 2
+      },
+      {
+        "key": "programming",
+        "rating": 1
+      },
+      {
+        "key": "management",
+        "rating": 4
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 55
+      },
+      {
+        "key": "visionary",
+        "score": 35
+      },
+      {
+        "key": "operator",
+        "score": 50
+      },
+      {
+        "key": "creator",
+        "score": 20
+      },
+      {
+        "key": "seller",
+        "score": 30
+      },
+      {
+        "key": "leader",
+        "score": 30
+      },
+      {
+        "key": "analyst",
+        "score": 60
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": true,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate",
+      "notes": {
+        "en": "Content and SEO can generate leads at scale, but comprehensive plan delivery still requires real one-on-one time per client, so growth is gated by planner capacity rather than a fully software-scalable model.",
+        "ro": "Conținutul și SEO pot genera clienți potențiali, la scară, dar livrarea planului complet, necesită totuși timp real, unu-la-unu, per client, astfel încât creșterea este limitată, de capacitatea planificatorului, nu de un model, complet scalabil, prin software."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high",
+      "notes": {
+        "en": "CFP certification and fiduciary registration require a genuine, multi-year credentialing path, and the flat-fee model requires real client-education effort against the more familiar AUM-fee advisory norm.",
+        "ro": "Certificarea CFP și înregistrarea fiduciară, necesită un traseu de acreditare real, de mai mulți ani, iar modelul cu tarif fix, necesită un efort real, de educare a clienților, față de norma mai familiară, de consiliere cu tarif AUM."
+      }
+    },
+    "aiResistance": {
+      "level": "high",
+      "notes": {
+        "en": "Licensed fiduciary judgment on a client's full financial picture requires human accountability that clients and regulators expect a credentialed advisor to exercise, protecting this business from AI-driven displacement.",
+        "ro": "Judecata fiduciară, licențiată, asupra imaginii financiare complete, a unui client, necesită responsabilitate umană, pe care clienții și autoritățile de reglementare, se așteaptă, să fie exercitată, de un consilier acreditat, protejând această afacere, de înlocuirea condusă de AI."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Providing fiduciary financial advice without proper registration and compliance oversight creates real legal liability, and regulatory requirements vary and change by jurisdiction.",
+          "ro": "Oferirea de consiliere financiară fiduciară, fără înregistrare corespunzătoare, și supraveghere de conformitate, creează o răspundere legală reală, iar cerințele de reglementare, variază și se schimbă, în funcție de jurisdicție."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "The flat-fee model requires a higher client volume relative to AUM-based advisors to reach comparable income, since there's no percentage-of-assets revenue that compounds as client wealth grows.",
+          "ro": "Modelul cu tarif fix, necesită un volum mai mare de clienți, față de consilierii bazați pe AUM, pentru a atinge un venit comparabil, dat fiind că nu există venit, procent din active, care crește compus, pe măsură ce averea clientului crește."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "Many prospects are unfamiliar with the flat-fee, advice-only model and default to assuming 'free' AUM-fee advisors, requiring real marketing effort to explain the value of paying directly for advice.",
+          "ro": "Mulți prospecți, nu sunt familiarizați, cu modelul cu tarif fix, doar de consiliere, și presupun implicit, consilieri cu tarif AUM, „gratuit”, necesitând un efort real de marketing, pentru a explica valoarea, de a plăti direct, pentru consiliere."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Objective advice. No assets required. A comprehensive financial plan without handing over your investment accounts to the advisor.",
+        "ro": "Sfaturi obiective. Fără active necesare. Un plan financiar complet, fără să predai conturile tale de investiții, consilierului."
+      },
+      "channels": [
+        {
+          "channelType": "seoAndLongFormFinancialEducationContent",
+          "description": {
+            "en": "Long-form, SEO-optimized financial-education content addressing the specific planning questions the target client is already searching for.",
+            "ro": "Conținut educațional, financiar, în format lung, optimizat SEO, care abordează întrebările specifice de planificare, pe care clientul țintă le caută deja."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "nicheProfessionalCommunityEngagement",
+          "description": {
+            "en": "Active engagement in niche professional and financial-independence communities where the target client already discusses money decisions.",
+            "ro": "Implicare activă, în comunități profesionale de nișă, și de independență financiară, unde clientul țintă discută deja, deciziile de bani."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "podcastGuestAppearances",
+          "description": {
+            "en": "Guest appearances on personal-finance and career-focused podcasts, as a supplemental, experimental channel.",
+            "ro": "Apariții, ca invitat, la podcast-uri de finanțe personale și carieră, ca un canal suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "The audience is easy to identify through search behavior, but overcoming unfamiliarity with the flat-fee model requires real, sustained educational content, not a one-time pitch.",
+        "ro": "Publicul este ușor de identificat, prin comportamentul de căutare, dar depășirea nefamiliarizării, cu modelul cu tarif fix, necesită conținut educațional real, susținut, nu o prezentare, o singură dată."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A prospect discovers educational content, books a free introductory call to assess fit and scope, and signs either a one-time comprehensive plan engagement or an ongoing annual flat-fee retainer.",
+        "ro": "Un prospect descoperă conținut educațional, rezervă un apel introductiv gratuit, pentru a evalua potrivirea și domeniul, și semnează, fie un angajament, de plan complet, unic, fie un abonament anual, continuu, cu tarif fix."
+      },
+      "salesCycleLengthDays": 21,
+      "pricingModel": {
+        "en": "A one-time comprehensive financial plan (€1,800-€3,500) or an ongoing flat annual retainer (€2,400-€6,000/year) covering plan updates and ad hoc advice — no assets-under-management fee, and no requirement to move investment accounts to the advisor.",
+        "ro": "Un plan financiar complet, unic (1.800-3.500 €), sau un abonament anual, continuu, cu tarif fix (2.400-6.000 €/an), care acoperă actualizări ale planului și consiliere ad hoc — fără taxă pe activele gestionate, și fără cerința de a muta conturile de investiții, la consilier."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "The free intro call lowers the initial commitment barrier, but a full 21-day cycle is typical while the prospect gathers their financial documents and evaluates the flat-fee model against familiar AUM-fee alternatives.",
+        "ro": "Apelul introductiv, gratuit, reduce bariera inițială de angajament, dar un ciclu complet, de 21 de zile, este tipic, în timp ce prospectul își adună documentele financiare, și evaluează modelul cu tarif fix, față de alternativele familiare, cu tarif AUM."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Client financial-data intake and goal-setting",
+          "ro": "Admiterea datelor financiare, ale clientului, și stabilirea obiectivelor"
+        },
+        {
+          "en": "Comprehensive financial plan drafting and review",
+          "ro": "Redactarea și revizuirea planului financiar complet"
+        },
+        {
+          "en": "Ongoing plan monitoring and annual update calls",
+          "ro": "Monitorizarea continuă a planului, și apelurile de actualizare anuală"
+        },
+        {
+          "en": "Compliance recordkeeping and fiduciary documentation",
+          "ro": "Ținerea evidenței de conformitate, și documentația fiduciară"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Most days split between client planning meetings, drafting or updating financial plans, producing educational content for lead generation, and maintaining compliance recordkeeping for every client relationship.",
+        "ro": "Majoritatea zilelor, se împart, între întâlnirile de planificare, cu clienții, redactarea sau actualizarea planurilor financiare, producția de conținut educațional, pentru generarea de clienți potențiali, și menținerea evidenței de conformitate, pentru fiecare relație de client."
+      },
+      "fulfillmentModel": {
+        "en": "A fully remote, flat-fee financial planning practice that delivers a comprehensive plan and ongoing advice without managing client investment assets directly, distinct from an assets-under-management wealth-management model.",
+        "ro": "O practică de planificare financiară, complet la distanță, cu tarif fix, care livrează un plan complet, și consiliere continuă, fără a gestiona direct, activele de investiții, ale clientului, distinctă, de un model de gestionare a averii, bazat pe active administrate."
+      }
+    },
+    "automation": {
+      "level": "moderate",
+      "notes": {
+        "en": "Scheduling, intake questionnaires, and plan-update reminders are automated, but plan drafting and advice remain fully human-led, given the licensed fiduciary judgment required.",
+        "ro": "Programarea, chestionarele de admitere, și reamintirile de actualizare a planului, sunt automatizate, dar redactarea planului și consilierea, rămân conduse integral de om, dată fiind judecata fiduciară, licențiată, necesară."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "planDraftSummaryAssistance",
+          "description": {
+            "en": "AI-assisted first-draft summarization of a client's financial data into a structured plan outline, reviewed and finalized entirely by the certified planner.",
+            "ro": "Rezumarea, asistată de AI, a unui prim proiect, al datelor financiare, ale clientului, într-un contur structurat, de plan, revizuit și finalizat, integral, de planificatorul certificat."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "RightCapital",
+        "category": "financialPlanningSoftware",
+        "isRequired": true,
+        "websiteUrl": "https://www.rightcapital.com/"
+      },
+      {
+        "name": "Calendly",
+        "category": "schedulingAndIntakeAutomation",
+        "isRequired": false,
+        "websiteUrl": "https://calendly.com/"
+      },
+      {
+        "name": "Wealthbox",
+        "category": "crmForClientRelationships",
+        "isRequired": false,
+        "websiteUrl": "https://www.wealthbox.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30,
+      "notes": {
+        "en": "Growth is initially gated by planner capacity for one-on-one plan delivery, but a compounding content and SEO presence generates increasingly consistent inbound leads over time, unlike referral-dependent growth.",
+        "ro": "Creșterea este inițial limitată, de capacitatea planificatorului, pentru livrarea planului, unu-la-unu, dar o prezență de conținut și SEO, care crește compus, generează clienți potențiali, primiți, din ce în ce mai constanți, în timp, spre deosebire de creșterea dependentă de recomandare."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Build a content and SEO library that generates consistent inbound leads first, then bring on a second CFP-certified planner once client volume exceeds solo capacity, then add a lower-touch group or course offering for prospects not yet ready for a full 1:1 flat-fee engagement.",
+        "ro": "Construiește, mai întâi, o bibliotecă de conținut și SEO, care generează clienți potențiali, primiți, constanți, apoi adu un al doilea planificator, certificat CFP, odată ce volumul de clienți, depășește capacitatea solo, apoi adaugă o ofertă de grup sau curs, cu implicare redusă, pentru prospecții, care nu sunt încă pregătiți, pentru un angajament complet, 1:1, cu tarif fix."
+      },
+      "bottlenecks": [
+        {
+          "en": "CFP certification and fiduciary registration is a genuine credentialing bottleneck limiting who can be hired to help scale the practice.",
+          "ro": "Certificarea CFP, și înregistrarea fiduciară, este un blocaj real, de acreditare, care limitează cine poate fi angajat, pentru a ajuta la scalarea practicii."
+        },
+        {
+          "en": "Comprehensive plan delivery requires real one-on-one time per client, capping how many clients one planner can serve well.",
+          "ro": "Livrarea planului complet, necesită timp real, unu-la-unu, per client, limitând câți clienți, poate deservi bine, un singur planificator."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 11,
+          "description": {
+            "en": "The practice reaches break-even with a stable base of comprehensive-plan and retainer clients.",
+            "ro": "Practica atinge pragul de rentabilitate, cu o bază stabilă, de clienți, cu plan complet și abonament."
+          }
+        },
+        {
+          "monthsFromLaunch": 24,
+          "description": {
+            "en": "A second CFP-certified planner is onboarded to handle overflow client demand.",
+            "ro": "Un al doilea planificator, certificat CFP, este integrat, pentru a gestiona cererea suplimentară, de clienți."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "The flat-fee, no-AUM model removes the conflict-of-interest concern many prospects have with commission- or AUM-based advisors.",
+          "ro": "Modelul cu tarif fix, fără AUM, elimină îngrijorarea, de conflict de interese, pe care mulți prospecți, o au, cu consilierii, bazați pe comision sau AUM."
+        }
+      },
+      {
+        "description": {
+          "en": "Fully remote delivery removes the geographic client-acquisition limits a hybrid, locally-networked practice faces.",
+          "ro": "Livrarea, complet la distanță, elimină limitele geografice, de achiziție a clienților, cu care se confruntă, o practică hibridă, cu rețea locală."
+        }
+      },
+      {
+        "description": {
+          "en": "Content-driven inbound lead generation compounds over time, unlike referral-dependent growth that requires ongoing relationship maintenance.",
+          "ro": "Generarea de clienți potențiali, primiți, condusă de conținut, crește compus, în timp, spre deosebire de creșterea dependentă de recomandare, care necesită întreținere continuă a relațiilor."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A fully remote, flat-fee financial planning practice offering a one-time comprehensive plan or annual retainer with no assets-under-management fee. Deliberately distinct from the AUM-fee, hybrid, referral-driven wealth-management practice elsewhere in this library — targets younger, high-earning professionals sourced through content and SEO rather than accountant/estate-attorney referrals. Educational business-planning guidance only, never investment, tax, or financial advice.",
+        "ro": "O practică de planificare financiară, complet la distanță, cu tarif fix, care oferă un plan complet, unic, sau un abonament anual, fără taxă pe activele gestionate. Deliberat distinctă, de practica de gestionare a averii, cu tarif AUM, hibridă, condusă de recomandări, din altă parte, a acestei biblioteci — vizează profesioniști mai tineri, cu venituri ridicate, procurați, prin conținut și SEO, nu recomandări, de la contabili/avocați de succesiuni. Îndrumare educațională, de planificare a afacerii, doar, niciodată consiliere de investiții, fiscală, sau financiară."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.feeOnlyFinancialPlanningPractice.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.feeOnlyFinancialPlanningPractice.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.feeOnlyFinancialPlanningPractice.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.feeOnlyFinancialPlanningPractice.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert intro-call bookings into signed comprehensive-plan or retainer engagements.",
+          "ro": "Transformă rezervările, de apel introductiv, în angajamente, de plan complet sau abonament, semnate."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Convert one-time plan clients into ongoing annual flat-fee retainer clients.",
+          "ro": "Transformă clienții, cu plan unic, în clienți, cu abonament anual, continuu, cu tarif fix."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against financial-planning software and compliance costs.",
+          "ro": "Protejează marja brută, împotriva costurilor de software de planificare financiară, și conformitate."
+        }
+      },
+      {
+        "key": "netMargin",
+        "targetDescription": {
+          "en": "Maintain high net margin given the low overhead of a fully remote, flat-fee practice.",
+          "ro": "Menține marja netă, ridicată, dat fiind costul general redus, al unei practici, complet la distanță, cu tarif fix."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "finance",
+          "importance": 5
+        },
+        {
+          "key": "communication",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "marketing",
+          "importance": 3
+        },
+        {
+          "key": "content",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "analytical",
+          "importance": 5
+        },
+        {
+          "trait": "detailOriented",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "patient",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 10000,
+        "max": 25000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 12000,
+        "max": 20000,
+        "currency": "EUR"
+      },
+      "riskProfile": "high",
+      "timeAvailability": {
+        "minWeeklyHours": 35,
+        "maxWeeklyHours": 50
+      },
+      "communicationStyle": [
+        "structured",
+        "empathetic"
+      ],
+      "technicalLevel": 3,
+      "leadershipLevel": 2,
+      "creativityLevel": 2,
+      "salesAffinity": 2,
+      "automationAffinity": 3,
+      "remotePreference": "remote",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theSpecialist",
+        "theBuilder"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the flat-fee, no-AUM positioning and the fully remote delivery model in Entrepreneur Fit and Offer Architecture, and the client-education burden in Marketing System and Risk Analysis — keep this clearly distinct from the AUM-fee wealth-management practice elsewhere in this library throughout.",
+      "ro": "Subliniază poziționarea cu tarif fix, fără AUM, și modelul de livrare, complet la distanță, în Potrivirea fondatorului și Arhitectura ofertei, și povara de educare a clienților, în Sistemul de marketing și Analiza riscurilor — menține aceasta clar distinctă, de practica de gestionare a averii, cu tarif AUM, din altă parte, a acestei biblioteci, pe tot parcursul."
+    },
+    "marketingHints": {
+      "en": "Lead with the 'no assets required, no conflict of interest' proposition and real financial-education content, never generic 'financial freedom' stock phrases — always include the educational-guidance-only disclaimer.",
+      "ro": "Începe cu propunerea „fără active necesare, fără conflict de interese” și conținut educațional financiar real, niciodată cu fraze generice, de tipul „libertate financiară” — include întotdeauna disclaimer-ul, doar de îndrumare educațională."
+    },
+    "financialHints": {
+      "en": "Model revenue as a one-time comprehensive-plan fee or an annual flat retainer, never a percentage of assets under management — emphasize that reaching comparable income to AUM-based advisors requires higher client volume.",
+      "ro": "Modelează veniturile, ca o taxă unică, de plan complet, sau un abonament anual, cu tarif fix, niciodată un procent din activele gestionate — subliniază că atingerea unui venit comparabil, cu consilierii bazați pe AUM, necesită un volum mai mare, de clienți."
+    },
+    "generationHints": {
+      "en": "Keep generated tone precise, empathetic, and credibility-driven, grounded in real fee-only planning specifics — always include the educational-guidance-only disclaimer and never generate content resembling actual financial or investment advice for a specific client situation.",
+      "ro": "Menține un ton generat, precis, empatic, orientat spre credibilitate, fundamentat pe specificul real, al planificării cu tarif fix — include întotdeauna disclaimer-ul, doar de îndrumare educațională, și nu genera niciodată conținut, care seamănă cu consiliere financiară sau de investiții reală, pentru o situație specifică de client."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Complete CFP certification and fiduciary registration, and set up financial-planning software and compliance infrastructure.",
+            "ro": "Finalizează certificarea CFP, și înregistrarea fiduciară, și configurează software-ul de planificare financiară, și infrastructura de conformitate."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching before fiduciary registration is complete, creating real regulatory and liability exposure.",
+            "ro": "Lansarea, înainte ca înregistrarea fiduciară, să fie finalizată, creând expunere reală, de reglementare și răspundere."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Complete fiduciary registration and compliance setup fully before accepting any client engagement.",
+            "ro": "Finalizează integral, înregistrarea fiduciară, și configurarea de conformitate, înainte de a accepta orice angajament de client."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.feeOnlyFinancialPlanningPractice.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Sign the first paid comprehensive-plan engagement to validate the flat-fee pricing model.",
+            "ro": "Semnează primul angajament, plătit, de plan complet, pentru a valida modelul de preț, cu tarif fix."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Discounting the first plan heavily to win the client, undermining the flat-fee value proposition before it's tested.",
+            "ro": "Reducerea puternică, a prețului primului plan, pentru a câștiga clientul, subminând propunerea de valoare, cu tarif fix, înainte de a fi testată."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Price the first engagement at the intended standard rate to properly test willingness to pay for flat-fee advice.",
+            "ro": "Stabilește prețul primului angajament, la tariful standard, intenționat, pentru a testa corect, disponibilitatea de a plăti, pentru consiliere cu tarif fix."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.feeOnlyFinancialPlanningPractice.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first full comprehensive plan, from intake through delivery and client review.",
+            "ro": "Finalizează primul plan complet, de la admitere, la livrare, și revizuirea clientului."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Underestimating the time required to gather and organize a first client's complete financial picture.",
+            "ro": "Subestimarea timpului necesar, pentru a aduna și organiza, imaginea financiară completă, a primului client."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a structured intake questionnaire that captures the full financial picture before the first planning session.",
+            "ro": "Construiește un chestionar de admitere, structurat, care captează imaginea financiară completă, înainte de prima sesiune de planificare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.feeOnlyFinancialPlanningPractice.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish the first long-form educational content pieces and begin engaging niche professional communities.",
+            "ro": "Publică primele piese de conținut educațional, în format lung, și începe implicarea, în comunități profesionale de nișă."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Publishing generic personal-finance content instead of specific, searchable answers to the target client's actual planning questions.",
+            "ro": "Publicarea de conținut generic, de finanțe personale, în loc de răspunsuri specifice, căutabile, la întrebările reale, de planificare, ale clientului țintă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Write content that directly answers the specific planning questions the target client is searching for.",
+            "ro": "Scrie conținut, care răspunde direct, la întrebările specifice de planificare, pe care clientul țintă le caută."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.feeOnlyFinancialPlanningPractice.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first comprehensive-plan client into an ongoing annual retainer.",
+            "ro": "Transformă primul client, cu plan complet, într-un abonament anual, continuu."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not proactively offering the annual retainer at plan delivery, leaving the client without a clear path to ongoing support.",
+            "ro": "Neoferirea proactivă, a abonamentului anual, la livrarea planului, lăsând clientul, fără un traseu clar, către suport continuu."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Present the annual retainer as a standard part of every plan delivery, framed around the value of ongoing plan updates.",
+            "ro": "Prezintă abonamentul anual, ca o parte standard, a fiecărei livrări de plan, încadrat în jurul valorii, actualizărilor continue ale planului."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.feeOnlyFinancialPlanningPractice.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a steady pipeline of qualified intro-call bookings from content and community engagement.",
+            "ro": "Atinge un pipeline constant, de rezervări, de apel introductiv, calificate, din implicarea în conținut și comunitate."
+          }
+        ],
+        "kpis": [
+          "leadConversion",
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Producing content across too many unrelated financial topics instead of concentrating on the specific questions that convert best.",
+            "ro": "Producerea de conținut, pe prea multe subiecte financiare, fără legătură, în loc de a se concentra, pe întrebările specifice, care convertesc cel mai bine."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track which content topics and questions generate the most intro-call bookings, and concentrate future content there.",
+            "ro": "Urmărește ce subiecte de conținut și întrebări, generează cele mai multe rezervări, de apel introductiv, și concentrează conținutul viitor, acolo."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.feeOnlyFinancialPlanningPractice.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Build a compounding content and SEO library that generates increasingly consistent inbound leads.",
+            "ro": "Construiește o bibliotecă de conținut și SEO, care crește compus, generând clienți potențiali, primiți, din ce în ce mai constanți."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Treating content production as a one-time launch activity instead of an ongoing, compounding growth engine.",
+            "ro": "Tratarea producției de conținut, ca o activitate, de lansare, o singură dată, în loc de un motor de creștere, continuu, care crește compus."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain a consistent, ongoing content-publishing cadence rather than a one-time content push.",
+            "ro": "Menține o cadență constantă, continuă, de publicare de conținut, în loc de un impuls de conținut, o singură dată."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.feeOnlyFinancialPlanningPractice.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Bring on a second CFP-certified planner once client volume consistently exceeds solo capacity.",
+            "ro": "Adu un al doilea planificator, certificat CFP, odată ce volumul de clienți, depășește constant, capacitatea solo."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring a non-certified planner to help with client-facing planning work, creating real compliance and quality risk.",
+            "ro": "Angajarea unui planificator, necertificat, pentru a ajuta la munca de planificare, pentru clienți, creând un risc real, de conformitate și calitate."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm any new hire holds equivalent fiduciary certification and registration before extending an offer.",
+            "ro": "Confirmă că orice nou angajat, deține certificare și înregistrare fiduciară, echivalentă, înainte de a extinde o ofertă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.feeOnlyFinancialPlanningPractice.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Add a lower-touch group or course offering for prospects not yet ready for a full 1:1 flat-fee engagement.",
+            "ro": "Adaugă o ofertă de grup sau curs, cu implicare redusă, pentru prospecții, care nu sunt încă pregătiți, pentru un angajament complet, 1:1, cu tarif fix."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Launching a group offering that dilutes the core 1:1 flat-fee positioning instead of complementing it as a top-of-funnel option.",
+            "ro": "Lansarea unei oferte de grup, care diluează poziționarea de bază, 1:1, cu tarif fix, în loc să o completeze, ca opțiune, la vârful pâlniei."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Position the group offering explicitly as a stepping stone toward the core 1:1 flat-fee engagement, not a replacement for it.",
+            "ro": "Poziționează oferta de grup, explicit, ca o piatră de temelie, către angajamentul de bază, 1:1, cu tarif fix, nu ca un înlocuitor, pentru acesta."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.feeOnlyFinancialPlanningPractice.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the client base, retainer contracts, and compliance history to package the practice for sale.",
+            "ro": "Documentează baza de clienți, contractele de abonament, și istoricul de conformitate, pentru a pregăti practica, pentru vânzare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping compliance and client records fragmented across systems instead of a single, buyer-ready due-diligence view.",
+            "ro": "Menținerea evidențelor de conformitate și clienți, fragmentate, în diverse sisteme, în loc de o singură vizualizare, de diligență, pregătită pentru cumpărător."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, ongoing documentation of the client base, retainer contracts, and compliance records for due-diligence readiness.",
+            "ro": "Menține o documentație curată, continuă, a bazei de clienți, contractelor de abonament, și evidențelor de conformitate, pentru pregătirea de diligență."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.feeOnlyFinancialPlanningPractice.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

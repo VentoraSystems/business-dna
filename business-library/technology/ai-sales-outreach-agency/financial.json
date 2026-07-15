@@ -1,0 +1,138 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "leadEnrichmentAndProspectingSoftwareSetup",
+      "emailInfrastructureAndDomainWarmupSetup",
+      "businessRegistrationAndCrmSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "prospectingAndEnrichmentSoftwareSubscriptions",
+      "emailSendingAndWarmupSubscriptions"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "domainAndInfrastructureCosts",
+      "contractorOverflowCampaignHours"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "pilotCampaignFee",
+        "label": {
+          "en": "One-time pilot campaign fee (ICP research, list building, launch)",
+          "ro": "Taxă unică, pentru campania pilot (cercetare ICP, construirea listei, lansare)"
+        }
+      },
+      {
+        "key": "monthlyPerCampaignRetainer",
+        "label": {
+          "en": "Ongoing monthly retainer per active outbound campaign",
+          "ro": "Abonament lunar, continuu, per campanie activă de prospectare"
+        }
+      },
+      {
+        "key": "perMeetingPerformanceBonus",
+        "label": {
+          "en": "Performance bonus per qualified booked meeting beyond baseline",
+          "ro": "Bonus de performanță, per întâlnire calificată, rezervată, peste bază"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "activeCampaigns": "number",
+      "averageRetainerValue": "currency",
+      "pilotToRetainerCloseRatePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "pilotsSoldPerMonth": "number",
+      "retainerRenewalRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.aiSalesOutreachAgency.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "pilotFeeInflow",
+      "retainerInflow",
+      "softwareAndInfrastructureOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 7,
+    "notesTranslationKey": "businessLibrary.aiSalesOutreachAgency.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 72,
+    "notesTranslationKey": "businessLibrary.aiSalesOutreachAgency.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 42,
+    "notesTranslationKey": "businessLibrary.aiSalesOutreachAgency.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "secondCampaignManagerRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "selfDemonstratedOutboundInfrastructure",
+      "caseStudyContentProduction"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "selfEmploymentTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "leadConversion",
+      "closeRate",
+      "customerRetention",
+      "grossMargin"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 5000,
+      "notesTranslationKey": "businessLibrary.aiSalesOutreachAgency.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 12000,
+      "notesTranslationKey": "businessLibrary.aiSalesOutreachAgency.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 18000,
+      "notesTranslationKey": "businessLibrary.aiSalesOutreachAgency.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.aiSalesOutreachAgency.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.aiSalesOutreachAgency.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.aiSalesOutreachAgency.financial.aiMetadata.generationHints"
+  }
+}

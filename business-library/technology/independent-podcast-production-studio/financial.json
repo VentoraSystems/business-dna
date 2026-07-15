@@ -1,0 +1,131 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "audioEquipmentSetup",
+      "editingSoftwareLicensing",
+      "businessRegistrationAndPortfolioSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "editingAndHostingSoftwareSubscriptions",
+      "remoteRecordingPlatformSubscription"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "cloudStorageAndBackup",
+      "contractorOverflowEditingHours"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "oneTimeShowLaunchPackage",
+        "label": {
+          "en": "One-time show-launch package (concept, branding, distribution setup)",
+          "ro": "Pachet unic, de lansare a emisiunii (concept, branding, configurare distribuție)"
+        }
+      },
+      {
+        "key": "perEpisodeProductionRetainer",
+        "label": {
+          "en": "Ongoing per-episode production retainer",
+          "ro": "Abonament continuu, de producție, per episod"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "activeClientShows": "number",
+      "averageEpisodesPerShowPerMonth": "number",
+      "averageRetainerValue": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "newShowLaunchesPerMonth": "number",
+      "showRetentionRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.independentPodcastProductionStudio.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "launchPackageInflow",
+      "retainerInflow",
+      "softwareAndEquipmentOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 6,
+    "notesTranslationKey": "businessLibrary.independentPodcastProductionStudio.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 58,
+    "notesTranslationKey": "businessLibrary.independentPodcastProductionStudio.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 32,
+    "notesTranslationKey": "businessLibrary.independentPodcastProductionStudio.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "secondEditorRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "demoReelProduction",
+      "linkedinContentProduction"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "selfEmploymentTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "customerRetention",
+      "leadConversion",
+      "grossMargin",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 3000,
+      "notesTranslationKey": "businessLibrary.independentPodcastProductionStudio.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 7500,
+      "notesTranslationKey": "businessLibrary.independentPodcastProductionStudio.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 12000,
+      "notesTranslationKey": "businessLibrary.independentPodcastProductionStudio.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.independentPodcastProductionStudio.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.independentPodcastProductionStudio.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.independentPodcastProductionStudio.financial.aiMetadata.generationHints"
+  }
+}

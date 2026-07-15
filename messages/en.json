@@ -18105,6 +18105,1846 @@
           "generationHints": "Keep insights grounded in two-sided liquidity dynamics, contractor verification, and dual-channel growth."
         }
       }
+    },
+    "aiSalesOutreachAgency": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"Predictable Revenue\" by Aaron Ross and Marylou Tyler",
+          "course1": "Course: Clay Academy Outbound Automation Certification",
+          "community1": "Community: Hyperbound and Outbound Squad Slack community",
+          "checklist1": "Checklist: Domain and Inbox Warmup Checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast revenue from pilots sold per month and the retainer renewal rate — a growing base of monthly retainers compounds into predictable recurring revenue on top of pilot fees."
+        },
+        "breakEven": {
+          "notes": "Break-even typically arrives around month 7 given the Low upfront investment, driven mainly by how quickly the first 3-4 client pilots convert to retainers."
+        },
+        "grossMargin": {
+          "notes": "Gross margin holds around 72% after prospecting, enrichment, and email-infrastructure software costs."
+        },
+        "netMargin": {
+          "notes": "Net margin settles around 42% once domain infrastructure and contractor overflow costs are accounted for."
+        },
+        "scenarios": {
+          "conservative": "A slow-pipeline scenario with one pilot sold every 2 months and low retainer conversion.",
+          "expected": "A realistic scenario with a steady 1-2 pilots per month and healthy retainer conversion.",
+          "optimistic": "A strong scenario with a full pilot pipeline and high retainer renewal rates across most clients."
+        },
+        "risks": {
+          "risk1": "Deliverability risk — email or LinkedIn account restrictions and spam-folder placement can silently kill a campaign's effectiveness, and platforms increasingly crack down on automated outbound.",
+          "risk2": "As AI-native outbound tools become more powerful and self-serve, clients may increasingly run campaigns in-house without needing an agency, threatening to commoditize the service over the medium term."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as a pilot fee converting to a monthly per-campaign retainer plus an optional performance bonus — never a single flat monthly fee."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Booked meetings, not just sent emails — every prospect experiences the methodology firsthand, through the campaign that reached them.",
+          "category": "AI-powered B2B outbound sales agency"
+        },
+        "brandPromise": "The pipeline we build for you, we build for ourselves first.",
+        "uvp": {
+          "statement": "AI-personalized cold-email and LinkedIn outreach campaigns for B2B clients with a sales team but no dedicated prospecting function, priced as a pilot converting to a monthly retainer plus a per-meeting performance bonus.",
+          "diff1": "A live, continuous proof-of-concept through the agency's own outbound campaigns, distinct from agencies that only show case studies.",
+          "diff2": "Performance-based bonus pricing aligned with booked meetings, distinct from flat-retainer competitors with no outcome accountability."
+        },
+        "icp": {
+          "description": "Sales and revenue leaders at 10-100 employee B2B SaaS or services companies who need pipeline but don't want to build an in-house outbound function from scratch.",
+          "firmographics": "B2B companies with an existing sales team capable of closing meetings, but no dedicated SDR or outbound prospecting resource."
+        },
+        "personas": {
+          "persona1": {
+            "name": "VP of Sales",
+            "description": "A sales leader who needs more qualified pipeline but doesn't have budget or time to hire and ramp an in-house SDR team."
+          },
+          "persona2": {
+            "name": "Founder-Led Sales SaaS Founder",
+            "description": "An early-stage SaaS founder still doing sales personally who needs outbound pipeline without becoming a full-time prospector."
+          }
+        },
+        "painPoints": {
+          "point1": "Not enough qualified meetings on the calendar despite having a capable closing team.",
+          "point2": "Prior attempts at in-house outbound or a generic outreach tool never delivered consistent, quality pipeline."
+        },
+        "outcomes": {
+          "outcome1": "A steady stream of qualified booked meetings without hiring and ramping an in-house SDR team.",
+          "outcome2": "Confidence in the methodology because it's the same one that reached them in the first place."
+        },
+        "messaging": {
+          "core": "Booked meetings, not just sent emails.",
+          "support1": "A paid pilot proves the approach before you commit to an ongoing retainer."
+        },
+        "brandVoice": {
+          "tone": "Direct, results-oriented, and no-nonsense",
+          "attr1": "Credible",
+          "attr2": "Persistent"
+        },
+        "contentPillars": {
+          "pillar1": "Concrete pipeline and meeting-booked case studies",
+          "pillar2": "Outbound copywriting and deliverability tactics"
+        },
+        "channelStrategy": "Prioritize the agency's own outbound cold-email and LinkedIn campaigns as the primary channel — a live proof-of-concept — supported by B2B sales community engagement, with pipeline results case-study content as an experimental channel.",
+        "community": {
+          "description": "A network of sales leaders and SaaS founders who refer peers once they see concrete pipeline results.",
+          "platform1": "LinkedIn and B2B sales Slack communities"
+        },
+        "leadMagnets": {
+          "magnet1": "A free outbound-campaign audit of the prospect's current messaging"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Outbound campaign contact",
+            "description": "A prospect is reached through the agency's own outbound cold-email or LinkedIn campaign."
+          },
+          "stage2": {
+            "name": "Discovery call",
+            "description": "The prospect books a discovery call to define ICP, messaging, and pilot scope."
+          },
+          "stage3": {
+            "name": "Pilot campaign",
+            "description": "The prospect signs a paid 4-6 week pilot campaign with a meetings-booked target."
+          }
+        },
+        "retention": {
+          "tactic1": "Presenting the retainer conversion as a standard part of the pilot wrap-up call, backed by concrete pilot results."
+        },
+        "analytics": {
+          "metric1": "Pilot-to-retainer conversion rate"
+        },
+        "aiMetadata": {
+          "generationHints": "Lead with the agency's own outbound results as the proof, never generic 'AI sales automation' stock phrases."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Set up lead-enrichment, email-sending, and warmup infrastructure, and launch the agency's own outbound campaign as its first proof-of-concept."
+          },
+          "deliverables": {
+            "0": "Working outbound infrastructure and a live self-demonstration campaign."
+          },
+          "checklist": {
+            "0": "Run the agency's own outbound campaign to a meaningful sample size before pitching any prospective client."
+          },
+          "commonMistakes": {
+            "0": "Pitching prospective clients before the agency's own outbound campaign has proven results."
+          },
+          "successCriteria": {
+            "0": "The agency's own campaign shows measurable reply and meeting-booked rates."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help draft and A/B test the agency's own initial outbound sequence variants."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Sign the first paid pilot campaign to validate the pilot-to-retainer pricing model."
+          },
+          "deliverables": {
+            "0": "A signed first paid pilot campaign."
+          },
+          "checklist": {
+            "0": "Charge for the first pilot even at a discounted rate, to properly test the paid-pilot model."
+          },
+          "commonMistakes": {
+            "0": "Offering the first pilot for free to win the client, undermining the paid-pilot model."
+          },
+          "successCriteria": {
+            "0": "A prospective client pays for and completes the first pilot campaign."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help draft the ICP research questionnaire for new pilot clients."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Complete the first full pilot campaign and hand off qualified booked meetings to the client's sales team."
+          },
+          "deliverables": {
+            "0": "A completed pilot campaign with booked meetings handed off."
+          },
+          "checklist": {
+            "0": "Build in a dedicated domain and inbox warmup period into every new client's timeline."
+          },
+          "commonMistakes": {
+            "0": "Underestimating the domain and inbox warmup time needed before sending at volume."
+          },
+          "successCriteria": {
+            "0": "The pilot delivers qualified booked meetings against the target."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help draft the client handoff report summarizing pilot results."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publish the first pipeline results case study and begin engaging B2B sales and SaaS-founder communities."
+          },
+          "deliverables": {
+            "0": "A published case study and an active community presence."
+          },
+          "checklist": {
+            "0": "Lead every case study with concrete meeting-booked and pipeline numbers."
+          },
+          "commonMistakes": {
+            "0": "Publishing vague 'more leads' claims instead of concrete numbers."
+          },
+          "successCriteria": {
+            "0": "The case study generates at least one qualified inbound inquiry."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help draft case-study content from raw campaign metrics."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Convert the first pilot client into an ongoing monthly retainer."
+          },
+          "deliverables": {
+            "0": "A signed monthly retainer with the first pilot client."
+          },
+          "checklist": {
+            "0": "Present the retainer conversion as a standard part of the pilot wrap-up call."
+          },
+          "commonMistakes": {
+            "0": "Not proactively pitching the retainer conversion at pilot completion."
+          },
+          "successCriteria": {
+            "0": "The first client signs an ongoing monthly retainer."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a personalized retainer pitch based on pilot results."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach a steady pipeline of qualified pilot requests and a growing base of active monthly retainers."
+          },
+          "deliverables": {
+            "0": "A documented, repeatable pipeline of pilots and retainers."
+          },
+          "checklist": {
+            "0": "Track which client ICPs and sequence templates convert most reliably."
+          },
+          "commonMistakes": {
+            "0": "Accepting pilots across too many unrelated verticals instead of identifying which ICPs convert most reliably."
+          },
+          "successCriteria": {
+            "0": "A steady, predictable pipeline of qualified pilot requests is established."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze which ICPs and sequence templates show the strongest conversion."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Build a documented playbook of the highest-converting sequence templates and ICPs across verticals served."
+          },
+          "deliverables": {
+            "0": "A structured internal playbook covering top-converting templates and ICPs."
+          },
+          "checklist": {
+            "0": "After each campaign, document the highest-converting messaging elements."
+          },
+          "commonMistakes": {
+            "0": "Rewriting sequence copy from scratch for each new client instead of reusing proven templates."
+          },
+          "successCriteria": {
+            "0": "Ramp time on repeat ICP campaigns measurably decreases due to playbook reuse."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help identify and extract high-converting messaging patterns across campaigns."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Hire and train a second campaign manager to take on overflow client campaigns."
+          },
+          "deliverables": {
+            "0": "A fully onboarded second campaign manager."
+          },
+          "checklist": {
+            "0": "Confirm the playbook and deliverability-troubleshooting guide are solid enough to train a new hire."
+          },
+          "commonMistakes": {
+            "0": "Hiring a second campaign manager before the playbook is mature enough to onboard them efficiently."
+          },
+          "successCriteria": {
+            "0": "The second campaign manager independently runs a campaign with strong client feedback."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help build structured onboarding materials for a new campaign manager hire."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Productize the pilot methodology into a lower-touch, self-serve tier for smaller clients."
+          },
+          "deliverables": {
+            "0": "A validated business case for a self-serve tier."
+          },
+          "checklist": {
+            "0": "Confirm the core high-touch playbook is stable and repeatable before productizing any part of it."
+          },
+          "commonMistakes": {
+            "0": "Launching a self-serve tier before the core high-touch playbook is proven."
+          },
+          "successCriteria": {
+            "0": "The self-serve tier launches successfully without diluting core-tier quality."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to research which self-serve tier features would generate the strongest demand."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Document the playbook library, client retainer contracts, and pipeline-performance history to package the agency for sale."
+          },
+          "deliverables": {
+            "0": "A complete due-diligence package of playbook and retainer documentation."
+          },
+          "checklist": {
+            "0": "Maintain clean, ongoing documentation of the playbook and every client's campaign performance history."
+          },
+          "commonMistakes": {
+            "0": "Keeping the playbook and client-specific sequence logic undocumented and only in the founder's head."
+          },
+          "successCriteria": {
+            "0": "A prospective buyer could complete due diligence entirely from existing documentation."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help organize scattered playbook and retainer documentation into a structured due-diligence package."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep roadmap guidance concrete about the paid-pilot model, playbook reuse, and retainer conversion — the real levers in this business."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Book: \"Predictable Revenue\"",
+          "description": "A foundational guide to building a scalable, predictable outbound sales function."
+        },
+        "item2": {
+          "title": "Course: Clay Academy Outbound Automation Certification",
+          "description": "A hands-on certification covering lead enrichment and outbound automation workflows."
+        },
+        "item3": {
+          "title": "Community: Hyperbound and Outbound Squad Slack",
+          "description": "Active communities of outbound sales professionals sharing tactics and troubleshooting help."
+        },
+        "item4": {
+          "title": "Podcast: \"30 Minutes to President's Club\"",
+          "description": "Tactical interviews with top sales practitioners on outbound and pipeline generation."
+        },
+        "item5": {
+          "title": "Newsletter: The GTM Newsletter",
+          "description": "Industry news and trends on go-to-market and outbound sales strategy."
+        },
+        "item6": {
+          "title": "Software: Clay",
+          "description": "Lead enrichment and data orchestration for building personalized outbound campaigns."
+        },
+        "item7": {
+          "title": "Software: Instantly",
+          "description": "Cold-email sending and inbox warmup infrastructure at scale."
+        },
+        "item8": {
+          "title": "AI Tool: personalized-sequence copywriting assistant",
+          "description": "AI-assisted first-draft generation of personalized outreach messaging based on prospect data."
+        },
+        "item9": {
+          "title": "Certification: Clay Academy Outbound Automation Certification",
+          "description": "An industry-recognized credential signaling outbound automation competence."
+        },
+        "item10": {
+          "title": "Event: SaaStr Annual",
+          "description": "A major B2B SaaS conference for networking with sales and revenue leaders."
+        },
+        "item11": {
+          "title": "Expert: A cold-email deliverability consultant",
+          "description": "Helps diagnose and resolve domain reputation and inbox placement issues."
+        },
+        "item12": {
+          "title": "Checklist: Domain and Inbox Warmup Checklist",
+          "description": "A documented process for warming up new sending domains and inboxes before full-volume sends."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritize resources on deliverability, playbook reuse, and pilot-to-retainer conversion — the real differentiators in this business."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "A performance-based bonus tier becomes a natural upsell once core retainer clients trust the campaign's baseline results."
+          },
+          "item2": {
+            "title": "Referrals from sales leaders who saw the agency's own outbound campaign land in their inbox convert unusually well, since they've already experienced the product firsthand."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "AI-native outbound tools increasingly threaten to commoditize this service by making self-serve campaigns powerful enough for clients to run in-house."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Offering the first pilot for free to win a client, undermining the paid-pilot qualification model before it's even tested."
+          },
+          "item2": {
+            "title": "Rewriting sequence copy from scratch for each new client instead of documenting and reusing proven templates."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Presenting the retainer conversion as a standard part of the pilot wrap-up call, backed by concrete results, converts far better than pitching it separately later."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Confirm the playbook and deliverability-troubleshooting guide are mature enough to train a new hire before extending a second-campaign-manager offer."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Run the agency's own outbound campaign to a meaningful sample size before pitching any prospective client — the results are the pitch."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Agencies that concentrate on 1-2 reliably-converting ICPs grow faster than those chasing every industry vertical at once."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Many sales leaders choose an outbound agency primarily because they personally received a well-crafted campaign from that agency, not from a cold pitch."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Domain and inbox warmup time for each new client is a real, recurring lead-time cost often underestimated when scoping a pilot timeline."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Growing sales-leader skepticism toward generic AI outreach tools, combined with demand for demonstrated results, signals room for agencies with a credible proof-of-concept."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A newly launched agency reached break-even in 7 months by converting its first 3-4 pilot clients into ongoing monthly retainers."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "An agency that skipped running its own outbound campaign before pitching prospects struggled to build credibility and closed few pilots."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "How is this different from a broad AI-automation agency?",
+            "answer": "This business deliberately narrows scope to one function — B2B outbound sales prospecting — and proves its methodology live on every prospect through its own outbound campaigns, distinct from broader AI-automation strategy consulting or AI-native customer-support and RPA workflow businesses elsewhere in this library."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "AI outbound tools alone guarantee more booked meetings.",
+            "fact": "The tools accelerate execution, but ICP research, messaging strategy, and deliverability management still determine whether a campaign actually converts — the technology is necessary but not sufficient."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Charge for the first pilot campaign even at a discounted rate, to properly test the paid-pilot qualification model."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep insights grounded in playbook reuse, deliverability discipline, and pilot-to-retainer conversion."
+        }
+      }
+    },
+    "upcycledDenimLabel": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"Overdressed\" by Elizabeth L. Cline",
+          "course1": "Course: Fashion Revolution's Upcycling and Circular Design Course",
+          "community1": "Community: Remake and Fashion Revolution online community",
+          "checklist1": "Checklist: Deadstock Sourcing and Material Grading Checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast revenue from drops per quarter and the repeat-customer purchase rate — concentrated bursts around each drop compound into predictable revenue once a loyal repeat-customer base is established."
+        },
+        "breakEven": {
+          "notes": "Break-even typically arrives around month 9 given the Medium upfront investment, driven largely by production equipment and initial material sourcing."
+        },
+        "grossMargin": {
+          "notes": "Gross margin holds around 50% after material sourcing and labor-intensive production costs."
+        },
+        "netMargin": {
+          "notes": "Net margin settles around 18% once studio space and platform fees are accounted for."
+        },
+        "scenarios": {
+          "conservative": "A slow-growth scenario with infrequent drops and a small repeat-customer base.",
+          "expected": "A realistic scenario with steady quarterly drops and a growing repeat-customer base.",
+          "optimistic": "A strong scenario with frequent sellout drops and strong wholesale demand."
+        },
+        "risks": {
+          "risk1": "Deadstock and secondhand-denim sourcing is inherently unpredictable and finite — unlike ordering standard fabric rolls, each drop depends on finding suitable raw material, which doesn't scale on demand.",
+          "risk2": "Each garment requires significant hand labor for deconstruction, redesign, and reconstruction, capping how many units can be produced per month regardless of demand."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as concentrated bursts around each limited-run drop, not smooth monthly recurring revenue, and treat finite deadstock supply as a real constraint on production planning."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Every pair has already lived a life — we give it a second one. One-of-a-kind garments built from real secondhand denim.",
+          "category": "Upcycled denim fashion label"
+        },
+        "brandPromise": "No two pieces are ever the same, because no two pairs of jeans ever were.",
+        "uvp": {
+          "statement": "Limited-run garments hand-transformed from secondhand denim and factory deadstock, sold through scarcity-driven drops rather than mass-produced 'sustainable' fast fashion.",
+          "diff1": "Genuine hand craftsmanship and authentic material sourcing, distinct from mass-manufactured sustainable-fashion marketing.",
+          "diff2": "Scarcity-driven limited-run drops, distinct from always-available e-commerce fashion inventory."
+        },
+        "icp": {
+          "description": "Eco-conscious fashion consumers aged 20-35 who want authentic, one-of-a-kind pieces and are willing to pay a premium over mass-market fast fashion.",
+          "firmographics": "Consumers active on visual social platforms with discretionary spend for premium, statement fashion pieces."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Eco-Conscious Fashion Enthusiast",
+            "description": "A shopper who wants a one-of-a-kind, sustainably-sourced garment with a real story behind it, not another mass-produced item."
+          },
+          "persona2": {
+            "name": "Sustainable-Fashion Collector",
+            "description": "A repeat customer who collects pieces from independent upcycling labels and follows the transformation process closely."
+          }
+        },
+        "painPoints": {
+          "point1": "Difficulty finding fashion that's both genuinely sustainable and distinctive, not just marketed as 'eco-friendly.'",
+          "point2": "Skepticism toward mass-market brands' sustainability claims, which often don't hold up to scrutiny."
+        },
+        "outcomes": {
+          "outcome1": "A one-of-a-kind garment with a verifiable, authentic sustainability story.",
+          "outcome2": "The satisfaction of owning a piece that genuinely can't be mass-replicated."
+        },
+        "messaging": {
+          "core": "Every pair has already lived a life — we give it a second one.",
+          "support1": "Real secondhand denim, hand-transformed into one-of-a-kind pieces, released in small, scarce drops."
+        },
+        "brandVoice": {
+          "tone": "Authentic, craft-focused, and visually driven",
+          "attr1": "Authentic",
+          "attr2": "Meticulous"
+        },
+        "contentPillars": {
+          "pillar1": "Before/after garment transformation stories",
+          "pillar2": "Material sourcing and supplier spotlight features"
+        },
+        "channelStrategy": "Prioritize before/after transformation content on Instagram and TikTok as the primary channel, supported by presence at sustainable-fashion marketplaces and pop-up events, with boutique wholesale partnerships as an experimental channel.",
+        "community": {
+          "description": "A loyal base of repeat customers who collect drops and follow the transformation process closely.",
+          "platform1": "Instagram and a drop-notification SMS list"
+        },
+        "leadMagnets": {
+          "magnet1": "Early access to the notification list for the next drop"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Transformation content discovery",
+            "description": "A prospective customer discovers the brand through before/after transformation content."
+          },
+          "stage2": {
+            "name": "Notification list signup",
+            "description": "The prospect joins the email/SMS list for early access to the next drop."
+          },
+          "stage3": {
+            "name": "Drop purchase",
+            "description": "The customer purchases during the limited-run drop before it sells out."
+          }
+        },
+        "retention": {
+          "tactic1": "Personally reaching out to past customers ahead of the next drop announcement to build early-access loyalty."
+        },
+        "analytics": {
+          "metric1": "Drop-day sellout rate"
+        },
+        "aiMetadata": {
+          "generationHints": "Keep marketing copy authentic and craft-focused, grounded in real transformation and material-sourcing stories — never generic 'sustainable fashion' stock phrases."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Set up the production workshop, source initial founding deadstock suppliers, and launch the e-commerce storefront."
+          },
+          "deliverables": {
+            "0": "A functioning workshop and e-commerce storefront with initial material sourced."
+          },
+          "checklist": {
+            "0": "Source a small, varied initial batch of deadstock and test constructions before committing to larger purchases."
+          },
+          "commonMistakes": {
+            "0": "Buying large volumes of secondhand denim upfront before confirming which materials actually work for the intended designs."
+          },
+          "successCriteria": {
+            "0": "Initial material is sourced and test garments are successfully constructed."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help research and identify potential deadstock and textile-recycling suppliers."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Produce and sell a small pilot drop to validate design direction and pricing."
+          },
+          "deliverables": {
+            "0": "A completed, sold pilot drop."
+          },
+          "checklist": {
+            "0": "Price the pilot drop at the intended standard rate to properly test willingness to pay."
+          },
+          "commonMistakes": {
+            "0": "Pricing the pilot drop too low to move inventory quickly, undermining the premium positioning."
+          },
+          "successCriteria": {
+            "0": "The pilot drop sells at the intended standard price point."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze pilot customer feedback and identify the strongest design elements."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Complete the first full public drop, from notification-list build to sellout and fulfillment."
+          },
+          "deliverables": {
+            "0": "A completed first public drop."
+          },
+          "checklist": {
+            "0": "Build a per-garment quality-check step into the fulfillment process before every shipment."
+          },
+          "commonMistakes": {
+            "0": "Underestimating fulfillment time for one-of-a-kind garments that each require individual quality checks."
+          },
+          "successCriteria": {
+            "0": "The first public drop ships with every garment quality-checked."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help draft product descriptions unique to each one-of-a-kind garment."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publish before/after transformation content consistently and begin engaging sustainable-fashion communities and marketplaces."
+          },
+          "deliverables": {
+            "0": "A consistent content cadence and active community presence."
+          },
+          "checklist": {
+            "0": "Document the transformation process for every piece, not just the final result."
+          },
+          "commonMistakes": {
+            "0": "Publishing only finished-product photos instead of the transformation process."
+          },
+          "successCriteria": {
+            "0": "New notification-list signups are coming in from published content."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help draft social captions from raw transformation-process notes."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Convert the first drop's customers into repeat buyers for the second drop."
+          },
+          "deliverables": {
+            "0": "At least one confirmed repeat purchase from a first-drop customer."
+          },
+          "checklist": {
+            "0": "Personally reach out to first-drop customers ahead of the next drop announcement."
+          },
+          "commonMistakes": {
+            "0": "Not personally following up with first-drop customers before announcing the next drop."
+          },
+          "successCriteria": {
+            "0": "A meaningful share of first-drop customers purchase again in the second drop."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a personalized early-access message for past customers."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach a stable rhythm of sellout drops with a documented base of repeat, loyal customers."
+          },
+          "deliverables": {
+            "0": "A documented, stable rhythm of sellout drops."
+          },
+          "checklist": {
+            "0": "Track drop-day conversion rate as the primary product-market fit signal, not just list size."
+          },
+          "commonMistakes": {
+            "0": "Declaring product-market fit based on notification-list size alone, ignoring actual conversion rate."
+          },
+          "successCriteria": {
+            "0": "Drops consistently sell out within a predictable timeframe."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze which garment styles and materials drive the fastest sellouts."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Build a reliable multi-supplier deadstock-sourcing network to reduce material-supply risk."
+          },
+          "deliverables": {
+            "0": "Established relationships with multiple deadstock suppliers."
+          },
+          "checklist": {
+            "0": "Establish relationships with at least 3-4 deadstock and textile-recycling suppliers."
+          },
+          "commonMistakes": {
+            "0": "Relying on a single deadstock supplier, creating a single point of failure."
+          },
+          "successCriteria": {
+            "0": "Material sourcing no longer depends on a single supplier relationship."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to research and identify additional textile-recycling and deadstock supplier networks."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Bring on a part-time production assistant to increase drop volume and frequency."
+          },
+          "deliverables": {
+            "0": "A fully onboarded part-time production assistant."
+          },
+          "checklist": {
+            "0": "Document construction techniques and quality standards clearly enough to train a production assistant."
+          },
+          "commonMistakes": {
+            "0": "Hiring production help before construction techniques are documented well enough to train someone else."
+          },
+          "successCriteria": {
+            "0": "The production assistant independently completes garments meeting quality standards."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help build structured training documentation for a new production assistant."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Expand into wholesale partnerships with sustainable-fashion boutiques as a more stable secondary revenue channel."
+          },
+          "deliverables": {
+            "0": "Signed wholesale agreements with boutique retailers."
+          },
+          "checklist": {
+            "0": "Cap wholesale commitments to a confirmed percentage of production capacity."
+          },
+          "commonMistakes": {
+            "0": "Pursuing wholesale volume that exceeds actual production capacity."
+          },
+          "successCriteria": {
+            "0": "Wholesale orders are fulfilled without disrupting D2C drop supply."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to research which sustainable-fashion boutiques align best with the brand's aesthetic."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Document the supplier network, brand IP, and sales history to package the label for sale or acquisition."
+          },
+          "deliverables": {
+            "0": "A complete due-diligence package of supplier and sales documentation."
+          },
+          "checklist": {
+            "0": "Maintain clean, ongoing documentation of every supplier relationship and drop-performance history."
+          },
+          "commonMistakes": {
+            "0": "Keeping supplier relationships informal and undocumented, making the business hard to evaluate."
+          },
+          "successCriteria": {
+            "0": "A prospective buyer could complete due diligence entirely from existing documentation."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help organize scattered supplier and sales documentation into a structured due-diligence package."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep roadmap guidance concrete about material sourcing, drop cadence, and repeat-customer growth — the real levers in this business."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Book: \"Overdressed\"",
+          "description": "An investigative look at fast fashion's true cost and the case for sustainable alternatives."
+        },
+        "item2": {
+          "title": "Course: Fashion Revolution Upcycling and Circular Design",
+          "description": "A course covering upcycling techniques and circular fashion design principles."
+        },
+        "item3": {
+          "title": "Community: Remake and Fashion Revolution",
+          "description": "Active communities of sustainable-fashion advocates and independent designers."
+        },
+        "item4": {
+          "title": "Podcast: \"Wardrobe Crisis\"",
+          "description": "Interviews with sustainable-fashion designers and industry advocates on ethical production."
+        },
+        "item5": {
+          "title": "Newsletter: The Or Foundation Newsletter",
+          "description": "Industry news and trends on textile waste and circular fashion."
+        },
+        "item6": {
+          "title": "Software: Shopify",
+          "description": "E-commerce platform for managing the storefront and drop releases."
+        },
+        "item7": {
+          "title": "Software: Klaviyo",
+          "description": "Email and SMS marketing platform for drop notifications."
+        },
+        "item8": {
+          "title": "AI Tool: social-content caption assistant",
+          "description": "AI-assisted first-draft social captions and product descriptions from transformation-process notes."
+        },
+        "item9": {
+          "title": "Certification: Global Recycled Standard (GRS)",
+          "description": "An industry-recognized certification verifying recycled material content claims."
+        },
+        "item10": {
+          "title": "Event: Fashion Revolution Week",
+          "description": "An annual global event connecting sustainable-fashion brands with conscious consumers."
+        },
+        "item11": {
+          "title": "Expert: A textile-recycling and deadstock sourcing consultant",
+          "description": "Helps identify and vet reliable deadstock and secondhand-material suppliers."
+        },
+        "item12": {
+          "title": "Checklist: Deadstock Sourcing and Material Grading Checklist",
+          "description": "A documented process for sourcing and grading secondhand denim and factory deadstock before production."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritize resources on material sourcing, craft technique, and authentic sustainability verification — the real differentiators in this business."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Made-to-order custom commissions for loyal repeat customers create a premium revenue stream without straining drop-production capacity."
+          },
+          "item2": {
+            "title": "Wholesale partnerships with boutiques provide a more predictable secondary revenue channel that smooths out the concentrated revenue bursts of drop-only sales."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Relying on a single deadstock supplier creates a single point of failure that can halt production entirely if that relationship ends."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Buying large volumes of secondhand denim upfront before confirming which materials actually work for the intended designs."
+          },
+          "item2": {
+            "title": "Publishing only finished-product photos instead of the transformation process, missing the most compelling content angle."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Personally reaching out to past customers ahead of the next drop announcement converts far better than a generic mass notification."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Document construction techniques and quality standards clearly enough to train a production assistant before hiring one."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Source a small, varied initial batch of deadstock and test constructions before committing to larger purchases."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Labels that document the transformation process, not just the finished product, build stronger authentic engagement than those showing only polished final photos."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Many eco-conscious consumers choose an upcycled label primarily on trust in the sourcing story's authenticity, not price or design alone."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Per-garment quality-check time for one-of-a-kind pieces is a real, recurring cost often underestimated when scoping fulfillment timelines."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Growing consumer skepticism toward mass-market sustainability claims signals room for labels with genuinely verifiable, small-batch sourcing."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A newly launched label reached break-even in 9 months by building a loyal repeat-customer base around a consistent quarterly drop cadence."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A label that bought large volumes of secondhand denim before testing which materials actually worked for its designs lost significant capital to unusable inventory."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "How does this differ from a mass-market e-commerce fashion brand?",
+            "answer": "This business is deliberately capacity-constrained by hand production and finite deadstock material supply, trading scale for authenticity and premium pricing — distinct from an algorithmically-scaled e-commerce fashion brand designed for volume growth."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Any secondhand denim can be turned into a sellable garment.",
+            "fact": "Material grading matters — fabric weight, wear patterns, and condition determine what can actually be reconstructed into a quality, sellable piece, which is why sourcing takes real skill, not just collecting used jeans."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Source a small, varied initial batch of deadstock and test constructions before committing to larger purchases."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep insights grounded in material sourcing discipline, craft quality, and repeat-customer growth."
+        }
+      }
+    },
+    "feeOnlyFinancialPlanningPractice": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"The Value of Debt\" — business-context reading on fee-only advisory models, not a substitute for counsel",
+          "course1": "Course: CFP Board Certification Education Program",
+          "community1": "Community: XY Planning Network advisor community",
+          "checklist1": "Checklist: Fiduciary Compliance and Client Onboarding Checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast revenue from new plans sold per month and the retainer renewal rate — a growing base of annual retainers compounds into predictable recurring revenue on top of one-time plan fees."
+        },
+        "breakEven": {
+          "notes": "Break-even typically arrives around month 11 given the Medium upfront investment, driven largely by CFP certification and compliance setup costs."
+        },
+        "grossMargin": {
+          "notes": "Gross margin holds around 78% after financial-planning software and compliance costs."
+        },
+        "netMargin": {
+          "notes": "Net margin settles around 50% given the low overhead of a fully remote, flat-fee practice."
+        },
+        "scenarios": {
+          "conservative": "A slow-growth scenario with limited plan sales and low retainer conversion.",
+          "expected": "A realistic scenario with steady plan sales and a growing base of retainer clients.",
+          "optimistic": "A strong scenario with consistent inbound leads and high retainer renewal rates."
+        },
+        "risks": {
+          "risk1": "Providing fiduciary financial advice without proper registration and compliance oversight creates real legal liability, and regulatory requirements vary and change by jurisdiction.",
+          "risk2": "The flat-fee model requires a higher client volume relative to AUM-based advisors to reach comparable income, since there's no percentage-of-assets revenue that compounds as client wealth grows."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as a one-time comprehensive-plan fee or an annual flat retainer, never a percentage of assets under management."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Objective advice. No assets required. A comprehensive financial plan without handing over your investment accounts.",
+          "category": "Flat-fee, advice-only financial planning practice"
+        },
+        "brandPromise": "You keep your investments. We give you the plan.",
+        "uvp": {
+          "statement": "A fully remote, flat-fee financial planning practice offering a one-time comprehensive plan or annual retainer, with no assets-under-management fee and no requirement to move investment accounts.",
+          "diff1": "A flat-fee, no-AUM pricing model, distinct from advisors who require asset custody to earn a percentage-based fee.",
+          "diff2": "Fully remote, content-driven client acquisition, distinct from a hybrid, locally-networked referral practice."
+        },
+        "icp": {
+          "description": "High-earning professionals aged 28-45 who want a comprehensive financial plan without moving their investment accounts, actively searching online for planning guidance.",
+          "firmographics": "Individuals with growing income and assets who aren't yet AUM-advisor clients but want objective, comprehensive planning."
+        },
+        "personas": {
+          "persona1": {
+            "name": "High-Earning Tech Professional",
+            "description": "A professional with rising income and equity compensation who wants a comprehensive plan without moving investment accounts to an advisor."
+          },
+          "persona2": {
+            "name": "Dual-Income Household Planner",
+            "description": "A dual-income couple navigating major financial decisions (home purchase, kids, retirement) who wants objective, one-time or ongoing guidance."
+          }
+        },
+        "painPoints": {
+          "point1": "Uncertainty about whether an AUM-based advisor's recommendations are truly objective or influenced by the fee structure.",
+          "point2": "Not enough assets yet to interest a traditional wealth manager, despite having real, complex planning needs."
+        },
+        "outcomes": {
+          "outcome1": "A comprehensive financial plan built without any conflict of interest tied to asset management.",
+          "outcome2": "Confidence in a clear, upfront flat fee rather than an ongoing percentage of assets."
+        },
+        "messaging": {
+          "core": "Objective advice. No assets required.",
+          "support1": "A comprehensive plan or ongoing retainer, priced as a flat fee — never a percentage of your investments."
+        },
+        "brandVoice": {
+          "tone": "Precise, empathetic, and credibility-driven",
+          "attr1": "Objective",
+          "attr2": "Approachable"
+        },
+        "contentPillars": {
+          "pillar1": "Long-form financial-planning education content",
+          "pillar2": "Flat-fee vs. AUM-fee model comparisons"
+        },
+        "channelStrategy": "Prioritize long-form, SEO-optimized financial-education content as the primary channel, supported by niche professional and financial-independence community engagement, with podcast guest appearances as an experimental channel.",
+        "community": {
+          "description": "A growing readership of content subscribers who convert into intro-call bookings over time.",
+          "platform1": "A financial-planning blog and an email newsletter"
+        },
+        "leadMagnets": {
+          "magnet1": "A free introductory call to assess fit and scope"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Content discovery",
+            "description": "A prospect discovers educational content while searching for answers to a specific planning question."
+          },
+          "stage2": {
+            "name": "Intro call",
+            "description": "The prospect books a free introductory call to assess fit and scope."
+          },
+          "stage3": {
+            "name": "Plan or retainer engagement",
+            "description": "The prospect signs a one-time comprehensive plan or an ongoing annual retainer."
+          }
+        },
+        "retention": {
+          "tactic1": "Presenting the annual retainer as a standard part of every plan delivery, framed around the value of ongoing plan updates."
+        },
+        "analytics": {
+          "metric1": "Intro-call-to-engagement conversion rate"
+        },
+        "aiMetadata": {
+          "generationHints": "Lead with the 'no assets required, no conflict of interest' proposition and real financial-education content, never generic 'financial freedom' stock phrases."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Complete CFP certification and fiduciary registration, and set up financial-planning software and compliance infrastructure."
+          },
+          "deliverables": {
+            "0": "Completed certification, registration, and working compliance infrastructure."
+          },
+          "checklist": {
+            "0": "Complete fiduciary registration and compliance setup fully before accepting any client engagement."
+          },
+          "commonMistakes": {
+            "0": "Launching before fiduciary registration is complete, creating real regulatory and liability exposure."
+          },
+          "successCriteria": {
+            "0": "Certification and registration are confirmed complete before any client work begins."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help research and organize CFP certification exam preparation materials."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Sign the first paid comprehensive-plan engagement to validate the flat-fee pricing model."
+          },
+          "deliverables": {
+            "0": "A signed first paid comprehensive-plan engagement."
+          },
+          "checklist": {
+            "0": "Price the first engagement at the intended standard rate to properly test willingness to pay."
+          },
+          "commonMistakes": {
+            "0": "Discounting the first plan heavily to win the client, undermining the flat-fee value proposition."
+          },
+          "successCriteria": {
+            "0": "The first client pays the intended standard rate for a comprehensive plan."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help draft the client intake questionnaire covering the full financial picture."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Complete the first full comprehensive plan, from intake through delivery and client review."
+          },
+          "deliverables": {
+            "0": "A completed, delivered first comprehensive plan."
+          },
+          "checklist": {
+            "0": "Build a structured intake questionnaire that captures the full financial picture before the first session."
+          },
+          "commonMistakes": {
+            "0": "Underestimating the time required to gather and organize a first client's complete financial picture."
+          },
+          "successCriteria": {
+            "0": "The first plan is delivered accurately and reviewed with the client."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help summarize a client's intake data into a structured first-draft plan outline."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Publish the first long-form educational content pieces and begin engaging niche professional communities."
+          },
+          "deliverables": {
+            "0": "Published content and an active community presence."
+          },
+          "checklist": {
+            "0": "Write content that directly answers the specific planning questions the target client is searching for."
+          },
+          "commonMistakes": {
+            "0": "Publishing generic personal-finance content instead of specific, searchable answers."
+          },
+          "successCriteria": {
+            "0": "New intro-call bookings are coming in from published content."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help identify high-search-volume financial-planning questions to target with content."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Convert the first comprehensive-plan client into an ongoing annual retainer."
+          },
+          "deliverables": {
+            "0": "A signed annual retainer with the first plan client."
+          },
+          "checklist": {
+            "0": "Present the annual retainer as a standard part of every plan delivery."
+          },
+          "commonMistakes": {
+            "0": "Not proactively offering the annual retainer at plan delivery."
+          },
+          "successCriteria": {
+            "0": "The first client signs an ongoing annual retainer."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a personalized retainer pitch based on the client's specific plan details."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach a steady pipeline of qualified intro-call bookings from content and community engagement."
+          },
+          "deliverables": {
+            "0": "A documented, repeatable pipeline of intro-call bookings."
+          },
+          "checklist": {
+            "0": "Track which content topics and questions generate the most intro-call bookings."
+          },
+          "commonMistakes": {
+            "0": "Producing content across too many unrelated financial topics instead of concentrating on what converts best."
+          },
+          "successCriteria": {
+            "0": "A steady, predictable pipeline of qualified intro-call bookings is established."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze which content topics show the strongest conversion to booked calls."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Build a compounding content and SEO library that generates increasingly consistent inbound leads."
+          },
+          "deliverables": {
+            "0": "A growing library of published, ranking educational content."
+          },
+          "checklist": {
+            "0": "Maintain a consistent, ongoing content-publishing cadence rather than a one-time content push."
+          },
+          "commonMistakes": {
+            "0": "Treating content production as a one-time launch activity instead of an ongoing growth engine."
+          },
+          "successCriteria": {
+            "0": "Inbound leads from organic content search grow month over month."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help identify content gaps and refresh underperforming older content."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Bring on a second CFP-certified planner once client volume consistently exceeds solo capacity."
+          },
+          "deliverables": {
+            "0": "A fully onboarded second CFP-certified planner."
+          },
+          "checklist": {
+            "0": "Confirm any new hire holds equivalent fiduciary certification and registration before extending an offer."
+          },
+          "commonMistakes": {
+            "0": "Hiring a non-certified planner to help with client-facing planning work."
+          },
+          "successCriteria": {
+            "0": "The second planner independently delivers plans meeting the practice's quality standards."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help build structured onboarding materials documenting the practice's planning process."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Add a lower-touch group or course offering for prospects not yet ready for a full 1:1 flat-fee engagement."
+          },
+          "deliverables": {
+            "0": "A validated business case for a group or course offering."
+          },
+          "checklist": {
+            "0": "Position the group offering explicitly as a stepping stone toward the core 1:1 engagement."
+          },
+          "commonMistakes": {
+            "0": "Launching a group offering that dilutes the core 1:1 flat-fee positioning."
+          },
+          "successCriteria": {
+            "0": "The group offering generates meaningful leads into the core 1:1 engagement."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to research which group-offering topics would generate the strongest demand."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Document the client base, retainer contracts, and compliance history to package the practice for sale."
+          },
+          "deliverables": {
+            "0": "A complete due-diligence package of client and compliance documentation."
+          },
+          "checklist": {
+            "0": "Maintain clean, ongoing documentation of the client base, retainer contracts, and compliance records."
+          },
+          "commonMistakes": {
+            "0": "Keeping compliance and client records fragmented across systems."
+          },
+          "successCriteria": {
+            "0": "A prospective buyer could complete due diligence entirely from existing documentation."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help organize scattered client and compliance documentation into a structured due-diligence package."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep roadmap guidance concrete about fiduciary compliance, content-driven lead generation, and retainer conversion — the real levers in this business."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Book: business-context reading on fee-only advisory models",
+          "description": "A practical guide to running a fee-only financial planning practice as a business (not a substitute for licensed counsel)."
+        },
+        "item2": {
+          "title": "Course: CFP Board Certification Education Program",
+          "description": "The formal education pathway required for CFP certification."
+        },
+        "item3": {
+          "title": "Community: XY Planning Network",
+          "description": "A professional community of fee-only, fiduciary financial planners serving younger clients."
+        },
+        "item4": {
+          "title": "Podcast: \"The XY Planning Podcast\"",
+          "description": "Interviews with fee-only planners on practice management and client acquisition."
+        },
+        "item5": {
+          "title": "Newsletter: Kitces.com Nerd's Eye View",
+          "description": "Industry news and technical analysis for fee-only financial planners."
+        },
+        "item6": {
+          "title": "Software: RightCapital",
+          "description": "Financial-planning software for building comprehensive client plans."
+        },
+        "item7": {
+          "title": "Software: Wealthbox",
+          "description": "CRM software built for financial-advisory client relationships."
+        },
+        "item8": {
+          "title": "AI Tool: plan-draft summary assistant",
+          "description": "AI-assisted first-draft summarization of client financial data into a structured plan outline."
+        },
+        "item9": {
+          "title": "Certification: CFP (Certified Financial Planner)",
+          "description": "The primary credential required to practice as a fiduciary financial planner."
+        },
+        "item10": {
+          "title": "Event: XYPN LIVE",
+          "description": "The annual conference for fee-only, advice-only financial planners."
+        },
+        "item11": {
+          "title": "Expert: A compliance consultant specializing in registered investment advisors",
+          "description": "Helps structure fiduciary registration and compliance for a new flat-fee practice."
+        },
+        "item12": {
+          "title": "Checklist: Fiduciary Compliance and Client Onboarding Checklist",
+          "description": "A documented process for fiduciary compliance and structured client onboarding."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritize resources on fiduciary compliance, content-driven growth, and flat-fee client education — the real differentiators in this business."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "A lower-touch group or course offering can serve as a top-of-funnel option for prospects not yet ready for a full flat-fee engagement."
+          },
+          "item2": {
+            "title": "Content that directly compares the flat-fee and AUM-fee models converts unusually well, since it addresses the prospect's actual point of confusion."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "The flat-fee model's lack of asset-compounding revenue means income growth depends entirely on client volume, unlike AUM-based advisors whose revenue grows with client wealth."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Discounting the first plan heavily to win a client, undermining the flat-fee value proposition before it's even tested."
+          },
+          "item2": {
+            "title": "Producing content across too many unrelated financial topics instead of concentrating on the specific questions that convert best."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Presenting the annual retainer as a standard part of every plan delivery converts far better than pitching it separately later."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Confirm any new hire holds equivalent fiduciary certification and registration before extending an offer — this isn't a role that can be filled with general staff."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Complete fiduciary registration and compliance setup fully before accepting any client engagement — this isn't a step to shortcut."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Practices that maintain a consistent, ongoing content-publishing cadence build compounding inbound lead flow that referral-dependent practices don't get."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Many prospects choose a flat-fee planner specifically because they're skeptical of AUM-fee conflicts of interest, not because they can't afford a traditional advisor."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Ongoing compliance and E&O insurance premiums are real, recurring costs that scale with client volume, often underestimated at launch."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Growing awareness of fee-only, fiduciary standards among younger high earners signals room for flat-fee practices targeting this underserved segment."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A newly launched practice reached break-even in 11 months by building a consistent content-publishing cadence that generated steady, qualified intro-call bookings."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A practice that launched before completing fiduciary registration faced real regulatory exposure and had to pause client work to correct course."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "How is this different from a traditional AUM-fee wealth manager?",
+            "answer": "This practice charges a flat fee for planning advice rather than a percentage of assets under management, and never requires clients to move their investment accounts to the advisor — distinct from an AUM-fee, hybrid, referral-driven wealth-management practice elsewhere in this library."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "A fee-only financial planner is more expensive than a 'free' AUM-based advisor.",
+            "fact": "AUM-based advisors aren't actually free — their fee is embedded as a percentage of assets managed, which compounds over time and can exceed a flat fee, especially for clients with substantial assets."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Price the first engagement at the intended standard rate to properly test willingness to pay for flat-fee advice."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep insights grounded in fiduciary compliance, content-driven growth, and flat-fee client education."
+        }
+      }
+    },
+    "independentPodcastProductionStudio": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"Podcasting for Beginners\" by Nadia Rasul",
+          "course1": "Course: Descript Podcast Editing Masterclass",
+          "community1": "Community: Podcast Movement community and forum",
+          "checklist1": "Checklist: Recording Session Coordination and Delivery Checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast revenue from new show launches per month and the show-retention rate — a growing base of retained shows compounds into predictable recurring revenue on top of launch-package fees."
+        },
+        "breakEven": {
+          "notes": "Break-even typically arrives around month 6 given the Low upfront investment, driven mainly by how quickly the first 4-5 client shows sign on."
+        },
+        "grossMargin": {
+          "notes": "Gross margin holds around 58% after editing-time and software-subscription costs per episode."
+        },
+        "netMargin": {
+          "notes": "Net margin settles around 32% once contractor overflow editing costs are accounted for."
+        },
+        "scenarios": {
+          "conservative": "A slow-growth scenario with one show launch every 2 months and higher-than-expected churn.",
+          "expected": "A realistic scenario with steady show launches and a stable base of retained shows.",
+          "optimistic": "A strong scenario with a full concurrent-show roster and low abandonment churn."
+        },
+        "risks": {
+          "risk1": "AI-driven automated editing tools increasingly commoditize the mechanical parts of podcast editing (noise removal, filler-word cutting, leveling), threatening to compress margins and demand for manual editing over time.",
+          "risk2": "Many founder-led or branded podcasts are launched with enthusiasm but abandoned within 6-12 months once initial novelty fades, creating inherently unstable recurring revenue per client."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as a show-launch package converting into a recurring per-episode retainer, and treat client churn from abandoned shows as a real, ongoing revenue-stability risk."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "We make the mic disappear, so the story doesn't — professional production that lets a founder or brand sound like they belong on a top-tier show.",
+          "category": "Independent podcast production studio"
+        },
+        "brandPromise": "You show up to talk. We handle everything else.",
+        "uvp": {
+          "statement": "Full-service podcast production — recording coordination, editing, show notes, and distribution — for founder-led thought-leadership and brand-sponsored podcasts, priced as a launch package converting to a per-episode retainer.",
+          "diff1": "Full end-to-end production handling, distinct from DIY editing tools that still require the founder's own time and skill.",
+          "diff2": "Audio-podcast-specific craft expertise, distinct from generalist video or content agencies that treat podcasts as an afterthought."
+        },
+        "icp": {
+          "description": "Founders and executives launching a personal-brand thought-leadership podcast, and brands sponsoring a branded podcast series, who value professional production quality and consistent delivery.",
+          "firmographics": "Individuals or brands with budget for professional media production but no in-house audio-editing capability."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Founder Launching a Thought-Leadership Podcast",
+            "description": "A founder or executive who wants a professional-sounding podcast to build personal brand and industry credibility without learning audio editing."
+          },
+          "persona2": {
+            "name": "Brand Marketing Lead",
+            "description": "A marketing lead sponsoring a branded podcast series who needs reliable, consistent production quality every episode."
+          }
+        },
+        "painPoints": {
+          "point1": "No time or skill to learn audio editing, recording coordination, and distribution while also being the show's host.",
+          "point2": "Previous DIY attempts at podcast production sounded amateurish and inconsistent, undermining the show's credibility."
+        },
+        "outcomes": {
+          "outcome1": "A professional-sounding show that reflects well on the founder's or brand's reputation.",
+          "outcome2": "Consistent, on-time episode delivery without the founder managing any technical production themselves."
+        },
+        "messaging": {
+          "core": "We make the mic disappear, so the story doesn't.",
+          "support1": "Full production handling from recording to publishing — you show up, we handle the rest."
+        },
+        "brandVoice": {
+          "tone": "Warm, reliable, and craft-focused",
+          "attr1": "Reliable",
+          "attr2": "Meticulous"
+        },
+        "contentPillars": {
+          "pillar1": "Before/after audio-quality demonstrations",
+          "pillar2": "Founder-podcast launch and growth tips"
+        },
+        "channelStrategy": "Prioritize referrals from impressed podcast guests as the primary channel, supported by LinkedIn thought-leadership content targeting founders considering a podcast, with podcast industry directory listings as an experimental channel.",
+        "community": {
+          "description": "A network of past guests and satisfied clients who refer new founders considering a podcast launch.",
+          "platform1": "LinkedIn and a client-only Slack community"
+        },
+        "leadMagnets": {
+          "magnet1": "A free sample-episode edit of the prospect's own raw recording"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Referral or content discovery",
+            "description": "A prospective client is referred by a past guest or discovers the studio through LinkedIn content."
+          },
+          "stage2": {
+            "name": "Discovery call",
+            "description": "The prospect books a discovery call to scope show format, cadence, and target audience."
+          },
+          "stage3": {
+            "name": "Show-launch package",
+            "description": "The prospect signs the show-launch package, which converts into an ongoing per-episode retainer."
+          }
+        },
+        "retention": {
+          "tactic1": "Scheduling a proactive check-in with every client around the 3-month mark to reinforce show momentum before novelty fades."
+        },
+        "analytics": {
+          "metric1": "Client-show retention past the 6-12 month abandonment window"
+        },
+        "aiMetadata": {
+          "generationHints": "Lead with actual production-quality samples, never generic 'we produce podcasts' stock phrases."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Set up audio recording and editing equipment, and build a demo reel showcasing production quality."
+          },
+          "deliverables": {
+            "0": "A working equipment setup and a demo reel."
+          },
+          "checklist": {
+            "0": "Build a strong demo reel with modest equipment first, upgrading only once real client demand is confirmed."
+          },
+          "commonMistakes": {
+            "0": "Investing heavily in the highest-end equipment before confirming which production style actually attracts paying clients."
+          },
+          "successCriteria": {
+            "0": "A demo reel is complete and equipment is ready to take on a first client."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help identify which podcast production niches show the strongest demand signals."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Sign the first paid show-launch package to validate the pricing and service model."
+          },
+          "deliverables": {
+            "0": "A signed first paid show-launch package."
+          },
+          "checklist": {
+            "0": "Price the first show-launch package at the intended standard rate, even if it means a slower first sale."
+          },
+          "commonMistakes": {
+            "0": "Producing a first show for free or heavily discounted to build a portfolio."
+          },
+          "successCriteria": {
+            "0": "The first client pays the intended standard rate for the launch package."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help draft the show-format and cadence scoping questionnaire."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Complete the first client show's launch and first few episodes on a consistent schedule."
+          },
+          "deliverables": {
+            "0": "A launched show with several episodes delivered on schedule."
+          },
+          "checklist": {
+            "0": "Build a structured recording-session scheduling process before the show launches."
+          },
+          "commonMistakes": {
+            "0": "Underestimating the coordination time required to schedule remote recording sessions across time zones."
+          },
+          "successCriteria": {
+            "0": "Episodes are delivered consistently on the agreed schedule."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help draft show notes from raw episode transcripts."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Ask satisfied clients for referrals and begin publishing LinkedIn thought-leadership content for founders."
+          },
+          "deliverables": {
+            "0": "Active referral requests and published launch content."
+          },
+          "checklist": {
+            "0": "Proactively ask every satisfied client and impressed podcast guest for a specific introduction."
+          },
+          "commonMistakes": {
+            "0": "Waiting for referrals to happen organically instead of actively asking."
+          },
+          "successCriteria": {
+            "0": "New client inquiries are coming in from referrals and published content."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help draft LinkedIn content from raw production-process notes."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Keep the first client's show active and renewing past the typical 6-12 month abandonment window."
+          },
+          "deliverables": {
+            "0": "A renewed retainer with the first client past the 6-month mark."
+          },
+          "checklist": {
+            "0": "Schedule a proactive check-in with every client around the 3-month mark."
+          },
+          "commonMistakes": {
+            "0": "Not proactively checking in with the client about show performance before enthusiasm naturally fades."
+          },
+          "successCriteria": {
+            "0": "The first client renews their retainer past the typical abandonment window."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a personalized show-momentum check-in message for clients."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach a stable base of 4-5 concurrent client shows with a documented production-workflow template."
+          },
+          "deliverables": {
+            "0": "A documented, stable base of concurrent client shows."
+          },
+          "checklist": {
+            "0": "Set a firm cap on concurrent client shows based on real editing-hour capacity."
+          },
+          "commonMistakes": {
+            "0": "Accepting more concurrent shows than editing capacity can support, degrading quality."
+          },
+          "successCriteria": {
+            "0": "4-5 concurrent shows are maintained at consistent quality."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze which client-show characteristics predict long-term retention."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Document a production-workflow template that shortens onboarding time for each new client show."
+          },
+          "deliverables": {
+            "0": "A structured, documented production-workflow template."
+          },
+          "checklist": {
+            "0": "Document the production-workflow template after each new client onboarding."
+          },
+          "commonMistakes": {
+            "0": "Rebuilding the production workflow from scratch for each new client."
+          },
+          "successCriteria": {
+            "0": "New client onboarding time measurably decreases due to template reuse."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help identify and extract reusable steps across client onboarding processes."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Hire and train a second editor to take on overflow concurrent shows."
+          },
+          "deliverables": {
+            "0": "A fully onboarded second editor."
+          },
+          "checklist": {
+            "0": "Confirm the production-workflow template is solid enough to train a new hire."
+          },
+          "commonMistakes": {
+            "0": "Hiring a second editor before the production-workflow template is documented well enough."
+          },
+          "successCriteria": {
+            "0": "The second editor independently produces episodes meeting quality standards."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help build structured training materials for a new editor hire."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Add an executive-producer tier offering strategic guidance for larger brand clients beyond production alone."
+          },
+          "deliverables": {
+            "0": "A validated business case for the executive-producer tier."
+          },
+          "checklist": {
+            "0": "Build a strong portfolio of show-growth results before pitching the higher-priced tier."
+          },
+          "commonMistakes": {
+            "0": "Launching a strategic-guidance tier without the credibility to back the higher price point."
+          },
+          "successCriteria": {
+            "0": "The executive-producer tier signs its first client."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to research which strategic-guidance offerings would generate the strongest demand."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Document the client roster, production workflow, and recurring-revenue history to package the studio for sale."
+          },
+          "deliverables": {
+            "0": "A complete due-diligence package of client and workflow documentation."
+          },
+          "checklist": {
+            "0": "Maintain clean, ongoing documentation of the production workflow and every client relationship's terms."
+          },
+          "commonMistakes": {
+            "0": "Keeping the production workflow and client relationships informal and undocumented."
+          },
+          "successCriteria": {
+            "0": "A prospective buyer could complete due diligence entirely from existing documentation."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help organize scattered client and workflow documentation into a structured due-diligence package."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep roadmap guidance concrete about referral generation, workflow documentation, and client-retention past the novelty-fade window — the real levers in this business."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Book: \"Podcasting for Beginners\"",
+          "description": "A practical guide to launching and producing a professional podcast."
+        },
+        "item2": {
+          "title": "Course: Descript Podcast Editing Masterclass",
+          "description": "A hands-on course covering AI-assisted podcast editing workflows."
+        },
+        "item3": {
+          "title": "Community: Podcast Movement",
+          "description": "An active community of podcast producers and creators sharing production and business advice."
+        },
+        "item4": {
+          "title": "Podcast: \"The Podcast Producer Show\"",
+          "description": "Interviews with podcast production studio owners on business growth and client retention."
+        },
+        "item5": {
+          "title": "Newsletter: Podnews",
+          "description": "Industry news and trends from the podcasting production trade."
+        },
+        "item6": {
+          "title": "Software: Descript",
+          "description": "AI-assisted editing and transcription software for podcast post-production."
+        },
+        "item7": {
+          "title": "Software: Riverside.fm",
+          "description": "Remote recording platform for high-quality, studio-grade remote interviews."
+        },
+        "item8": {
+          "title": "AI Tool: transcription and rough-cut assistant",
+          "description": "AI-assisted transcription and rough-cut editing to speed up the initial editing pass."
+        },
+        "item9": {
+          "title": "Certification: Podcast Editing Professional Certificate",
+          "description": "A credential signaling professional podcast editing and production competence."
+        },
+        "item10": {
+          "title": "Event: Podcast Movement Conference",
+          "description": "The industry's major annual conference for podcast producers and creators."
+        },
+        "item11": {
+          "title": "Expert: An audio mastering and mixing consultant",
+          "description": "Helps refine the studio's signature sound and mixing standards."
+        },
+        "item12": {
+          "title": "Checklist: Recording Session Coordination and Delivery Checklist",
+          "description": "A documented process for coordinating recording sessions and delivering episodes on schedule."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritize resources on production craft, referral generation, and client retention — the real differentiators in this business."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "An executive-producer tier offering strategic show guidance becomes a natural upsell once core production quality is proven with a client."
+          },
+          "item2": {
+            "title": "Podcast guests who experience the show's production quality firsthand are an unusually high-trust referral source for new client shows."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "AI-driven automated editing tools increasingly threaten to commoditize the mechanical parts of podcast editing, a real structural risk to monitor closely."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Producing a first show for free or heavily discounted to build a portfolio, undermining the pricing model before it's tested."
+          },
+          "item2": {
+            "title": "Accepting more concurrent shows than editing capacity can support, degrading quality across all client shows."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Proactively asking satisfied clients and impressed podcast guests for specific introductions converts far better than waiting for organic referrals."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Confirm the production-workflow template is solid enough to train a new hire before extending a second-editor offer."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Set a firm cap on concurrent client shows based on real editing-hour capacity — accepting too many degrades quality across every show."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Studios that schedule a proactive 3-month check-in with every client retain shows past the typical abandonment window at meaningfully higher rates."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Many founders choose a production studio primarily on how a demo episode sounds, not on price or feature comparisons."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Recording-session coordination time across time zones is a real, recurring cost often underestimated when scoping a new client show."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Growing founder interest in personal-brand thought-leadership podcasts signals steady demand for professional, reliable production partners."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A newly launched studio reached break-even in 6 months by concentrating on referrals from impressed podcast guests rather than cold outreach."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A studio that accepted more concurrent shows than its editing capacity could support saw quality degrade across every client relationship, leading to churn."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "How is this different from a video-focused content studio?",
+            "answer": "This business is audio-podcast-specific, built around recording coordination, editing, mixing, and distribution for spoken-word shows — distinct from the still-unauthored video-focused YouTube and branded-video studio candidates elsewhere in this category."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "AI editing tools have made professional podcast production studios unnecessary.",
+            "fact": "AI tools speed up the mechanical parts of editing (transcription, silence removal), but final mixing, pacing decisions, and quality control still require a trained ear to produce a genuinely professional-sounding show."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Price the first show-launch package at the intended standard rate, even if it means a slower first sale, to properly test the pricing model."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep insights grounded in production craft quality, referral generation, and client-retention discipline."
+        }
+      }
     }
   }
 }

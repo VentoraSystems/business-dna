@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.independentPodcastProductionStudio.marketing.uvp.diff1",
+      "businessLibrary.independentPodcastProductionStudio.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2b",
+    "descriptionTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.independentPodcastProductionStudio.marketing.painPoints.point1",
+      "businessLibrary.independentPodcastProductionStudio.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.independentPodcastProductionStudio.marketing.outcomes.outcome1",
+      "businessLibrary.independentPodcastProductionStudio.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.independentPodcastProductionStudio.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.independentPodcastProductionStudio.marketing.brandVoice.attr1",
+      "businessLibrary.independentPodcastProductionStudio.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.independentPodcastProductionStudio.marketing.contentPillars.pillar1",
+      "businessLibrary.independentPodcastProductionStudio.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "referralsFromPodcastGuestsAndCoProducers",
+      "linkedinThoughtLeadershipContentForFounders",
+      "podcastIndustryDirectoryListings"
+    ],
+    "strategyTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.independentPodcastProductionStudio.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.independentPodcastProductionStudio.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.independentPodcastProductionStudio.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.independentPodcastProductionStudio.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "customerRetention",
+      "leadConversion"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.independentPodcastProductionStudio.marketing.aiMetadata.generationHints"
+  }
+}

@@ -1,0 +1,944 @@
+{
+  "identity": {
+    "id": "aeaaa45a-77ce-4b05-a040-4ecb072e2a53",
+    "slug": "upcycled-denim-label",
+    "version": "1.0.0",
+    "name": {
+      "en": "Reweave Denim Co.",
+      "ro": "Reweave Denim Co."
+    },
+    "tagline": {
+      "en": "Every pair has already lived a life — we give it a second one.",
+      "ro": "Fiecare pereche a trăit deja o viață — noi îi oferim una nouă."
+    },
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theSpecialist",
+      "theVisionary"
+    ],
+    "summary": {
+      "en": "Best suited to a craft-driven specialist with real sewing and garment-construction skill, paired with a design vision strong enough to turn unpredictable secondhand materials into a coherent, desirable collection.",
+      "ro": "Potrivit unui specialist orientat spre meșteșug, cu abilități reale, de cusut și construcție a hainelor, împreună cu o viziune de design, suficient de puternică, pentru a transforma materiale imprevizibile, de mâna a doua, într-o colecție coerentă, dorită."
+    },
+    "minimumExperienceYears": 2
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 12000,
+      "maxInvestment": 28000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 2000,
+      "ongoingMonthlyCostMax": 5000,
+      "notes": {
+        "en": "Covers production equipment, initial deadstock sourcing, an e-commerce storefront, and product photography — a Medium budget tier, driven by craft equipment and material sourcing rather than large-scale manufacturing.",
+        "ro": "Acoperă echipamentul de producție, aprovizionarea inițială, cu deadstock, o vitrină de comerț electronic, și fotografia produsului — un nivel de buget mediu, determinat de echipamentul de meșteșug și aprovizionarea cu materiale, nu de fabricația la scară largă."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "productionEquipmentSetup",
+          "label": {
+            "en": "Sewing and garment-construction equipment setup",
+            "ro": "Configurarea echipamentului de cusut și construcție a hainelor"
+          },
+          "typicalMin": 3000,
+          "typicalMax": 8000
+        },
+        {
+          "key": "initialDeadstockAndMaterialSourcing",
+          "label": {
+            "en": "Initial deadstock and secondhand-denim material sourcing",
+            "ro": "Aprovizionarea inițială, cu deadstock și denim de mâna a doua"
+          },
+          "typicalMin": 4000,
+          "typicalMax": 10000
+        },
+        {
+          "key": "ecommerceAndPhotographySetup",
+          "label": {
+            "en": "E-commerce storefront and product photography setup",
+            "ro": "Configurarea vitrinei de comerț electronic și fotografia produsului"
+          },
+          "typicalMin": 2500,
+          "typicalMax": 6000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "ongoingMaterialSourcing",
+          "label": {
+            "en": "Ongoing deadstock and secondhand-denim sourcing",
+            "ro": "Aprovizionarea continuă, cu deadstock și denim de mâna a doua"
+          },
+          "typicalMonthlyMin": 800,
+          "typicalMonthlyMax": 2200
+        },
+        {
+          "key": "ecommerceAndEmailPlatformFees",
+          "label": {
+            "en": "E-commerce platform and email/SMS marketing platform fees",
+            "ro": "Taxele platformei de comerț electronic și marketing prin e-mail/SMS"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 700
+        },
+        {
+          "key": "studioSpaceAndUtilities",
+          "label": {
+            "en": "Studio/workshop space and utilities",
+            "ro": "Spațiul de studio/atelier și utilitățile"
+          },
+          "typicalMonthlyMin": 600,
+          "typicalMonthlyMax": 1500
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "limitedRunDropSales",
+          "label": {
+            "en": "Direct-to-consumer limited-run drop sales",
+            "ro": "Vânzări directe către consumator, în serii limitate"
+          }
+        },
+        {
+          "key": "boutiqueWholesaleOrders",
+          "label": {
+            "en": "Wholesale orders to sustainable-fashion boutiques",
+            "ro": "Comenzi cu ridicata, către boutique-uri de modă sustenabilă"
+          }
+        },
+        {
+          "key": "madeToOrderCustomCommissions",
+          "label": {
+            "en": "Made-to-order custom commissions",
+            "ro": "Comisioane personalizate, la comandă"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 4500,
+      "targetMonthlyIncomeMax": 14000,
+      "breakEvenTimelineMonths": 9,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Drop releases generate concentrated bursts of revenue around each launch, but the time between drops — driven by production capacity and material sourcing — keeps overall revenue speed moderate rather than fast.",
+        "ro": "Lansările în serii limitate, generează venituri concentrate, în jurul fiecărei lansări, dar timpul dintre lansări — determinat de capacitatea de producție și aprovizionarea cu materiale — menține viteza generală a veniturilor, moderată, nu rapidă."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate",
+      "notes": {
+        "en": "Premium pricing on finished garments offsets the labor-intensive production process, but hand-construction time keeps overall margin moderate rather than high.",
+        "ro": "Prețul premium, al hainelor finite, compensează procesul de producție, intensiv în muncă, dar timpul de construcție manuală, menține marja generală, moderată, nu ridicată."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "occasional",
+    "onlineOffline": "hybrid",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 35,
+    "maxWeeklyHours": 50,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 5
+      },
+      {
+        "key": "marketing",
+        "rating": 7
+      },
+      {
+        "key": "leadership",
+        "rating": 4
+      },
+      {
+        "key": "communication",
+        "rating": 6
+      },
+      {
+        "key": "negotiation",
+        "rating": 4
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 7
+      },
+      {
+        "key": "technology",
+        "rating": 4
+      },
+      {
+        "key": "automation",
+        "rating": 3
+      },
+      {
+        "key": "ai",
+        "rating": 2
+      },
+      {
+        "key": "programming",
+        "rating": 1
+      },
+      {
+        "key": "management",
+        "rating": 5
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 50
+      },
+      {
+        "key": "visionary",
+        "score": 55
+      },
+      {
+        "key": "operator",
+        "score": 40
+      },
+      {
+        "key": "creator",
+        "score": 70
+      },
+      {
+        "key": "seller",
+        "score": 30
+      },
+      {
+        "key": "leader",
+        "score": 25
+      },
+      {
+        "key": "analyst",
+        "score": 25
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": false,
+    "isFullyRemote": false,
+    "requiresTravel": true,
+    "isOnlineBusiness": true,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": true,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": true,
+    "requiresInventory": true,
+    "isSeasonalBusiness": true,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate",
+      "notes": {
+        "en": "Revenue can grow through larger and more frequent drops plus wholesale expansion, but hand production and finite deadstock material supply put a real ceiling on volume that no software can remove.",
+        "ro": "Veniturile pot crește, prin lansări mai mari și mai frecvente, plus extinderea cu ridicata, dar producția manuală și oferta finită, de material deadstock, pun un plafon real, asupra volumului, pe care niciun software nu-l poate elimina."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "Garment construction and pattern design are learnable craft skills, but building an authentic brand story and sourcing reliable deadstock suppliers takes real relationship-building time.",
+        "ro": "Construcția hainelor și proiectarea tiparelor, sunt abilități de meșteșug, care pot fi învățate, dar construirea unei povești de brand autentice, și găsirea unor furnizori fiabili de deadstock, necesită timp real, de construire a relațiilor."
+      }
+    },
+    "aiResistance": {
+      "level": "high",
+      "notes": {
+        "en": "Genuine hand craftsmanship and an authentic upcycling story are difficult for AI-driven or mass-manufactured competitors to replicate, protecting this business from commoditization more than most fashion categories.",
+        "ro": "Meșteșugul manual autentic și povestea de upcycling autentică, sunt dificil de replicat, de concurenții conduși de AI sau fabricați în masă, protejând această afacere, de transformarea în marfă, mai mult decât majoritatea categoriilor de modă."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Deadstock and secondhand-denim sourcing is inherently unpredictable and finite — unlike ordering standard fabric rolls, each drop depends on finding suitable raw material, which doesn't scale on demand.",
+          "ro": "Aprovizionarea cu deadstock și denim de mâna a doua, este inerent imprevizibilă și finită — spre deosebire de comandarea rolelor standard de material, fiecare lansare depinde de găsirea materiei prime potrivite, care nu se scalează la cerere."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Each garment requires significant hand labor for deconstruction, redesign, and reconstruction, capping how many units can be produced per month regardless of demand.",
+          "ro": "Fiecare haină, necesită muncă manuală semnificativă, pentru deconstrucție, reproiectare, și reconstrucție, limitând câte unități pot fi produse, pe lună, indiferent de cerere."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "Eco-conscious consumers are increasingly skeptical of \"greenwashing,\" so sourcing and process claims must be genuinely verifiable or risk real reputational damage.",
+          "ro": "Consumatorii ecoconștienți, sunt tot mai sceptici, față de „greenwashing”, astfel încât afirmațiile de aprovizionare și proces, trebuie să fie cu adevărat verificabile, sau riscă un prejudiciu real de reputație."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Every pair has already lived a life — we give it a second one. One-of-a-kind garments built from real secondhand denim, not mass-produced 'sustainable' fast fashion.",
+        "ro": "Fiecare pereche a trăit deja o viață — noi îi oferim una nouă. Haine unice, construite din denim real, de mâna a doua, nu modă rapidă „sustenabilă”, fabricată în masă."
+      },
+      "channels": [
+        {
+          "channelType": "instagramTiktokBeforeAfterTransformationContent",
+          "description": {
+            "en": "Before/after transformation content showing raw secondhand denim becoming a finished garment — native, highly shareable content for visual platforms.",
+            "ro": "Conținut de transformare, înainte/după, care arată denim de mâna a doua, brut, devenind o haină finită — conținut nativ, extrem de partajabil, pentru platformele vizuale."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "sustainableFashionMarketplaceAndPopUpEvents",
+          "description": {
+            "en": "Presence at sustainable-fashion marketplaces and pop-up events where the target customer already shops.",
+            "ro": "Prezență, la piețe de modă sustenabilă, și evenimente pop-up, unde clientul țintă cumpără deja."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "boutiqueWholesalePartnerships",
+          "description": {
+            "en": "Wholesale partnerships with independent sustainable-fashion boutiques, as a supplemental, experimental channel.",
+            "ro": "Parteneriate cu ridicata, cu boutique-uri independente, de modă sustenabilă, ca un canal suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "The visual transformation story is inherently compelling and easy to produce content around, but sustaining genuine engagement between infrequent drops requires real content discipline.",
+        "ro": "Povestea vizuală de transformare, este inerent captivantă, și ușor de produs conținut, în jurul ei, dar susținerea implicării reale, între lansările rare, necesită disciplină reală, de conținut."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A limited-run 'drop' model releases 15-40 pieces at a time; an email/SMS list is notified ahead of the public release, drops sell out creating scarcity-driven urgency, and repeat customers are offered occasional made-to-order custom commissions.",
+        "ro": "Un model de lansare, în serie limitată, eliberează 15-40 de bucăți, deodată; o listă de e-mail/SMS este notificată, înaintea lansării publice, lansările se epuizează, creând urgență, bazată pe raritate, iar clienților recurenți, li se oferă, ocazional, comisioane personalizate, la comandă."
+      },
+      "salesCycleLengthDays": 1,
+      "pricingModel": {
+        "en": "Limited-run drops priced €120-€280 per garment depending on complexity and materials, released in batches of 15-40 pieces; wholesale to boutique sustainable-fashion retailers at roughly 50% off retail; occasional made-to-order custom commissions at a premium.",
+        "ro": "Lansări, în serie limitată, cu prețuri de 120-280 €, per haină, în funcție de complexitate și materiale, eliberate, în loturi de 15-40 de bucăți; comerț cu ridicata, către comercianți boutique, de modă sustenabilă, cu aproximativ 50% reducere, față de preț cu amănuntul; comisioane personalizate, la comandă, ocazionale, la un preț premium."
+      }
+    },
+    "salesComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "Drop-day conversion is fast and impulse-driven once a customer is on the notification list — the harder ongoing work is building and retaining that list between infrequent drops.",
+        "ro": "Conversia, în ziua lansării, este rapidă, condusă de impuls, odată ce un client este pe lista de notificare — munca mai dificilă, continuă, este construirea și reținerea acelei liste, între lansările rare."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Deadstock and secondhand-denim sourcing and material grading",
+          "ro": "Aprovizionarea cu deadstock și denim de mâna a doua, și clasificarea materialului"
+        },
+        {
+          "en": "Garment deconstruction, pattern design, and reconstruction",
+          "ro": "Deconstrucția hainei, proiectarea tiparelor, și reconstrucția"
+        },
+        {
+          "en": "Limited-run drop production and quality control",
+          "ro": "Producția în serie limitată, și controlul calității"
+        },
+        {
+          "en": "D2C fulfillment and wholesale order management",
+          "ro": "Onorarea comenzilor D2C, și gestionarea comenzilor cu ridicata"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Most days alternate between sourcing and sorting raw material, hands-on garment construction toward the next drop, and content production documenting the transformation process for social channels.",
+        "ro": "Majoritatea zilelor, alternează, între aprovizionarea și sortarea materiei prime, construcția manuală, a hainelor, pentru următoarea lansare, și producția de conținut, care documentează procesul de transformare, pentru canalele sociale."
+      },
+      "fulfillmentModel": {
+        "en": "A small-batch fashion label that sources and hand-transforms secondhand denim into finished garments, sold primarily direct-to-consumer through scarcity-driven limited-run drops, with secondary wholesale and custom-commission revenue.",
+        "ro": "O marcă de modă, în serie mică, care aprovizionează și transformă manual, denim de mâna a doua, în haine finite, vândute în principal, direct către consumator, prin lansări, în serie limitată, bazate pe raritate, cu venituri secundare, din comerț cu ridicata și comisioane personalizate."
+      }
+    },
+    "automation": {
+      "level": "low",
+      "notes": {
+        "en": "Email/SMS drop notifications and e-commerce checkout are automated, but sourcing, construction, and design remain deliberately hands-on, since craftsmanship is the actual product.",
+        "ro": "Notificările de lansare, prin e-mail/SMS, și finalizarea comenzii, prin comerț electronic, sunt automatizate, dar aprovizionarea, construcția, și designul, rămân deliberat manuale, dat fiind că meșteșugul este produsul real."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "socialContentCaptionAssistance",
+          "description": {
+            "en": "AI-assisted first-draft social captions and product descriptions from raw transformation-process notes, refined to match the brand's authentic voice.",
+            "ro": "Legende sociale, și descrieri de produs, prim proiect, asistate de AI, din notele brute, ale procesului de transformare, rafinate pentru a se potrivi vocii autentice a brandului."
+          },
+          "maturity": "established"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "Shopify",
+        "category": "ecommercePlatform",
+        "isRequired": true,
+        "websiteUrl": "https://www.shopify.com/"
+      },
+      {
+        "name": "Klaviyo",
+        "category": "emailSmsDropNotifications",
+        "isRequired": true,
+        "websiteUrl": "https://www.klaviyo.com/"
+      },
+      {
+        "name": "CLO 3D",
+        "category": "patternDesignSoftware",
+        "isRequired": false,
+        "websiteUrl": "https://www.clo3d.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 24,
+      "notes": {
+        "en": "Growth is initially gated by material sourcing and hand-production capacity, with a reliable multi-supplier deadstock network and additional skilled labor as the main levers beyond the founder's own hours.",
+        "ro": "Creșterea este inițial limitată, de aprovizionarea cu materiale și capacitatea de producție manuală, cu o rețea fiabilă, de deadstock, cu mai mulți furnizori, și forță de muncă suplimentară, calificată, drept principalele pârghii, dincolo de orele proprii, ale fondatorului."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Build a reliable deadstock-sourcing network across multiple textile recyclers and factories to reduce material-supply risk, then bring on a part-time production assistant to increase drop volume, then expand into wholesale partnerships with sustainable-fashion boutiques as a more stable secondary revenue channel.",
+        "ro": "Construiește o rețea fiabilă, de aprovizionare cu deadstock, pe mai mulți reciclatori de textile și fabrici, pentru a reduce riscul de aprovizionare cu materiale, apoi adu un asistent de producție, cu normă parțială, pentru a crește volumul de lansări, apoi extinde-te, în parteneriate cu ridicata, cu boutique-uri de modă sustenabilă, ca un canal secundar, mai stabil, de venit."
+      },
+      "bottlenecks": [
+        {
+          "en": "Deadstock and secondhand-denim supply is inherently unpredictable and finite, capping how much can be produced regardless of demand.",
+          "ro": "Oferta de deadstock și denim de mâna a doua, este inerent imprevizibilă și finită, limitând cât poate fi produs, indiferent de cerere."
+        },
+        {
+          "en": "Hand-production capacity is limited by the founder's own sewing and reconstruction hours until additional skilled labor is added.",
+          "ro": "Capacitatea de producție manuală, este limitată, de orele proprii, de cusut și reconstrucție, ale fondatorului, până când este adăugată, forță de muncă suplimentară, calificată."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 9,
+          "description": {
+            "en": "The label reaches break-even with a stable base of repeat drop customers.",
+            "ro": "Marca atinge pragul de rentabilitate, cu o bază stabilă, de clienți recurenți, la lansări."
+          }
+        },
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "A part-time production assistant is onboarded, increasing drop volume and frequency.",
+            "ro": "Un asistent de producție, cu normă parțială, este integrat, crescând volumul și frecvența lansărilor."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "An authentic upcycling story and small-batch scarcity create a defensible brand differentiation that mass-market fast fashion can't replicate.",
+          "ro": "O poveste autentică de upcycling, și raritatea, în serie mică, creează o diferențiere de brand, apărabilă, pe care moda rapidă, de masă, nu o poate replica."
+        }
+      },
+      {
+        "description": {
+          "en": "Before/after transformation content is native, highly shareable material for visual platforms, reducing paid content-production cost.",
+          "ro": "Conținutul de transformare, înainte/după, este material nativ, extrem de partajabil, pentru platformele vizuale, reducând costul de producție de conținut plătit."
+        }
+      },
+      {
+        "description": {
+          "en": "Multiple revenue channels (D2C drops, wholesale, custom commissions) diversify income beyond a single sales motion.",
+          "ro": "Mai multe canale de venit (lansări D2C, comerț cu ridicata, comisioane personalizate), diversifică venitul, dincolo de o singură mișcare de vânzare."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A small-batch fashion label sourcing secondhand denim and factory deadstock, hand-transformed into limited-run garments sold through scarcity-driven drops, with secondary wholesale and made-to-order revenue. Deliberately capacity-constrained by hand production and unpredictable raw-material sourcing, trading scale for authenticity and premium pricing, distinct from mass-market e-commerce fashion brands elsewhere in this library.",
+        "ro": "O marcă de modă, în serie mică, care aprovizionează denim de mâna a doua și deadstock de fabrică, transformat manual, în haine, în serie limitată, vândute prin lansări, bazate pe raritate, cu venituri secundare, din comerț cu ridicata și comisioane, la comandă. Deliberat limitată, în capacitate, de producția manuală și aprovizionarea imprevizibilă, cu materie primă, tranzacționând scala, pentru autenticitate și preț premium, distinctă, de mărcile de modă, de comerț electronic, de masă, din altă parte, a acestei biblioteci."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.upcycledDenimLabel.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.upcycledDenimLabel.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.upcycledDenimLabel.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.upcycledDenimLabel.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert email/SMS notification-list subscribers into drop-day purchasers.",
+          "ro": "Transformă abonații listei de notificare, prin e-mail/SMS, în cumpărători, în ziua lansării."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep past customers buying into future drops and custom commissions.",
+          "ro": "Menține clienții anteriori, cumpărând, la lansările viitoare, și comisioanele personalizate."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against material sourcing and labor-intensive production costs.",
+          "ro": "Protejează marja brută, împotriva costurilor de aprovizionare cu materiale, și producție, intensivă în muncă."
+        }
+      },
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert boutique wholesale conversations into signed stocking orders.",
+          "ro": "Transformă conversațiile cu ridicata, de la boutique-uri, în comenzi de stocare, semnate."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "design",
+          "importance": 5
+        },
+        {
+          "key": "marketing",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "content",
+          "importance": 3
+        },
+        {
+          "key": "negotiation",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "creative",
+          "importance": 5
+        },
+        {
+          "trait": "detailOriented",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "patient",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 12000,
+        "max": 28000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 15000,
+        "max": 22000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 35,
+        "maxWeeklyHours": 50
+      },
+      "communicationStyle": [
+        "visual",
+        "authentic"
+      ],
+      "technicalLevel": 2,
+      "leadershipLevel": 3,
+      "creativityLevel": 5,
+      "salesAffinity": 3,
+      "automationAffinity": 2,
+      "remotePreference": "hybrid",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theSpecialist",
+        "theVisionary"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize genuine craft skill and design vision in Entrepreneur Fit and Offer Architecture, and the finite deadstock-supply constraint in Risk Analysis and Financial Overview — never treat this as a generic scalable e-commerce fashion brand.",
+      "ro": "Subliniază abilitatea reală de meșteșug și viziunea de design, în Potrivirea fondatorului și Arhitectura ofertei, și constrângerea de aprovizionare finită, cu deadstock, în Analiza riscurilor și Prezentarea financiară — nu trata niciodată aceasta, ca o marcă generică, scalabilă, de modă, de comerț electronic."
+    },
+    "marketingHints": {
+      "en": "Lead with authentic before/after transformation content and real material-sourcing stories, never generic 'sustainable fashion' stock phrases — this audience can tell genuine upcycling from greenwashed marketing.",
+      "ro": "Începe cu conținut autentic de transformare, înainte/după, și povești reale, de aprovizionare cu materiale, niciodată cu fraze generice, de tipul „modă sustenabilă” — acest public poate distinge upcycling-ul autentic, de marketingul greenwashed."
+    },
+    "financialHints": {
+      "en": "Model revenue as concentrated bursts around each limited-run drop rather than smooth monthly recurring revenue, and treat finite deadstock supply as a real constraint on production planning.",
+      "ro": "Modelează veniturile, ca izbucniri concentrate, în jurul fiecărei lansări, în serie limitată, nu venituri recurente, lunare, netede, și tratează oferta finită, de deadstock, ca o constrângere reală, asupra planificării producției."
+    },
+    "generationHints": {
+      "en": "Keep generated tone authentic and craft-focused, grounded in real material-sourcing and construction details — never generic sustainable-fashion marketing language that could apply to any brand.",
+      "ro": "Menține un ton generat, autentic, orientat spre meșteșug, fundamentat pe detalii reale, de aprovizionare cu materiale și construcție — niciodată limbaj generic, de marketing, de modă sustenabilă, care s-ar putea aplica, oricărei mărci."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Set up the production workshop, source initial founding deadstock suppliers, and launch the e-commerce storefront.",
+            "ro": "Configurează atelierul de producție, găsește furnizorii inițiali, fondatori, de deadstock, și lansează vitrina de comerț electronic."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Buying large volumes of secondhand denim upfront before confirming which materials actually work for the intended designs.",
+            "ro": "Cumpărarea de volume mari, de denim de mâna a doua, în avans, înainte de a confirma ce materiale, chiar funcționează, pentru designurile intenționate."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Source a small, varied initial batch of deadstock and test constructions before committing to larger purchases.",
+            "ro": "Aprovizionează un lot inițial, mic, variat, de deadstock, și testează construcțiile, înainte de a te angaja, la achiziții mai mari."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.upcycledDenimLabel.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Produce and sell a small pilot drop to validate design direction and pricing.",
+            "ro": "Produce și vinde o lansare pilot, mică, pentru a valida direcția de design și prețul."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Pricing the pilot drop too low to move inventory quickly, undermining the premium positioning before it's established.",
+            "ro": "Stabilirea unui preț, prea mic, pentru lansarea pilot, pentru a mișca rapid, stocul, subminând poziționarea premium, înainte de a fi stabilită."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Price the pilot drop at the intended standard rate to properly test willingness to pay.",
+            "ro": "Stabilește prețul lansării pilot, la tariful standard, intenționat, pentru a testa corect, disponibilitatea de a plăti."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.upcycledDenimLabel.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first full public drop, from notification-list build to sellout and fulfillment.",
+            "ro": "Finalizează prima lansare publică, completă, de la construirea listei de notificare, la epuizarea stocului, și onorare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Underestimating fulfillment time for one-of-a-kind garments that each require individual quality checks before shipping.",
+            "ro": "Subestimarea timpului de onorare, pentru haine unice, care necesită, fiecare, verificări individuale de calitate, înainte de expediere."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a per-garment quality-check step into the fulfillment process before every shipment.",
+            "ro": "Include un pas, de verificare a calității, per haină, în procesul de onorare, înainte de fiecare expediere."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.upcycledDenimLabel.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish before/after transformation content consistently and begin engaging sustainable-fashion communities and marketplaces.",
+            "ro": "Publică consecvent, conținut de transformare, înainte/după, și începe implicarea, în comunități și piețe de modă sustenabilă."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Publishing only finished-product photos instead of the transformation process, missing the most compelling and authentic content angle.",
+            "ro": "Publicarea, doar a fotografiilor de produs finit, în loc de procesul de transformare, ratând cel mai captivant și autentic unghi de conținut."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document the transformation process (raw material to finished garment) for every piece, not just the final result.",
+            "ro": "Documentează procesul de transformare (materie primă, la haină finită), pentru fiecare piesă, nu doar rezultatul final."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.upcycledDenimLabel.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first drop's customers into repeat buyers for the second drop.",
+            "ro": "Transformă clienții, primei lansări, în cumpărători recurenți, pentru a doua lansare."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not personally following up with first-drop customers before announcing the next drop.",
+            "ro": "Neurmărirea personală, a clienților, primei lansări, înainte de a anunța, următoarea lansare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Personally reach out to first-drop customers ahead of the next drop announcement to build early-access loyalty.",
+            "ro": "Contactează personal, clienții, primei lansări, înaintea anunțului, următoarei lansări, pentru a construi loialitate, de acces timpuriu."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.upcycledDenimLabel.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable rhythm of sellout drops with a documented base of repeat, loyal customers.",
+            "ro": "Atinge un ritm stabil, de lansări epuizate, cu o bază documentată, de clienți recurenți, loiali."
+          }
+        ],
+        "kpis": [
+          "leadConversion",
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Declaring product-market fit based on notification-list size alone, ignoring actual drop-day conversion rate.",
+            "ro": "Declararea potrivirii produs-piață, doar pe baza mărimii listei de notificare, ignorând rata reală, de conversie, în ziua lansării."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track drop-day conversion rate as the primary product-market fit signal, not just list size.",
+            "ro": "Urmărește rata de conversie, în ziua lansării, ca principalul semnal, de potrivire produs-piață, nu doar mărimea listei."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.upcycledDenimLabel.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Build a reliable multi-supplier deadstock-sourcing network to reduce material-supply risk.",
+            "ro": "Construiește o rețea fiabilă, de aprovizionare cu deadstock, cu mai mulți furnizori, pentru a reduce riscul de aprovizionare cu materiale."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Relying on a single deadstock supplier, creating a single point of failure for every future drop.",
+            "ro": "Bazarea, pe un singur furnizor de deadstock, creând un singur punct de eșec, pentru fiecare lansare viitoare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Establish relationships with at least 3-4 deadstock and textile-recycling suppliers to diversify material supply.",
+            "ro": "Stabilește relații, cu cel puțin 3-4 furnizori, de deadstock și reciclare textilă, pentru a diversifica aprovizionarea cu materiale."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.upcycledDenimLabel.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Bring on a part-time production assistant to increase drop volume and frequency.",
+            "ro": "Adu un asistent de producție, cu normă parțială, pentru a crește volumul și frecvența lansărilor."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring production help before construction techniques and quality standards are documented well enough to train someone else.",
+            "ro": "Angajarea de ajutor, de producție, înainte ca tehnicile de construcție și standardele de calitate, să fie documentate, suficient de bine, pentru a instrui pe altcineva."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document construction techniques and quality standards clearly enough to train a production assistant before hiring.",
+            "ro": "Documentează tehnicile de construcție și standardele de calitate, suficient de clar, pentru a instrui un asistent de producție, înainte de angajare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.upcycledDenimLabel.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into wholesale partnerships with sustainable-fashion boutiques as a more stable secondary revenue channel.",
+            "ro": "Extinde-te, în parteneriate cu ridicata, cu boutique-uri de modă sustenabilă, ca un canal secundar, mai stabil, de venit."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Pursuing wholesale volume that exceeds actual production capacity, damaging both D2C and wholesale relationships.",
+            "ro": "Urmărirea unui volum de comerț cu ridicata, care depășește capacitatea reală de producție, afectând, atât relațiile D2C, cât și cele cu ridicata."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Cap wholesale commitments to a confirmed percentage of production capacity, protecting D2C drop supply.",
+            "ro": "Limitează angajamentele, de comerț cu ridicata, la un procent confirmat, din capacitatea de producție, protejând oferta, de lansare D2C."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.upcycledDenimLabel.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the supplier network, brand IP, and sales history to package the label for sale or acquisition.",
+            "ro": "Documentează rețeaua de furnizori, proprietatea intelectuală a mărcii, și istoricul de vânzări, pentru a pregăti marca, pentru vânzare sau achiziție."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping supplier relationships informal and undocumented, making the business hard for a buyer to evaluate or transfer.",
+            "ro": "Menținerea relațiilor cu furnizorii, informale și nedocumentate, făcând afacerea dificil de evaluat sau transferat, de un cumpărător."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, ongoing documentation of every supplier relationship and drop-performance history.",
+            "ro": "Menține o documentație curată, continuă, a fiecărei relații cu furnizorii, și istoricul de performanță, al lansărilor."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.upcycledDenimLabel.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

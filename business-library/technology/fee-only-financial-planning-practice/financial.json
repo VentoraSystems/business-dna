@@ -1,0 +1,131 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "cfpCertificationAndLicensing",
+      "complianceAndEoInsuranceSetup",
+      "financialPlanningSoftwareSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "financialPlanningSoftwareSubscription",
+      "complianceAndEoPremium"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "contentAndSeoTooling",
+      "contractorOverflowPlanningHours"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "oneTimeComprehensivePlanFee",
+        "label": {
+          "en": "One-time comprehensive financial plan fee",
+          "ro": "Taxă unică, pentru planul financiar complet"
+        }
+      },
+      {
+        "key": "annualFlatFeeRetainer",
+        "label": {
+          "en": "Ongoing annual flat-fee retainer",
+          "ro": "Abonament anual, continuu, cu tarif fix"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "activeRetainerClients": "number",
+      "averagePlanFee": "currency",
+      "introCallToEngagementCloseRatePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "newPlansPerMonth": "number",
+      "retainerRenewalRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.feeOnlyFinancialPlanningPractice.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "planFeeInflow",
+      "retainerInflow",
+      "softwareAndComplianceOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 11,
+    "notesTranslationKey": "businessLibrary.feeOnlyFinancialPlanningPractice.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 78,
+    "notesTranslationKey": "businessLibrary.feeOnlyFinancialPlanningPractice.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 50,
+    "notesTranslationKey": "businessLibrary.feeOnlyFinancialPlanningPractice.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "secondCfpPlannerRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "seoContentProduction",
+      "communityEngagementAndSponsorship"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "selfEmploymentTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "leadConversion",
+      "customerRetention",
+      "grossMargin",
+      "netMargin"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 3500,
+      "notesTranslationKey": "businessLibrary.feeOnlyFinancialPlanningPractice.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 10000,
+      "notesTranslationKey": "businessLibrary.feeOnlyFinancialPlanningPractice.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 16000,
+      "notesTranslationKey": "businessLibrary.feeOnlyFinancialPlanningPractice.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.feeOnlyFinancialPlanningPractice.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.feeOnlyFinancialPlanningPractice.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.feeOnlyFinancialPlanningPractice.financial.aiMetadata.generationHints"
+  }
+}
