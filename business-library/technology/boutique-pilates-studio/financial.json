@@ -1,0 +1,139 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "reformerEquipmentAndStudioBuildout",
+      "flooringAndMirrorInstallation",
+      "bookingAndMembershipSoftwareSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "studioLease",
+      "instructorWages"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "equipmentMaintenanceAndInsurance",
+      "laundryAndSuppliesCosts"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "classPackAndDropInFees",
+        "label": {
+          "en": "Class pack and drop-in class fees",
+          "ro": "Onorarii pentru pachete de clase și clase individuale"
+        }
+      },
+      {
+        "key": "monthlyUnlimitedMembership",
+        "label": {
+          "en": "Monthly unlimited membership",
+          "ro": "Abonament lunar nelimitat"
+        }
+      },
+      {
+        "key": "privateSessionUpsells",
+        "label": {
+          "en": "Private one-on-one session upsells",
+          "ro": "Vânzări suplimentare de ședințe private, unu-la-unu"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageClassFee": "currency",
+      "classesPerWeek": "number",
+      "membershipAttachRatePercent": "percent",
+      "averageClassFillRatePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "newMembersPerMonth": "number",
+      "monthlyMembershipRenewalRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.boutiquePilatesStudio.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "membershipAndClassPackInflow",
+      "privateSessionInflow",
+      "leaseAndPayrollOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 14,
+    "notesTranslationKey": "businessLibrary.boutiquePilatesStudio.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 50,
+    "notesTranslationKey": "businessLibrary.boutiquePilatesStudio.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 15,
+    "notesTranslationKey": "businessLibrary.boutiquePilatesStudio.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "instructorRecruitingAndCertificationVerification"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "introOfferDiscounts",
+      "localSocialMediaContent"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxOnInstructors"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "fourMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "customerRetention",
+      "grossMargin",
+      "leadConversion",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 9000,
+      "notesTranslationKey": "businessLibrary.boutiquePilatesStudio.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 19000,
+      "notesTranslationKey": "businessLibrary.boutiquePilatesStudio.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 30000,
+      "notesTranslationKey": "businessLibrary.boutiquePilatesStudio.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.boutiquePilatesStudio.financial.risks.risk1",
+        "severity": "moderate"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.boutiquePilatesStudio.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.boutiquePilatesStudio.financial.aiMetadata.generationHints"
+  }
+}

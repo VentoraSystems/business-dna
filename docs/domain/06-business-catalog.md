@@ -84,6 +84,16 @@ new categories introduced in the 2026-07-10 Taxonomy Synchronization
 flagship P1 candidate authored (1/1) — see the "Category breakdown"
 table below.*
 
+*Status as of Knowledge Authoring Batch 6 (2026-07-15, first of 14
+planned P2 batches): 5 P2 candidates authored — AI Customer Support
+Chatbot Studio (`technology-services`), Boutique Pilates Reformer
+Studio (`boutique-fitness-studios`), Cloud Bookkeeping Service for
+Startups (`accounting-firms`), Adventure Travel Boutique Agency
+(`boutique-travel-agencies`), and Tutoring & Homework Help Marketplace
+(`local-service-marketplaces`) — bringing the total authored count to
+34. See the per-category notes and the "Category breakdown" table
+below.*
+
 No enum value or category key was invented — every value used in the
 tables below is one of the values listed above, or one of the 12
 `IndustryType`/8 `BusinessModelType` values confirmed earlier in this
@@ -136,8 +146,8 @@ prioritization, not a commitment.
   infrastructure (e.g. a real marketplace/platform) that doesn't exist
   yet.
 
-**Already Authored** column: ✅ marks the 9 packages that exist today
-under `business-library/technology/` (8 `published` + 1 `template`,
+**Already Authored** column: ✅ marks the 34 packages that exist today
+under `business-library/technology/` (33 `published` + 1 `template`,
 per `business-library/manifest.json`). Their metadata below (Industry,
 BusinessModel, Difficulty, Scalability, Solo Friendly, Budget Tier) is
 copied from their real `metadata.json` / `business-dna.json`, not
@@ -153,15 +163,15 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 
 | Category | Entries | Already Authored |
 |---|---:|---:|
-| `technology-services` | 20 | 9 |
+| `technology-services` | 20 | 10 |
 | `subscription-boxes` | 10 | 0 |
-| `boutique-fitness-studios` | 9 | 0 |
+| `boutique-fitness-studios` | 9 | 1 |
 | `online-course-platforms` | 10 | 0 |
 | `sustainable-fashion-brands` | 9 | 0 |
-| `local-service-marketplaces` | 9 | 0 |
-| `boutique-travel-agencies` | 8 | 0 |
+| `local-service-marketplaces` | 9 | 1 |
+| `boutique-travel-agencies` | 8 | 1 |
 | `niche-content-studios` | 9 | 0 |
-| `accounting-firms` | 6 | 1 |
+| `accounting-firms` | 6 | 2 |
 | `financial-consultancies` | 6 | 1 |
 | `insurance-brokerages` | 6 | 1 |
 | `tax-consultancies` | 6 | 1 |
@@ -181,7 +191,7 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 | `psychology-practices` | 1 | 1 |
 | `coffee-shops` | 1 | 1 |
 | `restaurants` | 1 | 1 |
-| **Total** | **147** | **29** |
+| **Total** | **147** | **34** |
 
 ---
 
@@ -210,10 +220,19 @@ remaining 11 are P2/P3 unauthored candidates). See
 cybersecurity-consultancy,it-managed-services,devops-consultancy,
 data-analytics-consultancy}/` for the full packages.*
 
+*Knowledge Authoring Batch 6 (2026-07-15) authored this category's
+first P2 candidate — AI Customer Support Chatbot Studio — bringing the
+authored count to 10 of 20. Deliberately marked `isAIResistant: false`
+in its `business-dna.json` despite being an AI-native business itself,
+an intentional irony reflecting that AI-support tooling is itself
+displaceable by further AI advances. See
+`business-library/technology/ai-chatbot-support-studio/` for the full
+package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | technology-services | AI Automation Agency | ai-automation-agency | tech | agency | P1 | moderate | Low | No | low | No | ✅ |
-| technology-services | AI Customer Support Chatbot Studio | ai-chatbot-support-studio | tech | agency | P2 | moderate | Low | Yes | moderate | No | |
+| technology-services | AI Customer Support Chatbot Studio | ai-chatbot-support-studio | tech | agency | P2 | moderate | Low | Yes | moderate | No | ✅ |
 | technology-services | RPA Workflow Automation Consultancy | rpa-workflow-consultancy | tech | service | P2 | moderate | Low | Yes | low | No | |
 | technology-services | AI Sales Outreach Automation Agency | ai-sales-outreach-agency | tech | agency | P2 | moderate | Low | Yes | moderate | No | |
 | technology-services | Vertical AI Agent Studio for Real Estate | ai-agent-studio-real-estate | tech | agency | P3 | moderate | Medium | Yes | moderate | No | |
@@ -252,9 +271,16 @@ data-analytics-consultancy}/` for the full packages.*
 
 ## `boutique-fitness-studios`
 
+*Knowledge Authoring Batch 6 (2026-07-15) authored this category's
+first P2 candidate — Boutique Pilates Reformer Studio — the first
+business authored under this category. Explicitly framed as "not a
+licensed clinical practice," matching the `beauty-wellness` precedent.
+See `business-library/technology/boutique-pilates-studio/` for the
+full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| boutique-fitness-studios | Boutique Pilates Reformer Studio | boutique-pilates-studio | health | service | P2 | moderate | Medium | No | low | No | |
+| boutique-fitness-studios | Boutique Pilates Reformer Studio | boutique-pilates-studio | health | service | P2 | moderate | Medium | No | low | No | ✅ |
 | boutique-fitness-studios | Indoor Cycling Studio | indoor-cycling-studio | health | subscription | P2 | moderate | Medium | No | low | No | |
 | boutique-fitness-studios | Women's Strength Training Studio | womens-strength-training-studio | health | subscription | P2 | moderate | Medium | No | low | No | |
 | boutique-fitness-studios | Boutique Yoga Studio | boutique-yoga-studio | health | service | P2 | moderate | Low | Yes | low | No | |
@@ -301,7 +327,7 @@ data-analytics-consultancy}/` for the full packages.*
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | local-service-marketplaces | Home Repair & Handyman Marketplace | home-repair-marketplace | homeServices | marketplace | P2 | high | High | No | high | Yes | |
 | local-service-marketplaces | Personal Trainer Booking Marketplace | personal-trainer-marketplace | health | marketplace | P2 | high | High | No | high | Yes | |
-| local-service-marketplaces | Tutoring & Homework Help Marketplace | tutoring-help-marketplace | education | marketplace | P2 | high | High | No | high | Yes | |
+| local-service-marketplaces | Tutoring & Homework Help Marketplace | tutoring-help-marketplace | education | marketplace | P2 | high | High | No | high | Yes | ✅ |
 | local-service-marketplaces | Pet Care Services Marketplace | pet-care-services-marketplace | homeServices | marketplace | P3 | high | High | No | high | Yes | |
 | local-service-marketplaces | Freelance Bookkeeping Marketplace | freelance-bookkeeping-marketplace | professionalServices | marketplace | P3 | high | High | No | high | Yes | |
 | local-service-marketplaces | House Cleaning Services Marketplace | house-cleaning-marketplace | homeServices | marketplace | P2 | high | Medium | No | high | Yes | |
@@ -311,9 +337,17 @@ data-analytics-consultancy}/` for the full packages.*
 
 ## `boutique-travel-agencies`
 
+*Knowledge Authoring Batch 6 (2026-07-15) authored this category's
+first P2 candidate — Adventure Travel Boutique Agency — the first
+business authored under this category. The only business in the
+library with a genuine, frequent personal-travel requirement, reflecting
+the founder's own firsthand destination and guide-network expertise.
+See `business-library/technology/adventure-travel-boutique-agency/`
+for the full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| boutique-travel-agencies | Adventure Travel Boutique Agency | adventure-travel-boutique-agency | travel | agency | P2 | moderate | Medium | Yes | moderate | No | |
+| boutique-travel-agencies | Adventure Travel Boutique Agency | adventure-travel-boutique-agency | travel | agency | P2 | moderate | Medium | Yes | moderate | No | ✅ |
 | boutique-travel-agencies | Luxury Honeymoon Planning Agency | luxury-honeymoon-planning-agency | travel | agency | P2 | moderate | Medium | Yes | moderate | No | |
 | boutique-travel-agencies | Solo Female Travel Agency | solo-female-travel-agency | travel | agency | P3 | moderate | Low | Yes | moderate | No | |
 | boutique-travel-agencies | Culinary Tour Operator | culinary-tour-operator | travel | service | P3 | moderate | Medium | Yes | moderate | No | |
@@ -340,10 +374,22 @@ data-analytics-consultancy}/` for the full packages.*
 
 ## `accounting-firms`
 
+*Knowledge Authoring Batch 6 (2026-07-15) authored this category's
+first P2 candidate — Cloud Bookkeeping Service for Startups — deliberately
+differentiated from the existing `accounting-firm` P1 package: fully
+remote vs. hybrid, flat-tier pricing vs. transaction-volume pricing, an
+accelerator/VC referral channel vs. a lawyer/consultant referral
+channel, and investor-reporting/burn-rate/runway fluency vs. general
+month-end-close speed. Regulated accounting content — the same
+educational-framing discipline established for the Professional
+Services batch applies. See
+`business-library/technology/cloud-bookkeeping-startups/` for the full
+package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | accounting-firms | Accounting Firm | accounting-firm | finance | service | P1 | moderate | Medium | Yes | moderate | No | ✅ |
-| accounting-firms | Cloud Bookkeeping Service for Startups | cloud-bookkeeping-startups | finance | service | P2 | moderate | Low | Yes | moderate | No | |
+| accounting-firms | Cloud Bookkeeping Service for Startups | cloud-bookkeeping-startups | finance | service | P2 | moderate | Low | Yes | moderate | No | ✅ |
 | accounting-firms | Nonprofit Accounting Practice | nonprofit-accounting-practice | finance | service | P3 | moderate | Medium | Yes | moderate | No | |
 | accounting-firms | E-commerce Accounting Specialist Firm | ecommerce-accounting-specialist-firm | finance | service | P2 | moderate | Medium | Yes | moderate | No | |
 | accounting-firms | Fractional CFO & Bookkeeping Practice | fractional-cfo-bookkeeping-practice | finance | service | P2 | high | Medium | Yes | moderate | Yes | |

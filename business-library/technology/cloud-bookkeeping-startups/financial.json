@@ -1,0 +1,139 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "cloudAccountingSoftwareAndIntegrationSetup",
+      "professionalLiabilityInsuranceAndRegistration",
+      "brandingAndClientPortalSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "softwareStackSubscriptions",
+      "contractorBookkeeperWages"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "continuingEducationAndCertification",
+      "taxSeasonOverflowContractorHours"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "monthlyFlatFeeBookkeepingSubscription",
+        "label": {
+          "en": "Monthly flat-fee bookkeeping subscription",
+          "ro": "Abonament lunar de contabilitate, cu tarif fix"
+        }
+      },
+      {
+        "key": "annualTaxFilingAddOn",
+        "label": {
+          "en": "Annual tax filing add-on",
+          "ro": "Serviciu suplimentar de depunere a declarației fiscale anuale"
+        }
+      },
+      {
+        "key": "fractionalCfoAdvisoryHours",
+        "label": {
+          "en": "Fractional CFO advisory hours for fundraising support",
+          "ro": "Ore de consultanță de CFO fracționat, pentru sprijin la strângerea de fonduri"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageMonthlySubscriptionFee": "currency",
+      "activeSubscriptionClients": "number",
+      "annualTaxFilingAttachRatePercent": "percent",
+      "averageMonthlyClientExpenseVolume": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "newClientsPerQuarter": "number",
+      "monthlyClientChurnRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.cloudBookkeepingStartups.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "monthlySubscriptionInflow",
+      "annualTaxFilingInflow",
+      "softwareAndContractorOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 7,
+    "notesTranslationKey": "businessLibrary.cloudBookkeepingStartups.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 65,
+    "notesTranslationKey": "businessLibrary.cloudBookkeepingStartups.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 30,
+    "notesTranslationKey": "businessLibrary.cloudBookkeepingStartups.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "contractorBookkeeperRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "acceleratorPartnershipOutreach",
+      "founderCommunityContentProduction"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxOnContractors"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "fourMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "mrr",
+      "customerRetention",
+      "grossMargin",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 5000,
+      "notesTranslationKey": "businessLibrary.cloudBookkeepingStartups.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 13000,
+      "notesTranslationKey": "businessLibrary.cloudBookkeepingStartups.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 20000,
+      "notesTranslationKey": "businessLibrary.cloudBookkeepingStartups.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.cloudBookkeepingStartups.financial.risks.risk1",
+        "severity": "moderate"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.cloudBookkeepingStartups.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.cloudBookkeepingStartups.financial.aiMetadata.generationHints"
+  }
+}

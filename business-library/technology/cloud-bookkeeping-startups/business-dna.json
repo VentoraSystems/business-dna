@@ -1,0 +1,946 @@
+{
+  "identity": {
+    "id": "75e9de2d-b678-49b4-8534-427f6b273d40",
+    "slug": "cloud-bookkeeping-startups",
+    "version": "1.0.0",
+    "name": {
+      "en": "Runway Bookkeeping",
+      "ro": "Runway Bookkeeping"
+    },
+    "tagline": {
+      "en": "Investor-ready books, without the in-house finance hire.",
+      "ro": "Contabilitate pregătită pentru investitori, fără o angajare internă de finanțe."
+    },
+    "createdAt": "2026-07-16T00:00:00.000Z",
+    "updatedAt": "2026-07-16T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theSpecialist",
+      "theBuilder"
+    ],
+    "summary": {
+      "en": "Best suited to a detail-oriented finance professional fluent in startup metrics (burn rate, runway, R&D tax credits) who enjoys building automated workflows on top of modern fintech tools more than traditional manual bookkeeping. Educational business-building guidance only — not a substitute for licensed accounting credentials.",
+      "ro": "Potrivit unui profesionist financiar meticulos, fluent în metricile pentru startup-uri (rata de ardere a numerarului, autonomia financiară, creditele fiscale de cercetare-dezvoltare), care preferă să construiască fluxuri de lucru automatizate, pe instrumente fintech moderne, în locul contabilității manuale tradiționale. Doar îndrumări educaționale de construire a afacerii — nu un substitut pentru acreditările contabile licențiate."
+    },
+    "minimumExperienceYears": 3
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 4000,
+      "maxInvestment": 10000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 1500,
+      "ongoingMonthlyCostMax": 4000,
+      "notes": {
+        "en": "Covers cloud accounting software and fintech-integration setup, professional liability insurance, and client-portal branding — a Low budget tier, since this business is fully remote with no office overhead, leaner than a hybrid general-practice accounting firm.",
+        "ro": "Acoperă software-ul de contabilitate în cloud și configurarea integrărilor fintech, asigurarea de răspundere profesională și branding-ul portalului clienților — un nivel de buget scăzut, deoarece această afacere este complet la distanță, fără costuri generale de birou, mai suplă decât o firmă de contabilitate hibridă, de practică generală."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "cloudAccountingSoftwareAndIntegrationSetup",
+          "label": {
+            "en": "Cloud accounting software and fintech-integration setup",
+            "ro": "Configurarea software-ului de contabilitate în cloud și integrărilor fintech"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        },
+        {
+          "key": "professionalLiabilityInsuranceAndRegistration",
+          "label": {
+            "en": "Professional liability insurance and business registration",
+            "ro": "Asigurarea de răspundere profesională și înregistrarea afacerii"
+          },
+          "typicalMin": 1000,
+          "typicalMax": 2500
+        },
+        {
+          "key": "brandingAndClientPortalSetup",
+          "label": {
+            "en": "Branding and client-portal setup",
+            "ro": "Branding și configurarea portalului clienților"
+          },
+          "typicalMin": 1000,
+          "typicalMax": 3000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "softwareStackSubscriptions",
+          "label": {
+            "en": "Accounting and fintech software-stack subscriptions",
+            "ro": "Abonamente pentru stiva de software contabil și fintech"
+          },
+          "typicalMonthlyMin": 300,
+          "typicalMonthlyMax": 800
+        },
+        {
+          "key": "contractorBookkeeperWages",
+          "label": {
+            "en": "Contractor bookkeeper wages",
+            "ro": "Salariile contabililor contractori"
+          },
+          "typicalMonthlyMin": 1000,
+          "typicalMonthlyMax": 2500
+        },
+        {
+          "key": "continuingEducationAndCertification",
+          "label": {
+            "en": "Continuing education and certification renewal",
+            "ro": "Educație continuă și reînnoirea certificării"
+          },
+          "typicalMonthlyMin": 100,
+          "typicalMonthlyMax": 300
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "monthlyFlatFeeBookkeepingSubscription",
+          "label": {
+            "en": "Monthly flat-fee bookkeeping subscription",
+            "ro": "Abonament lunar de contabilitate, cu tarif fix"
+          }
+        },
+        {
+          "key": "annualTaxFilingAddOn",
+          "label": {
+            "en": "Annual tax filing add-on",
+            "ro": "Serviciu suplimentar de depunere a declarației fiscale anuale"
+          }
+        },
+        {
+          "key": "fractionalCfoAdvisoryHours",
+          "label": {
+            "en": "Fractional CFO advisory hours for fundraising support",
+            "ro": "Ore de consultanță de CFO fracționat, pentru sprijin la strângerea de fonduri"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 7000,
+      "targetMonthlyIncomeMax": 20000,
+      "breakEvenTimelineMonths": 7,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Flat monthly subscription clients ramp up steadily as new startups sign on, rather than arriving in one large burst — similar cadence to a general accounting practice's retainer growth.",
+        "ro": "Clienții cu abonament lunar, cu tarif fix, cresc constant, pe măsură ce startup-uri noi se înscriu, nu apar dintr-o singură dată, în volum mare — un ritm similar creșterii abonamentelor unei practici contabile generale."
+      }
+    },
+    "profitMargin": {
+      "level": "high",
+      "notes": {
+        "en": "Heavy automation on modern fintech tools (Ramp, QuickBooks Online) reduces manual labor per client compared to a traditional bookkeeping practice, keeping margin higher once the tech stack is configured.",
+        "ro": "Automatizarea intensă, pe instrumente fintech moderne (Ramp, QuickBooks Online), reduce munca manuală per client, față de o practică tradițională de contabilitate, menținând marja mai ridicată, odată ce stiva tehnologică este configurată."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "none",
+    "onlineOffline": "online",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 30,
+    "maxWeeklyHours": 45,
+    "freedomLevel": 4
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 4
+      },
+      {
+        "key": "marketing",
+        "rating": 3
+      },
+      {
+        "key": "leadership",
+        "rating": 4
+      },
+      {
+        "key": "communication",
+        "rating": 6
+      },
+      {
+        "key": "negotiation",
+        "rating": 3
+      },
+      {
+        "key": "finance",
+        "rating": 9
+      },
+      {
+        "key": "operations",
+        "rating": 8
+      },
+      {
+        "key": "technology",
+        "rating": 7
+      },
+      {
+        "key": "automation",
+        "rating": 6
+      },
+      {
+        "key": "ai",
+        "rating": 4
+      },
+      {
+        "key": "programming",
+        "rating": 2
+      },
+      {
+        "key": "management",
+        "rating": 5
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 50
+      },
+      {
+        "key": "visionary",
+        "score": 35
+      },
+      {
+        "key": "operator",
+        "score": 70
+      },
+      {
+        "key": "creator",
+        "score": 20
+      },
+      {
+        "key": "seller",
+        "score": 35
+      },
+      {
+        "key": "leader",
+        "score": 40
+      },
+      {
+        "key": "analyst",
+        "score": 85
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": true,
+    "isHighlyScalable": true,
+    "isHighlyAutomatable": true,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": true,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate",
+      "notes": {
+        "en": "Software automation lets one contractor bookkeeper support more startup clients than a traditional practice, but tax-season capacity and startup-specific reporting nuance still gate rapid growth.",
+        "ro": "Automatizarea software permite unui contabil contractor să susțină mai mulți clienți startup decât o practică tradițională, dar capacitatea din sezonul fiscal și nuanța de raportare specifică startup-urilor limitează totuși creșterea rapidă."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "Lower capital requirement than a hybrid general practice, but the client base itself is inherently more volatile — startups fail or run out of funding at a much higher rate than general small businesses.",
+        "ro": "Cerință de capital mai scăzută decât o practică generală hibridă, dar baza de clienți în sine este inerent mai volatilă — startup-urile eșuează sau rămân fără finanțare, la o rată mult mai mare decât firmele mici generale."
+      }
+    },
+    "aiResistance": {
+      "level": "moderate",
+      "notes": {
+        "en": "Bank-feed categorization and reporting are increasingly automatable, but investor-reporting judgment calls and fundraising-support advisory still require an experienced human.",
+        "ro": "Categorizarea fluxului bancar și raportarea sunt din ce în ce mai automatizabile, dar deciziile de judecată pentru raportarea către investitori și consultanța de sprijin la strângerea de fonduri necesită încă un profesionist uman, experimentat."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "The startup client base is inherently higher-churn than general small businesses — a client running out of funding can disappear with little notice, unlike a stable local SMB.",
+          "ro": "Baza de clienți startup este, prin natura ei, cu abandon mai ridicat, decât firmele mici generale — un client care rămâne fără finanțare poate dispărea cu un preaviz scurt, spre deosebire de o firmă mică locală, stabilă."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "Dependency on a specific fintech software stack (Ramp, QuickBooks Online) means vendor pricing or API changes can directly affect margin.",
+          "ro": "Dependența de o stivă fintech specifică (Ramp, QuickBooks Online) înseamnă că modificările de preț sau API, de la furnizor, pot afecta direct marja."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "Regulatory and tax-code changes require constant retraining, the same ongoing burden as any accounting practice.",
+          "ro": "Modificările de reglementare și cod fiscal necesită reinstruire constantă, aceeași povară continuă ca la orice practică contabilă."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Investor-ready books, without the in-house finance hire — cloud-native bookkeeping built for how startups actually operate.",
+        "ro": "Contabilitate pregătită pentru investitori, fără o angajare internă de finanțe — contabilitate nativă în cloud, construită pentru modul real de operare al startup-urilor."
+      },
+      "channels": [
+        {
+          "channelType": "startupAcceleratorAndVcNetworkReferrals",
+          "description": {
+            "en": "Referral relationships with startup accelerators and venture capital firms who recommend bookkeeping partners to their portfolio companies.",
+            "ro": "Relații de recomandare cu acceleratoare de startup-uri și firme de capital de risc, care recomandă parteneri de contabilitate companiilor din portofoliul lor."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "foundersCommunityContentMarketing",
+          "description": {
+            "en": "Content marketing in founder communities covering burn rate management, runway extension, and fundraising-readiness financials.",
+            "ro": "Marketing de conținut, în comunitățile de fondatori, care acoperă gestionarea ratei de ardere a numerarului, extinderea autonomiei financiare și pregătirea financiară pentru strângerea de fonduri."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "fintechAndCardIssuerPartnerships",
+          "description": {
+            "en": "Partnerships with corporate card and spend-management platforms who refer startup clients needing bookkeeping support, as a supplemental, experimental channel.",
+            "ro": "Parteneriate cu platformele de carduri corporative și gestionare a cheltuielilor, care recomandă clienți startup, ce au nevoie de suport de contabilitate, ca un canal suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "A tight, well-defined niche (venture-backed and bootstrapped startups) with credible network-based referral channels rather than broad local-market advertising.",
+        "ro": "O nișă strânsă, bine definită (startup-uri finanțate prin capital de risc și bootstrapped), cu canale de recomandare credibile, bazate pe rețea, nu publicitate largă de piață locală."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A free financial-health and runway assessment call is the typical first conversation, followed by a fast software-native onboarding that connects directly to the startup's bank, card, and Stripe accounts within days.",
+        "ro": "O evaluare gratuită a stării financiare și autonomiei financiare este de obicei prima discuție, urmată de o integrare rapidă, nativă software, care se conectează direct la conturile bancare, de card și Stripe ale startup-ului, în câteva zile."
+      },
+      "salesCycleLengthDays": 21,
+      "pricingModel": {
+        "en": "Flat monthly tiers based on monthly expense volume: €600/month under €20K monthly expenses, €1,200/month for €20K-75K, €2,200/month for €75K-200K, plus a €1,500-3,000 annual tax filing add-on.",
+        "ro": "Niveluri lunare fixe, în funcție de volumul cheltuielilor lunare: 600 €/lună, sub 20.000 € cheltuieli lunare, 1.200 €/lună pentru 20.000-75.000 €, 2.200 €/lună pentru 75.000-200.000 €, plus un serviciu suplimentar anual de depunere fiscală de 1.500-3.000 €."
+      }
+    },
+    "salesComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "Flat, transparent pricing tiers and a fast software-native onboarding remove most of the negotiation typical of a customized service sale.",
+        "ro": "Nivelurile de preț fixe, transparente, și integrarea rapidă, nativă software, elimină cea mai mare parte a negocierii, tipice unei vânzări de servicii personalizate."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Automated bank, card, and Stripe feed categorization through the fintech software stack",
+          "ro": "Categorizarea automată a fluxului bancar, de card și Stripe, prin stiva de software fintech"
+        },
+        {
+          "en": "Monthly investor-ready reporting package: P&L, burn rate, and runway calculation",
+          "ro": "Pachetul lunar de raportare pregătit pentru investitori: cont de profit și pierdere, rata de ardere a numerarului și calculul autonomiei financiare"
+        },
+        {
+          "en": "Quarterly estimated tax calculations and R&D tax credit review",
+          "ro": "Calculul trimestrial al impozitelor estimate și revizuirea creditului fiscal de cercetare-dezvoltare"
+        },
+        {
+          "en": "Annual tax return preparation and filing",
+          "ro": "Pregătirea și depunerea declarației fiscale anuale"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Automated feeds handle the bulk of transaction categorization, with the bookkeeper reviewing exceptions, preparing the monthly investor-reporting package, and responding to founder questions about burn rate and runway.",
+        "ro": "Fluxurile automatizate gestionează cea mai mare parte a categorizării tranzacțiilor, contabilul revizuind excepțiile, pregătind pachetul lunar de raportare pentru investitori și răspunzând la întrebările fondatorilor, despre rata de ardere a numerarului și autonomia financiară."
+      },
+      "fulfillmentModel": {
+        "en": "Cloud-based, fully remote practice management — startups connect their bank, card, and Stripe accounts directly; work is done by contractor bookkeepers with startup-metrics fluency.",
+        "ro": "Management de practică bazat pe cloud, complet la distanță — startup-urile își conectează direct conturile bancare, de card și Stripe; munca este realizată de contabili contractori, fluenți în metricile pentru startup-uri."
+      }
+    },
+    "automation": {
+      "level": "high",
+      "notes": {
+        "en": "Bank-feed matching, receipt categorization, and expense-policy enforcement are substantially automated through the fintech software stack, more heavily automated than a traditional bookkeeping practice.",
+        "ro": "Potrivirea fluxului bancar, categorizarea chitanțelor și aplicarea politicii de cheltuieli sunt substanțial automatizate, prin stiva de software fintech, mai intens automatizate decât o practică tradițională de contabilitate."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "transactionCategorizationAndAnomalyDetection",
+          "description": {
+            "en": "AI-assisted transaction categorization and anomaly detection across bank, card, and Stripe feeds to flag items needing bookkeeper review.",
+            "ro": "Categorizare a tranzacțiilor și detectare a anomaliilor, asistate de AI, în fluxurile bancare, de card și Stripe, pentru a semnala elementele care necesită revizuirea contabilului."
+          },
+          "maturity": "established"
+        }
+      ],
+      "aiDependencyLevel": "moderate"
+    },
+    "recommendedTools": [
+      {
+        "name": "Ramp",
+        "category": "corporateCardAndSpendAutomation",
+        "isRequired": true,
+        "websiteUrl": "https://ramp.com/"
+      },
+      {
+        "name": "QuickBooks Online",
+        "category": "accountingSoftware",
+        "isRequired": true,
+        "websiteUrl": "https://quickbooks.intuit.com/"
+      },
+      {
+        "name": "Carta",
+        "category": "capTableAndInvestorReporting",
+        "isRequired": false,
+        "websiteUrl": "https://carta.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30,
+      "notes": {
+        "en": "Growth is tied to the health of the startup funding ecosystem — strong in a healthy fundraising environment, slower when venture funding tightens.",
+        "ro": "Creșterea este legată de starea de sănătate a ecosistemului de finanțare pentru startup-uri — puternică într-un mediu sănătos de strângere de fonduri, mai lentă când finanțarea prin capital de risc se restrânge."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Sign the first cohort of clients through accelerator relationships, refine the automated onboarding and reporting playbook, then hire additional contractor bookkeepers before introducing a fractional-CFO fundraising-support tier.",
+        "ro": "Semnează primul val de clienți, prin relații cu acceleratoare, rafinează playbook-ul automatizat de integrare și raportare, apoi angajează contabili contractori suplimentari, înainte de a introduce un nivel de CFO fracționat, de sprijin la strângerea de fonduri."
+      },
+      "bottlenecks": [
+        {
+          "en": "Hiring contractor bookkeepers who are genuinely fluent in startup metrics and investor-reporting expectations.",
+          "ro": "Angajarea unor contabili contractori, cu adevărat fluenți în metricile pentru startup-uri și așteptările de raportare pentru investitori."
+        },
+        {
+          "en": "Tax-season capacity constraints, the same seasonal crunch faced by any accounting practice.",
+          "ro": "Constrângeri de capacitate în sezonul fiscal, aceeași aglomerare sezonieră cu care se confruntă orice practică contabilă."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 7,
+          "description": {
+            "en": "The practice reaches break-even with 10 active monthly-subscription clients.",
+            "ro": "Practica atinge pragul de rentabilitate, cu 10 clienți activi, cu abonament lunar."
+          }
+        },
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "A fractional-CFO fundraising-support tier is introduced for clients approaching their next funding round.",
+            "ro": "Este introdus un nivel de CFO fracționat, de sprijin la strângerea de fonduri, pentru clienții care se apropie de următoarea rundă de finanțare."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Heavy fintech automation keeps margin higher than a traditional manual bookkeeping practice once the software stack is configured.",
+          "ro": "Automatizarea fintech intensă menține marja mai ridicată, decât o practică tradițională, manuală de contabilitate, odată ce stiva de software este configurată."
+        }
+      },
+      {
+        "description": {
+          "en": "Investor-ready reporting fluency (burn rate, runway, R&D tax credits) is a genuine differentiator that general small-business accounting firms don't offer.",
+          "ro": "Fluența în raportarea pregătită pentru investitori (rata de ardere a numerarului, autonomia financiară, creditele fiscale de cercetare-dezvoltare) este un diferențiator real, pe care firmele generale de contabilitate pentru firme mici nu îl oferă."
+        }
+      },
+      {
+        "description": {
+          "en": "Fully remote delivery removes geographic constraints on the client base, unlike a hybrid local accounting practice.",
+          "ro": "Livrarea complet la distanță elimină constrângerile geografice asupra bazei de clienți, spre deosebire de o practică contabilă locală, hibridă."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A fully remote, cloud-native bookkeeping subscription built specifically for early-stage venture-backed and bootstrapped startups, delivering investor-ready monthly financials through heavy fintech automation. Business-planning content only — not accounting, tax, or financial advice for any end client.",
+        "ro": "Un abonament de contabilitate, complet la distanță, nativ în cloud, construit special pentru startup-uri în stadiu incipient, finanțate prin capital de risc sau bootstrapped, care oferă situații financiare lunare pregătite pentru investitori, prin automatizare fintech intensă. Doar conținut de planificare a afacerii — nu consultanță contabilă, fiscală sau financiară, pentru vreun client final."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.cloudBookkeepingStartups.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.cloudBookkeepingStartups.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.cloudBookkeepingStartups.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.cloudBookkeepingStartups.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "mrr",
+        "targetDescription": {
+          "en": "Grow monthly recurring subscription revenue steadily as new startup clients onboard.",
+          "ro": "Crește constant venitul lunar recurent din abonamente, pe măsură ce noi clienți startup se integrează."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep client retention as high as possible given the inherently higher churn of the startup client base.",
+          "ro": "Menține retenția clienților cât mai ridicată posibil, dată fiind rata de abandon, inerent mai mare, a bazei de clienți startup."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against software-stack subscriptions and contractor bookkeeper wages.",
+          "ro": "Protejează marja brută împotriva abonamentelor stivei de software și salariilor contabililor contractori."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Track and understand client churn separately from general SMB churn, since startup client loss is often driven by funding outcomes, not service quality.",
+          "ro": "Urmărește și înțelege abandonul clienților separat, de abandonul general al firmelor mici, deoarece pierderea clienților startup este adesea determinată de rezultatele finanțării, nu de calitatea serviciului."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "finance",
+          "importance": 5
+        },
+        {
+          "key": "management",
+          "importance": 3
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "communication",
+          "importance": 3
+        },
+        {
+          "key": "sales",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "analytical",
+          "importance": 5
+        },
+        {
+          "trait": "systemOriented",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "growthMindset",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 4000,
+        "max": 10000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 5000,
+        "max": 9000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 30,
+        "maxWeeklyHours": 45
+      },
+      "communicationStyle": [
+        "direct",
+        "dataDriven"
+      ],
+      "technicalLevel": 5,
+      "leadershipLevel": 3,
+      "creativityLevel": 2,
+      "salesAffinity": 3,
+      "automationAffinity": 5,
+      "remotePreference": "remote",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theSpecialist",
+        "theBuilder"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the fully remote, automation-heavy delivery model and the Low capital tier in Financial Overview, and investor-ready reporting fluency as the core differentiator in Offer Architecture — always frame content as business-planning guidance, never as actual accounting or tax advice.",
+      "ro": "Subliniază modelul de livrare complet la distanță, intens automatizat, și nivelul scăzut de capital, în Prezentare financiară, precum și fluența în raportarea pregătită pentru investitori, ca diferențiator principal, în Arhitectura ofertei — încadrează întotdeauna conținutul ca îndrumări de planificare a afacerii, niciodată ca sfaturi reale contabile sau fiscale."
+    },
+    "marketingHints": {
+      "en": "Lead with burn rate/runway fluency and accelerator/VC network credibility, not generic 'we do your books' stock phrases — this audience wants a partner who speaks startup metrics.",
+      "ro": "Începe cu fluența în rata de ardere a numerarului/autonomia financiară și credibilitatea rețelei de acceleratoare/VC, nu cu fraze generice de tipul „îți facem contabilitatea” — acest public dorește un partener care vorbește limbajul metricilor pentru startup-uri."
+    },
+    "financialHints": {
+      "en": "Model revenue as flat predictable monthly tiers with heavy fintech automation reducing per-client labor cost — higher margin than a traditional manual bookkeeping practice, but a more volatile client base.",
+      "ro": "Modelează veniturile ca niveluri lunare fixe, previzibile, cu automatizarea fintech intensă, reducând costul de personal per client — marjă mai ridicată decât o practică tradițională, manuală de contabilitate, dar o bază de clienți mai volatilă."
+    },
+    "generationHints": {
+      "en": "Keep generated tone precise and data-driven, fluent in startup-specific financial vocabulary (burn rate, runway, R&D credits) — never generic small-business accounting language, and never present content as actual accounting or tax advice.",
+      "ro": "Menține un ton generat precis și orientat pe date, fluent în vocabularul financiar specific startup-urilor (rata de ardere a numerarului, autonomia financiară, credite de cercetare-dezvoltare) — niciodată limbaj generic de contabilitate pentru firme mici, și nu prezenta niciodată conținutul ca sfaturi reale contabile sau fiscale."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Obtain professional licensing, select the core cloud accounting and fintech software stack, and secure professional liability insurance.",
+            "ro": "Obține autorizarea profesională, alege stiva principală de software de contabilitate în cloud și fintech, și asigură asigurarea de răspundere profesională."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Choosing a software stack before confirming it integrates cleanly with the fintech tools most startups already use (Ramp, Brex, Stripe).",
+            "ro": "Alegerea unei stive de software, înainte de a confirma că se integrează curat, cu instrumentele fintech pe care majoritatea startup-urilor le folosesc deja (Ramp, Brex, Stripe)."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the chosen software stack integrates directly with common startup fintech tools before finalizing it.",
+            "ro": "Confirmă că stiva de software aleasă se integrează direct, cu instrumentele fintech comune ale startup-urilor, înainte de a o finaliza."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cloudBookkeepingStartups.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Sign the first 2-3 startup clients, ideally through an accelerator or founder-network relationship, to validate the automated onboarding flow.",
+            "ro": "Semnează primii 2-3 clienți startup, ideal printr-o relație cu un accelerator sau rețea de fondatori, pentru a valida fluxul automatizat de integrare."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Taking on a first client with an unusually complex financial structure (e.g. multiple entities, foreign subsidiaries) that isn't representative of the target niche.",
+            "ro": "Acceptarea unui prim client, cu o structură financiară neobișnuit de complexă (de ex. entități multiple, filiale străine), care nu este reprezentativă pentru nișa țintă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Choose early clients with a straightforward single-entity structure to validate the core onboarding and reporting flow first.",
+            "ro": "Alege primii clienți, cu o structură simplă, de o singură entitate, pentru a valida mai întâi fluxul principal de integrare și raportare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cloudBookkeepingStartups.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Standardize the automated onboarding flow and the monthly investor-reporting package template across all clients.",
+            "ro": "Standardizează fluxul automatizat de integrare și șablonul pachetului lunar de raportare pentru investitori, la toți clienții."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Building a custom reporting format for each client instead of standardizing on one investor-ready template.",
+            "ro": "Construirea unui format personalizat de raportare, pentru fiecare client, în loc de standardizarea pe un singur șablon pregătit pentru investitori."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document the standardized onboarding and reporting template in the practice-management tool.",
+            "ro": "Documentează șablonul standardizat de integrare și raportare, în instrumentul de management al practicii."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cloudBookkeepingStartups.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publicly announce the practice and activate accelerator and VC network referral relationships.",
+            "ro": "Anunță public practica și activează relațiile de recomandare cu acceleratoare și rețele de VC."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching before the automated onboarding flow has been tested end-to-end with a real client.",
+            "ro": "Lansarea, înainte ca fluxul automatizat de integrare să fi fost testat integral, cu un client real."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Reach out to 3-5 local startup accelerators to introduce the practice and request portfolio-company referrals.",
+            "ro": "Contactează 3-5 acceleratoare locale de startup-uri, pentru a prezenta practica și a solicita recomandări de la companiile din portofoliu."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cloudBookkeepingStartups.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Deliver a flawless first monthly investor-reporting package for a paying startup client.",
+            "ro": "Livrează un prim pachet lunar de raportare pentru investitori, impecabil, pentru un client startup plătitor."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Overpromising reporting turnaround time under pressure to win the client.",
+            "ro": "Promisiuni exagerate de timp de livrare a raportării, sub presiunea de a câștiga clientul."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Set clear monthly reporting deadlines with the client at onboarding.",
+            "ro": "Stabilește termene clare de raportare lunară, cu clientul, la integrare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cloudBookkeepingStartups.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach 10 active monthly-subscription clients with retention as high as the volatile startup segment allows.",
+            "ro": "Atinge 10 clienți activi, cu abonament lunar, cu o retenție cât mai ridicată posibil, dată fiind volatilitatea segmentului startup."
+          }
+        ],
+        "kpis": [
+          "mrr",
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Taking every prospect instead of qualifying for stage-appropriate fit (pre-seed through Series A).",
+            "ro": "Acceptarea oricărui prospect, în loc de calificarea potrivirii cu stadiul adecvat (de la pre-seed la Seria A)."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Introduce a minimum-funding-stage qualification for new clients to keep the niche focused.",
+            "ro": "Introdu un criteriu minim de stadiu de finanțare, pentru clienții noi, pentru a menține nișa focalizată."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cloudBookkeepingStartups.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Hire the first contractor bookkeeper with startup-metrics fluency to increase capacity.",
+            "ro": "Angajează primul contabil contractor, fluent în metricile pentru startup-uri, pentru a crește capacitatea."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring a generalist bookkeeper without startup-specific reporting experience, requiring extensive retraining.",
+            "ro": "Angajarea unui contabil generalist, fără experiență de raportare specifică startup-urilor, necesitând o reinstruire extinsă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Screen new hires specifically for burn-rate and runway reporting experience, not just general bookkeeping skill.",
+            "ro": "Verifică noii angajați, specific pentru experiența de raportare a ratei de ardere a numerarului și autonomiei financiare, nu doar competența generală de contabilitate."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cloudBookkeepingStartups.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Introduce the fractional-CFO fundraising-support tier for clients approaching their next funding round.",
+            "ro": "Introdu nivelul de CFO fracționat, de sprijin la strângerea de fonduri, pentru clienții care se apropie de următoarea rundă de finanțare."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Pricing the fundraising-support tier the same as the base monthly bookkeeping subscription.",
+            "ro": "Stabilirea prețului nivelului de sprijin la strângerea de fonduri, la fel ca la abonamentul de bază, de contabilitate lunară."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Package the fundraising-support tier as a distinct, higher-priced offer tied to funding-round timing.",
+            "ro": "Ambalează nivelul de sprijin la strângerea de fonduri, ca ofertă distinctă, cu preț mai ridicat, legată de sincronizarea rundei de finanțare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cloudBookkeepingStartups.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into an adjacent stage-specific niche, such as post-Series-A companies needing more sophisticated financial operations.",
+            "ro": "Extinde-te într-o nișă adiacentă, specifică unui stadiu, precum companiile post-Seria A, care au nevoie de operațiuni financiare mai sofisticate."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding into a later-stage niche without adapting reporting complexity and pricing to match.",
+            "ro": "Extinderea într-o nișă de stadiu ulterior, fără a adapta complexitatea raportării și prețul, în consecință."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a distinct onboarding and pricing structure for the later-stage niche before marketing to it.",
+            "ro": "Construiește o structură distinctă de integrare și preț, pentru nișa de stadiu ulterior, înainte de a face marketing pentru ea."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cloudBookkeepingStartups.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Package the client book and standard automated workflows for a clean acquisition by a larger accounting or fintech-services firm.",
+            "ro": "Pregătește portofoliul de clienți și fluxurile de lucru automatizate standard, pentru o achiziție curată, de către o firmă mai mare de contabilitate sau servicii fintech."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping undocumented, founder-only client relationships and workflow knowledge that don't transfer cleanly.",
+            "ro": "Menținerea unor relații cu clienții și cunoștințe de flux de lucru, nedocumentate, dependente exclusiv de fondator, care nu se transferă curat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document every client's automated workflow configuration so the book of business is transferable.",
+            "ro": "Documentează configurația automatizată a fluxului de lucru al fiecărui client, astfel încât portofoliul să fie transferabil."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.cloudBookkeepingStartups.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

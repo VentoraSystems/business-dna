@@ -1,0 +1,140 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "marketplacePlatformDevelopment",
+      "tutorVettingAndBackgroundCheckSetup",
+      "paymentProcessingAndEscrowSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "platformHostingAndMaintenance",
+      "customerSupportStaffing"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "twoSidedAcquisitionMarketing",
+      "backgroundCheckProcessingFees"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "commissionOnTutoringSessionBookings",
+        "label": {
+          "en": "Commission on each tutoring session booking",
+          "ro": "Comision, pentru fiecare rezervare de ședință de meditații"
+        }
+      },
+      {
+        "key": "premiumFamilySubscriptionForPriorityMatching",
+        "label": {
+          "en": "Premium family subscription for priority tutor matching",
+          "ro": "Abonament premium pentru familii, pentru potrivirea prioritară cu meditatorul"
+        }
+      },
+      {
+        "key": "tutorFeaturedListingSubscription",
+        "label": {
+          "en": "Optional tutor subscription for featured profile placement",
+          "ro": "Abonament opțional pentru meditatori, pentru plasarea profilului promovat"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "grossMerchandiseValuePerMonth": "currency",
+      "commissionTakeRatePercent": "percent",
+      "activeTutors": "number",
+      "activeFamilies": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "requestToMatchFulfillmentRatePercent": "percent",
+      "repeatBookingRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.tutoringHelpMarketplace.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "sessionCommissionInflow",
+      "premiumSubscriptionInflow",
+      "platformAndSupportOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 16,
+    "notesTranslationKey": "businessLibrary.tutoringHelpMarketplace.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 40,
+    "notesTranslationKey": "businessLibrary.tutoringHelpMarketplace.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 12,
+    "notesTranslationKey": "businessLibrary.tutoringHelpMarketplace.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "customerSupportStaffRecruiting",
+      "tutorVettingStaffRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "schoolAndParentCommunityPartnerships",
+      "tutorRecruitmentCampaigns"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxOnSupportStaff"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "leadConversion",
+      "customerRetention",
+      "grossMargin",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 8000,
+      "notesTranslationKey": "businessLibrary.tutoringHelpMarketplace.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 26000,
+      "notesTranslationKey": "businessLibrary.tutoringHelpMarketplace.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 45000,
+      "notesTranslationKey": "businessLibrary.tutoringHelpMarketplace.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.tutoringHelpMarketplace.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.tutoringHelpMarketplace.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.tutoringHelpMarketplace.financial.aiMetadata.generationHints"
+  }
+}

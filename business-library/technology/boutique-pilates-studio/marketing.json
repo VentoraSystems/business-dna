@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.boutiquePilatesStudio.marketing.uvp.diff1",
+      "businessLibrary.boutiquePilatesStudio.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2c",
+    "descriptionTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.boutiquePilatesStudio.marketing.painPoints.point1",
+      "businessLibrary.boutiquePilatesStudio.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.boutiquePilatesStudio.marketing.outcomes.outcome1",
+      "businessLibrary.boutiquePilatesStudio.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.boutiquePilatesStudio.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.boutiquePilatesStudio.marketing.brandVoice.attr1",
+      "businessLibrary.boutiquePilatesStudio.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.boutiquePilatesStudio.marketing.contentPillars.pillar1",
+      "businessLibrary.boutiquePilatesStudio.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "localSocialMediaAndReferralProgram",
+      "introOfferForNewClients",
+      "corporateWellnessPartnerships"
+    ],
+    "strategyTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.boutiquePilatesStudio.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.boutiquePilatesStudio.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.boutiquePilatesStudio.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.boutiquePilatesStudio.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "customerRetention",
+      "leadConversion"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.boutiquePilatesStudio.marketing.aiMetadata.generationHints"
+  }
+}

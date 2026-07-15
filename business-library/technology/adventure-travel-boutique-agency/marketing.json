@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.adventureTravelBoutiqueAgency.marketing.uvp.diff1",
+      "businessLibrary.adventureTravelBoutiqueAgency.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2c",
+    "descriptionTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.adventureTravelBoutiqueAgency.marketing.painPoints.point1",
+      "businessLibrary.adventureTravelBoutiqueAgency.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.adventureTravelBoutiqueAgency.marketing.outcomes.outcome1",
+      "businessLibrary.adventureTravelBoutiqueAgency.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.adventureTravelBoutiqueAgency.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.adventureTravelBoutiqueAgency.marketing.brandVoice.attr1",
+      "businessLibrary.adventureTravelBoutiqueAgency.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.adventureTravelBoutiqueAgency.marketing.contentPillars.pillar1",
+      "businessLibrary.adventureTravelBoutiqueAgency.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "contentMarketingFromFirsthandTripExperience",
+      "pastClientReferralProgram",
+      "affiliatePartnershipsWithGearAndOutdoorBrands"
+    ],
+    "strategyTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.adventureTravelBoutiqueAgency.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.adventureTravelBoutiqueAgency.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.adventureTravelBoutiqueAgency.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.adventureTravelBoutiqueAgency.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "customerRetention",
+      "leadConversion"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.marketing.aiMetadata.generationHints"
+  }
+}

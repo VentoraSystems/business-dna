@@ -1,0 +1,139 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "travelAgencySoftwareAndSupplierAccess",
+      "destinationScoutingTravel",
+      "liabilityInsuranceAndBrandingSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "softwareAndBookingPlatformFees",
+      "marketingAndContentProduction"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "contractorTripLeaderFees",
+      "ongoingScoutingTravel"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "tripPlanningAndBookingCommissions",
+        "label": {
+          "en": "Trip booking commissions from tour operators and suppliers",
+          "ro": "Comisioane de rezervare a călătoriilor, de la operatorii de turism și furnizori"
+        }
+      },
+      {
+        "key": "customItineraryPlanningFees",
+        "label": {
+          "en": "Custom independent-trip itinerary planning fees",
+          "ro": "Onorarii de planificare a itinerariului, pentru călătorii independente personalizate"
+        }
+      },
+      {
+        "key": "groupTripLeaderMarkup",
+        "label": {
+          "en": "Markup on founder-led small-group trip departures",
+          "ro": "Marjă adăugată la plecările în grupuri mici, conduse de fondator"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageTripValue": "currency",
+      "tripsPerYear": "number",
+      "commissionOrMarkupRatePercent": "percent",
+      "repeatClientSharePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "newClientsPerQuarter": "number",
+      "groupTripFillRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "depositAndFinalPaymentInflow",
+      "supplierCommissionInflow",
+      "scoutingTravelAndContentOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 10,
+    "notesTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 45,
+    "notesTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 18,
+    "notesTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "tripLeaderRecruitingAndTraining"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "contentProductionFromTrips",
+      "referralProgramIncentives"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "selfEmploymentTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "fourMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "leadConversion",
+      "customerRetention",
+      "grossMargin",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 4000,
+      "notesTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 11000,
+      "notesTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 18000,
+      "notesTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.financial.risks.risk1",
+        "severity": "moderate"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.adventureTravelBoutiqueAgency.financial.aiMetadata.generationHints"
+  }
+}

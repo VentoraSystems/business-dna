@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.tutoringHelpMarketplace.marketing.uvp.diff1",
+      "businessLibrary.tutoringHelpMarketplace.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2c",
+    "descriptionTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.tutoringHelpMarketplace.marketing.painPoints.point1",
+      "businessLibrary.tutoringHelpMarketplace.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.tutoringHelpMarketplace.marketing.outcomes.outcome1",
+      "businessLibrary.tutoringHelpMarketplace.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.tutoringHelpMarketplace.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.tutoringHelpMarketplace.marketing.brandVoice.attr1",
+      "businessLibrary.tutoringHelpMarketplace.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.tutoringHelpMarketplace.marketing.contentPillars.pillar1",
+      "businessLibrary.tutoringHelpMarketplace.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "localParentCommunityAndSchoolPartnerships",
+      "tutorRecruitmentFromEducationNetworks",
+      "referralIncentiveProgramForBothSides"
+    ],
+    "strategyTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.tutoringHelpMarketplace.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.tutoringHelpMarketplace.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.tutoringHelpMarketplace.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.tutoringHelpMarketplace.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "customerRetention",
+      "leadConversion"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.tutoringHelpMarketplace.marketing.aiMetadata.generationHints"
+  }
+}

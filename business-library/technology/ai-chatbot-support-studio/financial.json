@@ -1,0 +1,139 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "chatbotPlatformLicensingAndSetup",
+      "brandingAndWebsiteSetup",
+      "salesAndReportingToolingSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "founderAndContractorWages",
+      "chatbotPlatformSubscriptions"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "salesAndMarketingTools",
+      "implementationContractorHoursPerProject"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "chatbotSetupAndImplementationFees",
+        "label": {
+          "en": "One-time chatbot setup and implementation fees",
+          "ro": "Onorarii unice de configurare și implementare a chatbot-ului"
+        }
+      },
+      {
+        "key": "monthlyManagementRetainer",
+        "label": {
+          "en": "Monthly chatbot management and optimization retainer",
+          "ro": "Abonament lunar de gestionare și optimizare a chatbot-ului"
+        }
+      },
+      {
+        "key": "performanceBasedResolutionFees",
+        "label": {
+          "en": "Performance-based per-resolved-ticket fees for larger clients",
+          "ro": "Onorarii bazate pe performanță, per tichet rezolvat, pentru clienți mai mari"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageSetupFee": "currency",
+      "averageMonthlyRetainer": "currency",
+      "pilotToRetainerConversionRatePercent": "percent",
+      "activeRetainedClients": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "newPilotsPerQuarter": "number",
+      "monthlyRetainerChurnRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.aiChatbotSupportStudio.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "setupFeeInflow",
+      "monthlyRetainerInflow",
+      "platformAndContractorOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 9,
+    "notesTranslationKey": "businessLibrary.aiChatbotSupportStudio.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 72,
+    "notesTranslationKey": "businessLibrary.aiChatbotSupportStudio.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 38,
+    "notesTranslationKey": "businessLibrary.aiChatbotSupportStudio.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "implementationSpecialistRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "caseStudyProduction",
+      "outboundSalesTooling"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxOnContractors"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "customerRetention",
+      "grossMargin",
+      "leadConversion",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 5000,
+      "notesTranslationKey": "businessLibrary.aiChatbotSupportStudio.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 15000,
+      "notesTranslationKey": "businessLibrary.aiChatbotSupportStudio.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 25000,
+      "notesTranslationKey": "businessLibrary.aiChatbotSupportStudio.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.aiChatbotSupportStudio.financial.risks.risk1",
+        "severity": "moderate"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.aiChatbotSupportStudio.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.aiChatbotSupportStudio.financial.aiMetadata.generationHints"
+  }
+}

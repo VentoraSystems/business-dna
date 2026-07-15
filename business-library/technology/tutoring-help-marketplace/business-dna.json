@@ -1,0 +1,946 @@
+{
+  "identity": {
+    "id": "1472393d-4c7f-4f3d-b26f-2b5f6289b8b9",
+    "slug": "tutoring-help-marketplace",
+    "version": "1.0.0",
+    "name": {
+      "en": "StudySpark",
+      "ro": "StudySpark"
+    },
+    "tagline": {
+      "en": "The tutor your kid actually looks forward to seeing.",
+      "ro": "Meditatorul pe care copilul tău chiar abia așteaptă să-l vadă."
+    },
+    "createdAt": "2026-07-16T00:00:00.000Z",
+    "updatedAt": "2026-07-16T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theBuilder",
+      "theOperator"
+    ],
+    "summary": {
+      "en": "Best suited to someone with real marketplace or platform-operations experience, comfortable managing two distinct customer types (families and independent tutors) simultaneously and solving the two-sided cold-start liquidity problem — not solo-friendly, requiring a small team from day one.",
+      "ro": "Potrivit unei persoane cu experiență reală în operarea unei platforme sau piețe, confortabilă gestionând simultan două tipuri distincte de clienți (familii și meditatori independenți) și rezolvând problema de lichiditate „ou și găină”, specifică piețelor cu două fețe — nu este potrivit unui fondator solo, necesitând o mică echipă, încă din prima zi."
+    },
+    "minimumExperienceYears": 3
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 30000,
+      "maxInvestment": 75000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 12000,
+      "ongoingMonthlyCostMax": 28000,
+      "notes": {
+        "en": "Covers marketplace platform development, tutor background-check infrastructure, and payment-processing setup — a High budget tier, driven by platform build cost rather than physical infrastructure, well above the one-to-one service businesses elsewhere in this library.",
+        "ro": "Acoperă dezvoltarea platformei de piață, infrastructura de verificare a antecedentelor meditatorilor și configurarea procesării plăților — un nivel de buget ridicat, determinat de costul de construcție a platformei, nu de infrastructura fizică, mult peste afacerile de servicii unu-la-unu, din altă parte a acestei biblioteci."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "marketplacePlatformDevelopment",
+          "label": {
+            "en": "Marketplace platform development (booking, matching, payments)",
+            "ro": "Dezvoltarea platformei de piață (programare, potrivire, plăți)"
+          },
+          "typicalMin": 15000,
+          "typicalMax": 40000
+        },
+        {
+          "key": "tutorVettingAndBackgroundCheckSetup",
+          "label": {
+            "en": "Tutor vetting and background-check infrastructure setup",
+            "ro": "Configurarea infrastructurii de verificare și antecedente ale meditatorilor"
+          },
+          "typicalMin": 5000,
+          "typicalMax": 15000
+        },
+        {
+          "key": "paymentProcessingAndEscrowSetup",
+          "label": {
+            "en": "Payment processing and split-payment (commission) setup",
+            "ro": "Configurarea procesării plăților și plăților divizate (comision)"
+          },
+          "typicalMin": 3000,
+          "typicalMax": 10000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "platformHostingAndMaintenance",
+          "label": {
+            "en": "Platform hosting, maintenance, and development",
+            "ro": "Găzduirea, întreținerea și dezvoltarea platformei"
+          },
+          "typicalMonthlyMin": 2000,
+          "typicalMonthlyMax": 6000
+        },
+        {
+          "key": "customerSupportStaffing",
+          "label": {
+            "en": "Customer support staff wages (both family and tutor support)",
+            "ro": "Salariile personalului de suport pentru clienți (suport pentru familii și meditatori)"
+          },
+          "typicalMonthlyMin": 4000,
+          "typicalMonthlyMax": 10000
+        },
+        {
+          "key": "twoSidedAcquisitionMarketing",
+          "label": {
+            "en": "Two-sided acquisition marketing (family demand and tutor supply)",
+            "ro": "Marketing de achiziție cu două fețe (cerere de familii și ofertă de meditatori)"
+          },
+          "typicalMonthlyMin": 3000,
+          "typicalMonthlyMax": 9000
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "commissionOnTutoringSessionBookings",
+          "label": {
+            "en": "Commission on each tutoring session booking",
+            "ro": "Comision, pentru fiecare rezervare de ședință de meditații"
+          }
+        },
+        {
+          "key": "premiumFamilySubscriptionForPriorityMatching",
+          "label": {
+            "en": "Premium family subscription for priority tutor matching",
+            "ro": "Abonament premium pentru familii, pentru potrivirea prioritară cu meditatorul"
+          }
+        },
+        {
+          "key": "tutorFeaturedListingSubscription",
+          "label": {
+            "en": "Optional tutor subscription for featured profile placement",
+            "ro": "Abonament opțional pentru meditatori, pentru plasarea profilului promovat"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 15000,
+      "targetMonthlyIncomeMax": 45000,
+      "breakEvenTimelineMonths": 16,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Individual session commissions are collected quickly at time of booking, but building enough two-sided volume (liquidity) to generate meaningful revenue takes real time in each new market.",
+        "ro": "Comisioanele individuale de ședință sunt încasate rapid, la momentul rezervării, dar construirea unui volum suficient, cu două fețe (lichiditate), pentru a genera venituri semnificative, necesită timp real, în fiecare piață nouă."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate",
+      "notes": {
+        "en": "Commission revenue is high-margin per transaction, but platform hosting, customer support, and two-sided acquisition marketing keep overall margin moderate until scale is reached.",
+        "ro": "Veniturile din comisioane au o marjă ridicată per tranzacție, dar găzduirea platformei, suportul pentru clienți și marketingul de achiziție cu două fețe mențin marja generală moderată, până la atingerea scalei."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "none",
+    "onlineOffline": "online",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 40,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 4
+      },
+      {
+        "key": "marketing",
+        "rating": 6
+      },
+      {
+        "key": "leadership",
+        "rating": 5
+      },
+      {
+        "key": "communication",
+        "rating": 7
+      },
+      {
+        "key": "negotiation",
+        "rating": 3
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 8
+      },
+      {
+        "key": "technology",
+        "rating": 7
+      },
+      {
+        "key": "automation",
+        "rating": 4
+      },
+      {
+        "key": "ai",
+        "rating": 3
+      },
+      {
+        "key": "programming",
+        "rating": 3
+      },
+      {
+        "key": "management",
+        "rating": 6
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 70
+      },
+      {
+        "key": "visionary",
+        "score": 35
+      },
+      {
+        "key": "operator",
+        "score": 60
+      },
+      {
+        "key": "creator",
+        "score": 20
+      },
+      {
+        "key": "seller",
+        "score": 30
+      },
+      {
+        "key": "leader",
+        "score": 40
+      },
+      {
+        "key": "analyst",
+        "score": 50
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": true,
+    "isHighlyAutomatable": true,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": true,
+    "requiresInventory": false,
+    "isSeasonalBusiness": true,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "high",
+      "notes": {
+        "en": "Once two-sided liquidity is achieved in a market, the marketplace benefits from real network effects — more tutors attract more families and vice versa — scaling non-linearly, unlike the one-to-one service delivery businesses elsewhere in this library.",
+        "ro": "Odată ce lichiditatea cu două fețe este atinsă, într-o piață, platforma beneficiază de efecte reale de rețea — mai mulți meditatori atrag mai multe familii și invers — scalând neliniar, spre deosebire de afacerile de livrare a serviciilor unu-la-unu, din altă parte a acestei biblioteci."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high",
+      "notes": {
+        "en": "The highest structural difficulty in this library's marketplace segment — solving the two-sided cold-start problem (not enough tutors deters families, not enough families deters tutors) in each new market requires real capital and operational sophistication.",
+        "ro": "Cea mai ridicată dificultate structurală, din segmentul de piață al acestei biblioteci — rezolvarea problemei de pornire, cu două fețe (prea puțini meditatori descurajează familiile, prea puține familii descurajează meditatorii), în fiecare piață nouă, necesită capital real și sofisticare operațională."
+      }
+    },
+    "aiResistance": {
+      "level": "moderate",
+      "notes": {
+        "en": "Matching algorithms and administrative workflows are increasingly automatable, but tutor vetting judgment calls and dispute resolution still benefit from human oversight given that minors are involved.",
+        "ro": "Algoritmii de potrivire și fluxurile de lucru administrative sunt din ce în ce mai automatizabile, dar deciziile de judecată pentru verificarea meditatorilor și rezolvarea disputelor beneficiază încă de supraveghere umană, dat fiind că sunt implicați minori."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "The classic two-sided marketplace cold-start problem — insufficient tutor supply deters families, and insufficient family demand deters tutors, and both must be solved simultaneously in each new market.",
+          "ro": "Problema clasică de pornire, cu două fețe, a piețelor — oferta insuficientă de meditatori descurajează familiile, iar cererea insuficientă de familii descurajează meditatorii, ambele trebuind rezolvate simultan, în fiecare piață nouă."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Tutor quality control and background-check vetting carries real liability and trust risk given that the platform connects adults with minors.",
+          "ro": "Controlul calității meditatorilor și verificarea antecedentelor comportă un risc real de răspundere și încredere, dat fiind că platforma conectează adulți cu minori."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Disintermediation risk — once a family and tutor connect through the platform, they may take the relationship off-platform to avoid future commission fees, a structural risk specific to service marketplaces.",
+          "ro": "Risc de dezintermediere — odată ce o familie și un meditator se conectează, prin platformă, aceștia pot muta relația în afara platformei, pentru a evita comisioanele viitoare, un risc structural specific piețelor de servicii."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "The tutor your kid actually looks forward to seeing — vetted, matched tutors, not a random directory listing.",
+        "ro": "Meditatorul pe care copilul tău chiar abia așteaptă să-l vadă — meditatori verificați, potriviți, nu o listare aleatorie de director."
+      },
+      "channels": [
+        {
+          "channelType": "localParentCommunityAndSchoolPartnerships",
+          "description": {
+            "en": "Partnerships with local schools, PTAs, and parent community groups to reach families on the demand side.",
+            "ro": "Parteneriate cu școli locale, asociații de părinți și grupuri comunitare de părinți, pentru a ajunge la familii, pe partea de cerere."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "tutorRecruitmentFromEducationNetworks",
+          "description": {
+            "en": "Recruitment from university education programs and teacher networks to build tutor supply — a distinct, supply-side channel this two-sided business requires that one-sided service businesses don't.",
+            "ro": "Recrutare din programele universitare de educație și rețelele de profesori, pentru a construi oferta de meditatori — un canal distinct, de partea ofertei, pe care această afacere cu două fețe îl necesită, spre deosebire de afacerile de servicii cu o singură față."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "referralIncentiveProgramForBothSides",
+          "description": {
+            "en": "A referral incentive program rewarding both families and tutors for successful referrals, as a supplemental, experimental channel.",
+            "ro": "Un program de stimulente de recomandare, care recompensează atât familiile, cât și meditatorii, pentru recomandări reușite, ca un canal suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "high",
+      "notes": {
+        "en": "Requires running two distinct, simultaneous marketing motions (demand-side family acquisition and supply-side tutor recruitment) in every new market, more layered than any single-sided marketing strategy in this library.",
+        "ro": "Necesită derularea a două mișcări de marketing distincte, simultane (achiziția de familii, pe partea de cerere, și recrutarea de meditatori, pe partea de ofertă), în fiecare piață nouă, mai stratificată decât orice strategie de marketing cu o singură față, din această bibliotecă."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A parent submits a request specifying subject, grade level, and learning goals; the platform matches 2-3 vetted tutor profiles within 24 hours, and a free trial session precedes ongoing recurring bookings.",
+        "ro": "Un părinte trimite o solicitare, specificând materia, nivelul de clasă și obiectivele de învățare; platforma potrivește 2-3 profiluri de meditatori verificați, în 24 de ore, iar o ședință de probă gratuită precede rezervările recurente, în curs."
+      },
+      "salesCycleLengthDays": 7,
+      "pricingModel": {
+        "en": "The platform takes a 20-25% commission on each session booking; tutors set their own rates (typically €25-60/hour depending on subject and level), with families paying per session or a discounted session pack.",
+        "ro": "Platforma percepe un comision de 20-25%, pe fiecare rezervare de ședință; meditatorii își stabilesc propriile tarife (de obicei 25-60 €/oră, în funcție de materie și nivel), familiile plătind per ședință sau un pachet de ședințe cu reducere."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "A relatively fast conversion once a family submits a request, but the underlying supply of high-quality, available tutors must already exist for that fast conversion to actually happen.",
+        "ro": "O conversie relativ rapidă, odată ce o familie trimite o solicitare, dar oferta de bază, de meditatori de calitate, disponibili, trebuie să existe deja, pentru ca acea conversie rapidă să se producă de fapt."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Tutor application review and background-check vetting",
+          "ro": "Revizuirea cererilor de meditatori și verificarea antecedentelor"
+        },
+        {
+          "en": "Family intake and tutor-matching",
+          "ro": "Admiterea familiilor și potrivirea cu meditatorul"
+        },
+        {
+          "en": "Session scheduling, payment processing, and commission split",
+          "ro": "Programarea ședințelor, procesarea plăților și divizarea comisionului"
+        },
+        {
+          "en": "Quality monitoring through session ratings, reviews, and dispute resolution",
+          "ro": "Monitorizarea calității, prin evaluări ale ședințelor, recenzii și rezolvarea disputelor"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Ongoing tutor application review and vetting on the supply side, family request intake and matching on the demand side, with customer support handling scheduling issues, payment questions, and quality concerns from both sides throughout the day.",
+        "ro": "Revizuirea și verificarea continuă a cererilor de meditatori, pe partea de ofertă, admiterea și potrivirea solicitărilor familiilor, pe partea de cerere, cu suportul pentru clienți gestionând probleme de programare, întrebări de plată și îngrijorări de calitate, de la ambele părți, pe parcursul zilei."
+      },
+      "fulfillmentModel": {
+        "en": "A technology platform connecting independent, vetted tutors directly with families, with the platform handling matching, scheduling, and payment but not directly delivering any tutoring session itself.",
+        "ro": "O platformă tehnologică, care conectează direct meditatori independenți, verificați, cu familiile, platforma gestionând potrivirea, programarea și plata, dar nelivrând direct nicio ședință de meditații, ea însăși."
+      }
+    },
+    "automation": {
+      "level": "high",
+      "notes": {
+        "en": "Matching, scheduling, and payment splitting are substantially automated through the platform, though tutor vetting decisions and dispute resolution remain human-reviewed.",
+        "ro": "Potrivirea, programarea și divizarea plăților sunt substanțial automatizate, prin platformă, deși deciziile de verificare a meditatorilor și rezolvarea disputelor rămân revizuite uman."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "tutorFamilyMatching",
+          "description": {
+            "en": "AI-assisted matching algorithm suggesting the best-fit tutor profiles based on subject, learning style, and scheduling compatibility.",
+            "ro": "Algoritm de potrivire, asistat de AI, care sugerează profilurile de meditatori cele mai potrivite, pe baza materiei, stilului de învățare și compatibilității de programare."
+          },
+          "maturity": "established"
+        }
+      ],
+      "aiDependencyLevel": "moderate"
+    },
+    "recommendedTools": [
+      {
+        "name": "Sharetribe",
+        "category": "marketplacePlatformFramework",
+        "isRequired": true,
+        "websiteUrl": "https://www.sharetribe.com/"
+      },
+      {
+        "name": "Stripe Connect",
+        "category": "splitPaymentAndCommissionProcessing",
+        "isRequired": true,
+        "websiteUrl": "https://stripe.com/connect"
+      },
+      {
+        "name": "Checkr",
+        "category": "backgroundCheckVerification",
+        "isRequired": false,
+        "websiteUrl": "https://checkr.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "high",
+      "timeHorizonMonths": 36,
+      "notes": {
+        "en": "Growth is initially gated by solving two-sided liquidity in each market, but scales with real network effects once achieved, with geographic and subject-vertical expansion as the main levers beyond the first market.",
+        "ro": "Creșterea este inițial limitată de rezolvarea lichidității cu două fețe, în fiecare piață, dar se scalează cu efecte reale de rețea, odată atinsă, cu extinderea geografică și pe verticale de materie, drept principalele pârghii, dincolo de prima piață."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Solve the cold-start problem in one pilot market first, reach reliable two-sided liquidity there, grow session volume and repeat-booking rate within that market, then expand into a second geographic market by reapplying the same cold-start playbook.",
+        "ro": "Rezolvă mai întâi problema de pornire, într-o piață pilot, atinge acolo o lichiditate fiabilă, cu două fețe, crește volumul de ședințe și rata de rezervare recurentă, în acea piață, apoi extinde-te într-o a doua piață geografică, reaplicând același playbook de pornire."
+      },
+      "bottlenecks": [
+        {
+          "en": "Achieving two-sided liquidity in a new market requires significant upfront investment in both tutor recruitment and family acquisition before meaningful revenue materializes.",
+          "ro": "Atingerea lichidității cu două fețe, într-o piață nouă, necesită o investiție inițială semnificativă, atât în recrutarea meditatorilor, cât și în achiziția familiilor, înainte ca venituri semnificative să se materializeze."
+        },
+        {
+          "en": "Tutor vetting and background-check capacity can become a bottleneck if supply-side recruitment outpaces the vetting team's throughput.",
+          "ro": "Capacitatea de verificare și antecedente ale meditatorilor poate deveni un blocaj, dacă recrutarea, de partea ofertei, depășește capacitatea echipei de verificare."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 16,
+          "description": {
+            "en": "The marketplace reaches break-even with reliable two-sided liquidity in the pilot market.",
+            "ro": "Piața atinge pragul de rentabilitate, cu o lichiditate fiabilă, cu două fețe, în piața pilot."
+          }
+        },
+        {
+          "monthsFromLaunch": 30,
+          "description": {
+            "en": "A second geographic market or subject vertical is launched, reapplying the proven cold-start playbook.",
+            "ro": "O a doua piață geografică sau verticală de materie este lansată, reaplicând playbook-ul dovedit de pornire."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Once liquidity is achieved, real network effects let the marketplace scale non-linearly, unlike the one-to-one service delivery businesses elsewhere in this library.",
+          "ro": "Odată atinsă lichiditatea, efectele reale de rețea permit platformei să se scaleze neliniar, spre deosebire de afacerile de livrare a serviciilor unu-la-unu, din altă parte a acestei biblioteci."
+        }
+      },
+      {
+        "description": {
+          "en": "Commission-based revenue scales with total booking volume without the platform needing to deliver every tutoring session itself.",
+          "ro": "Veniturile bazate pe comision se scalează cu volumul total de rezervări, fără ca platforma să aibă nevoie să livreze ea însăși fiecare ședință de meditații."
+        }
+      },
+      {
+        "description": {
+          "en": "A trusted, rigorous vetting and background-check process becomes a genuine moat against informal, unvetted tutoring arrangements found through classifieds or social media.",
+          "ro": "Un proces de verificare și antecedente, riguros și de încredere, devine un avantaj competitiv real, față de aranjamentele informale, neverificate, de meditații, găsite prin anunțuri sau rețele sociale."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A two-sided marketplace connecting K-12 students and families with vetted, background-checked independent tutors, monetized through a commission on each session booking. The first genuine two-sided marketplace business in this library, structured around solving cold-start liquidity rather than one-to-one service delivery.",
+        "ro": "O piață cu două fețe, care conectează elevi K-12 și familii, cu meditatori independenți, verificați, cu antecedente verificate, monetizată printr-un comision, la fiecare rezervare de ședință. Prima afacere autentică de piață cu două fețe, din această bibliotecă, structurată în jurul rezolvării lichidității de pornire, nu a livrării de servicii unu-la-unu."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.tutoringHelpMarketplace.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.tutoringHelpMarketplace.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.tutoringHelpMarketplace.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.tutoringHelpMarketplace.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert family tutor-requests into booked trial sessions within 24 hours.",
+          "ro": "Transformă solicitările de meditatori ale familiilor, în ședințe de probă rezervate, în 24 de ore."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep families booking recurring sessions with their matched tutor.",
+          "ro": "Menține familiile rezervând ședințe recurente, cu meditatorul potrivit."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against platform hosting, support staffing, and two-sided acquisition costs.",
+          "ro": "Protejează marja brută împotriva costurilor de găzduire a platformei, personal de suport și achiziție cu două fețe."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep both family and tutor churn low, and monitor for signs of off-platform disintermediation.",
+          "ro": "Menține scăzută pierderea, atât a familiilor, cât și a meditatorilor, și monitorizează semnele de dezintermediere, în afara platformei."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "management",
+          "importance": 5
+        },
+        {
+          "key": "marketing",
+          "importance": 3
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "negotiation",
+          "importance": 2
+        },
+        {
+          "key": "sales",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "systemOriented",
+          "importance": 5
+        },
+        {
+          "trait": "analytical",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "resilient",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 30000,
+        "max": 75000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 40000,
+        "max": 65000,
+        "currency": "EUR"
+      },
+      "riskProfile": "high",
+      "timeAvailability": {
+        "minWeeklyHours": 40,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "structured",
+        "empathetic"
+      ],
+      "technicalLevel": 5,
+      "leadershipLevel": 4,
+      "creativityLevel": 3,
+      "salesAffinity": 3,
+      "automationAffinity": 5,
+      "remotePreference": "remote",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theBuilder",
+        "theOperator"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the two-sided cold-start challenge and the High capital tier in Financial Overview and Launch Strategy, and the network-effect scalability advantage in Competitive Advantages — keep marketplace mechanics (commission, liquidity, matching) concrete throughout.",
+      "ro": "Subliniază provocarea de pornire cu două fețe și nivelul ridicat de capital, în Prezentare financiară și Strategia de lansare, precum și avantajul de scalabilitate prin efecte de rețea, în Avantaje competitive — menține mecanica pieței (comision, lichiditate, potrivire) concretă, pe tot parcursul."
+    },
+    "marketingHints": {
+      "en": "Lead with the vetted, matched-tutor trust proposition, not generic 'find a tutor' stock phrases — and always address both sides of the marketplace (family acquisition and tutor recruitment) as distinct marketing motions.",
+      "ro": "Începe cu propunerea de încredere, a meditatorului verificat, potrivit, nu cu fraze generice de tipul „găsește un meditator” — și abordează întotdeauna ambele părți ale pieței (achiziția de familii și recrutarea de meditatori), ca mișcări de marketing distincte."
+    },
+    "financialHints": {
+      "en": "Model revenue as commission on booking volume (GMV × take rate), not a flat service fee — emphasize that reaching two-sided liquidity takes real upfront capital before revenue scales.",
+      "ro": "Modelează veniturile ca un comision pe volumul de rezervări (GMV × rata de comision), nu un onorariu fix de serviciu — subliniază că atingerea lichidității cu două fețe necesită capital real, inițial, înainte ca veniturile să se scaleze."
+    },
+    "generationHints": {
+      "en": "Keep generated tone structured and trust-building, grounded in real marketplace mechanics — never treat this as a simple one-sided service business, and always acknowledge the two-sided liquidity challenge explicitly.",
+      "ro": "Menține un ton generat structurat și care construiește încredere, fundamentat pe mecanica reală a pieței — nu trata niciodată aceasta ca o afacere simplă de servicii, cu o singură față, și recunoaște întotdeauna explicit provocarea de lichiditate cu două fețe."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Build or select the marketplace platform (booking, matching, payments) and establish a tutor background-check and vetting process.",
+            "ro": "Construiește sau selectează platforma de piață (programare, potrivire, plăți) și stabilește un proces de verificare și antecedente ale meditatorilor."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Building custom marketplace software from scratch before validating demand, instead of starting with an existing marketplace platform framework.",
+            "ro": "Construirea de software personalizat de piață, de la zero, înainte de a valida cererea, în loc să înceapă cu un cadru existent de platformă de piață."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Start with an existing marketplace platform framework rather than custom-building booking and matching software from scratch.",
+            "ro": "Începe cu un cadru existent de platformă de piață, în loc să construiești personalizat software de programare și potrivire, de la zero."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.tutoringHelpMarketplace.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Solve the cold-start problem in one pilot neighborhood or school district by manually recruiting an initial tutor pool and a handful of pilot families.",
+            "ro": "Rezolvă problema de pornire, într-un cartier pilot sau district școlar, prin recrutarea manuală a unui grup inițial de meditatori și a câtorva familii pilot."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Trying to launch across a wide geographic area at once instead of concentrating initial liquidity efforts in one small pilot market.",
+            "ro": "Încercarea de a lansa pe o zonă geografică largă, deodată, în loc să concentreze eforturile inițiale de lichiditate, într-o singură piață pilot, mică."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Manually recruit and personally vet the first 15-20 tutors in the pilot market before opening family sign-ups broadly.",
+            "ro": "Recrutează manual și verifică personal primii 15-20 de meditatori, în piața pilot, înainte de a deschide larg înscrierile familiilor."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.tutoringHelpMarketplace.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first month of matched bookings in the pilot market with both sides genuinely represented.",
+            "ro": "Finalizează prima lună de rezervări potrivite, în piața pilot, cu ambele părți reprezentate cu adevărat."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Matching a family with the first available tutor instead of the best-fit tutor, damaging early trust in the matching quality.",
+            "ro": "Potrivirea unei familii, cu primul meditator disponibil, în loc de cel mai potrivit meditator, afectând încrederea timpurie, în calitatea potrivirii."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Personally review each early match to confirm subject, level, and learning-style fit before confirming the booking.",
+            "ro": "Revizuiește personal fiecare potrivire timpurie, pentru a confirma potrivirea materiei, nivelului și stilului de învățare, înainte de a confirma rezervarea."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.tutoringHelpMarketplace.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Launch broader local marketing (parent community and school partnerships) alongside continued supply-side tutor recruitment.",
+            "ro": "Lansează marketing local mai larg (parteneriate cu comunitatea de părinți și școli), alături de recrutarea continuă de meditatori, de partea ofertei."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Ramping up demand-side family marketing faster than the tutor supply can support, creating a bad first experience for new families.",
+            "ro": "Accelerarea marketingului de familii, de partea cererii, mai rapid decât poate susține oferta de meditatori, creând o primă experiență proastă, pentru familiile noi."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pace demand-side marketing growth to stay within what the current tutor supply can reliably match within 24 hours.",
+            "ro": "Ritmează creșterea marketingului de partea cererii, pentru a rămâne în limita a ceea ce oferta actuală de meditatori poate potrivi fiabil, în 24 de ore."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.tutoringHelpMarketplace.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first family's trial session into a recurring booking relationship.",
+            "ro": "Transformă ședința de probă a primei familii, într-o relație de rezervare recurentă."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not following up with a family after their trial session to prompt a recurring booking decision.",
+            "ro": "Neurmărirea unei familii, după ședința de probă, pentru a stimula o decizie de rezervare recurentă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Follow up with every family within 24 hours of their trial session to confirm satisfaction and propose a recurring schedule.",
+            "ro": "Urmărește fiecare familie, în 24 de ore, de la ședința de probă, pentru a confirma satisfacția și a propune un program recurent."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.tutoringHelpMarketplace.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach reliable two-sided liquidity in the pilot market — enough tutors across popular subjects and grade levels to match most family requests within 24 hours.",
+            "ro": "Atinge o lichiditate fiabilă, cu două fețe, în piața pilot — suficienți meditatori, pe materii și niveluri de clasă populare, pentru a potrivi majoritatea solicitărilor familiilor, în 24 de ore."
+          }
+        ],
+        "kpis": [
+          "customerRetention",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Declaring product-market fit based on total sign-ups instead of the actual request-to-match fulfillment rate.",
+            "ro": "Declararea potrivirii produs-piață, pe baza înscrierilor totale, în loc de rata reală de îndeplinire, de la solicitare la potrivire."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track the percentage of family requests matched within 24 hours as the primary liquidity health metric.",
+            "ro": "Urmărește procentul de solicitări ale familiilor, potrivite în 24 de ore, ca principala metrică de sănătate a lichidității."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.tutoringHelpMarketplace.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Grow session volume and repeat-booking rate within the existing market before pursuing geographic expansion.",
+            "ro": "Crește volumul de ședințe și rata de rezervare recurentă, în piața existentă, înainte de a urmări extinderea geografică."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding to a new market before the first market has reached stable, repeatable liquidity and booking volume.",
+            "ro": "Extinderea într-o piață nouă, înainte ca prima piață să fi atins o lichiditate și un volum de rezervări, stabile și repetabile."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the pilot market shows stable month-over-month growth in repeat bookings before investing in expansion.",
+            "ro": "Confirmă că piața pilot arată o creștere stabilă, lună de lună, a rezervărilor recurente, înainte de a investi în extindere."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.tutoringHelpMarketplace.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Expand tutor supply into additional subjects and grade levels, and add customer-support staff to handle increased volume.",
+            "ro": "Extinde oferta de meditatori, pe materii și niveluri de clasă suplimentare, și adaugă personal de suport pentru clienți, pentru a gestiona volumul crescut."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding into new subjects without confirming real family demand exists for them first.",
+            "ro": "Extinderea în materii noi, fără a confirma mai întâi că există o cerere reală a familiilor, pentru acestea."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Survey existing families about unmet subject or grade-level needs before recruiting tutors into new categories.",
+            "ro": "Sondează familiile existente, despre nevoile neacoperite de materii sau niveluri de clasă, înainte de a recruta meditatori, în categorii noi."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.tutoringHelpMarketplace.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into a second geographic market, reapplying the proven cold-start playbook.",
+            "ro": "Extinde-te într-o a doua piață geografică, reaplicând playbook-ul dovedit de pornire."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Assuming the second market will achieve liquidity automatically without repeating the manual tutor-recruitment and vetting effort.",
+            "ro": "Presupunerea că a doua piață va atinge automat lichiditatea, fără a repeta efortul manual de recrutare și verificare a meditatorilor."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Apply the same manual tutor-recruitment and vetting playbook used in the pilot market to every new market.",
+            "ro": "Aplică același playbook manual de recrutare și verificare a meditatorilor, utilizat în piața pilot, în fiecare piață nouă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.tutoringHelpMarketplace.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the tutor-vetting process, platform IP, and marketplace metrics (GMV, take rate, liquidity) to package the business for sale.",
+            "ro": "Documentează procesul de verificare a meditatorilor, proprietatea intelectuală a platformei și metricile de piață (GMV, rata de comision, lichiditate), pentru a pregăti afacerea pentru vânzare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Not tracking clean historical marketplace metrics (GMV, take rate, liquidity by market) that a buyer would need to evaluate the business.",
+            "ro": "Neurmărirea unor metrici istorice curate de piață (GMV, rata de comision, lichiditate pe piață), de care un cumpărător ar avea nevoie, pentru a evalua afacerea."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, ongoing tracking of GMV, take rate, and liquidity by market for due-diligence readiness.",
+            "ro": "Menține o urmărire curată, continuă, a GMV, ratei de comision și lichidității, pe piață, pentru pregătirea de diligență."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.tutoringHelpMarketplace.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

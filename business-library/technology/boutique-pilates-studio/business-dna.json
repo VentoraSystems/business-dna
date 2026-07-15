@@ -1,0 +1,946 @@
+{
+  "identity": {
+    "id": "730fafb4-62d8-4d3c-a12a-3b155c9485fb",
+    "slug": "boutique-pilates-studio",
+    "version": "1.0.0",
+    "name": {
+      "en": "Concord Pilates Studio",
+      "ro": "Concord Pilates Studio"
+    },
+    "tagline": {
+      "en": "Strength that respects your body.",
+      "ro": "Forță care îți respectă corpul."
+    },
+    "createdAt": "2026-07-16T00:00:00.000Z",
+    "updatedAt": "2026-07-16T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theSpecialist",
+      "theOperator"
+    ],
+    "summary": {
+      "en": "Best suited to a certified Pilates instructor ready to lead a small teaching team and manage a membership-based studio business — no government license is required, but real comprehensive reformer-certification credentials and teaching experience matter to clients.",
+      "ro": "Potrivit unui instructor de Pilates certificat, pregătit să conducă o mică echipă de predare și să gestioneze o afacere de studio, bazată pe abonament — nu este necesară o licență guvernamentală, dar acreditările reale, complete, de certificare pe reformer, și experiența de predare, contează pentru clienți."
+    },
+    "minimumExperienceYears": 2
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 10000,
+      "maxInvestment": 30000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 7000,
+      "ongoingMonthlyCostMax": 16000,
+      "notes": {
+        "en": "Covers reformer machines, studio buildout, flooring and mirrors, and initial booking-software setup — a Medium budget tier, driven by specialized equipment cost rather than a full commercial kitchen or clinical equipment burden.",
+        "ro": "Acoperă aparatele reformer, amenajarea studioului, pardoseala și oglinzile, și configurarea inițială a software-ului de programare — un nivel de buget mediu, determinat de costul echipamentului specializat, nu de o bucătărie comercială completă sau o povară de echipament clinic."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "reformerEquipmentAndStudioBuildout",
+          "label": {
+            "en": "Reformer machines and studio buildout",
+            "ro": "Aparate reformer și amenajarea studioului"
+          },
+          "typicalMin": 6000,
+          "typicalMax": 16000
+        },
+        {
+          "key": "flooringAndMirrorInstallation",
+          "label": {
+            "en": "Flooring, mirrors, and studio ambiance setup",
+            "ro": "Pardoseală, oglinzi și configurarea ambientului studioului"
+          },
+          "typicalMin": 2000,
+          "typicalMax": 6000
+        },
+        {
+          "key": "bookingAndMembershipSoftwareSetup",
+          "label": {
+            "en": "Class-booking and membership-management software setup",
+            "ro": "Configurarea software-ului de programare a claselor și gestionare a abonamentelor"
+          },
+          "typicalMin": 1000,
+          "typicalMax": 4000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "studioLease",
+          "label": {
+            "en": "Studio space lease",
+            "ro": "Chiria spațiului studioului"
+          },
+          "typicalMonthlyMin": 2500,
+          "typicalMonthlyMax": 6000
+        },
+        {
+          "key": "instructorWages",
+          "label": {
+            "en": "Instructor wages for taught classes",
+            "ro": "Salariile instructorilor, pentru clasele predate"
+          },
+          "typicalMonthlyMin": 3500,
+          "typicalMonthlyMax": 8000
+        },
+        {
+          "key": "equipmentMaintenanceAndInsurance",
+          "label": {
+            "en": "Equipment maintenance and studio liability insurance",
+            "ro": "Întreținerea echipamentului și asigurarea de răspundere a studioului"
+          },
+          "typicalMonthlyMin": 500,
+          "typicalMonthlyMax": 1500
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "classPackAndDropInFees",
+          "label": {
+            "en": "Class pack and drop-in class fees",
+            "ro": "Onorarii pentru pachete de clase și clase individuale"
+          }
+        },
+        {
+          "key": "monthlyUnlimitedMembership",
+          "label": {
+            "en": "Monthly unlimited membership",
+            "ro": "Abonament lunar nelimitat"
+          }
+        },
+        {
+          "key": "privateSessionUpsells",
+          "label": {
+            "en": "Private one-on-one session upsells",
+            "ro": "Vânzări suplimentare de ședințe private, unu-la-unu"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 12000,
+      "targetMonthlyIncomeMax": 30000,
+      "breakEvenTimelineMonths": 14,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "fast",
+      "notes": {
+        "en": "Class packs and monthly memberships are paid upfront before classes are attended, giving the studio a faster cash-collection cycle than a per-visit appointment business.",
+        "ro": "Pachetele de clase și abonamentele lunare sunt plătite din start, înainte ca clasele să fie frecventate, oferind studioului un ciclu de încasare a numerarului mai rapid decât o afacere cu programări per vizită."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate",
+      "notes": {
+        "en": "Instructor wages and studio lease keep margin moderate, offset by high equipment utilization once a class schedule is consistently full.",
+        "ro": "Salariile instructorilor și chiria studioului mențin marja moderată, compensate de o utilizare ridicată a echipamentului, odată ce un program de clase este constant complet."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "inPerson",
+    "travelRequirement": "none",
+    "onlineOffline": "offline",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 40,
+    "maxWeeklyHours": 50,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 3
+      },
+      {
+        "key": "marketing",
+        "rating": 4
+      },
+      {
+        "key": "leadership",
+        "rating": 4
+      },
+      {
+        "key": "communication",
+        "rating": 7
+      },
+      {
+        "key": "negotiation",
+        "rating": 2
+      },
+      {
+        "key": "finance",
+        "rating": 3
+      },
+      {
+        "key": "operations",
+        "rating": 6
+      },
+      {
+        "key": "technology",
+        "rating": 2
+      },
+      {
+        "key": "automation",
+        "rating": 2
+      },
+      {
+        "key": "ai",
+        "rating": 1
+      },
+      {
+        "key": "programming",
+        "rating": 1
+      },
+      {
+        "key": "management",
+        "rating": 5
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 40
+      },
+      {
+        "key": "visionary",
+        "score": 15
+      },
+      {
+        "key": "operator",
+        "score": 65
+      },
+      {
+        "key": "creator",
+        "score": 30
+      },
+      {
+        "key": "seller",
+        "score": 20
+      },
+      {
+        "key": "leader",
+        "score": 35
+      },
+      {
+        "key": "analyst",
+        "score": 25
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": false,
+    "isFullyRemote": false,
+    "requiresTravel": false,
+    "isOnlineBusiness": false,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": true,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": true,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "low",
+      "notes": {
+        "en": "Growth is capped by reformer-machine count and class-schedule capacity within one studio, with a second location as the main lever beyond that.",
+        "ro": "Creșterea este limitată de numărul de aparate reformer și capacitatea programului de clase, într-un singur studio, o a doua locație fiind principala pârghie dincolo de aceasta."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "Meaningful upfront equipment investment before any class is taught, plus real dependency on instructor quality and retention.",
+        "ro": "Investiție inițială semnificativă de echipament, înainte ca vreo clasă să fie predată, plus dependență reală de calitatea și reținerea instructorilor."
+      }
+    },
+    "aiResistance": {
+      "level": "high",
+      "notes": {
+        "en": "Hands-on, in-person instruction and real-time form correction require a human instructor and cannot be automated or delivered remotely with the same quality.",
+        "ro": "Instruirea practică, în persoană, și corectarea formei în timp real necesită un instructor uman și nu pot fi automatizate sau furnizate de la distanță, cu aceeași calitate."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Significant equipment capital is sunk into reformer machines and studio buildout before the studio generates any class revenue.",
+          "ro": "Un capital semnificativ de echipament este investit în aparate reformer și amenajarea studioului, înainte ca studioul să genereze venituri din clase."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "Class-capacity limits mean revenue per square foot is capped without adding instructors or schedule slots.",
+          "ro": "Limitele de capacitate a claselor înseamnă că veniturile per metru pătrat sunt plafonate, fără a adăuga instructori sau intervale de program."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "A departing lead instructor with a loyal following can take a meaningful share of the client base with them.",
+          "ro": "Un instructor principal, care pleacă și are o urmărire loială, poate lua cu el o pondere semnificativă din baza de clienți."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Strength that respects your body — low-impact reformer Pilates for real strength and mobility, without the joint strain of high-impact boutique fitness formats.",
+        "ro": "Forță care îți respectă corpul — Pilates pe reformer, cu impact redus, pentru forță și mobilitate reale, fără efortul asupra articulațiilor, al formatelor de fitness boutique cu impact ridicat."
+      },
+      "channels": [
+        {
+          "channelType": "localSocialMediaAndReferralProgram",
+          "description": {
+            "en": "Local social media content and a client referral program rewarding members who bring a friend.",
+            "ro": "Conținut de rețele sociale locale și un program de recomandare a clienților, care recompensează membrii care aduc un prieten."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "introOfferForNewClients",
+          "description": {
+            "en": "A discounted first-class or two-class intro offer designed to convert trial attendees into class packs or memberships.",
+            "ro": "O ofertă introductivă redusă, de o clasă sau două, concepută pentru a transforma participanții de probă, în pachete de clase sau abonamente."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "corporateWellnessPartnerships",
+          "description": {
+            "en": "Partnerships with local employers' wellness programs as a supplemental, experimental acquisition channel.",
+            "ro": "Parteneriate cu programele de wellness ale angajatorilor locali, ca un canal de achiziție suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "A single studio marketing directly to local individual clients, with a straightforward intro-offer-to-membership funnel rather than complex multi-stakeholder sales.",
+        "ro": "Un singur studio, care face marketing direct către clienți individuali locali, cu un funnel simplu, de la oferta introductivă la abonament, nu vânzări complexe, cu mai mulți factori de decizie."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A discounted two-class intro offer lets a prospective client experience the studio before committing to a class pack or monthly unlimited membership.",
+        "ro": "O ofertă introductivă redusă, de două clase, permite unui client potențial să experimenteze studioul, înainte de a se angaja la un pachet de clase sau un abonament lunar nelimitat."
+      },
+      "salesCycleLengthDays": 14,
+      "pricingModel": {
+        "en": "€28 per drop-in class, a 10-class pack for €240, €220/month unlimited membership, and €90 private one-on-one sessions.",
+        "ro": "28 € per clasă individuală, un pachet de 10 clase pentru 240 €, abonament lunar nelimitat de 220 €, și ședințe private unu-la-unu de 90 €."
+      }
+    },
+    "salesComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "A straightforward intro-offer-to-membership conversion, without the multi-visit trust-building or larger financing conversations found in higher-ticket service businesses.",
+        "ro": "O conversie simplă, de la oferta introductivă la abonament, fără construirea încrederii pe mai multe vizite sau conversații de finanțare mai ample, prezente în afacerile de servicii cu bon mai mare."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Class scheduling and online booking management",
+          "ro": "Programarea claselor și gestionarea rezervărilor online"
+        },
+        {
+          "en": "Instructor scheduling and payroll",
+          "ro": "Programarea instructorilor și salarizarea"
+        },
+        {
+          "en": "Reformer equipment maintenance and safety checks",
+          "ro": "Întreținerea aparatelor reformer și verificările de siguranță"
+        },
+        {
+          "en": "Membership billing, renewal, and freeze/cancellation handling",
+          "ro": "Facturarea abonamentelor, reînnoirea și gestionarea suspendării/anulării"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "A schedule of small-group classes taught throughout the day by rotating instructors, with the studio owner handling membership administration, class-schedule optimization, and instructor coordination between classes.",
+        "ro": "Un program de clase în grupuri mici, predate pe parcursul zilei, de instructori care se rotesc, cu proprietarul studioului gestionând administrarea abonamentelor, optimizarea programului de clase și coordonarea instructorilor, între clase."
+      },
+      "fulfillmentModel": {
+        "en": "A lead instructor/owner supported by a small team of certified reformer Pilates instructors, delivering small-group classes capped at 8-10 clients per reformer set.",
+        "ro": "Un instructor/proprietar principal, susținut de o mică echipă de instructori certificați de Pilates pe reformer, care oferă clase în grupuri mici, limitate la 8-10 clienți per set de reformere."
+      }
+    },
+    "automation": {
+      "level": "moderate",
+      "notes": {
+        "en": "Class booking, membership billing, and renewal reminders are automated through studio-management software, but every class itself remains fully instructor-led.",
+        "ro": "Programarea claselor, facturarea abonamentelor și mementourile de reînnoire sunt automatizate, prin software de gestionare a studioului, dar fiecare clasă rămâne complet condusă de instructor."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "membershipRetentionAlerts",
+          "description": {
+            "en": "AI-assisted attendance-pattern analysis flags members whose class frequency is dropping, before they cancel their membership.",
+            "ro": "Analiza tiparului de prezență, asistată de AI, semnalează membrii a căror frecvență de clase scade, înainte ca aceștia să-și anuleze abonamentul."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "MINDBODY",
+        "category": "classBookingAndMembershipManagement",
+        "isRequired": true,
+        "websiteUrl": "https://www.mindbodyonline.com/"
+      },
+      {
+        "name": "ClassPass",
+        "category": "distributionAndTrialAcquisition",
+        "isRequired": false,
+        "websiteUrl": "https://classpass.com/"
+      },
+      {
+        "name": "Canva",
+        "category": "marketingContentCreation",
+        "isRequired": false,
+        "websiteUrl": "https://www.canva.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30,
+      "notes": {
+        "en": "Growth is gated by reformer count and class-schedule capacity within one studio, with a second location as the main lever beyond that.",
+        "ro": "Creșterea este limitată de numărul de reformere și capacitatea programului de clase, într-un singur studio, o a doua locație fiind principala pârghie dincolo de aceasta."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Fill the existing class schedule to consistent capacity first, then add instructors and additional class times before considering a second studio location.",
+        "ro": "Umple mai întâi programul existent de clase, la o capacitate constantă, apoi adaugă instructori și intervale suplimentare de clase, înainte de a lua în considerare o a doua locație de studio."
+      },
+      "bottlenecks": [
+        {
+          "en": "Reformer machine count within the studio space hard-caps how many clients can be served per class.",
+          "ro": "Numărul de aparate reformer, din spațiul studioului, plafonează dur câți clienți pot fi serviți per clasă."
+        },
+        {
+          "en": "Recruiting and certifying qualified reformer Pilates instructors requires real lead time and vetting.",
+          "ro": "Recrutarea și certificarea instructorilor calificați de Pilates pe reformer necesită un timp real de pregătire și verificare."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 14,
+          "description": {
+            "en": "The studio reaches break-even with a stable membership base and consistently full core class times.",
+            "ro": "Studioul atinge pragul de rentabilitate, cu o bază stabilă de abonați și intervale de clase principale, constant complete."
+          }
+        },
+        {
+          "monthsFromLaunch": 24,
+          "description": {
+            "en": "A new instructor and expanded class schedule are added to extend weekly capacity.",
+            "ro": "Un instructor nou și un program extins de clase sunt adăugați, pentru a extinde capacitatea săptămânală."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Recurring membership revenue smooths cash flow far more than a purely per-visit fitness business.",
+          "ro": "Veniturile recurente din abonamente netezesc fluxul de numerar, mult mai mult decât o afacere de fitness pur per vizită."
+        }
+      },
+      {
+        "description": {
+          "en": "High repeat-visit frequency among committed members builds strong retention and predictable revenue.",
+          "ro": "Frecvența ridicată a vizitelor repetate, în rândul membrilor dedicați, construiește o retenție puternică și venituri previzibile."
+        }
+      },
+      {
+        "description": {
+          "en": "The low-impact reformer method attracts an underserved injury-recovery and midlife-fitness segment that higher-impact boutique fitness formats don't serve well.",
+          "ro": "Metoda reformer, cu impact redus, atrage un segment insuficient deservit, de recuperare post-accidentare și fitness pentru vârsta mijlocie, pe care formatele de fitness boutique cu impact ridicat nu îl servesc bine."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A small-group reformer Pilates studio built around membership-based recurring revenue, targeting a low-impact strength and mobility niche underserved by higher-impact boutique fitness formats. Not a licensed clinical practice — a certified craft-skill service business.",
+        "ro": "Un studio de Pilates pe reformer, în grupuri mici, construit în jurul veniturilor recurente, bazate pe abonament, care vizează o nișă de forță și mobilitate cu impact redus, insuficient deservită de formatele de fitness boutique cu impact ridicat. Nu este o practică clinică licențiată — o afacere de servicii, cu abilitate certificată."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.boutiquePilatesStudio.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.boutiquePilatesStudio.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.boutiquePilatesStudio.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.boutiquePilatesStudio.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep members renewing their monthly unlimited membership consistently.",
+          "ro": "Menține membrii reînnoind constant abonamentul lunar nelimitat."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against instructor wages and studio lease costs.",
+          "ro": "Protejează marja brută împotriva costurilor de salarii ale instructorilor și chiria studioului."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert intro-offer trial attendees into class packs or memberships.",
+          "ro": "Transformă participanții la oferta introductivă de probă, în pachete de clase sau abonamente."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep membership cancellations low through consistent class quality and instructor relationships.",
+          "ro": "Menține anulările de abonament scăzute, prin calitate constantă a claselor și relații cu instructorii."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "communication",
+          "importance": 4
+        },
+        {
+          "key": "management",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "marketing",
+          "importance": 3
+        },
+        {
+          "key": "sales",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "patient",
+          "importance": 4
+        },
+        {
+          "trait": "collaborative",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "detailOriented",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 10000,
+        "max": 30000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 15000,
+        "max": 25000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 40,
+        "maxWeeklyHours": 50
+      },
+      "communicationStyle": [
+        "warm",
+        "encouraging"
+      ],
+      "technicalLevel": 2,
+      "leadershipLevel": 3,
+      "creativityLevel": 3,
+      "salesAffinity": 2,
+      "automationAffinity": 2,
+      "remotePreference": "inPerson",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theSpecialist",
+        "theOperator"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the Medium capital tier and recurring-membership revenue model in Financial Overview and Revenue Architecture, and the low-impact/underserved-niche differentiator in Offer Architecture — keep content grounded in real class economics.",
+      "ro": "Subliniază nivelul mediu de capital și modelul de venituri recurente, din abonamente, în Prezentare financiară și Arhitectura veniturilor, precum și diferențiatorul de nișă insuficient deservită/impact redus, în Arhitectura ofertei — menține conținutul fundamentat în economia reală a claselor."
+    },
+    "marketingHints": {
+      "en": "Lead with the low-impact strength/mobility positioning and the underserved injury-recovery and midlife-fitness niche, not generic 'boutique fitness' stock phrases.",
+      "ro": "Începe cu poziționarea de forță/mobilitate cu impact redus și nișa insuficient deservită, de recuperare post-accidentare și fitness pentru vârsta mijlocie, nu cu fraze generice de tipul „fitness boutique”."
+    },
+    "financialHints": {
+      "en": "Model revenue as recurring membership plus class-pack fees, with instructor wages and studio lease as the dominant cost lines — meaningful upfront equipment capital relative to a pure service business.",
+      "ro": "Modelează veniturile ca abonament recurent, plus onorarii pentru pachete de clase, cu salariile instructorilor și chiria studioului drept costurile dominante — capital de echipament inițial semnificativ, față de o afacere pur de servicii."
+    },
+    "generationHints": {
+      "en": "Keep generated tone warm and encouraging, grounded in real class-pack/membership pricing and the low-impact positioning — never generic boutique-fitness marketing language.",
+      "ro": "Menține un ton generat cald și încurajator, fundamentat pe prețurile reale ale pachetelor de clase/abonamentelor și poziționarea cu impact redus — niciodată un limbaj generic de marketing pentru fitness boutique."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Secure studio financing, complete the reformer equipment buildout, and confirm studio liability insurance.",
+            "ro": "Asigură finanțarea studioului, finalizează amenajarea cu echipament reformer și confirmă asigurarea de răspundere a studioului."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Underestimating how many reformer machines are needed to run a full class schedule at target class sizes.",
+            "ro": "Subestimarea numărului de aparate reformer necesare, pentru a rula un program complet de clase, la dimensiunile țintă ale claselor."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm reformer machine count against the target class size and planned weekly schedule before finalizing the equipment order.",
+            "ro": "Confirmă numărul de aparate reformer, față de dimensiunea țintă a claselor și programul săptămânal planificat, înainte de a finaliza comanda de echipament."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiquePilatesStudio.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Run a soft-launch intro-offer period to confirm class-time demand before finalizing the full weekly schedule.",
+            "ro": "Rulează o perioadă de lansare discretă, cu ofertă introductivă, pentru a confirma cererea pentru intervalele de clase, înainte de a finaliza programul săptămânal complet."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Locking in a full weekly class schedule before confirming which time slots actually attract enough demand to fill a class.",
+            "ro": "Fixarea unui program săptămânal complet de clase, înainte de a confirma ce intervale orare atrag de fapt suficientă cerere, pentru a umple o clasă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track intro-offer sign-ups by time slot for at least 4 weeks before locking in the permanent class schedule.",
+            "ro": "Urmărește înscrierile la oferta introductivă, pe interval orar, timp de cel puțin 4 săptămâni, înainte de a fixa programul permanent de clase."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiquePilatesStudio.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first month of classes with a soft-opening schedule at reduced capacity.",
+            "ro": "Finalizează prima lună de clase, cu un program de deschidere discretă, la capacitate redusă."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Opening at full class capacity before instructors have practiced managing a full room safely and effectively.",
+            "ro": "Deschiderea la capacitate completă de clase, înainte ca instructorii să fi exersat gestionarea unei săli complete, în siguranță și eficient."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Cap early classes below full reformer capacity until instructors are comfortable managing a full room.",
+            "ro": "Limitează clasele timpurii sub capacitatea completă de reformere, până când instructorii se simt confortabil gestionând o sală completă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiquePilatesStudio.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Launch the full public class schedule with local social content and a referral-program incentive.",
+            "ro": "Lansează programul public complet de clase, cu conținut social local și un stimulent de program de recomandare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching without a referral incentive in place, missing the fastest early growth channel for a local fitness studio.",
+            "ro": "Lansarea fără un stimulent de recomandare instituit, ratând cel mai rapid canal de creștere timpurie, pentru un studio local de fitness."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Launch a referral incentive (e.g. a free class for both the member and their referred friend) at the public opening.",
+            "ro": "Lansează un stimulent de recomandare (de ex. o clasă gratuită, atât pentru membru, cât și pentru prietenul recomandat), la deschiderea publică."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiquePilatesStudio.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first intro-offer clients into class-pack or membership purchasers.",
+            "ro": "Transformă primii clienți ai ofertei introductive, în cumpărători de pachete de clase sau abonamente."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not following up directly with intro-offer clients before their offer expires to prompt a membership decision.",
+            "ro": "Neurmărirea directă a clienților ofertei introductive, înainte ca oferta lor să expire, pentru a stimula o decizie de abonament."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Follow up personally with each intro-offer client before their offer expires to offer a class pack or membership.",
+            "ro": "Urmărește personal fiecare client al ofertei introductive, înainte ca oferta să expire, pentru a oferi un pachet de clase sau un abonament."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiquePilatesStudio.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach consistently full core class times with a stable, renewing membership base.",
+            "ro": "Atinge intervale principale de clase constant complete, cu o bază stabilă de abonați, care se reînnoiesc."
+          }
+        ],
+        "kpis": [
+          "customerRetention",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Adding new class times or instructors before existing core class times are consistently full.",
+            "ro": "Adăugarea de noi intervale de clase sau instructori, înainte ca intervalele principale existente de clase să fie constant complete."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track fill rate by class time monthly to confirm core times are consistently full before expanding the schedule.",
+            "ro": "Urmărește lunar rata de completare, pe interval de clasă, pentru a confirma că intervalele principale sunt constant complete, înainte de a extinde programul."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiquePilatesStudio.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Grow private-session upsells and corporate wellness partnerships as incremental revenue.",
+            "ro": "Crește vânzările suplimentare de ședințe private și parteneriatele de wellness corporativ, ca venit incremental."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not offering private sessions to members who have specific goals or injuries that group classes can't fully address.",
+            "ro": "Neoferirea de ședințe private, membrilor cu obiective specifice sau accidentări, pe care clasele de grup nu le pot aborda pe deplin."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Train instructors to identify and suggest private sessions to members with specific individual needs.",
+            "ro": "Instruiește instructorii să identifice și să sugereze ședințe private, membrilor cu nevoi individuale specifice."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiquePilatesStudio.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Add a new instructor and expand the class schedule to extend weekly capacity.",
+            "ro": "Adaugă un instructor nou și extinde programul de clase, pentru a extinde capacitatea săptămânală."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring an additional instructor before confirming enough unmet demand exists at new proposed class times.",
+            "ro": "Angajarea unui instructor suplimentar, înainte de a confirma că există suficientă cerere neacoperită, la noile intervale propuse de clase."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm a waitlist or unmet demand signal at proposed new class times before hiring an additional instructor.",
+            "ro": "Confirmă o listă de așteptare sau un semnal de cerere neacoperită, la noile intervale propuse de clase, înainte de a angaja un instructor suplimentar."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiquePilatesStudio.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Evaluate opening a second studio location once the first is consistently profitable and fully staffed.",
+            "ro": "Evaluează deschiderea unei a doua locații de studio, odată ce prima este constant profitabilă și complet dotată cu personal."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding to a second location before the first studio can run without the founder's daily hands-on involvement.",
+            "ro": "Extinderea la o a doua locație, înainte ca primul studio să poată funcționa fără implicarea zilnică, practică, a fondatorului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the first studio runs profitably with a trained studio manager before opening a second location.",
+            "ro": "Confirmă că primul studio funcționează profitabil, cu un manager de studio instruit, înainte de a deschide o a doua locație."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiquePilatesStudio.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the membership base, equipment records, and instructor structure to package the studio for sale.",
+            "ro": "Documentează baza de abonați, evidențele echipamentului și structura instructorilor, pentru a pregăti studioul pentru vânzare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Waiting until a sale opportunity appears to start documenting membership and equipment records properly.",
+            "ro": "Așteptarea apariției unei oportunități de vânzare, pentru a începe documentarea corespunzătoare a evidențelor de abonați și echipament."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, complete membership and equipment maintenance records on an ongoing basis, not just before a sale.",
+            "ro": "Menține evidențe curate și complete ale abonaților și întreținerii echipamentului, în mod continuu, nu doar înainte de o vânzare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.boutiquePilatesStudio.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

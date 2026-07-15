@@ -1,0 +1,946 @@
+{
+  "identity": {
+    "id": "48b43253-4ea9-4f95-bb27-a8b1aa006fbf",
+    "slug": "adventure-travel-boutique-agency",
+    "version": "1.0.0",
+    "name": {
+      "en": "Ridge & Range Adventures",
+      "ro": "Ridge & Range Adventures"
+    },
+    "tagline": {
+      "en": "Adventure, planned by people who've actually done it.",
+      "ro": "Aventură, planificată de oameni care chiar au trăit-o."
+    },
+    "createdAt": "2026-07-16T00:00:00.000Z",
+    "updatedAt": "2026-07-16T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theConnector",
+      "theSpecialist"
+    ],
+    "summary": {
+      "en": "Best suited to someone with genuine firsthand adventure-travel experience and a real network of trusted local guides and operators, comfortable with frequent personal travel to scout new destinations and maintain supplier relationships.",
+      "ro": "Potrivit unei persoane cu experiență reală, directă, de călătorii de aventură, și o rețea reală de ghizi și operatori locali de încredere, confortabilă cu călătorii personale frecvente, pentru a explora destinații noi și a menține relațiile cu furnizorii."
+    },
+    "minimumExperienceYears": 2
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 10000,
+      "maxInvestment": 30000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 4000,
+      "ongoingMonthlyCostMax": 10000,
+      "notes": {
+        "en": "Covers travel-agency booking software, supplier-network development trips, liability insurance, and branding — a Medium budget tier, driven largely by the founder's own scouting travel rather than physical business infrastructure.",
+        "ro": "Acoperă software-ul de rezervare al agenției de turism, călătoriile de dezvoltare a rețelei de furnizori, asigurarea de răspundere și branding-ul — un nivel de buget mediu, determinat în mare parte de călătoriile proprii de explorare ale fondatorului, nu de infrastructura fizică a afacerii."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "travelAgencySoftwareAndSupplierAccess",
+          "label": {
+            "en": "Travel agency booking software and supplier network access",
+            "ro": "Software de rezervare pentru agenția de turism și acces la rețeaua de furnizori"
+          },
+          "typicalMin": 2000,
+          "typicalMax": 5000
+        },
+        {
+          "key": "destinationScoutingTravel",
+          "label": {
+            "en": "Initial destination and guide-network scouting travel",
+            "ro": "Călătoriile inițiale de explorare a destinațiilor și rețelei de ghizi"
+          },
+          "typicalMin": 4000,
+          "typicalMax": 12000
+        },
+        {
+          "key": "liabilityInsuranceAndBrandingSetup",
+          "label": {
+            "en": "Liability insurance, business registration, and branding setup",
+            "ro": "Asigurarea de răspundere, înregistrarea afacerii și configurarea brandingului"
+          },
+          "typicalMin": 2000,
+          "typicalMax": 6000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "softwareAndBookingPlatformFees",
+          "label": {
+            "en": "Itinerary-planning and booking software subscriptions",
+            "ro": "Abonamente pentru software de planificare a itinerariului și rezervare"
+          },
+          "typicalMonthlyMin": 200,
+          "typicalMonthlyMax": 600
+        },
+        {
+          "key": "marketingAndContentProduction",
+          "label": {
+            "en": "Content production from firsthand trips (photo, video, blog)",
+            "ro": "Producția de conținut din călătorii proprii (foto, video, blog)"
+          },
+          "typicalMonthlyMin": 500,
+          "typicalMonthlyMax": 1500
+        },
+        {
+          "key": "contractorTripLeaderFees",
+          "label": {
+            "en": "Contractor trip-leader fees for group departures",
+            "ro": "Onorarii pentru liderii de tură contractori, la plecările în grup"
+          },
+          "typicalMonthlyMin": 1000,
+          "typicalMonthlyMax": 4000
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "tripPlanningAndBookingCommissions",
+          "label": {
+            "en": "Trip booking commissions from tour operators and suppliers",
+            "ro": "Comisioane de rezervare a călătoriilor, de la operatorii de turism și furnizori"
+          }
+        },
+        {
+          "key": "customItineraryPlanningFees",
+          "label": {
+            "en": "Custom independent-trip itinerary planning fees",
+            "ro": "Onorarii de planificare a itinerariului, pentru călătorii independente personalizate"
+          }
+        },
+        {
+          "key": "groupTripLeaderMarkup",
+          "label": {
+            "en": "Markup on founder-led small-group trip departures",
+            "ro": "Marjă adăugată la plecările în grupuri mici, conduse de fondator"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 6000,
+      "targetMonthlyIncomeMax": 18000,
+      "breakEvenTimelineMonths": 10,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Clients pay a deposit at booking and the balance before departure, but supplier commissions are often only paid out after the trip is completed, slowing overall cash collection relative to a retail transaction.",
+        "ro": "Clienții plătesc un avans la rezervare și restul înainte de plecare, dar comisioanele furnizorilor sunt adesea plătite doar după finalizarea călătoriei, încetinind încasarea globală a numerarului, față de o tranzacție cu amănuntul."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate",
+      "notes": {
+        "en": "Commission and planning-fee revenue keeps margin moderate once scouting travel and content-production costs are covered, higher per booking than mass-market travel agency margins.",
+        "ro": "Veniturile din comisioane și onorarii de planificare mențin marja moderată, odată acoperite costurile de explorare și producție de conținut, mai mare per rezervare decât marjele agențiilor de turism de masă."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "frequent",
+    "onlineOffline": "hybrid",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 35,
+    "maxWeeklyHours": 45,
+    "freedomLevel": 4
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 6
+      },
+      {
+        "key": "marketing",
+        "rating": 5
+      },
+      {
+        "key": "leadership",
+        "rating": 3
+      },
+      {
+        "key": "communication",
+        "rating": 8
+      },
+      {
+        "key": "negotiation",
+        "rating": 5
+      },
+      {
+        "key": "finance",
+        "rating": 3
+      },
+      {
+        "key": "operations",
+        "rating": 5
+      },
+      {
+        "key": "technology",
+        "rating": 3
+      },
+      {
+        "key": "automation",
+        "rating": 2
+      },
+      {
+        "key": "ai",
+        "rating": 2
+      },
+      {
+        "key": "programming",
+        "rating": 1
+      },
+      {
+        "key": "management",
+        "rating": 4
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 40
+      },
+      {
+        "key": "visionary",
+        "score": 35
+      },
+      {
+        "key": "operator",
+        "score": 45
+      },
+      {
+        "key": "creator",
+        "score": 35
+      },
+      {
+        "key": "seller",
+        "score": 60
+      },
+      {
+        "key": "leader",
+        "score": 30
+      },
+      {
+        "key": "analyst",
+        "score": 25
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": false,
+    "requiresTravel": true,
+    "isOnlineBusiness": false,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": true,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate",
+      "notes": {
+        "en": "One founder can plan a meaningful volume of independent-trip itineraries remotely, but founder-led group departures are capped by how many trips one person can personally lead per season.",
+        "ro": "Un singur fondator poate planifica un volum semnificativ de itinerarii de călătorie independentă, la distanță, dar plecările în grup, conduse de fondator, sunt limitate de câte călătorii poate conduce personal o singură persoană, pe sezon."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "Moderate capital requirement, but success depends heavily on the quality and reliability of on-the-ground guide and operator partnerships that the agency doesn't directly control.",
+        "ro": "Cerință moderată de capital, dar succesul depinde puternic de calitatea și fiabilitatea parteneriatelor cu ghizi și operatori la fața locului, pe care agenția nu le controlează direct."
+      }
+    },
+    "aiResistance": {
+      "level": "moderate",
+      "notes": {
+        "en": "Generic trip booking is increasingly self-service online, but genuine firsthand destination expertise and trusted guide relationships remain hard to replicate with software alone.",
+        "ro": "Rezervarea generică a călătoriilor este din ce în ce mai mult cu autoservire, online, dar expertiza reală, directă, asupra destinațiilor și relațiile de încredere cu ghizii, rămân greu de replicat, doar cu software."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "A poor on-the-ground guide or tour-operator partner can damage the agency's reputation even though the agency doesn't directly control day-to-day trip delivery.",
+          "ro": "Un ghid sau operator de turism, la fața locului, de calitate slabă, poate afecta reputația agenției, chiar dacă agenția nu controlează direct livrarea zilnică a călătoriei."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "External shocks (health crises, geopolitical instability, natural disasters) can suddenly halt bookings for entire regions with little warning.",
+          "ro": "Șocurile externe (crize de sănătate, instabilitate geopolitică, dezastre naturale) pot opri brusc rezervările, pentru regiuni întregi, cu puțin avertisment."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "Low barriers to entry from self-service booking platforms and influencer-led trip curation put ongoing pressure on commission-based revenue.",
+          "ro": "Barierele scăzute de intrare, din partea platformelor de rezervare cu autoservire și curatorierii de călătorii conduse de influenceri, pun o presiune continuă asupra veniturilor bazate pe comision."
+        },
+        "severity": "low"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Adventure, planned by people who've actually done it — firsthand destination expertise, not a generic booking-platform catalog.",
+        "ro": "Aventură, planificată de oameni care chiar au trăit-o — expertiză directă asupra destinației, nu un catalog generic de platformă de rezervare."
+      },
+      "channels": [
+        {
+          "channelType": "contentMarketingFromFirsthandTripExperience",
+          "description": {
+            "en": "Photo, video, and blog content from the founder's own scouting and guided trips, building authentic destination credibility.",
+            "ro": "Conținut foto, video și de blog, din propriile călătorii de explorare și ghidate ale fondatorului, construind credibilitate autentică asupra destinației."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "pastClientReferralProgram",
+          "description": {
+            "en": "A referral program rewarding past clients who refer friends into future group departures.",
+            "ro": "Un program de recomandare, care recompensează clienții anteriori, care recomandă prieteni, pentru plecările viitoare în grup."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "affiliatePartnershipsWithGearAndOutdoorBrands",
+          "description": {
+            "en": "Affiliate and co-marketing partnerships with outdoor gear brands targeting the same active-traveler audience, as a supplemental, experimental channel.",
+            "ro": "Parteneriate afiliate și de co-marketing, cu branduri de echipament outdoor, care vizează același public de călători activi, ca un canal suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Requires genuinely authentic firsthand content production, more effort-intensive than paid advertising, but builds durable trust that generic travel platforms can't easily replicate.",
+        "ro": "Necesită producție de conținut, autentică, cu adevărat directă, mai intensă în efort decât publicitatea plătită, dar construiește o încredere durabilă, pe care platformele generice de turism nu o pot replica ușor."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A discovery call explores the prospective client's fitness level, travel style, and destination interests, followed by a custom itinerary proposal built from the founder's own firsthand knowledge or trusted guide network.",
+        "ro": "Un apel de descoperire explorează nivelul de fitness, stilul de călătorie și interesele de destinație ale clientului potențial, urmat de o propunere de itinerariu personalizat, construită din cunoștințele directe proprii ale fondatorului sau rețeaua de ghizi de încredere."
+      },
+      "salesCycleLengthDays": 45,
+      "pricingModel": {
+        "en": "€300-800 custom independent-trip itinerary planning fee, or 15-20% commission/markup built into founder-led small-group trips priced at €2,500-6,000 per person for an 8-14 day guided adventure.",
+        "ro": "Onorariu de planificare a itinerariului, de 300-800 €, pentru călătorii independente personalizate, sau comision/marjă de 15-20%, inclusă în plecările în grupuri mici, conduse de fondator, cu preț de 2.500-6.000 € per persoană, pentru o aventură ghidată de 8-14 zile."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "A longer consideration cycle than most consumer services, since clients are committing meaningful time and money to a multi-day trip and need real trust in the agency's destination expertise first.",
+        "ro": "Un ciclu de deliberare mai lung decât majoritatea serviciilor de consum, deoarece clienții se angajează cu timp și bani semnificativi, pentru o călătorie de mai multe zile, și au nevoie mai întâi de încredere reală în expertiza de destinație a agenției."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Destination and guide-network vetting through personal or trusted-network scouting trips",
+          "ro": "Verificarea destinației și rețelei de ghizi, prin călătorii proprii de explorare sau prin rețeaua de încredere"
+        },
+        {
+          "en": "Custom itinerary design and supplier/operator booking coordination",
+          "ro": "Proiectarea itinerariului personalizat și coordonarea rezervării cu furnizorii/operatorii"
+        },
+        {
+          "en": "Pre-trip client preparation: packing lists, fitness guidance, and travel insurance coordination",
+          "ro": "Pregătirea clientului, înainte de călătorie: liste de bagaje, îndrumare de fitness și coordonarea asigurării de călătorie"
+        },
+        {
+          "en": "On-trip support coordination for founder-led group departures",
+          "ro": "Coordonarea suportului în timpul călătoriei, pentru plecările în grup, conduse de fondator"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "A mix of client discovery calls and itinerary planning during office periods, alternating with scouting and guided group trips during active travel seasons, with content production woven throughout both.",
+        "ro": "Un mix de apeluri de descoperire a clienților și planificare a itinerariului, în perioadele de birou, alternând cu călătorii de explorare și grupuri ghidate, în sezoanele active de călătorie, cu producția de conținut țesută pe parcursul ambelor."
+      },
+      "fulfillmentModel": {
+        "en": "A founder-led boutique agency curating trips through personal firsthand knowledge and a vetted network of local guides and tour operators, rather than a generic third-party booking catalog.",
+        "ro": "O agenție boutique, condusă de fondator, care curatoriază călătorii, prin cunoștințe proprii, directe, și o rețea verificată de ghizi locali și operatori de turism, nu un catalog generic de rezervare de la terți."
+      }
+    },
+    "automation": {
+      "level": "low",
+      "notes": {
+        "en": "Itinerary templates and booking confirmations are partially automated, but destination curation, guide vetting, and client relationship-building remain fully founder-led.",
+        "ro": "Șabloanele de itinerariu și confirmările de rezervare sunt parțial automatizate, dar curatorierea destinației, verificarea ghizilor și construirea relației cu clientul rămân complet conduse de fondator."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "itineraryDraftAssistance",
+          "description": {
+            "en": "AI-assisted first-draft itinerary generation from a client's stated preferences, refined and finalized by the founder's own destination expertise.",
+            "ro": "Generarea unui prim proiect de itinerariu, asistată de AI, din preferințele declarate ale clientului, rafinat și finalizat, prin expertiza proprie de destinație a fondatorului."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "Travefy",
+        "category": "itineraryPlanningSoftware",
+        "isRequired": true,
+        "websiteUrl": "https://www.travefy.com/"
+      },
+      {
+        "name": "WeTravel",
+        "category": "groupTripPaymentsAndBooking",
+        "isRequired": false,
+        "websiteUrl": "https://www.wetravel.com/"
+      },
+      {
+        "name": "Later",
+        "category": "socialContentScheduling",
+        "isRequired": false,
+        "websiteUrl": "https://later.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30,
+      "notes": {
+        "en": "Growth is gated by how many founder-led group trips can run per season and how deep the trusted guide network extends, with a second trip planner as the main lever beyond that.",
+        "ro": "Creșterea este limitată de câte călătorii în grup, conduse de fondator, pot rula pe sezon, și cât de extinsă este rețeaua de ghizi de încredere, un al doilea planificator de călătorii fiind principala pârghie dincolo de aceasta."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Build a stable base of repeat and referral clients across a couple of signature trip types first, launch a signature annual small-group departure as an anchor offering, then bring on a second trip planner or leader to extend capacity.",
+        "ro": "Construiește mai întâi o bază stabilă de clienți recurenți și recomandați, pe câteva tipuri semnătură de călătorie, lansează o plecare anuală semnătură, în grup mic, ca ofertă de ancorare, apoi adu un al doilea planificator sau lider de călătorie, pentru a extinde capacitatea."
+      },
+      "bottlenecks": [
+        {
+          "en": "The founder's own personal capacity to lead group trips caps how many departures can run per season.",
+          "ro": "Capacitatea proprie a fondatorului de a conduce călătorii în grup plafonează câte plecări pot rula pe sezon."
+        },
+        {
+          "en": "Vetting a new destination's guide and operator network to the agency's quality bar requires real scouting time.",
+          "ro": "Verificarea rețelei de ghizi și operatori dintr-o destinație nouă, la standardul de calitate al agenției, necesită timp real de explorare."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 10,
+          "description": {
+            "en": "The agency reaches break-even with a stable base of repeat and referral clients.",
+            "ro": "Agenția atinge pragul de rentabilitate, cu o bază stabilă de clienți recurenți și recomandați."
+          }
+        },
+        {
+          "monthsFromLaunch": 24,
+          "description": {
+            "en": "A signature annual small-group trip is launched as an anchor offering, or a second trip planner is added to extend capacity.",
+            "ro": "O călătorie anuală semnătură, în grup mic, este lansată, ca ofertă de ancorare, sau este adăugat un al doilea planificator de călătorii, pentru a extinde capacitatea."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Genuine firsthand destination expertise is difficult for generic online booking platforms to replicate, building durable client trust.",
+          "ro": "Expertiza reală, directă, asupra destinației, este dificil de replicat, de către platformele generice de rezervare online, construind o încredere durabilă a clientului."
+        }
+      },
+      {
+        "description": {
+          "en": "High average trip value means meaningful commission or markup per booking despite a lower volume of transactions than mass-market travel.",
+          "ro": "Valoarea medie ridicată a călătoriei înseamnă un comision sau o marjă semnificativă per rezervare, în ciuda unui volum mai mic de tranzacții, decât turismul de masă."
+        }
+      },
+      {
+        "description": {
+          "en": "Repeat and referral-driven client relationships build a durable book of business over time, reducing dependency on constant new-client acquisition.",
+          "ro": "Relațiile cu clienții, bazate pe recurență și recomandare, construiesc un portofoliu de afaceri durabil, în timp, reducând dependența de achiziția constantă de clienți noi."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A boutique travel agency specializing in curated small-group and custom adventure trips for active travelers, built on the founder's own firsthand trip experience and a trusted guide network rather than a generic booking-platform catalog. Requires genuine frequent personal travel.",
+        "ro": "O agenție de turism boutique, specializată în călătorii de aventură, curatoriate, în grupuri mici și personalizate, pentru călători activi, construită pe experiența proprie, directă, a fondatorului și o rețea de ghizi de încredere, nu un catalog generic de platformă de rezervare. Necesită călătorii personale, frecvente, reale."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.adventureTravelBoutiqueAgency.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.adventureTravelBoutiqueAgency.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.adventureTravelBoutiqueAgency.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.adventureTravelBoutiqueAgency.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert discovery calls into booked custom itineraries or group trip spots.",
+          "ro": "Transformă apelurile de descoperire, în itinerarii personalizate rezervate sau locuri în călătoria de grup."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep past clients returning for future trips or referring new clients.",
+          "ro": "Menține clienții anteriori revenind pentru călătorii viitoare sau recomandând clienți noi."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against scouting travel and content-production costs.",
+          "ro": "Protejează marja brută împotriva costurilor de explorare și producție de conținut."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep repeat-client attrition low through consistently high-quality trip curation and guide partnerships.",
+          "ro": "Menține atriția clienților recurenți scăzută, prin curatorierea constant de înaltă calitate a călătoriei și parteneriatele cu ghizii."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "communication",
+          "importance": 5
+        },
+        {
+          "key": "sales",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "negotiation",
+          "importance": 3
+        },
+        {
+          "key": "marketing",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "collaborative",
+          "importance": 4
+        },
+        {
+          "trait": "riskTolerant",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "creative",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 10000,
+        "max": 30000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 15000,
+        "max": 25000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 35,
+        "maxWeeklyHours": 45
+      },
+      "communicationStyle": [
+        "enthusiastic",
+        "trustworthy"
+      ],
+      "technicalLevel": 3,
+      "leadershipLevel": 3,
+      "creativityLevel": 4,
+      "salesAffinity": 5,
+      "automationAffinity": 2,
+      "remotePreference": "hybrid",
+      "travelPreference": "frequent",
+      "idealFounderArchetypes": [
+        "theConnector",
+        "theSpecialist"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the genuine frequent-travel requirement and firsthand-expertise positioning in Entrepreneur Fit and Offer Architecture, and the supplier-reliability risk in Risk Analysis — keep pricing and trip specifics concrete.",
+      "ro": "Subliniază cerința reală de călătorie frecventă și poziționarea de expertiză directă, în Potrivirea antreprenorului și Arhitectura ofertei, precum și riscul de fiabilitate a furnizorilor, în Analiza riscurilor — menține prețurile și specificul călătoriilor concrete."
+    },
+    "marketingHints": {
+      "en": "Lead with authentic firsthand trip content and real destination expertise, not generic 'bucket list adventure' stock phrases — this audience can tell the difference between genuine experience and marketing copy.",
+      "ro": "Începe cu conținut autentic, direct, din călătorii, și expertiză reală de destinație, nu cu fraze generice de tipul „aventura vieții tale” — acest public poate deosebi experiența autentică de textul de marketing."
+    },
+    "financialHints": {
+      "en": "Model revenue as a mix of commission/markup on group trips and flat planning fees for independent itineraries, with scouting travel and content production as notable cost lines beyond typical service-business overhead.",
+      "ro": "Modelează veniturile ca un mix de comision/marjă pe călătoriile în grup și onorarii fixe de planificare, pentru itinerarii independente, cu călătoriile de explorare și producția de conținut, drept linii de cost notabile, dincolo de costurile generale tipice ale unei afaceri de servicii."
+    },
+    "generationHints": {
+      "en": "Keep generated tone enthusiastic but credible, grounded in real destination and trip-logistics specifics — never generic travel-brochure language, and never overstate scalability beyond what one founder-led agency can realistically deliver.",
+      "ro": "Menține un ton generat entuziast, dar credibil, fundamentat pe specificul real al destinației și logisticii călătoriei — niciodată limbaj generic de broșură turistică, și nu supraestima niciodată scalabilitatea, dincolo de ce poate livra realist o agenție condusă de un fondator."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Build the initial trusted guide and tour-operator network through personal scouting travel, and secure business registration and liability insurance.",
+            "ro": "Construiește rețeaua inițială de ghizi și operatori de turism de încredere, prin călătorii personale de explorare, și asigură înregistrarea afacerii și asigurarea de răspundere."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Partnering with a guide or operator based on online reviews alone without personally vetting them on the ground.",
+            "ro": "Parteneriatul cu un ghid sau operator, doar pe baza recenziilor online, fără a-l verifica personal, la fața locului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Personally travel with any new guide or tour operator at least once before recommending them to clients.",
+            "ro": "Călătorește personal, cu orice ghid sau operator de turism nou, cel puțin o dată, înainte de a-l recomanda clienților."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.adventureTravelBoutiqueAgency.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Sell and lead a small pilot group trip to prove itinerary quality and on-the-ground logistics.",
+            "ro": "Vinde și condu o mică călătorie pilot, în grup, pentru a demonstra calitatea itinerariului și logistica la fața locului."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Leading a pilot trip to a brand-new, unvetted destination instead of one the founder already knows well.",
+            "ro": "Conducerea unei călătorii pilot, către o destinație complet nouă, neverificată, în loc de una pe care fondatorul o cunoaște deja bine."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Choose the pilot group trip's destination from among the founder's most personally familiar locations.",
+            "ro": "Alege destinația călătoriei pilot în grup, dintre locațiile cele mai familiare, personal, fondatorului."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.adventureTravelBoutiqueAgency.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first full season of custom itinerary bookings and the pilot group trip.",
+            "ro": "Finalizează primul sezon complet de rezervări de itinerarii personalizate și călătoria pilot în grup."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not capturing detailed client feedback after the pilot trip to refine future itineraries.",
+            "ro": "Necaptarea feedback-ului detaliat al clienților, după călătoria pilot, pentru a rafina itinerariile viitoare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Send every client a structured post-trip feedback survey to capture what worked and what didn't.",
+            "ro": "Trimite fiecărui client un sondaj structurat de feedback, după călătorie, pentru a capta ce a funcționat și ce nu."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.adventureTravelBoutiqueAgency.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish firsthand trip content and launch the past-client referral program.",
+            "ro": "Publică conținut direct din călătorii și lansează programul de recomandare a clienților anteriori."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Publishing generic destination content instead of authentic, firsthand trip stories and photos.",
+            "ro": "Publicarea de conținut generic despre destinație, în loc de povești și fotografii autentice, directe, din călătorii."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Publish a detailed firsthand trip recap with real photos after every scouting or led trip.",
+            "ro": "Publică o recapitulare detaliată, directă, a călătoriei, cu fotografii reale, după fiecare călătorie de explorare sau condusă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.adventureTravelBoutiqueAgency.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first client into a repeat booker or an active referral source.",
+            "ro": "Transformă primul client, într-un client recurent sau o sursă activă de recomandare."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not following up with past clients about future trip interest until they've already booked elsewhere.",
+            "ro": "Neurmărirea clienților anteriori, despre interesul pentru călătorii viitoare, până când aceștia au rezervat deja în altă parte."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Reach out to past clients about the next season's trips before opening bookings to new prospects.",
+            "ro": "Contactează clienții anteriori, despre călătoriile sezonului următor, înainte de a deschide rezervările pentru prospecți noi."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.adventureTravelBoutiqueAgency.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable base of repeat and referral clients across at least two signature trip types.",
+            "ro": "Atinge o bază stabilă de clienți recurenți și recomandați, pe cel puțin două tipuri semnătură de călătorie."
+          }
+        ],
+        "kpis": [
+          "customerRetention",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Spreading into too many destinations at once instead of building deep expertise in a focused set of signature trips.",
+            "ro": "Extinderea în prea multe destinații deodată, în loc de a construi o expertiză profundă, pe un set focalizat de călătorii semnătură."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Identify the 2-3 trip types generating the most repeat and referral bookings, and deepen expertise there first.",
+            "ro": "Identifică cele 2-3 tipuri de călătorii, care generează cele mai multe rezervări recurente și recomandate, și aprofundează mai întâi expertiza acolo."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.adventureTravelBoutiqueAgency.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Launch a signature annual small-group trip as an anchor offering.",
+            "ro": "Lansează o călătorie anuală semnătură, în grup mic, ca ofertă de ancorare."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Launching a signature trip without capping group size, losing the intimate, personalized experience that differentiates the agency.",
+            "ro": "Lansarea unei călătorii semnătură, fără a limita dimensiunea grupului, pierzând experiența intimă, personalizată, care diferențiază agenția."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Cap the signature annual trip's group size to preserve the personalized, small-group experience.",
+            "ro": "Limitează dimensiunea grupului călătoriei anuale semnătură, pentru a păstra experiența personalizată, în grup mic."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.adventureTravelBoutiqueAgency.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Bring on a second trip planner or trip leader to extend capacity beyond what the founder can personally deliver.",
+            "ro": "Adu un al doilea planificator sau lider de călătorii, pentru a extinde capacitatea, dincolo de ce poate livra personal fondatorul."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Bringing on a second trip leader without them personally experiencing the destinations they'll be leading trips to.",
+            "ro": "Aducerea unui al doilea lider de călătorii, fără ca acesta să experimenteze personal destinațiile, pentru care va conduce călătorii."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Have any new trip leader personally travel the route with the founder before leading it independently.",
+            "ro": "Determină orice nou lider de călătorii, să parcurgă personal traseul cu fondatorul, înainte de a-l conduce independent."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.adventureTravelBoutiqueAgency.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into an adjacent adventure niche or region once the core signature trips run reliably without founder overload.",
+            "ro": "Extinde-te într-o nișă sau regiune de aventură adiacentă, odată ce călătoriile semnătură de bază rulează fiabil, fără suprasolicitarea fondatorului."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding into a new region before properly vetting a trusted guide network there.",
+            "ro": "Extinderea într-o regiune nouă, înainte de a verifica corespunzător o rețea de ghizi de încredere, acolo."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Apply the same personal-vetting standard to any new region's guide network before marketing trips there.",
+            "ro": "Aplică același standard de verificare personală, oricărei rețele de ghizi dintr-o regiune nouă, înainte de a face marketing pentru călătorii acolo."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.adventureTravelBoutiqueAgency.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the guide and supplier network relationships and client book to package the agency for sale.",
+            "ro": "Documentează relațiile cu rețeaua de ghizi și furnizori și portofoliul de clienți, pentru a pregăti agenția pentru vânzare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping guide and supplier relationships entirely undocumented and personal, making the business impossible to transfer.",
+            "ro": "Menținerea relațiilor cu ghizii și furnizorii, complet nedocumentate și personale, făcând afacerea imposibil de transferat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document every guide and supplier relationship's terms and contact details on an ongoing basis, not just before a sale.",
+            "ro": "Documentează termenii și detaliile de contact ale fiecărei relații cu ghizii și furnizorii, în mod continuu, nu doar înainte de o vânzare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.adventureTravelBoutiqueAgency.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}
