@@ -34,7 +34,7 @@
     "roadmap-view:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/roadmap-view-check.ts",
     "roadmap-self-heal:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/roadmap-self-heal-check.ts",
     "roadmap-engagement:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/roadmap-engagement-check.ts",
-    "expand-roadmap-checklists": "NODE_OPTIONS=--conditions=react-server tsx scripts/expand-roadmap-checklists.ts",
+    "expand-roadmap-checklists": "NODE_OPTIONS=--conditions=react-server tsx --env-file-if-exists=.env scripts/expand-roadmap-checklists.ts",
     "expand-roadmap-checklists:check": "NODE_OPTIONS=--conditions=react-server tsx scripts/expand-roadmap-checklists-check.ts"
   },
   "dependencies": {
