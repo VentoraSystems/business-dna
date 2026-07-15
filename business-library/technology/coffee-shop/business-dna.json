@@ -1,0 +1,946 @@
+{
+  "identity": {
+    "id": "24b35bac-cf11-41d0-ae0b-b1594e011f51",
+    "slug": "coffee-shop",
+    "version": "1.0.0",
+    "name": {
+      "en": "Basalt Coffee Roasters",
+      "ro": "Basalt Coffee Roasters"
+    },
+    "tagline": {
+      "en": "Your daily ritual, done right.",
+      "ro": "Ritualul tău zilnic, făcut cum trebuie."
+    },
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theOperator",
+      "theHustler"
+    ],
+    "summary": {
+      "en": "Best suited to a hands-on operator ready to work the counter alongside staff during a demanding early-morning schedule, with enough hustle to build a local following from a standing start — no formal license is required, but real barista or food-service experience shortens the ramp considerably.",
+      "ro": "Potrivit unui operator implicat direct, pregătit să lucreze la tejghea alături de personal, într-un program solicitant, dimineața devreme, cu suficientă energie pentru a construi o clientelă locală, pornind de la zero — nu este necesară o licență formală, dar experiența reală de barista sau în servicii alimentare scurtează considerabil perioada de acomodare."
+    },
+    "minimumExperienceYears": 1
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 10000,
+      "maxInvestment": 30000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 6000,
+      "ongoingMonthlyCostMax": 14000,
+      "notes": {
+        "en": "Covers the espresso machine and grinders, a compact buildout, initial bean and pastry-case inventory, and a point-of-sale system — a Medium budget tier, well below the full-kitchen capital required for a restaurant elsewhere in this library.",
+        "ro": "Acoperă mașina de espresso și râșnițele, o amenajare compactă, stocul inițial de cafea și vitrina de patiserie, precum și un sistem de punct de vânzare — un nivel de buget mediu, mult sub capitalul necesar pentru o bucătărie completă de restaurant, prezentă în altă parte a acestei biblioteci."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "espressoMachineAndGrinders",
+          "label": {
+            "en": "Espresso machine, grinders, and brewing equipment",
+            "ro": "Mașină de espresso, râșnițe și echipament de preparare"
+          },
+          "typicalMin": 5000,
+          "typicalMax": 14000
+        },
+        {
+          "key": "counterBuildoutAndSeating",
+          "label": {
+            "en": "Counter buildout, furniture, and limited seating",
+            "ro": "Amenajarea tejghelei, mobilier și zonă limitată de locuri"
+          },
+          "typicalMin": 3000,
+          "typicalMax": 9000
+        },
+        {
+          "key": "posSystemAndInitialInventory",
+          "label": {
+            "en": "Point-of-sale system and initial bean/pastry-case inventory",
+            "ro": "Sistem de punct de vânzare și stocul inițial de cafea/vitrină de patiserie"
+          },
+          "typicalMin": 2000,
+          "typicalMax": 7000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "shopLease",
+          "label": {
+            "en": "Shop space lease",
+            "ro": "Chiria spațiului cafenelei"
+          },
+          "typicalMonthlyMin": 2000,
+          "typicalMonthlyMax": 5000
+        },
+        {
+          "key": "baristaStaffWages",
+          "label": {
+            "en": "Barista and shift-lead wages",
+            "ro": "Salariile baristilor și șefului de tură"
+          },
+          "typicalMonthlyMin": 3000,
+          "typicalMonthlyMax": 7000
+        },
+        {
+          "key": "beanMilkAndPastryCogs",
+          "label": {
+            "en": "Coffee bean, milk, and wholesale pastry cost of goods",
+            "ro": "Costul mărfurilor pentru cafea, lapte și patiserie en-gros"
+          },
+          "typicalMonthlyMin": 1000,
+          "typicalMonthlyMax": 2000
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "espressoAndDrinkSales",
+          "label": {
+            "en": "Espresso and brewed-drink sales",
+            "ro": "Vânzări de espresso și băuturi preparate"
+          }
+        },
+        {
+          "key": "packagedBeanRetailSales",
+          "label": {
+            "en": "Packaged whole-bean retail sales",
+            "ro": "Vânzări cu amănuntul de cafea boabe, ambalată"
+          }
+        },
+        {
+          "key": "pastryAndFoodAddOnSales",
+          "label": {
+            "en": "Pastry and food add-on sales",
+            "ro": "Vânzări de patiserie și produse alimentare suplimentare"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 10000,
+      "targetMonthlyIncomeMax": 26000,
+      "breakEvenTimelineMonths": 12,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "fast",
+      "notes": {
+        "en": "Every transaction is a small, immediate cash or card sale at the counter, with no invoicing or payment delay — the fastest cash-collection cycle of any physical-location business in this library.",
+        "ro": "Fiecare tranzacție este o vânzare mică, imediată, cu numerar sau card, la tejghea, fără facturare sau întârziere de plată — cel mai rapid ciclu de încasare a numerarului, dintre afacerile cu locație fizică din această bibliotecă."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate",
+      "notes": {
+        "en": "A high volume of low-ticket transactions keeps margin moderate once bean, milk, and labor costs are covered — thinner than a pure digital service, but healthier than a full-service restaurant's margin.",
+        "ro": "Un volum mare de tranzacții cu bon mic menține marja moderată, odată acoperite costurile de cafea, lapte și personal — mai subțire decât un serviciu pur digital, dar mai sănătoasă decât marja unui restaurant cu serviciu complet."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "inPerson",
+    "travelRequirement": "none",
+    "onlineOffline": "offline",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 45,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 3
+      },
+      {
+        "key": "marketing",
+        "rating": 4
+      },
+      {
+        "key": "leadership",
+        "rating": 4
+      },
+      {
+        "key": "communication",
+        "rating": 7
+      },
+      {
+        "key": "negotiation",
+        "rating": 3
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 7
+      },
+      {
+        "key": "technology",
+        "rating": 3
+      },
+      {
+        "key": "automation",
+        "rating": 2
+      },
+      {
+        "key": "ai",
+        "rating": 1
+      },
+      {
+        "key": "programming",
+        "rating": 1
+      },
+      {
+        "key": "management",
+        "rating": 5
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 45
+      },
+      {
+        "key": "visionary",
+        "score": 20
+      },
+      {
+        "key": "operator",
+        "score": 70
+      },
+      {
+        "key": "creator",
+        "score": 35
+      },
+      {
+        "key": "seller",
+        "score": 30
+      },
+      {
+        "key": "leader",
+        "score": 35
+      },
+      {
+        "key": "analyst",
+        "score": 25
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": false,
+    "isFullyRemote": false,
+    "requiresTravel": false,
+    "isOnlineBusiness": false,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": true,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": true,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": true
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "low",
+      "notes": {
+        "en": "Growth is capped by counter throughput and seating within one location, with a second shop as the main lever beyond that — each new location requires its own full capital investment, not incremental capacity.",
+        "ro": "Creșterea este limitată de capacitatea tejghelei și locurile disponibile, într-o singură locație, o a doua cafenea fiind principala pârghie dincolo de aceasta — fiecare locație nouă necesită propria investiție completă de capital, nu o capacitate incrementală."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "Lower capital and regulatory complexity than a full-service restaurant, but thin per-transaction margins mean the shop must sustain real daily volume to cover lease and labor costs.",
+        "ro": "Complexitate de capital și reglementare mai scăzută decât un restaurant cu serviciu complet, dar marjele reduse per tranzacție înseamnă că cafeneaua trebuie să susțină un volum zilnic real, pentru a acoperi costurile de chirie și personal."
+      }
+    },
+    "aiResistance": {
+      "level": "high",
+      "notes": {
+        "en": "The in-person counter experience and drink-making craft require a human barista and cannot be automated or delivered remotely.",
+        "ro": "Experiența la tejghea, în persoană, și meșteșugul preparării băuturilor necesită un barista uman și nu pot fi automatizate sau furnizate de la distanță."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Thin per-transaction margins mean the shop must sustain real daily foot traffic to cover fixed lease and labor costs, with little buffer for a slow month.",
+          "ro": "Marjele reduse per tranzacție înseamnă că cafeneaua trebuie să susțină un trafic real zilnic, pentru a acoperi costurile fixe de chirie și personal, cu puțină marjă pentru o lună slabă."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "Revenue is heavily dependent on the specific location's foot traffic — a strong concept in a weak location can still fail.",
+          "ro": "Veniturile depind puternic de traficul pietonal al locației specifice — un concept solid, într-o locație slabă, poate eșua totuși."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "Perishable bean, milk, and pastry inventory creates ongoing waste risk if daily ordering isn't closely matched to actual demand.",
+          "ro": "Stocul perisabil de cafea, lapte și patiserie creează un risc continuu de risipă, dacă comanda zilnică nu este strâns corelată cu cererea reală."
+        },
+        "severity": "low"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Your daily ritual, done right — specialty-quality coffee and a genuine neighborhood counter, not a rotating chain-store experience.",
+        "ro": "Ritualul tău zilnic, făcut cum trebuie — cafea de calitate specialty și o tejghea autentică de cartier, nu o experiență de lanț rotativ."
+      },
+      "channels": [
+        {
+          "channelType": "localFootTrafficAndSignage",
+          "description": {
+            "en": "Strong street-level visibility and signage at the physical location, the primary driver of a coffee shop's daily volume.",
+            "ro": "Vizibilitate puternică la stradă și semnalizare, la locația fizică, principalul motor al volumului zilnic al unei cafenele."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "localSocialMediaContent",
+          "description": {
+            "en": "Instagram-style photos of drinks, the space, and seasonal menu items to build local awareness and word of mouth.",
+            "ro": "Fotografii de tip Instagram, cu băuturi, spațiul și articolele de meniu sezoniere, pentru a construi conștientizare locală și recomandare din gură în gură."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "loyaltyPunchCardOrApp",
+          "description": {
+            "en": "A loyalty punch-card or app rewarding frequent visits, as a supplemental, experimental retention channel.",
+            "ro": "O cartelă de fidelitate sau aplicație, care recompensează vizitele frecvente, ca un canal de retenție suplimentar, experimental."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "A single physical location marketing directly to walk-by and neighborhood traffic, with none of the multi-stakeholder or B2B-relationship layering found elsewhere in this library.",
+        "ro": "O singură locație fizică, care face marketing direct către traficul pietonal și din cartier, fără stratificarea multi-factor de decizie sau de relații B2B, prezentă în altă parte a acestei biblioteci."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A walk-in customer orders at the counter and receives their drink within minutes — an impulse, habit-driven purchase with no consideration cycle, the most immediate sales dynamic in this library.",
+        "ro": "Un client care intră comandă la tejghea și își primește băutura în câteva minute — o achiziție bazată pe impuls și obicei, fără ciclu de deliberare, cea mai imediată dinamică de vânzare din această bibliotecă."
+      },
+      "salesCycleLengthDays": 1,
+      "pricingModel": {
+        "en": "Per-item counter pricing (e.g. €3.50 latte, €2.50 drip coffee, €4 pastry), plus €14 retail bags of whole-bean coffee.",
+        "ro": "Preț pe articol, la tejghea (de ex. 3,50 € latte, 2,50 € cafea filtru, 4 € patiserie), plus pungi de cafea boabe, cu amănuntul, de 14 €."
+      }
+    },
+    "salesComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "A single, immediate per-item transaction with no negotiation or financing conversation, the simplest sales dynamic among the physical-location businesses in this library.",
+        "ro": "O singură tranzacție imediată, pe articol, fără negociere sau conversație de finanțare, cea mai simplă dinamică de vânzare, dintre afacerile cu locație fizică din această bibliotecă."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Early-morning opening prep, including brewing setup and pastry-case stocking",
+          "ro": "Pregătirea de deschidere, dimineața devreme, incluzând configurarea preparării și aprovizionarea vitrinei de patiserie"
+        },
+        {
+          "en": "Counter service through the morning rush and steady daytime traffic",
+          "ro": "Serviciul la tejghea, în timpul aglomerației de dimineață și traficul constant din timpul zilei"
+        },
+        {
+          "en": "Daily bean, milk, and pastry inventory ordering to match perishable stock to demand",
+          "ro": "Comanda zilnică a stocului de cafea, lapte și patiserie, pentru a corela stocul perisabil cu cererea"
+        },
+        {
+          "en": "End-of-day point-of-sale reconciliation and health-code cleaning protocols",
+          "ro": "Reconcilierea punctului de vânzare, la finalul zilei, și protocoalele de curățenie conform codului sanitar"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "An early open ahead of the morning commuter rush, a barista and shift lead working the counter through peak hours, with quieter midday and afternoon stretches for restocking and prep, closing with cash reconciliation and cleaning.",
+        "ro": "O deschidere matinală, înainte de aglomerația navetiștilor de dimineață, un barista și un șef de tură lucrând la tejghea, în orele de vârf, cu intervale mai liniștite la prânz și după-amiaza, pentru reaprovizionare și pregătire, închiderea fiind marcată de reconcilierea numerarului și curățenie."
+      },
+      "fulfillmentModel": {
+        "en": "A founding operator working the counter alongside at least one barista, delivering espresso and brewed drinks, packaged beans, and a small wholesale pastry case within a single physical location.",
+        "ro": "Un operator fondator, care lucrează la tejghea, alături de cel puțin un barista, oferind espresso și băuturi preparate, cafea ambalată și o vitrină mică de patiserie en-gros, într-o singură locație fizică."
+      }
+    },
+    "automation": {
+      "level": "low",
+      "notes": {
+        "en": "Point-of-sale reporting and loyalty-app tracking are automated, but drink preparation and customer service remain fully manual and staff-led.",
+        "ro": "Raportarea punctului de vânzare și urmărirea aplicației de fidelitate sunt automatizate, dar prepararea băuturilor și serviciul pentru clienți rămân complet manuale și conduse de personal."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "inventoryOrderingAssistance",
+          "description": {
+            "en": "AI-assisted demand forecasting suggests daily bean, milk, and pastry order quantities based on recent sales patterns to reduce waste.",
+            "ro": "Previziunea cererii, asistată de AI, sugerează cantitățile zilnice de comandă pentru cafea, lapte și patiserie, pe baza tiparelor recente de vânzare, pentru a reduce risipa."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "Square",
+        "category": "posAndPayments",
+        "isRequired": true,
+        "websiteUrl": "https://squareup.com/"
+      },
+      {
+        "name": "7shifts",
+        "category": "staffScheduling",
+        "isRequired": false,
+        "websiteUrl": "https://www.7shifts.com/"
+      },
+      {
+        "name": "Fivestars",
+        "category": "loyaltyAndRetention",
+        "isRequired": false,
+        "websiteUrl": "https://www.fivestars.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 24,
+      "notes": {
+        "en": "Growth is gated by counter throughput and seating within one shop, with a second location as the main lever beyond that — a shorter time horizon than a restaurant, reflecting the faster ramp and lower capital of a coffee shop.",
+        "ro": "Creșterea este limitată de capacitatea tejghelei și locurile disponibile, într-o singură cafenea, o a doua locație fiind principala pârghie dincolo de aceasta — un orizont de timp mai scurt decât un restaurant, reflectând rampa mai rapidă și capitalul mai scăzut al unei cafenele."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Build a stable base of daily regulars at the first location first, grow packaged bean retail and pastry add-on revenue as a share of total sales, then evaluate a second location once the first is consistently profitable.",
+        "ro": "Construiește mai întâi o bază stabilă de clienți fideli zilnici, la prima locație, crește veniturile din cafeaua ambalată cu amănuntul și produsele suplimentare de patiserie, ca pondere din vânzările totale, apoi evaluează o a doua locație, odată ce prima este constant profitabilă."
+      },
+      "bottlenecks": [
+        {
+          "en": "Counter and seating capacity within the leased space hard-caps peak-hour throughput.",
+          "ro": "Capacitatea tejghelei și a locurilor disponibile, din spațiul închiriat, plafonează dur capacitatea din orele de vârf."
+        },
+        {
+          "en": "Recruiting reliable baristas willing to work early-morning shifts requires ongoing effort in a high-turnover role.",
+          "ro": "Recrutarea unor baristi de încredere, dispuși să lucreze ture de dimineață devreme, necesită efort continuu, într-un rol cu fluctuație mare de personal."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 12,
+          "description": {
+            "en": "The shop reaches break-even with a stable base of daily regulars driving the morning rush.",
+            "ro": "Cafeneaua atinge pragul de rentabilitate, cu o bază stabilă de clienți fideli zilnici, care susțin aglomerația de dimineață."
+          }
+        },
+        {
+          "monthsFromLaunch": 24,
+          "description": {
+            "en": "A second location or an expanded seating/menu footprint is evaluated based on the first shop's consistent profitability.",
+            "ro": "O a doua locație sau o extindere a locurilor/meniului este evaluată, pe baza profitabilității constante a primei cafenele."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "High repeat-visit frequency — regulars often stop by multiple times a week — builds meaningful customer lifetime value despite each individual ticket being small.",
+          "ro": "Frecvența ridicată a vizitelor repetate — clienții fideli trec adesea de mai multe ori pe săptămână — construiește o valoare semnificativă pe durata de viață a clientului, în ciuda bonului individual mic."
+        }
+      },
+      {
+        "description": {
+          "en": "Recession-resistant demand — a daily coffee is a small, affordable indulgence that customers rarely cut even when trimming other spending.",
+          "ro": "Cerere rezistentă la recesiune — o cafea zilnică este o mică indulgență accesibilă, pe care clienții o renunță rareori, chiar și atunci când reduc alte cheltuieli."
+        }
+      },
+      {
+        "description": {
+          "en": "A genuine specialty-coffee and neighborhood-counter identity differentiates against both large chain coffee stores and convenience-store coffee.",
+          "ro": "O identitate autentică de cafea specialty și tejghea de cartier diferențiază afacerea, atât de marile lanțuri de cafenele, cât și de cafeaua din magazinele de proximitate."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A neighborhood specialty coffee shop built around counter-service espresso and brewed coffee, a curated bean program, and a small pastry case, serving a quick daily-habit occasion rather than a dining occasion. Business-planning content only.",
+        "ro": "O cafenea specialty de cartier, construită în jurul serviciului de espresso și cafea preparată la tejghea, un program curatoriat de cafea și o vitrină mică de patiserie, care servește o nevoie rapidă, de obicei zilnic, nu o ocazie de servire a mesei. Doar conținut de planificare a afacerii."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.coffeeShop.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.coffeeShop.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.coffeeShop.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.coffeeShop.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep daily and weekly regulars returning consistently to drive the morning rush.",
+          "ro": "Menține clienții fideli zilnici și săptămânali revenind constant, pentru a susține aglomerația de dimineață."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against bean, milk, and pastry cost of goods.",
+          "ro": "Protejează marja brută împotriva costului mărfurilor pentru cafea, lapte și patiserie."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert street-level foot traffic and first-time visitors into repeat daily customers.",
+          "ro": "Transformă traficul pietonal și vizitatorii pentru prima dată, în clienți zilnici recurenți."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep regular-customer attrition low through consistent quality and a genuine neighborhood counter experience.",
+          "ro": "Menține atriția clienților fideli scăzută, prin calitate constantă și o experiență autentică de tejghea de cartier."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "management",
+          "importance": 4
+        },
+        {
+          "key": "communication",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "marketing",
+          "importance": 3
+        },
+        {
+          "key": "sales",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "persistent",
+          "importance": 4
+        },
+        {
+          "trait": "resilient",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "collaborative",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 10000,
+        "max": 30000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 15000,
+        "max": 25000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 45,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "warm",
+        "energetic"
+      ],
+      "technicalLevel": 2,
+      "leadershipLevel": 3,
+      "creativityLevel": 3,
+      "salesAffinity": 3,
+      "automationAffinity": 2,
+      "remotePreference": "inPerson",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theOperator",
+        "theHustler"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the fast daily-transaction cash cycle and the Medium capital tier in the Financial Overview section, and the specialty-quality/neighborhood-counter differentiator against chain coffee in Offer Architecture — keep all content strictly business-planning.",
+      "ro": "Subliniază ciclul rapid de numerar din tranzacțiile zilnice și nivelul mediu de capital, în secțiunea Prezentare financiară, precum și diferențiatorul de calitate specialty/tejghea de cartier, față de lanțurile de cafenele, în Arhitectura ofertei — menține tot conținutul strict de planificare a afacerii."
+    },
+    "marketingHints": {
+      "en": "Lead with the specialty-quality bean program and the genuine neighborhood-counter identity, not generic 'best coffee in town' stock phrases — emphasize the daily-ritual occasion, not a destination dining experience.",
+      "ro": "Începe cu programul de cafea de calitate specialty și identitatea autentică de tejghea de cartier, nu cu fraze generice de tipul „cea mai bună cafea din oraș” — subliniază ocazia ritualului zilnic, nu o experiență de destinație culinară."
+    },
+    "financialHints": {
+      "en": "Model revenue as a high volume of small, immediate cash transactions with bean/milk/labor as the dominant cost lines — the fastest cash-collection cycle and lowest capital tier among the physical-location businesses in this library.",
+      "ro": "Modelează veniturile ca un volum mare de tranzacții mici, imediate, cu numerar, cu cafea/lapte/personal drept costurile dominante — cel mai rapid ciclu de încasare a numerarului și cel mai scăzut nivel de capital, dintre afacerile cu locație fizică din această bibliotecă."
+    },
+    "generationHints": {
+      "en": "Keep generated tone warm, energetic, and grounded in real counter-service specifics — never generic 'cozy coffee shop' stock phrases, and never overstate scalability beyond a single well-run location.",
+      "ro": "Menține un ton generat cald, energic și fundamentat pe specificul real al serviciului la tejghea — niciodată fraze generice de tipul „cafenea primitoare”, și nu supraestima niciodată scalabilitatea, dincolo de o singură locație bine gestionată."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Secure shop financing, complete the counter buildout, and obtain food-service permits and health-department approval.",
+            "ro": "Asigură finanțarea cafenelei, finalizează amenajarea tejghelei și obține autorizațiile de servicii alimentare și aprobarea de la departamentul de sănătate."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Signing a lease before confirming the location has enough genuine foot traffic to support daily coffee-shop volume.",
+            "ro": "Semnarea unui contract de închiriere, înainte de a confirma că locația are suficient trafic pietonal real, pentru a susține volumul zilnic al unei cafenele."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Observe foot traffic at the target location at different times of day for at least a week before signing a lease.",
+            "ro": "Observă traficul pietonal, la locația țintă, în diferite momente ale zilei, timp de cel puțin o săptămână, înainte de a semna un contract de închiriere."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coffeeShop.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Test the coffee and menu concept locally through a pop-up or farmers-market stand before committing to a full lease.",
+            "ro": "Testează local conceptul de cafea și meniu, printr-un stand pop-up sau la o piață de fermieri, înainte de a te angaja la un contract de închiriere complet."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Committing to a full lease and buildout before validating that the specific bean program and pricing resonate with local customers.",
+            "ro": "Angajarea la un contract de închiriere și amenajare completă, înainte de a valida că programul specific de cafea și prețurile rezonează cu clienții locali."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Run at least 4 weekends of pop-up or market sales to confirm demand and pricing before signing a lease.",
+            "ro": "Realizează cel puțin 4 weekenduri de vânzări pop-up sau la piață, pentru a confirma cererea și prețurile, înainte de a semna un contract de închiriere."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coffeeShop.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first month of counter service with a soft opening before the full public launch.",
+            "ro": "Finalizează prima lună de serviciu la tejghea, cu o deschidere discretă, înainte de lansarea publică completă."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Launching publicly before staff and equipment workflows are smooth enough to handle a real morning rush.",
+            "ro": "Lansarea publică, înainte ca fluxurile de lucru ale personalului și echipamentului să fie suficient de fluide, pentru a gestiona o aglomerație reală de dimineață."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Run at least 2 weeks of soft-opening service to friends, family, and neighbors before the full public launch.",
+            "ro": "Realizează cel puțin 2 săptămâni de serviciu de deschidere discretă, pentru prieteni, familie și vecini, înainte de lansarea publică completă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coffeeShop.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Launch the full public opening with local social media content and neighborhood signage.",
+            "ro": "Lansează deschiderea publică completă, cu conținut de rețele sociale locale și semnalizare de cartier."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Relying solely on signage for awareness instead of also building local social media content ahead of opening day.",
+            "ro": "Bazarea exclusiv pe semnalizare, pentru conștientizare, în loc să construiască și conținut de rețele sociale locale, înainte de ziua deschiderii."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Post local social media content in the two weeks leading up to the grand opening to build anticipation.",
+            "ro": "Publică conținut de rețele sociale locale, în cele două săptămâni dinaintea marii deschideri, pentru a construi anticipare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coffeeShop.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert first-time visitors into recognized daily or weekly regulars.",
+            "ro": "Transformă vizitatorii pentru prima dată, în clienți fideli zilnici sau săptămânali, recunoscuți."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not personally learning regular customers' names and usual orders early on, missing an easy loyalty-building opportunity.",
+            "ro": "Neînvățarea personală, din timp, a numelor și comenzilor obișnuite ale clienților fideli, ratând o oportunitate ușoară de a construi fidelitate."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Have baristas actively learn and greet regular customers by name and usual order from the first weeks of opening.",
+            "ro": "Determină baristii să învețe activ și să salute clienții fideli, pe nume și cu comanda obișnuită, încă din primele săptămâni de la deschidere."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coffeeShop.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable base of daily regulars driving consistent morning-rush volume.",
+            "ro": "Atinge o bază stabilă de clienți fideli zilnici, care susțin un volum constant în aglomerația de dimineață."
+          }
+        ],
+        "kpis": [
+          "customerRetention",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding the menu significantly before confirming the core espresso and brewed-coffee offer has found a stable regular base.",
+            "ro": "Extinderea semnificativă a meniului, înainte de a confirma că oferta principală de espresso și cafea preparată a găsit o bază stabilă de clienți fideli."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track the share of transactions from recognized regulars monthly to confirm a stable base is forming.",
+            "ro": "Urmărește lunar ponderea tranzacțiilor de la clienți fideli recunoscuți, pentru a confirma că se formează o bază stabilă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coffeeShop.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Grow packaged whole-bean retail and pastry add-on sales as a share of total revenue.",
+            "ro": "Crește vânzările cu amănuntul de cafea boabe ambalată și produsele suplimentare de patiserie, ca pondere din veniturile totale."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not actively suggesting whole-bean retail bags to regulars who already trust the shop's coffee quality.",
+            "ro": "Neoferirea activă de pungi de cafea boabe cu amănuntul, clienților fideli, care au deja încredere în calitatea cafelei cafenelei."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Train baristas to mention whole-bean retail bags to regulars at least once every few visits.",
+            "ro": "Instruiește baristii să menționeze pungile de cafea boabe cu amănuntul, clienților fideli, cel puțin o dată la câteva vizite."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coffeeShop.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Add a shift lead or additional barista to extend opening hours or peak-hour capacity.",
+            "ro": "Adaugă un șef de tură sau un barista suplimentar, pentru a extinde orele de deschidere sau capacitatea din orele de vârf."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Extending hours or adding staff before confirming the additional labor cost is covered by real incremental demand.",
+            "ro": "Extinderea orelor sau adăugarea de personal, înainte de a confirma că costul suplimentar de personal este acoperit de cererea incrementală reală."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track hourly sales data for at least a month before deciding whether to extend hours or add a shift.",
+            "ro": "Urmărește datele de vânzări pe oră, timp de cel puțin o lună, înainte de a decide dacă extinzi orele sau adaugi o tură."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coffeeShop.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Evaluate opening a second location once the first shop is consistently profitable and fully staffed.",
+            "ro": "Evaluează deschiderea unei a doua locații, odată ce prima cafenea este constant profitabilă și complet dotată cu personal."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Opening a second location before the first shop can run smoothly without the founder's daily hands-on presence.",
+            "ro": "Deschiderea unei a doua locații, înainte ca prima cafenea să poată funcționa fluent, fără prezența zilnică, implicată direct, a fondatorului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the first shop runs profitably with a trained shift lead covering the founder's absence before opening a second location.",
+            "ro": "Confirmă că prima cafenea funcționează profitabil, cu un șef de tură instruit, care acoperă absența fondatorului, înainte de a deschide o a doua locație."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coffeeShop.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the lease, equipment, staff structure, and sales records to package the shop for sale to another operator.",
+            "ro": "Documentează contractul de închiriere, echipamentul, structura personalului și evidențele de vânzări, pentru a pregăti cafeneaua pentru vânzare, către un alt operator."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Waiting until a sale opportunity appears to start documenting equipment maintenance and sales history properly.",
+            "ro": "Așteptarea apariției unei oportunități de vânzare, pentru a începe documentarea corespunzătoare a întreținerii echipamentului și istoricului de vânzări."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, complete equipment and sales records on an ongoing basis, not just before a sale.",
+            "ro": "Menține evidențe curate și complete ale echipamentului și vânzărilor, în mod continuu, nu doar înainte de o vânzare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.coffeeShop.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

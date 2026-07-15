@@ -1,0 +1,141 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "espressoMachineAndGrinders",
+      "counterBuildoutAndSeating",
+      "posSystemAndInitialInventory"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "shopLease",
+      "baristaStaffWages"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "beanMilkAndPastryCogs",
+      "packagingAndDisposables",
+      "equipmentMaintenanceAndDescaling"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "espressoAndDrinkSales",
+        "label": {
+          "en": "Espresso and brewed-drink sales",
+          "ro": "Vânzări de espresso și băuturi preparate"
+        }
+      },
+      {
+        "key": "packagedBeanRetailSales",
+        "label": {
+          "en": "Packaged whole-bean retail sales",
+          "ro": "Vânzări cu amănuntul de cafea boabe, ambalată"
+        }
+      },
+      {
+        "key": "pastryAndFoodAddOnSales",
+        "label": {
+          "en": "Pastry and food add-on sales",
+          "ro": "Vânzări de patiserie și produse alimentare suplimentare"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageTicketValue": "currency",
+      "transactionsPerDay": "number",
+      "retailBeanAttachRatePercent": "percent",
+      "pastryAttachRatePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "dailyTransactionGrowthPercent": "percent",
+      "regularCustomerSharePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.coffeeShop.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "dailyCounterSalesInflow",
+      "retailBeanSalesInflow",
+      "leaseAndPayrollOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 12,
+    "notesTranslationKey": "businessLibrary.coffeeShop.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 62,
+    "notesTranslationKey": "businessLibrary.coffeeShop.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 12,
+    "notesTranslationKey": "businessLibrary.coffeeShop.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "baristaRecruitingAndTraining",
+      "shiftLeadOnboarding"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "signageAndLocalPrint",
+      "localSocialMediaContent"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxOnStaff"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "customerRetention",
+      "grossMargin",
+      "leadConversion",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 7000,
+      "notesTranslationKey": "businessLibrary.coffeeShop.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 16000,
+      "notesTranslationKey": "businessLibrary.coffeeShop.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 26000,
+      "notesTranslationKey": "businessLibrary.coffeeShop.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.coffeeShop.financial.risks.risk1",
+        "severity": "moderate"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.coffeeShop.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.coffeeShop.financial.aiMetadata.generationHints"
+  }
+}

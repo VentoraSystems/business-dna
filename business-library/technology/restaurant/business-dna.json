@@ -1,0 +1,946 @@
+{
+  "identity": {
+    "id": "83458543-2645-4bd8-bf18-aefeb0932e42",
+    "slug": "restaurant",
+    "version": "1.0.0",
+    "name": {
+      "en": "Ember & Oak",
+      "ro": "Ember & Oak"
+    },
+    "tagline": {
+      "en": "Seasonal, scratch-made, and worth the reservation.",
+      "ro": "Sezonier, gătit de la zero, merită rezervarea."
+    },
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theOperator",
+      "theVisionary"
+    ],
+    "summary": {
+      "en": "Best suited to a hands-on operator with real kitchen or restaurant-management experience, ready to lead a much larger front-of-house and back-of-house team through notoriously demanding hours — this is the highest-capital, highest-staffing-complexity business in this library, and assumes real culinary or hospitality-management competence is already in place.",
+      "ro": "Potrivit unui operator implicat direct, cu experiență reală în bucătărie sau management de restaurant, pregătit să conducă o echipă mult mai mare, de sală și de bucătărie, printr-un program notoriu solicitant — aceasta este afacerea cu cel mai ridicat capital și cea mai ridicată complexitate de personal din această bibliotecă, și presupune că o competență reală culinară sau de management ospitalier este deja în vigoare."
+    },
+    "minimumExperienceYears": 3
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 30000,
+      "maxInvestment": 75000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 20000,
+      "ongoingMonthlyCostMax": 45000,
+      "notes": {
+        "en": "Covers commercial kitchen equipment, dining-room buildout, a full bar setup, and liquor licensing — a High budget tier, well above a coffee shop's capital requirement but below the most capital-intensive licensed-clinical practices elsewhere in this library.",
+        "ro": "Acoperă echipamentul de bucătărie comercială, amenajarea sălii de mese, configurarea completă a barului și licențierea pentru alcool — un nivel de buget ridicat, mult peste cerința de capital a unei cafenele, dar sub cele mai intensive practici clinice licențiate din altă parte a acestei biblioteci."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "commercialKitchenEquipment",
+          "label": {
+            "en": "Commercial kitchen equipment (range, hood/ventilation, walk-in cooler)",
+            "ro": "Echipament de bucătărie comercială (plită, hotă/ventilație, cameră frigorifică)"
+          },
+          "typicalMin": 15000,
+          "typicalMax": 35000
+        },
+        {
+          "key": "diningRoomAndBarBuildout",
+          "label": {
+            "en": "Dining room and bar buildout and furnishings",
+            "ro": "Amenajarea și mobilarea sălii de mese și a barului"
+          },
+          "typicalMin": 10000,
+          "typicalMax": 25000
+        },
+        {
+          "key": "liquorLicensingAndPosSystem",
+          "label": {
+            "en": "Liquor licensing and point-of-sale/reservation system",
+            "ro": "Licențierea pentru alcool și sistemul de punct de vânzare/rezervări"
+          },
+          "typicalMin": 5000,
+          "typicalMax": 15000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "restaurantLease",
+          "label": {
+            "en": "Restaurant space lease",
+            "ro": "Chiria spațiului de restaurant"
+          },
+          "typicalMonthlyMin": 4000,
+          "typicalMonthlyMax": 9000
+        },
+        {
+          "key": "fohAndBohStaffWages",
+          "label": {
+            "en": "Front-of-house and back-of-house staff wages (chef, line cooks, servers, host, dishwasher)",
+            "ro": "Salariile personalului de sală și bucătărie (bucătar-șef, ajutori de bucătărie, chelneri, gazdă, spălător vase)"
+          },
+          "typicalMonthlyMin": 12000,
+          "typicalMonthlyMax": 28000
+        },
+        {
+          "key": "foodAndBeverageCogs",
+          "label": {
+            "en": "Food and beverage cost of goods",
+            "ro": "Costul mărfurilor pentru alimente și băuturi"
+          },
+          "typicalMonthlyMin": 4000,
+          "typicalMonthlyMax": 9000
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "dineInFoodAndBeverageSales",
+          "label": {
+            "en": "Dine-in food and beverage sales",
+            "ro": "Vânzări de alimente și băuturi, cu servire la masă"
+          }
+        },
+        {
+          "key": "barAndAlcoholSales",
+          "label": {
+            "en": "Full-bar and alcohol sales",
+            "ro": "Vânzări de la bar complet și de alcool"
+          }
+        },
+        {
+          "key": "privateEventAndCateringBookings",
+          "label": {
+            "en": "Private event and catering bookings",
+            "ro": "Rezervări pentru evenimente private și catering"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 35000,
+      "targetMonthlyIncomeMax": 90000,
+      "breakEvenTimelineMonths": 18,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Card and cash payments settle at time of service like a coffee shop, but the reservation-based, slower table-turn dynamic of a full dinner service makes revenue timing less immediate and less predictable than counter service.",
+        "ro": "Plățile cu cardul și numerar se decontează la momentul serviciului, ca la o cafenea, dar dinamica bazată pe rezervări, cu rotație mai lentă a meselor, dintr-un serviciu complet de cină, face ca sincronizarea veniturilor să fie mai puțin imediată și mai puțin previzibilă decât serviciul la tejghea."
+      }
+    },
+    "profitMargin": {
+      "level": "low",
+      "notes": {
+        "en": "High fixed front-of-house and back-of-house labor costs alongside real food and beverage COGS keep margin thin — the famously tight-margin business model of the restaurant industry.",
+        "ro": "Costurile fixe ridicate de personal, de sală și bucătărie, alături de costul real al mărfurilor pentru alimente și băuturi, mențin marja redusă — modelul de afaceri, notoriu cu marjă strânsă, al industriei restaurantelor."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "inPerson",
+    "travelRequirement": "none",
+    "onlineOffline": "offline",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 55,
+    "maxWeeklyHours": 65,
+    "freedomLevel": 1
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 2
+      },
+      {
+        "key": "marketing",
+        "rating": 4
+      },
+      {
+        "key": "leadership",
+        "rating": 8
+      },
+      {
+        "key": "communication",
+        "rating": 7
+      },
+      {
+        "key": "negotiation",
+        "rating": 5
+      },
+      {
+        "key": "finance",
+        "rating": 7
+      },
+      {
+        "key": "operations",
+        "rating": 9
+      },
+      {
+        "key": "technology",
+        "rating": 3
+      },
+      {
+        "key": "automation",
+        "rating": 2
+      },
+      {
+        "key": "ai",
+        "rating": 1
+      },
+      {
+        "key": "programming",
+        "rating": 1
+      },
+      {
+        "key": "management",
+        "rating": 8
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 50
+      },
+      {
+        "key": "visionary",
+        "score": 40
+      },
+      {
+        "key": "operator",
+        "score": 75
+      },
+      {
+        "key": "creator",
+        "score": 35
+      },
+      {
+        "key": "seller",
+        "score": 20
+      },
+      {
+        "key": "leader",
+        "score": 55
+      },
+      {
+        "key": "analyst",
+        "score": 40
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": false,
+    "isFullyRemote": false,
+    "requiresTravel": false,
+    "isOnlineBusiness": false,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": true,
+    "requiresPhysicalLocation": true,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": true,
+    "requiresInventory": true,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "low",
+      "notes": {
+        "en": "Growth is capped by dining-room seating and kitchen throughput within one location, with a second restaurant requiring its own full capital investment and staffing buildout, not incremental capacity.",
+        "ro": "Creșterea este limitată de locurile din sala de mese și capacitatea bucătăriei, într-o singură locație, un al doilea restaurant necesitând propria investiție completă de capital și amenajare de personal, nu o capacitate incrementală."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high",
+      "notes": {
+        "en": "The highest combination of capital requirement, staffing complexity, and regulatory burden (food-service permitting plus liquor licensing) of the two physical food-service businesses in this library.",
+        "ro": "Cea mai ridicată combinație de cerință de capital, complexitate de personal și povară de reglementare (autorizare pentru servicii alimentare, plus licențiere pentru alcool), dintre cele două afaceri fizice de servicii alimentare din această bibliotecă."
+      }
+    },
+    "aiResistance": {
+      "level": "high",
+      "notes": {
+        "en": "Scratch cooking and hands-on hospitality service require a skilled, in-person kitchen and front-of-house team and cannot be automated or delivered remotely.",
+        "ro": "Gătitul de la zero și serviciul de ospitalitate practic necesită o echipă calificată, de bucătărie și sală, prezentă fizic, și nu pot fi automatizate sau furnizate de la distanță."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Notoriously thin restaurant industry margins amplify any revenue shortfall into a cash crisis faster than in a lower-fixed-cost business.",
+          "ro": "Marjele notoriu reduse ale industriei restaurantelor amplifică orice deficit de venituri, într-o criză de numerar, mai rapid decât într-o afacere cu costuri fixe mai scăzute."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "High fixed front-of-house and back-of-house labor costs create a high break-even revenue floor regardless of how many covers are actually served on a given night.",
+          "ro": "Costurile fixe ridicate de personal, de sală și bucătărie, creează un prag ridicat de venituri pentru pragul de rentabilitate, indiferent de câte mese sunt efectiv servite, într-o anumită seară."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Liquor licensing and food-safety compliance add real regulatory lead time and cost before opening, on top of standard business registration.",
+          "ro": "Licențierea pentru alcool și conformitatea de siguranță alimentară adaugă un timp real de pregătire de reglementare și costuri, înainte de deschidere, pe lângă înregistrarea standard a afacerii."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Seasonal, scratch-made, and worth the reservation — a dependable neighborhood dinner destination for date nights, celebrations, and a reliable weekend go-to.",
+        "ro": "Sezonier, gătit de la zero și merită rezervarea — o destinație de cină de cartier, de încredere, pentru seri romantice, sărbători și o alegere sigură de weekend."
+      },
+      "channels": [
+        {
+          "channelType": "reservationPlatformAndLocalPressVisibility",
+          "description": {
+            "en": "Listing on a reservation platform and coverage from local food press or bloggers, the primary driver of new-diner discovery.",
+            "ro": "Listarea pe o platformă de rezervări și acoperirea din presa culinară locală sau bloggeri, principalul motor al descoperirii de noi clienți."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "seasonalMenuSocialContent",
+          "description": {
+            "en": "Instagram-style food photography of the seasonal menu and dining room to build local awareness and anticipation.",
+            "ro": "Fotografii de tip Instagram, cu meniul sezonier și sala de mese, pentru a construi conștientizare locală și anticipare."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "privateEventAndCateringOutreach",
+          "description": {
+            "en": "Direct outreach to local businesses and event planners about private dining and catering bookings, as a supplemental, experimental revenue channel.",
+            "ro": "Contactare directă a companiilor locale și organizatorilor de evenimente, despre rezervări pentru cine private și catering, ca un canal suplimentar, experimental, de venituri."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Requires managing reservation-platform presence and press relationships alongside diner-facing marketing, more layered than a coffee shop's pure walk-in traffic model.",
+        "ro": "Necesită gestionarea prezenței pe platforma de rezervări și a relațiilor cu presa, alături de marketingul orientat către clienți, mai stratificat decât modelul pur de trafic spontan al unei cafenele."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A prospective diner books a table through a reservation platform or phone call and arrives for a seated dinner experience — a short, planned-occasion cycle, distinct from a coffee shop's instant impulse purchase.",
+        "ro": "Un client potențial rezervă o masă printr-o platformă de rezervări sau apel telefonic și vine pentru o experiență de cină cu servire la masă — un ciclu scurt, de ocazie planificată, distinct de achiziția instantanee, de impuls, a unei cafenele."
+      },
+      "salesCycleLengthDays": 3,
+      "pricingModel": {
+        "en": "Per-cover average check of €45-65 including drinks (entrées €22-32), plus a €1,500 minimum spend for private dining-room event bookings.",
+        "ro": "Bon mediu per client de 45-65 €, incluzând băuturi (feluri principale 22-32 €), plus o cheltuială minimă de 1.500 € pentru rezervările de evenimente în sala privată."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Private event and catering bookings require a real proposal and minimum-spend negotiation, more involved than a standard dine-in reservation.",
+        "ro": "Rezervările pentru evenimente private și catering necesită o propunere reală și o negociere a cheltuielii minime, mai complexă decât o rezervare standard de cină."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Daily prep and mise en place ahead of dinner service",
+          "ro": "Pregătirea zilnică și mise en place, înaintea serviciului de cină"
+        },
+        {
+          "en": "Dinner service execution coordinated across front-of-house and back-of-house",
+          "ro": "Executarea serviciului de cină, coordonat între sală și bucătărie"
+        },
+        {
+          "en": "Reservation and table management across the dining room",
+          "ro": "Gestionarea rezervărilor și meselor, în întreaga sală de mese"
+        },
+        {
+          "en": "Vendor and purveyor ordering, receiving, and food-safety compliance checks",
+          "ro": "Comanda și recepția de la furnizori, precum și verificările de conformitate a siguranței alimentare"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "A daytime prep shift building mise en place, an evening dinner service with the chef running the kitchen line and servers managing the dining room under a host coordinating reservations, closing with kitchen breakdown, cleaning, and next-day ordering.",
+        "ro": "O tură de zi, de pregătire mise en place, un serviciu de cină seara, cu bucătarul-șef conducând linia de bucătărie și chelnerii gestionând sala de mese, sub coordonarea unei gazde, care gestionează rezervările, închiderea fiind marcată de dezasamblarea bucătăriei, curățenie și comanda pentru ziua următoare."
+      },
+      "fulfillmentModel": {
+        "en": "A chef-led kitchen team supported by line cooks and a dishwasher, and a front-of-house team of servers and a host, delivering a full seasonal dinner menu and bar program within a single dining room.",
+        "ro": "O echipă de bucătărie condusă de bucătarul-șef, susținută de ajutori de bucătărie și un spălător de vase, și o echipă de sală formată din chelneri și o gazdă, oferind un meniu complet sezonier de cină și un program de bar, într-o singură sală de mese."
+      }
+    },
+    "automation": {
+      "level": "low",
+      "notes": {
+        "en": "Reservation confirmations and inventory-reorder alerts are automated, but every dish cooked and every table served remains fully manual and staff-led.",
+        "ro": "Confirmările de rezervări și alertele de recomandare a stocului sunt automatizate, dar fiecare fel gătit și fiecare masă servită rămân complet manuale și conduse de personal."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "inventoryAndPurchasingForecasting",
+          "description": {
+            "en": "AI-assisted purchasing forecasts suggest ingredient order quantities based on recent covers and menu mix to reduce food waste.",
+            "ro": "Previziunile de achiziții, asistate de AI, sugerează cantitățile de comandă a ingredientelor, pe baza numărului recent de clienți și mixului de meniu, pentru a reduce risipa alimentară."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "low"
+    },
+    "recommendedTools": [
+      {
+        "name": "Toast",
+        "category": "posAndKitchenDisplay",
+        "isRequired": true,
+        "websiteUrl": "https://pos.toasttab.com/"
+      },
+      {
+        "name": "OpenTable",
+        "category": "reservationsAndTableManagement",
+        "isRequired": true,
+        "websiteUrl": "https://www.opentable.com/"
+      },
+      {
+        "name": "MarketMan",
+        "category": "inventoryAndPurchasing",
+        "isRequired": false,
+        "websiteUrl": "https://www.marketman.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30,
+      "notes": {
+        "en": "Growth is gated by dining-room seating and kitchen throughput within one location, with private-event/catering revenue and a second location as the main levers beyond that — a longer time horizon than a coffee shop, reflecting the slower ramp and higher capital of a full-service restaurant.",
+        "ro": "Creșterea este limitată de locurile din sala de mese și capacitatea bucătăriei, într-o singură locație, veniturile din evenimente private/catering și o a doua locație fiind principalele pârghii dincolo de aceasta — un orizont de timp mai lung decât o cafenea, reflectând rampa mai lentă și capitalul mai ridicat al unui restaurant cu serviciu complet."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Build a stable base of weekend reservation volume and weekday covers at the first location first, grow private-event and catering bookings as incremental revenue, then add a sous chef or kitchen manager to reduce the founder's nightly hands-on load before considering a second location.",
+        "ro": "Construiește mai întâi o bază stabilă de volum de rezervări de weekend și clienți în zilele lucrătoare, la prima locație, crește rezervările pentru evenimente private și catering, ca venit incremental, apoi adaugă un sous chef sau manager de bucătărie, pentru a reduce sarcina zilnică, implicată direct, a fondatorului, înainte de a lua în considerare o a doua locație."
+      },
+      "bottlenecks": [
+        {
+          "en": "Dining-room seating and kitchen line capacity within the leased space hard-caps nightly covers served.",
+          "ro": "Capacitatea locurilor din sala de mese și a liniei de bucătărie, din spațiul închiriat, plafonează dur numărul de clienți serviți pe seară."
+        },
+        {
+          "en": "Recruiting and retaining a skilled chef and kitchen team willing to work demanding restaurant hours requires significant, ongoing effort.",
+          "ro": "Recrutarea și reținerea unui bucătar-șef calificat și a unei echipe de bucătărie, dispuse să lucreze în programul solicitant al unui restaurant, necesită un efort semnificativ și continuu."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "The restaurant reaches break-even with stable weekend reservation volume and consistent weekday covers.",
+            "ro": "Restaurantul atinge pragul de rentabilitate, cu un volum stabil de rezervări de weekend și clienți constanți în zilele lucrătoare."
+          }
+        },
+        {
+          "monthsFromLaunch": 30,
+          "description": {
+            "en": "Private-event and catering revenue is evaluated for expansion, alongside consideration of a second location.",
+            "ro": "Veniturile din evenimente private și catering sunt evaluate pentru extindere, alături de luarea în considerare a unei a doua locații."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Private-event and catering bookings diversify revenue beyond nightly covers alone, smoothing income around slower weeknights.",
+          "ro": "Rezervările pentru evenimente private și catering diversifică veniturile, dincolo de clienții de seară, netezind veniturile în jurul serilor de săptămână mai lente."
+        }
+      },
+      {
+        "description": {
+          "en": "A full bar program adds high-margin revenue beyond food cost of goods, helping offset the restaurant industry's famously thin overall margins.",
+          "ro": "Un program complet de bar adaugă venituri cu marjă ridicată, dincolo de costul mărfurilor alimentare, ajutând la compensarea marjelor generale, notoriu reduse, ale industriei restaurantelor."
+        }
+      },
+      {
+        "description": {
+          "en": "A reservation-based model creates a predictable weekend revenue floor, distinct from a coffee shop's walk-in-dependent daily volume.",
+          "ro": "Un model bazat pe rezervări creează un prag previzibil de venituri de weekend, distinct de volumul zilnic dependent de clienți spontani, al unei cafenele."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A full-service, scratch-kitchen neighborhood restaurant built around a seasonal dinner menu and a full bar program, serving a planned dining-out occasion, with private-event and catering bookings as a premium revenue stream. Business-planning content only.",
+        "ro": "Un restaurant de cartier, cu serviciu complet și bucătărie de la zero, construit în jurul unui meniu sezonier de cină și a unui program complet de bar, care servește o ocazie planificată de servire a mesei, cu rezervări pentru evenimente private și catering, ca flux premium de venituri. Doar conținut de planificare a afacerii."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.restaurant.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.restaurant.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.restaurant.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.restaurant.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep diners returning for repeat reservations, especially on weekends.",
+          "ro": "Menține clienții revenind pentru rezervări repetate, în special în weekend."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against food and beverage cost of goods and high fixed labor costs.",
+          "ro": "Protejează marja brută împotriva costului mărfurilor pentru alimente și băuturi și a costurilor fixe ridicate de personal."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert reservation-platform inquiries and press visibility into booked tables.",
+          "ro": "Transformă solicitările din platforma de rezervări și vizibilitatea din presă, în mese rezervate."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep repeat-diner attrition low through consistent food quality and a reliable dining experience.",
+          "ro": "Menține atriția clienților recurenți scăzută, prin calitate constantă a alimentelor și o experiență culinară de încredere."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "management",
+          "importance": 5
+        },
+        {
+          "key": "finance",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "negotiation",
+          "importance": 3
+        },
+        {
+          "key": "marketing",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "resilient",
+          "importance": 5
+        },
+        {
+          "trait": "systemOriented",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "decisive",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 30000,
+        "max": 75000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 40000,
+        "max": 65000,
+        "currency": "EUR"
+      },
+      "riskProfile": "high",
+      "timeAvailability": {
+        "minWeeklyHours": 55,
+        "maxWeeklyHours": 65
+      },
+      "communicationStyle": [
+        "hospitable",
+        "decisive"
+      ],
+      "technicalLevel": 2,
+      "leadershipLevel": 4,
+      "creativityLevel": 4,
+      "salesAffinity": 2,
+      "automationAffinity": 2,
+      "remotePreference": "inPerson",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theOperator",
+        "theVisionary"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the High capital requirement and thin industry margins in the Financial Overview section, and the private-event/catering revenue stream as the premium differentiator in Offer Architecture — keep all content strictly business-planning.",
+      "ro": "Subliniază cerința de capital ridicată și marjele reduse din industrie, în secțiunea Prezentare financiară, precum și fluxul de venituri din evenimente private/catering, ca diferențiator premium, în Arhitectura ofertei — menține tot conținutul strict de planificare a afacerii."
+    },
+    "marketingHints": {
+      "en": "Lead with the seasonal scratch-kitchen menu and the full bar program, not generic 'farm to table' stock phrases — emphasize the planned dining-out occasion, not a quick daily-habit stop.",
+      "ro": "Începe cu meniul sezonier, gătit de la zero, și programul complet de bar, nu cu fraze generice de tipul „de la fermă la masă” — subliniază ocazia planificată de servire a mesei, nu o oprire rapidă de obicei zilnică."
+    },
+    "financialHints": {
+      "en": "Model revenue as a moderate-speed, reservation-driven cash cycle with high fixed front-of-house and back-of-house labor costs as the dominant expense — the thinnest margin and highest capital tier among the physical-location businesses in this library.",
+      "ro": "Modelează veniturile ca un ciclu de numerar cu viteză moderată, bazat pe rezervări, cu costurile fixe ridicate de personal, de sală și bucătărie, drept cheltuiala dominantă — cea mai subțire marjă și cel mai ridicat nivel de capital, dintre afacerile cu locație fizică din această bibliotecă."
+    },
+    "generationHints": {
+      "en": "Keep generated tone hospitable, confident, and grounded in real kitchen and front-of-house specifics — never generic 'farm to table' stock phrases, and never understate the demanding hours and thin margins of restaurant ownership.",
+      "ro": "Menține un ton generat ospitalier, încrezător și fundamentat pe specificul real al bucătăriei și sălii — niciodată fraze generice de tipul „de la fermă la masă”, și nu subestima niciodată programul solicitant și marjele reduse ale deținerii unui restaurant."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Secure High-tier financing, complete kitchen and dining-room buildout, and obtain food-service and liquor licensing and health permits.",
+            "ro": "Asigură finanțarea de nivel ridicat, finalizează amenajarea bucătăriei și sălii de mese, și obține autorizațiile de servicii alimentare, licențierea pentru alcool și autorizațiile sanitare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Underestimating how long liquor licensing takes, delaying the opening date after the buildout is already complete.",
+            "ro": "Subestimarea duratei licențierii pentru alcool, întârziind data deschiderii, după ce amenajarea este deja finalizată."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Start the liquor licensing application in parallel with buildout, since it typically has the longest lead time of any opening requirement.",
+            "ro": "Începe cererea de licențiere pentru alcool, în paralel cu amenajarea, deoarece are de obicei cel mai lung timp de pregătire, dintre cerințele de deschidere."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.restaurant.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Test the menu concept through pop-up dinners or a supper club before committing to the full lease.",
+            "ro": "Testează conceptul de meniu, prin cine pop-up sau un club de cină, înainte de a te angaja la contractul de închiriere complet."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Committing to a full lease and buildout before validating that the seasonal menu concept and price point resonate with local diners.",
+            "ro": "Angajarea la un contract de închiriere și amenajare completă, înainte de a valida că conceptul de meniu sezonier și nivelul de preț rezonează cu clienții locali."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Run at least 3-4 pop-up dinners to confirm menu, pricing, and demand before signing a lease.",
+            "ro": "Realizează cel puțin 3-4 cine pop-up, pentru a confirma meniul, prețurile și cererea, înainte de a semna un contract de închiriere."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.restaurant.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the first month of dinner service with a soft opening before the full public launch.",
+            "ro": "Finalizează prima lună de serviciu de cină, cu o deschidere discretă, înainte de lansarea publică completă."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Launching publicly before the kitchen and front-of-house teams have run enough service to handle a full dining room smoothly.",
+            "ro": "Lansarea publică, înainte ca echipele de bucătărie și sală să fi rulat suficient serviciu, pentru a gestiona fluent o sală de mese completă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Run at least 2-3 weeks of soft-opening service at reduced capacity before the full public launch.",
+            "ro": "Realizează cel puțin 2-3 săptămâni de serviciu de deschidere discretă, la capacitate redusă, înainte de lansarea publică completă."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.restaurant.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Launch the full public opening with local food-press outreach and a reservation-platform listing.",
+            "ro": "Lansează deschiderea publică completă, cu contactarea presei culinare locale și listarea pe o platformă de rezervări."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Relying solely on a reservation-platform listing for visibility instead of also pursuing local food-press coverage.",
+            "ro": "Bazarea exclusiv pe listarea pe platforma de rezervări, pentru vizibilitate, în loc să urmărească și acoperire în presa culinară locală."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Invite local food bloggers and press for a preview dinner ahead of the public opening.",
+            "ro": "Invită bloggeri culinari locali și presa, la o cină de previzualizare, înaintea deschiderii publice."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.restaurant.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert first-time diners into repeat reservations.",
+            "ro": "Transformă clienții pentru prima dată, în rezervări repetate."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not personally checking in with first-time diners during service to gather feedback and encourage a return visit.",
+            "ro": "Neverificarea personală cu clienții pentru prima dată, în timpul serviciului, pentru a aduna feedback și a încuraja o vizită de revenire."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Have the host or founder personally check in with first-time tables during service to gather feedback.",
+            "ro": "Determină gazda sau fondatorul să verifice personal mesele clienților pentru prima dată, în timpul serviciului, pentru a aduna feedback."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.restaurant.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach stable weekend reservation volume and consistent weekday covers.",
+            "ro": "Atinge un volum stabil de rezervări de weekend și clienți constanți în zilele lucrătoare."
+          }
+        ],
+        "kpis": [
+          "customerRetention",
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding the menu or adding new dinner service days before confirming existing weekend service runs smoothly and profitably.",
+            "ro": "Extinderea meniului sau adăugarea de noi zile de serviciu de cină, înainte de a confirma că serviciul existent de weekend funcționează fluent și profitabil."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track weekend reservation fill rate and weekday cover counts monthly to confirm stable demand before expanding service.",
+            "ro": "Urmărește lunar rata de completare a rezervărilor de weekend și numărul de clienți din zilele lucrătoare, pentru a confirma o cerere stabilă, înainte de a extinde serviciul."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.restaurant.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Grow private-event and catering bookings as incremental revenue beyond nightly covers.",
+            "ro": "Crește rezervările pentru evenimente private și catering, ca venit incremental, dincolo de clienții de seară."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not actively marketing the private dining room or catering capability to local businesses and event planners.",
+            "ro": "Nepromovarea activă a sălii private de cină sau a capacității de catering, către companiile locale și organizatorii de evenimente."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Reach out directly to local businesses and event planners about private dining and catering bookings.",
+            "ro": "Contactează direct companiile locale și organizatorii de evenimente, despre rezervări pentru cine private și catering."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.restaurant.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Add a sous chef or kitchen manager to reduce the founder's nightly hands-on load.",
+            "ro": "Adaugă un sous chef sau manager de bucătărie, pentru a reduce sarcina zilnică, implicată direct, a fondatorului."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring a sous chef or kitchen manager without a clear handoff plan for kitchen standards and recipes, causing quality drift.",
+            "ro": "Angajarea unui sous chef sau manager de bucătărie, fără un plan clar de transfer al standardelor și rețetelor de bucătărie, cauzând variații de calitate."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document standardized recipes and kitchen procedures in writing before handing off nightly kitchen leadership.",
+            "ro": "Documentează rețetele standardizate și procedurile de bucătărie, în scris, înainte de a transfera conducerea zilnică a bucătăriei."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.restaurant.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Evaluate opening a second location once the first restaurant is consistently profitable and fully staffed.",
+            "ro": "Evaluează deschiderea unei a doua locații, odată ce primul restaurant este constant profitabil și complet dotat cu personal."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding to a second location before the first restaurant can run consistently without the founder's nightly presence.",
+            "ro": "Extinderea la o a doua locație, înainte ca primul restaurant să poată funcționa constant, fără prezența zilnică a fondatorului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Confirm the first restaurant runs profitably with a sous chef or kitchen manager covering the founder's absence before opening a second location.",
+            "ro": "Confirmă că primul restaurant funcționează profitabil, cu un sous chef sau manager de bucătărie, care acoperă absența fondatorului, înainte de a deschide o a doua locație."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.restaurant.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the lease, equipment, recipes/menu, and staff structure to package the restaurant for sale.",
+            "ro": "Documentează contractul de închiriere, echipamentul, rețetele/meniul și structura personalului, pentru a pregăti restaurantul pentru vânzare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Waiting until a sale opportunity appears to start documenting recipes, equipment maintenance, and staff structure properly.",
+            "ro": "Așteptarea apariției unei oportunități de vânzare, pentru a începe documentarea corespunzătoare a rețetelor, întreținerii echipamentului și structurii personalului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, complete recipe, equipment, and financial records on an ongoing basis, not just before a sale.",
+            "ro": "Menține evidențe curate și complete ale rețetelor, echipamentului și finanțelor, în mod continuu, nu doar înainte de o vânzare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.restaurant.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

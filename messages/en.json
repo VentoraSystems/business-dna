@@ -13045,6 +13045,926 @@
           "generationHints": "Keep insights grounded in practice management, referral-building, and caseload discipline — never clinical or diagnostic content."
         }
       }
+    },
+    "coffeeShop": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"Uncommon Grounds\" by Mark Pendergrast",
+          "course1": "Course: Specialty Coffee Association (SCA) Barista Skills Foundation",
+          "community1": "Community: Coffee Shop Startups online forum",
+          "checklist1": "Checklist: Opening Prep and Foot-Traffic Validation Checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast revenue from daily transaction volume and the share of transactions from recognized regulars — a stable regular base compounds predictably once the morning-rush routine is established."
+        },
+        "breakEven": {
+          "notes": "Break-even typically arrives around month 12 given the Medium upfront investment and fast per-transaction cash collection."
+        },
+        "grossMargin": {
+          "notes": "Gross margin holds around 62% after bean, milk, and wholesale pastry cost of goods."
+        },
+        "netMargin": {
+          "notes": "Net margin settles around 12% once lease, labor, and equipment costs are accounted for — the thinnest net margin comes from the high fixed cost of staffing every open hour."
+        },
+        "scenarios": {
+          "conservative": "A slow-growth scenario with limited foot traffic and a small regular base.",
+          "expected": "A realistic scenario with a stable morning-rush volume and a growing regular base.",
+          "optimistic": "A strong scenario with consistent lines during peak hours and strong retail bean attach rate."
+        },
+        "risks": {
+          "risk1": "Thin per-transaction margins mean the shop must sustain real daily foot traffic to cover fixed lease and labor costs, with little buffer for a slow month.",
+          "risk2": "Revenue is heavily dependent on the specific location's foot traffic — a strong concept in a weak location can still fail."
+        },
+        "aiMetadata": {
+          "generationHints": "Model costs and margin as high-volume, low-ticket, and labor/COGS-dominated — the fastest cash-collection cycle among the physical-location businesses in this library."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Your daily ritual, done right — specialty-quality coffee and a genuine neighborhood counter, not a rotating chain-store experience.",
+          "category": "Neighborhood specialty coffee shop"
+        },
+        "brandPromise": "The same great cup, the same familiar faces, every single morning.",
+        "uvp": {
+          "statement": "Specialty-quality espresso and brewed coffee served at a genuine neighborhood counter, with a curated bean program you can also take home.",
+          "diff1": "Specialty-grade coffee quality, distinct from large chain stores' standardized, mass-produced approach.",
+          "diff2": "A genuine neighborhood counter relationship, distinct from the impersonal speed of convenience-store coffee."
+        },
+        "icp": {
+          "description": "Local commuters and remote workers aged 22-45 in the surrounding neighborhood who want specialty-quality coffee as part of a daily ritual.",
+          "firmographics": "Working professionals and remote workers within easy walking or short driving distance, typically visiting once or more per weekday."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Daily Commuter Regular",
+            "description": "A working professional who stops by on the way to work most weekdays and values speed alongside quality."
+          },
+          "persona2": {
+            "name": "Remote Worker Regular",
+            "description": "A remote or hybrid worker who treats the shop as a change-of-scenery workspace and orders multiple drinks per visit."
+          }
+        },
+        "painPoints": {
+          "point1": "Choosing between an impersonal, standardized chain coffee store and a lower-quality convenience-store option.",
+          "point2": "Inconsistent quality or slow service during the morning rush at busy chain locations."
+        },
+        "outcomes": {
+          "outcome1": "A reliably great cup of coffee as part of a daily routine, without a long wait.",
+          "outcome2": "A genuine, recognized relationship with the people making their coffee."
+        },
+        "messaging": {
+          "core": "Your daily ritual, done right.",
+          "support1": "Specialty-quality coffee, a genuine counter, and the same familiar faces every morning."
+        },
+        "brandVoice": {
+          "tone": "Warm, energetic, and unpretentious",
+          "attr1": "Genuine",
+          "attr2": "Consistent"
+        },
+        "contentPillars": {
+          "pillar1": "Specialty coffee and bean-sourcing education",
+          "pillar2": "Neighborhood regulars and daily-ritual moments"
+        },
+        "channelStrategy": "Prioritize street-level foot traffic and signage as the primary channel, supported by local social media content, with a loyalty punch-card or app as an experimental retention channel.",
+        "community": {
+          "description": "A loyal base of daily and weekly regulars who are recognized by name and usual order.",
+          "platform1": "Local neighborhood Instagram and Facebook groups"
+        },
+        "leadMagnets": {
+          "magnet1": "First-visit discount on a signature espresso drink"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Foot-traffic or social discovery",
+            "description": "A prospective customer notices the shop while passing by or sees local social media content."
+          },
+          "stage2": {
+            "name": "First counter visit",
+            "description": "The prospective customer orders their first drink at the counter."
+          },
+          "stage3": {
+            "name": "Recognized regular",
+            "description": "The customer becomes a recognized regular whose name and usual order the baristas know."
+          }
+        },
+        "retention": {
+          "tactic1": "Having baristas actively learn and greet regular customers by name and usual order."
+        },
+        "analytics": {
+          "metric1": "Share of daily transactions from recognized regulars"
+        },
+        "aiMetadata": {
+          "generationHints": "Keep marketing copy warm and energetic, grounded in real counter-service and bean-sourcing specifics — never generic 'cozy coffee shop' stock phrases."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Secure shop financing, complete the counter buildout, and obtain food-service permits and health-department approval."
+          },
+          "deliverables": {
+            "0": "A fully built-out, permitted, and approved shop ready for customers."
+          },
+          "checklist": {
+            "0": "Observe foot traffic at the target location at different times of day for at least a week before signing a lease."
+          },
+          "commonMistakes": {
+            "0": "Signing a lease before confirming the location has enough genuine foot traffic to support daily coffee-shop volume."
+          },
+          "successCriteria": {
+            "0": "Financing, buildout, permits, and health-department approval are all confirmed and in place."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help compare equipment vendor quotes and financing options."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Test the coffee and menu concept locally through a pop-up or farmers-market stand before committing to a full lease."
+          },
+          "deliverables": {
+            "0": "At least 4 weekends of validated pop-up or market sales data."
+          },
+          "checklist": {
+            "0": "Run at least 4 weekends of pop-up or market sales to confirm demand and pricing before signing a lease."
+          },
+          "commonMistakes": {
+            "0": "Committing to a full lease and buildout before validating that the specific bean program and pricing resonate with local customers."
+          },
+          "successCriteria": {
+            "0": "Pop-up or market sales confirm demand and pricing before the lease is signed."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze pop-up sales data and identify the best-performing menu items."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Complete the first month of counter service with a soft opening before the full public launch."
+          },
+          "deliverables": {
+            "0": "At least 2 weeks of soft-opening service completed smoothly."
+          },
+          "checklist": {
+            "0": "Run at least 2 weeks of soft-opening service to friends, family, and neighbors before the full public launch."
+          },
+          "commonMistakes": {
+            "0": "Launching publicly before staff and equipment workflows are smooth enough to handle a real morning rush."
+          },
+          "successCriteria": {
+            "0": "Soft-opening service runs smoothly with consistent drink quality and reasonable wait times."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted scheduling to confirm staffing levels match soft-opening demand."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Launch the full public opening with local social media content and neighborhood signage."
+          },
+          "deliverables": {
+            "0": "An active local social media presence and clear street-level signage."
+          },
+          "checklist": {
+            "0": "Post local social media content in the two weeks leading up to the grand opening to build anticipation."
+          },
+          "commonMistakes": {
+            "0": "Relying solely on signage for awareness instead of also building local social media content ahead of opening day."
+          },
+          "successCriteria": {
+            "0": "Opening week sees steady new-customer traffic from both signage and social media awareness."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a two-week local social media content calendar for the opening."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Convert first-time visitors into recognized daily or weekly regulars."
+          },
+          "deliverables": {
+            "0": "At least a handful of customers recognized by name and usual order."
+          },
+          "checklist": {
+            "0": "Have baristas actively learn and greet regular customers by name and usual order from the first weeks of opening."
+          },
+          "commonMistakes": {
+            "0": "Not personally learning regular customers' names and usual orders early on, missing an easy loyalty-building opportunity."
+          },
+          "successCriteria": {
+            "0": "Baristas can greet at least a handful of customers by name and usual order."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft barista training notes on building genuine regular-customer relationships."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach a stable base of daily regulars driving consistent morning-rush volume."
+          },
+          "deliverables": {
+            "0": "A documented, stable base of daily regulars with tracked morning-rush volume."
+          },
+          "checklist": {
+            "0": "Track the share of transactions from recognized regulars monthly to confirm a stable base is forming."
+          },
+          "commonMistakes": {
+            "0": "Expanding the menu significantly before confirming the core espresso and brewed-coffee offer has found a stable regular base."
+          },
+          "successCriteria": {
+            "0": "The share of transactions from recognized regulars is stable or growing month over month."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze which times of day and days of week drive the most regular-customer visits."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Grow packaged whole-bean retail and pastry add-on sales as a share of total revenue."
+          },
+          "deliverables": {
+            "0": "A documented increase in retail bean and pastry add-on revenue share."
+          },
+          "checklist": {
+            "0": "Train baristas to mention whole-bean retail bags to regulars at least once every few visits."
+          },
+          "commonMistakes": {
+            "0": "Not actively suggesting whole-bean retail bags to regulars who already trust the shop's coffee quality."
+          },
+          "successCriteria": {
+            "0": "Retail bean and pastry add-on sales reach a meaningful, growing share of total monthly revenue."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to identify which regulars haven't yet purchased retail beans and flag them for a suggestion."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Add a shift lead or additional barista to extend opening hours or peak-hour capacity."
+          },
+          "deliverables": {
+            "0": "A fully onboarded shift lead or additional barista covering extended hours or peak capacity."
+          },
+          "checklist": {
+            "0": "Track hourly sales data for at least a month before deciding whether to extend hours or add a shift."
+          },
+          "commonMistakes": {
+            "0": "Extending hours or adding staff before confirming the additional labor cost is covered by real incremental demand."
+          },
+          "successCriteria": {
+            "0": "The new hire or extended hours are covered by real, tracked incremental revenue."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to model the revenue impact of extending hours versus adding peak-hour staff."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Evaluate opening a second location once the first shop is consistently profitable and fully staffed."
+          },
+          "deliverables": {
+            "0": "A validated business case for a second shop location."
+          },
+          "checklist": {
+            "0": "Confirm the first shop runs profitably with a trained shift lead covering the founder's absence before opening a second location."
+          },
+          "commonMistakes": {
+            "0": "Opening a second location before the first shop can run smoothly without the founder's daily hands-on presence."
+          },
+          "successCriteria": {
+            "0": "The first shop runs profitably for at least 6 months without the founder's daily presence."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze local demographic and foot-traffic data for potential second-location sites."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Document the lease, equipment, staff structure, and sales records to package the shop for sale to another operator."
+          },
+          "deliverables": {
+            "0": "A complete due-diligence package of lease, equipment, and sales records."
+          },
+          "checklist": {
+            "0": "Maintain clean, complete equipment and sales records on an ongoing basis, not just before a sale."
+          },
+          "commonMistakes": {
+            "0": "Waiting until a sale opportunity appears to start documenting equipment maintenance and sales history properly."
+          },
+          "successCriteria": {
+            "0": "A prospective buyer could complete due diligence entirely from existing documentation."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help organize scattered equipment and sales records into a structured due-diligence package."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep roadmap guidance concrete about foot-traffic validation, regular-customer building, and daily-transaction discipline — the real levers in this business."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Book: \"Uncommon Grounds\"",
+          "description": "A history and business perspective on the specialty coffee industry."
+        },
+        "item2": {
+          "title": "Course: SCA Barista Skills Foundation",
+          "description": "A foundational certification course covering espresso and brewing craft."
+        },
+        "item3": {
+          "title": "Community: Coffee Shop Startups",
+          "description": "An active online forum of shop owners sharing business, staffing, and sourcing advice."
+        },
+        "item4": {
+          "title": "Podcast: \"The Coffee Business Podcast\"",
+          "description": "Interviews with shop owners on growth, sourcing, and operations."
+        },
+        "item5": {
+          "title": "Newsletter: Sprudge",
+          "description": "Industry news and trends from the specialty coffee world."
+        },
+        "item6": {
+          "title": "Software: Square",
+          "description": "Point-of-sale and payments software for counter transactions."
+        },
+        "item7": {
+          "title": "Software: 7shifts",
+          "description": "Staff scheduling software for barista shift coverage."
+        },
+        "item8": {
+          "title": "AI Tool: demand-forecasting assistant",
+          "description": "AI-assisted forecasting that suggests daily bean, milk, and pastry order quantities."
+        },
+        "item9": {
+          "title": "Certification: Food handler and food-safety certification",
+          "description": "The required local certification to legally prepare and serve food and beverages."
+        },
+        "item10": {
+          "title": "Event: Specialty Coffee Expo",
+          "description": "The industry's major annual trade show for sourcing, equipment, and education."
+        },
+        "item11": {
+          "title": "Expert: A coffee-shop financial or operations consultant",
+          "description": "Helps structure pricing, staffing, and cash flow for a new or growing shop."
+        },
+        "item12": {
+          "title": "Checklist: Opening Prep and Foot-Traffic Validation Checklist",
+          "description": "A documented process for validating a location and preparing for opening day."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritize resources on foot-traffic validation, barista craft, and daily cash-flow management — the real differentiators in this business."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Suggesting retail bean bags to regulars who already trust the shop's coffee quality converts far better than marketing to new customers."
+          },
+          "item2": {
+            "title": "A wholesale pastry partnership with a local bakery captures food-purchase revenue without the cost or complexity of an in-house kitchen."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A location with weak actual foot traffic can sink an otherwise strong coffee concept — visible signage alone doesn't guarantee walk-in volume."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Signing a lease based on assumed foot traffic instead of directly observing the location at different times of day first."
+          },
+          "item2": {
+            "title": "Overexpanding the food and drink menu before the core espresso and brewed-coffee offer has found a stable regular base."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Baristas learning regular customers' names and usual orders in the first few weeks builds loyalty faster than any promotion."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Track hourly sales data before extending hours or adding staff — intuition about 'busy' times is often wrong."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Validate the concept with a pop-up or market stand before signing a lease — it's the cheapest way to confirm real demand."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Shops with a strong daily-regular base show meaningfully more stable revenue than those relying primarily on one-time or occasional customers."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Many customers choose a coffee shop primarily on speed and consistency during the morning rush, not just bean quality — slow service loses regulars fast."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Espresso machine and grinder maintenance and descaling costs are often underestimated relative to the upfront equipment price."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Growing consumer preference for specialty-quality coffee over standardized chain offerings signals room for genuine neighborhood shops to compete."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A newly opened shop reached break-even in under 12 months by validating the location's foot traffic with a pop-up before signing the lease."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A shop that signed a lease based on assumed foot traffic instead of direct observation struggled with slow daily volume for months."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "How is this different from the restaurant business in this library?",
+            "answer": "A coffee shop has a much simpler counter-service menu, faster per-transaction service, no full commercial kitchen or table service, and lower staffing and capital requirements than a full-service restaurant. It serves a quick daily-ritual occasion rather than a planned dining-out occasion."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "A coffee shop is guaranteed to succeed with great coffee alone.",
+            "fact": "Great coffee is table stakes — location foot traffic, service speed during the morning rush, and building a base of recognized regulars determine whether the shop actually reaches sustainable daily volume."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Observe a target location's actual foot traffic at different times of day for at least a week before signing a lease."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep insights grounded in foot-traffic validation, regular-customer building, and daily cash-flow discipline."
+        }
+      }
+    },
+    "restaurant": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"Setting the Table\" by Danny Meyer",
+          "course1": "Course: ServSafe Manager Food Protection Certification",
+          "community1": "Community: Restaurant Owners online forum",
+          "checklist1": "Checklist: Opening Buildout, Licensing, and Menu Validation Checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast revenue from weekend reservation fill rate and weekday cover growth — a stable reservation base compounds predictably once the menu and service standard are established."
+        },
+        "breakEven": {
+          "notes": "Break-even typically arrives around month 18 given the High upfront equipment, buildout, and licensing investment."
+        },
+        "grossMargin": {
+          "notes": "Gross margin holds around 35% after food and beverage cost of goods and high front-of-house/back-of-house labor costs."
+        },
+        "netMargin": {
+          "notes": "Net margin settles around 8% once lease, full staffing, and licensing costs are accounted for — the thinnest net margin among the physical-location businesses in this library, reflecting the restaurant industry's famously tight economics."
+        },
+        "scenarios": {
+          "conservative": "A slow-growth scenario with a partial weekend fill rate and limited private-event bookings.",
+          "expected": "A realistic scenario with a stable weekend reservation base and moderate private-event revenue.",
+          "optimistic": "A strong scenario with consistently full weekend service and a growing private-event and catering book."
+        },
+        "risks": {
+          "risk1": "Notoriously thin restaurant industry margins amplify any revenue shortfall into a cash crisis faster than in a lower-fixed-cost business.",
+          "risk2": "High fixed front-of-house and back-of-house labor costs create a high break-even revenue floor regardless of how many covers are actually served on a given night."
+        },
+        "aiMetadata": {
+          "generationHints": "Model costs and margin as labor- and COGS-dominated with a high fixed break-even floor — the thinnest margin and highest capital tier among the physical-location businesses in this library."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Seasonal, scratch-made, and worth the reservation — a dependable neighborhood dinner destination, not a rotating chain menu.",
+          "category": "Full-service scratch-kitchen restaurant"
+        },
+        "brandPromise": "Every visit feels like the occasion it's meant for.",
+        "uvp": {
+          "statement": "A seasonal, scratch-made dinner menu and full bar program in a dependable neighborhood setting, worth planning an evening around.",
+          "diff1": "A genuinely seasonal, scratch-cooked menu, distinct from fast-casual or chain-restaurant standardization.",
+          "diff2": "A full bar program and private-event capability under one roof, distinct from a counter-service coffee shop's simpler offer."
+        },
+        "icp": {
+          "description": "Local diners aged 30-55 in the surrounding community celebrating an occasion or seeking a reliable weekend dinner spot, plus date-night couples.",
+          "firmographics": "Households and couples with discretionary dining-out budget, typically booking for weekend dinners, celebrations, or special occasions."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Weekend Occasion Diner",
+            "description": "A local diner planning a date night or celebration who wants a dependable, worth-the-reservation restaurant."
+          },
+          "persona2": {
+            "name": "Private Event Planner",
+            "description": "A local business or individual organizing a private dinner or celebration who books the restaurant's private dining room or catering."
+          }
+        },
+        "painPoints": {
+          "point1": "Uncertainty about whether a new restaurant will actually deliver a consistent, worth-it dining experience.",
+          "point2": "Difficulty finding a venue for a private event that combines quality food with real event-hosting capability."
+        },
+        "outcomes": {
+          "outcome1": "A dependable, seasonal dining experience worth planning an evening around.",
+          "outcome2": "A private event or celebration hosted with genuine scratch-kitchen food and full bar service."
+        },
+        "messaging": {
+          "core": "Seasonal, scratch-made, and worth the reservation.",
+          "support1": "A dependable neighborhood dinner destination for date nights, celebrations, and private events."
+        },
+        "brandVoice": {
+          "tone": "Hospitable, confident, and seasonal",
+          "attr1": "Dependable",
+          "attr2": "Scratch-made"
+        },
+        "contentPillars": {
+          "pillar1": "Seasonal menu and ingredient sourcing",
+          "pillar2": "Private event and catering capability"
+        },
+        "channelStrategy": "Prioritize reservation-platform listing and local food-press visibility as the primary channel, supported by seasonal-menu social content, with private-event and catering outreach as an experimental revenue channel.",
+        "community": {
+          "description": "A loyal base of repeat diners who return for special occasions and recommend the restaurant for private events.",
+          "platform1": "Local food-press and food-blogger relationships"
+        },
+        "leadMagnets": {
+          "magnet1": "A complimentary tasting for private-event inquiries booking a minimum spend"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Reservation-platform or press discovery",
+            "description": "A prospective diner finds the restaurant through a reservation platform listing or local food-press coverage."
+          },
+          "stage2": {
+            "name": "Reservation booking",
+            "description": "The prospective diner books a table for a specific occasion or date."
+          },
+          "stage3": {
+            "name": "Repeat reservation or private-event booking",
+            "description": "The diner returns for another occasion or books a private event once the dining experience has earned trust."
+          }
+        },
+        "retention": {
+          "tactic1": "Having the host or founder personally check in with first-time tables during service."
+        },
+        "analytics": {
+          "metric1": "Weekend reservation fill rate"
+        },
+        "aiMetadata": {
+          "generationHints": "Keep marketing copy hospitable and confident, grounded in the real seasonal menu and bar program — never generic 'farm to table' stock phrases."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Secure High-tier financing, complete kitchen and dining-room buildout, and obtain food-service and liquor licensing and health permits."
+          },
+          "deliverables": {
+            "0": "A fully built-out, licensed, and permitted restaurant ready for diners."
+          },
+          "checklist": {
+            "0": "Start the liquor licensing application in parallel with buildout, since it typically has the longest lead time of any opening requirement."
+          },
+          "commonMistakes": {
+            "0": "Underestimating how long liquor licensing takes, delaying the opening date after the buildout is already complete."
+          },
+          "successCriteria": {
+            "0": "Financing, buildout, licensing, and health permits are all confirmed and in place."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help track licensing application status and required documentation across agencies."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Test the menu concept through pop-up dinners or a supper club before committing to the full lease."
+          },
+          "deliverables": {
+            "0": "At least 3-4 validated pop-up dinners with confirmed menu and pricing feedback."
+          },
+          "checklist": {
+            "0": "Run at least 3-4 pop-up dinners to confirm menu, pricing, and demand before signing a lease."
+          },
+          "commonMistakes": {
+            "0": "Committing to a full lease and buildout before validating that the seasonal menu concept and price point resonate with local diners."
+          },
+          "successCriteria": {
+            "0": "Pop-up dinners confirm menu, pricing, and demand before the lease is signed."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze pop-up dinner feedback and identify the strongest menu items."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Complete the first month of dinner service with a soft opening before the full public launch."
+          },
+          "deliverables": {
+            "0": "At least 2-3 weeks of soft-opening service completed at reduced capacity."
+          },
+          "checklist": {
+            "0": "Run at least 2-3 weeks of soft-opening service at reduced capacity before the full public launch."
+          },
+          "commonMistakes": {
+            "0": "Launching publicly before the kitchen and front-of-house teams have run enough service to handle a full dining room smoothly."
+          },
+          "successCriteria": {
+            "0": "Soft-opening service runs smoothly with consistent food quality and reasonable table-turn times."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted scheduling to confirm staffing levels match soft-opening demand."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Launch the full public opening with local food-press outreach and a reservation-platform listing."
+          },
+          "deliverables": {
+            "0": "An active reservation-platform listing and at least one local food-press feature."
+          },
+          "checklist": {
+            "0": "Invite local food bloggers and press for a preview dinner ahead of the public opening."
+          },
+          "commonMistakes": {
+            "0": "Relying solely on a reservation-platform listing for visibility instead of also pursuing local food-press coverage."
+          },
+          "successCriteria": {
+            "0": "Opening month sees steady new-diner reservations from both the platform listing and press coverage."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft outreach messages to local food bloggers and press for the opening."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Convert first-time diners into repeat reservations."
+          },
+          "deliverables": {
+            "0": "At least a handful of first-time diners who have booked a repeat reservation."
+          },
+          "checklist": {
+            "0": "Have the host or founder personally check in with first-time tables during service to gather feedback."
+          },
+          "commonMistakes": {
+            "0": "Not personally checking in with first-time diners during service to gather feedback and encourage a return visit."
+          },
+          "successCriteria": {
+            "0": "At least a handful of first-time diners have booked a repeat reservation."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft a follow-up thank-you message template for first-time diners."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach stable weekend reservation volume and consistent weekday covers."
+          },
+          "deliverables": {
+            "0": "A documented, stable weekend reservation fill rate and weekday cover count."
+          },
+          "checklist": {
+            "0": "Track weekend reservation fill rate and weekday cover counts monthly to confirm stable demand before expanding service."
+          },
+          "commonMistakes": {
+            "0": "Expanding the menu or adding new dinner service days before confirming existing weekend service runs smoothly and profitably."
+          },
+          "successCriteria": {
+            "0": "Weekend reservation fill rate and weekday cover counts are stable or growing month over month."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze which menu items and time slots drive the highest table-turn efficiency."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Grow private-event and catering bookings as incremental revenue beyond nightly covers."
+          },
+          "deliverables": {
+            "0": "A documented increase in private-event and catering booking revenue."
+          },
+          "checklist": {
+            "0": "Reach out directly to local businesses and event planners about private dining and catering bookings."
+          },
+          "commonMistakes": {
+            "0": "Not actively marketing the private dining room or catering capability to local businesses and event planners."
+          },
+          "successCriteria": {
+            "0": "Private-event and catering bookings reach a meaningful, growing share of total monthly revenue."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to identify local businesses and event planners likely to book private dining or catering."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Add a sous chef or kitchen manager to reduce the founder's nightly hands-on load."
+          },
+          "deliverables": {
+            "0": "A fully onboarded sous chef or kitchen manager with documented recipes and procedures."
+          },
+          "checklist": {
+            "0": "Document standardized recipes and kitchen procedures in writing before handing off nightly kitchen leadership."
+          },
+          "commonMistakes": {
+            "0": "Hiring a sous chef or kitchen manager without a clear handoff plan for kitchen standards and recipes, causing quality drift."
+          },
+          "successCriteria": {
+            "0": "The new hire runs nightly service to the same quality standard within 3 months."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help organize and standardize recipe documentation for handoff."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Evaluate opening a second location once the first restaurant is consistently profitable and fully staffed."
+          },
+          "deliverables": {
+            "0": "A validated business case for a second restaurant location."
+          },
+          "checklist": {
+            "0": "Confirm the first restaurant runs profitably with a sous chef or kitchen manager covering the founder's absence before opening a second location."
+          },
+          "commonMistakes": {
+            "0": "Expanding to a second location before the first restaurant can run consistently without the founder's nightly presence."
+          },
+          "successCriteria": {
+            "0": "The first restaurant runs profitably for at least 6 months without the founder's nightly presence."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to analyze local demographic and competitive data for potential second-location sites."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Document the lease, equipment, recipes/menu, and staff structure to package the restaurant for sale."
+          },
+          "deliverables": {
+            "0": "A complete due-diligence package of lease, equipment, recipe, and financial records."
+          },
+          "checklist": {
+            "0": "Maintain clean, complete recipe, equipment, and financial records on an ongoing basis, not just before a sale."
+          },
+          "commonMistakes": {
+            "0": "Waiting until a sale opportunity appears to start documenting recipes, equipment maintenance, and staff structure properly."
+          },
+          "successCriteria": {
+            "0": "A prospective buyer could complete due diligence entirely from existing documentation."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to help organize scattered recipe, equipment, and financial records into a structured due-diligence package."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep roadmap guidance concrete about licensing lead times, menu validation, and reservation-fill discipline — the real levers in this business."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Book: \"Setting the Table\"",
+          "description": "A hospitality and business perspective on building a restaurant around genuine guest experience."
+        },
+        "item2": {
+          "title": "Course: ServSafe Manager Food Protection Certification",
+          "description": "A required food-safety certification course for restaurant managers."
+        },
+        "item3": {
+          "title": "Community: Restaurant Owners",
+          "description": "An active online forum of restaurant owners sharing business, staffing, and operations advice."
+        },
+        "item4": {
+          "title": "Podcast: \"The Restaurant Boss\"",
+          "description": "Interviews and advice on restaurant management, staffing, and profitability."
+        },
+        "item5": {
+          "title": "Newsletter: Restaurant Business",
+          "description": "Industry news and trends from the restaurant business world."
+        },
+        "item6": {
+          "title": "Software: Toast",
+          "description": "Point-of-sale and kitchen display software for restaurant service."
+        },
+        "item7": {
+          "title": "Software: OpenTable",
+          "description": "Reservation and table management software for dining-room service."
+        },
+        "item8": {
+          "title": "AI Tool: purchasing-forecast assistant",
+          "description": "AI-assisted forecasting that suggests ingredient order quantities based on recent covers."
+        },
+        "item9": {
+          "title": "Certification: Liquor license and food-service permit",
+          "description": "The required local licensing and permitting to legally serve food and alcohol."
+        },
+        "item10": {
+          "title": "Event: National Restaurant Association Show",
+          "description": "The industry's major annual trade show for sourcing, equipment, and education."
+        },
+        "item11": {
+          "title": "Expert: A restaurant financial or operations consultant",
+          "description": "Helps structure pricing, staffing, and cash flow for a new or growing restaurant."
+        },
+        "item12": {
+          "title": "Checklist: Opening Buildout, Licensing, and Menu Validation Checklist",
+          "description": "A documented process for buildout, licensing, and menu validation before opening day."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritize resources on menu validation, licensing, and thin-margin financial discipline — the real differentiators in this business."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "A private dining room or catering capability captures incremental revenue from local businesses and event planners without adding nightly covers."
+          },
+          "item2": {
+            "title": "A full bar program adds high-margin revenue that helps offset thin food-cost margins on the dinner menu."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Liquor licensing timelines vary significantly by jurisdiction and can delay an otherwise-ready opening by months if not started early."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Signing a lease and starting buildout before validating that the seasonal menu concept resonates with local diners through pop-up dinners."
+          },
+          "item2": {
+            "title": "Underestimating how quickly high fixed front-of-house and back-of-house labor costs erode margin during slow weeknights."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "The host or founder personally checking in with first-time tables during service converts far more first-timers into repeat diners than any promotion."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Document standardized recipes and kitchen procedures before handing off nightly leadership to a sous chef — undocumented recipes cause quality drift fast."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Start the liquor licensing process as early as possible — it is almost always the longest lead-time item in restaurant launch preparation."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Restaurants with a strong weekend reservation-fill discipline show meaningfully more stable cash flow than those relying primarily on walk-in traffic."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Many diners choose a restaurant primarily on reservation-platform reviews and local press coverage, not advertising — earned visibility outperforms paid promotion."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Commercial kitchen equipment maintenance and repair costs are often underestimated relative to the upfront purchase price."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Growing local demand for private event and catering capability signals room for incremental revenue beyond the core dinner-service business."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A newly opened restaurant reached break-even in under 18 months by validating its menu concept with pop-up dinners before signing the lease."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A restaurant that signed a lease and completed buildout before validating menu demand struggled with weak weekday covers for months after opening."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "How is this different from the coffee shop business in this library?",
+            "answer": "A restaurant runs a full commercial kitchen with a much larger front-of-house and back-of-house staff, requires liquor licensing on top of standard food-service permitting, carries the highest startup capital and thinnest margins of the two, and adds a private-event/catering booking revenue stream. It serves a planned dining-out occasion rather than a daily-habit stop."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "A restaurant with great food is guaranteed to succeed.",
+            "fact": "Great food is table stakes — reservation-fill discipline, cost control against thin margins, and consistent service standards determine whether the restaurant actually reaches sustainable profitability."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Validate the menu concept through pop-up dinners or a supper club before signing a lease and starting buildout."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep insights grounded in menu validation, licensing lead times, and thin-margin financial discipline."
+        }
+      }
     }
   }
 }

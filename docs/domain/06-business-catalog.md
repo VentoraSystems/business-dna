@@ -78,6 +78,12 @@ now expanded), `subscription-boxes`, `boutique-fitness-studios`,
 `veterinary-clinics`, `psychology-practices`, `coffee-shops`,
 `restaurants`.
 
+*Status as of Knowledge Authoring Batch 5 (2026-07-15): all 12 of the
+new categories introduced in the 2026-07-10 Taxonomy Synchronization
+(`real-estate` through `restaurants` in the list above) now have their
+flagship P1 candidate authored (1/1) — see the "Category breakdown"
+table below.*
+
 No enum value or category key was invented — every value used in the
 tables below is one of the values listed above, or one of the 12
 `IndustryType`/8 `BusinessModelType` values confirmed earlier in this
@@ -173,9 +179,9 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 | `dental-clinics` | 1 | 1 |
 | `veterinary-clinics` | 1 | 1 |
 | `psychology-practices` | 1 | 1 |
-| `coffee-shops` | 1 | 0 |
-| `restaurants` | 1 | 0 |
-| **Total** | **147** | **27** |
+| `coffee-shops` | 1 | 1 |
+| `restaurants` | 1 | 1 |
+| **Total** | **147** | **29** |
 
 ---
 
@@ -546,17 +552,37 @@ package.*
 
 *New category added 2026-07-10. Distinct from `subscription-boxes`' "Specialty Coffee Subscription Box" — this is a physical dine-in/retail venue (`physicalProduct`), not a recurring shipped box (`subscription`).*
 
+*Knowledge Authoring Batch 5 (2026-07-15, final batch for the 12 new
+canonical categories) authored this category's flagship P1 candidate —
+Coffee Shop — the first business authored under this category.
+Differentiated from `restaurants` elsewhere in this catalog (also a
+physical food-service location) by a simpler counter-service menu,
+faster per-transaction service, no full commercial kitchen or table
+service, and lower staffing and capital requirements. See
+`business-library/technology/coffee-shop/` for the full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| coffee-shops | Coffee Shop | coffee-shop | food | physicalProduct | P1 | moderate | Medium | No | low | No | |
+| coffee-shops | Coffee Shop | coffee-shop | food | physicalProduct | P1 | moderate | Medium | No | low | No | ✅ |
 
 ## `restaurants`
 
 *New category added 2026-07-10.*
 
+*Knowledge Authoring Batch 5 (2026-07-15, final batch for the 12 new
+canonical categories) authored this category's flagship P1 candidate —
+Restaurant — the first business authored under this category.
+Differentiated from `coffee-shops` elsewhere in this catalog (also a
+physical food-service location) by a full commercial kitchen, a much
+larger front-of-house and back-of-house staff, liquor licensing on top
+of standard food-service permitting, the highest startup capital and
+thinnest margins of the two, and a private-event/catering booking
+revenue stream as its premium differentiator. See
+`business-library/technology/restaurant/` for the full package.*
+
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| restaurants | Restaurant | restaurant | food | physicalProduct | P1 | high | High | No | low | Yes | |
+| restaurants | Restaurant | restaurant | food | physicalProduct | P1 | high | High | No | low | Yes | ✅ |
 
 ---
 

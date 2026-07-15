@@ -13045,6 +13045,926 @@
           "generationHints": "Menține informațiile fundamentate în managementul cabinetului, construirea recomandărilor și disciplina volumului de clienți — niciodată conținut clinic sau de diagnostic."
         }
       }
+    },
+    "coffeeShop": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: „Uncommon Grounds” de Mark Pendergrast",
+          "course1": "Curs: Specialty Coffee Association (SCA) Barista Skills Foundation",
+          "community1": "Comunitate: forumul online Coffee Shop Startups",
+          "checklist1": "Listă de verificare: Pregătirea deschiderii și validarea traficului pietonal"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognozează veniturile pe baza volumului zilnic de tranzacții și a ponderii tranzacțiilor de la clienți fideli recunoscuți — o bază stabilă de clienți fideli crește previzibil, odată ce rutina aglomerației de dimineață este stabilită."
+        },
+        "breakEven": {
+          "notes": "Pragul de rentabilitate apare de obicei în jurul lunii 12, dată fiind investiția inițială medie și încasarea rapidă a numerarului per tranzacție."
+        },
+        "grossMargin": {
+          "notes": "Marja brută se menține în jur de 62%, după costul mărfurilor pentru cafea, lapte și patiserie en-gros."
+        },
+        "netMargin": {
+          "notes": "Marja netă se stabilizează în jur de 12%, odată ce costurile de chirie, personal și echipament sunt luate în calcul — marja netă cea mai subțire provine din costul fix ridicat al personalului, pentru fiecare oră de deschidere."
+        },
+        "scenarios": {
+          "conservative": "Un scenariu de creștere lentă, cu trafic pietonal limitat și o bază mică de clienți fideli.",
+          "expected": "Un scenariu realist, cu un volum stabil în aglomerația de dimineață și o bază de clienți fideli în creștere.",
+          "optimistic": "Un scenariu puternic, cu cozi constante în orele de vârf și o rată solidă de achiziție a cafelei cu amănuntul."
+        },
+        "risks": {
+          "risk1": "Marjele reduse per tranzacție înseamnă că cafeneaua trebuie să susțină un trafic real zilnic, pentru a acoperi costurile fixe de chirie și personal, cu puțină marjă pentru o lună slabă.",
+          "risk2": "Veniturile depind puternic de traficul pietonal al locației specifice — un concept solid, într-o locație slabă, poate eșua totuși."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează costurile și marja ca fiind cu volum mare, bon mic și dominate de personal/costul mărfurilor — cel mai rapid ciclu de încasare a numerarului, dintre afacerile cu locație fizică din această bibliotecă."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Ritualul tău zilnic, făcut cum trebuie — cafea de calitate specialty și o tejghea autentică de cartier, nu o experiență de lanț rotativ.",
+          "category": "Cafenea specialty de cartier"
+        },
+        "brandPromise": "Aceeași ceașcă excelentă, aceleași fețe familiare, în fiecare dimineață.",
+        "uvp": {
+          "statement": "Espresso și cafea preparată, de calitate specialty, servite la o tejghea autentică de cartier, cu un program curatoriat de cafea, pe care o poți lua și acasă.",
+          "diff1": "Calitate de cafea de nivel specialty, distinctă de abordarea standardizată, produsă în masă, a marilor lanțuri.",
+          "diff2": "O relație autentică de tejghea de cartier, distinctă de viteza impersonală a cafelei din magazinele de proximitate."
+        },
+        "icp": {
+          "description": "Navetiști locali și lucrători la distanță, cu vârste între 22-45 ani, din cartierul din jur, care doresc cafea de calitate specialty, ca parte a unui ritual zilnic.",
+          "firmographics": "Profesioniști activi și lucrători la distanță, aflați la o distanță ușoară de mers pe jos sau cu mașina, care vizitează de obicei o dată sau mai mult pe zi lucrătoare."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Navetist zilnic fidel",
+            "description": "Un profesionist activ, care trece pe acolo în drum spre muncă, în majoritatea zilelor lucrătoare, și prețuiește viteza alături de calitate."
+          },
+          "persona2": {
+            "name": "Lucrător la distanță fidel",
+            "description": "Un lucrător la distanță sau hibrid, care tratează cafeneaua ca pe un spațiu de lucru cu schimbare de decor și comandă mai multe băuturi per vizită."
+          }
+        },
+        "painPoints": {
+          "point1": "Alegerea între un lanț de cafenele impersonal, standardizat, și o opțiune de calitate mai scăzută, de tip magazin de proximitate.",
+          "point2": "Calitate inconsistentă sau serviciu lent, în aglomerația de dimineață, la locațiile aglomerate ale lanțurilor."
+        },
+        "outcomes": {
+          "outcome1": "O cafea constant excelentă, ca parte a unei rutine zilnice, fără o așteptare lungă.",
+          "outcome2": "O relație autentică, recunoscută, cu persoanele care le prepară cafeaua."
+        },
+        "messaging": {
+          "core": "Ritualul tău zilnic, făcut cum trebuie.",
+          "support1": "Cafea de calitate specialty, o tejghea autentică și aceleași fețe familiare, în fiecare dimineață."
+        },
+        "brandVoice": {
+          "tone": "Cald, energic și lipsit de pretenții",
+          "attr1": "Autentic",
+          "attr2": "Constant"
+        },
+        "contentPillars": {
+          "pillar1": "Educație despre cafeaua specialty și sursele de cafea",
+          "pillar2": "Clienți fideli de cartier și momente ale ritualului zilnic"
+        },
+        "channelStrategy": "Prioritizează traficul pietonal la stradă și semnalizarea, ca și canal principal, susținută de conținut de rețele sociale locale, cu o cartelă de fidelitate sau aplicație, ca un canal de retenție experimental.",
+        "community": {
+          "description": "O bază fidelă de clienți zilnici și săptămânali, recunoscuți după nume și comanda obișnuită.",
+          "platform1": "Grupuri locale de cartier, pe Instagram și Facebook"
+        },
+        "leadMagnets": {
+          "magnet1": "Reducere la prima vizită, pentru o băutură espresso semnătură"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Descoperire prin trafic pietonal sau social",
+            "description": "Un client potențial observă cafeneaua în timp ce trece pe acolo sau vede conținut de rețele sociale locale."
+          },
+          "stage2": {
+            "name": "Prima vizită la tejghea",
+            "description": "Clientul potențial comandă prima băutură la tejghea."
+          },
+          "stage3": {
+            "name": "Client fidel recunoscut",
+            "description": "Clientul devine un client fidel recunoscut, ale cărui nume și comandă obișnuită le cunosc baristii."
+          }
+        },
+        "retention": {
+          "tactic1": "Determinarea baristilor să învețe activ și să salute clienții fideli, pe nume și cu comanda obișnuită."
+        },
+        "analytics": {
+          "metric1": "Ponderea tranzacțiilor zilnice de la clienți fideli recunoscuți"
+        },
+        "aiMetadata": {
+          "generationHints": "Menține textul de marketing cald și energic, fundamentat pe specificul real al serviciului la tejghea și sursele de cafea — nu face niciodată referire la fraze generice de tipul „cafenea primitoare”."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Asigură finanțarea cafenelei, finalizează amenajarea tejghelei și obține autorizațiile de servicii alimentare și aprobarea de la departamentul de sănătate."
+          },
+          "deliverables": {
+            "0": "O cafenea complet amenajată, autorizată și aprobată, pregătită pentru clienți."
+          },
+          "checklist": {
+            "0": "Observă traficul pietonal, la locația țintă, în diferite momente ale zilei, timp de cel puțin o săptămână, înainte de a semna un contract de închiriere."
+          },
+          "commonMistakes": {
+            "0": "Semnarea unui contract de închiriere, înainte de a confirma că locația are suficient trafic pietonal real, pentru a susține volumul zilnic al unei cafenele."
+          },
+          "successCriteria": {
+            "0": "Finanțarea, amenajarea, autorizațiile și aprobarea departamentului de sănătate sunt toate confirmate și în vigoare."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a ajuta la compararea ofertelor de echipament de la furnizori și opțiunilor de finanțare."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Testează local conceptul de cafea și meniu, printr-un stand pop-up sau la o piață de fermieri, înainte de a te angaja la un contract de închiriere complet."
+          },
+          "deliverables": {
+            "0": "Cel puțin 4 weekenduri de date validate de vânzări pop-up sau de piață."
+          },
+          "checklist": {
+            "0": "Realizează cel puțin 4 weekenduri de vânzări pop-up sau la piață, pentru a confirma cererea și prețurile, înainte de a semna un contract de închiriere."
+          },
+          "commonMistakes": {
+            "0": "Angajarea la un contract de închiriere și amenajare completă, înainte de a valida că programul specific de cafea și prețurile rezonează cu clienții locali."
+          },
+          "successCriteria": {
+            "0": "Vânzările pop-up sau de piață confirmă cererea și prețurile, înainte de semnarea contractului de închiriere."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza datele de vânzări pop-up și a identifica articolele de meniu cu cele mai bune performanțe."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Finalizează prima lună de serviciu la tejghea, cu o deschidere discretă, înainte de lansarea publică completă."
+          },
+          "deliverables": {
+            "0": "Cel puțin 2 săptămâni de serviciu de deschidere discretă, finalizate fluent."
+          },
+          "checklist": {
+            "0": "Realizează cel puțin 2 săptămâni de serviciu de deschidere discretă, pentru prieteni, familie și vecini, înainte de lansarea publică completă."
+          },
+          "commonMistakes": {
+            "0": "Lansarea publică, înainte ca fluxurile de lucru ale personalului și echipamentului să fie suficient de fluide, pentru a gestiona o aglomerație reală de dimineață."
+          },
+          "successCriteria": {
+            "0": "Serviciul de deschidere discretă decurge fluent, cu calitate constantă a băuturilor și timpi de așteptare rezonabili."
+          },
+          "aiRecommendations": {
+            "0": "Folosește programare asistată de AI, pentru a confirma că nivelurile de personal se potrivesc cererii din deschiderea discretă."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Lansează deschiderea publică completă, cu conținut de rețele sociale locale și semnalizare de cartier."
+          },
+          "deliverables": {
+            "0": "O prezență activă de rețele sociale locale și semnalizare clară la stradă."
+          },
+          "checklist": {
+            "0": "Publică conținut de rețele sociale locale, în cele două săptămâni dinaintea marii deschideri, pentru a construi anticipare."
+          },
+          "commonMistakes": {
+            "0": "Bazarea exclusiv pe semnalizare, pentru conștientizare, în loc să construiască și conținut de rețele sociale locale, înainte de ziua deschiderii."
+          },
+          "successCriteria": {
+            "0": "Săptămâna de deschidere vede un trafic constant de clienți noi, atât din semnalizare, cât și din conștientizarea din rețelele sociale."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta un calendar de conținut de rețele sociale locale, de două săptămâni, pentru deschidere."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Transformă vizitatorii pentru prima dată, în clienți fideli zilnici sau săptămânali, recunoscuți."
+          },
+          "deliverables": {
+            "0": "Cel puțin câțiva clienți recunoscuți după nume și comanda obișnuită."
+          },
+          "checklist": {
+            "0": "Determină baristii să învețe activ și să salute clienții fideli, pe nume și cu comanda obișnuită, încă din primele săptămâni de la deschidere."
+          },
+          "commonMistakes": {
+            "0": "Neînvățarea personală, din timp, a numelor și comenzilor obișnuite ale clienților fideli, ratând o oportunitate ușoară de a construi fidelitate."
+          },
+          "successCriteria": {
+            "0": "Baristii pot saluta cel puțin câțiva clienți, pe nume și cu comanda obișnuită."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta note de instruire pentru baristi, despre construirea unor relații autentice cu clienții fideli."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge o bază stabilă de clienți fideli zilnici, care susțin un volum constant în aglomerația de dimineață."
+          },
+          "deliverables": {
+            "0": "O bază stabilă, documentată, de clienți fideli zilnici, cu volumul aglomerației de dimineață urmărit."
+          },
+          "checklist": {
+            "0": "Urmărește lunar ponderea tranzacțiilor de la clienți fideli recunoscuți, pentru a confirma că se formează o bază stabilă."
+          },
+          "commonMistakes": {
+            "0": "Extinderea semnificativă a meniului, înainte de a confirma că oferta principală de espresso și cafea preparată a găsit o bază stabilă de clienți fideli."
+          },
+          "successCriteria": {
+            "0": "Ponderea tranzacțiilor de la clienți fideli recunoscuți este stabilă sau în creștere, de la o lună la alta."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza ce momente ale zilei și zile ale săptămânii generează cele mai multe vizite ale clienților fideli."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Crește vânzările cu amănuntul de cafea boabe ambalată și produsele suplimentare de patiserie, ca pondere din veniturile totale."
+          },
+          "deliverables": {
+            "0": "O creștere documentată a ponderii veniturilor din cafeaua cu amănuntul și produsele suplimentare de patiserie."
+          },
+          "checklist": {
+            "0": "Instruiește baristii să menționeze pungile de cafea boabe cu amănuntul, clienților fideli, cel puțin o dată la câteva vizite."
+          },
+          "commonMistakes": {
+            "0": "Neoferirea activă de pungi de cafea boabe cu amănuntul, clienților fideli, care au deja încredere în calitatea cafelei cafenelei."
+          },
+          "successCriteria": {
+            "0": "Vânzările de cafea cu amănuntul și produsele suplimentare de patiserie ating o pondere semnificativă, în creștere, din veniturile lunare totale."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a identifica clienții fideli care nu au achiziționat încă cafea cu amănuntul și a-i semnala pentru o sugestie."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Adaugă un șef de tură sau un barista suplimentar, pentru a extinde orele de deschidere sau capacitatea din orele de vârf."
+          },
+          "deliverables": {
+            "0": "Un șef de tură sau barista suplimentar, complet integrat, care acoperă orele extinse sau capacitatea de vârf."
+          },
+          "checklist": {
+            "0": "Urmărește datele de vânzări pe oră, timp de cel puțin o lună, înainte de a decide dacă extinzi orele sau adaugi o tură."
+          },
+          "commonMistakes": {
+            "0": "Extinderea orelor sau adăugarea de personal, înainte de a confirma că costul suplimentar de personal este acoperit de cererea incrementală reală."
+          },
+          "successCriteria": {
+            "0": "Noul angajat sau orele extinse sunt acoperite de venituri incrementale reale, urmărite."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a modela impactul asupra veniturilor, al extinderii orelor față de adăugarea de personal în orele de vârf."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Evaluează deschiderea unei a doua locații, odată ce prima cafenea este constant profitabilă și complet dotată cu personal."
+          },
+          "deliverables": {
+            "0": "Un caz de afaceri validat, pentru o a doua locație de cafenea."
+          },
+          "checklist": {
+            "0": "Confirmă că prima cafenea funcționează profitabil, cu un șef de tură instruit, care acoperă absența fondatorului, înainte de a deschide o a doua locație."
+          },
+          "commonMistakes": {
+            "0": "Deschiderea unei a doua locații, înainte ca prima cafenea să poată funcționa fluent, fără prezența zilnică, implicată direct, a fondatorului."
+          },
+          "successCriteria": {
+            "0": "Prima cafenea funcționează profitabil, timp de cel puțin 6 luni, fără prezența zilnică a fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza datele demografice locale și de trafic pietonal, pentru posibile locații ale celei de-a doua locații."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Documentează contractul de închiriere, echipamentul, structura personalului și evidențele de vânzări, pentru a pregăti cafeneaua pentru vânzare, către un alt operator."
+          },
+          "deliverables": {
+            "0": "Un pachet complet de diligență, cu evidențe ale contractului, echipamentului și vânzărilor."
+          },
+          "checklist": {
+            "0": "Menține evidențe curate și complete ale echipamentului și vânzărilor, în mod continuu, nu doar înainte de o vânzare."
+          },
+          "commonMistakes": {
+            "0": "Așteptarea apariției unei oportunități de vânzare, pentru a începe documentarea corespunzătoare a întreținerii echipamentului și istoricului de vânzări."
+          },
+          "successCriteria": {
+            "0": "Un potențial cumpărător ar putea finaliza diligența în întregime, din documentația existentă."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a ajuta la organizarea evidențelor răzlețe ale echipamentului și vânzărilor, într-un pachet structurat de diligență."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține îndrumările din foaia de parcurs concrete despre validarea traficului pietonal, construirea clienților fideli și disciplina tranzacțiilor zilnice — adevăratele pârghii din această afacere."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Carte: „Uncommon Grounds”",
+          "description": "O perspectivă istorică și de afaceri, asupra industriei de cafea specialty."
+        },
+        "item2": {
+          "title": "Curs: SCA Barista Skills Foundation",
+          "description": "Un curs de certificare fundamentală, care acoperă meșteșugul espresso-ului și preparării cafelei."
+        },
+        "item3": {
+          "title": "Comunitate: Coffee Shop Startups",
+          "description": "Un forum online activ de proprietari de cafenele, care împărtășesc sfaturi de afaceri, personal și surse."
+        },
+        "item4": {
+          "title": "Podcast: „The Coffee Business Podcast”",
+          "description": "Interviuri cu proprietari de cafenele, despre creștere, surse și operațiuni."
+        },
+        "item5": {
+          "title": "Newsletter: Sprudge",
+          "description": "Știri din industrie și tendințe din lumea cafelei specialty."
+        },
+        "item6": {
+          "title": "Software: Square",
+          "description": "Software de punct de vânzare și plăți, pentru tranzacții la tejghea."
+        },
+        "item7": {
+          "title": "Software: 7shifts",
+          "description": "Software de programare a personalului, pentru acoperirea turelor baristilor."
+        },
+        "item8": {
+          "title": "Instrument AI: asistent de previzionare a cererii",
+          "description": "Previziune asistată de AI, care sugerează cantitățile zilnice de comandă pentru cafea, lapte și patiserie."
+        },
+        "item9": {
+          "title": "Certificare: Certificare de manipulare alimentară și siguranță alimentară",
+          "description": "Certificarea locală necesară, pentru a prepara și servi legal alimente și băuturi."
+        },
+        "item10": {
+          "title": "Eveniment: Specialty Coffee Expo",
+          "description": "Principalul târg comercial anual din industrie, pentru surse, echipament și educație."
+        },
+        "item11": {
+          "title": "Expert: un consultant financiar sau operațional pentru cafenele",
+          "description": "Ajută la structurarea prețurilor, personalului și fluxului de numerar, pentru o cafenea nouă sau în creștere."
+        },
+        "item12": {
+          "title": "Listă de verificare: Pregătirea deschiderii și validarea traficului pietonal",
+          "description": "Un proces documentat, pentru validarea unei locații și pregătirea pentru ziua deschiderii."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritizează resursele despre validarea traficului pietonal, meșteșugul de barista și gestionarea fluxului de numerar zilnic — adevăratele diferențiatoare din această afacere."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Sugerarea pungilor de cafea cu amănuntul, clienților fideli, care au deja încredere în calitatea cafelei, convertește mult mai bine decât marketingul către clienți noi."
+          },
+          "item2": {
+            "title": "Un parteneriat en-gros cu o brutărie locală captează venituri din vânzarea de alimente, fără costul sau complexitatea unei bucătării interne."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "O locație cu trafic pietonal real slab poate scufunda un concept de cafea altfel solid — semnalizarea vizibilă, singură, nu garantează volumul de clienți spontani."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Semnarea unui contract de închiriere pe baza traficului pietonal presupus, în loc să observe direct locația, în diferite momente ale zilei, mai întâi."
+          },
+          "item2": {
+            "title": "Extinderea excesivă a meniului de alimente și băuturi, înainte ca oferta principală de espresso și cafea preparată să fi găsit o bază stabilă de clienți fideli."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Baristii care învață numele și comenzile obișnuite ale clienților fideli, în primele săptămâni, construiesc fidelitate mai rapid decât orice promoție."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Urmărește datele de vânzări pe oră, înainte de a extinde orele sau a adăuga personal — intuiția despre momentele „aglomerate” este adesea greșită."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Validează conceptul cu un stand pop-up sau de piață, înainte de a semna un contract de închiriere — este cel mai ieftin mod de a confirma cererea reală."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Cafenelele cu o bază solidă de clienți fideli zilnici arată venituri semnificativ mai stabile, decât cele care se bazează în principal pe clienți ocazionali sau unici."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Mulți clienți aleg o cafenea în principal pe baza vitezei și consistenței, în aglomerația de dimineață, nu doar a calității cafelei — serviciul lent pierde rapid clienții fideli."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Costurile de întreținere și detartrare a mașinii de espresso și râșniței sunt adesea subestimate, față de prețul inițial al echipamentului."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Preferința tot mai mare a consumatorilor pentru cafeaua de calitate specialty, față de ofertele standardizate de lanț, semnalează spațiu pentru cafenele autentice de cartier, să concureze."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "O cafenea nou deschisă a atins pragul de rentabilitate în mai puțin de 12 luni, validând traficul pietonal al locației, cu un stand pop-up, înainte de a semna contractul de închiriere."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "O cafenea care a semnat un contract de închiriere pe baza traficului pietonal presupus, în loc de observație directă, s-a confruntat cu un volum zilnic lent, timp de luni."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Cum diferă aceasta de afacerea de restaurant din această bibliotecă?",
+            "answer": "O cafenea are un meniu mult mai simplu de serviciu la tejghea, serviciu mai rapid per tranzacție, fără bucătărie comercială completă sau serviciu la masă, și cerințe de personal și capital mai scăzute, decât un restaurant cu serviciu complet. Servește o nevoie rapidă, de obicei zilnică, nu o ocazie planificată de servire a mesei."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "O cafenea are succes garantat, doar cu o cafea excelentă.",
+            "fact": "O cafea excelentă este condiția minimă — traficul pietonal al locației, viteza serviciului, în aglomerația de dimineață, și construirea unei baze de clienți fideli recunoscuți determină dacă cafeneaua atinge de fapt un volum zilnic sustenabil."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Observă traficul pietonal real al unei locații țintă, în diferite momente ale zilei, timp de cel puțin o săptămână, înainte de a semna un contract de închiriere."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține informațiile fundamentate în validarea traficului pietonal, construirea clienților fideli și disciplina fluxului de numerar zilnic."
+        }
+      }
+    },
+    "restaurant": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: „Setting the Table” de Danny Meyer",
+          "course1": "Curs: Certificare ServSafe Manager Food Protection",
+          "community1": "Comunitate: forumul online Restaurant Owners",
+          "checklist1": "Listă de verificare: Amenajarea deschiderii, licențierea și validarea meniului"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognozează veniturile pe baza ratei de completare a rezervărilor de weekend și a creșterii clienților în zilele lucrătoare — o bază stabilă de rezervări crește previzibil, odată ce meniul și standardul de serviciu sunt stabilite."
+        },
+        "breakEven": {
+          "notes": "Pragul de rentabilitate apare de obicei în jurul lunii 18, dată fiind investiția inițială ridicată în echipament, amenajare și licențiere."
+        },
+        "grossMargin": {
+          "notes": "Marja brută se menține în jur de 35%, după costul mărfurilor pentru alimente și băuturi și costurile ridicate de personal, de sală și bucătărie."
+        },
+        "netMargin": {
+          "notes": "Marja netă se stabilizează în jur de 8%, odată ce costurile de chirie, personal complet și licențiere sunt luate în calcul — cea mai subțire marjă netă, dintre afacerile cu locație fizică din această bibliotecă, reflectând economia notoriu strânsă a industriei restaurantelor."
+        },
+        "scenarios": {
+          "conservative": "Un scenariu de creștere lentă, cu o rată parțială de completare de weekend și rezervări limitate pentru evenimente private.",
+          "expected": "Un scenariu realist, cu o bază stabilă de rezervări de weekend și venituri moderate din evenimente private.",
+          "optimistic": "Un scenariu puternic, cu serviciu constant complet de weekend și o carte de rezervări pentru evenimente private și catering, în creștere."
+        },
+        "risks": {
+          "risk1": "Marjele notoriu reduse ale industriei restaurantelor amplifică orice deficit de venituri, într-o criză de numerar, mai rapid decât într-o afacere cu costuri fixe mai scăzute.",
+          "risk2": "Costurile fixe ridicate de personal, de sală și bucătărie, creează un prag ridicat de venituri pentru pragul de rentabilitate, indiferent de câte mese sunt efectiv servite, într-o anumită seară."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează costurile și marja ca fiind dominate de personal și costul mărfurilor, cu un prag fix ridicat pentru pragul de rentabilitate — cea mai subțire marjă și cel mai ridicat nivel de capital, dintre afacerile cu locație fizică din această bibliotecă."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Sezonier, gătit de la zero și merită rezervarea — o destinație de cină de cartier, de încredere, nu un meniu de lanț rotativ.",
+          "category": "Restaurant cu serviciu complet și bucătărie de la zero"
+        },
+        "brandPromise": "Fiecare vizită se simte ca ocazia pentru care este menită.",
+        "uvp": {
+          "statement": "Un meniu sezonier de cină, gătit de la zero, și un program complet de bar, într-un cadru de cartier de încredere, care merită planificat o seară în jurul lui.",
+          "diff1": "Un meniu cu adevărat sezonier, gătit de la zero, distinct de standardizarea fast-casual sau de lanț.",
+          "diff2": "Un program complet de bar și capacitate de evenimente private, sub același acoperiș, distinct de oferta mai simplă a unei cafenele cu serviciu la tejghea."
+        },
+        "icp": {
+          "description": "Clienți locali, cu vârste între 30-55 ani, din comunitatea din jur, care sărbătoresc o ocazie sau caută un loc de cină de weekend de încredere, plus cupluri în seri romantice.",
+          "firmographics": "Gospodării și cupluri cu buget discreționar pentru mese în oraș, care rezervă de obicei pentru cine de weekend, sărbători sau ocazii speciale."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Client de ocazie de weekend",
+            "description": "Un client local, care planifică o seară romantică sau o sărbătoare, și dorește un restaurant de încredere, care merită rezervarea."
+          },
+          "persona2": {
+            "name": "Organizator de evenimente private",
+            "description": "O companie locală sau o persoană, care organizează o cină privată sau o sărbătoare, și rezervă sala privată de cină sau serviciul de catering al restaurantului."
+          }
+        },
+        "painPoints": {
+          "point1": "Nesiguranță legată de dacă un restaurant nou va oferi de fapt o experiență culinară constantă, care merită.",
+          "point2": "Dificultatea de a găsi un local pentru un eveniment privat, care combină mâncarea de calitate cu o capacitate reală de găzduire de evenimente."
+        },
+        "outcomes": {
+          "outcome1": "O experiență culinară sezonieră, de încredere, care merită planificată o seară în jurul ei.",
+          "outcome2": "Un eveniment privat sau o sărbătoare, găzduite cu mâncare autentică, gătită de la zero, și serviciu complet de bar."
+        },
+        "messaging": {
+          "core": "Sezonier, gătit de la zero, și merită rezervarea.",
+          "support1": "O destinație de cină de cartier, de încredere, pentru seri romantice, sărbători și evenimente private."
+        },
+        "brandVoice": {
+          "tone": "Ospitalier, încrezător și sezonier",
+          "attr1": "De încredere",
+          "attr2": "Gătit de la zero"
+        },
+        "contentPillars": {
+          "pillar1": "Meniul sezonier și sursele de ingrediente",
+          "pillar2": "Capacitatea de evenimente private și catering"
+        },
+        "channelStrategy": "Prioritizează listarea pe platforma de rezervări și vizibilitatea în presa culinară locală, ca și canal principal, susținută de conținut social despre meniul sezonier, cu contactarea pentru evenimente private și catering, ca un canal experimental de venituri.",
+        "community": {
+          "description": "O bază fidelă de clienți recurenți, care revin pentru ocazii speciale și recomandă restaurantul pentru evenimente private.",
+          "platform1": "Relații cu presa culinară locală și bloggeri culinari"
+        },
+        "leadMagnets": {
+          "magnet1": "O degustare gratuită, pentru solicitările de evenimente private, care rezervă o cheltuială minimă"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Descoperire prin platforma de rezervări sau presă",
+            "description": "Un client potențial găsește restaurantul, printr-o listare pe platforma de rezervări sau acoperire în presa culinară locală."
+          },
+          "stage2": {
+            "name": "Programarea rezervării",
+            "description": "Clientul potențial rezervă o masă, pentru o ocazie sau dată specifică."
+          },
+          "stage3": {
+            "name": "Rezervare repetată sau eveniment privat",
+            "description": "Clientul revine pentru o altă ocazie sau rezervă un eveniment privat, odată ce experiența culinară a câștigat încrederea."
+          }
+        },
+        "retention": {
+          "tactic1": "Verificarea personală, de către gazdă sau fondator, a meselor clienților pentru prima dată, în timpul serviciului."
+        },
+        "analytics": {
+          "metric1": "Rata de completare a rezervărilor de weekend"
+        },
+        "aiMetadata": {
+          "generationHints": "Menține textul de marketing ospitalier și încrezător, fundamentat pe meniul sezonier real și programul de bar — nu face niciodată referire la fraze generice de tipul „de la fermă la masă”."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Asigură finanțarea de nivel ridicat, finalizează amenajarea bucătăriei și sălii de mese, și obține autorizațiile de servicii alimentare, licențierea pentru alcool și autorizațiile sanitare."
+          },
+          "deliverables": {
+            "0": "Un restaurant complet amenajat, licențiat și autorizat, pregătit pentru clienți."
+          },
+          "checklist": {
+            "0": "Începe cererea de licențiere pentru alcool, în paralel cu amenajarea, deoarece are de obicei cel mai lung timp de pregătire, dintre cerințele de deschidere."
+          },
+          "commonMistakes": {
+            "0": "Subestimarea duratei licențierii pentru alcool, întârziind data deschiderii, după ce amenajarea este deja finalizată."
+          },
+          "successCriteria": {
+            "0": "Finanțarea, amenajarea, licențierea și autorizațiile sanitare sunt toate confirmate și în vigoare."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a ajuta la urmărirea statutului cererilor de licențiere și documentației necesare, în toate agențiile."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Testează conceptul de meniu, prin cine pop-up sau un club de cină, înainte de a te angaja la contractul de închiriere complet."
+          },
+          "deliverables": {
+            "0": "Cel puțin 3-4 cine pop-up validate, cu feedback confirmat despre meniu și prețuri."
+          },
+          "checklist": {
+            "0": "Realizează cel puțin 3-4 cine pop-up, pentru a confirma meniul, prețurile și cererea, înainte de a semna un contract de închiriere."
+          },
+          "commonMistakes": {
+            "0": "Angajarea la un contract de închiriere și amenajare completă, înainte de a valida că conceptul de meniu sezonier și nivelul de preț rezonează cu clienții locali."
+          },
+          "successCriteria": {
+            "0": "Cinele pop-up confirmă meniul, prețurile și cererea, înainte de semnarea contractului de închiriere."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza feedback-ul de la cinele pop-up și a identifica cele mai puternice articole de meniu."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Finalizează prima lună de serviciu de cină, cu o deschidere discretă, înainte de lansarea publică completă."
+          },
+          "deliverables": {
+            "0": "Cel puțin 2-3 săptămâni de serviciu de deschidere discretă, finalizate la capacitate redusă."
+          },
+          "checklist": {
+            "0": "Realizează cel puțin 2-3 săptămâni de serviciu de deschidere discretă, la capacitate redusă, înainte de lansarea publică completă."
+          },
+          "commonMistakes": {
+            "0": "Lansarea publică, înainte ca echipele de bucătărie și sală să fi rulat suficient serviciu, pentru a gestiona fluent o sală de mese completă."
+          },
+          "successCriteria": {
+            "0": "Serviciul de deschidere discretă decurge fluent, cu calitate constantă a alimentelor și timpi rezonabili de rotație a meselor."
+          },
+          "aiRecommendations": {
+            "0": "Folosește programare asistată de AI, pentru a confirma că nivelurile de personal se potrivesc cererii din deschiderea discretă."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Lansează deschiderea publică completă, cu contactarea presei culinare locale și listarea pe o platformă de rezervări."
+          },
+          "deliverables": {
+            "0": "O listare activă pe platforma de rezervări și cel puțin un articol în presa culinară locală."
+          },
+          "checklist": {
+            "0": "Invită bloggeri culinari locali și presa, la o cină de previzualizare, înaintea deschiderii publice."
+          },
+          "commonMistakes": {
+            "0": "Bazarea exclusiv pe listarea pe platforma de rezervări, pentru vizibilitate, în loc să urmărească și acoperire în presa culinară locală."
+          },
+          "successCriteria": {
+            "0": "Luna de deschidere vede rezervări constante de clienți noi, atât din listarea pe platformă, cât și din acoperirea din presă."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta mesaje de contactare, către bloggeri culinari locali și presă, pentru deschidere."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Transformă clienții pentru prima dată, în rezervări repetate."
+          },
+          "deliverables": {
+            "0": "Cel puțin câțiva clienți pentru prima dată, care au rezervat o rezervare repetată."
+          },
+          "checklist": {
+            "0": "Determină gazda sau fondatorul să verifice personal mesele clienților pentru prima dată, în timpul serviciului, pentru a aduna feedback."
+          },
+          "commonMistakes": {
+            "0": "Neverificarea personală cu clienții pentru prima dată, în timpul serviciului, pentru a aduna feedback și a încuraja o vizită de revenire."
+          },
+          "successCriteria": {
+            "0": "Cel puțin câțiva clienți pentru prima dată au rezervat o rezervare repetată."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta un șablon de mesaj de mulțumire de urmărire, pentru clienții pentru prima dată."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge un volum stabil de rezervări de weekend și clienți constanți în zilele lucrătoare."
+          },
+          "deliverables": {
+            "0": "O rată stabilă, documentată, de completare a rezervărilor de weekend și numărul de clienți din zilele lucrătoare."
+          },
+          "checklist": {
+            "0": "Urmărește lunar rata de completare a rezervărilor de weekend și numărul de clienți din zilele lucrătoare, pentru a confirma o cerere stabilă, înainte de a extinde serviciul."
+          },
+          "commonMistakes": {
+            "0": "Extinderea meniului sau adăugarea de noi zile de serviciu de cină, înainte de a confirma că serviciul existent de weekend funcționează fluent și profitabil."
+          },
+          "successCriteria": {
+            "0": "Rata de completare a rezervărilor de weekend și numărul de clienți din zilele lucrătoare sunt stabile sau în creștere, de la o lună la alta."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza ce articole de meniu și intervale orare generează cea mai mare eficiență de rotație a meselor."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Crește rezervările pentru evenimente private și catering, ca venit incremental, dincolo de clienții de seară."
+          },
+          "deliverables": {
+            "0": "O creștere documentată a veniturilor din rezervări pentru evenimente private și catering."
+          },
+          "checklist": {
+            "0": "Contactează direct companiile locale și organizatorii de evenimente, despre rezervări pentru cine private și catering."
+          },
+          "commonMistakes": {
+            "0": "Nepromovarea activă a sălii private de cină sau a capacității de catering, către companiile locale și organizatorii de evenimente."
+          },
+          "successCriteria": {
+            "0": "Rezervările pentru evenimente private și catering ating o pondere semnificativă, în creștere, din veniturile lunare totale."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a identifica companiile locale și organizatorii de evenimente, care ar putea rezerva cine private sau catering."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Adaugă un sous chef sau manager de bucătărie, pentru a reduce sarcina zilnică, implicată direct, a fondatorului."
+          },
+          "deliverables": {
+            "0": "Un sous chef sau manager de bucătărie, complet integrat, cu rețete și proceduri documentate."
+          },
+          "checklist": {
+            "0": "Documentează rețetele standardizate și procedurile de bucătărie, în scris, înainte de a transfera conducerea zilnică a bucătăriei."
+          },
+          "commonMistakes": {
+            "0": "Angajarea unui sous chef sau manager de bucătărie, fără un plan clar de transfer al standardelor și rețetelor de bucătărie, cauzând variații de calitate."
+          },
+          "successCriteria": {
+            "0": "Noul angajat conduce serviciul zilnic, la același standard de calitate, în decurs de 3 luni."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a ajuta la organizarea și standardizarea documentației de rețete, pentru transfer."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Evaluează deschiderea unei a doua locații, odată ce primul restaurant este constant profitabil și complet dotat cu personal."
+          },
+          "deliverables": {
+            "0": "Un caz de afaceri validat, pentru o a doua locație de restaurant."
+          },
+          "checklist": {
+            "0": "Confirmă că primul restaurant funcționează profitabil, cu un sous chef sau manager de bucătărie, care acoperă absența fondatorului, înainte de a deschide o a doua locație."
+          },
+          "commonMistakes": {
+            "0": "Extinderea la o a doua locație, înainte ca primul restaurant să poată funcționa constant, fără prezența zilnică a fondatorului."
+          },
+          "successCriteria": {
+            "0": "Primul restaurant funcționează profitabil, timp de cel puțin 6 luni, fără prezența zilnică a fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a analiza datele demografice locale și competitive, pentru posibile locații ale celei de-a doua locații."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Documentează contractul de închiriere, echipamentul, rețetele/meniul și structura personalului, pentru a pregăti restaurantul pentru vânzare."
+          },
+          "deliverables": {
+            "0": "Un pachet complet de diligență, cu evidențe ale contractului, echipamentului, rețetelor și finanțelor."
+          },
+          "checklist": {
+            "0": "Menține evidențe curate și complete ale rețetelor, echipamentului și finanțelor, în mod continuu, nu doar înainte de o vânzare."
+          },
+          "commonMistakes": {
+            "0": "Așteptarea apariției unei oportunități de vânzare, pentru a începe documentarea corespunzătoare a rețetelor, întreținerii echipamentului și structurii personalului."
+          },
+          "successCriteria": {
+            "0": "Un potențial cumpărător ar putea finaliza diligența în întregime, din documentația existentă."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a ajuta la organizarea evidențelor răzlețe de rețete, echipament și finanțe, într-un pachet structurat de diligență."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține îndrumările din foaia de parcurs concrete despre termenele de licențiere, validarea meniului și disciplina de completare a rezervărilor — adevăratele pârghii din această afacere."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Carte: „Setting the Table”",
+          "description": "O perspectivă de ospitalitate și afaceri, asupra construirii unui restaurant în jurul unei experiențe autentice pentru client."
+        },
+        "item2": {
+          "title": "Curs: Certificare ServSafe Manager Food Protection",
+          "description": "Un curs de certificare obligatorie de siguranță alimentară, pentru managerii de restaurant."
+        },
+        "item3": {
+          "title": "Comunitate: Restaurant Owners",
+          "description": "Un forum online activ de proprietari de restaurante, care împărtășesc sfaturi de afaceri, personal și operațiuni."
+        },
+        "item4": {
+          "title": "Podcast: „The Restaurant Boss”",
+          "description": "Interviuri și sfaturi despre managementul restaurantelor, personal și profitabilitate."
+        },
+        "item5": {
+          "title": "Newsletter: Restaurant Business",
+          "description": "Știri din industrie și tendințe din lumea afacerilor de restaurante."
+        },
+        "item6": {
+          "title": "Software: Toast",
+          "description": "Software de punct de vânzare și afișaj de bucătărie, pentru serviciul de restaurant."
+        },
+        "item7": {
+          "title": "Software: OpenTable",
+          "description": "Software de rezervări și gestionare a meselor, pentru serviciul din sala de mese."
+        },
+        "item8": {
+          "title": "Instrument AI: asistent de previziune a achizițiilor",
+          "description": "Previziune asistată de AI, care sugerează cantitățile de comandă a ingredientelor, pe baza numărului recent de clienți."
+        },
+        "item9": {
+          "title": "Certificare: Licență de alcool și autorizație de servicii alimentare",
+          "description": "Licențierea și autorizarea locală necesară, pentru a servi legal alimente și alcool."
+        },
+        "item10": {
+          "title": "Eveniment: National Restaurant Association Show",
+          "description": "Principalul târg comercial anual din industrie, pentru surse, echipament și educație."
+        },
+        "item11": {
+          "title": "Expert: un consultant financiar sau operațional pentru restaurante",
+          "description": "Ajută la structurarea prețurilor, personalului și fluxului de numerar, pentru un restaurant nou sau în creștere."
+        },
+        "item12": {
+          "title": "Listă de verificare: Amenajarea deschiderii, licențierea și validarea meniului",
+          "description": "Un proces documentat, pentru amenajare, licențiere și validarea meniului, înainte de ziua deschiderii."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritizează resursele despre validarea meniului, licențiere și disciplina financiară cu marjă redusă — adevăratele diferențiatoare din această afacere."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "O sală privată de cină sau o capacitate de catering captează venituri incrementale, de la companii locale și organizatori de evenimente, fără a adăuga clienți de seară."
+          },
+          "item2": {
+            "title": "Un program complet de bar adaugă venituri cu marjă ridicată, care ajută la compensarea marjelor reduse ale costului alimentelor, din meniul de cină."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Termenele de licențiere pentru alcool variază semnificativ, în funcție de jurisdicție, și pot întârzia cu luni o deschidere altfel pregătită, dacă nu sunt începute din timp."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Semnarea unui contract de închiriere și începerea amenajării, înainte de a valida că conceptul de meniu sezonier rezonează cu clienții locali, prin cine pop-up."
+          },
+          "item2": {
+            "title": "Subestimarea vitezei cu care costurile fixe ridicate de personal, de sală și bucătărie, erodează marja, în serile de săptămână lente."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Gazda sau fondatorul care verifică personal mesele clienților pentru prima dată, în timpul serviciului, transformă mult mai mulți clienți pentru prima dată, în clienți recurenți, decât orice promoție."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Documentează rețetele standardizate și procedurile de bucătărie, înainte de a transfera conducerea zilnică unui sous chef — rețetele nedocumentate cauzează rapid variații de calitate."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Începe procesul de licențiere pentru alcool cât mai devreme posibil — este aproape întotdeauna elementul cu cel mai lung termen de pregătire, în lansarea unui restaurant."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Restaurantele cu o disciplină puternică de completare a rezervărilor de weekend arată un flux de numerar semnificativ mai stabil, decât cele care se bazează în principal pe traficul spontan."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Mulți clienți aleg un restaurant în principal pe baza recenziilor de pe platforma de rezervări și acoperirii din presa locală, nu a publicității — vizibilitatea câștigată depășește promovarea plătită."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Costurile de întreținere și reparație a echipamentului de bucătărie comercială sunt adesea subestimate, față de prețul inițial de achiziție."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cererea locală în creștere pentru capacitate de evenimente private și catering, semnalează spațiu pentru venituri incrementale, dincolo de afacerea de bază a serviciului de cină."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Un restaurant nou deschis a atins pragul de rentabilitate în mai puțin de 18 luni, validându-și conceptul de meniu cu cine pop-up, înainte de a semna contractul de închiriere."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "Un restaurant care a semnat un contract de închiriere și a finalizat amenajarea, înainte de a valida cererea de meniu, s-a confruntat cu clienți slabi în zilele lucrătoare, timp de luni, după deschidere."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Cum diferă aceasta de afacerea de cafenea din această bibliotecă?",
+            "answer": "Un restaurant funcționează cu o bucătărie comercială completă, cu un personal mult mai mare, de sală și bucătărie, necesită licențiere pentru alcool, pe lângă autorizarea standard de servicii alimentare, are cel mai ridicat capital inițial și cele mai subțiri marje, dintre cele două, și adaugă un flux de venituri din rezervări pentru evenimente private/catering. Servește o ocazie planificată de servire a mesei, nu o oprire de obicei zilnică."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Un restaurant cu mâncare excelentă are succes garantat.",
+            "fact": "Mâncarea excelentă este condiția minimă — disciplina de completare a rezervărilor, controlul costurilor față de marjele reduse și standardele constante de serviciu determină dacă restaurantul atinge de fapt o profitabilitate sustenabilă."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Validează conceptul de meniu, prin cine pop-up sau un club de cină, înainte de a semna un contract de închiriere și a începe amenajarea."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține informațiile fundamentate în validarea meniului, termenele de licențiere și disciplina financiară cu marjă redusă."
+        }
+      }
     }
   }
 }

@@ -1,0 +1,142 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "commercialKitchenEquipment",
+      "diningRoomAndBarBuildout",
+      "liquorLicensingAndPosSystem"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "restaurantLease",
+      "fohAndBohStaffWages"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "foodAndBeverageCogs",
+      "linensAndSmallwares",
+      "equipmentMaintenanceAndRepairs"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "dineInFoodAndBeverageSales",
+        "label": {
+          "en": "Dine-in food and beverage sales",
+          "ro": "Vânzări de alimente și băuturi, cu servire la masă"
+        }
+      },
+      {
+        "key": "barAndAlcoholSales",
+        "label": {
+          "en": "Full-bar and alcohol sales",
+          "ro": "Vânzări de la bar complet și de alcool"
+        }
+      },
+      {
+        "key": "privateEventAndCateringBookings",
+        "label": {
+          "en": "Private event and catering bookings",
+          "ro": "Rezervări pentru evenimente private și catering"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageCheckValue": "currency",
+      "coversPerNight": "number",
+      "barAttachRatePercent": "percent",
+      "privateEventBookingsPerMonth": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "weekendReservationFillRatePercent": "percent",
+      "weekdayCoverGrowthPercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.restaurant.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "dineInAndBarSalesInflow",
+      "privateEventDepositInflow",
+      "leaseAndPayrollOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 18,
+    "notesTranslationKey": "businessLibrary.restaurant.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 35,
+    "notesTranslationKey": "businessLibrary.restaurant.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 8,
+    "notesTranslationKey": "businessLibrary.restaurant.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "chefAndLineCookRecruiting",
+      "serverAndHostOnboarding"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "reservationPlatformFees",
+      "localPressAndFoodPhotography"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxOnStaff",
+      "alcoholExciseTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "customerRetention",
+      "grossMargin",
+      "leadConversion",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 22000,
+      "notesTranslationKey": "businessLibrary.restaurant.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 55000,
+      "notesTranslationKey": "businessLibrary.restaurant.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 90000,
+      "notesTranslationKey": "businessLibrary.restaurant.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.restaurant.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.restaurant.financial.risks.risk2",
+        "severity": "high"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.restaurant.financial.aiMetadata.generationHints"
+  }
+}
