@@ -160,6 +160,33 @@ technology-services saturation assessment (the category now holds 8
 AI/tech-service businesses; judged still distinct, but flagged as
 approaching its natural ceiling for further AI-genre P2/P3 entries).*
 
+*Status as of Knowledge Authoring Batch 12 (2026-07-16, seventh of 14
+planned P2 batches): 4 more P2 candidates authored — Self-Paced
+Language Learning Platform (`online-course-platforms`, deliberately
+differentiated from Cohort-Based Coding Bootcamp — asynchronous,
+infinitely-scalable `saas`/subscription-MRR economics and habit/streak
+retention versus the bootcamp's synchronous, cohort-capped
+`service`/tuition-per-cohort economics and cohort-completion
+retention), Remote-First HR Advisory (`hr-consultancies`, deliberately
+differentiated from HR Consultancy — multi-jurisdiction
+distributed-hiring compliance focus versus general single-jurisdiction
+small-business HR support, fully remote versus hybrid; a secondary
+regulated-content flag handled with a disclaimer of the same weight as
+HR Consultancy's own, not the heavier discipline used for
+accounting/tax/insurance/legal content), Circular Fashion Rental
+Platform (`sustainable-fashion-brands`, deliberately differentiated
+from both Upcycled Denim Label and Organic Cotton Basics Brand on the
+rental/access model — garment ownership never transfers, and the
+economics are fleet-depreciation-and-reverse-logistics rather than
+either sibling's one-time-sale ownership-transfer model), and
+E-commerce Accounting Specialist Firm (`accounting-firms`, regulated
+accounting content framed with the same educational-guidance
+discipline as Accounting Firm and Cloud Bookkeeping Service for
+Startups, deliberately differentiated from both on multi-channel sales
+reconciliation, inventory/COGS accounting, and sales-tax-nexus
+compliance for e-commerce sellers) — bringing the total authored count
+to 57.*
+
 No enum value or category key was invented — every value used in the
 tables below is one of the values listed above, or one of the 12
 `IndustryType`/8 `BusinessModelType` values confirmed earlier in this
@@ -212,8 +239,8 @@ prioritization, not a commitment.
   infrastructure (e.g. a real marketplace/platform) that doesn't exist
   yet.
 
-**Already Authored** column: ✅ marks the 54 packages that exist today
-under `business-library/technology/` (53 `published` + 1 `template`,
+**Already Authored** column: ✅ marks the 58 packages that exist today
+under `business-library/technology/` (57 `published` + 1 `template`,
 per `business-library/manifest.json`). Their metadata below (Industry,
 BusinessModel, Difficulty, Scalability, Solo Friendly, Budget Tier) is
 copied from their real `metadata.json` / `business-dna.json`, not
@@ -232,17 +259,17 @@ entries; 12 new categories added, each with one flagship P1 entry.*
 | `technology-services` | 20 | 15 |
 | `subscription-boxes` | 10 | 2 |
 | `boutique-fitness-studios` | 9 | 2 |
-| `online-course-platforms` | 10 | 1 |
-| `sustainable-fashion-brands` | 9 | 2 |
+| `online-course-platforms` | 10 | 2 |
+| `sustainable-fashion-brands` | 9 | 3 |
 | `local-service-marketplaces` | 9 | 3 |
 | `boutique-travel-agencies` | 8 | 2 |
 | `niche-content-studios` | 9 | 1 |
-| `accounting-firms` | 6 | 2 |
+| `accounting-firms` | 6 | 3 |
 | `financial-consultancies` | 6 | 2 |
 | `insurance-brokerages` | 6 | 2 |
 | `tax-consultancies` | 6 | 2 |
 | `law-firms` | 7 | 2 |
-| `hr-consultancies` | 6 | 1 |
+| `hr-consultancies` | 6 | 2 |
 | `recruitment-agencies` | 7 | 2 |
 | `business-consultancies` | 7 | 1 |
 | `marketing-agencies` | 1 | 1 |
@@ -429,7 +456,7 @@ full package.*
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | online-course-platforms | Cohort-Based Coding Bootcamp | cohort-based-coding-bootcamp | education | service | P2 | high | Medium | No | moderate | Yes | ✅ |
-| online-course-platforms | Self-Paced Language Learning Platform | self-paced-language-platform | education | saas | P2 | high | High | No | high | Yes | |
+| online-course-platforms | Self-Paced Language Learning Platform | self-paced-language-platform | education | saas | P2 | high | High | No | high | Yes | ✅ |
 | online-course-platforms | Professional Certification Prep Platform | professional-certification-platform | education | saas | P2 | moderate | Medium | No | high | No | |
 | online-course-platforms | Kids' Online Coding Academy | kids-online-coding-academy | education | subscription | P2 | moderate | Medium | No | moderate | No | |
 | online-course-platforms | Music Lesson Subscription Platform | music-lesson-subscription-platform | education | subscription | P3 | moderate | Medium | Yes | moderate | No | |
@@ -453,7 +480,7 @@ package.*
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | sustainable-fashion-brands | Upcycled Denim Label | upcycled-denim-label | fashion | physicalProduct | P2 | moderate | Medium | Yes | moderate | No | ✅ |
 | sustainable-fashion-brands | Organic Cotton Basics Brand | organic-cotton-basics-brand | fashion | ecommerce | P2 | moderate | Medium | Yes | high | No | ✅ |
-| sustainable-fashion-brands | Circular Fashion Rental Platform | circular-fashion-rental-platform | fashion | subscription | P2 | high | High | No | moderate | Yes | |
+| sustainable-fashion-brands | Circular Fashion Rental Platform | circular-fashion-rental-platform | fashion | subscription | P2 | high | High | No | moderate | Yes | ✅ |
 | sustainable-fashion-brands | Sustainable Activewear Brand | sustainable-activewear-brand | fashion | ecommerce | P2 | moderate | Medium | Yes | moderate | No | |
 | sustainable-fashion-brands | Zero-Waste Accessories Studio | zero-waste-accessories-studio | fashion | physicalProduct | P3 | moderate | Low | Yes | low | No | |
 | sustainable-fashion-brands | Deadstock Fabric Fashion Label | deadstock-fabric-fashion-label | fashion | physicalProduct | P3 | moderate | Medium | Yes | moderate | No | |
@@ -579,7 +606,7 @@ package.*
 | accounting-firms | Accounting Firm | accounting-firm | finance | service | P1 | moderate | Medium | Yes | moderate | No | ✅ |
 | accounting-firms | Cloud Bookkeeping Service for Startups | cloud-bookkeeping-startups | finance | service | P2 | moderate | Low | Yes | moderate | No | ✅ |
 | accounting-firms | Nonprofit Accounting Practice | nonprofit-accounting-practice | finance | service | P3 | moderate | Medium | Yes | moderate | No | |
-| accounting-firms | E-commerce Accounting Specialist Firm | ecommerce-accounting-specialist-firm | finance | service | P2 | moderate | Medium | Yes | moderate | No | |
+| accounting-firms | E-commerce Accounting Specialist Firm | ecommerce-accounting-specialist-firm | finance | service | P2 | high | Medium | Yes | moderate | Yes | ✅ |
 | accounting-firms | Fractional CFO & Bookkeeping Practice | fractional-cfo-bookkeeping-practice | finance | service | P2 | high | Medium | Yes | moderate | Yes | |
 | accounting-firms | Real Estate Accounting Practice | real-estate-accounting-practice | finance | service | P3 | moderate | Medium | Yes | moderate | No | |
 
@@ -688,7 +715,7 @@ package.*
 | Category | Business Name | Slug | IndustryType | BusinessModel | Launch Priority | Difficulty | Startup Budget Tier | Solo Friendly | Scalability | Premium Package | Already Authored |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | hr-consultancies | HR Consultancy | hr-consultancy | professionalServices | service | P1 | moderate | Medium | Yes | moderate | No | ✅ |
-| hr-consultancies | Remote-First HR Advisory | remote-first-hr-advisory | professionalServices | service | P2 | moderate | Medium | Yes | moderate | No | |
+| hr-consultancies | Remote-First HR Advisory | remote-first-hr-advisory | professionalServices | service | P2 | high | Medium | Yes | high | Yes | ✅ |
 | hr-consultancies | Compensation & Benefits Consultancy | compensation-benefits-consultancy | professionalServices | service | P2 | high | Medium | Yes | moderate | Yes | |
 | hr-consultancies | DEI & Culture Consultancy | dei-culture-consultancy | professionalServices | service | P3 | moderate | Low | Yes | moderate | No | |
 | hr-consultancies | HR Compliance Audit Practice | hr-compliance-audit-practice | professionalServices | service | P3 | high | Medium | Yes | moderate | Yes | |
