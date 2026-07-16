@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.circularFashionRentalPlatform.marketing.uvp.diff1",
+      "businessLibrary.circularFashionRentalPlatform.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2c",
+    "descriptionTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.circularFashionRentalPlatform.marketing.painPoints.point1",
+      "businessLibrary.circularFashionRentalPlatform.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.circularFashionRentalPlatform.marketing.outcomes.outcome1",
+      "businessLibrary.circularFashionRentalPlatform.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.circularFashionRentalPlatform.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.circularFashionRentalPlatform.marketing.brandVoice.attr1",
+      "businessLibrary.circularFashionRentalPlatform.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.circularFashionRentalPlatform.marketing.contentPillars.pillar1",
+      "businessLibrary.circularFashionRentalPlatform.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "contentMarketing",
+      "socialMedia",
+      "referralProgram"
+    ],
+    "strategyTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.circularFashionRentalPlatform.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.circularFashionRentalPlatform.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.circularFashionRentalPlatform.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.circularFashionRentalPlatform.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "customerRetention",
+      "churn"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.circularFashionRentalPlatform.marketing.aiMetadata.generationHints"
+  }
+}

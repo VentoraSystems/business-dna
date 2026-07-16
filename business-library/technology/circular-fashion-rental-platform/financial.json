@@ -1,0 +1,140 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "initialRentalFleetInventoryAcquisition",
+      "garmentProcessingAndCleaningFacilitySetup",
+      "subscriptionCommercePlatformAndLogisticsSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "subscriptionPlatformAndTwoWayShippingFees",
+      "garmentProcessingFacilityLeaseAndUtilities"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "reverseLogisticsCleaningInspectionAndRepairCycle",
+      "rentalFleetReplenishmentAndDepreciation"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "tieredMonthlyRentalSubscriptionFees",
+        "label": {
+          "en": "Tiered monthly rental subscription fees (by items held at once / swaps per month)",
+          "ro": "Taxe de abonament lunar, de închiriere, pe niveluri (după numărul de piese deținute, simultan / schimburi, pe lună)"
+        }
+      },
+      {
+        "key": "memberBuyOutSalesOfRetainedPieces",
+        "label": {
+          "en": "Optional buy-out sales for members who want to keep a specific piece permanently",
+          "ro": "Vânzări opționale, de răscumpărare, pentru membrii care doresc să păstreze o piesă anume, permanent"
+        }
+      },
+      {
+        "key": "corporateCapsuleWardrobePartnerships",
+        "label": {
+          "en": "Corporate work-capsule wardrobe partnership fees",
+          "ro": "Taxe de parteneriat, pentru garderoba capsulă, de lucru, corporativă"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "activeSubscribers": "number",
+      "averageMonthlySubscriptionRevenuePerMember": "currency",
+      "fleetUtilizationRatePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "newSubscribersPerMonth": "number",
+      "subscriberMonthlyChurnRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.circularFashionRentalPlatform.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "subscriptionBillingInflow",
+      "buyOutSalesInflow",
+      "corporatePartnershipInflow",
+      "fleetAcquisitionAndReverseLogisticsOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 14,
+    "notesTranslationKey": "businessLibrary.circularFashionRentalPlatform.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 44,
+    "notesTranslationKey": "businessLibrary.circularFashionRentalPlatform.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 12,
+    "notesTranslationKey": "businessLibrary.circularFashionRentalPlatform.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "garmentProcessingAndInspectionStaffRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "circularEconomyContentProduction",
+      "performanceSocialAndReferralAcquisition"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "salesTaxOnRentalSubscriptionFees"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "mrr",
+      "customerRetention",
+      "churn",
+      "grossMargin",
+      "closeRate"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 8000,
+      "notesTranslationKey": "businessLibrary.circularFashionRentalPlatform.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 19000,
+      "notesTranslationKey": "businessLibrary.circularFashionRentalPlatform.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 32000,
+      "notesTranslationKey": "businessLibrary.circularFashionRentalPlatform.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.circularFashionRentalPlatform.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.circularFashionRentalPlatform.financial.risks.risk2",
+        "severity": "high"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.circularFashionRentalPlatform.financial.aiMetadata.generationHints"
+  }
+}

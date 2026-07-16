@@ -1,0 +1,965 @@
+{
+  "identity": {
+    "id": "2b0e207a-242d-47f4-b8b7-0a36012008c1",
+    "slug": "circular-fashion-rental-platform",
+    "version": "1.0.0",
+    "name": {
+      "en": "Loopwear Rental Co.",
+      "ro": "Loopwear Rental Co."
+    },
+    "tagline": {
+      "en": "Wear more, own less — a rotating wardrobe, professionally cleaned and inspected after every single wear.",
+      "ro": "Poartă mai mult, deține mai puțin — o garderobă rotativă, curățată și inspectată profesional, după fiecare purtare."
+    },
+    "createdAt": "2026-07-16T00:00:00.000Z",
+    "updatedAt": "2026-07-16T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theOperator",
+      "theVisionary"
+    ],
+    "summary": {
+      "en": "Best suited to an operationally disciplined founder who can run a tight reverse-logistics cycle (inspection, industrial cleaning, minor repair, re-listing) at consistent quality on every single return, paired with the circular-economy vision to build a rental-fleet business that never transfers ownership.",
+      "ro": "Potrivit unui fondator, disciplinat operațional, care poate conduce un ciclu strâns, de logistică inversă (inspecție, curățare industrială, reparație minoră, relistare), la o calitate constantă, la fiecare returnare, în parte, împreună cu viziunea economiei circulare, necesară pentru a construi o afacere de flotă, de închiriere, care nu transferă niciodată proprietatea."
+    },
+    "minimumExperienceYears": 3
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 35000,
+      "maxInvestment": 65000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 10000,
+      "ongoingMonthlyCostMax": 22000,
+      "notes": {
+        "en": "Covers the initial rental-fleet garment inventory acquisition (a capitalized, depreciating asset, not one-off COGS), a garment-processing and industrial-cleaning facility build-out, and subscription-commerce platform setup — a Medium-High budget tier, driven by capitalizing a physical rental fleet up front rather than prepaying a single production or inventory batch that is sold once and done.",
+        "ro": "Acoperă achiziția inițială, a stocului de garderobă, de flotă de închiriere (un activ capitalizat, care se depreciază, nu un COGS de unică folosință), construirea unei facilități, de procesare a hainelor și curățare industrială, și configurarea platformei de comerț prin abonament — un nivel de buget mediu-ridicat, determinat de capitalizarea, în avans, a unei flote fizice de închiriere, nu de plata în avans, a unui singur lot de producție sau stoc, vândut o singură dată."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "initialRentalFleetInventoryAcquisition",
+          "label": {
+            "en": "Initial rental-fleet garment inventory acquisition (special-occasion and work-capsule pieces)",
+            "ro": "Achiziția inițială, a stocului de garderobă, pentru flota de închiriere (piese pentru ocazii speciale și capsulă de lucru)"
+          },
+          "typicalMin": 15000,
+          "typicalMax": 28000
+        },
+        {
+          "key": "garmentProcessingAndCleaningFacilitySetup",
+          "label": {
+            "en": "Garment-processing and industrial-cleaning facility build-out (inspection stations, cleaning equipment, storage racks)",
+            "ro": "Construirea facilității de procesare a hainelor și curățare industrială (stații de inspecție, echipament de curățare, rafturi de depozitare)"
+          },
+          "typicalMin": 10000,
+          "typicalMax": 20000
+        },
+        {
+          "key": "subscriptionCommercePlatformAndLogisticsSetup",
+          "label": {
+            "en": "Subscription-commerce platform, member portal, and two-way shipping-logistics setup",
+            "ro": "Configurarea platformei de comerț prin abonament, a portalului pentru membri, și a logisticii de expediere, în ambele sensuri"
+          },
+          "typicalMin": 6000,
+          "typicalMax": 12000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "reverseLogisticsCleaningInspectionAndRepairCycle",
+          "label": {
+            "en": "Reverse-logistics cycle: garment inspection, industrial cleaning, and minor repair after every single return",
+            "ro": "Ciclul de logistică inversă: inspecția hainei, curățarea industrială, și reparația minoră, după fiecare returnare, în parte"
+          },
+          "typicalMonthlyMin": 4500,
+          "typicalMonthlyMax": 9500
+        },
+        {
+          "key": "rentalFleetReplenishmentAndDepreciation",
+          "label": {
+            "en": "Rental-fleet inventory replenishment and asset depreciation",
+            "ro": "Reaprovizionarea stocului, flotei de închiriere, și amortizarea activului"
+          },
+          "typicalMonthlyMin": 3000,
+          "typicalMonthlyMax": 7000
+        },
+        {
+          "key": "subscriptionPlatformAndTwoWayShippingFees",
+          "label": {
+            "en": "Subscription-billing platform fees and two-way (dispatch and return) shipping logistics",
+            "ro": "Taxele platformei de facturare, prin abonament, și logistica de expediere, în ambele sensuri (trimitere și returnare)"
+          },
+          "typicalMonthlyMin": 2500,
+          "typicalMonthlyMax": 5500
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "tieredMonthlyRentalSubscriptionFees",
+          "label": {
+            "en": "Tiered monthly rental subscription fees (by items held at once / swaps per month)",
+            "ro": "Taxe de abonament lunar, de închiriere, pe niveluri (după numărul de piese deținute, simultan / schimburi, pe lună)"
+          }
+        },
+        {
+          "key": "memberBuyOutSalesOfRetainedPieces",
+          "label": {
+            "en": "Optional buy-out sales for members who want to keep a specific piece permanently",
+            "ro": "Vânzări opționale, de răscumpărare, pentru membrii care doresc să păstreze o piesă anume, permanent"
+          }
+        },
+        {
+          "key": "corporateCapsuleWardrobePartnerships",
+          "label": {
+            "en": "Corporate work-capsule wardrobe partnership fees",
+            "ro": "Taxe de parteneriat, pentru garderoba capsulă, de lucru, corporativă"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 12000,
+      "targetMonthlyIncomeMax": 30000,
+      "breakEvenTimelineMonths": 14,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "slow",
+      "notes": {
+        "en": "Members need to trust rental garment quality and cleanliness before committing to a recurring subscription, and the fleet itself must be capitalized and built out before it can generate its first rental — both slow the ramp compared to a one-time sale that closes on first contact.",
+        "ro": "Membrii trebuie să aibă încredere, în calitatea și curățenia hainelor de închiriat, înainte de a se angaja, la un abonament recurent, iar flota, în sine, trebuie capitalizată și construită, înainte de a genera prima închiriere — ambele încetinesc ritmul de creștere, față de o vânzare unică, ce se finalizează, la primul contact."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate",
+      "notes": {
+        "en": "Recurring subscription revenue carries no per-unit cost-of-goods-sold, but it is offset by a continuous reverse-logistics cost on every single rental turn (inspection, cleaning, repair) plus fleet depreciation, which keeps margin moderate rather than high.",
+        "ro": "Veniturile recurente, din abonament, nu poartă niciun cost al bunurilor vândute, per unitate, dar sunt compensate, de un cost continuu, de logistică inversă, la fiecare rotație de închiriere, în parte (inspecție, curățare, reparație), plus amortizarea flotei, ceea ce menține marja moderată, nu ridicată."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "hybrid",
+    "travelRequirement": "none",
+    "onlineOffline": "hybrid",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 40,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 2
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 5
+      },
+      {
+        "key": "marketing",
+        "rating": 6
+      },
+      {
+        "key": "leadership",
+        "rating": 6
+      },
+      {
+        "key": "communication",
+        "rating": 6
+      },
+      {
+        "key": "negotiation",
+        "rating": 5
+      },
+      {
+        "key": "finance",
+        "rating": 6
+      },
+      {
+        "key": "operations",
+        "rating": 9
+      },
+      {
+        "key": "technology",
+        "rating": 6
+      },
+      {
+        "key": "automation",
+        "rating": 7
+      },
+      {
+        "key": "ai",
+        "rating": 4
+      },
+      {
+        "key": "programming",
+        "rating": 3
+      },
+      {
+        "key": "management",
+        "rating": 7
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 55
+      },
+      {
+        "key": "visionary",
+        "score": 70
+      },
+      {
+        "key": "operator",
+        "score": 85
+      },
+      {
+        "key": "creator",
+        "score": 30
+      },
+      {
+        "key": "seller",
+        "score": 35
+      },
+      {
+        "key": "leader",
+        "score": 50
+      },
+      {
+        "key": "analyst",
+        "score": 60
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": false,
+    "isFullyRemote": false,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": true,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": true,
+    "requiresInventory": true,
+    "isSeasonalBusiness": true,
+    "isFranchisable": false,
+    "isRecessionResistant": true
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate",
+      "notes": {
+        "en": "Growth requires capital to buy more rental-fleet inventory AND to build out reverse-logistics/cleaning capacity in step with it — real infrastructure-bound scaling, neither hand-craft-bound like a small-batch label nor purely outsourced-and-scalable like an e-commerce basics brand. Adding subscribers without adding matching cleaning-and-inspection throughput simply creates a processing backlog.",
+        "ro": "Creșterea necesită capital, atât pentru a cumpăra mai mult stoc, pentru flota de închiriere, cât și pentru a construi capacitate, de logistică inversă/curățare, în ritm cu acesta — o scalare reală, limitată de infrastructură, nici limitată de meșteșugul manual, ca o marcă în serie mică, nici pur externalizată și scalabilă, ca un brand de bază, de comerț electronic. Adăugarea de abonați, fără a adăuga o capacitate corespunzătoare, de curățare și inspecție, creează, pur și simplu, un blocaj de procesare."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high",
+      "notes": {
+        "en": "Running a rental-fleet business means simultaneously managing capitalized inventory economics, a physical reverse-logistics operation, tiered subscription pricing, and a buy-out program — a genuinely more complex operational stack than a single-transaction fashion brand.",
+        "ro": "Conducerea unei afaceri, de flotă de închiriere, înseamnă gestionarea simultană, a economiei stocului capitalizat, a unei operațiuni fizice, de logistică inversă, a prețurilor de abonament, pe niveluri, și a unui program de răscumpărare — un ansamblu operațional, cu adevărat mai complex, decât un brand de modă, cu o singură tranzacție."
+      }
+    },
+    "aiResistance": {
+      "level": "moderate",
+      "notes": {
+        "en": "AI can meaningfully assist with fleet-utilization forecasting and style recommendations, but the physical inspection, cleaning, and repair cycle that protects member trust in every returned garment remains a hands-on, human-verified process no AI tool replaces.",
+        "ro": "AI poate ajuta semnificativ, la prognoza utilizării flotei, și recomandările de stil, dar ciclul fizic, de inspecție, curățare, și reparație, care protejează încrederea membrilor, în fiecare haină returnată, rămâne un proces manual, verificat uman, pe care niciun instrument AI nu îl înlocuiește."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Members returning damaged, heavily worn, or lost garments raises reverse-logistics repair costs and accelerates fleet depreciation beyond what pricing models assume.",
+          "ro": "Membrii care returnează haine deteriorate, foarte purtate, sau pierdute, cresc costurile de reparație, de logistică inversă, și accelerează amortizarea flotei, dincolo de ceea ce presupun modelele de preț."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "If the fleet's rental-utilization rate (rentals per garment per month) falls below the break-even threshold, capital tied up in idle capitalized inventory generates no revenue while still depreciating.",
+          "ro": "Dacă rata de utilizare, la închiriere, a flotei (închirieri, per haină, pe lună) scade, sub pragul de rentabilitate, capitalul blocat, în stocul capitalizat, inactiv, nu generează venituri, deși continuă să se deprecieze."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "Rental businesses depend entirely on member trust in cleanliness — a single lapse in the industrial-cleaning or inspection step (odor, staining, an unrepaired flaw) can cause disproportionate reputational damage and subscription churn.",
+          "ro": "Afacerile de închiriere depind, în întregime, de încrederea membrilor, în curățenie — o singură eroare, la pasul de curățare industrială sau inspecție (miros, pete, un defect nereparat), poate cauza un prejudiciu de reputație disproporționat, și abandonarea abonamentului."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Wear more, own less — a rotating wardrobe of special-occasion and work-capsule pieces, professionally cleaned and inspected after every single wear, delivered to your door. Never a scarcity drop, never a one-time purchase — access, not ownership.",
+        "ro": "Poartă mai mult, deține mai puțin — o garderobă rotativă, de piese pentru ocazii speciale și capsulă de lucru, curățate și inspectate profesional, după fiecare purtare, livrate la ușa ta. Niciodată o lansare, bazată pe raritate, niciodată o achiziție unică — acces, nu proprietate."
+      },
+      "channels": [
+        {
+          "channelType": "circularEconomyContentAndSustainabilityCommunityMarketing",
+          "description": {
+            "en": "Content that makes the cost-per-wear and landfill-diversion case for renting over buying, as the primary trust- and category-education channel.",
+            "ro": "Conținut care argumentează, costul-per-purtare, și devierea de la groapa de gunoi, în favoarea închirierii, față de cumpărare, ca principal canal, de construire a încrederii și educare a categoriei."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "performanceSocialAndMemberReferralMarketing",
+          "description": {
+            "en": "Paid social acquisition paired with a member referral program — special-occasion rental has strong natural word-of-mouth around weddings, galas, and events.",
+            "ro": "Achiziție plătită, prin social media, combinată cu un program de recomandare, pentru membri — închirierea, pentru ocazii speciale, are un „word-of-mouth” natural, puternic, în jurul nunților, galelor, și evenimentelor."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "corporateWorkCapsulePartnershipOutreach",
+          "description": {
+            "en": "Direct outreach to companies to offer a work-capsule rental subscription as an employee perk or benefit.",
+            "ro": "Contactare directă, a companiilor, pentru a oferi un abonament de închiriere, de garderobă capsulă, de lucru, ca beneficiu, pentru angajați."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Explaining tiered subscription mechanics and cost-per-wear economics takes more upfront education than a single-price purchase, and sustaining trust content about hygiene and cleaning standards is an ongoing requirement, not a one-time claim.",
+        "ro": "Explicarea mecanicii, de abonament, pe niveluri, și a economiei cost-per-purtare, necesită mai multă educare, în avans, decât o achiziție, cu preț unic, iar susținerea conținutului de încredere, despre standardele de igienă și curățare, este o cerință continuă, nu o afirmație unică."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "An online storefront presents tiered subscription plans at signup (by items held at once / swaps per month) after a short style quiz, with a buy-out offer surfaced post-rental for any piece a member wants to keep, plus direct outreach to companies for corporate work-capsule accounts.",
+        "ro": "O vitrină online, prezintă planuri de abonament, pe niveluri, la înscriere (după numărul de piese deținute, simultan / schimburi, pe lună), după un scurt chestionar de stil, cu o ofertă de răscumpărare, prezentată, post-închiriere, pentru orice piesă, pe care un membru dorește să o păstreze, plus contactare directă, a companiilor, pentru conturi corporative, de garderobă capsulă."
+      },
+      "salesCycleLengthDays": 5,
+      "pricingModel": {
+        "en": "Starter tier ~€39/month (2 items held at once, 1 swap/month); Curator tier ~€69/month (4 items, 2 swaps/month); Unlimited tier ~€99/month (6 items, unlimited swaps); buy-out pricing at roughly 40-60% of original retail depending on garment condition and rental history.",
+        "ro": "Nivel Starter ~39 €/lună (2 piese deținute simultan, 1 schimb/lună); nivel Curator ~69 €/lună (4 piese, 2 schimburi/lună); nivel Unlimited ~99 €/lună (6 piese, schimburi nelimitate); preț de răscumpărare, la aproximativ 40-60% din prețul cu amănuntul, original, în funcție de starea hainei și istoricul de închiriere."
+      }
+    },
+    "salesComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "Selecting the right subscription tier and understanding the swap cadence takes more upfront explanation than a single-price checkout, even though signup itself remains self-service online.",
+        "ro": "Alegerea nivelului corect, de abonament, și înțelegerea ritmului de schimb, necesită mai multă explicație, în avans, decât o finalizare a comenzii, cu preț unic, chiar dacă înscrierea, în sine, rămâne self-service, online."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Garment inspection, industrial cleaning, and minor repair after every single return — the core reverse-logistics cycle",
+          "ro": "Inspecția hainei, curățarea industrială, și reparația minoră, după fiecare returnare, în parte — ciclul de bază, de logistică inversă"
+        },
+        {
+          "en": "Rental-fleet inventory management: tracking each garment's rental count, condition, wear-life, and retirement/replacement scheduling",
+          "ro": "Gestionarea stocului, flotei de închiriere: urmărirea numărului de închirieri, stării, duratei de purtare, și programarea retragerii/înlocuirii, pentru fiecare haină"
+        },
+        {
+          "en": "Subscription-tier management, swap scheduling, and buy-out transaction processing",
+          "ro": "Gestionarea nivelurilor de abonament, programarea schimburilor, și procesarea tranzacțiilor de răscumpărare"
+        },
+        {
+          "en": "Curated garment sourcing and cataloging (special-occasion and work-capsule pieces)",
+          "ro": "Aprovizionarea și catalogarea, a hainelor curate (piese, pentru ocazii speciale, și capsulă de lucru)"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Most days center on processing returned garments through the inspection, cleaning, and repair queue at the logistics hub, packing and dispatching swap requests, managing subscription billing and buy-out requests, and tracking fleet-utilization and garment-condition data.",
+        "ro": "Majoritatea zilelor, se concentrează, pe procesarea hainelor returnate, prin coada de inspecție, curățare, și reparație, la centrul logistic, pregătirea și expedierea cererilor de schimb, gestionarea facturării abonamentelor și a cererilor de răscumpărare, și urmărirea datelor de utilizare a flotei și stare a hainelor."
+      },
+      "fulfillmentModel": {
+        "en": "A clothing rental subscription business that never transfers ownership: the same physical garments are rented out repeatedly to many different members over their lifetime, cycled through a professional reverse-logistics facility — inspection, industrial cleaning, minor repair, and re-listing — after every single return, with an optional buy-out for members who want to keep a specific piece permanently.",
+        "ro": "O afacere, de abonament, la închiriere de haine, care nu transferă niciodată proprietatea: aceleași haine fizice, sunt închiriate, repetat, mai multor membri diferiți, pe durata lor de viață, trecute printr-o facilitate profesională, de logistică inversă — inspecție, curățare industrială, reparație minoră, și relistare — după fiecare returnare, în parte, cu o opțiune de răscumpărare, pentru membrii care doresc să păstreze o piesă anume, permanent."
+      }
+    },
+    "automation": {
+      "level": "moderate",
+      "notes": {
+        "en": "Subscription billing, swap scheduling, and the member portal are automated, but the physical inspection, cleaning, and repair cycle remains deliberately hands-on and human-verified before any garment is re-listed — quality control that protects member trust cannot be automated away.",
+        "ro": "Facturarea abonamentelor, programarea schimburilor, și portalul pentru membri, sunt automatizate, dar ciclul fizic, de inspecție, curățare, și reparație, rămâne deliberat manual, și verificat uman, înainte ca orice haină să fie relistată — controlul calității, care protejează încrederea membrilor, nu poate fi eliminat, prin automatizare."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "fleetUtilizationAndReplenishmentForecasting",
+          "description": {
+            "en": "AI-based prediction of which garments and sizes to rotate into the visible catalog and when to trigger fleet-replenishment reorders, based on rental-utilization and demand data.",
+            "ro": "Predicția, bazată pe AI, a hainelor și mărimilor, de rotit, în catalogul vizibil, și când să se declanșeze recomenzile, de reaprovizionare a flotei, pe baza datelor de utilizare, la închiriere, și cerere."
+          },
+          "maturity": "emerging"
+        },
+        {
+          "area": "personalizedStyleAndSwapRecommendation",
+          "description": {
+            "en": "AI-driven styling and swap recommendations based on a member's rental history and upcoming occasion or work context.",
+            "ro": "Recomandări de stil și schimb, conduse de AI, pe baza istoricului de închiriere, al unui membru, și a ocaziei viitoare, sau contextului de lucru."
+          },
+          "maturity": "established"
+        }
+      ],
+      "aiDependencyLevel": "moderate"
+    },
+    "recommendedTools": [
+      {
+        "name": "Booqable",
+        "category": "rentalInventoryManagementPlatform",
+        "isRequired": true,
+        "websiteUrl": "https://booqable.com/"
+      },
+      {
+        "name": "Recharge",
+        "category": "subscriptionBillingPlatform",
+        "isRequired": true,
+        "websiteUrl": "https://getrecharge.com/"
+      },
+      {
+        "name": "Klaviyo",
+        "category": "emailSmsMarketingPlatform",
+        "isRequired": true,
+        "websiteUrl": "https://www.klaviyo.com/"
+      },
+      {
+        "name": "Loop Returns",
+        "category": "reverseLogisticsPlatform",
+        "isRequired": false,
+        "websiteUrl": "https://www.loopreturns.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 30,
+      "notes": {
+        "en": "Growth is gated jointly by capital for rental-fleet inventory expansion and by reverse-logistics/cleaning-facility processing capacity — both must scale together, since adding subscribers without matching processing throughput just creates a returns backlog.",
+        "ro": "Creșterea este limitată, în comun, de capitalul, pentru extinderea stocului, flotei de închiriere, și de capacitatea de procesare, a facilității de logistică inversă/curățare — ambele trebuie să se extindă, împreună, dat fiind că adăugarea de abonați, fără o capacitate de procesare, corespunzătoare, creează, pur și simplu, un blocaj, de returnări."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Validate the fleet's rental-utilization rate and swap cadence with an initial curated catalog, then expand fleet size and reverse-logistics processing capacity together (never fleet growth alone), then add corporate work-capsule partnerships as a stabilizing secondary revenue channel.",
+        "ro": "Validează rata de utilizare, la închiriere, a flotei, și ritmul de schimb, cu un catalog inițial, curatoriat, apoi extinde, împreună, dimensiunea flotei și capacitatea de procesare, de logistică inversă (niciodată creșterea flotei, izolat), apoi adaugă parteneriate corporative, de garderobă capsulă, ca un canal secundar, de stabilizare, a veniturilor."
+      },
+      "bottlenecks": [
+        {
+          "en": "Reverse-logistics and cleaning-facility processing capacity caps how many garments can be turned around per week, regardless of subscriber demand.",
+          "ro": "Capacitatea de procesare, a facilității de logistică inversă și curățare, limitează câte haine pot fi procesate, pe săptămână, indiferent de cererea abonaților."
+        },
+        {
+          "en": "Capital tied up in the capitalized rental fleet limits how quickly new garment categories and sizes can be added to the catalog.",
+          "ro": "Capitalul blocat, în flota de închiriere, capitalizată, limitează cât de repede pot fi adăugate, noi categorii și mărimi de haine, în catalog."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 14,
+          "description": {
+            "en": "The business reaches break-even with a stable subscriber base at the target fleet-utilization rate.",
+            "ro": "Afacerea atinge pragul de rentabilitate, cu o bază stabilă, de abonați, la rata țintă, de utilizare, a flotei."
+          }
+        },
+        {
+          "monthsFromLaunch": 26,
+          "description": {
+            "en": "Reverse-logistics processing capacity is doubled in step with a matching expansion of the rental fleet.",
+            "ro": "Capacitatea de procesare, de logistică inversă, este dublată, în ritm cu o extindere corespunzătoare, a flotei de închiriere."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "A disciplined reverse-logistics cycle (inspection, industrial cleaning, minor repair after every return) builds member trust in cleanliness that a looser rental competitor can't match.",
+          "ro": "Un ciclu disciplinat, de logistică inversă (inspecție, curățare industrială, reparație minoră, după fiecare returnare) construiește încrederea membrilor, în curățenie, pe care un concurent de închiriere, mai puțin riguros, nu o poate egala."
+        }
+      },
+      {
+        "description": {
+          "en": "Recurring subscription MRR compounds predictably as the member base grows, unlike the one-off purchase bursts of an ownership-transfer fashion brand.",
+          "ro": "Veniturile lunare recurente, din abonament, cresc previzibil, pe măsură ce baza de membri crește, spre deosebire de izbucnirile, de achiziții unice, ale unui brand de modă, cu transfer de proprietate."
+        }
+      },
+      {
+        "description": {
+          "en": "The optional buy-out program captures incremental revenue from members who bond with a specific piece, without requiring the core model to become ownership-based.",
+          "ro": "Programul opțional, de răscumpărare, captează venituri suplimentare, de la membrii care se atașează, de o piesă anume, fără a necesita ca modelul de bază, să devină unul bazat pe proprietate."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A clothing rental subscription platform where members pay a tiered monthly fee for rotating access to a shared wardrobe of curated garments (special-occasion wear and work-capsule pieces), with an optional buy-out for pieces they want to keep permanently. Ownership never transfers — the same physical garments are rented out repeatedly, cycled through a professional reverse-logistics facility (inspection, industrial cleaning, minor repair, re-listing) after every single return. Distinct from one-time-sale, ownership-transfer fashion brands elsewhere in this library — this is an access/rental model built on a capitalized, depreciating garment-fleet asset and recurring subscription MRR, not per-unit COGS and a one-off sale price.",
+        "ro": "O platformă de abonament, pentru închirierea hainelor, unde membrii plătesc o taxă lunară, pe niveluri, pentru acces rotativ, la o garderobă comună, de haine curatoriate (ținute, pentru ocazii speciale, și piese, capsulă de lucru), cu o opțiune de răscumpărare, pentru piesele, pe care doresc să le păstreze, permanent. Proprietatea nu se transferă, niciodată — aceleași haine fizice, sunt închiriate, repetat, trecute printr-o facilitate profesională, de logistică inversă (inspecție, curățare industrială, reparație minoră, relistare), după fiecare returnare, în parte. Distinctă de mărcile de modă, cu vânzare unică, cu transfer de proprietate, din altă parte, a acestei biblioteci — acesta este un model de acces/închiriere, construit pe un activ, de flotă de haine, capitalizat, care se depreciază, și venituri lunare recurente, din abonament, nu pe COGS, per unitate, și un preț de vânzare, unic."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.circularFashionRentalPlatform.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.circularFashionRentalPlatform.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.circularFashionRentalPlatform.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.circularFashionRentalPlatform.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "mrr",
+        "targetDescription": {
+          "en": "Grow subscription-driven monthly recurring revenue across all subscription tiers.",
+          "ro": "Crește veniturile lunare recurente, generate de abonamente, pe toate nivelurile."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Keep subscribers renewing month over month rather than pausing or cancelling.",
+          "ro": "Menține abonații, reînnoind, lună de lună, în loc să întrerupă sau să anuleze."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Minimize monthly subscriber churn, the single biggest lever on long-term fleet-utilization economics.",
+          "ro": "Minimizează rata lunară de abandon, a abonaților, cea mai importantă pârghie, asupra economiei, pe termen lung, a utilizării flotei."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against reverse-logistics cleaning-and-repair costs and fleet depreciation.",
+          "ro": "Protejează marja brută, împotriva costurilor de curățare și reparație, de logistică inversă, și amortizarea flotei."
+        }
+      },
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert corporate work-capsule wardrobe conversations into signed partnership accounts.",
+          "ro": "Transformă conversațiile, despre garderoba capsulă, de lucru, corporativă, în conturi de parteneriat, semnate."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "management",
+          "importance": 5
+        },
+        {
+          "key": "finance",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "negotiation",
+          "importance": 3
+        },
+        {
+          "key": "marketing",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "systemOriented",
+          "importance": 5
+        },
+        {
+          "trait": "detailOriented",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "persistent",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 35000,
+        "max": 65000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 42000,
+        "max": 55000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 40,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "systematic",
+        "reliable"
+      ],
+      "technicalLevel": 3,
+      "leadershipLevel": 4,
+      "creativityLevel": 3,
+      "salesAffinity": 3,
+      "automationAffinity": 4,
+      "remotePreference": "hybrid",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theOperator",
+        "theVisionary"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the reverse-logistics facility (inspection, industrial cleaning, minor repair, re-listing) as a real operational step in Offer Architecture and Operations System, and frame Revenue Architecture around recurring subscription MRR and fleet-utilization rate — never treat this as a one-time-sale fashion brand with per-unit COGS.",
+      "ro": "Subliniază facilitatea de logistică inversă (inspecție, curățare industrială, reparație minoră, relistare), ca un pas operațional real, în Arhitectura ofertei și Sistemul de operare, și încadrează Arhitectura veniturilor, în jurul veniturilor recurente, din abonament, și ratei de utilizare, a flotei — nu trata niciodată aceasta, ca un brand de modă, cu vânzare unică, cu COGS, per unitate."
+    },
+    "marketingHints": {
+      "en": "Lead with cost-per-wear and access-over-ownership messaging and real reverse-logistics/cleanliness trust signals, never generic 'sustainable fashion' stock phrases and never scarcity/drop-model language that belongs to a different business model.",
+      "ro": "Începe cu mesaje despre costul-per-purtare, și acces, în locul proprietății, și semnale reale, de încredere, despre logistica inversă/curățenie, niciodată fraze generice, de tipul „modă sustenabilă”, și niciodată limbaj de raritate/model de lansare, care aparține unui alt model de afaceri."
+    },
+    "financialHints": {
+      "en": "Model revenue as recurring subscription MRR driven by fleet-utilization rate, not per-unit sale price — frame the rental fleet as a capitalized, depreciating asset and the reverse-logistics cycle (cleaning, inspection, repair) as the core recurring cost, distinct from one-time production or sourcing COGS.",
+      "ro": "Modelează veniturile, ca MRR recurent, din abonament, condus de rata de utilizare, a flotei, nu de prețul de vânzare, per unitate — încadrează flota de închiriere, ca un activ capitalizat, care se depreciază, și ciclul de logistică inversă (curățare, inspecție, reparație), ca principalul cost recurent, distinct de COGS-ul de producție sau aprovizionare, unic."
+    },
+    "generationHints": {
+      "en": "Keep generated tone operationally grounded and trust-focused, rooted in real reverse-logistics and fleet-utilization specifics — never generic sustainable-fashion marketing language, and never language that implies the customer owns the garment.",
+      "ro": "Menține un ton generat, fundamentat operațional, și axat pe încredere, înrădăcinat, în detalii reale, de logistică inversă și utilizare a flotei — niciodată limbaj generic, de marketing, de modă sustenabilă, și niciodată limbaj care sugerează, că, clientul deține haina."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Acquire the initial curated rental fleet, build out the garment-processing and cleaning facility, and launch the subscription platform.",
+            "ro": "Achiziționează flota inițială, curatoriată, de închiriere, construiește facilitatea de procesare a hainelor și curățare, și lansează platforma de abonament."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Acquiring a large initial fleet before confirming the reverse-logistics facility can actually turn returns around within the promised swap timeline.",
+            "ro": "Achiziționarea unei flote inițiale, mari, înainte de a confirma, că facilitatea de logistică inversă, poate, efectiv, procesa returnările, în intervalul de schimb, promis."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Run a small pilot fleet through the full reverse-logistics cycle end-to-end before committing to the full initial fleet size.",
+            "ro": "Rulează o flotă pilot, mică, prin întregul ciclu, de logistică inversă, complet, înainte de a te angaja, la dimensiunea completă, a flotei inițiale."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.circularFashionRentalPlatform.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Rent the pilot fleet to a small early member base to validate tier pricing, swap cadence, and demand before scaling the fleet.",
+            "ro": "Închiriază flota pilot, unei baze mici, de membri timpurii, pentru a valida prețul, pe niveluri, ritmul de schimb, și cererea, înainte de a extinde flota."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Discounting tier pricing heavily to drive early signups, which undermines the ability to properly validate standard-price willingness to pay.",
+            "ro": "Aplicarea unor reduceri mari, la prețul pe niveluri, pentru a stimula înscrierile timpurii, ceea ce subminează capacitatea, de a valida corect, disponibilitatea de a plăti, la preț standard."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Onboard the early member base at intended standard tier pricing to properly validate willingness to pay before scaling the fleet.",
+            "ro": "Integrează baza de membri timpurii, la prețul standard, intenționat, pe niveluri, pentru a valida corect, disponibilitatea de a plăti, înainte de a extinde flota."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.circularFashionRentalPlatform.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Launch the full initial catalog with a working end-to-end reverse-logistics cycle (inspection, cleaning, repair, re-listing) after every return.",
+            "ro": "Lansează catalogul inițial, complet, cu un ciclu funcțional, de logistică inversă, integral (inspecție, curățare, reparație, relistare), după fiecare returnare."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching the full catalog before the reverse-logistics cycle has been stress-tested against a realistic volume of simultaneous returns.",
+            "ro": "Lansarea catalogului complet, înainte ca ciclul de logistică inversă, să fi fost testat, la un volum realist, de returnări simultane."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Stress-test the reverse-logistics cycle against a realistic peak volume of simultaneous returns before the full catalog launch.",
+            "ro": "Testează, sub presiune, ciclul de logistică inversă, la un volum realist, de vârf, de returnări simultane, înainte de lansarea catalogului complet."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.circularFashionRentalPlatform.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish cost-per-wear and access-over-ownership content consistently and begin acquisition through paid social and a member referral program.",
+            "ro": "Publică, în mod constant, conținut despre cost-per-purtare, și acces, în locul proprietății, și începe achiziția, prin social media plătit, și un program de recomandare, pentru membri."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Leading marketing with generic 'sustainable fashion' claims instead of the concrete cost-per-wear and reverse-logistics trust story.",
+            "ro": "Conducerea marketingului, cu afirmații generice, „modă sustenabilă”, în loc de povestea concretă, despre cost-per-purtare, și încrederea, în logistica inversă."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Lead every campaign with a specific cost-per-wear comparison or reverse-logistics trust detail rather than a generic sustainability claim.",
+            "ro": "Conduce fiecare campanie, cu o comparație specifică, de cost-per-purtare, sau un detaliu de încredere, despre logistica inversă, în loc de o afirmație generică, de sustenabilitate."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.circularFashionRentalPlatform.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Complete a first full member cycle — signup, first rental, at least one swap, and a return processed through the reverse-logistics cycle.",
+            "ro": "Finalizează primul ciclu complet, de membru — înscriere, prima închiriere, cel puțin un schimb, și o returnare, procesată, prin ciclul de logistică inversă."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Not personally following up with the first cohort of members after their first swap to catch quality or fit issues before they churn.",
+            "ro": "Neurmărirea personală, a primei cohorte, de membri, după primul lor schimb, pentru a surprinde probleme, de calitate sau potrivire, înainte ca aceștia să abandoneze."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Personally follow up with the first cohort of members after their first swap to catch and fix quality or fit issues early.",
+            "ro": "Urmărește personal, prima cohortă, de membri, după primul lor schimb, pentru a surprinde și rezolva, din timp, probleme, de calitate sau potrivire."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.circularFashionRentalPlatform.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable, predictable subscriber-retention rate and fleet-utilization rate across at least three consecutive months.",
+            "ro": "Atinge o rată stabilă, previzibilă, de retenție, a abonaților, și de utilizare, a flotei, pe cel puțin trei luni, consecutive."
+          }
+        ],
+        "kpis": [
+          "customerRetention",
+          "churn"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Declaring product-market fit based on signup volume alone, ignoring the actual month-over-month retention and fleet-utilization rate.",
+            "ro": "Declararea potrivirii produs-piață, doar pe baza volumului de înscrieri, ignorând rata reală, de retenție, lună de lună, și de utilizare, a flotei."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track month-over-month retention and fleet-utilization rate as the primary product-market fit signal, not signup volume.",
+            "ro": "Urmărește retenția, lună de lună, și rata de utilizare, a flotei, ca principalul semnal, de potrivire produs-piață, nu volumul de înscrieri."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.circularFashionRentalPlatform.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Expand the rental fleet and reverse-logistics processing capacity together, in step with confirmed subscriber demand.",
+            "ro": "Extinde, împreună, flota de închiriere, și capacitatea de procesare, de logistică inversă, în ritm cu cererea confirmată, a abonaților."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Expanding the rental fleet faster than reverse-logistics processing capacity can support, creating a returns backlog that delays swaps.",
+            "ro": "Extinderea flotei de închiriere, mai rapid, decât poate susține capacitatea de procesare, de logistică inversă, creând un blocaj, de returnări, care întârzie schimburile."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Scale reverse-logistics processing capacity ahead of or alongside every fleet expansion, never behind it.",
+            "ro": "Extinde capacitatea de procesare, de logistică inversă, înaintea sau alături de fiecare extindere, a flotei, niciodată în urma acesteia."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.circularFashionRentalPlatform.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Optimize fleet-utilization rate as the primary lever on unit economics, retiring underperforming pieces and reinvesting in high-utilization categories.",
+            "ro": "Optimizează rata de utilizare, a flotei, ca principala pârghie, asupra economiei, pe unitate, retrăgând piesele cu performanță slabă, și reinvestind, în categoriile, cu utilizare ridicată."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Continuing to replenish low-utilization garment categories out of habit instead of reallocating capital to high-utilization categories.",
+            "ro": "Continuarea reaprovizionării, categoriilor de haine, cu utilizare scăzută, din obișnuință, în loc de realocarea capitalului, către categoriile, cu utilizare ridicată."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Review fleet-utilization data by category on a fixed cadence and reallocate replenishment capital toward the highest-utilization categories.",
+            "ro": "Analizează datele de utilizare, a flotei, pe categorie, la un ritm fix, și realocă, capitalul de reaprovizionare, către categoriile, cu cea mai ridicată utilizare."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.circularFashionRentalPlatform.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand into corporate work-capsule wardrobe partnerships as a stabilizing secondary revenue channel.",
+            "ro": "Extinde-te, în parteneriate, de garderobă capsulă, de lucru, corporative, ca un canal secundar, de stabilizare, a veniturilor."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Signing corporate partnership volume that exceeds confirmed reverse-logistics processing capacity, risking delayed swaps for both individual and corporate members.",
+            "ro": "Semnarea unui volum de parteneriat, corporativ, care depășește capacitatea confirmată, de procesare, de logistică inversă, riscând schimburi întârziate, atât pentru membrii individuali, cât și pentru cei corporativi."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Cap corporate partnership commitments to a confirmed share of reverse-logistics processing capacity, protecting individual-member swap timelines.",
+            "ro": "Limitează angajamentele, de parteneriat, corporativ, la o cotă confirmată, din capacitatea de procesare, de logistică inversă, protejând termenele de schimb, pentru membrii individuali."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.circularFashionRentalPlatform.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the rental-fleet asset register, reverse-logistics processes, subscriber base, and corporate partnerships to package the business for sale or acquisition.",
+            "ro": "Documentează registrul de active, al flotei de închiriere, procesele de logistică inversă, baza de abonați, și parteneriatele corporative, pentru a pregăti afacerea, pentru vânzare sau achiziție."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping the rental-fleet asset register and garment condition/rental-count history informal and undocumented, making the fleet's real value hard for a buyer to assess.",
+            "ro": "Menținerea registrului de active, al flotei de închiriere, și a istoricului de stare/număr de închirieri, ale hainelor, informale și nedocumentate, făcând valoarea reală, a flotei, dificil de evaluat, de un cumpărător."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain a clean, ongoing asset register tracking every garment's rental count, condition, and depreciation status.",
+            "ro": "Menține un registru de active, curat, continuu, care urmărește, numărul de închirieri, starea, și statusul de amortizare, al fiecărei haine."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.circularFashionRentalPlatform.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}
