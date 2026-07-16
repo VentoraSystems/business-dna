@@ -1,0 +1,965 @@
+{
+  "identity": {
+    "id": "d77b2b89-2929-4ba7-b053-7a19d0eca17d",
+    "slug": "organic-cotton-basics-brand",
+    "version": "1.0.0",
+    "name": {
+      "en": "Fieldstate Basics Co.",
+      "ro": "Fieldstate Basics Co."
+    },
+    "tagline": {
+      "en": "Wardrobe staples you can trace back to the field they grew in.",
+      "ro": "Piese esențiale de garderobă, pe care le poți urmări până la câmpul unde au crescut."
+    },
+    "createdAt": "2026-07-16T00:00:00.000Z",
+    "updatedAt": "2026-07-16T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theVisionary",
+      "theConnector"
+    ],
+    "summary": {
+      "en": "Best suited to a founder with a genuine sustainability brand vision, paired with the relationship-building skill to lock in a direct-trade farm co-op partnership, a GOTS-certified manufacturing partner, and a growing network of wholesale boutique accounts.",
+      "ro": "Potrivit unui fondator cu o viziune autentică de brand sustenabil, împreună cu abilitatea de a construi relații, necesară pentru a asigura un parteneriat direct cu o cooperativă agricolă, un partener de producție certificat GOTS și o rețea în creștere de conturi boutique, cu ridicata."
+    },
+    "minimumExperienceYears": 2
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 14000,
+      "maxInvestment": 30000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 4000,
+      "ongoingMonthlyCostMax": 10000,
+      "notes": {
+        "en": "Covers the first batch production run with the GOTS-certified manufacturing partner, e-commerce storefront and subscription-platform setup, and the batch-traceability system — a Medium budget tier, driven by inventory prepay on a repeatable supply chain rather than one-off craft equipment.",
+        "ro": "Acoperă primul lot de producție, realizat împreună cu partenerul de producție certificat GOTS, configurarea vitrinei de comerț electronic și a platformei de abonament, și sistemul de trasabilitate pe loturi — un nivel de buget mediu, determinat de plata în avans a stocului, pe un lanț de aprovizionare repetabil, nu de echipament de meșteșug, cu utilizare unică."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "initialCoreSkuBatchProduction",
+          "label": {
+            "en": "Initial core-SKU batch production run with the GOTS-certified manufacturing partner",
+            "ro": "Primul lot de producție, pentru SKU-urile de bază, realizat împreună cu partenerul de producție certificat GOTS"
+          },
+          "typicalMin": 6000,
+          "typicalMax": 14000
+        },
+        {
+          "key": "ecommerceAndSubscriptionPlatformSetup",
+          "label": {
+            "en": "E-commerce storefront, subscription-platform, and product-photography setup",
+            "ro": "Configurarea vitrinei de comerț electronic, a platformei de abonament, și fotografia produsului"
+          },
+          "typicalMin": 3000,
+          "typicalMax": 7000
+        },
+        {
+          "key": "batchTraceabilitySystemSetup",
+          "label": {
+            "en": "Batch-level supply-chain traceability system setup (QR codes, certificates, tracking)",
+            "ro": "Configurarea sistemului de trasabilitate a lanțului de aprovizionare, pe loturi (coduri QR, certificate, urmărire)"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "coreSkuInventoryReplenishment",
+          "label": {
+            "en": "Recurring core-SKU batch production and inventory replenishment",
+            "ro": "Producția recurentă, pe loturi, pentru SKU-urile de bază, și reaprovizionarea stocului"
+          },
+          "typicalMonthlyMin": 1800,
+          "typicalMonthlyMax": 4500
+        },
+        {
+          "key": "ecommerceSubscriptionAndFulfillmentPlatformFees",
+          "label": {
+            "en": "E-commerce, subscription-billing, and fulfillment platform fees",
+            "ro": "Taxele platformei de comerț electronic, de facturare a abonamentelor, și de onorare a comenzilor"
+          },
+          "typicalMonthlyMin": 500,
+          "typicalMonthlyMax": 1200
+        },
+        {
+          "key": "warehousingAndLogistics",
+          "label": {
+            "en": "Third-party warehousing and outbound shipping logistics",
+            "ro": "Depozitare, prin terți, și logistica de expediere a comenzilor"
+          },
+          "typicalMonthlyMin": 900,
+          "typicalMonthlyMax": 2200
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "coreBasicsDirectEcommerceSales",
+          "label": {
+            "en": "Direct-to-consumer e-commerce sales of core basics",
+            "ro": "Vânzări directe către consumator, de piese de bază, prin comerț electronic"
+          }
+        },
+        {
+          "key": "replenishmentSubscriptionSales",
+          "label": {
+            "en": "Recurring replenishment subscription sales",
+            "ro": "Vânzări recurente, prin abonament de reaprovizionare"
+          }
+        },
+        {
+          "key": "sustainableRetailWholesaleOrders",
+          "label": {
+            "en": "Wholesale orders to sustainable-retail boutiques",
+            "ro": "Comenzi cu ridicata, către boutique-uri de retail sustenabil"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 6000,
+      "targetMonthlyIncomeMax": 18000,
+      "breakEvenTimelineMonths": 7,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Core-SKU e-commerce sales generate a steady baseline from launch, and the replenishment subscription adds predictable recurring revenue over time, but building both to a meaningful volume takes sustained months of customer acquisition rather than an instant ramp.",
+        "ro": "Vânzările de SKU-uri de bază, prin comerț electronic, generează o bază constantă, încă din lansare, iar abonamentul de reaprovizionare adaugă venituri recurente, previzibile, în timp, dar construirea ambelor, la un volum semnificativ, necesită luni susținute, de achiziție a clienților, nu o creștere instantanee."
+      }
+    },
+    "profitMargin": {
+      "level": "moderate",
+      "notes": {
+        "en": "Certified organic cotton and GOTS-certified manufacturing carry a real cost premium over conventional basics, which keeps margin moderate rather than high, even at scale.",
+        "ro": "Bumbacul organic certificat și producția certificată GOTS, poartă un cost suplimentar real, față de piesele de bază convenționale, ceea ce menține marja moderată, nu ridicată, chiar și la scară."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "none",
+    "onlineOffline": "online",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 30,
+    "maxWeeklyHours": 45,
+    "freedomLevel": 4
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 5
+      },
+      {
+        "key": "marketing",
+        "rating": 8
+      },
+      {
+        "key": "leadership",
+        "rating": 5
+      },
+      {
+        "key": "communication",
+        "rating": 7
+      },
+      {
+        "key": "negotiation",
+        "rating": 6
+      },
+      {
+        "key": "finance",
+        "rating": 5
+      },
+      {
+        "key": "operations",
+        "rating": 8
+      },
+      {
+        "key": "technology",
+        "rating": 6
+      },
+      {
+        "key": "automation",
+        "rating": 6
+      },
+      {
+        "key": "ai",
+        "rating": 3
+      },
+      {
+        "key": "programming",
+        "rating": 2
+      },
+      {
+        "key": "management",
+        "rating": 5
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 55
+      },
+      {
+        "key": "visionary",
+        "score": 75
+      },
+      {
+        "key": "operator",
+        "score": 65
+      },
+      {
+        "key": "creator",
+        "score": 40
+      },
+      {
+        "key": "seller",
+        "score": 45
+      },
+      {
+        "key": "leader",
+        "score": 40
+      },
+      {
+        "key": "analyst",
+        "score": 45
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": true,
+    "requiresEmployees": false,
+    "isHighlyScalable": true,
+    "isHighlyAutomatable": true,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": true,
+    "requiresInventory": true,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": true
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "high",
+      "notes": {
+        "en": "Because manufacturing is fully outsourced to a certified partner with a repeatable, ongoing organic-cotton supply, growth is a matter of raising batch order volume and marketing spend, not the finite, one-off material constraint that caps a salvage-based label — a real ceiling exists eventually in co-op harvest capacity, but it sits far above where this business would realistically operate for years.",
+        "ro": "Deoarece producția este externalizată complet, către un partener certificat, cu o aprovizionare repetabilă, continuă, de bumbac organic, creșterea depinde de mărirea volumului comenzilor pe loturi și a bugetului de marketing, nu de constrângerea finită, de unică folosință, a materialului, care limitează o marcă bazată pe salvare — un plafon real există, eventual, în capacitatea de recoltă a cooperativei, dar acesta se află mult peste nivelul la care această afacere ar opera, realist, timp de mulți ani."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "moderate",
+      "notes": {
+        "en": "Setting up e-commerce operations is straightforward, but negotiating and maintaining a direct-trade farm co-op relationship and a GOTS-certified manufacturing partnership, plus building genuine batch-level traceability, takes real relationship-building and supply-chain discipline.",
+        "ro": "Configurarea operațiunilor de comerț electronic este simplă, dar negocierea și menținerea unei relații directe, cu o cooperativă agricolă, și a unui parteneriat de producție certificat GOTS, plus construirea unei trasabilități reale, pe loturi, necesită construire reală de relații și disciplină, în lanțul de aprovizionare."
+      }
+    },
+    "aiResistance": {
+      "level": "moderate",
+      "notes": {
+        "en": "Everyday basics are a more commoditized category than one-of-a-kind craft pieces, so AI-assisted design and content tools can meaningfully lower a competitor's cost to launch a similar-looking product line — the verified, traceable supply chain is this business's real defensibility, not the product design itself.",
+        "ro": "Piesele esențiale, de zi cu zi, reprezintă o categorie mai comercializată, decât piesele de meșteșug, unice, astfel încât instrumentele de design și conținut, asistate de AI, pot reduce semnificativ costul unui concurent, de a lansa o linie de produse cu aspect similar — lanțul de aprovizionare verificat și trasabil, este apărarea reală, a acestei afaceri, nu designul produsului, în sine."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Concentrating sourcing and production in one farm co-op and one GOTS-certified manufacturing partner creates a real dependency — losing either relationship would disrupt every core SKU at once, even though each individual relationship is far more stable than salvage sourcing.",
+          "ro": "Concentrarea aprovizionării și producției, într-o singură cooperativă agricolă și un singur partener de producție certificat GOTS, creează o dependență reală — pierderea oricăreia dintre aceste relații, ar perturba fiecare SKU de bază, deodată, chiar dacă fiecare relație, în parte, este mult mai stabilă, decât aprovizionarea din salvare."
+        },
+        "severity": "moderate"
+      },
+      {
+        "description": {
+          "en": "Everyday basics face real pricing pressure from larger, lower-cost competitors, which puts sustained pressure on already-moderate margins as the brand scales.",
+          "ro": "Piesele esențiale, de zi cu zi, se confruntă cu o presiune reală, asupra prețurilor, din partea unor concurenți mai mari, cu costuri mai mici, ceea ce menține o presiune susținută, asupra marjelor deja moderate, pe măsură ce marca se extinde."
+        },
+        "severity": "high"
+      },
+      {
+        "description": {
+          "en": "GOTS certification and batch-traceability claims must be genuinely auditable end-to-end — eco-conscious customers who discover a gap between the traceability story and reality will treat it as greenwashing, causing real reputational damage.",
+          "ro": "Certificarea GOTS și afirmațiile de trasabilitate, pe loturi, trebuie să fie cu adevărat verificabile, integral — clienții ecoconștienți, care descoperă o discrepanță, între povestea de trasabilitate și realitate, o vor trata drept „greenwashing”, cauzând un prejudiciu real de reputație."
+        },
+        "severity": "moderate"
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Wardrobe staples you can trace back to the field they grew in. Everyday organic-cotton basics from a direct-trade farm co-op, restocked reliably — not another 'sustainable' claim you have to take on faith.",
+        "ro": "Piese esențiale de garderobă, pe care le poți urmări până la câmpul unde au crescut. Piese de bază, din bumbac organic, de zi cu zi, provenite dintr-o cooperativă agricolă, cu comerț direct, reaprovizionate constant — nu încă o afirmație „sustenabilă”, pe care trebuie să o crezi pe cuvânt."
+      },
+      "channels": [
+        {
+          "channelType": "supplyChainTraceabilityContentMarketing",
+          "description": {
+            "en": "Content that shows the actual farm-to-garment journey — co-op visits, batch certificates, QR-traceable garments — as the primary trust-building channel.",
+            "ro": "Conținut care arată traseul real, de la fermă la haină — vizite la cooperativă, certificate pe loturi, haine trasabile prin cod QR — ca principal canal, de construire a încrederii."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "performanceSocialAndEmailReplenishmentMarketing",
+          "description": {
+            "en": "Paid social acquisition paired with lifecycle email/SMS flows that convert first-time buyers into replenishment subscribers.",
+            "ro": "Achiziție plătită, prin social media, combinată cu fluxuri de e-mail/SMS, de ciclu de viață, care transformă cumpărătorii, la prima achiziție, în abonați de reaprovizionare."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "sustainableRetailBoutiqueWholesaleOutreach",
+          "description": {
+            "en": "Direct outreach to independent sustainable-retail boutiques to build the wholesale channel.",
+            "ro": "Contactare directă, a boutique-urilor independente, de retail sustenabil, pentru a construi canalul de comerț cu ridicata."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "The traceability story is a genuinely strong content hook, but sustaining an always-on content and retention cadence for an evergreen basics catalog — rather than around infrequent drop events — requires real ongoing content discipline.",
+        "ro": "Povestea de trasabilitate, este un punct de plecare real, puternic, pentru conținut, dar susținerea unui ritm constant, de conținut și retenție, pentru un catalog de bază, permanent — nu în jurul unor evenimente rare, de lansare — necesită disciplină reală, continuă, de conținut."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "An always-available e-commerce storefront sells consistent core SKUs (t-shirts, underwear, basics/loungewear) year-round, with a prompted subscription option ('fresh basics every 3 months') at checkout and post-purchase, alongside direct outreach to sustainable-retail boutiques for wholesale accounts.",
+        "ro": "O vitrină de comerț electronic, mereu disponibilă, vinde SKU-uri de bază, constante (tricouri, lenjerie intimă, piese de bază/loungewear), pe tot parcursul anului, cu o opțiune de abonament, sugerată ('piese proaspete, la fiecare 3 luni'), la finalizarea comenzii și după achiziție, alături de contactare directă, a boutique-urilor de retail sustenabil, pentru conturi cu ridicata."
+      },
+      "salesCycleLengthDays": 3,
+      "pricingModel": {
+        "en": "Core basics priced €18-€35 per item; a replenishment subscription bundle at roughly 15% off standalone pricing for a recurring 3-month box; wholesale to boutique retailers at roughly 50% off retail.",
+        "ro": "Piese de bază, cu prețuri de 18-35 €, per articol; un pachet de abonament de reaprovizionare, cu aproximativ 15% reducere, față de prețul individual, pentru o cutie recurentă, la 3 luni; comerț cu ridicata, către comercianți boutique, cu aproximativ 50% reducere, față de preț cu amănuntul."
+      }
+    },
+    "salesComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "Core-SKU checkout is a standard, low-friction e-commerce purchase; the main ongoing sales work is converting one-time buyers into subscribers and building the smaller wholesale boutique channel.",
+        "ro": "Finalizarea comenzii, pentru SKU-urile de bază, este o achiziție standard, prin comerț electronic, cu fricțiune redusă; principala activitate continuă, de vânzare, este transformarea cumpărătorilor, la prima achiziție, în abonați, și construirea canalului mai mic, de boutique-uri cu ridicata."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Farm co-op and GOTS-certified manufacturing-partner relationship management",
+          "ro": "Gestionarea relației, cu cooperativa agricolă și partenerul de producție certificat GOTS"
+        },
+        {
+          "en": "Core-SKU batch production planning and inventory forecasting",
+          "ro": "Planificarea producției, pe loturi, pentru SKU-urile de bază, și prognoza stocului"
+        },
+        {
+          "en": "Batch-level supply-chain traceability documentation and certificate tracking",
+          "ro": "Documentarea trasabilității lanțului de aprovizionare, pe loturi, și urmărirea certificatelor"
+        },
+        {
+          "en": "D2C fulfillment, subscription replenishment management, and wholesale order fulfillment",
+          "ro": "Onorarea comenzilor D2C, gestionarea reaprovizionării prin abonament, și onorarea comenzilor cu ridicata"
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Most days involve monitoring core-SKU inventory and reorder levels, coordinating upcoming batch production with the manufacturing partner, managing subscription renewal and replenishment logistics, and producing traceability-story content for marketing.",
+        "ro": "Majoritatea zilelor, implică monitorizarea stocului de SKU-uri de bază, și a nivelurilor de reaprovizionare, coordonarea producției, pe loturi, viitoare, cu partenerul de producție, gestionarea reînnoirii abonamentelor și a logisticii de reaprovizionare, și producția de conținut, despre povestea de trasabilitate, pentru marketing."
+      },
+      "fulfillmentModel": {
+        "en": "A D2C e-commerce apparel brand selling everyday GOTS-certified organic-cotton basics as consistent core SKUs, restocked on a regular batch cycle, sold primarily direct-to-consumer online with a subscription replenishment option, plus a smaller wholesale channel — manufacturing is fully outsourced to a certified partner, with no in-house physical production.",
+        "ro": "Un brand de îmbrăcăminte, de comerț electronic D2C, care vinde piese de bază, de zi cu zi, din bumbac organic certificat GOTS, ca SKU-uri de bază, constante, reaprovizionate, pe un ciclu regulat, pe loturi, vândute în principal, direct către consumator, online, cu o opțiune de abonament de reaprovizionare, plus un canal mai mic, cu ridicata — producția este externalizată complet, către un partener certificat, fără producție fizică, internă."
+      }
+    },
+    "automation": {
+      "level": "high",
+      "notes": {
+        "en": "Subscription billing and reorder triggers, e-commerce checkout, inventory-level alerts, and reorder notifications to the manufacturing partner are all automated — sourcing relationships and certification/traceability verification remain deliberately hands-on.",
+        "ro": "Facturarea abonamentelor și declanșarea reaprovizionărilor, finalizarea comenzii, prin comerț electronic, alertele privind nivelul stocului, și notificările de recomandă, către partenerul de producție, sunt toate automatizate — relațiile de aprovizionare și verificarea certificării/trasabilității, rămân deliberat manuale."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "productDescriptionAndSeoContentGeneration",
+          "description": {
+            "en": "AI-assisted first-draft product descriptions and SEO copy for core SKU pages, refined to match the brand's transparent, traceable-sourcing voice.",
+            "ro": "Descrieri de produs, prim proiect, și text SEO, pentru paginile SKU-urilor de bază, asistate de AI, rafinate pentru a se potrivi vocii transparente, a brandului, despre aprovizionare trasabilă."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "subscriptionChurnPrediction",
+          "description": {
+            "en": "AI-based prediction of which replenishment subscribers are at risk of cancelling, used to trigger targeted retention offers before they churn.",
+            "ro": "Predicția, bazată pe AI, a abonaților de reaprovizionare, aflați în risc de anulare, folosită pentru a declanșa oferte de retenție, direcționate, înainte ca aceștia să renunțe."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "moderate"
+    },
+    "recommendedTools": [
+      {
+        "name": "Shopify",
+        "category": "ecommercePlatform",
+        "isRequired": true,
+        "websiteUrl": "https://www.shopify.com/"
+      },
+      {
+        "name": "Recharge",
+        "category": "subscriptionManagementPlatform",
+        "isRequired": true,
+        "websiteUrl": "https://getrecharge.com/"
+      },
+      {
+        "name": "Klaviyo",
+        "category": "emailSmsMarketingPlatform",
+        "isRequired": true,
+        "websiteUrl": "https://www.klaviyo.com/"
+      },
+      {
+        "name": "TrusTrace",
+        "category": "supplyChainTraceabilityPlatform",
+        "isRequired": false,
+        "websiteUrl": "https://www.trustrace.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "high",
+      "timeHorizonMonths": 24,
+      "notes": {
+        "en": "Growth is gated mainly by capital available for batch inventory prepay and marketing spend, not by raw-material scarcity — the ongoing farm co-op supply and outsourced manufacturing capacity can absorb significant demand growth well before either becomes a real constraint.",
+        "ro": "Creșterea este limitată, în principal, de capitalul disponibil, pentru plata în avans a stocului, pe loturi, și bugetul de marketing, nu de raritatea materiei prime — aprovizionarea continuă, de la cooperativa agricolă, și capacitatea de producție externalizată, pot absorbi o creștere semnificativă a cererii, mult înainte ca oricare dintre acestea, să devină o constrângere reală."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Validate the initial core-SKU set and repeat-purchase/subscription conversion rate, then increase batch order volume with the manufacturing partner as demand grows, then make the replenishment subscription the primary retention engine, then expand the wholesale boutique network as a stabilizing secondary channel.",
+        "ro": "Validează setul inițial, de SKU-uri de bază, și rata de conversie, la achiziție repetată/abonament, apoi crește volumul comenzilor, pe loturi, cu partenerul de producție, pe măsură ce cererea crește, apoi transformă abonamentul de reaprovizionare, în principalul motor de retenție, apoi extinde rețeaua de boutique-uri cu ridicata, ca un canal secundar, de stabilizare."
+      },
+      "bottlenecks": [
+        {
+          "en": "The farm co-op's seasonal harvest capacity ultimately caps how much certified organic cotton can be sourced, even though that ceiling sits far above near-term demand.",
+          "ro": "Capacitatea de recoltă sezonieră, a cooperativei agricole, limitează, în cele din urmă, cât bumbac organic certificat poate fi aprovizionat, chiar dacă acest plafon se află mult peste cererea pe termen scurt."
+        },
+        {
+          "en": "Cash tied up in prepaid batch production runs limits how quickly new core SKUs can be added to the catalog.",
+          "ro": "Numerarul, blocat în loturile de producție, plătite în avans, limitează cât de repede pot fi adăugate, noi SKU-uri de bază, în catalog."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 7,
+          "description": {
+            "en": "The brand reaches break-even with a stable base of repeat and subscription customers.",
+            "ro": "Marca atinge pragul de rentabilitate, cu o bază stabilă, de clienți recurenți și abonați."
+          }
+        },
+        {
+          "monthsFromLaunch": 16,
+          "description": {
+            "en": "The wholesale channel reaches a meaningful number of signed sustainable-retail boutique accounts.",
+            "ro": "Canalul de comerț cu ridicata, atinge un număr semnificativ, de conturi boutique, de retail sustenabil, semnate."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "Batch-level supply-chain traceability that customers can actually verify builds genuine trust that generic 'sustainable' marketing claims can't match.",
+          "ro": "Trasabilitatea lanțului de aprovizionare, pe loturi, pe care clienții o pot verifica, efectiv, construiește o încredere reală, pe care afirmațiile de marketing „sustenabile”, generice, nu o pot egala."
+        }
+      },
+      {
+        "description": {
+          "en": "A repeatable, restocked core-SKU catalog creates predictable, scalable revenue, unlike a scarcity-driven limited-run drop model.",
+          "ro": "Un catalog de SKU-uri de bază, repetabil, reaprovizionat, creează venituri previzibile, scalabile, spre deosebire de un model de lansare, în serie limitată, bazat pe raritate."
+        }
+      },
+      {
+        "description": {
+          "en": "The replenishment subscription increases customer lifetime value and smooths revenue into a recurring stream, rather than one-off purchase bursts.",
+          "ro": "Abonamentul de reaprovizionare, crește valoarea pe durata de viață, a clientului, și transformă veniturile, într-un flux recurent, în loc de izbucniri, de achiziții unice."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A D2C e-commerce apparel brand selling everyday wardrobe staples made from GOTS-certified organic cotton, built on a direct-trade farm co-op relationship and full batch-level supply-chain traceability. Sold as a scalable, repeatable, inventory-forward storefront with consistent core SKUs and regular restocking, plus a subscription replenishment option and a smaller wholesale channel — distinct from scarcity-driven, capacity-constrained drop-model fashion labels elsewhere in this library.",
+        "ro": "Un brand de îmbrăcăminte, de comerț electronic D2C, care vinde piese esențiale de garderobă, de zi cu zi, din bumbac organic certificat GOTS, construit pe o relație directă, cu o cooperativă agricolă, și trasabilitate completă, a lanțului de aprovizionare, pe loturi. Vândut ca o vitrină scalabilă, repetabilă, orientată spre stoc, cu SKU-uri de bază, constante, și reaprovizionare regulată, plus o opțiune de abonament de reaprovizionare, și un canal mai mic, cu ridicata — distinct de mărcile de modă, bazate pe raritate, limitate în capacitate, cu model de lansare, din altă parte, a acestei biblioteci."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.organicCottonBasicsBrand.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.organicCottonBasicsBrand.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.organicCottonBasicsBrand.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.organicCottonBasicsBrand.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "mrr",
+        "targetDescription": {
+          "en": "Grow subscription-driven monthly recurring revenue from the replenishment program.",
+          "ro": "Crește veniturile lunare recurente, generate de programul de abonament de reaprovizionare."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert e-commerce storefront visitors into first-time buyers.",
+          "ro": "Transformă vizitatorii vitrinei de comerț electronic, în cumpărători, la prima achiziție."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Convert one-time buyers into repeat customers and replenishment subscribers.",
+          "ro": "Transformă cumpărătorii, la prima achiziție, în clienți recurenți și abonați de reaprovizionare."
+        }
+      },
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Protect gross margin against rising organic-cotton and certified-manufacturing costs.",
+          "ro": "Protejează marja brută, împotriva costurilor în creștere, ale bumbacului organic și producției certificate."
+        }
+      },
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert sustainable-retail boutique conversations into signed wholesale stocking orders.",
+          "ro": "Transformă conversațiile cu boutique-uri de retail sustenabil, în comenzi de stocare, cu ridicata, semnate."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "marketing",
+          "importance": 5
+        },
+        {
+          "key": "negotiation",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "finance",
+          "importance": 3
+        },
+        {
+          "key": "management",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "systemOriented",
+          "importance": 5
+        },
+        {
+          "trait": "collaborative",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "growthMindset",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 14000,
+        "max": 30000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 18000,
+        "max": 26000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 30,
+        "maxWeeklyHours": 45
+      },
+      "communicationStyle": [
+        "transparent",
+        "consultative"
+      ],
+      "technicalLevel": 3,
+      "leadershipLevel": 4,
+      "creativityLevel": 3,
+      "salesAffinity": 4,
+      "automationAffinity": 5,
+      "remotePreference": "remote",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theVisionary",
+        "theConnector"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the direct-trade farm co-op relationship and batch-level traceability in Offer Architecture and Competitive Advantages, and the repeatable, scalable core-SKU inventory model (not scarcity drops) in Revenue Architecture and Operations System — never treat this as a capacity-constrained scarcity-drop label.",
+      "ro": "Subliniază relația directă, cu cooperativa agricolă, și trasabilitatea pe loturi, în Arhitectura ofertei și Avantajele competitive, și modelul de stoc, de SKU-uri de bază, repetabil, scalabil (nu lansări, bazate pe raritate), în Arhitectura veniturilor și Sistemul de operare — nu trata niciodată aceasta, ca o marcă limitată în capacitate, cu lansări bazate pe raritate."
+    },
+    "marketingHints": {
+      "en": "Lead with verifiable, batch-level supply-chain traceability and real farm co-op sourcing details, never generic 'sustainable basics' stock phrases — this positioning is about a stable, certified supply chain, not a rescued-material story.",
+      "ro": "Începe cu trasabilitatea, verificabilă, pe loturi, a lanțului de aprovizionare, și detalii reale, despre aprovizionarea de la cooperativa agricolă, niciodată cu fraze generice, de tipul „piese de bază sustenabile” — această poziționare este despre un lanț de aprovizionare stabil, certificat, nu despre o poveste de materiale salvate."
+    },
+    "financialHints": {
+      "en": "Model revenue as a steady, growing e-commerce baseline plus a compounding subscription-replenishment stream, with predictable per-unit COGS from a stable certified supplier — not concentrated bursts around scarce drops, and not variable, opportunistic sourcing costs.",
+      "ro": "Modelează veniturile, ca o bază, constantă, în creștere, de comerț electronic, plus un flux, în creștere, de abonament de reaprovizionare, cu un COGS, per unitate, previzibil, de la un furnizor certificat, stabil — nu izbucniri concentrate, în jurul unor lansări rare, și nu costuri de aprovizionare, variabile, oportuniste."
+    },
+    "generationHints": {
+      "en": "Keep generated tone transparent and evidence-based, grounded in real farm co-op and certification specifics — never generic sustainable-fashion marketing language that could apply to any brand, and never scarcity/drop-model language that belongs to a different business model.",
+      "ro": "Menține un ton generat, transparent, bazat pe dovezi, fundamentat pe detalii reale, despre cooperativa agricolă și certificare — niciodată limbaj generic, de marketing, de modă sustenabilă, care s-ar putea aplica oricărei mărci, și niciodată limbaj de raritate/model de lansare, care aparține unui alt model de afaceri."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Negotiate the direct-trade farm co-op and GOTS-certified manufacturing-partner agreements, and launch the e-commerce storefront with the initial core-SKU set.",
+            "ro": "Negociază acordurile, de comerț direct, cu cooperativa agricolă, și de producție, cu partenerul certificat GOTS, și lansează vitrina de comerț electronic, cu setul inițial, de SKU-uri de bază."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Committing to a large first batch production run before confirming fit, sizing, and fabric-hand feedback from a small test group.",
+            "ro": "Angajarea, la un prim lot mare, de producție, înainte de a confirma potrivirea, mărimea, și feedback-ul, privind tușeul materialului, de la un grup mic, de testare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Run a small pre-production sample batch through a test group before committing to the full first production order.",
+            "ro": "Rulează un lot mic, de eșantioane, de pre-producție, printr-un grup de testare, înainte de a te angaja, la comanda completă, de primă producție."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.organicCottonBasicsBrand.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Sell the initial core-SKU set to a small early customer base to validate fit, pricing, and demand before scaling batch orders.",
+            "ro": "Vinde setul inițial, de SKU-uri de bază, unei baze mici, de clienți timpurii, pentru a valida potrivirea, prețul, și cererea, înainte de a extinde comenzile pe loturi."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Discounting heavily to drive early sales volume, which undermines the ability to properly test standard-price willingness to pay.",
+            "ro": "Aplicarea unor reduceri mari, pentru a stimula volumul de vânzări, timpuriu, ceea ce subminează capacitatea, de a testa corect, disponibilitatea de a plăti, la preț standard."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Sell the initial batch at intended standard pricing to properly validate willingness to pay before scaling.",
+            "ro": "Vinde lotul inițial, la prețul standard, intenționat, pentru a valida corect, disponibilitatea de a plăti, înainte de extindere."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.organicCottonBasicsBrand.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Launch the full core-SKU catalog with working batch-level traceability (QR codes and certificates) visible to customers.",
+            "ro": "Lansează catalogul complet, de SKU-uri de bază, cu trasabilitate funcțională, pe loturi (coduri QR și certificate), vizibilă clienților."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching traceability claims without a working QR-code/certificate lookup system actually live for customers to check.",
+            "ro": "Lansarea afirmațiilor de trasabilitate, fără un sistem funcțional, de căutare, prin cod QR/certificat, activ, efectiv, pentru ca și clienții să îl poată verifica."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Verify the batch-traceability lookup works end-to-end for a real customer before the full catalog launch.",
+            "ro": "Verifică funcționarea, integrală, a sistemului de căutare, pentru trasabilitatea pe loturi, pentru un client real, înainte de lansarea catalogului complet."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.organicCottonBasicsBrand.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish supply-chain traceability content consistently and begin acquisition through paid social and lifecycle email/SMS.",
+            "ro": "Publică, în mod constant, conținut despre trasabilitatea lanțului de aprovizionare, și începe achiziția, prin social media plătit, și e-mail/SMS, de ciclu de viață."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Leading marketing with generic 'sustainable' claims instead of the specific, verifiable farm co-op and certification story.",
+            "ro": "Conducerea marketingului, cu afirmații generice, „sustenabile”, în loc de povestea specifică, verificabilă, despre cooperativa agricolă și certificare."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Lead every campaign with a specific, verifiable sourcing or certification detail rather than a generic sustainability claim.",
+            "ro": "Conduce fiecare campanie, cu un detaliu specific, verificabil, despre aprovizionare sau certificare, în loc de o afirmație generică, de sustenabilitate."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.organicCottonBasicsBrand.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert first-time buyers into replenishment subscribers via a post-purchase subscription offer.",
+            "ro": "Transformă cumpărătorii, la prima achiziție, în abonați de reaprovizionare, printr-o ofertă de abonament, post-achiziție."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Presenting the subscription offer only at checkout, missing the stronger post-delivery moment when the customer has already experienced the product quality.",
+            "ro": "Prezentarea ofertei de abonament, doar la finalizarea comenzii, ratând momentul mai puternic, post-livrare, când clientul a experimentat, deja, calitatea produsului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Present the replenishment subscription offer again shortly after delivery, once the customer has experienced the product.",
+            "ro": "Prezintă din nou, oferta de abonament de reaprovizionare, la scurt timp după livrare, odată ce clientul a experimentat produsul."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.organicCottonBasicsBrand.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable, predictable ratio of repeat purchasers and subscribers relative to first-time buyers.",
+            "ro": "Atinge un raport stabil, previzibil, de cumpărători recurenți și abonați, în raport cu cumpărătorii, la prima achiziție."
+          }
+        ],
+        "kpis": [
+          "leadConversion",
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Declaring product-market fit based on total order volume alone, ignoring the actual repeat-purchase and subscription conversion rate.",
+            "ro": "Declararea potrivirii produs-piață, doar pe baza volumului total, de comenzi, ignorând rata reală, de conversie, la achiziție repetată și abonament."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track repeat-purchase and subscription conversion rate as the primary product-market fit signal, not total order volume.",
+            "ro": "Urmărește rata de conversie, la achiziție repetată și abonament, ca principal semnal, de potrivire produs-piață, nu volumul total, de comenzi."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.organicCottonBasicsBrand.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Increase batch order volume with the manufacturing partner in step with growing demand.",
+            "ro": "Crește volumul comenzilor, pe loturi, cu partenerul de producție, în ritm cu cererea în creștere."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Increasing batch order volume faster than actual sell-through data supports, tying up excess cash in unsold inventory.",
+            "ro": "Creșterea volumului comenzilor, pe loturi, mai rapid, decât susțin datele reale, de vânzare, blocând numerar în exces, în stoc nevândut."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Scale batch order volume in step with confirmed sell-through data, not projected demand alone.",
+            "ro": "Extinde volumul comenzilor, pe loturi, în ritm cu datele confirmate, de vânzare, nu doar cu cererea proiectată."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.organicCottonBasicsBrand.businessDna.resources.book1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Make the replenishment subscription the primary retention engine, with a dedicated onboarding and win-back flow.",
+            "ro": "Transformă abonamentul de reaprovizionare, în principalul motor de retenție, cu un flux dedicat, de integrare și recâștigare."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Treating the subscription as a checkout add-on rather than building a dedicated retention flow around it.",
+            "ro": "Tratarea abonamentului, ca un supliment, la finalizarea comenzii, în loc de a construi un flux dedicat, de retenție, în jurul acestuia."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Build a dedicated subscription onboarding and win-back email/SMS flow, not just a checkout toggle.",
+            "ro": "Construiește un flux dedicat, de e-mail/SMS, de integrare și recâștigare, pentru abonament, nu doar un comutator, la finalizarea comenzii."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.organicCottonBasicsBrand.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Expand the wholesale channel to a meaningful network of sustainable-retail boutiques as a stabilizing secondary revenue channel.",
+            "ro": "Extinde canalul de comerț cu ridicata, la o rețea semnificativă, de boutique-uri, de retail sustenabil, ca un canal secundar, de stabilizare, a veniturilor."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Signing wholesale volume commitments that exceed confirmed batch production capacity, risking stockouts on both D2C and wholesale sides.",
+            "ro": "Semnarea unor angajamente, de volum, cu ridicata, care depășesc capacitatea confirmată, de producție, pe loturi, riscând epuizarea stocului, atât pe partea D2C, cât și pe cea cu ridicata."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Cap wholesale volume commitments to a confirmed share of batch production capacity, protecting D2C and subscription supply.",
+            "ro": "Limitează angajamentele, de volum, cu ridicata, la o cotă confirmată, din capacitatea de producție, pe loturi, protejând aprovizionarea D2C și de abonament."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.organicCottonBasicsBrand.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the farm co-op and manufacturing-partner agreements, subscription and wholesale customer base, and traceability system to package the brand for sale or acquisition.",
+            "ro": "Documentează acordurile, cu cooperativa agricolă și partenerul de producție, baza de clienți, de abonament și cu ridicata, și sistemul de trasabilitate, pentru a pregăti marca, pentru vânzare sau achiziție."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping the farm co-op and manufacturing-partner agreements informal and undocumented, making the supply chain hard for a buyer to evaluate or transfer.",
+            "ro": "Menținerea acordurilor, cu cooperativa agricolă și partenerul de producție, informale și nedocumentate, făcând lanțul de aprovizionare, dificil de evaluat sau transferat, de un cumpărător."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, ongoing documentation of every supplier agreement, subscription cohort, and traceability record.",
+            "ro": "Menține o documentație curată, continuă, a fiecărui acord cu furnizorii, a fiecărei cohorte de abonați, și a înregistrărilor de trasabilitate."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.organicCottonBasicsBrand.businessDna.resources.checklist1"
+        ]
+      }
+    ]
+  }
+}

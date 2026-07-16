@@ -1,0 +1,140 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "initialCoreSkuBatchProduction",
+      "ecommerceAndSubscriptionPlatformSetup",
+      "batchTraceabilitySystemSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "ecommerceSubscriptionAndFulfillmentPlatformFees",
+      "warehousingAndLogistics"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "coreSkuInventoryReplenishment",
+      "shippingAndPackagingMaterials"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "coreBasicsDirectEcommerceSales",
+        "label": {
+          "en": "Direct-to-consumer e-commerce sales of core basics",
+          "ro": "Vânzări directe către consumator, de piese de bază, prin comerț electronic"
+        }
+      },
+      {
+        "key": "replenishmentSubscriptionSales",
+        "label": {
+          "en": "Recurring replenishment subscription sales",
+          "ro": "Vânzări recurente, prin abonament de reaprovizionare"
+        }
+      },
+      {
+        "key": "sustainableRetailWholesaleOrders",
+        "label": {
+          "en": "Wholesale orders to sustainable-retail boutiques",
+          "ro": "Comenzi cu ridicata, către boutique-uri de retail sustenabil"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "coreSkuAveragePrice": "currency",
+      "subscriptionAttachRatePercent": "percent",
+      "monthlyUnitsSoldPerSku": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "newSubscribersPerMonth": "number",
+      "subscriberMonthlyChurnRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.organicCottonBasicsBrand.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "ecommerceSalesInflow",
+      "subscriptionBillingInflow",
+      "wholesaleOrderInflow",
+      "batchProductionAndLogisticsOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 7,
+    "notesTranslationKey": "businessLibrary.organicCottonBasicsBrand.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 52,
+    "notesTranslationKey": "businessLibrary.organicCottonBasicsBrand.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 16,
+    "notesTranslationKey": "businessLibrary.organicCottonBasicsBrand.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "customerExperienceAndFulfillmentCoordinatorRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "paidSocialAcquisition",
+      "traceabilityContentProduction"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "salesTaxOnPhysicalGoods"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "fourMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "mrr",
+      "leadConversion",
+      "customerRetention",
+      "grossMargin",
+      "closeRate"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 4500,
+      "notesTranslationKey": "businessLibrary.organicCottonBasicsBrand.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 11000,
+      "notesTranslationKey": "businessLibrary.organicCottonBasicsBrand.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 18000,
+      "notesTranslationKey": "businessLibrary.organicCottonBasicsBrand.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.organicCottonBasicsBrand.financial.risks.risk1",
+        "severity": "moderate"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.organicCottonBasicsBrand.financial.risks.risk2",
+        "severity": "high"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.organicCottonBasicsBrand.financial.aiMetadata.generationHints"
+  }
+}
