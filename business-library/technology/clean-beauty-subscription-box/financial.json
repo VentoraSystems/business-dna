@@ -1,0 +1,146 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "subscriptionCommerceAndQuizEnginePlatformSetup",
+      "brandedPackagingAndBoxDesign",
+      "initialInventoryAcrossSkinTypeConcernSkuMatrix"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "packingAndPersonalizedFulfillmentLabor",
+      "subscriptionAndQuizEnginePlatformFee"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "monthlyCleanBeautyProductInventory",
+      "shippingAndPackagingMaterials"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "monthlyEssentialsBoxSubscription",
+        "label": {
+          "en": "Monthly Essentials box subscription",
+          "ro": "Abonament lunar, cutia Essentials"
+        }
+      },
+      {
+        "key": "monthlyDeluxeBoxSubscription",
+        "label": {
+          "en": "Monthly Deluxe box subscription",
+          "ro": "Abonament lunar, cutia Deluxe"
+        }
+      },
+      {
+        "key": "fullSizeALaCarteReorderShop",
+        "label": {
+          "en": "Full-size à la carte reorder shop",
+          "ro": "Magazin à la carte, de produse la mărime întreagă"
+        }
+      },
+      {
+        "key": "referralProgramDrivenSubscriptions",
+        "label": {
+          "en": "Referral and affiliate program-driven subscriptions",
+          "ro": "Abonamente generate, prin programul de recomandare și afiliere"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "activeSubscribers": "number",
+      "averageRevenuePerSubscriber": "currency",
+      "monthlyChurnRatePercent": "percent",
+      "quizToSubscriptionConversionRatePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "newSubscribersPerMonth": "number",
+      "aLaCarteReorderAttachRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.cleanBeautySubscriptionBox.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "subscriptionBillingInflow",
+      "aLaCarteReorderShopInflow",
+      "inventoryAndShippingOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 9,
+    "notesTranslationKey": "businessLibrary.cleanBeautySubscriptionBox.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 50,
+    "notesTranslationKey": "businessLibrary.cleanBeautySubscriptionBox.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 21,
+    "notesTranslationKey": "businessLibrary.cleanBeautySubscriptionBox.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "partTimePackingStaffRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "skinConcernContentProductionAndPhotography",
+      "creatorAndEstheticianPartnershipFees"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "salesTaxOnPhysicalGoods"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "fourMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "churn",
+      "customerRetention",
+      "grossMargin",
+      "mrr"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 4500,
+      "notesTranslationKey": "businessLibrary.cleanBeautySubscriptionBox.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 12500,
+      "notesTranslationKey": "businessLibrary.cleanBeautySubscriptionBox.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 20000,
+      "notesTranslationKey": "businessLibrary.cleanBeautySubscriptionBox.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.cleanBeautySubscriptionBox.financial.risks.risk1",
+        "severity": "moderate"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.cleanBeautySubscriptionBox.financial.risks.risk2",
+        "severity": "high"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.cleanBeautySubscriptionBox.financial.aiMetadata.generationHints"
+  }
+}
