@@ -1,0 +1,141 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "multiChannelSalesReconciliationSoftwareSetup",
+      "inventoryAndLandedCostSoftwareSetup",
+      "salesTaxNexusMonitoringToolSetup",
+      "professionalLiabilityInsuranceAndRegistration",
+      "brandingAndClientPortalSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "softwareStackSubscriptions",
+      "contractorBookkeeperAndStaffAccountantWages"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "continuingEducationAndNexusComplianceUpdates",
+      "taxSeasonAndQ4PeakOverflowContractorHours"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "multiChannelBookkeepingRetainer",
+        "label": {
+          "en": "Monthly retainer tiered by connected sales channels and order volume",
+          "ro": "Abonament lunar pe niveluri, în funcție de canalele de vânzare conectate și volumul de comenzi"
+        }
+      },
+      {
+        "key": "nexusExposureReviewProjectFee",
+        "label": {
+          "en": "One-off nexus exposure review project fee",
+          "ro": "Taxă de proiect, unică, pentru revizuirea expunerii la nexusul fiscal"
+        }
+      },
+      {
+        "key": "salesTaxRegistrationAndFilingCoordinationFee",
+        "label": {
+          "en": "Sales-tax registration and filing coordination fee for newly triggered states",
+          "ro": "Taxă de coordonare a înregistrării și depunerii fiscale, pentru statele nou declanșate"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "averageMonthlyRetainerFee": "currency",
+      "activeRetainerClients": "number",
+      "nexusExposureReviewAttachRatePercent": "percent",
+      "averageMonthlyClientOrderVolume": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "newClientsPerQuarter": "number",
+      "monthlyClientChurnRatePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "monthlyRetainerInflow",
+      "nexusExposureReviewInflow",
+      "softwareAndContractorOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 8,
+    "notesTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 62,
+    "notesTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 28,
+    "notesTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "specialistBookkeeperRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "ecommerceAgencyPartnershipOutreach",
+      "sellerCommunityContentProduction"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxOnContractors"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "fourMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "mrr",
+      "customerRetention",
+      "grossMargin",
+      "churn"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 7000,
+      "notesTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 16000,
+      "notesTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 26000,
+      "notesTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.financial.aiMetadata.generationHints"
+  }
+}

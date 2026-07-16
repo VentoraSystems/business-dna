@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.uvp.diff1",
+      "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2b",
+    "descriptionTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.painPoints.point1",
+      "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.outcomes.outcome1",
+      "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.brandVoice.attr1",
+      "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.contentPillars.pillar1",
+      "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "referralProgram",
+      "contentMarketing",
+      "eventsAndSponsorship"
+    ],
+    "strategyTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "customerRetention",
+      "leadConversion"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.ecommerceAccountingSpecialistFirm.marketing.aiMetadata.generationHints"
+  }
+}
