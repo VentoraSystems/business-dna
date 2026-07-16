@@ -1,0 +1,933 @@
+{
+  "identity": {
+    "id": "50e97349-aec1-4dce-b3b9-ddede2382658",
+    "slug": "llm-integration-consultancy",
+    "version": "1.0.0",
+    "name": {
+      "en": "Substrate AI",
+      "ro": "Substrate AI"
+    },
+    "tagline": {
+      "en": "LLM systems built directly on your own data and inside your own software — not a chatbot bolted on top.",
+      "ro": "Sisteme LLM construite direct pe datele tale și integrate în propriul tău software — nu un chatbot lipit deasupra."
+    },
+    "createdAt": "2026-07-16T00:00:00.000Z",
+    "updatedAt": "2026-07-16T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theBuilder",
+      "theSpecialist"
+    ],
+    "summary": {
+      "en": "Best suited to a hands-on senior engineer who has actually shipped production ML/software systems — someone comfortable scoping a fixed-price build against a client's messy proprietary data, working inside a client's own security perimeter, and being the person a General Counsel or Head of Engineering trusts with sensitive internal systems.",
+      "ro": "Potrivit unui inginer senior implicat direct, care a livrat deja sisteme reale de ML/software în producție — cineva confortabil să stabilească scopul unei construcții cu preț fix pe baza datelor proprii, adesea dezordonate, ale unui client, să lucreze în interiorul perimetrului de securitate al clientului și să fie persoana în care un director juridic sau un șef de inginerie are încredere cu sisteme interne sensibile."
+    },
+    "minimumExperienceYears": 6
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 22000,
+      "maxInvestment": 40000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 6000,
+      "ongoingMonthlyCostMax": 16000,
+      "notes": {
+        "en": "Covers company formation and data-processing contract templates, an initial senior contract-engineer retainer before the first milestone payment lands, RAG/vector-database tooling, and the security and compliance tooling needed to responsibly handle a client's proprietary data during a build.",
+        "ro": "Acoperă înființarea firmei și modelele de contracte de prelucrare a datelor, un avans inițial reținut pentru un inginer colaborator senior, înainte de încasarea primei plăți pe etapă, uneltele RAG și de bază de date vectorială, precum și uneltele de securitate și conformitate necesare pentru a gestiona responsabil datele proprietare ale unui client pe durata unei construcții."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "companyFormationAndDataProcessingAgreements",
+          "label": {
+            "en": "Company formation and client contract templates (MSA/SOW and data-processing agreements)",
+            "ro": "Înființarea firmei și modele de contracte cu clienții (MSA/SOW și acorduri de prelucrare a datelor)"
+          },
+          "typicalMin": 1000,
+          "typicalMax": 3000
+        },
+        {
+          "key": "ragAndVectorDbTooling",
+          "label": {
+            "en": "RAG orchestration and vector-database tooling licenses",
+            "ro": "Licențe pentru unelte de orchestrare RAG și baze de date vectoriale"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        },
+        {
+          "key": "initialContractEngineerRetainer",
+          "label": {
+            "en": "Initial senior contract-engineer retainer before the first milestone payment lands",
+            "ro": "Avans inițial reținut pentru un inginer colaborator senior, înainte de încasarea primei plăți pe etapă"
+          },
+          "typicalMin": 15000,
+          "typicalMax": 26000
+        },
+        {
+          "key": "portfolioAndTechnicalSalesCollateral",
+          "label": {
+            "en": "Technical portfolio site and case-study sales collateral",
+            "ro": "Site de portofoliu tehnic și materiale de vânzare sub formă de studii de caz"
+          },
+          "typicalMin": 1500,
+          "typicalMax": 4000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "contractEngineeringCapacity",
+          "label": {
+            "en": "Senior contract-engineering capacity for active builds",
+            "ro": "Capacitate de inginerie colaboratoare senior pentru construcțiile active"
+          },
+          "typicalMonthlyMin": 4000,
+          "typicalMonthlyMax": 11000
+        },
+        {
+          "key": "cloudComputeAndVectorDbHosting",
+          "label": {
+            "en": "Cloud compute, embedding, and vector-database hosting across active client pipelines",
+            "ro": "Găzduire cloud, pentru embeddinguri și baze de date vectoriale, pe fluxurile active ale clienților"
+          },
+          "typicalMonthlyMin": 1200,
+          "typicalMonthlyMax": 3500
+        },
+        {
+          "key": "enterpriseSecurityAndComplianceTooling",
+          "label": {
+            "en": "Enterprise security and compliance tooling for client-environment access",
+            "ro": "Unelte de securitate și conformitate pentru accesul în mediul clientului"
+          },
+          "typicalMonthlyMin": 800,
+          "typicalMonthlyMax": 1500
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "discoverySprintFee",
+          "label": {
+            "en": "Fixed-fee technical discovery and proprietary-data audit sprint",
+            "ro": "Onorariu fix pentru sprintul de descoperire tehnică și auditul datelor proprietare"
+          }
+        },
+        {
+          "key": "integrationBuildFee",
+          "label": {
+            "en": "Fixed-scope RAG/LLM-integration build fee, billed per milestone",
+            "ro": "Onorariu de construcție a integrării RAG/LLM, cu scop fix, facturat pe etape"
+          }
+        },
+        {
+          "key": "maintenanceAndModelUpkeepRetainer",
+          "label": {
+            "en": "Monthly maintenance, monitoring, and model/prompt-upkeep retainer",
+            "ro": "Abonament lunar de mentenanță, monitorizare și actualizare a modelului/prompturilor"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 20000,
+      "targetMonthlyIncomeMax": 55000,
+      "breakEvenTimelineMonths": 9,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "moderate",
+      "notes": {
+        "en": "Revenue arrives in lumpy milestone payments tied to each fixed-scope integration build rather than a smooth ramp, gradually smoothed by a growing maintenance-retainer base.",
+        "ro": "Venitul sosește sub formă de plăți neregulate, pe etape, legate de fiecare construcție de integrare cu scop fix, nu printr-o creștere lină, dar se uniformizează treptat printr-o bază tot mai mare de abonamente de mentenanță."
+      }
+    },
+    "profitMargin": {
+      "level": "high"
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "occasional",
+    "onlineOffline": "online",
+    "salesChannel": "b2b",
+    "minWeeklyHours": 40,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 4
+      },
+      {
+        "key": "marketing",
+        "rating": 3
+      },
+      {
+        "key": "leadership",
+        "rating": 5
+      },
+      {
+        "key": "communication",
+        "rating": 6
+      },
+      {
+        "key": "negotiation",
+        "rating": 5
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 6
+      },
+      {
+        "key": "technology",
+        "rating": 9
+      },
+      {
+        "key": "automation",
+        "rating": 6
+      },
+      {
+        "key": "ai",
+        "rating": 9
+      },
+      {
+        "key": "programming",
+        "rating": 9
+      },
+      {
+        "key": "management",
+        "rating": 6
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 90
+      },
+      {
+        "key": "visionary",
+        "score": 40
+      },
+      {
+        "key": "operator",
+        "score": 60
+      },
+      {
+        "key": "creator",
+        "score": 55
+      },
+      {
+        "key": "seller",
+        "score": 30
+      },
+      {
+        "key": "leader",
+        "score": 50
+      },
+      {
+        "key": "analyst",
+        "score": 75
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": true,
+    "isOnlineBusiness": true,
+    "isB2B": true,
+    "isB2C": false,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": false,
+    "isHighlyAutomatable": false,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": false,
+    "isCapitalIntensive": false,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "moderate"
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high"
+    },
+    "aiResistance": {
+      "level": "moderate"
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "Handling a client's proprietary, often sensitive data (case files, claims history, internal parts catalogs) during a build creates real liability if that data is mishandled or a breach occurs.",
+          "ro": "Gestionarea datelor proprietare, adesea sensibile, ale unui client (dosare de caz, istoric de daune, cataloage interne de piese) pe durata unei construcții creează o răspundere reală, dacă acele date sunt gestionate greșit sau are loc o breșă de securitate."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Sign a data-processing agreement before touching any client data, work inside isolated client environments with least-privilege access, and never persist client data outside infrastructure the client itself controls.",
+          "ro": "Semnează un acord de prelucrare a datelor înainte de a accesa orice date ale clientului, lucrează în medii izolate ale clientului, cu acces la privilegiul minim necesar, și nu păstra niciodată datele clientului în afara infrastructurii controlate chiar de client."
+        }
+      },
+      {
+        "description": {
+          "en": "Proprietary data is almost always messier than it looks in the sales conversation, and discovering that mid-build blows up a fixed-price quote.",
+          "ro": "Datele proprietare sunt aproape întotdeauna mai dezordonate decât par în discuția de vânzare, iar descoperirea acestui lucru la mijlocul construcției distruge o ofertă cu preț fix."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Run a paid discovery sprint that includes a hands-on data-quality audit before quoting any fixed price, and route every mid-project data surprise through a signed change order.",
+          "ro": "Derulează un sprint de descoperire plătit, care include un audit practic al calității datelor, înainte de a oferta orice preț fix, și tratează fiecare surpriză legată de date apărută pe parcursul proiectului printr-un ordin de schimbare semnat."
+        }
+      },
+      {
+        "description": {
+          "en": "The underlying foundation-model APIs, embedding models, and RAG tooling shift quickly, and an integration tightly coupled to one soon-deprecated model needs costly rework.",
+          "ro": "API-urile modelelor fundamentale, modelele de embedding și uneltele RAG se schimbă rapid, iar o integrare strâns legată de un model care va fi curând scos din uz necesită o refacere costisitoare."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Build every integration on a model-agnostic, swappable model and embedding layer, and include a model-upgrade clause as a standard line item in the maintenance retainer.",
+          "ro": "Construiește fiecare integrare pe un strat de model și embedding agnostic și interschimbabil, și include o clauză de actualizare a modelului ca element standard în abonamentul de mentenanță."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "LLM systems built directly on your own data and inside your own software — not a chatbot bolted on top.",
+        "ro": "Sisteme LLM construite direct pe datele tale și integrate în propriul tău software — nu un chatbot lipit deasupra."
+      },
+      "channels": [
+        {
+          "channelType": "technicalCaseStudiesAndReferrals",
+          "description": {
+            "en": "Named engineering case studies of delivered RAG and integration builds, shared through referrals from past clients' CTOs, General Counsels, and operations leaders.",
+            "ro": "Studii de caz tehnice, cu nume, ale construcțiilor RAG și de integrare livrate, distribuite prin recomandări de la directorii tehnici, directorii juridici și liderii operaționali ai foștilor clienți."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "targetedOutboundToTechnicalLeaders",
+          "description": {
+            "en": "Targeted outbound to CTOs and Heads of Engineering at mid-market and enterprise companies with a specific, named proprietary use case that doesn't fit an off-the-shelf AI product.",
+            "ro": "Prospectare directă țintită către directori tehnici și șefi de inginerie din companii mid-market și enterprise, cu un caz de utilizare proprietar, specific și numit, care nu se potrivește unui produs AI standard."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "technicalConferenceAndCommunityPresence",
+          "description": {
+            "en": "Speaking and technical writeups at engineering-leadership and applied-AI conferences to build category credibility beyond word of mouth.",
+            "ro": "Prezentări și articole tehnice la conferințe de leadership în inginerie și AI aplicat, pentru a construi credibilitate de categorie dincolo de recomandările verbale."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate"
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "Consultative technical scoping — a paid discovery and proprietary-data audit sprint precedes every fixed-price integration-build proposal, so the quote is built on a real technical spec and a real look at the client's data, not a guess.",
+        "ro": "Vânzare consultativă cu stabilire tehnică a scopului — un sprint plătit de descoperire și audit al datelor proprietare precede fiecare ofertă de construcție a integrării, cu preț fix, astfel încât cotația se bazează pe o specificație tehnică reală și pe o examinare reală a datelor clientului, nu pe o presupunere."
+      },
+      "salesCycleLengthDays": 50,
+      "pricingModel": {
+        "en": "Fixed-scope integration-build fee billed per milestone, preceded by a paid discovery sprint, with an optional post-launch maintenance and model-upkeep retainer.",
+        "ro": "Onorariu de construcție a integrării, cu scop fix, facturat pe etape, precedat de un sprint de descoperire plătit, cu un abonament opțional post-lansare de mentenanță și actualizare a modelului."
+      }
+    },
+    "salesComplexity": {
+      "level": "high"
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Paid discovery sprint and proprietary-data audit before any fixed price is quoted.",
+          "ro": "Sprint de descoperire plătit și audit al datelor proprietare, înainte de ofertarea oricărui preț fix."
+        },
+        {
+          "en": "RAG pipeline or fine-tuning build delivered in two-week sprints, with a live client demo against real (or sandboxed) client data at the end of each sprint.",
+          "ro": "Construcția fluxului RAG sau a ajustării fine (fine-tuning), livrată în sprinturi de două săptămâni, cu o demonstrație live pentru client, pe date reale (sau într-un mediu izolat), la finalul fiecărui sprint."
+        },
+        {
+          "en": "Security review and validation against a sandboxed copy of client data before any production integration into the client's live systems.",
+          "ro": "Revizuire de securitate și validare pe o copie izolată a datelor clientului, înainte de orice integrare în producție în sistemele live ale clientului."
+        },
+        {
+          "en": "Post-launch maintenance retainer covering pipeline monitoring, prompt/model upkeep, and reindexing as the client's underlying data changes.",
+          "ro": "Abonament de mentenanță post-lansare, care acoperă monitorizarea fluxului, actualizarea prompturilor/modelului și reindexarea pe măsură ce datele de bază ale clientului se schimbă."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "Daily engineering standup, a retrieval-accuracy and hallucination-rate evaluation review, and an async client update posted in a shared project channel.",
+        "ro": "Standup zilnic de inginerie, o revizuire a evaluării acurateței de regăsire (retrieval) și a ratei de halucinație, și o actualizare asincronă pentru client, postată într-un canal de proiect partajat."
+      },
+      "fulfillmentModel": {
+        "en": "A small senior engineering team embeds directly against the client's own data and existing software, builds and ships the custom RAG/LLM integration end to end in fixed-scope milestones, and hands off with full documentation and an optional maintenance retainer — nothing productized or shared across clients.",
+        "ro": "O echipă mică de ingineri seniori lucrează direct pe datele și software-ul existent al clientului, construiește și livrează integrarea RAG/LLM personalizată, integral, în etape cu scop fix, și predă proiectul cu documentație completă și un abonament opțional de mentenanță — nimic productizat sau partajat între clienți."
+      }
+    },
+    "automation": {
+      "level": "low"
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "aiAssistedPipelineEngineering",
+          "description": {
+            "en": "AI coding assistants accelerate RAG pipeline boilerplate, evaluation-harness scaffolding, and documentation across every active client build.",
+            "ro": "Asistenții AI de programare accelerează codul boilerplate al fluxurilor RAG, structura harnașamentelor de evaluare și documentația, pe fiecare construcție activă a clienților."
+          },
+          "maturity": "established"
+        },
+        {
+          "area": "retrievalQualityAndHallucinationMonitoring",
+          "description": {
+            "en": "An automated evaluation harness continuously scores retrieval accuracy and hallucination rate against a held-out question set drawn from the client's own domain, catching regressions before the client does.",
+            "ro": "Un harnașament automat de evaluare notează continuu acuratețea de regăsire (retrieval) și rata de halucinație, pe baza unui set de întrebări reținut din domeniul propriu al clientului, prinzând regresiile înaintea clientului."
+          },
+          "maturity": "emerging"
+        }
+      ],
+      "aiDependencyLevel": "high"
+    },
+    "recommendedTools": [
+      {
+        "name": "LangChain / LlamaIndex",
+        "category": "ragOrchestration",
+        "isRequired": true,
+        "websiteUrl": "https://www.langchain.com/"
+      },
+      {
+        "name": "A managed vector database (e.g. Pinecone, Weaviate)",
+        "category": "vectorDatabase",
+        "isRequired": true,
+        "websiteUrl": "https://www.pinecone.io/"
+      },
+      {
+        "name": "GitHub",
+        "category": "versionControlAndCi",
+        "isRequired": true,
+        "websiteUrl": "https://github.com/"
+      },
+      {
+        "name": "Linear",
+        "category": "projectManagement",
+        "isRequired": false,
+        "websiteUrl": "https://linear.app/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "moderate",
+      "timeHorizonMonths": 36
+    },
+    "scaling": {
+      "path": {
+        "en": "Move from founder-led discovery-sprint sales to a repeatable referral-plus-outbound engine, then specialize into one or two verticals (e.g. legal case-file RAG, insurer claims-history document intelligence) to command premium fixed-scope pricing and build reusable-but-still-bespoke internal accelerators per vertical.",
+        "ro": "Trece de la vânzarea condusă de fondator, prin sprinturi de descoperire, la un motor repetabil de recomandări și prospectare, apoi specializează-te pe una-două nișe verticale (de ex. RAG pentru dosare juridice, informații documentare pentru istoricul de daune al asigurătorilor) pentru a obține prețuri premium la construcțiile cu scop fix și pentru a construi acceleratoare interne reutilizabile, dar tot personalizate, pentru fiecare nișă."
+      },
+      "bottlenecks": [
+        {
+          "en": "Senior ML/backend engineering hiring is slow and highly competitive, and building the client trust needed to touch sensitive proprietary data takes time with any new hire.",
+          "ro": "Angajarea de ingineri seniori ML/backend este lentă și puternic competitivă, iar construirea încrederii clientului necesare pentru a accesa date proprietare sensibile necesită timp pentru orice angajat nou."
+        },
+        {
+          "en": "Fixed-scope estimating accuracy against a client's real, often messy proprietary data directly determines project margin.",
+          "ro": "Acuratețea estimării scopului fix, pe baza datelor proprietare reale, adesea dezordonate, ale clientului, determină direct marja proiectului."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 6,
+          "description": {
+            "en": "First 3 fixed-scope integration builds delivered on time and on budget.",
+            "ro": "Primele 3 construcții de integrare cu scop fix, livrate la timp și în buget."
+          }
+        },
+        {
+          "monthsFromLaunch": 18,
+          "description": {
+            "en": "First client signed onto a 12-month-plus maintenance and model-upkeep retainer.",
+            "ro": "Primul client semnat pe un abonament de mentenanță și actualizare a modelului de peste 12 luni."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "A paid discovery and data-audit sprint de-risks scoping against a client's real, messy proprietary data before any fixed price is quoted, avoiding the underbidding trap most engineering shops fall into.",
+          "ro": "Un sprint de descoperire și audit al datelor, plătit, reduce riscul de stabilire a scopului pe baza datelor proprietare reale, adesea dezordonate, ale clientului, înainte de ofertarea oricărui preț fix, evitând capcana subevaluării în care cad majoritatea firmelor de inginerie."
+        }
+      },
+      {
+        "description": {
+          "en": "Deep, hands-on engineering credibility — shipped systems, not strategy slides — builds trust with technical buyers that a generalist agency or a strategy-only advisory can't credibly match.",
+          "ro": "Credibilitatea inginerească profundă și practică — sisteme livrate, nu diapozitive de strategie — construiește o încredere cu cumpărătorii tehnici pe care o agenție generalistă sau o consultanță exclusiv de strategie nu o pot egala credibil."
+        }
+      },
+      {
+        "description": {
+          "en": "A model-agnostic, swappable architecture protects clients — and the firm's own margin — from any single foundation-model vendor's pricing changes or deprecation timeline.",
+          "ro": "O arhitectură agnostică față de model, cu componente interschimbabile, protejează clienții — și propria marjă a firmei — de schimbările de preț sau de scoaterea din uz decisă de un singur furnizor de model fundamental."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "A boutique software-engineering consultancy that designs and ships bespoke LLM integrations directly into a client's own proprietary systems and data — custom RAG pipelines, fine-tuning, and deep prompt engineering embedded into a client's existing enterprise software — sold as fixed-scope, project-based engineering work, explicitly not a strategy diagnostic or a productized tool.",
+        "ro": "O firmă boutique de consultanță în inginerie software, care proiectează și livrează integrări LLM personalizate, direct în sistemele și datele proprietare ale clientului — fluxuri RAG personalizate, ajustare fină (fine-tuning) și inginerie de prompt aprofundată, integrate în software-ul enterprise existent al clientului — vândută ca muncă de inginerie de proiect, cu scop fix, explicit nu un diagnostic de strategie sau o unealtă productizată."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.llmIntegrationConsultancy.businessDna.resources.book1"
+      },
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.llmIntegrationConsultancy.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.llmIntegrationConsultancy.businessDna.resources.community1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.llmIntegrationConsultancy.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "grossMargin",
+        "targetDescription": {
+          "en": "Keep gross margin above 50% per fixed-scope integration build after contract-engineering costs.",
+          "ro": "Menține marja brută peste 50% per construcție de integrare cu scop fix, după costurile de inginerie colaboratoare."
+        }
+      },
+      {
+        "key": "closeRate",
+        "targetDescription": {
+          "en": "Convert at least 1 in 4 paid discovery sprints into a signed fixed-scope integration build.",
+          "ro": "Transformă cel puțin 1 din 4 sprinturi de descoperire plătite într-o construcție semnată de integrare cu scop fix."
+        }
+      },
+      {
+        "key": "customerRetention",
+        "targetDescription": {
+          "en": "Convert at least 45% of completed integration builds into an ongoing maintenance and model-upkeep retainer.",
+          "ro": "Transformă cel puțin 45% din construcțiile de integrare finalizate într-un abonament continuu de mentenanță și actualizare a modelului."
+        }
+      },
+      {
+        "key": "mrr",
+        "targetDescription": {
+          "en": "Grow maintenance-retainer MRR steadily as the delivered-integration base grows.",
+          "ro": "Crește constant MRR-ul din abonamentele de mentenanță, pe măsură ce crește baza de integrări livrate."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "programming",
+          "importance": 5
+        },
+        {
+          "key": "ai",
+          "importance": 5
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "communication",
+          "importance": 3
+        },
+        {
+          "key": "negotiation",
+          "importance": 3
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "systemOriented",
+          "importance": 5
+        },
+        {
+          "trait": "analytical",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "detailOriented",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 22000,
+        "max": 40000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 25000,
+        "max": 35000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 40,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "direct",
+        "technical"
+      ],
+      "technicalLevel": 5,
+      "leadershipLevel": 4,
+      "creativityLevel": 3,
+      "salesAffinity": 2,
+      "automationAffinity": 4,
+      "remotePreference": "remote",
+      "travelPreference": "occasional",
+      "idealFounderArchetypes": [
+        "theBuilder",
+        "theSpecialist"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize hands-on engineering delivery evidence — shipped systems and named technical case studies — over strategy-slide credibility in the Executive Summary, and be explicit that this firm does not sell a diagnostic and does not sell a shared platform.",
+      "ro": "Evidențiază dovezile de livrare inginerească practică — sisteme livrate și studii de caz tehnice numite — mai degrabă decât credibilitatea de tip diapozitive de strategie, în Rezumatul executiv, și precizează explicit că această firmă nu vinde un diagnostic și nu vinde o platformă partajată."
+    },
+    "marketingHints": {
+      "en": "Lead with named technical case studies and measurable outcomes (retrieval accuracy, hours saved, ticket/case volume handled), not generic \"AI agency\" messaging — this is a trust sale to technical buyers (CTOs, Heads of Engineering, General Counsel) who can spot vague AI-hype copy immediately.",
+      "ro": "Pornește de la studii de caz tehnice numite și rezultate măsurabile (acuratețea de regăsire, ore economisite, volumul de cazuri/tichete gestionate), nu de la mesaje generice de tip \"agenție AI\" — aceasta este o vânzare bazată pe încredere, către cumpărători tehnici (directori tehnici, șefi de inginerie, directori juridici) care pot recunoaște imediat un text generic, de tip hype AI."
+    },
+    "financialHints": {
+      "en": "Model revenue as lumpy, milestone-based fixed-scope project income, smoothed over time by a growing maintenance-and-model-upkeep-retainer base — not steady MRR from day one.",
+      "ro": "Modelează venitul ca venit neregulat, bazat pe etape ale proiectelor cu scop fix, uniformizat în timp de o bază tot mai mare de abonamente de mentenanță și actualizare a modelului — nu ca MRR constant de la început."
+    },
+    "generationHints": {
+      "en": "Keep tone precise and engineering-credible, concrete about proprietary-data handling and security posture, and never conflate this business with a strategy diagnostic or a shared self-serve product — it sells neither.",
+      "ro": "Păstrează un ton precis și credibil din punct de vedere inginerescu, concret în privința gestionării datelor proprietare și a poziției de securitate, și nu confunda niciodată această afacere cu un diagnostic de strategie sau cu un produs partajat, de tip self-serve — nu vinde niciunul dintre acestea."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Form the company, draft standard MSA/SOW and data-processing agreement templates, and select the core RAG/vector-database delivery stack.",
+            "ro": "Înființează firma, redactează modelele standard de contract MSA/SOW și de acord de prelucrare a datelor, și alege stiva principală de livrare RAG/bază de date vectorială."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Starting client data-handling work without a signed data-processing agreement or a documented least-privilege access process.",
+            "ro": "Începerea lucrului cu datele clientului fără un acord de prelucrare a datelor semnat sau un proces documentat de acces la privilegiul minim necesar."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Draft a reusable discovery-sprint and data-audit proposal template before approaching the first prospect.",
+            "ro": "Redactează un model reutilizabil de propunere pentru sprintul de descoperire și auditul datelor, înainte de a aborda primul prospect."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.llmIntegrationConsultancy.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Sell and deliver the first paid discovery and data-audit sprint to a real prospect with a specific proprietary use case.",
+            "ro": "Vinde și livrează primul sprint plătit de descoperire și audit al datelor, unui prospect real, cu un caz de utilizare proprietar specific."
+          }
+        ],
+        "kpis": [
+          "closeRate"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Giving away technical scoping and data-quality assessment for free to win the first client.",
+            "ro": "Oferirea gratuită a stabilirii scopului tehnic și a evaluării calității datelor, pentru a câștiga primul client."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Price the discovery sprint low but never free, to filter for prospects with a genuinely proprietary, scoped use case.",
+            "ro": "Stabilește un preț mic, dar niciodată gratuit, pentru sprintul de descoperire, pentru a filtra prospecții cu un caz de utilizare cu adevărat proprietar și bine delimitat."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Deliver the first fixed-scope RAG or fine-tuning integration end to end using the two-week sprint cadence.",
+            "ro": "Livrează prima integrare RAG sau de ajustare fină, cu scop fix, integral, folosind cadența de sprint de două săptămâni."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Skipping the sandboxed security-review pass under deadline pressure before touching the client's live systems.",
+            "ro": "Sărirea peste revizuirea de securitate în mediul izolat, sub presiunea termenului limită, înainte de a accesa sistemele live ale clientului."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Document the sprint-demo cadence and the retrieval-accuracy evaluation results so the client always knows the pipeline's real performance, not just its progress.",
+            "ro": "Documentează cadența demonstrațiilor de sprint și rezultatele evaluării acurateței de regăsire, astfel încât clientul să cunoască mereu performanța reală a fluxului, nu doar progresul."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.llmIntegrationConsultancy.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publish the first named technical case study and activate the client-referral network.",
+            "ro": "Publică primul studiu de caz tehnic numit și activează rețeaua de recomandări ale clienților."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Publishing technical or performance details from a client build without explicit client sign-off, given the sensitivity of proprietary data involved.",
+            "ro": "Publicarea de detalii tehnice sau de performanță dintr-o construcție a unui client, fără acordul explicit al acestuia, dat fiind caracterul sensibil al datelor proprietare implicate."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Ask every delivered client for a named case study and one warm introduction to a peer technical leader.",
+            "ro": "Cere fiecărui client livrat un studiu de caz cu nume și o prezentare caldă către un coleg lider tehnic."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Deliver the first integration build fully on time and on the quoted budget, with measured retrieval accuracy meeting the agreed target.",
+            "ro": "Livrează prima construcție de integrare integral, la timp și în bugetul ofertat, cu acuratețea de regăsire măsurată, la nivelul țintei agreate."
+          }
+        ],
+        "kpis": [
+          "customerRetention"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Absorbing unpriced data-cleanup or scope changes to keep the first client happy.",
+            "ro": "Absorbirea, netaxată, a curățării datelor sau a modificărilor de scop, pentru a menține mulțumit primul client."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Offer the maintenance and model-upkeep retainer proactively at project handoff, not reactively after the first pipeline regression.",
+            "ro": "Oferă proactiv abonamentul de mentenanță și actualizare a modelului la predarea proiectului, nu reactiv, după prima regresie a fluxului."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach 3 concurrent fixed-scope integration builds with a consistent on-time, on-budget delivery rate.",
+            "ro": "Atinge 3 construcții concurente de integrare cu scop fix, cu o rată constantă de livrare la timp și în buget."
+          }
+        ],
+        "kpis": [
+          "closeRate",
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Taking on proprietary use cases outside the team's proven technical stack just to fill capacity.",
+            "ro": "Acceptarea de cazuri de utilizare proprietare în afara stivei tehnice dovedite a echipei, doar pentru a umple capacitatea."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Qualify every new prospect's data readiness and use-case specificity before booking the discovery sprint.",
+            "ro": "Califică pregătirea datelor și specificitatea cazului de utilizare ale fiecărui prospect nou, înainte de a programa sprintul de descoperire."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Hire the second senior ML/backend engineer to remove the key-person delivery bottleneck.",
+            "ro": "Angajează al doilea inginer senior ML/backend, pentru a elimina blocajul de livrare cauzat de o singură persoană-cheie."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Hiring for technical skill alone without screening for the judgment needed around sensitive client data.",
+            "ro": "Angajarea exclusiv pe criterii tehnice, fără evaluarea discernământului necesar pentru gestionarea datelor sensibile ale clienților."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Pair every new engineer with the founder on their first client's data-audit sprint before letting them run one solo.",
+            "ro": "Cuplează fiecare inginer nou cu fondatorul, la sprintul de audit al datelor primului client, înainte de a-l lăsa să conducă unul singur."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Specialize into one or two vertical niches (e.g. legal case-file RAG, insurer claims-history document intelligence) to command premium fixed-scope pricing.",
+            "ro": "Specializează-te pe una-două nișe verticale (de ex. RAG pentru dosare juridice, informații documentare pentru istoricul de daune al asigurătorilor), pentru a obține prețuri premium la construcțiile cu scop fix."
+          }
+        ],
+        "kpis": [
+          "grossMargin"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Spreading marketing across too many industries instead of building one recognizable vertical reputation.",
+            "ro": "Dispersarea marketingului pe prea multe industrii, în loc de a construi o reputație recognoscibilă într-o singură nișă verticală."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Package the vertical-specific technical case studies into a dedicated landing page and reusable (but still bespoke) internal accelerator.",
+            "ro": "Ambalează studiile de caz tehnice specifice nișei într-o pagină de destinație dedicată și într-un accelerator intern reutilizabil, dar tot personalizat."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Launch a lighter-weight, capped-scope starter integration offer to shorten the sales cycle for smaller proprietary use cases.",
+            "ro": "Lansează o ofertă de integrare de bază, mai ușoară, cu scop limitat, pentru a scurta ciclul de vânzare pentru cazuri de utilizare proprietare mai mici."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Underpricing the starter offer relative to its true data-audit and integration delivery cost.",
+            "ro": "Subevaluarea prețului ofertei de bază, în raport cu adevăratul cost de audit al datelor și de livrare a integrării."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Cap the starter offer's scope tightly and upsell anything beyond it as a full custom integration build.",
+            "ro": "Limitează strict scopul ofertei de bază și tratează orice depășire ca o construcție completă de integrare personalizată, cu vânzare suplimentară."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the client book, retainer contracts, and integration playbooks for a clean acquisition by a larger engineering studio or systems integrator.",
+            "ro": "Documentează portofoliul de clienți, contractele de abonament și ghidurile de integrare, pentru o achiziție curată de către un studio de inginerie mai mare sau un integrator de sisteme."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Keeping critical pipeline architecture and client-data-handling knowledge undocumented and dependent on one founder.",
+            "ro": "Menținerea cunoștințelor critice despre arhitectura fluxurilor și gestionarea datelor clienților, nedocumentate și dependente de un singur fondator."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Standardize architecture and security documentation across every client project well before pursuing an acquisition conversation.",
+            "ro": "Standardizează documentația de arhitectură și securitate pe fiecare proiect de client, cu mult înainte de a purta o discuție de achiziție."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

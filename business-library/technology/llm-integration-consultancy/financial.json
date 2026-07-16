@@ -1,0 +1,141 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "companyFormationAndDataProcessingAgreements",
+      "ragAndVectorDbTooling",
+      "initialContractEngineerRetainer",
+      "portfolioAndTechnicalSalesCollateral"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "cloudComputeAndVectorDbHosting",
+      "enterpriseSecurityAndComplianceTooling"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "contractEngineeringCapacity",
+      "secondSeniorEngineerContractorFees"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "discoverySprintFee",
+        "label": {
+          "en": "Fixed-fee technical discovery and proprietary-data audit sprint",
+          "ro": "Onorariu fix pentru sprintul de descoperire tehnică și auditul datelor proprietare"
+        }
+      },
+      {
+        "key": "integrationBuildFee",
+        "label": {
+          "en": "Fixed-scope RAG/LLM-integration build fee, billed per milestone",
+          "ro": "Onorariu de construcție a integrării RAG/LLM, cu scop fix, facturat pe etape"
+        }
+      },
+      {
+        "key": "maintenanceAndModelUpkeepRetainer",
+        "label": {
+          "en": "Monthly maintenance, monitoring, and model/prompt-upkeep retainer",
+          "ro": "Abonament lunar de mentenanță, monitorizare și actualizare a modelului/prompturilor"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "discoverySprintFee": "currency",
+      "integrationBuildFeeAverage": "currency",
+      "maintenanceRetainerMonthlyFee": "currency",
+      "buildsClosedPerQuarter": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "discoverySprintsSoldPerQuarter": "number",
+      "buildConversionRate": "percent",
+      "retainerConversionRate": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.llmIntegrationConsultancy.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "discoverySprintCollections",
+      "integrationBuildMilestoneCollections",
+      "maintenanceRetainerCollections"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 9,
+    "notesTranslationKey": "businessLibrary.llmIntegrationConsultancy.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 55,
+    "notesTranslationKey": "businessLibrary.llmIntegrationConsultancy.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 35,
+    "notesTranslationKey": "businessLibrary.llmIntegrationConsultancy.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "secondSeniorEngineerSalaryOrContractorFees"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "technicalCaseStudyProduction",
+      "conferenceSpeakingAndTravel"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "threeMonthOperatingReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "closeRate",
+      "grossMargin",
+      "customerRetention",
+      "mrr"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 18000,
+      "notesTranslationKey": "businessLibrary.llmIntegrationConsultancy.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 34000,
+      "notesTranslationKey": "businessLibrary.llmIntegrationConsultancy.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 60000,
+      "notesTranslationKey": "businessLibrary.llmIntegrationConsultancy.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.llmIntegrationConsultancy.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.llmIntegrationConsultancy.financial.risks.risk2",
+        "severity": "high"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.llmIntegrationConsultancy.financial.aiMetadata.generationHints"
+  }
+}

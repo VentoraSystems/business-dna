@@ -23625,6 +23625,466 @@
           "generationHints": "Menține informațiile fundamentate, în dinamica reală, a relațiilor de partener preferat, meșteșugul curatorierii personalizate, și construirea relațiilor, de recomandare, din industria nunților."
         }
       }
+    },
+    "llmIntegrationConsultancy": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: \"Designing Machine Learning Systems\" de Chip Huyen",
+          "course1": "Curs: Construirea aplicațiilor RAG pregătite pentru producție",
+          "community1": "Comunitate: MLOps Community Slack",
+          "checklist1": "Listă de verificare: Securitatea integrării datelor proprietare"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Estimează venitul pornind de la numărul de sprinturi de descoperire plătite, vândute trimestrial, înmulțit cu rata de conversie a sprintului într-o construcție semnată și onorariul mediu al construcției cu scop fix, cu baza de abonamente de mentenanță crescând treptat deasupra."
+        },
+        "breakEven": {
+          "notes": "Pragul de rentabilitate sosește de regulă în jurul lunii 9, odată ce primele 2-3 construcții de integrare cu scop fix s-au încheiat și au compensat avansul inițial reținut pentru inginerul colaborator și investiția în unelte."
+        },
+        "grossMargin": {
+          "notes": "Marja brută se menține în jur de 55% per construcție cu scop fix, odată acoperite costurile de inginerie colaboratoare, reflectând costul real al muncii de inginerie senior, nu costul aproape nul de livrare al unui angajament pur de consultanță."
+        },
+        "netMargin": {
+          "notes": "Marja netă se stabilizează în jur de 35%, după salariile/onorariile inginerilor colaboratori și costurile infrastructurii cloud/bază de date vectorială, îmbunătățindu-se pe măsură ce baza de abonamente de mentenanță crește și folosește mai eficient capacitatea de livrare existentă."
+        },
+        "scenarios": {
+          "conservative": "Un scenariu de adopție lentă, în care sprinturile de descoperire durează mai mult să se transforme în construcții semnate, iar curățarea datelor proprietare adaugă timp neplanificat fiecărui proiect.",
+          "expected": "Un scenariu realist, cu un flux constant de sprinturi de descoperire transformate în construcții cu scop fix și o bază tot mai mare de clienți care reînnoiesc abonamentele de mentenanță.",
+          "optimistic": "Un scenariu puternic, în care studiile de caz tehnice numite generează recomandări primite de la lideri tehnici, iar două sau mai multe construcții cu scop fix rulează simultan, fără probleme."
+        },
+        "risks": {
+          "risk1": "Gestionarea datelor proprietare, adesea sensibile, ale unui client, pe durata unei construcții, creează o răspundere reală dacă acele date sunt gestionate greșit sau are loc o breșă de securitate, iar un singur incident grav poate fi fatal pentru reputație.",
+          "risk2": "Subestimarea unei construcții de integrare cu preț fix, pentru că datele proprietare ale clientului se dovedesc mai dezordonate decât a sugerat discuția de vânzare, poate transforma un proiect aparent profitabil într-o pierdere."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul ca venit neregulat, bazat pe etape ale proiectelor cu scop fix, uniformizat în timp de o bază tot mai mare de abonamente de mentenanță și actualizare a modelului, cu costul real al muncii de inginerie senior determinând marja brută, nu costul aproape nul de livrare al unei consultanțe."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Sisteme LLM construite direct pe datele tale și integrate în propriul tău software — nu un chatbot lipit deasupra.",
+          "category": "Consultanță de inginerie pentru integrări LLM personalizate"
+        },
+        "brandPromise": "Fiecare sistem livrat de Substrate AI rulează pe datele proprii ale clientului, în interiorul propriei infrastructuri, și este predat cu documentația de care echipa clientului are nevoie pentru a-l deține.",
+        "uvp": {
+          "statement": "O echipă de ingineri seniori care construiește fluxuri RAG personalizate, ajustare fină (fine-tuning) și integrări LLM în sistemele existente, direct pe baza datelor proprietare și a software-ului existent al clientului, cu preț stabilit ca proiecte de inginerie cu scop fix.",
+          "diff1": "Un sprint plătit de descoperire și audit al datelor precede fiecare ofertă cu preț fix, astfel încât scopul se bazează pe o examinare reală a datelor efective ale clientului, nu pe o presupunere.",
+          "diff2": "O arhitectură agnostică față de model, cu componente interschimbabile, protejează clientul de blocarea într-un singur furnizor de model fundamental, în privința prețului sau a scoaterii din uz."
+        },
+        "icp": {
+          "description": "Directori tehnici, șefi de inginerie și lideri funcționali (directori juridici, VP de operațiuni, șefi de daune) din companii mid-market și enterprise, care dețin un volum mare, valoros și cu adevărat proprietar de date sau software intern, fără o echipă internă capabilă să construiască integrarea AI în siguranță și corect.",
+          "firmographics": "Companii mid-market până la enterprise (200-5.000 de angajați) din industrii bogate în date, reglementate sau complexe din punct de vedere operațional — juridic, asigurări, producție, sănătate, servicii financiare — cu un caz de utilizare proprietar specific și un corpus real de date/documente interne."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Elena, directoarea juridică (General Counsel) a unei firme de avocatură mid-size",
+            "description": "Își dorește un sistem RAG intern peste zeci de ani de dosare de caz, pentru ca avocații colaboratori să găsească precedentele relevante în minute, nu în ore, dar are nevoie de certitudine absolută că datele confidențiale ale clienților nu părăsesc niciodată infrastructura proprie a firmei."
+          },
+          "persona2": {
+            "name": "Marcus, VP de Inginerie la o companie de producție",
+            "description": "Își dorește un copilot LLM integrat în catalogul intern de piese și în sistemul ERP, astfel încât tehnicienii de teren să găsească instant piesa și procedura potrivită, dar nu are capacitate internă de inginerie ML pentru a-l construi și întreține."
+          }
+        },
+        "painPoints": {
+          "point1": "Un volum mare și valoros de cunoștințe sau date interne, care are clar o valoare de tip AI blocată în interior, fără o modalitate sigură sau eficientă de a o debloca intern.",
+          "point2": "Uneltele generice de chat AI și produsele SaaS standard nu pot accesa sistemele și datele proprietare ale companiei, iar echipa internă de inginerie nu are expertiza specializată în RAG/fine-tuning pentru a construi bine integrarea."
+        },
+        "outcomes": {
+          "outcome1": "Un sistem LLM funcțional, în producție, integrat direct în uneltele și fluxurile de lucru proprii ale companiei, construit pe propriile date proprietare.",
+          "outcome2": "Certitudinea că datele proprietare și sensibile au fost gestionate în siguranță pe tot parcursul construcției, cu documentație completă și un abonament opțional pentru mentenanță continuă."
+        },
+        "messaging": {
+          "core": "Datele tale proprietare și sistemele tale existente reprezintă adevărata oportunitate AI — Substrate AI construiește direct pe amândouă, nu în jurul lor.",
+          "support1": "Fiecare construcție începe cu un sprint plătit de descoperire și audit al datelor, astfel încât primești o specificație tehnică reală și o examinare reală a propriilor date, înainte de a te angaja la un preț fix."
+        },
+        "brandVoice": {
+          "tone": "Precis, credibil din punct de vedere inginerescu și încrezător fără ostentație — niciodată bazat pe hype.",
+          "attr1": "tehnic",
+          "attr2": "demn de încredere"
+        },
+        "contentPillars": {
+          "pillar1": "Studii de caz tehnice, numite, ale construcțiilor RAG și de integrare livrate",
+          "pillar2": "Articole practice de inginerie despre securitatea datelor proprietare, evaluare și arhitectură agnostică față de model"
+        },
+        "channelStrategy": "Pornește de la studii de caz tehnice numite și recomandări din partea liderilor tehnici și funcționali ai foștilor clienți, adaugă prospectare directă țintită către directori tehnici cu un caz de utilizare proprietar specific și folosește prezența la conferințe tehnice pentru a construi, în timp, credibilitate de categorie.",
+        "community": {
+          "description": "O rețea informală de lideri tehnici ai clienților actuali și foști, care schimbă notițe despre practicile de inginerie LLM aplicată în industrii reglementate, sensibile la date.",
+          "platform1": "Un grup privat pe LinkedIn pentru liderii tehnici ai clienților actuali și foști"
+        },
+        "leadMagnets": {
+          "magnet1": "Un ghid tehnic scurt: \"Cinci întrebări de pus înainte de a construi un sistem RAG peste date proprietare\""
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Studiu de caz tehnic sau recomandare",
+            "description": "Un prospect descoperă Substrate AI printr-un studiu de caz numit, o recomandare de la un lider tehnic din rețea sau prospectare directă țintită."
+          },
+          "stage2": {
+            "name": "Sprint plătit de descoperire și audit al datelor",
+            "description": "Prospectul comandă un scurt sprint de descoperire plătit, care auditează datele sale proprietare și produce o specificație tehnică reală și o ofertă cu preț fix."
+          },
+          "stage3": {
+            "name": "Construcție de integrare cu scop fix",
+            "description": "Prospectul semnează construcția cu scop fix, livrată în sprinturi de două săptămâni, facturate pe etape, cu un abonament opțional de mentenanță la predare."
+          }
+        },
+        "retention": {
+          "tactic1": "Oferă proactiv abonamentul de mentenanță și actualizare a modelului la predarea proiectului, încadrat în jurul unor riscuri reale (scoaterea din uz a modelului, deriva datelor), nu ca suport generic continuu."
+        },
+        "analytics": {
+          "metric1": "Rata de conversie a sprintului de descoperire într-o construcție semnată, urmărită pe fiecare sursă de lead"
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează textele de marketing ancorate în rezultate tehnice numite și detalii de inginerie concrete — acest public nu are încredere în limbajul generic de agenție AI și răspunde la dovezi de sisteme reale, livrate."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": [
+            "Înființează firma, redactează modelele standard de contract MSA/SOW și de acord de prelucrare a datelor, și alege stiva principală de livrare RAG/bază de date vectorială."
+          ],
+          "deliverables": [
+            "Documente semnate de înființare a firmei, modele de contract reutilizabile și o stivă tehnologică principală documentată."
+          ],
+          "checklist": [
+            "Confirmă că un model de acord de prelucrare a datelor este pregătit, înainte ca orice discuție cu un prospect să atingă date reale ale clientului."
+          ],
+          "commonMistakes": [
+            "Începerea lucrului cu datele clientului fără un acord de prelucrare a datelor semnat sau un proces documentat de acces la privilegiul minim necesar."
+          ],
+          "successCriteria": [
+            "Firma este înființată, modelele de contract sunt aprobate de un jurist, iar stiva principală de livrare este aleasă și documentată."
+          ],
+          "aiRecommendations": [
+            "Folosește unelte AI de redactare pentru a accelera o primă variantă a modelului de acord de prelucrare a datelor, apoi solicită revizuirea acesteia de către un jurist, înainte de prima utilizare."
+          ]
+        },
+        "validation": {
+          "objectives": [
+            "Vinde și livrează primul sprint plătit de descoperire și audit al datelor, unui prospect real, cu un caz de utilizare proprietar specific."
+          ],
+          "deliverables": [
+            "Un angajament semnat pentru sprintul de descoperire și un raport complet de audit al datelor pentru primul prospect."
+          ],
+          "checklist": [
+            "Confirmă că prospectul are un caz de utilizare proprietar specific și bine delimitat (nu o cerere vagă de tipul \"să facem ceva cu AI\"), înainte de a programa sprintul."
+          ],
+          "commonMistakes": [
+            "Oferirea gratuită a stabilirii scopului tehnic și a evaluării calității datelor, pentru a câștiga primul client."
+          ],
+          "successCriteria": [
+            "Primul sprint de descoperire este livrat la timp și se transformă într-o propunere semnată de construcție cu scop fix."
+          ],
+          "aiRecommendations": [
+            "Folosește unelte AI de profilare a datelor pentru a accelera auditul calității datelor, în intervalul de timp fix al sprintului de descoperire."
+          ]
+        },
+        "mvp": {
+          "objectives": [
+            "Livrează prima integrare RAG sau de ajustare fină, cu scop fix, integral, folosind cadența de sprint de două săptămâni."
+          ],
+          "deliverables": [
+            "O integrare funcțională, desfășurată în producție, pentru primul client, plus rezultate documentate ale evaluării acurateței de regăsire."
+          ],
+          "checklist": [
+            "Confirmă că revizuirea de securitate, în mediu izolat, este finalizată, înainte ca orice integrare să atingă sistemele live ale clientului."
+          ],
+          "commonMistakes": [
+            "Sărirea peste revizuirea de securitate în mediul izolat, sub presiunea termenului limită, înainte de a accesa sistemele live ale clientului."
+          ],
+          "successCriteria": [
+            "Prima integrare este livrată la timp, în buget, și atinge ținta de acuratețe de regăsire agreată."
+          ],
+          "aiRecommendations": [
+            "Folosește un harnașament automat de evaluare pentru a nota continuu acuratețea de regăsire și rata de halucinație pe tot parcursul construcției, nu doar la final."
+          ]
+        },
+        "launch": {
+          "objectives": [
+            "Publică primul studiu de caz tehnic numit și activează rețeaua de recomandări ale clienților."
+          ],
+          "deliverables": [
+            "Un studiu de caz tehnic publicat, aprobat de client, și cel puțin o prezentare caldă din recomandare."
+          ],
+          "checklist": [
+            "Confirmă acordul explicit al clientului, înainte de a publica orice detalii tehnice sau de performanță din construcția sa."
+          ],
+          "commonMistakes": [
+            "Publicarea de detalii tehnice sau de performanță dintr-o construcție a unui client, fără acordul explicit al acestuia, dat fiind caracterul sensibil al datelor proprietare implicate."
+          ],
+          "successCriteria": [
+            "Primul studiu de caz este publicat și generează cel puțin o solicitare primită, calificată."
+          ],
+          "aiRecommendations": [
+            "Folosește unelte AI de redactare pentru a scrie rapid studiul de caz, dar asigură o revizuire finală umană, pentru a te asigura că niciun detaliu proprietar nu scapă."
+          ]
+        },
+        "firstCustomer": {
+          "objectives": [
+            "Livrează prima construcție de integrare integral, la timp și în bugetul ofertat, cu acuratețea de regăsire măsurată la nivelul țintei agreate."
+          ],
+          "deliverables": [
+            "Acceptarea semnată de client a integrării livrate și o ofertă propusă de abonament de mentenanță."
+          ],
+          "checklist": [
+            "Confirmă că clientul a semnat acceptarea finală, înainte de a considera proiectul finalizat."
+          ],
+          "commonMistakes": [
+            "Absorbirea, netaxată, a curățării datelor sau a modificărilor de scop, pentru a menține mulțumit primul client."
+          ],
+          "successCriteria": [
+            "Clientul acceptă sistemul livrat și cel puțin ia în considerare oferta de abonament de mentenanță."
+          ],
+          "aiRecommendations": [
+            "Folosește datele istorice ale harnașamentului automat de evaluare pentru a construi un argument concret, bazat pe dovezi, pentru abonamentul de mentenanță, la predare."
+          ]
+        },
+        "productMarketFit": {
+          "objectives": [
+            "Atinge 3 construcții concurente de integrare cu scop fix, cu o rată constantă de livrare la timp și în buget."
+          ],
+          "deliverables": [
+            "Un istoric documentat de livrare, pe cel puțin 3 construcții finalizate cu scop fix."
+          ],
+          "checklist": [
+            "Confirmă pregătirea datelor și specificitatea cazului de utilizare ale fiecărui prospect nou, înainte de a programa sprintul de descoperire."
+          ],
+          "commonMistakes": [
+            "Acceptarea de cazuri de utilizare proprietare în afara stivei tehnice dovedite a echipei, doar pentru a umple capacitatea."
+          ],
+          "successCriteria": [
+            "Cel puțin 3 construcții cu scop fix sunt livrate la timp și în buget, cu marja brută menținută la nivelul țintă sau peste."
+          ],
+          "aiRecommendations": [
+            "Folosește datele acumulate ale harnașamentului de evaluare, pe mai multe proiecte, pentru a rafina lista standard de verificare a calității datelor din sprintul de descoperire."
+          ]
+        },
+        "growth": {
+          "objectives": [
+            "Angajează al doilea inginer senior ML/backend, pentru a elimina blocajul de livrare cauzat de o singură persoană-cheie."
+          ],
+          "deliverables": [
+            "Un al doilea inginer senior integrat, capabil să conducă independent un sprint de descoperire și o construcție pentru client."
+          ],
+          "checklist": [
+            "Confirmă că noul angajat a observat cel puțin un angajament complet cu un client, înainte de a conduce unul singur."
+          ],
+          "commonMistakes": [
+            "Angajarea exclusiv pe criterii tehnice, fără evaluarea discernământului necesar pentru gestionarea datelor sensibile ale clienților."
+          ],
+          "successCriteria": [
+            "Al doilea inginer livrează independent o construcție cu scop fix, cu un nivel de satisfacție a clientului egal cu cel al fondatorului."
+          ],
+          "aiRecommendations": [
+            "Folosește ghidurile documentate și grila standard a harnașamentului de evaluare pentru a accelera perioada de acomodare a noului inginer."
+          ]
+        },
+        "scaling": {
+          "objectives": [
+            "Specializează-te pe una-două nișe verticale (de ex. RAG pentru dosare juridice, informații documentare pentru istoricul de daune al asigurătorilor), pentru a obține prețuri premium la construcțiile cu scop fix."
+          ],
+          "deliverables": [
+            "O bibliotecă dedicată de studii de caz specifice nișei și un accelerator intern reutilizabil, dar tot personalizat, pentru acea nișă."
+          ],
+          "checklist": [
+            "Confirmă că cel puțin 3 proiecte livrate au suficiente asemănări de tipar pentru a justifica denumirea de specializare verticală."
+          ],
+          "commonMistakes": [
+            "Dispersarea marketingului pe prea multe industrii, în loc de a construi o reputație recognoscibilă într-o singură nișă verticală."
+          ],
+          "successCriteria": [
+            "Prețurile pentru construcțiile cu scop fix, în nișa specializată, cresc măsurabil peste nivelul de bază, general, al firmei."
+          ],
+          "aiRecommendations": [
+            "Folosește analiza de tipare, pe proiectele verticale anterioare, pentru a identifica ce componente pot fi reutilizate în siguranță și ce trebuie să rămână complet personalizat pentru fiecare client."
+          ]
+        },
+        "expansion": {
+          "objectives": [
+            "Lansează o ofertă de integrare de bază, mai ușoară, cu scop limitat, pentru a scurta ciclul de vânzare pentru cazuri de utilizare proprietare mai mici."
+          ],
+          "deliverables": [
+            "O ofertă de bază, cu scop limitat, bine definită, cu propriul preț fix și variantă de sprint de descoperire."
+          ],
+          "checklist": [
+            "Confirmă că limita de scop a ofertei de bază este documentată și respectată, înainte de a fi vândută primului client."
+          ],
+          "commonMistakes": [
+            "Subevaluarea prețului ofertei de bază, în raport cu adevăratul cost de audit al datelor și de livrare a integrării."
+          ],
+          "successCriteria": [
+            "Oferta de bază se încheie mai rapid decât construcția standard și transformă o parte semnificativă a cumpărătorilor în clienți pentru o construcție completă, personalizată, ulterior."
+          ],
+          "aiRecommendations": [
+            "Folosește șabloane asistate de AI pentru a standardiza componentele repetabile ale ofertei de bază, păstrând în același timp stratul de date specific clientului complet personalizat."
+          ]
+        },
+        "exit": {
+          "objectives": [
+            "Documentează portofoliul de clienți, contractele de abonament și ghidurile de integrare, pentru o achiziție curată de către un studio de inginerie mai mare sau un integrator de sisteme."
+          ],
+          "deliverables": [
+            "Un set complet și standardizat de documentație, care acoperă fiecare relație activă cu clienții, fiecare abonament și fiecare arhitectură de integrare."
+          ],
+          "checklist": [
+            "Confirmă că nicio cunoștință critică de arhitectură sau de gestionare a datelor clienților nu există doar în mintea fondatorului."
+          ],
+          "commonMistakes": [
+            "Menținerea cunoștințelor critice despre arhitectura fluxurilor și gestionarea datelor clienților, nedocumentate și dependente de un singur fondator."
+          ],
+          "successCriteria": [
+            "Documentația de due diligence este completă și poate fi înțeleasă independent de o echipă achizitoare, fără implicarea fondatorului."
+          ],
+          "aiRecommendations": [
+            "Folosește unelte AI de documentare pentru a accelera transformarea notițelor de inginerie dispersate într-un set de documentație standardizat, pregătit pentru audit."
+          ]
+        },
+        "aiMetadata": {
+          "generationHints": "Încadrează recomandările fiecărei etape ale foii de parcurs în jurul reperelor de livrare a ingineriei cu scop fix și al disciplinei de gestionare a datelor proprietare, nu în jurul unor sfaturi generice de startup."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Carte: \"Designing Machine Learning Systems\" de Chip Huyen",
+          "description": "Un ghid practic pentru construirea sistemelor ML/LLM în producție, util pentru a ancora munca de inginerie RAG și de integrare cu scop fix în fundamente solide de proiectare a sistemelor."
+        },
+        "item2": {
+          "title": "Curs: Construirea aplicațiilor RAG pregătite pentru producție",
+          "description": "Un curs practic care acoperă arhitectura RAG (retrieval-augmented generation), evaluarea și tiparele de desfășurare, direct aplicabile construcțiilor de integrare pentru clienți."
+        },
+        "item3": {
+          "title": "Comunitate: MLOps Community Slack",
+          "description": "O comunitate activă de ingineri ML și LLM aplicat, care împărtășesc lecții de producție despre desfășurare, evaluare și monitorizare."
+        },
+        "item4": {
+          "title": "Podcast: Latent Space",
+          "description": "Interviuri cu ingineri și fondatori din AI aplicat, care construiesc sisteme LLM reale, în producție, utile pentru a rămâne la curent cu practicile RAG și de ajustare fină."
+        },
+        "item5": {
+          "title": "Newsletter: The Batch de DeepLearning.AI",
+          "description": "O sinteză săptămânală a cercetării și dezvoltărilor de inginerie din AI aplicat, relevantă pentru menținerea la zi a arhitecturii de integrare."
+        },
+        "item6": {
+          "title": "LangChain / LlamaIndex",
+          "description": "Cadre de orchestrare RAG folosite pentru a construi și structura fluxuri de regăsire pe baza catalogului de cunoștințe proprietar al clientului."
+        },
+        "item7": {
+          "title": "O bază de date vectorială gestionată (de ex. Pinecone, Weaviate)",
+          "description": "Infrastructură de stocare vectorială și căutare prin similaritate, care stă la baza majorității construcțiilor de fluxuri RAG personalizate."
+        },
+        "item8": {
+          "title": "Un harnașament automat de evaluare RAG (de ex. Ragas)",
+          "description": "Unelte pentru a nota continuu acuratețea de regăsire și rata de halucinație, pe baza unui set de întrebări reținut din domeniul clientului."
+        },
+        "item9": {
+          "title": "Certificare: certificare relevantă de inginerie ML/AI de la un furnizor cloud",
+          "description": "O calificare recunoscută (de ex. AWS Certified Machine Learning, Google Cloud Professional ML Engineer), care semnalează credibilitate practică de livrare, cumpărătorilor enterprise."
+        },
+        "item10": {
+          "title": "Eveniment: conferințe de AI aplicat și leadership în inginerie",
+          "description": "Conferințe unde se reunesc directorii tehnici și șefii de inginerie, utile pentru a construi credibilitate de categorie prin sesiuni tehnice de prezentare."
+        },
+        "item11": {
+          "title": "Rețea de experți: consilieri independenți de securitate și conformitate a datelor",
+          "description": "Consilieri specializați, de consultat pentru acordurile de prelucrare a datelor și poziția de securitate, atunci când datele proprietare ale clientului sunt deosebit de sensibile (juridic, sănătate, servicii financiare)."
+        },
+        "item12": {
+          "title": "Listă de verificare: Securitatea integrării datelor proprietare",
+          "description": "O listă standard de verificare, dinaintea construcției, care acoperă acordurile de prelucrare a datelor, accesul la privilegiul minim necesar și testarea în mediu izolat, înainte de orice integrare în producție."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritizează resursele care construiesc abilități reale, practice, de inginerie RAG/fine-tuning și disciplină de securitate a datelor proprietare, în detrimentul conținutului generic de strategie AI sau de productivitate."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "O construcție de integrare finalizată dezvăluie adesea un al doilea caz de utilizare proprietar, adiacent, în interiorul aceluiași client — de exemplu, sistemul RAG pentru istoricul de daune scoate frecvent la iveală o a doua oportunitate în documentația de subscriere."
+          },
+          "item2": {
+            "title": "Clienții care solicită inițial o integrare restrânsă au adesea suficiente date proprietare și apetit de inginerie pentru a deveni o relație de platformă pe mai mulți ani, odată ce prima construcție își dovedește valoarea."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Echipa IT/de securitate a unui client poate bloca sau tergiversa discret accesul la sistemele proprietare necesare construcției, transformând un proiect delimitat de 8 săptămâni într-unul de 16 săptămâni, fără nicio schimbare a onorariului."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Ofertarea unui preț fix înainte de derularea sprintului plătit de descoperire și audit al datelor, pe baza doar a felului în care clientul și-a descris datele."
+          },
+          "item2": {
+            "title": "Tratarea abonamentului de mentenanță ca pe un gând ulterior, în loc de a-i stabili proactiv prețul și de a-l propune la predarea proiectului, lăsând pe masă venituri recurente reale."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "O integrare de bază, strict delimitată, pe un singur set de documente proprietare, bine definit (de ex. o singură arhivă de dosare de caz), este calea cea mai rapidă către primul client de referință și un studiu de caz."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Specializarea pe una-două nișe verticale permite reutilizarea listelor de verificare din sprintul de descoperire, a grilelor de evaluare și a tiparelor de arhitectură, fără a reutiliza vreodată datele reale sau codul de integrare ale unui client."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Refuză prospecții al căror \"caz de utilizare proprietar\" se dovedește a fi de fapt o problemă generică, deja rezolvată de un produs standard — acei clienți pleacă rapid și nu apreciază niciodată ingineria personalizată."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Cel mai bun predictor al unei construcții cu scop fix, fără probleme, este cât de organizate sunt deja datele proprietare ale clientului — investește timp real în auditul calității datelor din sprintul de descoperire, nu doar în arhitectura tehnică."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Datele enterprise nu sunt aproape niciodată la fel de curate pe cât sugerează o discuție de vânzare — firmele cu experiență stabilesc prețul sprintului de descoperire tocmai pentru a scoate acest lucru la iveală, înainte de ofertarea oricărui preț fix, nu pentru a-l ocoli."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Timpul de revizuire de securitate și conformitate, pentru gestionarea datelor proprietare ale unui client (mai ales în domeniul juridic, sănătate sau servicii financiare), este ușor de subestimat și erodează direct marja brută, dacă nu este inclus în prețul construcției."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Un număr tot mai mare de companii care cer explicit integrări AI care funcționează \"pe propriile noastre date\", nu un chatbot generic, semnalează o sofisticare crescândă în rândul cumpărătorilor care au încercat deja și au respins unelte AI standard."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Sistemul RAG intern pentru dosare de caz al unei firme de avocatură mid-size a redus timpul de cercetare al avocaților colaboratori pentru căutarea precedentelor cu peste jumătate, în prima lună de utilizare în producție, devenind cea mai citată unealtă internă a firmei."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "O firmă care a ofertat un preț fix fără un sprint de descoperire a descoperit, la mijlocul construcției, că documentele proprietare ale clientului erau imagini scanate, fără strat de text utilizabil, ceea ce a necesitat un flux OCR neplanificat, care a șters marja proiectului."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Cu ce este diferit acest lucru față de a folosi pur și simplu ChatGPT sau un chatbot AI generic pe documentele noastre?",
+            "answer": "O unealtă generică de chat AI nu are acces la sistemele și datele proprietare ale companiei tale și nu poate fi integrată în software-ul tău existent. Substrate AI construiește un flux personalizat, care rulează direct pe propriul tău catalog de cunoștințe, în interiorul propriei tale infrastructuri, integrat în uneltele pe care echipa ta le folosește deja."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Mit: Construirea unei integrări LLM personalizate necesită întotdeauna ajustarea fină (fine-tuning) a unui model de la zero.",
+            "fact": "Fapt: Majoritatea integrărilor pe date proprietare sunt mai bine deservite de un flux RAG bine construit peste documentele existente ale clientului, decât de ajustarea fină, care este mai lentă, mai costisitoare și mai greu de menținut actualizată, pe măsură ce datele de bază se schimbă."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Derulează întotdeauna sprintul plătit de descoperire și audit al datelor, înainte de a oferta un preț fix, și construiește întotdeauna pe o arhitectură agnostică față de model, cu componente interschimbabile, astfel încât niciun furnizor de model fundamental să nu poată bloca integrarea unui client."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Ancorează fiecare perspectivă în realitățile operaționale ale livrării de inginerie cu scop fix, pe date proprietare adesea dezordonate — acest conținut trebuie să se citească drept experiență reală, câștigată, nu comentariu generic despre industria AI."
+        }
+      }
     }
   }
 }

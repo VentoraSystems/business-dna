@@ -23625,6 +23625,466 @@
           "generationHints": "Keep insights grounded in real preferred-partner relationship dynamics, bespoke curation craft, and wedding-industry referral relationship building."
         }
       }
+    },
+    "llmIntegrationConsultancy": {
+      "businessDna": {
+        "resources": {
+          "book1": "Book: \"Designing Machine Learning Systems\" by Chip Huyen",
+          "course1": "Course: Building Production-Ready RAG Applications",
+          "community1": "Community: MLOps Community Slack",
+          "checklist1": "Checklist: Proprietary-Data Integration Security Checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast revenue from the number of paid discovery sprints sold per quarter, multiplied by the sprint-to-signed-build conversion rate and the average fixed-scope build fee, with the maintenance-retainer base building gradually on top."
+        },
+        "breakEven": {
+          "notes": "Break-even typically arrives around month 9, once the first 2-3 fixed-scope integration builds have closed and offset the initial contract-engineer retainer and tooling investment."
+        },
+        "grossMargin": {
+          "notes": "Gross margin holds around 55% per fixed-scope build once contract-engineering costs are covered, reflecting real senior-engineering labor cost rather than the near-zero delivery cost of a pure advisory engagement."
+        },
+        "netMargin": {
+          "notes": "Net margin settles around 35% after engineering salaries/contractor fees and cloud/vector-database infrastructure costs, improving as the maintenance-retainer base grows and utilizes existing delivery capacity more efficiently."
+        },
+        "scenarios": {
+          "conservative": "A slow-adoption scenario where discovery sprints take longer to convert into signed builds and proprietary-data cleanup adds unplanned time to each project.",
+          "expected": "A realistic scenario with a steady flow of discovery sprints converting into fixed-scope builds and a growing base of clients renewing into maintenance retainers.",
+          "optimistic": "A strong scenario where named technical case studies drive inbound referrals from technical leaders and two or more concurrent fixed-scope builds run smoothly at once."
+        },
+        "risks": {
+          "risk1": "Handling a client's proprietary, often sensitive data during a build creates real liability if that data is mishandled or a breach occurs, and a single serious incident could be reputationally fatal.",
+          "risk2": "Underestimating a fixed-price integration build because the client's proprietary data turns out messier than the sales conversation suggested can turn a profitable-looking project into a loss."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as lumpy, milestone-based fixed-scope project income smoothed over time by a growing maintenance-and-model-upkeep-retainer base, with real senior-engineering labor cost driving gross margin rather than near-zero advisory delivery cost."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "LLM systems built directly on your own data and inside your own software — not a chatbot bolted on top.",
+          "category": "Bespoke LLM-integration engineering consultancy"
+        },
+        "brandPromise": "Every system Substrate AI ships runs on your own data, inside your own infrastructure, and is handed off with the documentation your team needs to own it.",
+        "uvp": {
+          "statement": "A senior engineering team that builds custom RAG pipelines, fine-tuning, and in-system LLM integrations directly against a client's own proprietary data and existing software, priced as fixed-scope engineering projects.",
+          "diff1": "A paid discovery and data-audit sprint precedes every fixed-price quote, so the scope is built on a real look at the client's actual data, not a guess.",
+          "diff2": "A model-agnostic, swappable architecture protects the client from being locked into any single foundation-model vendor's pricing or deprecation timeline."
+        },
+        "icp": {
+          "description": "CTOs, Heads of Engineering, and functional leaders (General Counsel, VP Operations, Head of Claims) at mid-market and enterprise companies sitting on a large, valuable, genuinely proprietary body of internal data or software with no internal team able to build the AI integration safely and well.",
+          "firmographics": "Mid-market to enterprise companies (200-5,000 employees) in data-rich, regulated, or operationally complex industries — law, insurance, manufacturing, healthcare, financial services — with a specific proprietary use case and a real internal data/document corpus."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Elena, the General Counsel at a mid-sized law firm",
+            "description": "Wants an internal RAG system over decades of case files so associates can find relevant precedent in minutes instead of hours, but needs absolute confidence that client-privileged data never leaves the firm's own infrastructure."
+          },
+          "persona2": {
+            "name": "Marcus, the VP of Engineering at a manufacturing company",
+            "description": "Wants an LLM copilot embedded in the internal parts-catalog and ERP system so field technicians can find the right part and procedure instantly, but has no in-house ML engineering capacity to build and maintain it."
+          }
+        },
+        "painPoints": {
+          "point1": "A large, valuable body of internal knowledge or data that clearly has AI-shaped value locked inside it, with no safe or effective way to unlock it in-house.",
+          "point2": "Generic AI chat tools and off-the-shelf SaaS products can't reach the company's proprietary systems and data, and the internal engineering team lacks the specialized RAG/fine-tuning expertise to build the integration well."
+        },
+        "outcomes": {
+          "outcome1": "A working, production LLM system embedded directly in the company's own tools and workflows, built on its own proprietary data.",
+          "outcome2": "Confidence that proprietary and sensitive data was handled securely throughout the build, with full documentation and an optional retainer for ongoing upkeep."
+        },
+        "messaging": {
+          "core": "Your proprietary data and your existing systems are the real AI opportunity — Substrate AI builds directly on both, not around them.",
+          "support1": "Every build starts with a paid discovery and data-audit sprint, so you get a real technical spec and a real look at your own data before committing to a fixed price."
+        },
+        "brandVoice": {
+          "tone": "Precise, engineering-credible, and quietly confident — never hype-driven.",
+          "attr1": "technical",
+          "attr2": "trustworthy"
+        },
+        "contentPillars": {
+          "pillar1": "Named technical case studies of delivered RAG and integration builds",
+          "pillar2": "Practical engineering writeups on proprietary-data security, evaluation, and model-agnostic architecture"
+        },
+        "channelStrategy": "Lead with named technical case studies and referrals from past clients' technical and functional leaders, layer in targeted outbound to CTOs with a specific proprietary use case, and use technical-conference presence to build category credibility over time.",
+        "community": {
+          "description": "An informal network of past and current clients' technical leaders who exchange notes on applied-LLM engineering practices in regulated, data-sensitive industries.",
+          "platform1": "A private LinkedIn group for past and current client technical leads"
+        },
+        "leadMagnets": {
+          "magnet1": "A short technical guide: \"Five Questions to Ask Before You Build a RAG System Over Proprietary Data\""
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Technical case study or referral",
+            "description": "A prospect discovers Substrate AI through a named case study, a referral from a peer technical leader, or targeted outbound."
+          },
+          "stage2": {
+            "name": "Paid discovery and data-audit sprint",
+            "description": "The prospect commissions a short, paid discovery sprint that audits their proprietary data and produces a real technical spec and fixed-price quote."
+          },
+          "stage3": {
+            "name": "Fixed-scope integration build",
+            "description": "The prospect signs the fixed-scope build, delivered in milestone-billed two-week sprints, with an optional maintenance retainer at handoff."
+          }
+        },
+        "retention": {
+          "tactic1": "Offer the maintenance and model-upkeep retainer proactively at project handoff, framed around real risks (model deprecation, data drift) rather than generic ongoing support."
+        },
+        "analytics": {
+          "metric1": "Discovery-sprint-to-signed-build conversion rate, tracked per lead source"
+        },
+        "aiMetadata": {
+          "generationHints": "Keep marketing copy grounded in named technical outcomes and engineering specifics — this audience distrusts generic AI-agency language and responds to evidence of real, shipped systems."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": [
+            "Form the company, draft standard MSA/SOW and data-processing agreement templates, and select the core RAG/vector-database delivery stack."
+          ],
+          "deliverables": [
+            "Signed company formation documents, reusable contract templates, and a documented core technology stack."
+          ],
+          "checklist": [
+            "Confirm a data-processing agreement template is ready before any prospect conversation touches real client data."
+          ],
+          "commonMistakes": [
+            "Starting client data-handling work without a signed data-processing agreement or a documented least-privilege access process."
+          ],
+          "successCriteria": [
+            "Company is formed, contract templates are signed off by counsel, and the core delivery stack is selected and documented."
+          ],
+          "aiRecommendations": [
+            "Use AI drafting tools to accelerate a first-pass data-processing agreement template, then have counsel review it before first use."
+          ]
+        },
+        "validation": {
+          "objectives": [
+            "Sell and deliver the first paid discovery and data-audit sprint to a real prospect with a specific proprietary use case."
+          ],
+          "deliverables": [
+            "A signed discovery-sprint engagement and a completed data-audit report for the first prospect."
+          ],
+          "checklist": [
+            "Confirm the prospect has a specific, scoped proprietary use case (not a vague 'do something with AI' request) before booking the sprint."
+          ],
+          "commonMistakes": [
+            "Giving away technical scoping and data-quality assessment for free to win the first client."
+          ],
+          "successCriteria": [
+            "The first discovery sprint is delivered on time and converts into a signed fixed-scope build proposal."
+          ],
+          "aiRecommendations": [
+            "Use AI-assisted data profiling tools to accelerate the data-quality audit within the discovery sprint's fixed timeframe."
+          ]
+        },
+        "mvp": {
+          "objectives": [
+            "Deliver the first fixed-scope RAG or fine-tuning integration end to end using the two-week sprint cadence."
+          ],
+          "deliverables": [
+            "A working, production-deployed integration for the first client, plus documented retrieval-accuracy evaluation results."
+          ],
+          "checklist": [
+            "Confirm a sandboxed security review pass is complete before any integration touches the client's live systems."
+          ],
+          "commonMistakes": [
+            "Skipping the sandboxed security-review pass under deadline pressure before touching the client's live systems."
+          ],
+          "successCriteria": [
+            "The first integration ships on time, on budget, and meets the agreed retrieval-accuracy target."
+          ],
+          "aiRecommendations": [
+            "Use an automated evaluation harness to continuously score retrieval accuracy and hallucination rate throughout the build, not just at the end."
+          ]
+        },
+        "launch": {
+          "objectives": [
+            "Publish the first named technical case study and activate the client-referral network."
+          ],
+          "deliverables": [
+            "A published, client-approved technical case study and at least one warm referral introduction."
+          ],
+          "checklist": [
+            "Confirm explicit client sign-off before publishing any technical or performance details from their build."
+          ],
+          "commonMistakes": [
+            "Publishing technical or performance details from a client build without explicit client sign-off, given the sensitivity of proprietary data involved."
+          ],
+          "successCriteria": [
+            "The first case study is published and generates at least one qualified inbound inquiry."
+          ],
+          "aiRecommendations": [
+            "Use AI writing tools to draft the case study quickly, but have a human do the final pass to ensure no proprietary details slip through."
+          ]
+        },
+        "firstCustomer": {
+          "objectives": [
+            "Deliver the first integration build fully on time and on the quoted budget, with measured retrieval accuracy meeting the agreed target."
+          ],
+          "deliverables": [
+            "A signed client acceptance of the delivered integration and a proposed maintenance-retainer offer."
+          ],
+          "checklist": [
+            "Confirm the client has signed off on final acceptance before considering the project complete."
+          ],
+          "commonMistakes": [
+            "Absorbing unpriced data-cleanup or scope changes to keep the first client happy."
+          ],
+          "successCriteria": [
+            "The client accepts the delivered system and at least considers the maintenance retainer offer."
+          ],
+          "aiRecommendations": [
+            "Use the automated evaluation harness's historical data to make a concrete, evidence-based case for the maintenance retainer at handoff."
+          ]
+        },
+        "productMarketFit": {
+          "objectives": [
+            "Reach 3 concurrent fixed-scope integration builds with a consistent on-time, on-budget delivery rate."
+          ],
+          "deliverables": [
+            "A documented delivery track record across at least 3 completed fixed-scope builds."
+          ],
+          "checklist": [
+            "Confirm each new prospect's data readiness and use-case specificity before booking their discovery sprint."
+          ],
+          "commonMistakes": [
+            "Taking on proprietary use cases outside the team's proven technical stack just to fill capacity."
+          ],
+          "successCriteria": [
+            "At least 3 fixed-scope builds are delivered on time and on budget, with gross margin holding at or above target."
+          ],
+          "aiRecommendations": [
+            "Use accumulated evaluation-harness data across projects to refine the standard discovery-sprint data-quality checklist."
+          ]
+        },
+        "growth": {
+          "objectives": [
+            "Hire the second senior ML/backend engineer to remove the key-person delivery bottleneck."
+          ],
+          "deliverables": [
+            "An onboarded second senior engineer capable of running a client discovery sprint and build independently."
+          ],
+          "checklist": [
+            "Confirm the new hire has shadowed at least one full client engagement before running one solo."
+          ],
+          "commonMistakes": [
+            "Hiring for technical skill alone without screening for the judgment needed around sensitive client data."
+          ],
+          "successCriteria": [
+            "The second engineer independently delivers a fixed-scope build with client satisfaction matching the founder's own track record."
+          ],
+          "aiRecommendations": [
+            "Use documented playbooks and the evaluation harness's standard rubric to accelerate the new engineer's ramp-up time."
+          ]
+        },
+        "scaling": {
+          "objectives": [
+            "Specialize into one or two vertical niches (e.g. legal case-file RAG, insurer claims-history document intelligence) to command premium fixed-scope pricing."
+          ],
+          "deliverables": [
+            "A dedicated vertical-specific case-study library and a reusable (but still bespoke) internal accelerator for that vertical."
+          ],
+          "checklist": [
+            "Confirm at least 3 delivered projects share enough pattern similarity to justify calling it a vertical specialization."
+          ],
+          "commonMistakes": [
+            "Spreading marketing across too many industries instead of building one recognizable vertical reputation."
+          ],
+          "successCriteria": [
+            "Fixed-scope pricing in the specialized vertical rises measurably above the firm's general-purpose baseline."
+          ],
+          "aiRecommendations": [
+            "Use pattern analysis across past vertical projects to identify which components are safely reusable versus which must stay fully bespoke per client."
+          ]
+        },
+        "expansion": {
+          "objectives": [
+            "Launch a lighter-weight, capped-scope starter integration offer to shorten the sales cycle for smaller proprietary use cases."
+          ],
+          "deliverables": [
+            "A defined, capped-scope starter offer with its own fixed price and discovery-sprint variant."
+          ],
+          "checklist": [
+            "Confirm the starter offer's scope cap is documented and enforced before it's sold to a first client."
+          ],
+          "commonMistakes": [
+            "Underpricing the starter offer relative to its true data-audit and integration delivery cost."
+          ],
+          "successCriteria": [
+            "The starter offer closes faster than the standard build and converts a meaningful share of buyers into a full custom build later."
+          ],
+          "aiRecommendations": [
+            "Use AI-assisted templating to standardize the starter offer's repeatable components while keeping the client-specific data layer fully custom."
+          ]
+        },
+        "exit": {
+          "objectives": [
+            "Document the client book, retainer contracts, and integration playbooks for a clean acquisition by a larger engineering studio or systems integrator."
+          ],
+          "deliverables": [
+            "A complete, standardized documentation set covering every active client relationship, retainer, and integration architecture."
+          ],
+          "checklist": [
+            "Confirm no critical architecture or client-data-handling knowledge exists only in the founder's head."
+          ],
+          "commonMistakes": [
+            "Keeping critical pipeline architecture and client-data-handling knowledge undocumented and dependent on one founder."
+          ],
+          "successCriteria": [
+            "Due diligence documentation is complete and independently understandable by an acquiring team without founder involvement."
+          ],
+          "aiRecommendations": [
+            "Use AI-assisted documentation tools to accelerate turning scattered engineering notes into a standardized, audit-ready documentation set."
+          ]
+        },
+        "aiMetadata": {
+          "generationHints": "Frame each stage's roadmap guidance around fixed-scope engineering delivery milestones and proprietary-data handling discipline, not around generic startup advice."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Book: \"Designing Machine Learning Systems\" by Chip Huyen",
+          "description": "A practical guide to building production ML/LLM systems, useful for grounding fixed-scope RAG and integration engineering work in solid system-design fundamentals."
+        },
+        "item2": {
+          "title": "Course: Building Production-Ready RAG Applications",
+          "description": "A hands-on course covering retrieval-augmented generation architecture, evaluation, and deployment patterns directly applicable to client integration builds."
+        },
+        "item3": {
+          "title": "Community: MLOps Community Slack",
+          "description": "An active community of applied-ML and LLM engineers sharing production lessons on deployment, evaluation, and monitoring."
+        },
+        "item4": {
+          "title": "Podcast: Latent Space",
+          "description": "Interviews with applied-AI engineers and founders building real production LLM systems, useful for staying current on RAG and fine-tuning practice."
+        },
+        "item5": {
+          "title": "Newsletter: The Batch by DeepLearning.AI",
+          "description": "A weekly roundup of applied-AI research and engineering developments relevant to keeping integration architecture current."
+        },
+        "item6": {
+          "title": "LangChain / LlamaIndex",
+          "description": "RAG orchestration frameworks used to build and structure retrieval pipelines against a client's proprietary knowledge base."
+        },
+        "item7": {
+          "title": "A managed vector database (e.g. Pinecone, Weaviate)",
+          "description": "Vector storage and similarity search infrastructure underlying most custom RAG pipeline builds."
+        },
+        "item8": {
+          "title": "An automated RAG evaluation harness (e.g. Ragas)",
+          "description": "Tooling to continuously score retrieval accuracy and hallucination rate against a held-out client-domain question set."
+        },
+        "item9": {
+          "title": "Certification: relevant cloud-provider ML/AI engineering certification",
+          "description": "A recognized credential (e.g. AWS Certified Machine Learning, Google Cloud Professional ML Engineer) that signals hands-on delivery credibility to enterprise buyers."
+        },
+        "item10": {
+          "title": "Event: applied-AI and engineering-leadership conferences",
+          "description": "Conferences where CTOs and Heads of Engineering gather, useful for building category credibility through technical speaking slots."
+        },
+        "item11": {
+          "title": "Expert network: independent data-security and compliance advisors",
+          "description": "Specialist advisors to consult on data-processing agreements and security posture when a client's proprietary data is especially sensitive (legal, healthcare, financial services)."
+        },
+        "item12": {
+          "title": "Checklist: Proprietary-Data Integration Security Checklist",
+          "description": "A standard pre-build checklist covering data-processing agreements, least-privilege access, and sandboxed testing before any production integration."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritize resources that build real hands-on RAG/fine-tuning engineering skill and proprietary-data security discipline over generic AI-strategy or productivity content."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "A completed integration build often reveals a second, adjacent proprietary use case inside the same client — the claims-history RAG system frequently surfaces a second opportunity in underwriting documentation, for example."
+          },
+          "item2": {
+            "title": "Clients who initially ask for a narrow integration often have enough proprietary data and engineering appetite to become a multi-year platform relationship once the first build proves out."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "A client's IT/security team can quietly block or slow-walk access to the proprietary systems needed for the build, turning a scoped 8-week project into a 16-week one with no change in fee."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Quoting a fixed price before running the paid discovery and data-audit sprint, based only on what the client described their data to look like."
+          },
+          "item2": {
+            "title": "Treating the maintenance retainer as an afterthought instead of proactively pricing and pitching it at project handoff, leaving real recurring revenue on the table."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "A tightly scoped starter integration against one well-defined proprietary document set (e.g. a single case-file archive) is the fastest path to a first reference client and a case study."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Specializing into one or two verticals lets you reuse discovery-sprint checklists, evaluation rubrics, and architecture patterns without ever reusing a client's actual data or integration code."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Say no to prospects whose 'proprietary use case' turns out to be a generic problem an off-the-shelf product already solves — those clients churn fast and never value the bespoke engineering."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "The single biggest predictor of a smooth fixed-scope build is how organized the client's proprietary data already is — invest real time in the discovery sprint's data-quality audit, not just the technical architecture."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Enterprise data is almost never as clean as a sales conversation suggests — experienced firms price the discovery sprint specifically to surface this before any fixed price is quoted, not to skip past it."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Security and compliance review time for handling a client's proprietary data (especially in legal, healthcare, or financial services) is easy to underestimate and directly erodes gross margin if not priced into the build."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "A rising number of companies explicitly asking for AI integrations that work 'on our own data' rather than a generic chatbot signals growing sophistication among buyers who've already tried and rejected off-the-shelf AI tools."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A mid-sized law firm's internal case-file RAG system cut associate research time on precedent lookup by more than half within the first month of production use, becoming the firm's most-cited internal tool."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "A firm that quoted a fixed price without a discovery sprint discovered mid-build that the client's proprietary documents were scanned images with no usable text layer, requiring an unplanned OCR pipeline that erased the project's margin."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "How is this different from just using ChatGPT or a generic AI chatbot on our documents?",
+            "answer": "A generic AI chat tool has no access to your proprietary systems and data, and can't be embedded into your existing software. Substrate AI builds a custom pipeline that runs directly on your own knowledge base, inside your own infrastructure, integrated into the tools your team already uses."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Myth: Building a custom LLM integration always requires fine-tuning a model from scratch.",
+            "fact": "Fact: Most proprietary-data integrations are better served by a well-built RAG pipeline over the client's existing documents than by fine-tuning, which is slower, more expensive, and harder to keep current as the underlying data changes."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Always run the paid discovery and data-audit sprint before quoting a fixed price, and always build on a model-agnostic, swappable architecture so no single foundation-model vendor can strand a client's integration."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Ground every insight in the operational realities of fixed-scope engineering delivery against messy proprietary data — this content should read as earned, specific experience, not generic AI-industry commentary."
+        }
+      }
     }
   }
 }
