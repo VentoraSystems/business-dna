@@ -1,0 +1,118 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.selfPacedLanguagePlatform.marketing.uvp.diff1",
+      "businessLibrary.selfPacedLanguagePlatform.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2c",
+    "descriptionTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.selfPacedLanguagePlatform.marketing.painPoints.point1",
+      "businessLibrary.selfPacedLanguagePlatform.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.selfPacedLanguagePlatform.marketing.outcomes.outcome1",
+      "businessLibrary.selfPacedLanguagePlatform.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.selfPacedLanguagePlatform.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.selfPacedLanguagePlatform.marketing.brandVoice.attr1",
+      "businessLibrary.selfPacedLanguagePlatform.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.selfPacedLanguagePlatform.marketing.contentPillars.pillar1",
+      "businessLibrary.selfPacedLanguagePlatform.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "appStoreAndSearchDiscovery",
+      "shortFormSocialContentMarketing",
+      "referralAndStreakSharingLoops"
+    ],
+    "strategyTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.selfPacedLanguagePlatform.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.selfPacedLanguagePlatform.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.selfPacedLanguagePlatform.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.selfPacedLanguagePlatform.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "mrr",
+      "churn"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.selfPacedLanguagePlatform.marketing.aiMetadata.generationHints"
+  }
+}

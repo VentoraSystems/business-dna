@@ -25465,6 +25465,466 @@
           "generationHints": "Menține insight-urile, fundamentate pe disciplina, de trasabilitate a lanțului de aprovizionare, retenția prin abonament, și creșterea orientată spre stoc."
         }
       }
+    },
+    "selfPacedLanguagePlatform": {
+      "businessDna": {
+        "resources": {
+          "book1": "Carte: „Fluent Forever”, de Gabriel Wyner",
+          "course1": "Curs: Design instrucțional, pentru micro-învățare",
+          "community1": "Comunitate: Forumul fondatorilor de aplicații, de învățare a limbilor",
+          "checklist1": "Listă de verificare: Pregătirea de lansare, a tutorelui AI, de conversație"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune o creștere treptată, a conversiei, de la gratuit la plătit, pe măsură ce catalogul de limbi emblematice, și calitatea tutorelui AI, se maturizează, cu o pondere crescândă, de abonați, care aleg, în timp, planul anual, redus."
+        },
+        "breakEven": {
+          "notes": "Pragul de rentabilitate depinde, de atingerea unei rate stabile, de conversie, de la gratuit la plătit, și de menținerea pierderii lunare de abonați, suficient de scăzută, încât venitul lunar recurent, din abonamente, să depășească costurile, de producție de conținut, și infrastructură AI."
+        },
+        "grossMargin": {
+          "notes": "Marja brută este determinată, în principal, de costul de utilizare, al modelului AI, de conversație, per abonat, și costurile de găzduire/streaming video, ambele rămânând modeste, față de prețul abonamentului, odată construită biblioteca de conținut."
+        },
+        "netMargin": {
+          "notes": "Marja netă reflectă salariile continue, de producție de conținut, și suport, plus cheltuielile de marketing, față de o bază de venituri, recurente, din abonamente, care crește treptat, nu în salturi, de dimensiunea unui cohort."
+        },
+        "scenarios": {
+          "conservative": "Conservator: o conversie mai lentă, de la gratuit la plătit, și un catalog mai mic, de limbi emblematice, mențin venitul lunar recurent, modest, în primul an.",
+          "expected": "Așteptat: o conversie constantă, de la gratuit la plătit, și o retenție sănătoasă, de streak zilnic, cresc venitul lunar recurent, în ritm cu maturitatea catalogului, de limbi emblematice.",
+          "optimistic": "Optimist: bucle organice, puternice, de recomandare, și pierderea redusă, de abonați, compun creșterea venitului lunar recurent, mai rapid, decât ar susține, doar cheltuielile de achiziție plătită."
+        },
+        "risks": {
+          "risk1": "Chatbot-urile generale, AI, și asistenții vocali, care oferă exersare informală, gratuită, de conversație, ar putea suprima conversia, la nivelul plătit, dacă curricula structurată, a produsului, și mecanismele de obișnuință, nu sunt clar diferențiate.",
+          "risk2": "Costul de utilizare, al tutorelui AI, de conversație, la nivelul nelimitat, ar putea comprima marja brută, dacă abonații, cu utilizare intensă, nu sunt luați în calcul, în prețuri."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează întreaga narațiune financiară, în jurul venitului lunar recurent, din abonamente, care se compune treptat, și conversiei, de la gratuit la plătit, niciodată în jurul veniturilor, pe cohorte, sau colectării, taxei de școlarizare, plătite integral."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Învață o limbă, în ritmul tău, în fiecare zi — fără cohorte, fără date fixe de start, doar lecții video scurte, exerciții de repetiție spațiată, și exersare de conversație, prin AI, oricând ai la dispoziție cinci minute.",
+          "category": "Platformă SaaS, de învățare a limbilor, cu ritm propriu"
+        },
+        "brandPromise": "Oricând ai la dispoziție cinci minute, Lingoloop te întâmpină acolo — fără nicio clasă de prins, fără niciun tutore de rezervat.",
+        "uvp": {
+          "statement": "Singura aplicație de limbi, care combină un sistem real, de învățare, prin repetiție spațiată, cu un tutore AI, cu care poți chiar vorbi, după propriul tău program.",
+          "diff1": "Spre deosebire de o clasă live, sau un cohort, nu există niciun program fix, și nicio limită, de capacitate a instructorilor — începe oricând, în ritmul tău.",
+          "diff2": "Spre deosebire de un chatbot AI, generic, fiecare conversație, este ancorată, într-o curriculă structurată, și o revizuire, prin repetiție spațiată, nu într-o discuție liberă, fără structură."
+        },
+        "icp": {
+          "description": "Cursanți adulți, auto-direcționați, cu programe zilnice, imprevizibile, care își doresc progres real, în limbă, fără a se angaja, la o oră de clasă, sau disponibilitatea unui tutore uman.",
+          "firmographics": "Consumatori individuali, de obicei, cu vârste între 20-45 de ani, care învață, pentru călătorii, relocare, mobilitate în carieră, sau dezvoltare personală — nu cumpărători enterprise, sau instituționali."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Profesionistul, care se relochează",
+            "description": "Se pregătește, să se mute în străinătate, pentru muncă, în următoarele 6-12 luni, și are nevoie, de fluență conversațională, rapid, încadrată, într-un program de lucru, deja plin."
+          },
+          "persona2": {
+            "name": "Cel care își redescoperă rădăcinile",
+            "description": "Își dorește, să se reconecteze, cu o limbă de familie, sau moștenire, într-un ritm relaxat, auto-direcționat, fără presiunea, unui cadru de clasă."
+          }
+        },
+        "painPoints": {
+          "point1": "Programele de clasă, și disponibilitatea tutorilor, nu se aliniază niciodată, cu un program de muncă, sau viață, imprevizibil.",
+          "point2": "Chatbot-urile AI, generice, oferă exersare de conversație, fără structură, urmărire, sau un sentiment real, de progres."
+        },
+        "outcomes": {
+          "outcome1": "Construiește o încredere reală, conversațională, într-o limbă nouă, fără a fi nevoit vreodată, să rezervi o clasă, sau o sesiune, cu un tutore.",
+          "outcome2": "Vezi un progres tangibil, printr-un streak vizibil, și o evidență, a retenției vocabularului, care se construiește, zi de zi."
+        },
+        "messaging": {
+          "core": "Fără cohorte. Fără date fixe de start. Doar tu, cinci minute pe zi, și un tutore AI, pregătit, oricând ești și tu.",
+          "support1": "Fiecare micro-lecție, exercițiu, și conversație AI, se încadrează, în oricare cinci minute, ai la dispoziție, astăzi."
+        },
+        "brandVoice": {
+          "tone": "Cald, motivațional, și concentrat pe obișnuință",
+          "attr1": "Încurajator",
+          "attr2": "Accesibil"
+        },
+        "contentPillars": {
+          "pillar1": "Povești reale, de streak, și formare a obiceiurilor, de la abonați",
+          "pillar2": "Priviri, din culise, asupra exersării de conversație, cu tutorele AI"
+        },
+        "channelStrategy": "Descoperirea, prin magazine de aplicații, și căutare, generează, majoritatea înscrierilor, de nivel gratuit, conținutul social, scurt, construiește conștientizare, în vârful funnel-ului, iar buclele de recomandare, în aplicație, sunt testate, ca un supliment, experimental, cu cost redus.",
+        "community": {
+          "description": "O comunitate de abonați, centrată pe streak-uri comune, borne de învățare a limbilor, și încurajare reciprocă, nu cohorte de clasă, live.",
+          "platform1": "Flux de comunitate, și clasament, în aplicație"
+        },
+        "leadMagnets": {
+          "magnet1": "O provocare gratuită, de streak, de start, de 7 zile, cu micro-lecții zilnice, și o sesiune, de conversație AI"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Înscriere, la nivelul gratuit",
+            "description": "Un vizitator, se înscrie, la nivelul gratuit, și finalizează o plasare, de integrare, a nivelului de limbă."
+          },
+          "stage2": {
+            "name": "Implicare, la nivelul gratuit, și declanșarea limitei",
+            "description": "Abonatul, își construiește un streak zilnic, și atinge o limită, a nivelului gratuit — o singură limbă, sau minute plafonate, de conversație AI."
+          },
+          "stage3": {
+            "name": "Upgrade, la nivelul plătit",
+            "description": "Abonatul, face upgrade, la Plus, sau Unlimited, printr-o solicitare, în aplicație, afișată, în momentul, atingerii limitei, nivelului gratuit."
+          }
+        },
+        "retention": {
+          "tactic1": "Memento-urile zilnice, de streak, și notificările, de revizuire, prin repetiție spațiată, mențin abonații, revenind, fără niciun termen limită, de cohort live."
+        },
+        "analytics": {
+          "metric1": "Rata de streak, activ zilnic, segmentată, pe limbă, și nivel de abonament"
+        },
+        "aiMetadata": {
+          "generationHints": "Menține textul de marketing, generat, fundamentat, pe detalii reale, de streak, și exersare de conversație, prin AI, niciodată cu fraze generice, de tipul „învață o limbă”."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Construiește biblioteca inițială, de micro-lecții, și fluxul tutorelui AI, de conversație, pentru 2-3 limbi emblematice."
+          },
+          "deliverables": {
+            "0": "O bibliotecă de micro-lecții, șlefuită, și un prototip funcțional, al tutorelui AI, de conversație, pentru limbile emblematice."
+          },
+          "checklist": {
+            "0": "Confirmă, că motorul de repetiție spațiată, mecanismele de streak, și fluxul tutorelui AI, funcționează, de la un capăt la altul, înainte de a invita utilizatori de testare."
+          },
+          "commonMistakes": {
+            "0": "Încercarea de a lansa, cu un catalog amplu, multi-lingv, din prima zi, în loc să perfecționezi mai întâi, calitatea conținutului, și fiabilitatea tutorelui AI, pe un set concentrat, de limbi."
+          },
+          "successCriteria": {
+            "0": "Biblioteca de micro-lecții, a limbilor emblematice, și fluxul tutorelui AI, funcționează, ambele, fiabil, de la un capăt la altul, pentru un tester intern."
+          },
+          "aiRecommendations": {
+            "0": "Folosește instrumente de conținut, asistate de AI, pentru a accelera scrierea micro-lecțiilor, dar pune un expert lingvistic uman, să revizuiască fiecare lecție, înainte de publicare."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Rulează o testare închisă, cu 50-100 de cursanți auto-direcționați, pe limbile emblematice, pentru a valida ritmul lecțiilor, și utilitatea tutorelui AI."
+          },
+          "deliverables": {
+            "0": "Un raport, de testare închisă, despre utilizarea zilnică activă, formarea streak-ului, și frecvența sesiunilor, de conversație AI."
+          },
+          "checklist": {
+            "0": "Confirmă, că utilizatorii de testare, pot finaliza integrarea, și prima lor sesiune, de conversație AI, fără nicio intervenție manuală, de suport."
+          },
+          "commonMistakes": {
+            "0": "Sărirea peste feedback-ul direct, al utilizatorilor de testare, despre tutorele AI, de conversație, și testarea, doar a conținutului, video-lecțiilor."
+          },
+          "successCriteria": {
+            "0": "O majoritate, a utilizatorilor de testare, formează cel puțin un streak, de 5 zile, și finalizează cel puțin o sesiune, de conversație AI."
+          },
+          "aiRecommendations": {
+            "0": "Folosește analiza, asistată de AI, a transcrierilor, de conversație, ale utilizatorilor de testare, pentru a identifica, unde răspunsurile tutorelui AI, par nenaturale, sau nefolositoare."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Finalizează, de la un capăt la altul, fluxul de înscriere, cu autoservire, limitele nivelului gratuit, motorul de repetiție spațiată, și traseul de upgrade, la nivelul plătit."
+          },
+          "deliverables": {
+            "0": "Un produs funcțional, cu autoservire: înscriere, limite, ale nivelului gratuit, revizuire, prin repetiție spațiată, și facturare, la nivelul plătit."
+          },
+          "checklist": {
+            "0": "Pune un tester non-tehnic, din afara echipei fondatoare, să finalizeze înscrierea, să atingă limita nivelului gratuit, și să facă upgrade, la nivelul plătit, neasistat."
+          },
+          "commonMistakes": {
+            "0": "Tratarea nivelului gratuit, ca pe o idee ulterioară, în loc să proiectezi deliberat, limitele sale, pentru a demonstra valoare, creând totodată, un declanșator real, de upgrade."
+          },
+          "successCriteria": {
+            "0": "Un tester, din afara echipei fondatoare, se poate înscrie, poate atinge limita nivelului gratuit, și poate face upgrade, la nivelul plătit, fără nicio asistență."
+          },
+          "aiRecommendations": {
+            "0": "Folosește testare QA, asistată de AI, pe tot fluxul, de la înscriere, la upgrade, pentru a detecta cazuri limită, înainte de lansarea publică."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Lansează public, pe magazinele de aplicații, și web, cu catalogul de limbi emblematice, și înscrierea, de nivel gratuit, deschisă tuturor."
+          },
+          "deliverables": {
+            "0": "Listări active, în magazinele de aplicații, și un site web public, cu înscriere deschisă, de nivel gratuit, pentru catalogul de limbi emblematice."
+          },
+          "checklist": {
+            "0": "Confirmă, că listările din magazinele de aplicații, fluxul de integrare, și facturarea, sunt toate testate, în condiții reale, de trafic public, înainte de anunțul de lansare."
+          },
+          "commonMistakes": {
+            "0": "Lansarea unor campanii ample, de achiziție plătită, înainte ca, conversia de la gratuit, la plătit, să fie validată, pe înscrierile organice."
+          },
+          "successCriteria": {
+            "0": "Aplicația este activă, și descoperibilă, pe magazinele de aplicații, și web, cu înscrierea, de nivel gratuit, funcționând fiabil, sub trafic public real."
+          },
+          "aiRecommendations": {
+            "0": "Folosește cercetarea de cuvinte cheie, generată de AI, pentru optimizarea magazinului de aplicații, pentru a prioritiza, textul inițial, al listării."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Transformă primul val, de înscrieri, de nivel gratuit, în abonați plătitori, Plus/Unlimited."
+          },
+          "deliverables": {
+            "0": "Primul lot, de abonați plătitori, Plus/Unlimited, cu facturare, confirmată cu succes."
+          },
+          "checklist": {
+            "0": "Confirmă, că mesajele, de solicitare a upgrade-ului, și pagina de prețuri, sunt instrumentate, cu analitice, înainte de a scala cheltuielile, de achiziție."
+          },
+          "commonMistakes": {
+            "0": "Subinvestirea, în solicitările de upgrade, în aplicație, și mesajele, care generează, de fapt, conversia de la gratuit, la plătit."
+          },
+          "successCriteria": {
+            "0": "Cel puțin câțiva, abonați, de nivel gratuit, au făcut, cu succes, upgrade, la un nivel plătit, cu facturare recurentă, funcțională."
+          },
+          "aiRecommendations": {
+            "0": "Folosește analiza, asistată de AI, a punctelor, unde utilizatorii, de nivel gratuit, abandonează, înainte de upgrade, pentru a prioritiza, îmbunătățirile solicitărilor de upgrade."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge o bază stabilă, de abonați plătitori, cu retenție sănătoasă, de streak zilnic, în limbile emblematice."
+          },
+          "deliverables": {
+            "0": "Un tablou de bord, de retenție, care arată metrici stabile, de streak zilnic, și pierdere lunară, de abonați, în baza de abonați, a limbilor emblematice."
+          },
+          "checklist": {
+            "0": "Confirmă, că pierderea lunară, de abonați, și retenția, de streak zilnic, sunt urmărite, ambele, pe limbă, și nivel de abonament, nu doar agregat."
+          },
+          "commonMistakes": {
+            "0": "Declararea potrivirii produs-piață, doar pe baza creșterii înscrierilor, fără a confirma, că retenția, de streak zilnic, se menține, cu adevărat."
+          },
+          "successCriteria": {
+            "0": "Pierderea lunară, de abonați, se stabilizează, la o rată sănătoasă, iar retenția, de streak zilnic, se menține constantă, timp de cel puțin trei luni consecutive."
+          },
+          "aiRecommendations": {
+            "0": "Folosește analiza, de cohortă, asistată de AI, pentru a semnala, ce segmente de abonați, arată semnale timpurii, de risc de abandon, înainte să anuleze."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Scalează achiziția plătită, și organică, extinzând totodată, catalogul de limbi, pe baza semnalelor de cerere, ale abonaților."
+          },
+          "deliverables": {
+            "0": "Un catalog extins, de limbi, și un program de achiziție, scalat, cu costul, per abonat plătitor, urmărit."
+          },
+          "checklist": {
+            "0": "Confirmă, că, costul, per abonat plătitor, rămâne, într-un interval sustenabil, pe măsură ce cheltuielile de achiziție, se scalează."
+          },
+          "commonMistakes": {
+            "0": "Adăugarea de limbi noi, înainte de a dovedi, că retenția, este repetabilă, pe catalogul existent."
+          },
+          "successCriteria": {
+            "0": "Venitul lunar recurent, crește constant, de la o lună la alta, în timp ce costul, per abonat plătitor, rămâne, în ținta stabilită."
+          },
+          "aiRecommendations": {
+            "0": "Folosește analiza, asistată de AI, a semnalelor de cerere, din cererile de listă de așteptare, și răspunsurile la sondajele de abandon, pentru a prioritiza, ce limbă să adaugi, în continuare."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Extinde echipa de conținut, și inginerie AI, pentru a susține un ritm mai rapid, de lansare, a catalogului de limbi, fără pierdere de calitate."
+          },
+          "deliverables": {
+            "0": "O echipă mai mare, de conținut, și inginerie AI, cu un proces documentat, repetabil, pentru adăugarea unei limbi noi, în catalog."
+          },
+          "checklist": {
+            "0": "Confirmă, că fiecare angajare nouă, pe limbă, urmează, același proces documentat, de revizuire a calității, ca limbile emblematice, înainte de publicare."
+          },
+          "commonMistakes": {
+            "0": "Scalarea cheltuielilor, de achiziție plătită, mai rapid, decât poate debitul, de producție de conținut, să mențină catalogul proaspăt, și fiabil."
+          },
+          "successCriteria": {
+            "0": "Echipa poate lansa, o limbă nouă, la același standard de calitate, ca limbile emblematice, într-un interval de timp, previzibil, repetabil."
+          },
+          "aiRecommendations": {
+            "0": "Folosește instrumente de traducere, și localizare, asistate de AI, pentru a accelera ciornele de conținut, pentru limbi noi, cu experți lingvistici umani, care revizuiesc fiecare ciornă."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Lansează linii de produse adiacente — de ex. un traseu de limbă de afaceri, sau planuri familiale/multi-utilizator — pe baza cererii abonaților."
+          },
+          "deliverables": {
+            "0": "O linie de produse, adiacentă, validată, lansată, către baza existentă, de abonați."
+          },
+          "checklist": {
+            "0": "Confirmă, că cererea, pentru oferta adiacentă, a fost validată, cu abonații existenți, înainte de a angaja resurse, de inginerie, și conținut."
+          },
+          "commonMistakes": {
+            "0": "Lansarea unei linii de produse noi, fără a confirma, mai întâi, cererea, din partea abonaților existenți."
+          },
+          "successCriteria": {
+            "0": "Linia de produse, adiacentă, atinge, o pondere semnificativă, de adoptare, în rândul abonaților existenți, în primul trimestru."
+          },
+          "aiRecommendations": {
+            "0": "Folosește analiza, asistată de AI, a sondajelor, în baza existentă, de abonați, pentru a cuantifica cererea, înainte de a te angaja, la o linie de produse nouă."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Documentează biblioteca de conținut, fluxul tutorelui AI, și metricile abonaților, pentru pregătirea achiziției."
+          },
+          "deliverables": {
+            "0": "Un pachet complet, de documentație, care acoperă biblioteca de conținut, arhitectura tutorelui AI, și metricile de creștere, ale abonaților."
+          },
+          "checklist": {
+            "0": "Confirmă, că fluxul tutorelui AI, și procesul de producție a conținutului, sunt documentate, suficient de bine, pentru ca o echipă nouă, să opereze, fără fondatori."
+          },
+          "commonMistakes": {
+            "0": "Lăsarea nedocumentată, a cunoștințelor, de inginerie, a prompt-urilor, și fluxului, tutorelui AI, dependente de fondator."
+          },
+          "successCriteria": {
+            "0": "Echipa tehnică, a unui potențial cumpărător, poate revizui documentația, și înțelege arhitectura tutorelui AI, fără o prezentare, din partea fondatorilor."
+          },
+          "aiRecommendations": {
+            "0": "Folosește generarea de documentație, asistată de AI, pentru a menține, documentele, fluxului de conținut, și arhitecturii tutorelui AI, actualizate, ca practică, continuă, nu ca un efort de ultim moment, înainte de vânzare."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține îndrumarea, fiecărei etape, fundamentată, pe munca specifică, de producție de conținut, și inginerie a tutorelui AI, pe care această afacere o necesită, de fapt, niciodată un limbaj generic, de listă de verificare, pentru lansare SaaS."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Fluent Forever: Cum să înveți orice limbă, rapid, și să n-o uiți niciodată",
+          "description": "Ghidul practic, al lui Gabriel Wyner, despre repetiția spațiată, și antrenamentul pronunției — fundamentul, de știință a învățării, din spatele motorului de revizuire, al acestui produs."
+        },
+        "item2": {
+          "title": "Curs: Design instrucțional, pentru micro-învățare",
+          "description": "Un curs, despre proiectarea lecțiilor scurte, concentrate, care construiesc abilitatea, incremental — direct aplicabil, structurării unei curricule, de micro-lecții."
+        },
+        "item3": {
+          "title": "Comunitate: Forumul fondatorilor de aplicații, de învățare a limbilor",
+          "description": "Un forum, unde fondatorii, care construiesc produse, de învățare a limbilor, împărtășesc date de retenție, tehnici de prompt, pentru tutorele AI, și fluxuri de producție a conținutului."
+        },
+        "item4": {
+          "title": "Podcast: Discuții despre produse, de învățare a limbilor",
+          "description": "Interviuri, cu fondatori, și designeri instrucționali, despre construirea produselor, de învățare a limbilor, care formează obiceiuri."
+        },
+        "item5": {
+          "title": "Newsletter: Metrici săptămânale, de abonament, EdTech",
+          "description": "Un rezumat săptămânal, al reperelor, de abonament SaaS (pierdere de abonați, valoare pe durata de viață, conversie, de la gratuit la plătit), relevante, pentru produsele de educație, pentru consumatori."
+        },
+        "item6": {
+          "title": "Software: RevenueCat",
+          "description": "Gestionarea facturării, de abonament, și a drepturilor, pentru aplicații mobile, și web, folosită, pentru a gestiona structura, de niveluri, gratuit/Plus/Unlimited."
+        },
+        "item7": {
+          "title": "Software: Mux",
+          "description": "Infrastructură de găzduire, și streaming video, folosită, pentru a livra fiabil, biblioteca video, de micro-lecții, la scară."
+        },
+        "item8": {
+          "title": "Instrument AI: Anthropic Claude API",
+          "description": "API-ul, modelului mare de limbaj, care alimentează, sesiunile, de exersare a vorbirii, în timp real, ale tutorelui AI, de conversație."
+        },
+        "item9": {
+          "title": "Certificare: Credențială, de design instrucțional, lingvistic, adiacentă CELTA",
+          "description": "O credențială, de metodologie, de predare a limbilor, utilă, pentru credibilitatea, de design al curriculei, a echipei fondatoare, de conținut, chiar și fără instruire live."
+        },
+        "item10": {
+          "title": "Eveniment: Summit-ul produselor, EdTech și de învățare a limbilor",
+          "description": "Un eveniment anual, de industrie, care acoperă tendințele produselor, de învățare a limbilor, tehnicile tutorelui AI, și studiile de caz, despre retenția abonamentelor."
+        },
+        "item11": {
+          "title": "Expert: Un cercetător, în achiziția limbii a doua (SLA), ca și consilier de curriculă",
+          "description": "Un cercetător, în achiziția limbii a doua, care poate valida, secvențierea micro-lecțiilor, și intervalele, de repetiție spațiată, față de știința reală, a învățării."
+        },
+        "item12": {
+          "title": "Listă de verificare: Pregătirea de lansare, a tutorelui AI, de conversație",
+          "description": "O listă de verificare, pre-lansare, care acoperă calitatea răspunsurilor, tutorelui AI, latența, și gestionarea escaladărilor, înainte de a deschide, exersarea conversației, abonaților."
+        },
+        "aiMetadata": {
+          "generationHints": "Prioritizează resursele, specifice științei învățării, prin repetiție spațiată, ingineriei tutorelui AI, de conversație, și metricilor de retenție, ale abonamentelor SaaS, niciodată conținut generic, de tipul „cum să înveți o limbă”."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "O funcție, de „înghețare a streak-ului”, sau „asigurare a streak-ului”, poate reduce semnificativ, pierderea de abonați, în rândul celor, care ratează o zi, din motive legitime, fără a submina, mecanismul de obișnuință."
+          },
+          "item2": {
+            "title": "Abonații, care finalizează o sesiune, de conversație AI, sunt, măsurabil, mai predispuși, să reînnoiască, decât cei, care finalizează, doar lecții video — merită evidențiat, ca un impuls de implicare, în aplicație."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "O creștere de preț, sau schimbare de politică, a unui singur furnizor, de model AI, poate comprima semnificativ, marjele, de nivel nelimitat, peste noapte, dacă nu există niciun model, de rezervă, sau plan de contingență, pentru plafonul de utilizare."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Construirea, întregului catalog multi-lingv, înainte de a valida, retenția, pe o singură limbă emblematică, irosește bugetul, de producție de conținut, pe limbi, care ar putea, să nu rețină abonații."
+          },
+          "item2": {
+            "title": "Stabilirea prețului, nivelului nelimitat, de conversație AI, fără a modela, comportamentul abonaților, cu utilizare intensă, duce, la planuri subevaluate, care erodează marja, pe măsură ce utilizatorii avansați, se auto-selectează, în ele."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Lansarea unei simple, provocări de streak, de start, de 7 zile, la înscriere, este una, dintre cele mai rapide, modalități, de a stabili, bucla de obișnuință, care generează retenția, pe termen lung."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Scalează catalogul de limbi, doar atât de rapid, cât poate, fluxul de producție a conținutului, să mențină, un standard constant, de calitate — o lansare grăbită, a unei limbi noi, afectează încrederea, în întregul catalog, nu doar în acea limbă."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Vorbește cu abonații, care anulează, nu doar cu cei, care rămân — interviurile, cu abonații pierduți, dezvăluie lacune, în mecanismele de obișnuință, pe care sondajele, cohortei de reînnoire, nu le scot niciodată la iveală."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Abonamentele, de învățare a limbilor, pentru consumatori, care supraviețuiesc, dincolo de primul an, împărtășesc, constant, o trăsătură: un mecanism de obișnuință zilnică, cu adevărat lipicios, nu doar amploarea conținutului."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Funcția, de conversație AI, a majorității aplicațiilor, de învățare a limbilor, este un înveliș subțire, în jurul unui model general, de chat — diferențierea reală, vine din ancorarea, fiecărei conversații AI, în progresul real, al curriculei, abonatului, și nevoile sale, de revizuire, prin repetiție spațiată."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Exersarea de conversație, prin AI, pe bază de voce, costă, semnificativ mai mult, per minut, decât exersarea, bazată pe text, odată incluse, costurile fluxului, de vorbire-în-text, și text-în-vorbire — modelează-le explicit, nu doar prețul brut, al API-ului modelului."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Interesul crescând, de căutare, pentru „tutore AI de limbi”, alături de interesul constant, pentru „tutore live de limbi”, semnalează, o schimbare reală, în preferința cursanților, către exersare la cerere, fără programare."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "O poveste, de creștere a abonaților: un cohort, de limbă emblematică, cu o provocare puternică, de streak, de start, de 7 zile, a arătat, o retenție, semnificativ mai ridicată, la 90 de zile, față de cohortele fără ea."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "O poveste, de eșec: lansarea, a cinci limbi noi, simultan, înainte ca, retenția, limbii emblematice, să fie dovedită, a dus, la o scădere, a calității conținutului, în întregul catalog, și un vârf, de pierdere a abonaților."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Cum diferă aceasta, de a folosi, pur și simplu, un chatbot AI, general, pentru a exersa gratuit, o limbă?",
+            "answer": "Un chatbot general, nu are nicio curriculă structurată, niciun program de revizuire, prin repetiție spațiată, și nicio urmărire a progresului — această platformă ancorează, fiecare conversație AI, în ceea ce abonatul, a învățat de fapt, și trebuie să revizuiască, în continuare."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Aplicațiile de limbi, cu ritm propriu, nu pot reține abonații, la fel de bine, ca și clasele live, deoarece nu există responsabilizare.",
+            "fact": "Mecanismele de obișnuință, bine proiectate — streak-uri zilnice, și memento-uri, de repetiție spațiată — creează o formă diferită, dar cu adevărat eficientă, de responsabilizare, una, care nu depinde, de un instructor live, sau colegi de cohort."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Instrumentează, exact momentul, în care un abonat, de nivel gratuit, atinge o limită, a planului, și afișează, solicitarea de upgrade, acolo, nu pe o pagină separată, de prețuri, pe care ar putea, să n-o viziteze niciodată."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Fundamentează, fiecare perspectivă, pe mecanismele specifice, ale învățării limbilor, cu ritm propriu, conduse de obișnuință — repetiție spațiată, streak-uri, exersare de conversație, prin AI — niciodată platitudini generice, de abonament SaaS, sau edtech."
+        }
+      }
     }
   }
 }

@@ -1,0 +1,944 @@
+{
+  "identity": {
+    "id": "ac780a75-d24b-4936-9edb-38cbbcee093b",
+    "slug": "self-paced-language-platform",
+    "version": "1.0.0",
+    "name": {
+      "en": "Lingoloop",
+      "ro": "Lingoloop"
+    },
+    "tagline": {
+      "en": "Learn a language your way, every single day.",
+      "ro": "Învață o limbă, în ritmul tău, în fiecare zi."
+    },
+    "createdAt": "2026-07-16T00:00:00.000Z",
+    "updatedAt": "2026-07-16T00:00:00.000Z",
+    "status": "published"
+  },
+  "founderFit": {
+    "idealArchetypes": [
+      "theVisionary",
+      "theOperator"
+    ],
+    "summary": {
+      "en": "Best suited to a founder who can both envision a compelling asynchronous learning product — short video micro-lessons, spaced-repetition drilling, and an AI conversation tutor — and run the operational discipline of a parallel content-production and AI-infrastructure build, with no instructors to hire or schedule.",
+      "ro": "Potrivit unui fondator, care poate, atât să conceapă un produs de învățare, asincron, convingător — micro-lecții video scurte, exersare prin repetiție spațiată, și un tutore AI, de conversație — cât și să conducă disciplina operațională, a unei construcții paralele, de producție de conținut, și infrastructură AI, fără instructori de angajat, sau programat."
+    },
+    "minimumExperienceYears": 5
+  },
+  "financialDna": {
+    "budget": {
+      "minInvestment": 40000,
+      "maxInvestment": 70000,
+      "currency": "EUR",
+      "ongoingMonthlyCostMin": 12000,
+      "ongoingMonthlyCostMax": 25000,
+      "notes": {
+        "en": "Covers micro-lesson video content production across the initial language catalog, AI conversation-tutor engineering, and the web/mobile app build — a Medium-High budget tier, driven by parallel content and AI-infrastructure investment rather than any physical location or instructor payroll.",
+        "ro": "Acoperă producția de conținut video, pentru micro-lecții, în catalogul inițial de limbi, ingineria tutorelui AI, de conversație, și construcția aplicației web/mobile — un nivel de buget mediu-ridicat, determinat de investiția paralelă, în conținut și infrastructură AI, nu de vreo locație fizică, sau salarii de instructori."
+      }
+    },
+    "financialInformation": {
+      "startupCosts": [
+        {
+          "key": "microLessonVideoContentProduction",
+          "label": {
+            "en": "Short video micro-lesson production and curriculum design across the initial language catalog",
+            "ro": "Producția video, de micro-lecții scurte, și proiectarea curriculei, în catalogul inițial de limbi"
+          },
+          "typicalMin": 12000,
+          "typicalMax": 22000
+        },
+        {
+          "key": "aiConversationTutorEngineeringBuild",
+          "label": {
+            "en": "AI conversation-tutor engineering, model integration, and spaced-repetition engine build",
+            "ro": "Ingineria tutorelui AI, de conversație, integrarea modelului, și construcția motorului de repetiție spațiată"
+          },
+          "typicalMin": 18000,
+          "typicalMax": 32000
+        },
+        {
+          "key": "webAndMobileAppPlatformBuild",
+          "label": {
+            "en": "Web and mobile app build, including offline lesson downloads and streak/gamification mechanics",
+            "ro": "Construcția aplicației web și mobile, inclusiv descărcările de lecții offline, și mecanismele de streak/gamificare"
+          },
+          "typicalMin": 10000,
+          "typicalMax": 18000
+        }
+      ],
+      "recurringCosts": [
+        {
+          "key": "cloudAiModelAndHostingCosts",
+          "label": {
+            "en": "Cloud hosting, app infrastructure, and AI conversation-model API usage costs",
+            "ro": "Găzduire cloud, infrastructura aplicației, și costurile de utilizare, ale API-ului modelului AI, de conversație"
+          },
+          "typicalMonthlyMin": 6000,
+          "typicalMonthlyMax": 14000
+        },
+        {
+          "key": "contentProductionAndSupportSalaries",
+          "label": {
+            "en": "Ongoing micro-lesson content production and customer-support/community salaries",
+            "ro": "Producția continuă, de conținut, pentru micro-lecții, și salariile, de suport clienți/comunitate"
+          },
+          "typicalMonthlyMin": 6000,
+          "typicalMonthlyMax": 11000
+        }
+      ],
+      "revenueStreams": [
+        {
+          "key": "tieredMonthlySubscriptionFee",
+          "label": {
+            "en": "Tiered monthly subscription fee unlocking more languages, unlimited AI conversation practice, and offline downloads",
+            "ro": "Taxă lunară, de abonament pe niveluri, care deblochează mai multe limbi, exersare nelimitată de conversație AI, și descărcări offline"
+          }
+        },
+        {
+          "key": "discountedAnnualSubscriptionFee",
+          "label": {
+            "en": "Discounted annual subscription plan billed upfront",
+            "ro": "Plan de abonament anual, redus, facturat integral, în avans"
+          }
+        },
+        {
+          "key": "additionalLanguageUnlockUpgrade",
+          "label": {
+            "en": "Upgrade fee for unlocking additional language tracks beyond a plan's included languages",
+            "ro": "Taxă de upgrade, pentru deblocarea traseelor suplimentare, de limbi, dincolo de limbile incluse, într-un plan"
+          }
+        }
+      ],
+      "targetMonthlyIncomeMin": 10000,
+      "targetMonthlyIncomeMax": 60000,
+      "breakEvenTimelineMonths": 20,
+      "currency": "EUR"
+    }
+  },
+  "revenueDna": {
+    "revenueSpeed": {
+      "level": "slow",
+      "notes": {
+        "en": "Individual self-serve subscribers convert gradually through a free tier rather than in a single upfront payment, so monthly recurring revenue builds incrementally instead of arriving as a lump sum at cohort enrollment.",
+        "ro": "Abonații individuali, cu autoservire, convertesc treptat, printr-un nivel gratuit, nu printr-o plată unică, în avans, așa că venitul lunar recurent, se construiește incremental, în loc să sosească, ca o sumă forfetară, la înscrierea, într-un cohort."
+      }
+    },
+    "profitMargin": {
+      "level": "high",
+      "notes": {
+        "en": "Once the micro-lesson library and AI-tutor infrastructure are built, the marginal cost of serving one more subscriber is low relative to subscription price, since content is reused infinitely and AI usage cost per subscriber stays modest — genuinely stronger software-style margins than an instructor-cost-bound cohort model.",
+        "ro": "Odată construite, biblioteca de micro-lecții, și infrastructura tutorelui AI, costul marginal, de a servi încă un abonat, este scăzut, față de prețul abonamentului, deoarece conținutul este reutilizat, la infinit, iar costul de utilizare AI, per abonat, rămâne modest — marje, cu adevărat mai puternice, de tip software, decât un model, de cohort, limitat de costul instructorilor."
+      }
+    }
+  },
+  "lifestyleDna": {
+    "workMode": "remote",
+    "travelRequirement": "none",
+    "onlineOffline": "online",
+    "salesChannel": "b2c",
+    "minWeeklyHours": 40,
+    "maxWeeklyHours": 55,
+    "freedomLevel": 3
+  },
+  "skillDna": {
+    "ratings": [
+      {
+        "key": "sales",
+        "rating": 3
+      },
+      {
+        "key": "marketing",
+        "rating": 7
+      },
+      {
+        "key": "leadership",
+        "rating": 5
+      },
+      {
+        "key": "communication",
+        "rating": 6
+      },
+      {
+        "key": "negotiation",
+        "rating": 3
+      },
+      {
+        "key": "finance",
+        "rating": 4
+      },
+      {
+        "key": "operations",
+        "rating": 5
+      },
+      {
+        "key": "technology",
+        "rating": 8
+      },
+      {
+        "key": "automation",
+        "rating": 7
+      },
+      {
+        "key": "ai",
+        "rating": 8
+      },
+      {
+        "key": "programming",
+        "rating": 8
+      },
+      {
+        "key": "management",
+        "rating": 5
+      }
+    ]
+  },
+  "entrepreneurDnaMatch": {
+    "scores": [
+      {
+        "key": "builder",
+        "score": 60
+      },
+      {
+        "key": "visionary",
+        "score": 75
+      },
+      {
+        "key": "operator",
+        "score": 65
+      },
+      {
+        "key": "creator",
+        "score": 55
+      },
+      {
+        "key": "seller",
+        "score": 30
+      },
+      {
+        "key": "leader",
+        "score": 45
+      },
+      {
+        "key": "analyst",
+        "score": 50
+      }
+    ]
+  },
+  "businessCharacteristics": {
+    "isRemoteFriendly": true,
+    "isFullyRemote": true,
+    "requiresTravel": false,
+    "isOnlineBusiness": true,
+    "isB2B": false,
+    "isB2C": true,
+    "isSoloFounderFriendly": false,
+    "requiresEmployees": true,
+    "isHighlyScalable": true,
+    "isHighlyAutomatable": true,
+    "isAIResistant": false,
+    "requiresPhysicalLocation": false,
+    "isSubscriptionBased": true,
+    "isCapitalIntensive": true,
+    "requiresInventory": false,
+    "isSeasonalBusiness": false,
+    "isFranchisable": false,
+    "isRecessionResistant": false
+  },
+  "scalabilityDna": {
+    "scalability": {
+      "level": "high",
+      "notes": {
+        "en": "Content and AI-tutor infrastructure serve an unlimited number of subscribers with near-zero marginal delivery cost and no instructor-capacity bottleneck — genuinely more scalable than a cohort-capped, live-instruction competitor, since there are no cohorts to fill or classes to cap at 20-30 seats.",
+        "ro": "Infrastructura de conținut, și tutore AI, servesc un număr nelimitat, de abonați, cu cost marginal, de livrare, aproape zero, și fără niciun blocaj, de capacitate a instructorilor — cu adevărat mai scalabilă, decât un competitor, live, limitat de cohorte, deoarece nu există cohorte de umplut, sau clase de plafonat, la 20-30 de locuri."
+      }
+    }
+  },
+  "riskDna": {
+    "difficulty": {
+      "level": "high",
+      "notes": {
+        "en": "Building a broad multi-language micro-lesson library alongside a genuinely effective AI conversation tutor and spaced-repetition engine is a substantial parallel content-production and engineering undertaking, even without any instructor staffing to manage.",
+        "ro": "Construirea unei biblioteci ample, multi-lingve, de micro-lecții, alături de un tutore AI, de conversație, cu adevărat eficient, și un motor de repetiție spațiată, reprezintă un efort substanțial, paralel, de producție de conținut, și inginerie, chiar și fără personal de instructori, de gestionat."
+      }
+    },
+    "aiResistance": {
+      "level": "moderate",
+      "notes": {
+        "en": "General-purpose AI chatbots and voice assistants let motivated users get informal conversation practice for free, but a structured curriculum, tracked progress, and spaced-repetition habit mechanics remain genuinely difficult for a generic chatbot to replicate.",
+        "ro": "Chatbot-urile generale, AI, și asistenții vocali, permit utilizatorilor motivați, să obțină exersare informală, de conversație, gratuit, dar o curriculă structurată, progresul urmărit, și mecanismele de obișnuință, prin repetiție spațiată, rămân cu adevărat greu de replicat, de un chatbot generic."
+      }
+    },
+    "risks": [
+      {
+        "description": {
+          "en": "General-purpose AI chatbots and voice assistants let users get informal conversation practice for free, threatening this product's core AI-conversation-practice value proposition.",
+          "ro": "Chatbot-urile generale, AI, și asistenții vocali, permit utilizatorilor, să obțină exersare informală, de conversație, gratuit, amenințând propunerea de valoare, centrală, a acestui produs, de exersare a conversației, prin AI."
+        },
+        "severity": "high",
+        "mitigation": {
+          "en": "Differentiate on structured curriculum integration, tracked progress, and spaced-repetition scheduling built around the AI conversation practice, not on raw conversational AI capability alone.",
+          "ro": "Diferențiază-te prin integrarea, cu curricula structurată, progresul urmărit, și programarea repetiției spațiate, construite în jurul exersării conversației, prin AI, nu doar prin capacitatea conversațională, AI brută."
+        }
+      },
+      {
+        "description": {
+          "en": "The self-paced, asynchronous format has historically low completion rates without live-cohort accountability, threatening retention and therefore recurring subscription revenue.",
+          "ro": "Formatul asincron, cu ritm propriu, are, istoric, rate de finalizare scăzute, fără responsabilizarea, prin cohort live, amenințând retenția, și, prin urmare, venitul recurent, din abonamente."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Invest heavily in streak and spaced-repetition-reminder mechanics as the core retention lever, since there's no cohort peer pressure or completion deadline to rely on instead.",
+          "ro": "Investește masiv, în mecanismele de streak, și memento de repetiție spațiată, ca pârghie centrală, de retenție, deoarece nu există presiune, din partea colegilor, de cohort, sau termen de finalizare, pe care să te poți baza, în schimb."
+        }
+      },
+      {
+        "description": {
+          "en": "AI conversation-tutor cost scales with usage, so unlimited-tier subscribers with heavy usage can compress margins if pricing isn't calibrated correctly.",
+          "ro": "Costul tutorelui AI, de conversație, se scalează, cu utilizarea, așa că abonații, de nivel nelimitat, cu utilizare intensă, pot comprima marjele, dacă prețurile nu sunt calibrate corect."
+        },
+        "severity": "moderate",
+        "mitigation": {
+          "en": "Monitor per-subscriber AI usage cost by tier closely and adjust unlimited-tier pricing or soft usage caps before margin erosion becomes material.",
+          "ro": "Monitorizează îndeaproape, costul de utilizare AI, per abonat, pe nivel, și ajustează prețurile, de nivel nelimitat, sau plafoanele blânde, de utilizare, înainte ca erodarea marjei, să devină semnificativă."
+        }
+      }
+    ]
+  },
+  "marketingDna": {
+    "marketingStrategy": {
+      "positioning": {
+        "en": "Learn a language your way, every single day — no cohorts, no fixed start dates, just short video lessons, spaced-repetition drills, and AI conversation practice whenever you have five minutes.",
+        "ro": "Învață o limbă, în ritmul tău, în fiecare zi — fără cohorte, fără date fixe de start, doar lecții video scurte, exerciții de repetiție spațiată, și exersare de conversație, prin AI, oricând ai la dispoziție cinci minute."
+      },
+      "channels": [
+        {
+          "channelType": "appStoreAndSearchDiscovery",
+          "description": {
+            "en": "App-store and search-optimized discovery targeting self-directed language learners, converting free-tier signups into paid subscribers through in-app upgrade prompts.",
+            "ro": "Descoperire, optimizată pentru magazine de aplicații, și căutare, care vizează cursanții auto-direcționați, de limbi, convertind înscrierile, de nivel gratuit, în abonați plătitori, prin solicitări de upgrade, în aplicație."
+          },
+          "priority": "primary"
+        },
+        {
+          "channelType": "shortFormSocialContentMarketing",
+          "description": {
+            "en": "Short-form video content — clips from the micro-lesson library, streak milestones, and AI-conversation demos — on TikTok, Instagram, and YouTube Shorts driving organic top-of-funnel awareness.",
+            "ro": "Conținut video, scurt — extrase din biblioteca de micro-lecții, borne de streak, și demonstrații, de conversație AI — pe TikTok, Instagram, și YouTube Shorts, generând conștientizare organică, în vârful funnel-ului."
+          },
+          "priority": "secondary"
+        },
+        {
+          "channelType": "referralAndStreakSharingLoops",
+          "description": {
+            "en": "In-app referral incentives and streak-sharing social loops as an experimental, low-cost acquisition channel leveraging existing subscribers' habit engagement.",
+            "ro": "Stimulente de recomandare, în aplicație, și bucle sociale, de partajare a streak-ului, ca un canal de achiziție, experimental, cu cost redus, care valorifică implicarea, prin obișnuință, a abonaților existenți."
+          },
+          "priority": "experimental"
+        }
+      ]
+    },
+    "marketingComplexity": {
+      "level": "moderate",
+      "notes": {
+        "en": "The self-serve, low-commitment free-tier signup lowers friction versus a bootcamp-style admissions decision, but converting free users into paying subscribers still requires real value-demonstration content, not just awareness.",
+        "ro": "Înscrierea, cu autoservire, de nivel gratuit, cu angajament redus, reduce fricțiunea, față de o decizie, de admitere, de tip bootcamp, dar convertirea utilizatorilor gratuiți, în abonați plătitori, necesită totuși conținut real, de demonstrare a valorii, nu doar conștientizare."
+      }
+    }
+  },
+  "salesDna": {
+    "salesStrategy": {
+      "approach": {
+        "en": "A self-serve freemium funnel: subscribers sign up free, complete an onboarding placement, and hit natural upgrade prompts — a single language, capped AI-conversation minutes, no offline downloads — that convert to a paid tier without any human sales interaction.",
+        "ro": "Un funnel freemium, cu autoservire: abonații se înscriu gratuit, finalizează o plasare, de integrare, și ating solicitări naturale, de upgrade — o singură limbă, minute plafonate, de conversație AI, fără descărcări offline — care convertesc, la un nivel plătit, fără nicio interacțiune umană, de vânzări."
+      },
+      "salesCycleLengthDays": 7,
+      "pricingModel": {
+        "en": "Free tier (1 language, 5 AI-conversation minutes/week, no offline downloads), Plus at €9.99/month or €79/year (all languages, 60 AI-conversation minutes/week, offline downloads), and Unlimited at €16.99/month or €139/year (unlimited AI conversation practice, priority access to new languages).",
+        "ro": "Nivel gratuit (1 limbă, 5 minute de conversație AI/săptămână, fără descărcări offline), Plus la 9,99 €/lună, sau 79 €/an (toate limbile, 60 de minute, de conversație AI/săptămână, descărcări offline), și Unlimited la 16,99 €/lună, sau 139 €/an (exersare nelimitată, de conversație AI, acces prioritar, la limbi noi)."
+      }
+    },
+    "salesComplexity": {
+      "level": "low",
+      "notes": {
+        "en": "Pure self-serve subscription signup requires no sales conversation at any tier — a categorically simpler sales motion than a bootcamp's admissions-interview process built around a large tuition decision.",
+        "ro": "Înscrierea, pur cu autoservire, la abonament, nu necesită nicio conversație, de vânzări, la niciun nivel — o mișcare de vânzări, categoric mai simplă, decât procesul de interviu, de admitere, al unui bootcamp, construit în jurul, unei decizii mari, de școlarizare."
+      }
+    }
+  },
+  "operationsDna": {
+    "operations": {
+      "coreProcesses": [
+        {
+          "en": "Micro-lesson video content production and curriculum design across the language catalog.",
+          "ro": "Producția video, de micro-lecții, și proiectarea curriculei, în catalogul de limbi."
+        },
+        {
+          "en": "AI conversation-tutor model tuning, prompt/pipeline engineering, and spaced-repetition algorithm maintenance.",
+          "ro": "Ajustarea modelului, tutorelui AI, de conversație, ingineria prompt-urilor/fluxurilor, și întreținerea algoritmului, de repetiție spațiată."
+        },
+        {
+          "en": "App platform engineering: streak mechanics, offline downloads, and subscription billing.",
+          "ro": "Ingineria platformei aplicației: mecanisme de streak, descărcări offline, și facturarea abonamentului."
+        },
+        {
+          "en": "Customer support and community engagement, with no live instruction to schedule.",
+          "ro": "Suport clienți, și implicarea comunității, fără nicio instruire live, de programat."
+        }
+      ],
+      "dailyWorkflow": {
+        "en": "The content team ships new micro-lessons and reviews curriculum coverage; engineering maintains the AI-tutor pipeline, spaced-repetition scheduler, and app reliability; a lean support function handles subscriber questions — there are no scheduled live sessions or instructor rosters to manage.",
+        "ro": "Echipa de conținut, livrează micro-lecții noi, și revizuiește acoperirea curriculei; ingineria menține fluxul tutorelui AI, planificatorul de repetiție spațiată, și fiabilitatea aplicației; o funcție restrânsă, de suport, gestionează întrebările abonaților — nu există sesiuni live, programate, sau liste de instructori, de gestionat."
+      },
+      "fulfillmentModel": {
+        "en": "A self-serve software product delivered entirely through the app — video lessons, spaced-repetition drills, and on-demand AI conversation practice are all available any time, with no instructor capacity or class-scheduling constraint gating how many subscribers can be served at once.",
+        "ro": "Un produs software, cu autoservire, livrat integral, prin aplicație — lecțiile video, exercițiile de repetiție spațiată, și exersarea conversației, prin AI, la cerere, sunt toate disponibile, oricând, fără nicio constrângere, de capacitate a instructorilor, sau programare a claselor, care să limiteze, câți abonați pot fi serviți, simultan."
+      }
+    },
+    "automation": {
+      "level": "high",
+      "notes": {
+        "en": "Lesson delivery, spaced-repetition scheduling, streak reminders, billing, and first-line AI conversation practice are all automated; only content production and support escalations remain human-led.",
+        "ro": "Livrarea lecțiilor, programarea repetiției spațiate, memento-urile de streak, facturarea, și exersarea de conversație, prin AI, de primă linie, sunt toate automatizate; doar producția de conținut, și escaladările de suport, rămân conduse uman."
+      }
+    }
+  },
+  "technologyDna": {
+    "aiUsage": {
+      "useCases": [
+        {
+          "area": "aiConversationPracticeTutor",
+          "description": {
+            "en": "A chat- and voice-based AI tutor lets subscribers practice speaking and conversation on demand, without scheduling a human tutor — the product's core differentiator.",
+            "ro": "Un tutore AI, de tip chat și voce, permite abonaților, să exerseze vorbirea, și conversația, la cerere, fără a programa un tutore uman — diferențiatorul central, al produsului."
+          },
+          "maturity": "coreToModel"
+        },
+        {
+          "area": "spacedRepetitionSchedulingEngine",
+          "description": {
+            "en": "An algorithmic spaced-repetition engine schedules vocabulary-review reminders personalized to each subscriber's recall performance.",
+            "ro": "Un motor algoritmic, de repetiție spațiată, programează memento-uri, de revizuire a vocabularului, personalizate, după performanța de reamintire, a fiecărui abonat."
+          },
+          "maturity": "established"
+        }
+      ],
+      "aiDependencyLevel": "high"
+    },
+    "recommendedTools": [
+      {
+        "name": "Anthropic Claude API",
+        "category": "aiConversationTutorEngine",
+        "isRequired": true,
+        "websiteUrl": "https://www.anthropic.com/api"
+      },
+      {
+        "name": "Mux",
+        "category": "videoHostingAndStreaming",
+        "isRequired": true,
+        "websiteUrl": "https://mux.com/"
+      },
+      {
+        "name": "RevenueCat",
+        "category": "subscriptionBillingAndEntitlements",
+        "isRequired": false,
+        "websiteUrl": "https://www.revenuecat.com/"
+      }
+    ]
+  },
+  "growthDna": {
+    "growthPotential": {
+      "level": "high",
+      "timeHorizonMonths": 36,
+      "notes": {
+        "en": "With no instructor-capacity ceiling, growth is bound only by content-catalog breadth and acquisition efficiency — a genuinely higher ceiling than a cohort-capped, live-instruction competitor.",
+        "ro": "Fără niciun plafon, de capacitate a instructorilor, creșterea, este limitată, doar de amplitudinea catalogului de conținut, și eficiența achiziției — un plafon, cu adevărat mai ridicat, decât un competitor, live, limitat de cohorte."
+      }
+    },
+    "scaling": {
+      "path": {
+        "en": "Prove retention and habit formation on a small number of flagship languages first, then expand language-catalog breadth while continuing to invest in AI-tutor quality.",
+        "ro": "Dovedește mai întâi, retenția, și formarea de obiceiuri, pe un număr mic, de limbi emblematice, apoi extinde amplitudinea catalogului de limbi, continuând să investești, în calitatea tutorelui AI."
+      },
+      "bottlenecks": [
+        {
+          "en": "Content-production throughput for new languages must keep pace with catalog-expansion ambitions without diluting per-language lesson quality.",
+          "ro": "Debitul, de producție de conținut, pentru limbi noi, trebuie să țină pasul, cu ambițiile de extindere, a catalogului, fără a dilua calitatea lecțiilor, per limbă."
+        },
+        {
+          "en": "AI conversation-tutor quality and latency must hold up as usage volume grows, since it's the product's core differentiator.",
+          "ro": "Calitatea, și latența tutorelui AI, de conversație, trebuie să reziste, pe măsură ce volumul de utilizare crește, deoarece este diferențiatorul central, al produsului."
+        }
+      ],
+      "milestones": [
+        {
+          "monthsFromLaunch": 20,
+          "description": {
+            "en": "The business reaches break-even on subscription MRR across the initial language catalog.",
+            "ro": "Afacerea atinge pragul de rentabilitate, pe venitul lunar recurent, din abonamente, în catalogul inițial de limbi."
+          }
+        },
+        {
+          "monthsFromLaunch": 36,
+          "description": {
+            "en": "Language-catalog expansion and organic referral loops reduce paid-acquisition dependency as MRR growth compounds.",
+            "ro": "Extinderea catalogului de limbi, și buclele organice, de recomandare, reduc dependența, de achiziția plătită, pe măsură ce creșterea venitului lunar recurent, se compune."
+          }
+        }
+      ]
+    }
+  },
+  "successDna": {
+    "advantages": [
+      {
+        "description": {
+          "en": "No instructor-capacity ceiling means revenue can scale with subscriber count alone — structurally more scalable than a cohort-capped, live-instruction competitor.",
+          "ro": "Absența, oricărui plafon, de capacitate a instructorilor, înseamnă, că venitul se poate scala, doar cu numărul de abonați — structural mai scalabil, decât un competitor, live, limitat de cohorte."
+        }
+      },
+      {
+        "description": {
+          "en": "Habit-formation mechanics — daily streaks and spaced-repetition reminders — drive recurring engagement and predictable MRR without relying on cohort peer pressure or completion deadlines.",
+          "ro": "Mecanismele de formare a obiceiurilor — streak-uri zilnice, și memento-uri de repetiție spațiată — generează implicare recurentă, și venit lunar recurent, previzibil, fără a se baza, pe presiunea colegilor, de cohort, sau termene de finalizare."
+        }
+      },
+      {
+        "description": {
+          "en": "On-demand AI conversation practice removes the scheduling friction and cost of booking a human tutor, letting subscribers practice speaking whenever they have a few free minutes.",
+          "ro": "Exersarea conversației, prin AI, la cerere, elimină fricțiunea de programare, și costul, de a rezerva un tutore uman, permițând abonaților, să exerseze vorbirea, oricând au câteva minute libere."
+        }
+      }
+    ]
+  },
+  "blueprintReferences": {
+    "blueprintStructure": {
+      "sections": [
+        "executiveSummary",
+        "entrepreneurFit",
+        "businessOverview",
+        "marketIntelligence",
+        "customerIntelligence",
+        "offerArchitecture",
+        "revenueArchitecture",
+        "pricingStrategy",
+        "marketingSystem",
+        "salesSystem",
+        "operationsSystem",
+        "technologyStack",
+        "automationOpportunities",
+        "teamStructure",
+        "financialOverview",
+        "kpis",
+        "riskAnalysis",
+        "competitiveAdvantages",
+        "launchStrategy",
+        "ninetyDayActionPlan",
+        "scalingStrategy",
+        "exitOpportunities",
+        "aiRecommendations",
+        "resources",
+        "appendix"
+      ],
+      "promptContext": {
+        "en": "An asynchronous, self-paced language-learning SaaS platform combining short video micro-lessons, spaced-repetition vocabulary drilling, and on-demand AI conversation practice, monetized through a tiered monthly/annual subscription — deliberately distinct from the live, cohort-capped, instructor-led coding bootcamp elsewhere in this category, with no fixed start dates and no instructor-capacity bottleneck.",
+        "ro": "O platformă SaaS, de învățare a limbilor, asincronă, cu ritm propriu, care combină micro-lecții video scurte, exersare a vocabularului, prin repetiție spațiată, și exersare de conversație, prin AI, la cerere, monetizată, printr-un abonament lunar/anual, pe niveluri — deliberat distinctă, de bootcamp-ul de programare, live, condus de instructori, limitat de cohorte, din altă parte, a acestei categorii, fără date fixe de start, și fără niciun blocaj, de capacitate a instructorilor."
+      }
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "category": "courses",
+        "translationKey": "businessLibrary.selfPacedLanguagePlatform.businessDna.resources.course1"
+      },
+      {
+        "category": "communities",
+        "translationKey": "businessLibrary.selfPacedLanguagePlatform.businessDna.resources.community1"
+      },
+      {
+        "category": "books",
+        "translationKey": "businessLibrary.selfPacedLanguagePlatform.businessDna.resources.book1"
+      },
+      {
+        "category": "checklists",
+        "translationKey": "businessLibrary.selfPacedLanguagePlatform.businessDna.resources.checklist1",
+        "relatedResourceType": "checklist"
+      }
+    ]
+  },
+  "kpis": {
+    "targets": [
+      {
+        "key": "mrr",
+        "targetDescription": {
+          "en": "Grow monthly recurring revenue across the free-to-paid subscriber funnel.",
+          "ro": "Crește venitul lunar recurent, în funnel-ul de abonați, de la gratuit, la plătit."
+        }
+      },
+      {
+        "key": "churn",
+        "targetDescription": {
+          "en": "Keep monthly subscription churn low through daily-streak and spaced-repetition retention mechanics.",
+          "ro": "Menține pierderea lunară, de abonați, scăzută, prin mecanismele de retenție, de streak zilnic, și repetiție spațiată."
+        }
+      },
+      {
+        "key": "ltv",
+        "targetDescription": {
+          "en": "Grow subscriber lifetime value as habit-formation mechanics extend average subscription tenure.",
+          "ro": "Crește valoarea, pe durata de viață, a abonatului, pe măsură ce mecanismele de formare a obiceiurilor, extind durata medie, de abonament."
+        }
+      },
+      {
+        "key": "leadConversion",
+        "targetDescription": {
+          "en": "Convert a healthy share of free-tier signups into paying Plus/Unlimited subscribers.",
+          "ro": "Transformă o pondere sănătoasă, din înscrierile, de nivel gratuit, în abonați plătitori, Plus/Unlimited."
+        }
+      }
+    ]
+  },
+  "aiMetadata": {
+    "matchingHints": {
+      "requiredSkills": [
+        {
+          "key": "programming",
+          "importance": 5
+        },
+        {
+          "key": "ai",
+          "importance": 4
+        }
+      ],
+      "preferredSkills": [
+        {
+          "key": "marketing",
+          "importance": 3
+        },
+        {
+          "key": "content",
+          "importance": 2
+        }
+      ],
+      "requiredPersonality": [
+        {
+          "trait": "creative",
+          "importance": 4
+        },
+        {
+          "trait": "systemOriented",
+          "importance": 4
+        }
+      ],
+      "preferredPersonality": [
+        {
+          "trait": "analytical",
+          "importance": 3
+        }
+      ],
+      "requiredBudget": {
+        "min": 40000,
+        "max": 70000,
+        "currency": "EUR"
+      },
+      "preferredBudget": {
+        "min": 45000,
+        "max": 65000,
+        "currency": "EUR"
+      },
+      "riskProfile": "moderate",
+      "timeAvailability": {
+        "minWeeklyHours": 40,
+        "maxWeeklyHours": 55
+      },
+      "communicationStyle": [
+        "motivational",
+        "approachable"
+      ],
+      "technicalLevel": 5,
+      "leadershipLevel": 4,
+      "creativityLevel": 4,
+      "salesAffinity": 2,
+      "automationAffinity": 5,
+      "remotePreference": "remote",
+      "travelPreference": "none",
+      "idealFounderArchetypes": [
+        "theVisionary",
+        "theOperator"
+      ]
+    },
+    "blueprintHints": {
+      "en": "Emphasize the asynchronous, infinitely-scalable delivery model and on-demand AI conversation tutor in Offer Architecture and Competitive Advantages, and lead Marketing System with habit/streak retention mechanics — the clearest differentiators from the cohort-capped, live-instruction coding bootcamp elsewhere in this category.",
+      "ro": "Evidențiază modelul de livrare, asincron, infinit scalabil, și tutorele AI, de conversație, la cerere, în Arhitectura ofertei, și Avantaje competitive, și începe Sistemul de marketing, cu mecanismele de retenție, de streak/obișnuință — cei mai clari diferențiatori, față de bootcamp-ul de programare, live, limitat de cohorte, din altă parte, a acestei categorii."
+    },
+    "marketingHints": {
+      "en": "Lead with concrete habit/streak mechanics and real AI-conversation-practice specifics, never generic \"learn a language\" stock phrases.",
+      "ro": "Începe cu mecanisme concrete, de streak/obișnuință, și detalii reale, de exersare a conversației, prin AI, niciodată cu fraze generice, de tipul „învață o limbă”."
+    },
+    "financialHints": {
+      "en": "Model revenue as gradually-building MRR from tiered subscriptions, not upfront tuition or cohort-batch revenue recognition, and keep growth explicitly not bounded by any instructor capacity, unlike the cohort-based coding bootcamp elsewhere in this library.",
+      "ro": "Modelează veniturile, ca venit lunar recurent, care se construiește treptat, din abonamente pe niveluri, nu ca taxă de școlarizare, plătită integral, sau recunoaștere a venitului, pe cohorte, și menține creșterea, explicit nelimitată, de nicio capacitate a instructorilor, spre deosebire de bootcamp-ul de programare, bazat pe cohorte, din altă parte, a acestei biblioteci."
+    },
+    "generationHints": {
+      "en": "Keep generated tone encouraging and habit-focused, grounded in real streak, spaced-repetition, and AI-tutor specifics — never generic \"learn a language\" marketing copy that could apply to any app.",
+      "ro": "Menține un ton generat, încurajator, și concentrat pe obișnuință, fundamentat pe detalii reale, de streak, repetiție spațiată, și tutore AI — niciodată un text de marketing generic, de tipul „învață o limbă”, care s-ar putea aplica oricărei aplicații."
+    }
+  },
+  "businessLifecycle": {
+    "stages": [
+      {
+        "stage": "preparation",
+        "objectives": [
+          {
+            "en": "Build the initial micro-lesson content library and AI conversation-tutor pipeline for the first 2-3 flagship languages.",
+            "ro": "Construiește biblioteca inițială, de micro-lecții, și fluxul tutorelui AI, de conversație, pentru primele 2-3 limbi emblematice."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Trying to launch with a broad multi-language catalog from day one instead of nailing content quality and AI-tutor reliability on a focused set of languages first.",
+            "ro": "Încercarea de a lansa, cu un catalog amplu, multi-lingv, din prima zi, în loc să perfecționezi mai întâi, calitatea conținutului, și fiabilitatea tutorelui AI, pe un set concentrat, de limbi."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Ship a deep, polished lesson library and AI-tutor experience for 2-3 flagship languages before adding more.",
+            "ro": "Lansează o bibliotecă de lecții, profundă, șlefuită, și o experiență, de tutore AI, pentru 2-3 limbi emblematice, înainte de a adăuga altele."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.selfPacedLanguagePlatform.businessDna.resources.course1"
+        ]
+      },
+      {
+        "stage": "validation",
+        "objectives": [
+          {
+            "en": "Run a closed beta with 50-100 self-directed learners on the flagship languages to validate lesson pacing and AI-tutor usefulness.",
+            "ro": "Rulează o testare închisă, cu 50-100 de cursanți auto-direcționați, pe limbile emblematice, pentru a valida ritmul lecțiilor, și utilitatea tutorelui AI."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Skipping direct beta-user feedback on the AI conversation tutor and only testing the video-lesson content.",
+            "ro": "Sărirea peste feedback-ul direct, al utilizatorilor de testare, despre tutorele AI, de conversație, și testarea, doar a conținutului, video-lecțiilor."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track daily-active use and streak formation closely among beta users and iterate on onboarding before public launch.",
+            "ro": "Urmărește îndeaproape, utilizarea zilnică activă, și formarea streak-ului, în rândul utilizatorilor de testare, și iterează, asupra integrării, înainte de lansarea publică."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "mvp",
+        "objectives": [
+          {
+            "en": "Complete the self-serve signup flow, free-tier limits, spaced-repetition engine, and paid-tier upgrade path end-to-end.",
+            "ro": "Finalizează, de la un capăt la altul, fluxul de înscriere, cu autoservire, limitele nivelului gratuit, motorul de repetiție spațiată, și traseul de upgrade, la nivelul plătit."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Treating the free tier as an afterthought instead of designing its limits deliberately to demonstrate value while creating a genuine upgrade trigger.",
+            "ro": "Tratarea nivelului gratuit, ca pe o idee ulterioară, în loc să proiectezi deliberat, limitele sale, pentru a demonstra valoare, creând totodată, un declanșator real, de upgrade."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Design free-tier limits — a single language, capped AI-conversation minutes — specifically to showcase value while creating a clear upgrade trigger.",
+            "ro": "Proiectează limitele nivelului gratuit — o singură limbă, minute plafonate, de conversație AI — special, pentru a evidenția valoarea, creând totodată, un declanșator clar, de upgrade."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.selfPacedLanguagePlatform.businessDna.resources.checklist1"
+        ]
+      },
+      {
+        "stage": "launch",
+        "objectives": [
+          {
+            "en": "Publicly launch on app stores and web with the flagship-language catalog and free-tier signup open to anyone.",
+            "ro": "Lansează public, pe magazinele de aplicații, și web, cu catalogul de limbi emblematice, și înscrierea, de nivel gratuit, deschisă tuturor."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Launching broad paid-acquisition campaigns before free-to-paid conversion is validated on organic signups.",
+            "ro": "Lansarea unor campanii ample, de achiziție plătită, înainte ca, conversia de la gratuit, la plătit, să fie validată, pe înscrierile organice."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Validate free-to-paid conversion on organic and beta-referred signups before scaling paid-acquisition spend.",
+            "ro": "Validează conversia, de la gratuit, la plătit, pe înscrierile organice, și recomandate de testare, înainte de a scala cheltuielile, de achiziție plătită."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "firstCustomer",
+        "objectives": [
+          {
+            "en": "Convert the first cohort of free-tier signups into paying Plus/Unlimited subscribers.",
+            "ro": "Transformă primul val, de înscrieri, de nivel gratuit, în abonați plătitori, Plus/Unlimited."
+          }
+        ],
+        "kpis": [
+          "leadConversion"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Under-investing in the in-app upgrade prompts and messaging that actually drive free-to-paid conversion.",
+            "ro": "Subinvestirea, în solicitările de upgrade, în aplicație, și mesajele, care generează, de fapt, conversia de la gratuit, la plătit."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Instrument and test in-app upgrade prompts at the moments free-tier limits are hit, not just on a generic pricing page.",
+            "ro": "Instrumentează, și testează, solicitările de upgrade, în aplicație, în momentele, în care limitele nivelului gratuit, sunt atinse, nu doar pe o pagină generică, de prețuri."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "productMarketFit",
+        "objectives": [
+          {
+            "en": "Reach a stable base of paying subscribers with healthy daily-streak retention across the flagship languages.",
+            "ro": "Atinge o bază stabilă, de abonați plătitori, cu retenție sănătoasă, de streak zilnic, în limbile emblematice."
+          }
+        ],
+        "kpis": [
+          "mrr",
+          "churn"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Declaring product-market fit on signup growth alone without confirming daily-streak retention is genuinely holding.",
+            "ro": "Declararea potrivirii produs-piață, doar pe baza creșterii înscrierilor, fără a confirma, că retenția, de streak zilnic, se menține, cu adevărat."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Track daily-active-streak retention by language and cohort, not just signup or MRR growth alone.",
+            "ro": "Urmărește retenția, de streak activ zilnic, pe limbă, și cohort, nu doar creșterea înscrierilor, sau venitului lunar recurent."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "growth",
+        "objectives": [
+          {
+            "en": "Scale paid and organic acquisition while expanding the language catalog based on subscriber demand signals.",
+            "ro": "Scalează achiziția plătită, și organică, extinzând totodată, catalogul de limbi, pe baza semnalelor de cerere, ale abonaților."
+          }
+        ],
+        "kpis": [
+          "mrr"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Adding new languages before proving retention is repeatable on the existing catalog.",
+            "ro": "Adăugarea de limbi noi, înainte de a dovedi, că retenția, este repetabilă, pe catalogul existent."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Prioritize new-language additions based on explicit subscriber demand signals — waitlist requests, churn-survey responses — not guesswork.",
+            "ro": "Prioritizează adăugările de limbi noi, pe baza semnalelor explicite, de cerere, ale abonaților — cereri de listă de așteptare, răspunsuri, la sondaje de abandon — nu pe presupuneri."
+          }
+        ],
+        "recommendedResources": [
+          "businessLibrary.selfPacedLanguagePlatform.businessDna.resources.community1"
+        ]
+      },
+      {
+        "stage": "scaling",
+        "objectives": [
+          {
+            "en": "Expand the content and AI-engineering team to sustain a faster language-catalog release cadence without quality loss.",
+            "ro": "Extinde echipa de conținut, și inginerie AI, pentru a susține un ritm mai rapid, de lansare, a catalogului de limbi, fără pierdere de calitate."
+          }
+        ],
+        "kpis": [
+          "mrr",
+          "churn"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Scaling paid-acquisition spend faster than content-production throughput can keep the catalog fresh and reliable.",
+            "ro": "Scalarea cheltuielilor, de achiziție plătită, mai rapid, decât poate debitul, de producție de conținut, să mențină catalogul proaspăt, și fiabil."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Hire dedicated language-content leads per new language rather than stretching a single generalist content team thin.",
+            "ro": "Angajează responsabili dedicați, de conținut, pe limbă, pentru fiecare limbă nouă, în loc să întinzi la limită, o singură echipă generalistă, de conținut."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "expansion",
+        "objectives": [
+          {
+            "en": "Launch adjacent product lines — e.g. a business-language track or family/multi-seat plans — based on subscriber demand.",
+            "ro": "Lansează linii de produse adiacente — de ex. un traseu de limbă de afaceri, sau planuri familiale/multi-utilizator — pe baza cererii abonaților."
+          }
+        ],
+        "kpis": [
+          "ltv"
+        ],
+        "commonMistakes": [
+          {
+            "en": "Launching a new product line without confirming demand from existing subscribers first.",
+            "ro": "Lansarea unei linii de produse noi, fără a confirma, mai întâi, cererea, din partea abonaților existenți."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Survey the existing subscriber base for adjacent-offering demand before committing engineering and content resources.",
+            "ro": "Sondează baza existentă, de abonați, pentru cererea de oferte adiacente, înainte de a angaja resurse, de inginerie, și conținut."
+          }
+        ],
+        "recommendedResources": []
+      },
+      {
+        "stage": "exit",
+        "objectives": [
+          {
+            "en": "Document the content library, AI-tutor pipeline, and subscriber metrics for acquisition readiness.",
+            "ro": "Documentează biblioteca de conținut, fluxul tutorelui AI, și metricile abonaților, pentru pregătirea achiziției."
+          }
+        ],
+        "kpis": [],
+        "commonMistakes": [
+          {
+            "en": "Leaving AI-tutor prompt and pipeline engineering knowledge undocumented and founder-dependent.",
+            "ro": "Lăsarea nedocumentată, a cunoștințelor, de inginerie, a prompt-urilor, și fluxului, tutorelui AI, dependente de fondator."
+          }
+        ],
+        "recommendedActions": [
+          {
+            "en": "Maintain clean, ongoing documentation of the content pipeline and AI-tutor architecture, not just before a sale process.",
+            "ro": "Menține documentație curată, continuă, a fluxului de conținut, și arhitecturii, tutorelui AI, nu doar înainte de un proces de vânzare."
+          }
+        ],
+        "recommendedResources": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "microLessonVideoContentProduction",
+      "aiConversationTutorEngineeringBuild",
+      "webAndMobileAppPlatformBuild"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "cloudAiModelAndHostingCosts",
+      "contentProductionAndSupportSalaries"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "aiConversationUsageOverage",
+      "performanceMarketingSpend"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "tieredMonthlySubscriptionFee",
+        "label": {
+          "en": "Tiered monthly subscription fee unlocking more languages, unlimited AI conversation practice, and offline downloads",
+          "ro": "Taxă lunară, de abonament pe niveluri, care deblochează mai multe limbi, exersare nelimitată de conversație AI, și descărcări offline"
+        }
+      },
+      {
+        "key": "discountedAnnualSubscriptionFee",
+        "label": {
+          "en": "Discounted annual subscription plan billed upfront",
+          "ro": "Plan de abonament anual, redus, facturat integral, în avans"
+        }
+      },
+      {
+        "key": "additionalLanguageUnlockUpgrade",
+        "label": {
+          "en": "Upgrade fee for unlocking additional language tracks beyond a plan's included languages",
+          "ro": "Taxă de upgrade, pentru deblocarea traseelor suplimentare, de limbi, dincolo de limbile incluse, într-un plan"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "activePayingSubscribers": "number",
+      "averageRevenuePerSubscriber": "currency",
+      "freeToPaidConversionRatePercent": "percent"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "monthlyChurnRatePercent": "percent",
+      "annualPlanMixSharePercent": "percent"
+    },
+    "notesTranslationKey": "businessLibrary.selfPacedLanguagePlatform.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "subscriptionInflow",
+      "aiModelAndHostingOutflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 20,
+    "notesTranslationKey": "businessLibrary.selfPacedLanguagePlatform.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 72,
+    "notesTranslationKey": "businessLibrary.selfPacedLanguagePlatform.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 18,
+    "notesTranslationKey": "businessLibrary.selfPacedLanguagePlatform.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "languageContentProducerRecruiting",
+      "aiAndPlatformEngineerRecruiting"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "appStoreAndSearchAcquisitionSpend",
+      "shortFormContentProduction"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "corporateIncomeTax",
+      "payrollTaxOnContentAndEngineeringStaff"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "sixMonthOperatingReserve",
+      "aiModelApiPriceIncreaseBuffer"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "mrr",
+      "churn",
+      "ltv",
+      "leadConversion"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 10000,
+      "notesTranslationKey": "businessLibrary.selfPacedLanguagePlatform.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 32000,
+      "notesTranslationKey": "businessLibrary.selfPacedLanguagePlatform.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 60000,
+      "notesTranslationKey": "businessLibrary.selfPacedLanguagePlatform.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.selfPacedLanguagePlatform.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.selfPacedLanguagePlatform.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.selfPacedLanguagePlatform.financial.aiMetadata.generationHints"
+  }
+}
