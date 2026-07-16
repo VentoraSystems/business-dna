@@ -24545,6 +24545,466 @@
           "generationHints": "Menține perspectivele, fundamentate, pe acuratețea personalizării, prin chestionarul de admitere, verificarea siguranței ingredientelor, și reținerea, condusă de potrivire."
         }
       }
+    },
+    "techRecruitmentAgency": {
+      "businessDna": {
+        "resources": {
+          "course1": "Curs: Interviuri tehnice structurate pentru recrutori (LeverTRM Academy)",
+          "community1": "Comunitate: RecruitingBrainfood și comunitatea de Slack Tech Recruiters",
+          "book1": "Carte: \"Hiring Engineers: A Playbook for Technical Recruiting\" de Elena Marsh",
+          "checklist1": "Listă de verificare: Lista de preluare tehnică a rolului și de construire a grilei de selecție"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Previziunea presupune că volumul de plasări tehnice crește pe măsură ce pipeline-ul de candidați din nișa tehnică se adâncește și grila de selecție se maturizează, nu ca o curbă liniară lină."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — pragul de rentabilitate real depinde în mare măsură de cât de repede pipeline-ul de nișă tehnică și grila de selecție generează plasări."
+        },
+        "grossMargin": {
+          "notes": "Marjă ridicată, tipică unei afaceri de servicii cu costuri reduse ale bunurilor vândute, contrabalansată de abonamentul la platforma de evaluare tehnică."
+        },
+        "netMargin": {
+          "notes": "După costurile de ATS, platformă de evaluare tehnică și abonamente pentru instrumente de sourcing."
+        },
+        "scenarios": {
+          "conservative": "Câteva plasări pe bază de contingență într-o singură nișă tehnică, fără clienți de căutare pe retainer încă.",
+          "expected": "Volum constant de plasări pe bază de contingență în nișa tehnică principală, plus 1-2 clienți de căutare pe retainer pentru roluri senior.",
+          "optimistic": "Un pipeline tehnic de nișă solid, plus mai multe acorduri de căutare pe retainer pentru roluri senior/de conducere."
+        },
+        "risks": {
+          "risk1": "O înghețare a angajărilor sau un val de disponibilizări la un client cheie elimină peste noapte o căutare tehnică activă și comisionul aferent.",
+          "risk2": "O înlocuire din perioada de garanție pentru un rol tehnic înseamnă reluarea căutării fără taxă suplimentară, iar o angajare tehnică nereușită este mai costisitoare de remediat decât una generalistă."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul ca fiind condus de plasări și neregulat, sensibil în special la ciclurile de angajare din sectorul tehnologic, nu la piața muncii în general."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Recrutori care chiar știu să evalueze codul — candidați din inginerie selectați tehnic, găsiți acolo unde se află de fapt inginerii.",
+          "category": "Agenție de recrutare specializată pe tehnologie"
+        },
+        "brandPromise": "O listă scurtă de ingineri care chiar trec de pragul tău tehnic, susținută de o garanție reală de plasare.",
+        "uvp": {
+          "statement": "Recrutare specializată pe tehnologie, cu un proces de selecție cu adevărat tehnic și un pipeline de candidați solid, obținut de pe GitHub și din comunități de dezvoltatori.",
+          "diff1": "Recrutori care susțin interviuri tehnice structurate reale, nu doar potrivire de cuvinte-cheie din CV",
+          "diff2": "Sourcing de pe GitHub și din comunități de dezvoltatori, nu doar de pe LinkedIn și platforme de joburi"
+        },
+        "icp": {
+          "description": "Startup-uri și scale-up-uri care angajează pentru roluri de inginerie software, DevOps/SRE sau data, acolo unde recrutorii generaliști și echipele interne au dificultăți să facă față unei piețe tehnice de talente foarte competitive.",
+          "firmographics": "Companii cu 10-500 de angajați, care angajează 1-15 roluri tehnice pe an în stack-ul sau nișa țintă."
+        },
+        "personas": {
+          "persona1": {
+            "name": "CTO dezamăgit de o listă scurtă potrivită doar prin cuvinte-cheie de la un recrutor generalist",
+            "description": "Lider tehnic care a primit candidați care păreau potriviți pe hârtie, dar nu au trecut de interviul tehnic propriu al echipei."
+          },
+          "persona2": {
+            "name": "Startup în creștere rapidă care angajează primul rol de inginerie specializat",
+            "description": "Companie care angajează pentru un tip de rol pentru care nu are capacitate internă de recrutare tehnică."
+          }
+        },
+        "painPoints": {
+          "point1": "Primirea unui flux de candidați potriviți doar prin cuvinte-cheie din CV, de la recrutori generaliști, care nu trec de interviul tehnic propriu al echipei.",
+          "point2": "Lipsa capacității interne de recrutare tehnică pentru a selecta corect candidații pentru un rol de inginerie specializat."
+        },
+        "outcomes": {
+          "outcome1": "O listă scurtă, selectată tehnic, în loc de o grămadă de CV-uri care nu trec de interviul tehnic propriu al echipei.",
+          "outcome2": "Încrederea că noul angajat din inginerie va performa cu adevărat, susținută de o garanție."
+        },
+        "messaging": {
+          "core": "Nu mai pierde cicluri de interviu tehnic cu candidați potriviți doar prin cuvinte-cheie. Primește o listă scurtă care a trecut deja de o selecție tehnică reală.",
+          "support1": "Specializați pe tehnologie, nu recrutori generaliști reetichetați pentru roluri tehnice."
+        },
+        "brandVoice": {
+          "tone": "Credibil din punct de vedere tehnic, direct și încrezător.",
+          "attr1": "Credibil tehnic",
+          "attr2": "Orientat spre rezultate"
+        },
+        "contentPillars": {
+          "pillar1": "Cum construiești o grilă de selecție tehnică ce chiar prezice performanța la job",
+          "pillar2": "Tendințe de angajare și repere salariale în nișa tehnică țintă"
+        },
+        "channelStrategy": "Recomandările de la managerii de recrutare din inginerie și de la candidații plasați sunt canalul principal; conținutul de sourcing construit în jurul prezenței pe GitHub și în comunități de dezvoltatori construiește o notorietate secundară; sponsorizarea și participarea la conferințe de inginerie este experimentală.",
+        "community": {
+          "description": "O rețea de foști candidați tehnici și manageri de recrutare din inginerie din nișa țintă, care recomandă reciproc afaceri noi.",
+          "platform1": "Grupuri de Slack și Discord ale comunităților de dezvoltatori din nișa tehnică țintă"
+        },
+        "leadMagnets": {
+          "magnet1": "Consultație gratuită de definire tehnică a rolului și un exemplu de scorecard de interviu structurat"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Recomandare sau solicitare inbound de recrutare tehnică",
+            "description": "Un manager de recrutare din inginerie sau un CTO ia legătura pe baza unei recomandări sau a unui conținut."
+          },
+          "stage2": {
+            "name": "Apel de definire tehnică a rolului",
+            "description": "O discuție detaliată cu echipa de inginerie a clientului pentru a defini stack-ul, senioritatea și grila de selecție."
+          },
+          "stage3": {
+            "name": "Acord de căutare și livrarea listei scurte selectate tehnic",
+            "description": "Un acord de căutare semnat, urmat de o listă scurtă inițială care a trecut deja de selecția tehnică structurată."
+          }
+        },
+        "retention": {
+          "tactic1": "Contactarea proactivă a clienților anteriori înainte de următoarea nevoie probabilă de angajare tehnică, pe baza semnalelor de finanțare/creștere."
+        },
+        "analytics": {
+          "metric1": "Rata de finalizare căutare-plasare, pe nișă tehnică și stack"
+        },
+        "aiMetadata": {
+          "generationHints": "Evidențiază grila de selecție tehnică și sourcing-ul de pe GitHub/din comunități de dezvoltatori în fiecare mesaj — cei doi diferențiatori majori față de recrutorii generaliști reetichetați pentru tehnologie."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Configurează ATS/CRM-ul de recrutare, accesul de sourcing pe GitHub și platforma de evaluare tehnică."
+          },
+          "deliverables": {
+            "0": "Un ATS configurat, cu structura pipeline-ului nișei tehnice alese."
+          },
+          "checklist": {
+            "0": "Confirmă că ATS-ul, accesul de sourcing pe GitHub și platforma de evaluare tehnică sunt toate active înainte de a începe sourcing-ul."
+          },
+          "commonMistakes": {
+            "0": "Subestimarea bugetului pentru platforma de evaluare tehnică, cel mai mare cost de instrumente în afara ATS-ului."
+          },
+          "successCriteria": {
+            "0": "ATS-ul, sourcing-ul pe GitHub și platforma de evaluare tehnică sunt toate active."
+          },
+          "aiRecommendations": {
+            "0": "Alege o nișă tehnică inițială înainte de a construi structura pipeline-ului și a grilei de selecție."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Finalizează primele 3-5 plasări în nișa tehnică aleasă."
+          },
+          "deliverables": {
+            "0": "Un pipeline de candidați selectați tehnic, documentat, pentru nișa aleasă."
+          },
+          "checklist": {
+            "0": "Rămâi în nișa tehnică aleasă până la finalizarea primelor 5 plasări."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea unor căutări în afara nișei tehnice alese prea devreme, diluând profunzimea grilei de selecție."
+          },
+          "successCriteria": {
+            "0": "5 plasări finalizate în nișa tehnică aleasă, fiecare trecând de selecția structurată."
+          },
+          "aiRecommendations": {
+            "0": "Folosește selecția asistată de AI a CV-urilor și a activității de pe GitHub pentru a accelera prima etapă, urmată mereu de un apel uman de selecție tehnică."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardizează fluxul de preluare a clienților și de definire tehnică a rolului."
+          },
+          "deliverables": {
+            "0": "O listă structurată de preluare tehnică, utilizată pentru fiecare căutare."
+          },
+          "checklist": {
+            "0": "Folosește lista structurată de preluare tehnică, completată împreună cu liderul de inginerie al clientului, înainte de a deschide orice căutare."
+          },
+          "commonMistakes": {
+            "0": "Începerea sourcing-ului înainte ca stack-ul, senioritatea și competențele obligatorii ale rolului să fie complet definite."
+          },
+          "successCriteria": {
+            "0": "Fiecare căutare deschisă are o listă de preluare tehnică completată, în dosar."
+          },
+          "aiRecommendations": {
+            "0": "Folosește sourcing-ul asistat de AI pentru a construi mai rapid lista inițială de candidați de pe GitHub, odată ce rolul este definit."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Anunță competența de selecție tehnică și specializarea de nișă a agenției pe piața de clienți țintă."
+          },
+          "deliverables": {
+            "0": "Prezență actualizată pe GitHub/în comunități de dezvoltatori și mesaje de outreach specifice nișei."
+          },
+          "checklist": {
+            "0": "Începe fiecare prezentare cu un exemplu de scorecard de selecție tehnică."
+          },
+          "commonMistakes": {
+            "0": "Poziționarea ca recrutor IT generic, în loc să se pornească de la procesul real de selecție tehnică."
+          },
+          "successCriteria": {
+            "0": "Prima solicitare inbound primită dintr-o poziționare de nișă, credibilă tehnic."
+          },
+          "aiRecommendations": {
+            "0": "Personalizează mesajele de outreach pe baza stack-ului și nevoilor specifice ale fiecărui manager de recrutare din inginerie."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Finalizează prima plasare tehnică plătită, cu perioada de garanție respectată corect."
+          },
+          "deliverables": {
+            "0": "Acord de căutare semnat și o plasare selectată tehnic, finalizată."
+          },
+          "checklist": {
+            "0": "Menține același prag de selecție tehnică pentru primul client ca pentru toți cei viitori."
+          },
+          "commonMistakes": {
+            "0": "Grăbirea unei plasări tehnice pentru a încheia tranzacția, în loc să se aplice grila completă de selecție."
+          },
+          "successCriteria": {
+            "0": "Prima plasare trece de perioada de garanție fără a fi nevoie de o înlocuire."
+          },
+          "aiRecommendations": {
+            "0": "Semnalează candidații cu risc mai mare de plecare timpurie, folosind tipare din semnalele de selecție."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge 18-20 de plasări, cu un pipeline tehnic de nișă stabil."
+          },
+          "deliverables": {
+            "0": "O imagine documentată a canalelor de sourcing specifice tehnologiei care produc cei mai buni candidați."
+          },
+          "checklist": {
+            "0": "Aprofundează complet nișa tehnică principală înainte de a lua în considerare o a doua."
+          },
+          "commonMistakes": {
+            "0": "Dispersarea în prea multe nișe tehnice înainte ca grila de selecție pentru vreuna dintre ele să fie complet stabilită."
+          },
+          "successCriteria": {
+            "0": "Venitul atinge intervalul țintă lunar stabilit de fondator."
+          },
+          "aiRecommendations": {
+            "0": "Identifică automat cele mai performante canale de sourcing specifice tehnologiei, pe baza istoricului de plasări."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Transformă clienții cheie din lucrări ocazionale de contingență în acorduri de căutare pe retainer pentru roluri tehnice senior/de conducere."
+          },
+          "deliverables": {
+            "0": "Un șablon de propunere de căutare pe retainer pentru roluri tehnice senior/de conducere."
+          },
+          "checklist": {
+            "0": "Propune un acord de căutare pe retainer oricărui client cu 2 sau mai multe plasări finalizate, care angajează un rol tehnic senior."
+          },
+          "commonMistakes": {
+            "0": "Neproprunerea niciodată a nivelului de căutare pe retainer clienților recurenți care angajează roluri tehnice senior."
+          },
+          "successCriteria": {
+            "0": "Primul acord de căutare pe retainer semnat pentru un rol tehnic senior/de conducere."
+          },
+          "aiRecommendations": {
+            "0": "Semnalează automat clienții recurenți ca fiind candidați pentru căutare pe retainer, după a doua plasare tehnică."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Adaugă un al doilea recrutor cu fluență tehnică pentru a extinde capacitatea de plasare."
+          },
+          "deliverables": {
+            "0": "Un acord scris de partajare a comisionului și o grilă documentată de selecție tehnică pentru noul recrutor."
+          },
+          "checklist": {
+            "0": "Definește structura de partajare a comisionului și predă grila scrisă de selecție înainte de prima căutare a noului recrutor."
+          },
+          "commonMistakes": {
+            "0": "Angajarea unui al doilea recrutor fără a documenta suficient de clar grila de selecție tehnică, pentru ca acesta să o poată aplica independent."
+          },
+          "successCriteria": {
+            "0": "Al doilea recrutor finalizează independent cel puțin 5 plasări tehnice."
+          },
+          "aiRecommendations": {
+            "0": "Folosește datele istorice de rată de finalizare, pe nișă tehnică, pentru a stabili așteptări realiste de acomodare pentru noul recrutor."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Adaugă o a doua nișă tehnică, extinzându-se de la stack-ul original către unul înrudit (de exemplu de la inginerie backend către roluri DevOps/SRE sau data)."
+          },
+          "deliverables": {
+            "0": "O grilă de selecție tehnică distinctă, construită pentru noua nișă."
+          },
+          "checklist": {
+            "0": "Construiește o grilă de selecție tehnică distinctă pentru noua nișă înainte de a o promova clienților."
+          },
+          "commonMistakes": {
+            "0": "Reutilizarea neschimbată a grilei de selecție din nișa originală pentru un stack cu adevărat diferit."
+          },
+          "successCriteria": {
+            "0": "Prima plasare finalizată în noua nișă tehnică, folosind propria grilă de selecție."
+          },
+          "aiRecommendations": {
+            "0": "Folosește datele privind rezultatele plasărilor din prima nișă pentru a calibra mai rapid grila de selecție a noii nișe."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Pregătește portofoliul de clienți, baza de date de candidați și grilele documentate de selecție tehnică pentru achiziție de către o agenție mai mare."
+          },
+          "deliverables": {
+            "0": "Un set documentat și transferabil de grile de selecție tehnică și înregistrări de candidați/clienți."
+          },
+          "checklist": {
+            "0": "Înregistrează fiecare interacțiune cu candidatul, detaliu al relației cu clientul și decizie a grilei de selecție în ATS încă din prima zi."
+          },
+          "commonMistakes": {
+            "0": "Judecata de selecție tehnică deținută doar de fondator, nedocumentată într-o grilă pe care oricine ar putea-o aplica."
+          },
+          "successCriteria": {
+            "0": "Portofoliul de clienți, baza de date de candidați și grilele de selecție sunt complet documentate și transferabile."
+          },
+          "aiRecommendations": {
+            "0": "Rezumă automat tiparele rezultatelor plasărilor, pentru a demonstra fiabilitatea grilei de selecție unui posibil cumpărător."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Menține fiecare etapă ancorată în grila de selecție tehnică și canalele de sourcing specifice tehnologiei, nu în repere generice de agenție de recrutare."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "\"Hiring Engineers: A Playbook for Technical Recruiting\" de Elena Marsh",
+          "description": "Un ghid practic pentru construirea grilelor de interviu tehnic și a temelor take-home, destinat recrutorilor care nu sunt ingineri."
+        },
+        "item2": {
+          "title": "Interviuri tehnice structurate pentru recrutori",
+          "description": "Un curs despre cum să susții o selecție tehnică bazată pe grilă și să evaluezi temele take-home, fără să fii tu însuți inginer software."
+        },
+        "item3": {
+          "title": "RecruitingBrainfood și comunitatea de Slack Tech Recruiters",
+          "description": "O comunitate activă de recrutori tehnici care își împărtășesc tacticile de sourcing, grilele de selecție și reperele de piață salarială."
+        },
+        "item4": {
+          "title": "The Tech Recruiting Podcast",
+          "description": "Interviuri cu recrutori tehnici și manageri de recrutare din inginerie despre tactici de sourcing și selecție."
+        },
+        "item5": {
+          "title": "The GitHub Sourcing Digest",
+          "description": "Un newsletter despre tacticile de sourcing bazate pe GitHub și tendințele din comunitățile de dezvoltatori."
+        },
+        "item6": {
+          "title": "Bullhorn",
+          "description": "ATS/CRM-ul principal pentru gestionarea pipeline-ului de candidați tehnici și a căutărilor pentru clienți."
+        },
+        "item7": {
+          "title": "CoderPad",
+          "description": "O platformă pentru coordonarea interviurilor de live-coding și a temelor tehnice de tip take-home."
+        },
+        "item8": {
+          "title": "Instrumente AI de selecție a CV-urilor și a activității de pe GitHub",
+          "description": "Instrumente care ajută la prioritizarea abordării, combinând semnalele din CV cu activitatea reală de contribuție pe GitHub."
+        },
+        "item9": {
+          "title": "Certified Technical Recruiter (traseu de specializare în sourcing tehnic)",
+          "description": "Un traseu de certificare axat special pe sourcing și selecție tehnică, distinct de certificările generaliste de recrutare."
+        },
+        "item10": {
+          "title": "Conferințe și meetup-uri locale și regionale de inginerie",
+          "description": "Oportunități de sponsorizare și participare pentru construirea unui pipeline direct de candidați tehnici."
+        },
+        "item11": {
+          "title": "Consultanți independenți în interviuri tehnice",
+          "description": "Specialiști care pot ajuta la construirea sau auditarea unei grile structurate de selecție tehnică pentru o nișă nouă."
+        },
+        "item12": {
+          "title": "Listă de verificare pentru preluarea tehnică a rolului și construirea grilei de selecție",
+          "description": "O listă de verificare pas cu pas pentru definirea unui rol tehnic și construirea grilei sale de selecție, înainte de începerea sourcing-ului."
+        },
+        "aiMetadata": {
+          "generationHints": "Menține recomandările de resurse ancorate în sourcing-ul specific tehnologiei și în competențele de selecție tehnică, nu în conținut generalist de recrutare."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Sourcing-ul direct din graficele de contribuție de pe GitHub scoate la iveală candidați pasivi valoroși, care nu apar niciodată în căutările generaliste pe platforme de joburi sau LinkedIn."
+          },
+          "item2": {
+            "title": "Clienții plătesc adesea un premium pentru o grilă documentată de selecție tehnică pe care o pot reutiliza în propriile angajări interne viitoare, nu doar pentru plasarea în sine."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Judecata proprie a fondatorului în selecția tehnică este un blocaj de scalare — creșterea stagnează fără o grilă documentată și transferabilă."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Tratarea „recrutării tech” ca pe o simplă reetichetare a recrutării generaliste, în loc de construirea unui proces real de selecție tehnică, bazat pe grilă."
+          },
+          "item2": {
+            "title": "Bazarea exclusivă pe LinkedIn și platforme de joburi, în loc de sourcing acolo unde inginerii seniori pasivi chiar petrec timp — GitHub și comunitățile de dezvoltatori."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Publicarea unui exemplu de scorecard de selecție tehnică drept magnet de lead câștigă credibilitate în fața CTO-ilor sceptici mai repede decât orice prezentare generică de vânzări."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Documentează grila de selecție tehnică suficient de explicit încât un bun constructor de relații — nu neapărat un fost inginer — să poată fi format în utilizarea ei."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Nu revendica o abilitate de programare mai mare decât ai — credibilitatea care contează este judecata riguroasă de selecție, nu pretinderea că ești inginer."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Plasările tehnice se grupează în jurul evenimentelor de finanțare ale companiilor — o rundă seed sau Series A este un semnal fiabil al unui val iminent de angajări în inginerie."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Mulți „recrutori tech” de pe piață nu au susținut niciodată ei înșiși un interviu tehnic — competența reală de selecție este un diferențiator mai rar și mai greu de copiat decât pare."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Timpul de evaluare a temelor take-home este un cost real, recurent de muncă, ușor de subevaluat la stabilirea comisionului de plasare."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "O creștere bruscă a activității publice de blog de inginerie sau a sponsorizărilor de conferințe ale unei companii anticipă adesea un val de angajări pe stack-ul respectiv."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "Un recrutor care a construit o grilă documentată de selecție pentru inginerie backend a închis plasări la o rată de finalizare dublă față de media industriei, în prima sa nișă."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "O agenție care a sărit peste selecția tehnică structurată pentru a merge mai repede a înregistrat un val de înlocuiri din perioada de garanție care i-a erodat marja."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Trebuie să fiu un fost inginer software pentru a conduce această afacere?",
+            "answer": "Nu — competența reală de selecție (un interviu tehnic structurat, bazat pe grilă, plus coordonarea temelor take-home) se poate învăța fără să fi fost tu însuți inginer, deși este nevoie de suficientă fluență tehnică pentru a aplica grila în mod credibil."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Orice recrutor care adaugă „tech” în titlul postului poate reuși în recrutarea tehnică.",
+            "fact": "Clienții descoperă rapid un recrutor care nu poate evalua cu adevărat munca tehnică, iar listele scurte potrivite doar prin cuvinte-cheie erodează rapid încrederea — competența reală de selecție este ceea ce plătesc de fapt clienții."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Construiește grila de selecție tehnică împreună cu echipa de inginerie a clientului, în etapa de preluare, astfel încât lista scurtă să fie evaluată după pragul real al echipei, nu după unul generic."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Ancorează fiecare perspectivă în grila de selecție tehnică și în canalele de sourcing specifice tehnologiei, niciodată în afirmații generice de tip „recrutare IT”."
+        }
+      }
     }
   }
 }

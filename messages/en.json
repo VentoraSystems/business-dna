@@ -24545,6 +24545,466 @@
           "generationHints": "Keep insights grounded in intake-quiz personalization accuracy, ingredient-safety verification, and fit-driven retention."
         }
       }
+    },
+    "techRecruitmentAgency": {
+      "businessDna": {
+        "resources": {
+          "course1": "Course: Structured Technical Interviewing for Recruiters (LeverTRM Academy)",
+          "community1": "Community: RecruitingBrainfood and the Tech Recruiters Slack community",
+          "book1": "Book: \"Hiring Engineers: A Playbook for Technical Recruiting\" by Elena Marsh",
+          "checklist1": "Checklist: Technical role-scoping and screening-rubric intake checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast assumes technical-placement volume grows as the niche stack's candidate pipeline deepens and the screening rubric matures, not a smooth linear curve."
+        },
+        "breakEven": {
+          "notes": "Structural estimate only — actual break-even depends heavily on how quickly the technical-niche pipeline and screening rubric produce placements."
+        },
+        "grossMargin": {
+          "notes": "High margin typical of a service business with low cost of goods sold, offset by the technical-assessment platform subscription."
+        },
+        "netMargin": {
+          "notes": "After ATS, technical-assessment platform, and sourcing-tool subscription costs."
+        },
+        "scenarios": {
+          "conservative": "A handful of contingency placements in one technical niche, no retained-search clients yet.",
+          "expected": "Steady contingency placement volume in the primary technical niche plus 1-2 senior-role retained-search clients.",
+          "optimistic": "A strong technical-niche pipeline plus multiple senior/leadership retained-search agreements."
+        },
+        "risks": {
+          "risk1": "A hiring freeze or layoff round at a key client removes an active technical search and its fee overnight.",
+          "risk2": "A guarantee-period replacement on a technical role means redoing a search at no additional fee, and a bad technical hire is costlier to unwind than a generalist one."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as placement-driven and lumpy, sensitive to tech-sector hiring cycles specifically, not the broader labor market."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Recruiters who can actually evaluate the code — technically-screened engineering candidates, sourced where engineers actually are.",
+          "category": "Tech-specialized recruitment agency"
+        },
+        "brandPromise": "A shortlist of engineers who actually pass your technical bar, backed by a real placement guarantee.",
+        "uvp": {
+          "statement": "Tech-specialized recruiting with a genuinely technical screening process and a deep, ready candidate pipeline sourced from GitHub and developer communities.",
+          "diff1": "Recruiters who run real structured technical interviews, not just resume keyword-matching",
+          "diff2": "Sourcing from GitHub activity and developer communities, not just LinkedIn and job boards"
+        },
+        "icp": {
+          "description": "Startups and scale-ups hiring for software engineering, DevOps/SRE, or data roles where generalist recruiters and in-house teams struggle to keep up with a tight technical talent market.",
+          "firmographics": "Companies with 10-500 employees hiring 1-15 technical roles per year in the target stack or niche."
+        },
+        "personas": {
+          "persona1": {
+            "name": "CTO burned by a generalist recruiter's keyword-matched shortlist",
+            "description": "Technical leader who received candidates who looked right on paper but failed the team's own technical interview."
+          },
+          "persona2": {
+            "name": "Fast-growing startup hiring its first specialized engineering role",
+            "description": "Company hiring for a role type it has no internal technical-recruiting capacity to screen for."
+          }
+        },
+        "painPoints": {
+          "point1": "Getting a stream of resume-keyword-matched candidates from generalist recruiters who don't survive the team's own technical interview loop.",
+          "point2": "Not having in-house technical-recruiting capacity to properly screen candidates for a specialized engineering role."
+        },
+        "outcomes": {
+          "outcome1": "A short, technically-vetted shortlist instead of a pile of resumes that fail the team's own interview loop.",
+          "outcome2": "Confidence the new engineering hire will actually perform, backed by a guarantee."
+        },
+        "messaging": {
+          "core": "Stop losing engineering-interview cycles to keyword-matched candidates. Get a shortlist that's already passed a real technical screen.",
+          "support1": "Tech-specialized, not a generalist recruiter relabeled for tech roles."
+        },
+        "brandVoice": {
+          "tone": "Technically credible, direct, and confident.",
+          "attr1": "Technically credible",
+          "attr2": "Results-focused"
+        },
+        "contentPillars": {
+          "pillar1": "How to structure a technical-screening rubric that actually predicts on-the-job performance",
+          "pillar2": "Hiring trends and compensation benchmarks in the target technical niche"
+        },
+        "channelStrategy": "Referrals from engineering hiring managers and placed candidates are primary; sourcing content built around GitHub and developer-community presence builds secondary awareness; sponsoring and attending engineering conferences is experimental.",
+        "community": {
+          "description": "A network of past technical candidates and engineering hiring managers in the target niche who both refer new business.",
+          "platform1": "Developer-community Slack and Discord groups in the target technical niche"
+        },
+        "leadMagnets": {
+          "magnet1": "Free technical role-scoping consultation and a sample structured-interview scorecard"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Referral or inbound technical-hiring inquiry",
+            "description": "An engineering hiring manager or CTO reaches out based on a referral or content."
+          },
+          "stage2": {
+            "name": "Technical role-scoping call",
+            "description": "A detailed conversation with the client's engineering team to define the stack, seniority, and screening rubric."
+          },
+          "stage3": {
+            "name": "Search agreement and technically-screened shortlist delivery",
+            "description": "A signed search agreement followed by an initial shortlist that has already passed the structured technical screen."
+          }
+        },
+        "retention": {
+          "tactic1": "Proactively reaching out to past clients before their next likely engineering hiring need, based on funding/growth signals."
+        },
+        "analytics": {
+          "metric1": "Search-to-placement close rate by technical niche and stack"
+        },
+        "aiMetadata": {
+          "generationHints": "Emphasize the technical-screening rubric and GitHub/developer-community sourcing in every message — the two biggest differentiators from generalist recruiters relabeled for tech."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Set up the ATS/recruiting CRM, GitHub sourcing access, and the technical-assessment platform."
+          },
+          "deliverables": {
+            "0": "A configured ATS with the chosen technical-niche pipeline structure."
+          },
+          "checklist": {
+            "0": "Confirm the ATS, GitHub sourcing access, and technical-assessment platform are all active before sourcing begins."
+          },
+          "commonMistakes": {
+            "0": "Underbudgeting for the technical-assessment platform, the largest tooling cost beyond the ATS."
+          },
+          "successCriteria": {
+            "0": "ATS, GitHub sourcing, and the technical-assessment platform are all active."
+          },
+          "aiRecommendations": {
+            "0": "Pick one initial technical niche before setting up the pipeline and screening-rubric structure."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Complete the first 3-5 placements in the chosen technical niche."
+          },
+          "deliverables": {
+            "0": "A documented, technically-screened candidate pipeline for the chosen niche."
+          },
+          "checklist": {
+            "0": "Stay within the chosen technical niche until the first 5 placements are complete."
+          },
+          "commonMistakes": {
+            "0": "Taking on searches outside the chosen technical niche too early, diluting the depth of the screening rubric."
+          },
+          "successCriteria": {
+            "0": "5 placements completed within the chosen technical niche, each passing the structured screen."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted resume and GitHub-activity screening to speed up the first pass, always followed by a human technical-screening call."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardize the client-intake and technical role-scoping workflow."
+          },
+          "deliverables": {
+            "0": "A structured technical intake checklist used for every search."
+          },
+          "checklist": {
+            "0": "Use the structured technical intake checklist, co-completed with the client's engineering lead, before opening any search."
+          },
+          "commonMistakes": {
+            "0": "Starting to source before the role's stack, seniority, and must-have skills are fully scoped."
+          },
+          "successCriteria": {
+            "0": "Every open search has a completed technical intake checklist on file."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted sourcing to build the initial GitHub-sourced candidate list faster once the role is scoped."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Announce the agency's technical-screening competency and niche specialization to the target client market."
+          },
+          "deliverables": {
+            "0": "Updated GitHub/developer-community presence and niche-specific outreach messaging."
+          },
+          "checklist": {
+            "0": "Lead every pitch with a sample technical-screening scorecard."
+          },
+          "commonMistakes": {
+            "0": "Positioning as a generic IT recruiter instead of leading with the real technical-screening process."
+          },
+          "successCriteria": {
+            "0": "First inbound inquiry received from niche-specific, technically-credible positioning."
+          },
+          "aiRecommendations": {
+            "0": "Personalize outreach messaging based on each engineering hiring manager's specific stack and role needs."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Complete the first paid technical placement with the guarantee period honored cleanly."
+          },
+          "deliverables": {
+            "0": "Signed search agreement and a completed, technically-screened placement."
+          },
+          "checklist": {
+            "0": "Hold the same technical-screening bar for the first client as for every future one."
+          },
+          "commonMistakes": {
+            "0": "Rushing a technical placement to close the deal instead of running the full screening rubric."
+          },
+          "successCriteria": {
+            "0": "First placement passes the guarantee period without a replacement needed."
+          },
+          "aiRecommendations": {
+            "0": "Flag candidates with a higher risk of an early departure using screening-signal patterns."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach 18-20 placements with a stable technical-niche pipeline."
+          },
+          "deliverables": {
+            "0": "A documented view of which tech-specific sourcing channels produce the best candidates."
+          },
+          "checklist": {
+            "0": "Deepen the primary technical niche fully before considering a second one."
+          },
+          "commonMistakes": {
+            "0": "Spreading across too many technical niches before the screening rubric for any one is fully established."
+          },
+          "successCriteria": {
+            "0": "Revenue reaches the founder's target monthly income range."
+          },
+          "aiRecommendations": {
+            "0": "Identify the highest-converting tech-specific sourcing channels automatically from placement history."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Move key clients from one-off contingency work to retained-search agreements for senior/leadership technical roles."
+          },
+          "deliverables": {
+            "0": "A retained-search proposal template for senior/leadership technical roles."
+          },
+          "checklist": {
+            "0": "Propose a retained-search agreement to any client with 2+ completed placements hiring a senior technical role."
+          },
+          "commonMistakes": {
+            "0": "Never proposing the retained-search tier to repeat clients hiring senior technical roles."
+          },
+          "successCriteria": {
+            "0": "First retained-search agreement signed for a senior/leadership technical role."
+          },
+          "aiRecommendations": {
+            "0": "Flag repeat clients automatically as retained-search candidates after their second technical placement."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Add a second technically-fluent recruiter to expand placement capacity."
+          },
+          "deliverables": {
+            "0": "A written commission-split agreement and a documented technical-screening rubric for the new recruiter."
+          },
+          "checklist": {
+            "0": "Define the commission-split structure and hand over the written screening rubric before the new recruiter's first search."
+          },
+          "commonMistakes": {
+            "0": "Hiring a second recruiter without documenting the technical-screening rubric well enough for them to run it independently."
+          },
+          "successCriteria": {
+            "0": "Second recruiter independently completes at least 5 technical placements."
+          },
+          "aiRecommendations": {
+            "0": "Use historical close-rate data by technical niche to set realistic ramp expectations for the new recruiter."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Add a second technical niche, expanding from the original stack into a related one (e.g. backend engineering into DevOps/SRE or data roles)."
+          },
+          "deliverables": {
+            "0": "A distinct technical-screening rubric built for the new niche."
+          },
+          "checklist": {
+            "0": "Build a distinct technical-screening rubric for the new niche before marketing it to clients."
+          },
+          "commonMistakes": {
+            "0": "Reusing the original niche's screening rubric unchanged for a genuinely different stack."
+          },
+          "successCriteria": {
+            "0": "First placement completed in the new technical niche using its own screening rubric."
+          },
+          "aiRecommendations": {
+            "0": "Use placement outcome data from the first niche to calibrate the new niche's screening rubric faster."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Package the client book, candidate database, and documented technical-screening rubrics for acquisition by a larger agency."
+          },
+          "deliverables": {
+            "0": "A documented, transferable set of technical-screening rubrics and candidate/client records."
+          },
+          "checklist": {
+            "0": "Log every candidate interaction, client relationship detail, and screening-rubric decision in the ATS from day one."
+          },
+          "commonMistakes": {
+            "0": "Technical-screening judgment held only in the founder's head rather than documented in a rubric anyone could apply."
+          },
+          "successCriteria": {
+            "0": "Client book, candidate database, and screening rubrics are fully documented and transferable."
+          },
+          "aiRecommendations": {
+            "0": "Summarize placement-outcome patterns automatically to demonstrate screening-rubric reliability to a potential acquirer."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep each stage grounded in the technical-screening rubric and tech-specific sourcing channels, not generic recruiting-agency milestones."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "\"Hiring Engineers: A Playbook for Technical Recruiting\" by Elena Marsh",
+          "description": "A practical guide to structuring technical-interview rubrics and take-home assessments for non-engineer recruiters."
+        },
+        "item2": {
+          "title": "Structured Technical Interviewing for Recruiters",
+          "description": "A course covering how to run a rubric-based technical screen and evaluate take-home submissions without being a software engineer yourself."
+        },
+        "item3": {
+          "title": "RecruitingBrainfood and the Tech Recruiters Slack community",
+          "description": "An active community of technical recruiters sharing sourcing tactics, screening rubrics, and market-rate benchmarks."
+        },
+        "item4": {
+          "title": "The Tech Recruiting Podcast",
+          "description": "Interviews with technical recruiters and engineering hiring managers on sourcing and screening tactics."
+        },
+        "item5": {
+          "title": "The GitHub Sourcing Digest",
+          "description": "A newsletter covering GitHub-based sourcing tactics and developer-community trends."
+        },
+        "item6": {
+          "title": "Bullhorn",
+          "description": "The core ATS/CRM for managing the technical candidate pipeline and client searches."
+        },
+        "item7": {
+          "title": "CoderPad",
+          "description": "A platform for coordinating live-coding interviews and take-home technical assessments."
+        },
+        "item8": {
+          "title": "AI-assisted resume and GitHub-activity screening tools",
+          "description": "Tools that help prioritize outreach by combining resume signals with real GitHub contribution activity."
+        },
+        "item9": {
+          "title": "Certified Technical Recruiter (tech-sourcing specialization track)",
+          "description": "A certification track focused specifically on technical sourcing and screening, distinct from generalist recruiting certifications."
+        },
+        "item10": {
+          "title": "Local and regional engineering conferences and meetups",
+          "description": "Sponsorship and attendance opportunities for building a direct technical-candidate pipeline."
+        },
+        "item11": {
+          "title": "Independent technical-interviewing consultants",
+          "description": "Specialists who can help design or audit a structured technical-screening rubric for a new niche."
+        },
+        "item12": {
+          "title": "Technical role-scoping and screening-rubric intake checklist",
+          "description": "A step-by-step checklist for scoping a technical role and building its screening rubric before sourcing begins."
+        },
+        "aiMetadata": {
+          "generationHints": "Keep resource recommendations grounded in tech-specific sourcing and technical-screening skills, not generalist recruiting content."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Sourcing directly from GitHub contribution graphs surfaces strong passive candidates who never appear in generalist job-board or LinkedIn searches."
+          },
+          "item2": {
+            "title": "Clients will often pay a premium for a documented technical-screening rubric they can reuse in their own future in-house hiring, not just for the placement itself."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "The founder's own technical-screening judgment is a scaling bottleneck — growth stalls without a documented, transferable rubric."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Treating 'tech recruiting' as just relabeled generalist recruiting instead of building a real, rubric-based technical-screening process."
+          },
+          "item2": {
+            "title": "Relying on LinkedIn and job boards alone instead of sourcing where passive senior engineers actually spend time — GitHub and developer communities."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Publishing a sample technical-screening scorecard as a lead magnet earns credibility with skeptical CTOs faster than any generic sales pitch."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Document the technical-screening rubric explicitly enough that a strong relationship-builder — not necessarily a former engineer — can be trained into running it."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Don't claim more hands-on coding ability than you have — the credibility that matters is rigorous screening judgment, not pretending to be an engineer."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Technical placements cluster around company funding events — a seed or Series A round is a reliable signal of an imminent engineering hiring wave."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Many 'tech recruiters' in the market never actually run a technical interview themselves — genuine screening competency is a rarer, more defensible differentiator than it appears."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Take-home assessment review time is a real, recurring labor cost that's easy to underprice into the placement fee."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "A sudden spike in a company's public engineering-blog output or conference sponsorship often precedes a hiring push for that stack."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A recruiter who built a documented backend-engineering screening rubric closed placements at double the industry-typical close rate within their first niche."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "An agency that skipped structured technical screening to move faster saw a wave of guarantee-period replacements that erased its margin."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Do I need to be a former software engineer to run this business?",
+            "answer": "No — genuine screening competency (a structured, rubric-based technical interview plus coordinating take-home assessments) is learnable without being a former engineer yourself, though enough technical fluency to run the rubric credibly is required."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Any recruiter who adds 'tech' to their title can succeed at technical recruiting.",
+            "fact": "Clients quickly discover a recruiter who can't actually evaluate technical work, and the resulting keyword-matched shortlists erode trust fast — genuine screening competency is what clients are actually paying for."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Co-build the technical-screening rubric with the client's own engineering team during intake, so the shortlist is judged against the team's real bar, not a generic one."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Ground every insight in the technical-screening rubric and tech-specific sourcing channels, never generic 'IT recruiting' claims."
+        }
+      }
     }
   }
 }

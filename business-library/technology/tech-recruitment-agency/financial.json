@@ -1,0 +1,133 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "atsSetup",
+      "technicalAssessmentPlatformSetup",
+      "developerJobBoardCredits"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "atsSubscription",
+      "technicalAssessmentPlatformSubscription",
+      "sourcingToolSubscriptions"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "developerJobBoardPostingFees",
+      "takeHomeAssessmentReviewCosts"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "contingencyPlacementFee",
+        "label": {
+          "en": "Contingency placement fee",
+          "ro": "Comision de plasare pe bază de contingență"
+        }
+      },
+      {
+        "key": "retainedSearchFeeSeniorRoles",
+        "label": {
+          "en": "Retained-search fee for senior/leadership technical roles",
+          "ro": "Taxă de căutare pe retainer pentru roluri tehnice senior/de conducere"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "contingencyFeePercent": "percent",
+      "averagePlacedTechnicalSalary": "currency",
+      "retainedSearchUpfrontFee": "currency"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "placementsPerQuarter": "number",
+      "averageFeePerTechnicalPlacement": "currency"
+    },
+    "notesTranslationKey": "businessLibrary.techRecruitmentAgency.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "placementFeeCollections",
+      "retainedSearchUpfrontInflow"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 6,
+    "notesTranslationKey": "businessLibrary.techRecruitmentAgency.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 78,
+    "notesTranslationKey": "businessLibrary.techRecruitmentAgency.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 42,
+    "notesTranslationKey": "businessLibrary.techRecruitmentAgency.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "secondRecruiterCommissionSplit",
+      "adminSupportWages"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "techConferenceSponsorship",
+      "developerCommunityEngagement"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "fourMonthOperatingReserve",
+      "guaranteePeriodReplacementReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "arr",
+      "closeRate",
+      "leadConversion",
+      "customerRetention"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 6000,
+      "notesTranslationKey": "businessLibrary.techRecruitmentAgency.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 13500,
+      "notesTranslationKey": "businessLibrary.techRecruitmentAgency.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 24000,
+      "notesTranslationKey": "businessLibrary.techRecruitmentAgency.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.techRecruitmentAgency.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.techRecruitmentAgency.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.techRecruitmentAgency.financial.aiMetadata.generationHints"
+  }
+}
