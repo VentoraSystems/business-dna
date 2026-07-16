@@ -25925,6 +25925,466 @@
           "generationHints": "Fundamentează, fiecare perspectivă, pe mecanismele specifice, ale învățării limbilor, cu ritm propriu, conduse de obișnuință — repetiție spațiată, streak-uri, exersare de conversație, prin AI — niciodată platitudini generice, de abonament SaaS, sau edtech."
         }
       }
+    },
+    "remoteFirstHrAdvisory": {
+      "businessDna": {
+        "resources": {
+          "course1": "Curs: Programul de certificare GPHR (Global Professional in Human Resources)",
+          "community1": "Comunitate: Rețeaua Slack/Discord a fondatorilor și liderilor de People din startup-uri remote-first",
+          "book1": "Carte: „Remote: Office Not Required” de Jason Fried și David Heinemeier Hansson",
+          "checklist1": "Checklist: Lista de verificare pentru pregătirea extinderii într-o nouă jurisdicție"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Prognoza presupune că abonamentul crește pe două dimensiuni simultan — numărul de angajați ai clientului și numărul de jurisdicții active de angajare — alături de taxele mai neregulate din auditurile de extindere pe jurisdicție."
+        },
+        "breakEven": {
+          "notes": "Estimare structurală — pragul de rentabilitate real depinde de cât de rapid se transformă recomandările de la platformele EOR și din comunități în abonamente semnate."
+        },
+        "grossMargin": {
+          "notes": "Estimare care ia în calcul abonamentele la baza de date de conformitate și costurile asigurării de răspundere transfrontalieră."
+        },
+        "netMargin": {
+          "notes": "După abonamentele la baza de date de conformitate, asigurarea de răspundere transfrontalieră și taxele pentru verificările punctuale cu avocați externi."
+        },
+        "scenarios": {
+          "conservative": "Câteva audituri de extindere pe jurisdicție, fără abonamente multi-jurisdicționale stabile încă.",
+          "expected": "6-8 clienți cu abonament multi-jurisdicțional, cu o medie de 3-4 jurisdicții active fiecare, plus taxe de audit constante.",
+          "optimistic": "Peste 12 clienți cu abonament, mai mulți acoperind 6+ jurisdicții, plus un flux constant de recomandări de la parteneri EOR."
+        },
+        "risks": {
+          "risk1": "Legislația muncii, beneficiile statutare și regulile de încetare a contractului se schimbă pe cicluri independente în fiecare jurisdicție deservită, multiplicând volumul de monitorizare a conformității.",
+          "risk2": "Un risc de mis-clasificare ratat sau o recomandare greșită EOR-versus-entitate proprie implică o expunere de răspundere transfrontalieră disproporţionată."
+        },
+        "aiMetadata": {
+          "generationHints": "Modelează venitul ca fiind dependent atât de numărul de angajați, cât și de numărul de jurisdicții — un client care adaugă o nouă țară de angajare reprezintă un nivel de abonament semnificativ diferit față de unul care adaugă angajați într-o jurisdicție deja existentă."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "Îndrumare de HR și conformitate în angajare, construită pentru companii care angajează pretutindeni în același timp — nu o consultanță HR generalistă cu eticheta „remote” adăugată.",
+          "category": "Consultanță HR multi-jurisdicțională pentru companii remote-first"
+        },
+        "brandPromise": "Angajează cu încredere pe oricine, oriunde, fără surprize de conformitate.",
+        "uvp": {
+          "statement": "Expertiză în conformitatea angajării multi-jurisdicționale, tarifată printr-un abonament care crește odată cu numărul de angajați și de jurisdicții de angajare.",
+          "diff1": "Expertiză multi-jurisdicțională certificată GPHR, nu HR generalist pe o singură piață",
+          "diff2": "Niveluri de abonament construite pe numărul de jurisdicții, nu doar pe numărul de angajați"
+        },
+        "icp": {
+          "description": "Startup-uri și scale-up-uri remote-first finanțate cu capital de risc (aproximativ 20-200 de angajați), care angajează simultan în mai multe state americane și/sau țări.",
+          "firmographics": "Companii remote-first în etapa Seria A-C, care își extind activ echipa în state sau țări noi, adesea colaborând cu sau evaluând o platformă EOR."
+        },
+        "personas": {
+          "persona1": {
+            "name": "Primul Head of People dintr-un startup remote-first în creștere",
+            "description": "Head of People nou angajat într-o companie de Seria B care angajează deja în 6 țări, moștenind lacune de conformitate acumulate înainte de existența unei funcții HR dedicate."
+          },
+          "persona2": {
+            "name": "Fondatorul care încă se ocupă singur de conformitatea angajării",
+            "description": "Fondator-operator pe cale să facă prima angajare într-o țară nouă și care realizează că nu știe ce se schimbă din punct de vedere legal."
+          }
+        },
+        "painPoints": {
+          "point1": "Nicio imagine clară despre ce se schimbă legal, în privința beneficiilor statutare și a regulilor de încetare a contractului, la angajarea primului salariat într-un stat sau o țară nouă.",
+          "point2": "Îngrijorare tot mai mare privind riscul de mis-clasificare a colaboratorilor pe o bază de contractori tot mai extinsă."
+        },
+        "outcomes": {
+          "outcome1": "Extindere cu încredere a angajărilor în jurisdicții noi, fără ca o surpriză de conformitate să deraieze planul.",
+          "outcome2": "Un playbook repetabil de extindere pe jurisdicție, în loc de un scenariu de urgență juridică improvizat de fiecare dată când echipa crește într-o regiune nouă."
+        },
+        "messaging": {
+          "core": "Fiecare jurisdicție nouă de angajare schimbă regulile — ne asigurăm că știi exact ce se schimbă înainte să faci oferta.",
+          "support1": "Certificat GPHR, nu un consultant HR generalist care improvizează pe conformitate transfrontalieră."
+        },
+        "brandVoice": {
+          "tone": "Precis și credibil de expert, niciodată o asigurare vagă.",
+          "attr1": "Riguros",
+          "attr2": "Direct"
+        },
+        "contentPillars": {
+          "pillar1": "Ce se schimbă când angajezi primul salariat în [țară/stat]",
+          "pillar2": "EOR versus entitate proprie: cum decizi"
+        },
+        "channelStrategy": "Co-marketingul cu platforme EOR și implicarea în comunitățile de startup-uri remote-first sunt canalele principale; recomandările de la fonduri de capital de risc și programul de recomandări sunt secundare; conținutul specific pe jurisdicție construiește un flux inbound pe termen lung.",
+        "community": {
+          "description": "Participare activă și sponsorizare discretă în comunitățile Slack și Discord ale startup-urilor remote-first, unde întrebările despre conformitatea angajării apar constant.",
+          "platform1": "Comunități Slack ale fondatorilor și echipelor de People din companii remote-first"
+        },
+        "leadMagnets": {
+          "magnet1": "Checklist gratuit de pregătire pentru extinderea într-o jurisdicție nouă („Ce se schimbă când angajezi primul salariat în Germania”)"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Introducere din comunitate sau partener",
+            "description": "O postare într-o comunitate de startup-uri, o recomandare de la o platformă EOR sau o introducere de la un fond de capital de risc scoate nevoia la suprafață."
+          },
+          "stage2": {
+            "name": "Audit de extindere pe jurisdicție",
+            "description": "Un audit plătit, cu domeniu clar definit, despre ce se schimbă pentru jurisdicția specifică în care clientul urmează să angajeze."
+          },
+          "stage3": {
+            "name": "Propunere de abonament multi-jurisdicțional",
+            "description": "Un abonament pe niveluri, în funcție de numărul de angajați și de jurisdicții active, care acoperă monitorizarea continuă a conformității."
+          }
+        },
+        "retention": {
+          "tactic1": "Briefinguri trimestriale despre actualizările reglementărilor din jurisdicțiile respective, incluse în fiecare abonament, limitate strict la jurisdicțiile în care clientul angajează efectiv."
+        },
+        "analytics": {
+          "metric1": "Rata de conversie de la auditul de extindere pe jurisdicție la abonament, urmărită separat pe fiecare canal de achiziție."
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează mesajele precise și axate pe mecanisme concrete — acest public este sofisticat și va ignora asigurările vagi despre „suport HR”."
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Construiește o expertiză verificată în legislația muncii pentru primele 3-5 jurisdicții țintă și configurează o asigurare de răspundere profesională transfrontalieră."
+          },
+          "deliverables": {
+            "0": "Playbook-uri verificate pentru primele 3-5 jurisdicții țintă, plus o poliță de asigurare de răspundere transfrontalieră activă."
+          },
+          "checklist": {
+            "0": "Confirmă că asigurarea de răspundere transfrontalieră este activă înainte de a prelua orice client dintr-o jurisdicție nouă."
+          },
+          "commonMistakes": {
+            "0": "Promovarea expertizei multi-jurisdicționale înainte de a verifica mecanismele de conformitate din fiecare jurisdicție revendicată."
+          },
+          "successCriteria": {
+            "0": "Asigurarea este activă și cel puțin 3 playbook-uri de jurisdicție sunt verificate pe baza unei surse primare."
+          },
+          "aiRecommendations": {
+            "0": "Folosește cercetarea asistată de AI pentru un prim rezumat de jurisdicție, verificat întotdeauna cu o sursă juridică primară înainte de a fi publicat ca playbook."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Finalizează audituri de extindere pe jurisdicție pentru 3-5 clienți remote-first din faza incipientă."
+          },
+          "deliverables": {
+            "0": "Constatări de audit documentate și un checklist de jurisdicție cu domeniu clar pentru fiecare client din faza incipientă."
+          },
+          "checklist": {
+            "0": "Folosește un checklist standardizat de audit de jurisdicție chiar și pentru angajamentele timpurii cu discount."
+          },
+          "commonMistakes": {
+            "0": "Tratarea unui audit de extindere pe jurisdicție ca pe un audit HR generic cu numele unei țări adăugat."
+          },
+          "successCriteria": {
+            "0": "Cel puțin 3 audituri de extindere pe jurisdicție finalizate, cu constatări documentate specifice fiecărei jurisdicții."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a redacta prima variantă a fiecărui raport de audit de jurisdicție, cu fiecare afirmație de conformitate verificată manual înainte de livrare."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardizează auditul de extindere pe jurisdicție și cadrul de decizie EOR-versus-entitate proprie într-un playbook reutilizabil."
+          },
+          "deliverables": {
+            "0": "O bibliotecă reutilizabilă de playbook-uri de jurisdicție, acoperind beneficii statutare, reguli de încetare a contractului și compromisurile EOR-versus-entitate pentru fiecare jurisdicție."
+          },
+          "checklist": {
+            "0": "Stochează fiecare playbook de jurisdicție verificat într-un loc central, actualizat pe un ciclu fix de revizuire."
+          },
+          "commonMistakes": {
+            "0": "Reconstruirea cercetării de conformitate de la zero pentru fiecare client nou care angajează într-o jurisdicție deja deservită."
+          },
+          "successCriteria": {
+            "0": "Fiecare audit nou de extindere pe jurisdicție pornește de la un playbook revizuit și reutilizabil."
+          },
+          "aiRecommendations": {
+            "0": "Folosește AI pentru a semnala când regulile legislației muncii dintr-o jurisdicție s-ar putea fi schimbat de la ultima revizuire a playbook-ului."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Anunță consultanța partenerilor de tip platformă EOR și comunităților de startup-uri remote-first."
+          },
+          "deliverables": {
+            "0": "Acorduri de co-marketing sau de recomandare semnate cu cel puțin un partener platformă EOR."
+          },
+          "checklist": {
+            "0": "Publică o structură clară de prețuri pentru abonament (număr de angajați x număr de jurisdicții) înainte de a urmări co-marketing cu partenerii."
+          },
+          "commonMistakes": {
+            "0": "Lansarea înainte de a exista o structură clară de prețuri pentru abonament, bazată pe angajați și jurisdicții."
+          },
+          "successCriteria": {
+            "0": "Primul lead venit de la un partener platformă EOR sau dintr-o comunitate este primit."
+          },
+          "aiRecommendations": {
+            "0": "Personalizează mesajele către parteneri și comunități în funcție de jurisdicțiile specifice în care publicul lor angajează activ."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Livrează primul audit de extindere pe jurisdicție și un abonament multi-jurisdicțional semnat."
+          },
+          "deliverables": {
+            "0": "Abonament semnat cu limite explicite de acoperire pe jurisdicție și un prim livrabil lunar finalizat."
+          },
+          "checklist": {
+            "0": "Stabilește limite explicite de acoperire pe jurisdicție chiar în primul contract de abonament."
+          },
+          "commonMistakes": {
+            "0": "Subdimensionarea acoperirii pe jurisdicție a abonamentului pentru a câștiga primul client."
+          },
+          "successCriteria": {
+            "0": "Primul client reînnoiește abonamentul după termenul inițial."
+          },
+          "aiRecommendations": {
+            "0": "Configurează de la început alerte automate de monitorizare a actualizărilor de reglementare pe jurisdicție."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Atinge o bază stabilă de clienți cu abonament multi-jurisdicțional, care acoperă venitul lunar țintă."
+          },
+          "deliverables": {
+            "0": "Un pas documentat de calificare pe potrivirea de jurisdicție în conversația de preluare a auditului."
+          },
+          "checklist": {
+            "0": "Califica prospecții pe potrivirea de jurisdicție în timpul discuției de audit și refuză sau externalizează jurisdicțiile neverificate."
+          },
+          "commonMistakes": {
+            "0": "Acceptarea unui client al cărui mix de jurisdicții depășește expertiza verificată a fondatorului."
+          },
+          "successCriteria": {
+            "0": "Venitul atinge intervalul lunar țintă al fondatorului."
+          },
+          "aiRecommendations": {
+            "0": "Semnalează din timp nepotrivirile de jurisdicție, pe baza jurisdicțiilor menționate în răspunsurile de preluare ale clientului."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Crește baza de abonamente multi-jurisdicționale spre obiectivul stabilit."
+          },
+          "deliverables": {
+            "0": "Un bloc săptămânal protejat în calendar pentru actualizările de monitorizare pe jurisdicție ale clienților existenți."
+          },
+          "checklist": {
+            "0": "Protejează un bloc săptămânal fix pentru actualizările de monitorizare pe jurisdicție înainte de a programa consultații noi de audit."
+          },
+          "commonMistakes": {
+            "0": "Neglijarea actualizărilor de monitorizare pe jurisdicție pentru clienții existenți în timp ce se urmăresc audituri noi de extindere."
+          },
+          "successCriteria": {
+            "0": "Numărul de clienți cu abonament atinge obiectivul stabilit."
+          },
+          "aiRecommendations": {
+            "0": "Semnalează clienții cu abonament ale căror jurisdicții nu au primit o actualizare de monitorizare de peste un trimestru."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Angajează primul consultant specialist regional."
+          },
+          "deliverables": {
+            "0": "Un plan documentat de onboarding și co-revizuire pentru primele recomandări de jurisdicție ale noului angajat."
+          },
+          "checklist": {
+            "0": "Co-revizuiește primele recomandări de jurisdicție ale noului angajat timp de cel puțin un trimestru întreg."
+          },
+          "commonMistakes": {
+            "0": "Transferarea clienților unei întregi jurisdicții către un nou angajat înainte ca judecata sa de conformitate să fie verificată."
+          },
+          "successCriteria": {
+            "0": "Noul angajat gestionează independent cel puțin un cluster întreg de jurisdicții."
+          },
+          "aiRecommendations": {
+            "0": "Folosește cercetarea asistată de AI pentru a ajuta noul angajat să se familiarizeze mai rapid cu o jurisdicție nouă, cu fiecare afirmație verificată înainte de utilizare."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Adaugă o linie de servicii de cadru de operare remote (norme async, programare echitabilă pe fusuri orare, onboarding distribuit) ca ofertă de sine stătătoare."
+          },
+          "deliverables": {
+            "0": "Un cadru de operare remote personalizat, livrat pentru cel puțin 2 clienți."
+          },
+          "checklist": {
+            "0": "Personalizează cadrele de operare remote în funcție de distribuția reală pe fusuri orare a fiecărui client înainte de livrare."
+          },
+          "commonMistakes": {
+            "0": "Construirea unui conținut generic despre cultura remote, în loc de a-l adapta jurisdicției și distribuției reale pe fusuri orare a fiecărui client."
+          },
+          "successCriteria": {
+            "0": "Primul cadru de operare remote livrat și rezervat pentru un al doilea client."
+          },
+          "aiRecommendations": {
+            "0": "Urmărește care recomandări de operare remote generează cel mai mult interes pentru abonamente ulterioare."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Pregătește portofoliul de clienți cu abonament multi-jurisdicțional și playbook-urile documentate de jurisdicție pentru o achiziție."
+          },
+          "deliverables": {
+            "0": "Fiecare playbook de jurisdicție și motivația deciziilor clienților, înregistrate într-un sistem partajat."
+          },
+          "checklist": {
+            "0": "Confirmă că playbook-urile de jurisdicție sunt documentate, nu dependente de fondator, înainte de due diligence."
+          },
+          "commonMistakes": {
+            "0": "Menținerea playbook-urilor de jurisdicție nedocumentate și dependente de fondator."
+          },
+          "successCriteria": {
+            "0": "Portofoliul de clienți și playbook-urile de jurisdicție se transferă fără probleme unui nou proprietar."
+          },
+          "aiRecommendations": {
+            "0": "Folosește rata de reutilizare a playbook-urilor de jurisdicție între clienți ca dovadă a unei proprietăți intelectuale durabile și transferabile pentru cumpărători."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Creșterea depinde de expertiza verificată pe jurisdicție — nu sugera extinderea într-o jurisdicție nouă mai rapid decât poate fi cu adevărat verificată cercetarea de conformitate."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Remote: Office Not Required",
+          "description": "Jason Fried și David Heinemeier Hansson despre construirea și operarea unor echipe cu adevărat distribuite."
+        },
+        "item2": {
+          "title": "Programul GPHR (Global Professional in Human Resources)",
+          "description": "Certificarea multi-jurisdicțională de bază pe care clienții o caută atunci când evaluează un consultant HR global."
+        },
+        "item3": {
+          "title": "Comunități Slack ale fondatorilor și liderilor de People din startup-uri remote-first",
+          "description": "Locul unde operatorii de companii distribuite pun de fapt întrebările despre conformitatea angajării."
+        },
+        "item4": {
+          "title": "Podcastul Running Remote",
+          "description": "Discuții practice despre operarea echipelor distribuite și proiectarea politicilor de lucru remote."
+        },
+        "item5": {
+          "title": "Newsletter de actualizări de reglementare din baza de date globală de conformitate",
+          "description": "Alerte continue despre schimbările beneficiilor statutare și ale regulilor de încetare a contractului în jurisdicțiile active."
+        },
+        "item6": {
+          "title": "Deel",
+          "description": "Platformă EOR recomandată pentru clienții care angajează primul salariat într-o țară nouă fără să înființeze o entitate locală."
+        },
+        "item7": {
+          "title": "Rippling",
+          "description": "Platformă HRIS globală recomandată pentru clienții care gestionează HR și salarizare pe mai multe entități."
+        },
+        "item8": {
+          "title": "Rezumarea asistată de AI a cercetării de jurisdicție",
+          "description": "Accelerează primul pas al cercetării de jurisdicție, urmat întotdeauna de verificare pe baza unei surse juridice primare."
+        },
+        "item9": {
+          "title": "GPHR (Global Professional in Human Resources)",
+          "description": "Certificarea pe care este construită această practică."
+        },
+        "item10": {
+          "title": "Conferința Running Remote",
+          "description": "Principala întâlnire anuală pentru practicienii HR din echipe distribuite și companii remote-first."
+        },
+        "item11": {
+          "title": "Contacte de inginerie de soluții la partenerii platformă EOR",
+          "description": "Contacte tehnice directe la partenerii platformă EOR pentru structurarea angajărilor cu situații atipice."
+        },
+        "item12": {
+          "title": "Checklist de pregătire pentru extinderea într-o jurisdicție nouă",
+          "description": "Asigură că fiecare jurisdicție nouă de angajare este auditată sistematic înainte de trimiterea unei oferte."
+        },
+        "aiMetadata": {
+          "generationHints": "Preferă resursele care construiesc credibilitate în conformitatea multi-jurisdicțională și familiaritate cu platformele EOR, în locul conținutului generic de management HR pentru firme mici."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "Platformele EOR au nevoie de parteneri de consultanță pe conformitate pentru întrebările la care propriile echipe de suport nu pot răspunde — o relație de recomandare reciprocă este un canal subutilizat."
+          },
+          "item2": {
+            "title": "Fondurile de capital de risc ale căror companii din portofoliu angajează internațional în aceeași etapă de creștere reprezintă o sursă concentrată și repetabilă de introduceri."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Recomandarea unei structuri greșite EOR-versus-entitate proprie pentru o anumită jurisdicție poate declanșa obligații neașteptate privind beneficiile statutare sau taxele, luni mai târziu."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Tratarea unui audit de extindere pe jurisdicție ca pe un audit HR generic cu numele unei țări atașat, în loc de cercetare de conformitate specifică jurisdicției."
+          },
+          "item2": {
+            "title": "Revendicarea expertizei într-o jurisdicție care nu a fost de fapt verificată pe baza unei surse juridice primare."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "Un checklist gratuit de pregătire pentru extinderea pe jurisdicție convertește lead-urile de la platformele EOR și din comunități mai rapid decât orice pitch generic de servicii HR."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Co-revizuiește primele recomandări de jurisdicție ale unui nou specialist regional timp de cel puțin un trimestru întreg, înainte de a-l lăsa să consilieze clienți independent."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Documentează motivația din spatele fiecărei recomandări EOR-versus-entitate și de clasificare — protejează atât clientul, cât și consultanța."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Consultanțele care încep cu un audit de extindere pe jurisdicție bine definit închid mai multe abonamente decât cele care încep cu un pitch generic de „suport HR”."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Majoritatea companiilor remote-first nu se gândesc la conformitatea pe jurisdicție decât atunci când sunt pe cale să facă o ofertă într-o țară nouă — reactiv, nu proactiv."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Primele de asigurare de răspundere profesională transfrontalieră cresc odată cu numărul de jurisdicții active și cu numărul de angajați ai clienților — bugetează pentru asta."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Cererea pentru îndrumare de conformitate multi-jurisdicțională crește cel mai rapid în rândul companiilor remote-first finanțate cu capital de risc, aflate după prima lor angajare internațională."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "O consultanță de o singură persoană a ajuns la 10 clienți cu abonament multi-jurisdicțional în mai puțin de 2 ani, aproape în întregime prin co-marketing cu platforme EOR și recomandări din comunitățile de startup-uri."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "O consultanță care a preluat clienți în prea multe jurisdicții necunoscute prea repede a oferit îndrumare de conformitate inconsecventă și a pierdut mai multe abonamente într-un an."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Trebuie să fiu avocat specializat în dreptul muncii în fiecare jurisdicție pe care o consiliez?",
+            "answer": "Nu — această activitate de consultanță se concentrează pe procesul de conformitate, deciziile de structură (EOR versus entitate proprie) și operațiuni; întrebările juridice specifice unei jurisdicții trebuie direcționate către un avocat local specializat în dreptul muncii."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "Un singur consultant HR poate consilia credibil legislația muncii din orice țară cu puțină cercetare online.",
+            "fact": "O consultanță multi-jurisdicțională credibilă necesită playbook-uri verificate și actualizate pentru fiecare jurisdicție, plus un proces clar de direcționare a situațiilor atipice către avocați locali."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Stabilește limite explicite de acoperire pe jurisdicție cu fiecare client nou de abonament chiar din prima zi — ce jurisdicții sunt acoperite și care nu sunt încă."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Păstrează toată îndrumarea la nivelul administrării/creșterii consultanței — nu oferi niciodată conformitate specifică în legislația muncii sau consultanță juridică pentru situația reală a unui client final."
+        }
+      }
     }
   }
 }

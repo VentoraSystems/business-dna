@@ -1,0 +1,119 @@
+{
+  "positioning": {
+    "positioningStatementTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.positioning.statement",
+    "categoryTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.positioning.category"
+  },
+  "brandPromise": {
+    "promiseTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.brandPromise"
+  },
+  "uvp": {
+    "uvpTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.uvp.statement",
+    "differentiatorTranslationKeys": [
+      "businessLibrary.remoteFirstHrAdvisory.marketing.uvp.diff1",
+      "businessLibrary.remoteFirstHrAdvisory.marketing.uvp.diff2"
+    ]
+  },
+  "icp": {
+    "customerType": "b2b",
+    "descriptionTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.icp.description",
+    "firmographicsTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.icp.firmographics"
+  },
+  "customerPersonas": {
+    "personas": [
+      {
+        "nameTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.personas.persona1.name",
+        "descriptionTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.personas.persona1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.personas.persona2.name",
+        "descriptionTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.personas.persona2.description"
+      }
+    ]
+  },
+  "painPoints": {
+    "painPointTranslationKeys": [
+      "businessLibrary.remoteFirstHrAdvisory.marketing.painPoints.point1",
+      "businessLibrary.remoteFirstHrAdvisory.marketing.painPoints.point2"
+    ]
+  },
+  "desiredOutcomes": {
+    "outcomeTranslationKeys": [
+      "businessLibrary.remoteFirstHrAdvisory.marketing.outcomes.outcome1",
+      "businessLibrary.remoteFirstHrAdvisory.marketing.outcomes.outcome2"
+    ]
+  },
+  "messaging": {
+    "coreMessageTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.messaging.core",
+    "supportingMessageTranslationKeys": [
+      "businessLibrary.remoteFirstHrAdvisory.marketing.messaging.support1"
+    ]
+  },
+  "brandVoice": {
+    "toneTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.brandVoice.tone",
+    "voiceAttributeTranslationKeys": [
+      "businessLibrary.remoteFirstHrAdvisory.marketing.brandVoice.attr1",
+      "businessLibrary.remoteFirstHrAdvisory.marketing.brandVoice.attr2"
+    ]
+  },
+  "contentPillars": {
+    "pillarTranslationKeys": [
+      "businessLibrary.remoteFirstHrAdvisory.marketing.contentPillars.pillar1",
+      "businessLibrary.remoteFirstHrAdvisory.marketing.contentPillars.pillar2"
+    ]
+  },
+  "channelStrategy": {
+    "channels": [
+      "partnerCoMarketing",
+      "communityEngagement",
+      "referralProgram",
+      "contentMarketing"
+    ],
+    "strategyTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.channelStrategy"
+  },
+  "community": {
+    "communityDescriptionTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.community.description",
+    "platformTranslationKeys": [
+      "businessLibrary.remoteFirstHrAdvisory.marketing.community.platform1"
+    ]
+  },
+  "leadMagnets": {
+    "leadMagnetTranslationKeys": [
+      "businessLibrary.remoteFirstHrAdvisory.marketing.leadMagnets.magnet1"
+    ]
+  },
+  "funnels": {
+    "stages": [
+      {
+        "nameTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.funnels.stage1.name",
+        "descriptionTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.funnels.stage1.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.funnels.stage2.name",
+        "descriptionTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.funnels.stage2.description"
+      },
+      {
+        "nameTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.funnels.stage3.name",
+        "descriptionTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.funnels.stage3.description"
+      }
+    ]
+  },
+  "retention": {
+    "retentionTacticTranslationKeys": [
+      "businessLibrary.remoteFirstHrAdvisory.marketing.retention.tactic1"
+    ]
+  },
+  "analytics": {
+    "trackedMetricTranslationKeys": [
+      "businessLibrary.remoteFirstHrAdvisory.marketing.analytics.metric1"
+    ]
+  },
+  "marketingKpis": {
+    "kpis": [
+      "leadConversion",
+      "customerRetention"
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.remoteFirstHrAdvisory.marketing.aiMetadata.generationHints"
+  }
+}

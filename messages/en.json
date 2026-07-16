@@ -25925,6 +25925,466 @@
           "generationHints": "Ground every insight in the specific mechanics of habit-driven, self-paced language learning — spaced repetition, streaks, AI-conversation practice — never generic subscription-SaaS or edtech platitudes."
         }
       }
+    },
+    "remoteFirstHrAdvisory": {
+      "businessDna": {
+        "resources": {
+          "course1": "Course: GPHR (Global Professional in Human Resources) certification program",
+          "community1": "Community: Remote-first startup founders' and People-leaders' Slack network",
+          "book1": "Book: \"Remote: Office Not Required\" by Jason Fried & David Heinemeier Hansson",
+          "checklist1": "Checklist: Jurisdiction-expansion readiness checklist"
+        }
+      },
+      "financial": {
+        "revenueForecast": {
+          "notes": "Forecast assumes the retainer grows along two dimensions at once — client headcount and number of active hiring jurisdictions — alongside lumpier jurisdiction-expansion audit fees."
+        },
+        "breakEven": {
+          "notes": "Structural estimate only — actual break-even depends on how quickly EOR-platform and community referrals convert into signed retainers."
+        },
+        "grossMargin": {
+          "notes": "Estimate accounting for compliance-database subscriptions and cross-border liability insurance costs."
+        },
+        "netMargin": {
+          "notes": "After compliance-database subscriptions, cross-border liability insurance, and outside-counsel spot-check fees."
+        },
+        "scenarios": {
+          "conservative": "A handful of jurisdiction-expansion audits, no standing multi-jurisdiction retainers yet.",
+          "expected": "6-8 multi-jurisdiction retainer clients averaging 3-4 active jurisdictions each, plus regular audit fees.",
+          "optimistic": "12+ retainer clients, several spanning 6+ jurisdictions, plus a steady EOR-partner referral pipeline."
+        },
+        "risks": {
+          "risk1": "Employment law, statutory benefits, and termination rules change on independent timelines across every jurisdiction served, multiplying the compliance-monitoring workload.",
+          "risk2": "A missed misclassification risk or a wrong EOR-vs-entity recommendation carries outsized cross-border liability exposure."
+        },
+        "aiMetadata": {
+          "generationHints": "Model revenue as scaling with both headcount and jurisdiction count — a client adding a new hiring country is a materially different retainer tier than one adding headcount within an existing jurisdiction."
+        }
+      },
+      "marketing": {
+        "positioning": {
+          "statement": "HR and employment-compliance guidance built for companies that hire everywhere at once — not a generalist HR consultancy with a remote label.",
+          "category": "Multi-jurisdiction HR advisory for remote-first companies"
+        },
+        "brandPromise": "Confidently hire anyone, anywhere, without a compliance surprise.",
+        "uvp": {
+          "statement": "Multi-jurisdiction employment-compliance expertise, priced as a retainer that scales with headcount and hiring-jurisdiction count.",
+          "diff1": "GPHR-certified multi-jurisdiction compliance expertise, not single-market generalist HR",
+          "diff2": "Retainer tiers built around jurisdiction count, not just headcount"
+        },
+        "icp": {
+          "description": "Venture-backed, remote-first startups and scale-ups (roughly 20-200 employees) hiring across multiple US states and/or countries at once.",
+          "firmographics": "Series A-C remote-first companies actively expanding headcount into new states or countries, often working with or evaluating an EOR platform."
+        },
+        "personas": {
+          "persona1": {
+            "name": "The first Head of People at a scaling remote-first startup",
+            "description": "Newly hired Head of People at a Series B company already hiring in 6 countries, inheriting compliance gaps built up before there was any dedicated HR function."
+          },
+          "persona2": {
+            "name": "The founder still handling hiring compliance themselves",
+            "description": "Founder-operator about to make a first hire in a new country and realizing they have no idea what changes legally."
+          }
+        },
+        "painPoints": {
+          "point1": "No clear picture of what changes legally, in terms of statutory benefits and termination rules, when hiring the first employee in a new state or country.",
+          "point2": "Growing unease about worker misclassification risk on an expanding contractor bench."
+        },
+        "outcomes": {
+          "outcome1": "Confidently expand hiring into new jurisdictions without a compliance surprise derailing the plan.",
+          "outcome2": "A repeatable jurisdiction-expansion playbook instead of an ad hoc legal fire drill every time headcount grows into a new region."
+        },
+        "messaging": {
+          "core": "Every new hiring jurisdiction changes the rules — we make sure you know exactly what changes before you make the offer.",
+          "support1": "GPHR-certified, not a generalist HR consultant improvising on cross-border compliance."
+        },
+        "brandVoice": {
+          "tone": "Precise and credibly expert, never vague reassurance.",
+          "attr1": "Rigorous",
+          "attr2": "Direct"
+        },
+        "contentPillars": {
+          "pillar1": "What changes when you hire your first employee in [country/state]",
+          "pillar2": "EOR vs. direct entity: how to decide"
+        },
+        "channelStrategy": "EOR-platform co-marketing and remote-first startup community engagement are primary; VC portfolio-company introductions and referral-program growth are secondary; jurisdiction-specific content marketing builds long-term inbound.",
+        "community": {
+          "description": "Active participation and light sponsorship in remote-first startup Slack and Discord communities, where hiring-compliance questions surface constantly.",
+          "platform1": "Remote-first founders' and People-team Slack communities"
+        },
+        "leadMagnets": {
+          "magnet1": "Free jurisdiction-expansion readiness checklist (\"What changes when you hire your first employee in Germany\")"
+        },
+        "funnels": {
+          "stage1": {
+            "name": "Community or partner introduction",
+            "description": "A startup community post, EOR-platform referral, or VC portfolio introduction surfaces the need."
+          },
+          "stage2": {
+            "name": "Jurisdiction-expansion audit",
+            "description": "A paid, scoped audit of what changes for the specific jurisdiction the client is about to hire into."
+          },
+          "stage3": {
+            "name": "Multi-jurisdiction retainer proposal",
+            "description": "A retainer tiered by headcount and active jurisdiction count, covering ongoing compliance monitoring."
+          }
+        },
+        "retention": {
+          "tactic1": "Quarterly jurisdiction-regulatory-update briefings included in every retainer, covering only the jurisdictions that client actually hires in."
+        },
+        "analytics": {
+          "metric1": "Jurisdiction-expansion-audit-to-retainer conversion rate, tracked separately per acquisition channel."
+        },
+        "aiMetadata": {
+          "generationHints": "Keep messaging precise and mechanics-specific — this audience is sophisticated and will discount vague reassurance about 'HR support.'"
+        }
+      },
+      "roadmap": {
+        "preparation": {
+          "objectives": {
+            "0": "Build verified employment-law fluency in the first 3-5 target jurisdictions and set up cross-border professional liability insurance."
+          },
+          "deliverables": {
+            "0": "Verified jurisdiction playbooks for the first 3-5 target jurisdictions, plus an active cross-border liability policy."
+          },
+          "checklist": {
+            "0": "Confirm cross-border liability insurance is active before taking on any client in a new jurisdiction."
+          },
+          "commonMistakes": {
+            "0": "Marketing multi-jurisdiction expertise before verifying the compliance mechanics in each claimed jurisdiction."
+          },
+          "successCriteria": {
+            "0": "Insurance is active and at least 3 jurisdiction playbooks are verified against a primary source."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted research to build a first-pass jurisdiction summary, always verified against a primary legal source before publishing it as a playbook."
+          }
+        },
+        "validation": {
+          "objectives": {
+            "0": "Complete jurisdiction-expansion audits for 3-5 early remote-first clients."
+          },
+          "deliverables": {
+            "0": "Documented audit findings and a scoped jurisdiction checklist for each early client."
+          },
+          "checklist": {
+            "0": "Use a standardized jurisdiction-audit checklist even for discounted early engagements."
+          },
+          "commonMistakes": {
+            "0": "Underscoping an audit by treating it as a generic HR review instead of a jurisdiction-specific compliance check."
+          },
+          "successCriteria": {
+            "0": "At least 3 completed jurisdiction-expansion audits with documented, jurisdiction-specific findings."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to draft the first version of each jurisdiction-audit report, with every compliance claim manually verified before delivery."
+          }
+        },
+        "mvp": {
+          "objectives": {
+            "0": "Standardize the jurisdiction-expansion audit and EOR-vs-entity decision framework into a reusable playbook."
+          },
+          "deliverables": {
+            "0": "A reusable jurisdiction-playbook library covering statutory benefits, termination rules, and EOR-vs-entity trade-offs per jurisdiction."
+          },
+          "checklist": {
+            "0": "Store every verified jurisdiction playbook centrally, updated on a fixed review cadence."
+          },
+          "commonMistakes": {
+            "0": "Rebuilding compliance research from scratch for every new client hiring into a jurisdiction already served."
+          },
+          "successCriteria": {
+            "0": "Every new jurisdiction-expansion audit starts from a reviewed, reusable playbook."
+          },
+          "aiRecommendations": {
+            "0": "Use AI to flag when a jurisdiction's employment-law rules may have changed since the playbook was last reviewed."
+          }
+        },
+        "launch": {
+          "objectives": {
+            "0": "Announce the advisory to EOR-platform partners and remote-first startup communities."
+          },
+          "deliverables": {
+            "0": "Signed co-marketing or referral agreements with at least one EOR-platform partner."
+          },
+          "checklist": {
+            "0": "Publish a clear tiered retainer structure (headcount x jurisdiction count) before pursuing partner co-marketing."
+          },
+          "commonMistakes": {
+            "0": "Launching before a clear headcount-and-jurisdiction retainer pricing structure exists."
+          },
+          "successCriteria": {
+            "0": "First EOR-platform partner referral or community-sourced lead received."
+          },
+          "aiRecommendations": {
+            "0": "Personalize partner and community outreach around the specific jurisdictions their audience is actively hiring into."
+          }
+        },
+        "firstCustomer": {
+          "objectives": {
+            "0": "Deliver the first jurisdiction-expansion audit and a signed multi-jurisdiction retainer."
+          },
+          "deliverables": {
+            "0": "Signed retainer agreement with explicit jurisdiction-coverage boundaries and a completed first-month deliverable."
+          },
+          "checklist": {
+            "0": "Set explicit jurisdiction-coverage boundaries in the very first retainer agreement."
+          },
+          "commonMistakes": {
+            "0": "Underscoping the retainer's jurisdiction coverage to win the first client's business."
+          },
+          "successCriteria": {
+            "0": "First client renews the retainer past the initial term."
+          },
+          "aiRecommendations": {
+            "0": "Set automated jurisdiction-regulatory-update monitoring alerts from the start of the first retainer."
+          }
+        },
+        "productMarketFit": {
+          "objectives": {
+            "0": "Reach a stable base of multi-jurisdiction retainer clients covering the target monthly income."
+          },
+          "deliverables": {
+            "0": "A documented jurisdiction-fit qualification step for the audit-intake conversation."
+          },
+          "checklist": {
+            "0": "Qualify prospects on jurisdiction fit during the audit conversation, and decline or partner out unverified jurisdictions."
+          },
+          "commonMistakes": {
+            "0": "Taking on a client whose jurisdiction mix outpaces the founder's verified expertise."
+          },
+          "successCriteria": {
+            "0": "Revenue reaches the founder's target monthly income range."
+          },
+          "aiRecommendations": {
+            "0": "Flag jurisdiction-fit mismatches early, based on which jurisdictions appear in the client's intake responses."
+          }
+        },
+        "growth": {
+          "objectives": {
+            "0": "Grow the multi-jurisdiction retainer base toward the milestone target."
+          },
+          "deliverables": {
+            "0": "A protected weekly calendar block for jurisdiction-monitoring updates on existing clients."
+          },
+          "checklist": {
+            "0": "Protect a fixed weekly block for jurisdiction-monitoring updates before booking new audit consultations."
+          },
+          "commonMistakes": {
+            "0": "Neglecting jurisdiction-monitoring updates for existing clients while chasing new jurisdiction-expansion audits."
+          },
+          "successCriteria": {
+            "0": "Retainer client count reaches the milestone target."
+          },
+          "aiRecommendations": {
+            "0": "Flag retainer clients whose jurisdictions haven't had a monitoring update in over a quarter."
+          }
+        },
+        "scaling": {
+          "objectives": {
+            "0": "Hire the first regional specialist consultant."
+          },
+          "deliverables": {
+            "0": "A documented onboarding and co-review plan for the new hire's first jurisdiction recommendations."
+          },
+          "checklist": {
+            "0": "Co-review the new hire's first jurisdiction recommendations for at least one full quarter."
+          },
+          "commonMistakes": {
+            "0": "Handing an entire jurisdiction's clients to a new hire before their compliance judgment is verified."
+          },
+          "successCriteria": {
+            "0": "New hire independently manages at least one full jurisdiction cluster."
+          },
+          "aiRecommendations": {
+            "0": "Use AI-assisted research to help the new hire ramp up on an unfamiliar jurisdiction faster, with every claim still verified before use."
+          }
+        },
+        "expansion": {
+          "objectives": {
+            "0": "Add a remote-operations framework service line (async norms, time-zone-fair scheduling, distributed onboarding) as a standalone offer."
+          },
+          "deliverables": {
+            "0": "A customized remote-operations framework delivered for at least 2 clients."
+          },
+          "checklist": {
+            "0": "Customize remote-operations frameworks to each client's actual time-zone spread before delivering them."
+          },
+          "commonMistakes": {
+            "0": "Building generic remote-culture content instead of tailoring it to each client's real jurisdiction and time-zone spread."
+          },
+          "successCriteria": {
+            "0": "First remote-operations framework delivered and booked for a second client."
+          },
+          "aiRecommendations": {
+            "0": "Track which remote-operations recommendations generate the most follow-up retainer interest."
+          }
+        },
+        "exit": {
+          "objectives": {
+            "0": "Package the multi-jurisdiction retainer client book and documented jurisdiction playbooks for acquisition."
+          },
+          "deliverables": {
+            "0": "Every jurisdiction playbook and client decision rationale logged in a shared system."
+          },
+          "checklist": {
+            "0": "Confirm jurisdiction playbooks are documented, not founder-dependent, before due diligence."
+          },
+          "commonMistakes": {
+            "0": "Keeping jurisdiction playbooks undocumented and founder-dependent."
+          },
+          "successCriteria": {
+            "0": "Client book and jurisdiction playbooks transfer cleanly to a new owner."
+          },
+          "aiRecommendations": {
+            "0": "Use jurisdiction-playbook reuse rates across clients as evidence of durable, transferable IP for buyers."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Growth depends on verified jurisdiction expertise — do not suggest expanding into a new jurisdiction faster than the compliance research can be genuinely verified."
+        }
+      },
+      "resources": {
+        "item1": {
+          "title": "Remote: Office Not Required",
+          "description": "Jason Fried and David Heinemeier Hansson on building and operating genuinely distributed teams."
+        },
+        "item2": {
+          "title": "GPHR (Global Professional in Human Resources) Program",
+          "description": "The core multi-jurisdiction credential clients look for when vetting a global HR advisor."
+        },
+        "item3": {
+          "title": "Remote-first startup founders' and People-leaders' Slack communities",
+          "description": "Where distributed-company operators actually ask their hiring-compliance questions."
+        },
+        "item4": {
+          "title": "Running Remote podcast",
+          "description": "Practical discussion of distributed-team operations and remote-work policy design."
+        },
+        "item5": {
+          "title": "Global compliance-database regulatory-update newsletter",
+          "description": "Ongoing statutory-benefit and termination-rule change alerts across active jurisdictions."
+        },
+        "item6": {
+          "title": "Deel",
+          "description": "EOR platform recommended for clients hiring their first employee in a new country without setting up a local entity."
+        },
+        "item7": {
+          "title": "Rippling",
+          "description": "Global HRIS platform recommended for clients managing HR and payroll across multiple entities."
+        },
+        "item8": {
+          "title": "AI-assisted jurisdiction-research summarization",
+          "description": "Speeds up first-pass jurisdiction research, always followed by verification against a primary legal source."
+        },
+        "item9": {
+          "title": "GPHR (Global Professional in Human Resources)",
+          "description": "The credential this practice is built around."
+        },
+        "item10": {
+          "title": "Running Remote conference",
+          "description": "The main annual gathering for distributed-team and remote-first HR practitioners."
+        },
+        "item11": {
+          "title": "EOR-platform partner solutions-engineering contacts",
+          "description": "Direct technical contacts at EOR-platform partners for structuring edge-case hires."
+        },
+        "item12": {
+          "title": "Jurisdiction-expansion readiness checklist",
+          "description": "Ensures every new hiring jurisdiction is systematically audited before an offer goes out."
+        },
+        "aiMetadata": {
+          "generationHints": "Favor multi-jurisdiction compliance credibility and EOR-platform familiarity over generic small-business HR management content."
+        }
+      },
+      "businessInsights": {
+        "hiddenOpportunities": {
+          "item1": {
+            "title": "EOR platforms need compliance-advisory partners for the questions their own support teams can't answer — a reciprocal referral relationship is an underused pipeline."
+          },
+          "item2": {
+            "title": "VCs whose portfolio companies are all hiring internationally at the same growth stage are a concentrated, repeatable introduction source."
+          }
+        },
+        "hiddenRisks": {
+          "item1": {
+            "title": "Advising a client into the wrong EOR-vs-direct-entity structure for a given jurisdiction can trigger unexpected statutory-benefit or tax obligations months later."
+          }
+        },
+        "commonMistakes": {
+          "item1": {
+            "title": "Treating a jurisdiction-expansion audit as a generic HR audit with a country name attached, instead of jurisdiction-specific compliance research."
+          },
+          "item2": {
+            "title": "Claiming expertise in a jurisdiction that hasn't actually been verified against a primary legal source."
+          }
+        },
+        "fastestWins": {
+          "item1": {
+            "title": "A free jurisdiction-expansion readiness checklist converts EOR-platform and community leads faster than any generic HR-service pitch."
+          }
+        },
+        "scalingAdvice": {
+          "item1": {
+            "title": "Co-review a new regional specialist's first jurisdiction recommendations for at least one full quarter before letting them advise clients independently."
+          }
+        },
+        "founderAdvice": {
+          "item1": {
+            "title": "Document the reasoning behind every EOR-vs-entity and classification recommendation — it protects both the client and the advisory."
+          }
+        },
+        "patterns": {
+          "item1": {
+            "title": "Advisories that lead with a scoped jurisdiction-expansion audit close more retainers than those that lead with a generic 'HR support' pitch."
+          }
+        },
+        "industrySecrets": {
+          "item1": {
+            "title": "Most remote-first companies don't think about jurisdiction compliance until they're about to make an offer in a new country — reactive, not proactive."
+          }
+        },
+        "hiddenCosts": {
+          "item1": {
+            "title": "Cross-border professional liability premiums rise as the number of active jurisdictions and client headcount grow — budget for it."
+          }
+        },
+        "marketSignals": {
+          "item1": {
+            "title": "Demand for multi-jurisdiction compliance guidance is rising fastest among venture-backed remote-first companies past their first international hire."
+          }
+        },
+        "successStories": {
+          "item1": {
+            "title": "A solo advisory grew to 10 multi-jurisdiction retainer clients in under 2 years, almost entirely through EOR-platform co-marketing and startup-community referrals."
+          }
+        },
+        "failureStories": {
+          "item1": {
+            "title": "An advisory that took on clients across too many unfamiliar jurisdictions too quickly gave inconsistent compliance guidance and lost several retainers within a year."
+          }
+        },
+        "faq": {
+          "q1": {
+            "question": "Do I need to be an employment lawyer in every jurisdiction I advise on?",
+            "answer": "No — this advisory work focuses on compliance process, structure decisions (EOR vs. entity), and operations; jurisdiction-specific legal questions should be routed to local employment counsel."
+          }
+        },
+        "myths": {
+          "myth1": {
+            "myth": "One HR consultant can credibly advise on any country's employment law with a bit of online research.",
+            "fact": "Credible multi-jurisdiction advice requires verified, maintained playbooks per jurisdiction and a clear process for routing edge cases to local counsel."
+          }
+        },
+        "bestPractices": {
+          "item1": {
+            "title": "Set explicit jurisdiction-coverage boundaries with every new retainer client on day one — which jurisdictions are covered, and which aren't yet."
+          }
+        },
+        "aiMetadata": {
+          "generationHints": "Keep all guidance at the level of running/growing the advisory — never give specific employment-law compliance or legal advice for an end client's actual jurisdiction situation."
+        }
+      }
     }
   }
 }

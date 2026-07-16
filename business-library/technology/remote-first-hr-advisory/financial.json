@@ -1,0 +1,145 @@
+{
+  "startupCosts": {
+    "lineItemCategories": [
+      "complianceDatabaseAndSetup",
+      "eorPartnerAccreditationSetup"
+    ]
+  },
+  "monthlyFixedCosts": {
+    "lineItemCategories": [
+      "complianceDatabaseSubscription",
+      "crossBorderLiabilityPremium"
+    ]
+  },
+  "variableCosts": {
+    "lineItemCategories": [
+      "outsideCounselSpotChecks",
+      "policyLocalizationCosts"
+    ]
+  },
+  "revenueStreams": {
+    "revenueStreams": [
+      {
+        "key": "headcountJurisdictionRetainer",
+        "label": {
+          "en": "Monthly retainer tiered by headcount and hiring-jurisdiction count",
+          "ro": "Abonament lunar pe niveluri, în funcție de numărul de angajați și de jurisdicții de angajare"
+        }
+      },
+      {
+        "key": "jurisdictionExpansionAuditFee",
+        "label": {
+          "en": "Jurisdiction-expansion audit fee",
+          "ro": "Taxă pentru auditul de extindere pe jurisdicție"
+        }
+      },
+      {
+        "key": "eorVsEntitySetupProject",
+        "label": {
+          "en": "EOR-vs-entity decision project fee",
+          "ro": "Taxă de proiect pentru decizia EOR-versus-entitate proprie"
+        }
+      },
+      {
+        "key": "misclassificationRiskReviewFee",
+        "label": {
+          "en": "Contractor misclassification risk review fee",
+          "ro": "Taxă pentru revizuirea riscului de mis-clasificare a contractorilor"
+        }
+      }
+    ]
+  },
+  "pricingAssumptions": {
+    "assumptionsSchema": {
+      "monthlyRetainerFee": "currency",
+      "jurisdictionExpansionAuditFee": "currency",
+      "retainerClientCount": "number"
+    }
+  },
+  "revenueForecast": {
+    "assumptionsSchema": {
+      "retainerClientGrowthPerQuarter": "number",
+      "jurisdictionExpansionAuditsPerQuarter": "number"
+    },
+    "notesTranslationKey": "businessLibrary.remoteFirstHrAdvisory.financial.revenueForecast.notes"
+  },
+  "cashFlow": {
+    "lineItemCategories": [
+      "retainerCollections",
+      "auditProjectMilestonePayments"
+    ]
+  },
+  "breakEven": {
+    "breakEvenMonthEstimate": 10,
+    "notesTranslationKey": "businessLibrary.remoteFirstHrAdvisory.financial.breakEven.notes"
+  },
+  "grossMargin": {
+    "percentEstimate": 62,
+    "notesTranslationKey": "businessLibrary.remoteFirstHrAdvisory.financial.grossMargin.notes"
+  },
+  "netMargin": {
+    "percentEstimate": 32,
+    "notesTranslationKey": "businessLibrary.remoteFirstHrAdvisory.financial.netMargin.notes"
+  },
+  "hiringCosts": {
+    "lineItemCategories": [
+      "regionalSpecialistConsultantFeeSplit",
+      "complianceResearchSupportWages"
+    ]
+  },
+  "marketingBudget": {
+    "lineItemCategories": [
+      "eorPlatformCoMarketing",
+      "startupCommunityEngagement"
+    ]
+  },
+  "taxes": {
+    "lineItemCategories": [
+      "selfEmploymentTax",
+      "corporateIncomeTax"
+    ]
+  },
+  "emergencyReserve": {
+    "lineItemCategories": [
+      "fiveMonthOperatingReserve",
+      "crossBorderLiabilityClaimReserve"
+    ]
+  },
+  "financialKpis": {
+    "kpis": [
+      "mrr",
+      "customerRetention",
+      "leadConversion",
+      "grossMargin"
+    ]
+  },
+  "scenarios": {
+    "conservative": {
+      "revenueEstimate": 7000,
+      "notesTranslationKey": "businessLibrary.remoteFirstHrAdvisory.financial.scenarios.conservative"
+    },
+    "expected": {
+      "revenueEstimate": 16000,
+      "notesTranslationKey": "businessLibrary.remoteFirstHrAdvisory.financial.scenarios.expected"
+    },
+    "optimistic": {
+      "revenueEstimate": 25000,
+      "notesTranslationKey": "businessLibrary.remoteFirstHrAdvisory.financial.scenarios.optimistic"
+    }
+  },
+  "financialRisks": {
+    "risks": [
+      {
+        "descriptionTranslationKey": "businessLibrary.remoteFirstHrAdvisory.financial.risks.risk1",
+        "severity": "high"
+      },
+      {
+        "descriptionTranslationKey": "businessLibrary.remoteFirstHrAdvisory.financial.risks.risk2",
+        "severity": "moderate"
+      }
+    ]
+  },
+  "aiMetadata": {
+    "generationHintsTranslationKey": "businessLibrary.remoteFirstHrAdvisory.financial.aiMetadata.generationHints"
+  }
+}
